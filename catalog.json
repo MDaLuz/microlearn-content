@@ -5,9 +5,9 @@
       "id": "gardening-basics",
       "title": "Gardening basics",
       "discipline": "Gardening",
-      "description": "Soil, light, water — the three levers every plant cares about.",
+      "description": "Soil, light, water - the three levers every plant cares about.",
       "file": "modules/gardening.json",
-      "version": 1,
+      "version": 2,
       "lessonCount": 8,
       "estimatedMinutes": 40,
       "accentColor": "#639922"
@@ -18,7 +18,7 @@
       "discipline": "Legal",
       "description": "How obligations are formed, performed, and ended under CO.",
       "file": "modules/legal.json",
-      "version": 1,
+      "version": 2,
       "lessonCount": 12,
       "estimatedMinutes": 60,
       "accentColor": "#378ADD"
@@ -27,9 +27,9 @@
       "id": "cardio-metabolic",
       "title": "Cardiometabolic essentials",
       "discipline": "Cardiometabolic",
-      "description": "Lipids, glucose, blood pressure — what they signal and how they interact.",
+      "description": "Lipids, glucose, blood pressure - what they signal and how they interact.",
       "file": "modules/cardiometabolic.json",
-      "version": 1,
+      "version": 2,
       "lessonCount": 10,
       "estimatedMinutes": 50,
       "accentColor": "#1D9E75"

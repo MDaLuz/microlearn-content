@@ -2,7 +2,7 @@
   "id": "gardening-basics",
   "title": "Gardening basics",
   "discipline": "Gardening",
-  "version": 1,
+  "version": 2,
   "lessons": [
     {
       "id": "g-1",
@@ -30,7 +30,7 @@
     },
     {
       "id": "g-5",
-      "title": "Reading a leaf — diagnosing problems",
+      "title": "Reading a leaf - diagnosing problems",
       "xpReward": 75,
       "blocks": []
     },
@@ -48,7 +48,7 @@
     },
     {
       "id": "g-8",
-      "title": "Seasonal rhythm — planning a year",
+      "title": "Seasonal rhythm - planning a year",
       "xpReward": 75,
       "blocks": []
     }

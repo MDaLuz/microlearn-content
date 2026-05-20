@@ -2,8 +2,8 @@
   "id": "legal-foundations",
   "title": "Swiss contract law foundations",
   "discipline": "Legal",
-  "version": 1,
-  "disclaimer": "Educational content only — not legal advice. Consult a qualified attorney for your specific situation.",
+  "version": 2,
+  "disclaimer": "Educational content only - not legal advice. Consult a qualified attorney for your specific situation.",
   "lessons": [
     {
       "id": "l-1",
@@ -55,7 +55,7 @@
     },
     {
       "id": "l-9",
-      "title": "Termination — withdrawal vs Aufhebung",
+      "title": "Termination - withdrawal vs Aufhebung",
       "xpReward": 75,
       "blocks": []
     },

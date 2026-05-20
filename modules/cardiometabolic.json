@@ -2,8 +2,8 @@
   "id": "cardio-metabolic",
   "title": "Cardiometabolic essentials",
   "discipline": "Cardiometabolic",
-  "version": 1,
-  "disclaimer": "Educational content only — not medical advice. Consult your physician about your specific health situation.",
+  "version": 2,
+  "disclaimer": "Educational content only - not medical advice. Consult your physician about your specific health situation.",
   "lessons": [
     {
       "id": "c-1",
@@ -19,7 +19,7 @@
     },
     {
       "id": "c-3",
-      "title": "HDL and triglycerides — the rest of the panel",
+      "title": "HDL and triglycerides - the rest of the panel",
       "xpReward": 50,
       "blocks": []
     },

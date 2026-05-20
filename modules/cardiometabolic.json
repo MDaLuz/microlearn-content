@@ -1,0 +1,69 @@
+{
+  "id": "cardio-metabolic",
+  "title": "Cardiometabolic essentials",
+  "discipline": "Cardiometabolic",
+  "version": 1,
+  "disclaimer": "Educational content only — not medical advice. Consult your physician about your specific health situation.",
+  "lessons": [
+    {
+      "id": "c-1",
+      "title": "The three signals: lipids, glucose, BP",
+      "xpReward": 50,
+      "blocks": []
+    },
+    {
+      "id": "c-2",
+      "title": "LDL: what it carries and why it matters",
+      "xpReward": 50,
+      "blocks": []
+    },
+    {
+      "id": "c-3",
+      "title": "HDL and triglycerides — the rest of the panel",
+      "xpReward": 50,
+      "blocks": []
+    },
+    {
+      "id": "c-4",
+      "title": "Fasting glucose vs HbA1c",
+      "xpReward": 75,
+      "blocks": []
+    },
+    {
+      "id": "c-5",
+      "title": "Insulin resistance, in plain language",
+      "xpReward": 75,
+      "blocks": []
+    },
+    {
+      "id": "c-6",
+      "title": "How blood pressure is regulated",
+      "xpReward": 50,
+      "blocks": []
+    },
+    {
+      "id": "c-7",
+      "title": "The metabolic syndrome cluster",
+      "xpReward": 75,
+      "blocks": []
+    },
+    {
+      "id": "c-8",
+      "title": "Reading a typical lab report",
+      "xpReward": 50,
+      "blocks": []
+    },
+    {
+      "id": "c-9",
+      "title": "Lifestyle levers that actually move numbers",
+      "xpReward": 75,
+      "blocks": []
+    },
+    {
+      "id": "c-10",
+      "title": "When pharmacology enters the picture",
+      "xpReward": 50,
+      "blocks": []
+    }
+  ]
+}

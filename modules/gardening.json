@@ -1,0 +1,56 @@
+{
+  "id": "gardening-basics",
+  "title": "Gardening basics",
+  "discipline": "Gardening",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "g-1",
+      "title": "Soil basics: what plants actually need",
+      "xpReward": 50,
+      "blocks": []
+    },
+    {
+      "id": "g-2",
+      "title": "Light: reading the sun in your space",
+      "xpReward": 50,
+      "blocks": []
+    },
+    {
+      "id": "g-3",
+      "title": "Water without overdoing it",
+      "xpReward": 50,
+      "blocks": []
+    },
+    {
+      "id": "g-4",
+      "title": "Drainage and pot choice",
+      "xpReward": 50,
+      "blocks": []
+    },
+    {
+      "id": "g-5",
+      "title": "Reading a leaf — diagnosing problems",
+      "xpReward": 75,
+      "blocks": []
+    },
+    {
+      "id": "g-6",
+      "title": "Pruning: what, when, how much",
+      "xpReward": 50,
+      "blocks": []
+    },
+    {
+      "id": "g-7",
+      "title": "Pests without panic",
+      "xpReward": 50,
+      "blocks": []
+    },
+    {
+      "id": "g-8",
+      "title": "Seasonal rhythm — planning a year",
+      "xpReward": 75,
+      "blocks": []
+    }
+  ]
+}

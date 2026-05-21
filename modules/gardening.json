@@ -2,7 +2,13 @@
   "id": "gardening-basics",
   "title": "Gardening basics",
   "discipline": "Gardening",
-  "version": 3,
+  "version": 4,
+  "levels": [
+    { "level": 1, "xpRequired": 0 },
+    { "level": 2, "xpRequired": 100 },
+    { "level": 3, "xpRequired": 250 },
+    { "level": 4, "xpRequired": 500 }
+  ],
   "lessons": [
     {
       "id": "g-1",

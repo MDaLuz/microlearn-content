@@ -2,19 +2,87 @@
   "id": "gardening-basics",
   "title": "Gardening basics",
   "discipline": "Gardening",
-  "version": 2,
+  "version": 3,
   "lessons": [
     {
       "id": "g-1",
       "title": "Soil basics: what plants actually need",
       "xpReward": 50,
-      "blocks": []
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Healthy soil is **three things at once**: a reservoir of water, a pantry of nutrients, and a structure that lets roots breathe.\n\nMost plant problems trace back to one of these being out of balance. Before you reach for fertiliser, ask which of the three is actually missing.\n\n- **Water** moves through pore spaces between particles\n- **Nutrients** cling to organic matter and clay\n- **Air** fills the gaps roots need for oxygen",
+          "svg": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"200\" height=\"40\" fill=\"#8B5E3C\"/><rect x=\"0\" y=\"40\" width=\"200\" height=\"40\" fill=\"#A9744F\"/><rect x=\"0\" y=\"80\" width=\"200\" height=\"40\" fill=\"#C9A36A\"/><text x=\"100\" y=\"25\" font-size=\"12\" fill=\"#ffffff\" text-anchor=\"middle\">Topsoil</text><text x=\"100\" y=\"65\" font-size=\"12\" fill=\"#ffffff\" text-anchor=\"middle\">Subsoil</text><text x=\"100\" y=\"105\" font-size=\"12\" fill=\"#3A2A1A\" text-anchor=\"middle\">Bedrock</text></svg>",
+          "caption": "The three soil horizons most houseplants and garden beds draw from."
+        },
+        {
+          "type": "flashcard",
+          "title": "Quick recall",
+          "cards": [
+            {
+              "id": "g1-c1",
+              "front": "What three roles does soil play at once?",
+              "back": "A water reservoir, a nutrient pantry, and an airy structure for roots to breathe."
+            },
+            {
+              "id": "g1-c2",
+              "front": "Where do nutrients cling in soil?",
+              "back": "To organic matter and clay particles - which is why compost improves nutrient holding."
+            },
+            {
+              "id": "g1-c3",
+              "front": "Why do roots need air gaps?",
+              "back": "Roots respire - they need oxygen. Waterlogged soil with no air gaps suffocates them."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check yourself",
+          "questions": [
+            {
+              "id": "g1-q1",
+              "stem": "A plant is wilting even though the soil is constantly wet. What's the most likely problem?",
+              "options": [
+                "It needs more water",
+                "Roots are suffocating from lack of air",
+                "It needs more sunlight",
+                "The soil has too many nutrients"
+              ],
+              "correctIndex": 1,
+              "explanation": "Constantly wet soil fills the air gaps roots need to breathe. The wilting is from oxygen-starved roots, not thirst - so adding water makes it worse."
+            },
+            {
+              "id": "g1-q2",
+              "stem": "Which amendment most improves a soil's ability to hold nutrients?",
+              "options": [
+                "Sand",
+                "Gravel",
+                "Compost / organic matter",
+                "Perlite"
+              ],
+              "correctIndex": 2,
+              "explanation": "Organic matter (compost) gives nutrients sites to cling to. Sand, gravel, and perlite improve drainage but hold few nutrients."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "g-2",
       "title": "Light: reading the sun in your space",
       "xpReward": 50,
-      "blocks": []
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Plants are sold with labels like *full sun* or *partial shade*. Those words map to **hours of direct light per day**:\n\n- **Full sun** = 6+ hours\n- **Partial sun/shade** = 3-6 hours\n- **Full shade** = under 3 hours\n\nWatch your space across a day before deciding what to plant."
+        },
+        {
+          "type": "audio",
+          "title": "Listen: reading light",
+          "url": "https://example.com/not-real.mp3"
+        }
+      ]
     },
     {
       "id": "g-3",

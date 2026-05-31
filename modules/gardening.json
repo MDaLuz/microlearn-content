@@ -2,7 +2,8 @@
   "id": "gardening-basics",
   "title": "Gardening basics",
   "discipline": "Gardening",
-  "version": 4,
+  "version": 5,
+  "schemaVersion": 2,
   "levels": [
     { "level": 1, "xpRequired": 0 },
     { "level": 2, "xpRequired": 100 },
@@ -84,6 +85,68 @@
           "markdown": "Plants are sold with labels like *full sun* or *partial shade*. Those words map to **hours of direct light per day**:\n\n- **Full sun** = 6+ hours\n- **Partial sun/shade** = 3-6 hours\n- **Full shade** = under 3 hours\n\nWatch your space across a day before deciding what to plant."
         },
         {
+          "type": "compare",
+          "title": "Annuals vs. perennials",
+          "items": [
+            { "id": "annuals", "label": "Annuals", "sublabel": "Marigold, basil" },
+            { "id": "perennials", "label": "Perennials", "sublabel": "Lavender, hosta" }
+          ],
+          "attributes": [
+            {
+              "id": "lifecycle",
+              "label": "Lifecycle",
+              "values": [
+                "Complete one full life cycle in a single season, then die.",
+                "Live three or more years, returning each spring from the same roots."
+              ]
+            },
+            {
+              "id": "effort",
+              "label": "Effort",
+              "values": [
+                "Replanted each year - more work, but a clean slate every spring.",
+                "Plant once and let them settle in; light pruning and division over time."
+              ]
+            },
+            {
+              "id": "bloom",
+              "label": "Bloom",
+              "values": [
+                "Long, continuous bloom across the warm months.",
+                "Shorter bloom windows; many perennials flower for just a few weeks."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "timeline",
+          "title": "A gardening year in the north",
+          "events": [
+            {
+              "id": "ev-1",
+              "marker": "Late winter",
+              "title": "Plan and start seeds indoors",
+              "description": "Map the beds, order seeds, start slow growers like peppers and tomatoes 8 to 10 weeks before last frost."
+            },
+            {
+              "id": "ev-2",
+              "marker": "Spring",
+              "title": "Harden off and transplant"
+            },
+            {
+              "id": "ev-3",
+              "marker": "Summer",
+              "title": "Water, mulch, harvest",
+              "description": "Deep, infrequent watering beats shallow daily watering. Mulch to keep moisture and suppress weeds."
+            },
+            {
+              "id": "ev-4",
+              "marker": "Autumn",
+              "title": "Clean up and amend the soil"
+            }
+          ]
+        },
+        {
           "type": "audio",
           "title": "Listen: reading light",
           "url": "https://example.com/not-real.mp3"
@@ -94,7 +157,50 @@
       "id": "g-3",
       "title": "Water without overdoing it",
       "xpReward": 50,
-      "blocks": []
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Different plants want different watering. **Read the leaves and the soil**, not the calendar."
+        },
+        {
+          "type": "compare",
+          "title": "Three watering profiles",
+          "items": [
+            { "id": "succulent", "label": "Succulents" },
+            { "id": "leafy", "label": "Leafy" },
+            { "id": "woody", "label": "Woody" }
+          ],
+          "attributes": [
+            {
+              "id": "freq",
+              "label": "Frequency",
+              "values": [
+                "Every 2-3 weeks; let soil dry completely.",
+                "Twice weekly; soil should feel just-damp.",
+                "Once weekly when established; deep soak."
+              ]
+            },
+            {
+              "id": "volume",
+              "label": "Volume",
+              "values": [
+                "Small - just enough to wet the root zone.",
+                "Moderate - until you see water at the drainage holes.",
+                "Generous - long, slow soak."
+              ]
+            },
+            {
+              "id": "warn",
+              "label": "Warning sign",
+              "values": [
+                "Mushy, translucent leaves = overwatering.",
+                "Crispy edges = underwatering; yellow drop = over.",
+                "Wilting late afternoon is normal; morning wilt is trouble."
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "g-4",

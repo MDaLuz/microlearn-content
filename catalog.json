@@ -7,7 +7,7 @@
       "discipline": "Gardening",
       "description": "Soil, light, water - the three levers every plant cares about.",
       "file": "modules/gardening.json",
-      "version": 5,
+      "version": 6,
       "lessonCount": 8,
       "estimatedMinutes": 40,
       "accentColor": "#639922"

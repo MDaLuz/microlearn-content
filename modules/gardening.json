@@ -2,8 +2,8 @@
   "id": "gardening-basics",
   "title": "Gardening basics",
   "discipline": "Gardening",
-  "version": 5,
-  "schemaVersion": 2,
+  "version": 6,
+  "schemaVersion": 3,
   "levels": [
     { "level": 1, "xpRequired": 0 },
     { "level": 2, "xpRequired": 100 },
@@ -204,9 +204,63 @@
     },
     {
       "id": "g-4",
-      "title": "Drainage and pot choice",
-      "xpReward": 50,
-      "blocks": []
+      "title": "How plants drink, and what can go wrong",
+      "xpReward": 75,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Water uptake is the single most common cause of houseplant trouble - either too little, or so much that roots can't breathe.\n\nUnderstanding the route water takes through a plant makes both directions diagnosable at a glance."
+        },
+        {
+          "type": "reveal",
+          "title": "How water travels through a plant",
+          "svg": "<svg viewBox=\"0 0 200 140\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" stroke=\"#5C4A2E\" stroke-width=\"2\"/><g data-step=\"1\"><path d=\"M100 100 L80 120 M100 100 L120 120 M100 100 L100 130 M100 100 L70 115 M100 100 L130 115\" stroke=\"#B8895F\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"120\" r=\"3\" fill=\"#B8895F\"/><circle cx=\"125\" cy=\"120\" r=\"3\" fill=\"#B8895F\"/></g><g data-step=\"2\"><rect x=\"96\" y=\"45\" width=\"8\" height=\"55\" fill=\"#4A7A2A\"/></g><g data-step=\"3\"><ellipse cx=\"78\" cy=\"50\" rx=\"20\" ry=\"10\" fill=\"#5DA13B\"/><ellipse cx=\"122\" cy=\"50\" rx=\"20\" ry=\"10\" fill=\"#5DA13B\"/><ellipse cx=\"100\" cy=\"32\" rx=\"22\" ry=\"12\" fill=\"#6FB849\"/></g></svg>",
+          "steps": [
+            { "id": "s1", "label": "Step 1: roots draw water from the soil via osmosis." },
+            { "id": "s2", "label": "Step 2: capillary action and root pressure push water up the stem." },
+            { "id": "s3", "label": "Step 3: leaves transpire - water exits through stomata, pulling more up the chain." }
+          ],
+          "caption": "Tap Next step to reveal each stage."
+        },
+        {
+          "type": "image",
+          "src": "assets/gardening/early-blight-leaf.jpg",
+          "alt": "Tomato leaf with brown, concentric-ring spots characteristic of early blight.",
+          "caption": "Early blight on a tomato leaf.",
+          "aspectRatio": 1.333
+        },
+        {
+          "type": "scenario",
+          "title": "Read the symptoms",
+          "context": "Your tomato plant's **lower leaves** show brown spots with concentric rings. The upper canopy looks healthy. You've been watering daily, from above, with a watering can.",
+          "questions": [
+            {
+              "id": "g4-sq1",
+              "stem": "What's the most likely diagnosis?",
+              "options": [
+                "Early blight",
+                "Nutrient deficiency",
+                "Sunburn",
+                "Simple overwatering"
+              ],
+              "correctIndex": 0,
+              "explanation": "Concentric rings on lower leaves are textbook early blight. The upper canopy is unaffected because the fungus spreads from soil splash, climbing upward over time."
+            },
+            {
+              "id": "g4-sq2",
+              "stem": "Which single change to care would most reduce recurrence?",
+              "options": [
+                "Move the plant into deeper shade",
+                "Water from the base instead of overhead",
+                "Switch to a smaller pot",
+                "Fertilize more aggressively"
+              ],
+              "correctIndex": 1,
+              "explanation": "Overhead watering splashes fungal spores from soil onto the lower leaves. Watering at the base keeps foliage dry and breaks the transmission cycle."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "g-5",

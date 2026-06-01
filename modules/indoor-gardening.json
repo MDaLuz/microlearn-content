@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 3,
+  "id": "indoor-gardening",
+  "title": "Jardinage d'intérieur",
+  "discipline": "Gardening",
+  "version": 1,
+  "levels": [
+    { "level": 1, "xpRequired": 0,   "title": "Débutant" },
+    { "level": 2, "xpRequired": 180, "title": "Apprenti jardinier d'intérieur" },
+    { "level": 3, "xpRequired": 500, "title": "Jardinier d'intérieur confiant" }
+  ],
+  "lessons": [
+    {
+      "id": "ind-l01-pourquoi-meurent",
+      "title": "Pourquoi tant de plantes d'intérieur meurent",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Vous avez sans doute déjà tué une plante d'intérieur. La plupart des gens en tuent plusieurs avant d'en garder une en vie.\n\nCe n'est presque jamais parce qu'on est \"mauvais avec les plantes\". C'est parce qu'on traite une plante comme un **objet décoratif** - quelque chose qu'on pose dans un coin et qu'on arrose de temps en temps - alors qu'une plante est un **organisme vivant** qui a des besoins précis, observables, et qui change selon les saisons, la lumière, et son environnement immédiat.\n\nCe module entier repose sur ce changement de regard. Une fois qu'on comprend ce dont une plante a vraiment besoin, l'entretien devient beaucoup plus simple - pas plus compliqué."
+        },
+        {
+          "type": "text",
+          "markdown": "## Les quatre erreurs qui tuent presque toutes les plantes\n\nLes causes de mortalité des plantes d'intérieur sont étonnamment peu variées. Quatre erreurs représentent la grande majorité des cas:",
+          "svg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg'><rect x='8' y='10' width='148' height='84' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='82' y='32' font-size='11' fill='#5BC1C7' text-anchor='middle' font-family='sans-serif' font-weight='600'>1. TROP D'EAU</text><text x='82' y='52' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>La cause n°1.</text><text x='82' y='66' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>Les racines pourrissent.</text><text x='82' y='80' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>La plante semble manquer d'eau.</text><rect x='164' y='10' width='148' height='84' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='238' y='32' font-size='11' fill='#5BC1C7' text-anchor='middle' font-family='sans-serif' font-weight='600'>2. PAS ASSEZ DE LUMIÈRE</text><text x='238' y='52' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>Sous-estimer la pénombre</text><text x='238' y='66' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>de la plupart des intérieurs.</text><text x='238' y='80' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>La plante s'étiole lentement.</text><rect x='8' y='106' width='148' height='84' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='82' y='128' font-size='11' fill='#5BC1C7' text-anchor='middle' font-family='sans-serif' font-weight='600'>3. AIR TROP SEC</text><text x='82' y='148' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>Le chauffage central</text><text x='82' y='162' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>assèche les plantes</text><text x='82' y='176' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>tropicales.</text><rect x='164' y='106' width='148' height='84' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='238' y='128' font-size='11' fill='#5BC1C7' text-anchor='middle' font-family='sans-serif' font-weight='600'>4. MAUVAISE PLANTE</text><text x='238' y='148' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>Acheter une plante</text><text x='238' y='162' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>inadaptée à votre</text><text x='238' y='176' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>environnement réel.</text></svg>",
+          "caption": "Les quatre causes de mortalité les plus fréquentes."
+        },
+        {
+          "type": "text",
+          "markdown": "Remarquez quelque chose: aucune de ces erreurs n'a à voir avec un \"don\" ou une \"main verte\". Ce sont toutes des erreurs de **lecture de l'environnement**.\n\nLa première - trop d'eau - est de loin la plus fréquente. Et c'est la plus contre-intuitive: une plante qui s'affaisse, dont les feuilles jaunissent, semble *manquer* d'eau. La réaction instinctive est d'arroser davantage, ce qui aggrave le problème. Comprendre pourquoi est l'un des sujets centraux de ce module."
+        },
+        {
+          "type": "flashcard",
+          "title": "Termes fondamentaux à retenir",
+          "cards": [
+            {
+              "id": "ind-l01-fc1",
+              "front": "Que signifie traiter une plante comme un \"organisme\" plutôt qu'un \"objet\"?",
+              "back": "L'observer comme un être vivant qui réagit à son environnement (lumière, eau, humidité, saison) plutôt que comme une décoration statique à entretenir mécaniquement."
+            },
+            {
+              "id": "ind-l01-fc2",
+              "front": "Quelle est la cause de mortalité numéro un des plantes d'intérieur?",
+              "back": "L'excès d'eau. Les racines pourrissent par manque d'oxygène, et paradoxalement la plante affiche les mêmes symptômes que si elle manquait d'eau."
+            },
+            {
+              "id": "ind-l01-fc3",
+              "front": "Pourquoi le chauffage central est-il problématique pour les plantes?",
+              "back": "Il assèche fortement l'air ambiant. La plupart des plantes d'intérieur populaires sont d'origine tropicale et habituées à une humidité élevée - un air sec les stresse continuellement."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce que ce module va vous apprendre\n\nÀ la fin de ce module, vous serez capable de:\n\n- **Lire un emplacement** dans votre logement avant d'y mettre une plante: évaluer la lumière réelle, la température, l'humidité.\n- **Choisir des plantes qui correspondent** à cet emplacement, plutôt que d'acheter ce qui vous plaît et d'espérer que ça marche.\n- **Reconnaître les signaux** qu'une plante vous envoie quand elle souffre - et savoir quoi faire.\n- **Établir un rythme d'entretien** qui s'adapte à la saison et à la plante, pas un calendrier rigide.\n\nCe n'est pas une question de mémoriser des règles. C'est une question d'**observer** et de **comprendre ce qu'on observe**."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l01-q1",
+              "stem": "Une plante a les feuilles qui jaunissent et qui tombent. Quelle est la cause la plus probable chez un débutant?",
+              "options": [
+                "Elle manque d'eau, il faut arroser davantage.",
+                "Elle reçoit trop d'eau, les racines pourrissent.",
+                "Elle est attaquée par des parasites.",
+                "Elle a besoin d'engrais."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le réflexe est d'arroser plus quand une plante a l'air de souffrir, mais c'est presque toujours l'erreur inverse: les racines pourrissent par excès d'eau et ne peuvent plus alimenter la plante, ce qui produit exactement les symptômes du manque d'eau. Avant d'arroser, vérifiez toujours l'humidité du substrat."
+            },
+            {
+              "id": "ind-l01-q2",
+              "stem": "Quel est le changement de perspective central proposé par ce module?",
+              "options": [
+                "Acheter des plantes plus chères et de meilleure qualité.",
+                "Apprendre une liste de règles d'entretien à appliquer à chaque plante.",
+                "Voir la plante comme un organisme vivant qui réagit à son environnement, pas comme un objet décoratif.",
+                "Investir dans du matériel professionnel dès le départ."
+              ],
+              "correctIndex": 2,
+              "explanation": "Le module entier repose sur ce changement de regard. Les règles fixes (\"arroser une fois par semaine\") échouent parce qu'elles ignorent l'environnement réel; observer la plante et son contexte est l'approche qui marche durablement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l02-lumiere-concept",
+      "title": "La lumière, ce que vous ne voyez pas vraiment",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Votre œil vous ment sur la lumière.\n\nUne pièce qui vous semble \"lumineuse\" est en réalité, du point de vue d'une plante, **vingt à cinquante fois plus sombre** qu'un extérieur ombragé. Votre pupille s'adapte si bien aux faibles luminosités que vous ne percevez pas du tout l'écart. La plante, elle, le subit en permanence.\n\nC'est la raison pour laquelle tant de plantes \"meurent lentement\" en intérieur sans qu'on comprenne pourquoi: elles ne reçoivent simplement pas assez d'énergie pour fonctionner."
+        },
+        {
+          "type": "text",
+          "markdown": "## Trois dimensions de la lumière\n\nQuand on parle de lumière pour les plantes, trois choses différentes se cachent derrière le même mot:",
+          "svg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg'><rect x='8' y='10' width='304' height='60' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='20' y='32' font-size='12' fill='#5BC1C7' font-family='sans-serif' font-weight='600'>1. Intensité</text><text x='20' y='52' font-size='10' fill='#C8CBD2' font-family='sans-serif'>À quel point la lumière est forte à un moment donné.</text><text x='20' y='64' font-size='10' fill='#8A8F9C' font-family='sans-serif'>Mesurée en lux. Plein soleil ≈ 100 000 lux. Pièce éclairée ≈ 200 lux.</text><rect x='8' y='78' width='304' height='60' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='20' y='100' font-size='12' fill='#5BC1C7' font-family='sans-serif' font-weight='600'>2. Durée</text><text x='20' y='120' font-size='10' fill='#C8CBD2' font-family='sans-serif'>Combien d'heures par jour la plante reçoit cette intensité.</text><text x='20' y='132' font-size='10' fill='#8A8F9C' font-family='sans-serif'>Une plante près d'une fenêtre nord reçoit moins, mais plus longtemps.</text><rect x='8' y='146' width='304' height='60' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='20' y='168' font-size='12' fill='#5BC1C7' font-family='sans-serif' font-weight='600'>3. Direction</text><text x='20' y='188' font-size='10' fill='#C8CBD2' font-family='sans-serif'>D'où vient la lumière: directe, diffuse, latérale.</text><text x='20' y='200' font-size='10' fill='#8A8F9C' font-family='sans-serif'>Une fenêtre voilée diffuse; le plein sud direct peut brûler.</text></svg>",
+          "caption": "Les trois dimensions à distinguer quand on parle de \"lumière\"."
+        },
+        {
+          "type": "text",
+          "markdown": "Cette distinction est la base de tout. Une fenêtre orientée nord à Zurich donne une lumière **faible mais constante et diffuse** - parfaite pour beaucoup de plantes tropicales qui poussent naturellement sous canopée. Une fenêtre plein sud en été donne une lumière **très intense, directe, longue** - qui brûle les feuilles de ces mêmes plantes mais qui réjouit un cactus ou un succulent.\n\nIl n'y a pas de \"bonne\" lumière dans l'absolu. Il y a une lumière qui correspond ou non à ce qu'une plante particulière attend."
+        },
+        {
+          "type": "compare",
+          "title": "Lumière naturelle selon l'orientation",
+          "items": [
+            { "id": "n", "label": "Fenêtre nord" },
+            { "id": "e", "label": "Fenêtre est" },
+            { "id": "s", "label": "Fenêtre sud" }
+          ],
+          "attributes": [
+            {
+              "id": "intensity",
+              "label": "Intensité",
+              "values": [
+                "Faible mais régulière",
+                "Modérée le matin, faible l'après-midi",
+                "Forte, directe en milieu de journée"
+              ]
+            },
+            {
+              "id": "duration",
+              "label": "Durée d'éclairage",
+              "values": [
+                "Longue mais douce toute la journée",
+                "Quelques heures fortes le matin",
+                "Plusieurs heures intenses au milieu du jour"
+              ]
+            },
+            {
+              "id": "plants",
+              "label": "Plantes adaptées",
+              "values": [
+                "Pothos, Sansevieria, fougères",
+                "La plupart des plantes tropicales",
+                "Cactus, succulentes, plantes méditerranéennes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l02-q1",
+              "stem": "Vous trouvez une pièce de votre logement \"plutôt lumineuse\". Comment cette luminosité se compare-t-elle, du point de vue d'une plante, à l'extérieur?",
+              "options": [
+                "Équivalente à l'extérieur ombragé.",
+                "Environ deux fois plus faible que l'extérieur.",
+                "Vingt à cinquante fois plus faible que l'extérieur.",
+                "Cela dépend entièrement de la peinture des murs."
+              ],
+              "correctIndex": 2,
+              "explanation": "Notre œil s'adapte si bien à la pénombre relative que nous ne percevons pas l'écart énorme entre intérieur et extérieur. Cette adaptation visuelle est précisément ce qui nous fait sous-estimer le manque de lumière subi par nos plantes."
+            },
+            {
+              "id": "ind-l02-q2",
+              "stem": "Une amie place un cactus à côté d'une fenêtre nord et s'étonne qu'il dépérisse. Quel problème dimensionnel a-t-elle ignoré?",
+              "options": [
+                "La durée - la fenêtre nord ne donne pas assez d'heures de lumière.",
+                "L'intensité - un cactus a besoin de lumière forte et directe que la fenêtre nord ne fournit pas.",
+                "La direction - la lumière vient d'un mauvais angle.",
+                "La couleur - la lumière nord est trop bleue pour un cactus."
+              ],
+              "correctIndex": 1,
+              "explanation": "Une fenêtre nord donne une lumière douce, diffuse, et de longue durée - parfaite pour des plantes tropicales habituées à pousser sous canopée. Les cactus viennent de milieux semi-désertiques où la lumière est forte et directe; même plusieurs heures de lumière douce ne remplacent pas une heure de soleil intense."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l03-mesurer-lumiere",
+      "title": "Mesurer la lumière chez vous",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Maintenant que vous savez que votre œil vous trompe, comment évaluer la vraie luminosité d'un emplacement?\n\nIl existe trois méthodes, de la plus simple à la plus précise. Vous n'avez pas besoin de toutes les trois - celle du milieu suffit pour 90% des cas."
+        },
+        {
+          "type": "text",
+          "markdown": "## Méthode 1 - Le test de l'ombre de la main\n\nÀ midi par une journée nuageuse moyenne, placez votre main à 30 cm au-dessus de l'emplacement que vous voulez évaluer, paume vers le bas. Regardez l'ombre projetée:\n\n- **Ombre nette et bien définie** -> lumière vive (suffisante pour la plupart des plantes tropicales)\n- **Ombre floue mais reconnaissable** -> lumière modérée (suffisante pour les plantes tolérantes)\n- **Pas d'ombre visible** -> lumière faible (seules les plantes très tolérantes survivront)\n- **Vous distinguez à peine votre main** -> trop sombre pour quasi toute plante\n\nC'est imprécis, mais c'est gratuit, immédiat, et étonnamment fiable comme premier filtre."
+        },
+        {
+          "type": "text",
+          "markdown": "## Méthode 2 - Une application smartphone\n\nLa plupart des smartphones modernes ont un capteur de luminosité ambiante intégré. Des applications gratuites (cherchez \"luxmètre\" ou \"light meter\") l'utilisent pour donner une lecture en lux.\n\nC'est imprécis - la précision dépend du modèle de téléphone et de l'application - mais largement suffisant pour catégoriser un emplacement comme faible, modéré, ou vif. Placez le téléphone à l'endroit prévu, écran vers le bas (le capteur est généralement en haut, près de l'écouteur), à la verticale comme le serait une feuille de plante. Notez la valeur à plusieurs moments de la journée - c'est le profil sur 24h qui compte, pas un instantané."
+        },
+        {
+          "type": "text",
+          "markdown": "## Méthode 3 - Un vrai luxmètre\n\nUn luxmètre dédié coûte à partir d'une vingtaine de francs. Il est plus précis et permet de faire des mesures rigoureuses si vous devenez sérieux. Pour un débutant, c'est inutile la première année - gardez ça pour plus tard si vous voulez optimiser l'emplacement de plantes exigeantes (comme une orchidée ou un Ficus lyrata)."
+        },
+        {
+          "type": "compare",
+          "title": "Valeurs de référence en lux",
+          "items": [
+            { "id": "low", "label": "Lumière faible" },
+            { "id": "med", "label": "Lumière moyenne" }
+          ],
+          "attributes": [
+            {
+              "id": "range",
+              "label": "Plage typique (en lux)",
+              "values": ["100-500 lux", "500-2000 lux"]
+            },
+            {
+              "id": "where",
+              "label": "Où on la trouve",
+              "values": [
+                "À 2m d'une fenêtre, coin d'une pièce, fenêtre nord en hiver",
+                "Près d'une fenêtre est, à 1m d'une fenêtre sud voilée"
+              ]
+            },
+            {
+              "id": "plants",
+              "label": "Plantes adaptées",
+              "values": [
+                "Sansevieria, Zamioculcas, Pothos (survie, peu de croissance)",
+                "La plupart des plantes vertes d'intérieur (croissance saine)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "Au-delà de 2000 lux on entre dans la lumière vive, et au-delà de 10 000 lux on est dans le plein soleil indirect. Très peu d'emplacements en intérieur dépassent 5000 lux, sauf juste derrière une fenêtre sud non voilée."
+        },
+        {
+          "type": "scenario",
+          "title": "Évaluer un emplacement",
+          "context": "Marie veut placer un Pothos sur l'étagère de son salon. L'étagère est à 1,80m d'une fenêtre est, partiellement masquée par un rideau voilé. Elle fait le test de l'ombre de la main à midi par temps nuageux: elle voit une ombre floue mais reconnaissable. Son application smartphone affiche entre 400 et 700 lux selon le moment de la journée.",
+          "questions": [
+            {
+              "id": "ind-l03-sq1",
+              "stem": "Cet emplacement est-il adapté à un Pothos?",
+              "options": [
+                "Oui, c'est idéal - la lumière est modérée, ce que le Pothos préfère.",
+                "Non, c'est trop faible - le Pothos a besoin de lumière vive.",
+                "Non, c'est trop intense - le Pothos préfère l'ombre.",
+                "On ne peut pas le savoir avec ces seules informations."
+              ],
+              "correctIndex": 0,
+              "explanation": "Le Pothos est une plante très tolérante qui prospère en lumière modérée (500-2000 lux). L'emplacement de Marie est juste à la limite basse de cette plage, mais l'ombre floue confirme une lumière utilisable, et l'orientation Est offre quelques heures de soleil doux le matin. C'est un bon emplacement pour cette plante."
+            },
+            {
+              "id": "ind-l03-sq2",
+              "stem": "Si Marie voulait remplacer le Pothos par un Ficus lyrata (figuier-lyre), même emplacement, est-ce que ça marcherait?",
+              "options": [
+                "Oui, les exigences sont similaires.",
+                "Non, le Ficus lyrata exige beaucoup plus de lumière et dépérirait.",
+                "Oui, le Ficus lyrata préfère l'ombre.",
+                "On ne peut pas le savoir."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le Ficus lyrata est une plante notoirement exigeante en lumière vive - minimum 1500-2000 lux soutenus, idéalement plus. À 400-700 lux, il survivrait quelques mois en perdant progressivement ses feuilles inférieures. C'est exactement le genre de mauvaise correspondance plante-emplacement qu'on cherche à éviter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l04-eau-concept",
+      "title": "L'eau: la cause numéro un de mortalité",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Vous tuerez plus de plantes en les arrosant trop qu'en oubliant de les arroser. C'est presque toujours vrai. Et c'est la chose la plus contre-intuitive à apprendre.\n\nLa raison est simple mais fondamentale: **les racines ont besoin d'oxygène autant que d'eau**. Pas seulement les feuilles - les racines aussi respirent. Et quand le substrat est saturé d'eau, l'air ne peut plus circuler entre les particules. Les racines suffoquent, pourrissent, puis ne peuvent plus alimenter la plante. La plante affiche alors les symptômes du manque d'eau - feuilles molles, jaunissement - et le réflexe naturel est d'arroser davantage. Cercle vicieux.\n\nComprendre ce qui se passe sous la surface du pot est l'une des connaissances les plus importantes de ce module."
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce qui se passe vraiment dans un pot",
+          "svg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='30' width='130' height='160' rx='4' fill='#1B1E24' stroke='#5BC1C7' stroke-width='1.5'/><text x='85' y='20' font-size='10' fill='#5BC1C7' text-anchor='middle' font-family='sans-serif' font-weight='600'>Substrat sain</text><circle cx='40' cy='60' r='2' fill='#8A8F9C'/><circle cx='60' cy='75' r='2' fill='#8A8F9C'/><circle cx='90' cy='65' r='2' fill='#8A8F9C'/><circle cx='110' cy='80' r='2' fill='#8A8F9C'/><circle cx='130' cy='70' r='2' fill='#8A8F9C'/><circle cx='45' cy='100' r='2' fill='#8A8F9C'/><circle cx='75' cy='110' r='2' fill='#8A8F9C'/><circle cx='105' cy='105' r='2' fill='#8A8F9C'/><circle cx='130' cy='115' r='2' fill='#8A8F9C'/><circle cx='40' cy='140' r='2' fill='#8A8F9C'/><circle cx='70' cy='150' r='2' fill='#8A8F9C'/><circle cx='100' cy='145' r='2' fill='#8A8F9C'/><circle cx='125' cy='155' r='2' fill='#8A8F9C'/><line x1='30' y1='180' x2='35' y2='175' stroke='#97C459' stroke-width='1.5'/><line x1='80' y1='180' x2='90' y2='170' stroke='#97C459' stroke-width='1.5'/><line x1='120' y1='180' x2='130' y2='172' stroke='#97C459' stroke-width='1.5'/><text x='85' y='205' font-size='9' fill='#97C459' text-anchor='middle' font-family='sans-serif'>Racines + air entre les particules</text><rect x='170' y='30' width='130' height='160' rx='4' fill='#1B1E24' stroke='#E24B4A' stroke-width='1.5'/><text x='235' y='20' font-size='10' fill='#E24B4A' text-anchor='middle' font-family='sans-serif' font-weight='600'>Substrat saturé</text><rect x='172' y='32' width='126' height='155' fill='#15263A' opacity='0.5'/><circle cx='190' cy='100' r='1' fill='#85B7EB' opacity='0.5'/><circle cx='220' cy='90' r='1' fill='#85B7EB' opacity='0.5'/><circle cx='250' cy='110' r='1' fill='#85B7EB' opacity='0.5'/><circle cx='280' cy='95' r='1' fill='#85B7EB' opacity='0.5'/><line x1='180' y1='180' x2='185' y2='175' stroke='#7A4438' stroke-width='1.5'/><line x1='230' y1='180' x2='240' y2='170' stroke='#7A4438' stroke-width='1.5'/><line x1='270' y1='180' x2='280' y2='172' stroke='#7A4438' stroke-width='1.5'/><text x='235' y='205' font-size='9' fill='#7A4438' text-anchor='middle' font-family='sans-serif'>Eau partout, plus d'oxygène</text></svg>",
+          "caption": "À gauche, un substrat aéré où les racines respirent. À droite, un substrat saturé où elles suffoquent."
+        },
+        {
+          "type": "text",
+          "markdown": "## Le cycle correct d'arrosage\n\nL'arrosage idéal n'est pas \"un peu d'eau régulièrement\". C'est un cycle: **détrempage complet, puis assèchement partiel, puis nouveau détrempage**. Ce cycle imite ce qui se passe dans la nature - une pluie tropicale, puis plusieurs jours sans pluie, puis une nouvelle pluie.\n\nQuand vous arrosez:\n\n1. **Arrosez abondamment** jusqu'à ce que l'eau coule par les trous de drainage. C'est ce qui assure que toute la motte est humidifiée et que les sels minéraux accumulés sont rincés.\n2. **Laissez s'égoutter complètement.** Ne laissez jamais le pot dans une soucoupe d'eau stagnante - c'est exactement ce qui crée la saturation.\n3. **Attendez** que la couche supérieure du substrat sèche (1 à 3 cm selon la taille du pot) avant d'arroser à nouveau.\n\nLa fréquence n'est jamais fixe - elle dépend de la plante, de la saison, de l'environnement. C'est l'observation qui dicte le rythme, pas le calendrier."
+        },
+        {
+          "type": "flashcard",
+          "title": "Concepts à retenir",
+          "cards": [
+            {
+              "id": "ind-l04-fc1",
+              "front": "Pourquoi un excès d'eau tue-t-il une plante?",
+              "back": "Les racines ont besoin d'oxygène pour respirer. Un substrat saturé bloque la circulation d'air, les racines suffoquent et pourrissent, et la plante ne peut plus s'alimenter."
+            },
+            {
+              "id": "ind-l04-fc2",
+              "front": "Pourquoi une plante sur-arrosée affiche-t-elle les mêmes symptômes qu'une plante assoiffée?",
+              "back": "Parce que les racines pourries ne peuvent plus absorber d'eau - la plante a effectivement \"soif\" alors que le substrat est trempé. C'est pourquoi le réflexe d'arroser davantage aggrave le problème."
+            },
+            {
+              "id": "ind-l04-fc3",
+              "front": "Quel est le bon cycle d'arrosage?",
+              "back": "Détrempage complet (jusqu'à ce que l'eau s'écoule des trous), puis égouttage total, puis attente que la couche supérieure du substrat sèche avant d'arroser à nouveau. Jamais d'eau stagnante dans la soucoupe."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l04-q1",
+              "stem": "Pourquoi est-il important que le pot ait des trous de drainage et qu'on ne laisse jamais d'eau dans la soucoupe?",
+              "options": [
+                "Pour éviter les taches d'eau sur les meubles.",
+                "Pour permettre aux racines de respirer en empêchant la saturation du substrat.",
+                "Pour économiser l'eau d'arrosage.",
+                "Parce que l'eau stagnante attire les moustiques."
+              ],
+              "correctIndex": 1,
+              "explanation": "Les trous de drainage et l'absence d'eau stagnante permettent à l'air de revenir dans le substrat après l'arrosage. Sans cela, le substrat reste saturé, les racines suffoquent, et la plante meurt - même si on a l'impression de bien s'en occuper en arrosant régulièrement."
+            },
+            {
+              "id": "ind-l04-q2",
+              "stem": "Vous arrosez votre plante tous les lundis matins, religieusement. Quel est le problème avec cette approche?",
+              "options": [
+                "Aucun, la régularité est la clé du succès.",
+                "Il faudrait arroser deux fois par semaine pour mieux faire.",
+                "La fréquence d'arrosage doit varier selon la saison, l'humidité de l'air, et l'état du substrat - pas suivre un calendrier fixe.",
+                "Le matin n'est pas le meilleur moment, il faut arroser le soir."
+              ],
+              "correctIndex": 2,
+              "explanation": "Un calendrier fixe est l'erreur classique. En été dans un appartement chauffé, votre plante peut avoir besoin d'eau deux fois par semaine; en hiver, peut-être une fois toutes les deux semaines. Ce sont l'observation du substrat (sec ou humide?) et de la plante qui dictent le rythme, pas le jour de la semaine."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

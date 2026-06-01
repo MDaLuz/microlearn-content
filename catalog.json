@@ -33,6 +33,17 @@
       "lessonCount": 10,
       "estimatedMinutes": 50,
       "accentColor": "#1D9E75"
+    },
+    {
+      "id": "indoor-gardening",
+      "title": "Jardinage d'intérieur",
+      "discipline": "Gardening",
+      "description": "Comprendre ce dont les plantes d'intérieur ont vraiment besoin, et installer chez soi des plantes qui prospèrent.",
+      "file": "modules/indoor-gardening.json",
+      "version": 1,
+      "lessonCount": 16,
+      "estimatedMinutes": 90,
+      "accentColor": "#639922"
     }
   ]
 }

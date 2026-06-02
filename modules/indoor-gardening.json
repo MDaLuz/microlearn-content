@@ -3,7 +3,7 @@
   "id": "indoor-gardening",
   "title": "Jardinage d'intérieur",
   "discipline": "Gardening",
-  "version": 4,
+  "version": 5,
   "levels": [
     { "level": 1, "xpRequired": 0, "title": "Débutant" },
     { "level": 2, "xpRequired": 180, "title": "Apprenti jardinier d'intérieur" },
@@ -603,6 +603,276 @@
         {
           "type": "text",
           "markdown": "## La règle finale\n\nUne fois que vous savez lire un emplacement, vous pouvez aller au magasin et regarder les plantes différemment. Vous ne demandez plus \"laquelle est belle?\" — vous demandez \"laquelle correspond à mon emplacement?\".\n\nC'est une démarche moins impulsive, mais elle transforme radicalement le taux de réussite. Les leçons suivantes vous donneront le vocabulaire des plantes spécifiques — celles qui sont vraiment robustes, celles qui sont vendues comme faciles mais ne le sont pas, et comment les inspecter à l'achat."
+        }
+      ]
+    },
+    {
+      "id": "ind-l08-fausses-faciles",
+      "title": "Les plantes \"faciles\" qui ne le sont pas tant",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Vous entrez dans une jardinerie. Un grand panneau annonce \"plantes faciles d'entretien\". Vous repartez avec un Ficus benjamina, une orchidée, et un Calathea — trois des plantes les plus vendues sous cette étiquette.\n\nIl y a une chance non négligeable que ces trois plantes soient mortes dans six mois. Pas parce que vous êtes mauvais avec les plantes, mais parce qu'elles ont été mal catégorisées par le marketing.\n\nCette leçon n'est pas méchante envers ces plantes — ce sont de belles plantes, qui prospèrent dans de bonnes conditions. C'est leur réputation de plantes \"faciles\" qui est trompeuse, et cela cause beaucoup de déceptions évitables."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pourquoi le marketing ment (un peu)\n\nLes plantes vendues comme \"faciles\" ne sont pas choisies parce qu'elles sont faciles. Elles sont choisies parce que:\n\n- Elles sont **belles en magasin** (feuillage spectaculaire, fleurs colorées),\n- Elles **survivent au transport et au stock**,\n- Elles **se vendent rapidement** à des acheteurs séduits.\n\nLa facilité d'entretien chez le client final n'entre pas dans cette équation. Et beaucoup de ces plantes sont en réalité **élevées en serre**, dans des conditions parfaites (90% d'humidité, lumière contrôlée, fertilisation constante) — quand vous les ramenez chez vous, elles subissent un choc qu'on appelle \"l'acclimatation\", et elles affichent immédiatement leur stress.\n\nUne plante qui perd des feuilles dans les deux premières semaines après l'achat, ce n'est pas \"votre faute\". C'est le passage de la serre à votre salon."
+        },
+        {
+          "type": "compare",
+          "title": "Trois plantes \"faciles\" — la réalité",
+          "items": [
+            { "id": "ficus", "label": "Ficus benjamina" },
+            { "id": "orchid", "label": "Orchidée (Phalaenopsis)" },
+            { "id": "calathea", "label": "Calathea" }
+          ],
+          "attributes": [
+            {
+              "id": "reputation",
+              "label": "Réputation marketing",
+              "values": [
+                "\"Arbre d'intérieur facile\"",
+                "\"Tolère l'oubli\"",
+                "\"Belle plante d'intérieur classique\""
+              ]
+            },
+            {
+              "id": "reality",
+              "label": "Réalité",
+              "values": [
+                "Perd ses feuilles au moindre changement (déplacement, courant d'air, variation de lumière)",
+                "Demande un arrosage très spécifique (trempage + égouttage complet) et meurt facilement de pourriture racinaire",
+                "Exige >60% d'humidité et déteste l'eau du robinet calcaire; les bords des feuilles brunissent rapidement"
+              ]
+            },
+            {
+              "id": "verdict",
+              "label": "Verdict débutant",
+              "values": [
+                "À éviter la première année",
+                "À éviter sauf à étudier ses besoins spécifiques",
+                "À éviter sauf en salle de bain humide"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## D'autres pièges courants\n\nQuelques autres plantes régulièrement vendues comme \"faciles\" mais qui ne le sont pas pour un débutant:\n\n- **Ficus lyrata (figuier-lyre)** — exige beaucoup de lumière vive (>1500 lux soutenu), une stabilité environnementale parfaite, et pardonne très peu d'erreurs d'arrosage. La plante la plus instagrammée et l'une des plus déçues.\n- **Fittonia (plante mosaïque)** — flétrit dramatiquement dès que le substrat sèche un peu, ressuscite si vous arrosez vite, mais cette gymnastique épuise la plante et elle meurt à terme.\n- **Stromanthe / Maranta** — comme le Calathea, exigent une humidité élevée et de l'eau non calcaire.\n- **Croton** — magnifique en magasin (feuillage multicolore), perd toutes ses feuilles à la moindre variation de conditions.\n\nLe point commun: ces plantes ont des exigences précises et étroites. Elles peuvent prospérer chez quelqu'un d'expérimenté qui crée les bonnes conditions; elles déçoivent presque tous les débutants."
+        },
+        {
+          "type": "flashcard",
+          "title": "À retenir",
+          "cards": [
+            {
+              "id": "ind-l08-fc1",
+              "front": "Pourquoi les plantes vendues comme \"faciles\" ne le sont-elles pas toujours?",
+              "back": "Parce que ce critère sert le commerce (belle en magasin, survit au transport, se vend bien), pas le client final. La facilité réelle d'entretien chez vous n'entre pas dans la sélection."
+            },
+            {
+              "id": "ind-l08-fc2",
+              "front": "Qu'est-ce que le \"choc d'acclimatation\" après l'achat?",
+              "back": "Les plantes sont élevées en serre dans des conditions parfaites (humidité, lumière, fertilisation). Le passage à votre logement crée un stress qui se manifeste dans les premières semaines: feuilles qui tombent, jaunissement. Ce n'est pas une erreur de votre part."
+            },
+            {
+              "id": "ind-l08-fc3",
+              "front": "Quel est le point commun des plantes \"faciles\" qui déçoivent les débutants?",
+              "back": "Elles ont des exigences précises et étroites (humidité élevée, lumière vive constante, eau non calcaire, stabilité environnementale parfaite). Elles ne tolèrent pas les erreurs d'un débutant qui apprend."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l08-q1",
+              "stem": "Vous offrez un Calathea à une amie qui débute et habite dans un appartement chauffé en hiver, salon orienté nord. Que se passera-t-il probablement?",
+              "options": [
+                "La plante va prospérer — le Calathea préfère la pénombre.",
+                "La plante survivra mais les bords des feuilles vont brunir à cause de l'air sec.",
+                "La plante mourra rapidement faute de lumière directe.",
+                "Pas de problème, le Calathea est une plante facile."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le Calathea tolère la lumière modérée (donc une fenêtre nord peut fonctionner) mais exige une humidité élevée (>60%) et déteste l'eau calcaire. Dans un appartement chauffé suisse, l'humidité hivernale descend à 30%, et les bords des feuilles brunissent invariablement. Pour un débutant, c'est exactement le type de plante à éviter en cadeau."
+            },
+            {
+              "id": "ind-l08-q2",
+              "stem": "Votre nouveau Ficus benjamina perd toutes ses feuilles dans les deux semaines après l'achat. Quelle est la conclusion la plus juste?",
+              "options": [
+                "Vous avez fait une erreur d'arrosage — il faut compenser.",
+                "C'est probablement le choc normal d'acclimatation; surveillez sans paniquer ni sur-réagir.",
+                "La plante est malade et il faut la rendre au magasin.",
+                "Il manque d'engrais — appliquez-en immédiatement."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le Ficus benjamina est réputé pour perdre ses feuilles à tout changement d'environnement — c'est sa réaction normale au déménagement de la serre à votre salon. La pire chose à faire est de réagir en arrosant davantage, en fertilisant, ou en déplaçant la plante. Stabilisez les conditions, arrosez quand le substrat sèche, et la plante repoussera ses feuilles en quelques mois si l'emplacement convient."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l09-plantes-robustes",
+      "title": "Plantes vraiment robustes pour débutants",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Après avoir vu ce qu'il faut éviter, voici la sélection inverse: des plantes **vraiment** tolérantes, qui pardonnent les erreurs d'arrosage, de lumière, de température, et qui continuent à prospérer pendant que vous apprenez.\n\nCette liste est courte intentionnellement. Mieux vaut cinq plantes vraiment robustes et bien comprises qu'une liste de quinze plantes vaguement adaptées. Chacune ci-dessous a été choisie pour une raison précise."
+        },
+        {
+          "type": "text",
+          "markdown": "## Cinq plantes que vous ne pouvez presque pas tuer\n\n**1. Pothos (Epipremnum aureum)** — La plante débutant par excellence. Tolère la lumière faible à modérée, survit à l'oubli d'arrosage pendant des semaines, repousse vigoureusement après une période de stress. Ses feuilles vous parlent: elles s'affaissent visiblement quand la plante a soif et se redressent en quelques heures après l'arrosage. C'est un système de signalement intégré.\n\n**2. Sansevieria (langue de belle-mère, Sansevieria trifasciata)** — Quasiment indestructible. Préfère l'oubli à la sur-attention; tolère une lumière très faible (mais préfère la modérée); peut passer un mois sans arrosage en hiver. Idéale pour un coin sombre ou un appartement de personne souvent absente.\n\n**3. Zamioculcas (ZZ, Zamioculcas zamiifolia)** — Comparable à la Sansevieria en robustesse. Stocke l'eau dans des rhizomes souterrains, ce qui lui permet de survivre à des oublis d'arrosage prolongés. Tolère très bien la pénombre. Croissance lente — ce qui est en réalité un avantage pour un débutant (moins de besoins, moins de surprises).\n\n**4. Philodendron à feuilles en cœur (Philodendron hederaceum)** — Cousin du Pothos avec des feuilles légèrement différentes. Mêmes qualités: tolérant, expressif (les feuilles signalent la soif), pousse vite, facile à bouturer. Très bien adapté à une étagère où il peut retomber.\n\n**5. Aspidistra (langue de vache, Aspidistra elatior)** — La plante des époques victoriennes, choisie historiquement pour sa capacité à survivre dans des salons mal éclairés et enfumés. Si elle est encore vendue 150 ans plus tard, c'est qu'elle marche. Croissance très lente, exigences minimales."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pourquoi ces cinq spécifiquement?\n\nElles partagent quatre propriétés:\n\n- **Une grande tolérance à l'arrosage** (sur-arrosage et sous-arrosage), avec une marge d'erreur réelle de plusieurs jours.\n- **Une tolérance à la lumière faible** (sans pour autant l'exiger — elles poussent mieux en lumière modérée).\n- **Une croissance prévisible** sans surprises (pas d'effondrement soudain).\n- **Un signalement clair** — leurs feuilles disent quand quelque chose ne va pas, suffisamment tôt pour que vous puissiez réagir.\n\nCe sont les quatre qualités qui font une bonne \"plante d'apprentissage\". Vous pouvez expérimenter, faire des erreurs, observer, corriger — sans tuer la plante."
+        },
+        {
+          "type": "compare",
+          "title": "Les cinq robustes — choisir selon votre emplacement",
+          "items": [
+            { "id": "low-light", "label": "Lumière faible" },
+            { "id": "moderate", "label": "Lumière modérée" }
+          ],
+          "attributes": [
+            {
+              "id": "best",
+              "label": "Meilleur choix",
+              "values": [
+                "Zamioculcas, Sansevieria, Aspidistra",
+                "Pothos, Philodendron à feuilles en cœur"
+              ]
+            },
+            {
+              "id": "growth",
+              "label": "Vitesse de croissance",
+              "values": [
+                "Lente (Zamioculcas, Aspidistra) à modérée (Sansevieria)",
+                "Rapide — visible en quelques semaines"
+              ]
+            },
+            {
+              "id": "watering",
+              "label": "Fréquence d'arrosage typique",
+              "values": [
+                "Toutes les 2 à 4 semaines selon la saison",
+                "Toutes les 1 à 2 semaines selon la saison"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "Si vous démarrez avec une seule plante, prenez un **Pothos**. C'est la plante qui apprend le mieux le rythme d'observation et qui pardonne le plus volontiers les erreurs initiales. Vous pourrez la bouturer dans un verre d'eau pour en faire plusieurs, sans coût supplémentaire.\n\nSi vous démarrez avec deux plantes pour des emplacements différents, prenez un Pothos pour un endroit avec un peu de lumière, et un Zamioculcas pour un coin plus sombre. Cette paire couvre 80% des emplacements possibles dans un logement."
+        },
+        {
+          "type": "flashcard",
+          "title": "Les cinq à connaître",
+          "cards": [
+            {
+              "id": "ind-l09-fc1",
+              "front": "Quelle plante choisir pour un premier essai en jardinage d'intérieur?",
+              "back": "Un Pothos. Tolérant, expressif (feuilles qui s'affaissent quand il a soif), pousse vite, facile à bouturer dans l'eau. C'est la plante d'apprentissage par excellence."
+            },
+            {
+              "id": "ind-l09-fc2",
+              "front": "Quelle plante pour un coin sombre où vous oubliez régulièrement d'arroser?",
+              "back": "Sansevieria ou Zamioculcas. Toutes deux tolèrent la lumière très faible et stockent l'eau (Zamioculcas dans des rhizomes, Sansevieria dans ses feuilles épaisses). Elles préfèrent l'oubli à la sur-attention."
+            },
+            {
+              "id": "ind-l09-fc3",
+              "front": "Quelles sont les quatre qualités d'une bonne \"plante d'apprentissage\"?",
+              "back": "Tolérance à l'arrosage (marge d'erreur réelle), tolérance à la lumière faible, croissance prévisible, et signalement clair (la plante dit quand ça ne va pas, suffisamment tôt pour corriger)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l09-q1",
+              "stem": "Votre appartement a un grand mur sans fenêtre proche, en pénombre constante. Vous voulez y mettre une plante. Quel est le meilleur choix?",
+              "options": [
+                "Un Pothos — il tolère la pénombre.",
+                "Un Zamioculcas — il prospère dans la pénombre et tolère l'oubli.",
+                "Un Ficus benjamina — il accepte tous les emplacements.",
+                "Un cactus — il n'a besoin de presque rien."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le Zamioculcas est le champion incontesté de la pénombre. Le Pothos tolère la pénombre mais pousse mieux avec un peu de lumière. Le Ficus benjamina dépérirait en pénombre. Le cactus, contrairement à une idée reçue, exige beaucoup de lumière directe et mourrait rapidement loin d'une fenêtre."
+            },
+            {
+              "id": "ind-l09-q2",
+              "stem": "Vous partez deux semaines en vacances en été. Quelle plante peut le plus probablement survivre sans arrosage pendant cette absence?",
+              "options": [
+                "Un Pothos — il accumule de l'eau dans ses feuilles.",
+                "Une Sansevieria — elle peut passer plusieurs semaines sans arrosage.",
+                "Un Calathea — il aime l'air sec des appartements vides.",
+                "Une fougère — elle se met en dormance pendant l'absence."
+              ],
+              "correctIndex": 1,
+              "explanation": "La Sansevieria, comme le Zamioculcas, est conçue pour les périodes sèches: ses feuilles épaisses stockent l'eau, et son métabolisme ralentit. Deux semaines sans arrosage en été ne lui posent généralement aucun problème. Le Pothos pourrait s'affaisser visiblement (mais récupérer après arrosage); le Calathea souffrirait beaucoup; la fougère serait probablement morte."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l10-acheter-inspecter",
+      "title": "Acheter une plante: quoi inspecter",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "L'achat d'une plante en magasin est un moment court mais déterminant. Vous avez environ trente secondes pour évaluer si vous ramenez à la maison une plante saine, une plante stressée mais récupérable, ou une plante condamnée d'avance.\n\nLa différence entre les trois n'est presque jamais visible au premier coup d'œil. Elle est dans des détails que la plupart des acheteurs ne regardent pas."
+        },
+        {
+          "type": "text",
+          "markdown": "## La checklist d'inspection\n\nVoici l'ordre à suivre devant une plante en magasin:\n\n**1. Le feuillage général**\n- Les feuilles sont-elles d'une couleur uniforme, bien turgescentes (fermes)?\n- Y a-t-il des feuilles jaunes, brunes, ou tombées au pied du pot? Une ou deux peuvent être normales; cinq ou plus sont un signal d'alerte.\n- Les nouvelles feuilles (au centre ou aux extrémités) sont-elles présentes et en bonne santé?\n\n**2. Les feuilles en détail**\n- Retournez quelques feuilles pour examiner le **dessous**. C'est là que se cachent les parasites.\n- Cherchez de petits points blancs, des toiles fines, des bosses brillantes (cochenilles), des points noirs (excréments d'insectes), des œufs.\n- Une plante qui sort du magasin avec des parasites contamine ensuite toutes vos autres plantes.\n\n**3. La tige et la base**\n- La tige est-elle ferme à sa base, ou molle?\n- Y a-t-il une odeur de pourriture au niveau du substrat?\n- Des moisissures blanches sur le substrat?\n\n**4. Les racines (si possible)**\n- Si le pot a des trous, regardez par en dessous: des racines blanches qui apparaissent légèrement = bon signe.\n- Des racines brunes molles qui sortent = pourriture racinaire, ne pas acheter.\n- Beaucoup de racines qui s'échappent par les trous = la plante est à l'étroit et stressée."
+        },
+        {
+          "type": "text",
+          "markdown": "## Le contexte du magasin\n\nDeux observations sur le magasin lui-même valent autant que l'inspection de la plante:\n\n**L'arrosage des stocks.** Une plante visiblement détrempée (eau dans la soucoupe, substrat saturé) en magasin est probablement déjà en train de développer une pourriture racinaire — le sur-arrosage en magasin tue plus de plantes que la sécheresse. À l'inverse, un substrat très sec et craquelé indique une plante stressée mais récupérable si elle n'est pas trop loin partie.\n\n**La lumière du magasin.** Une plante qui a passé des semaines dans un magasin sombre s'est déjà adaptée à cette pénombre — la ramener brutalement dans une fenêtre sud va la stresser. Inversement, une plante exposée à une lumière vive en magasin (près de la vitrine) s'adapte difficilement à un emplacement sombre chez vous. Demandez au vendeur où la plante a été stockée si vous n'êtes pas sûr."
+        },
+        {
+          "type": "scenario",
+          "title": "Inspecter deux Pothos",
+          "context": "Vous êtes dans une jardinerie et hésitez entre deux Pothos:\n\n**Plante A** — Feuilles vert vif et brillantes, fermes au toucher. Quelques pousses jeunes au centre. Le substrat est légèrement humide. Le pot a des trous de drainage par lesquels apparaissent quelques racines blanches. Aucune feuille tombée au pied. Vous retournez une feuille: rien d'anormal au dessous. La plante était placée à 1,5 m d'une fenêtre voilée.\n\n**Plante B** — Feuilles également vertes, mais plus pâles. Trois feuilles jaunes sur la base. Le substrat est complètement trempé, avec de l'eau dans la soucoupe. Vous retournez une feuille: quelques minuscules points blancs au dessous. Cette plante est en vitrine plein soleil.",
+          "questions": [
+            {
+              "id": "ind-l10-sq1",
+              "stem": "Quelle plante achetez-vous?",
+              "options": [
+                "Plante A — elle présente tous les signes d'une plante saine.",
+                "Plante B — elle est plus vibrante, on peut traiter les petits problèmes après.",
+                "Les deux — l'une ne va pas contaminer l'autre.",
+                "Aucune — il faut chercher ailleurs."
+              ],
+              "correctIndex": 0,
+              "explanation": "Plante A présente tous les signes d'une plante saine: feuillage uniforme et turgescent, croissance active visible, substrat correctement humidifié, racines saines visibles, aucun parasite, et stockée à une lumière modérée compatible avec la plupart des emplacements à la maison. C'est exactement le profil qu'on cherche."
+            },
+            {
+              "id": "ind-l10-sq2",
+              "stem": "Pourquoi ne pas acheter la plante B?",
+              "options": [
+                "Les feuilles jaunes ne sont pas un problème, mais le substrat trempé indique probablement une pourriture racinaire déjà installée.",
+                "Les points blancs sous les feuilles signalent probablement des parasites (cochenilles ou araignées rouges) que vous ramèneriez chez vous.",
+                "L'exposition plein soleil en magasin l'a stressée; elle sera difficile à acclimater à un emplacement intérieur plus sombre.",
+                "Toutes les raisons ci-dessus."
+              ],
+              "correctIndex": 3,
+              "explanation": "Plante B cumule trois signaux d'alerte: substrat saturé (risque sérieux de pourriture racinaire), parasites potentiels au dessous des feuilles (qui contamineraient vos autres plantes), et stress lumineux du plein soleil en magasin (acclimatation difficile à un nouveau lieu). Aucun de ces problèmes pris individuellement n'est nécessairement fatal, mais combinés ils transforment un achat en projet de sauvetage."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## La règle du \"ne pas acheter aujourd'hui\"\n\nSi vous avez le moindre doute sur une plante, ne l'achetez pas. Une jardinerie reçoit de nouveaux arrivages chaque semaine — revenez dans quelques jours, regardez les nouvelles plantes. Achetez une plante saine plutôt que de \"sauver\" une plante en difficulté: vous êtes débutant, le sauvetage demande des compétences que vous n'avez pas encore.\n\nCe principe s'applique aussi à la quantité: il vaut mieux acheter une plante saine que trois plantes douteuses. Une bonne plante bien comprise apprend plus qu'un cimetière de trois mois."
         }
       ]
     }

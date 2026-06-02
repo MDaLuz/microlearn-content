@@ -3,7 +3,7 @@
   "id": "indoor-gardening",
   "title": "Jardinage d'intérieur",
   "discipline": "Gardening",
-  "version": 3,
+  "version": 4,
   "levels": [
     { "level": 1, "xpRequired": 0, "title": "Débutant" },
     { "level": 2, "xpRequired": 180, "title": "Apprenti jardinier d'intérieur" },
@@ -336,6 +336,273 @@
               "explanation": "Un calendrier fixe est l'erreur classique. En été dans un appartement chauffé, votre plante peut avoir besoin d'eau deux fois par semaine; en hiver, peut-être une fois toutes les deux semaines. Ce sont l'observation du substrat (sec ou humide?) et de la plante qui dictent le rythme, pas le jour de la semaine."
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l05-substrat-concept",
+      "title": "Le substrat n'est pas de la terre",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Quand on parle de \"terre\" pour les plantes d'intérieur, on parle en réalité de **substrat** — un mélange conçu pour faire trois choses à la fois: retenir un peu d'eau, laisser circuler beaucoup d'air, et donner aux racines quelque chose à quoi s'accrocher.\n\nLa terre du jardin, elle, ne convient pas. Elle se compacte trop vite dans un pot, l'eau ne s'écoule pas correctement, et elle peut amener des parasites du sol. Le substrat d'intérieur est un produit fabriqué, généralement à base de tourbe ou de fibre de coco, mélangé à du sable, de la perlite, ou d'autres matériaux qui maintiennent une structure aérée."
+        },
+        {
+          "type": "text",
+          "markdown": "## La structure plus que la composition\n\nCe qui rend un bon substrat n'est pas tellement ce qu'il contient — c'est sa **structure physique**. Imaginez un bon substrat au microscope: des particules de différentes tailles avec des espaces entre elles. Ces espaces se remplissent d'eau quand vous arrosez, puis l'eau s'écoule, et les espaces se remplissent d'air. C'est ce cycle eau-air qui permet aux racines de respirer.",
+          "svg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='20' width='140' height='140' rx='8' fill='#1B1E24' stroke='#97C459' stroke-width='1.5'/><text x='80' y='12' font-size='10' fill='#97C459' text-anchor='middle' font-family='sans-serif' font-weight='600'>Bonne structure</text><circle cx='30' cy='45' r='5' fill='#7A4438'/><circle cx='55' cy='55' r='8' fill='#7A4438'/><circle cx='80' cy='42' r='4' fill='#7A4438'/><circle cx='110' cy='50' r='7' fill='#7A4438'/><circle cx='35' cy='75' r='6' fill='#7A4438'/><circle cx='65' cy='85' r='5' fill='#7A4438'/><circle cx='95' cy='78' r='9' fill='#7A4438'/><circle cx='125' cy='90' r='4' fill='#7A4438'/><circle cx='30' cy='110' r='7' fill='#7A4438'/><circle cx='65' cy='115' r='5' fill='#7A4438'/><circle cx='95' cy='120' r='6' fill='#7A4438'/><circle cx='125' cy='115' r='5' fill='#7A4438'/><circle cx='45' cy='140' r='6' fill='#7A4438'/><circle cx='85' cy='145' r='8' fill='#7A4438'/><circle cx='120' cy='142' r='5' fill='#7A4438'/><text x='80' y='173' font-size='9' fill='#97C459' text-anchor='middle' font-family='sans-serif'>Espaces entre particules = air</text><rect x='170' y='20' width='140' height='140' rx='8' fill='#1B1E24' stroke='#E24B4A' stroke-width='1.5'/><text x='240' y='12' font-size='10' fill='#E24B4A' text-anchor='middle' font-family='sans-serif' font-weight='600'>Mauvaise structure</text><rect x='175' y='25' width='130' height='130' fill='#5C3A30'/><circle cx='185' cy='35' r='1' fill='#3A2520'/><circle cx='200' cy='42' r='1' fill='#3A2520'/><circle cx='220' cy='38' r='1' fill='#3A2520'/><circle cx='240' cy='45' r='1' fill='#3A2520'/><circle cx='265' cy='40' r='1' fill='#3A2520'/><circle cx='290' cy='48' r='1' fill='#3A2520'/><text x='240' y='173' font-size='9' fill='#E24B4A' text-anchor='middle' font-family='sans-serif'>Compact, particules fines, pas d'air</text></svg>",
+          "caption": "À gauche, un substrat aéré avec des espaces d'air. À droite, un substrat compact où l'eau stagne et l'air ne circule pas."
+        },
+        {
+          "type": "text",
+          "markdown": "C'est pourquoi vous entendrez souvent la recommandation d'ajouter de la **perlite** (ces petits cailloux blancs et légers) ou de la **fibre de coco** à un substrat acheté: ces composants maintiennent la structure aérée même quand la matière organique se décompose avec le temps.\n\nLe substrat se dégrade avec les années. Au bout de deux ans, même un bon substrat devient compact et perd sa structure. C'est l'une des raisons principales pour lesquelles on rempote — on remplace un substrat fatigué par un substrat frais."
+        },
+        {
+          "type": "compare",
+          "title": "Types de substrats courants",
+          "items": [
+            { "id": "universal", "label": "Universel" },
+            { "id": "cactus", "label": "Cactées" },
+            { "id": "orchid", "label": "Orchidées" }
+          ],
+          "attributes": [
+            {
+              "id": "composition",
+              "label": "Composition typique",
+              "values": [
+                "Tourbe ou fibre de coco + un peu de perlite + matière organique",
+                "Substrat universel + sable + plus de perlite, drainage très rapide",
+                "Écorces de pin grossières, presque pas de matière fine"
+              ]
+            },
+            {
+              "id": "retention",
+              "label": "Rétention d'eau",
+              "values": [
+                "Moyenne — sèche en quelques jours",
+                "Faible — sèche très vite",
+                "Très faible — l'eau traverse rapidement"
+              ]
+            },
+            {
+              "id": "use",
+              "label": "Pour quelles plantes",
+              "values": [
+                "La plupart des plantes vertes d'intérieur",
+                "Cactus, succulentes, plantes méditerranéennes",
+                "Orchidées et plantes épiphytes uniquement"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "Pour un débutant, retenez surtout: **le substrat universel pour plantes d'intérieur** suffit pour 90% des cas. Vous l'achèterez en sac dans n'importe quel magasin de jardinage. Si la plante que vous achetez exige un substrat spécifique (cactus, orchidée), le vendeur ou l'étiquette le précisera — sinon, c'est universel."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l05-q1",
+              "stem": "Pourquoi ne pas utiliser de la terre de jardin pour rempoter une plante d'intérieur?",
+              "options": [
+                "Parce qu'elle est trop riche en nutriments.",
+                "Parce qu'elle se compacte dans un pot, bloque le drainage et l'aération.",
+                "Parce qu'elle attire les insectes par sa couleur.",
+                "Parce qu'elle est trop sèche pour les plantes tropicales."
+              ],
+              "correctIndex": 1,
+              "explanation": "La terre de jardin a une structure adaptée à un grand volume extérieur avec drainage naturel. Dans un pot, elle se compacte rapidement, l'eau ne s'écoule plus correctement, et les racines suffoquent. Le substrat d'intérieur est spécifiquement formulé pour garder sa structure aérée dans le volume restreint d'un pot."
+            },
+            {
+              "id": "ind-l05-q2",
+              "stem": "Vous rempotez votre Pothos. Quel substrat choisissez-vous?",
+              "options": [
+                "De la terre du jardin tamisée.",
+                "Un substrat pour cactées — ça draine mieux.",
+                "Un substrat universel pour plantes d'intérieur.",
+                "Un substrat pour orchidées — c'est plus aéré."
+              ],
+              "correctIndex": 2,
+              "explanation": "Le Pothos est une plante tropicale courante; le substrat universel pour plantes d'intérieur est exactement ce qu'il faut. Un substrat cactées drainerait trop vite et la plante manquerait d'eau; un substrat orchidées ne retient pas assez de matière fine pour ses racines."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l06-humidite-temperature",
+      "title": "Humidité et température de l'air",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "L'environnement invisible — l'air autour de votre plante — détermine une grande partie de son succès. Et c'est précisément l'environnement le plus difficile à lire pour un débutant, parce qu'il est invisible.\n\nDeux variables comptent: **l'humidité** (combien de vapeur d'eau l'air contient) et **la température**. Elles interagissent: l'air chaud peut retenir plus d'humidité que l'air froid; le chauffage central abaisse drastiquement l'humidité relative en hiver; un courant d'air froid dessèche autant qu'il refroidit."
+        },
+        {
+          "type": "text",
+          "markdown": "## L'humidité: ce qui compte vraiment\n\nUne erreur fréquente est de penser en valeurs absolues — \"les plantes tropicales aiment 60% d'humidité\". La vérité est plus nuancée: ce qui stresse une plante n'est pas un taux d'humidité particulier, c'est l'**écart entre son origine et son environnement actuel**.\n\nUne plante venant d'une forêt tropicale (80% d'humidité naturelle) placée dans un appartement suisse en hiver (30% d'humidité avec le chauffage) subit un écart énorme. La même plante dans une salle de bain (50-60% d'humidité régulière) vit beaucoup mieux. C'est la différence qui compte, pas le chiffre absolu.\n\nPour la plupart des plantes d'intérieur courantes, viser **40-50% d'humidité** suffit. C'est atteignable dans une pièce normale sans équipement spécial — au-dessus, vous entrez dans le territoire des plantes vraiment exigeantes (orchidées, Calathea, fougères) qui demandent un environnement dédié."
+        },
+        {
+          "type": "compare",
+          "title": "Plantes selon leur origine et leurs besoins en humidité",
+          "items": [
+            { "id": "trop", "label": "Origine tropicale humide" },
+            { "id": "med", "label": "Origine méditerranéenne" },
+            { "id": "arid", "label": "Origine aride" }
+          ],
+          "attributes": [
+            {
+              "id": "examples",
+              "label": "Exemples",
+              "values": [
+                "Monstera, Philodendron, Calathea, Pothos, Spathiphyllum",
+                "Olivier, Romarin, Lavande (rare en intérieur)",
+                "Cactus, Sansevieria, Aloès, Zamioculcas"
+              ]
+            },
+            {
+              "id": "humidity",
+              "label": "Humidité préférée",
+              "values": [
+                "50-70%, souffrent en dessous de 30%",
+                "30-50%, tolèrent l'air sec",
+                "20-40%, l'air sec ne les dérange pas"
+              ]
+            },
+            {
+              "id": "winter",
+              "label": "Comportement en hiver chauffé",
+              "values": [
+                "Stressées: feuilles aux bords bruns, croissance ralentie",
+                "Indifférentes",
+                "Indifférentes, voire mieux que dans l'humidité"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## La température: les pièges cachés\n\nLa température de votre logement convient à la plupart des plantes — entre 18 et 24°C, c'est la zone confortable de presque toutes les plantes d'intérieur populaires.\n\nMais deux situations posent problème:\n\n**Les courants d'air froid en hiver**, près d'une fenêtre mal isolée ou d'une porte qui s'ouvre fréquemment. Une plante tropicale peut survivre à 18°C, mais des écarts brusques de 10°C lors d'aérations répétées la stressent énormément. Tenez les plantes sensibles à distance des courants d'air, surtout les Calathea, Ficus, et Spathiphyllum.\n\n**Les radiateurs en hiver**, qui font monter la température locale à 30°C ou plus pendant que l'air ambiant est à 20°C. La plante alterne entre chaud-sec et frais, et perd ses repères. Ne placez jamais une plante directement au-dessus ou à proximité immédiate d'un radiateur actif."
+        },
+        {
+          "type": "flashcard",
+          "title": "Concepts à retenir",
+          "cards": [
+            {
+              "id": "ind-l06-fc1",
+              "front": "Pourquoi l'air sec d'hiver stresse-t-il les plantes tropicales?",
+              "back": "Le chauffage central abaisse l'humidité relative de l'air à 25-35% alors que ces plantes viennent d'environnements à 70-80%. La plante perd de l'eau plus vite par ses feuilles que ses racines ne peuvent en absorber."
+            },
+            {
+              "id": "ind-l06-fc2",
+              "front": "Quelle est la plage d'humidité confortable pour la plupart des plantes d'intérieur courantes?",
+              "back": "Entre 40 et 50%. C'est atteignable dans une pièce normale sans équipement. Au-delà, on entre dans le territoire des plantes vraiment exigeantes (orchidées, fougères, Calathea)."
+            },
+            {
+              "id": "ind-l06-fc3",
+              "front": "Quels sont les deux pièges de température en hiver?",
+              "back": "(1) Les courants d'air froid près des fenêtres ou portes — écarts brusques qui stressent les plantes tropicales. (2) La proximité directe avec un radiateur — chaleur sèche locale qui déshydrate."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l06-q1",
+              "stem": "Votre Monstera développe des bords bruns et secs sur ses feuilles en plein hiver. Vous arrosez normalement et la lumière est bonne. Quelle est la cause la plus probable?",
+              "options": [
+                "Manque d'engrais.",
+                "Excès de lumière qui brûle les feuilles.",
+                "Air trop sec à cause du chauffage central.",
+                "Substrat trop pauvre."
+              ],
+              "correctIndex": 2,
+              "explanation": "Les bords bruns et secs en hiver, sur une plante par ailleurs bien soignée, sont presque toujours dus à l'air sec causé par le chauffage. La plante tropicale perd de l'eau par ses feuilles plus vite qu'elle ne peut en absorber. Solutions: éloigner la plante des radiateurs, regrouper plusieurs plantes ensemble (elles créent un microclimat humide), ou déplacer dans une salle de bain."
+            },
+            {
+              "id": "ind-l06-q2",
+              "stem": "Vous voulez placer un cactus quelque part dans votre logement. Quelle considération NE compte PAS particulièrement pour cette plante?",
+              "options": [
+                "L'intensité de la lumière (forte de préférence).",
+                "L'humidité ambiante.",
+                "L'absence de courants d'air froid.",
+                "La fréquence d'arrosage."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le cactus vient de milieux arides et tolère parfaitement (voire préfère) un air sec — l'humidité ambiante n'est donc pas une variable critique pour lui. La lumière forte est nécessaire, les courants d'air froid restent à éviter en hiver, et l'arrosage doit être espacé. C'est ce qui rend le cactus paradoxalement bien adapté à l'intérieur sec d'un appartement chauffé."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l07-lire-emplacement",
+      "title": "Lire un emplacement avant d'acheter une plante",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Vous avez maintenant les outils pour évaluer un emplacement avant d'y mettre une plante. C'est l'inversion du réflexe habituel — la plupart des gens achètent une plante qui leur plaît, rentrent à la maison, et cherchent où la mettre.\n\nLa méthode qui marche est l'inverse: **identifiez un emplacement, décrivez-le précisément, puis choisissez une plante qui correspond**.\n\nUn emplacement bien lu vaut plus qu'un guide d'achat."
+        },
+        {
+          "type": "text",
+          "markdown": "## La grille de lecture d'un emplacement\n\nPour qu'un emplacement soit \"lu\" correctement, vous devez pouvoir répondre à six questions:\n\n1. **Quelle est l'orientation** de la fenêtre la plus proche? (Nord, est, sud, ouest)\n2. **À quelle distance** de cette fenêtre se trouve l'emplacement? (En contact, à 50 cm, à 1 m, à plus de 2 m)\n3. **Quelle lumière** s'y trouve? (Test de l'ombre de la main + idéalement une mesure smartphone à plusieurs moments)\n4. **Quelle est la température moyenne** de la pièce, et y a-t-il des variations brusques? (Radiateur proche? Courants d'air?)\n5. **Quelle humidité approximative**? (Salle de bain humide, cuisine moyenne, salon chauffé sec)\n6. **Vais-je voir cette plante** régulièrement? (Si non, je ne remarquerai pas qu'elle souffre)\n\nLa sixième question est sous-estimée mais cruciale: une plante placée dans un couloir que vous traversez sans regarder mourra avant que vous ne vous en aperceviez. Les meilleurs emplacements pour un débutant sont ceux que vous fréquentez quotidiennement."
+        },
+        {
+          "type": "text",
+          "markdown": "## Le profil sur 24 heures\n\nUne erreur fréquente est d'évaluer la lumière une seule fois. Or, un emplacement change dramatiquement au cours de la journée:\n\n- Une fenêtre est est forte au matin, faible l'après-midi.\n- Un coin éloigné de la fenêtre est en pénombre constante.\n- Une fenêtre sud derrière un voilage est diffuse en milieu de journée, plus directe le matin et le soir.\n\nIdéalement, faites trois mesures: matin (9h), midi (13h), fin d'après-midi (17h). Notez les trois valeurs. C'est le **profil** qui décrit l'emplacement, pas une valeur unique."
+        },
+        {
+          "type": "scenario",
+          "title": "Lire trois emplacements concrets",
+          "context": "Vous habitez un appartement à Zürich. Vous envisagez trois emplacements possibles pour une nouvelle plante:\n\n**Emplacement A** — Le rebord intérieur de la fenêtre du salon, plein sud, sans voilage. Le radiateur sous la fenêtre fonctionne en hiver. Mesures smartphone: 3000 lux à midi (plus en été), 800 lux en fin d'après-midi.\n\n**Emplacement B** — Une étagère murale dans la salle de bain, à 2 m de la fenêtre orientée est, voilée par un rideau opaque. Mesures: 200 lux le matin, 80 lux le reste de la journée.\n\n**Emplacement C** — Le coin du bureau, à 1,5 m d'une fenêtre ouest, sans obstacle. Bureau utilisé tous les jours. Mesures: 400 lux le matin, 1500 lux en fin d'après-midi.",
+          "questions": [
+            {
+              "id": "ind-l07-sq1",
+              "stem": "Pour l'emplacement A (rebord sud, plein soleil, radiateur sous), quelle plante serait la plus adaptée?",
+              "options": [
+                "Un Calathea, qui aime la lumière forte.",
+                "Un Pothos, qui tolère toutes les conditions.",
+                "Un cactus ou une succulente.",
+                "Une fougère, qui aime la salle de bain."
+              ],
+              "correctIndex": 2,
+              "explanation": "L'emplacement A combine forte lumière directe, faible humidité (chauffage en hiver) et chaleur locale du radiateur. C'est exactement le profil arido-méditerranéen. Un cactus ou une succulente y prospérera. Le Calathea et la fougère y mourraient en quelques semaines (air trop sec, lumière trop directe). Le Pothos survivrait mais ses feuilles brûleraient en plein soleil d'été."
+            },
+            {
+              "id": "ind-l07-sq2",
+              "stem": "Pour l'emplacement B (salle de bain, lumière très faible, humidité élevée), quel choix est le plus sage?",
+              "options": [
+                "Un Pothos ou un Zamioculcas, qui tolèrent la pénombre.",
+                "Un Ficus lyrata, qui aime l'humidité de salle de bain.",
+                "Un cactus, parce que la salle de bain a peu de lumière comme le désert.",
+                "Aucune plante — la lumière est trop faible pour quoi que ce soit."
+              ],
+              "correctIndex": 0,
+              "explanation": "La combinaison \"lumière faible + humidité élevée\" est rare et précieuse. Le Pothos et le Zamioculcas sont parmi les rares plantes qui acceptent réellement la pénombre (200 lux maximum), et ils apprécient l'humidité ambiante d'une salle de bain. Le Ficus lyrata exige une lumière vive impossible ici. Et la salle de bain, contrairement au désert, est très humide — l'opposé de ce qu'un cactus tolère."
+            },
+            {
+              "id": "ind-l07-sq3",
+              "stem": "Pour l'emplacement C (bureau utilisé quotidiennement, fenêtre ouest, lumière modérée à vive), quel est l'aspect le plus important au-delà du profil de lumière?",
+              "options": [
+                "La couleur des murs du bureau.",
+                "Le fait que vous fréquentez ce lieu tous les jours.",
+                "La proximité du clavier de l'ordinateur.",
+                "L'orientation du bureau dans la pièce."
+              ],
+              "correctIndex": 1,
+              "explanation": "Un emplacement vu quotidiennement permet d'observer la plante: vous remarquez vite si elle souffre, si le substrat sèche, si quelque chose change. Pour un débutant, cet aspect compte autant que le profil environnemental. C'est l'emplacement qui transforme l'observation en habitude, et l'observation est la compétence centrale du jardinage d'intérieur."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## La règle finale\n\nUne fois que vous savez lire un emplacement, vous pouvez aller au magasin et regarder les plantes différemment. Vous ne demandez plus \"laquelle est belle?\" — vous demandez \"laquelle correspond à mon emplacement?\".\n\nC'est une démarche moins impulsive, mais elle transforme radicalement le taux de réussite. Les leçons suivantes vous donneront le vocabulaire des plantes spécifiques — celles qui sont vraiment robustes, celles qui sont vendues comme faciles mais ne le sont pas, et comment les inspecter à l'achat."
         }
       ]
     }

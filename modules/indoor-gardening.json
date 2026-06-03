@@ -3,7 +3,7 @@
   "id": "indoor-gardening",
   "title": "Jardinage d'intérieur",
   "discipline": "Gardening",
-  "version": 6,
+  "version": 7,
   "levels": [
     { "level": 1, "xpRequired": 0, "title": "Débutant" },
     { "level": 2, "xpRequired": 180, "title": "Apprenti jardinier d'intérieur" },
@@ -1176,6 +1176,234 @@
               "explanation": "Un pot beaucoup plus grand contient trop de substrat qui reste humide trop longtemps autour des racines — risque sérieux de pourriture. Un pot \"légèrement plus grand\" donne à la plante l'espace de pousser sans noyer ses racines. Même taille ne résout pas le problème qui justifiait le rempotage. Plus petit serait absurde sauf cas exceptionnel (rempotage thérapeutique après pourriture racinaire majeure)."
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l14-diagnostiquer",
+      "title": "Diagnostiquer une plante qui souffre",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Tôt ou tard, une de vos plantes va vous envoyer un signal de détresse. Des feuilles jaunissent, des bords brunissent, la plante s'affaisse, ou des feuilles tombent inexplicablement.\n\nLa première réaction du débutant est presque toujours la mauvaise: arroser plus, fertiliser, déplacer la plante. Ces interventions, ajoutées à un problème qu'on n'a pas encore identifié, transforment un problème simple en plante morte.\n\nCette leçon vous donne une méthode de diagnostic systématique. Apprendre à lire les signaux, à formuler une hypothèse, et à intervenir uniquement après avoir compris."
+        },
+        {
+          "type": "text",
+          "markdown": "## La méthode en trois étapes\n\n**1. Observer sans agir.** Regardez la plante entière, pas seulement les feuilles abîmées. Où se situent les feuilles touchées (en bas, en haut, partout)? Sont-elles dispersées ou groupées? Quelle est la couleur exacte (jaune pâle, jaune vif, marron, noir)? La texture (molle, sèche, tachée)? Notez ces observations avant d'aller plus loin.\n\n**2. Vérifier l'environnement et le substrat.** Avant de soupçonner la plante, soupçonnez les conditions. Humidité du substrat (test du doigt + poids). Quand est le dernier arrosage? Position vs lumière (la plante a-t-elle été déplacée récemment? Le radiateur a-t-il été allumé?). Température et humidité ambiantes ont-elles changé?\n\n**3. Formuler une hypothèse, puis ajuster une seule variable.** Ne changez jamais deux choses à la fois — vous ne saurez pas laquelle a aidé. Si votre hypothèse est \"trop d'eau\", arrêtez d'arroser et observez quelques jours. Si l'hypothèse est \"air trop sec\", déplacez la plante à un endroit plus humide sans rien changer d'autre."
+        },
+        {
+          "type": "text",
+          "markdown": "## Les quatre symptômes les plus fréquents\n\nLa plupart des problèmes des débutants se rangent dans quatre catégories. Apprendre à les distinguer résout 80% des situations:",
+          "svg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg'><rect x='8' y='10' width='148' height='95' rx='8' fill='#1B1E24' stroke='#5BC1C7' stroke-width='1'/><text x='82' y='30' font-size='11' fill='#5BC1C7' text-anchor='middle' font-family='sans-serif' font-weight='600'>FEUILLES JAUNES</text><text x='82' y='48' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>En bas de la plante,</text><text x='82' y='62' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>molles, tombent toutes seules.</text><text x='82' y='80' font-size='9' fill='#EF9F27' text-anchor='middle' font-family='sans-serif' font-weight='600'>Cause principale:</text><text x='82' y='94' font-size='9' fill='#EF9F27' text-anchor='middle' font-family='sans-serif'>excès d'eau</text><rect x='164' y='10' width='148' height='95' rx='8' fill='#1B1E24' stroke='#5BC1C7' stroke-width='1'/><text x='238' y='30' font-size='11' fill='#5BC1C7' text-anchor='middle' font-family='sans-serif' font-weight='600'>BORDS BRUNS</text><text x='238' y='48' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>Sèche, croustillante,</text><text x='238' y='62' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>centre de la feuille intact.</text><text x='238' y='80' font-size='9' fill='#EF9F27' text-anchor='middle' font-family='sans-serif' font-weight='600'>Cause principale:</text><text x='238' y='94' font-size='9' fill='#EF9F27' text-anchor='middle' font-family='sans-serif'>air trop sec</text><rect x='8' y='117' width='148' height='95' rx='8' fill='#1B1E24' stroke='#5BC1C7' stroke-width='1'/><text x='82' y='137' font-size='11' fill='#5BC1C7' text-anchor='middle' font-family='sans-serif' font-weight='600'>FEUILLES MOLLES</text><text x='82' y='155' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>Toute la plante s'affaisse,</text><text x='82' y='169' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>feuilles pendantes.</text><text x='82' y='187' font-size='9' fill='#EF9F27' text-anchor='middle' font-family='sans-serif' font-weight='600'>Cause principale:</text><text x='82' y='201' font-size='9' fill='#EF9F27' text-anchor='middle' font-family='sans-serif'>manque d'eau (à vérifier)</text><rect x='164' y='117' width='148' height='95' rx='8' fill='#1B1E24' stroke='#5BC1C7' stroke-width='1'/><text x='238' y='137' font-size='11' fill='#5BC1C7' text-anchor='middle' font-family='sans-serif' font-weight='600'>CHUTE SOUDAINE</text><text x='238' y='155' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>Beaucoup de feuilles</text><text x='238' y='169' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>tombent en peu de jours.</text><text x='238' y='187' font-size='9' fill='#EF9F27' text-anchor='middle' font-family='sans-serif' font-weight='600'>Cause principale:</text><text x='238' y='201' font-size='9' fill='#EF9F27' text-anchor='middle' font-family='sans-serif'>changement d'environnement</text></svg>",
+          "caption": "Les quatre symptômes de référence et leurs causes les plus probables."
+        },
+        {
+          "type": "text",
+          "markdown": "## Le piège du \"feuilles jaunes = manque d'eau\"\n\nC'est l'erreur de diagnostic la plus coûteuse en plantes mortes. Des feuilles qui jaunissent et tombent à la base de la plante — particulièrement chez des plantes tropicales — sont presque toujours le signe d'un **excès** d'eau, pas d'un manque.\n\nLa logique est contre-intuitive: les racines pourrissent par saturation, ne peuvent plus alimenter la plante, et les feuilles dépérissent comme si la plante avait soif. Si vous arrosez en réaction, vous aggravez la pourriture.\n\n**Le test discriminant:** vérifiez l'humidité du substrat. Si le substrat est encore humide quelques jours après le dernier arrosage et que des feuilles jaunissent — c'est l'excès d'eau. Arrêtez d'arroser et laissez le substrat sécher beaucoup plus que d'habitude avant le prochain arrosage. Si la plante était dans un cache-pot sans drainage, sortez-la immédiatement."
+        },
+        {
+          "type": "scenario",
+          "title": "Diagnostiquer trois plantes en difficulté",
+          "context": "Vous découvrez trois plantes en difficulté dans votre logement:\n\n**Plante 1 — Pothos** — Les feuilles à la base de la plante jaunissent, devenant molles. La plante est dans un cache-pot décoratif sans visible de trou de drainage. Vous arrosez environ une fois par semaine.\n\n**Plante 2 — Monstera** — Les bords des feuilles sont bruns et secs, croustillants au toucher. Le centre des feuilles est normal. On est en plein hiver, le chauffage central tourne fort. La plante est dans un salon orienté sud, à 1,5 m d'un radiateur.\n\n**Plante 3 — Ficus benjamina** — En quelques jours, la plante a perdu un tiers de ses feuilles. Vous avez récemment réorganisé le salon et déplacé la plante de la fenêtre est à un coin plus éloigné de la lumière.",
+          "questions": [
+            {
+              "id": "ind-l14-sq1",
+              "stem": "Quelle est la cause la plus probable du problème de la Plante 1 (Pothos, feuilles jaunes à la base)?",
+              "options": [
+                "Manque d'eau — il faut arroser davantage.",
+                "Excès d'eau aggravé par le cache-pot sans drainage.",
+                "Manque de lumière dans le salon.",
+                "Manque d'engrais — il faut fertiliser."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le tableau classique de la pourriture racinaire: feuilles jaunes à la base, molles. Le cache-pot sans drainage est le facteur aggravant — l'eau s'y accumule à chaque arrosage et le substrat reste saturé. La bonne intervention: sortir la plante du cache-pot, vérifier l'état des racines, laisser sécher le substrat beaucoup plus longtemps que d'habitude avant le prochain arrosage."
+            },
+            {
+              "id": "ind-l14-sq2",
+              "stem": "Quelle est la cause la plus probable du problème de la Plante 2 (Monstera, bords bruns)?",
+              "options": [
+                "Excès d'eau — diminuer l'arrosage.",
+                "Air trop sec causé par le chauffage et la proximité du radiateur.",
+                "Trop de lumière directe en plein sud — la plante brûle.",
+                "Carence en magnésium — appliquer un engrais foliaire."
+              ],
+              "correctIndex": 1,
+              "explanation": "Les bords bruns et secs sur des feuilles dont le centre reste normal sont le signal caractéristique de l'air trop sec — particulièrement en hiver avec le chauffage central. La Monstera vient des forêts tropicales humides; un air à 30% d'humidité avec un radiateur proche dépasse sa tolérance. Solutions: éloigner du radiateur, regrouper avec d'autres plantes, ou déplacer dans une pièce plus humide. Si la pièce sud reçoit une lumière vive mais filtrée, c'est en réalité plutôt bénéfique pour la Monstera."
+            },
+            {
+              "id": "ind-l14-sq3",
+              "stem": "Quelle est la cause la plus probable du problème de la Plante 3 (Ficus benjamina, chute massive)?",
+              "options": [
+                "Excès d'eau récent.",
+                "Le déplacement récent à un emplacement moins lumineux.",
+                "Une attaque parasitaire.",
+                "Une carence nutritionnelle apparue subitement."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le Ficus benjamina est notoirement intolérant aux changements — il perd massivement ses feuilles à tout déménagement, surtout vers un emplacement moins lumineux. C'est sa façon de protester. La bonne intervention: ne pas le déplacer à nouveau (cela aggraverait), stabiliser les conditions du nouvel emplacement, et patienter. Les feuilles repousseront en quelques mois si l'emplacement convient à long terme. Si l'emplacement est vraiment trop sombre, accepter de retourner la plante à sa position originale."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Quand consulter (ou abandonner)\n\nCertaines situations dépassent le diagnostic de débutant:\n\n- **Pourriture noire à la base de la tige** qui remonte: souvent impossible à sauver, la plante est probablement perdue.\n- **Parasites multiples résistants** au traitement: parfois plus efficace de jeter la plante pour protéger les autres.\n- **Plante qui ne récupère pas après 4-6 semaines de correction** d'une cause identifiée: soit le diagnostic est faux, soit les dégâts sont irréversibles.\n\nAccepter de perdre une plante fait partie de l'apprentissage. Mieux vaut analyser ce qui a échoué que de s'épuiser à sauver l'insauvable. Et l'analyse rétrospective — \"qu'aurais-je dû voir plus tôt?\" — est l'une des choses qui transforme un débutant en jardinier d'intérieur compétent."
+        }
+      ]
+    },
+    {
+      "id": "ind-l15-rythme-annuel",
+      "title": "Le rythme annuel d'une plante d'intérieur",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Vos plantes d'intérieur, même tropicales, suivent un rythme annuel. Pas exactement les saisons extérieures suisses — leurs ancêtres vivaient près de l'équateur — mais elles répondent à la lumière disponible, à la température ambiante, et au cycle du chauffage.\n\nComprendre ce rythme transforme votre relation avec vos plantes: vous arrêtez d'attendre la même croissance toute l'année, et vous adaptez vos soins à ce que la plante fait réellement à chaque période. C'est ce qui distingue le calendrier rigide \"arroser tous les lundis\" du soin observationnel qui marche vraiment."
+        },
+        {
+          "type": "timeline",
+          "title": "Le cycle annuel à Zürich",
+          "events": [
+            {
+              "id": "ev1",
+              "marker": "Mars — Avril",
+              "title": "Reprise de croissance",
+              "description": "La lumière augmente sensiblement. Vos plantes recommencent à produire de nouvelles feuilles. C'est le meilleur moment pour rempoter si nécessaire, et pour reprendre la fertilisation (à demi-dose au début, dose normale après quelques semaines). Augmentez progressivement la fréquence d'arrosage à mesure que la croissance accélère."
+            },
+            {
+              "id": "ev2",
+              "marker": "Mai — Août",
+              "title": "Croissance active",
+              "description": "Pic de croissance. Les plantes ont besoin de plus d'eau (le substrat sèche en quelques jours plutôt qu'en une semaine), de plus de nutriments (fertilisation toutes les 2-3 semaines), et tolèrent mieux les manipulations (boutures, divisions). Surveillez l'humidité de l'air en cas de canicule prolongée — un ventilateur ou la climatisation peut assécher l'air."
+            },
+            {
+              "id": "ev3",
+              "marker": "Septembre — Octobre",
+              "title": "Ralentissement progressif",
+              "description": "La lumière baisse, la croissance ralentit visiblement. Réduisez progressivement la fréquence d'arrosage (le substrat sèche moins vite), arrêtez de fertiliser à la fin d'octobre. C'est le moment de nettoyer les feuilles (poussière) et de regrouper les plantes les plus sensibles avant que le chauffage ne s'allume."
+            },
+            {
+              "id": "ev4",
+              "marker": "Novembre — Février",
+              "title": "Repos végétatif",
+              "description": "La plante ralentit fortement, voire s'arrête de pousser. Arrosez beaucoup moins souvent — pour beaucoup de plantes, toutes les 2-3 semaines suffit. Ne fertilisez pas. Surveillez les bords bruns (air sec du chauffage) et déplacez si nécessaire les plantes loin des radiateurs. Évitez tout rempotage et toute manipulation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce que ce rythme implique concrètement\n\nLa même plante a des besoins très différents selon la saison:\n\n**En été**, votre Pothos peut demander un arrosage tous les 4-5 jours. **En hiver**, le même Pothos peut tenir 10-14 jours entre arrosages. C'est la même plante, dans le même pot, au même endroit — mais son métabolisme tourne au ralenti et ses besoins s'effondrent.\n\nC'est pourquoi le calendrier fixe ne marche pas: il ignore ce changement saisonnier énorme. Les méthodes d'observation (test du doigt, poids du pot) s'adaptent automatiquement parce qu'elles mesurent ce qui se passe vraiment dans le substrat."
+        },
+        {
+          "type": "flashcard",
+          "title": "Quatre principes saisonniers",
+          "cards": [
+            {
+              "id": "ind-l15-fc1",
+              "front": "Pourquoi arroser beaucoup moins en hiver?",
+              "back": "La croissance est ralentie ou arrêtée (moins de lumière, repos végétatif). La plante consomme et évapore beaucoup moins d'eau. Un substrat qui sèche en 4 jours en été peut prendre 14 jours en hiver — d'où l'importance d'observer plutôt que de suivre un calendrier."
+            },
+            {
+              "id": "ind-l15-fc2",
+              "front": "Quand fertiliser, quand arrêter?",
+              "back": "Reprendre la fertilisation au printemps (mars), à demi-dose au début. Fertiliser toutes les 2-3 semaines en pleine croissance (mai-août). Espacer en septembre. Arrêter complètement de novembre à février. Une plante en repos végétatif ne peut pas utiliser les nutriments — fertiliser en hiver les accumule à des doses toxiques."
+            },
+            {
+              "id": "ind-l15-fc3",
+              "front": "Quel est le meilleur moment de l'année pour rempoter?",
+              "back": "Le printemps (mars-avril), au début de la reprise de croissance. La plante récupère bien du stress du rempotage et recommence à pousser dans son nouveau substrat. Rempoter en hiver est possible mais lent à se résorber; rempoter en plein été est risqué (croissance déjà investie ailleurs)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l15-q1",
+              "stem": "On est en janvier. Votre Pothos n'a pas eu besoin d'eau depuis deux semaines, le substrat est encore humide. Vous décidez quand même d'arroser \"pour le rythme\". Quel est le risque?",
+              "options": [
+                "Aucun — un arrosage régulier reste bénéfique.",
+                "Vous risquez de provoquer une pourriture racinaire en saturant un substrat encore humide.",
+                "La plante va trop pousser pour la saison.",
+                "Le substrat va se compacter trop vite."
+              ],
+              "correctIndex": 1,
+              "explanation": "L'erreur la plus fréquente en hiver: arroser \"par habitude\" alors que la plante consomme à peine. Le substrat déjà humide ne sèche pas, l'eau ajoutée crée la saturation, et la pourriture racinaire s'installe — souvent sans symptômes visibles avant des semaines, quand les dégâts sont irréversibles. En hiver, observez la plante et le substrat: si rien n'indique le besoin d'eau, n'arrosez pas."
+            },
+            {
+              "id": "ind-l15-q2",
+              "stem": "Votre Zamioculcas a parfaitement poussé tout l'été. En novembre, vous remarquez qu'il ne produit plus de nouvelles feuilles depuis plusieurs semaines. Quelle est la bonne réaction?",
+              "options": [
+                "Ajouter de l'engrais pour relancer la croissance.",
+                "Le déplacer à un endroit plus lumineux.",
+                "Ne rien changer — c'est le ralentissement saisonnier normal.",
+                "Le rempoter dans un pot plus grand."
+              ],
+              "correctIndex": 2,
+              "explanation": "L'arrêt de croissance en automne-hiver est exactement ce qui doit arriver. Le Zamioculcas se met en repos végétatif. Toute intervention (fertilisation, déplacement, rempotage) à ce moment-là ajoute du stress sans bénéfice et peut au contraire endommager la plante. La bonne réaction est de réduire l'arrosage en conséquence et d'attendre le printemps pour voir reprendre la croissance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l16-equipement",
+      "title": "Équipement nécessaire — votre liste d'achat raisonnée",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Vous avez maintenant les connaissances pour jardiner en intérieur. Cette dernière leçon compile l'équipement mentionné tout au long du module, classé par priorité d'achat. L'idée est de partir léger: l'essentiel suffit pour commencer, et le reste peut s'ajouter au fur et à mesure.\n\nLa tentation du débutant est d'acheter beaucoup au début. C'est contre-productif: vous accumulez des objets que vous n'utilisez pas, et vous payez pour des équipements dont vous découvrirez plus tard qu'ils ne vous conviennent pas. Commencez minimal, ajoutez en fonction du besoin réel."
+        },
+        {
+          "type": "compare",
+          "title": "Les trois niveaux d'équipement",
+          "items": [
+            { "id": "ess", "label": "Essentiel" },
+            { "id": "rec", "label": "Recommandé" },
+            { "id": "opt", "label": "Optionnel" }
+          ],
+          "attributes": [
+            {
+              "id": "what",
+              "label": "Ce que c'est",
+              "values": [
+                "Sans ça, vous ne pouvez pas démarrer correctement",
+                "Vous y arrivez sans, mais ça simplifie vraiment la vie",
+                "Utile dans des cas précis, pas pour tout le monde"
+              ]
+            },
+            {
+              "id": "when",
+              "label": "Quand acheter",
+              "values": [
+                "Avant ou en même temps que votre première plante",
+                "Dans les premiers mois, à mesure que vous comprenez vos besoins",
+                "Plus tard, si une situation spécifique le justifie"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Essentiel — la liste de démarrage minimale\n\n**Arrosoir à long bec.** Permet d'arroser précisément le substrat sans mouiller les feuilles ni les meubles environnants. Le \"long bec\" matters: un arrosoir de jardin ordinaire est trop encombrant en intérieur. Comptez environ 15-25 CHF pour un modèle correct.\n\n**Soucoupes adaptées aux pots.** Une soucoupe par plante, dimensionnée au pot. Évite que l'eau d'arrosage tache vos meubles et permet d'observer ce qui s'écoule. Choisissez des soucoupes plates plutôt que profondes — moins de risque d'eau stagnante oubliée.\n\n**Substrat universel pour plantes d'intérieur.** Un sac de 5-10 L suffit pour démarrer plusieurs plantes. Évitez les substrats premier prix qui peuvent être très tourbeux et se compacter rapidement.\n\n**Quelques pots avec trous de drainage.** En terre cuite ou en plastique, peu importe — mais avec des trous. Si vous craquez sur un cache-pot décoratif sans trous, gardez la plante dans son pot intérieur en plastique et placez le tout dans le cache-pot.\n\nCe kit de démarrage représente environ 50-70 CHF pour 3-4 plantes."
+        },
+        {
+          "type": "text",
+          "markdown": "## Recommandé — à acheter dans les premiers mois\n\n**Application smartphone de mesure de lumière** (gratuite). Téléchargez \"Lux Light Meter\" ou équivalent. C'est gratuit et change vraiment votre capacité à évaluer vos emplacements.\n\n**Vaporisateur d'eau.** Utile pour brumiser les plantes sensibles à l'humidité (en hiver surtout), pour nettoyer les feuilles, et pour appliquer des traitements anti-parasites. 5-10 CHF.\n\n**Bâtonnets en bois (type pic à brochette)** pour vérifier l'humidité en profondeur du substrat — méthode du \"bâtonnet sec\" complémentaire au test du doigt. Coût négligeable.\n\n**Engrais liquide universel** pour plantes vertes. Une bouteille dure très longtemps (vous utilisez à demi-dose, toutes les 2-3 semaines en saison de croissance). 10-15 CHF.\n\n**Sécateur ou ciseaux propres** pour tailler les feuilles mortes et faire des boutures. Pas besoin d'un outil pro: une paire de ciseaux fins suffit. Les essuyer à l'alcool entre deux plantes évite de transmettre des maladies."
+        },
+        {
+          "type": "text",
+          "markdown": "## Optionnel — selon votre situation\n\n**Luxmètre dédié** (à partir d'une vingtaine de francs). Plus précis qu'une application smartphone. Utile si vous envisagez de cultiver des plantes exigeantes en lumière (orchidées, Ficus lyrata) et voulez optimiser leur emplacement précisément.\n\n**Hygromètre/thermomètre** (15-30 CHF). Affiche l'humidité et la température ambiantes. Très utile pour comprendre votre logement, surtout en hiver. Recommandé si vous remarquez des problèmes de bords bruns récurrents — il révèle si c'est vraiment un problème d'humidité.\n\n**Humidificateur.** Seulement si vous voulez vraiment cultiver des plantes très exigeantes en humidité (Calathea, fougères tropicales) et que vos pièces sont chroniquement sèches. Coût variable (30-200 CHF). Pour la plupart des débutants, regrouper les plantes ou les déplacer dans une salle de bain humide suffit.\n\n**Lampes horticoles.** Pour des emplacements vraiment sous-éclairés (cave, pièce sans fenêtre) ou pour des plantes exigeantes en lumière dans un logement sombre. Le matériel s'est démocratisé (40-150 CHF pour des lampes LED correctes) mais demande un peu d'apprentissage technique. À considérer après plusieurs mois d'expérience."
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce que vous n'avez pas besoin d'acheter\n\nQuelques achats que les jardineries pousseront mais qui sont rarement utiles pour un débutant:\n\n- **Billes d'argile au fond du pot** — l'idée d'améliorer le drainage est fausse en pratique (cela crée une zone perchée d'humidité); préférez un pot avec de bons trous et un substrat de qualité.\n- **Eau \"spéciale plantes\"** vendue en bouteille — l'eau du robinet, ou de pluie pour les plantes sensibles au calcaire, suffit toujours.\n- **Tuteurs élaborés** au début — la plupart de vos premières plantes (Pothos, Sansevieria, Zamioculcas) n'en ont pas besoin.\n- **Pulvérisateurs de \"brillance foliaire\"** — bouchent les pores des feuilles et nuisent à la plante. Un chiffon humide nettoie les feuilles aussi bien.\n\nEn cas de doute sur un produit qu'on vous propose en magasin: revenez à la question \"de quel problème concret est-ce que je cherche la solution?\". Si vous n'avez pas le problème, vous n'avez pas besoin du produit."
+        },
+        {
+          "type": "text",
+          "markdown": "## Conclusion du module\n\nVous avez terminé. Vous avez les concepts (lumière, eau, substrat, environnement), les méthodes (lire un emplacement, choisir une plante, arroser correctement, diagnostiquer), et le matériel pour démarrer.\n\nLe plus important maintenant n'est pas de relire ce module. C'est d'**aller acheter une plante et de l'observer pendant quelques mois**. Le savoir-faire vient de la pratique, pas de la théorie. Commencez avec un Pothos. Observez quotidiennement. Vous apprendrez plus en un trimestre de pratique qu'en relisant trois fois ce module.\n\nEt si une plante meurt, ce n'est pas un échec — c'est une leçon. La question utile n'est pas \"comment éviter cela?\" mais \"qu'est-ce que cette plante m'a appris?\"."
         }
       ]
     }

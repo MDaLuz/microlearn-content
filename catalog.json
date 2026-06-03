@@ -40,7 +40,7 @@
       "discipline": "Gardening",
       "description": "Comprendre ce dont les plantes d'intérieur ont vraiment besoin, et installer chez soi des plantes qui prospèrent.",
       "file": "modules/indoor-gardening.json",
-      "version": 5,
+      "version": 6,
       "lessonCount": 16,
       "estimatedMinutes": 90,
       "accentColor": "#639922"

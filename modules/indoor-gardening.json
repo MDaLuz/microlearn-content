@@ -3,7 +3,7 @@
   "id": "indoor-gardening",
   "title": "Jardinage d'intérieur",
   "discipline": "Gardening",
-  "version": 5,
+  "version": 6,
   "levels": [
     { "level": 1, "xpRequired": 0, "title": "Débutant" },
     { "level": 2, "xpRequired": 180, "title": "Apprenti jardinier d'intérieur" },
@@ -873,6 +873,309 @@
         {
           "type": "text",
           "markdown": "## La règle du \"ne pas acheter aujourd'hui\"\n\nSi vous avez le moindre doute sur une plante, ne l'achetez pas. Une jardinerie reçoit de nouveaux arrivages chaque semaine — revenez dans quelques jours, regardez les nouvelles plantes. Achetez une plante saine plutôt que de \"sauver\" une plante en difficulté: vous êtes débutant, le sauvetage demande des compétences que vous n'avez pas encore.\n\nCe principe s'applique aussi à la quantité: il vaut mieux acheter une plante saine que trois plantes douteuses. Une bonne plante bien comprise apprend plus qu'un cimetière de trois mois."
+        }
+      ]
+    },
+    {
+      "id": "ind-l11-48-premieres-heures",
+      "title": "L'arrivée à la maison: les 48 premières heures",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Vous rentrez du magasin avec une plante. C'est tentant de la considérer comme un nouvel objet de votre logement, à intégrer immédiatement: la rempoter dans un beau pot, l'arroser pour bien faire, la mettre à sa place décidée.\n\nNe faites rien de tout cela.\n\nUne plante qui vient d'arriver chez vous est dans un état de stress. Elle a quitté un environnement contrôlé (la serre, puis le magasin) et doit s'acclimater à votre logement — la lumière différente, l'humidité différente, peut-être la température différente. Pendant cette période, **la stabilité prime sur tout le reste**."
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce qu'il faut faire (et ne pas faire) immédiatement\n\nLes premières 48 heures sont une période d'observation, pas d'action. Voici le bon protocole:\n\n**À faire:**\n- Poser la plante à son emplacement prévu (vous avez fait votre lecture d'emplacement avant l'achat, idéalement).\n- Vérifier l'humidité du substrat avec le doigt. Si le substrat est très sec, arroser modérément — pas un détrempage complet, juste de quoi soulager. Si le substrat est humide, ne rien faire.\n- Observer la plante. Les feuilles tombent-elles? Y a-t-il des signes de parasites apparus depuis l'achat? Les nouvelles pousses tiennent-elles?\n\n**À ne pas faire:**\n- **Ne pas rempoter** dans les premières semaines (et idéalement pas avant un mois). Un rempotage est lui-même un stress; cumulé au stress d'acclimatation, c'est trop pour la plante.\n- **Ne pas fertiliser** dans le premier mois. La plante a été fertilisée intensivement en serre; elle a des réserves. Ajouter de l'engrais à une plante stressée empire les choses.\n- **Ne pas déplacer** la plante d'un endroit à l'autre pour \"essayer\". Choisissez un emplacement et tenez-vous-y au moins deux semaines.\n- **Ne pas paniquer** si quelques feuilles tombent. C'est attendu."
+        },
+        {
+          "type": "timeline",
+          "title": "À quoi s'attendre les premières semaines",
+          "events": [
+            {
+              "id": "ev1",
+              "marker": "Jour 1-2",
+              "title": "Période d'observation",
+              "description": "Pas d'action. Vérifier l'humidité du substrat, observer le feuillage, laisser la plante s'installer."
+            },
+            {
+              "id": "ev2",
+              "marker": "Semaine 1",
+              "title": "Premiers signes d'acclimatation",
+              "description": "Quelques feuilles peuvent tomber (surtout chez Ficus, Schefflera). C'est normal. Continuez à observer sans intervenir au-delà d'un arrosage modéré quand nécessaire."
+            },
+            {
+              "id": "ev3",
+              "marker": "Semaine 2-3",
+              "title": "Stabilisation",
+              "description": "La chute de feuilles ralentit ou s'arrête. Le rythme d'arrosage commence à se dessiner: vous notez à quel intervalle le substrat sèche."
+            },
+            {
+              "id": "ev4",
+              "marker": "Semaine 4-6",
+              "title": "Reprise de croissance",
+              "description": "Vous voyez apparaître des nouvelles feuilles ou des nouvelles pousses. La plante est acclimatée. C'est seulement maintenant qu'on peut envisager un rempotage si nécessaire."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce qui peut justifier une intervention immédiate\n\nDeux exceptions à la règle \"ne rien faire\":\n\n**Parasites visibles.** Si vous découvrez à la maison des parasites que vous n'aviez pas vus en magasin (cochenilles, araignées rouges, pucerons), isolez la plante immédiatement — éloignez-la de toute autre plante — et traitez. Ne pas traiter, c'est garantir une contamination de votre collection naissante.\n\n**Pot bouché ou inadéquat.** Si la plante est dans un pot sans trous de drainage (très fréquent en magasin: pot décoratif sans trous), il faut soit percer le pot, soit la rempoter rapidement dans un pot adéquat. Sans drainage, l'arrosage devient impossible à gérer et la pourriture racinaire est presque garantie.\n\nDans ces deux cas, agir vite est moins risqué que d'attendre."
+        },
+        {
+          "type": "flashcard",
+          "title": "Les trois règles d'or des 48 premières heures",
+          "cards": [
+            {
+              "id": "ind-l11-fc1",
+              "front": "Pourquoi ne pas rempoter une plante immédiatement après l'achat?",
+              "back": "Parce que l'acclimatation est déjà un stress. Cumuler un rempotage à ce stress dépasse souvent la capacité d'adaptation de la plante. Attendre 4 à 6 semaines, jusqu'à voir des signes de reprise de croissance, avant d'envisager un rempotage."
+            },
+            {
+              "id": "ind-l11-fc2",
+              "front": "Que signifient quelques feuilles qui tombent dans la première semaine?",
+              "back": "C'est presque toujours l'acclimatation normale, surtout pour les Ficus et plantes sensibles aux changements. Ce n'est pas un signal d'erreur de votre part et ce n'est pas le moment d'arroser plus, de fertiliser, ou de déplacer la plante."
+            },
+            {
+              "id": "ind-l11-fc3",
+              "front": "Quelles deux situations justifient une intervention immédiate à l'arrivée?",
+              "back": "(1) La découverte de parasites — isoler la plante et traiter immédiatement. (2) Un pot sans trous de drainage — percer ou rempoter rapidement pour éviter la pourriture racinaire."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l11-q1",
+              "stem": "Vous achetez un Pothos et le ramenez chez vous. Que faites-vous dans les deux premiers jours?",
+              "options": [
+                "Vous le rempotez dans un pot plus joli pour qu'il se sente bien dans son nouveau foyer.",
+                "Vous lui donnez un grand arrosage et un peu d'engrais pour bien démarrer.",
+                "Vous le placez à son emplacement prévu, vérifiez l'humidité du substrat, et l'observez sans rien faire d'autre.",
+                "Vous essayez plusieurs emplacements pour voir lequel lui plaît le mieux."
+              ],
+              "correctIndex": 2,
+              "explanation": "Les premières 48 heures sont une période d'observation. Rempoter, fertiliser, ou déplacer la plante ajoute du stress à un organisme déjà en cours d'acclimatation. La bonne attitude est de poser la plante à son emplacement, vérifier l'humidité, et observer comment elle réagit. Les interventions viennent plus tard, après stabilisation."
+            },
+            {
+              "id": "ind-l11-q2",
+              "stem": "Trois jours après son arrivée, votre nouveau Ficus a perdu six ou sept feuilles. Que faites-vous?",
+              "options": [
+                "Vous arrosez davantage pour compenser le stress.",
+                "Vous rempotez immédiatement dans un meilleur substrat.",
+                "Vous le déplacez à un autre emplacement, plus lumineux.",
+                "Vous continuez à observer sans intervenir, sauf si l'humidité du substrat justifie un arrosage modéré."
+              ],
+              "correctIndex": 3,
+              "explanation": "Le Ficus est connu pour perdre ses feuilles à l'acclimatation — c'est sa réaction normale au changement d'environnement. Toutes les interventions \"correctives\" (sur-arroser, rempoter, déplacer) aggraveraient le stress. La bonne attitude est la patience: stabiliser les conditions et observer. Les feuilles repousseront en quelques mois si l'emplacement convient."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l12-arroser-correctement",
+      "title": "Arroser correctement",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "L'arrosage est la compétence centrale du jardinage d'intérieur. Maîtrisée, elle élimine 80% des problèmes que les débutants rencontrent. Mal pratiquée, elle tue plus de plantes que toutes les autres erreurs combinées.\n\nLa bonne nouvelle: arroser correctement n'est pas compliqué. C'est une question d'observation, pas de calendrier. Cette leçon vous donne les méthodes concrètes."
+        },
+        {
+          "type": "text",
+          "markdown": "## La règle fondamentale (rappel de la leçon 4)\n\nL'arrosage idéal suit un cycle: **détrempage complet → assèchement partiel → nouveau détrempage**. Jamais d'eau stagnante dans la soucoupe. Jamais d'arrosage parce que c'est lundi.\n\nLa question qui revient sans cesse est: **comment savoir quand arroser?** Trois méthodes, à utiliser en combinaison."
+        },
+        {
+          "type": "compare",
+          "title": "Trois méthodes pour savoir quand arroser",
+          "items": [
+            { "id": "finger", "label": "Test du doigt" },
+            { "id": "weight", "label": "Poids du pot" },
+            { "id": "calendar", "label": "Calendrier fixe" }
+          ],
+          "attributes": [
+            {
+              "id": "how",
+              "label": "Méthode",
+              "values": [
+                "Enfoncer le doigt 2-3 cm dans le substrat. Sec? Arroser. Humide? Attendre.",
+                "Soulever le pot avant et après arrosage. Apprendre la différence de poids.",
+                "Arroser chaque X jours, indépendamment de l'état du substrat."
+              ]
+            },
+            {
+              "id": "reliability",
+              "label": "Fiabilité",
+              "values": [
+                "Excellente pour la plupart des plantes et des pots",
+                "Excellente, particulièrement pour les pots opaques",
+                "Médiocre — ignore l'environnement réel"
+              ]
+            },
+            {
+              "id": "limits",
+              "label": "Limites",
+              "values": [
+                "Moins fiable sur les pots très grands ou les substrats spéciaux (cactus)",
+                "Demande quelques semaines pour calibrer son sens du poids",
+                "Risque élevé de sur-arrosage ou sous-arrosage selon la saison"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## La méthode recommandée: doigt + poids\n\nUtilisez les deux ensemble. Le test du doigt vous dit ce qui se passe **en surface** (les premiers centimètres du substrat). Le poids du pot vous dit ce qui se passe **dans toute la motte** (le pot entier).\n\nLes deux peuvent diverger: un substrat sec en surface mais humide en profondeur (pot grand, mauvaise circulation d'air) signifie que ce n'est pas encore le moment d'arroser. Un substrat humide en surface mais pot léger (pot petit, évaporation rapide) signifie qu'il faut peut-être arroser bientôt malgré l'apparence.\n\nApprenez le poids \"plein\" (juste après arrosage) et le poids \"sec\" (avant le prochain arrosage idéal) de vos pots dans les premières semaines. Vos doigts deviennent un capteur calibré."
+        },
+        {
+          "type": "text",
+          "markdown": "## La procédure d'arrosage correcte\n\nQuand vous décidez d'arroser, voici exactement comment faire:\n\n**1. Apportez la plante dans l'évier** ou la baignoire. Cela évite l'eau qui coule partout et facilite l'égouttage.\n\n**2. Arrosez lentement et abondamment**, à eau tiède (pas froide directement du robinet). Versez sur tout le substrat, pas seulement au pied de la plante. Continuez jusqu'à ce que l'eau commence à couler par les trous de drainage.\n\n**3. Laissez s'égoutter complètement**, idéalement 10 à 20 minutes. C'est là que la magie opère: l'eau qui s'écoule emporte les sels minéraux accumulés et permet à l'air de revenir dans le substrat.\n\n**4. Replacez la plante** sur sa soucoupe vide. Si de l'eau s'écoule encore dans la soucoupe les heures suivantes, videz-la.\n\n**Ne jamais laisser un pot tremper** dans une soucoupe d'eau plus de quelques minutes. C'est exactement ce qui crée la pourriture racinaire."
+        },
+        {
+          "type": "text",
+          "markdown": "## L'eau elle-même\n\nL'eau du robinet en Suisse est généralement utilisable pour la plupart des plantes — elle est de bonne qualité, peu chlorée. Deux exceptions:\n\n- **Les plantes sensibles au calcaire** (Calathea, fougères, orchidées, plantes carnivores) souffrent de l'eau dure. Utilisez de l'eau de pluie récupérée, de l'eau filtrée, ou de l'eau minérale faiblement minéralisée.\n- **L'eau très froide** (juste sortie du robinet en hiver) peut choquer les racines des plantes tropicales. Laissez l'eau reposer une heure dans un arrosoir avant utilisation — elle atteint la température ambiante.\n\nPour les autres plantes (Pothos, Sansevieria, Zamioculcas, Philodendron, et la plupart des plantes vertes courantes), l'eau du robinet tempérée convient parfaitement."
+        },
+        {
+          "type": "flashcard",
+          "title": "L'essentiel à retenir",
+          "cards": [
+            {
+              "id": "ind-l12-fc1",
+              "front": "Quelles sont les deux méthodes fiables pour savoir quand arroser?",
+              "back": "(1) Le test du doigt: enfoncer le doigt 2-3 cm dans le substrat — sec, arroser; humide, attendre. (2) Le poids du pot: soulever pour évaluer combien d'eau il contient. Utiliser les deux ensemble."
+            },
+            {
+              "id": "ind-l12-fc2",
+              "front": "Quelle est la procédure d'arrosage correcte?",
+              "back": "Apporter la plante à l'évier; arroser abondamment à eau tiède jusqu'à ce que l'eau coule par les trous; laisser s'égoutter 10-20 minutes; replacer sur soucoupe vide; ne jamais laisser tremper."
+            },
+            {
+              "id": "ind-l12-fc3",
+              "front": "Quand l'eau du robinet ne convient-elle pas?",
+              "back": "Pour les plantes sensibles au calcaire (Calathea, fougères, orchidées, plantes carnivores). Pour ces plantes, utiliser de l'eau de pluie, filtrée, ou minérale faiblement minéralisée. Pour les autres plantes courantes, l'eau du robinet tempérée convient."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l12-q1",
+              "stem": "Vous faites le test du doigt sur votre Pothos: les 2-3 premiers centimètres sont humides. Mais le pot vous semble léger quand vous le soulevez. Que faites-vous?",
+              "options": [
+                "Vous arrosez — le pot léger est le signal le plus fiable.",
+                "Vous n'arrosez pas — l'humidité de surface suffit.",
+                "Vous vérifiez plus en profondeur (un peu plus bas que le doigt) avant de décider.",
+                "Vous arrosez de manière très limitée, juste un peu d'eau."
+              ],
+              "correctIndex": 2,
+              "explanation": "Quand les deux indicateurs divergent, ce n'est pas le moment de deviner — c'est le moment de vérifier plus précisément. Un pot léger avec une surface humide peut signifier que le substrat est sec en profondeur (et que la plante a vraiment soif) ou simplement que le pot est petit et que la surface tient l'humidité. Insérer un bâtonnet en bois plus profondément dans le substrat tranche le débat: si le bâtonnet ressort sec, arrosez; sinon, attendez."
+            },
+            {
+              "id": "ind-l12-q2",
+              "stem": "Vous achetez un Calathea et vivez à Zürich avec une eau du robinet plutôt dure. Quelle stratégie d'arrosage adoptez-vous?",
+              "options": [
+                "Eau du robinet directe — c'est plus simple.",
+                "Eau de pluie récupérée ou eau filtrée — le Calathea déteste le calcaire.",
+                "Eau bouillie puis refroidie — cela enlève le calcaire.",
+                "Eau distillée pure — c'est la plus sûre."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le Calathea est notoirement sensible au calcaire — l'utilisation d'eau du robinet dure provoque rapidement le brunissement des bords des feuilles. L'eau de pluie ou filtrée est la solution pratique. L'eau bouillie n'élimine pas le calcaire (seuls les minéraux solubles à chaud précipitent — pas les sels de calcium). L'eau distillée pure est trop déminéralisée pour un usage régulier."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l13-rempoter",
+      "title": "Rempoter: quand, pourquoi, comment",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Beaucoup de débutants rempotent leurs plantes trop souvent — par instinct, ou parce qu'on leur a dit qu'il fallait \"rempoter régulièrement\". En réalité, **rempoter est un stress** pour la plante, et il ne faut le faire que quand c'est nécessaire.\n\nCette leçon vous apprend à lire les signaux qui justifient un rempotage, et à le faire correctement quand le moment vient."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pourquoi rempoter (et pourquoi pas)\n\nIl y a trois raisons légitimes de rempoter:\n\n**1. La plante est à l'étroit.** Les racines occupent tout le volume du pot et commencent à s'enrouler ou à sortir par les trous de drainage. La plante n'a plus de place pour grandir.\n\n**2. Le substrat est épuisé.** Au bout de 2 à 3 ans, même un bon substrat se compacte, perd sa structure aérée, et ne retient plus correctement l'eau ni les nutriments. Un substrat épuisé étouffe les racines même dans un pot de bonne taille.\n\n**3. Un problème spécifique** — pourriture racinaire à traiter, parasites du substrat à éliminer, pot inadéquat (sans drainage) à remplacer.\n\nIl n'y a **pas** d'obligation de rempoter à intervalle fixe. Une plante qui pousse bien dans son pot peut y rester plusieurs années."
+        },
+        {
+          "type": "timeline",
+          "title": "Les signaux qui annoncent qu'un rempotage approche",
+          "events": [
+            {
+              "id": "ev1",
+              "marker": "Signal précoce",
+              "title": "Croissance qui ralentit",
+              "description": "La plante produit moins de nouvelles feuilles qu'avant, ou de plus petite taille. Premier indice que les racines manquent peut-être d'espace."
+            },
+            {
+              "id": "ev2",
+              "marker": "Signal moyen",
+              "title": "Le substrat sèche très vite",
+              "description": "Vous devez arroser deux fois plus souvent qu'avant. Les racines occupent tellement de volume qu'elles absorbent toute l'eau presque immédiatement."
+            },
+            {
+              "id": "ev3",
+              "marker": "Signal tardif",
+              "title": "Racines visibles aux trous de drainage",
+              "description": "Des racines sortent par les trous du fond du pot, ou apparaissent à la surface du substrat. La plante demande clairement plus de place."
+            },
+            {
+              "id": "ev4",
+              "marker": "Signal urgent",
+              "title": "Pot déformé ou plante instable",
+              "description": "Le pot semble bombé par la pression des racines, ou la plante bascule. Là, il faut rempoter sans tarder."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Le bon moment dans l'année\n\nRempotez de **préférence au printemps**, au moment où la plante reprend sa croissance active après l'hiver. C'est le moment où elle récupère le mieux d'un stress.\n\nÉvitez de rempoter en plein hiver — la plante est en repos végétatif, ses racines ne repoussent pas activement, et le stress du rempotage prend plus de temps à se résorber.\n\nUne exception: si la pourriture racinaire est en cours ou si la plante est dans un pot vraiment inadéquat, rempotez immédiatement quelle que soit la saison. Mieux vaut un rempotage hivernal qu'une plante perdue."
+        },
+        {
+          "type": "text",
+          "markdown": "## Comment rempoter, étape par étape\n\n**1. Choisir le bon pot.** Un pot **légèrement plus grand** (2-4 cm de diamètre de plus). Un pot trop grand contient trop de substrat qui reste humide trop longtemps — risque de pourriture racinaire. Toujours un pot avec trous de drainage.\n\n**2. Préparer le substrat.** Substrat universel pour la plupart des plantes vertes; substrat cactus pour les succulentes; substrat orchidée pour les orchidées (ces deux derniers ne s'improvisent pas avec un substrat universel).\n\n**3. Sortir la plante de son ancien pot.** Renverser doucement le pot en soutenant la base de la plante. Si la plante résiste, tapoter les côtés du pot ou passer un couteau le long du bord intérieur. Ne jamais tirer brutalement sur la tige.\n\n**4. Inspecter la motte de racines.** Démêler doucement les racines extérieures avec les doigts. Couper les racines manifestement mortes (brunes, molles, qui se cassent). Garder les racines saines (blanches ou crème, fermes).\n\n**5. Préparer le nouveau pot.** Une couche de substrat frais au fond, juste assez pour que la plante soit à la même hauteur qu'avant (le collet — la jonction entre racines et tige — doit rester au niveau du substrat, jamais enterré).\n\n**6. Placer la plante et combler.** Verser du substrat tout autour, en tapotant légèrement pour éliminer les poches d'air, sans tasser trop fort (le substrat doit rester aéré).\n\n**7. Arroser modérément.** Pas un détrempage complet. Juste assez pour bien intégrer le nouveau substrat. Le détrempage normal viendra avec le prochain cycle d'arrosage régulier."
+        },
+        {
+          "type": "text",
+          "markdown": "## Après le rempotage\n\nLa plante peut sembler stressée pendant 1 à 2 semaines: croissance ralentie, parfois une ou deux feuilles qui jaunissent. C'est normal. Maintenez les conditions stables (lumière, température, humidité) et n'arrosez à nouveau que quand le substrat sèche, comme d'habitude.\n\nPas de fertilisation pendant 4-6 semaines après le rempotage — le nouveau substrat contient suffisamment de nutriments pour cette période, et fertiliser des racines en cours de réparation aggraverait les choses."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l13-q1",
+              "stem": "Votre Pothos est dans le même pot depuis 18 mois. La croissance ralentit, vous arrosez plus souvent qu'avant, et vous voyez deux racines sortir du trou de drainage. Que faites-vous?",
+              "options": [
+                "Vous rempotez immédiatement, même si on est en décembre.",
+                "Vous attendez le printemps pour rempoter, sauf signe de souffrance grave.",
+                "Vous ajoutez du substrat dans le pot actuel pour gagner du temps.",
+                "Vous coupez les racines qui sortent pour éviter de rempoter."
+              ],
+              "correctIndex": 1,
+              "explanation": "Tous les signaux indiquent qu'un rempotage est nécessaire — croissance ralentie, séchage rapide du substrat, racines visibles au drainage. Mais ce n'est pas urgent: la plante n'est pas en souffrance critique. Le printemps offre les meilleures conditions de récupération. Rempoter en décembre fonctionne, mais la plante mettra plus de temps à se remettre. Couper les racines qui dépassent est inutile et nocif; ajouter du substrat par-dessus ne résout pas le manque d'espace racinaire."
+            },
+            {
+              "id": "ind-l13-q2",
+              "stem": "Vous rempotez votre plante. Quelle taille de nouveau pot choisissez-vous?",
+              "options": [
+                "Beaucoup plus grand — la plante aura de la place pour grandir longtemps.",
+                "Légèrement plus grand (2-4 cm de diamètre de plus) que l'ancien.",
+                "Exactement la même taille — pourquoi changer?",
+                "Plus petit — pour limiter la croissance."
+              ],
+              "correctIndex": 1,
+              "explanation": "Un pot beaucoup plus grand contient trop de substrat qui reste humide trop longtemps autour des racines — risque sérieux de pourriture. Un pot \"légèrement plus grand\" donne à la plante l'espace de pousser sans noyer ses racines. Même taille ne résout pas le problème qui justifiait le rempotage. Plus petit serait absurde sauf cas exceptionnel (rempotage thérapeutique après pourriture racinaire majeure)."
+            }
+          ]
         }
       ]
     }

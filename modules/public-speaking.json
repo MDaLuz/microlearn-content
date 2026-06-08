@@ -3,7 +3,7 @@
   "id": "public-speaking",
   "title": "Prise de parole en public",
   "discipline": "Communication",
-  "version": 3,
+  "version": 4,
   "levels": [
     {
       "level": 1,
@@ -752,6 +752,263 @@
               "explanation": "Si un slide ne change rien à la présentation, le garder n'est pas neutre — il consomme l'attention de l'audience pour rien et dilue les slides qui méritent attention. Reformuler des slides intrinsèquement inutiles est rarement productif (souvent ils sont inutiles parce que le contenu qu'ils portent ne mérite pas un slide, pas parce qu'ils sont mal formulés). Demander un second avis est défensif et perd du temps — le test du slide retiré est diagnostique en lui-même. Supprimer franchement est la bonne réponse. La résistance vient du sentiment que \"j'ai déjà fait le travail\", mais le travail jeté est moins coûteux que le travail nuisible conservé."
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l10-donnees",
+      "title": "Présenter des données sans perdre l'audience",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Les présentations qui contiennent des données sont parmi les plus difficiles à réussir. Trop de chiffres tue l'attention; pas assez de chiffres affaiblit l'argument. Trop de précision écrase le message; trop de simplification déforme la réalité.\n\nLa difficulté supplémentaire est que beaucoup de présentateurs traitent les données comme si elles étaient l'argument. Elles ne le sont jamais. Les données sont la **preuve** d'un argument que le présentateur doit formuler. Sans cette formulation, l'audience reçoit des chiffres et reste sans savoir quoi en penser."
+        },
+        {
+          "type": "text",
+          "markdown": "## Le contexte avant le chiffre, jamais après\n\nLa règle la plus importante en présentation de données est celle de l'ordre: **le contexte arrive avant le chiffre, pas après**.\n\nMauvaise approche: *\"Notre churn est de 7,3% par mois. C'est élevé pour notre secteur, où la moyenne est de 4,1%.\"* L'audience entend 7,3% et n'a aucune idée si c'est bon ou mauvais. Elle attend la deuxième phrase pour comprendre. Pendant ces deux secondes d'attente, elle n'a pas vraiment intégré le 7,3% — elle a juste attendu le verdict.\n\nBonne approche: *\"La moyenne du secteur est de 4,1% de churn mensuel. Nous sommes à 7,3%.\"* L'audience reçoit d'abord le repère, puis le chiffre, et fait immédiatement la comparaison. Le 7,3% atterrit avec sa signification déjà intégrée.\n\nCe principe est simple à appliquer une fois qu'on l'a vu, et il transforme la lisibilité de toute présentation contenant des chiffres. La plupart des présentateurs font l'inverse parce qu'ils pensent comme un analyste (le chiffre d'abord, l'interprétation ensuite) plutôt que comme un communicant."
+        },
+        {
+          "type": "text",
+          "markdown": "## Arrondir, sans mentir\n\nLes chiffres précis se mémorisent mal. *\"Nous avons gagné 47'318 nouveaux clients ce trimestre\"* ne se grave pas; *\"47 mille\"* ou *\"environ 50 mille\"* se grave. La précision excessive est l'ennemie de la mémorisation.\n\nMais l'arrondi a une limite éthique: il ne doit pas changer la signification. Arrondir 47'318 à \"47 mille\" est correct; arrondir 47'318 à \"50 mille\" en présentation devant le conseil mais à \"45 mille\" en discussion avec l'équipe est manipulateur. Et arrondir un chiffre à un autre qui passe une barre symbolique (47% arrondi à \"presque la moitié\", ou pire \"environ 50%\") est trompeur si vous savez que la précision change l'interprétation.\n\nLa règle: arrondissez à la précision qui est utile à l'audience pour comprendre le point. Pas plus précis, mais pas moins honnête."
+        },
+        {
+          "type": "scenario",
+          "title": "Trois façons de présenter la même donnée",
+          "context": "Vous devez présenter à votre comité de direction la performance Q4 de votre produit phare. Les faits objectifs sont: 23'847 clients actifs en fin de trimestre, croissance de 8,3% par rapport au trimestre précédent (Q3: 22'020 clients actifs), pendant que le marché global de votre catégorie a cru de 3,1%.\n\nVoici trois façons de présenter ces mêmes faits:\n\n**Version A** — *\"Nous terminons Q4 avec 23'847 clients actifs, en croissance de 8,3% par rapport aux 22'020 clients de Q3, alors que le marché global de notre catégorie a cru de 3,1% sur la même période.\"*\n\n**Version B** — *\"Le marché de notre catégorie a cru de 3% ce trimestre. Notre produit a cru de 8% — presque trois fois plus vite.\"*\n\n**Version C** — *\"Nous avons gagné 1'827 clients nets ce trimestre. Sur une base de 22'020, c'est une croissance de 8,3%. À titre de comparaison, le marché a évolué de 3,1%.\"*",
+          "questions": [
+            {
+              "id": "ps-l10-sq1",
+              "stem": "Quelle version est la plus efficace pour l'oral devant le comité de direction?",
+              "options": [
+                "Version A — la plus complète et la plus précise.",
+                "Version B — contexte d'abord, chiffres arrondis, comparaison immédiate.",
+                "Version C — la plus rigoureuse analytiquement.",
+                "Toutes les trois sont équivalentes; le choix est une question de style."
+              ],
+              "correctIndex": 1,
+              "explanation": "La Version B applique trois principes corrects: contexte avant chiffre (le marché à 3% est posé en premier), arrondi honnête (8,3% devient 8% sans changer le sens), et formulation comparative explicite (\"presque trois fois plus vite\"). La Version A force l'audience à faire la comparaison mentalement (8,3% vs 3,1% — combien de fois?), ce qui consomme de l'attention. La Version C est analytiquement la plus rigoureuse mais oralement la plus dense — elle marche pour un document écrit, pas pour de l'oral."
+            },
+            {
+              "id": "ps-l10-sq2",
+              "stem": "Vous présentez les mêmes chiffres dans un document écrit destiné au conseil. Quelle version choisir?",
+              "options": [
+                "Version A — la précision est attendue dans un document écrit.",
+                "Version B — la simplicité doit prévaloir partout.",
+                "Version C — combine la précision et la comparaison.",
+                "Aucune n'est appropriée pour un document écrit."
+              ],
+              "correctIndex": 0,
+              "explanation": "Les contraintes de l'écrit et de l'oral sont différentes. À l'écrit, le lecteur peut relire, comparer mentalement à son rythme, et la précision ajoute de la crédibilité plutôt qu'elle ne pèse. La Version A est en réalité bonne pour un document écrit. La Version B perd en rigueur si elle remplace la version écrite — \"presque trois fois plus vite\" est précis à l'oral mais imprécis à l'écrit où on peut donner les vrais chiffres. Le principe général: même contenu, formulations différentes selon le canal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## L'incertitude qu'il faut signaler\n\nLes données ne sont presque jamais aussi précises que les chiffres le laissent paraître. Une croissance de 8,3% est calculée à partir de comptages clients qui ont leurs propres marges d'erreur (clients dormants qui sont comptés ou pas, doublons non détectés, retards de comptabilisation). Un sondage qui donne 67% d'approbation a une marge d'erreur de quelques points.\n\nLa plupart des présentations professionnelles ignorent cette incertitude et présentent les chiffres comme exacts. Cela marche tant que personne ne pose de questions; cela explose dès qu'un membre du comité, plus sophistiqué que les autres, demande \"quelle est la marge d'erreur?\".\n\nLa bonne pratique: si l'incertitude change l'interprétation, mentionnez-la brièvement. *\"Nous sommes à environ 67% d'approbation, avec une marge de plus ou moins 3 points — donc clairement majoritaire mais pas écrasant\"*. Si l'incertitude ne change pas l'interprétation, ne l'évoquez pas (vous diluez votre point sans bénéfice). Le jugement est de savoir quand l'incertitude compte."
+        },
+        {
+          "type": "text",
+          "markdown": "## Une statistique par slide\n\nPour les slides qui portent des données, la règle de densité de la leçon 9 s'applique de manière particulièrement stricte: **une statistique par slide**.\n\nPas un tableau de cinq lignes. Pas trois chiffres comparés. Un chiffre — le chiffre qui porte le point — affiché grand, avec éventuellement une légende minimale. La comparaison se fait à l'oral, pas sur le slide.\n\nL'exception légitime: un graphique unique qui porte une comparaison ou une évolution. Une courbe d'évolution mensuelle, un diagramme à barres comparant trois segments, une carte de chaleur. Mais même dans ces cas, le slide porte un seul visuel avec un seul point à comprendre, pas un tableau de bord complet.\n\nLes présentateurs résistent à cette règle parce qu'ils ont préparé beaucoup de données et que les mettre sur un slide à la fois \"prend trop de slides\". L'inverse est vrai: cinq slides avec un chiffre chacun marquent l'audience plus qu'un slide unique avec cinq chiffres."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l10-q1",
+              "stem": "Vous voulez présenter le fait que votre Net Promoter Score est passé de 32 à 47 en un an. Comment formuler à l'oral?",
+              "options": [
+                "\"Notre NPS est de 47, ce qui est meilleur que les 32 de l'an dernier.\"",
+                "\"L'an dernier nous étions à 32. Aujourd'hui nous sommes à 47 — quinze points gagnés en douze mois.\"",
+                "\"Notre NPS a augmenté de 46,9% sur un an, passant de 32 à 47.\"",
+                "\"L'évolution de notre NPS sur les douze derniers mois suit une trajectoire positive significative.\""
+              ],
+              "correctIndex": 1,
+              "explanation": "La Version B applique le principe contexte-avant-chiffre (le repère 32 arrive en premier), le chiffre actuel arrive ensuite (47), et l'interprétation est immédiatement donnée (15 points gagnés). La Version A inverse l'ordre. La Version C utilise un pourcentage de variation qui est techniquement correct mais cognitivement inutile — \"de 32 à 47\" est plus parlant que \"+46,9%\". La Version D est l'antithèse de tout ce qu'on essaie d'apprendre: vague, jargonneuse, et sans aucun chiffre concret."
+            },
+            {
+              "id": "ps-l10-q2",
+              "stem": "Vous préparez un slide pour montrer l'évolution de votre churn mensuel sur 12 mois. Quel format choisir?",
+              "options": [
+                "Un tableau avec 12 lignes (un mois par ligne) et les pourcentages exacts.",
+                "Une courbe d'évolution mensuelle sans le tableau de chiffres détaillés.",
+                "Un slide avec les 12 chiffres affichés en grand.",
+                "Trois slides séparés, un par trimestre, avec les chiffres détaillés."
+              ],
+              "correctIndex": 1,
+              "explanation": "Une courbe d'évolution est exactement le type de visuel où une seule image porte un seul point compréhensible: la trajectoire dans le temps. Le tableau de 12 lignes (option A) force l'audience à lire un tableau pendant que vous parlez — défaut classique. Les 12 chiffres en grand (option C) sont indéchiffrables d'un coup d'œil. Les trois slides séparés (option D) fragmentent la donnée que la courbe entière permet justement de voir en un seul coup d'œil."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l11-trac",
+      "title": "Gérer le trac: ce qui marche, ce qui n'aide pas",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Si vous ressentez du trac avant et pendant les présentations, vous êtes normal. La grande majorité des présentateurs — y compris les meilleurs, ceux qui ont fait cela des centaines de fois — ressentent encore une montée d'adrénaline avant de prendre la parole. La différence entre eux et un débutant n'est pas l'absence de trac. C'est ce qu'ils en font.\n\nCette leçon vous donne ce qui marche pour gérer le trac, et débunke ce qui ne marche pas. La majorité du conseil habituel est soit inefficace, soit fondé sur de la pseudo-science. Une fois qu'on enlève le bruit, ce qui reste est plus simple et plus exigeant que la plupart des présentateurs ne le pensent."
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce que votre corps est vraiment en train de faire\n\nQuand vous ressentez du trac, votre système nerveux sympathique s'active: adrénaline libérée, rythme cardiaque accéléré, respiration plus rapide et plus superficielle, mains parfois moites, gorge parfois serrée. C'est une cascade physiologique vieille de centaines de milliers d'années, conçue pour préparer votre corps à fuir ou à combattre un danger physique.\n\nCe que votre corps ne sait pas, c'est qu'aucun de ces préparatifs n'est utile pour parler en public. Vous n'avez pas besoin de plus de sang dans les muscles. Vous n'avez pas besoin d'une vision tunnel. Vous n'avez pas besoin d'une fréquence cardiaque à 110. Le trac est un signal mal calibré: votre système réagit à \"présenter devant trente personnes\" comme s'il s'agissait de \"un tigre vient d'entrer dans la salle\".\n\nComprendre cela ne fait pas disparaître le trac, mais cela change la relation que vous avez avec lui. Le trac n'est pas le signe que quelque chose va mal. C'est le signe que votre corps fait un travail dont vous n'avez pas besoin, à un moment où vous n'en avez pas besoin."
+        },
+        {
+          "type": "text",
+          "markdown": "## Trois techniques qui marchent vraiment\n\nVoici les trois interventions qui sont à la fois robustes en recherche et utiles en pratique.\n\n**1. La respiration ralentie.** Avant de présenter, pratiquez quelques minutes de respiration lente: inspirez en 4 secondes, retenez 2 secondes, expirez en 6 secondes. Répétez 5 à 10 fois. Cette technique active le système nerveux parasympathique (qui contre l'activation sympathique du trac) par un mécanisme physiologique direct. Ce n'est pas une croyance ou une technique de \"mindfulness\" — c'est de la mécanique nerveuse, et cela marche en quelques minutes. Continuez à respirer profondément (mais discrètement) pendant les premières minutes de la présentation, où le trac est le plus fort.\n\n**2. La préparation poussée.** La plus forte variable qui prédit votre niveau de trac n'est pas votre tempérament, ce n'est pas votre expérience — c'est combien vous avez préparé. Un présentateur qui a répété trois fois à voix haute, sur ses pieds, devant un mur ou une caméra, ressent dramatiquement moins de trac qu'un présentateur qui a relu ses slides en silence. La préparation transforme l'incertitude (\"est-ce que je vais m'en sortir?\") en quasi-certitude (\"je sais ce que je vais dire et je sais que les transitions marchent\"). Le trac se nourrit de l'incertitude; la préparation le coupe à sa source.\n\n**3. Le recadrage cognitif.** Quand vous sentez l'adrénaline monter, l'interprétation par défaut est \"je suis stressé, c'est mauvais\". Une recherche solide montre qu'une autre interprétation — \"je suis excité, mon corps se prépare\" — change la performance sans changer l'état physiologique. Les deux états (peur et excitation) ont la même signature corporelle; seule l'étiquette mentale diffère. Vous dire silencieusement \"je suis excité, pas anxieux\" au moment où vous attendez de monter sur scène est étonnamment efficace. Cela fonctionne mieux que d'essayer de \"se calmer\" — qui demande au corps de faire l'inverse de ce qu'il est en train de faire."
+        },
+        {
+          "type": "compare",
+          "title": "Techniques qui marchent vs techniques qui n'aident pas",
+          "items": [
+            { "id": "work", "label": "Techniques qui marchent" },
+            { "id": "myth", "label": "Techniques qui n'aident pas" }
+          ],
+          "attributes": [
+            {
+              "id": "tech1",
+              "label": "Respiration",
+              "values": [
+                "Inspirations lentes (4s) et expirations plus longues (6s); active le système parasympathique",
+                "\"Respirez à fond\" sans méthode précise — peut au contraire hyperventiler et aggraver le trac"
+              ]
+            },
+            {
+              "id": "tech2",
+              "label": "Sur l'état mental",
+              "values": [
+                "Recadrer l'adrénaline en \"excitation\" plutôt qu'en \"peur\"",
+                "\"Calmez-vous\" — demande l'inverse de ce que fait le corps; généralement contre-productif"
+              ]
+            },
+            {
+              "id": "tech3",
+              "label": "Préparation",
+              "values": [
+                "Répéter à voix haute, sur ses pieds, plusieurs fois — réduit l'incertitude qui nourrit le trac",
+                "Relire ses slides en silence — donne l'impression de préparer sans réduire l'incertitude réelle"
+              ]
+            },
+            {
+              "id": "tech4",
+              "label": "Visualisation",
+              "values": [
+                "Visualiser concrètement les premières phrases (mots exacts, première transition)",
+                "\"Visualiser le succès\" — la visualisation positive vague n'a pas démontré d'effet robuste"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce que ne fait pas la \"power pose\"\n\nVous avez peut-être entendu (notamment depuis une célèbre présentation TED de 2012) qu'adopter une posture de pouvoir pendant deux minutes avant de présenter changerait votre niveau de cortisol et de testostérone, et donc votre confiance.\n\nCette affirmation a été largement débunkée. Les résultats clés de l'étude originale n'ont pas pu être reproduits par d'autres chercheurs, et l'une des co-auteurs de l'étude, Dana Carney, a publiquement renié les conclusions en 2016. La chaîne hormonale promise n'existe pas.\n\nCela ne veut pas dire qu'il faut adopter une posture affaissée avant de présenter — adopter une posture droite et ouverte avant de monter sur scène est probablement utile (pour des raisons de respiration et d'attention), mais pas pour les raisons hormonales souvent invoquées. La leçon plus large est: méfiez-vous des techniques \"de neurosciences\" séduisantes qui circulent dans les conseils de prise de parole. Beaucoup ne survivent pas à un examen rigoureux."
+        },
+        {
+          "type": "text",
+          "markdown": "## Quand le trac dépasse le trac normal\n\nLe trac décrit ici est l'expérience normale de la grande majorité des présentateurs — montée d'adrénaline avant de monter sur scène, premier minutes inconfortables, puis stabilisation au fur et à mesure que vous entrez dans la présentation.\n\nSi votre trac dépasse cela — anxiété intense plusieurs jours avant la présentation, évitement systématique des occasions de parler en public, symptômes physiques sévères (tremblements visibles, voix qui se bloque, malaise réel) — ce n'est pas du trac normal et les techniques de cette leçon ne suffiront pas. Cela ne signifie pas que vous êtes anormal; cela signifie que l'aide adaptée n'est pas dans un module de prise de parole. **Un professionnel de santé (psychologue, psychiatre) ou un coach spécialisé en anxiété de performance** peut vous aider de façon plus appropriée. Cette aide existe et marche bien; elle est juste hors de portée de cette leçon."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l11-q1",
+              "stem": "Un collègue stressé avant de présenter vous demande conseil. Lequel de ces conseils est le plus susceptible de l'aider?",
+              "options": [
+                "\"Calme-toi, ça va bien se passer.\"",
+                "\"Respire à fond, ça va passer.\"",
+                "\"Répète à voix haute trois fois sur tes pieds, et juste avant ton intervention fais quelques cycles de respiration lente (inspire 4 secondes, expire 6).\"",
+                "\"Visualise ton succès — imagine l'audience qui t'applaudit à la fin.\""
+              ],
+              "correctIndex": 2,
+              "explanation": "Le conseil C combine les deux interventions les plus robustes: la préparation poussée (répétition à voix haute, plusieurs fois) qui réduit l'incertitude et donc le trac à sa source, et la respiration ralentie spécifique (4s d'inspiration, 6s d'expiration) qui active le système parasympathique. \"Calme-toi\" demande l'inverse de ce que fait le corps. \"Respire à fond\" sans méthode précise peut aggraver les choses par hyperventilation. La visualisation positive vague n'a pas montré d'effet robuste en recherche."
+            },
+            {
+              "id": "ps-l11-q2",
+              "stem": "Vous sentez l'adrénaline monter avant de présenter. Quel recadrage mental est le plus efficace?",
+              "options": [
+                "\"Je dois absolument me calmer.\"",
+                "\"Je suis excité, mon corps se prépare.\"",
+                "\"Ce n'est pas grave si ça se passe mal.\"",
+                "\"Je vais imaginer que je suis seul dans la pièce.\""
+              ],
+              "correctIndex": 1,
+              "explanation": "Peur et excitation ont la même signature physiologique — accélération cardiaque, adrénaline, respiration courte. Le seul écart est l'interprétation mentale. Recadrer en \"excitation\" plutôt qu'en \"anxiété\" change la performance sans changer l'état corporel, et cela a un soutien empirique solide. \"Calme-toi\" demande au corps de faire l'inverse de ce qu'il fait. \"Ce n'est pas grave\" est faux (cela vous importe, sinon vous n'auriez pas le trac) et l'audience perçoit le désinvestissement. Imaginer l'absence de l'audience supprime exactement ce qui rend la présentation utile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l12-qa",
+      "title": "Le Q&A: l'art de la réponse qui ne dérape pas",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Beaucoup de présentations bien préparées s'effondrent pendant la session de questions. Le présentateur a maîtrisé son contenu mais n'a pas pensé au Q&A; il se trouve sans script face à des questions qu'il n'a pas anticipées; il improvise mal, perd sa crédibilité, et l'impression finale écrase tout ce qu'il a construit pendant trente minutes.\n\nLe Q&A est une compétence séparée de la présentation, et elle se travaille à part. Cette leçon vous donne les patterns qui marchent pour les situations courantes."
+        },
+        {
+          "type": "text",
+          "markdown": "## Les trois patterns de base\n\nTrois techniques couvrent la grande majorité des situations de Q&A:\n\n**Le parking.** Quand vous recevez une question qui mériterait une réponse approfondie mais qui n'est pas le bon moment, vous \"garez\" la question pour y revenir plus tard. *\"Excellente question — je préfère y répondre après les autres pour ne pas faire dérailler le temps de groupe. Pouvez-vous me la remettre dans dix minutes?\"*. La condition: vous devez vraiment y revenir. Garer une question puis l'oublier est une faute de crédibilité.\n\n**Le redirect.** Quand vous recevez une question qui n'est pas exactement celle qui vous est posée mais qui touche la question plus profonde, vous reformulez vers la vraie question. *\"La question que vous posez sur les délais touche en réalité quelque chose de plus large: comment nous priorisons. Laissez-moi commencer par cela.\"*. Cette technique est puissante mais demande du tact — elle peut être perçue comme une esquive si elle est mal exécutée. La clé est de vraiment répondre à la question reformulée, pas de l'utiliser comme prétexte pour parler d'autre chose.\n\n**L'admission honnête.** Quand vous ne savez pas, dites-le. *\"Je n'ai pas la réponse à cette question. Je peux faire deux choses: vous donner une intuition que vous prenez avec une marge d'erreur, ou je reviens vers vous avec une réponse précise dans 48 heures.\"*. L'admission franche d'ignorance est presque toujours mieux reçue que l'improvisation. Les présentateurs qui essaient de répondre à tout perdent la confiance plus vite que ceux qui admettent occasionnellement ne pas savoir."
+        },
+        {
+          "type": "text",
+          "markdown": "## Le piège du \"bonne question\"\n\nDans beaucoup de cultures professionnelles, le réflexe en début de réponse est de complimenter la question: *\"Très bonne question\"*, *\"Merci pour cette question\"*, *\"C'est une question importante\"*.\n\nC'est une mauvaise habitude. Voici pourquoi:\n\n- **Cela signale que vous n'évaluez pas les questions** — si toutes les questions sont \"très bonnes\", aucune ne l'est vraiment, et l'audience le ressent. Vous récompensez la simple existence de la question plutôt que sa qualité.\n- **Cela trahit votre besoin de plaire** — l'audience perçoit que vous voulez complimenter pour gagner sa faveur, ce qui mine votre autorité.\n- **Cela gaspille les secondes d'ouverture** de votre réponse, qui sont les plus précieuses.\n\nL'exception légitime: quand la question est vraiment exceptionnelle — elle révèle une dimension que vous n'aviez pas vue, ou elle pose précisément la bonne question pour la suite — vous pouvez et devez le reconnaître: *\"Cette question touche le cœur du problème.\"*. Mais alors le compliment est vrai, spécifique, et il porte du contenu. Pas une formule de politesse.\n\nLa règle: répondez à la question directement, sans préambule. Si la question est mauvaise (vague, hors-sujet, déjà répondue), vous pouvez l'indiquer poliment (\"je crois que j'ai déjà répondu à cet aspect; voulez-vous que je reprenne?\"); si elle est bonne, votre réponse précise et utile est le meilleur compliment."
+        },
+        {
+          "type": "text",
+          "markdown": "## La question hostile et la question dominante\n\nDeux types de situations spécifiques méritent une attention particulière.\n\n**La question hostile.** Quelqu'un dans la salle vous attaque sur le fond — votre raisonnement, vos données, votre légitimité. La pire réaction est de se défendre nerveusement, ce qui escalade. La meilleure réaction est de **prendre l'attaque au sérieux**: reformulez la question pour montrer que vous l'avez comprise, donnez votre meilleure réponse, et si l'attaque a une part de vrai, reconnaissez-la. *\"Vous avez raison sur le fait que notre data set est limité aux 12 derniers mois. Voici pourquoi je pense que la conclusion tient malgré cela...\"*. Une audience qui voit que vous traitez l'attaque avec sérieux plutôt qu'avec défense vous accorde plus de crédibilité, pas moins. Une attaque honnêtement traitée renforce votre autorité; une attaque esquivée la détruit.\n\n**Le questionneur dominant.** Une personne dans la salle commence à monopoliser le Q&A — questions multiples, follow-ups en cascade, longueur excessive. C'est désagréable pour elle, désagréable pour le reste de l'audience, et c'est à vous de gérer. La technique: **clore poliment et passer à la suite**. *\"C'est une question riche et je veux laisser le temps aux autres — pouvons-nous reprendre cette discussion en fin de séance ou par email?\"*. Vous n'êtes pas obligé de continuer à répondre à la même personne par politesse. L'audience vous remerciera silencieusement d'avoir libéré l'espace."
+        },
+        {
+          "type": "scenario",
+          "title": "Trois situations de Q&A",
+          "context": "Vous venez de terminer votre présentation sur la nouvelle stratégie produit. Le Q&A commence et vous recevez trois questions en quelques minutes:\n\n**Question A** — *\"Excellente présentation. Une question: les chiffres que vous avez montrés sur les 24'000 clients, c'est sur la définition utilisateur actif ou utilisateur enregistré? J'ai vu des deux dans les rapports.\"*\n\n**Question B** — *\"Je ne vous suis pas. Votre stratégie repose sur un postulat — que le marché va doubler en trois ans — qui n'est étayé par aucune source crédible. Vous demandez à ce comité de valider un investissement de plusieurs millions sur la base de quoi?\"*\n\n**Question C** — *\"Comment allez-vous mesurer le succès? Et quel sera votre plan B si ça ne marche pas? Et qui sera responsable de l'exécution? Et est-ce que vous avez prévu une revue à six mois? Et...\"*",
+          "questions": [
+            {
+              "id": "ps-l12-sq1",
+              "stem": "Comment répondre à la Question A?",
+              "options": [
+                "\"Excellente question, je suis ravi que vous demandiez. C'est sur la définition utilisateur actif, défini comme...\"",
+                "\"C'est sur la définition utilisateur actif — défini comme connexion dans les 30 derniers jours. C'est la définition standard que nous utilisons partout.\"",
+                "\"C'est une question technique qui mériterait plus de temps; je vous propose qu'on en discute après.\"",
+                "\"Je ne suis pas certain de la définition exacte; je vous reviens dans la journée.\""
+              ],
+              "correctIndex": 1,
+              "explanation": "La Question A est une question factuelle claire qui mérite une réponse factuelle directe. L'ouverture par \"excellente question\" (option A) tombe exactement dans le piège décrit. Le report (option C) est inapproprié pour une question simple. L'aveu d'ignorance (option D) est en fait une faute de crédibilité ici si vous connaissez la définition — l'admission honnête est pour les cas où vous ne savez vraiment pas, pas pour éviter d'engager. La Version B donne la réponse directe avec le contexte qui montre que vous maîtrisez votre définition."
+            },
+            {
+              "id": "ps-l12-sq2",
+              "stem": "Comment répondre à la Question B (attaque sur le fondement de la stratégie)?",
+              "options": [
+                "\"Je comprends votre scepticisme, mais cette analyse a été validée par notre équipe.\"",
+                "Reformuler l'attaque, reconnaître ce qui est vrai dedans, et donner la meilleure défense: \"Vous avez raison que la projection de doublement n'est pas certaine. Voici les sources sur lesquelles elle s'appuie [...], voici le scénario alternatif si elle ne se réalise pas [...], et voici pourquoi je pense que la stratégie est défendable même dans ce scénario.\"",
+                "\"Je ne suis pas d'accord avec votre caractérisation de notre source.\"",
+                "\"C'est un excellent point que je vais creuser et je reviens vers vous.\""
+              ],
+              "correctIndex": 1,
+              "explanation": "Une attaque sérieuse sur le fond doit être traitée sérieusement. La défense rapide qui invoque l'autorité (\"validé par notre équipe\") esquive le contenu de l'attaque. Le désaccord direct sans engagement avec le fond escalade. Le report (\"je creuse et je reviens\") équivaut à admettre que vous n'avez pas la défense maintenant — ce qui peut être nécessaire mais coûteux dans ce contexte précis. La bonne approche est de prendre l'attaque au sérieux: reconnaître ce qui est vrai dedans (la projection n'est pas certaine), donner la défense la plus complète possible (sources, scénarios alternatifs), et défendre la décision en assumant la zone d'incertitude. C'est cela qui construit l'autorité face à un critique sophistiqué."
+            },
+            {
+              "id": "ps-l12-sq3",
+              "stem": "Comment gérer la Question C (cascade de questions multiples)?",
+              "options": [
+                "Répondre à toutes les questions une par une dans l'ordre.",
+                "Choisir d'isoler la question la plus importante et y répondre, puis proposer de traiter les autres soit en fin de séance soit par échange écrit.",
+                "Demander au questionneur de reformuler en une seule question.",
+                "Ignorer les questions en cascade et passer à la personne suivante."
+              ],
+              "correctIndex": 1,
+              "explanation": "La cascade de questions est un cas spécifique où il faut reprendre le contrôle de l'espace. Tenter de répondre à toutes (option A) garantit que vous répondez mal à chacune, et que vous laissez la même personne monopoliser le temps. Demander de reformuler (option C) met le questionneur en position désagréable publiquement et n'aide pas l'audience. Ignorer (option D) est impoli et fait croire que vous ne savez pas répondre. La bonne approche: choisir une question — typiquement la première ou la plus importante — y répondre proprement, et proposer de traiter le reste autrement."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## La règle de fond\n\nLe Q&A se prépare. Pas en répétant des réponses mémorisées, mais en **listant à l'avance les 5 à 10 questions les plus probables** et en réfléchissant à comment vous y répondriez. Les présentateurs qui le font sont rarement surpris par les questions qu'ils reçoivent — la majorité des questions sur n'importe quel sujet tombent dans un petit nombre de catégories prévisibles.\n\nEt pour les questions imprévisibles? Les trois patterns — parking, redirect, admission honnête — couvrent presque toutes les situations. Combiné à la discipline de ne pas commencer par \"excellente question\", de traiter les attaques sérieusement, et de gérer les questionneurs dominants, vous avez ce qu'il faut pour que le Q&A renforce votre présentation au lieu de la saboter."
         }
       ]
     }

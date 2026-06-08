@@ -3,7 +3,7 @@
   "id": "public-speaking",
   "title": "Prise de parole en public",
   "discipline": "Communication",
-  "version": 2,
+  "version": 3,
   "levels": [
     {
       "level": 1,
@@ -492,6 +492,266 @@
         {
           "type": "text",
           "markdown": "## La règle pratique\n\nVous n'avez pas besoin de mémoriser quoi faire de votre corps. Vous avez besoin de vous **enlever quelques mauvaises habitudes** et de **laisser le corps faire le reste naturellement**.\n\nLes mauvaises habitudes communes: les mains qui s'agrippent l'une à l'autre, le balancement nerveux, le regard qui évite l'audience, l'immobilité complète, l'occupation excessive de l'espace par agitation. Ces patterns se voient à l'enregistrement et se corrigent par prise de conscience plus que par exercices.\n\nEt méfiez-vous des conseils trop précis sur le langage corporel. Si quelqu'un vous dit avec autorité ce qu'un geste \"signifie\", il y a de bonnes chances qu'il ou elle reproduise un folklore plutôt qu'une vérité robuste. Le corps signale des choses générales (confiance, engagement, anxiété, ennui), pas des choses spécifiques."
+        }
+      ]
+    },
+    {
+      "id": "ps-l07-lire-salle",
+      "title": "Lire la salle en temps réel",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Les présentateurs préparés mais médiocres exécutent leur plan quelles que soient les réactions de l'audience. Les présentateurs préparés et bons exécutent leur plan **en l'adaptant** aux signaux qu'ils reçoivent en temps réel.\n\nLa différence n'est pas la préparation. La différence est l'attention que vous accordez à l'audience pendant que vous parlez. La plupart des présentateurs sont tellement concentrés sur leur propre exécution qu'ils ne voient rien de ce que la salle leur communique. L'audience leur envoie des signaux constants; ils les ignorent et continuent à dérouler.\n\nCette leçon vous apprend à lire ces signaux et à savoir quoi en faire."
+        },
+        {
+          "type": "text",
+          "markdown": "## Les signaux que l'audience envoie\n\nUne audience qui écoute envoie des signaux différents d'une audience qui décroche. Vous les avez tous déjà perçus de l'extérieur (en tant que membre du public); votre travail comme présentateur est de les voir de l'intérieur, pendant que vous parlez.\n\n**Le regard.** Une audience engagée regarde le présentateur — pas constamment, mais régulièrement. Une audience qui décroche regarde son téléphone, son ordinateur, ses chaussures, ou un point fixe dans le vide. Le ratio têtes levées / têtes baissées est l'indicateur le plus immédiat de votre score d'attention en temps réel.\n\n**La posture.** Une audience engagée se penche légèrement vers l'avant ou maintient une posture neutre droite. Une audience qui décroche s'affaisse, croise les bras, s'enfonce dans son siège. Encore une fois, c'est l'impression globale qui compte — un signal isolé ne veut rien dire, mais la posture moyenne de la salle est diagnostique.\n\n**Les téléphones.** L'apparition de téléphones sur les genoux ou sur la table est le signal de décrochage le plus pur. Quand le pourcentage de téléphones augmente, vous avez perdu l'audience. C'est un signal binaire et brutal — soit ils sont avec vous, soit ils ne le sont plus.\n\n**Les conversations latérales.** Quand deux personnes commencent à se parler à voix basse pendant que vous présentez, c'est rarement à propos de votre contenu. C'est généralement parce qu'elles ont décroché et qu'elles ont quelque chose à se dire qui leur paraît plus intéressant que vous."
+        },
+        {
+          "type": "text",
+          "markdown": "## Hostile, désengagée, ou réceptive: trois états très différents\n\nUne erreur fréquente est de confondre une audience **hostile** avec une audience **désengagée**. Ce sont des états très différents, qui demandent des réactions opposées.\n\nUne audience **hostile** est engagée — elle vous écoute attentivement, parfois plus attentivement qu'une audience neutre. Elle vous écoute pour évaluer vos arguments, repérer les failles, préparer ses objections. Les signaux: regards directs et soutenus, posture droite et concentrée, prise de notes active, rares signes de distraction. L'hostilité n'est pas un échec — c'est une opportunité. Une audience qui veut vous attaquer vous écoute mieux qu'une audience qui ne se soucie pas de vous.\n\nUne audience **désengagée** ne vous écoute pas du tout. Elle est physiquement là par obligation, mais mentalement ailleurs. Les signaux: téléphones, regards qui errent, posture affaissée, absence de prise de notes ou de réaction. C'est le pire état pour un présentateur — pire que l'hostilité — parce que vos arguments ne touchent rien.\n\nUne audience **réceptive** est partiellement avec vous. Elle écoute, mais pas intensément. Elle prend quelques notes. Elle vous regarde la plupart du temps mais pas toujours. C'est l'état moyen et l'objectif est de la garder dans cet état tout au long de la présentation."
+        },
+        {
+          "type": "scenario",
+          "title": "Lire trois situations en temps réel",
+          "context": "Vous présentez votre stratégie produit à différentes audiences. Voici trois moments distincts:\n\n**Moment A** — Cinq minutes dans une présentation à un comité de direction. Vous remarquez que deux membres prennent des notes intensivement, un troisième vous regarde sans bouger avec une expression que vous interprétez comme sceptique, un quatrième a ouvert son ordinateur portable.\n\n**Moment B** — Quinze minutes dans une présentation à l'ensemble des équipes commerciales (50 personnes). Vous remarquez qu'environ un tiers des téléphones sont sortis, deux conversations à voix basse ont commencé, et plusieurs personnes regardent par les fenêtres.\n\n**Moment C** — Trois minutes dans un pitch à un investisseur potentiel. Il vous regarde fixement, ne prend aucune note, ne hoche pas la tête, ne réagit visiblement à rien. Vous ne pouvez pas dire s'il est engagé ou pas.",
+          "questions": [
+            {
+              "id": "ps-l07-sq1",
+              "stem": "Comment interpréter le Moment A?",
+              "options": [
+                "L'audience est désengagée — l'ordinateur ouvert et l'expression sceptique sont des signaux clairs.",
+                "L'audience est probablement engagée — la prise de notes active et le regard direct dominent; l'ordinateur portable peut être lié à la prise de notes; le scepticisme est de l'engagement, pas du désengagement.",
+                "L'audience est hostile — le scepticisme et l'ordinateur ouvert le signalent.",
+                "Impossible de juger avec ces signaux."
+              ],
+              "correctIndex": 1,
+              "explanation": "Deux signaux d'engagement actif (prise de notes intensive par deux personnes), un signal d'engagement potentiellement critique (regard fixe et sceptique — c'est de l'engagement, pas du désengagement), et un signal ambigu (ordinateur portable, qui peut être prise de notes ou distraction). Le compte général penche fortement vers l'engagement. La bonne réaction est de continuer à dérouler tout en adressant explicitement le scepticisme — \"je vois que je n'ai pas encore convaincu tout le monde, laissez-moi prendre cet aspect en détail\". Confondre scepticisme avec désengagement est une erreur classique qui mène à arrêter de défendre ses arguments au moment où il faudrait les défendre davantage."
+            },
+            {
+              "id": "ps-l07-sq2",
+              "stem": "Comment réagir au Moment B?",
+              "options": [
+                "Continuer à dérouler le plan — l'audience finira par se concentrer.",
+                "S'arrêter brusquement et appeler une pause pour que les conversations cessent.",
+                "Casser le pattern: changer de registre (poser une question à la salle, montrer un exemple concret, accélérer le rythme), accepter que l'audience est en train de décrocher et agir pour la récupérer.",
+                "Réduire le contenu restant pour finir plus vite et libérer l'audience."
+              ],
+              "correctIndex": 2,
+              "explanation": "Les signaux décrivent une audience qui a clairement décroché — téléphones sortis, conversations parasites, regards errants. Continuer à dérouler aggrave la situation. Faire une pause stricte humilie l'audience sans résoudre le problème. Couper le contenu signale que vous n'aviez pas grand-chose à dire. La bonne réaction est de casser le pattern: changer ce que vous faites pour donner à l'audience une nouvelle raison d'écouter. Une question directe (\"qui ici a déjà vécu cette situation?\"), un exemple très concret, un changement de format (passer du slide au tableau blanc), un changement de rythme — n'importe lequel renouvelle l'attention si vous l'exécutez avec conviction."
+            },
+            {
+              "id": "ps-l07-sq3",
+              "stem": "Comment interpréter le Moment C?",
+              "options": [
+                "L'investisseur est désengagé — l'absence de réaction le prouve.",
+                "L'investisseur est hostile — la posture fixe est intimidante.",
+                "L'absence de signaux clairs est elle-même une donnée: les investisseurs expérimentés contrôlent souvent leur expression pour ne rien signaler — il faut continuer à dérouler tout en cherchant des signaux plus fins (questions, micro-expressions, prise de notes ultérieure).",
+                "Impossible de juger; il faut s'arrêter et lui demander ce qu'il pense."
+              ],
+              "correctIndex": 2,
+              "explanation": "L'absence de signaux n'est pas l'absence d'information. Les investisseurs expérimentés, les négociateurs, certains dirigeants senior contrôlent activement leur expression pour ne signaler ni intérêt ni désintérêt. C'est un comportement appris, parfois professionnel. La bonne réaction est de continuer à présenter comme si vous aviez son attention (vous ne savez pas le contraire), tout en restant attentif à des signaux plus subtils — une question précise révèle de l'intérêt, une question vague révèle un désengagement masqué, une demande de répétition signale qu'il a effectivement écouté. S'arrêter pour demander \"qu'en pensez-vous?\" est une faute professionnelle dans ce contexte — ça signale votre besoin de validation et vous met en position de faiblesse."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## La règle d'adaptation\n\nQuand vous lisez la salle, vous avez quatre options:\n\n1. **Continuer comme prévu** — si l'audience est engagée ou réceptive.\n2. **Casser le pattern** — si l'audience décroche; changer de registre pour la récupérer.\n3. **Adresser frontalement** — si l'audience est hostile ou sceptique; nommer la résistance et y répondre.\n4. **Accélérer la conclusion** — si l'audience est définitivement perdue et que rien ne la récupérera; mieux vaut finir à 18 minutes sur une note claire que mourir à petit feu pendant 12 minutes de plus.\n\nL'erreur la plus fréquente est de continuer comme prévu dans toutes les situations parce que vous n'avez pas remarqué que la situation avait changé. Le but de cette leçon est exactement cela: vous donner les yeux pour remarquer."
+        }
+      ]
+    },
+    {
+      "id": "ps-l08-silence",
+      "title": "Le silence comme outil",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Le silence est l'outil le plus puissant et le plus sous-utilisé en prise de parole. La plupart des présentateurs en ont peur. Ils le remplissent — avec des \"euh\", des \"donc\", des \"voilà\", des phrases de transition vides. Ils croient que le silence signale qu'ils ont perdu le fil; en réalité, ce sont les remplissages qui signalent l'incertitude. Le silence intentionnel signale l'inverse.\n\nApprendre à utiliser le silence n'est pas une question de technique — c'est une question de désapprendre la peur de quelques secondes de vide."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pourquoi nous craignons le silence\n\nDans une conversation normale entre deux personnes, deux secondes de silence créent une légère gêne. C'est suffisant pour que l'un des deux interlocuteurs se sente obligé de relancer. Cette norme conversationnelle s'enracine très profondément: notre instinct d'orateur est de remplir le silence dès qu'il apparaît.\n\nMais une présentation n'est pas une conversation. Le silence en présentation ne crée pas de gêne pour l'audience — il crée une attention accrue. Vous avez arrêté de parler; l'audience se demande pourquoi; elle vous regarde plus intensément qu'avant le silence.\n\nLe problème, c'est que vous, le présentateur, ressentez l'instinct conversationnel de remplir, même si la situation ne le justifie pas. Vous percevez votre propre silence comme beaucoup plus long qu'il ne l'est en réalité. Deux secondes de silence vous semblent dix; cinq secondes vous semblent insoutenables. Mais l'audience perçoit votre silence à sa durée réelle, et trouve cette durée parfaitement acceptable."
+        },
+        {
+          "type": "text",
+          "markdown": "## Les trois pauses qui font la différence\n\nIl existe trois moments distincts où une pause de quelques secondes transforme votre présentation:\n\n**La pause avant.** Une pause d'une à deux secondes avant une phrase clé crée de l'anticipation. L'audience devine qu'elle vient d'entendre une transition et que la suite mérite attention. Les meilleurs présentateurs marquent toutes leurs idées importantes par cette pause préparatoire.\n\n**La pause après.** Une pause de deux à trois secondes après une phrase clé laisse la phrase atteindre l'audience. Sans cette pause, vous enchaînez sur la phrase suivante et l'idée précédente est balayée avant d'avoir été absorbée. Les présentateurs qui parlent vite et sans pause produisent beaucoup de mots dont aucun ne s'installe.\n\n**La pause dans.** Une pause au milieu d'une phrase, juste avant un mot clé, donne un poids particulier à ce mot. *\"Notre objectif principal pour les douze prochains mois est... [pause] ...la rentabilité.\"* La pause prépare le mot et le met en relief. C'est un outil rhétorique vieux comme l'oratoire grec et il marche toujours."
+        },
+        {
+          "type": "compare",
+          "title": "Pauses qui aident vs pauses qui inquiètent",
+          "items": [
+            { "id": "good", "label": "Pause intentionnelle" },
+            { "id": "bad", "label": "Silence perdu" }
+          ],
+          "attributes": [
+            {
+              "id": "duration",
+              "label": "Durée",
+              "values": [
+                "1-3 secondes, calibrée au contenu",
+                "Variable et imprévisible, souvent ponctuée de remplissages (\"euh\", \"donc\")"
+              ]
+            },
+            {
+              "id": "look",
+              "label": "Ce que fait le corps",
+              "values": [
+                "Regarde l'audience, posture maintenue, expression engagée",
+                "Regard fuyant (vers les notes, le plafond, les chaussures), recherche visible du fil"
+              ]
+            },
+            {
+              "id": "next",
+              "label": "Ce qui suit le silence",
+              "values": [
+                "Une phrase claire et préparée — la pause était une mise en relief",
+                "Une phrase confuse, une reformulation, un remplissage"
+              ]
+            },
+            {
+              "id": "perception",
+              "label": "Comment l'audience le perçoit",
+              "values": [
+                "Comme un signal d'importance — \"il pèse ses mots\"",
+                "Comme un signal d'incertitude — \"il a perdu son fil\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Comment s'entraîner à utiliser le silence\n\nLa seule façon de surmonter la peur du silence est de la pratiquer en situation contrôlée. L'exercice qui marche:\n\nEnregistrez-vous en train de présenter 5 minutes sur un sujet familier. À chaque transition entre deux points, **comptez intentionnellement jusqu'à trois en silence avant de continuer**. Pas \"un, deux, trois\" rapidement — un, deux, trois en pensant à autre chose, en regardant la pièce, en respirant. Vous trouverez cela insupportable la première fois.\n\nRéécoutez l'enregistrement le lendemain. Mesurez la durée réelle de chaque pause. Vous découvrirez deux choses: les pauses que vous avez perçues comme infinies font en réalité 2-3 secondes, et la présentation enregistrée a beaucoup plus de poids avec les pauses que sans elles.\n\nAprès quelques semaines de pratique, les pauses deviennent naturelles et vous arrêtez de les ressentir comme un effort. C'est à ce moment-là que votre prise de parole change qualitativement — pas avant."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l08-q1",
+              "stem": "Pourquoi les présentateurs ressentent-ils le silence comme plus long qu'il ne l'est en réalité?",
+              "options": [
+                "Parce que leur cerveau ralentit pendant qu'ils parlent.",
+                "Parce que la norme conversationnelle (où deux secondes de silence créent une gêne) s'applique mal à la présentation, mais l'instinct demeure.",
+                "Parce que la durée du silence dépend de la nervosité du présentateur.",
+                "Parce que l'audience devient impatiente après une seconde."
+              ],
+              "correctIndex": 1,
+              "explanation": "Notre instinct du silence vient de la conversation à deux, où une pause de deux secondes signale effectivement quelque chose (réflexion, gêne, fin de tour de parole). Cet instinct se transpose mal à la présentation, où une pause de trois secondes est en réalité courte du point de vue de l'audience. La perception subjective du présentateur (\"c'est interminable\") ne correspond pas à la perception objective de l'audience (\"il pèse ses mots\")."
+            },
+            {
+              "id": "ps-l08-q2",
+              "stem": "Quel est l'effet d'une pause de deux secondes avant une phrase clé?",
+              "options": [
+                "L'audience pense que le présentateur a perdu le fil.",
+                "L'audience interprète la pause comme une transition et donne plus d'attention à la phrase qui suit.",
+                "L'audience trouve le rythme trop lent.",
+                "Aucun effet — deux secondes sont trop courtes pour être remarquées."
+              ],
+              "correctIndex": 1,
+              "explanation": "Une pause préparatoire bien placée fait exactement le travail inverse de la peur qui en empêche la plupart des présentateurs: elle augmente l'attention de l'audience plutôt que de la perdre. La condition est que la pause soit accompagnée d'une posture maintenue (regard sur l'audience, pas de signaux de recherche du fil) — c'est ce qui distingue une pause intentionnelle d'un silence perdu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l09-slides",
+      "title": "Le slide deck: ce qui aide, ce qui parasite",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Les slides ont une réputation injustement bonne et un usage majoritairement mauvais. La plupart des présentations professionnelles utilisent des slides qui **diminuent** l'efficacité de la présentation par rapport à ce qu'elle serait sans slides. C'est un résultat contre-intuitif mais bien documenté.\n\nLa raison principale est simple: les slides chargés de texte que le présentateur lit à voix haute forcent l'audience à choisir entre lire et écouter. Elle fait l'un ou l'autre, jamais les deux. Pendant qu'elle lit votre slide, elle n'écoute pas vos mots; pendant qu'elle écoute vos mots, elle ne lit pas votre slide. Vous concurrencez votre propre voix.\n\nCette leçon vous donne les principes pour que vos slides servent la présentation au lieu de la saboter."
+        },
+        {
+          "type": "text",
+          "markdown": "## Le procès des puces\n\nLa diapositive à puces — \"5 raisons pour lesquelles X\" suivi d'une liste — est la forme la plus répandue et l'une des plus dommageables. Pourquoi:\n\n**Elle force la lecture.** L'audience voit du texte structuré et son réflexe est de le lire. Pendant qu'elle lit, elle n'écoute pas.\n\n**Elle révèle la suite.** L'audience voit immédiatement les cinq points; vous, présentateur, êtes ensuite en train de leur dire ce qu'ils ont déjà lu. Aucune surprise possible, aucun effet rhétorique, aucune progression.\n\n**Elle prétend à une structure qui n'existe pas.** Beaucoup de listes à puces sont en réalité du contenu non structuré déguisé en liste. Les \"5 raisons\" partagent rarement le même niveau d'importance ou le même type d'argument — la mise en puces leur donne une fausse égalité.\n\n**Elle invite le présentateur à lire son slide.** Si le slide contient le contenu, le présentateur n'a plus de raison de le présenter — il devient un lecteur de slides. L'audience peut alors se passer du présentateur, et le ressent.\n\nIl y a des cas où une liste à puces est l'outil approprié — une checklist opérationnelle, une énumération exhaustive de critères, un récapitulatif final. Mais ces cas sont rares. La grande majorité des slides à puces que vous avez vus auraient été meilleurs sous une autre forme."
+        },
+        {
+          "type": "text",
+          "markdown": "## À quoi servent vraiment les slides\n\nUn slide utile fait quelque chose que les mots du présentateur ne peuvent pas faire seuls. Voici les usages légitimes:\n\n**Une image qui porte du contenu.** Une photo d'un produit, d'un site, d'une situation que vous décrivez. Le slide montre, votre voix raconte. Les deux se renforcent.\n\n**Un graphique ou une donnée visuelle.** Une courbe d'évolution, une carte, un schéma de processus, une comparaison côte à côte. Le visuel transmet la forme; vos mots transmettent l'interprétation.\n\n**Un chiffre seul.** Un slide qui contient juste un grand chiffre — *\"42%\"* — pendant que vous expliquez ce qu'il signifie. Le chiffre se grave dans la mémoire visuelle; vos mots se gravent dans la mémoire auditive. Cumul.\n\n**Une citation, une phrase clé.** Une phrase courte, isolée sur le slide, que vous pouvez lire à voix haute (oui, dans ce cas spécifique) avant de la commenter. Le slide ancre la phrase visuellement.\n\n**Un schéma structurel.** Un diagramme qui montre les relations entre des éléments. C'est le seul format où un certain niveau de complexité visuelle est justifié — parce que le schéma transmet quelque chose que les mots ne transmettent pas linéairement."
+        },
+        {
+          "type": "compare",
+          "title": "Slide qui aide vs slide qui parasite",
+          "items": [
+            { "id": "help", "label": "Slide utile" },
+            { "id": "harm", "label": "Slide parasite" }
+          ],
+          "attributes": [
+            {
+              "id": "content",
+              "label": "Ce qui est dessus",
+              "values": [
+                "Une idée, une image, ou un chiffre — quelque chose que les mots seuls ne portent pas",
+                "Un titre, 5-6 points à puces, parfois une image décorative"
+              ]
+            },
+            {
+              "id": "reading",
+              "label": "Comportement de l'audience",
+              "values": [
+                "Regarde le slide quelques secondes, revient au présentateur",
+                "Lit le slide entièrement, n'écoute plus le présentateur pendant ce temps"
+              ]
+            },
+            {
+              "id": "without",
+              "label": "Si on enlevait le slide?",
+              "values": [
+                "La présentation perdrait un appui important — le slide ajoute quelque chose",
+                "La présentation marcherait aussi bien ou mieux — le slide n'apporte rien"
+              ]
+            },
+            {
+              "id": "presenter",
+              "label": "Ce que fait le présentateur",
+              "values": [
+                "Commente, contextualise, interprète — le slide est un appui, pas un script",
+                "Lit à voix haute ce qui est écrit — le slide est le script"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Le test du slide retiré\n\nLe test le plus utile pour évaluer un slide: **imaginez votre présentation sans ce slide spécifique**. Est-ce qu'elle marcherait aussi bien? Mieux? Moins bien?\n\nSi elle marcherait aussi bien sans le slide, le slide est inutile et devrait être supprimé. Si elle marcherait mieux sans le slide (parce qu'il distrait, parce qu'il révèle la suite, parce qu'il oblige l'audience à lire), le slide est nuisible et devrait certainement être supprimé. Seul le cas où la présentation marcherait moins bien sans le slide justifie de le garder.\n\nAppliquez ce test à chaque slide de votre prochaine présentation. La plupart des présentateurs découvrent qu'ils peuvent supprimer la moitié de leurs slides sans perte, et que les slides restants sont nettement meilleurs."
+        },
+        {
+          "type": "text",
+          "markdown": "## La règle de densité\n\nQuand un slide est justifié, il devrait porter **une idée à la fois**. Pas trois idées sur un slide, pas cinq points, pas un tableau de douze lignes. Une idée par slide signifie:\n\n- Un chiffre, ou\n- Une image, ou\n- Une phrase courte (moins de quinze mots), ou\n- Un graphique avec une lecture évidente, ou\n- Un schéma structurel avec moins de dix éléments.\n\nLa peur des présentateurs face à cette règle est qu'ils auront besoin de trop de slides. C'est l'inverse: avec une idée par slide, vous découvrez que beaucoup de slides que vous pensiez nécessaires ne portaient en réalité aucune idée — ils portaient du texte. Une présentation d'une heure avec 60 slides denses fatigue l'audience; une présentation d'une heure avec 20 slides aérés la garde concentrée.\n\nL'objectif n'est pas un nombre minimal de slides. L'objectif est qu'à chaque slide, l'audience reçoive une chose à la fois, qu'elle puisse digérer cette chose, et qu'elle vous reste attentive pour la suivante."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l09-q1",
+              "stem": "Vous préparez un slide pour une présentation. Il contient le titre \"Les 5 piliers de notre stratégie\" suivi de cinq points à puces, chacun composé d'une phrase. Comment évaluer ce slide?",
+              "options": [
+                "C'est un bon slide — la structure en cinq points est claire et facile à suivre.",
+                "C'est un slide qui force l'audience à lire pendant que vous parlez, révèle votre plan d'un coup, et vous tente de le lire à voix haute — probablement à supprimer ou à reformuler.",
+                "Le slide serait bon si on remplaçait les phrases par des mots-clés.",
+                "Le slide serait bon avec un visuel décoratif en arrière-plan."
+              ],
+              "correctIndex": 1,
+              "explanation": "Ce slide cumule les défauts: il force la lecture (concurrence directe avec votre voix), révèle les cinq piliers d'un coup (pas de progression rhétorique possible), et incite le présentateur à le lire à voix haute. Remplacer les phrases par des mots-clés ne résout que partiellement le problème (l'audience lit toujours, juste moins). L'arrière-plan décoratif aggrave plutôt qu'aide. Les bonnes alternatives: cinq slides séparés (un pilier à la fois, dans l'ordre où vous voulez les présenter), ou un schéma visuel des cinq piliers en relation les uns avec les autres (si la structure le justifie), ou pas de slide du tout (les cinq piliers sont annoncés à l'oral et développés ensuite)."
+            },
+            {
+              "id": "ps-l09-q2",
+              "stem": "Vous appliquez le test du slide retiré à votre présentation. Vous découvrez qu'environ 60% de vos slides ne changeraient rien à la présentation s'ils étaient supprimés. Que faites-vous?",
+              "options": [
+                "Vous gardez tous les slides — ils ont déjà été préparés, autant les utiliser.",
+                "Vous supprimez les 60% inutiles — une présentation avec moins de slides utiles est meilleure qu'une présentation avec beaucoup de slides moyens.",
+                "Vous reformulez les 60% inutiles pour les rendre meilleurs.",
+                "Vous demandez à un collègue d'évaluer s'ils sont vraiment inutiles."
+              ],
+              "correctIndex": 1,
+              "explanation": "Si un slide ne change rien à la présentation, le garder n'est pas neutre — il consomme l'attention de l'audience pour rien et dilue les slides qui méritent attention. Reformuler des slides intrinsèquement inutiles est rarement productif (souvent ils sont inutiles parce que le contenu qu'ils portent ne mérite pas un slide, pas parce qu'ils sont mal formulés). Demander un second avis est défensif et perd du temps — le test du slide retiré est diagnostique en lui-même. Supprimer franchement est la bonne réponse. La résistance vient du sentiment que \"j'ai déjà fait le travail\", mais le travail jeté est moins coûteux que le travail nuisible conservé."
+            }
+          ]
         }
       ]
     }

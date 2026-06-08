@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 3,
+  "id": "public-speaking",
+  "title": "Prise de parole en public",
+  "discipline": "Communication",
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "xpRequired": 0,
+      "title": "Débutant"
+    },
+    {
+      "level": 2,
+      "xpRequired": 180,
+      "title": "Orateur en formation"
+    },
+    {
+      "level": 3,
+      "xpRequired": 500,
+      "title": "Orateur confiant"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "ps-l01-pourquoi-echouent",
+      "title": "Pourquoi la plupart des présentations échouent",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Vous avez sans doute assisté à une centaine de présentations professionnelles dans votre vie. Combien vous souvenez-vous? Combien ont changé quelque chose dans votre façon de penser ou d'agir?\n\nProbablement très peu. Et ce n'est presque jamais parce que les présentateurs étaient incompétents ou mal préparés. C'est parce qu'ils ont fait la même erreur fondamentale: ils ont préparé leur présentation pour eux-mêmes, pas pour leur audience.\n\nC'est l'asymétrie centrale de la prise de parole en public, et c'est le point de départ de ce module entier."
+        },
+        {
+          "type": "text",
+          "markdown": "## L'asymétrie qui tue presque toutes les présentations\n\nQuand vous préparez une présentation, vous y pensez intensément. Vous connaissez le sujet, vous avez réfléchi à chaque diapositive, vous trouvez votre contenu intéressant — sinon vous ne l'auriez pas inclus.\n\nVotre audience, elle, n'a pas fait ce travail. Elle arrive avec un niveau d'attention par défaut moyen, des préoccupations qui n'ont rien à voir avec votre sujet, et une tolérance limitée à l'ennui. Elle ne trouve pas votre contenu intéressant *a priori* — vous devez lui donner des raisons de le trouver intéressant.\n\nLa plupart des présentateurs ignorent cette asymétrie. Ils présentent comme si l'audience partageait leur intérêt initial. Ils s'étonnent ensuite que personne ne soit attentif."
+        },
+        {
+          "type": "text",
+          "markdown": "## Informer n'est pas convaincre\n\nLa deuxième source d'échec, liée à la première, est de confondre **informer** et **convaincre**.\n\nLa plupart des présentateurs croient que leur travail est d'informer — transmettre des informations de leur tête à celle de l'audience. C'est presque toujours faux. Si tout ce que vous avez à faire est de transmettre de l'information, envoyez un document. L'audience le lira (ou pas) à son rythme, avec ses outils de prise de notes, en pouvant relire.\n\nUne présentation en personne existe pour une raison qui n'a rien à voir avec la transmission d'information: elle existe parce que vous voulez **convaincre, mobiliser, ou changer un état d'esprit**. Si vous ne savez pas ce que vous voulez que l'audience pense, ressente, ou fasse différemment à la fin, vous n'avez pas de présentation — vous avez un document mal formaté."
+        },
+        {
+          "type": "flashcard",
+          "title": "À retenir",
+          "cards": [
+            {
+              "id": "ps-l01-fc1",
+              "front": "Quelle est l'asymétrie fondamentale entre le présentateur et l'audience?",
+              "back": "Le présentateur a passé des heures avec son contenu et le trouve intéressant; l'audience arrive avec un niveau d'attention par défaut et aucune raison particulière de s'intéresser. Le présentateur doit donner à l'audience des raisons de l'écouter, pas supposer qu'elles existent."
+            },
+            {
+              "id": "ps-l01-fc2",
+              "front": "Pourquoi confondre informer et convaincre est-il fatal?",
+              "back": "Si votre but est seulement d'informer, un document fait mieux le travail. Une présentation en personne existe pour convaincre, mobiliser, ou changer un état d'esprit. Si vous ne savez pas ce que vous voulez que l'audience pense ou fasse différemment à la fin, vous n'avez pas de présentation."
+            },
+            {
+              "id": "ps-l01-fc3",
+              "front": "Pour qui préparez-vous votre présentation?",
+              "back": "Pour l'audience, pas pour vous. Le contenu qui vous intéresse n'est pas automatiquement le contenu qui intéressera l'audience. La préparation commence par la question \"que doit-il se passer dans la tête de l'audience?\" — pas \"qu'est-ce que je veux dire?\"."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce que ce module va vous apprendre\n\nCe module ne vous donnera pas une liste de trucs et astuces. La plupart du contenu sur la prise de parole en public est exactement ça — des astuces déconnectées, souvent contradictoires, parfois fondées sur de la pseudo-science qui ne tient pas l'examen.\n\nÀ la place, ce module vous apprend un **petit nombre de principes** qui se renforcent mutuellement. Comment structurer un message qui tient. Comment utiliser votre voix et votre corps sans les sur-exploiter. Comment lire une audience et s'adapter en temps réel. Comment gérer le trac sans prétendre qu'il n'existe pas. Comment répéter de manière qui vous améliore vraiment.\n\nLa prise de parole en public est un métier qui se développe sur des décennies. Ce module vous donne les fondations. La compétence vient ensuite, par la pratique délibérée."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l01-q1",
+              "stem": "Vous préparez une présentation pour vos collègues sur un projet que vous trouvez passionnant. Comment commencer la préparation?",
+              "options": [
+                "En listant tout ce que vous savez sur le sujet et que vous voulez partager.",
+                "En réfléchissant à ce que vous voulez que vos collègues pensent, ressentent ou fassent différemment à la fin.",
+                "En cherchant des images attrayantes pour les diapositives.",
+                "En préparant une introduction qui montre votre maîtrise du sujet."
+              ],
+              "correctIndex": 1,
+              "explanation": "La préparation commence par le résultat souhaité dans l'audience, pas par le contenu que vous voulez transmettre. Si vous ne pouvez pas formuler ce que vos collègues doivent penser ou faire différemment à la fin, vous risquez de leur livrer un document mal formaté plutôt qu'une présentation utile."
+            },
+            {
+              "id": "ps-l01-q2",
+              "stem": "Une collègue vous dit \"je vais juste présenter les chiffres trimestriels, ils parleront d'eux-mêmes.\" Quel est le problème avec cette approche?",
+              "options": [
+                "Les chiffres trimestriels ne sont pas un sujet intéressant.",
+                "Les chiffres ne parlent jamais d'eux-mêmes — l'audience aura besoin que quelqu'un lui dise ce que les chiffres signifient et ce qui doit en découler.",
+                "Il faudrait plus de visuels pour rendre les chiffres attrayants.",
+                "Une présentation trimestrielle devrait toujours durer au moins 30 minutes."
+              ],
+              "correctIndex": 1,
+              "explanation": "\"Les chiffres parlent d'eux-mêmes\" est l'illusion qui produit les présentations les plus oubliables. Les chiffres ne signifient rien sans un cadre interprétatif — quelle est la tendance, qu'est-ce qui surprend, qu'est-ce qui doit changer en conséquence. Le travail du présentateur est exactement ce travail interprétatif. Sans lui, l'audience repart avec des nombres mais sans compréhension."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l02-attention",
+      "title": "L'attention de l'audience: ce qui la capture, ce qui la perd",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Avant d'apprendre à structurer un message, il faut comprendre la matière première avec laquelle vous travaillez: **l'attention de votre audience**.\n\nL'attention n'est pas un robinet qui coule à débit constant pendant votre présentation. C'est une ressource que chaque personne alloue, retire, et réalloue continuellement, en fonction de signaux qu'elle reçoit en temps réel. À chaque seconde, chaque personne dans la salle décide implicitement si vous valez encore son attention.\n\nLa plupart des présentateurs perdent l'attention sans le remarquer. Ils continuent à parler comme si l'audience écoutait toujours, alors qu'elle est mentalement sortie de la salle depuis cinq minutes."
+        },
+        {
+          "type": "text",
+          "markdown": "## Le mythe des 8 secondes\n\nVous avez sans doute entendu que l'attention humaine moyenne est tombée à 8 secondes — moins qu'un poisson rouge. Cette affirmation circule depuis 2015, dans des présentations TED, des articles marketing, des livres de productivité.\n\nElle est fausse. Il n'existe aucune étude crédible qui établit ce chiffre, et la BBC a publiquement démonté l'origine du mythe en 2017 — la \"source\" originale n'avait jamais fait cette mesure. Il n'existe pas non plus de données fiables sur l'attention des poissons rouges.\n\nPourquoi commencer par ce débunkage? Parce que c'est exactement le type de fait séduisant qui circule dans le monde de la prise de parole et que vous allez devoir apprendre à reconnaître. Si une statistique vous semble parfaite pour ouvrir une présentation, vérifiez-la avant de l'utiliser. La crédibilité que vous perdez en répétant un mythe est bien supérieure à l'effet rhétorique que vous espériez gagner."
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce qui se passe vraiment dans la tête de l'audience\n\nL'attention humaine est plus nuancée qu'un chiffre. Voici ce qui se passe réellement:\n\n**Les 30 premières secondes** déterminent l'allocation d'attention pour le reste de la présentation. Pendant ces 30 secondes, chaque personne dans la salle décide implicitement si vous valez son attention soutenue, son attention partagée (avec le téléphone), ou son ignorance polie. Cette décision est révisable, mais elle ne se révise pas spontanément — il faut faire quelque chose de fort pour la renverser.\n\n**L'attention soutenue se dégrade rapidement** sans renouvellement. Après 8 à 10 minutes d'un même registre (même ton, même type de contenu, même format), l'audience décroche, même quand le contenu reste intéressant. Le renouvellement n'est pas une question de gadgets — c'est une question de changement de registre: passer d'un concept à un exemple, d'une affirmation à une question, d'une diapositive dense à une diapositive simple.\n\n**La charge cognitive concurrence l'attention.** Si l'audience doit décoder votre diapositive complexe en même temps qu'elle écoute vos mots, elle fait l'un ou l'autre. Pas les deux. C'est pourquoi les diapositives chargées de texte sabotent la présentation: elles forcent un choix entre lire et écouter."
+        },
+        {
+          "type": "compare",
+          "title": "Ce qui capture l'attention vs ce qui la perd",
+          "items": [
+            {
+              "id": "win",
+              "label": "Capture l'attention"
+            },
+            {
+              "id": "lose",
+              "label": "Perd l'attention"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "opening",
+              "label": "Ouverture",
+              "values": [
+                "Une question, un fait surprenant, une scène concrète",
+                "\"Merci de m'avoir invité, je suis ravi d'être ici aujourd'hui pour vous parler de...\""
+              ]
+            },
+            {
+              "id": "specificity",
+              "label": "Niveau de concret",
+              "values": [
+                "Exemples spécifiques, noms réels, chiffres précis avec contexte",
+                "Abstractions, généralités, \"de nombreuses entreprises ont constaté que...\""
+              ]
+            },
+            {
+              "id": "rhythm",
+              "label": "Rythme",
+              "values": [
+                "Changement de registre toutes les 5-8 minutes (concept, exemple, question, retour au concept)",
+                "Un seul registre maintenu (lecture continue de diapositives, monologue sans pause)"
+              ]
+            },
+            {
+              "id": "slides",
+              "label": "Diapositives",
+              "values": [
+                "Une idée, une image, ou un chiffre par diapositive",
+                "Listes à puces de 6+ points que le présentateur lit à voix haute"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Le principe qui en découle\n\nVotre travail de présentateur n'est pas de remplir le temps qu'on vous a alloué avec du contenu. C'est de **gérer l'allocation d'attention de l'audience** pendant ce temps.\n\nCela change toute la préparation. Une présentation de 30 minutes n'est pas \"30 minutes de contenu\" — c'est environ trois à quatre segments de 7-8 minutes, chacun construit pour capturer puis maintenir l'attention, avec des transitions qui la renouvellent. Cette structuration n'est pas un gadget; c'est une concession à la façon dont fonctionne réellement l'attention humaine."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l02-q1",
+              "stem": "Vous avez 45 minutes pour présenter à votre comité de direction. Comment structurer le temps?",
+              "options": [
+                "Préparer 45 minutes de contenu dense pour utiliser tout le temps disponible.",
+                "Préparer 5 à 6 segments de 7-8 minutes, chacun avec un changement de registre, et garder 5-10 minutes pour les questions.",
+                "Préparer le contenu sans se soucier du temps — les bonnes idées trouvent leur place.",
+                "Présenter pendant 20 minutes seulement; au-delà, l'attention est perdue de toute façon."
+              ],
+              "correctIndex": 1,
+              "explanation": "L'attention se dégrade rapidement dans un même registre. Découper la présentation en segments avec des changements de registre maintient l'engagement bien mieux qu'un monologue continu. Ce n'est pas une question de durée totale — c'est une question de gestion de l'attention sur cette durée. Un présentateur de 45 minutes qui change de registre toutes les 7-8 minutes garde son audience; un présentateur de 20 minutes qui reste dans un seul registre la perd."
+            },
+            {
+              "id": "ps-l02-q2",
+              "stem": "Un collègue vous dit qu'il veut commencer sa présentation par la statistique \"l'attention humaine est tombée à 8 secondes\". Que lui dites-vous?",
+              "options": [
+                "Très bonne ouverture, ça accroche immédiatement.",
+                "Que cette statistique est un mythe sans source crédible, et que l'utiliser risque de coûter en crédibilité s'il y a un expert dans la salle qui le sait.",
+                "Que c'est une statistique correcte mais qu'il faudrait la moderniser avec un chiffre plus récent.",
+                "Que l'introduction par statistique est démodée; mieux vaut commencer par une anecdote."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le mythe des 8 secondes circule largement et la tentation de l'utiliser est forte parce qu'il sonne bien. Mais utiliser une statistique fausse dans une présentation a deux coûts: si quelqu'un dans la salle connaît le débunkage, votre crédibilité s'effondre dès l'ouverture; et plus largement, vous contribuez à la propagation d'une fausse information. Vérifier ses statistiques avant de les utiliser est une discipline professionnelle, pas une option."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l03-structurer",
+      "title": "Structurer un message qui tient",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Une présentation sans structure échoue, quelle que soit la qualité du contenu. L'audience perd le fil dans les premières minutes et ne le retrouve plus. À la fin, elle se souvient d'éléments épars sans pouvoir les organiser dans sa tête.\n\nLa structure n'est pas une contrainte créative imposée à la présentation — c'est la condition pour que l'audience puisse suivre. Et contrairement à ce qu'on pourrait penser, **la structure se choisit avant le contenu**, pas après. Les présentateurs qui rassemblent leur contenu d'abord et cherchent ensuite \"comment l'organiser\" produisent presque toujours des présentations confuses."
+        },
+        {
+          "type": "text",
+          "markdown": "## Les trois structures qui fonctionnent\n\nLa grande majorité des présentations professionnelles peut être bâtie sur l'une de trois structures éprouvées. Apprendre à les reconnaître et à choisir entre elles couvre 90% de vos besoins.",
+          "svg": "<svg viewBox='0 0 320 240' xmlns='http://www.w3.org/2000/svg'><rect x='8' y='10' width='304' height='65' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='20' y='32' font-size='12' fill='#5BC1C7' font-family='sans-serif' font-weight='600'>1. Problème / Solution</text><text x='20' y='52' font-size='10' fill='#C8CBD2' font-family='sans-serif'>Établir un problème ressenti, puis présenter votre solution.</text><text x='20' y='66' font-size='10' fill='#8A8F9C' font-family='sans-serif'>Idéal pour: pitch, recommandation, défense d'une décision.</text><rect x='8' y='85' width='304' height='65' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='20' y='107' font-size='12' fill='#5BC1C7' font-family='sans-serif' font-weight='600'>2. Avant / Après / Pont</text><text x='20' y='127' font-size='10' fill='#C8CBD2' font-family='sans-serif'>État actuel, état souhaité, ce qui relie les deux.</text><text x='20' y='141' font-size='10' fill='#8A8F9C' font-family='sans-serif'>Idéal pour: transformation, changement organisationnel, vision.</text><rect x='8' y='160' width='304' height='70' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='20' y='182' font-size='12' fill='#5BC1C7' font-family='sans-serif' font-weight='600'>3. SCQA</text><text x='20' y='202' font-size='10' fill='#C8CBD2' font-family='sans-serif'>Situation, Complication, Question, Réponse.</text><text x='20' y='216' font-size='10' fill='#8A8F9C' font-family='sans-serif'>Idéal pour: analyse, présentation à comité, contexte complexe.</text></svg>",
+          "caption": "Les trois structures couvrent la grande majorité des présentations professionnelles."
+        },
+        {
+          "type": "text",
+          "markdown": "## Comment fonctionne chaque structure\n\n**Problème / Solution.** Vous commencez par établir un problème que l'audience ressent ou doit reconnaître. Vous passez assez de temps sur ce problème pour qu'il devienne réel et urgent pour l'audience. Puis vous présentez votre solution comme la réponse à ce problème spécifique. Cette structure marche parce qu'elle aligne immédiatement l'audience avec vous: \"je vois le problème, je veux la solution\". Elle échoue quand le problème est mal posé ou trop rapidement traité.\n\n**Avant / Après / Pont.** Vous décrivez d'abord l'état actuel (avant). Vous décrivez ensuite l'état souhaité (après). Puis vous expliquez le pont — ce qui doit se passer pour aller de l'un à l'autre. Cette structure marche pour les présentations de transformation: changements organisationnels, projets pluriannuels, propositions de vision. Elle échoue quand l'\"après\" n'est pas suffisamment désirable pour justifier la traversée.\n\n**SCQA: Situation, Complication, Question, Réponse.** Vous établissez la situation que l'audience connaît déjà (terrain commun). Vous introduisez une complication qui change la donne — un fait nouveau, une opportunité, une menace. Vous formulez la question que la complication soulève. Vous donnez votre réponse. Cette structure, popularisée par McKinsey, marche particulièrement bien pour les comités de direction et les contextes analytiques. Elle échoue quand la complication n'est pas suffisamment forte pour justifier la question."
+        },
+        {
+          "type": "scenario",
+          "title": "Choisir la bonne structure",
+          "context": "Vous devez préparer trois présentations différentes dans les semaines à venir:\n\n**Présentation A** — Vous proposez à votre comité de direction de remplacer le CRM actuel par une nouvelle solution. L'investissement est significatif, le changement va perturber les équipes pendant plusieurs mois.\n\n**Présentation B** — Vous présentez à votre conseil les résultats d'une analyse de marché qui suggère un repositionnement stratégique. La complexité analytique est élevée, le conseil n'a pas le contexte au départ.\n\n**Présentation C** — Vous présentez à l'ensemble de l'entreprise la vision \"où nous serons dans trois ans\" après une période difficile.",
+          "questions": [
+            {
+              "id": "ps-l03-sq1",
+              "stem": "Quelle structure pour la Présentation A (remplacement du CRM)?",
+              "options": [
+                "Problème / Solution — établir les douleurs actuelles du CRM existant, puis présenter la nouvelle solution.",
+                "Avant / Après / Pont — décrire l'état actuel et l'état futur, puis le plan de migration.",
+                "SCQA — partir d'une situation neutre et construire vers une recommandation.",
+                "Aucune des trois — il faut une structure sur mesure pour les présentations CRM."
+              ],
+              "correctIndex": 0,
+              "explanation": "Une recommandation de remplacement d'outil est un cas classique de Problème / Solution. L'audience doit d'abord ressentir le coût du statu quo (frustrations utilisateur, données qui ne remontent pas, intégrations cassées) avant que l'investissement dans une nouvelle solution apparaisse justifié. Démarrer par les fonctionnalités de la nouvelle solution sans avoir établi la douleur du problème actuel produit la réaction \"pourquoi changer quelque chose qui marche?\""
+            },
+            {
+              "id": "ps-l03-sq2",
+              "stem": "Quelle structure pour la Présentation B (repositionnement stratégique)?",
+              "options": [
+                "Problème / Solution.",
+                "Avant / Après / Pont.",
+                "SCQA — pour un comité de direction face à une analyse complexe.",
+                "Pas de structure — laisser les données parler d'elles-mêmes."
+              ],
+              "correctIndex": 2,
+              "explanation": "SCQA est conçu exactement pour ce cas. Vous établissez la situation que le conseil connaît (notre positionnement actuel et ses résultats). Vous introduisez la complication révélée par l'analyse (un changement de marché, une menace, une opportunité). Vous formulez la question stratégique que cela soulève. Vous donnez votre réponse — le repositionnement proposé. Cette structure permet au conseil de suivre la logique sans se perdre dans l'analyse."
+            },
+            {
+              "id": "ps-l03-sq3",
+              "stem": "Quelle structure pour la Présentation C (vision trois ans après une période difficile)?",
+              "options": [
+                "Problème / Solution — partir des problèmes que l'entreprise vient de traverser.",
+                "Avant / Après / Pont — décrire d'où nous venons, où nous allons, comment nous y allons.",
+                "SCQA.",
+                "Aucune des trois — une vision ne se structure pas."
+              ],
+              "correctIndex": 1,
+              "explanation": "Avant / Après / Pont est conçu pour exactement ce type de présentation de vision. L'audience a vécu l'\"avant\" (la période difficile); votre travail est de rendre l'\"après\" suffisamment concret et désirable pour qu'elle veuille traverser le pont avec vous. Démarrer par le problème (Problème / Solution) après une période difficile risque de ressembler à une auto-flagellation; SCQA est trop analytique pour une présentation de vision destinée à mobiliser."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## La règle qui en découle\n\nAvant de commencer à préparer le contenu d'une présentation, posez-vous deux questions: **quel est le résultat souhaité dans la tête de l'audience à la fin?** et **quelle des trois structures sert le mieux ce résultat?**.\n\nUne fois ces deux choix faits, le contenu se sélectionne presque tout seul. Chaque élément que vous envisagez d'inclure passe le test \"est-ce que cela sert la structure choisie?\". Tout ce qui ne passe pas ce test, aussi intéressant soit-il, est laissé de côté.\n\nC'est la discipline qui distingue les présentations qui tiennent — quelle que soit leur durée — de celles qui se dispersent."
+        }
+      ]
+    }
+  ]
+}

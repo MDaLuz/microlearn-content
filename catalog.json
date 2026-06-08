@@ -44,6 +44,17 @@
       "lessonCount": 16,
       "estimatedMinutes": 120,
       "accentColor": "#639922"
+    },
+    {
+      "id": "public-speaking",
+      "title": "Prise de parole en public",
+      "discipline": "Communication",
+      "description": "Structurer, livrer, et améliorer ses présentations professionnelles — sans tomber dans les pièges classiques de la prise de parole.",
+      "file": "modules/public-speaking.json",
+      "version": 1,
+      "lessonCount": 16,
+      "estimatedMinutes": 120,
+      "accentColor": "#378ADD"
     }
   ]
 }

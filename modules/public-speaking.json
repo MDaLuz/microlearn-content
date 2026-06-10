@@ -3,7 +3,7 @@
   "id": "public-speaking",
   "title": "Prise de parole en public",
   "discipline": "Communication",
-  "version": 4,
+  "version": 5,
   "levels": [
     {
       "level": 1,
@@ -1009,6 +1009,277 @@
         {
           "type": "text",
           "markdown": "## La règle de fond\n\nLe Q&A se prépare. Pas en répétant des réponses mémorisées, mais en **listant à l'avance les 5 à 10 questions les plus probables** et en réfléchissant à comment vous y répondriez. Les présentateurs qui le font sont rarement surpris par les questions qu'ils reçoivent — la majorité des questions sur n'importe quel sujet tombent dans un petit nombre de catégories prévisibles.\n\nEt pour les questions imprévisibles? Les trois patterns — parking, redirect, admission honnête — couvrent presque toutes les situations. Combiné à la discipline de ne pas commencer par \"excellente question\", de traiter les attaques sérieusement, et de gérer les questionneurs dominants, vous avez ce qu'il faut pour que le Q&A renforce votre présentation au lieu de la saboter."
+        }
+      ]
+    },
+    {
+      "id": "ps-l13-taille-groupe",
+      "title": "Parler à 5 personnes vs parler à 500",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "La taille de votre audience n'est pas un paramètre cosmétique de votre présentation. C'est une contrainte qui change tout le reste — votre voix, votre corps, votre structure, votre interaction avec l'audience. Un présentateur qui parle à 500 personnes comme si elles étaient 5 fait fuir la salle; un présentateur qui parle à 5 comme si elles étaient 500 paraît grandiloquent et déconnecté.\n\nLa plupart des présentateurs préparent leur présentation comme si la taille était secondaire. Elle est primordiale."
+        },
+        {
+          "type": "text",
+          "markdown": "## Les trois formats fondamentalement différents\n\nIl est utile de penser en trois formats distincts qui demandent chacun un registre différent.\n\n**Le petit groupe (3-15 personnes).** Salle de réunion, atelier, comité restreint. La distance entre vous et l'audience est faible. L'audience attend de vous une présence conversationnelle — pas un monologue, mais quelque chose qui peut s'interrompre, basculer en discussion, accepter une question à tout moment. Votre voix peut rester proche du registre conversationnel; votre corps n'a pas besoin d'occuper beaucoup d'espace; votre énergie peut être contenue.\n\n**Le groupe moyen (15-100 personnes).** Conférence interne, formation, présentation à un département. La distance commence à compter. Vous ne pouvez plus rester en mode conversation — votre voix doit porter, votre corps doit occuper l'espace de la scène ou de l'estrade, votre énergie doit être un cran au-dessus de votre baseline. Mais vous ne pouvez pas encore basculer en mode \"performance\" — l'audience est assez proche pour percevoir une artificialité.\n\n**La grande audience (100+ personnes).** Conférence externe, keynote, événement. La distance domine. Vous ne pouvez plus voir individuellement les visages au-delà des premiers rangs. Votre voix doit porter loin et doit utiliser pleinement les variations de volume. Votre corps doit occuper la scène avec des mouvements lisibles à 20 mètres. Votre énergie doit être nettement au-dessus de votre baseline — ce qui paraît normal au présentateur paraît plat à l'audience qui regarde de loin."
+        },
+        {
+          "type": "compare",
+          "title": "Les trois formats en pratique",
+          "items": [
+            { "id": "small", "label": "Petit groupe (3-15)" },
+            { "id": "medium", "label": "Groupe moyen (15-100)" },
+            { "id": "large", "label": "Grande audience (100+)" }
+          ],
+          "attributes": [
+            {
+              "id": "voice",
+              "label": "Voix",
+              "values": [
+                "Conversationnelle, volume normal, variations subtiles",
+                "Porte distinctement, volume au-dessus du conversationnel, variations marquées",
+                "Porte loin, variations très marquées, utilise pleinement les pauses"
+              ]
+            },
+            {
+              "id": "body",
+              "label": "Corps",
+              "values": [
+                "Gestuelle contenue, mouvement minimal, position assise possible",
+                "Gestuelle visible, mouvement intentionnel sur la zone d'estrade, debout",
+                "Gestuelle large et lisible de loin, mouvement marqué sur la scène entière"
+              ]
+            },
+            {
+              "id": "structure",
+              "label": "Structure",
+              "values": [
+                "Souple, peut basculer en discussion, l'interaction est attendue",
+                "Plus stricte, l'interaction est limitée mais possible, Q&A en fin",
+                "Très stricte, l'interaction est rare pendant la présentation, Q&A séparé"
+              ]
+            },
+            {
+              "id": "energy",
+              "label": "Énergie nécessaire",
+              "values": [
+                "Niveau baseline; sur-jouer paraît artificiel",
+                "Un cran au-dessus du baseline; sous-jouer paraît plat",
+                "Nettement au-dessus du baseline; ce qui semble normal au présentateur paraît plat"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Le format le plus difficile que personne ne nomme\n\nIl existe un quatrième format, intermédiaire et particulièrement piégeux: **l'atelier ou la réunion à 10-20 personnes en cercle ou en U**.\n\nC'est ni vraiment un petit groupe (l'intimité conversationnelle ne fonctionne pas avec 20 personnes), ni un groupe moyen (la distance n'est pas assez grande pour justifier le mode présentation classique). Le présentateur se retrouve coincé: trop éloigné pour la conversation, trop proche pour la performance.\n\nLa solution n'est pas d'adopter un demi-registre entre les deux. C'est de **traiter ce format comme un petit groupe pour la voix et le corps**, mais **comme un groupe moyen pour la structure**. Voix conversationnelle, gestuelle contenue, mouvement minimal — mais structure stricte, transitions claires, interaction limitée pendant les phases d'exposé (l'interaction étant réservée à des moments explicitement prévus).\n\nLes ateliers où le présentateur ne maîtrise pas ce format finissent toujours de la même façon: l'audience décroche au bout de 20 minutes, et les deux heures restantes deviennent un combat pour récupérer l'attention. Le format demande une discipline particulière dès le départ."
+        },
+        {
+          "type": "text",
+          "markdown": "## La règle d'ajustement\n\nQuand vous préparez une présentation, posez-vous trois questions dans l'ordre:\n\n1. **Combien de personnes seront dans la salle?** Pas \"environ\" — la fourchette compte. 8 ou 18 demandent des préparations différentes.\n2. **Comment la salle est-elle disposée?** Cercle, U, théâtre, classroom? Cela compte presque autant que la taille.\n3. **À quelle distance maximale serai-je de la dernière rangée?** C'est la métrique pratique qui détermine votre voix et votre corps. Trois mètres, dix mètres, et trente mètres demandent trois registres différents.\n\nUne fois ces questions répondues, votre registre se choisit presque tout seul. Le piège est de préparer une seule présentation pour tous les formats et de penser que l'ajustement se fera \"naturellement\" le jour J. Il ne se fera pas — votre baseline reste votre baseline si vous ne l'avez pas consciemment recalibrée à la préparation."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l13-q1",
+              "stem": "Vous présentez à un comité de direction de 8 personnes dans une salle de réunion. Quelle est l'erreur la plus probable?",
+              "options": [
+                "Présenter trop bas — manquer d'énergie pour 8 personnes.",
+                "Présenter en mode performance — voix qui porte trop, gestuelle ample, énergie trop élevée, déconnexion de l'intimité que le format permet.",
+                "Manquer de structure — laisser la conversation dériver.",
+                "Trop utiliser les slides."
+              ],
+              "correctIndex": 1,
+              "explanation": "Devant un petit groupe, le piège classique est de présenter comme si on était sur scène — voix qui porte trop pour la pièce, gestuelle large qui paraît artificielle à 2 mètres, énergie performative qui crée une distance que l'audience ressent. Le format permet une intimité conversationnelle; la sur-utiliser est l'erreur opposée moins dommageable que de la perdre. Pour 8 personnes en salle de réunion, le registre conversationnel est presque toujours le bon défaut, même quand le contenu est important ou enjeux élevés."
+            },
+            {
+              "id": "ps-l13-q2",
+              "stem": "Vous donnez une formation à 15 personnes en cercle pendant 2 heures. Quel est le piège à éviter en priorité?",
+              "options": [
+                "Préparer trop de contenu — 2 heures, c'est long.",
+                "Choisir le mauvais registre — basculer en mode conversation libre (qui ne marche pas avec 15 personnes) ou en mode présentation formelle (qui ne marche pas en cercle).",
+                "Ne pas prévoir assez de pauses.",
+                "Manquer de variation dans les exercices."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le format atelier en cercle à 15-20 personnes est précisément le format intermédiaire piégeux. La conversation libre ne fonctionne pas (trop de gens, certains se taisent, d'autres dominent, le présentateur perd le contrôle), et la présentation formelle ne fonctionne pas (l'intimité du cercle rend artificielle la voix qui porte). Le bon registre est conversationnel pour voix et corps, mais avec une structure stricte qui prévoit des phases d'exposé (sans interaction libre) et des phases d'interaction (explicitement nommées comme telles). Les autres pièges (durée, pauses, variations) sont réels mais secondaires par rapport au choix de registre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l14-distance",
+      "title": "Présenter à distance: l'art mal maîtrisé du visioconférence",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Présenter à distance — par visioconférence — est plus difficile que présenter en personne. Pas plus facile, comme beaucoup le pensent parce qu'on n'a pas à se déplacer et qu'on est dans son bureau. Plus difficile, parce que vous perdez la majorité des signaux qui rendent la présentation en personne possible: vous ne voyez pas l'audience, vous ne sentez pas l'énergie de la salle, vous n'avez pas la présence physique qui occupe l'espace.\n\nLa visioconférence n'est pas une version dégradée de la présentation en personne. C'est une discipline distincte, avec ses propres règles et ses propres techniques. Le présentateur qui transpose ses habitudes en personne sans les adapter perd presque toujours son audience."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pourquoi c'est plus difficile qu'en personne\n\nQuatre dimensions changent quand vous passez du présentiel à la visio:\n\n**Vous ne voyez plus l'audience.** Sauf si tout le monde a la caméra allumée (rare), vous parlez à des vignettes noires avec des noms. Vous ne pouvez plus lire la salle (leçon 7), ce qui prive de votre principal outil d'adaptation en temps réel. Vous présentez à l'aveugle.\n\n**L'audience est plus distraite.** Sur l'ordinateur de chaque participant, votre présentation est une fenêtre parmi d'autres. À côté, il y a les emails, Slack, le navigateur ouvert sur autre chose. L'audience qui assiste à votre présentation en personne ne consulte pas son téléphone aussi facilement qu'elle bascule entre fenêtres pendant une visio. La friction du décrochage est dramatiquement plus basse.\n\n**Le médium est plat.** L'audio est compressé, la vidéo est en basse résolution, l'environnement est dépouillé. Les variations subtiles de voix et de corps qui fonctionnent en personne passent mal ou disparaissent. L'énergie qui semblait normale en personne paraît absente en visio.\n\n**Le contact visuel est physiquement impossible.** Si vous regardez l'audience à l'écran, votre regard pointe vers l'écran, pas vers la caméra. L'audience vous voit regarder ailleurs. Si vous regardez la caméra, vous ne voyez plus l'audience. Vous choisissez entre voir et être vu en train de regarder."
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce qui marche en pratique\n\nPlusieurs ajustements rendent la visio significativement meilleure.\n\n**Demandez les caméras allumées dès le départ.** Pas en option, comme attendu. Demandez-le explicitement: *\"je vous demande à tous d'allumer votre caméra pour cette session — c'est important pour moi de pouvoir vous voir\"*. La majorité des participants le font si on le demande directement; quasi personne ne le fait spontanément. Une audience visible vous redonne 80% de votre capacité à lire la salle.\n\n**Regardez la caméra pour les moments importants.** Vous ne pouvez pas regarder la caméra en permanence sans devenir vide-yeux — vous avez besoin de voir l'audience par moments. Mais quand vous voulez signaler que vous adressez quelqu'un personnellement, ou que vous voulez insister sur un point, regardez la caméra. L'audience vous voit alors regarder droit dans les yeux. C'est un effet rhétorique réel et utilisable.\n\n**Augmentez votre énergie d'un cran.** Ce qui paraît normal en personne paraît plat en visio à cause de la compression du médium. Parlez un peu plus fort, variez un peu plus vos intonations, soyez un peu plus expressif. Pas au point de sur-jouer — au point de compenser ce que la visio absorbe.\n\n**Bougez moins.** L'inverse du conseil pour le présentiel. En visio, votre image est dans un petit cadre fixe; le mouvement crée du flou et de la distraction. Restez relativement immobile, avec des gestes contenus dans le cadre visible. Les présentateurs qui marchent ou qui gesticulent largement en visio finissent par sortir du cadre et par paraître agités."
+        },
+        {
+          "type": "text",
+          "markdown": "## L'hygiène technique qui compte\n\nLe matériel et l'environnement comptent plus en visio qu'en personne. Plusieurs choses font une différence visible:\n\n**Le micro.** Le micro intégré de votre ordinateur portable est presque toujours médiocre. Un micro USB simple (entre 30 et 80 CHF) ou même les écouteurs filaires que vous avez probablement déjà fournissent un audio nettement meilleur. L'audio compte plus que la vidéo: une mauvaise vidéo est fatigante, un mauvais audio est invalidant.\n\n**L'éclairage.** Une lumière qui éclaire votre visage par devant (pas par derrière) fait une différence énorme. Idéalement, une fenêtre devant vous ou une lampe positionnée à hauteur du visage. La pire configuration est une fenêtre derrière vous — vous devenez une silhouette.\n\n**Le cadrage.** Votre caméra à hauteur des yeux, pas en contre-plongée (effet menton, jamais flatteur) ou en plongée. Vous occupez environ 30-40% du cadre, avec un peu d'espace au-dessus de la tête. Pas trop près (effet intimidant), pas trop loin (effet absence).\n\n**L'arrière-plan.** Un fond neutre et calme. Pas un mur entièrement vide (effet bureau triste), pas un arrière-plan trop chargé (effet distraction). Les fonds virtuels ont fait des progrès mais restent souvent imparfaits — préférez un vrai fond si vous le pouvez.\n\nCes ajustements demandent quelques heures de mise en place une seule fois, puis ne demandent plus rien. Ils transforment la perception que l'audience a de vous, indépendamment de votre contenu."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l14-q1",
+              "stem": "Vous animez une visioconférence avec 12 participants. La moitié a la caméra éteinte. Que faites-vous?",
+              "options": [
+                "Vous laissez les choses comme elles sont — c'est leur choix.",
+                "Vous demandez explicitement que tout le monde allume sa caméra, en expliquant pourquoi.",
+                "Vous adaptez votre présentation pour qu'elle marche sans visibilité de l'audience.",
+                "Vous reportez la session jusqu'à ce que tout le monde puisse activer sa caméra."
+              ],
+              "correctIndex": 1,
+              "explanation": "La demande explicite, faite directement, obtient des résultats que l'attente passive n'obtient jamais. La plupart des participants allument leur caméra si on le demande clairement, en expliquant que vous en avez besoin pour adapter votre présentation. Laisser les choses comme elles sont vous condamne à présenter à l'aveugle — ce qui est le pire format. Adapter sans visibilité (option C) est la position de repli si la demande échoue, pas la première réponse. Reporter (option D) est disproportionné pour un déficit qui se règle par une demande directe."
+            },
+            {
+              "id": "ps-l14-q2",
+              "stem": "Vous avez votre webcam intégrée à votre ordinateur portable et vous utilisez le micro intégré. Vous voulez améliorer en priorité une seule chose. Laquelle?",
+              "options": [
+                "Acheter une caméra externe de meilleure qualité.",
+                "Acheter ou utiliser un micro externe — l'audio compte plus que la vidéo.",
+                "Améliorer le fond derrière vous.",
+                "Améliorer l'éclairage de votre visage."
+              ],
+              "correctIndex": 1,
+              "explanation": "L'audio domine l'expérience de la visio. Une vidéo médiocre est fatigante mais reste utilisable; un audio médiocre rend la présentation invalidante — l'audience décroche par usure plutôt que par désintérêt. Une caméra externe est utile mais marginalement par rapport au micro. L'éclairage et le fond sont importants mais secondaires par rapport à l'audio. Si vous ne devez investir qu'une fois, le micro USB simple (30-80 CHF) donne le plus grand retour sur investissement de tous les ajustements possibles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l15-repetition",
+      "title": "La préparation et la répétition: comment vraiment se préparer",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "La variable qui prédit le mieux la qualité d'une présentation n'est pas le talent du présentateur, pas son expérience, pas la sophistication de ses slides. C'est **combien il ou elle a répété**. Et la majorité des présentateurs sous-investissent dans la répétition d'un facteur entre cinq et dix.\n\nLa raison est que les présentateurs confondent \"connaître son contenu\" et \"avoir répété sa présentation\". Ce sont deux choses très différentes. Connaître votre contenu est nécessaire mais pas suffisant — vous pouvez parfaitement maîtriser un sujet et donner une présentation médiocre dessus si vous n'avez pas répété l'acte de le présenter."
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce qui marche vraiment vs ce qui semble efficace\n\nLa plupart des présentateurs préparent en relisant leurs slides en silence, le soir de la veille. Cela donne une sensation de préparation. Cela n'améliore presque rien à l'exécution réelle.\n\nLes méthodes qui marchent vraiment:\n\n**Répéter à voix haute, debout, comme si l'audience était là.** C'est la méthode la plus efficace et celle que la majorité des présentateurs évitent parce qu'elle est inconfortable. Vous découvrez immédiatement quelles transitions ne tiennent pas, quelles phrases sont impossibles à dire à voix haute alors qu'elles se lisaient bien, quelles parties durent deux fois plus longtemps que vous pensiez. Une seule répétition à voix haute apprend plus que cinq relectures silencieuses.\n\n**Vous enregistrer (audio ou vidéo) et vous réécouter le lendemain.** Le décalage temporel est crucial — réécouter immédiatement est trop dur (vous êtes dans l'autocritique) et trop indulgent (vous comblez ce que vous savez). Le lendemain, vous entendez votre présentation comme un étranger. Vous découvrez les tics, les pauses ratées, les passages où vous parlez trop vite. C'est inconfortable mais transformatif.\n\n**Présenter à une personne de confiance avant l'événement réel.** Pas n'importe qui — quelqu'un dont vous respectez le jugement et qui acceptera de vous donner du feedback honnête plutôt que des compliments polis. Une seule répétition devant un humain réel révèle des défauts que vous ne voyiez pas en répétant seul. La personne n'a pas besoin d'être experte du sujet — elle a besoin d'être capable de vous dire \"je t'ai perdu à ce moment-là\".\n\nLes méthodes qui semblent efficaces mais ne le sont pas:\n\n**Relire les slides en silence.** Sentiment de préparation, peu de transfer vers la performance réelle.\n\n**Mémoriser un script mot à mot.** Très coûteux en temps, et la mémoire est fragile sous stress. Mémoriser quelques phrases clés (ouverture, transitions principales, conclusion) est utile; mémoriser tout est contre-productif.\n\n**Visualiser mentalement la présentation.** La visualisation positive vague (\"je m'imagine en train de bien présenter\") n'a pas démontré d'effet robuste. La visualisation très concrète (\"je récite mentalement les premières trois phrases exactes\") peut aider en complément des autres méthodes, pas en remplacement."
+        },
+        {
+          "type": "timeline",
+          "title": "Une bonne préparation sur une semaine",
+          "events": [
+            {
+              "id": "ev1",
+              "marker": "7 jours avant",
+              "title": "Première répétition à voix haute",
+              "description": "Présentation complète à voix haute, debout, devant un mur. Notez les passages qui ne tiennent pas, les transitions floues, les longueurs. Ajustez le contenu en conséquence."
+            },
+            {
+              "id": "ev2",
+              "marker": "5 jours avant",
+              "title": "Deuxième répétition + enregistrement",
+              "description": "Présentation complète enregistrée (audio ou vidéo). Ne pas réécouter le jour même."
+            },
+            {
+              "id": "ev3",
+              "marker": "4 jours avant",
+              "title": "Réécoute de l'enregistrement",
+              "description": "Notez 3 choses à corriger en priorité. Pas plus de trois — au-delà, vous ne pouvez pas tout intégrer."
+            },
+            {
+              "id": "ev4",
+              "marker": "2-3 jours avant",
+              "title": "Répétition devant une personne de confiance",
+              "description": "Demandez du feedback honnête, pas des compliments. Intégrez ce qui résonne."
+            },
+            {
+              "id": "ev5",
+              "marker": "Veille",
+              "title": "Pas de modification majeure",
+              "description": "Relecture des notes, vérification du matériel, sommeil. Ne pas réécrire de slides ou changer la structure — vous décollez de votre préparation."
+            },
+            {
+              "id": "ev6",
+              "marker": "Jour J",
+              "title": "Respiration et confiance",
+              "description": "Quelques cycles de respiration lente (voir leçon 11). Vous avez répété; faites confiance à la préparation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## La courbe de rendement décroissant\n\nUn point important sur les répétitions: leur rendement décroît rapidement.\n\nLa première répétition à voix haute apporte beaucoup. La deuxième apporte encore beaucoup. La troisième apporte significativement moins. La sixième n'apporte presque rien et peut même nuire — vous commencez à sur-mémoriser et à perdre la spontanéité.\n\nLe bon nombre de répétitions complètes pour une présentation professionnelle standard est **deux à quatre**, selon les enjeux et la difficulté. Au-delà, vous gaspillez du temps qui serait mieux investi ailleurs (préparation du Q&A, vérification du matériel, sommeil). En-deçà, vous présentez sous-préparé.\n\nLa nuance: pour une présentation très exigeante (keynote, pitch à très fort enjeu), vous pouvez monter à cinq ou six répétitions complètes, mais en variant les conditions (différents lieux, différents auditeurs de test, alternant enregistré et non enregistré). C'est la variation, pas la répétition pure, qui continue d'apporter."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l15-q1",
+              "stem": "Vous avez une présentation importante dans une semaine. Vous pouvez passer 4 heures à préparer en tout. Comment répartir le temps?",
+              "options": [
+                "4 heures sur la rédaction du contenu et le design des slides, 0 heure de répétition.",
+                "3 heures sur le contenu/slides, 1 heure de relecture silencieuse la veille.",
+                "2 heures sur le contenu/slides, 2 heures réparties en répétitions à voix haute, enregistrement-réécoute, et répétition devant une personne de confiance.",
+                "1 heure sur le contenu/slides, 3 heures de mémorisation mot à mot."
+              ],
+              "correctIndex": 2,
+              "explanation": "La répartition C reflète ce qui marche réellement: assez de temps sur le contenu pour qu'il soit solide (2h), et un investissement significatif dans la répétition qui transforme un bon contenu en bonne exécution (2h). L'option A produit du beau contenu présenté médiocrement. L'option B confond la sensation de préparation (relecture silencieuse) avec la préparation réelle. L'option D investit massivement dans une méthode (mémorisation mot à mot) qui est fragile sous stress et coûteuse en temps."
+            },
+            {
+              "id": "ps-l15-q2",
+              "stem": "Vous avez déjà répété trois fois à voix haute votre présentation. Vous avez encore deux heures avant l'événement. Comment les utiliser?",
+              "options": [
+                "Faire une quatrième répétition complète.",
+                "Faire deux ou trois répétitions complémentaires de plus.",
+                "Faire une répétition complète à voix haute, puis basculer sur la préparation du Q&A et la vérification du matériel.",
+                "Réécrire certaines parties qui vous semblent perfectibles."
+              ],
+              "correctIndex": 2,
+              "explanation": "À trois répétitions complètes, vous êtes déjà bien préparé sur l'exécution. Une quatrième peut être utile mais a un rendement décroissant; en faire deux ou trois supplémentaires (option B) est en territoire de sur-préparation où vous risquez la sur-mémorisation. La réécriture la veille (option D) est l'erreur classique — vous décollez de votre préparation. Le bon investissement à ce stade est sur les éléments négligés: anticiper les questions probables, vérifier que le micro et les slides fonctionnent, dormir correctement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l16-long-terme",
+      "title": "L'entraînement à long terme: comment devenir vraiment bon",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Vous avez parcouru les fondations de la prise de parole en public. Vous avez les concepts, les méthodes, les outils pour préparer et exécuter une présentation. Mais la compétence — la vraie — ne vient pas de la lecture de ce module. Elle vient de ce que vous faites avec, sur des années.\n\nCette dernière leçon n'est pas une leçon supplémentaire. C'est une conversation sur ce qui transforme un présentateur correct en présentateur excellent, et sur pourquoi cette transformation est plus lente, plus difficile, et plus accessible que la plupart des gens ne le pensent."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pourquoi lire ne suffit pas\n\nLire ce module ne fera pas de vous un meilleur présentateur. Cela peut vous donner l'illusion d'être un meilleur présentateur, ce qui est différent et parfois pire.\n\nLa raison est simple: la prise de parole est une compétence motrice et perceptive, pas une compétence intellectuelle. Vous ne devenez pas meilleur en sachant ce qu'il faut faire. Vous devenez meilleur en le faisant, plusieurs fois, avec un retour qui vous dit ce qui n'a pas marché, puis en le refaisant en ajustant.\n\nC'est la même structure que pour apprendre un sport, un instrument, ou n'importe quelle pratique physique. Vous pouvez lire dix livres sur le tennis — vous ne saurez pas mieux jouer au tennis. Vous le saurez quand vous aurez frappé dix mille balles avec quelqu'un qui vous a dit, après chaque centaine, ce qui n'allait pas dans votre mouvement.\n\nLa prise de parole demande exactement cette pratique-avec-retour, étalée dans le temps."
+        },
+        {
+          "type": "text",
+          "markdown": "## La boucle qui marche\n\nLa boucle d'apprentissage qui transforme effectivement un présentateur est simple à décrire, difficile à exécuter avec discipline:\n\n**1. Présenter.** Vous ne pouvez pas vous améliorer si vous ne présentez pas. Cherchez des occasions — réunions internes, brown-bags, présentations à des associations, conférences locales. La fréquence compte plus que les enjeux: une présentation par mois apprend plus que deux par an.\n\n**2. Enregistrer.** Au moins une présentation sur deux. Audio suffit la plupart du temps; vidéo pour les présentations où le corps compte (grandes audiences, formats où vous êtes visible).\n\n**3. Réécouter, le lendemain.** Pas le jour même. Notez deux choses: une chose qui vous surprend positivement, et une chose à corriger. Une seule chose à corriger — pas trois, pas cinq. Une.\n\n**4. Travailler cette chose.** Pendant les semaines qui suivent, dans toutes vos prises de parole, vous travaillez consciemment cette unique chose. Pas dix choses. Pas \"être globalement meilleur\". Cette chose.\n\n**5. Recommencer.** À la présentation suivante, vous enregistrez, vous réécoutez, vous identifiez la prochaine chose. Au bout de douze mois, vous avez travaillé douze choses. Au bout de cinq ans, soixante. La transformation cumulative est dramatique, même si chaque cycle paraît marginal."
+        },
+        {
+          "type": "text",
+          "markdown": "## Le rôle d'un coach ou d'un retour de confiance\n\nLe seul investissement qui accélère significativement cette boucle est l'accès à quelqu'un dont le jugement vous éclaire et qui vous donne du feedback honnête.\n\nCe quelqu'un peut prendre plusieurs formes:\n\n- **Un coach professionnel** spécialisé en prise de parole. Coûteux mais efficace si vous trouvez le bon coach (et la qualité varie énormément).\n- **Un collègue senior** dont vous respectez la prise de parole et qui accepte de regarder vos enregistrements ou d'assister à vos présentations. Souvent l'investissement le plus efficient.\n- **Un mentor** dans votre secteur qui peut vous regarder de temps en temps. La fréquence basse est compensée par la qualité du jugement.\n- **Un groupe de pairs** qui se réunit régulièrement pour s'entraîner et se donner du feedback mutuel. Toastmasters est l'exemple classique mais d'autres formats fonctionnent.\n\nLe point commun: une personne ou un groupe qui vous dit ce qui ne va pas plutôt que ce qui va. Les compliments font plaisir mais n'apprennent rien. Vous avez besoin de quelqu'un qui vous dit \"tu as perdu la salle pendant les cinq minutes du milieu\" — pas \"c'était très bien\"."
+        },
+        {
+          "type": "text",
+          "markdown": "## Une discipline qui s'étend sur des décennies\n\nLes présentateurs que vous admirez n'ont pas un don. Ils ont, presque tous, travaillé silencieusement sur leur prise de parole pendant des années — parfois des décennies. Ce que vous voyez à l'arrivée est le résultat cumulé de centaines d'enregistrements réécoutés, de petites corrections sédimentées, de la patience de pratiquer une compétence qui ne semble jamais finir.\n\nC'est, paradoxalement, une bonne nouvelle. La prise de parole n'est pas réservée à quelques talents naturels. C'est une compétence accessible à toute personne qui accepte d'y consacrer du temps de façon disciplinée. La barrière n'est pas le talent — elle est la discipline d'enregistrer, de réécouter, et de corriger une chose à la fois, pendant des années.\n\nSi vous adoptez la boucle décrite ci-dessus, vous serez dans deux ans nettement meilleur présentateur que la grande majorité des professionnels de votre niveau. Pas parce que vous aurez appris des techniques sophistiquées, mais parce que vous aurez fait quelque chose que presque personne ne fait: vous écouter et corriger, régulièrement, sur la durée.\n\nC'est le seul chemin qui marche. Il est ouvert à tout le monde. Et c'est par là que se termine ce module."
         }
       ]
     }

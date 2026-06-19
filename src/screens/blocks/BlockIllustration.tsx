@@ -1,12 +1,7 @@
 import React, { useState } from 'react';
-import {
-  View,
-  Text,
-  Image,
-  StyleSheet,
-  Dimensions,
-  ActivityIndicator,
-} from 'react-native';
+import { View, Text, StyleSheet, Dimensions, ActivityIndicator } from 'react-native';
+import { Image } from 'expo-image';
+import type { ImageLoadEventData } from 'expo-image';
 import { Colors } from '../../theme/colors';
 import { Fonts } from '../../theme/typography';
 import type { IllustrationBlock } from '../../data/types';
@@ -16,9 +11,9 @@ interface Props {
 }
 
 const { width: SCREEN_W, height: SCREEN_H } = Dimensions.get('window');
-const CONTENT_W = SCREEN_W - 44; // 22px padding each side
+const CONTENT_W = SCREEN_W - 44;
 const MAX_H = SCREEN_H * 0.6;
-const DEFAULT_RATIO = 2 / 3; // 3:2 default aspect ratio
+const DEFAULT_RATIO = 2 / 3;
 
 type LoadState = 'loading' | 'loaded' | 'error';
 
@@ -26,10 +21,11 @@ export default function BlockIllustration({ block }: Props) {
   const [loadState, setLoadState] = useState<LoadState>('loading');
   const [imageH, setImageH] = useState(CONTENT_W * DEFAULT_RATIO);
 
-  const onLoad = (e: { nativeEvent: { source: { width: number; height: number } } }) => {
-    const { width, height } = e.nativeEvent.source;
-    const ratio = height / width;
-    setImageH(Math.min(CONTENT_W * ratio, MAX_H));
+  const onLoad = (e: ImageLoadEventData) => {
+    const { width, height } = e.source;
+    if (width && height) {
+      setImageH(Math.min(CONTENT_W * (height / width), MAX_H));
+    }
     setLoadState('loaded');
   };
 
@@ -45,21 +41,20 @@ export default function BlockIllustration({ block }: Props) {
       ) : (
         <View style={{ width: CONTENT_W, height: imageH }}>
           {loadState === 'loading' && (
-            <View style={[styles.placeholder, { height: imageH }]}>
+            <View style={[StyleSheet.absoluteFill as object, styles.placeholder]}>
               <ActivityIndicator color={Colors.teal} size="small" />
             </View>
           )}
           <Image
-            source={{ uri: block.imageUrl, cache: 'force-cache' }}
-            style={[
-              styles.image,
-              { height: imageH },
-              loadState === 'loading' && { opacity: 0, position: 'absolute' },
-            ]}
+            source={{ uri: block.imageUrl }}
+            style={[styles.image, { height: imageH }]}
+            contentFit="contain"
+            transition={200}
+            cachePolicy="memory-disk"
+            accessible
             accessibilityLabel={block.alt}
             onLoad={onLoad}
             onError={onError}
-            resizeMode="contain"
           />
         </View>
       )}
@@ -75,7 +70,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   placeholder: {
-    width: CONTENT_W,
     borderRadius: 12,
     backgroundColor: Colors.surface,
     alignItems: 'center',

@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
   },
   statBorder: {
-    ...StyleSheet.absoluteFillObject as object,
+    ...StyleSheet.absoluteFill as object,
     borderRadius: 20,
     borderWidth: 1,
     borderColor: Colors.border,
@@ -134,7 +134,7 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
   },
   modBorder: {
-    ...StyleSheet.absoluteFillObject as object,
+    ...StyleSheet.absoluteFill as object,
     borderRadius: 20,
     borderWidth: 1,
     borderColor: Colors.border,

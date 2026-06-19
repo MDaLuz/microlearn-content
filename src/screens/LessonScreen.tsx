@@ -5,7 +5,6 @@ import {
   ScrollView,
   TouchableOpacity,
   StyleSheet,
-  Dimensions,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -18,7 +17,7 @@ import AuroraMesh from '../components/AuroraMesh';
 import Icon from '../components/Icon';
 import { Colors } from '../theme/colors';
 import { Fonts } from '../theme/typography';
-import { getModule, getLessonState } from '../data/store';
+import { getModule } from '../data/store';
 import type { RootStackParamList } from '../navigation';
 import type { Block, TextBlock, FlashcardBlock, QuizBlock, CompareBlock, ScenarioBlock, IllustrationBlock } from '../data/types';
 import BlockText from './blocks/BlockText';
@@ -29,8 +28,6 @@ import BlockScenario from './blocks/BlockScenario';
 import BlockIllustration from './blocks/BlockIllustration';
 
 type Route = RouteProp<RootStackParamList, 'Lesson'>;
-
-const { width: SCREEN_W } = Dimensions.get('window');
 
 const DISCIPLINE_LABEL: Record<string, string> = {
   'indoor-gardening': 'Jardinage',
@@ -44,20 +41,20 @@ const DISC_COLOR: Record<string, string> = {
   Communication: '#FFB347',
 };
 
-function renderBlock(block: Block, disciplineColor: string, index: number) {
+function renderBlock(block: Block, disciplineColor: string) {
   switch (block.type) {
     case 'text':
-      return <BlockText key={index} block={block as TextBlock} />;
+      return <BlockText block={block as TextBlock} />;
     case 'flashcard':
-      return <BlockFlashcard key={index} block={block as FlashcardBlock} accentColor={disciplineColor} />;
+      return <BlockFlashcard block={block as FlashcardBlock} accentColor={disciplineColor} />;
     case 'quiz':
-      return <BlockQuiz key={index} block={block as QuizBlock} accentColor={disciplineColor} />;
+      return <BlockQuiz block={block as QuizBlock} accentColor={disciplineColor} />;
     case 'compare':
-      return <BlockCompare key={index} block={block as CompareBlock} accentColor={disciplineColor} />;
+      return <BlockCompare block={block as CompareBlock} accentColor={disciplineColor} />;
     case 'scenario':
-      return <BlockScenario key={index} block={block as ScenarioBlock} accentColor={disciplineColor} />;
+      return <BlockScenario block={block as ScenarioBlock} accentColor={disciplineColor} />;
     case 'illustration':
-      return <BlockIllustration key={index} block={block as IllustrationBlock} />;
+      return <BlockIllustration block={block as IllustrationBlock} />;
     default:
       return null;
   }
@@ -67,22 +64,49 @@ export default function LessonScreen() {
   const nav = useNavigation<NativeStackNavigationProp<StackParams>>();
   const route = useRoute<Route>();
   const { moduleId, lessonId, lessonIndex } = route.params;
+
   const mod = getModule(moduleId);
   if (!mod) return null;
 
   const lesson = mod.lessons.find((l) => l.id === lessonId);
   if (!lesson) return null;
 
+  const [blockIndex, setBlockIndex] = useState(0);
+
   const totalLessons = mod.lessons.length;
-  const disc = Colors.disciplines[mod.discipline] ?? Colors.disciplines.Gardening;
+  const totalBlocks = lesson.blocks.length;
   const discColor = DISC_COLOR[mod.discipline] ?? Colors.teal;
   const discLabel = DISCIPLINE_LABEL[moduleId] ?? mod.discipline;
+
+  // Progress = lessons done + fraction of current lesson's blocks
+  const lessonProgress = (lessonIndex + (blockIndex + 1) / totalBlocks) / totalLessons;
+
+  const isLastBlock = blockIndex === totalBlocks - 1;
+  const isLastLesson = lessonIndex === totalLessons - 1;
+  const ctaLabel = isLastBlock && isLastLesson ? 'Terminer' : 'Continuer';
+
+  function advance() {
+    if (!isLastBlock) {
+      setBlockIndex((i) => i + 1);
+    } else {
+      const nextIndex = lessonIndex + 1;
+      if (nextIndex < mod!.lessons.length) {
+        nav.push('Lesson', {
+          moduleId,
+          lessonId: mod!.lessons[nextIndex].id,
+          lessonIndex: nextIndex,
+        });
+      } else {
+        nav.goBack();
+      }
+    }
+  }
 
   return (
     <View style={styles.root}>
       <AuroraMesh />
       <SafeAreaView style={styles.safe} edges={['top', 'bottom']}>
-        {/* Player top bar */}
+        {/* Top bar */}
         <View style={styles.ptop}>
           <TouchableOpacity onPress={() => nav.goBack()} style={styles.iconBtn}>
             <Icon name="x" size={18} color={Colors.text} />
@@ -92,56 +116,53 @@ export default function LessonScreen() {
               colors={[Colors.teal, Colors.blue]}
               start={{ x: 0, y: 0 }}
               end={{ x: 1, y: 0 }}
-              style={[styles.segFill, { width: `${((lessonIndex + 1) / totalLessons) * 100}%` }]}
+              style={[styles.segFill, { width: `${lessonProgress * 100}%` }]}
             />
           </View>
           <Text style={styles.counter}>{lessonIndex + 1} / {totalLessons}</Text>
         </View>
 
-        {/* Content */}
+        {/* Block content */}
         <ScrollView
+          key={`${lessonId}-${blockIndex}`}
           style={styles.scroll}
           contentContainerStyle={styles.scrollContent}
           showsVerticalScrollIndicator={false}
         >
-          {/* Eyebrow */}
-          <Text style={[styles.eyebrow, { color: discColor }]}>{discLabel.toUpperCase()}</Text>
-
-          {/* Lesson title as concept headline */}
-          <Text style={styles.concept}>{lesson.title}</Text>
-
-          {/* Blocks */}
-          <View style={styles.blocks}>
-            {lesson.blocks.map((block, i) => renderBlock(block, discColor, i))}
+          {blockIndex === 0 && (
+            <>
+              <Text style={[styles.eyebrow, { color: discColor }]}>{discLabel.toUpperCase()}</Text>
+              <Text style={styles.concept}>{lesson.title}</Text>
+            </>
+          )}
+          <View style={styles.blockWrap}>
+            {renderBlock(lesson.blocks[blockIndex], discColor)}
           </View>
-
           <View style={{ height: 24 }} />
         </ScrollView>
 
-        {/* CTA button */}
+        {/* Step dots */}
+        {totalBlocks > 1 && (
+          <View style={styles.dots}>
+            {lesson.blocks.map((_, i) => (
+              <View
+                key={i}
+                style={[styles.dot, i === blockIndex && styles.dotActive]}
+              />
+            ))}
+          </View>
+        )}
+
+        {/* CTA */}
         <View style={styles.ctaWrap}>
-          <TouchableOpacity
-            activeOpacity={0.88}
-            onPress={() => {
-              const nextIndex = lessonIndex + 1;
-              if (nextIndex < mod.lessons.length) {
-                nav.push('Lesson', {
-                  moduleId,
-                  lessonId: mod.lessons[nextIndex].id,
-                  lessonIndex: nextIndex,
-                });
-              } else {
-                nav.goBack();
-              }
-            }}
-          >
+          <TouchableOpacity activeOpacity={0.88} onPress={advance}>
             <LinearGradient
               colors={['#7FF0E6', '#7CC0FF']}
               start={{ x: 0, y: 0 }}
               end={{ x: 1, y: 0 }}
               style={styles.cta}
             >
-              <Text style={styles.ctaText}>Continuer</Text>
+              <Text style={styles.ctaText}>{ctaLabel}</Text>
               <Icon name="arrow-right" size={18} color="#06231F" strokeWidth={2.4} />
             </LinearGradient>
           </TouchableOpacity>
@@ -207,12 +228,28 @@ const styles = StyleSheet.create({
     lineHeight: 32,
     color: Colors.text,
     marginTop: 10,
-    marginBottom: 4,
+    marginBottom: 16,
+  },
+  blockWrap: { marginTop: 4 },
+
+  dots: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    gap: 6,
+    paddingVertical: 8,
+  },
+  dot: {
+    width: 6,
+    height: 6,
+    borderRadius: 3,
+    backgroundColor: 'rgba(255,255,255,0.2)',
+  },
+  dotActive: {
+    backgroundColor: Colors.teal,
+    width: 18,
   },
 
-  blocks: { marginTop: 8 },
-
-  ctaWrap: { paddingHorizontal: 22, paddingBottom: 8, paddingTop: 8 },
+  ctaWrap: { paddingHorizontal: 22, paddingBottom: 8, paddingTop: 4 },
   cta: {
     height: 54,
     borderRadius: 18,

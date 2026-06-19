@@ -10,7 +10,8 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useNavigation, useRoute } from '@react-navigation/native';
-import type { RouteProp, NavigationProp } from '@react-navigation/native';
+import type { RouteProp } from '@react-navigation/native';
+import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { RootStackParamList as StackParams } from '../navigation';
 
 import AuroraMesh from '../components/AuroraMesh';
@@ -63,7 +64,7 @@ function renderBlock(block: Block, disciplineColor: string, index: number) {
 }
 
 export default function LessonScreen() {
-  const nav = useNavigation<NavigationProp<StackParams>>();
+  const nav = useNavigation<NativeStackNavigationProp<StackParams>>();
   const route = useRoute<Route>();
   const { moduleId, lessonId, lessonIndex } = route.params;
   const mod = getModule(moduleId);
@@ -124,7 +125,7 @@ export default function LessonScreen() {
             onPress={() => {
               const nextIndex = lessonIndex + 1;
               if (nextIndex < mod.lessons.length) {
-                nav.navigate('Lesson', {
+                nav.push('Lesson', {
                   moduleId,
                   lessonId: mod.lessons[nextIndex].id,
                   lessonIndex: nextIndex,

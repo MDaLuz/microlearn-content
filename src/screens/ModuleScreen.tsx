@@ -114,7 +114,7 @@ export default function ModuleScreen() {
                 activeOpacity={locked ? 1 : 0.85}
                 onPress={() => {
                   if (!locked) {
-                    nav.navigate('Lesson', {
+                    nav.push('Lesson', {
                       moduleId,
                       lessonId: lesson.id,
                       lessonIndex: index,

@@ -19,12 +19,13 @@ import { Colors } from '../theme/colors';
 import { Fonts } from '../theme/typography';
 import { getModule, getLessonState } from '../data/store';
 import type { RootStackParamList } from '../navigation';
-import type { Block, TextBlock, FlashcardBlock, QuizBlock, CompareBlock, ScenarioBlock } from '../data/types';
+import type { Block, TextBlock, FlashcardBlock, QuizBlock, CompareBlock, ScenarioBlock, IllustrationBlock } from '../data/types';
 import BlockText from './blocks/BlockText';
 import BlockFlashcard from './blocks/BlockFlashcard';
 import BlockQuiz from './blocks/BlockQuiz';
 import BlockCompare from './blocks/BlockCompare';
 import BlockScenario from './blocks/BlockScenario';
+import BlockIllustration from './blocks/BlockIllustration';
 
 type Route = RouteProp<RootStackParamList, 'Lesson'>;
 
@@ -54,6 +55,8 @@ function renderBlock(block: Block, disciplineColor: string, index: number) {
       return <BlockCompare key={index} block={block as CompareBlock} accentColor={disciplineColor} />;
     case 'scenario':
       return <BlockScenario key={index} block={block as ScenarioBlock} accentColor={disciplineColor} />;
+    case 'illustration':
+      return <BlockIllustration key={index} block={block as IllustrationBlock} />;
     default:
       return null;
   }

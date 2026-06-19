@@ -1,13 +1,25 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "id": "indoor-gardening",
   "title": "Jardinage d'intérieur",
   "discipline": "Gardening",
-  "version": 7,
+  "version": 8,
   "levels": [
-    { "level": 1, "xpRequired": 0, "title": "Débutant" },
-    { "level": 2, "xpRequired": 180, "title": "Apprenti jardinier d'intérieur" },
-    { "level": 3, "xpRequired": 500, "title": "Jardinier d'intérieur confiant" }
+    {
+      "level": 1,
+      "xpRequired": 0,
+      "title": "Débutant"
+    },
+    {
+      "level": 2,
+      "xpRequired": 180,
+      "title": "Apprenti jardinier d'intérieur"
+    },
+    {
+      "level": 3,
+      "xpRequired": 500,
+      "title": "Jardinier d'intérieur confiant"
+    }
   ],
   "lessons": [
     {
@@ -109,9 +121,18 @@
           "type": "compare",
           "title": "Lumière naturelle selon l'orientation",
           "items": [
-            { "id": "n", "label": "Fenêtre nord" },
-            { "id": "e", "label": "Fenêtre est" },
-            { "id": "s", "label": "Fenêtre sud" }
+            {
+              "id": "n",
+              "label": "Fenêtre nord"
+            },
+            {
+              "id": "e",
+              "label": "Fenêtre est"
+            },
+            {
+              "id": "s",
+              "label": "Fenêtre sud"
+            }
           ],
           "attributes": [
             {
@@ -200,8 +221,14 @@
           "type": "compare",
           "title": "Valeurs de référence en lux",
           "items": [
-            { "id": "low", "label": "Lumière faible" },
-            { "id": "med", "label": "Lumière moyenne" }
+            {
+              "id": "low",
+              "label": "Lumière faible"
+            },
+            {
+              "id": "med",
+              "label": "Lumière moyenne"
+            }
           ],
           "attributes": [
             {
@@ -362,9 +389,18 @@
           "type": "compare",
           "title": "Types de substrats courants",
           "items": [
-            { "id": "universal", "label": "Universel" },
-            { "id": "cactus", "label": "Cactées" },
-            { "id": "orchid", "label": "Orchidées" }
+            {
+              "id": "universal",
+              "label": "Universel"
+            },
+            {
+              "id": "cactus",
+              "label": "Cactées"
+            },
+            {
+              "id": "orchid",
+              "label": "Orchidées"
+            }
           ],
           "attributes": [
             {
@@ -449,9 +485,18 @@
           "type": "compare",
           "title": "Plantes selon leur origine et leurs besoins en humidité",
           "items": [
-            { "id": "trop", "label": "Origine tropicale humide" },
-            { "id": "med", "label": "Origine méditerranéenne" },
-            { "id": "arid", "label": "Origine aride" }
+            {
+              "id": "trop",
+              "label": "Origine tropicale humide"
+            },
+            {
+              "id": "med",
+              "label": "Origine méditerranéenne"
+            },
+            {
+              "id": "arid",
+              "label": "Origine aride"
+            }
           ],
           "attributes": [
             {
@@ -623,9 +668,18 @@
           "type": "compare",
           "title": "Trois plantes \"faciles\" — la réalité",
           "items": [
-            { "id": "ficus", "label": "Ficus benjamina" },
-            { "id": "orchid", "label": "Orchidée (Phalaenopsis)" },
-            { "id": "calathea", "label": "Calathea" }
+            {
+              "id": "ficus",
+              "label": "Ficus benjamina"
+            },
+            {
+              "id": "orchid",
+              "label": "Orchidée (Phalaenopsis)"
+            },
+            {
+              "id": "calathea",
+              "label": "Calathea"
+            }
           ],
           "attributes": [
             {
@@ -735,8 +789,14 @@
           "type": "compare",
           "title": "Les cinq robustes — choisir selon votre emplacement",
           "items": [
-            { "id": "low-light", "label": "Lumière faible" },
-            { "id": "moderate", "label": "Lumière modérée" }
+            {
+              "id": "low-light",
+              "label": "Lumière faible"
+            },
+            {
+              "id": "moderate",
+              "label": "Lumière modérée"
+            }
           ],
           "attributes": [
             {
@@ -993,9 +1053,18 @@
           "type": "compare",
           "title": "Trois méthodes pour savoir quand arroser",
           "items": [
-            { "id": "finger", "label": "Test du doigt" },
-            { "id": "weight", "label": "Poids du pot" },
-            { "id": "calendar", "label": "Calendrier fixe" }
+            {
+              "id": "finger",
+              "label": "Test du doigt"
+            },
+            {
+              "id": "weight",
+              "label": "Poids du pot"
+            },
+            {
+              "id": "calendar",
+              "label": "Calendrier fixe"
+            }
           ],
           "attributes": [
             {
@@ -1199,6 +1268,12 @@
           "caption": "Les quatre symptômes de référence et leurs causes les plus probables."
         },
         {
+          "type": "illustration",
+          "imageUrl": "https://MDaLuz.github.io/microlearn-content/assets/indoor-gardening/l14-leaf-symptoms.png",
+          "caption": "Les quatre symptômes de référence : jaunissement à la base, brunissement des bords, plante affaissée, chute prématurée.",
+          "alt": "Quatre dessins de feuilles côte à côte montrant chacun un symptôme distinct — jaunissement concentré à la base, bord brun et sec sur le pourtour, feuille entièrement affaissée vers le bas, et feuille tombée détachée de sa tige."
+        },
+        {
           "type": "text",
           "markdown": "## Le piège du \"feuilles jaunes = manque d'eau\"\n\nC'est l'erreur de diagnostic la plus coûteuse en plantes mortes. Des feuilles qui jaunissent et tombent à la base de la plante — particulièrement chez des plantes tropicales — sont presque toujours le signe d'un **excès** d'eau, pas d'un manque.\n\nLa logique est contre-intuitive: les racines pourrissent par saturation, ne peuvent plus alimenter la plante, et les feuilles dépérissent comme si la plante avait soif. Si vous arrosez en réaction, vous aggravez la pourriture.\n\n**Le test discriminant:** vérifiez l'humidité du substrat. Si le substrat est encore humide quelques jours après le dernier arrosage et que des feuilles jaunissent — c'est l'excès d'eau. Arrêtez d'arroser et laissez le substrat sécher beaucoup plus que d'habitude avant le prochain arrosage. Si la plante était dans un cache-pot sans drainage, sortez-la immédiatement."
         },
@@ -1360,9 +1435,18 @@
           "type": "compare",
           "title": "Les trois niveaux d'équipement",
           "items": [
-            { "id": "ess", "label": "Essentiel" },
-            { "id": "rec", "label": "Recommandé" },
-            { "id": "opt", "label": "Optionnel" }
+            {
+              "id": "ess",
+              "label": "Essentiel"
+            },
+            {
+              "id": "rec",
+              "label": "Recommandé"
+            },
+            {
+              "id": "opt",
+              "label": "Optionnel"
+            }
           ],
           "attributes": [
             {

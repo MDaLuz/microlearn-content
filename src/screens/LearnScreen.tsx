@@ -21,7 +21,7 @@ import { Fonts } from '../theme/typography';
 import { getCatalog, getModuleProgress } from '../data/store';
 import type { RootStackParamList } from '../navigation';
 
-type Nav = NativeStackNavigationProp<RootStackParamList>;
+type StackNav = NativeStackNavigationProp<RootStackParamList>;
 
 const DISCIPLINE_ICON: Record<string, string> = {
   Gardening: 'leaf',
@@ -31,7 +31,10 @@ const DISCIPLINE_ICON: Record<string, string> = {
 };
 
 export default function LearnScreen() {
-  const nav = useNavigation<Nav>();
+  // LearnScreen lives inside the Tab navigator which is nested in the Stack.
+  // getParent() gives us the Stack navigator directly so we can push/navigate
+  // to Stack screens (Module, Lesson) without relying on action bubbling.
+  const stackNav = useNavigation().getParent<StackNav>();
   const catalog = getCatalog();
 
   return (
@@ -60,7 +63,7 @@ export default function LearnScreen() {
           {/* Daily review card */}
           <TouchableOpacity
             activeOpacity={0.85}
-            onPress={() => nav.navigate('Lesson', {
+            onPress={() => stackNav?.push('Lesson', {
               moduleId: catalog.modules[0].id,
               lessonId: 'ind-l01-pourquoi-meurent',
               lessonIndex: 0,
@@ -102,7 +105,7 @@ export default function LearnScreen() {
               <TouchableOpacity
                 key={entry.id}
                 activeOpacity={0.85}
-                onPress={() => nav.navigate('Module', { moduleId: entry.id })}
+                onPress={() => stackNav?.navigate('Module', { moduleId: entry.id })}
               >
                 <GlassCard style={styles.modCard}>
                   {/* Tile icon */}

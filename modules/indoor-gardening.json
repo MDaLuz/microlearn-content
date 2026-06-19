@@ -1,0 +1,1411 @@
+{
+  "schemaVersion": 3,
+  "id": "indoor-gardening",
+  "title": "Jardinage d'intérieur",
+  "discipline": "Gardening",
+  "version": 7,
+  "levels": [
+    { "level": 1, "xpRequired": 0, "title": "Débutant" },
+    { "level": 2, "xpRequired": 180, "title": "Apprenti jardinier d'intérieur" },
+    { "level": 3, "xpRequired": 500, "title": "Jardinier d'intérieur confiant" }
+  ],
+  "lessons": [
+    {
+      "id": "ind-l01-pourquoi-meurent",
+      "title": "Pourquoi tant de plantes d'intérieur meurent",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Vous avez sans doute déjà tué une plante d'intérieur. La plupart des gens en tuent plusieurs avant d'en garder une en vie.\n\nCe n'est presque jamais parce qu'on est \"mauvais avec les plantes\". C'est parce qu'on traite une plante comme un **objet décoratif** - quelque chose qu'on pose dans un coin et qu'on arrose de temps en temps - alors qu'une plante est un **organisme vivant** qui a des besoins précis, observables, et qui change selon les saisons, la lumière, et son environnement immédiat.\n\nCe module entier repose sur ce changement de regard. Une fois qu'on comprend ce dont une plante a vraiment besoin, l'entretien devient beaucoup plus simple - pas plus compliqué."
+        },
+        {
+          "type": "text",
+          "markdown": "## Les quatre erreurs qui tuent presque toutes les plantes\n\nLes causes de mortalité des plantes d'intérieur sont étonnamment peu variées. Quatre erreurs représentent la grande majorité des cas:",
+          "svg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg'><rect x='8' y='10' width='148' height='84' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='82' y='32' font-size='16' fill='#5BC1C7' text-anchor='middle' font-family='sans-serif' font-weight='600'>1. TROP D'EAU</text><text x='82' y='52' font-size='13' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>Cause n°1.</text><text x='82' y='68' font-size='13' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>Racines asphyxiées.</text><text x='82' y='84' font-size='13' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>Elle paraît assoiffée.</text><rect x='164' y='10' width='148' height='84' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='238' y='32' font-size='16' fill='#5BC1C7' text-anchor='middle' font-family='sans-serif' font-weight='600'>2. PAS DE LUMIÈRE</text><text x='238' y='52' font-size='13' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>On sous-estime</text><text x='238' y='68' font-size='13' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>la pénombre</text><text x='238' y='84' font-size='13' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>des intérieurs.</text><rect x='8' y='106' width='148' height='84' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='82' y='128' font-size='16' fill='#5BC1C7' text-anchor='middle' font-family='sans-serif' font-weight='600'>3. AIR TROP SEC</text><text x='82' y='148' font-size='13' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>Le chauffage</text><text x='82' y='164' font-size='13' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>assèche les</text><text x='82' y='180' font-size='13' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>tropicales.</text><rect x='164' y='106' width='148' height='84' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='238' y='128' font-size='16' fill='#5BC1C7' text-anchor='middle' font-family='sans-serif' font-weight='600'>4. MAUVAIS CHOIX</text><text x='238' y='148' font-size='13' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>Plante inadaptée</text><text x='238' y='164' font-size='13' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>à votre</text><text x='238' y='180' font-size='13' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>environnement.</text></svg>",
+          "caption": "Les quatre causes de mortalité les plus fréquentes."
+        },
+        {
+          "type": "text",
+          "markdown": "Remarquez quelque chose: aucune de ces erreurs n'a à voir avec un \"don\" ou une \"main verte\". Ce sont toutes des erreurs de **lecture de l'environnement**.\n\nLa première - trop d'eau - est de loin la plus fréquente. Et c'est la plus contre-intuitive: une plante qui s'affaisse, dont les feuilles jaunissent, semble *manquer* d'eau. La réaction instinctive est d'arroser davantage, ce qui aggrave le problème. Comprendre pourquoi est l'un des sujets centraux de ce module."
+        },
+        {
+          "type": "flashcard",
+          "title": "Termes fondamentaux à retenir",
+          "cards": [
+            {
+              "id": "ind-l01-fc1",
+              "front": "Que signifie traiter une plante comme un \"organisme\" plutôt qu'un \"objet\"?",
+              "back": "L'observer comme un être vivant qui réagit à son environnement (lumière, eau, humidité, saison) plutôt que comme une décoration statique à entretenir mécaniquement."
+            },
+            {
+              "id": "ind-l01-fc2",
+              "front": "Quelle est la cause de mortalité numéro un des plantes d'intérieur?",
+              "back": "L'excès d'eau. Les racines pourrissent par manque d'oxygène, et paradoxalement la plante affiche les mêmes symptômes que si elle manquait d'eau."
+            },
+            {
+              "id": "ind-l01-fc3",
+              "front": "Pourquoi le chauffage central est-il problématique pour les plantes?",
+              "back": "Il assèche fortement l'air ambiant. La plupart des plantes d'intérieur populaires sont d'origine tropicale et habituées à une humidité élevée - un air sec les stresse continuellement."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce que ce module va vous apprendre\n\nÀ la fin de ce module, vous serez capable de:\n\n- **Lire un emplacement** dans votre logement avant d'y mettre une plante: évaluer la lumière réelle, la température, l'humidité.\n- **Choisir des plantes qui correspondent** à cet emplacement, plutôt que d'acheter ce qui vous plaît et d'espérer que ça marche.\n- **Reconnaître les signaux** qu'une plante vous envoie quand elle souffre - et savoir quoi faire.\n- **Établir un rythme d'entretien** qui s'adapte à la saison et à la plante, pas un calendrier rigide.\n\nCe n'est pas une question de mémoriser des règles. C'est une question d'**observer** et de **comprendre ce qu'on observe**."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l01-q1",
+              "stem": "Une plante a les feuilles qui jaunissent et qui tombent. Quelle est la cause la plus probable chez un débutant?",
+              "options": [
+                "Elle manque d'eau, il faut arroser davantage.",
+                "Elle reçoit trop d'eau, les racines pourrissent.",
+                "Elle est attaquée par des parasites.",
+                "Elle a besoin d'engrais."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le réflexe est d'arroser plus quand une plante a l'air de souffrir, mais c'est presque toujours l'erreur inverse: les racines pourrissent par excès d'eau et ne peuvent plus alimenter la plante, ce qui produit exactement les symptômes du manque d'eau. Avant d'arroser, vérifiez toujours l'humidité du substrat."
+            },
+            {
+              "id": "ind-l01-q2",
+              "stem": "Quel est le changement de perspective central proposé par ce module?",
+              "options": [
+                "Acheter des plantes plus chères et de meilleure qualité.",
+                "Apprendre une liste de règles d'entretien à appliquer à chaque plante.",
+                "Voir la plante comme un organisme vivant qui réagit à son environnement, pas comme un objet décoratif.",
+                "Investir dans du matériel professionnel dès le départ."
+              ],
+              "correctIndex": 2,
+              "explanation": "Le module entier repose sur ce changement de regard. Les règles fixes (\"arroser une fois par semaine\") échouent parce qu'elles ignorent l'environnement réel; observer la plante et son contexte est l'approche qui marche durablement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l02-lumiere-concept",
+      "title": "La lumière, ce que vous ne voyez pas vraiment",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Votre œil vous ment sur la lumière.\n\nUne pièce qui vous semble \"lumineuse\" est en réalité, du point de vue d'une plante, **vingt à cinquante fois plus sombre** qu'un extérieur ombragé. Votre pupille s'adapte si bien aux faibles luminosités que vous ne percevez pas du tout l'écart. La plante, elle, le subit en permanence.\n\nC'est la raison pour laquelle tant de plantes \"meurent lentement\" en intérieur sans qu'on comprenne pourquoi: elles ne reçoivent simplement pas assez d'énergie pour fonctionner."
+        },
+        {
+          "type": "text",
+          "markdown": "## Trois dimensions de la lumière\n\nQuand on parle de lumière pour les plantes, trois choses différentes se cachent derrière le même mot:",
+          "svg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg'><rect x='8' y='10' width='304' height='60' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='20' y='28' font-size='17' fill='#5BC1C7' font-family='sans-serif' font-weight='600'>1. Intensité</text><text x='20' y='48' font-size='14' fill='#C8CBD2' font-family='sans-serif'>Force de la lumière à un instant.</text><text x='20' y='64' font-size='12' fill='#8A8F9C' font-family='sans-serif'>Plein soleil ≈ 100 000 lux.</text><rect x='8' y='78' width='304' height='60' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='20' y='96' font-size='17' fill='#5BC1C7' font-family='sans-serif' font-weight='600'>2. Durée</text><text x='20' y='116' font-size='14' fill='#C8CBD2' font-family='sans-serif'>Heures par jour avec cette lumière.</text><text x='20' y='132' font-size='12' fill='#8A8F9C' font-family='sans-serif'>Nord : peu mais longtemps.</text><rect x='8' y='146' width='304' height='60' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='20' y='164' font-size='17' fill='#5BC1C7' font-family='sans-serif' font-weight='600'>3. Direction</text><text x='20' y='184' font-size='14' fill='#C8CBD2' font-family='sans-serif'>D'où vient la lumière.</text><text x='20' y='200' font-size='12' fill='#8A8F9C' font-family='sans-serif'>Sud direct brûle, voilé diffuse.</text></svg>",
+          "caption": "Les trois dimensions à distinguer quand on parle de \"lumière\"."
+        },
+        {
+          "type": "text",
+          "markdown": "Cette distinction est la base de tout. Une fenêtre orientée nord à Zurich donne une lumière **faible mais constante et diffuse** - parfaite pour beaucoup de plantes tropicales qui poussent naturellement sous canopée. Une fenêtre plein sud en été donne une lumière **très intense, directe, longue** - qui brûle les feuilles de ces mêmes plantes mais qui réjouit un cactus ou un succulent.\n\nIl n'y a pas de \"bonne\" lumière dans l'absolu. Il y a une lumière qui correspond ou non à ce qu'une plante particulière attend."
+        },
+        {
+          "type": "compare",
+          "title": "Lumière naturelle selon l'orientation",
+          "items": [
+            { "id": "n", "label": "Fenêtre nord" },
+            { "id": "e", "label": "Fenêtre est" },
+            { "id": "s", "label": "Fenêtre sud" }
+          ],
+          "attributes": [
+            {
+              "id": "intensity",
+              "label": "Intensité",
+              "values": [
+                "Faible mais régulière",
+                "Modérée le matin, faible l'après-midi",
+                "Forte, directe en milieu de journée"
+              ]
+            },
+            {
+              "id": "duration",
+              "label": "Durée d'éclairage",
+              "values": [
+                "Longue mais douce toute la journée",
+                "Quelques heures fortes le matin",
+                "Plusieurs heures intenses au milieu du jour"
+              ]
+            },
+            {
+              "id": "plants",
+              "label": "Plantes adaptées",
+              "values": [
+                "Pothos, Sansevieria, fougères",
+                "La plupart des plantes tropicales",
+                "Cactus, succulentes, plantes méditerranéennes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l02-q1",
+              "stem": "Vous trouvez une pièce de votre logement \"plutôt lumineuse\". Comment cette luminosité se compare-t-elle, du point de vue d'une plante, à l'extérieur?",
+              "options": [
+                "Équivalente à l'extérieur ombragé.",
+                "Environ deux fois plus faible que l'extérieur.",
+                "Vingt à cinquante fois plus faible que l'extérieur.",
+                "Cela dépend entièrement de la peinture des murs."
+              ],
+              "correctIndex": 2,
+              "explanation": "Notre œil s'adapte si bien à la pénombre relative que nous ne percevons pas l'écart énorme entre intérieur et extérieur. Cette adaptation visuelle est précisément ce qui nous fait sous-estimer le manque de lumière subi par nos plantes."
+            },
+            {
+              "id": "ind-l02-q2",
+              "stem": "Une amie place un cactus à côté d'une fenêtre nord et s'étonne qu'il dépérisse. Quel problème dimensionnel a-t-elle ignoré?",
+              "options": [
+                "La durée - la fenêtre nord ne donne pas assez d'heures de lumière.",
+                "L'intensité - un cactus a besoin de lumière forte et directe que la fenêtre nord ne fournit pas.",
+                "La direction - la lumière vient d'un mauvais angle.",
+                "La couleur - la lumière nord est trop bleue pour un cactus."
+              ],
+              "correctIndex": 1,
+              "explanation": "Une fenêtre nord donne une lumière douce, diffuse, et de longue durée - parfaite pour des plantes tropicales habituées à pousser sous canopée. Les cactus viennent de milieux semi-désertiques où la lumière est forte et directe; même plusieurs heures de lumière douce ne remplacent pas une heure de soleil intense."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l03-mesurer-lumiere",
+      "title": "Mesurer la lumière chez vous",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Maintenant que vous savez que votre œil vous trompe, comment évaluer la vraie luminosité d'un emplacement?\n\nIl existe trois méthodes, de la plus simple à la plus précise. Vous n'avez pas besoin de toutes les trois - celle du milieu suffit pour 90% des cas."
+        },
+        {
+          "type": "text",
+          "markdown": "## Méthode 1 - Le test de l'ombre de la main\n\nÀ midi par une journée nuageuse moyenne, placez votre main à 30 cm au-dessus de l'emplacement que vous voulez évaluer, paume vers le bas. Regardez l'ombre projetée:\n\n- **Ombre nette et bien définie** -> lumière vive (suffisante pour la plupart des plantes tropicales)\n- **Ombre floue mais reconnaissable** -> lumière modérée (suffisante pour les plantes tolérantes)\n- **Pas d'ombre visible** -> lumière faible (seules les plantes très tolérantes survivront)\n- **Vous distinguez à peine votre main** -> trop sombre pour quasi toute plante\n\nC'est imprécis, mais c'est gratuit, immédiat, et étonnamment fiable comme premier filtre."
+        },
+        {
+          "type": "text",
+          "markdown": "## Méthode 2 - Une application smartphone\n\nLa plupart des smartphones modernes ont un capteur de luminosité ambiante intégré. Des applications gratuites (cherchez \"luxmètre\" ou \"light meter\") l'utilisent pour donner une lecture en lux.\n\nC'est imprécis - la précision dépend du modèle de téléphone et de l'application - mais largement suffisant pour catégoriser un emplacement comme faible, modéré, ou vif. Placez le téléphone à l'endroit prévu, écran vers le bas (le capteur est généralement en haut, près de l'écouteur), à la verticale comme le serait une feuille de plante. Notez la valeur à plusieurs moments de la journée - c'est le profil sur 24h qui compte, pas un instantané."
+        },
+        {
+          "type": "text",
+          "markdown": "## Méthode 3 - Un vrai luxmètre\n\nUn luxmètre dédié coûte à partir d'une vingtaine de francs. Il est plus précis et permet de faire des mesures rigoureuses si vous devenez sérieux. Pour un débutant, c'est inutile la première année - gardez ça pour plus tard si vous voulez optimiser l'emplacement de plantes exigeantes (comme une orchidée ou un Ficus lyrata)."
+        },
+        {
+          "type": "compare",
+          "title": "Valeurs de référence en lux",
+          "items": [
+            { "id": "low", "label": "Lumière faible" },
+            { "id": "med", "label": "Lumière moyenne" }
+          ],
+          "attributes": [
+            {
+              "id": "range",
+              "label": "Plage typique (en lux)",
+              "values": [
+                "100-500 lux",
+                "500-2000 lux"
+              ]
+            },
+            {
+              "id": "where",
+              "label": "Où on la trouve",
+              "values": [
+                "À 2m d'une fenêtre, coin d'une pièce, fenêtre nord en hiver",
+                "Près d'une fenêtre est, à 1m d'une fenêtre sud voilée"
+              ]
+            },
+            {
+              "id": "plants",
+              "label": "Plantes adaptées",
+              "values": [
+                "Sansevieria, Zamioculcas, Pothos (survie, peu de croissance)",
+                "La plupart des plantes vertes d'intérieur (croissance saine)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "Au-delà de 2000 lux on entre dans la lumière vive, et au-delà de 10 000 lux on est dans le plein soleil indirect. Très peu d'emplacements en intérieur dépassent 5000 lux, sauf juste derrière une fenêtre sud non voilée."
+        },
+        {
+          "type": "scenario",
+          "title": "Évaluer un emplacement",
+          "context": "Marie veut placer un Pothos sur l'étagère de son salon. L'étagère est à 1,80m d'une fenêtre est, partiellement masquée par un rideau voilé. Elle fait le test de l'ombre de la main à midi par temps nuageux: elle voit une ombre floue mais reconnaissable. Son application smartphone affiche entre 400 et 700 lux selon le moment de la journée.",
+          "questions": [
+            {
+              "id": "ind-l03-sq1",
+              "stem": "Cet emplacement est-il adapté à un Pothos?",
+              "options": [
+                "Oui, c'est idéal - la lumière est modérée, ce que le Pothos préfère.",
+                "Non, c'est trop faible - le Pothos a besoin de lumière vive.",
+                "Non, c'est trop intense - le Pothos préfère l'ombre.",
+                "On ne peut pas le savoir avec ces seules informations."
+              ],
+              "correctIndex": 0,
+              "explanation": "Le Pothos est une plante très tolérante qui prospère en lumière modérée (500-2000 lux). L'emplacement de Marie est juste à la limite basse de cette plage, mais l'ombre floue confirme une lumière utilisable, et l'orientation Est offre quelques heures de soleil doux le matin. C'est un bon emplacement pour cette plante."
+            },
+            {
+              "id": "ind-l03-sq2",
+              "stem": "Si Marie voulait remplacer le Pothos par un Ficus lyrata (figuier-lyre), même emplacement, est-ce que ça marcherait?",
+              "options": [
+                "Oui, les exigences sont similaires.",
+                "Non, le Ficus lyrata exige beaucoup plus de lumière et dépérirait.",
+                "Oui, le Ficus lyrata préfère l'ombre.",
+                "On ne peut pas le savoir."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le Ficus lyrata est une plante notoirement exigeante en lumière vive - minimum 1500-2000 lux soutenus, idéalement plus. À 400-700 lux, il survivrait quelques mois en perdant progressivement ses feuilles inférieures. C'est exactement le genre de mauvaise correspondance plante-emplacement qu'on cherche à éviter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l04-eau-concept",
+      "title": "L'eau: la cause numéro un de mortalité",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Vous tuerez plus de plantes en les arrosant trop qu'en oubliant de les arroser. C'est presque toujours vrai. Et c'est la chose la plus contre-intuitive à apprendre.\n\nLa raison est simple mais fondamentale: **les racines ont besoin d'oxygène autant que d'eau**. Pas seulement les feuilles - les racines aussi respirent. Et quand le substrat est saturé d'eau, l'air ne peut plus circuler entre les particules. Les racines suffoquent, pourrissent, puis ne peuvent plus alimenter la plante. La plante affiche alors les symptômes du manque d'eau - feuilles molles, jaunissement - et le réflexe naturel est d'arroser davantage. Cercle vicieux.\n\nComprendre ce qui se passe sous la surface du pot est l'une des connaissances les plus importantes de ce module."
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce qui se passe vraiment dans un pot",
+          "svg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='30' width='130' height='160' rx='4' fill='#1B1E24' stroke='#5BC1C7' stroke-width='1.5'/><text x='85' y='22' font-size='16' fill='#5BC1C7' text-anchor='middle' font-family='sans-serif' font-weight='600'>Substrat sain</text><circle cx='40' cy='60' r='2.5' fill='#8A8F9C'/><circle cx='60' cy='75' r='2.5' fill='#8A8F9C'/><circle cx='90' cy='65' r='2.5' fill='#8A8F9C'/><circle cx='110' cy='80' r='2.5' fill='#8A8F9C'/><circle cx='130' cy='70' r='2.5' fill='#8A8F9C'/><circle cx='45' cy='100' r='2.5' fill='#8A8F9C'/><circle cx='75' cy='110' r='2.5' fill='#8A8F9C'/><circle cx='105' cy='105' r='2.5' fill='#8A8F9C'/><circle cx='130' cy='115' r='2.5' fill='#8A8F9C'/><circle cx='40' cy='140' r='2.5' fill='#8A8F9C'/><circle cx='70' cy='150' r='2.5' fill='#8A8F9C'/><circle cx='100' cy='145' r='2.5' fill='#8A8F9C'/><circle cx='125' cy='155' r='2.5' fill='#8A8F9C'/><line x1='30' y1='180' x2='35' y2='175' stroke='#97C459' stroke-width='1.5'/><line x1='80' y1='180' x2='90' y2='170' stroke='#97C459' stroke-width='1.5'/><line x1='120' y1='180' x2='130' y2='172' stroke='#97C459' stroke-width='1.5'/><text x='85' y='210' font-size='13' fill='#97C459' text-anchor='middle' font-family='sans-serif'>Racines respirent.</text><rect x='170' y='30' width='130' height='160' rx='4' fill='#1B1E24' stroke='#E24B4A' stroke-width='1.5'/><text x='235' y='22' font-size='16' fill='#E24B4A' text-anchor='middle' font-family='sans-serif' font-weight='600'>Substrat saturé</text><rect x='172' y='32' width='126' height='155' fill='#15263A' opacity='0.5'/><circle cx='190' cy='100' r='1.5' fill='#85B7EB' opacity='0.6'/><circle cx='220' cy='90' r='1.5' fill='#85B7EB' opacity='0.6'/><circle cx='250' cy='110' r='1.5' fill='#85B7EB' opacity='0.6'/><circle cx='280' cy='95' r='1.5' fill='#85B7EB' opacity='0.6'/><line x1='180' y1='180' x2='185' y2='175' stroke='#7A4438' stroke-width='1.5'/><line x1='230' y1='180' x2='240' y2='170' stroke='#7A4438' stroke-width='1.5'/><line x1='270' y1='180' x2='280' y2='172' stroke='#7A4438' stroke-width='1.5'/><text x='235' y='210' font-size='13' fill='#7A4438' text-anchor='middle' font-family='sans-serif'>Racines suffoquent.</text></svg>",
+          "caption": "À gauche, un substrat aéré où les racines respirent. À droite, un substrat saturé où elles suffoquent."
+        },
+        {
+          "type": "text",
+          "markdown": "## Le cycle correct d'arrosage\n\nL'arrosage idéal n'est pas \"un peu d'eau régulièrement\". C'est un cycle: **détrempage complet, puis assèchement partiel, puis nouveau détrempage**. Ce cycle imite ce qui se passe dans la nature - une pluie tropicale, puis plusieurs jours sans pluie, puis une nouvelle pluie.\n\nQuand vous arrosez:\n\n1. **Arrosez abondamment** jusqu'à ce que l'eau coule par les trous de drainage. C'est ce qui assure que toute la motte est humidifiée et que les sels minéraux accumulés sont rincés.\n2. **Laissez s'égoutter complètement.** Ne laissez jamais le pot dans une soucoupe d'eau stagnante - c'est exactement ce qui crée la saturation.\n3. **Attendez** que la couche supérieure du substrat sèche (1 à 3 cm selon la taille du pot) avant d'arroser à nouveau.\n\nLa fréquence n'est jamais fixe - elle dépend de la plante, de la saison, de l'environnement. C'est l'observation qui dicte le rythme, pas le calendrier."
+        },
+        {
+          "type": "flashcard",
+          "title": "Concepts à retenir",
+          "cards": [
+            {
+              "id": "ind-l04-fc1",
+              "front": "Pourquoi un excès d'eau tue-t-il une plante?",
+              "back": "Les racines ont besoin d'oxygène pour respirer. Un substrat saturé bloque la circulation d'air, les racines suffoquent et pourrissent, et la plante ne peut plus s'alimenter."
+            },
+            {
+              "id": "ind-l04-fc2",
+              "front": "Pourquoi une plante sur-arrosée affiche-t-elle les mêmes symptômes qu'une plante assoiffée?",
+              "back": "Parce que les racines pourries ne peuvent plus absorber d'eau - la plante a effectivement \"soif\" alors que le substrat est trempé. C'est pourquoi le réflexe d'arroser davantage aggrave le problème."
+            },
+            {
+              "id": "ind-l04-fc3",
+              "front": "Quel est le bon cycle d'arrosage?",
+              "back": "Détrempage complet (jusqu'à ce que l'eau s'écoule des trous), puis égouttage total, puis attente que la couche supérieure du substrat sèche avant d'arroser à nouveau. Jamais d'eau stagnante dans la soucoupe."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l04-q1",
+              "stem": "Pourquoi est-il important que le pot ait des trous de drainage et qu'on ne laisse jamais d'eau dans la soucoupe?",
+              "options": [
+                "Pour éviter les taches d'eau sur les meubles.",
+                "Pour permettre aux racines de respirer en empêchant la saturation du substrat.",
+                "Pour économiser l'eau d'arrosage.",
+                "Parce que l'eau stagnante attire les moustiques."
+              ],
+              "correctIndex": 1,
+              "explanation": "Les trous de drainage et l'absence d'eau stagnante permettent à l'air de revenir dans le substrat après l'arrosage. Sans cela, le substrat reste saturé, les racines suffoquent, et la plante meurt - même si on a l'impression de bien s'en occuper en arrosant régulièrement."
+            },
+            {
+              "id": "ind-l04-q2",
+              "stem": "Vous arrosez votre plante tous les lundis matins, religieusement. Quel est le problème avec cette approche?",
+              "options": [
+                "Aucun, la régularité est la clé du succès.",
+                "Il faudrait arroser deux fois par semaine pour mieux faire.",
+                "La fréquence d'arrosage doit varier selon la saison, l'humidité de l'air, et l'état du substrat - pas suivre un calendrier fixe.",
+                "Le matin n'est pas le meilleur moment, il faut arroser le soir."
+              ],
+              "correctIndex": 2,
+              "explanation": "Un calendrier fixe est l'erreur classique. En été dans un appartement chauffé, votre plante peut avoir besoin d'eau deux fois par semaine; en hiver, peut-être une fois toutes les deux semaines. Ce sont l'observation du substrat (sec ou humide?) et de la plante qui dictent le rythme, pas le jour de la semaine."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l05-substrat-concept",
+      "title": "Le substrat n'est pas de la terre",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Quand on parle de \"terre\" pour les plantes d'intérieur, on parle en réalité de **substrat** — un mélange conçu pour faire trois choses à la fois: retenir un peu d'eau, laisser circuler beaucoup d'air, et donner aux racines quelque chose à quoi s'accrocher.\n\nLa terre du jardin, elle, ne convient pas. Elle se compacte trop vite dans un pot, l'eau ne s'écoule pas correctement, et elle peut amener des parasites du sol. Le substrat d'intérieur est un produit fabriqué, généralement à base de tourbe ou de fibre de coco, mélangé à du sable, de la perlite, ou d'autres matériaux qui maintiennent une structure aérée."
+        },
+        {
+          "type": "text",
+          "markdown": "## La structure plus que la composition\n\nCe qui rend un bon substrat n'est pas tellement ce qu'il contient — c'est sa **structure physique**. Imaginez un bon substrat au microscope: des particules de différentes tailles avec des espaces entre elles. Ces espaces se remplissent d'eau quand vous arrosez, puis l'eau s'écoule, et les espaces se remplissent d'air. C'est ce cycle eau-air qui permet aux racines de respirer.",
+          "svg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='20' width='140' height='140' rx='8' fill='#1B1E24' stroke='#97C459' stroke-width='1.5'/><text x='80' y='12' font-size='10' fill='#97C459' text-anchor='middle' font-family='sans-serif' font-weight='600'>Bonne structure</text><circle cx='30' cy='45' r='5' fill='#7A4438'/><circle cx='55' cy='55' r='8' fill='#7A4438'/><circle cx='80' cy='42' r='4' fill='#7A4438'/><circle cx='110' cy='50' r='7' fill='#7A4438'/><circle cx='35' cy='75' r='6' fill='#7A4438'/><circle cx='65' cy='85' r='5' fill='#7A4438'/><circle cx='95' cy='78' r='9' fill='#7A4438'/><circle cx='125' cy='90' r='4' fill='#7A4438'/><circle cx='30' cy='110' r='7' fill='#7A4438'/><circle cx='65' cy='115' r='5' fill='#7A4438'/><circle cx='95' cy='120' r='6' fill='#7A4438'/><circle cx='125' cy='115' r='5' fill='#7A4438'/><circle cx='45' cy='140' r='6' fill='#7A4438'/><circle cx='85' cy='145' r='8' fill='#7A4438'/><circle cx='120' cy='142' r='5' fill='#7A4438'/><text x='80' y='173' font-size='9' fill='#97C459' text-anchor='middle' font-family='sans-serif'>Espaces entre particules = air</text><rect x='170' y='20' width='140' height='140' rx='8' fill='#1B1E24' stroke='#E24B4A' stroke-width='1.5'/><text x='240' y='12' font-size='10' fill='#E24B4A' text-anchor='middle' font-family='sans-serif' font-weight='600'>Mauvaise structure</text><rect x='175' y='25' width='130' height='130' fill='#5C3A30'/><circle cx='185' cy='35' r='1' fill='#3A2520'/><circle cx='200' cy='42' r='1' fill='#3A2520'/><circle cx='220' cy='38' r='1' fill='#3A2520'/><circle cx='240' cy='45' r='1' fill='#3A2520'/><circle cx='265' cy='40' r='1' fill='#3A2520'/><circle cx='290' cy='48' r='1' fill='#3A2520'/><text x='240' y='173' font-size='9' fill='#E24B4A' text-anchor='middle' font-family='sans-serif'>Compact, particules fines, pas d'air</text></svg>",
+          "caption": "À gauche, un substrat aéré avec des espaces d'air. À droite, un substrat compact où l'eau stagne et l'air ne circule pas."
+        },
+        {
+          "type": "text",
+          "markdown": "C'est pourquoi vous entendrez souvent la recommandation d'ajouter de la **perlite** (ces petits cailloux blancs et légers) ou de la **fibre de coco** à un substrat acheté: ces composants maintiennent la structure aérée même quand la matière organique se décompose avec le temps.\n\nLe substrat se dégrade avec les années. Au bout de deux ans, même un bon substrat devient compact et perd sa structure. C'est l'une des raisons principales pour lesquelles on rempote — on remplace un substrat fatigué par un substrat frais."
+        },
+        {
+          "type": "compare",
+          "title": "Types de substrats courants",
+          "items": [
+            { "id": "universal", "label": "Universel" },
+            { "id": "cactus", "label": "Cactées" },
+            { "id": "orchid", "label": "Orchidées" }
+          ],
+          "attributes": [
+            {
+              "id": "composition",
+              "label": "Composition typique",
+              "values": [
+                "Tourbe ou fibre de coco + un peu de perlite + matière organique",
+                "Substrat universel + sable + plus de perlite, drainage très rapide",
+                "Écorces de pin grossières, presque pas de matière fine"
+              ]
+            },
+            {
+              "id": "retention",
+              "label": "Rétention d'eau",
+              "values": [
+                "Moyenne — sèche en quelques jours",
+                "Faible — sèche très vite",
+                "Très faible — l'eau traverse rapidement"
+              ]
+            },
+            {
+              "id": "use",
+              "label": "Pour quelles plantes",
+              "values": [
+                "La plupart des plantes vertes d'intérieur",
+                "Cactus, succulentes, plantes méditerranéennes",
+                "Orchidées et plantes épiphytes uniquement"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "Pour un débutant, retenez surtout: **le substrat universel pour plantes d'intérieur** suffit pour 90% des cas. Vous l'achèterez en sac dans n'importe quel magasin de jardinage. Si la plante que vous achetez exige un substrat spécifique (cactus, orchidée), le vendeur ou l'étiquette le précisera — sinon, c'est universel."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l05-q1",
+              "stem": "Pourquoi ne pas utiliser de la terre de jardin pour rempoter une plante d'intérieur?",
+              "options": [
+                "Parce qu'elle est trop riche en nutriments.",
+                "Parce qu'elle se compacte dans un pot, bloque le drainage et l'aération.",
+                "Parce qu'elle attire les insectes par sa couleur.",
+                "Parce qu'elle est trop sèche pour les plantes tropicales."
+              ],
+              "correctIndex": 1,
+              "explanation": "La terre de jardin a une structure adaptée à un grand volume extérieur avec drainage naturel. Dans un pot, elle se compacte rapidement, l'eau ne s'écoule plus correctement, et les racines suffoquent. Le substrat d'intérieur est spécifiquement formulé pour garder sa structure aérée dans le volume restreint d'un pot."
+            },
+            {
+              "id": "ind-l05-q2",
+              "stem": "Vous rempotez votre Pothos. Quel substrat choisissez-vous?",
+              "options": [
+                "De la terre du jardin tamisée.",
+                "Un substrat pour cactées — ça draine mieux.",
+                "Un substrat universel pour plantes d'intérieur.",
+                "Un substrat pour orchidées — c'est plus aéré."
+              ],
+              "correctIndex": 2,
+              "explanation": "Le Pothos est une plante tropicale courante; le substrat universel pour plantes d'intérieur est exactement ce qu'il faut. Un substrat cactées drainerait trop vite et la plante manquerait d'eau; un substrat orchidées ne retient pas assez de matière fine pour ses racines."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l06-humidite-temperature",
+      "title": "Humidité et température de l'air",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "L'environnement invisible — l'air autour de votre plante — détermine une grande partie de son succès. Et c'est précisément l'environnement le plus difficile à lire pour un débutant, parce qu'il est invisible.\n\nDeux variables comptent: **l'humidité** (combien de vapeur d'eau l'air contient) et **la température**. Elles interagissent: l'air chaud peut retenir plus d'humidité que l'air froid; le chauffage central abaisse drastiquement l'humidité relative en hiver; un courant d'air froid dessèche autant qu'il refroidit."
+        },
+        {
+          "type": "text",
+          "markdown": "## L'humidité: ce qui compte vraiment\n\nUne erreur fréquente est de penser en valeurs absolues — \"les plantes tropicales aiment 60% d'humidité\". La vérité est plus nuancée: ce qui stresse une plante n'est pas un taux d'humidité particulier, c'est l'**écart entre son origine et son environnement actuel**.\n\nUne plante venant d'une forêt tropicale (80% d'humidité naturelle) placée dans un appartement suisse en hiver (30% d'humidité avec le chauffage) subit un écart énorme. La même plante dans une salle de bain (50-60% d'humidité régulière) vit beaucoup mieux. C'est la différence qui compte, pas le chiffre absolu.\n\nPour la plupart des plantes d'intérieur courantes, viser **40-50% d'humidité** suffit. C'est atteignable dans une pièce normale sans équipement spécial — au-dessus, vous entrez dans le territoire des plantes vraiment exigeantes (orchidées, Calathea, fougères) qui demandent un environnement dédié."
+        },
+        {
+          "type": "compare",
+          "title": "Plantes selon leur origine et leurs besoins en humidité",
+          "items": [
+            { "id": "trop", "label": "Origine tropicale humide" },
+            { "id": "med", "label": "Origine méditerranéenne" },
+            { "id": "arid", "label": "Origine aride" }
+          ],
+          "attributes": [
+            {
+              "id": "examples",
+              "label": "Exemples",
+              "values": [
+                "Monstera, Philodendron, Calathea, Pothos, Spathiphyllum",
+                "Olivier, Romarin, Lavande (rare en intérieur)",
+                "Cactus, Sansevieria, Aloès, Zamioculcas"
+              ]
+            },
+            {
+              "id": "humidity",
+              "label": "Humidité préférée",
+              "values": [
+                "50-70%, souffrent en dessous de 30%",
+                "30-50%, tolèrent l'air sec",
+                "20-40%, l'air sec ne les dérange pas"
+              ]
+            },
+            {
+              "id": "winter",
+              "label": "Comportement en hiver chauffé",
+              "values": [
+                "Stressées: feuilles aux bords bruns, croissance ralentie",
+                "Indifférentes",
+                "Indifférentes, voire mieux que dans l'humidité"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## La température: les pièges cachés\n\nLa température de votre logement convient à la plupart des plantes — entre 18 et 24°C, c'est la zone confortable de presque toutes les plantes d'intérieur populaires.\n\nMais deux situations posent problème:\n\n**Les courants d'air froid en hiver**, près d'une fenêtre mal isolée ou d'une porte qui s'ouvre fréquemment. Une plante tropicale peut survivre à 18°C, mais des écarts brusques de 10°C lors d'aérations répétées la stressent énormément. Tenez les plantes sensibles à distance des courants d'air, surtout les Calathea, Ficus, et Spathiphyllum.\n\n**Les radiateurs en hiver**, qui font monter la température locale à 30°C ou plus pendant que l'air ambiant est à 20°C. La plante alterne entre chaud-sec et frais, et perd ses repères. Ne placez jamais une plante directement au-dessus ou à proximité immédiate d'un radiateur actif."
+        },
+        {
+          "type": "flashcard",
+          "title": "Concepts à retenir",
+          "cards": [
+            {
+              "id": "ind-l06-fc1",
+              "front": "Pourquoi l'air sec d'hiver stresse-t-il les plantes tropicales?",
+              "back": "Le chauffage central abaisse l'humidité relative de l'air à 25-35% alors que ces plantes viennent d'environnements à 70-80%. La plante perd de l'eau plus vite par ses feuilles que ses racines ne peuvent en absorber."
+            },
+            {
+              "id": "ind-l06-fc2",
+              "front": "Quelle est la plage d'humidité confortable pour la plupart des plantes d'intérieur courantes?",
+              "back": "Entre 40 et 50%. C'est atteignable dans une pièce normale sans équipement. Au-delà, on entre dans le territoire des plantes vraiment exigeantes (orchidées, fougères, Calathea)."
+            },
+            {
+              "id": "ind-l06-fc3",
+              "front": "Quels sont les deux pièges de température en hiver?",
+              "back": "(1) Les courants d'air froid près des fenêtres ou portes — écarts brusques qui stressent les plantes tropicales. (2) La proximité directe avec un radiateur — chaleur sèche locale qui déshydrate."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l06-q1",
+              "stem": "Votre Monstera développe des bords bruns et secs sur ses feuilles en plein hiver. Vous arrosez normalement et la lumière est bonne. Quelle est la cause la plus probable?",
+              "options": [
+                "Manque d'engrais.",
+                "Excès de lumière qui brûle les feuilles.",
+                "Air trop sec à cause du chauffage central.",
+                "Substrat trop pauvre."
+              ],
+              "correctIndex": 2,
+              "explanation": "Les bords bruns et secs en hiver, sur une plante par ailleurs bien soignée, sont presque toujours dus à l'air sec causé par le chauffage. La plante tropicale perd de l'eau par ses feuilles plus vite qu'elle ne peut en absorber. Solutions: éloigner la plante des radiateurs, regrouper plusieurs plantes ensemble (elles créent un microclimat humide), ou déplacer dans une salle de bain."
+            },
+            {
+              "id": "ind-l06-q2",
+              "stem": "Vous voulez placer un cactus quelque part dans votre logement. Quelle considération NE compte PAS particulièrement pour cette plante?",
+              "options": [
+                "L'intensité de la lumière (forte de préférence).",
+                "L'humidité ambiante.",
+                "L'absence de courants d'air froid.",
+                "La fréquence d'arrosage."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le cactus vient de milieux arides et tolère parfaitement (voire préfère) un air sec — l'humidité ambiante n'est donc pas une variable critique pour lui. La lumière forte est nécessaire, les courants d'air froid restent à éviter en hiver, et l'arrosage doit être espacé. C'est ce qui rend le cactus paradoxalement bien adapté à l'intérieur sec d'un appartement chauffé."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l07-lire-emplacement",
+      "title": "Lire un emplacement avant d'acheter une plante",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Vous avez maintenant les outils pour évaluer un emplacement avant d'y mettre une plante. C'est l'inversion du réflexe habituel — la plupart des gens achètent une plante qui leur plaît, rentrent à la maison, et cherchent où la mettre.\n\nLa méthode qui marche est l'inverse: **identifiez un emplacement, décrivez-le précisément, puis choisissez une plante qui correspond**.\n\nUn emplacement bien lu vaut plus qu'un guide d'achat."
+        },
+        {
+          "type": "text",
+          "markdown": "## La grille de lecture d'un emplacement\n\nPour qu'un emplacement soit \"lu\" correctement, vous devez pouvoir répondre à six questions:\n\n1. **Quelle est l'orientation** de la fenêtre la plus proche? (Nord, est, sud, ouest)\n2. **À quelle distance** de cette fenêtre se trouve l'emplacement? (En contact, à 50 cm, à 1 m, à plus de 2 m)\n3. **Quelle lumière** s'y trouve? (Test de l'ombre de la main + idéalement une mesure smartphone à plusieurs moments)\n4. **Quelle est la température moyenne** de la pièce, et y a-t-il des variations brusques? (Radiateur proche? Courants d'air?)\n5. **Quelle humidité approximative**? (Salle de bain humide, cuisine moyenne, salon chauffé sec)\n6. **Vais-je voir cette plante** régulièrement? (Si non, je ne remarquerai pas qu'elle souffre)\n\nLa sixième question est sous-estimée mais cruciale: une plante placée dans un couloir que vous traversez sans regarder mourra avant que vous ne vous en aperceviez. Les meilleurs emplacements pour un débutant sont ceux que vous fréquentez quotidiennement."
+        },
+        {
+          "type": "text",
+          "markdown": "## Le profil sur 24 heures\n\nUne erreur fréquente est d'évaluer la lumière une seule fois. Or, un emplacement change dramatiquement au cours de la journée:\n\n- Une fenêtre est est forte au matin, faible l'après-midi.\n- Un coin éloigné de la fenêtre est en pénombre constante.\n- Une fenêtre sud derrière un voilage est diffuse en milieu de journée, plus directe le matin et le soir.\n\nIdéalement, faites trois mesures: matin (9h), midi (13h), fin d'après-midi (17h). Notez les trois valeurs. C'est le **profil** qui décrit l'emplacement, pas une valeur unique."
+        },
+        {
+          "type": "scenario",
+          "title": "Lire trois emplacements concrets",
+          "context": "Vous habitez un appartement à Zürich. Vous envisagez trois emplacements possibles pour une nouvelle plante:\n\n**Emplacement A** — Le rebord intérieur de la fenêtre du salon, plein sud, sans voilage. Le radiateur sous la fenêtre fonctionne en hiver. Mesures smartphone: 3000 lux à midi (plus en été), 800 lux en fin d'après-midi.\n\n**Emplacement B** — Une étagère murale dans la salle de bain, à 2 m de la fenêtre orientée est, voilée par un rideau opaque. Mesures: 200 lux le matin, 80 lux le reste de la journée.\n\n**Emplacement C** — Le coin du bureau, à 1,5 m d'une fenêtre ouest, sans obstacle. Bureau utilisé tous les jours. Mesures: 400 lux le matin, 1500 lux en fin d'après-midi.",
+          "questions": [
+            {
+              "id": "ind-l07-sq1",
+              "stem": "Pour l'emplacement A (rebord sud, plein soleil, radiateur sous), quelle plante serait la plus adaptée?",
+              "options": [
+                "Un Calathea, qui aime la lumière forte.",
+                "Un Pothos, qui tolère toutes les conditions.",
+                "Un cactus ou une succulente.",
+                "Une fougère, qui aime la salle de bain."
+              ],
+              "correctIndex": 2,
+              "explanation": "L'emplacement A combine forte lumière directe, faible humidité (chauffage en hiver) et chaleur locale du radiateur. C'est exactement le profil arido-méditerranéen. Un cactus ou une succulente y prospérera. Le Calathea et la fougère y mourraient en quelques semaines (air trop sec, lumière trop directe). Le Pothos survivrait mais ses feuilles brûleraient en plein soleil d'été."
+            },
+            {
+              "id": "ind-l07-sq2",
+              "stem": "Pour l'emplacement B (salle de bain, lumière très faible, humidité élevée), quel choix est le plus sage?",
+              "options": [
+                "Un Pothos ou un Zamioculcas, qui tolèrent la pénombre.",
+                "Un Ficus lyrata, qui aime l'humidité de salle de bain.",
+                "Un cactus, parce que la salle de bain a peu de lumière comme le désert.",
+                "Aucune plante — la lumière est trop faible pour quoi que ce soit."
+              ],
+              "correctIndex": 0,
+              "explanation": "La combinaison \"lumière faible + humidité élevée\" est rare et précieuse. Le Pothos et le Zamioculcas sont parmi les rares plantes qui acceptent réellement la pénombre (200 lux maximum), et ils apprécient l'humidité ambiante d'une salle de bain. Le Ficus lyrata exige une lumière vive impossible ici. Et la salle de bain, contrairement au désert, est très humide — l'opposé de ce qu'un cactus tolère."
+            },
+            {
+              "id": "ind-l07-sq3",
+              "stem": "Pour l'emplacement C (bureau utilisé quotidiennement, fenêtre ouest, lumière modérée à vive), quel est l'aspect le plus important au-delà du profil de lumière?",
+              "options": [
+                "La couleur des murs du bureau.",
+                "Le fait que vous fréquentez ce lieu tous les jours.",
+                "La proximité du clavier de l'ordinateur.",
+                "L'orientation du bureau dans la pièce."
+              ],
+              "correctIndex": 1,
+              "explanation": "Un emplacement vu quotidiennement permet d'observer la plante: vous remarquez vite si elle souffre, si le substrat sèche, si quelque chose change. Pour un débutant, cet aspect compte autant que le profil environnemental. C'est l'emplacement qui transforme l'observation en habitude, et l'observation est la compétence centrale du jardinage d'intérieur."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## La règle finale\n\nUne fois que vous savez lire un emplacement, vous pouvez aller au magasin et regarder les plantes différemment. Vous ne demandez plus \"laquelle est belle?\" — vous demandez \"laquelle correspond à mon emplacement?\".\n\nC'est une démarche moins impulsive, mais elle transforme radicalement le taux de réussite. Les leçons suivantes vous donneront le vocabulaire des plantes spécifiques — celles qui sont vraiment robustes, celles qui sont vendues comme faciles mais ne le sont pas, et comment les inspecter à l'achat."
+        }
+      ]
+    },
+    {
+      "id": "ind-l08-fausses-faciles",
+      "title": "Les plantes \"faciles\" qui ne le sont pas tant",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Vous entrez dans une jardinerie. Un grand panneau annonce \"plantes faciles d'entretien\". Vous repartez avec un Ficus benjamina, une orchidée, et un Calathea — trois des plantes les plus vendues sous cette étiquette.\n\nIl y a une chance non négligeable que ces trois plantes soient mortes dans six mois. Pas parce que vous êtes mauvais avec les plantes, mais parce qu'elles ont été mal catégorisées par le marketing.\n\nCette leçon n'est pas méchante envers ces plantes — ce sont de belles plantes, qui prospèrent dans de bonnes conditions. C'est leur réputation de plantes \"faciles\" qui est trompeuse, et cela cause beaucoup de déceptions évitables."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pourquoi le marketing ment (un peu)\n\nLes plantes vendues comme \"faciles\" ne sont pas choisies parce qu'elles sont faciles. Elles sont choisies parce que:\n\n- Elles sont **belles en magasin** (feuillage spectaculaire, fleurs colorées),\n- Elles **survivent au transport et au stock**,\n- Elles **se vendent rapidement** à des acheteurs séduits.\n\nLa facilité d'entretien chez le client final n'entre pas dans cette équation. Et beaucoup de ces plantes sont en réalité **élevées en serre**, dans des conditions parfaites (90% d'humidité, lumière contrôlée, fertilisation constante) — quand vous les ramenez chez vous, elles subissent un choc qu'on appelle \"l'acclimatation\", et elles affichent immédiatement leur stress.\n\nUne plante qui perd des feuilles dans les deux premières semaines après l'achat, ce n'est pas \"votre faute\". C'est le passage de la serre à votre salon."
+        },
+        {
+          "type": "compare",
+          "title": "Trois plantes \"faciles\" — la réalité",
+          "items": [
+            { "id": "ficus", "label": "Ficus benjamina" },
+            { "id": "orchid", "label": "Orchidée (Phalaenopsis)" },
+            { "id": "calathea", "label": "Calathea" }
+          ],
+          "attributes": [
+            {
+              "id": "reputation",
+              "label": "Réputation marketing",
+              "values": [
+                "\"Arbre d'intérieur facile\"",
+                "\"Tolère l'oubli\"",
+                "\"Belle plante d'intérieur classique\""
+              ]
+            },
+            {
+              "id": "reality",
+              "label": "Réalité",
+              "values": [
+                "Perd ses feuilles au moindre changement (déplacement, courant d'air, variation de lumière)",
+                "Demande un arrosage très spécifique (trempage + égouttage complet) et meurt facilement de pourriture racinaire",
+                "Exige >60% d'humidité et déteste l'eau du robinet calcaire; les bords des feuilles brunissent rapidement"
+              ]
+            },
+            {
+              "id": "verdict",
+              "label": "Verdict débutant",
+              "values": [
+                "À éviter la première année",
+                "À éviter sauf à étudier ses besoins spécifiques",
+                "À éviter sauf en salle de bain humide"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## D'autres pièges courants\n\nQuelques autres plantes régulièrement vendues comme \"faciles\" mais qui ne le sont pas pour un débutant:\n\n- **Ficus lyrata (figuier-lyre)** — exige beaucoup de lumière vive (>1500 lux soutenu), une stabilité environnementale parfaite, et pardonne très peu d'erreurs d'arrosage. La plante la plus instagrammée et l'une des plus déçues.\n- **Fittonia (plante mosaïque)** — flétrit dramatiquement dès que le substrat sèche un peu, ressuscite si vous arrosez vite, mais cette gymnastique épuise la plante et elle meurt à terme.\n- **Stromanthe / Maranta** — comme le Calathea, exigent une humidité élevée et de l'eau non calcaire.\n- **Croton** — magnifique en magasin (feuillage multicolore), perd toutes ses feuilles à la moindre variation de conditions.\n\nLe point commun: ces plantes ont des exigences précises et étroites. Elles peuvent prospérer chez quelqu'un d'expérimenté qui crée les bonnes conditions; elles déçoivent presque tous les débutants."
+        },
+        {
+          "type": "flashcard",
+          "title": "À retenir",
+          "cards": [
+            {
+              "id": "ind-l08-fc1",
+              "front": "Pourquoi les plantes vendues comme \"faciles\" ne le sont-elles pas toujours?",
+              "back": "Parce que ce critère sert le commerce (belle en magasin, survit au transport, se vend bien), pas le client final. La facilité réelle d'entretien chez vous n'entre pas dans la sélection."
+            },
+            {
+              "id": "ind-l08-fc2",
+              "front": "Qu'est-ce que le \"choc d'acclimatation\" après l'achat?",
+              "back": "Les plantes sont élevées en serre dans des conditions parfaites (humidité, lumière, fertilisation). Le passage à votre logement crée un stress qui se manifeste dans les premières semaines: feuilles qui tombent, jaunissement. Ce n'est pas une erreur de votre part."
+            },
+            {
+              "id": "ind-l08-fc3",
+              "front": "Quel est le point commun des plantes \"faciles\" qui déçoivent les débutants?",
+              "back": "Elles ont des exigences précises et étroites (humidité élevée, lumière vive constante, eau non calcaire, stabilité environnementale parfaite). Elles ne tolèrent pas les erreurs d'un débutant qui apprend."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l08-q1",
+              "stem": "Vous offrez un Calathea à une amie qui débute et habite dans un appartement chauffé en hiver, salon orienté nord. Que se passera-t-il probablement?",
+              "options": [
+                "La plante va prospérer — le Calathea préfère la pénombre.",
+                "La plante survivra mais les bords des feuilles vont brunir à cause de l'air sec.",
+                "La plante mourra rapidement faute de lumière directe.",
+                "Pas de problème, le Calathea est une plante facile."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le Calathea tolère la lumière modérée (donc une fenêtre nord peut fonctionner) mais exige une humidité élevée (>60%) et déteste l'eau calcaire. Dans un appartement chauffé suisse, l'humidité hivernale descend à 30%, et les bords des feuilles brunissent invariablement. Pour un débutant, c'est exactement le type de plante à éviter en cadeau."
+            },
+            {
+              "id": "ind-l08-q2",
+              "stem": "Votre nouveau Ficus benjamina perd toutes ses feuilles dans les deux semaines après l'achat. Quelle est la conclusion la plus juste?",
+              "options": [
+                "Vous avez fait une erreur d'arrosage — il faut compenser.",
+                "C'est probablement le choc normal d'acclimatation; surveillez sans paniquer ni sur-réagir.",
+                "La plante est malade et il faut la rendre au magasin.",
+                "Il manque d'engrais — appliquez-en immédiatement."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le Ficus benjamina est réputé pour perdre ses feuilles à tout changement d'environnement — c'est sa réaction normale au déménagement de la serre à votre salon. La pire chose à faire est de réagir en arrosant davantage, en fertilisant, ou en déplaçant la plante. Stabilisez les conditions, arrosez quand le substrat sèche, et la plante repoussera ses feuilles en quelques mois si l'emplacement convient."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l09-plantes-robustes",
+      "title": "Plantes vraiment robustes pour débutants",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Après avoir vu ce qu'il faut éviter, voici la sélection inverse: des plantes **vraiment** tolérantes, qui pardonnent les erreurs d'arrosage, de lumière, de température, et qui continuent à prospérer pendant que vous apprenez.\n\nCette liste est courte intentionnellement. Mieux vaut cinq plantes vraiment robustes et bien comprises qu'une liste de quinze plantes vaguement adaptées. Chacune ci-dessous a été choisie pour une raison précise."
+        },
+        {
+          "type": "text",
+          "markdown": "## Cinq plantes que vous ne pouvez presque pas tuer\n\n**1. Pothos (Epipremnum aureum)** — La plante débutant par excellence. Tolère la lumière faible à modérée, survit à l'oubli d'arrosage pendant des semaines, repousse vigoureusement après une période de stress. Ses feuilles vous parlent: elles s'affaissent visiblement quand la plante a soif et se redressent en quelques heures après l'arrosage. C'est un système de signalement intégré.\n\n**2. Sansevieria (langue de belle-mère, Sansevieria trifasciata)** — Quasiment indestructible. Préfère l'oubli à la sur-attention; tolère une lumière très faible (mais préfère la modérée); peut passer un mois sans arrosage en hiver. Idéale pour un coin sombre ou un appartement de personne souvent absente.\n\n**3. Zamioculcas (ZZ, Zamioculcas zamiifolia)** — Comparable à la Sansevieria en robustesse. Stocke l'eau dans des rhizomes souterrains, ce qui lui permet de survivre à des oublis d'arrosage prolongés. Tolère très bien la pénombre. Croissance lente — ce qui est en réalité un avantage pour un débutant (moins de besoins, moins de surprises).\n\n**4. Philodendron à feuilles en cœur (Philodendron hederaceum)** — Cousin du Pothos avec des feuilles légèrement différentes. Mêmes qualités: tolérant, expressif (les feuilles signalent la soif), pousse vite, facile à bouturer. Très bien adapté à une étagère où il peut retomber.\n\n**5. Aspidistra (langue de vache, Aspidistra elatior)** — La plante des époques victoriennes, choisie historiquement pour sa capacité à survivre dans des salons mal éclairés et enfumés. Si elle est encore vendue 150 ans plus tard, c'est qu'elle marche. Croissance très lente, exigences minimales."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pourquoi ces cinq spécifiquement?\n\nElles partagent quatre propriétés:\n\n- **Une grande tolérance à l'arrosage** (sur-arrosage et sous-arrosage), avec une marge d'erreur réelle de plusieurs jours.\n- **Une tolérance à la lumière faible** (sans pour autant l'exiger — elles poussent mieux en lumière modérée).\n- **Une croissance prévisible** sans surprises (pas d'effondrement soudain).\n- **Un signalement clair** — leurs feuilles disent quand quelque chose ne va pas, suffisamment tôt pour que vous puissiez réagir.\n\nCe sont les quatre qualités qui font une bonne \"plante d'apprentissage\". Vous pouvez expérimenter, faire des erreurs, observer, corriger — sans tuer la plante."
+        },
+        {
+          "type": "compare",
+          "title": "Les cinq robustes — choisir selon votre emplacement",
+          "items": [
+            { "id": "low-light", "label": "Lumière faible" },
+            { "id": "moderate", "label": "Lumière modérée" }
+          ],
+          "attributes": [
+            {
+              "id": "best",
+              "label": "Meilleur choix",
+              "values": [
+                "Zamioculcas, Sansevieria, Aspidistra",
+                "Pothos, Philodendron à feuilles en cœur"
+              ]
+            },
+            {
+              "id": "growth",
+              "label": "Vitesse de croissance",
+              "values": [
+                "Lente (Zamioculcas, Aspidistra) à modérée (Sansevieria)",
+                "Rapide — visible en quelques semaines"
+              ]
+            },
+            {
+              "id": "watering",
+              "label": "Fréquence d'arrosage typique",
+              "values": [
+                "Toutes les 2 à 4 semaines selon la saison",
+                "Toutes les 1 à 2 semaines selon la saison"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "Si vous démarrez avec une seule plante, prenez un **Pothos**. C'est la plante qui apprend le mieux le rythme d'observation et qui pardonne le plus volontiers les erreurs initiales. Vous pourrez la bouturer dans un verre d'eau pour en faire plusieurs, sans coût supplémentaire.\n\nSi vous démarrez avec deux plantes pour des emplacements différents, prenez un Pothos pour un endroit avec un peu de lumière, et un Zamioculcas pour un coin plus sombre. Cette paire couvre 80% des emplacements possibles dans un logement."
+        },
+        {
+          "type": "flashcard",
+          "title": "Les cinq à connaître",
+          "cards": [
+            {
+              "id": "ind-l09-fc1",
+              "front": "Quelle plante choisir pour un premier essai en jardinage d'intérieur?",
+              "back": "Un Pothos. Tolérant, expressif (feuilles qui s'affaissent quand il a soif), pousse vite, facile à bouturer dans l'eau. C'est la plante d'apprentissage par excellence."
+            },
+            {
+              "id": "ind-l09-fc2",
+              "front": "Quelle plante pour un coin sombre où vous oubliez régulièrement d'arroser?",
+              "back": "Sansevieria ou Zamioculcas. Toutes deux tolèrent la lumière très faible et stockent l'eau (Zamioculcas dans des rhizomes, Sansevieria dans ses feuilles épaisses). Elles préfèrent l'oubli à la sur-attention."
+            },
+            {
+              "id": "ind-l09-fc3",
+              "front": "Quelles sont les quatre qualités d'une bonne \"plante d'apprentissage\"?",
+              "back": "Tolérance à l'arrosage (marge d'erreur réelle), tolérance à la lumière faible, croissance prévisible, et signalement clair (la plante dit quand ça ne va pas, suffisamment tôt pour corriger)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l09-q1",
+              "stem": "Votre appartement a un grand mur sans fenêtre proche, en pénombre constante. Vous voulez y mettre une plante. Quel est le meilleur choix?",
+              "options": [
+                "Un Pothos — il tolère la pénombre.",
+                "Un Zamioculcas — il prospère dans la pénombre et tolère l'oubli.",
+                "Un Ficus benjamina — il accepte tous les emplacements.",
+                "Un cactus — il n'a besoin de presque rien."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le Zamioculcas est le champion incontesté de la pénombre. Le Pothos tolère la pénombre mais pousse mieux avec un peu de lumière. Le Ficus benjamina dépérirait en pénombre. Le cactus, contrairement à une idée reçue, exige beaucoup de lumière directe et mourrait rapidement loin d'une fenêtre."
+            },
+            {
+              "id": "ind-l09-q2",
+              "stem": "Vous partez deux semaines en vacances en été. Quelle plante peut le plus probablement survivre sans arrosage pendant cette absence?",
+              "options": [
+                "Un Pothos — il accumule de l'eau dans ses feuilles.",
+                "Une Sansevieria — elle peut passer plusieurs semaines sans arrosage.",
+                "Un Calathea — il aime l'air sec des appartements vides.",
+                "Une fougère — elle se met en dormance pendant l'absence."
+              ],
+              "correctIndex": 1,
+              "explanation": "La Sansevieria, comme le Zamioculcas, est conçue pour les périodes sèches: ses feuilles épaisses stockent l'eau, et son métabolisme ralentit. Deux semaines sans arrosage en été ne lui posent généralement aucun problème. Le Pothos pourrait s'affaisser visiblement (mais récupérer après arrosage); le Calathea souffrirait beaucoup; la fougère serait probablement morte."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l10-acheter-inspecter",
+      "title": "Acheter une plante: quoi inspecter",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "L'achat d'une plante en magasin est un moment court mais déterminant. Vous avez environ trente secondes pour évaluer si vous ramenez à la maison une plante saine, une plante stressée mais récupérable, ou une plante condamnée d'avance.\n\nLa différence entre les trois n'est presque jamais visible au premier coup d'œil. Elle est dans des détails que la plupart des acheteurs ne regardent pas."
+        },
+        {
+          "type": "text",
+          "markdown": "## La checklist d'inspection\n\nVoici l'ordre à suivre devant une plante en magasin:\n\n**1. Le feuillage général**\n- Les feuilles sont-elles d'une couleur uniforme, bien turgescentes (fermes)?\n- Y a-t-il des feuilles jaunes, brunes, ou tombées au pied du pot? Une ou deux peuvent être normales; cinq ou plus sont un signal d'alerte.\n- Les nouvelles feuilles (au centre ou aux extrémités) sont-elles présentes et en bonne santé?\n\n**2. Les feuilles en détail**\n- Retournez quelques feuilles pour examiner le **dessous**. C'est là que se cachent les parasites.\n- Cherchez de petits points blancs, des toiles fines, des bosses brillantes (cochenilles), des points noirs (excréments d'insectes), des œufs.\n- Une plante qui sort du magasin avec des parasites contamine ensuite toutes vos autres plantes.\n\n**3. La tige et la base**\n- La tige est-elle ferme à sa base, ou molle?\n- Y a-t-il une odeur de pourriture au niveau du substrat?\n- Des moisissures blanches sur le substrat?\n\n**4. Les racines (si possible)**\n- Si le pot a des trous, regardez par en dessous: des racines blanches qui apparaissent légèrement = bon signe.\n- Des racines brunes molles qui sortent = pourriture racinaire, ne pas acheter.\n- Beaucoup de racines qui s'échappent par les trous = la plante est à l'étroit et stressée."
+        },
+        {
+          "type": "text",
+          "markdown": "## Le contexte du magasin\n\nDeux observations sur le magasin lui-même valent autant que l'inspection de la plante:\n\n**L'arrosage des stocks.** Une plante visiblement détrempée (eau dans la soucoupe, substrat saturé) en magasin est probablement déjà en train de développer une pourriture racinaire — le sur-arrosage en magasin tue plus de plantes que la sécheresse. À l'inverse, un substrat très sec et craquelé indique une plante stressée mais récupérable si elle n'est pas trop loin partie.\n\n**La lumière du magasin.** Une plante qui a passé des semaines dans un magasin sombre s'est déjà adaptée à cette pénombre — la ramener brutalement dans une fenêtre sud va la stresser. Inversement, une plante exposée à une lumière vive en magasin (près de la vitrine) s'adapte difficilement à un emplacement sombre chez vous. Demandez au vendeur où la plante a été stockée si vous n'êtes pas sûr."
+        },
+        {
+          "type": "scenario",
+          "title": "Inspecter deux Pothos",
+          "context": "Vous êtes dans une jardinerie et hésitez entre deux Pothos:\n\n**Plante A** — Feuilles vert vif et brillantes, fermes au toucher. Quelques pousses jeunes au centre. Le substrat est légèrement humide. Le pot a des trous de drainage par lesquels apparaissent quelques racines blanches. Aucune feuille tombée au pied. Vous retournez une feuille: rien d'anormal au dessous. La plante était placée à 1,5 m d'une fenêtre voilée.\n\n**Plante B** — Feuilles également vertes, mais plus pâles. Trois feuilles jaunes sur la base. Le substrat est complètement trempé, avec de l'eau dans la soucoupe. Vous retournez une feuille: quelques minuscules points blancs au dessous. Cette plante est en vitrine plein soleil.",
+          "questions": [
+            {
+              "id": "ind-l10-sq1",
+              "stem": "Quelle plante achetez-vous?",
+              "options": [
+                "Plante A — elle présente tous les signes d'une plante saine.",
+                "Plante B — elle est plus vibrante, on peut traiter les petits problèmes après.",
+                "Les deux — l'une ne va pas contaminer l'autre.",
+                "Aucune — il faut chercher ailleurs."
+              ],
+              "correctIndex": 0,
+              "explanation": "Plante A présente tous les signes d'une plante saine: feuillage uniforme et turgescent, croissance active visible, substrat correctement humidifié, racines saines visibles, aucun parasite, et stockée à une lumière modérée compatible avec la plupart des emplacements à la maison. C'est exactement le profil qu'on cherche."
+            },
+            {
+              "id": "ind-l10-sq2",
+              "stem": "Pourquoi ne pas acheter la plante B?",
+              "options": [
+                "Les feuilles jaunes ne sont pas un problème, mais le substrat trempé indique probablement une pourriture racinaire déjà installée.",
+                "Les points blancs sous les feuilles signalent probablement des parasites (cochenilles ou araignées rouges) que vous ramèneriez chez vous.",
+                "L'exposition plein soleil en magasin l'a stressée; elle sera difficile à acclimater à un emplacement intérieur plus sombre.",
+                "Toutes les raisons ci-dessus."
+              ],
+              "correctIndex": 3,
+              "explanation": "Plante B cumule trois signaux d'alerte: substrat saturé (risque sérieux de pourriture racinaire), parasites potentiels au dessous des feuilles (qui contamineraient vos autres plantes), et stress lumineux du plein soleil en magasin (acclimatation difficile à un nouveau lieu). Aucun de ces problèmes pris individuellement n'est nécessairement fatal, mais combinés ils transforment un achat en projet de sauvetage."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## La règle du \"ne pas acheter aujourd'hui\"\n\nSi vous avez le moindre doute sur une plante, ne l'achetez pas. Une jardinerie reçoit de nouveaux arrivages chaque semaine — revenez dans quelques jours, regardez les nouvelles plantes. Achetez une plante saine plutôt que de \"sauver\" une plante en difficulté: vous êtes débutant, le sauvetage demande des compétences que vous n'avez pas encore.\n\nCe principe s'applique aussi à la quantité: il vaut mieux acheter une plante saine que trois plantes douteuses. Une bonne plante bien comprise apprend plus qu'un cimetière de trois mois."
+        }
+      ]
+    },
+    {
+      "id": "ind-l11-48-premieres-heures",
+      "title": "L'arrivée à la maison: les 48 premières heures",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Vous rentrez du magasin avec une plante. C'est tentant de la considérer comme un nouvel objet de votre logement, à intégrer immédiatement: la rempoter dans un beau pot, l'arroser pour bien faire, la mettre à sa place décidée.\n\nNe faites rien de tout cela.\n\nUne plante qui vient d'arriver chez vous est dans un état de stress. Elle a quitté un environnement contrôlé (la serre, puis le magasin) et doit s'acclimater à votre logement — la lumière différente, l'humidité différente, peut-être la température différente. Pendant cette période, **la stabilité prime sur tout le reste**."
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce qu'il faut faire (et ne pas faire) immédiatement\n\nLes premières 48 heures sont une période d'observation, pas d'action. Voici le bon protocole:\n\n**À faire:**\n- Poser la plante à son emplacement prévu (vous avez fait votre lecture d'emplacement avant l'achat, idéalement).\n- Vérifier l'humidité du substrat avec le doigt. Si le substrat est très sec, arroser modérément — pas un détrempage complet, juste de quoi soulager. Si le substrat est humide, ne rien faire.\n- Observer la plante. Les feuilles tombent-elles? Y a-t-il des signes de parasites apparus depuis l'achat? Les nouvelles pousses tiennent-elles?\n\n**À ne pas faire:**\n- **Ne pas rempoter** dans les premières semaines (et idéalement pas avant un mois). Un rempotage est lui-même un stress; cumulé au stress d'acclimatation, c'est trop pour la plante.\n- **Ne pas fertiliser** dans le premier mois. La plante a été fertilisée intensivement en serre; elle a des réserves. Ajouter de l'engrais à une plante stressée empire les choses.\n- **Ne pas déplacer** la plante d'un endroit à l'autre pour \"essayer\". Choisissez un emplacement et tenez-vous-y au moins deux semaines.\n- **Ne pas paniquer** si quelques feuilles tombent. C'est attendu."
+        },
+        {
+          "type": "timeline",
+          "title": "À quoi s'attendre les premières semaines",
+          "events": [
+            {
+              "id": "ev1",
+              "marker": "Jour 1-2",
+              "title": "Période d'observation",
+              "description": "Pas d'action. Vérifier l'humidité du substrat, observer le feuillage, laisser la plante s'installer."
+            },
+            {
+              "id": "ev2",
+              "marker": "Semaine 1",
+              "title": "Premiers signes d'acclimatation",
+              "description": "Quelques feuilles peuvent tomber (surtout chez Ficus, Schefflera). C'est normal. Continuez à observer sans intervenir au-delà d'un arrosage modéré quand nécessaire."
+            },
+            {
+              "id": "ev3",
+              "marker": "Semaine 2-3",
+              "title": "Stabilisation",
+              "description": "La chute de feuilles ralentit ou s'arrête. Le rythme d'arrosage commence à se dessiner: vous notez à quel intervalle le substrat sèche."
+            },
+            {
+              "id": "ev4",
+              "marker": "Semaine 4-6",
+              "title": "Reprise de croissance",
+              "description": "Vous voyez apparaître des nouvelles feuilles ou des nouvelles pousses. La plante est acclimatée. C'est seulement maintenant qu'on peut envisager un rempotage si nécessaire."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce qui peut justifier une intervention immédiate\n\nDeux exceptions à la règle \"ne rien faire\":\n\n**Parasites visibles.** Si vous découvrez à la maison des parasites que vous n'aviez pas vus en magasin (cochenilles, araignées rouges, pucerons), isolez la plante immédiatement — éloignez-la de toute autre plante — et traitez. Ne pas traiter, c'est garantir une contamination de votre collection naissante.\n\n**Pot bouché ou inadéquat.** Si la plante est dans un pot sans trous de drainage (très fréquent en magasin: pot décoratif sans trous), il faut soit percer le pot, soit la rempoter rapidement dans un pot adéquat. Sans drainage, l'arrosage devient impossible à gérer et la pourriture racinaire est presque garantie.\n\nDans ces deux cas, agir vite est moins risqué que d'attendre."
+        },
+        {
+          "type": "flashcard",
+          "title": "Les trois règles d'or des 48 premières heures",
+          "cards": [
+            {
+              "id": "ind-l11-fc1",
+              "front": "Pourquoi ne pas rempoter une plante immédiatement après l'achat?",
+              "back": "Parce que l'acclimatation est déjà un stress. Cumuler un rempotage à ce stress dépasse souvent la capacité d'adaptation de la plante. Attendre 4 à 6 semaines, jusqu'à voir des signes de reprise de croissance, avant d'envisager un rempotage."
+            },
+            {
+              "id": "ind-l11-fc2",
+              "front": "Que signifient quelques feuilles qui tombent dans la première semaine?",
+              "back": "C'est presque toujours l'acclimatation normale, surtout pour les Ficus et plantes sensibles aux changements. Ce n'est pas un signal d'erreur de votre part et ce n'est pas le moment d'arroser plus, de fertiliser, ou de déplacer la plante."
+            },
+            {
+              "id": "ind-l11-fc3",
+              "front": "Quelles deux situations justifient une intervention immédiate à l'arrivée?",
+              "back": "(1) La découverte de parasites — isoler la plante et traiter immédiatement. (2) Un pot sans trous de drainage — percer ou rempoter rapidement pour éviter la pourriture racinaire."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l11-q1",
+              "stem": "Vous achetez un Pothos et le ramenez chez vous. Que faites-vous dans les deux premiers jours?",
+              "options": [
+                "Vous le rempotez dans un pot plus joli pour qu'il se sente bien dans son nouveau foyer.",
+                "Vous lui donnez un grand arrosage et un peu d'engrais pour bien démarrer.",
+                "Vous le placez à son emplacement prévu, vérifiez l'humidité du substrat, et l'observez sans rien faire d'autre.",
+                "Vous essayez plusieurs emplacements pour voir lequel lui plaît le mieux."
+              ],
+              "correctIndex": 2,
+              "explanation": "Les premières 48 heures sont une période d'observation. Rempoter, fertiliser, ou déplacer la plante ajoute du stress à un organisme déjà en cours d'acclimatation. La bonne attitude est de poser la plante à son emplacement, vérifier l'humidité, et observer comment elle réagit. Les interventions viennent plus tard, après stabilisation."
+            },
+            {
+              "id": "ind-l11-q2",
+              "stem": "Trois jours après son arrivée, votre nouveau Ficus a perdu six ou sept feuilles. Que faites-vous?",
+              "options": [
+                "Vous arrosez davantage pour compenser le stress.",
+                "Vous rempotez immédiatement dans un meilleur substrat.",
+                "Vous le déplacez à un autre emplacement, plus lumineux.",
+                "Vous continuez à observer sans intervenir, sauf si l'humidité du substrat justifie un arrosage modéré."
+              ],
+              "correctIndex": 3,
+              "explanation": "Le Ficus est connu pour perdre ses feuilles à l'acclimatation — c'est sa réaction normale au changement d'environnement. Toutes les interventions \"correctives\" (sur-arroser, rempoter, déplacer) aggraveraient le stress. La bonne attitude est la patience: stabiliser les conditions et observer. Les feuilles repousseront en quelques mois si l'emplacement convient."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l12-arroser-correctement",
+      "title": "Arroser correctement",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "L'arrosage est la compétence centrale du jardinage d'intérieur. Maîtrisée, elle élimine 80% des problèmes que les débutants rencontrent. Mal pratiquée, elle tue plus de plantes que toutes les autres erreurs combinées.\n\nLa bonne nouvelle: arroser correctement n'est pas compliqué. C'est une question d'observation, pas de calendrier. Cette leçon vous donne les méthodes concrètes."
+        },
+        {
+          "type": "text",
+          "markdown": "## La règle fondamentale (rappel de la leçon 4)\n\nL'arrosage idéal suit un cycle: **détrempage complet → assèchement partiel → nouveau détrempage**. Jamais d'eau stagnante dans la soucoupe. Jamais d'arrosage parce que c'est lundi.\n\nLa question qui revient sans cesse est: **comment savoir quand arroser?** Trois méthodes, à utiliser en combinaison."
+        },
+        {
+          "type": "compare",
+          "title": "Trois méthodes pour savoir quand arroser",
+          "items": [
+            { "id": "finger", "label": "Test du doigt" },
+            { "id": "weight", "label": "Poids du pot" },
+            { "id": "calendar", "label": "Calendrier fixe" }
+          ],
+          "attributes": [
+            {
+              "id": "how",
+              "label": "Méthode",
+              "values": [
+                "Enfoncer le doigt 2-3 cm dans le substrat. Sec? Arroser. Humide? Attendre.",
+                "Soulever le pot avant et après arrosage. Apprendre la différence de poids.",
+                "Arroser chaque X jours, indépendamment de l'état du substrat."
+              ]
+            },
+            {
+              "id": "reliability",
+              "label": "Fiabilité",
+              "values": [
+                "Excellente pour la plupart des plantes et des pots",
+                "Excellente, particulièrement pour les pots opaques",
+                "Médiocre — ignore l'environnement réel"
+              ]
+            },
+            {
+              "id": "limits",
+              "label": "Limites",
+              "values": [
+                "Moins fiable sur les pots très grands ou les substrats spéciaux (cactus)",
+                "Demande quelques semaines pour calibrer son sens du poids",
+                "Risque élevé de sur-arrosage ou sous-arrosage selon la saison"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## La méthode recommandée: doigt + poids\n\nUtilisez les deux ensemble. Le test du doigt vous dit ce qui se passe **en surface** (les premiers centimètres du substrat). Le poids du pot vous dit ce qui se passe **dans toute la motte** (le pot entier).\n\nLes deux peuvent diverger: un substrat sec en surface mais humide en profondeur (pot grand, mauvaise circulation d'air) signifie que ce n'est pas encore le moment d'arroser. Un substrat humide en surface mais pot léger (pot petit, évaporation rapide) signifie qu'il faut peut-être arroser bientôt malgré l'apparence.\n\nApprenez le poids \"plein\" (juste après arrosage) et le poids \"sec\" (avant le prochain arrosage idéal) de vos pots dans les premières semaines. Vos doigts deviennent un capteur calibré."
+        },
+        {
+          "type": "text",
+          "markdown": "## La procédure d'arrosage correcte\n\nQuand vous décidez d'arroser, voici exactement comment faire:\n\n**1. Apportez la plante dans l'évier** ou la baignoire. Cela évite l'eau qui coule partout et facilite l'égouttage.\n\n**2. Arrosez lentement et abondamment**, à eau tiède (pas froide directement du robinet). Versez sur tout le substrat, pas seulement au pied de la plante. Continuez jusqu'à ce que l'eau commence à couler par les trous de drainage.\n\n**3. Laissez s'égoutter complètement**, idéalement 10 à 20 minutes. C'est là que la magie opère: l'eau qui s'écoule emporte les sels minéraux accumulés et permet à l'air de revenir dans le substrat.\n\n**4. Replacez la plante** sur sa soucoupe vide. Si de l'eau s'écoule encore dans la soucoupe les heures suivantes, videz-la.\n\n**Ne jamais laisser un pot tremper** dans une soucoupe d'eau plus de quelques minutes. C'est exactement ce qui crée la pourriture racinaire."
+        },
+        {
+          "type": "text",
+          "markdown": "## L'eau elle-même\n\nL'eau du robinet en Suisse est généralement utilisable pour la plupart des plantes — elle est de bonne qualité, peu chlorée. Deux exceptions:\n\n- **Les plantes sensibles au calcaire** (Calathea, fougères, orchidées, plantes carnivores) souffrent de l'eau dure. Utilisez de l'eau de pluie récupérée, de l'eau filtrée, ou de l'eau minérale faiblement minéralisée.\n- **L'eau très froide** (juste sortie du robinet en hiver) peut choquer les racines des plantes tropicales. Laissez l'eau reposer une heure dans un arrosoir avant utilisation — elle atteint la température ambiante.\n\nPour les autres plantes (Pothos, Sansevieria, Zamioculcas, Philodendron, et la plupart des plantes vertes courantes), l'eau du robinet tempérée convient parfaitement."
+        },
+        {
+          "type": "flashcard",
+          "title": "L'essentiel à retenir",
+          "cards": [
+            {
+              "id": "ind-l12-fc1",
+              "front": "Quelles sont les deux méthodes fiables pour savoir quand arroser?",
+              "back": "(1) Le test du doigt: enfoncer le doigt 2-3 cm dans le substrat — sec, arroser; humide, attendre. (2) Le poids du pot: soulever pour évaluer combien d'eau il contient. Utiliser les deux ensemble."
+            },
+            {
+              "id": "ind-l12-fc2",
+              "front": "Quelle est la procédure d'arrosage correcte?",
+              "back": "Apporter la plante à l'évier; arroser abondamment à eau tiède jusqu'à ce que l'eau coule par les trous; laisser s'égoutter 10-20 minutes; replacer sur soucoupe vide; ne jamais laisser tremper."
+            },
+            {
+              "id": "ind-l12-fc3",
+              "front": "Quand l'eau du robinet ne convient-elle pas?",
+              "back": "Pour les plantes sensibles au calcaire (Calathea, fougères, orchidées, plantes carnivores). Pour ces plantes, utiliser de l'eau de pluie, filtrée, ou minérale faiblement minéralisée. Pour les autres plantes courantes, l'eau du robinet tempérée convient."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l12-q1",
+              "stem": "Vous faites le test du doigt sur votre Pothos: les 2-3 premiers centimètres sont humides. Mais le pot vous semble léger quand vous le soulevez. Que faites-vous?",
+              "options": [
+                "Vous arrosez — le pot léger est le signal le plus fiable.",
+                "Vous n'arrosez pas — l'humidité de surface suffit.",
+                "Vous vérifiez plus en profondeur (un peu plus bas que le doigt) avant de décider.",
+                "Vous arrosez de manière très limitée, juste un peu d'eau."
+              ],
+              "correctIndex": 2,
+              "explanation": "Quand les deux indicateurs divergent, ce n'est pas le moment de deviner — c'est le moment de vérifier plus précisément. Un pot léger avec une surface humide peut signifier que le substrat est sec en profondeur (et que la plante a vraiment soif) ou simplement que le pot est petit et que la surface tient l'humidité. Insérer un bâtonnet en bois plus profondément dans le substrat tranche le débat: si le bâtonnet ressort sec, arrosez; sinon, attendez."
+            },
+            {
+              "id": "ind-l12-q2",
+              "stem": "Vous achetez un Calathea et vivez à Zürich avec une eau du robinet plutôt dure. Quelle stratégie d'arrosage adoptez-vous?",
+              "options": [
+                "Eau du robinet directe — c'est plus simple.",
+                "Eau de pluie récupérée ou eau filtrée — le Calathea déteste le calcaire.",
+                "Eau bouillie puis refroidie — cela enlève le calcaire.",
+                "Eau distillée pure — c'est la plus sûre."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le Calathea est notoirement sensible au calcaire — l'utilisation d'eau du robinet dure provoque rapidement le brunissement des bords des feuilles. L'eau de pluie ou filtrée est la solution pratique. L'eau bouillie n'élimine pas le calcaire (seuls les minéraux solubles à chaud précipitent — pas les sels de calcium). L'eau distillée pure est trop déminéralisée pour un usage régulier."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l13-rempoter",
+      "title": "Rempoter: quand, pourquoi, comment",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Beaucoup de débutants rempotent leurs plantes trop souvent — par instinct, ou parce qu'on leur a dit qu'il fallait \"rempoter régulièrement\". En réalité, **rempoter est un stress** pour la plante, et il ne faut le faire que quand c'est nécessaire.\n\nCette leçon vous apprend à lire les signaux qui justifient un rempotage, et à le faire correctement quand le moment vient."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pourquoi rempoter (et pourquoi pas)\n\nIl y a trois raisons légitimes de rempoter:\n\n**1. La plante est à l'étroit.** Les racines occupent tout le volume du pot et commencent à s'enrouler ou à sortir par les trous de drainage. La plante n'a plus de place pour grandir.\n\n**2. Le substrat est épuisé.** Au bout de 2 à 3 ans, même un bon substrat se compacte, perd sa structure aérée, et ne retient plus correctement l'eau ni les nutriments. Un substrat épuisé étouffe les racines même dans un pot de bonne taille.\n\n**3. Un problème spécifique** — pourriture racinaire à traiter, parasites du substrat à éliminer, pot inadéquat (sans drainage) à remplacer.\n\nIl n'y a **pas** d'obligation de rempoter à intervalle fixe. Une plante qui pousse bien dans son pot peut y rester plusieurs années."
+        },
+        {
+          "type": "timeline",
+          "title": "Les signaux qui annoncent qu'un rempotage approche",
+          "events": [
+            {
+              "id": "ev1",
+              "marker": "Signal précoce",
+              "title": "Croissance qui ralentit",
+              "description": "La plante produit moins de nouvelles feuilles qu'avant, ou de plus petite taille. Premier indice que les racines manquent peut-être d'espace."
+            },
+            {
+              "id": "ev2",
+              "marker": "Signal moyen",
+              "title": "Le substrat sèche très vite",
+              "description": "Vous devez arroser deux fois plus souvent qu'avant. Les racines occupent tellement de volume qu'elles absorbent toute l'eau presque immédiatement."
+            },
+            {
+              "id": "ev3",
+              "marker": "Signal tardif",
+              "title": "Racines visibles aux trous de drainage",
+              "description": "Des racines sortent par les trous du fond du pot, ou apparaissent à la surface du substrat. La plante demande clairement plus de place."
+            },
+            {
+              "id": "ev4",
+              "marker": "Signal urgent",
+              "title": "Pot déformé ou plante instable",
+              "description": "Le pot semble bombé par la pression des racines, ou la plante bascule. Là, il faut rempoter sans tarder."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Le bon moment dans l'année\n\nRempotez de **préférence au printemps**, au moment où la plante reprend sa croissance active après l'hiver. C'est le moment où elle récupère le mieux d'un stress.\n\nÉvitez de rempoter en plein hiver — la plante est en repos végétatif, ses racines ne repoussent pas activement, et le stress du rempotage prend plus de temps à se résorber.\n\nUne exception: si la pourriture racinaire est en cours ou si la plante est dans un pot vraiment inadéquat, rempotez immédiatement quelle que soit la saison. Mieux vaut un rempotage hivernal qu'une plante perdue."
+        },
+        {
+          "type": "text",
+          "markdown": "## Comment rempoter, étape par étape\n\n**1. Choisir le bon pot.** Un pot **légèrement plus grand** (2-4 cm de diamètre de plus). Un pot trop grand contient trop de substrat qui reste humide trop longtemps — risque de pourriture racinaire. Toujours un pot avec trous de drainage.\n\n**2. Préparer le substrat.** Substrat universel pour la plupart des plantes vertes; substrat cactus pour les succulentes; substrat orchidée pour les orchidées (ces deux derniers ne s'improvisent pas avec un substrat universel).\n\n**3. Sortir la plante de son ancien pot.** Renverser doucement le pot en soutenant la base de la plante. Si la plante résiste, tapoter les côtés du pot ou passer un couteau le long du bord intérieur. Ne jamais tirer brutalement sur la tige.\n\n**4. Inspecter la motte de racines.** Démêler doucement les racines extérieures avec les doigts. Couper les racines manifestement mortes (brunes, molles, qui se cassent). Garder les racines saines (blanches ou crème, fermes).\n\n**5. Préparer le nouveau pot.** Une couche de substrat frais au fond, juste assez pour que la plante soit à la même hauteur qu'avant (le collet — la jonction entre racines et tige — doit rester au niveau du substrat, jamais enterré).\n\n**6. Placer la plante et combler.** Verser du substrat tout autour, en tapotant légèrement pour éliminer les poches d'air, sans tasser trop fort (le substrat doit rester aéré).\n\n**7. Arroser modérément.** Pas un détrempage complet. Juste assez pour bien intégrer le nouveau substrat. Le détrempage normal viendra avec le prochain cycle d'arrosage régulier."
+        },
+        {
+          "type": "text",
+          "markdown": "## Après le rempotage\n\nLa plante peut sembler stressée pendant 1 à 2 semaines: croissance ralentie, parfois une ou deux feuilles qui jaunissent. C'est normal. Maintenez les conditions stables (lumière, température, humidité) et n'arrosez à nouveau que quand le substrat sèche, comme d'habitude.\n\nPas de fertilisation pendant 4-6 semaines après le rempotage — le nouveau substrat contient suffisamment de nutriments pour cette période, et fertiliser des racines en cours de réparation aggraverait les choses."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l13-q1",
+              "stem": "Votre Pothos est dans le même pot depuis 18 mois. La croissance ralentit, vous arrosez plus souvent qu'avant, et vous voyez deux racines sortir du trou de drainage. Que faites-vous?",
+              "options": [
+                "Vous rempotez immédiatement, même si on est en décembre.",
+                "Vous attendez le printemps pour rempoter, sauf signe de souffrance grave.",
+                "Vous ajoutez du substrat dans le pot actuel pour gagner du temps.",
+                "Vous coupez les racines qui sortent pour éviter de rempoter."
+              ],
+              "correctIndex": 1,
+              "explanation": "Tous les signaux indiquent qu'un rempotage est nécessaire — croissance ralentie, séchage rapide du substrat, racines visibles au drainage. Mais ce n'est pas urgent: la plante n'est pas en souffrance critique. Le printemps offre les meilleures conditions de récupération. Rempoter en décembre fonctionne, mais la plante mettra plus de temps à se remettre. Couper les racines qui dépassent est inutile et nocif; ajouter du substrat par-dessus ne résout pas le manque d'espace racinaire."
+            },
+            {
+              "id": "ind-l13-q2",
+              "stem": "Vous rempotez votre plante. Quelle taille de nouveau pot choisissez-vous?",
+              "options": [
+                "Beaucoup plus grand — la plante aura de la place pour grandir longtemps.",
+                "Légèrement plus grand (2-4 cm de diamètre de plus) que l'ancien.",
+                "Exactement la même taille — pourquoi changer?",
+                "Plus petit — pour limiter la croissance."
+              ],
+              "correctIndex": 1,
+              "explanation": "Un pot beaucoup plus grand contient trop de substrat qui reste humide trop longtemps autour des racines — risque sérieux de pourriture. Un pot \"légèrement plus grand\" donne à la plante l'espace de pousser sans noyer ses racines. Même taille ne résout pas le problème qui justifiait le rempotage. Plus petit serait absurde sauf cas exceptionnel (rempotage thérapeutique après pourriture racinaire majeure)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l14-diagnostiquer",
+      "title": "Diagnostiquer une plante qui souffre",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Tôt ou tard, une de vos plantes va vous envoyer un signal de détresse. Des feuilles jaunissent, des bords brunissent, la plante s'affaisse, ou des feuilles tombent inexplicablement.\n\nLa première réaction du débutant est presque toujours la mauvaise: arroser plus, fertiliser, déplacer la plante. Ces interventions, ajoutées à un problème qu'on n'a pas encore identifié, transforment un problème simple en plante morte.\n\nCette leçon vous donne une méthode de diagnostic systématique. Apprendre à lire les signaux, à formuler une hypothèse, et à intervenir uniquement après avoir compris."
+        },
+        {
+          "type": "text",
+          "markdown": "## La méthode en trois étapes\n\n**1. Observer sans agir.** Regardez la plante entière, pas seulement les feuilles abîmées. Où se situent les feuilles touchées (en bas, en haut, partout)? Sont-elles dispersées ou groupées? Quelle est la couleur exacte (jaune pâle, jaune vif, marron, noir)? La texture (molle, sèche, tachée)? Notez ces observations avant d'aller plus loin.\n\n**2. Vérifier l'environnement et le substrat.** Avant de soupçonner la plante, soupçonnez les conditions. Humidité du substrat (test du doigt + poids). Quand est le dernier arrosage? Position vs lumière (la plante a-t-elle été déplacée récemment? Le radiateur a-t-il été allumé?). Température et humidité ambiantes ont-elles changé?\n\n**3. Formuler une hypothèse, puis ajuster une seule variable.** Ne changez jamais deux choses à la fois — vous ne saurez pas laquelle a aidé. Si votre hypothèse est \"trop d'eau\", arrêtez d'arroser et observez quelques jours. Si l'hypothèse est \"air trop sec\", déplacez la plante à un endroit plus humide sans rien changer d'autre."
+        },
+        {
+          "type": "text",
+          "markdown": "## Les quatre symptômes les plus fréquents\n\nLa plupart des problèmes des débutants se rangent dans quatre catégories. Apprendre à les distinguer résout 80% des situations:",
+          "svg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg'><rect x='8' y='10' width='148' height='95' rx='8' fill='#1B1E24' stroke='#5BC1C7' stroke-width='1'/><text x='82' y='30' font-size='11' fill='#5BC1C7' text-anchor='middle' font-family='sans-serif' font-weight='600'>FEUILLES JAUNES</text><text x='82' y='48' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>En bas de la plante,</text><text x='82' y='62' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>molles, tombent toutes seules.</text><text x='82' y='80' font-size='9' fill='#EF9F27' text-anchor='middle' font-family='sans-serif' font-weight='600'>Cause principale:</text><text x='82' y='94' font-size='9' fill='#EF9F27' text-anchor='middle' font-family='sans-serif'>excès d'eau</text><rect x='164' y='10' width='148' height='95' rx='8' fill='#1B1E24' stroke='#5BC1C7' stroke-width='1'/><text x='238' y='30' font-size='11' fill='#5BC1C7' text-anchor='middle' font-family='sans-serif' font-weight='600'>BORDS BRUNS</text><text x='238' y='48' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>Sèche, croustillante,</text><text x='238' y='62' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>centre de la feuille intact.</text><text x='238' y='80' font-size='9' fill='#EF9F27' text-anchor='middle' font-family='sans-serif' font-weight='600'>Cause principale:</text><text x='238' y='94' font-size='9' fill='#EF9F27' text-anchor='middle' font-family='sans-serif'>air trop sec</text><rect x='8' y='117' width='148' height='95' rx='8' fill='#1B1E24' stroke='#5BC1C7' stroke-width='1'/><text x='82' y='137' font-size='11' fill='#5BC1C7' text-anchor='middle' font-family='sans-serif' font-weight='600'>FEUILLES MOLLES</text><text x='82' y='155' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>Toute la plante s'affaisse,</text><text x='82' y='169' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>feuilles pendantes.</text><text x='82' y='187' font-size='9' fill='#EF9F27' text-anchor='middle' font-family='sans-serif' font-weight='600'>Cause principale:</text><text x='82' y='201' font-size='9' fill='#EF9F27' text-anchor='middle' font-family='sans-serif'>manque d'eau (à vérifier)</text><rect x='164' y='117' width='148' height='95' rx='8' fill='#1B1E24' stroke='#5BC1C7' stroke-width='1'/><text x='238' y='137' font-size='11' fill='#5BC1C7' text-anchor='middle' font-family='sans-serif' font-weight='600'>CHUTE SOUDAINE</text><text x='238' y='155' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>Beaucoup de feuilles</text><text x='238' y='169' font-size='9' fill='#C8CBD2' text-anchor='middle' font-family='sans-serif'>tombent en peu de jours.</text><text x='238' y='187' font-size='9' fill='#EF9F27' text-anchor='middle' font-family='sans-serif' font-weight='600'>Cause principale:</text><text x='238' y='201' font-size='9' fill='#EF9F27' text-anchor='middle' font-family='sans-serif'>changement d'environnement</text></svg>",
+          "caption": "Les quatre symptômes de référence et leurs causes les plus probables."
+        },
+        {
+          "type": "text",
+          "markdown": "## Le piège du \"feuilles jaunes = manque d'eau\"\n\nC'est l'erreur de diagnostic la plus coûteuse en plantes mortes. Des feuilles qui jaunissent et tombent à la base de la plante — particulièrement chez des plantes tropicales — sont presque toujours le signe d'un **excès** d'eau, pas d'un manque.\n\nLa logique est contre-intuitive: les racines pourrissent par saturation, ne peuvent plus alimenter la plante, et les feuilles dépérissent comme si la plante avait soif. Si vous arrosez en réaction, vous aggravez la pourriture.\n\n**Le test discriminant:** vérifiez l'humidité du substrat. Si le substrat est encore humide quelques jours après le dernier arrosage et que des feuilles jaunissent — c'est l'excès d'eau. Arrêtez d'arroser et laissez le substrat sécher beaucoup plus que d'habitude avant le prochain arrosage. Si la plante était dans un cache-pot sans drainage, sortez-la immédiatement."
+        },
+        {
+          "type": "scenario",
+          "title": "Diagnostiquer trois plantes en difficulté",
+          "context": "Vous découvrez trois plantes en difficulté dans votre logement:\n\n**Plante 1 — Pothos** — Les feuilles à la base de la plante jaunissent, devenant molles. La plante est dans un cache-pot décoratif sans visible de trou de drainage. Vous arrosez environ une fois par semaine.\n\n**Plante 2 — Monstera** — Les bords des feuilles sont bruns et secs, croustillants au toucher. Le centre des feuilles est normal. On est en plein hiver, le chauffage central tourne fort. La plante est dans un salon orienté sud, à 1,5 m d'un radiateur.\n\n**Plante 3 — Ficus benjamina** — En quelques jours, la plante a perdu un tiers de ses feuilles. Vous avez récemment réorganisé le salon et déplacé la plante de la fenêtre est à un coin plus éloigné de la lumière.",
+          "questions": [
+            {
+              "id": "ind-l14-sq1",
+              "stem": "Quelle est la cause la plus probable du problème de la Plante 1 (Pothos, feuilles jaunes à la base)?",
+              "options": [
+                "Manque d'eau — il faut arroser davantage.",
+                "Excès d'eau aggravé par le cache-pot sans drainage.",
+                "Manque de lumière dans le salon.",
+                "Manque d'engrais — il faut fertiliser."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le tableau classique de la pourriture racinaire: feuilles jaunes à la base, molles. Le cache-pot sans drainage est le facteur aggravant — l'eau s'y accumule à chaque arrosage et le substrat reste saturé. La bonne intervention: sortir la plante du cache-pot, vérifier l'état des racines, laisser sécher le substrat beaucoup plus longtemps que d'habitude avant le prochain arrosage."
+            },
+            {
+              "id": "ind-l14-sq2",
+              "stem": "Quelle est la cause la plus probable du problème de la Plante 2 (Monstera, bords bruns)?",
+              "options": [
+                "Excès d'eau — diminuer l'arrosage.",
+                "Air trop sec causé par le chauffage et la proximité du radiateur.",
+                "Trop de lumière directe en plein sud — la plante brûle.",
+                "Carence en magnésium — appliquer un engrais foliaire."
+              ],
+              "correctIndex": 1,
+              "explanation": "Les bords bruns et secs sur des feuilles dont le centre reste normal sont le signal caractéristique de l'air trop sec — particulièrement en hiver avec le chauffage central. La Monstera vient des forêts tropicales humides; un air à 30% d'humidité avec un radiateur proche dépasse sa tolérance. Solutions: éloigner du radiateur, regrouper avec d'autres plantes, ou déplacer dans une pièce plus humide. Si la pièce sud reçoit une lumière vive mais filtrée, c'est en réalité plutôt bénéfique pour la Monstera."
+            },
+            {
+              "id": "ind-l14-sq3",
+              "stem": "Quelle est la cause la plus probable du problème de la Plante 3 (Ficus benjamina, chute massive)?",
+              "options": [
+                "Excès d'eau récent.",
+                "Le déplacement récent à un emplacement moins lumineux.",
+                "Une attaque parasitaire.",
+                "Une carence nutritionnelle apparue subitement."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le Ficus benjamina est notoirement intolérant aux changements — il perd massivement ses feuilles à tout déménagement, surtout vers un emplacement moins lumineux. C'est sa façon de protester. La bonne intervention: ne pas le déplacer à nouveau (cela aggraverait), stabiliser les conditions du nouvel emplacement, et patienter. Les feuilles repousseront en quelques mois si l'emplacement convient à long terme. Si l'emplacement est vraiment trop sombre, accepter de retourner la plante à sa position originale."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Quand consulter (ou abandonner)\n\nCertaines situations dépassent le diagnostic de débutant:\n\n- **Pourriture noire à la base de la tige** qui remonte: souvent impossible à sauver, la plante est probablement perdue.\n- **Parasites multiples résistants** au traitement: parfois plus efficace de jeter la plante pour protéger les autres.\n- **Plante qui ne récupère pas après 4-6 semaines de correction** d'une cause identifiée: soit le diagnostic est faux, soit les dégâts sont irréversibles.\n\nAccepter de perdre une plante fait partie de l'apprentissage. Mieux vaut analyser ce qui a échoué que de s'épuiser à sauver l'insauvable. Et l'analyse rétrospective — \"qu'aurais-je dû voir plus tôt?\" — est l'une des choses qui transforme un débutant en jardinier d'intérieur compétent."
+        }
+      ]
+    },
+    {
+      "id": "ind-l15-rythme-annuel",
+      "title": "Le rythme annuel d'une plante d'intérieur",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Vos plantes d'intérieur, même tropicales, suivent un rythme annuel. Pas exactement les saisons extérieures suisses — leurs ancêtres vivaient près de l'équateur — mais elles répondent à la lumière disponible, à la température ambiante, et au cycle du chauffage.\n\nComprendre ce rythme transforme votre relation avec vos plantes: vous arrêtez d'attendre la même croissance toute l'année, et vous adaptez vos soins à ce que la plante fait réellement à chaque période. C'est ce qui distingue le calendrier rigide \"arroser tous les lundis\" du soin observationnel qui marche vraiment."
+        },
+        {
+          "type": "timeline",
+          "title": "Le cycle annuel à Zürich",
+          "events": [
+            {
+              "id": "ev1",
+              "marker": "Mars — Avril",
+              "title": "Reprise de croissance",
+              "description": "La lumière augmente sensiblement. Vos plantes recommencent à produire de nouvelles feuilles. C'est le meilleur moment pour rempoter si nécessaire, et pour reprendre la fertilisation (à demi-dose au début, dose normale après quelques semaines). Augmentez progressivement la fréquence d'arrosage à mesure que la croissance accélère."
+            },
+            {
+              "id": "ev2",
+              "marker": "Mai — Août",
+              "title": "Croissance active",
+              "description": "Pic de croissance. Les plantes ont besoin de plus d'eau (le substrat sèche en quelques jours plutôt qu'en une semaine), de plus de nutriments (fertilisation toutes les 2-3 semaines), et tolèrent mieux les manipulations (boutures, divisions). Surveillez l'humidité de l'air en cas de canicule prolongée — un ventilateur ou la climatisation peut assécher l'air."
+            },
+            {
+              "id": "ev3",
+              "marker": "Septembre — Octobre",
+              "title": "Ralentissement progressif",
+              "description": "La lumière baisse, la croissance ralentit visiblement. Réduisez progressivement la fréquence d'arrosage (le substrat sèche moins vite), arrêtez de fertiliser à la fin d'octobre. C'est le moment de nettoyer les feuilles (poussière) et de regrouper les plantes les plus sensibles avant que le chauffage ne s'allume."
+            },
+            {
+              "id": "ev4",
+              "marker": "Novembre — Février",
+              "title": "Repos végétatif",
+              "description": "La plante ralentit fortement, voire s'arrête de pousser. Arrosez beaucoup moins souvent — pour beaucoup de plantes, toutes les 2-3 semaines suffit. Ne fertilisez pas. Surveillez les bords bruns (air sec du chauffage) et déplacez si nécessaire les plantes loin des radiateurs. Évitez tout rempotage et toute manipulation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce que ce rythme implique concrètement\n\nLa même plante a des besoins très différents selon la saison:\n\n**En été**, votre Pothos peut demander un arrosage tous les 4-5 jours. **En hiver**, le même Pothos peut tenir 10-14 jours entre arrosages. C'est la même plante, dans le même pot, au même endroit — mais son métabolisme tourne au ralenti et ses besoins s'effondrent.\n\nC'est pourquoi le calendrier fixe ne marche pas: il ignore ce changement saisonnier énorme. Les méthodes d'observation (test du doigt, poids du pot) s'adaptent automatiquement parce qu'elles mesurent ce qui se passe vraiment dans le substrat."
+        },
+        {
+          "type": "flashcard",
+          "title": "Quatre principes saisonniers",
+          "cards": [
+            {
+              "id": "ind-l15-fc1",
+              "front": "Pourquoi arroser beaucoup moins en hiver?",
+              "back": "La croissance est ralentie ou arrêtée (moins de lumière, repos végétatif). La plante consomme et évapore beaucoup moins d'eau. Un substrat qui sèche en 4 jours en été peut prendre 14 jours en hiver — d'où l'importance d'observer plutôt que de suivre un calendrier."
+            },
+            {
+              "id": "ind-l15-fc2",
+              "front": "Quand fertiliser, quand arrêter?",
+              "back": "Reprendre la fertilisation au printemps (mars), à demi-dose au début. Fertiliser toutes les 2-3 semaines en pleine croissance (mai-août). Espacer en septembre. Arrêter complètement de novembre à février. Une plante en repos végétatif ne peut pas utiliser les nutriments — fertiliser en hiver les accumule à des doses toxiques."
+            },
+            {
+              "id": "ind-l15-fc3",
+              "front": "Quel est le meilleur moment de l'année pour rempoter?",
+              "back": "Le printemps (mars-avril), au début de la reprise de croissance. La plante récupère bien du stress du rempotage et recommence à pousser dans son nouveau substrat. Rempoter en hiver est possible mais lent à se résorber; rempoter en plein été est risqué (croissance déjà investie ailleurs)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ind-l15-q1",
+              "stem": "On est en janvier. Votre Pothos n'a pas eu besoin d'eau depuis deux semaines, le substrat est encore humide. Vous décidez quand même d'arroser \"pour le rythme\". Quel est le risque?",
+              "options": [
+                "Aucun — un arrosage régulier reste bénéfique.",
+                "Vous risquez de provoquer une pourriture racinaire en saturant un substrat encore humide.",
+                "La plante va trop pousser pour la saison.",
+                "Le substrat va se compacter trop vite."
+              ],
+              "correctIndex": 1,
+              "explanation": "L'erreur la plus fréquente en hiver: arroser \"par habitude\" alors que la plante consomme à peine. Le substrat déjà humide ne sèche pas, l'eau ajoutée crée la saturation, et la pourriture racinaire s'installe — souvent sans symptômes visibles avant des semaines, quand les dégâts sont irréversibles. En hiver, observez la plante et le substrat: si rien n'indique le besoin d'eau, n'arrosez pas."
+            },
+            {
+              "id": "ind-l15-q2",
+              "stem": "Votre Zamioculcas a parfaitement poussé tout l'été. En novembre, vous remarquez qu'il ne produit plus de nouvelles feuilles depuis plusieurs semaines. Quelle est la bonne réaction?",
+              "options": [
+                "Ajouter de l'engrais pour relancer la croissance.",
+                "Le déplacer à un endroit plus lumineux.",
+                "Ne rien changer — c'est le ralentissement saisonnier normal.",
+                "Le rempoter dans un pot plus grand."
+              ],
+              "correctIndex": 2,
+              "explanation": "L'arrêt de croissance en automne-hiver est exactement ce qui doit arriver. Le Zamioculcas se met en repos végétatif. Toute intervention (fertilisation, déplacement, rempotage) à ce moment-là ajoute du stress sans bénéfice et peut au contraire endommager la plante. La bonne réaction est de réduire l'arrosage en conséquence et d'attendre le printemps pour voir reprendre la croissance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind-l16-equipement",
+      "title": "Équipement nécessaire — votre liste d'achat raisonnée",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Vous avez maintenant les connaissances pour jardiner en intérieur. Cette dernière leçon compile l'équipement mentionné tout au long du module, classé par priorité d'achat. L'idée est de partir léger: l'essentiel suffit pour commencer, et le reste peut s'ajouter au fur et à mesure.\n\nLa tentation du débutant est d'acheter beaucoup au début. C'est contre-productif: vous accumulez des objets que vous n'utilisez pas, et vous payez pour des équipements dont vous découvrirez plus tard qu'ils ne vous conviennent pas. Commencez minimal, ajoutez en fonction du besoin réel."
+        },
+        {
+          "type": "compare",
+          "title": "Les trois niveaux d'équipement",
+          "items": [
+            { "id": "ess", "label": "Essentiel" },
+            { "id": "rec", "label": "Recommandé" },
+            { "id": "opt", "label": "Optionnel" }
+          ],
+          "attributes": [
+            {
+              "id": "what",
+              "label": "Ce que c'est",
+              "values": [
+                "Sans ça, vous ne pouvez pas démarrer correctement",
+                "Vous y arrivez sans, mais ça simplifie vraiment la vie",
+                "Utile dans des cas précis, pas pour tout le monde"
+              ]
+            },
+            {
+              "id": "when",
+              "label": "Quand acheter",
+              "values": [
+                "Avant ou en même temps que votre première plante",
+                "Dans les premiers mois, à mesure que vous comprenez vos besoins",
+                "Plus tard, si une situation spécifique le justifie"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Essentiel — la liste de démarrage minimale\n\n**Arrosoir à long bec.** Permet d'arroser précisément le substrat sans mouiller les feuilles ni les meubles environnants. Le \"long bec\" matters: un arrosoir de jardin ordinaire est trop encombrant en intérieur. Comptez environ 15-25 CHF pour un modèle correct.\n\n**Soucoupes adaptées aux pots.** Une soucoupe par plante, dimensionnée au pot. Évite que l'eau d'arrosage tache vos meubles et permet d'observer ce qui s'écoule. Choisissez des soucoupes plates plutôt que profondes — moins de risque d'eau stagnante oubliée.\n\n**Substrat universel pour plantes d'intérieur.** Un sac de 5-10 L suffit pour démarrer plusieurs plantes. Évitez les substrats premier prix qui peuvent être très tourbeux et se compacter rapidement.\n\n**Quelques pots avec trous de drainage.** En terre cuite ou en plastique, peu importe — mais avec des trous. Si vous craquez sur un cache-pot décoratif sans trous, gardez la plante dans son pot intérieur en plastique et placez le tout dans le cache-pot.\n\nCe kit de démarrage représente environ 50-70 CHF pour 3-4 plantes."
+        },
+        {
+          "type": "text",
+          "markdown": "## Recommandé — à acheter dans les premiers mois\n\n**Application smartphone de mesure de lumière** (gratuite). Téléchargez \"Lux Light Meter\" ou équivalent. C'est gratuit et change vraiment votre capacité à évaluer vos emplacements.\n\n**Vaporisateur d'eau.** Utile pour brumiser les plantes sensibles à l'humidité (en hiver surtout), pour nettoyer les feuilles, et pour appliquer des traitements anti-parasites. 5-10 CHF.\n\n**Bâtonnets en bois (type pic à brochette)** pour vérifier l'humidité en profondeur du substrat — méthode du \"bâtonnet sec\" complémentaire au test du doigt. Coût négligeable.\n\n**Engrais liquide universel** pour plantes vertes. Une bouteille dure très longtemps (vous utilisez à demi-dose, toutes les 2-3 semaines en saison de croissance). 10-15 CHF.\n\n**Sécateur ou ciseaux propres** pour tailler les feuilles mortes et faire des boutures. Pas besoin d'un outil pro: une paire de ciseaux fins suffit. Les essuyer à l'alcool entre deux plantes évite de transmettre des maladies."
+        },
+        {
+          "type": "text",
+          "markdown": "## Optionnel — selon votre situation\n\n**Luxmètre dédié** (à partir d'une vingtaine de francs). Plus précis qu'une application smartphone. Utile si vous envisagez de cultiver des plantes exigeantes en lumière (orchidées, Ficus lyrata) et voulez optimiser leur emplacement précisément.\n\n**Hygromètre/thermomètre** (15-30 CHF). Affiche l'humidité et la température ambiantes. Très utile pour comprendre votre logement, surtout en hiver. Recommandé si vous remarquez des problèmes de bords bruns récurrents — il révèle si c'est vraiment un problème d'humidité.\n\n**Humidificateur.** Seulement si vous voulez vraiment cultiver des plantes très exigeantes en humidité (Calathea, fougères tropicales) et que vos pièces sont chroniquement sèches. Coût variable (30-200 CHF). Pour la plupart des débutants, regrouper les plantes ou les déplacer dans une salle de bain humide suffit.\n\n**Lampes horticoles.** Pour des emplacements vraiment sous-éclairés (cave, pièce sans fenêtre) ou pour des plantes exigeantes en lumière dans un logement sombre. Le matériel s'est démocratisé (40-150 CHF pour des lampes LED correctes) mais demande un peu d'apprentissage technique. À considérer après plusieurs mois d'expérience."
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce que vous n'avez pas besoin d'acheter\n\nQuelques achats que les jardineries pousseront mais qui sont rarement utiles pour un débutant:\n\n- **Billes d'argile au fond du pot** — l'idée d'améliorer le drainage est fausse en pratique (cela crée une zone perchée d'humidité); préférez un pot avec de bons trous et un substrat de qualité.\n- **Eau \"spéciale plantes\"** vendue en bouteille — l'eau du robinet, ou de pluie pour les plantes sensibles au calcaire, suffit toujours.\n- **Tuteurs élaborés** au début — la plupart de vos premières plantes (Pothos, Sansevieria, Zamioculcas) n'en ont pas besoin.\n- **Pulvérisateurs de \"brillance foliaire\"** — bouchent les pores des feuilles et nuisent à la plante. Un chiffon humide nettoie les feuilles aussi bien.\n\nEn cas de doute sur un produit qu'on vous propose en magasin: revenez à la question \"de quel problème concret est-ce que je cherche la solution?\". Si vous n'avez pas le problème, vous n'avez pas besoin du produit."
+        },
+        {
+          "type": "text",
+          "markdown": "## Conclusion du module\n\nVous avez terminé. Vous avez les concepts (lumière, eau, substrat, environnement), les méthodes (lire un emplacement, choisir une plante, arroser correctement, diagnostiquer), et le matériel pour démarrer.\n\nLe plus important maintenant n'est pas de relire ce module. C'est d'**aller acheter une plante et de l'observer pendant quelques mois**. Le savoir-faire vient de la pratique, pas de la théorie. Commencez avec un Pothos. Observez quotidiennement. Vous apprendrez plus en un trimestre de pratique qu'en relisant trois fois ce module.\n\nEt si une plante meurt, ce n'est pas un échec — c'est une leçon. La question utile n'est pas \"comment éviter cela?\" mais \"qu'est-ce que cette plante m'a appris?\"."
+        }
+      ]
+    }
+  ]
+}

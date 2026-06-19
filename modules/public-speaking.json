@@ -1,0 +1,1287 @@
+{
+  "schemaVersion": 3,
+  "id": "public-speaking",
+  "title": "Prise de parole en public",
+  "discipline": "Communication",
+  "version": 5,
+  "levels": [
+    {
+      "level": 1,
+      "xpRequired": 0,
+      "title": "Débutant"
+    },
+    {
+      "level": 2,
+      "xpRequired": 180,
+      "title": "Orateur en formation"
+    },
+    {
+      "level": 3,
+      "xpRequired": 500,
+      "title": "Orateur confiant"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "ps-l01-pourquoi-echouent",
+      "title": "Pourquoi la plupart des présentations échouent",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Vous avez sans doute assisté à une centaine de présentations professionnelles dans votre vie. Combien vous souvenez-vous? Combien ont changé quelque chose dans votre façon de penser ou d'agir?\n\nProbablement très peu. Et ce n'est presque jamais parce que les présentateurs étaient incompétents ou mal préparés. C'est parce qu'ils ont fait la même erreur fondamentale: ils ont préparé leur présentation pour eux-mêmes, pas pour leur audience.\n\nC'est l'asymétrie centrale de la prise de parole en public, et c'est le point de départ de ce module entier."
+        },
+        {
+          "type": "text",
+          "markdown": "## L'asymétrie qui tue presque toutes les présentations\n\nQuand vous préparez une présentation, vous y pensez intensément. Vous connaissez le sujet, vous avez réfléchi à chaque diapositive, vous trouvez votre contenu intéressant — sinon vous ne l'auriez pas inclus.\n\nVotre audience, elle, n'a pas fait ce travail. Elle arrive avec un niveau d'attention par défaut moyen, des préoccupations qui n'ont rien à voir avec votre sujet, et une tolérance limitée à l'ennui. Elle ne trouve pas votre contenu intéressant *a priori* — vous devez lui donner des raisons de le trouver intéressant.\n\nLa plupart des présentateurs ignorent cette asymétrie. Ils présentent comme si l'audience partageait leur intérêt initial. Ils s'étonnent ensuite que personne ne soit attentif."
+        },
+        {
+          "type": "text",
+          "markdown": "## Informer n'est pas convaincre\n\nLa deuxième source d'échec, liée à la première, est de confondre **informer** et **convaincre**.\n\nLa plupart des présentateurs croient que leur travail est d'informer — transmettre des informations de leur tête à celle de l'audience. C'est presque toujours faux. Si tout ce que vous avez à faire est de transmettre de l'information, envoyez un document. L'audience le lira (ou pas) à son rythme, avec ses outils de prise de notes, en pouvant relire.\n\nUne présentation en personne existe pour une raison qui n'a rien à voir avec la transmission d'information: elle existe parce que vous voulez **convaincre, mobiliser, ou changer un état d'esprit**. Si vous ne savez pas ce que vous voulez que l'audience pense, ressente, ou fasse différemment à la fin, vous n'avez pas de présentation — vous avez un document mal formaté."
+        },
+        {
+          "type": "flashcard",
+          "title": "À retenir",
+          "cards": [
+            {
+              "id": "ps-l01-fc1",
+              "front": "Quelle est l'asymétrie fondamentale entre le présentateur et l'audience?",
+              "back": "Le présentateur a passé des heures avec son contenu et le trouve intéressant; l'audience arrive avec un niveau d'attention par défaut et aucune raison particulière de s'intéresser. Le présentateur doit donner à l'audience des raisons de l'écouter, pas supposer qu'elles existent."
+            },
+            {
+              "id": "ps-l01-fc2",
+              "front": "Pourquoi confondre informer et convaincre est-il fatal?",
+              "back": "Si votre but est seulement d'informer, un document fait mieux le travail. Une présentation en personne existe pour convaincre, mobiliser, ou changer un état d'esprit. Si vous ne savez pas ce que vous voulez que l'audience pense ou fasse différemment à la fin, vous n'avez pas de présentation."
+            },
+            {
+              "id": "ps-l01-fc3",
+              "front": "Pour qui préparez-vous votre présentation?",
+              "back": "Pour l'audience, pas pour vous. Le contenu qui vous intéresse n'est pas automatiquement le contenu qui intéressera l'audience. La préparation commence par la question \"que doit-il se passer dans la tête de l'audience?\" — pas \"qu'est-ce que je veux dire?\"."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce que ce module va vous apprendre\n\nCe module ne vous donnera pas une liste de trucs et astuces. La plupart du contenu sur la prise de parole en public est exactement ça — des astuces déconnectées, souvent contradictoires, parfois fondées sur de la pseudo-science qui ne tient pas l'examen.\n\nÀ la place, ce module vous apprend un **petit nombre de principes** qui se renforcent mutuellement. Comment structurer un message qui tient. Comment utiliser votre voix et votre corps sans les sur-exploiter. Comment lire une audience et s'adapter en temps réel. Comment gérer le trac sans prétendre qu'il n'existe pas. Comment répéter de manière qui vous améliore vraiment.\n\nLa prise de parole en public est un métier qui se développe sur des décennies. Ce module vous donne les fondations. La compétence vient ensuite, par la pratique délibérée."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l01-q1",
+              "stem": "Vous préparez une présentation pour vos collègues sur un projet que vous trouvez passionnant. Comment commencer la préparation?",
+              "options": [
+                "En listant tout ce que vous savez sur le sujet et que vous voulez partager.",
+                "En réfléchissant à ce que vous voulez que vos collègues pensent, ressentent ou fassent différemment à la fin.",
+                "En cherchant des images attrayantes pour les diapositives.",
+                "En préparant une introduction qui montre votre maîtrise du sujet."
+              ],
+              "correctIndex": 1,
+              "explanation": "La préparation commence par le résultat souhaité dans l'audience, pas par le contenu que vous voulez transmettre. Si vous ne pouvez pas formuler ce que vos collègues doivent penser ou faire différemment à la fin, vous risquez de leur livrer un document mal formaté plutôt qu'une présentation utile."
+            },
+            {
+              "id": "ps-l01-q2",
+              "stem": "Une collègue vous dit \"je vais juste présenter les chiffres trimestriels, ils parleront d'eux-mêmes.\" Quel est le problème avec cette approche?",
+              "options": [
+                "Les chiffres trimestriels ne sont pas un sujet intéressant.",
+                "Les chiffres ne parlent jamais d'eux-mêmes — l'audience aura besoin que quelqu'un lui dise ce que les chiffres signifient et ce qui doit en découler.",
+                "Il faudrait plus de visuels pour rendre les chiffres attrayants.",
+                "Une présentation trimestrielle devrait toujours durer au moins 30 minutes."
+              ],
+              "correctIndex": 1,
+              "explanation": "\"Les chiffres parlent d'eux-mêmes\" est l'illusion qui produit les présentations les plus oubliables. Les chiffres ne signifient rien sans un cadre interprétatif — quelle est la tendance, qu'est-ce qui surprend, qu'est-ce qui doit changer en conséquence. Le travail du présentateur est exactement ce travail interprétatif. Sans lui, l'audience repart avec des nombres mais sans compréhension."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l02-attention",
+      "title": "L'attention de l'audience: ce qui la capture, ce qui la perd",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Avant d'apprendre à structurer un message, il faut comprendre la matière première avec laquelle vous travaillez: **l'attention de votre audience**.\n\nL'attention n'est pas un robinet qui coule à débit constant pendant votre présentation. C'est une ressource que chaque personne alloue, retire, et réalloue continuellement, en fonction de signaux qu'elle reçoit en temps réel. À chaque seconde, chaque personne dans la salle décide implicitement si vous valez encore son attention.\n\nLa plupart des présentateurs perdent l'attention sans le remarquer. Ils continuent à parler comme si l'audience écoutait toujours, alors qu'elle est mentalement sortie de la salle depuis cinq minutes."
+        },
+        {
+          "type": "text",
+          "markdown": "## Le mythe des 8 secondes\n\nVous avez sans doute entendu que l'attention humaine moyenne est tombée à 8 secondes — moins qu'un poisson rouge. Cette affirmation circule depuis 2015, dans des présentations TED, des articles marketing, des livres de productivité.\n\nElle est fausse. Il n'existe aucune étude crédible qui établit ce chiffre, et la BBC a publiquement démonté l'origine du mythe en 2017 — la \"source\" originale n'avait jamais fait cette mesure. Il n'existe pas non plus de données fiables sur l'attention des poissons rouges.\n\nPourquoi commencer par ce débunkage? Parce que c'est exactement le type de fait séduisant qui circule dans le monde de la prise de parole et que vous allez devoir apprendre à reconnaître. Si une statistique vous semble parfaite pour ouvrir une présentation, vérifiez-la avant de l'utiliser. La crédibilité que vous perdez en répétant un mythe est bien supérieure à l'effet rhétorique que vous espériez gagner."
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce qui se passe vraiment dans la tête de l'audience\n\nL'attention humaine est plus nuancée qu'un chiffre. Voici ce qui se passe réellement:\n\n**Les 30 premières secondes** déterminent l'allocation d'attention pour le reste de la présentation. Pendant ces 30 secondes, chaque personne dans la salle décide implicitement si vous valez son attention soutenue, son attention partagée (avec le téléphone), ou son ignorance polie. Cette décision est révisable, mais elle ne se révise pas spontanément — il faut faire quelque chose de fort pour la renverser.\n\n**L'attention soutenue se dégrade rapidement** sans renouvellement. Après 8 à 10 minutes d'un même registre (même ton, même type de contenu, même format), l'audience décroche, même quand le contenu reste intéressant. Le renouvellement n'est pas une question de gadgets — c'est une question de changement de registre: passer d'un concept à un exemple, d'une affirmation à une question, d'une diapositive dense à une diapositive simple.\n\n**La charge cognitive concurrence l'attention.** Si l'audience doit décoder votre diapositive complexe en même temps qu'elle écoute vos mots, elle fait l'un ou l'autre. Pas les deux. C'est pourquoi les diapositives chargées de texte sabotent la présentation: elles forcent un choix entre lire et écouter."
+        },
+        {
+          "type": "compare",
+          "title": "Ce qui capture l'attention vs ce qui la perd",
+          "items": [
+            { "id": "win", "label": "Capture l'attention" },
+            { "id": "lose", "label": "Perd l'attention" }
+          ],
+          "attributes": [
+            {
+              "id": "opening",
+              "label": "Ouverture",
+              "values": [
+                "Une question, un fait surprenant, une scène concrète",
+                "\"Merci de m'avoir invité, je suis ravi d'être ici aujourd'hui pour vous parler de...\""
+              ]
+            },
+            {
+              "id": "specificity",
+              "label": "Niveau de concret",
+              "values": [
+                "Exemples spécifiques, noms réels, chiffres précis avec contexte",
+                "Abstractions, généralités, \"de nombreuses entreprises ont constaté que...\""
+              ]
+            },
+            {
+              "id": "rhythm",
+              "label": "Rythme",
+              "values": [
+                "Changement de registre toutes les 5-8 minutes (concept, exemple, question, retour au concept)",
+                "Un seul registre maintenu (lecture continue de diapositives, monologue sans pause)"
+              ]
+            },
+            {
+              "id": "slides",
+              "label": "Diapositives",
+              "values": [
+                "Une idée, une image, ou un chiffre par diapositive",
+                "Listes à puces de 6+ points que le présentateur lit à voix haute"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Le principe qui en découle\n\nVotre travail de présentateur n'est pas de remplir le temps qu'on vous a alloué avec du contenu. C'est de **gérer l'allocation d'attention de l'audience** pendant ce temps.\n\nCela change toute la préparation. Une présentation de 30 minutes n'est pas \"30 minutes de contenu\" — c'est environ trois à quatre segments de 7-8 minutes, chacun construit pour capturer puis maintenir l'attention, avec des transitions qui la renouvellent. Cette structuration n'est pas un gadget; c'est une concession à la façon dont fonctionne réellement l'attention humaine."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l02-q1",
+              "stem": "Vous avez 45 minutes pour présenter à votre comité de direction. Comment structurer le temps?",
+              "options": [
+                "Préparer 45 minutes de contenu dense pour utiliser tout le temps disponible.",
+                "Préparer 5 à 6 segments de 7-8 minutes, chacun avec un changement de registre, et garder 5-10 minutes pour les questions.",
+                "Préparer le contenu sans se soucier du temps — les bonnes idées trouvent leur place.",
+                "Présenter pendant 20 minutes seulement; au-delà, l'attention est perdue de toute façon."
+              ],
+              "correctIndex": 1,
+              "explanation": "L'attention se dégrade rapidement dans un même registre. Découper la présentation en segments avec des changements de registre maintient l'engagement bien mieux qu'un monologue continu. Ce n'est pas une question de durée totale — c'est une question de gestion de l'attention sur cette durée. Un présentateur de 45 minutes qui change de registre toutes les 7-8 minutes garde son audience; un présentateur de 20 minutes qui reste dans un seul registre la perd."
+            },
+            {
+              "id": "ps-l02-q2",
+              "stem": "Un collègue vous dit qu'il veut commencer sa présentation par la statistique \"l'attention humaine est tombée à 8 secondes\". Que lui dites-vous?",
+              "options": [
+                "Très bonne ouverture, ça accroche immédiatement.",
+                "Que cette statistique est un mythe sans source crédible, et que l'utiliser risque de coûter en crédibilité s'il y a un expert dans la salle qui le sait.",
+                "Que c'est une statistique correcte mais qu'il faudrait la moderniser avec un chiffre plus récent.",
+                "Que l'introduction par statistique est démodée; mieux vaut commencer par une anecdote."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le mythe des 8 secondes circule largement et la tentation de l'utiliser est forte parce qu'il sonne bien. Mais utiliser une statistique fausse dans une présentation a deux coûts: si quelqu'un dans la salle connaît le débunkage, votre crédibilité s'effondre dès l'ouverture; et plus largement, vous contribuez à la propagation d'une fausse information. Vérifier ses statistiques avant de les utiliser est une discipline professionnelle, pas une option."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l03-structurer",
+      "title": "Structurer un message qui tient",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Une présentation sans structure échoue, quelle que soit la qualité du contenu. L'audience perd le fil dans les premières minutes et ne le retrouve plus. À la fin, elle se souvient d'éléments épars sans pouvoir les organiser dans sa tête.\n\nLa structure n'est pas une contrainte créative imposée à la présentation — c'est la condition pour que l'audience puisse suivre. Et contrairement à ce qu'on pourrait penser, **la structure se choisit avant le contenu**, pas après. Les présentateurs qui rassemblent leur contenu d'abord et cherchent ensuite \"comment l'organiser\" produisent presque toujours des présentations confuses."
+        },
+        {
+          "type": "text",
+          "markdown": "## Les trois structures qui fonctionnent\n\nLa grande majorité des présentations professionnelles peut être bâtie sur l'une de trois structures éprouvées. Apprendre à les reconnaître et à choisir entre elles couvre 90% de vos besoins.",
+          "svg": "<svg viewBox='0 0 320 240' xmlns='http://www.w3.org/2000/svg'><rect x='8' y='10' width='304' height='65' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='20' y='32' font-size='12' fill='#5BC1C7' font-family='sans-serif' font-weight='600'>1. Problème / Solution</text><text x='20' y='52' font-size='10' fill='#C8CBD2' font-family='sans-serif'>Établir un problème ressenti, puis présenter votre solution.</text><text x='20' y='66' font-size='10' fill='#8A8F9C' font-family='sans-serif'>Idéal pour: pitch, recommandation, défense d'une décision.</text><rect x='8' y='85' width='304' height='65' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='20' y='107' font-size='12' fill='#5BC1C7' font-family='sans-serif' font-weight='600'>2. Avant / Après / Pont</text><text x='20' y='127' font-size='10' fill='#C8CBD2' font-family='sans-serif'>État actuel, état souhaité, ce qui relie les deux.</text><text x='20' y='141' font-size='10' fill='#8A8F9C' font-family='sans-serif'>Idéal pour: transformation, changement organisationnel, vision.</text><rect x='8' y='160' width='304' height='70' rx='8' fill='#1B1E24' stroke='#2A2E37' stroke-width='1'/><text x='20' y='182' font-size='12' fill='#5BC1C7' font-family='sans-serif' font-weight='600'>3. SCQA</text><text x='20' y='202' font-size='10' fill='#C8CBD2' font-family='sans-serif'>Situation, Complication, Question, Réponse.</text><text x='20' y='216' font-size='10' fill='#8A8F9C' font-family='sans-serif'>Idéal pour: analyse, présentation à comité, contexte complexe.</text></svg>",
+          "caption": "Les trois structures couvrent la grande majorité des présentations professionnelles."
+        },
+        {
+          "type": "text",
+          "markdown": "## Comment fonctionne chaque structure\n\n**Problème / Solution.** Vous commencez par établir un problème que l'audience ressent ou doit reconnaître. Vous passez assez de temps sur ce problème pour qu'il devienne réel et urgent pour l'audience. Puis vous présentez votre solution comme la réponse à ce problème spécifique. Cette structure marche parce qu'elle aligne immédiatement l'audience avec vous: \"je vois le problème, je veux la solution\". Elle échoue quand le problème est mal posé ou trop rapidement traité.\n\n**Avant / Après / Pont.** Vous décrivez d'abord l'état actuel (avant). Vous décrivez ensuite l'état souhaité (après). Puis vous expliquez le pont — ce qui doit se passer pour aller de l'un à l'autre. Cette structure marche pour les présentations de transformation: changements organisationnels, projets pluriannuels, propositions de vision. Elle échoue quand l'\"après\" n'est pas suffisamment désirable pour justifier la traversée.\n\n**SCQA: Situation, Complication, Question, Réponse.** Vous établissez la situation que l'audience connaît déjà (terrain commun). Vous introduisez une complication qui change la donne — un fait nouveau, une opportunité, une menace. Vous formulez la question que la complication soulève. Vous donnez votre réponse. Cette structure, popularisée par McKinsey, marche particulièrement bien pour les comités de direction et les contextes analytiques. Elle échoue quand la complication n'est pas suffisamment forte pour justifier la question."
+        },
+        {
+          "type": "scenario",
+          "title": "Choisir la bonne structure",
+          "context": "Vous devez préparer trois présentations différentes dans les semaines à venir:\n\n**Présentation A** — Vous proposez à votre comité de direction de remplacer le CRM actuel par une nouvelle solution. L'investissement est significatif, le changement va perturber les équipes pendant plusieurs mois.\n\n**Présentation B** — Vous présentez à votre conseil les résultats d'une analyse de marché qui suggère un repositionnement stratégique. La complexité analytique est élevée, le conseil n'a pas le contexte au départ.\n\n**Présentation C** — Vous présentez à l'ensemble de l'entreprise la vision \"où nous serons dans trois ans\" après une période difficile.",
+          "questions": [
+            {
+              "id": "ps-l03-sq1",
+              "stem": "Quelle structure pour la Présentation A (remplacement du CRM)?",
+              "options": [
+                "Problème / Solution — établir les douleurs actuelles du CRM existant, puis présenter la nouvelle solution.",
+                "Avant / Après / Pont — décrire l'état actuel et l'état futur, puis le plan de migration.",
+                "SCQA — partir d'une situation neutre et construire vers une recommandation.",
+                "Aucune des trois — il faut une structure sur mesure pour les présentations CRM."
+              ],
+              "correctIndex": 0,
+              "explanation": "Une recommandation de remplacement d'outil est un cas classique de Problème / Solution. L'audience doit d'abord ressentir le coût du statu quo (frustrations utilisateur, données qui ne remontent pas, intégrations cassées) avant que l'investissement dans une nouvelle solution apparaisse justifié. Démarrer par les fonctionnalités de la nouvelle solution sans avoir établi la douleur du problème actuel produit la réaction \"pourquoi changer quelque chose qui marche?\""
+            },
+            {
+              "id": "ps-l03-sq2",
+              "stem": "Quelle structure pour la Présentation B (repositionnement stratégique)?",
+              "options": [
+                "Problème / Solution.",
+                "Avant / Après / Pont.",
+                "SCQA — pour un comité de direction face à une analyse complexe.",
+                "Pas de structure — laisser les données parler d'elles-mêmes."
+              ],
+              "correctIndex": 2,
+              "explanation": "SCQA est conçu exactement pour ce cas. Vous établissez la situation que le conseil connaît (notre positionnement actuel et ses résultats). Vous introduisez la complication révélée par l'analyse (un changement de marché, une menace, une opportunité). Vous formulez la question stratégique que cela soulève. Vous donnez votre réponse — le repositionnement proposé. Cette structure permet au conseil de suivre la logique sans se perdre dans l'analyse."
+            },
+            {
+              "id": "ps-l03-sq3",
+              "stem": "Quelle structure pour la Présentation C (vision trois ans après une période difficile)?",
+              "options": [
+                "Problème / Solution — partir des problèmes que l'entreprise vient de traverser.",
+                "Avant / Après / Pont — décrire d'où nous venons, où nous allons, comment nous y allons.",
+                "SCQA.",
+                "Aucune des trois — une vision ne se structure pas."
+              ],
+              "correctIndex": 1,
+              "explanation": "Avant / Après / Pont est conçu pour exactement ce type de présentation de vision. L'audience a vécu l'\"avant\" (la période difficile); votre travail est de rendre l'\"après\" suffisamment concret et désirable pour qu'elle veuille traverser le pont avec vous. Démarrer par le problème (Problème / Solution) après une période difficile risque de ressembler à une auto-flagellation; SCQA est trop analytique pour une présentation de vision destinée à mobiliser."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## La règle qui en découle\n\nAvant de commencer à préparer le contenu d'une présentation, posez-vous deux questions: **quel est le résultat souhaité dans la tête de l'audience à la fin?** et **quelle des trois structures sert le mieux ce résultat?**.\n\nUne fois ces deux choix faits, le contenu se sélectionne presque tout seul. Chaque élément que vous envisagez d'inclure passe le test \"est-ce que cela sert la structure choisie?\". Tout ce qui ne passe pas ce test, aussi intéressant soit-il, est laissé de côté.\n\nC'est la discipline qui distingue les présentations qui tiennent — quelle que soit leur durée — de celles qui se dispersent."
+        }
+      ]
+    },
+    {
+      "id": "ps-l04-ouverture",
+      "title": "L'ouverture: les premières secondes qui décident de tout",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Les trente premières secondes de votre présentation valent plus que les trente minutes qui suivent. Pendant ces trente secondes, chaque personne dans la salle décide implicitement combien d'attention vous méritez. Vous pouvez récupérer une mauvaise ouverture, mais c'est beaucoup plus difficile que de réussir l'ouverture du premier coup.\n\nLa plupart des présentations ouvrent mal. Pas par incompétence — par convention. Il existe une ouverture par défaut qui se transmet de présentateur en présentateur, et qui sabote systématiquement la suite."
+        },
+        {
+          "type": "text",
+          "markdown": "## L'ouverture qui ne marche jamais\n\nVous l'avez entendue cent fois:\n\n*\"Bonjour à tous, je suis ravi d'être ici aujourd'hui pour vous parler de [sujet]. Avant de commencer, je voudrais remercier [organisateur] de m'avoir invité. Je vais structurer ma présentation en trois parties. D'abord, nous verrons... ensuite... enfin...\"*\n\nC'est l'ouverture par défaut. Elle a l'air professionnelle. Elle ne l'est pas. Voici pourquoi:\n\n- Les **remerciements et formules de politesse** consomment vos secondes les plus précieuses sans rien apporter à l'audience. L'organisateur sait que vous le remerciez; tout le monde sait que vous êtes ravi d'être là. Aucune information nouvelle, aucun crochet attention.\n- L'**annonce du plan** indique à l'audience exactement quand elle peut décrocher. \"Trois parties\" signifie \"vous pouvez vérifier vos emails pendant la partie 2, on vous fera signe pour la partie 3\".\n- Le **\"je vais vous parler de\"** met la présentation au centre, pas l'audience. C'est l'inverse de ce qu'il faut faire.\n\nEt pourtant 80% des présentations professionnelles commencent par une variante de cela."
+        },
+        {
+          "type": "text",
+          "markdown": "## Quatre ouvertures qui marchent\n\nUne bonne ouverture fait une seule chose: elle donne à l'audience une raison de vouloir écouter ce qui suit. Pas une raison polie. Une raison réelle. Voici les quatre patterns qui fonctionnent de façon fiable.\n\n**1. La question que la présentation va répondre.** *\"Pourquoi 73% des projets de transformation digitale échouent — alors que les budgets n'ont jamais été aussi importants?\"* Cette ouverture crée immédiatement une tension cognitive: l'audience veut la réponse. Vous l'avez pour les vingt-cinq prochaines minutes.\n\n**2. Le fait surprenant.** *\"L'an dernier, notre principal concurrent a perdu 40% de ses clients enterprise. Aucun de nous, dans cette salle, ne s'en est rendu compte avant trois mois.\"* Le fait doit être vrai, vérifiable, et inattendu. S'il n'est que vrai, c'est juste de l'information. S'il est seulement surprenant, vous brûlez votre crédibilité.\n\n**3. La scène concrète.** *\"Lundi dernier, à 6h47, j'ai reçu un message de notre client le plus important. Trois lignes. Je vais vous les lire.\"* Une scène spécifique — date, heure, personne, fait précis — capture l'attention parce que le cerveau humain est conçu pour traiter des scènes, pas des abstractions.\n\n**4. L'affirmation forte.** *\"Notre stratégie produit des trois dernières années a été fondamentalement la mauvaise. Je vais vous expliquer pourquoi et ce que je propose à la place.\"* Cette ouverture demande du courage et n'est utilisable que si vous pouvez la défendre. Mais quand elle est tenable, elle est imbattable: l'audience est forcée d'écouter pour évaluer si vous avez raison."
+        },
+        {
+          "type": "scenario",
+          "title": "Choisir une ouverture",
+          "context": "Vous devez préparer l'ouverture pour deux présentations à venir:\n\n**Présentation A** — Vous présentez à votre conseil d'administration les résultats Q4. Les chiffres sont bons mais cachent un problème de fond: la croissance vient d'une seule ligne de produits, et cette ligne est en train de perdre du momentum. Vous voulez que le conseil voie le problème caché derrière les bons chiffres.\n\n**Présentation B** — Vous présentez à 200 collaborateurs un nouveau positionnement de l'entreprise. La direction l'a déjà validé; votre rôle est de mobiliser l'organisation autour du nouveau cap.",
+          "questions": [
+            {
+              "id": "ps-l04-sq1",
+              "stem": "Quelle ouverture pour la Présentation A (résultats Q4 avec problème caché)?",
+              "options": [
+                "L'ouverture par défaut: remercier le conseil, annoncer le plan en trois parties.",
+                "Une scène concrète ou une question qui révèle immédiatement la tension entre les bons chiffres et le problème caché.",
+                "Commencer par les chiffres positifs pour mettre le conseil de bonne humeur avant d'aborder le problème.",
+                "Annoncer dès la première phrase que les chiffres sont bons mais que la situation est préoccupante."
+              ],
+              "correctIndex": 1,
+              "explanation": "L'ouverture doit créer immédiatement la tension cognitive que la présentation va résoudre. Une scène concrète (\"Ce trimestre, nous avons atteint nos objectifs. Et pourtant je vais vous expliquer pourquoi je suis plus inquiet qu'il y a un an.\") ou une question (\"Comment expliquer que nos meilleurs trimestres soient ceux qui me préoccupent le plus?\") fait ce travail. Commencer par les chiffres positifs sans signaler la tension fait perdre l'effet de surprise quand vous l'introduisez plus tard. L'annonce frontale fonctionne mais est moins efficace qu'une scène ou une question — l'audience sait déjà tout dès la première phrase."
+            },
+            {
+              "id": "ps-l04-sq2",
+              "stem": "Quelle ouverture pour la Présentation B (nouveau positionnement, mobilisation organisationnelle)?",
+              "options": [
+                "L'affirmation forte — assumer que le repositionnement est nécessaire et l'expliquer.",
+                "Une scène concrète qui illustre pourquoi l'ancien positionnement ne fonctionne plus.",
+                "Le fait surprenant — une donnée de marché que la plupart des collaborateurs ignorent.",
+                "Toutes les trois pourraient fonctionner; le choix dépend de la culture de l'entreprise et du niveau d'adhésion attendu."
+              ],
+              "correctIndex": 3,
+              "explanation": "Pour une présentation de mobilisation, plusieurs ouvertures peuvent fonctionner et le choix dépend du contexte. Une scène concrète (raconter une rencontre client qui a déclenché la réflexion) construit l'empathie. Un fait surprenant (un changement de marché que les collaborateurs ignorent) crée l'urgence. Une affirmation forte (\"Nous étions positionnés pour gagner il y a cinq ans. Nous ne le sommes plus.\") signale la conviction de la direction. Le bon choix dépend du diagnostic implicite: les équipes sont-elles déjà inquiètes (auquel cas la scène ou le fait construisent l'adhésion), ou sont-elles complaisantes (auquel cas l'affirmation forte secoue plus efficacement)?"
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "À retenir",
+          "cards": [
+            {
+              "id": "ps-l04-fc1",
+              "front": "Pourquoi l'ouverture \"merci de m'avoir invité, je vais vous parler de...\" sabote-t-elle la présentation?",
+              "back": "Parce qu'elle consomme les 30 secondes les plus précieuses sans donner à l'audience aucune raison d'écouter. Les remerciements ne portent aucune information, l'annonce du plan signale quand on peut décrocher, et le \"je vais vous parler de\" met la présentation au centre plutôt que l'audience."
+            },
+            {
+              "id": "ps-l04-fc2",
+              "front": "Quels sont les quatre patterns d'ouverture qui marchent?",
+              "back": "(1) La question que la présentation va répondre. (2) Le fait surprenant et vérifiable. (3) La scène concrète et spécifique. (4) L'affirmation forte que vous pouvez défendre. Chacune crée immédiatement une raison pour l'audience de vouloir entendre la suite."
+            },
+            {
+              "id": "ps-l04-fc3",
+              "front": "Pourquoi l'affirmation forte est-elle la plus difficile des quatre ouvertures?",
+              "back": "Parce qu'elle ne tolère aucun bluff. Si vous ouvrez par \"notre stratégie des trois dernières années a été la mauvaise\", vous devez pouvoir le défendre dans les minutes qui suivent. Une affirmation forte non défendue détruit la crédibilité plus violemment qu'une ouverture faible."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Le principe sous-jacent\n\nLes quatre ouvertures partagent une caractéristique: elles **créent immédiatement une raison pour l'audience d'écouter la suite**. Pas une raison polie. Une raison réelle. Tension cognitive (question), surprise (fait), implication émotionnelle (scène), provocation intellectuelle (affirmation).\n\nLes ouvertures qui ne marchent pas — y compris la majorité des ouvertures professionnelles standard — partagent l'inverse: elles supposent que l'audience écoutera par convention, par politesse, ou parce qu'elle est là. C'est rarement vrai. L'audience est physiquement présente; son attention, elle, doit être gagnée."
+        }
+      ]
+    },
+    {
+      "id": "ps-l05-voix",
+      "title": "La voix: ce que les gens entendent avant les mots",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Avant que vos mots n'atteignent l'audience, votre **voix** arrive. Et la voix transmet à elle seule une grande quantité d'information: votre niveau de confiance, votre engagement avec le sujet, votre intérêt pour l'audience, votre maîtrise du contenu.\n\nL'audience décode tout cela en quelques secondes, sans s'en rendre compte. Si votre voix dit une chose et vos mots en disent une autre, l'audience croit votre voix. C'est pourquoi la voix est la dimension la plus sous-utilisée de la prise de parole en public: les présentateurs travaillent leurs mots, mais ne travaillent pas leur voix."
+        },
+        {
+          "type": "text",
+          "markdown": "## Les trois dimensions que vous contrôlez\n\nLa voix se décompose en trois axes que vous pouvez consciemment ajuster:\n\n**Le rythme.** À quelle vitesse vous parlez. La plupart des présentateurs parlent trop vite, surtout quand ils sont nerveux. Le rythme idéal pour une présentation professionnelle est plus lent que la conversation: environ 130-150 mots par minute, contre 160-180 en conversation normale. Cela vous donne plus de temps pour articuler, plus de temps pour respirer, et plus de temps pour l'audience pour assimiler.\n\n**Le volume.** À quelle intensité vous parlez. Pas seulement \"fort assez pour être entendu\" — le volume varie pour signaler l'importance. Une phrase clé prononcée légèrement plus fort se grave; une phrase clé prononcée plus doucement force l'audience à se pencher. Le volume monotone — le même niveau du début à la fin — est la marque du présentateur qui n'a pas réfléchi à ce qui mérite d'être souligné.\n\n**La variation de hauteur.** La hauteur de votre voix change avec le sens de la phrase. Une question monte à la fin. Une affirmation descend. Une emphase se marque par un changement de hauteur sur le mot souligné. Les présentateurs monotones (au sens littéral: une seule tonalité) sont presque toujours ceux qu'on n'écoute pas longtemps."
+        },
+        {
+          "type": "compare",
+          "title": "Les trois dimensions de la voix en pratique",
+          "items": [
+            { "id": "good", "label": "Voix qui tient l'audience" },
+            { "id": "bad", "label": "Voix qui perd l'audience" }
+          ],
+          "attributes": [
+            {
+              "id": "rhythm",
+              "label": "Rythme",
+              "values": [
+                "130-150 mots/minute, avec des variations selon le contenu (plus lent sur les points importants)",
+                "Constant et rapide, sans pauses, comme si on récitait"
+              ]
+            },
+            {
+              "id": "volume",
+              "label": "Volume",
+              "values": [
+                "Niveau de base confortable, avec emphase consciente sur les phrases clés",
+                "Monotone (même volume du début à la fin) ou erratique (sauts non maîtrisés)"
+              ]
+            },
+            {
+              "id": "pitch",
+              "label": "Hauteur",
+              "values": [
+                "Variation naturelle qui suit le sens — questions montent, affirmations descendent",
+                "Une seule tonalité maintenue, ou la \"prosodie de présentation\" (montée artificielle en fin de chaque phrase)"
+              ]
+            },
+            {
+              "id": "pause",
+              "label": "Pauses",
+              "values": [
+                "Présentes et intentionnelles (voir leçon 8 sur le silence)",
+                "Absentes ou remplies de \"euh\", \"donc\", \"voilà\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Le piège du \"vocal fry\" et de l'\"uptalk\"\n\nDeux modes de parole circulent dans les conseils de prise de parole comme à éviter absolument: le **vocal fry** (la voix qui descend en grésillement à la fin des phrases) et l'**uptalk** (la fin de phrase qui monte comme une question, même quand ce n'est pas une question).\n\nLa réalité est plus nuancée. La recherche sur les effets de ces patterns vocaux est contestée, et plusieurs études citées comme prouvant qu'elles \"sabotent la crédibilité\" ne se sont pas reproduites de façon convaincante. Ce qui est clair, c'est que les deux patterns peuvent signaler de l'incertitude — l'uptalk en particulier rend les affirmations sonores comme des questions, ce qui suggère que le locuteur lui-même doute. Mais le degré auquel cela affecte la perception d'autorité varie selon la culture, l'âge, le genre de l'audience, et le contexte.\n\nLa règle pratique: si votre uptalk ou votre vocal fry est marqué et constant, il peut effectivement coûter en perception d'autorité dans des contextes professionnels formels. Si c'est occasionnel et naturel, c'est probablement sans conséquence. Vous n'avez pas besoin d'éliminer ces patterns; vous avez besoin de **vous entendre** parler, ce qui demande de vous enregistrer."
+        },
+        {
+          "type": "text",
+          "markdown": "## Comment vraiment améliorer sa voix\n\nLa mauvaise nouvelle: la seule méthode qui fonctionne est l'enregistrement de soi-même. La bonne nouvelle: vous n'avez besoin de le faire qu'une fois par mois pour faire des progrès visibles.\n\nLa procédure: enregistrez-vous (votre smartphone suffit) en train de présenter pendant 10-15 minutes sur un sujet que vous maîtrisez. Réécoutez-vous dès le lendemain — pas le jour même, vous serez trop critique. Notez deux choses: une chose qui vous surprend positivement, et une chose à corriger. Une seule. Concentrez-vous sur cette correction pour le mois suivant, puis réenregistrez-vous.\n\nLe but n'est pas d'atteindre une voix parfaite. C'est de devenir conscient de votre voix telle qu'elle est entendue, ce qui est différent de votre voix telle que vous l'entendez de l'intérieur. Cette prise de conscience seule, sans aucune autre intervention, améliore la voix de la plupart des présentateurs en quelques mois."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l05-q1",
+              "stem": "Vous remarquez qu'un collègue parle très vite et de manière monotone pendant ses présentations. Quelle est la première chose à lui suggérer?",
+              "options": [
+                "Suivre une formation professionnelle de prise de parole.",
+                "Ralentir consciemment et varier l'emphase sur les phrases clés.",
+                "Commencer par s'enregistrer pendant 10 minutes et se réécouter le lendemain.",
+                "Travailler la respiration avec un coach vocal."
+              ],
+              "correctIndex": 2,
+              "explanation": "Avant toute intervention, la première étape est la prise de conscience: la plupart des présentateurs n'entendent pas leur voix comme l'audience l'entend. Suggérer un changement (\"ralentir\", \"varier l'emphase\") sans qu'il ait entendu le problème est probablement inefficace — il ne saura pas s'il a corrigé ou non. L'enregistrement et la réécoute crééent la perception nécessaire pour que toute correction ultérieure soit possible."
+            },
+            {
+              "id": "ps-l05-q2",
+              "stem": "Une collègue est convaincue qu'elle doit absolument éliminer son uptalk parce qu'elle a lu que cela \"sabote l'autorité\". Que lui dites-vous?",
+              "options": [
+                "Elle a raison, l'uptalk est un défaut sérieux qu'il faut corriger en priorité.",
+                "La recherche sur l'uptalk est moins concluante qu'on le dit, et la priorité dépend de la fréquence et du contexte — l'enregistrement est la première étape pour évaluer.",
+                "Elle peut ignorer ce conseil; l'uptalk n'a aucune incidence.",
+                "L'uptalk est un trait générationnel qui ne sera bientôt plus jugé négativement."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le discours sur l'uptalk circule beaucoup mais s'appuie sur une recherche contestée. L'effet existe (l'uptalk peut signaler de l'incertitude) mais son amplitude est moins claire que ce qui est souvent affirmé. La bonne approche est de mesurer avant d'agir: s'enregistrer permet de voir si le pattern est marqué et constant (auquel cas il peut valoir la peine de travailler dessus) ou occasionnel (auquel cas l'effort est probablement disproportionné par rapport à l'effet)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l06-corps",
+      "title": "Le corps: posture, gestuelle, présence",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Le corps communique. C'est vrai. Ce qui n'est pas vrai, c'est presque tout ce qu'on raconte habituellement sur la façon dont il communique.\n\nCette leçon va être plus courte que vous ne l'attendez peut-être, et plus prudente. Le langage corporel est le sujet le plus pollué par la pseudo-science dans tout le domaine de la prise de parole. Avant de vous dire ce qui marche, je vais devoir débunker plusieurs choses qui ne marchent pas — parce que vous les avez probablement entendues, et qu'elles influencent peut-être déjà votre comportement à votre désavantage."
+        },
+        {
+          "type": "text",
+          "markdown": "## Trois mythes à mettre de côté immédiatement\n\n**Le mythe Mehrabian (\"55-38-7\").** Vous avez peut-être entendu que la communication serait à 7% verbale, 38% vocale, et 55% non-verbale. Ces chiffres viennent de deux études d'Albert Mehrabian en 1967, portant sur un cas très spécifique: comment des sujets interprètent l'attitude d'un locuteur quand le ton de voix et les mots se contredisent. Mehrabian lui-même a passé des décennies à corriger l'extension abusive de ses résultats. Ses chiffres ne s'appliquent **pas** à la communication en général. Si quelqu'un cite \"55-38-7\" comme règle de communication, il ou elle propage un malentendu vieux de 50 ans.\n\n**Le mythe des poses de pouvoir.** L'idée — popularisée par une présentation TED de 2012 — que se tenir debout en \"power pose\" pendant deux minutes changerait votre niveau de cortisol et de testostérone, et donc votre confiance, est largement répandue. Mais les résultats clés de l'étude originale n'ont pas pu être reproduits dans des études ultérieures plus rigoureuses. L'une des co-auteurs de l'étude originale, Dana Carney, a publiquement renié les conclusions en 2016. Adopter une posture droite et ouverte avant de présenter est probablement utile (pour des raisons d'attention et de respiration), mais la chaîne hormonale promise n'existe pas.\n\n**Le mythe du geste qui veut dire quelque chose de précis.** \"Croiser les bras = défensif\", \"toucher son nez = mensonge\", \"diriger le pied vers la sortie = vouloir partir\". Ce sont des inventions de manuels de langage corporel qui se sont propagées comme du folklore. Aucun de ces gestes ne signale de façon fiable ce qu'on dit qu'il signale. Les gens croisent les bras parce qu'ils ont froid, parce qu'ils sont à l'aise, ou par habitude posturale. Lire des intentions dans des gestes isolés est au mieux du divertissement, au pire une source d'erreurs de jugement."
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce que le corps signale vraiment\n\nDébarrassés des mythes, voici ce qui reste — qui est moins spectaculaire mais robuste:\n\n**La posture globale signale la confiance et l'engagement.** Une posture droite, des épaules ouvertes, le poids réparti sur les deux pieds: l'audience perçoit confiance et préparation. Une posture affaissée, les épaules rentrées, le poids sur une seule jambe: l'audience perçoit incertitude ou désengagement. Cela ne dépend pas de gestes spécifiques, c'est l'impression globale.\n\n**Le contact visuel signale l'engagement avec l'audience.** Regarder votre audience — par segments de quelques secondes, en distribuant le regard à travers la salle — signale que vous parlez avec elle plutôt qu'au-dessus d'elle. Le contact visuel constant avec une seule personne est inconfortable; le contact visuel évité (regard fuyant, fixation sur les notes ou l'écran) signale l'inverse de la confiance.\n\n**L'occupation de l'espace signale l'autorité.** Bouger dans un périmètre raisonnable autour de votre point de départ, plutôt que rester planté immobile ou faire les cent pas nerveusement, signale que vous habitez l'espace. Vous n'avez pas besoin de marcher beaucoup; vous avez besoin de ne pas être figé.\n\n**Les mains qui font quelque chose signalent moins d'anxiété que les mains qui ne font rien.** Tenir un objet (un stylo, un télécommande), poser les mains sur un pupitre, faire des gestes ouverts pendant que vous parlez: l'audience ne le remarque pas particulièrement. Les mains qui s'agrippent l'une à l'autre, qui tirent sur les vêtements, ou qui restent rigidement le long du corps: l'audience le remarque sans le verbaliser et perçoit l'anxiété."
+        },
+        {
+          "type": "scenario",
+          "title": "Lire trois situations corporelles",
+          "context": "Vous observez trois présentateurs lors d'une conférence:\n\n**Présentateur A** — Reste figé derrière le pupitre du début à la fin. Posture droite, mais aucun mouvement. Regard divisé entre l'écran et ses notes, peu vers l'audience. Mains qui s'agrippent au pupitre.\n\n**Présentateur B** — Marche constamment de gauche à droite sur la scène, pas trois fois rapides, demi-tour, pas trois fois rapides, demi-tour. Mains qui gesticulent en grands mouvements. Regard qui balaye la salle vite.\n\n**Présentateur C** — Bouge peu mais bouge bien. Se déplace de quelques pas quand il change de point. Regarde différentes parties de la salle par segments de 3-5 secondes. Mains qui font des gestes de petite amplitude au niveau de la poitrine.",
+          "questions": [
+            {
+              "id": "ps-l06-sq1",
+              "stem": "Qu'est-ce qui ne fonctionne pas chez le Présentateur A?",
+              "options": [
+                "La posture droite — il devrait se pencher plus en avant.",
+                "L'absence de mouvement et le manque de contact visuel avec l'audience signalent l'anxiété et le désengagement.",
+                "Le pupitre — il faudrait s'en débarrasser.",
+                "Les mains au pupitre — il devrait gesticuler plus."
+              ],
+              "correctIndex": 1,
+              "explanation": "L'immobilité totale combinée à l'évitement du regard signale l'anxiété, indépendamment de la qualité de la posture elle-même. Le pupitre n'est pas le problème (beaucoup d'excellents présentateurs utilisent un pupitre), mais y rester figé en regardant ses notes plutôt que l'audience l'est. La correction n'est pas de gesticuler plus — c'est de regarder l'audience, et accessoirement de bouger un peu pour signaler l'occupation de l'espace."
+            },
+            {
+              "id": "ps-l06-sq2",
+              "stem": "Qu'est-ce qui ne fonctionne pas chez le Présentateur B?",
+              "options": [
+                "La marche constante et les gestes amples signalent l'agitation et empêchent l'audience de se poser.",
+                "Le mouvement est bon, c'est la posture qui pose problème.",
+                "Il n'y a rien qui ne fonctionne pas — l'énergie est positive.",
+                "Le contact visuel est trop fréquent."
+              ],
+              "correctIndex": 0,
+              "explanation": "Le mouvement nerveux constant — la marche de va-et-vient sans raison liée au contenu — communique l'agitation, pas l'énergie positive. L'audience finit par suivre le présentateur des yeux comme un match de tennis, ce qui interfère avec l'écoute. Les gestes très amples ont le même effet: ils signalent la décharge nerveuse plutôt que l'emphase consciente. La correction est de réduire le mouvement à ce qui est intentionnel, et d'amener les gestes à une amplitude plus contenue."
+            },
+            {
+              "id": "ps-l06-sq3",
+              "stem": "Pourquoi le Présentateur C marche-t-il?",
+              "options": [
+                "Il a appris une technique de mouvement scénique sophistiquée.",
+                "Il bouge avec intention: ses déplacements correspondent à des changements de point, ses gestes sont contenus, son contact visuel distribue son attention à l'audience.",
+                "Il fait ce qu'il faut par chance — la plupart des bons présentateurs ne réfléchissent pas à leur corps.",
+                "Il a une présence naturelle qui ne se travaille pas."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le Présentateur C n'a pas un don particulier — il fait simplement les choses qui signalent confiance et engagement sans les faire à l'excès. Mouvement intentionnel plutôt que nerveux, gestes contenus plutôt qu'amples, contact visuel distribué plutôt que fuyant ou fixe. Ces choses se travaillent par enregistrement et réécoute, comme la voix. La \"présence naturelle\" qu'on attribue aux bons présentateurs est presque toujours une compétence acquise."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## La règle pratique\n\nVous n'avez pas besoin de mémoriser quoi faire de votre corps. Vous avez besoin de vous **enlever quelques mauvaises habitudes** et de **laisser le corps faire le reste naturellement**.\n\nLes mauvaises habitudes communes: les mains qui s'agrippent l'une à l'autre, le balancement nerveux, le regard qui évite l'audience, l'immobilité complète, l'occupation excessive de l'espace par agitation. Ces patterns se voient à l'enregistrement et se corrigent par prise de conscience plus que par exercices.\n\nEt méfiez-vous des conseils trop précis sur le langage corporel. Si quelqu'un vous dit avec autorité ce qu'un geste \"signifie\", il y a de bonnes chances qu'il ou elle reproduise un folklore plutôt qu'une vérité robuste. Le corps signale des choses générales (confiance, engagement, anxiété, ennui), pas des choses spécifiques."
+        }
+      ]
+    },
+    {
+      "id": "ps-l07-lire-salle",
+      "title": "Lire la salle en temps réel",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Les présentateurs préparés mais médiocres exécutent leur plan quelles que soient les réactions de l'audience. Les présentateurs préparés et bons exécutent leur plan **en l'adaptant** aux signaux qu'ils reçoivent en temps réel.\n\nLa différence n'est pas la préparation. La différence est l'attention que vous accordez à l'audience pendant que vous parlez. La plupart des présentateurs sont tellement concentrés sur leur propre exécution qu'ils ne voient rien de ce que la salle leur communique. L'audience leur envoie des signaux constants; ils les ignorent et continuent à dérouler.\n\nCette leçon vous apprend à lire ces signaux et à savoir quoi en faire."
+        },
+        {
+          "type": "text",
+          "markdown": "## Les signaux que l'audience envoie\n\nUne audience qui écoute envoie des signaux différents d'une audience qui décroche. Vous les avez tous déjà perçus de l'extérieur (en tant que membre du public); votre travail comme présentateur est de les voir de l'intérieur, pendant que vous parlez.\n\n**Le regard.** Une audience engagée regarde le présentateur — pas constamment, mais régulièrement. Une audience qui décroche regarde son téléphone, son ordinateur, ses chaussures, ou un point fixe dans le vide. Le ratio têtes levées / têtes baissées est l'indicateur le plus immédiat de votre score d'attention en temps réel.\n\n**La posture.** Une audience engagée se penche légèrement vers l'avant ou maintient une posture neutre droite. Une audience qui décroche s'affaisse, croise les bras, s'enfonce dans son siège. Encore une fois, c'est l'impression globale qui compte — un signal isolé ne veut rien dire, mais la posture moyenne de la salle est diagnostique.\n\n**Les téléphones.** L'apparition de téléphones sur les genoux ou sur la table est le signal de décrochage le plus pur. Quand le pourcentage de téléphones augmente, vous avez perdu l'audience. C'est un signal binaire et brutal — soit ils sont avec vous, soit ils ne le sont plus.\n\n**Les conversations latérales.** Quand deux personnes commencent à se parler à voix basse pendant que vous présentez, c'est rarement à propos de votre contenu. C'est généralement parce qu'elles ont décroché et qu'elles ont quelque chose à se dire qui leur paraît plus intéressant que vous."
+        },
+        {
+          "type": "text",
+          "markdown": "## Hostile, désengagée, ou réceptive: trois états très différents\n\nUne erreur fréquente est de confondre une audience **hostile** avec une audience **désengagée**. Ce sont des états très différents, qui demandent des réactions opposées.\n\nUne audience **hostile** est engagée — elle vous écoute attentivement, parfois plus attentivement qu'une audience neutre. Elle vous écoute pour évaluer vos arguments, repérer les failles, préparer ses objections. Les signaux: regards directs et soutenus, posture droite et concentrée, prise de notes active, rares signes de distraction. L'hostilité n'est pas un échec — c'est une opportunité. Une audience qui veut vous attaquer vous écoute mieux qu'une audience qui ne se soucie pas de vous.\n\nUne audience **désengagée** ne vous écoute pas du tout. Elle est physiquement là par obligation, mais mentalement ailleurs. Les signaux: téléphones, regards qui errent, posture affaissée, absence de prise de notes ou de réaction. C'est le pire état pour un présentateur — pire que l'hostilité — parce que vos arguments ne touchent rien.\n\nUne audience **réceptive** est partiellement avec vous. Elle écoute, mais pas intensément. Elle prend quelques notes. Elle vous regarde la plupart du temps mais pas toujours. C'est l'état moyen et l'objectif est de la garder dans cet état tout au long de la présentation."
+        },
+        {
+          "type": "scenario",
+          "title": "Lire trois situations en temps réel",
+          "context": "Vous présentez votre stratégie produit à différentes audiences. Voici trois moments distincts:\n\n**Moment A** — Cinq minutes dans une présentation à un comité de direction. Vous remarquez que deux membres prennent des notes intensivement, un troisième vous regarde sans bouger avec une expression que vous interprétez comme sceptique, un quatrième a ouvert son ordinateur portable.\n\n**Moment B** — Quinze minutes dans une présentation à l'ensemble des équipes commerciales (50 personnes). Vous remarquez qu'environ un tiers des téléphones sont sortis, deux conversations à voix basse ont commencé, et plusieurs personnes regardent par les fenêtres.\n\n**Moment C** — Trois minutes dans un pitch à un investisseur potentiel. Il vous regarde fixement, ne prend aucune note, ne hoche pas la tête, ne réagit visiblement à rien. Vous ne pouvez pas dire s'il est engagé ou pas.",
+          "questions": [
+            {
+              "id": "ps-l07-sq1",
+              "stem": "Comment interpréter le Moment A?",
+              "options": [
+                "L'audience est désengagée — l'ordinateur ouvert et l'expression sceptique sont des signaux clairs.",
+                "L'audience est probablement engagée — la prise de notes active et le regard direct dominent; l'ordinateur portable peut être lié à la prise de notes; le scepticisme est de l'engagement, pas du désengagement.",
+                "L'audience est hostile — le scepticisme et l'ordinateur ouvert le signalent.",
+                "Impossible de juger avec ces signaux."
+              ],
+              "correctIndex": 1,
+              "explanation": "Deux signaux d'engagement actif (prise de notes intensive par deux personnes), un signal d'engagement potentiellement critique (regard fixe et sceptique — c'est de l'engagement, pas du désengagement), et un signal ambigu (ordinateur portable, qui peut être prise de notes ou distraction). Le compte général penche fortement vers l'engagement. La bonne réaction est de continuer à dérouler tout en adressant explicitement le scepticisme — \"je vois que je n'ai pas encore convaincu tout le monde, laissez-moi prendre cet aspect en détail\". Confondre scepticisme avec désengagement est une erreur classique qui mène à arrêter de défendre ses arguments au moment où il faudrait les défendre davantage."
+            },
+            {
+              "id": "ps-l07-sq2",
+              "stem": "Comment réagir au Moment B?",
+              "options": [
+                "Continuer à dérouler le plan — l'audience finira par se concentrer.",
+                "S'arrêter brusquement et appeler une pause pour que les conversations cessent.",
+                "Casser le pattern: changer de registre (poser une question à la salle, montrer un exemple concret, accélérer le rythme), accepter que l'audience est en train de décrocher et agir pour la récupérer.",
+                "Réduire le contenu restant pour finir plus vite et libérer l'audience."
+              ],
+              "correctIndex": 2,
+              "explanation": "Les signaux décrivent une audience qui a clairement décroché — téléphones sortis, conversations parasites, regards errants. Continuer à dérouler aggrave la situation. Faire une pause stricte humilie l'audience sans résoudre le problème. Couper le contenu signale que vous n'aviez pas grand-chose à dire. La bonne réaction est de casser le pattern: changer ce que vous faites pour donner à l'audience une nouvelle raison d'écouter. Une question directe (\"qui ici a déjà vécu cette situation?\"), un exemple très concret, un changement de format (passer du slide au tableau blanc), un changement de rythme — n'importe lequel renouvelle l'attention si vous l'exécutez avec conviction."
+            },
+            {
+              "id": "ps-l07-sq3",
+              "stem": "Comment interpréter le Moment C?",
+              "options": [
+                "L'investisseur est désengagé — l'absence de réaction le prouve.",
+                "L'investisseur est hostile — la posture fixe est intimidante.",
+                "L'absence de signaux clairs est elle-même une donnée: les investisseurs expérimentés contrôlent souvent leur expression pour ne rien signaler — il faut continuer à dérouler tout en cherchant des signaux plus fins (questions, micro-expressions, prise de notes ultérieure).",
+                "Impossible de juger; il faut s'arrêter et lui demander ce qu'il pense."
+              ],
+              "correctIndex": 2,
+              "explanation": "L'absence de signaux n'est pas l'absence d'information. Les investisseurs expérimentés, les négociateurs, certains dirigeants senior contrôlent activement leur expression pour ne signaler ni intérêt ni désintérêt. C'est un comportement appris, parfois professionnel. La bonne réaction est de continuer à présenter comme si vous aviez son attention (vous ne savez pas le contraire), tout en restant attentif à des signaux plus subtils — une question précise révèle de l'intérêt, une question vague révèle un désengagement masqué, une demande de répétition signale qu'il a effectivement écouté. S'arrêter pour demander \"qu'en pensez-vous?\" est une faute professionnelle dans ce contexte — ça signale votre besoin de validation et vous met en position de faiblesse."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## La règle d'adaptation\n\nQuand vous lisez la salle, vous avez quatre options:\n\n1. **Continuer comme prévu** — si l'audience est engagée ou réceptive.\n2. **Casser le pattern** — si l'audience décroche; changer de registre pour la récupérer.\n3. **Adresser frontalement** — si l'audience est hostile ou sceptique; nommer la résistance et y répondre.\n4. **Accélérer la conclusion** — si l'audience est définitivement perdue et que rien ne la récupérera; mieux vaut finir à 18 minutes sur une note claire que mourir à petit feu pendant 12 minutes de plus.\n\nL'erreur la plus fréquente est de continuer comme prévu dans toutes les situations parce que vous n'avez pas remarqué que la situation avait changé. Le but de cette leçon est exactement cela: vous donner les yeux pour remarquer."
+        }
+      ]
+    },
+    {
+      "id": "ps-l08-silence",
+      "title": "Le silence comme outil",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Le silence est l'outil le plus puissant et le plus sous-utilisé en prise de parole. La plupart des présentateurs en ont peur. Ils le remplissent — avec des \"euh\", des \"donc\", des \"voilà\", des phrases de transition vides. Ils croient que le silence signale qu'ils ont perdu le fil; en réalité, ce sont les remplissages qui signalent l'incertitude. Le silence intentionnel signale l'inverse.\n\nApprendre à utiliser le silence n'est pas une question de technique — c'est une question de désapprendre la peur de quelques secondes de vide."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pourquoi nous craignons le silence\n\nDans une conversation normale entre deux personnes, deux secondes de silence créent une légère gêne. C'est suffisant pour que l'un des deux interlocuteurs se sente obligé de relancer. Cette norme conversationnelle s'enracine très profondément: notre instinct d'orateur est de remplir le silence dès qu'il apparaît.\n\nMais une présentation n'est pas une conversation. Le silence en présentation ne crée pas de gêne pour l'audience — il crée une attention accrue. Vous avez arrêté de parler; l'audience se demande pourquoi; elle vous regarde plus intensément qu'avant le silence.\n\nLe problème, c'est que vous, le présentateur, ressentez l'instinct conversationnel de remplir, même si la situation ne le justifie pas. Vous percevez votre propre silence comme beaucoup plus long qu'il ne l'est en réalité. Deux secondes de silence vous semblent dix; cinq secondes vous semblent insoutenables. Mais l'audience perçoit votre silence à sa durée réelle, et trouve cette durée parfaitement acceptable."
+        },
+        {
+          "type": "text",
+          "markdown": "## Les trois pauses qui font la différence\n\nIl existe trois moments distincts où une pause de quelques secondes transforme votre présentation:\n\n**La pause avant.** Une pause d'une à deux secondes avant une phrase clé crée de l'anticipation. L'audience devine qu'elle vient d'entendre une transition et que la suite mérite attention. Les meilleurs présentateurs marquent toutes leurs idées importantes par cette pause préparatoire.\n\n**La pause après.** Une pause de deux à trois secondes après une phrase clé laisse la phrase atteindre l'audience. Sans cette pause, vous enchaînez sur la phrase suivante et l'idée précédente est balayée avant d'avoir été absorbée. Les présentateurs qui parlent vite et sans pause produisent beaucoup de mots dont aucun ne s'installe.\n\n**La pause dans.** Une pause au milieu d'une phrase, juste avant un mot clé, donne un poids particulier à ce mot. *\"Notre objectif principal pour les douze prochains mois est... [pause] ...la rentabilité.\"* La pause prépare le mot et le met en relief. C'est un outil rhétorique vieux comme l'oratoire grec et il marche toujours."
+        },
+        {
+          "type": "compare",
+          "title": "Pauses qui aident vs pauses qui inquiètent",
+          "items": [
+            { "id": "good", "label": "Pause intentionnelle" },
+            { "id": "bad", "label": "Silence perdu" }
+          ],
+          "attributes": [
+            {
+              "id": "duration",
+              "label": "Durée",
+              "values": [
+                "1-3 secondes, calibrée au contenu",
+                "Variable et imprévisible, souvent ponctuée de remplissages (\"euh\", \"donc\")"
+              ]
+            },
+            {
+              "id": "look",
+              "label": "Ce que fait le corps",
+              "values": [
+                "Regarde l'audience, posture maintenue, expression engagée",
+                "Regard fuyant (vers les notes, le plafond, les chaussures), recherche visible du fil"
+              ]
+            },
+            {
+              "id": "next",
+              "label": "Ce qui suit le silence",
+              "values": [
+                "Une phrase claire et préparée — la pause était une mise en relief",
+                "Une phrase confuse, une reformulation, un remplissage"
+              ]
+            },
+            {
+              "id": "perception",
+              "label": "Comment l'audience le perçoit",
+              "values": [
+                "Comme un signal d'importance — \"il pèse ses mots\"",
+                "Comme un signal d'incertitude — \"il a perdu son fil\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Comment s'entraîner à utiliser le silence\n\nLa seule façon de surmonter la peur du silence est de la pratiquer en situation contrôlée. L'exercice qui marche:\n\nEnregistrez-vous en train de présenter 5 minutes sur un sujet familier. À chaque transition entre deux points, **comptez intentionnellement jusqu'à trois en silence avant de continuer**. Pas \"un, deux, trois\" rapidement — un, deux, trois en pensant à autre chose, en regardant la pièce, en respirant. Vous trouverez cela insupportable la première fois.\n\nRéécoutez l'enregistrement le lendemain. Mesurez la durée réelle de chaque pause. Vous découvrirez deux choses: les pauses que vous avez perçues comme infinies font en réalité 2-3 secondes, et la présentation enregistrée a beaucoup plus de poids avec les pauses que sans elles.\n\nAprès quelques semaines de pratique, les pauses deviennent naturelles et vous arrêtez de les ressentir comme un effort. C'est à ce moment-là que votre prise de parole change qualitativement — pas avant."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l08-q1",
+              "stem": "Pourquoi les présentateurs ressentent-ils le silence comme plus long qu'il ne l'est en réalité?",
+              "options": [
+                "Parce que leur cerveau ralentit pendant qu'ils parlent.",
+                "Parce que la norme conversationnelle (où deux secondes de silence créent une gêne) s'applique mal à la présentation, mais l'instinct demeure.",
+                "Parce que la durée du silence dépend de la nervosité du présentateur.",
+                "Parce que l'audience devient impatiente après une seconde."
+              ],
+              "correctIndex": 1,
+              "explanation": "Notre instinct du silence vient de la conversation à deux, où une pause de deux secondes signale effectivement quelque chose (réflexion, gêne, fin de tour de parole). Cet instinct se transpose mal à la présentation, où une pause de trois secondes est en réalité courte du point de vue de l'audience. La perception subjective du présentateur (\"c'est interminable\") ne correspond pas à la perception objective de l'audience (\"il pèse ses mots\")."
+            },
+            {
+              "id": "ps-l08-q2",
+              "stem": "Quel est l'effet d'une pause de deux secondes avant une phrase clé?",
+              "options": [
+                "L'audience pense que le présentateur a perdu le fil.",
+                "L'audience interprète la pause comme une transition et donne plus d'attention à la phrase qui suit.",
+                "L'audience trouve le rythme trop lent.",
+                "Aucun effet — deux secondes sont trop courtes pour être remarquées."
+              ],
+              "correctIndex": 1,
+              "explanation": "Une pause préparatoire bien placée fait exactement le travail inverse de la peur qui en empêche la plupart des présentateurs: elle augmente l'attention de l'audience plutôt que de la perdre. La condition est que la pause soit accompagnée d'une posture maintenue (regard sur l'audience, pas de signaux de recherche du fil) — c'est ce qui distingue une pause intentionnelle d'un silence perdu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l09-slides",
+      "title": "Le slide deck: ce qui aide, ce qui parasite",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Les slides ont une réputation injustement bonne et un usage majoritairement mauvais. La plupart des présentations professionnelles utilisent des slides qui **diminuent** l'efficacité de la présentation par rapport à ce qu'elle serait sans slides. C'est un résultat contre-intuitif mais bien documenté.\n\nLa raison principale est simple: les slides chargés de texte que le présentateur lit à voix haute forcent l'audience à choisir entre lire et écouter. Elle fait l'un ou l'autre, jamais les deux. Pendant qu'elle lit votre slide, elle n'écoute pas vos mots; pendant qu'elle écoute vos mots, elle ne lit pas votre slide. Vous concurrencez votre propre voix.\n\nCette leçon vous donne les principes pour que vos slides servent la présentation au lieu de la saboter."
+        },
+        {
+          "type": "text",
+          "markdown": "## Le procès des puces\n\nLa diapositive à puces — \"5 raisons pour lesquelles X\" suivi d'une liste — est la forme la plus répandue et l'une des plus dommageables. Pourquoi:\n\n**Elle force la lecture.** L'audience voit du texte structuré et son réflexe est de le lire. Pendant qu'elle lit, elle n'écoute pas.\n\n**Elle révèle la suite.** L'audience voit immédiatement les cinq points; vous, présentateur, êtes ensuite en train de leur dire ce qu'ils ont déjà lu. Aucune surprise possible, aucun effet rhétorique, aucune progression.\n\n**Elle prétend à une structure qui n'existe pas.** Beaucoup de listes à puces sont en réalité du contenu non structuré déguisé en liste. Les \"5 raisons\" partagent rarement le même niveau d'importance ou le même type d'argument — la mise en puces leur donne une fausse égalité.\n\n**Elle invite le présentateur à lire son slide.** Si le slide contient le contenu, le présentateur n'a plus de raison de le présenter — il devient un lecteur de slides. L'audience peut alors se passer du présentateur, et le ressent.\n\nIl y a des cas où une liste à puces est l'outil approprié — une checklist opérationnelle, une énumération exhaustive de critères, un récapitulatif final. Mais ces cas sont rares. La grande majorité des slides à puces que vous avez vus auraient été meilleurs sous une autre forme."
+        },
+        {
+          "type": "text",
+          "markdown": "## À quoi servent vraiment les slides\n\nUn slide utile fait quelque chose que les mots du présentateur ne peuvent pas faire seuls. Voici les usages légitimes:\n\n**Une image qui porte du contenu.** Une photo d'un produit, d'un site, d'une situation que vous décrivez. Le slide montre, votre voix raconte. Les deux se renforcent.\n\n**Un graphique ou une donnée visuelle.** Une courbe d'évolution, une carte, un schéma de processus, une comparaison côte à côte. Le visuel transmet la forme; vos mots transmettent l'interprétation.\n\n**Un chiffre seul.** Un slide qui contient juste un grand chiffre — *\"42%\"* — pendant que vous expliquez ce qu'il signifie. Le chiffre se grave dans la mémoire visuelle; vos mots se gravent dans la mémoire auditive. Cumul.\n\n**Une citation, une phrase clé.** Une phrase courte, isolée sur le slide, que vous pouvez lire à voix haute (oui, dans ce cas spécifique) avant de la commenter. Le slide ancre la phrase visuellement.\n\n**Un schéma structurel.** Un diagramme qui montre les relations entre des éléments. C'est le seul format où un certain niveau de complexité visuelle est justifié — parce que le schéma transmet quelque chose que les mots ne transmettent pas linéairement."
+        },
+        {
+          "type": "compare",
+          "title": "Slide qui aide vs slide qui parasite",
+          "items": [
+            { "id": "help", "label": "Slide utile" },
+            { "id": "harm", "label": "Slide parasite" }
+          ],
+          "attributes": [
+            {
+              "id": "content",
+              "label": "Ce qui est dessus",
+              "values": [
+                "Une idée, une image, ou un chiffre — quelque chose que les mots seuls ne portent pas",
+                "Un titre, 5-6 points à puces, parfois une image décorative"
+              ]
+            },
+            {
+              "id": "reading",
+              "label": "Comportement de l'audience",
+              "values": [
+                "Regarde le slide quelques secondes, revient au présentateur",
+                "Lit le slide entièrement, n'écoute plus le présentateur pendant ce temps"
+              ]
+            },
+            {
+              "id": "without",
+              "label": "Si on enlevait le slide?",
+              "values": [
+                "La présentation perdrait un appui important — le slide ajoute quelque chose",
+                "La présentation marcherait aussi bien ou mieux — le slide n'apporte rien"
+              ]
+            },
+            {
+              "id": "presenter",
+              "label": "Ce que fait le présentateur",
+              "values": [
+                "Commente, contextualise, interprète — le slide est un appui, pas un script",
+                "Lit à voix haute ce qui est écrit — le slide est le script"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Le test du slide retiré\n\nLe test le plus utile pour évaluer un slide: **imaginez votre présentation sans ce slide spécifique**. Est-ce qu'elle marcherait aussi bien? Mieux? Moins bien?\n\nSi elle marcherait aussi bien sans le slide, le slide est inutile et devrait être supprimé. Si elle marcherait mieux sans le slide (parce qu'il distrait, parce qu'il révèle la suite, parce qu'il oblige l'audience à lire), le slide est nuisible et devrait certainement être supprimé. Seul le cas où la présentation marcherait moins bien sans le slide justifie de le garder.\n\nAppliquez ce test à chaque slide de votre prochaine présentation. La plupart des présentateurs découvrent qu'ils peuvent supprimer la moitié de leurs slides sans perte, et que les slides restants sont nettement meilleurs."
+        },
+        {
+          "type": "text",
+          "markdown": "## La règle de densité\n\nQuand un slide est justifié, il devrait porter **une idée à la fois**. Pas trois idées sur un slide, pas cinq points, pas un tableau de douze lignes. Une idée par slide signifie:\n\n- Un chiffre, ou\n- Une image, ou\n- Une phrase courte (moins de quinze mots), ou\n- Un graphique avec une lecture évidente, ou\n- Un schéma structurel avec moins de dix éléments.\n\nLa peur des présentateurs face à cette règle est qu'ils auront besoin de trop de slides. C'est l'inverse: avec une idée par slide, vous découvrez que beaucoup de slides que vous pensiez nécessaires ne portaient en réalité aucune idée — ils portaient du texte. Une présentation d'une heure avec 60 slides denses fatigue l'audience; une présentation d'une heure avec 20 slides aérés la garde concentrée.\n\nL'objectif n'est pas un nombre minimal de slides. L'objectif est qu'à chaque slide, l'audience reçoive une chose à la fois, qu'elle puisse digérer cette chose, et qu'elle vous reste attentive pour la suivante."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l09-q1",
+              "stem": "Vous préparez un slide pour une présentation. Il contient le titre \"Les 5 piliers de notre stratégie\" suivi de cinq points à puces, chacun composé d'une phrase. Comment évaluer ce slide?",
+              "options": [
+                "C'est un bon slide — la structure en cinq points est claire et facile à suivre.",
+                "C'est un slide qui force l'audience à lire pendant que vous parlez, révèle votre plan d'un coup, et vous tente de le lire à voix haute — probablement à supprimer ou à reformuler.",
+                "Le slide serait bon si on remplaçait les phrases par des mots-clés.",
+                "Le slide serait bon avec un visuel décoratif en arrière-plan."
+              ],
+              "correctIndex": 1,
+              "explanation": "Ce slide cumule les défauts: il force la lecture (concurrence directe avec votre voix), révèle les cinq piliers d'un coup (pas de progression rhétorique possible), et incite le présentateur à le lire à voix haute. Remplacer les phrases par des mots-clés ne résout que partiellement le problème (l'audience lit toujours, juste moins). L'arrière-plan décoratif aggrave plutôt qu'aide. Les bonnes alternatives: cinq slides séparés (un pilier à la fois, dans l'ordre où vous voulez les présenter), ou un schéma visuel des cinq piliers en relation les uns avec les autres (si la structure le justifie), ou pas de slide du tout (les cinq piliers sont annoncés à l'oral et développés ensuite)."
+            },
+            {
+              "id": "ps-l09-q2",
+              "stem": "Vous appliquez le test du slide retiré à votre présentation. Vous découvrez qu'environ 60% de vos slides ne changeraient rien à la présentation s'ils étaient supprimés. Que faites-vous?",
+              "options": [
+                "Vous gardez tous les slides — ils ont déjà été préparés, autant les utiliser.",
+                "Vous supprimez les 60% inutiles — une présentation avec moins de slides utiles est meilleure qu'une présentation avec beaucoup de slides moyens.",
+                "Vous reformulez les 60% inutiles pour les rendre meilleurs.",
+                "Vous demandez à un collègue d'évaluer s'ils sont vraiment inutiles."
+              ],
+              "correctIndex": 1,
+              "explanation": "Si un slide ne change rien à la présentation, le garder n'est pas neutre — il consomme l'attention de l'audience pour rien et dilue les slides qui méritent attention. Reformuler des slides intrinsèquement inutiles est rarement productif (souvent ils sont inutiles parce que le contenu qu'ils portent ne mérite pas un slide, pas parce qu'ils sont mal formulés). Demander un second avis est défensif et perd du temps — le test du slide retiré est diagnostique en lui-même. Supprimer franchement est la bonne réponse. La résistance vient du sentiment que \"j'ai déjà fait le travail\", mais le travail jeté est moins coûteux que le travail nuisible conservé."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l10-donnees",
+      "title": "Présenter des données sans perdre l'audience",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Les présentations qui contiennent des données sont parmi les plus difficiles à réussir. Trop de chiffres tue l'attention; pas assez de chiffres affaiblit l'argument. Trop de précision écrase le message; trop de simplification déforme la réalité.\n\nLa difficulté supplémentaire est que beaucoup de présentateurs traitent les données comme si elles étaient l'argument. Elles ne le sont jamais. Les données sont la **preuve** d'un argument que le présentateur doit formuler. Sans cette formulation, l'audience reçoit des chiffres et reste sans savoir quoi en penser."
+        },
+        {
+          "type": "text",
+          "markdown": "## Le contexte avant le chiffre, jamais après\n\nLa règle la plus importante en présentation de données est celle de l'ordre: **le contexte arrive avant le chiffre, pas après**.\n\nMauvaise approche: *\"Notre churn est de 7,3% par mois. C'est élevé pour notre secteur, où la moyenne est de 4,1%.\"* L'audience entend 7,3% et n'a aucune idée si c'est bon ou mauvais. Elle attend la deuxième phrase pour comprendre. Pendant ces deux secondes d'attente, elle n'a pas vraiment intégré le 7,3% — elle a juste attendu le verdict.\n\nBonne approche: *\"La moyenne du secteur est de 4,1% de churn mensuel. Nous sommes à 7,3%.\"* L'audience reçoit d'abord le repère, puis le chiffre, et fait immédiatement la comparaison. Le 7,3% atterrit avec sa signification déjà intégrée.\n\nCe principe est simple à appliquer une fois qu'on l'a vu, et il transforme la lisibilité de toute présentation contenant des chiffres. La plupart des présentateurs font l'inverse parce qu'ils pensent comme un analyste (le chiffre d'abord, l'interprétation ensuite) plutôt que comme un communicant."
+        },
+        {
+          "type": "text",
+          "markdown": "## Arrondir, sans mentir\n\nLes chiffres précis se mémorisent mal. *\"Nous avons gagné 47'318 nouveaux clients ce trimestre\"* ne se grave pas; *\"47 mille\"* ou *\"environ 50 mille\"* se grave. La précision excessive est l'ennemie de la mémorisation.\n\nMais l'arrondi a une limite éthique: il ne doit pas changer la signification. Arrondir 47'318 à \"47 mille\" est correct; arrondir 47'318 à \"50 mille\" en présentation devant le conseil mais à \"45 mille\" en discussion avec l'équipe est manipulateur. Et arrondir un chiffre à un autre qui passe une barre symbolique (47% arrondi à \"presque la moitié\", ou pire \"environ 50%\") est trompeur si vous savez que la précision change l'interprétation.\n\nLa règle: arrondissez à la précision qui est utile à l'audience pour comprendre le point. Pas plus précis, mais pas moins honnête."
+        },
+        {
+          "type": "scenario",
+          "title": "Trois façons de présenter la même donnée",
+          "context": "Vous devez présenter à votre comité de direction la performance Q4 de votre produit phare. Les faits objectifs sont: 23'847 clients actifs en fin de trimestre, croissance de 8,3% par rapport au trimestre précédent (Q3: 22'020 clients actifs), pendant que le marché global de votre catégorie a cru de 3,1%.\n\nVoici trois façons de présenter ces mêmes faits:\n\n**Version A** — *\"Nous terminons Q4 avec 23'847 clients actifs, en croissance de 8,3% par rapport aux 22'020 clients de Q3, alors que le marché global de notre catégorie a cru de 3,1% sur la même période.\"*\n\n**Version B** — *\"Le marché de notre catégorie a cru de 3% ce trimestre. Notre produit a cru de 8% — presque trois fois plus vite.\"*\n\n**Version C** — *\"Nous avons gagné 1'827 clients nets ce trimestre. Sur une base de 22'020, c'est une croissance de 8,3%. À titre de comparaison, le marché a évolué de 3,1%.\"*",
+          "questions": [
+            {
+              "id": "ps-l10-sq1",
+              "stem": "Quelle version est la plus efficace pour l'oral devant le comité de direction?",
+              "options": [
+                "Version A — la plus complète et la plus précise.",
+                "Version B — contexte d'abord, chiffres arrondis, comparaison immédiate.",
+                "Version C — la plus rigoureuse analytiquement.",
+                "Toutes les trois sont équivalentes; le choix est une question de style."
+              ],
+              "correctIndex": 1,
+              "explanation": "La Version B applique trois principes corrects: contexte avant chiffre (le marché à 3% est posé en premier), arrondi honnête (8,3% devient 8% sans changer le sens), et formulation comparative explicite (\"presque trois fois plus vite\"). La Version A force l'audience à faire la comparaison mentalement (8,3% vs 3,1% — combien de fois?), ce qui consomme de l'attention. La Version C est analytiquement la plus rigoureuse mais oralement la plus dense — elle marche pour un document écrit, pas pour de l'oral."
+            },
+            {
+              "id": "ps-l10-sq2",
+              "stem": "Vous présentez les mêmes chiffres dans un document écrit destiné au conseil. Quelle version choisir?",
+              "options": [
+                "Version A — la précision est attendue dans un document écrit.",
+                "Version B — la simplicité doit prévaloir partout.",
+                "Version C — combine la précision et la comparaison.",
+                "Aucune n'est appropriée pour un document écrit."
+              ],
+              "correctIndex": 0,
+              "explanation": "Les contraintes de l'écrit et de l'oral sont différentes. À l'écrit, le lecteur peut relire, comparer mentalement à son rythme, et la précision ajoute de la crédibilité plutôt qu'elle ne pèse. La Version A est en réalité bonne pour un document écrit. La Version B perd en rigueur si elle remplace la version écrite — \"presque trois fois plus vite\" est précis à l'oral mais imprécis à l'écrit où on peut donner les vrais chiffres. Le principe général: même contenu, formulations différentes selon le canal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## L'incertitude qu'il faut signaler\n\nLes données ne sont presque jamais aussi précises que les chiffres le laissent paraître. Une croissance de 8,3% est calculée à partir de comptages clients qui ont leurs propres marges d'erreur (clients dormants qui sont comptés ou pas, doublons non détectés, retards de comptabilisation). Un sondage qui donne 67% d'approbation a une marge d'erreur de quelques points.\n\nLa plupart des présentations professionnelles ignorent cette incertitude et présentent les chiffres comme exacts. Cela marche tant que personne ne pose de questions; cela explose dès qu'un membre du comité, plus sophistiqué que les autres, demande \"quelle est la marge d'erreur?\".\n\nLa bonne pratique: si l'incertitude change l'interprétation, mentionnez-la brièvement. *\"Nous sommes à environ 67% d'approbation, avec une marge de plus ou moins 3 points — donc clairement majoritaire mais pas écrasant\"*. Si l'incertitude ne change pas l'interprétation, ne l'évoquez pas (vous diluez votre point sans bénéfice). Le jugement est de savoir quand l'incertitude compte."
+        },
+        {
+          "type": "text",
+          "markdown": "## Une statistique par slide\n\nPour les slides qui portent des données, la règle de densité de la leçon 9 s'applique de manière particulièrement stricte: **une statistique par slide**.\n\nPas un tableau de cinq lignes. Pas trois chiffres comparés. Un chiffre — le chiffre qui porte le point — affiché grand, avec éventuellement une légende minimale. La comparaison se fait à l'oral, pas sur le slide.\n\nL'exception légitime: un graphique unique qui porte une comparaison ou une évolution. Une courbe d'évolution mensuelle, un diagramme à barres comparant trois segments, une carte de chaleur. Mais même dans ces cas, le slide porte un seul visuel avec un seul point à comprendre, pas un tableau de bord complet.\n\nLes présentateurs résistent à cette règle parce qu'ils ont préparé beaucoup de données et que les mettre sur un slide à la fois \"prend trop de slides\". L'inverse est vrai: cinq slides avec un chiffre chacun marquent l'audience plus qu'un slide unique avec cinq chiffres."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l10-q1",
+              "stem": "Vous voulez présenter le fait que votre Net Promoter Score est passé de 32 à 47 en un an. Comment formuler à l'oral?",
+              "options": [
+                "\"Notre NPS est de 47, ce qui est meilleur que les 32 de l'an dernier.\"",
+                "\"L'an dernier nous étions à 32. Aujourd'hui nous sommes à 47 — quinze points gagnés en douze mois.\"",
+                "\"Notre NPS a augmenté de 46,9% sur un an, passant de 32 à 47.\"",
+                "\"L'évolution de notre NPS sur les douze derniers mois suit une trajectoire positive significative.\""
+              ],
+              "correctIndex": 1,
+              "explanation": "La Version B applique le principe contexte-avant-chiffre (le repère 32 arrive en premier), le chiffre actuel arrive ensuite (47), et l'interprétation est immédiatement donnée (15 points gagnés). La Version A inverse l'ordre. La Version C utilise un pourcentage de variation qui est techniquement correct mais cognitivement inutile — \"de 32 à 47\" est plus parlant que \"+46,9%\". La Version D est l'antithèse de tout ce qu'on essaie d'apprendre: vague, jargonneuse, et sans aucun chiffre concret."
+            },
+            {
+              "id": "ps-l10-q2",
+              "stem": "Vous préparez un slide pour montrer l'évolution de votre churn mensuel sur 12 mois. Quel format choisir?",
+              "options": [
+                "Un tableau avec 12 lignes (un mois par ligne) et les pourcentages exacts.",
+                "Une courbe d'évolution mensuelle sans le tableau de chiffres détaillés.",
+                "Un slide avec les 12 chiffres affichés en grand.",
+                "Trois slides séparés, un par trimestre, avec les chiffres détaillés."
+              ],
+              "correctIndex": 1,
+              "explanation": "Une courbe d'évolution est exactement le type de visuel où une seule image porte un seul point compréhensible: la trajectoire dans le temps. Le tableau de 12 lignes (option A) force l'audience à lire un tableau pendant que vous parlez — défaut classique. Les 12 chiffres en grand (option C) sont indéchiffrables d'un coup d'œil. Les trois slides séparés (option D) fragmentent la donnée que la courbe entière permet justement de voir en un seul coup d'œil."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l11-trac",
+      "title": "Gérer le trac: ce qui marche, ce qui n'aide pas",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Si vous ressentez du trac avant et pendant les présentations, vous êtes normal. La grande majorité des présentateurs — y compris les meilleurs, ceux qui ont fait cela des centaines de fois — ressentent encore une montée d'adrénaline avant de prendre la parole. La différence entre eux et un débutant n'est pas l'absence de trac. C'est ce qu'ils en font.\n\nCette leçon vous donne ce qui marche pour gérer le trac, et débunke ce qui ne marche pas. La majorité du conseil habituel est soit inefficace, soit fondé sur de la pseudo-science. Une fois qu'on enlève le bruit, ce qui reste est plus simple et plus exigeant que la plupart des présentateurs ne le pensent."
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce que votre corps est vraiment en train de faire\n\nQuand vous ressentez du trac, votre système nerveux sympathique s'active: adrénaline libérée, rythme cardiaque accéléré, respiration plus rapide et plus superficielle, mains parfois moites, gorge parfois serrée. C'est une cascade physiologique vieille de centaines de milliers d'années, conçue pour préparer votre corps à fuir ou à combattre un danger physique.\n\nCe que votre corps ne sait pas, c'est qu'aucun de ces préparatifs n'est utile pour parler en public. Vous n'avez pas besoin de plus de sang dans les muscles. Vous n'avez pas besoin d'une vision tunnel. Vous n'avez pas besoin d'une fréquence cardiaque à 110. Le trac est un signal mal calibré: votre système réagit à \"présenter devant trente personnes\" comme s'il s'agissait de \"un tigre vient d'entrer dans la salle\".\n\nComprendre cela ne fait pas disparaître le trac, mais cela change la relation que vous avez avec lui. Le trac n'est pas le signe que quelque chose va mal. C'est le signe que votre corps fait un travail dont vous n'avez pas besoin, à un moment où vous n'en avez pas besoin."
+        },
+        {
+          "type": "text",
+          "markdown": "## Trois techniques qui marchent vraiment\n\nVoici les trois interventions qui sont à la fois robustes en recherche et utiles en pratique.\n\n**1. La respiration ralentie.** Avant de présenter, pratiquez quelques minutes de respiration lente: inspirez en 4 secondes, retenez 2 secondes, expirez en 6 secondes. Répétez 5 à 10 fois. Cette technique active le système nerveux parasympathique (qui contre l'activation sympathique du trac) par un mécanisme physiologique direct. Ce n'est pas une croyance ou une technique de \"mindfulness\" — c'est de la mécanique nerveuse, et cela marche en quelques minutes. Continuez à respirer profondément (mais discrètement) pendant les premières minutes de la présentation, où le trac est le plus fort.\n\n**2. La préparation poussée.** La plus forte variable qui prédit votre niveau de trac n'est pas votre tempérament, ce n'est pas votre expérience — c'est combien vous avez préparé. Un présentateur qui a répété trois fois à voix haute, sur ses pieds, devant un mur ou une caméra, ressent dramatiquement moins de trac qu'un présentateur qui a relu ses slides en silence. La préparation transforme l'incertitude (\"est-ce que je vais m'en sortir?\") en quasi-certitude (\"je sais ce que je vais dire et je sais que les transitions marchent\"). Le trac se nourrit de l'incertitude; la préparation le coupe à sa source.\n\n**3. Le recadrage cognitif.** Quand vous sentez l'adrénaline monter, l'interprétation par défaut est \"je suis stressé, c'est mauvais\". Une recherche solide montre qu'une autre interprétation — \"je suis excité, mon corps se prépare\" — change la performance sans changer l'état physiologique. Les deux états (peur et excitation) ont la même signature corporelle; seule l'étiquette mentale diffère. Vous dire silencieusement \"je suis excité, pas anxieux\" au moment où vous attendez de monter sur scène est étonnamment efficace. Cela fonctionne mieux que d'essayer de \"se calmer\" — qui demande au corps de faire l'inverse de ce qu'il est en train de faire."
+        },
+        {
+          "type": "compare",
+          "title": "Techniques qui marchent vs techniques qui n'aident pas",
+          "items": [
+            { "id": "work", "label": "Techniques qui marchent" },
+            { "id": "myth", "label": "Techniques qui n'aident pas" }
+          ],
+          "attributes": [
+            {
+              "id": "tech1",
+              "label": "Respiration",
+              "values": [
+                "Inspirations lentes (4s) et expirations plus longues (6s); active le système parasympathique",
+                "\"Respirez à fond\" sans méthode précise — peut au contraire hyperventiler et aggraver le trac"
+              ]
+            },
+            {
+              "id": "tech2",
+              "label": "Sur l'état mental",
+              "values": [
+                "Recadrer l'adrénaline en \"excitation\" plutôt qu'en \"peur\"",
+                "\"Calmez-vous\" — demande l'inverse de ce que fait le corps; généralement contre-productif"
+              ]
+            },
+            {
+              "id": "tech3",
+              "label": "Préparation",
+              "values": [
+                "Répéter à voix haute, sur ses pieds, plusieurs fois — réduit l'incertitude qui nourrit le trac",
+                "Relire ses slides en silence — donne l'impression de préparer sans réduire l'incertitude réelle"
+              ]
+            },
+            {
+              "id": "tech4",
+              "label": "Visualisation",
+              "values": [
+                "Visualiser concrètement les premières phrases (mots exacts, première transition)",
+                "\"Visualiser le succès\" — la visualisation positive vague n'a pas démontré d'effet robuste"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce que ne fait pas la \"power pose\"\n\nVous avez peut-être entendu (notamment depuis une célèbre présentation TED de 2012) qu'adopter une posture de pouvoir pendant deux minutes avant de présenter changerait votre niveau de cortisol et de testostérone, et donc votre confiance.\n\nCette affirmation a été largement débunkée. Les résultats clés de l'étude originale n'ont pas pu être reproduits par d'autres chercheurs, et l'une des co-auteurs de l'étude, Dana Carney, a publiquement renié les conclusions en 2016. La chaîne hormonale promise n'existe pas.\n\nCela ne veut pas dire qu'il faut adopter une posture affaissée avant de présenter — adopter une posture droite et ouverte avant de monter sur scène est probablement utile (pour des raisons de respiration et d'attention), mais pas pour les raisons hormonales souvent invoquées. La leçon plus large est: méfiez-vous des techniques \"de neurosciences\" séduisantes qui circulent dans les conseils de prise de parole. Beaucoup ne survivent pas à un examen rigoureux."
+        },
+        {
+          "type": "text",
+          "markdown": "## Quand le trac dépasse le trac normal\n\nLe trac décrit ici est l'expérience normale de la grande majorité des présentateurs — montée d'adrénaline avant de monter sur scène, premier minutes inconfortables, puis stabilisation au fur et à mesure que vous entrez dans la présentation.\n\nSi votre trac dépasse cela — anxiété intense plusieurs jours avant la présentation, évitement systématique des occasions de parler en public, symptômes physiques sévères (tremblements visibles, voix qui se bloque, malaise réel) — ce n'est pas du trac normal et les techniques de cette leçon ne suffiront pas. Cela ne signifie pas que vous êtes anormal; cela signifie que l'aide adaptée n'est pas dans un module de prise de parole. **Un professionnel de santé (psychologue, psychiatre) ou un coach spécialisé en anxiété de performance** peut vous aider de façon plus appropriée. Cette aide existe et marche bien; elle est juste hors de portée de cette leçon."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l11-q1",
+              "stem": "Un collègue stressé avant de présenter vous demande conseil. Lequel de ces conseils est le plus susceptible de l'aider?",
+              "options": [
+                "\"Calme-toi, ça va bien se passer.\"",
+                "\"Respire à fond, ça va passer.\"",
+                "\"Répète à voix haute trois fois sur tes pieds, et juste avant ton intervention fais quelques cycles de respiration lente (inspire 4 secondes, expire 6).\"",
+                "\"Visualise ton succès — imagine l'audience qui t'applaudit à la fin.\""
+              ],
+              "correctIndex": 2,
+              "explanation": "Le conseil C combine les deux interventions les plus robustes: la préparation poussée (répétition à voix haute, plusieurs fois) qui réduit l'incertitude et donc le trac à sa source, et la respiration ralentie spécifique (4s d'inspiration, 6s d'expiration) qui active le système parasympathique. \"Calme-toi\" demande l'inverse de ce que fait le corps. \"Respire à fond\" sans méthode précise peut aggraver les choses par hyperventilation. La visualisation positive vague n'a pas montré d'effet robuste en recherche."
+            },
+            {
+              "id": "ps-l11-q2",
+              "stem": "Vous sentez l'adrénaline monter avant de présenter. Quel recadrage mental est le plus efficace?",
+              "options": [
+                "\"Je dois absolument me calmer.\"",
+                "\"Je suis excité, mon corps se prépare.\"",
+                "\"Ce n'est pas grave si ça se passe mal.\"",
+                "\"Je vais imaginer que je suis seul dans la pièce.\""
+              ],
+              "correctIndex": 1,
+              "explanation": "Peur et excitation ont la même signature physiologique — accélération cardiaque, adrénaline, respiration courte. Le seul écart est l'interprétation mentale. Recadrer en \"excitation\" plutôt qu'en \"anxiété\" change la performance sans changer l'état corporel, et cela a un soutien empirique solide. \"Calme-toi\" demande au corps de faire l'inverse de ce qu'il fait. \"Ce n'est pas grave\" est faux (cela vous importe, sinon vous n'auriez pas le trac) et l'audience perçoit le désinvestissement. Imaginer l'absence de l'audience supprime exactement ce qui rend la présentation utile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l12-qa",
+      "title": "Le Q&A: l'art de la réponse qui ne dérape pas",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Beaucoup de présentations bien préparées s'effondrent pendant la session de questions. Le présentateur a maîtrisé son contenu mais n'a pas pensé au Q&A; il se trouve sans script face à des questions qu'il n'a pas anticipées; il improvise mal, perd sa crédibilité, et l'impression finale écrase tout ce qu'il a construit pendant trente minutes.\n\nLe Q&A est une compétence séparée de la présentation, et elle se travaille à part. Cette leçon vous donne les patterns qui marchent pour les situations courantes."
+        },
+        {
+          "type": "text",
+          "markdown": "## Les trois patterns de base\n\nTrois techniques couvrent la grande majorité des situations de Q&A:\n\n**Le parking.** Quand vous recevez une question qui mériterait une réponse approfondie mais qui n'est pas le bon moment, vous \"garez\" la question pour y revenir plus tard. *\"Excellente question — je préfère y répondre après les autres pour ne pas faire dérailler le temps de groupe. Pouvez-vous me la remettre dans dix minutes?\"*. La condition: vous devez vraiment y revenir. Garer une question puis l'oublier est une faute de crédibilité.\n\n**Le redirect.** Quand vous recevez une question qui n'est pas exactement celle qui vous est posée mais qui touche la question plus profonde, vous reformulez vers la vraie question. *\"La question que vous posez sur les délais touche en réalité quelque chose de plus large: comment nous priorisons. Laissez-moi commencer par cela.\"*. Cette technique est puissante mais demande du tact — elle peut être perçue comme une esquive si elle est mal exécutée. La clé est de vraiment répondre à la question reformulée, pas de l'utiliser comme prétexte pour parler d'autre chose.\n\n**L'admission honnête.** Quand vous ne savez pas, dites-le. *\"Je n'ai pas la réponse à cette question. Je peux faire deux choses: vous donner une intuition que vous prenez avec une marge d'erreur, ou je reviens vers vous avec une réponse précise dans 48 heures.\"*. L'admission franche d'ignorance est presque toujours mieux reçue que l'improvisation. Les présentateurs qui essaient de répondre à tout perdent la confiance plus vite que ceux qui admettent occasionnellement ne pas savoir."
+        },
+        {
+          "type": "text",
+          "markdown": "## Le piège du \"bonne question\"\n\nDans beaucoup de cultures professionnelles, le réflexe en début de réponse est de complimenter la question: *\"Très bonne question\"*, *\"Merci pour cette question\"*, *\"C'est une question importante\"*.\n\nC'est une mauvaise habitude. Voici pourquoi:\n\n- **Cela signale que vous n'évaluez pas les questions** — si toutes les questions sont \"très bonnes\", aucune ne l'est vraiment, et l'audience le ressent. Vous récompensez la simple existence de la question plutôt que sa qualité.\n- **Cela trahit votre besoin de plaire** — l'audience perçoit que vous voulez complimenter pour gagner sa faveur, ce qui mine votre autorité.\n- **Cela gaspille les secondes d'ouverture** de votre réponse, qui sont les plus précieuses.\n\nL'exception légitime: quand la question est vraiment exceptionnelle — elle révèle une dimension que vous n'aviez pas vue, ou elle pose précisément la bonne question pour la suite — vous pouvez et devez le reconnaître: *\"Cette question touche le cœur du problème.\"*. Mais alors le compliment est vrai, spécifique, et il porte du contenu. Pas une formule de politesse.\n\nLa règle: répondez à la question directement, sans préambule. Si la question est mauvaise (vague, hors-sujet, déjà répondue), vous pouvez l'indiquer poliment (\"je crois que j'ai déjà répondu à cet aspect; voulez-vous que je reprenne?\"); si elle est bonne, votre réponse précise et utile est le meilleur compliment."
+        },
+        {
+          "type": "text",
+          "markdown": "## La question hostile et la question dominante\n\nDeux types de situations spécifiques méritent une attention particulière.\n\n**La question hostile.** Quelqu'un dans la salle vous attaque sur le fond — votre raisonnement, vos données, votre légitimité. La pire réaction est de se défendre nerveusement, ce qui escalade. La meilleure réaction est de **prendre l'attaque au sérieux**: reformulez la question pour montrer que vous l'avez comprise, donnez votre meilleure réponse, et si l'attaque a une part de vrai, reconnaissez-la. *\"Vous avez raison sur le fait que notre data set est limité aux 12 derniers mois. Voici pourquoi je pense que la conclusion tient malgré cela...\"*. Une audience qui voit que vous traitez l'attaque avec sérieux plutôt qu'avec défense vous accorde plus de crédibilité, pas moins. Une attaque honnêtement traitée renforce votre autorité; une attaque esquivée la détruit.\n\n**Le questionneur dominant.** Une personne dans la salle commence à monopoliser le Q&A — questions multiples, follow-ups en cascade, longueur excessive. C'est désagréable pour elle, désagréable pour le reste de l'audience, et c'est à vous de gérer. La technique: **clore poliment et passer à la suite**. *\"C'est une question riche et je veux laisser le temps aux autres — pouvons-nous reprendre cette discussion en fin de séance ou par email?\"*. Vous n'êtes pas obligé de continuer à répondre à la même personne par politesse. L'audience vous remerciera silencieusement d'avoir libéré l'espace."
+        },
+        {
+          "type": "scenario",
+          "title": "Trois situations de Q&A",
+          "context": "Vous venez de terminer votre présentation sur la nouvelle stratégie produit. Le Q&A commence et vous recevez trois questions en quelques minutes:\n\n**Question A** — *\"Excellente présentation. Une question: les chiffres que vous avez montrés sur les 24'000 clients, c'est sur la définition utilisateur actif ou utilisateur enregistré? J'ai vu des deux dans les rapports.\"*\n\n**Question B** — *\"Je ne vous suis pas. Votre stratégie repose sur un postulat — que le marché va doubler en trois ans — qui n'est étayé par aucune source crédible. Vous demandez à ce comité de valider un investissement de plusieurs millions sur la base de quoi?\"*\n\n**Question C** — *\"Comment allez-vous mesurer le succès? Et quel sera votre plan B si ça ne marche pas? Et qui sera responsable de l'exécution? Et est-ce que vous avez prévu une revue à six mois? Et...\"*",
+          "questions": [
+            {
+              "id": "ps-l12-sq1",
+              "stem": "Comment répondre à la Question A?",
+              "options": [
+                "\"Excellente question, je suis ravi que vous demandiez. C'est sur la définition utilisateur actif, défini comme...\"",
+                "\"C'est sur la définition utilisateur actif — défini comme connexion dans les 30 derniers jours. C'est la définition standard que nous utilisons partout.\"",
+                "\"C'est une question technique qui mériterait plus de temps; je vous propose qu'on en discute après.\"",
+                "\"Je ne suis pas certain de la définition exacte; je vous reviens dans la journée.\""
+              ],
+              "correctIndex": 1,
+              "explanation": "La Question A est une question factuelle claire qui mérite une réponse factuelle directe. L'ouverture par \"excellente question\" (option A) tombe exactement dans le piège décrit. Le report (option C) est inapproprié pour une question simple. L'aveu d'ignorance (option D) est en fait une faute de crédibilité ici si vous connaissez la définition — l'admission honnête est pour les cas où vous ne savez vraiment pas, pas pour éviter d'engager. La Version B donne la réponse directe avec le contexte qui montre que vous maîtrisez votre définition."
+            },
+            {
+              "id": "ps-l12-sq2",
+              "stem": "Comment répondre à la Question B (attaque sur le fondement de la stratégie)?",
+              "options": [
+                "\"Je comprends votre scepticisme, mais cette analyse a été validée par notre équipe.\"",
+                "Reformuler l'attaque, reconnaître ce qui est vrai dedans, et donner la meilleure défense: \"Vous avez raison que la projection de doublement n'est pas certaine. Voici les sources sur lesquelles elle s'appuie [...], voici le scénario alternatif si elle ne se réalise pas [...], et voici pourquoi je pense que la stratégie est défendable même dans ce scénario.\"",
+                "\"Je ne suis pas d'accord avec votre caractérisation de notre source.\"",
+                "\"C'est un excellent point que je vais creuser et je reviens vers vous.\""
+              ],
+              "correctIndex": 1,
+              "explanation": "Une attaque sérieuse sur le fond doit être traitée sérieusement. La défense rapide qui invoque l'autorité (\"validé par notre équipe\") esquive le contenu de l'attaque. Le désaccord direct sans engagement avec le fond escalade. Le report (\"je creuse et je reviens\") équivaut à admettre que vous n'avez pas la défense maintenant — ce qui peut être nécessaire mais coûteux dans ce contexte précis. La bonne approche est de prendre l'attaque au sérieux: reconnaître ce qui est vrai dedans (la projection n'est pas certaine), donner la défense la plus complète possible (sources, scénarios alternatifs), et défendre la décision en assumant la zone d'incertitude. C'est cela qui construit l'autorité face à un critique sophistiqué."
+            },
+            {
+              "id": "ps-l12-sq3",
+              "stem": "Comment gérer la Question C (cascade de questions multiples)?",
+              "options": [
+                "Répondre à toutes les questions une par une dans l'ordre.",
+                "Choisir d'isoler la question la plus importante et y répondre, puis proposer de traiter les autres soit en fin de séance soit par échange écrit.",
+                "Demander au questionneur de reformuler en une seule question.",
+                "Ignorer les questions en cascade et passer à la personne suivante."
+              ],
+              "correctIndex": 1,
+              "explanation": "La cascade de questions est un cas spécifique où il faut reprendre le contrôle de l'espace. Tenter de répondre à toutes (option A) garantit que vous répondez mal à chacune, et que vous laissez la même personne monopoliser le temps. Demander de reformuler (option C) met le questionneur en position désagréable publiquement et n'aide pas l'audience. Ignorer (option D) est impoli et fait croire que vous ne savez pas répondre. La bonne approche: choisir une question — typiquement la première ou la plus importante — y répondre proprement, et proposer de traiter le reste autrement."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## La règle de fond\n\nLe Q&A se prépare. Pas en répétant des réponses mémorisées, mais en **listant à l'avance les 5 à 10 questions les plus probables** et en réfléchissant à comment vous y répondriez. Les présentateurs qui le font sont rarement surpris par les questions qu'ils reçoivent — la majorité des questions sur n'importe quel sujet tombent dans un petit nombre de catégories prévisibles.\n\nEt pour les questions imprévisibles? Les trois patterns — parking, redirect, admission honnête — couvrent presque toutes les situations. Combiné à la discipline de ne pas commencer par \"excellente question\", de traiter les attaques sérieusement, et de gérer les questionneurs dominants, vous avez ce qu'il faut pour que le Q&A renforce votre présentation au lieu de la saboter."
+        }
+      ]
+    },
+    {
+      "id": "ps-l13-taille-groupe",
+      "title": "Parler à 5 personnes vs parler à 500",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "La taille de votre audience n'est pas un paramètre cosmétique de votre présentation. C'est une contrainte qui change tout le reste — votre voix, votre corps, votre structure, votre interaction avec l'audience. Un présentateur qui parle à 500 personnes comme si elles étaient 5 fait fuir la salle; un présentateur qui parle à 5 comme si elles étaient 500 paraît grandiloquent et déconnecté.\n\nLa plupart des présentateurs préparent leur présentation comme si la taille était secondaire. Elle est primordiale."
+        },
+        {
+          "type": "text",
+          "markdown": "## Les trois formats fondamentalement différents\n\nIl est utile de penser en trois formats distincts qui demandent chacun un registre différent.\n\n**Le petit groupe (3-15 personnes).** Salle de réunion, atelier, comité restreint. La distance entre vous et l'audience est faible. L'audience attend de vous une présence conversationnelle — pas un monologue, mais quelque chose qui peut s'interrompre, basculer en discussion, accepter une question à tout moment. Votre voix peut rester proche du registre conversationnel; votre corps n'a pas besoin d'occuper beaucoup d'espace; votre énergie peut être contenue.\n\n**Le groupe moyen (15-100 personnes).** Conférence interne, formation, présentation à un département. La distance commence à compter. Vous ne pouvez plus rester en mode conversation — votre voix doit porter, votre corps doit occuper l'espace de la scène ou de l'estrade, votre énergie doit être un cran au-dessus de votre baseline. Mais vous ne pouvez pas encore basculer en mode \"performance\" — l'audience est assez proche pour percevoir une artificialité.\n\n**La grande audience (100+ personnes).** Conférence externe, keynote, événement. La distance domine. Vous ne pouvez plus voir individuellement les visages au-delà des premiers rangs. Votre voix doit porter loin et doit utiliser pleinement les variations de volume. Votre corps doit occuper la scène avec des mouvements lisibles à 20 mètres. Votre énergie doit être nettement au-dessus de votre baseline — ce qui paraît normal au présentateur paraît plat à l'audience qui regarde de loin."
+        },
+        {
+          "type": "compare",
+          "title": "Les trois formats en pratique",
+          "items": [
+            { "id": "small", "label": "Petit groupe (3-15)" },
+            { "id": "medium", "label": "Groupe moyen (15-100)" },
+            { "id": "large", "label": "Grande audience (100+)" }
+          ],
+          "attributes": [
+            {
+              "id": "voice",
+              "label": "Voix",
+              "values": [
+                "Conversationnelle, volume normal, variations subtiles",
+                "Porte distinctement, volume au-dessus du conversationnel, variations marquées",
+                "Porte loin, variations très marquées, utilise pleinement les pauses"
+              ]
+            },
+            {
+              "id": "body",
+              "label": "Corps",
+              "values": [
+                "Gestuelle contenue, mouvement minimal, position assise possible",
+                "Gestuelle visible, mouvement intentionnel sur la zone d'estrade, debout",
+                "Gestuelle large et lisible de loin, mouvement marqué sur la scène entière"
+              ]
+            },
+            {
+              "id": "structure",
+              "label": "Structure",
+              "values": [
+                "Souple, peut basculer en discussion, l'interaction est attendue",
+                "Plus stricte, l'interaction est limitée mais possible, Q&A en fin",
+                "Très stricte, l'interaction est rare pendant la présentation, Q&A séparé"
+              ]
+            },
+            {
+              "id": "energy",
+              "label": "Énergie nécessaire",
+              "values": [
+                "Niveau baseline; sur-jouer paraît artificiel",
+                "Un cran au-dessus du baseline; sous-jouer paraît plat",
+                "Nettement au-dessus du baseline; ce qui semble normal au présentateur paraît plat"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Le format le plus difficile que personne ne nomme\n\nIl existe un quatrième format, intermédiaire et particulièrement piégeux: **l'atelier ou la réunion à 10-20 personnes en cercle ou en U**.\n\nC'est ni vraiment un petit groupe (l'intimité conversationnelle ne fonctionne pas avec 20 personnes), ni un groupe moyen (la distance n'est pas assez grande pour justifier le mode présentation classique). Le présentateur se retrouve coincé: trop éloigné pour la conversation, trop proche pour la performance.\n\nLa solution n'est pas d'adopter un demi-registre entre les deux. C'est de **traiter ce format comme un petit groupe pour la voix et le corps**, mais **comme un groupe moyen pour la structure**. Voix conversationnelle, gestuelle contenue, mouvement minimal — mais structure stricte, transitions claires, interaction limitée pendant les phases d'exposé (l'interaction étant réservée à des moments explicitement prévus).\n\nLes ateliers où le présentateur ne maîtrise pas ce format finissent toujours de la même façon: l'audience décroche au bout de 20 minutes, et les deux heures restantes deviennent un combat pour récupérer l'attention. Le format demande une discipline particulière dès le départ."
+        },
+        {
+          "type": "text",
+          "markdown": "## La règle d'ajustement\n\nQuand vous préparez une présentation, posez-vous trois questions dans l'ordre:\n\n1. **Combien de personnes seront dans la salle?** Pas \"environ\" — la fourchette compte. 8 ou 18 demandent des préparations différentes.\n2. **Comment la salle est-elle disposée?** Cercle, U, théâtre, classroom? Cela compte presque autant que la taille.\n3. **À quelle distance maximale serai-je de la dernière rangée?** C'est la métrique pratique qui détermine votre voix et votre corps. Trois mètres, dix mètres, et trente mètres demandent trois registres différents.\n\nUne fois ces questions répondues, votre registre se choisit presque tout seul. Le piège est de préparer une seule présentation pour tous les formats et de penser que l'ajustement se fera \"naturellement\" le jour J. Il ne se fera pas — votre baseline reste votre baseline si vous ne l'avez pas consciemment recalibrée à la préparation."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l13-q1",
+              "stem": "Vous présentez à un comité de direction de 8 personnes dans une salle de réunion. Quelle est l'erreur la plus probable?",
+              "options": [
+                "Présenter trop bas — manquer d'énergie pour 8 personnes.",
+                "Présenter en mode performance — voix qui porte trop, gestuelle ample, énergie trop élevée, déconnexion de l'intimité que le format permet.",
+                "Manquer de structure — laisser la conversation dériver.",
+                "Trop utiliser les slides."
+              ],
+              "correctIndex": 1,
+              "explanation": "Devant un petit groupe, le piège classique est de présenter comme si on était sur scène — voix qui porte trop pour la pièce, gestuelle large qui paraît artificielle à 2 mètres, énergie performative qui crée une distance que l'audience ressent. Le format permet une intimité conversationnelle; la sur-utiliser est l'erreur opposée moins dommageable que de la perdre. Pour 8 personnes en salle de réunion, le registre conversationnel est presque toujours le bon défaut, même quand le contenu est important ou enjeux élevés."
+            },
+            {
+              "id": "ps-l13-q2",
+              "stem": "Vous donnez une formation à 15 personnes en cercle pendant 2 heures. Quel est le piège à éviter en priorité?",
+              "options": [
+                "Préparer trop de contenu — 2 heures, c'est long.",
+                "Choisir le mauvais registre — basculer en mode conversation libre (qui ne marche pas avec 15 personnes) ou en mode présentation formelle (qui ne marche pas en cercle).",
+                "Ne pas prévoir assez de pauses.",
+                "Manquer de variation dans les exercices."
+              ],
+              "correctIndex": 1,
+              "explanation": "Le format atelier en cercle à 15-20 personnes est précisément le format intermédiaire piégeux. La conversation libre ne fonctionne pas (trop de gens, certains se taisent, d'autres dominent, le présentateur perd le contrôle), et la présentation formelle ne fonctionne pas (l'intimité du cercle rend artificielle la voix qui porte). Le bon registre est conversationnel pour voix et corps, mais avec une structure stricte qui prévoit des phases d'exposé (sans interaction libre) et des phases d'interaction (explicitement nommées comme telles). Les autres pièges (durée, pauses, variations) sont réels mais secondaires par rapport au choix de registre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l14-distance",
+      "title": "Présenter à distance: l'art mal maîtrisé du visioconférence",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Présenter à distance — par visioconférence — est plus difficile que présenter en personne. Pas plus facile, comme beaucoup le pensent parce qu'on n'a pas à se déplacer et qu'on est dans son bureau. Plus difficile, parce que vous perdez la majorité des signaux qui rendent la présentation en personne possible: vous ne voyez pas l'audience, vous ne sentez pas l'énergie de la salle, vous n'avez pas la présence physique qui occupe l'espace.\n\nLa visioconférence n'est pas une version dégradée de la présentation en personne. C'est une discipline distincte, avec ses propres règles et ses propres techniques. Le présentateur qui transpose ses habitudes en personne sans les adapter perd presque toujours son audience."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pourquoi c'est plus difficile qu'en personne\n\nQuatre dimensions changent quand vous passez du présentiel à la visio:\n\n**Vous ne voyez plus l'audience.** Sauf si tout le monde a la caméra allumée (rare), vous parlez à des vignettes noires avec des noms. Vous ne pouvez plus lire la salle (leçon 7), ce qui prive de votre principal outil d'adaptation en temps réel. Vous présentez à l'aveugle.\n\n**L'audience est plus distraite.** Sur l'ordinateur de chaque participant, votre présentation est une fenêtre parmi d'autres. À côté, il y a les emails, Slack, le navigateur ouvert sur autre chose. L'audience qui assiste à votre présentation en personne ne consulte pas son téléphone aussi facilement qu'elle bascule entre fenêtres pendant une visio. La friction du décrochage est dramatiquement plus basse.\n\n**Le médium est plat.** L'audio est compressé, la vidéo est en basse résolution, l'environnement est dépouillé. Les variations subtiles de voix et de corps qui fonctionnent en personne passent mal ou disparaissent. L'énergie qui semblait normale en personne paraît absente en visio.\n\n**Le contact visuel est physiquement impossible.** Si vous regardez l'audience à l'écran, votre regard pointe vers l'écran, pas vers la caméra. L'audience vous voit regarder ailleurs. Si vous regardez la caméra, vous ne voyez plus l'audience. Vous choisissez entre voir et être vu en train de regarder."
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce qui marche en pratique\n\nPlusieurs ajustements rendent la visio significativement meilleure.\n\n**Demandez les caméras allumées dès le départ.** Pas en option, comme attendu. Demandez-le explicitement: *\"je vous demande à tous d'allumer votre caméra pour cette session — c'est important pour moi de pouvoir vous voir\"*. La majorité des participants le font si on le demande directement; quasi personne ne le fait spontanément. Une audience visible vous redonne 80% de votre capacité à lire la salle.\n\n**Regardez la caméra pour les moments importants.** Vous ne pouvez pas regarder la caméra en permanence sans devenir vide-yeux — vous avez besoin de voir l'audience par moments. Mais quand vous voulez signaler que vous adressez quelqu'un personnellement, ou que vous voulez insister sur un point, regardez la caméra. L'audience vous voit alors regarder droit dans les yeux. C'est un effet rhétorique réel et utilisable.\n\n**Augmentez votre énergie d'un cran.** Ce qui paraît normal en personne paraît plat en visio à cause de la compression du médium. Parlez un peu plus fort, variez un peu plus vos intonations, soyez un peu plus expressif. Pas au point de sur-jouer — au point de compenser ce que la visio absorbe.\n\n**Bougez moins.** L'inverse du conseil pour le présentiel. En visio, votre image est dans un petit cadre fixe; le mouvement crée du flou et de la distraction. Restez relativement immobile, avec des gestes contenus dans le cadre visible. Les présentateurs qui marchent ou qui gesticulent largement en visio finissent par sortir du cadre et par paraître agités."
+        },
+        {
+          "type": "text",
+          "markdown": "## L'hygiène technique qui compte\n\nLe matériel et l'environnement comptent plus en visio qu'en personne. Plusieurs choses font une différence visible:\n\n**Le micro.** Le micro intégré de votre ordinateur portable est presque toujours médiocre. Un micro USB simple (entre 30 et 80 CHF) ou même les écouteurs filaires que vous avez probablement déjà fournissent un audio nettement meilleur. L'audio compte plus que la vidéo: une mauvaise vidéo est fatigante, un mauvais audio est invalidant.\n\n**L'éclairage.** Une lumière qui éclaire votre visage par devant (pas par derrière) fait une différence énorme. Idéalement, une fenêtre devant vous ou une lampe positionnée à hauteur du visage. La pire configuration est une fenêtre derrière vous — vous devenez une silhouette.\n\n**Le cadrage.** Votre caméra à hauteur des yeux, pas en contre-plongée (effet menton, jamais flatteur) ou en plongée. Vous occupez environ 30-40% du cadre, avec un peu d'espace au-dessus de la tête. Pas trop près (effet intimidant), pas trop loin (effet absence).\n\n**L'arrière-plan.** Un fond neutre et calme. Pas un mur entièrement vide (effet bureau triste), pas un arrière-plan trop chargé (effet distraction). Les fonds virtuels ont fait des progrès mais restent souvent imparfaits — préférez un vrai fond si vous le pouvez.\n\nCes ajustements demandent quelques heures de mise en place une seule fois, puis ne demandent plus rien. Ils transforment la perception que l'audience a de vous, indépendamment de votre contenu."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l14-q1",
+              "stem": "Vous animez une visioconférence avec 12 participants. La moitié a la caméra éteinte. Que faites-vous?",
+              "options": [
+                "Vous laissez les choses comme elles sont — c'est leur choix.",
+                "Vous demandez explicitement que tout le monde allume sa caméra, en expliquant pourquoi.",
+                "Vous adaptez votre présentation pour qu'elle marche sans visibilité de l'audience.",
+                "Vous reportez la session jusqu'à ce que tout le monde puisse activer sa caméra."
+              ],
+              "correctIndex": 1,
+              "explanation": "La demande explicite, faite directement, obtient des résultats que l'attente passive n'obtient jamais. La plupart des participants allument leur caméra si on le demande clairement, en expliquant que vous en avez besoin pour adapter votre présentation. Laisser les choses comme elles sont vous condamne à présenter à l'aveugle — ce qui est le pire format. Adapter sans visibilité (option C) est la position de repli si la demande échoue, pas la première réponse. Reporter (option D) est disproportionné pour un déficit qui se règle par une demande directe."
+            },
+            {
+              "id": "ps-l14-q2",
+              "stem": "Vous avez votre webcam intégrée à votre ordinateur portable et vous utilisez le micro intégré. Vous voulez améliorer en priorité une seule chose. Laquelle?",
+              "options": [
+                "Acheter une caméra externe de meilleure qualité.",
+                "Acheter ou utiliser un micro externe — l'audio compte plus que la vidéo.",
+                "Améliorer le fond derrière vous.",
+                "Améliorer l'éclairage de votre visage."
+              ],
+              "correctIndex": 1,
+              "explanation": "L'audio domine l'expérience de la visio. Une vidéo médiocre est fatigante mais reste utilisable; un audio médiocre rend la présentation invalidante — l'audience décroche par usure plutôt que par désintérêt. Une caméra externe est utile mais marginalement par rapport au micro. L'éclairage et le fond sont importants mais secondaires par rapport à l'audio. Si vous ne devez investir qu'une fois, le micro USB simple (30-80 CHF) donne le plus grand retour sur investissement de tous les ajustements possibles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l15-repetition",
+      "title": "La préparation et la répétition: comment vraiment se préparer",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "La variable qui prédit le mieux la qualité d'une présentation n'est pas le talent du présentateur, pas son expérience, pas la sophistication de ses slides. C'est **combien il ou elle a répété**. Et la majorité des présentateurs sous-investissent dans la répétition d'un facteur entre cinq et dix.\n\nLa raison est que les présentateurs confondent \"connaître son contenu\" et \"avoir répété sa présentation\". Ce sont deux choses très différentes. Connaître votre contenu est nécessaire mais pas suffisant — vous pouvez parfaitement maîtriser un sujet et donner une présentation médiocre dessus si vous n'avez pas répété l'acte de le présenter."
+        },
+        {
+          "type": "text",
+          "markdown": "## Ce qui marche vraiment vs ce qui semble efficace\n\nLa plupart des présentateurs préparent en relisant leurs slides en silence, le soir de la veille. Cela donne une sensation de préparation. Cela n'améliore presque rien à l'exécution réelle.\n\nLes méthodes qui marchent vraiment:\n\n**Répéter à voix haute, debout, comme si l'audience était là.** C'est la méthode la plus efficace et celle que la majorité des présentateurs évitent parce qu'elle est inconfortable. Vous découvrez immédiatement quelles transitions ne tiennent pas, quelles phrases sont impossibles à dire à voix haute alors qu'elles se lisaient bien, quelles parties durent deux fois plus longtemps que vous pensiez. Une seule répétition à voix haute apprend plus que cinq relectures silencieuses.\n\n**Vous enregistrer (audio ou vidéo) et vous réécouter le lendemain.** Le décalage temporel est crucial — réécouter immédiatement est trop dur (vous êtes dans l'autocritique) et trop indulgent (vous comblez ce que vous savez). Le lendemain, vous entendez votre présentation comme un étranger. Vous découvrez les tics, les pauses ratées, les passages où vous parlez trop vite. C'est inconfortable mais transformatif.\n\n**Présenter à une personne de confiance avant l'événement réel.** Pas n'importe qui — quelqu'un dont vous respectez le jugement et qui acceptera de vous donner du feedback honnête plutôt que des compliments polis. Une seule répétition devant un humain réel révèle des défauts que vous ne voyiez pas en répétant seul. La personne n'a pas besoin d'être experte du sujet — elle a besoin d'être capable de vous dire \"je t'ai perdu à ce moment-là\".\n\nLes méthodes qui semblent efficaces mais ne le sont pas:\n\n**Relire les slides en silence.** Sentiment de préparation, peu de transfer vers la performance réelle.\n\n**Mémoriser un script mot à mot.** Très coûteux en temps, et la mémoire est fragile sous stress. Mémoriser quelques phrases clés (ouverture, transitions principales, conclusion) est utile; mémoriser tout est contre-productif.\n\n**Visualiser mentalement la présentation.** La visualisation positive vague (\"je m'imagine en train de bien présenter\") n'a pas démontré d'effet robuste. La visualisation très concrète (\"je récite mentalement les premières trois phrases exactes\") peut aider en complément des autres méthodes, pas en remplacement."
+        },
+        {
+          "type": "timeline",
+          "title": "Une bonne préparation sur une semaine",
+          "events": [
+            {
+              "id": "ev1",
+              "marker": "7 jours avant",
+              "title": "Première répétition à voix haute",
+              "description": "Présentation complète à voix haute, debout, devant un mur. Notez les passages qui ne tiennent pas, les transitions floues, les longueurs. Ajustez le contenu en conséquence."
+            },
+            {
+              "id": "ev2",
+              "marker": "5 jours avant",
+              "title": "Deuxième répétition + enregistrement",
+              "description": "Présentation complète enregistrée (audio ou vidéo). Ne pas réécouter le jour même."
+            },
+            {
+              "id": "ev3",
+              "marker": "4 jours avant",
+              "title": "Réécoute de l'enregistrement",
+              "description": "Notez 3 choses à corriger en priorité. Pas plus de trois — au-delà, vous ne pouvez pas tout intégrer."
+            },
+            {
+              "id": "ev4",
+              "marker": "2-3 jours avant",
+              "title": "Répétition devant une personne de confiance",
+              "description": "Demandez du feedback honnête, pas des compliments. Intégrez ce qui résonne."
+            },
+            {
+              "id": "ev5",
+              "marker": "Veille",
+              "title": "Pas de modification majeure",
+              "description": "Relecture des notes, vérification du matériel, sommeil. Ne pas réécrire de slides ou changer la structure — vous décollez de votre préparation."
+            },
+            {
+              "id": "ev6",
+              "marker": "Jour J",
+              "title": "Respiration et confiance",
+              "description": "Quelques cycles de respiration lente (voir leçon 11). Vous avez répété; faites confiance à la préparation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## La courbe de rendement décroissant\n\nUn point important sur les répétitions: leur rendement décroît rapidement.\n\nLa première répétition à voix haute apporte beaucoup. La deuxième apporte encore beaucoup. La troisième apporte significativement moins. La sixième n'apporte presque rien et peut même nuire — vous commencez à sur-mémoriser et à perdre la spontanéité.\n\nLe bon nombre de répétitions complètes pour une présentation professionnelle standard est **deux à quatre**, selon les enjeux et la difficulté. Au-delà, vous gaspillez du temps qui serait mieux investi ailleurs (préparation du Q&A, vérification du matériel, sommeil). En-deçà, vous présentez sous-préparé.\n\nLa nuance: pour une présentation très exigeante (keynote, pitch à très fort enjeu), vous pouvez monter à cinq ou six répétitions complètes, mais en variant les conditions (différents lieux, différents auditeurs de test, alternant enregistré et non enregistré). C'est la variation, pas la répétition pure, qui continue d'apporter."
+        },
+        {
+          "type": "quiz",
+          "title": "Vérification",
+          "questions": [
+            {
+              "id": "ps-l15-q1",
+              "stem": "Vous avez une présentation importante dans une semaine. Vous pouvez passer 4 heures à préparer en tout. Comment répartir le temps?",
+              "options": [
+                "4 heures sur la rédaction du contenu et le design des slides, 0 heure de répétition.",
+                "3 heures sur le contenu/slides, 1 heure de relecture silencieuse la veille.",
+                "2 heures sur le contenu/slides, 2 heures réparties en répétitions à voix haute, enregistrement-réécoute, et répétition devant une personne de confiance.",
+                "1 heure sur le contenu/slides, 3 heures de mémorisation mot à mot."
+              ],
+              "correctIndex": 2,
+              "explanation": "La répartition C reflète ce qui marche réellement: assez de temps sur le contenu pour qu'il soit solide (2h), et un investissement significatif dans la répétition qui transforme un bon contenu en bonne exécution (2h). L'option A produit du beau contenu présenté médiocrement. L'option B confond la sensation de préparation (relecture silencieuse) avec la préparation réelle. L'option D investit massivement dans une méthode (mémorisation mot à mot) qui est fragile sous stress et coûteuse en temps."
+            },
+            {
+              "id": "ps-l15-q2",
+              "stem": "Vous avez déjà répété trois fois à voix haute votre présentation. Vous avez encore deux heures avant l'événement. Comment les utiliser?",
+              "options": [
+                "Faire une quatrième répétition complète.",
+                "Faire deux ou trois répétitions complémentaires de plus.",
+                "Faire une répétition complète à voix haute, puis basculer sur la préparation du Q&A et la vérification du matériel.",
+                "Réécrire certaines parties qui vous semblent perfectibles."
+              ],
+              "correctIndex": 2,
+              "explanation": "À trois répétitions complètes, vous êtes déjà bien préparé sur l'exécution. Une quatrième peut être utile mais a un rendement décroissant; en faire deux ou trois supplémentaires (option B) est en territoire de sur-préparation où vous risquez la sur-mémorisation. La réécriture la veille (option D) est l'erreur classique — vous décollez de votre préparation. Le bon investissement à ce stade est sur les éléments négligés: anticiper les questions probables, vérifier que le micro et les slides fonctionnent, dormir correctement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-l16-long-terme",
+      "title": "L'entraînement à long terme: comment devenir vraiment bon",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Vous avez parcouru les fondations de la prise de parole en public. Vous avez les concepts, les méthodes, les outils pour préparer et exécuter une présentation. Mais la compétence — la vraie — ne vient pas de la lecture de ce module. Elle vient de ce que vous faites avec, sur des années.\n\nCette dernière leçon n'est pas une leçon supplémentaire. C'est une conversation sur ce qui transforme un présentateur correct en présentateur excellent, et sur pourquoi cette transformation est plus lente, plus difficile, et plus accessible que la plupart des gens ne le pensent."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pourquoi lire ne suffit pas\n\nLire ce module ne fera pas de vous un meilleur présentateur. Cela peut vous donner l'illusion d'être un meilleur présentateur, ce qui est différent et parfois pire.\n\nLa raison est simple: la prise de parole est une compétence motrice et perceptive, pas une compétence intellectuelle. Vous ne devenez pas meilleur en sachant ce qu'il faut faire. Vous devenez meilleur en le faisant, plusieurs fois, avec un retour qui vous dit ce qui n'a pas marché, puis en le refaisant en ajustant.\n\nC'est la même structure que pour apprendre un sport, un instrument, ou n'importe quelle pratique physique. Vous pouvez lire dix livres sur le tennis — vous ne saurez pas mieux jouer au tennis. Vous le saurez quand vous aurez frappé dix mille balles avec quelqu'un qui vous a dit, après chaque centaine, ce qui n'allait pas dans votre mouvement.\n\nLa prise de parole demande exactement cette pratique-avec-retour, étalée dans le temps."
+        },
+        {
+          "type": "text",
+          "markdown": "## La boucle qui marche\n\nLa boucle d'apprentissage qui transforme effectivement un présentateur est simple à décrire, difficile à exécuter avec discipline:\n\n**1. Présenter.** Vous ne pouvez pas vous améliorer si vous ne présentez pas. Cherchez des occasions — réunions internes, brown-bags, présentations à des associations, conférences locales. La fréquence compte plus que les enjeux: une présentation par mois apprend plus que deux par an.\n\n**2. Enregistrer.** Au moins une présentation sur deux. Audio suffit la plupart du temps; vidéo pour les présentations où le corps compte (grandes audiences, formats où vous êtes visible).\n\n**3. Réécouter, le lendemain.** Pas le jour même. Notez deux choses: une chose qui vous surprend positivement, et une chose à corriger. Une seule chose à corriger — pas trois, pas cinq. Une.\n\n**4. Travailler cette chose.** Pendant les semaines qui suivent, dans toutes vos prises de parole, vous travaillez consciemment cette unique chose. Pas dix choses. Pas \"être globalement meilleur\". Cette chose.\n\n**5. Recommencer.** À la présentation suivante, vous enregistrez, vous réécoutez, vous identifiez la prochaine chose. Au bout de douze mois, vous avez travaillé douze choses. Au bout de cinq ans, soixante. La transformation cumulative est dramatique, même si chaque cycle paraît marginal."
+        },
+        {
+          "type": "text",
+          "markdown": "## Le rôle d'un coach ou d'un retour de confiance\n\nLe seul investissement qui accélère significativement cette boucle est l'accès à quelqu'un dont le jugement vous éclaire et qui vous donne du feedback honnête.\n\nCe quelqu'un peut prendre plusieurs formes:\n\n- **Un coach professionnel** spécialisé en prise de parole. Coûteux mais efficace si vous trouvez le bon coach (et la qualité varie énormément).\n- **Un collègue senior** dont vous respectez la prise de parole et qui accepte de regarder vos enregistrements ou d'assister à vos présentations. Souvent l'investissement le plus efficient.\n- **Un mentor** dans votre secteur qui peut vous regarder de temps en temps. La fréquence basse est compensée par la qualité du jugement.\n- **Un groupe de pairs** qui se réunit régulièrement pour s'entraîner et se donner du feedback mutuel. Toastmasters est l'exemple classique mais d'autres formats fonctionnent.\n\nLe point commun: une personne ou un groupe qui vous dit ce qui ne va pas plutôt que ce qui va. Les compliments font plaisir mais n'apprennent rien. Vous avez besoin de quelqu'un qui vous dit \"tu as perdu la salle pendant les cinq minutes du milieu\" — pas \"c'était très bien\"."
+        },
+        {
+          "type": "text",
+          "markdown": "## Une discipline qui s'étend sur des décennies\n\nLes présentateurs que vous admirez n'ont pas un don. Ils ont, presque tous, travaillé silencieusement sur leur prise de parole pendant des années — parfois des décennies. Ce que vous voyez à l'arrivée est le résultat cumulé de centaines d'enregistrements réécoutés, de petites corrections sédimentées, de la patience de pratiquer une compétence qui ne semble jamais finir.\n\nC'est, paradoxalement, une bonne nouvelle. La prise de parole n'est pas réservée à quelques talents naturels. C'est une compétence accessible à toute personne qui accepte d'y consacrer du temps de façon disciplinée. La barrière n'est pas le talent — elle est la discipline d'enregistrer, de réécouter, et de corriger une chose à la fois, pendant des années.\n\nSi vous adoptez la boucle décrite ci-dessus, vous serez dans deux ans nettement meilleur présentateur que la grande majorité des professionnels de votre niveau. Pas parce que vous aurez appris des techniques sophistiquées, mais parce que vous aurez fait quelque chose que presque personne ne fait: vous écouter et corriger, régulièrement, sur la durée.\n\nC'est le seul chemin qui marche. Il est ouvert à tout le monde. Et c'est par là que se termine ce module."
+        }
+      ]
+    }
+  ]
+}

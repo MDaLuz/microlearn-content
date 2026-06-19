@@ -1,5 +1,4 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
@@ -8,6 +7,8 @@ import { BlurView } from 'expo-blur';
 import LearnScreen from '../screens/LearnScreen';
 import ModuleScreen from '../screens/ModuleScreen';
 import LessonScreen from '../screens/LessonScreen';
+import ProgressScreen from '../screens/ProgressScreen';
+import SettingsScreen from '../screens/SettingsScreen';
 import Icon from '../components/Icon';
 import { Colors } from '../theme/colors';
 import { Fonts } from '../theme/typography';
@@ -27,18 +28,6 @@ export type TabParamList = {
 const Stack = createNativeStackNavigator<RootStackParamList>();
 const Tab = createBottomTabNavigator<TabParamList>();
 
-function PlaceholderScreen({ title }: { title: string }) {
-  return (
-    <View style={placeholder.root}>
-      <Text style={placeholder.text}>{title}</Text>
-    </View>
-  );
-}
-
-const placeholder = StyleSheet.create({
-  root: { flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: Colors.bg },
-  text: { fontFamily: Fonts.display700, fontSize: 22, color: Colors.textSecondary },
-});
 
 function TabNav() {
   return (
@@ -70,16 +59,8 @@ function TabNav() {
       })}
     >
       <Tab.Screen name="Learn" component={LearnScreen} options={{ title: 'Learn' }} />
-      <Tab.Screen
-        name="Progress"
-        component={() => <PlaceholderScreen title="Progress" />}
-        options={{ title: 'Progress' }}
-      />
-      <Tab.Screen
-        name="Settings"
-        component={() => <PlaceholderScreen title="Settings" />}
-        options={{ title: 'Settings' }}
-      />
+      <Tab.Screen name="Progress" component={ProgressScreen} options={{ title: 'Progress' }} />
+      <Tab.Screen name="Settings" component={SettingsScreen} options={{ title: 'Settings' }} />
     </Tab.Navigator>
   );
 }

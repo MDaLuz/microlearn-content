@@ -58,6 +58,14 @@ export default function LearnScreen() {
           <Text style={styles.sub}>Continuez là où vous vous êtes arrêté.</Text>
 
           {/* Daily review card */}
+          <TouchableOpacity
+            activeOpacity={0.85}
+            onPress={() => nav.navigate('Lesson', {
+              moduleId: catalog.modules[0].id,
+              lessonId: 'ind-l01-pourquoi-meurent',
+              lessonIndex: 0,
+            })}
+          >
           <View style={styles.reviewCard}>
             <LinearGradient
               colors={['rgba(91,224,216,0.16)', 'rgba(183,160,255,0.12)']}
@@ -79,6 +87,7 @@ export default function LearnScreen() {
               <Icon name="arrow-right" size={16} color="#fff" />
             </View>
           </View>
+          </TouchableOpacity>
 
           {/* Section label */}
           <Text style={styles.seclabel}>VOS MODULES</Text>

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useCallback } from 'react';
+import React, { useState, useRef, useCallback, useEffect } from 'react';
 import {
   View,
   Text,
@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
   StyleSheet,
   useWindowDimensions,
+  Animated,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -75,7 +76,11 @@ export default function LessonScreen() {
   if (!lesson) return null;
 
   const [blockIndex, setBlockIndex] = useState(0);
+  const [showCompletion, setShowCompletion] = useState(false);
   const flatRef = useRef<FlatList<Block>>(null);
+  const overlayOpacity = useRef(new Animated.Value(0)).current;
+  const xpScale = useRef(new Animated.Value(0.6)).current;
+  const xpOpacity = useRef(new Animated.Value(0)).current;
 
   const totalLessons = mod.lessons.length;
   const totalBlocks = lesson.blocks.length;
@@ -96,21 +101,34 @@ export default function LessonScreen() {
 
   const viewabilityConfig = useRef({ itemVisiblePercentThreshold: 50 }).current;
 
+  function triggerCompletion() {
+    markLessonCompleted(moduleId, lessonIndex);
+    setShowCompletion(true);
+    Animated.parallel([
+      Animated.timing(overlayOpacity, { toValue: 1, duration: 300, useNativeDriver: true }),
+      Animated.spring(xpScale, { toValue: 1, friction: 5, tension: 80, useNativeDriver: true }),
+      Animated.timing(xpOpacity, { toValue: 1, duration: 250, useNativeDriver: true }),
+    ]).start();
+  }
+
+  function proceedAfterCompletion() {
+    const nextIndex = lessonIndex + 1;
+    if (nextIndex < mod!.lessons.length) {
+      nav.replace('Lesson', {
+        moduleId,
+        lessonId: mod!.lessons[nextIndex].id,
+        lessonIndex: nextIndex,
+      });
+    } else {
+      nav.goBack();
+    }
+  }
+
   function advance() {
     if (!isLastBlock) {
       flatRef.current?.scrollToIndex({ index: blockIndex + 1, animated: true });
     } else {
-      markLessonCompleted(moduleId, lessonIndex);
-      const nextIndex = lessonIndex + 1;
-      if (nextIndex < mod!.lessons.length) {
-        nav.replace('Lesson', {
-          moduleId,
-          lessonId: mod!.lessons[nextIndex].id,
-          lessonIndex: nextIndex,
-        });
-      } else {
-        nav.goBack();
-      }
+      triggerCompletion();
     }
   }
 
@@ -192,6 +210,46 @@ export default function LessonScreen() {
             </LinearGradient>
           </TouchableOpacity>
         </View>
+
+        {/* Completion overlay */}
+        {showCompletion && (
+          <Animated.View style={[styles.completionOverlay, { opacity: overlayOpacity }]}>
+            <LinearGradient
+              colors={['rgba(10,11,22,0.96)', 'rgba(10,11,22,0.98)']}
+              style={StyleSheet.absoluteFill}
+            />
+            <Animated.View style={[styles.completionCard, { opacity: xpOpacity, transform: [{ scale: xpScale }] }]}>
+              <View style={styles.xpRing}>
+                <LinearGradient
+                  colors={[Colors.teal, Colors.blue]}
+                  style={StyleSheet.absoluteFill}
+                  start={{ x: 0, y: 0 }}
+                  end={{ x: 1, y: 1 }}
+                />
+                <Text style={styles.xpEmoji}>⚡</Text>
+              </View>
+              <Text style={styles.completionTitle}>Leçon terminée !</Text>
+              <View style={styles.xpBadge}>
+                <Text style={styles.xpValue}>+{lesson.xpReward}</Text>
+                <Text style={styles.xpLabel}> XP</Text>
+              </View>
+              <Text style={styles.lessonNameDone}>{lesson.title}</Text>
+              <TouchableOpacity activeOpacity={0.85} onPress={proceedAfterCompletion}>
+                <LinearGradient
+                  colors={['#7FF0E6', '#7CC0FF']}
+                  start={{ x: 0, y: 0 }}
+                  end={{ x: 1, y: 0 }}
+                  style={styles.continueBtn}
+                >
+                  <Text style={styles.continueBtnText}>
+                    {lessonIndex + 1 < mod!.lessons.length ? 'Leçon suivante' : 'Terminer'}
+                  </Text>
+                  <Icon name="arrow-right" size={18} color="#06231F" strokeWidth={2.4} />
+                </LinearGradient>
+              </TouchableOpacity>
+            </Animated.View>
+          </Animated.View>
+        )}
       </SafeAreaView>
     </View>
   );
@@ -284,6 +342,73 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   ctaText: {
+    fontFamily: Fonts.sans600,
+    fontSize: 16,
+    color: '#06231F',
+  },
+
+  completionOverlay: {
+    ...(StyleSheet.absoluteFill as object),
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 32,
+  },
+  completionCard: {
+    width: '100%',
+    alignItems: 'center',
+    gap: 14,
+  },
+  xpRing: {
+    width: 88,
+    height: 88,
+    borderRadius: 44,
+    alignItems: 'center',
+    justifyContent: 'center',
+    overflow: 'hidden',
+    marginBottom: 4,
+  },
+  xpEmoji: {
+    fontSize: 36,
+  },
+  completionTitle: {
+    fontFamily: Fonts.display800,
+    fontSize: 28,
+    color: Colors.text,
+    letterSpacing: -0.8,
+  },
+  xpBadge: {
+    flexDirection: 'row',
+    alignItems: 'baseline',
+  },
+  xpValue: {
+    fontFamily: Fonts.display800,
+    fontSize: 52,
+    color: Colors.teal,
+    letterSpacing: -2,
+  },
+  xpLabel: {
+    fontFamily: Fonts.sans600,
+    fontSize: 20,
+    color: Colors.teal,
+    marginLeft: 4,
+  },
+  lessonNameDone: {
+    fontFamily: Fonts.sans400,
+    fontSize: 14,
+    color: Colors.textSecondary,
+    textAlign: 'center',
+    marginBottom: 8,
+  },
+  continueBtn: {
+    height: 54,
+    paddingHorizontal: 32,
+    borderRadius: 18,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+  },
+  continueBtnText: {
     fontFamily: Fonts.sans600,
     fontSize: 16,
     color: '#06231F',

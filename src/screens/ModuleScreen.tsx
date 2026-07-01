@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useCallback } from 'react';
 import {
   View,
   Text,
@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
-import { useNavigation, useRoute } from '@react-navigation/native';
+import { useNavigation, useRoute, useFocusEffect } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { RouteProp } from '@react-navigation/native';
 
@@ -37,6 +37,10 @@ export default function ModuleScreen() {
   const route = useRoute<Route>();
   const { moduleId } = route.params;
   const mod = getModule(moduleId);
+
+  // Re-render when returning from a lesson so progress reflects any completions
+  const [, tick] = useState(0);
+  useFocusEffect(useCallback(() => { tick(n => n + 1); }, []));
 
   if (!mod) return null;
 

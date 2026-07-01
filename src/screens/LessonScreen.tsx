@@ -247,6 +247,9 @@ export default function LessonScreen() {
                   <Icon name="arrow-right" size={18} color="#06231F" strokeWidth={2.4} />
                 </LinearGradient>
               </TouchableOpacity>
+              <TouchableOpacity activeOpacity={0.7} onPress={() => nav.goBack()} style={styles.backToModule}>
+                <Text style={styles.backToModuleText}>Retour au module</Text>
+              </TouchableOpacity>
             </Animated.View>
           </Animated.View>
         )}
@@ -412,5 +415,15 @@ const styles = StyleSheet.create({
     fontFamily: Fonts.sans600,
     fontSize: 16,
     color: '#06231F',
+  },
+  backToModule: {
+    paddingVertical: 10,
+    paddingHorizontal: 16,
+  },
+  backToModuleText: {
+    fontFamily: Fonts.sans500,
+    fontSize: 14,
+    color: Colors.textSecondary,
+    textAlign: 'center',
   },
 });

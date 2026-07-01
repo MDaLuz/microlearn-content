@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useCallback } from 'react';
 import {
   View,
   Text,
@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
-import { useNavigation } from '@react-navigation/native';
+import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 
 import AuroraMesh from '../components/AuroraMesh';
@@ -36,6 +36,10 @@ export default function LearnScreen() {
   // to Stack screens (Module, Lesson) without relying on action bubbling.
   const stackNav = useNavigation().getParent<StackNav>();
   const catalog = getCatalog();
+
+  // Re-render when tab regains focus so module progress bars stay current
+  const [, tick] = useState(0);
+  useFocusEffect(useCallback(() => { tick(n => n + 1); }, []));
 
   return (
     <View style={styles.root}>

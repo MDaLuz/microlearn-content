@@ -12,10 +12,10 @@ const moduleMap: Record<string, Module> = {
 
 export const getModule = (id: string): Module | null => moduleMap[id] ?? null;
 
-// Simulated progress — first 2 lessons completed, 3rd is current
+// Simulated progress — first 4 lessons completed, 5th is current
 export const getLessonState = (moduleId: string, lessonIndex: number): LessonState => {
-  if (lessonIndex < 3) return 'completed';
-  if (lessonIndex === 3) return 'current';
+  if (lessonIndex < 4) return 'completed';
+  if (lessonIndex === 4) return 'current';
   return 'locked';
 };
 

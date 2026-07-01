@@ -1,8 +1,11 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Dimensions } from 'react-native';
+import { SvgXml } from 'react-native-svg';
 import { Colors } from '../../theme/colors';
 import { Fonts } from '../../theme/typography';
 import type { TextBlock } from '../../data/types';
+
+const CONTENT_W = Dimensions.get('window').width - 44;
 
 interface Props {
   block: TextBlock;
@@ -58,6 +61,11 @@ export default function BlockText({ block }: Props) {
   return (
     <View style={styles.wrap}>
       {renderMarkdown(block.markdown)}
+      {block.svg && (
+        <View style={styles.svgWrap}>
+          <SvgXml xml={block.svg} width={CONTENT_W} height={CONTENT_W * (9 / 16)} />
+        </View>
+      )}
       {block.caption && (
         <Text style={styles.caption}>{block.caption}</Text>
       )}
@@ -111,6 +119,14 @@ const styles = StyleSheet.create({
     lineHeight: 25,
     color: '#C3C7D6',
     flex: 1,
+  },
+  svgWrap: {
+    marginTop: 16,
+    borderRadius: 12,
+    overflow: 'hidden',
+    backgroundColor: Colors.surface,
+    borderWidth: 1,
+    borderColor: Colors.border,
   },
   caption: {
     fontFamily: Fonts.sans400,

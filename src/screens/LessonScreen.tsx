@@ -1,4 +1,4 @@
-import React, { useState, useRef, useCallback, useEffect } from 'react';
+import React, { useState, useRef, useCallback, useEffect, useMemo } from 'react';
 import {
   View,
   Text,
@@ -78,15 +78,28 @@ export default function LessonScreen() {
   const lesson = mod.lessons.find((l) => l.id === lessonId);
   if (!lesson) return null;
 
+  // Group illustration blocks onto the preceding page so content + image scroll together
+  const pages = useMemo<Block[][]>(() => {
+    const result: Block[][] = [];
+    for (const block of lesson.blocks) {
+      if (block.type === 'illustration' && result.length > 0) {
+        result[result.length - 1].push(block);
+      } else {
+        result.push([block]);
+      }
+    }
+    return result;
+  }, [lesson]);
+
   const [blockIndex, setBlockIndex] = useState(0);
   const [showCompletion, setShowCompletion] = useState(false);
-  const flatRef = useRef<FlatList<Block>>(null);
+  const flatRef = useRef<FlatList<Block[]>>(null);
   const overlayOpacity = useRef(new Animated.Value(0)).current;
   const xpScale = useRef(new Animated.Value(0.6)).current;
   const xpOpacity = useRef(new Animated.Value(0)).current;
 
   const totalLessons = mod.lessons.length;
-  const totalBlocks = lesson.blocks.length;
+  const totalBlocks = pages.length;
   const discColor = DISC_COLOR[mod.discipline] ?? Colors.teal;
   const discLabel = DISCIPLINE_LABEL[moduleId] ?? mod.discipline;
 
@@ -155,10 +168,10 @@ export default function LessonScreen() {
           <Text style={styles.counter}>{lessonIndex + 1} / {totalLessons}</Text>
         </View>
 
-        {/* Horizontally swipeable blocks */}
+        {/* Horizontally swipeable pages (illustration blocks merged with predecessor) */}
         <FlatList
           ref={flatRef}
-          data={lesson.blocks}
+          data={pages}
           horizontal
           pagingEnabled
           showsHorizontalScrollIndicator={false}
@@ -167,7 +180,7 @@ export default function LessonScreen() {
           onViewableItemsChanged={onViewableItemsChanged}
           viewabilityConfig={viewabilityConfig}
           style={styles.flatList}
-          renderItem={({ item, index }) => (
+          renderItem={({ item: page, index }) => (
             <ScrollView
               style={{ width }}
               contentContainerStyle={styles.scrollContent}
@@ -179,9 +192,11 @@ export default function LessonScreen() {
                   <Text style={styles.concept}>{lesson.title}</Text>
                 </>
               )}
-              <View style={styles.blockWrap}>
-                {renderBlock(item, discColor)}
-              </View>
+              {page.map((block, bi) => (
+                <View key={bi} style={styles.blockWrap}>
+                  {renderBlock(block, discColor)}
+                </View>
+              ))}
               <View style={{ height: 24 }} />
             </ScrollView>
           )}
@@ -190,7 +205,7 @@ export default function LessonScreen() {
         {/* Step dots */}
         {totalBlocks > 1 && (
           <View style={styles.dots}>
-            {lesson.blocks.map((_, i) => (
+            {pages.map((_, i) => (
               <View
                 key={i}
                 style={[styles.dot, i === blockIndex && styles.dotActive]}

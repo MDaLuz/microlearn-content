@@ -12,11 +12,22 @@ const moduleMap: Record<string, Module> = {
 
 export const getModule = (id: string): Module | null => moduleMap[id] ?? null;
 
-// Simulated progress — first 4 lessons completed, 5th is current
+// In-memory progress: seed first 4 indoor-gardening lessons as completed
+const completedLessons = new Set<string>([
+  'indoor-gardening:0',
+  'indoor-gardening:1',
+  'indoor-gardening:2',
+  'indoor-gardening:3',
+]);
+
+export const markLessonCompleted = (moduleId: string, lessonIndex: number): void => {
+  completedLessons.add(`${moduleId}:${lessonIndex}`);
+};
+
 export const getLessonState = (moduleId: string, lessonIndex: number): LessonState => {
-  if (lessonIndex < 4) return 'completed';
-  if (lessonIndex === 4) return 'current';
-  return 'locked';
+  if (completedLessons.has(`${moduleId}:${lessonIndex}`)) return 'completed';
+  const prevDone = lessonIndex === 0 || completedLessons.has(`${moduleId}:${lessonIndex - 1}`);
+  return prevDone ? 'current' : 'locked';
 };
 
 export const getModuleProgress = (moduleId: string): number => {

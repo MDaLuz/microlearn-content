@@ -19,7 +19,7 @@ import AuroraMesh from '../components/AuroraMesh';
 import Icon from '../components/Icon';
 import { Colors } from '../theme/colors';
 import { Fonts } from '../theme/typography';
-import { getModule } from '../data/store';
+import { getModule, markLessonCompleted } from '../data/store';
 import type { RootStackParamList } from '../navigation';
 import type { Block, TextBlock, FlashcardBlock, QuizBlock, CompareBlock, ScenarioBlock, IllustrationBlock } from '../data/types';
 import BlockText from './blocks/BlockText';
@@ -100,9 +100,10 @@ export default function LessonScreen() {
     if (!isLastBlock) {
       flatRef.current?.scrollToIndex({ index: blockIndex + 1, animated: true });
     } else {
+      markLessonCompleted(moduleId, lessonIndex);
       const nextIndex = lessonIndex + 1;
       if (nextIndex < mod!.lessons.length) {
-        nav.push('Lesson', {
+        nav.replace('Lesson', {
           moduleId,
           lessonId: mod!.lessons[nextIndex].id,
           lessonIndex: nextIndex,

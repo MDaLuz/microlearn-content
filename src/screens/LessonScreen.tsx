@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useCallback } from 'react';
 import {
   View,
   Text,
   ScrollView,
+  FlatList,
   TouchableOpacity,
   StyleSheet,
+  useWindowDimensions,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -64,6 +66,7 @@ export default function LessonScreen() {
   const nav = useNavigation<NativeStackNavigationProp<StackParams>>();
   const route = useRoute<Route>();
   const { moduleId, lessonId, lessonIndex } = route.params;
+  const { width } = useWindowDimensions();
 
   const mod = getModule(moduleId);
   if (!mod) return null;
@@ -72,22 +75,30 @@ export default function LessonScreen() {
   if (!lesson) return null;
 
   const [blockIndex, setBlockIndex] = useState(0);
+  const flatRef = useRef<FlatList<Block>>(null);
 
   const totalLessons = mod.lessons.length;
   const totalBlocks = lesson.blocks.length;
   const discColor = DISC_COLOR[mod.discipline] ?? Colors.teal;
   const discLabel = DISCIPLINE_LABEL[moduleId] ?? mod.discipline;
 
-  // Progress = lessons done + fraction of current lesson's blocks
   const lessonProgress = (lessonIndex + (blockIndex + 1) / totalBlocks) / totalLessons;
 
   const isLastBlock = blockIndex === totalBlocks - 1;
   const isLastLesson = lessonIndex === totalLessons - 1;
   const ctaLabel = isLastBlock && isLastLesson ? 'Terminer' : 'Continuer';
 
+  const onViewableItemsChanged = useCallback(({ viewableItems }: any) => {
+    if (viewableItems.length > 0) {
+      setBlockIndex(viewableItems[0].index ?? 0);
+    }
+  }, []);
+
+  const viewabilityConfig = useRef({ itemVisiblePercentThreshold: 50 }).current;
+
   function advance() {
     if (!isLastBlock) {
-      setBlockIndex((i) => i + 1);
+      flatRef.current?.scrollToIndex({ index: blockIndex + 1, animated: true });
     } else {
       const nextIndex = lessonIndex + 1;
       if (nextIndex < mod!.lessons.length) {
@@ -122,24 +133,37 @@ export default function LessonScreen() {
           <Text style={styles.counter}>{lessonIndex + 1} / {totalLessons}</Text>
         </View>
 
-        {/* Block content */}
-        <ScrollView
-          key={`${lessonId}-${blockIndex}`}
-          style={styles.scroll}
-          contentContainerStyle={styles.scrollContent}
-          showsVerticalScrollIndicator={false}
-        >
-          {blockIndex === 0 && (
-            <>
-              <Text style={[styles.eyebrow, { color: discColor }]}>{discLabel.toUpperCase()}</Text>
-              <Text style={styles.concept}>{lesson.title}</Text>
-            </>
+        {/* Horizontally swipeable blocks */}
+        <FlatList
+          ref={flatRef}
+          data={lesson.blocks}
+          horizontal
+          pagingEnabled
+          showsHorizontalScrollIndicator={false}
+          bounces={false}
+          keyExtractor={(_, i) => `${lessonId}-${i}`}
+          onViewableItemsChanged={onViewableItemsChanged}
+          viewabilityConfig={viewabilityConfig}
+          style={styles.flatList}
+          renderItem={({ item, index }) => (
+            <ScrollView
+              style={{ width }}
+              contentContainerStyle={styles.scrollContent}
+              showsVerticalScrollIndicator={false}
+            >
+              {index === 0 && (
+                <>
+                  <Text style={[styles.eyebrow, { color: discColor }]}>{discLabel.toUpperCase()}</Text>
+                  <Text style={styles.concept}>{lesson.title}</Text>
+                </>
+              )}
+              <View style={styles.blockWrap}>
+                {renderBlock(item, discColor)}
+              </View>
+              <View style={{ height: 24 }} />
+            </ScrollView>
           )}
-          <View style={styles.blockWrap}>
-            {renderBlock(lesson.blocks[blockIndex], discColor)}
-          </View>
-          <View style={{ height: 24 }} />
-        </ScrollView>
+        />
 
         {/* Step dots */}
         {totalBlocks > 1 && (
@@ -213,7 +237,7 @@ const styles = StyleSheet.create({
     flexShrink: 0,
   },
 
-  scroll: { flex: 1 },
+  flatList: { flex: 1 },
   scrollContent: { paddingHorizontal: 22, paddingTop: 22 },
 
   eyebrow: {

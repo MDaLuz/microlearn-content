@@ -89,13 +89,27 @@ export interface IllustrationBlock {
   alt: string;
 }
 
+export interface TimelineEvent {
+  id: string;
+  marker: string;
+  title: string;
+  description: string;
+}
+
+export interface TimelineBlock {
+  type: 'timeline';
+  title: string;
+  events: TimelineEvent[];
+}
+
 export type Block =
   | TextBlock
   | FlashcardBlock
   | QuizBlock
   | CompareBlock
   | ScenarioBlock
-  | IllustrationBlock;
+  | IllustrationBlock
+  | TimelineBlock;
 
 export interface Lesson {
   id: string;

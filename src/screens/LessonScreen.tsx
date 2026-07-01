@@ -22,13 +22,14 @@ import { Colors } from '../theme/colors';
 import { Fonts } from '../theme/typography';
 import { getModule, markLessonCompleted } from '../data/store';
 import type { RootStackParamList } from '../navigation';
-import type { Block, TextBlock, FlashcardBlock, QuizBlock, CompareBlock, ScenarioBlock, IllustrationBlock } from '../data/types';
+import type { Block, TextBlock, FlashcardBlock, QuizBlock, CompareBlock, ScenarioBlock, IllustrationBlock, TimelineBlock } from '../data/types';
 import BlockText from './blocks/BlockText';
 import BlockFlashcard from './blocks/BlockFlashcard';
 import BlockQuiz from './blocks/BlockQuiz';
 import BlockCompare from './blocks/BlockCompare';
 import BlockScenario from './blocks/BlockScenario';
 import BlockIllustration from './blocks/BlockIllustration';
+import BlockTimeline from './blocks/BlockTimeline';
 
 type Route = RouteProp<RootStackParamList, 'Lesson'>;
 
@@ -58,6 +59,8 @@ function renderBlock(block: Block, disciplineColor: string) {
       return <BlockScenario block={block as ScenarioBlock} accentColor={disciplineColor} />;
     case 'illustration':
       return <BlockIllustration block={block as IllustrationBlock} />;
+    case 'timeline':
+      return <BlockTimeline block={block as TimelineBlock} accentColor={disciplineColor} />;
     default:
       return null;
   }

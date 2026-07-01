@@ -13,7 +13,7 @@ import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { RouteProp } from '@react-navigation/native';
 
 import AuroraMesh from '../components/AuroraMesh';
-import CompoundGlyph from '../components/CompoundGlyph';
+import AuroraMark from '../components/AuroraMark';
 import Icon from '../components/Icon';
 import ProgressBar from '../components/ProgressBar';
 import { Colors } from '../theme/colors';
@@ -55,7 +55,7 @@ export default function ModuleScreen() {
             <Icon name="arrow-left" size={18} color={Colors.text} />
           </TouchableOpacity>
           <View style={{ marginLeft: 'auto' }}>
-            <CompoundGlyph size={22} colors={['#163031', '#2D6266', '#5BE0D8', '#A8F0F4']} />
+            <AuroraMark size={22} />
           </View>
         </View>
 

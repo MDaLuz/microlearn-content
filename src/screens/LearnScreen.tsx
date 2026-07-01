@@ -12,7 +12,7 @@ import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 
 import AuroraMesh from '../components/AuroraMesh';
-import CompoundGlyph from '../components/CompoundGlyph';
+import AuroraMark from '../components/AuroraMark';
 import GlassCard from '../components/GlassCard';
 import Icon from '../components/Icon';
 import ProgressBar from '../components/ProgressBar';
@@ -43,7 +43,7 @@ export default function LearnScreen() {
       <SafeAreaView style={styles.safe} edges={['top']}>
         {/* Topbar */}
         <View style={styles.topbar}>
-          <CompoundGlyph size={26} colors={['#163031', '#2D6266', '#5BE0D8', '#A8F0F4']} />
+          <AuroraMark size={26} />
           <Text style={styles.wordmark}>compound</Text>
           <View style={styles.streak}>
             <Icon name="flame" size={15} color="#FFB23E" />
@@ -156,10 +156,11 @@ const styles = StyleSheet.create({
     paddingBottom: 4,
   },
   wordmark: {
-    fontFamily: Fonts.display700,
-    fontSize: 16,
+    fontFamily: Fonts.mono500,
+    fontSize: 14,
     color: Colors.text,
-    letterSpacing: -0.1,
+    letterSpacing: 1.8,
+    textTransform: 'uppercase',
   },
   streak: {
     marginLeft: 'auto',

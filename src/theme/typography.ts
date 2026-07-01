@@ -7,6 +7,7 @@ export const Fonts = {
   sans500: 'IBMPlexSans_500Medium',
   sans600: 'IBMPlexSans_600SemiBold',
   sans700: 'IBMPlexSans_700Bold',
+  mono500: 'IBMPlexMono_500Medium',
 } as const;
 
 export const FontAssets = {
@@ -18,4 +19,5 @@ export const FontAssets = {
   IBMPlexSans_500Medium: require('../../assets/fonts/IBMPlexSans_500Medium.ttf'),
   IBMPlexSans_600SemiBold: require('../../assets/fonts/IBMPlexSans_600SemiBold.ttf'),
   IBMPlexSans_700Bold: require('../../assets/fonts/IBMPlexSans_700Bold.ttf'),
+  IBMPlexMono_500Medium: require('../../assets/fonts/IBMPlexMono_500Medium.ttf'),
 };

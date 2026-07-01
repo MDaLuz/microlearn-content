@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, ScrollView, Switch, TouchableOpacity, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import AuroraMesh from '../components/AuroraMesh';
-import CompoundGlyph from '../components/CompoundGlyph';
+import AuroraMark from '../components/AuroraMark';
 import { Colors } from '../theme/colors';
 import { Fonts } from '../theme/typography';
 
@@ -33,7 +33,7 @@ export default function SettingsScreen() {
           {/* Account */}
           <View style={styles.card}>
             <View style={styles.cardHeader}>
-              <CompoundGlyph size={32} colors={['#163031', '#2D6266', '#5BE0D8', '#A8F0F4']} />
+              <AuroraMark size={32} />
               <View style={{ flex: 1 }}>
                 <Text style={styles.accountName}>Mathieu</Text>
                 <Text style={styles.accountEmail}>mathieu@mistralpharmaconsulting.ch</Text>

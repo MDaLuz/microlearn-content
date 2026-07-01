@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { View, Text, StyleSheet, Dimensions, ActivityIndicator } from 'react-native';
 import { Image } from 'expo-image';
 import type { ImageLoadEventData } from 'expo-image';
@@ -15,49 +15,52 @@ const CONTENT_W = SCREEN_W - 44;
 const MAX_H = SCREEN_H * 0.6;
 const DEFAULT_RATIO = 2 / 3;
 
-type LoadState = 'loading' | 'loaded' | 'error';
-
 export default function BlockIllustration({ block }: Props) {
-  const [loadState, setLoadState] = useState<LoadState>('loading');
+  const [ready, setReady] = useState(false);
+  const [failed, setFailed] = useState(false);
   const [imageH, setImageH] = useState(CONTENT_W * DEFAULT_RATIO);
+  const loadedRef = useRef(false);
 
   const onLoad = (e: ImageLoadEventData) => {
+    loadedRef.current = true;
     const { width, height } = e.source;
     if (width && height) {
       setImageH(Math.min(CONTENT_W * (height / width), MAX_H));
     }
-    setLoadState('loaded');
+    setReady(true);
   };
 
-  const onError = () => setLoadState('error');
+  // Only mark as failed if the image never successfully loaded
+  const onError = () => {
+    if (!loadedRef.current) setFailed(true);
+  };
 
   return (
     <View style={styles.wrap}>
-      {loadState === 'error' ? (
-        <View style={[styles.errorBox, { height: CONTENT_W * DEFAULT_RATIO }]}>
-          <Text style={styles.errorIcon}>⚠</Text>
-          <Text style={styles.errorText}>Image non disponible</Text>
-        </View>
-      ) : (
-        <View style={{ width: CONTENT_W, height: imageH }}>
-          {loadState === 'loading' && (
-            <View style={[StyleSheet.absoluteFill as object, styles.placeholder]}>
-              <ActivityIndicator color={Colors.teal} size="small" />
-            </View>
-          )}
+      <View style={[styles.container, { height: imageH }]}>
+        {!ready && !failed && (
+          <View style={[StyleSheet.absoluteFill as object, styles.placeholder]}>
+            <ActivityIndicator color={Colors.teal} size="small" />
+          </View>
+        )}
+        {failed ? (
+          <View style={[StyleSheet.absoluteFill as object, styles.errorInner]}>
+            <Text style={styles.errorIcon}>⚠</Text>
+            <Text style={styles.errorText}>Image non disponible</Text>
+          </View>
+        ) : (
           <Image
             source={{ uri: block.imageUrl }}
-            style={[styles.image, { height: imageH }]}
+            style={styles.image}
             contentFit="contain"
-            transition={200}
-            cachePolicy="memory-disk"
+            cachePolicy="none"
             accessible
             accessibilityLabel={block.alt}
             onLoad={onLoad}
             onError={onError}
           />
-        </View>
-      )}
+        )}
+      </View>
       <Text style={styles.caption}>{block.caption}</Text>
     </View>
   );
@@ -69,24 +72,23 @@ const styles = StyleSheet.create({
     marginBottom: 24,
     alignItems: 'center',
   },
-  placeholder: {
+  container: {
+    width: CONTENT_W,
     borderRadius: 12,
+    overflow: 'hidden',
     backgroundColor: Colors.surface,
-    alignItems: 'center',
-    justifyContent: 'center',
     borderWidth: 1,
     borderColor: Colors.border,
+  },
+  placeholder: {
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   image: {
     width: CONTENT_W,
-    borderRadius: 12,
+    height: '100%',
   },
-  errorBox: {
-    width: CONTENT_W,
-    borderRadius: 12,
-    backgroundColor: Colors.surface,
-    borderWidth: 1,
-    borderColor: Colors.border,
+  errorInner: {
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8,

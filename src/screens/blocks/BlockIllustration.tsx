@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react';
-import { View, Text, StyleSheet, Dimensions, ActivityIndicator } from 'react-native';
+import { View, Text, StyleSheet, ActivityIndicator, useWindowDimensions } from 'react-native';
 import { Image } from 'expo-image';
-import type { ImageLoadEventData } from 'expo-image';
 import { Colors } from '../../theme/colors';
 import { Fonts } from '../../theme/typography';
 import type { IllustrationBlock } from '../../data/types';
@@ -10,37 +9,32 @@ interface Props {
   block: IllustrationBlock;
 }
 
-const { width: SCREEN_W, height: SCREEN_H } = Dimensions.get('window');
-const CONTENT_W = SCREEN_W - 44;
-const MAX_H = SCREEN_H * 0.6;
-const DEFAULT_RATIO = 2 / 3;
-
 export default function BlockIllustration({ block }: Props) {
+  const { width, height } = useWindowDimensions();
+  const contentW = width - 44;
+  // Use 52% of screen height so both landscape and portrait images fill the card
+  // generously without overflowing the lesson chrome (top bar + dots + CTA).
+  const containerH = height * 0.52;
+
   const [ready, setReady] = useState(false);
   const [failed, setFailed] = useState(false);
-  const [imageH, setImageH] = useState(CONTENT_W * DEFAULT_RATIO);
   const loadedRef = useRef(false);
 
-  const onLoad = (e: ImageLoadEventData) => {
+  const onLoad = () => {
     loadedRef.current = true;
-    const { width, height } = e.source;
-    if (width && height) {
-      setImageH(Math.min(CONTENT_W * (height / width), MAX_H));
-    }
     setReady(true);
   };
 
-  // Only mark as failed if the image never successfully loaded
   const onError = () => {
     if (!loadedRef.current) setFailed(true);
   };
 
   return (
     <View style={styles.wrap}>
-      <View style={[styles.container, { height: imageH }]}>
+      <View style={[styles.container, { width: contentW, height: containerH }]}>
         {!ready && !failed && (
           <View style={[StyleSheet.absoluteFill as object, styles.placeholder]}>
-            <ActivityIndicator color={Colors.teal} size="small" />
+            <ActivityIndicator color={Colors.teal} size="large" />
           </View>
         )}
         {failed ? (
@@ -51,7 +45,7 @@ export default function BlockIllustration({ block }: Props) {
         ) : (
           <Image
             source={{ uri: block.imageUrl }}
-            style={styles.image}
+            style={StyleSheet.absoluteFill}
             contentFit="contain"
             cachePolicy="none"
             accessible
@@ -61,20 +55,19 @@ export default function BlockIllustration({ block }: Props) {
           />
         )}
       </View>
-      <Text style={styles.caption}>{block.caption}</Text>
+      <Text style={[styles.caption, { width: contentW }]}>{block.caption}</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   wrap: {
-    marginTop: 24,
-    marginBottom: 24,
+    marginTop: 16,
+    marginBottom: 8,
     alignItems: 'center',
   },
   container: {
-    width: CONTENT_W,
-    borderRadius: 12,
+    borderRadius: 14,
     overflow: 'hidden',
     backgroundColor: Colors.surface,
     borderWidth: 1,
@@ -83,10 +76,6 @@ const styles = StyleSheet.create({
   placeholder: {
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  image: {
-    width: CONTENT_W,
-    height: '100%',
   },
   errorInner: {
     alignItems: 'center',
@@ -109,6 +98,5 @@ const styles = StyleSheet.create({
     lineHeight: 18,
     textAlign: 'center',
     marginTop: 10,
-    paddingHorizontal: 8,
   },
 });

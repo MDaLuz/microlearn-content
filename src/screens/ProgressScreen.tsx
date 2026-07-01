@@ -1,15 +1,48 @@
 import React from 'react';
-import { View, Text, ScrollView, StyleSheet } from 'react-native';
+import { View, Text, ScrollView, StyleSheet, Dimensions } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
 import AuroraMesh from '../components/AuroraMesh';
+import GlassCard from '../components/GlassCard';
 import Icon from '../components/Icon';
 import { Colors } from '../theme/colors';
 import { Fonts } from '../theme/typography';
 import { getCatalog, getModule, getModuleProgress } from '../data/store';
 
+const SCREEN_W = Dimensions.get('window').width;
+const CONTENT_W = SCREEN_W - 44;
+
 const STREAK = 12;
-const TOTAL_XP = 1580;
+const BEST_STREAK = 21;
+const TOTAL_XP = 3240;
+const CARDS_REVIEWED = 418;
+const RECALL_RATE = 87;
+
+const WEEK_DAYS = ['L', 'M', 'M', 'J', 'V', 'S', 'D'];
+const WEEK_DONE = [true, true, true, true, true, false, false];
+const TODAY_IDX = 4;
+
+const HEAT_ROWS = [
+  [0, 1, 2, 1, 3, 2, 0],
+  [2, 3, 1, 2, 3, 1, 1],
+  [1, 2, 3, 3, 2, 0, 2],
+  [3, 1, 2, 3, 3, 2, 1],
+  [2, 3, 3, 2, 4, 3, 0],
+];
+const HEAT_COLORS = [
+  'rgba(255,255,255,0.06)',
+  'rgba(91,224,216,0.28)',
+  'rgba(91,224,216,0.50)',
+  'rgba(111,168,255,0.70)',
+  'rgba(183,160,255,0.92)',
+];
+
+const DISCIPLINE_ICON: Record<string, string> = {
+  Gardening: 'leaf',
+  Legal: 'scale',
+  Cardiometabolic: 'activity',
+  Communication: 'mic',
+};
 
 export default function ProgressScreen() {
   const catalog = getCatalog();
@@ -21,54 +54,99 @@ export default function ProgressScreen() {
         <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
           <Text style={styles.title}>Progression</Text>
 
-          {/* Stats row */}
-          <View style={styles.statsRow}>
-            <View style={styles.statCard}>
-              <LinearGradient colors={['rgba(91,224,216,0.15)', 'rgba(91,224,216,0.05)']} style={StyleSheet.absoluteFill} />
-              <View style={styles.statBorder} />
-              <Icon name="flame" size={22} color="#FFB23E" />
-              <Text style={styles.statValue}>{STREAK}</Text>
-              <Text style={styles.statLabel}>Jours de suite</Text>
+          {/* ── Streak hero ── */}
+          <View style={styles.hero}>
+            <LinearGradient
+              colors={['rgba(255,179,62,0.20)', 'rgba(245,140,200,0.12)', 'rgba(183,160,255,0.12)']}
+              start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }}
+              style={StyleSheet.absoluteFill}
+            />
+            <View style={styles.heroBorder} />
+            <View style={styles.heroTop}>
+              <View style={styles.flameBadge}>
+                <LinearGradient colors={['#FFC56B', '#F58C5A']} style={StyleSheet.absoluteFill} start={{ x: 0.1, y: 0.1 }} end={{ x: 0.9, y: 0.9 }} />
+                <Icon name="flame" size={24} color="#3A1C06" />
+              </View>
+              <View style={{ flex: 1 }}>
+                <View style={styles.streakRow}>
+                  <Text style={styles.streakNum}>{STREAK}</Text>
+                  <Text style={styles.streakUnit}>jours de suite</Text>
+                </View>
+                <Text style={styles.streakSub}>Record : {BEST_STREAK} jours · continue !</Text>
+              </View>
             </View>
-            <View style={styles.statCard}>
-              <LinearGradient colors={['rgba(183,160,255,0.15)', 'rgba(183,160,255,0.05)']} style={StyleSheet.absoluteFill} />
-              <View style={styles.statBorder} />
-              <Icon name="award" size={22} color={Colors.purple} />
-              <Text style={styles.statValue}>{TOTAL_XP}</Text>
-              <Text style={styles.statLabel}>XP total</Text>
+            <View style={styles.weekRow}>
+              {WEEK_DAYS.map((d, i) => (
+                <View key={i} style={styles.weekDay}>
+                  <View style={[
+                    styles.weekDot,
+                    WEEK_DONE[i] && styles.weekDotDone,
+                    i === TODAY_IDX && styles.weekDotToday,
+                  ]}>
+                    {WEEK_DONE[i] && <Icon name="check" size={13} color="#3A1C06" strokeWidth={3} />}
+                  </View>
+                  <Text style={styles.weekLabel}>{d}</Text>
+                </View>
+              ))}
             </View>
           </View>
 
-          {/* Per-module progress */}
-          <Text style={styles.seclabel}>VOS MODULES</Text>
-          {catalog.modules.map((entry) => {
-            const mod = getModule(entry.id);
-            const disc = Colors.disciplines[entry.discipline] ?? Colors.disciplines.Gardening;
-            const progress = getModuleProgress(entry.id);
-            const completedLessons = mod ? Math.round(progress * mod.lessons.length) : 0;
-            const totalLessons = mod?.lessons.length ?? entry.lessonCount;
-            const xp = mod ? mod.lessons.slice(0, completedLessons).reduce((s, l) => s + l.xpReward, 0) : 0;
+          {/* ── 3-stat row ── */}
+          <View style={styles.statRow}>
+            <GlassCard style={styles.statCard}>
+              <Text style={styles.statV}>{TOTAL_XP.toLocaleString('fr')}</Text>
+              <Text style={styles.statL}>XP total</Text>
+            </GlassCard>
+            <GlassCard style={styles.statCard}>
+              <Text style={styles.statV}>{CARDS_REVIEWED}</Text>
+              <Text style={styles.statL}>Cartes revues</Text>
+            </GlassCard>
+            <GlassCard style={styles.statCard}>
+              <Text style={[styles.statV, { color: Colors.teal }]}>{RECALL_RATE}%</Text>
+              <Text style={styles.statL}>Mémorisation</Text>
+            </GlassCard>
+          </View>
 
-            return (
-              <View key={entry.id} style={styles.modRow}>
-                <LinearGradient colors={['rgba(255,255,255,0.04)', 'transparent']} style={StyleSheet.absoluteFill} />
-                <View style={styles.modBorder} />
-                <View style={styles.modHeader}>
-                  <Text style={styles.modTitle}>{entry.title}</Text>
-                  <Text style={[styles.modXp, { color: disc.color }]}>{xp} XP</Text>
-                </View>
-                <View style={styles.track}>
-                  <LinearGradient
-                    colors={disc.gradient}
-                    start={{ x: 0, y: 0 }}
-                    end={{ x: 1, y: 0 }}
-                    style={[styles.fill, { width: `${progress * 100}%` }]}
-                  />
-                </View>
-                <Text style={styles.modSub}>{completedLessons} / {totalLessons} leçons</Text>
+          {/* ── Heatmap ── */}
+          <Text style={styles.seclabel}>5 DERNIÈRES SEMAINES</Text>
+          <GlassCard style={styles.heatCard}>
+            {HEAT_ROWS.map((row, ri) => (
+              <View key={ri} style={styles.heatRow}>
+                {row.map((v, ci) => (
+                  <View key={ci} style={[styles.heatCell, { backgroundColor: HEAT_COLORS[v] }]} />
+                ))}
               </View>
-            );
-          })}
+            ))}
+          </GlassCard>
+
+          {/* ── Mastery by topic ── */}
+          <Text style={styles.seclabel}>MAÎTRISE PAR MODULE</Text>
+          <GlassCard style={styles.masteryCard}>
+            {catalog.modules.map((entry, idx) => {
+              const mod = getModule(entry.id);
+              const disc = Colors.disciplines[entry.discipline] ?? Colors.disciplines.Gardening;
+              const progress = getModuleProgress(entry.id);
+              const pct = Math.round(progress * 100);
+              const icon = DISCIPLINE_ICON[entry.discipline] ?? 'book';
+
+              return (
+                <View key={entry.id} style={[styles.masteryRow, idx < catalog.modules.length - 1 && styles.masteryDivider]}>
+                  <LinearGradient colors={disc.gradient} style={styles.mdot} start={{ x: 0.1, y: 0.1 }} end={{ x: 0.9, y: 0.9 }}>
+                    <Icon name={icon} size={17} color="#0A1A14" strokeWidth={2.1} />
+                  </LinearGradient>
+                  <Text style={styles.mname} numberOfLines={1}>{entry.title}</Text>
+                  <View style={styles.miniTrack}>
+                    <LinearGradient
+                      colors={disc.gradient}
+                      start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }}
+                      style={[styles.miniFill, { width: `${pct}%` }]}
+                    />
+                  </View>
+                  <Text style={[styles.mpct, { color: disc.color }]}>{pct}%</Text>
+                </View>
+              );
+            })}
+          </GlassCard>
 
           <View style={{ height: 32 }} />
         </ScrollView>
@@ -84,92 +162,191 @@ const styles = StyleSheet.create({
 
   title: {
     fontFamily: Fonts.display800,
-    fontSize: 32,
+    fontSize: 30,
     color: Colors.text,
-    letterSpacing: -1,
-    marginBottom: 20,
+    letterSpacing: -0.9,
+    marginBottom: 12,
   },
 
-  statsRow: { flexDirection: 'row', gap: 12, marginBottom: 8 },
-  statCard: {
-    flex: 1,
-    borderRadius: 20,
-    padding: 18,
+  // Streak hero
+  hero: {
+    borderRadius: 26,
+    padding: 15,
+    overflow: 'hidden',
+    marginBottom: 0,
+  },
+  heroBorder: {
+    ...StyleSheet.absoluteFill as object,
+    borderRadius: 26,
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.16)',
+  },
+  heroTop: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 14,
+  },
+  flameBadge: {
+    width: 46,
+    height: 46,
+    borderRadius: 23,
+    alignItems: 'center',
+    justifyContent: 'center',
+    overflow: 'hidden',
+    flexShrink: 0,
+  },
+  streakRow: {
+    flexDirection: 'row',
+    alignItems: 'flex-end',
+    gap: 8,
+  },
+  streakNum: {
+    fontFamily: Fonts.display800,
+    fontSize: 42,
+    color: Colors.text,
+    letterSpacing: -1.2,
+    lineHeight: 46,
+  },
+  streakUnit: {
+    fontFamily: Fonts.sans700,
+    fontSize: 15,
+    color: '#FFD79A',
+    paddingBottom: 6,
+  },
+  streakSub: {
+    fontFamily: Fonts.sans400,
+    fontSize: 12.5,
+    color: Colors.textSecondary,
+    marginTop: 4,
+  },
+  weekRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 14,
+  },
+  weekDay: {
     alignItems: 'center',
     gap: 6,
-    overflow: 'hidden',
   },
-  statBorder: {
-    ...StyleSheet.absoluteFill as object,
-    borderRadius: 20,
+  weekDot: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'rgba(255,255,255,0.09)',
     borderWidth: 1,
-    borderColor: Colors.border,
+    borderColor: 'rgba(255,255,255,0.14)',
   },
-  statValue: {
-    fontFamily: Fonts.display800,
-    fontSize: 28,
-    color: Colors.text,
-    letterSpacing: -0.5,
+  weekDotDone: {
+    backgroundColor: '#F58C5A',
+    borderColor: '#FFC56B',
   },
-  statLabel: {
-    fontFamily: Fonts.sans400,
-    fontSize: 12,
-    color: Colors.textSecondary,
-    textAlign: 'center',
+  weekDotToday: {
+    borderWidth: 2,
+    borderColor: 'rgba(255,255,255,0.55)',
+  },
+  weekLabel: {
+    fontFamily: Fonts.sans700,
+    fontSize: 10,
+    color: '#9AA0B4',
   },
 
+  // Stats
+  statRow: {
+    flexDirection: 'row',
+    gap: 10,
+    marginTop: 11,
+  },
+  statCard: {
+    flex: 1,
+    padding: 13,
+    alignItems: 'flex-start',
+    gap: 0,
+  },
+  statV: {
+    fontFamily: Fonts.display800,
+    fontSize: 25,
+    color: Colors.text,
+    letterSpacing: -0.5,
+    lineHeight: 30,
+  },
+  statL: {
+    fontFamily: Fonts.sans600,
+    fontSize: 11,
+    color: Colors.textMuted,
+    marginTop: 5,
+  },
+
+  // Heatmap
   seclabel: {
     fontFamily: Fonts.sans600,
     fontSize: 12,
     letterSpacing: 1.2,
     color: Colors.textMuted,
-    marginTop: 24,
-    marginBottom: 13,
+    marginTop: 20,
+    marginBottom: 10,
+  },
+  heatCard: {
+    padding: 16,
+    gap: 6,
+  },
+  heatRow: {
+    flexDirection: 'row',
+    gap: 6,
+  },
+  heatCell: {
+    flex: 1,
+    height: 28,
+    borderRadius: 6,
   },
 
-  modRow: {
-    borderRadius: 20,
-    padding: 16,
-    marginBottom: 12,
-    overflow: 'hidden',
+  // Mastery
+  masteryCard: {
+    paddingVertical: 4,
+    paddingHorizontal: 16,
   },
-  modBorder: {
-    ...StyleSheet.absoluteFill as object,
-    borderRadius: 20,
-    borderWidth: 1,
-    borderColor: Colors.border,
-  },
-  modHeader: {
+  masteryRow: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: 12,
+    gap: 12,
+    paddingVertical: 10,
   },
-  modTitle: {
-    fontFamily: Fonts.display700,
-    fontSize: 15,
+  masteryDivider: {
+    borderBottomWidth: 1,
+    borderBottomColor: 'rgba(255,255,255,0.07)',
+  },
+  mdot: {
+    width: 30,
+    height: 30,
+    borderRadius: 9,
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexShrink: 0,
+  },
+  mname: {
+    fontFamily: Fonts.sans600,
+    fontSize: 14,
     color: Colors.text,
     flex: 1,
-    marginRight: 8,
   },
-  modXp: {
-    fontFamily: Fonts.sans600,
-    fontSize: 13,
-  },
-  track: {
+  miniTrack: {
+    width: 80,
     height: 7,
     borderRadius: 999,
     backgroundColor: 'rgba(255,255,255,0.1)',
     overflow: 'hidden',
-    marginBottom: 8,
+    flexShrink: 0,
   },
-  fill: {
+  miniFill: {
     height: '100%',
     borderRadius: 999,
   },
-  modSub: {
-    fontFamily: Fonts.sans400,
-    fontSize: 12,
-    color: Colors.textMuted,
+  mpct: {
+    fontFamily: Fonts.sans700,
+    fontSize: 13,
+    flexShrink: 0,
+    width: 38,
+    textAlign: 'right',
   },
 });

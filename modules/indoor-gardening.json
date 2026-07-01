@@ -3,7 +3,7 @@
   "id": "indoor-gardening",
   "title": "Jardinage d'intérieur",
   "discipline": "Gardening",
-  "version": 8,
+  "version": 9,
   "levels": [
     {
       "level": 1,
@@ -433,6 +433,12 @@
           ]
         },
         {
+          "type": "illustration",
+          "imageUrl": "https://MDaLuz.github.io/microlearn-content/assets/indoor-gardening/l05-substrate-comparison.png",
+          "caption": "Comparaison des trois substrats courants : universel (humidité modérée), cactées (drainage rapide) et orchidées (écorces grossières).",
+          "alt": "Trois pots côte à côte montrant la texture et la couleur différente des substrats : un substrat universel brun et humide, un mélange cactées plus sableux et clair, et un substrat orchidées fait d'écorces de pin grossières."
+        },
+        {
           "type": "text",
           "markdown": "Pour un débutant, retenez surtout: **le substrat universel pour plantes d'intérieur** suffit pour 90% des cas. Vous l'achèterez en sac dans n'importe quel magasin de jardinage. Si la plante que vous achetez exige un substrat spécifique (cactus, orchidée), le vendeur ou l'étiquette le précisera — sinon, c'est universel."
         },
@@ -782,6 +788,12 @@
           "markdown": "## Cinq plantes que vous ne pouvez presque pas tuer\n\n**1. Pothos (Epipremnum aureum)** — La plante débutant par excellence. Tolère la lumière faible à modérée, survit à l'oubli d'arrosage pendant des semaines, repousse vigoureusement après une période de stress. Ses feuilles vous parlent: elles s'affaissent visiblement quand la plante a soif et se redressent en quelques heures après l'arrosage. C'est un système de signalement intégré.\n\n**2. Sansevieria (langue de belle-mère, Sansevieria trifasciata)** — Quasiment indestructible. Préfère l'oubli à la sur-attention; tolère une lumière très faible (mais préfère la modérée); peut passer un mois sans arrosage en hiver. Idéale pour un coin sombre ou un appartement de personne souvent absente.\n\n**3. Zamioculcas (ZZ, Zamioculcas zamiifolia)** — Comparable à la Sansevieria en robustesse. Stocke l'eau dans des rhizomes souterrains, ce qui lui permet de survivre à des oublis d'arrosage prolongés. Tolère très bien la pénombre. Croissance lente — ce qui est en réalité un avantage pour un débutant (moins de besoins, moins de surprises).\n\n**4. Philodendron à feuilles en cœur (Philodendron hederaceum)** — Cousin du Pothos avec des feuilles légèrement différentes. Mêmes qualités: tolérant, expressif (les feuilles signalent la soif), pousse vite, facile à bouturer. Très bien adapté à une étagère où il peut retomber.\n\n**5. Aspidistra (langue de vache, Aspidistra elatior)** — La plante des époques victoriennes, choisie historiquement pour sa capacité à survivre dans des salons mal éclairés et enfumés. Si elle est encore vendue 150 ans plus tard, c'est qu'elle marche. Croissance très lente, exigences minimales."
         },
         {
+          "type": "illustration",
+          "imageUrl": "https://MDaLuz.github.io/microlearn-content/assets/indoor-gardening/l09-five-robust-plants.png",
+          "caption": "Les cinq plantes les plus tolérantes pour débutant : Pothos, Sansevieria, Zamioculcas, Philodendron à feuilles en cœur, et Aspidistra.",
+          "alt": "Cinq plantes en pot côte à côte : Pothos aux feuilles retombantes vertes, Sansevieria aux feuilles dressées rubanées, Zamioculcas aux feuilles brillantes, Philodendron en forme de cœur, et Aspidistra aux larges feuilles sombres."
+        },
+        {
           "type": "text",
           "markdown": "## Pourquoi ces cinq spécifiquement?\n\nElles partagent quatre propriétés:\n\n- **Une grande tolérance à l'arrosage** (sur-arrosage et sous-arrosage), avec une marge d'erreur réelle de plusieurs jours.\n- **Une tolérance à la lumière faible** (sans pour autant l'exiger — elles poussent mieux en lumière modérée).\n- **Une croissance prévisible** sans surprises (pas d'effondrement soudain).\n- **Un signalement clair** — leurs feuilles disent quand quelque chose ne va pas, suffisamment tôt pour que vous puissiez réagir.\n\nCe sont les quatre qualités qui font une bonne \"plante d'apprentissage\". Vous pouvez expérimenter, faire des erreurs, observer, corriger — sans tuer la plante."
         },
@@ -1095,6 +1107,12 @@
               ]
             }
           ]
+        },
+        {
+          "type": "illustration",
+          "imageUrl": "https://MDaLuz.github.io/microlearn-content/assets/indoor-gardening/l12-watering-checks.png",
+          "caption": "Les deux méthodes complémentaires pour évaluer le besoin en eau : test du doigt dans le substrat et évaluation du poids du pot.",
+          "alt": "Deux gestes côte à côte : une main qui enfonce le doigt dans le substrat d'un pot pour tester l'humidité, et deux mains qui soulèvent un pot pour en évaluer le poids."
         },
         {
           "type": "text",

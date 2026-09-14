@@ -22,6 +22,17 @@
       "lessonCount": 16,
       "estimatedMinutes": 135,
       "accentColor": "#378ADD"
+    },
+    {
+      "id": "indemnification",
+      "title": "Indemnification and third-party claims",
+      "discipline": "Legal",
+      "description": "What actually happens when a pharma deal goes wrong — the third-party claim lifecycle, caps, baskets, survival periods, and the machinery that determines who pays.",
+      "file": "modules/indemnification.json",
+      "version": 1,
+      "lessonCount": 18,
+      "estimatedMinutes": 150,
+      "accentColor": "#C4782A"
     }
   ]
 }

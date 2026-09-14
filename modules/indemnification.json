@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 4,
+  "id": "indemnification",
+  "title": "Indemnification and third-party claims",
+  "discipline": "Legal",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "idm-l01-why-hard-to-picture",
+      "title": "Why indemnification is the hardest part of a deal to picture",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Most people who negotiate indemnification clauses have never watched one operate.\n\nThat is not a criticism. It is structural. Claims are rare relative to deals. A dealmaker might close twenty agreements and see a single third-party claim arise from any of them. And when that claim does arrive, it usually lands on a different desk. Litigation counsel takes the file. The person who negotiated the cap three years earlier rarely learns whether the number they fought for mattered."
+        },
+        {
+          "type": "text",
+          "markdown": "The result is a strange asymmetry. Indemnity language is among the most heavily negotiated parts of an agreement, and among the parts whose real-world operation is least understood by the people negotiating it.\n\nReading an indemnification clause tells you what it says. It does not tell you what happens in month seven, when the claim is live, the parties disagree about whether to settle, and the insurer has just sent a reservation of rights letter."
+        },
+        {
+          "type": "text",
+          "markdown": "## The spine of this module\n\nThis module is built around that gap. Its spine is the third-party claim lifecycle: a letter arrives, notice gets given, someone takes control of the defense, the parties argue about settlement, and eventually money moves — or doesn't.\n\nEverything else you will meet here — representations, warranties, caps, baskets, survival periods, escrow, insurance — is taught as machinery that determines how that lifecycle plays out."
+        },
+        {
+          "type": "text",
+          "markdown": "That reframing matters more than it might sound.\n\nA cap is not an abstract number. It is the point at which the indemnifying party stops caring about the outcome of a litigation they may still be controlling. A survival period is not a date. It is the moment a problem you have not yet discovered becomes permanently yours. A consent-to-settle provision is not a formality. It is the mechanism that decides who wins an argument the parties are certain to have."
+        },
+        {
+          "type": "text",
+          "markdown": "## One thing worth naming early\n\nA large part of indemnity negotiation is not really about indemnity. It is about price.\n\nWhen a buyer pushes the cap from ten per cent of deal value to twenty, they are buying something. The seller is selling it. The parties are allocating residual risk, and residual risk has a value that could in principle be reflected in the headline number instead.\n\nTreating the negotiation as a purely legal argument, rather than a commercial one with legal vocabulary, is a common way to lose it."
+        },
+        {
+          "type": "text",
+          "markdown": "## What this module does not do\n\nIt does not teach you to draft. It does not substitute for counsel — and where a point turns on the law of a particular jurisdiction, that will be said plainly rather than buried.\n\nWhat it should do is let you sit in a negotiation, or in the first meeting after a claim letter arrives, and understand what the package in front of you actually does under stress."
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "idm-l01-q1",
+              "stem": "Why is the operation of an indemnity clause typically invisible to the person who negotiated it?",
+              "options": [
+                "Indemnity clauses are rarely enforced in commercial practice",
+                "Claims are rare relative to deals, and when they arise they are usually handled by different people",
+                "Confidentiality provisions prevent dealmakers from learning claim outcomes",
+                "Indemnity obligations are usually settled before any procedure is triggered"
+              ],
+              "correctIndex": 1,
+              "explanation": "The gap is structural rather than legal. A dealmaker closes many agreements and sees few claims, and when a claim does arise the file typically moves to litigation counsel. The negotiator seldom learns how their drafting choices performed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idm-l02-reps-and-warranties",
+      "title": "Representations and warranties: the foundation indemnity sits on",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Almost every indemnification claim begins in the same place: someone said something that turned out not to be true.\n\nThat makes representations and warranties the foundation the whole indemnity package rests on. Understanding what they are — and more importantly, what qualifies them — determines how much protection the indemnity actually provides."
+        },
+        {
+          "type": "text",
+          "markdown": "## Three words that are not interchangeable\n\nA **representation** is a statement of fact about the present or the past. The seller represents that it owns the assets, that the regulatory filings are accurate, that there is no pending litigation beyond what has been disclosed.\n\nA **warranty** is a promise that the statement is true, carrying a remedy if it is not.\n\nA **covenant** is different in kind: a promise to do, or refrain from doing, something going forward. Operating the business in the ordinary course between signing and closing is a covenant, not a representation."
+        },
+        {
+          "type": "text",
+          "markdown": "In practice, commercial agreements bundle the first two into a single formula — *represents and warrants* — and in most civil law jurisdictions the distinction carries little practical consequence.\n\nUnder English and US law it historically mattered. A false representation could support rescission or a claim in tort; a breached warranty gave contract damages. The combined formula survives partly out of caution and partly out of habit. It is worth knowing that the two words are doing different historical work, even where a court will treat them as one."
+        },
+        {
+          "type": "text",
+          "markdown": "## Two words that can gut a representation\n\n*To the seller's knowledge.*\n\nA knowledge qualifier converts a promise that something is true into a promise that the seller is not aware it is false. Everything the seller genuinely did not know becomes the buyer's problem.\n\nThis is not a drafting nicety. It is one of the largest risk transfers available in a commercial agreement, and it is accomplished in four words."
+        },
+        {
+          "type": "text",
+          "markdown": "Three questions decide how much a knowledge qualifier costs:\n\n- **Whose knowledge counts?** The company's? Named individuals'? Anyone in management?\n- **Actual or constructive?** Does it mean what the seller genuinely knew, or also what a reasonable enquiry would have surfaced?\n- **Is it defined at all?** An unqualified reference to \"knowledge\" with no definition is an invitation to argue about it later, at a point when both sides have strong incentives to remember things differently.\n\nA defined knowledge standard naming specific individuals and specifying actual versus constructive awareness is worth more than an extra few percentage points on the cap."
+        },
+        {
+          "type": "text",
+          "markdown": "## Materiality, and scraping it out\n\n*In all material respects* does similar work from a different angle. It excuses small inaccuracies, and shifts the argument to whether a given inaccuracy was small.\n\nWhich is why the **materiality scrape** exists. A scrape instructs the reader to ignore materiality qualifiers when calculating losses — so once a breach is established, damages are measured on the full amount rather than only the portion above the materiality line.\n\nA **double materiality scrape** goes further and removes materiality for determining whether a breach occurred at all, not merely for quantifying it. The difference between the two is frequently glossed over in negotiation and is not small."
+        },
+        {
+          "type": "text",
+          "markdown": "## Where a great deal of real risk allocation actually happens\n\nThen there are the disclosure schedules.\n\nAnything properly disclosed against a representation is carved out of it. The seller is not in breach of a representation about pending litigation for the litigation it listed. Schedules are, in substance, a second negotiation about risk — conducted in a spreadsheet.\n\nThey are also usually assembled late, under time pressure, and with less senior attention than the clause language received. A sophisticated buyer reads the schedules at least as carefully as the reps. Many do not."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "idm-l02-fc1",
+              "front": "Representation",
+              "back": "A statement of fact about the present or the past — that the assets are owned, the filings are accurate, the disclosed litigation is complete."
+            },
+            {
+              "id": "idm-l02-fc2",
+              "front": "Warranty",
+              "back": "A promise that a statement is true, carrying a remedy if it is not. Usually bundled with representation as 'represents and warrants'."
+            },
+            {
+              "id": "idm-l02-fc3",
+              "front": "Covenant",
+              "back": "A promise to do or not do something going forward — different in kind from a representation, which looks backward or at the present."
+            },
+            {
+              "id": "idm-l02-fc4",
+              "front": "Knowledge qualifier",
+              "back": "Language ('to the seller's knowledge') converting a promise that something is true into a promise that the seller is unaware it is false. Shifts unknown risk to the buyer."
+            },
+            {
+              "id": "idm-l02-fc5",
+              "front": "Materiality scrape",
+              "back": "A provision reading materiality qualifiers out when calculating losses. A double scrape also removes them when determining whether a breach occurred."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "idm-l02-q1",
+              "stem": "What is the practical effect of a knowledge qualifier on a representation?",
+              "options": [
+                "It limits the amount recoverable for breach of that representation",
+                "It shortens the period during which the representation survives",
+                "It shifts the risk of matters the seller did not know about onto the buyer",
+                "It requires the buyer to conduct independent verification before closing"
+              ],
+              "correctIndex": 2,
+              "explanation": "A knowledge qualifier changes the promise from 'this is true' to 'I am not aware this is false'. Anything the seller genuinely did not know falls outside the representation and therefore outside the indemnity that rests on it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idm-l03-anatomy-of-the-clause",
+      "title": "Anatomy of an indemnification clause",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "An indemnification regime answers six questions. They are worth separating, because they are negotiated on different logic and they fail in different ways.\n\n- Who indemnifies whom\n- For what losses\n- Triggered by what\n- Subject to what procedure\n- Limited how\n- To the exclusion of what other remedies\n\nMost of this module deals with the fourth and fifth. This lesson covers the rest."
+        },
+        {
+          "type": "text",
+          "markdown": "## Indemnify, defend, hold harmless\n\nThese three appear together so often that they read as a single incantation. They are not the same thing.\n\n**Indemnify** means reimburse for losses suffered. It operates after the fact.\n\n**Defend** is an obligation that arises earlier and is often broader: a duty to take on and fund the defense of a claim from the moment it is asserted, regardless of whether it eventually proves meritorious. A party can owe a defense on a claim it ultimately owes no indemnity on — the claim fails, but the defense still had to be paid for while it was live.\n\n**Hold harmless** is treated by many courts as synonymous with indemnify. It is sometimes argued to be broader: protection from liability arising at all, rather than reimbursement once it has. The argument is worth knowing even where a court collapses the two."
+        },
+        {
+          "type": "compare",
+          "title": "Three obligations, three different moments",
+          "items": [
+            {
+              "id": "indemnify",
+              "label": "Indemnify"
+            },
+            {
+              "id": "defend",
+              "label": "Defend"
+            },
+            {
+              "id": "hold",
+              "label": "Hold harmless"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "timing",
+              "label": "When it arises",
+              "values": [
+                "After liability is established — reimburses losses already suffered",
+                "When the claim is asserted, not when it is proven",
+                "Often treated as synonymous with indemnify; sometimes argued to prevent liability arising at all"
+              ]
+            },
+            {
+              "id": "scope",
+              "label": "Owed even if claim fails?",
+              "values": [
+                "No — owed only where the indemnity is actually triggered",
+                "Yes — defense costs accrue while the claim is live regardless of outcome",
+                "Depends on how the court reads it; worth reading carefully rather than assuming it is filler"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## What counts as a loss\n\nThe definition of covered losses is where a surprising amount of value sits, and it is often skimmed because it looks like boilerplate.\n\nDoes it include legal fees and the costs of investigation? Fees incurred in pursuing the indemnity claim itself, as opposed to defending the underlying claim? Amounts paid in settlement, and if so, settlements entered into without the indemnifying party's consent? Diminution in value of the acquired business, or only out-of-pocket amounts?\n\nEach of these is a live negotiation point dressed as a definition."
+        },
+        {
+          "type": "text",
+          "markdown": "## Triggers\n\nMost indemnities are triggered by one of three things: breach of a representation or warranty, breach of a covenant, or a specifically identified matter.\n\nThe first is the most common and is the reason the previous lesson spent its time on qualifiers. The second is usually less contested. The third deserves its own paragraph."
+        },
+        {
+          "type": "text",
+          "markdown": "## Specific indemnities\n\nSome risks are known to both parties at signing. Litigation already filed. A regulatory question already under discussion with an agency. A recall in progress. An environmental liability at a manufacturing site.\n\nThese are commonly pulled out of the general regime and given their own indemnity — and they typically sit outside the cap, outside the basket, and sometimes outside the survival period.\n\nThe logic is clean once stated. The general regime allocates *unknown* risk, and its limits are priced accordingly. A specific indemnity allocates a risk both parties can name and size. There is no reason to make a known liability compete with unknown ones for room under a shared cap."
+        },
+        {
+          "type": "text",
+          "markdown": "## Exclusive remedy\n\nMost well-constructed indemnity regimes include an exclusive remedy provision: indemnification is the sole recourse for breaches of the agreement, to the exclusion of other contractual or tortious claims.\n\nWithout it, the carefully negotiated caps, baskets and survival periods can be circumvented by pleading the same facts as misrepresentation or negligence and escaping the limits entirely.\n\nThe carve-out is almost always fraud. The scope of that carve-out repays careful reading, because 'fraud' can be defined narrowly enough to be nearly unreachable, or broadly enough to swallow the exclusivity it is carved out of."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "idm-l03-fc1",
+              "front": "Indemnify vs. defend",
+              "back": "Indemnify reimburses losses after the fact. Defend funds the defense from the moment a claim is asserted — and can be owed on claims that ultimately fail."
+            },
+            {
+              "id": "idm-l03-fc2",
+              "front": "Specific indemnity",
+              "back": "An indemnity for a known, identified risk (pending litigation, a live regulatory issue). Usually sits outside the cap, basket and sometimes the survival period."
+            },
+            {
+              "id": "idm-l03-fc3",
+              "front": "Exclusive remedy provision",
+              "back": "Makes indemnification the sole recourse for breach, preventing the negotiated limits from being circumvented by tort or misrepresentation claims. Almost always carves out fraud."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "idm-l03-q1",
+              "stem": "Why do specific indemnities typically sit outside the general cap and basket?",
+              "options": [
+                "Because they are usually smaller than general indemnity claims",
+                "Because the general regime prices unknown risk, while a specific indemnity covers a risk both parties can already name and size",
+                "Because they are governed by different law than the rest of the agreement",
+                "Because insurers require known liabilities to be separately stated"
+              ],
+              "correctIndex": 1,
+              "explanation": "The general regime's limits are calibrated to unknown risk. A liability both parties can identify and quantify at signing has no reason to compete for room under a cap priced for uncertainty."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

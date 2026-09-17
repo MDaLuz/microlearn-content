@@ -3,7 +3,7 @@
   "id": "indemnification",
   "title": "Indemnification and third-party claims",
   "discipline": "Legal",
-  "version": 4,
+  "version": 5,
   "lessons": [
     {
       "id": "idm-l01-why-hard-to-picture",
@@ -1121,6 +1121,325 @@
               ],
               "correctIndex": 1,
               "explanation": "A 10% cap backed by an exclusive 5% escrow is a 5% cap. The escrow's exclusivity sits in the escrow agreement rather than the purchase agreement, which is why it attracts less attention than it deserves."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idm-l13-insurance",
+      "title": "Insurance and R&W insurance: shifting the risk",
+      "xpReward": 60,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "The insurer has appeared in every procedural lesson so far. A second notice clock in the first thirty days. A third party with a right to appoint counsel. A consent requirement that has to align with two others. A cooperation duty enforced harder than the contractual one.\n\nThis lesson stops treating it as an intrusion into the two-party model and looks at it directly."
+        },
+        {
+          "type": "text",
+          "markdown": "## The distinction that decides pharma coverage\n\nTwo policy structures, and the difference is not a technicality.\n\nAn **occurrence-based** policy covers events that occurred during the policy period, whenever the claim arrives. A product sold in 2019 under an occurrence policy in force that year is covered when a claim lands in 2026.\n\nA **claims-made** policy covers claims made during the policy period, whenever the event occurred. The same product, insured under a claims-made policy that lapsed at closing, is not covered when that claim arrives — because the claim was not made while the policy was live.\n\nFor an industry whose exposure surfaces years after the product was sold, this is the single most consequential coverage term. It is also the one most likely to be treated as a procurement detail rather than a deal issue."
+        },
+        {
+          "type": "text",
+          "markdown": "Two mechanisms soften a claims-made structure, and both need to be in place before you need them.\n\nA **retroactive date** sets how far back the policy will reach for events. A claims-made policy with a retroactive date after the products in question were sold covers nothing relevant.\n\n**Tail coverage** — also called run-off or an extended reporting period — buys the right to report claims for a defined period after the policy ends. On a transaction where the selling entity will cease to exist, tail coverage is often the only thing standing between a long-tail claim and nobody at all."
+        },
+        {
+          "type": "text",
+          "markdown": "## Layers, and who runs the early defense\n\nA programme is usually built in layers: a primary policy, then excess layers attaching above it.\n\nBeneath the primary sits either a deductible or a self-insured retention, and the difference affects control rather than just money.\n\nWith a **deductible**, the insurer typically administers the claim from the outset and recoups the deductible from the insured. With a **self-insured retention**, the insured pays and manages the matter until the retention is exhausted, and the insurer's duties — including its right to appoint counsel — do not engage until then.\n\nSo on a claim that will resolve inside the retention, the insured is running its own defense with its own counsel. On a claim that will pierce it, control changes hands partway through, usually at an awkward moment."
+        },
+        {
+          "type": "text",
+          "markdown": "## The gap between two insurance programmes\n\nAt closing, the seller's policies and the buyer's policies both exist, and neither was written with this transaction in mind.\n\nWho insures a product manufactured and sold before closing, for a claim arriving after it? The seller's occurrence policies may well respond — but the seller has no commercial incentive to pursue coverage for the buyer's benefit, and in an asset deal the entity holding those policies may be winding up.\n\nThe mechanisms are assignment of insurance rights, or having the buyer named as an additional insured under the relevant historic policies. Both need to be negotiated at signing and both are routinely forgotten, leaving a period of exposure that no policy covers and no party expected."
+        },
+        {
+          "type": "text",
+          "markdown": "## Subrogation reopens closed relationships\n\nWhen an insurer pays, it generally acquires the insured's rights against whoever caused the loss and can pursue them directly. That is **subrogation**.\n\nThe practical consequence is uncomfortable. An insurer that has paid a claim can proceed against your counterparty — a supplier, a distribution partner, the other side of the very deal you just closed — on your behalf and without much regard for the commercial relationship you were hoping to preserve.\n\nWhich is why waiver of subrogation provisions exist, and why they are worth looking for in any agreement with a party you intend to keep working with."
+        },
+        {
+          "type": "text",
+          "markdown": "## Reps and warranties insurance\n\nA distinct product, and one that has reshaped how indemnity packages are negotiated.\n\nA **buy-side R&W policy** — much the more common form — lets the buyer claim directly against an insurer for breach of the seller's representations, rather than against the seller. The seller's exposure shrinks or disappears.\n\nWhat it changes at the negotiating table is substantial: smaller caps, shorter survival periods, minimal or no escrow, and a seller that walks away at closing with its proceeds rather than leaving them on deposit for two years. For a private equity seller that needs to distribute and wind up, that clean exit is often the point of the whole exercise."
+        },
+        {
+          "type": "text",
+          "markdown": "## What R&W insurance does not cover\n\nThe exclusions matter more than the coverage, and several are structural rather than negotiable.\n\n**Known issues.** Anything surfaced in diligence or disclosed in the schedules is excluded. The policy insures unknown breaches. A known problem still needs a specific indemnity from the seller.\n\n**Purchase price adjustments** and forward-looking statements — projections, forecasts, budgets.\n\n**And, frequently in this sector, sector-specific carve-outs.** Product liability, regulatory compliance and certain intellectual property matters are commonly excluded or heavily sub-limited in pharma policies, precisely because they are the exposures underwriters least want. The result is that R&W insurance may cover the representations you were least worried about and exclude the ones you were.\n\nRead the exclusions before treating the policy as a substitute for a seller indemnity."
+        },
+        {
+          "type": "compare",
+          "title": "Seller indemnity vs. R&W insurance",
+          "items": [
+            {
+              "id": "seller-indemnity",
+              "label": "Seller indemnity"
+            },
+            {
+              "id": "r-w-insurance",
+              "label": "R&W insurance"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "recourse",
+              "label": "Recourse",
+              "values": [
+                "Recourse against a party that may not exist later",
+                "Recourse against an insurer with a balance sheet"
+              ]
+            },
+            {
+              "id": "exit",
+              "label": "Effect on closing mechanics",
+              "values": [
+                "Requires escrow or holdback to be reliable",
+                "Allows a clean exit with minimal escrow"
+              ]
+            },
+            {
+              "id": "known-issues",
+              "label": "Known issues",
+              "values": [
+                "Covers known issues via specific indemnities",
+                "Excludes anything known or disclosed"
+              ]
+            },
+            {
+              "id": "survival",
+              "label": "Duration of protection",
+              "values": [
+                "Survival tied to the contractual period",
+                "Policy period can extend beyond contractual survival"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## One dynamic worth noticing\n\nR&W insurance tends to de-escalate the indemnity negotiation, because neither party is arguing quite so hard about its own money.\n\nBut the scrutiny does not disappear — it moves. Underwriters read the diligence reports, ask about gaps, and price or exclude accordingly. A thin diligence process that might have survived a negotiation with a motivated seller will not survive underwriting.\n\nThe discipline is still applied. It is simply applied by someone else, later, and with the power to exclude rather than to argue."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "idm-l13-fc1",
+              "front": "Occurrence-based vs. claims-made",
+              "back": "Occurrence covers events during the policy period whenever claimed. Claims-made covers claims made during the period whenever the event occurred. For long-tail pharma exposure this decides everything."
+            },
+            {
+              "id": "idm-l13-fc2",
+              "front": "Tail coverage",
+              "back": "Also run-off or extended reporting period. Buys the right to report claims after a claims-made policy ends. Often the only recourse where the insured entity will cease to exist."
+            },
+            {
+              "id": "idm-l13-fc3",
+              "front": "Self-insured retention vs. deductible",
+              "back": "With an SIR the insured pays and manages the claim until exhaustion, and the insurer's duties do not engage until then. With a deductible the insurer usually administers from the start and recoups it."
+            },
+            {
+              "id": "idm-l13-fc4",
+              "front": "Subrogation",
+              "back": "An insurer that pays acquires the insured's rights against whoever caused the loss, and can pursue them — including a counterparty you intended to keep working with."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "idm-l13-q1",
+              "stem": "Why is the occurrence versus claims-made distinction especially decisive in pharma?",
+              "options": [
+                "Because regulators require occurrence-based cover for marketed products",
+                "Because exposure surfaces years after sale, so a lapsed claims-made policy leaves the pre-closing period uncovered while an occurrence policy still responds",
+                "Because claims-made policies cannot be written for pharmaceutical products",
+                "Because occurrence policies carry no retention"
+              ],
+              "correctIndex": 1,
+              "explanation": "An occurrence policy responds based on when the event happened, so a policy in force when the product was sold covers a claim arriving years later. A claims-made policy that lapsed at closing does not, because the claim was never made while it was live."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idm-l14-pharma-claim-types",
+      "title": "Pharma-specific claims: product liability, IP, regulatory",
+      "xpReward": 60,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Three claim types dominate pharma indemnity exposure, and they behave so differently that a package calibrated for one will handle the others badly.\n\nThey differ in when they surface, who the claimant is, whether the exposure is monetary, and — in one case — whether the indemnity's machinery even fits."
+        },
+        {
+          "type": "text",
+          "markdown": "## Product liability\n\nThe long tail. A claim can arise years after the product was sold, brought by someone with no relationship to either party to the transaction.\n\nThree features shape how it interacts with an indemnity.\n\n**Latency**, which lesson 11 covered: the exposure outlives ordinary survival periods, so it is handled through specific indemnities and insurance rather than general representations.\n\n**Multiplicity.** One defect produces many claimants. The aggregate can dwarf any cap, and a de minimis threshold designed to screen trivial claims does nothing useful against a hundred individually modest ones — which is where the aggregation provision from lesson 10 earns its place.\n\n**Pharmacovigilance.** Adverse event reporting obligations transfer with the product. A pre-closing failure to report creates exposure on two fronts at once: product liability to the claimant, and regulatory exposure for the reporting failure itself."
+        },
+        {
+          "type": "text",
+          "markdown": "## The point that catches dealmakers\n\nIn an asset deal, the parties allocate pre-closing product liability to the seller. The buyer is indemnified. Everyone is satisfied.\n\nThen a claimant sues the buyer.\n\nThe indemnity allocates risk **between the parties to it**. It does not determine who a third party may sue. And in a number of jurisdictions, **successor liability** doctrines allow a claimant to pursue the acquirer of a product line for injuries caused by units the seller manufactured — on continuation-of-product-line or similar reasoning — regardless of how the purchase agreement allocated it.\n\nThe contractual allocation still works. It simply works as a right of recovery *after* the buyer has been sued, defended, and paid. Which makes the seller's survival, solvency and security — lesson 12 — the thing that determines whether the allocation was real.\n\nWhether successor liability applies, and on what basis, is jurisdiction-specific. Consult qualified counsel in the relevant jurisdiction."
+        },
+        {
+          "type": "text",
+          "markdown": "## Intellectual property infringement\n\nA third party asserts that the product infringes its rights. In generics this is close to an operating condition rather than a contingency.\n\nWhat makes IP claims procedurally distinct is the remedy. A product liability claimant wants money. An IP claimant frequently wants the product **off the market** — and an injunction is not something an indemnity can make good.\n\nThis is why the non-monetary relief carve-out from lesson 6 matters here specifically. A seller controlling the defense of an infringement claim is optimising to limit a payment. The buyer is trying to keep a product on sale. Those are not the same defense, and the party that has to live with the outcome should be running it.\n\nTwo distinctions worth holding separately: a claim that **you infringe someone else's** right, and a challenge seeking to **invalidate a right you acquired**. The first threatens your ability to sell. The second threatens the value of what you bought. Different exposures, different reps, and frequently different indemnities."
+        },
+        {
+          "type": "text",
+          "markdown": "## Regulatory and compliance\n\nHere the indemnity machinery fits worst, and the reason is structural.\n\nThe third-party claim procedure from lessons 5 through 8 assumes an adversarial proceeding: a claimant, a defense, counsel, a settlement. A regulatory exposure often has none of those. An inspection finding, a warning letter, a suspension of a marketing authorisation, a mandated recall — a regulator does not sue you, it acts.\n\nSo ask whether the agreement's definition of \"third-party claim\" actually captures a regulatory action. Frequently it is drafted around litigation and captures regulatory proceedings only awkwardly or not at all. Then ask who controls the response to a regulator, because \"control of the defense\" is close to meaningless when the counterparty is an authority you must maintain a relationship with indefinitely."
+        },
+        {
+          "type": "text",
+          "markdown": "## Two regulatory exposures worth naming\n\n**Anti-bribery and corruption.** Pre-closing conduct in higher-risk markets creates post-closing exposure for the acquirer, and it interacts badly with the rest of the package. Discovery of an issue may trigger a disclosure obligation to authorities — which is the opposite of a defense strategy, and a decision the buyer may be required to take over the seller's objection even though the seller bears the indemnity.\n\n**Data protection.** Clinical, pharmacovigilance and patient data carry exposure under regimes with meaningful penalties and their own notification timetables, again measured in hours and days rather than the weeks a contractual notice provision contemplates.\n\nIn both cases the regulatory clock runs faster than the indemnity clock, and the obligations are owed to someone who is not a party to your agreement."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "idm-l14-fc1",
+              "front": "Successor liability",
+              "back": "Doctrines allowing a claimant to pursue the acquirer of a product line for injuries from units the seller made, regardless of contractual allocation. The indemnity becomes a right of recovery after being sued, not a shield."
+            },
+            {
+              "id": "idm-l14-fc2",
+              "front": "Infringement vs. invalidity",
+              "back": "A claim that you infringe another's right threatens your ability to sell. A challenge to invalidate a right you acquired threatens the value of what you bought. Different exposures and often different indemnities."
+            },
+            {
+              "id": "idm-l14-fc3",
+              "front": "Why regulatory exposure fits the machinery badly",
+              "back": "The third-party claim procedure assumes a claimant, a defense and a settlement. A regulator does not sue — it inspects, warns, suspends or mandates a recall. Check whether the definition of claim even captures it."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "idm-l14-q1",
+              "stem": "What does successor liability mean for a buyer that has been indemnified against pre-closing product liability?",
+              "options": [
+                "The indemnity is unenforceable to the extent successor liability applies",
+                "The claimant may still sue the buyer directly, so the indemnity operates as a right of recovery after the buyer has defended and paid",
+                "The seller becomes the sole permissible defendant once the indemnity is in place",
+                "Successor liability only applies where the buyer acquires shares rather than assets"
+              ],
+              "correctIndex": 1,
+              "explanation": "The indemnity allocates risk between the parties to it and cannot bind a third party's choice of defendant. The buyer may be sued, defend, pay, and then recover — which makes the seller's continued existence and the security behind the indemnity decisive."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idm-l15-choice-of-law",
+      "title": "Choice of law: which law governs, and why it changes outcomes",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "The governing law clause sits at the back of the agreement, runs to one sentence, and is frequently agreed in the last hour of a negotiation as a concession worth giving.\n\nIt determines how everything in front of it will be read."
+        },
+        {
+          "type": "text",
+          "markdown": "## What the governing law actually decides\n\nFor an indemnity package specifically:\n\n**How damages are characterised.** Whether lost profits are direct or consequential, and what an exclusion of consequential damages actually excludes — the fight from lesson 9 — is resolved by the governing law, not by the clause alone.\n\n**Whether liquidated damages survive.** A common law court may strike a stipulated sum as a penalty. A civil law court is more likely to reduce it. The same clause is an asset under one law and decoration under another.\n\n**Whether a general duty of good faith applies.** Civil law systems typically impose one. English law generally does not, outside specific relationships. This matters directly to how a party may exercise a discretion — withholding consent to a settlement, for instance, where lesson 7 left the meaning of \"unreasonably\" unresolved.\n\n**How ambiguity is resolved.** Whether ambiguity is construed against the drafter, how much weight is given to the words alone versus the parties' intent, and whether pre-contractual negotiations can be looked at at all — English law is markedly more textual than most civil law systems."
+        },
+        {
+          "type": "compare",
+          "title": "Where common law and civil law diverge on an indemnity",
+          "items": [
+            {
+              "id": "common-law-approach",
+              "label": "Common law approach"
+            },
+            {
+              "id": "civil-law-approach",
+              "label": "Civil law approach"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "damages",
+              "label": "Damages taxonomy",
+              "values": [
+                "Direct / consequential damages taxonomy with foreseeability at contracting",
+                "Recoverability framed through causation and foreseeability rather than categories"
+              ]
+            },
+            {
+              "id": "liquidated",
+              "label": "Liquidated sums",
+              "values": [
+                "Penalties unenforceable; liquidated damages must be proportionate",
+                "Excessive stipulated sums typically reduced rather than voided"
+              ]
+            },
+            {
+              "id": "good-faith",
+              "label": "Good faith",
+              "values": [
+                "No general duty of good faith in ordinary commercial contracts",
+                "General duty of good faith in performance"
+              ]
+            },
+            {
+              "id": "interpretation",
+              "label": "Interpretation",
+              "values": [
+                "Strongly textual interpretation; limited recourse to negotiations",
+                "More willing to examine party intent and pre-contractual conduct"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Why particular laws get chosen\n\n**English law** is chosen for predictability. A deep body of commercial jurisprudence, strong respect for freedom of contract, effective entire agreement clauses, and no general good faith duty to introduce uncertainty into how discretions are exercised. It favours the party that wants the words to mean what they say.\n\n**New York law** offers comparable depth with a well-developed M&A case law, and is the default where a US counterparty is involved.\n\n**Swiss law** is chosen for neutrality, particularly where neither party wants the other's home law and where an arbitration is seated in Switzerland. It is a civil law system: a general good faith duty applies, and courts have power to reduce excessive contractual penalties rather than striking them.\n\nNone of these is better. They allocate interpretive risk differently, and which allocation suits you depends on which side of the agreement you are on and which clauses you are relying on."
+        },
+        {
+          "type": "text",
+          "markdown": "## The limits of the choice\n\nA governing law clause does not displace everything.\n\n**Mandatory rules** apply regardless. Product liability regimes imposing strict liability on producers cannot be contracted away as against an injured claimant. Regulatory obligations attach to the holder of the authorisation under the law of the territory. Competition law applies where the effects are felt. Local mandatory provisions may govern aspects of performance wherever it occurs.\n\n**Limitation periods** deserve separate attention. Some jurisdictions restrict how far parties may contract out of statutory limitation — which can undercut a negotiated survival period from either direction, making a long one unenforceable or a short one ineffective."
+        },
+        {
+          "type": "text",
+          "markdown": "## The distinction that closes the lesson\n\nThe governing law governs your agreement with your counterparty. It does not govern a third party's claim against you.\n\nA patient injured in Germany sues under German law. A regulator in Saudi Arabia acts under its own authority. A competitor asserting a patent in France litigates under French law. None of them is a party to your purchase agreement and none is affected by the law you chose to govern it.\n\nSo a cross-border pharma deal runs two distinct legal questions in parallel. Your indemnity operates under one law. The claims it is meant to protect against arise under others, in territories you may never have negotiated about.\n\nThat is also why the forum you chose for disputes with your counterparty — the next lesson — is a separate decision from the law governing the contract, and why people who treat the two as one clause tend to get both wrong."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "idm-l15-fc1",
+              "front": "Governing law vs. jurisdiction",
+              "back": "Governing law is which substantive law interprets the contract. Jurisdiction or forum is where disputes are heard. Two separate decisions, frequently drafted as though they were one."
+            },
+            {
+              "id": "idm-l15-fc2",
+              "front": "Good faith divergence",
+              "back": "Civil law systems generally impose a duty of good faith in performance; English law generally does not in ordinary commercial contracts. Affects how discretions — like withholding settlement consent — may be exercised."
+            },
+            {
+              "id": "idm-l15-fc3",
+              "front": "Mandatory rules",
+              "back": "Rules applying regardless of the parties' choice of law: strict product liability toward claimants, regulatory obligations in the territory, competition law, and limits on contracting out of limitation periods."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "idm-l15-q1",
+              "stem": "Why does choosing English law not protect against a product liability claim brought by a patient in Germany?",
+              "options": [
+                "Because English law expressly defers to EU product liability rules",
+                "Because the governing law binds only the parties to the agreement, while the claimant sues under the law of their own jurisdiction",
+                "Because product liability claims are always heard in the claimant's home courts under the contract's governing law",
+                "Because governing law clauses do not survive closing"
+              ],
+              "correctIndex": 1,
+              "explanation": "The governing law clause allocates interpretive risk between the contracting parties. A third-party claimant is not a party to that agreement and brings their claim under the applicable law of their own jurisdiction, frequently under a strict liability regime that cannot be contracted away."
             }
           ]
         }

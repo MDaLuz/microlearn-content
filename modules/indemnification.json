@@ -3,7 +3,7 @@
   "id": "indemnification",
   "title": "Indemnification and third-party claims",
   "discipline": "Legal",
-  "version": 1,
+  "version": 2,
   "lessons": [
     {
       "id": "idm-l01-why-hard-to-picture",
@@ -241,6 +241,297 @@
               ],
               "correctIndex": 1,
               "explanation": "The general regime's limits are calibrated to unknown risk. A liability both parties can identify and quantify at signing has no reason to compete for room under a cap priced for uncertainty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idm-l04-direct-vs-third-party",
+      "title": "Direct claims and third-party claims: two different machines",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "There are two fundamentally different ways an indemnity gets called on, and agreements routinely blur them.\n\nA **direct claim** is one party to the agreement claiming against the other. The buyer discovers after closing that a representation was false, and claims against the seller. Nobody from outside is involved.\n\nA **third-party claim** is an outside party — a patient, a regulator, a competitor, a tax authority — asserting a claim against the indemnified party, with the indemnifying party on the hook for the consequences."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why the procedures diverge sharply\n\nIn a direct claim there is nothing to defend. No external proceeding, no outside claimant, no real-time decisions. The procedure is simply: notice, a response period, and then whatever dispute resolution mechanism the agreement provides. The entire question is whether the indemnity is owed.\n\nIn a third-party claim there is a live proceeding that somebody has to run. Counsel must be instructed. Filings have deadlines. Settlement offers arrive and expire. Decisions must be made continuously, by someone, while the parties may disagree about what those decisions should be.\n\nThat is why the third-party machinery exists: notice requirements, control of defense, cooperation duties, consent to settle. None of it has any application to a direct claim."
+        },
+        {
+          "type": "compare",
+          "title": "Two claim types, two procedures",
+          "items": [
+            {
+              "id": "direct",
+              "label": "Direct claim"
+            },
+            {
+              "id": "third-party",
+              "label": "Third-party claim"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "who",
+              "label": "Who is claiming",
+              "values": [
+                "One party to the agreement against the other",
+                "An outside party against the indemnified party"
+              ]
+            },
+            {
+              "id": "defense",
+              "label": "Is there a defense to run?",
+              "values": [
+                "No external proceeding to defend",
+                "A live proceeding someone must run in real time"
+              ]
+            },
+            {
+              "id": "procedure",
+              "label": "Procedure",
+              "values": [
+                "Notice, response period, dispute resolution",
+                "Notice, control of defense, cooperation, consent to settle"
+              ]
+            },
+            {
+              "id": "in-issue",
+              "label": "What is in issue",
+              "values": [
+                "Only whether the indemnity is owed",
+                "Both whether the indemnity is owed and how the claim is handled"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Where agreements get this wrong\n\nThree failure patterns show up repeatedly.\n\nThe first is a single combined procedure. The agreement defines \"Claim\" once and applies one set of mechanics to everything, producing provisions that make no sense when read against a direct claim. Who assumes the defense of a claim that has no defense?\n\nThe second is the opposite: elaborate third-party machinery and no direct claim procedure at all. The buyer discovers a breach and finds the agreement silent on how to assert it — what notice is required, what the seller's response window is, what happens if the seller simply does not reply.\n\nThe third is subtler. Direct claim notice requirements are often borrowed from the third-party section without adjustment, importing conditions that are natural for an external claim and difficult for an internal one."
+        },
+        {
+          "type": "text",
+          "markdown": "## The notice trap in direct claims\n\nThis is where direct claims most often die.\n\nA typical provision requires notice specifying the basis for the claim, the representation alleged to have been breached, and a good-faith estimate of the loss. That last requirement is the problem. A buyer can discover in month twenty that something is wrong, know it is a breach, and be genuinely unable to quantify it — because the investigation is ongoing, or because the loss depends on a regulatory outcome that will not arrive for another year.\n\nIf the survival period ends at month twenty-four, the buyer is forced to choose between a notice that may be attacked as deficient and no notice at all.\n\nThe practical answer, negotiated in advance, is language permitting notice of a claim with an estimate \"to the extent then determinable,\" preserving the claim without demanding a number that does not yet exist."
+        },
+        {
+          "type": "text",
+          "markdown": "## One set of facts, both claim types\n\nThe two are not mutually exclusive, and in pharma they frequently arrive together.\n\nA patient brings a product liability claim against the acquired business. That is a third-party claim, and the third-party procedure governs how it is defended. But the fact that the seller knew of the safety signal and did not disclose it is also a breach of a representation — a direct claim, with its own notice requirement and its own path.\n\nThe same facts, two procedures, two sets of deadlines, and a real risk that satisfying one while overlooking the other leaves part of the exposure unrecovered."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "idm-l04-fc1",
+              "front": "Direct claim",
+              "back": "A claim by one party to the agreement against the other, with no outside claimant. No defense to control — the only question is whether the indemnity is owed."
+            },
+            {
+              "id": "idm-l04-fc2",
+              "front": "Third-party claim",
+              "back": "A claim by an outside party against the indemnified party, with the indemnifying party on the hook. Requires real-time defense decisions, hence the procedural machinery."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "idm-l04-q1",
+              "stem": "Why do third-party claims require procedural provisions that direct claims do not?",
+              "options": [
+                "Third-party claims are typically larger in value",
+                "A third-party claim involves a live external proceeding requiring continuous real-time decisions by someone",
+                "Direct claims are usually resolved before any procedure applies",
+                "Insurers only require notice for third-party claims"
+              ],
+              "correctIndex": 1,
+              "explanation": "A third-party claim means an outside proceeding that must actually be run — counsel instructed, deadlines met, settlement offers answered. Control, cooperation and consent-to-settle provisions exist to decide who makes those calls. A direct claim has no defense to conduct."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idm-l05-first-thirty-days",
+      "title": "A third-party claim arrives: the first thirty days",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "A letter arrives. A regulator opens an inquiry. A competitor files. Whatever the form, the clock has started, and several clocks have started at once.\n\nThe first weeks after a claim surfaces determine a surprising amount of what follows. Not because the legal merits change, but because the procedural and coverage positions can be permanently damaged in that window — quietly, by people acting reasonably."
+        },
+        {
+          "type": "text",
+          "markdown": "## What the notice provision actually requires\n\nRead it for three things.\n\n**Timing.** \"Promptly,\" \"as soon as reasonably practicable,\" or a specific number of days. The vaguer formulations are more forgiving in principle and more arguable in practice.\n\n**Content.** A description of the claim, the basis on which indemnification is sought, copies of the claim documents, and often an estimate of the loss. Notice that omits a required element can be attacked as defective even when it arrived on time.\n\n**Consequence.** This is the one people skip. Does the agreement say notice is a *condition precedent* to indemnification?"
+        },
+        {
+          "type": "text",
+          "markdown": "## The prejudice question\n\nUnder most commercial law, late notice defeats an indemnity claim only to the extent the indemnifying party was actually prejudiced by the delay. If they lost the ability to defend effectively, the argument bites. If they lost nothing, courts are generally reluctant to void the indemnity over a procedural slip.\n\nThat comfortable position weakens considerably where the agreement makes notice an express condition precedent. Then the failure is not a breach to be measured — it is an unmet condition, and the obligation may never arise at all.\n\nThe word to search for is *condition*. It changes the risk profile of a missed deadline from arguable to fatal."
+        },
+        {
+          "type": "text",
+          "markdown": "## Two clocks, not one\n\nHere is the failure that quietly destroys more value than any drafting error.\n\nThe contractual notice goes to the indemnifying party. A separate notice is owed to the insurer under the policy. They run on **different deadlines with different requirements**, and the insurance clock is the less forgiving of the two.\n\nLate notice to a counterparty is usually met with the prejudice argument above. Late notice to an insurer can eliminate coverage outright. Under a **claims-made** policy, notice within the policy period is not merely a procedural step — it is what triggers coverage to exist at all.\n\nThe pattern is familiar and entirely avoidable: legal notifies the counterparty within the contractual window, the broker is told weeks later once the matter feels serious, and the policy that would have covered the loss is no longer available."
+        },
+        {
+          "type": "timeline",
+          "title": "The first thirty days",
+          "events": [
+            {
+              "id": "ev1",
+              "marker": "Day 0",
+              "title": "The claim surfaces",
+              "description": "Before anything else: do not respond substantively to the claimant."
+            },
+            {
+              "id": "ev2",
+              "marker": "Days 1-3",
+              "title": "Preserve and calendar",
+              "description": "Issue a litigation hold and preserve documents. Calendar every contractual and policy deadline."
+            },
+            {
+              "id": "ev3",
+              "marker": "Days 1-5",
+              "title": "Notify the insurer",
+              "description": "Notify the insurer and the broker. This clock is stricter than the contractual one and is the easiest to lose."
+            },
+            {
+              "id": "ev4",
+              "marker": "Days 3-10",
+              "title": "Assess the claim",
+              "description": "Assess whether the claim is genuinely indemnifiable, and under which provision. Identify which policies are in play."
+            },
+            {
+              "id": "ev5",
+              "marker": "Within the notice window",
+              "title": "Serve contractual notice",
+              "description": "Serve contractual notice containing every element the provision requires, not merely a heads-up."
+            },
+            {
+              "id": "ev6",
+              "marker": "After notice",
+              "title": "The election window opens",
+              "description": "The indemnifying party's election window to assume the defense begins. Lesson 6 covers what happens next."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## The litigation hold\n\nOne item on that list deserves separating out, because it is the one most often handled badly by people who have never done it.\n\nWhen a claim becomes reasonably foreseeable, the duty to preserve relevant documents attaches. Routine deletion policies must be suspended for anything within scope. Custodians must be identified and instructed.\n\nGet this wrong and the consequences are not confined to the underlying claim. Spoliation findings travel: adverse inferences, sanctions, and a defense conducted from a materially weaker position regardless of the merits. It is also the kind of failure that makes an indemnifying party genuinely prejudiced by your handling of the matter — which is precisely the argument that converts a technical notice defect into a real one."
+        },
+        {
+          "type": "text",
+          "markdown": "## What not to do\n\nDo not engage substantively with the claimant before internal alignment. A well-intentioned reply acknowledging facts, offering an explanation, or proposing a commercial resolution can prejudice the defense and complicate coverage before anyone with responsibility for either has seen the file.\n\nAnd do not wait for certainty before notifying. Both the contractual and policy notice provisions are generally satisfied by notifying a claim that *may* give rise to liability. Waiting until the position is clear is how deadlines are missed."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "idm-l05-fc1",
+              "front": "Condition precedent (notice)",
+              "back": "Language making notice a precondition to the indemnity obligation arising at all. Converts a missed deadline from an arguable breach into a potentially fatal failure."
+            },
+            {
+              "id": "idm-l05-fc2",
+              "front": "Claims-made policy",
+              "back": "A policy where notice within the policy period is what triggers coverage to exist. Late notice does not merely weaken the claim — it can eliminate coverage."
+            },
+            {
+              "id": "idm-l05-fc3",
+              "front": "Litigation hold",
+              "back": "Suspension of routine document deletion once a claim becomes reasonably foreseeable. Failure can produce spoliation sanctions independent of the claim's merits."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "idm-l05-q1",
+              "stem": "Why is late notice to an insurer generally more damaging than late notice to the indemnifying party?",
+              "options": [
+                "Insurance policies carry statutory notice deadlines that contracts cannot vary",
+                "Insurers are not subject to the prejudice analysis that usually softens late contractual notice, and under a claims-made policy timely notice is what creates coverage at all",
+                "Contractual notice deadlines are generally longer than policy deadlines",
+                "Insurers cannot decline coverage once a claim has been asserted"
+              ],
+              "correctIndex": 1,
+              "explanation": "Late contractual notice is usually measured against actual prejudice to the indemnifying party. Policy notice is treated far more strictly, and with a claims-made policy notice inside the period is the event that brings coverage into existence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idm-l06-control-of-defense",
+      "title": "Control of defense: who runs the litigation",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Control of defense is the most consequential procedural term in an indemnity package and the one least likely to be argued about at signing.\n\nIt decides who selects counsel, who sets strategy, who decides what to concede, and whose judgment governs when a settlement offer lands. It determines, in practice, whether the litigation is run to minimise payout or run to protect a business."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why each side wants it\n\nThe **indemnifying party** wants control because they are paying. Their concern is straightforward and legitimate: a party defending a claim with someone else's money has weak incentives to defend economically. Every hour of senior counsel, every expert retained, every motion filed is billed to a payer with no say.\n\nThe **indemnified party** resists because the claim is happening to their business. They still sell the product. They still have the regulatory relationship. They will still be operating in that market long after the file closes.\n\nA defense optimised to minimise a payment is not the same defense as one optimised to protect a franchise. A settlement carrying an admission, or a public filing making a damaging concession on a scientific point, may be an excellent outcome for the payer and a serious problem for the operator."
+        },
+        {
+          "type": "text",
+          "markdown": "## The mechanics\n\nMost regimes follow the same shape.\n\nFollowing notice, the indemnifying party has a defined window — commonly fifteen to thirty days — to **elect to assume the defense**. Silence is usually treated as declining.\n\nIf they assume it, counsel is typically required to be *reasonably satisfactory to* the indemnified party. That phrase is doing real work and is worth negotiating rather than accepting as boilerplate.\n\nThe indemnified party normally retains a right to **participate at its own expense** — to have its own counsel monitor, attend, and be consulted, without controlling.\n\nIf the indemnifying party declines or fails to elect, the indemnified party defends, and can generally recover reasonable defense costs as part of the indemnified loss."
+        },
+        {
+          "type": "text",
+          "markdown": "## The carve-outs that shift control back\n\nA well-drafted clause returns control to the indemnified party in defined circumstances. These are the ones worth insisting on.\n\n**Conflict of interest.** Where the parties' interests in the defense genuinely diverge, common counsel is untenable.\n\n**Non-monetary relief.** Where the claim seeks an injunction, or anything that would constrain how the business operates, the party that has to live with the outcome should be running it.\n\n**Criminal or regulatory proceedings.** Different stakes, different consequences, and an exposure that does not end with a payment.\n\n**Claims exceeding the cap.** This one is the sharpest and the most frequently omitted. If the claim is worth more than the indemnifying party's remaining exposure under the cap, the economics invert. They are now controlling a litigation whose downside above the cap falls entirely on someone else — and their incentive to fight it hard disappears at precisely the point the other party's exposure begins."
+        },
+        {
+          "type": "text",
+          "markdown": "## Where an insurer is involved, control is a three-way question\n\nThe contract allocates control between two parties. The policy may allocate it to a third.\n\nMany liability policies give the insurer the right to appoint counsel, frequently from a **panel** of firms with pre-agreed rates. Where the insurer is funding the defense, that right can in practice override what the parties negotiated between themselves. The agreement says the indemnifying party controls and selects counsel reasonably satisfactory to the other side; the policy says the insurer appoints from its panel. The policy is paying.\n\nThis is not hypothetical. It surfaces in the first weeks of a covered claim, and it surprises people who negotiated the contract carefully and never read the policy."
+        },
+        {
+          "type": "text",
+          "markdown": "## Defending under a reservation of rights\n\nA further wrinkle, and an uncomfortable one.\n\nAn insurer will often fund a defense while **reserving its rights** — preserving the ability to deny coverage later, once the facts develop. The defense proceeds. The bills are paid. And the insurer retains the option to conclude that the matter was never covered.\n\nThis puts appointed counsel in a structurally awkward position. They are defending the insured, but were selected by, and are reporting to, a party that may ultimately be adverse to the insured on coverage. Facts developed in the defense can inform the coverage decision.\n\nWhere the conflict is material, some jurisdictions give the insured a right to **independent counsel** at the insurer's expense. Whether that right exists, and what triggers it, is jurisdiction-specific — consult qualified counsel in the relevant jurisdiction. What is not jurisdiction-specific is the need to notice the problem early rather than discovering it in month nine."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "idm-l06-fc1",
+              "front": "Election to assume the defense",
+              "back": "The indemnifying party's defined window after notice — commonly 15-30 days — to take control of defending a third-party claim. Silence usually counts as declining."
+            },
+            {
+              "id": "idm-l06-fc2",
+              "front": "Panel counsel",
+              "back": "Law firms an insurer appoints from at pre-agreed rates. Where the insurer funds the defense, this right can override the counsel-selection terms the parties negotiated."
+            },
+            {
+              "id": "idm-l06-fc3",
+              "front": "Reservation of rights",
+              "back": "An insurer funding a defense while preserving its ability to deny coverage later. Creates a structural conflict for insurer-appointed counsel."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "idm-l06-q1",
+              "stem": "Why should control of defense shift to the indemnified party when a claim exceeds the cap?",
+              "options": [
+                "Because the indemnifying party's insurance will not respond above the cap",
+                "Because the indemnifying party would be controlling a litigation whose exposure above the cap falls entirely on the other party, removing their incentive to defend it hard",
+                "Because caps are unenforceable once a claim exceeds them",
+                "Because the indemnified party is better placed to negotiate a settlement"
+              ],
+              "correctIndex": 1,
+              "explanation": "Above the cap, the indemnifying party has no remaining financial stake. They are running a defense where every additional unit of liability lands on someone else — exactly the misalignment the carve-out exists to prevent."
             }
           ]
         }

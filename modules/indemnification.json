@@ -3,7 +3,7 @@
   "id": "indemnification",
   "title": "Indemnification and third-party claims",
   "discipline": "Legal",
-  "version": 2,
+  "version": 3,
   "lessons": [
     {
       "id": "idm-l01-why-hard-to-picture",
@@ -532,6 +532,280 @@
               ],
               "correctIndex": 1,
               "explanation": "Above the cap, the indemnifying party has no remaining financial stake. They are running a defense where every additional unit of liability lands on someone else — exactly the misalignment the carve-out exists to prevent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idm-l07-consent-to-settle",
+      "title": "Consent to settle: where interests genuinely diverge",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "At some point in most live claims, one party wants to settle and the other does not.\n\nIt is tempting to read this as a failure of goodwill, or as one side being unreasonable. It is neither. The parties have different exposure, and different exposure produces different optimal settlements. The disagreement is structural, and a well-drafted consent provision assumes it will happen rather than hoping it won't."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why the optimal settlement differs\n\nThe indemnifying party is paying. Their interest is to resolve cheaply and early — a settlement at five is a good outcome on a claim that might cost twenty at trial.\n\nBut push the numbers and the logic inverts. If the claim is approaching the cap, the indemnifying party wants to settle at any figure below it and walk away. Everything above the cap lands on the other party, and a settlement that exhausts the cap is, from the payer's perspective, a complete resolution.\n\nMeanwhile the indemnified party may want to settle for reasons that have nothing to do with the legal merits. The product is still on the market. The regulator is still watching. A defensible claim can still be worth settling to make it stop. To the indemnifying party, that looks like being asked to fund someone else's commercial convenience."
+        },
+        {
+          "type": "text",
+          "markdown": "## And sometimes the cheap settlement is the expensive one\n\nA settlement that includes an admission of liability, or a public filing conceding a point about product safety, may be financially attractive and commercially disastrous.\n\nThe payer sees a number. The operator sees a document that will be cited in every subsequent claim, quoted to a regulator, and produced in discovery in the next matter. These are not the same instrument."
+        },
+        {
+          "type": "text",
+          "markdown": "## How the clause handles it\n\nTwo consent rights, running in opposite directions.\n\nThe indemnifying party, where it controls the defense, typically **cannot settle without the indemnified party's consent** where the settlement involves non-monetary relief, includes an admission of liability or wrongdoing, fails to include a full and unconditional release of the indemnified party, or exceeds the cap.\n\nThe indemnified party typically **cannot settle without the indemnifying party's consent** at all — and settling unilaterally usually forfeits the indemnity for that claim entirely. This is the harsher of the two, and it is standard.\n\nBoth are usually qualified by consent \"not to be unreasonably withheld.\" What counts as unreasonable in this context is genuinely contested, and the phrase resolves less than it appears to."
+        },
+        {
+          "type": "text",
+          "markdown": "## Symmetric in form, asymmetric in effect\n\nThe two consent rights look balanced on the page. They are not balanced in practice.\n\nThe party controlling the defense holds the initiative. It negotiates with the claimant, shapes the offer, and presents it. The other party is reacting to a proposal it did not build, under time pressure, with the threat of an unreasonable-withholding argument if it says no.\n\nWhich produces an uncomfortable general rule: the party with the most to lose from a trial often has the least leverage in the settlement negotiation, because the others can force its hand."
+        },
+        {
+          "type": "text",
+          "markdown": "## With an insurer, three parties must align\n\nThe policy carries its own consent requirement, and it is usually the strictest of the three. An insured who settles without the insurer's consent can lose coverage for the settlement it just agreed to.\n\nSo the practical position on a covered claim is that no settlement happens unless the indemnifying party, the indemnified party, and the insurer all agree. Three-way unanimity, under deadline, between parties with different exposure."
+        },
+        {
+          "type": "text",
+          "markdown": "## The hammer clause\n\nThis is the mechanism that breaks the deadlock, and it is worth knowing before you need it.\n\nAn insurer recommends settling at a given figure. The insured refuses and wants to fight on. A **hammer clause** — also called a settlement cap or, less politely, a blackmail clause — provides that the insurer's liability is then capped at that recommended figure plus defense costs incurred to that date. Everything beyond falls on the insured.\n\nThe insured is free to continue the fight. It is simply doing so on its own money from that point forward.\n\nA **soft hammer** softens this by sharing the excess on an agreed split rather than shifting all of it — the insurer might bear seventy per cent of amounts above the recommended settlement. Whether a policy has a hard hammer, a soft hammer, or neither is a coverage term worth knowing at placement rather than discovering mid-claim."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "idm-l07-fc1",
+              "front": "Consent not to be unreasonably withheld",
+              "back": "The standard qualifier on both parties' settlement consent rights. Resolves less than it appears to — what counts as unreasonable here is genuinely contested."
+            },
+            {
+              "id": "idm-l07-fc2",
+              "front": "Hammer clause",
+              "back": "Caps the insurer's liability at a settlement figure it recommended and the insured refused, plus defense costs to that date. The insured may fight on, at its own expense."
+            },
+            {
+              "id": "idm-l07-fc3",
+              "front": "Soft hammer",
+              "back": "A hammer clause sharing amounts above the recommended settlement on an agreed split — e.g. 70/30 — rather than shifting all of the excess to the insured."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "idm-l07-q1",
+              "stem": "Why does an indemnifying party's settlement incentive change as a claim approaches the cap?",
+              "options": [
+                "Because caps are typically renegotiated once a claim approaches them",
+                "Because a settlement that exhausts the cap fully resolves their exposure, while everything above it falls on the other party",
+                "Because insurers require settlement once the cap is within reach",
+                "Because the duty to mitigate requires settlement at that point"
+              ],
+              "correctIndex": 1,
+              "explanation": "Below the cap the indemnifying party is spending its own money and wants a cheap resolution. At the cap, a settlement that uses it up ends their exposure entirely — and the risk of a worse outcome at trial belongs to someone else."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idm-l08-cooperation-and-privilege",
+      "title": "Cooperation, privilege, and joint defense",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Whoever controls the defense, the documents and the witnesses usually sit with the indemnified party. It is their business, their employees, their files.\n\nThat asymmetry is why cooperation provisions exist, and why they fall almost entirely on one side."
+        },
+        {
+          "type": "text",
+          "markdown": "## What cooperation actually requires\n\nProduce documents. Make employees available for interviews and depositions. Give counsel access to records and systems. Provide the technical and regulatory knowledge the defense depends on.\n\nIn a pharma claim this is not a light obligation. A product liability matter can consume substantial time from regulatory affairs, pharmacovigilance, and medical affairs staff over a period of years.\n\nWhich raises a question agreements routinely fail to answer: **who pays for it?** Employee time, document review, third-party vendor costs for collection and hosting. If the cooperation clause is silent and the loss definition doesn't cover internal costs, the cooperating party absorbs them."
+        },
+        {
+          "type": "text",
+          "markdown": "## Privilege is the part that goes wrong\n\nAttorney-client privilege protects communications between a client and its counsel made for the purpose of legal advice. Disclosing privileged material to a third party generally waives that protection.\n\nCooperating on a defense means sharing exactly the kind of material privilege exists to protect: candid assessments of exposure, weaknesses in the position, internal views on what actually happened.\n\nThe doctrine that permits this without waiver is **common interest** — sometimes called joint defense privilege. Where two parties share a legal interest in a matter, communications between them in furtherance of that shared interest can retain protection."
+        },
+        {
+          "type": "text",
+          "markdown": "## The limits of common interest\n\nThree things to know, and the second is the one that catches people.\n\n**It requires a shared legal interest, not merely a commercial one.** Both parties wanting the claim to go away is not enough. The interest must be identical or substantially similar in the legal position being advanced.\n\n**It is fragile.** Common interest protects material shared while the interests align. If the parties later become adverse — a dispute about whether the indemnity applies at all, or a coverage fight — the protection may not survive into that second dispute. Candid analysis shared freely during the cooperative phase can surface in the argument about who bears the loss.\n\n**Its scope varies by jurisdiction.** Some recognise it broadly, some narrowly, some barely at all. Consult qualified counsel in the relevant jurisdiction before assuming material is protected."
+        },
+        {
+          "type": "text",
+          "markdown": "## Joint defense agreements\n\nA **joint defense agreement** documents the common interest in writing: what is being shared, for what purpose, on what confidentiality terms, and what happens if the parties' interests later diverge.\n\nIt does not create privilege that would not otherwise exist. What it does is evidence the common interest, discipline what gets shared, and set the rules for the fallout in advance.\n\nThe divergence provisions are the ones worth reading. A well-drafted agreement addresses whether shared material can be used by one party against the other in a subsequent dispute between them. A badly drafted one leaves that to be argued later, at the worst possible moment."
+        },
+        {
+          "type": "text",
+          "markdown": "## The policy cooperation duty runs in parallel\n\nThe policy imposes its own cooperation obligation, and it is enforced considerably harder than the contractual one.\n\nFailure to cooperate with a counterparty is generally measured against prejudice — the same analysis that applies to late notice. Failure to cooperate with an insurer can **void coverage**. The consequence is categorical rather than proportionate."
+        },
+        {
+          "type": "text",
+          "markdown": "## And the insurer creates its own privilege problem\n\nAn insurer needs the defense's candid assessment in order to reserve properly. Providing it means disclosing privileged analysis to a party that is not your counsel and may, on coverage, become your opponent.\n\nSome jurisdictions treat insurer and insured as sharing a common interest for this purpose. Some do not, and disclosure to the insurer can waive privilege as against the claimant.\n\nThe position is worse where the insurer is defending under a reservation of rights, because it has already signalled potential adversity. You are handing your frank assessment of your own weaknesses to a party that has expressly reserved the right to deny you coverage on the basis of how the facts develop.\n\nThere is no universal answer here. There is only the discipline of asking the question before sending the memo rather than after."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "idm-l08-fc1",
+              "front": "Common interest doctrine",
+              "back": "Allows parties sharing a legal interest to exchange privileged material without waiving protection. Requires a shared legal — not merely commercial — interest, and may not survive the parties later becoming adverse."
+            },
+            {
+              "id": "idm-l08-fc2",
+              "front": "Joint defense agreement",
+              "back": "A written agreement documenting a common interest: what is shared, on what terms, and what happens if interests diverge. Evidences privilege rather than creating it."
+            },
+            {
+              "id": "idm-l08-fc3",
+              "front": "Policy cooperation duty",
+              "back": "The insurer's separate cooperation requirement. Breach can void coverage outright, where breach of a contractual cooperation duty is usually measured against prejudice."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "idm-l08-q1",
+              "stem": "What is the main risk in sharing candid defense analysis under a common interest arrangement?",
+              "options": [
+                "It must be disclosed to the claimant on request",
+                "Common interest protection may not survive into a later dispute between the two parties, where the shared analysis could be used by one against the other",
+                "It automatically waives privilege in all jurisdictions",
+                "It transfers control of the defense to the receiving party"
+              ],
+              "correctIndex": 1,
+              "explanation": "Common interest protects material shared while interests align. If the parties later fight about whether the indemnity applies, or about coverage, the frank assessment shared during the cooperative phase may be available to the other side in that second dispute."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idm-l09-damages",
+      "title": "Damages: direct, consequential, and the carve-outs that matter",
+      "xpReward": 60,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "An indemnity is only worth what it lets you recover. Two clauses decide that: the definition of covered losses, and the damages exclusions.\n\nBoth tend to be read quickly because they look like definitions rather than deal terms. They are deal terms."
+        },
+        {
+          "type": "text",
+          "markdown": "## The categories, and why the labels mislead\n\n**Direct damages** flow naturally and immediately from the breach. If the seller warranted that equipment worked and it did not, the cost of repair is direct.\n\n**Consequential damages** flow from the breach through the particular circumstances of the injured party. The profits lost while the equipment was down are consequential — they depend on facts about that business rather than on the breach alone. In common law systems these are generally recoverable only where they were foreseeable, or known to the breaching party, at the time of contracting.\n\n**Incidental damages** are the costs of dealing with the breach itself: investigation, mitigation, sourcing a replacement.\n\n**Punitive damages** are rarely available in contract at all, and are commonly excluded expressly for the avoidance of doubt."
+        },
+        {
+          "type": "text",
+          "markdown": "Here is the problem with those labels.\n\nContracts routinely exclude \"consequential, indirect and special damages\" as though the three were a single concept with a settled meaning. They are not. Courts do not treat them identically, \"special damages\" carries a distinct technical meaning in some jurisdictions, and civil law systems frame the whole question differently — often through foreseeability and causation rather than a taxonomy of damage types.\n\nStacking the words is not the same as defining them. An exclusion built from a list of labels rather than a description of what is excluded is an invitation to argue."
+        },
+        {
+          "type": "text",
+          "markdown": "## The lost profits fight\n\nEvery negotiation reaches this, and there is no clean answer.\n\nAre lost profits direct or consequential? It depends on the facts. Where the entire commercial purpose of the contract was to generate those profits, a strong argument exists that they are direct. Where they depend on the injured party's particular downstream arrangements, they look consequential.\n\nWhich is why the drafting matters more than the category. An exclusion of \"consequential damages\" leaves the argument open. An exclusion of \"consequential damages, **including lost profits**\" closes it. Those two clauses look similar on the page and produce materially different outcomes.\n\nRead every damages exclusion for whether lost profits are named. If they are not, somebody is going to argue about it."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why a consequential damages exclusion can gut an M&A indemnity\n\nIn a commercial supply agreement, excluding consequential damages is unremarkable. In an acquisition it can hollow out the indemnity entirely.\n\nConsider a seller who overstated the target's EBITDA by one million. What is the buyer's loss?\n\nIf the answer is one million, the indemnity has limited value. But the buyer did not pay one times EBITDA. It paid a multiple — say eight. The overstatement caused it to overpay by eight million, not one.\n\nThis is the **multiple-based damages** question, and it is one of the most consequential fights in any acquisition indemnity. Buyers argue the loss is the overpayment, measured on the multiple they actually paid. Sellers argue the loss is the shortfall itself, and frequently insist on express language excluding damages calculated on a multiple, valuation or similar basis.\n\nWhoever wins that drafting point has moved the value of the indemnity by a factor of eight."
+        },
+        {
+          "type": "text",
+          "markdown": "## Liquidated damages\n\nA **liquidated damages** provision fixes a sum payable on a specified breach, substituting for proof of actual loss.\n\nThe attraction is certainty. Where a loss is real but genuinely hard to quantify — delay in a technology transfer, failure to hit a regulatory milestone, breach of an exclusivity undertaking — a pre-agreed figure removes the need to prove a number that may be unprovable.\n\nThe risk is enforceability. Common law systems distinguish liquidated damages, which are enforceable, from **penalties**, which are not. The historical test asked whether the sum was a genuine pre-estimate of loss or was punitive in purpose. Modern English authority reframed it around whether the sum is out of all proportion to any legitimate interest the innocent party had in enforcement.\n\nCivil law systems generally take a different route: rather than voiding an excessive stipulated sum, courts often have power to reduce it. Same commercial concern, different mechanism, materially different outcome if you are the party relying on the clause.\n\nThis is jurisdiction-sensitive enough that the governing law choice — lesson 15 — directly determines whether a liquidated damages clause is an asset or decoration."
+        },
+        {
+          "type": "compare",
+          "title": "Liquidated damages, a cap, and a penalty",
+          "items": [
+            {
+              "id": "liquidated-damages",
+              "label": "Liquidated damages"
+            },
+            {
+              "id": "liability-cap",
+              "label": "Liability cap"
+            },
+            {
+              "id": "penalty",
+              "label": "Penalty"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "effect",
+              "label": "What it does",
+              "values": [
+                "Fixes the amount payable on a specified breach",
+                "Limits the maximum recoverable, upward only",
+                "A stipulated sum that is punitive rather than compensatory"
+              ]
+            },
+            {
+              "id": "proof",
+              "label": "Proof of loss",
+              "values": [
+                "Substitutes for proving actual loss",
+                "Actual loss must still be proven, up to the ceiling",
+                "Unenforceable in common law systems"
+              ]
+            },
+            {
+              "id": "enforceability",
+              "label": "Enforceability",
+              "values": [
+                "Enforceable if a genuine pre-estimate or proportionate to a legitimate interest",
+                "Generally enforceable as a straightforward allocation of risk",
+                "In civil law systems often reduced by the court rather than voided"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Mitigation, and the deductions that shrink a recovery\n\nThe loss you claim is not the loss you recover.\n\nA **duty to mitigate** applies — you cannot let a loss run and present the bill. Failure to take reasonable steps reduces recovery by whatever those steps would have avoided.\n\nBeyond that, most well-drafted loss definitions are expressed **net of** several things:\n\n- **Insurance proceeds** actually received in respect of the loss\n- **Third-party recoveries** from other sources\n- **Tax benefits** realised as a result of the loss\n\nEach of these is reasonable in principle and contestable in application. Net of insurance proceeds *received*, or proceeds *recoverable* whether or not pursued? The second obliges you to claim on your own policy before calling on the indemnity, with consequences for your premiums and your future coverage that the indemnifying party does not bear."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "idm-l09-fc1",
+              "front": "Consequential damages",
+              "back": "Losses flowing from a breach through the injured party's particular circumstances rather than from the breach alone. Recoverable in common law generally only where foreseeable at contracting."
+            },
+            {
+              "id": "idm-l09-fc2",
+              "front": "Multiple-based damages",
+              "back": "Measuring loss by the valuation multiple actually paid rather than the underlying shortfall. An EBITDA overstatement of 1 at an 8x multiple is a loss of 8, not 1 — if the drafting allows it."
+            },
+            {
+              "id": "idm-l09-fc3",
+              "front": "Liquidated damages vs. penalty",
+              "back": "Liquidated damages fix a sum as a genuine pre-estimate of loss and are enforceable. A penalty is punitive and is void in common law systems, though often merely reduced in civil law ones."
+            },
+            {
+              "id": "idm-l09-fc4",
+              "front": "Net of insurance proceeds",
+              "back": "A loss definition reducing recovery by insurance received. Watch whether it says 'received' or 'recoverable' — the latter forces you to claim on your own policy first."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "idm-l09-q1",
+              "stem": "Why is the multiple-based damages question so consequential in an acquisition indemnity?",
+              "options": [
+                "Because it determines whether the indemnity survives closing",
+                "Because a buyer pays a multiple of earnings, so an overstatement of earnings causes an overpayment several times larger than the shortfall itself",
+                "Because multiples are excluded from consequential damages by default",
+                "Because it determines which party controls the defense"
+              ],
+              "correctIndex": 1,
+              "explanation": "A buyer paying eight times EBITDA overpaid by eight for every one of overstatement. Whether the indemnity measures the overpayment or only the shortfall can change its value by the whole multiple — which is why sellers press for express language excluding damages calculated on a multiple or valuation basis."
             }
           ]
         }

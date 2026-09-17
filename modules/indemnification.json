@@ -3,7 +3,7 @@
   "id": "indemnification",
   "title": "Indemnification and third-party claims",
   "discipline": "Legal",
-  "version": 3,
+  "version": 4,
   "lessons": [
     {
       "id": "idm-l01-why-hard-to-picture",
@@ -806,6 +806,321 @@
               ],
               "correctIndex": 1,
               "explanation": "A buyer paying eight times EBITDA overpaid by eight for every one of overstatement. Whether the indemnity measures the overpayment or only the shortfall can change its value by the whole multiple — which is why sellers press for express language excluding damages calculated on a multiple or valuation basis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idm-l10-caps-baskets-de-minimis",
+      "title": "Caps, baskets, and de minimis: the financial architecture",
+      "xpReward": 60,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Three provisions filter what an indemnity actually pays: a floor on individual claims, a floor on aggregate claims, and a ceiling on total recovery.\n\nEach is straightforward alone. The value sits in how they interact, and in one word buried in the basket definition that can change a recovery by a factor of six."
+        },
+        {
+          "type": "text",
+          "markdown": "## The de minimis threshold\n\nA floor on individual claims. Anything below it is disregarded entirely.\n\nThe logic is administrative rather than economic. Neither party benefits from a process that entertains claims costing more to assess than they are worth.\n\nThe trap is aggregation. Many small breaches arising from the same underlying problem — a systematic error in how a compliance process was run, say — can each fall below the threshold while amounting to something substantial together. Whether they can be grouped depends on whether the agreement contains an aggregation provision allowing claims arising from the same facts or the same breach to be treated as one.\n\nWithout it, a pattern of small failures is unrecoverable no matter how large the pattern."
+        },
+        {
+          "type": "text",
+          "markdown": "## The basket, and the word that matters\n\nA floor on aggregate claims. Until total losses exceed it, nothing is payable.\n\nThe rationale is sound: representations about a real operating business can never be perfect, and a seller should not face liability for ordinary variance. The basket absorbs it.\n\nBut there are two kinds, and they behave completely differently once crossed."
+        },
+        {
+          "type": "compare",
+          "title": "Deductible basket vs. tipping basket",
+          "items": [
+            {
+              "id": "deductible-basket",
+              "label": "Deductible basket"
+            },
+            {
+              "id": "tipping-basket",
+              "label": "Tipping basket"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "recovery",
+              "label": "What is recovered",
+              "values": [
+                "Recovery only of the excess above the threshold",
+                "Once the threshold is exceeded, recover from the first unit"
+              ]
+            },
+            {
+              "id": "example",
+              "label": "Example",
+              "values": [
+                "Basket of 1m, losses of 1.2m, recover 0.2m",
+                "Basket of 1m, losses of 1.2m, recover 1.2m"
+              ]
+            },
+            {
+              "id": "threshold",
+              "label": "Role of the threshold",
+              "values": [
+                "The threshold is permanently borne by the buyer",
+                "The threshold is a trigger, not a retention"
+              ]
+            },
+            {
+              "id": "in-short",
+              "label": "In short",
+              "values": [
+                "Behaves like an insurance deductible",
+                "Also called a first-dollar basket"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "Note what happens near the threshold. With a basket of one million and losses of 1.01 million, a deductible basket pays ten thousand and a tipping basket pays 1.01 million.\n\nThe clause is a single sentence and the two versions look almost identical. One word — whether recovery is of losses \"in excess of\" the threshold or of \"all losses\" once the threshold is exceeded — carries the whole difference."
+        },
+        {
+          "type": "text",
+          "markdown": "## The cap\n\nA ceiling on aggregate recovery, and rarely a single number.\n\nMost regimes tier it. A **general cap** covers ordinary business representations — commonly a modest percentage of deal value. **Fundamental representations** (title to the assets or shares, due authority, capitalisation) carry a substantially higher cap or none at all, because a failure there goes to whether the buyer got what it paid for. **Tax** is frequently separate again, and **fraud** is essentially always uncapped.\n\nThe practical consequence is that \"the cap\" is usually the wrong question. The right question is which cap applies to the claim you actually have."
+        },
+        {
+          "type": "text",
+          "markdown": "## How the three interact\n\nA claim has to clear every layer in sequence.\n\nFirst it must exceed the de minimis threshold on its own, or it is disregarded — and typically does not even count toward the basket. Then it joins the aggregate. Once the aggregate exceeds the basket, recovery begins — of the excess only, or of everything, depending on the basket type. And the total is then limited by whichever cap applies.\n\nWork it through with real numbers. Deal value of 100. De minimis of 0.05. Basket of 1. General cap of 10.\n\nFour claims arrive: 0.03, 0.2, 0.4 and 0.6.\n\nThe first is disregarded — below de minimis, and it does not count toward the basket either. The remaining three aggregate to 1.2, which clears the basket. With a deductible basket the recovery is 0.2. With a tipping basket it is 1.2.\n\nSame four claims. Same cap. Six times the recovery."
+        },
+        {
+          "type": "text",
+          "markdown": "## What this means in negotiation\n\nThe cap gets the attention because it is the largest number. It is frequently the least important of the three.\n\nMost indemnity claims in practice are far smaller than the cap. They are decided by the de minimis threshold, by whether aggregation is permitted, and above all by the basket type. A buyer that concedes a deductible basket to win two percentage points on the cap has almost certainly made a bad trade."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "idm-l10-fc1",
+              "front": "De minimis threshold",
+              "back": "A floor on individual claims. Below it, a claim is disregarded and typically does not count toward the basket either. Watch for an aggregation provision covering related claims."
+            },
+            {
+              "id": "idm-l10-fc2",
+              "front": "Deductible basket",
+              "back": "Recovery only of losses above the aggregate threshold. Basket of 1m and losses of 1.2m yields 0.2m. The threshold stays with the buyer permanently."
+            },
+            {
+              "id": "idm-l10-fc3",
+              "front": "Tipping basket",
+              "back": "Once aggregate losses exceed the threshold, recovery runs from the first unit. Basket of 1m and losses of 1.2m yields 1.2m. Also called a first-dollar basket."
+            },
+            {
+              "id": "idm-l10-fc4",
+              "front": "Fundamental representations",
+              "back": "Title, due authority, capitalisation — reps going to whether the buyer received what it paid for. Carry a much higher cap or none, and usually a longer survival period."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "idm-l10-q1",
+              "stem": "With a basket of 1 million and aggregate losses of 1.01 million, what is the difference in recovery between a deductible and a tipping basket?",
+              "options": [
+                "No difference — both pay 1.01 million once the threshold is crossed",
+                "A deductible basket pays 10 thousand; a tipping basket pays 1.01 million",
+                "A deductible basket pays 1.01 million; a tipping basket pays 10 thousand",
+                "Neither pays, because the threshold must be exceeded by a material margin"
+              ],
+              "correctIndex": 1,
+              "explanation": "A deductible basket pays only the excess above the threshold. A tipping basket treats the threshold as a trigger and pays everything once crossed. Near the threshold the gap between them is at its most extreme."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idm-l11-survival-periods",
+      "title": "Survival periods: when your protection expires",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Representations do not last forever. Each one survives closing for a defined period, and when that period ends the indemnity resting on it ends with it.\n\nAfter expiry, a breach that has existed since before closing and that nobody discovered is simply the buyer's problem. Permanently."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why twelve to twenty-four months\n\nGeneral business representations commonly survive for somewhere between one and two years, and the number is not arbitrary.\n\nThe logic is the audit cycle. A buyer that has been through one full annual audit of the acquired business has had a genuine opportunity to surface accounting, compliance and operational problems. Survival periods in that range give the buyer that cycle and then close the book.\n\nWhich also tells you what the period is not designed to catch: anything that takes longer than one operating year to become visible."
+        },
+        {
+          "type": "text",
+          "markdown": "## The tiering\n\nDifferent representations get different periods, on a consistent logic — the harder a problem is to discover, or the more fundamental it is, the longer the tail.\n\n**Fundamental representations** — title, authority, capitalisation — survive far longer, often to the statutory limitation period or indefinitely. A defect in title does not become the buyer's problem because eighteen months elapsed.\n\n**Tax representations** are usually tied to the relevant statutory assessment period, because that is how long the authority has to raise the issue.\n\n**Intellectual property** often sits at an intermediate period, on the view that infringement claims surface slowly.\n\n**Specific indemnities** for identified risks run on their own clocks, frequently until the identified matter is finally resolved.\n\n**Covenants** survive until performed, or for a stated period afterward."
+        },
+        {
+          "type": "text",
+          "markdown": "## Notified, or resolved?\n\nThis distinction decides whether a survival period is workable or a trap.\n\nThe standard and sensible position is that a claim **notified** before expiry survives until it is finally resolved, however long that takes. The survival period governs when you must raise the claim, not when you must finish it.\n\nSome provisions say something harsher. A requirement that the claim be **resolved**, or that formal proceedings be **commenced**, within the survival period is a materially different obligation — and on a third-party claim that will run for years, potentially an impossible one.\n\nRead for which it is. A twenty-four month survival requiring resolution within the period is not a twenty-four month survival."
+        },
+        {
+          "type": "text",
+          "markdown": "## The notice problem, again\n\nLesson 4 covered the notice trap in direct claims. Survival is where it bites hardest.\n\nA buyer discovers something in month twenty. The breach is real. The survival period ends at month twenty-four. But the notice provision requires a good-faith estimate of the loss, and the investigation will not conclude for another year.\n\nThe buyer either serves a notice that can be attacked as deficient, or serves nothing and loses the claim at month twenty-four. Both are bad, and the choice was determined at signing by whether anyone negotiated for \"to the extent then determinable.\""
+        },
+        {
+          "type": "text",
+          "markdown": "## The pharma latency problem\n\nHere the standard architecture fits the industry badly.\n\nProduct liability and regulatory exposure in pharma surface on timescales that have nothing to do with audit cycles. A safety signal can emerge in year four. A regulatory inspection finding can arise from conduct years earlier. A patent challenge can be filed long after any general representation has expired.\n\nA twenty-four month survival period does not address any of that. Which is why deals in this sector handle the long tail through other mechanisms:\n\n- **Specific indemnities** with extended or open-ended periods for known product and regulatory issues\n- **Product liability insurance**, which operates on policy terms rather than contractual survival\n- **Reps and warranties insurance**, whose policy period can extend well beyond the contractual survival and is one of the main reasons buyers pursue it\n\nIf the exposure that actually worries you is a latent product issue, the survival period is the wrong instrument to be negotiating. Lesson 13 covers the ones that are."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "idm-l11-fc1",
+              "front": "Survival period",
+              "back": "How long a representation and the indemnity for its breach remain live after closing. Once expired, an undiscovered pre-closing breach becomes permanently the buyer's."
+            },
+            {
+              "id": "idm-l11-fc2",
+              "front": "Notified vs. resolved",
+              "back": "Standard drafting lets a claim notified before expiry survive until finally resolved. A provision requiring resolution or commencement of proceedings within the period is far harsher."
+            },
+            {
+              "id": "idm-l11-fc3",
+              "front": "Why 12-24 months",
+              "back": "It gives the buyer one full post-closing audit cycle to surface problems. It is not designed to catch anything that takes longer than an operating year to become visible."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "idm-l11-q1",
+              "stem": "Why does a standard 24-month survival period fit pharma exposure poorly?",
+              "options": [
+                "Because pharma agreements are typically governed by laws with shorter limitation periods",
+                "Because product liability, regulatory and IP exposure surface on timescales unrelated to an audit cycle, often years after closing",
+                "Because regulatory approvals cannot be transferred within 24 months",
+                "Because insurers require survival periods to exceed 36 months"
+              ],
+              "correctIndex": 1,
+              "explanation": "The 12-24 month convention is built around giving a buyer one audit cycle. Latent safety signals, inspection findings and patent challenges do not respect that timetable, which is why the long tail is handled through specific indemnities and insurance rather than through survival."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idm-l12-escrow-and-holdback",
+      "title": "Escrow and holdback: securing the recovery",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "An indemnity is a promise to pay. Its value depends entirely on the promisor still existing, and still being solvent, when the claim arrives.\n\nThat is not a given. A private equity seller will distribute proceeds to its investors and wind up the holding vehicle. A corporate seller disposing of an asset may dissolve the entity that gave the representations. Three years later there may be nothing to sue.\n\nAn uncapped indemnity from a party that no longer exists is worth less than a small escrow from one that does."
+        },
+        {
+          "type": "text",
+          "markdown": "## Escrow\n\nA portion of the purchase price is placed with a third-party escrow agent at closing, held under an agreement specifying when it releases and what happens if a claim is pending.\n\nThe mechanics worth negotiating:\n\n**Amount.** Often a percentage of deal value, sometimes matching the general cap, sometimes a fraction of it.\n\n**Release schedule.** A single release at expiry of the general survival period, or tranches releasing progressively. Tranches favour the seller by returning capital sooner.\n\n**Pending claims at a release date.** A properly drafted escrow retains the amount of any notified but unresolved claim past the scheduled release and returns the balance.\n\n**Interest.** The escrowed funds earn something. Who receives it is negotiable and frequently overlooked.\n\n**Agent fees.** Modest, but someone pays them."
+        },
+        {
+          "type": "text",
+          "markdown": "## Holdback\n\nThe cheaper alternative: the buyer simply retains part of the price rather than depositing it with an agent.\n\nNo escrow agent, no fees, less documentation. And a materially worse position for the seller, because the buyer is now holding the money.\n\nThe seller bears the buyer's credit risk. The seller has to ask for release rather than having a neutral party administer it. And the buyer has an obvious incentive, at each release date, to find a reason the funds should stay where they are.\n\nHoldbacks are common in smaller transactions and where the parties have a relationship that makes the arrangement comfortable. They are a poor structure where the counterparty is unfamiliar or the amount is significant."
+        },
+        {
+          "type": "compare",
+          "title": "Escrow vs. holdback",
+          "items": [
+            {
+              "id": "escrow",
+              "label": "Escrow"
+            },
+            {
+              "id": "holdback",
+              "label": "Holdback"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "holder",
+              "label": "Who holds the funds",
+              "values": [
+                "Funds held by a neutral third-party agent",
+                "Buyer retains the funds itself"
+              ]
+            },
+            {
+              "id": "release",
+              "label": "Release",
+              "values": [
+                "Release administered under an agreement",
+                "Release depends on the buyer acting"
+              ]
+            },
+            {
+              "id": "credit-risk",
+              "label": "Seller's credit risk",
+              "values": [
+                "Seller bears no counterparty credit risk",
+                "Seller bears the buyer's credit risk"
+              ]
+            },
+            {
+              "id": "trade-off",
+              "label": "Cost and trade-off",
+              "values": [
+                "Costs agent fees and more documentation",
+                "Cheaper, simpler, and weaker for the seller"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## The question that matters most\n\nIs the escrow the **exclusive** source of recovery, or merely security for it?\n\nIf exclusive, the escrow is the real cap regardless of what the cap clause says. A ten per cent cap backed by a five per cent exclusive escrow is a five per cent cap with extra steps.\n\nIf the escrow is security only, the buyer can exhaust it and continue against the seller up to the contractual cap — assuming the seller is still there, which returns us to where this lesson started.\n\nThis single point often moves the economics of an indemnity package more than the cap negotiation does, and it sits in the escrow agreement rather than the purchase agreement, where it receives less attention."
+        },
+        {
+          "type": "text",
+          "markdown": "## Separate escrows for known risks\n\nWhere a specific indemnity covers an identified matter — litigation already on foot, a regulatory issue under discussion — it is common to escrow separately against it, released when that matter resolves rather than on the general schedule.\n\nThis keeps a known, sizeable exposure from consuming the general escrow that exists to cover unknown problems. It also avoids the seller's capital being tied up on the general timetable for a risk that may resolve much sooner, or much later."
+        },
+        {
+          "type": "text",
+          "markdown": "## What insurance changes\n\nWhere reps and warranties insurance is in place, the escrow often shrinks dramatically or disappears.\n\nThe security function has been transferred. The buyer's recourse is to an insurer with a balance sheet rather than to a seller who may be gone, and the seller keeps its proceeds at closing instead of leaving them on deposit for two years.\n\nThat trade is one of the main commercial drivers behind the growth of R&W insurance, and it is the subject of the next lesson."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "idm-l12-fc1",
+              "front": "Exclusive vs. security escrow",
+              "back": "An exclusive escrow is the real cap, whatever the cap clause says. A security escrow can be exhausted and the claim continued against the seller up to the contractual cap."
+            },
+            {
+              "id": "idm-l12-fc2",
+              "front": "Holdback",
+              "back": "The buyer retains part of the price rather than escrowing it. Cheaper and simpler, but the seller bears the buyer's credit risk and must ask for release."
+            },
+            {
+              "id": "idm-l12-fc3",
+              "front": "Pending claim at a release date",
+              "back": "Well-drafted escrows retain the amount of any notified but unresolved claim past the scheduled release and return only the balance."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "idm-l12-q1",
+              "stem": "Why can an exclusive escrow matter more than the cap?",
+              "options": [
+                "Because escrowed funds earn interest that offsets the cap",
+                "Because if the escrow is the only source of recovery, its size is the effective cap regardless of the figure in the cap clause",
+                "Because escrow agreements override survival periods",
+                "Because exclusive escrows are always larger than the general cap"
+              ],
+              "correctIndex": 1,
+              "explanation": "A 10% cap backed by an exclusive 5% escrow is a 5% cap. The escrow's exclusivity sits in the escrow agreement rather than the purchase agreement, which is why it attracts less attention than it deserves."
             }
           ]
         }

@@ -3,7 +3,7 @@
   "id": "indemnification",
   "title": "Indemnification and third-party claims",
   "discipline": "Legal",
-  "version": 5,
+  "version": 6,
   "lessons": [
     {
       "id": "idm-l01-why-hard-to-picture",
@@ -1442,6 +1442,254 @@
               "explanation": "The governing law clause allocates interpretive risk between the contracting parties. A third-party claimant is not a party to that agreement and brings their claim under the applicable law of their own jurisdiction, frequently under a strict liability regime that cannot be contracted away."
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "idm-l16-forum-design",
+      "title": "Courts or arbitration: designing the dispute clause",
+      "xpReward": 60,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Governing law decides how the agreement is read. The forum decides who reads it, under what procedure, and whether the outcome can be appealed.\n\nThey are separate decisions. Drafting them as a single clause — which is common — is how parties end up with a law they chose deliberately and a forum they chose by accident."
+        },
+        {
+          "type": "text",
+          "markdown": "## The real tradeoff\n\nArbitration is usually presented as faster and cheaper than litigation. For most commercial disputes of any size, that is not reliably true.\n\nWhat arbitration genuinely offers is neutrality, confidentiality, a decision-maker the parties chose and who may actually understand the sector, procedural flexibility, and — the decisive one in cross-border deals — an award that travels. Lesson 17 covers that last point, and for many transactions it settles the question on its own.\n\nWhat it costs you is the appeal. An arbitral award is final. An error of law is generally not reviewable anywhere. Finality is an advantage until the tribunal gets it wrong."
+        },
+        {
+          "type": "compare",
+          "title": "Arbitration and litigation compared honestly",
+          "items": [
+            {
+              "id": "arbitration",
+              "label": "Arbitration"
+            },
+            {
+              "id": "litigation",
+              "label": "Litigation"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "enforcement",
+              "label": "Enforcement reach",
+              "values": [
+                "Awards enforce widely across borders",
+                "Judgments enforce poorly outside treaty frameworks"
+              ]
+            },
+            {
+              "id": "character",
+              "label": "Character of the process",
+              "values": [
+                "Neutral forum, confidential, sector-expert tribunal",
+                "Public, and in a court one party may know better"
+              ]
+            },
+            {
+              "id": "appeal",
+              "label": "Appeal on the law",
+              "values": [
+                "No meaningful appeal on the law",
+                "Appeal rights on points of law"
+              ]
+            },
+            {
+              "id": "cost",
+              "label": "Who bears tribunal cost",
+              "values": [
+                "Parties pay the tribunal and the institution",
+                "State-funded judges; lower direct tribunal cost"
+              ]
+            },
+            {
+              "id": "joinder",
+              "label": "Joining third parties",
+              "values": [
+                "Joining third parties is difficult without prior consent",
+                "Third parties can be joined more readily"
+              ]
+            },
+            {
+              "id": "weak-claims",
+              "label": "Disposing of a weak claim",
+              "values": [
+                "Often no cheap route to dispose of a weak claim",
+                "Summary disposal of weak claims available"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## The seat is the term that matters most\n\nAnd it is the term most often confused with something else.\n\nThe **seat** is the legal home of the arbitration. It determines the procedural law governing the arbitration itself, which courts have supervisory jurisdiction over it, and the nationality of the resulting award for enforcement purposes. Only the courts of the seat can set an award aside.\n\nThe **venue** is simply where the hearings physically happen. An arbitration seated in Switzerland can hold hearings in Dubai without becoming a Dubai arbitration.\n\nThat distinction has real consequences. Choosing a seat whose courts are interventionist, or whose judiciary is inexperienced with arbitration, imports a supervisory regime you did not intend. Choosing a seat in a state that is not party to the main enforcement framework undermines the principal reason you chose arbitration."
+        },
+        {
+          "type": "text",
+          "markdown": "## The rest of the clause\n\n**Institution or ad hoc.** An institutional arbitration — ICC, LCIA, SCC, the Swiss Rules, SIAC, HKIAC — is administered: the institution appoints where parties fail to, manages fees, and in some cases scrutinises the draft award before it issues. That administration costs money and is generally worth it. Ad hoc arbitration, typically under the UNCITRAL Rules, is cheaper and demands considerably more from the parties and the tribunal.\n\n**One arbitrator or three.** Three costs roughly three times as much in tribunal fees and moves more slowly. For a mid-size dispute a sole arbitrator is usually the better answer, and a well-drafted clause can make this conditional — sole arbitrator below an agreed threshold, three above it.\n\n**Language.** State it. Do not leave it to be argued.\n\n**Scope.** \"Any dispute arising out of or in connection with this agreement\" is broad and deliberate. A narrower formulation invites a preliminary fight about whether the particular dispute falls inside the arbitration agreement at all.\n\n**Interim relief.** Most institutional rules now provide an emergency arbitrator. That does not remove the need for court support, particularly for relief against third parties or anything requiring state enforcement power. Preserve the right to go to court for urgent measures without that being treated as a waiver of the arbitration agreement."
+        },
+        {
+          "type": "text",
+          "markdown": "## Confidentiality is not automatic\n\nArbitration is commonly described as confidential. Whether it actually is depends on the rules chosen and the law of the seat, and the default is less protective than most people assume.\n\nIf confidentiality matters — and in pharma, where the dispute may concern safety data, pricing or a regulatory position, it usually does — it needs to be addressed expressly rather than assumed."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pathological clauses\n\nA badly drafted dispute clause produces a dispute about the dispute, resolved before the substance is reached, at a cost of months and considerable fees.\n\nThe recurring failures: naming an institution that does not exist, or naming it wrongly; specifying one institution's rules and another's appointing authority; providing for arbitration and simultaneously conferring exclusive jurisdiction on a court; requiring an arbitrator with qualifications no available candidate holds; and multi-tier clauses drafted as mandatory conditions precedent, which hand the other side a jurisdictional objection that the negotiation or mediation stage was never properly exhausted.\n\nTiered escalation can be genuinely useful. Drafted as a hard precondition rather than an expectation, it becomes a weapon for the party that wants delay."
+        },
+        {
+          "type": "text",
+          "markdown": "## What it actually takes\n\nBe realistic at signing about what you are choosing.\n\nAn institutional arbitration of a mid-size commercial dispute commonly runs somewhere between one and two years from request to award, and considerably longer where the matter is technically complex or the tribunal is difficult to constitute. Total costs — tribunal, institution, counsel, experts — frequently reach a meaningful percentage of the amount in dispute, and the proportion rises sharply as the amount falls.\n\nWhich means arbitration is a poor forum for small disputes. A clause that sends every disagreement to a three-member ICC tribunal has made low-value claims uneconomic to pursue, which is a substantive outcome disguised as a procedural choice."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "idm-l16-fc1",
+              "front": "Seat vs. venue",
+              "back": "The seat is the arbitration's legal home: it sets the procedural law, which courts supervise, and the award's nationality for enforcement. The venue is only where hearings physically occur."
+            },
+            {
+              "id": "idm-l16-fc2",
+              "front": "Institutional vs. ad hoc arbitration",
+              "back": "Institutional arbitration is administered by a body that appoints, manages fees and may scrutinise awards. Ad hoc is cheaper and requires more of the parties and tribunal."
+            },
+            {
+              "id": "idm-l16-fc3",
+              "front": "Pathological clause",
+              "back": "A dispute resolution clause defective enough to produce a fight about where to fight — non-existent institutions, inconsistent rules, arbitration plus exclusive court jurisdiction, or mandatory tiers used as a jurisdictional objection."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "idm-l16-q1",
+              "stem": "Why is the choice of seat more consequential than the choice of hearing venue?",
+              "options": [
+                "Because hearings must be held in the seat unless both parties agree otherwise",
+                "Because the seat determines the arbitration's procedural law, which courts may supervise or set aside the award, and the award's nationality for enforcement",
+                "Because arbitrators must be qualified in the law of the seat",
+                "Because the seat determines the governing law of the contract"
+              ],
+              "correctIndex": 1,
+              "explanation": "The seat is the arbitration's legal home. It fixes the supervisory jurisdiction, the procedural law, and the award's nationality for enforcement purposes. The venue is a logistical matter — a Swiss-seated arbitration can hold hearings anywhere."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idm-l17-cross-border-enforcement",
+      "title": "Enforcement across borders: where a win becomes money",
+      "xpReward": 60,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "Winning is not recovering.\n\nA judgment or award is a piece of paper establishing that you are owed something. Turning it into money requires a court in the place where the assets sit to give it effect. If that court will not, the paper is worth what the paper is worth.\n\nThis is the lesson that should change how you read a dispute resolution clause, because it is decided at signing and discovered years later."
+        },
+        {
+          "type": "text",
+          "markdown": "## The asymmetry\n\n**Arbitral awards travel.** A long-standing multilateral convention obliges contracting states — the large majority of commercially relevant jurisdictions — to recognise and enforce awards made in other contracting states, on limited and defined grounds of refusal. This framework is the single strongest practical argument for arbitration in cross-border transactions.\n\n**Court judgments largely do not.** There is no equivalent global treaty for judgments. Within Europe, reciprocal frameworks provide near-automatic recognition between member states and certain neighbours including Switzerland. Outside those frameworks, enforcement of a foreign judgment depends on bilateral treaties where they exist, or on the enforcing state's own recognition rules, which range from workable to effectively closed.\n\nSo an English court judgment against a counterparty whose assets sit outside any applicable framework can be extremely difficult to enforce. An arbitral award against the same counterparty is materially easier. That difference, not speed or cost, is usually what should decide the forum in a deal with an emerging-market or Gulf counterparty.\n\nTreaty membership and the state of newer instruments change over time. Check the current position for the specific jurisdictions in play rather than relying on a general rule — consult qualified counsel in the relevant jurisdiction."
+        },
+        {
+          "type": "text",
+          "markdown": "## How enforcement of an award gets refused\n\nThe grounds are narrow by design, and they are grounds of *procedure and propriety* rather than a re-hearing of the merits. An enforcing court is not permitted to disagree with the tribunal's conclusions.\n\nBroadly, enforcement may be refused where the arbitration agreement was invalid, where a party was denied a proper opportunity to present its case, where the award goes beyond what was submitted to arbitration, where the tribunal was improperly constituted or the procedure departed from what the parties agreed, where the award has been set aside at the seat, where the subject matter is not arbitrable in the enforcing state, or where enforcement would offend that state's public policy.\n\n**Public policy** is the ground most often invoked and the most variable in practice. What it means is genuinely jurisdiction-dependent, and in some places it has been read broadly enough to function as a general discretion."
+        },
+        {
+          "type": "text",
+          "markdown": "## Setting aside is not the same as resisting enforcement\n\nTwo distinct routes, frequently conflated.\n\n**Setting aside** — annulment — can only be sought in the courts of the seat. Succeed there and the award is destroyed at source, which usually defeats enforcement everywhere.\n\n**Resisting enforcement** happens in the courts where enforcement is sought, and succeeds only in that jurisdiction. An award refused enforcement in one state can still be enforced in another.\n\nThis is another reason the seat matters. A seat whose courts annul awards readily gives your counterparty a single forum in which to kill the award entirely."
+        },
+        {
+          "type": "text",
+          "markdown": "## Asset location is what actually determines recovery\n\nYou enforce where the assets are — not where the counterparty is incorporated, not where the contract was signed, not where the arbitration was seated.\n\nWhich turns the dispute clause into a credit question, and the right time to ask it is at signing: **if this goes wrong, where are the assets I could realistically reach?**\n\nA counterparty whose only meaningful assets sit in a jurisdiction that is hostile to enforcement is a credit risk, whatever the dispute clause says. Recognising that at signing leads to a different conversation — about security, guarantees and payment structure — rather than a better-drafted arbitration clause that will not help."
+        },
+        {
+          "type": "text",
+          "markdown": "## Sovereign and state-owned counterparties\n\nRelevant to any deal involving ministries of health, state procurement bodies, or state-owned distributors.\n\nThere are **two separate immunities**, and this is the distinction that surprises people. Immunity from **jurisdiction** — being brought before a tribunal or court at all. And immunity from **execution** — having assets seized to satisfy an award.\n\nA state that has agreed to arbitrate has generally waived the first. It has not necessarily waived the second. You can obtain a valid, enforceable award and still find that the assets you identified are protected from execution because they serve sovereign rather than commercial functions.\n\nState-owned enterprises are usually separate legal persons and treated accordingly, but the analysis is fact-specific and the outcome is not always the commercial one.\n\nThe practical response is an express waiver of immunity from both jurisdiction and execution, identification of commercial assets at the outset, and — more reliably than either — a structure that does not depend on enforcement."
+        },
+        {
+          "type": "text",
+          "markdown": "## Structuring so you never have to enforce\n\nThe best enforcement strategy is not needing one.\n\n- A **parent guarantee** from an entity incorporated where enforcement is straightforward\n- **Letters of credit or bank guarantees** from a bank in a reachable jurisdiction\n- **Escrow**, which lesson 12 covered, holding funds outside the counterparty's control\n- **Security** over identified assets in a jurisdiction whose courts will give effect to it\n- Payment structures that keep money moving toward you rather than accruing as a claim\n\nEach of these converts an enforcement problem into a documentation problem, which is a far better problem to have.\n\nThis is the concrete expression of the point lesson 1 opened with: the indemnity package is a commercial instrument. Its value is not what the clause says. It is what you can actually collect."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "idm-l17-fc1",
+              "front": "Why awards travel and judgments do not",
+              "back": "A long-standing multilateral convention obliges most commercially relevant states to enforce foreign arbitral awards on limited grounds. There is no equivalent global framework for court judgments outside regional arrangements."
+            },
+            {
+              "id": "idm-l17-fc2",
+              "front": "Setting aside vs. resisting enforcement",
+              "back": "Setting aside is annulment, available only at the seat, and usually destroys the award everywhere. Resisting enforcement happens where enforcement is sought and succeeds only there."
+            },
+            {
+              "id": "idm-l17-fc3",
+              "front": "Two sovereign immunities",
+              "back": "Immunity from jurisdiction (being brought before a tribunal) and immunity from execution (having assets seized). Agreeing to arbitrate generally waives the first, not necessarily the second."
+            },
+            {
+              "id": "idm-l17-fc4",
+              "front": "The enforcement question at signing",
+              "back": "If this goes wrong, where are the assets I could realistically reach? If the answer is nowhere useful, the fix is security and structure — not better drafting of the dispute clause."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "idm-l17-q1",
+              "stem": "A state counterparty agreed to arbitration and lost. Why might the award still be uncollectable?",
+              "options": [
+                "Because states cannot be parties to arbitration agreements",
+                "Because agreeing to arbitrate waives immunity from jurisdiction but not necessarily immunity from execution against assets serving sovereign functions",
+                "Because awards against states must be enforced in the state's own courts",
+                "Because sovereign immunity voids the arbitration agreement retrospectively"
+              ],
+              "correctIndex": 1,
+              "explanation": "The two immunities are separate. Consenting to arbitration addresses being brought before a tribunal. Seizing assets to satisfy the award is a distinct question, and assets serving sovereign rather than commercial purposes may remain protected."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idm-l18-building-judgment",
+      "title": "Building judgment on risk allocation over time",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "This module began with an observation: most people who negotiate indemnification clauses have never watched one operate.\n\nSeventeen lessons later, that is still true, and no amount of reading fixes it. What reading can do is make the machinery visible enough that you recognise the terms that will matter before you need them."
+        },
+        {
+          "type": "text",
+          "markdown": "## The pattern worth carrying away\n\nAcross the whole package, attention and consequence are badly correlated.\n\nThe **cap** attracts the most negotiation and decides the fewest claims. The **basket type** — one word — routinely moves a recovery by a multiple. The **escrow's exclusivity** sits in a secondary document and can quietly override the cap that was fought over. The **governing law** gets agreed in the final hour and determines how every other clause is read. The **dispute clause** looks like boilerplate and decides whether a win becomes money.\n\nThis is not a coincidence. The terms that attract attention are the ones that look like money. The terms that decide outcomes are the ones that look like mechanics."
+        },
+        {
+          "type": "text",
+          "markdown": "## What experienced people actually do differently\n\nNot more analysis. Different first questions.\n\nThey check the basket type before the cap. They read the escrow agreement, not only the purchase agreement. They read the exclusions in the R&W policy before treating it as protection. They ask where the counterparty's assets are before agreeing a forum. They look for whether notice is a condition precedent. They ask whether the definition of \"third-party claim\" captures a regulatory action.\n\nNone of that is sophisticated. It is a habit of looking at the mechanics first, acquired by having been surprised."
+        },
+        {
+          "type": "text",
+          "markdown": "## The weak feedback loop\n\nHere is the real obstacle to building judgment in this area, and it is worth naming plainly.\n\nYou will negotiate many indemnity packages and see very few claims. When a claim does arrive it is often years later, handled by someone else, and resolved without anyone reporting back on which negotiated terms actually mattered.\n\nAlmost every other professional skill improves through repetition with feedback. This one does not, because the feedback mostly never arrives.\n\nWhich means the loop has to be closed deliberately rather than relied on."
+        },
+        {
+          "type": "text",
+          "markdown": "## Closing it on purpose\n\nThree practices, in rough order of how much they return.\n\n**Read the indemnity package of every deal you touch**, including the ones you are not negotiating. The variety is the education. Notice which structures recur, which look unusual, and what the unusual ones are protecting against.\n\n**Post-mortem the claims you do see.** When a claim arrives on any deal in your organisation, go back to the agreement and ask which provisions governed the outcome. Not which were most negotiated — which decided it. This is the only direct feedback available and it is routinely wasted.\n\n**Read other people's disputes.** Published awards are scarce, but judgments on commercial indemnity disputes are not, and they are almost entirely about mechanics: whether notice was adequate, whether a basket tipped, whether consequential damages were excluded, whether a settlement breached a consent provision. It is the closest available substitute for having lived through one."
+        },
+        {
+          "type": "text",
+          "markdown": "## One last framing\n\nAn indemnity is a bet on a counterparty's continued existence, solvency and willingness to pay, made years in advance, under a law you may not have chosen carefully, enforceable in a forum you may not have thought about, secured by an amount someone negotiated in a side document.\n\nUnderstood that way, the question at the negotiating table stops being *is this clause acceptable* and becomes *what would actually happen*.\n\nThat shift is the whole point of the module. Everything else was machinery."
         }
       ]
     }

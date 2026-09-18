@@ -3,7 +3,7 @@
   "id": "indemnification",
   "title": "Indemnification and third-party claims",
   "discipline": "Legal",
-  "version": 6,
+  "version": 7,
   "lessons": [
     {
       "id": "idm-l01-why-hard-to-picture",
@@ -365,6 +365,12 @@
           "markdown": "A letter arrives. A regulator opens an inquiry. A competitor files. Whatever the form, the clock has started, and several clocks have started at once.\n\nThe first weeks after a claim surfaces determine a surprising amount of what follows. Not because the legal merits change, but because the procedural and coverage positions can be permanently damaged in that window — quietly, by people acting reasonably."
         },
         {
+          "type": "illustration",
+          "imageUrl": "https://MDaLuz.github.io/microlearn-content/assets/indemnification/l05-claim-arrives.png",
+          "caption": "A claim arrives, and several clocks start at once.",
+          "alt": "A wooden desk seen from above at an angle. A single sheet of paper lies face up beside a torn-open envelope, the sheet carrying horizontal placeholder lines where typed text would be. A small tent-fold desk calendar with an empty grid stands to one side, a corded desk telephone to the other."
+        },
+        {
           "type": "text",
           "markdown": "## What the notice provision actually requires\n\nRead it for three things.\n\n**Timing.** \"Promptly,\" \"as soon as reasonably practicable,\" or a specific number of days. The vaguer formulations are more forgiving in principle and more arguable in practice.\n\n**Content.** A description of the claim, the basis on which indemnification is sought, copies of the claim documents, and often an estimate of the loss. Notice that omits a required element can be attacked as defective even when it arrived on time.\n\n**Consequence.** This is the one people skip. Does the agreement say notice is a *condition precedent* to indemnification?"
         },
@@ -621,6 +627,12 @@
           "markdown": "Whoever controls the defense, the documents and the witnesses usually sit with the indemnified party. It is their business, their employees, their files.\n\nThat asymmetry is why cooperation provisions exist, and why they fall almost entirely on one side."
         },
         {
+          "type": "illustration",
+          "imageUrl": "https://MDaLuz.github.io/microlearn-content/assets/indemnification/l08-document-preservation.png",
+          "caption": "Once a claim is foreseeable, routine deletion stops and the record is preserved.",
+          "alt": "Four plain cardboard archive boxes drawn in isometric technical style. Three are stacked or closed with their lids on; the fourth stands open with its lid propped beside it, showing a row of upright suspension files inside. Label areas on the boxes are blank."
+        },
+        {
           "type": "text",
           "markdown": "## What cooperation actually requires\n\nProduce documents. Make employees available for interviews and depositions. Give counsel access to records and systems. Provide the technical and regulatory knowledge the defense depends on.\n\nIn a pharma claim this is not a light obligation. A product liability matter can consume substantial time from regulatory affairs, pharmacovigilance, and medical affairs staff over a period of years.\n\nWhich raises a question agreements routinely fail to answer: **who pays for it?** Employee time, document review, third-party vendor costs for collection and hosting. If the cooperation clause is silent and the loss definition doesn't cover internal costs, the cooperating party absorbs them."
         },
@@ -821,6 +833,12 @@
           "markdown": "Three provisions filter what an indemnity actually pays: a floor on individual claims, a floor on aggregate claims, and a ceiling on total recovery.\n\nEach is straightforward alone. The value sits in how they interact, and in one word buried in the basket definition that can change a recovery by a factor of six."
         },
         {
+          "type": "illustration",
+          "imageUrl": "https://MDaLuz.github.io/microlearn-content/assets/indemnification/l10-claim-filters.png",
+          "caption": "Small claims are discarded before they count. The aggregate must cross a threshold before anything is payable, and a ceiling limits the total.",
+          "alt": "A cross-section of an upright cylindrical vessel containing stacked blocks of varying thickness, filling it to about half its height. A lower etched reference line crosses through the stack; an upper line sits near the rim with a wide empty gap above the blocks. Several much smaller blocks lie discarded on the surface outside the vessel, and one greyed-out block rests above the rim, excluded."
+        },
+        {
           "type": "text",
           "markdown": "## The de minimis threshold\n\nA floor on individual claims. Anything below it is disregarded entirely.\n\nThe logic is administrative rather than economic. Neither party benefits from a process that entertains claims costing more to assess than they are worth.\n\nThe trap is aggregation. Many small breaches arising from the same underlying problem — a systematic error in how a compliance process was run, say — can each fall below the threshold while amounting to something substantial together. Whether they can be grouped depends on whether the agreement contains an aggregation provision allowing claims arising from the same facts or the same breach to be treated as one.\n\nWithout it, a pattern of small failures is unrecoverable no matter how large the pattern."
         },
@@ -1018,6 +1036,12 @@
           "markdown": "An indemnity is a promise to pay. Its value depends entirely on the promisor still existing, and still being solvent, when the claim arrives.\n\nThat is not a given. A private equity seller will distribute proceeds to its investors and wind up the holding vehicle. A corporate seller disposing of an asset may dissolve the entity that gave the representations. Three years later there may be nothing to sue.\n\nAn uncapped indemnity from a party that no longer exists is worth less than a small escrow from one that does."
         },
         {
+          "type": "illustration",
+          "imageUrl": "https://MDaLuz.github.io/microlearn-content/assets/indemnification/l12-escrow-strongbox.png",
+          "caption": "Funds held where neither party can reach them alone.",
+          "alt": "A sturdy banded metal strongbox drawn in isometric technical style, closed, with two separate brass keyholes side by side on its front face. Two keys lie far apart from one another in front of the box, neither inserted."
+        },
+        {
           "type": "text",
           "markdown": "## Escrow\n\nA portion of the purchase price is placed with a third-party escrow agent at closing, held under an agreement specifying when it releases and what happens if a claim is pending.\n\nThe mechanics worth negotiating:\n\n**Amount.** Often a percentage of deal value, sometimes matching the general cap, sometimes a fraction of it.\n\n**Release schedule.** A single release at expiry of the general survival period, or tranches releasing progressively. Tranches favour the seller by returning capital sooner.\n\n**Pending claims at a release date.** A properly drafted escrow retains the amount of any notified but unresolved claim past the scheduled release and returns the balance.\n\n**Interest.** The escrowed funds earn something. Who receives it is negotiable and frequently overlooked.\n\n**Agent fees.** Modest, but someone pays them."
         },
@@ -1134,6 +1158,12 @@
         {
           "type": "text",
           "markdown": "The insurer has appeared in every procedural lesson so far. A second notice clock in the first thirty days. A third party with a right to appoint counsel. A consent requirement that has to align with two others. A cooperation duty enforced harder than the contractual one.\n\nThis lesson stops treating it as an intrusion into the two-party model and looks at it directly."
+        },
+        {
+          "type": "illustration",
+          "imageUrl": "https://MDaLuz.github.io/microlearn-content/assets/indemnification/l13-insurance-layers.png",
+          "caption": "An insurance programme is built in layers: a retention the insured bears, a primary policy above it, and excess layers attaching above that.",
+          "alt": "Four solid horizontal slabs stacked in a single aligned column, drawn in isometric technical cross-section. The bottom slab is much the thinnest and darkest; each slab above is thicker, with the palest and thickest at the top. Crisp boundaries separate the four layers."
         },
         {
           "type": "text",

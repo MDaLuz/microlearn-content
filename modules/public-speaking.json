@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "id": "public-speaking",
   "title": "Prise de parole en public",
   "discipline": "Communication",
-  "version": 5,
+  "version": 6,
   "levels": [
     {
       "level": 1,
@@ -117,8 +117,14 @@
           "type": "compare",
           "title": "Ce qui capture l'attention vs ce qui la perd",
           "items": [
-            { "id": "win", "label": "Capture l'attention" },
-            { "id": "lose", "label": "Perd l'attention" }
+            {
+              "id": "win",
+              "label": "Capture l'attention"
+            },
+            {
+              "id": "lose",
+              "label": "Perd l'attention"
+            }
           ],
           "attributes": [
             {
@@ -351,8 +357,14 @@
           "type": "compare",
           "title": "Les trois dimensions de la voix en pratique",
           "items": [
-            { "id": "good", "label": "Voix qui tient l'audience" },
-            { "id": "bad", "label": "Voix qui perd l'audience" }
+            {
+              "id": "good",
+              "label": "Voix qui tient l'audience"
+            },
+            {
+              "id": "bad",
+              "label": "Voix qui perd l'audience"
+            }
           ],
           "attributes": [
             {
@@ -445,6 +457,12 @@
         {
           "type": "text",
           "markdown": "## Ce que le corps signale vraiment\n\nDébarrassés des mythes, voici ce qui reste — qui est moins spectaculaire mais robuste:\n\n**La posture globale signale la confiance et l'engagement.** Une posture droite, des épaules ouvertes, le poids réparti sur les deux pieds: l'audience perçoit confiance et préparation. Une posture affaissée, les épaules rentrées, le poids sur une seule jambe: l'audience perçoit incertitude ou désengagement. Cela ne dépend pas de gestes spécifiques, c'est l'impression globale.\n\n**Le contact visuel signale l'engagement avec l'audience.** Regarder votre audience — par segments de quelques secondes, en distribuant le regard à travers la salle — signale que vous parlez avec elle plutôt qu'au-dessus d'elle. Le contact visuel constant avec une seule personne est inconfortable; le contact visuel évité (regard fuyant, fixation sur les notes ou l'écran) signale l'inverse de la confiance.\n\n**L'occupation de l'espace signale l'autorité.** Bouger dans un périmètre raisonnable autour de votre point de départ, plutôt que rester planté immobile ou faire les cent pas nerveusement, signale que vous habitez l'espace. Vous n'avez pas besoin de marcher beaucoup; vous avez besoin de ne pas être figé.\n\n**Les mains qui font quelque chose signalent moins d'anxiété que les mains qui ne font rien.** Tenir un objet (un stylo, un télécommande), poser les mains sur un pupitre, faire des gestes ouverts pendant que vous parlez: l'audience ne le remarque pas particulièrement. Les mains qui s'agrippent l'une à l'autre, qui tirent sur les vêtements, ou qui restent rigidement le long du corps: l'audience le remarque sans le verbaliser et perçoit l'anxiété."
+        },
+        {
+          "type": "illustration",
+          "imageUrl": "https://MDaLuz.github.io/microlearn-content/assets/public-speaking/l06-body-language.png",
+          "caption": "Trois postures : repliée et incertaine (mains crispées, épaules rentrées), agitée et tendue (poing fermé, geste brusque), ouverte et confiante (épaules droites, geste calme).",
+          "alt": "Trois silhouettes côte à côte en chemise blanche : la première debout, épaules affaissées et mains jointes devant elle, regard bas ; la deuxième penchant en avant, poing serré contre la poitrine et autre main pointée vers l'avant, bouche ouverte ; la troisième debout droite, épaules ouvertes, une main tendue dans un geste calme, tenant des feuilles de l'autre main."
         },
         {
           "type": "scenario",
@@ -582,8 +600,14 @@
           "type": "compare",
           "title": "Pauses qui aident vs pauses qui inquiètent",
           "items": [
-            { "id": "good", "label": "Pause intentionnelle" },
-            { "id": "bad", "label": "Silence perdu" }
+            {
+              "id": "good",
+              "label": "Pause intentionnelle"
+            },
+            {
+              "id": "bad",
+              "label": "Silence perdu"
+            }
           ],
           "attributes": [
             {
@@ -677,8 +701,14 @@
           "type": "compare",
           "title": "Slide qui aide vs slide qui parasite",
           "items": [
-            { "id": "help", "label": "Slide utile" },
-            { "id": "harm", "label": "Slide parasite" }
+            {
+              "id": "help",
+              "label": "Slide utile"
+            },
+            {
+              "id": "harm",
+              "label": "Slide parasite"
+            }
           ],
           "attributes": [
             {
@@ -714,6 +744,13 @@
               ]
             }
           ]
+        },
+        {
+          "type": "illustration",
+          "imageUrl": "https://MDaLuz.github.io/microlearn-content/assets/public-speaking/l09-slide-design.png",
+          "caption": "Le slide parasite (titre et cinq puces à lire) contre le slide utile (une seule image qui porte l'idée).",
+          "alt": "Deux rectangles de slide côte à côte séparés par une ligne verticale : à gauche, un titre suivi de cinq puces de texte denses ; à droite, un rectangle presque vide avec une seule grande flèche teal pointant vers le haut.",
+          "aspectRatio": 1.7921146953405018
         },
         {
           "type": "text",
@@ -864,8 +901,14 @@
           "type": "compare",
           "title": "Techniques qui marchent vs techniques qui n'aident pas",
           "items": [
-            { "id": "work", "label": "Techniques qui marchent" },
-            { "id": "myth", "label": "Techniques qui n'aident pas" }
+            {
+              "id": "work",
+              "label": "Techniques qui marchent"
+            },
+            {
+              "id": "myth",
+              "label": "Techniques qui n'aident pas"
+            }
           ],
           "attributes": [
             {
@@ -1029,9 +1072,18 @@
           "type": "compare",
           "title": "Les trois formats en pratique",
           "items": [
-            { "id": "small", "label": "Petit groupe (3-15)" },
-            { "id": "medium", "label": "Groupe moyen (15-100)" },
-            { "id": "large", "label": "Grande audience (100+)" }
+            {
+              "id": "small",
+              "label": "Petit groupe (3-15)"
+            },
+            {
+              "id": "medium",
+              "label": "Groupe moyen (15-100)"
+            },
+            {
+              "id": "large",
+              "label": "Grande audience (100+)"
+            }
           ],
           "attributes": [
             {
@@ -1071,6 +1123,13 @@
               ]
             }
           ]
+        },
+        {
+          "type": "illustration",
+          "imageUrl": "https://MDaLuz.github.io/microlearn-content/assets/public-speaking/l13-audience-size.png",
+          "caption": "Les trois formats côte à côte : petit groupe assis en cercle, groupe moyen face à un présentateur sur une estrade, grande audience face à un pupitre.",
+          "alt": "Trois scènes séparées par des lignes verticales : à gauche, un présentateur debout face à quatre personnes assises en cercle informel ; au centre, un présentateur sur une petite estrade gesticulant face à deux rangées de spécateurs assis ; à droite, un présentateur de dos derrière un pupitre faisant face à une vaste audience nombreuse.",
+          "aspectRatio": 1.7921146953405018
         },
         {
           "type": "text",
@@ -1120,6 +1179,12 @@
         {
           "type": "text",
           "markdown": "Présenter à distance — par visioconférence — est plus difficile que présenter en personne. Pas plus facile, comme beaucoup le pensent parce qu'on n'a pas à se déplacer et qu'on est dans son bureau. Plus difficile, parce que vous perdez la majorité des signaux qui rendent la présentation en personne possible: vous ne voyez pas l'audience, vous ne sentez pas l'énergie de la salle, vous n'avez pas la présence physique qui occupe l'espace.\n\nLa visioconférence n'est pas une version dégradée de la présentation en personne. C'est une discipline distincte, avec ses propres règles et ses propres techniques. Le présentateur qui transpose ses habitudes en personne sans les adapter perd presque toujours son audience."
+        },
+        {
+          "type": "illustration",
+          "imageUrl": "https://MDaLuz.github.io/microlearn-content/assets/public-speaking/l14-video-call.png",
+          "caption": "Un présentateur seul face à sa caméra, l'autre participant réduit à une petite fenêtre sur l'écran — la scène typique de la visioconférence.",
+          "alt": "Un homme assis à un bureau de dos, parlant en gesticulant devant un ordinateur portable surmonté d'une webcam ; l'écran affiche un interlocuteur en petite fenêtre ; une lampe de bureau, une plante et un cadre sur une étagère complètent la pièce."
         },
         {
           "type": "text",

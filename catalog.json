@@ -18,7 +18,7 @@
       "discipline": "Communication",
       "description": "Structurer, livrer, et améliorer ses présentations professionnelles — sans tomber dans les pièges classiques de la prise de parole.",
       "file": "modules/public-speaking.json",
-      "version": 5,
+      "version": 6,
       "lessonCount": 16,
       "estimatedMinutes": 135,
       "accentColor": "#378ADD"

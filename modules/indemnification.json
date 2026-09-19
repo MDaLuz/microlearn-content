@@ -3,7 +3,7 @@
   "id": "indemnification",
   "title": "Indemnification and third-party claims",
   "discipline": "Legal",
-  "version": 7,
+  "version": 8,
   "lessons": [
     {
       "id": "idm-l01-why-hard-to-picture",
@@ -759,7 +759,7 @@
               "values": [
                 "Substitutes for proving actual loss",
                 "Actual loss must still be proven, up to the ceiling",
-                "Unenforceable in common law systems"
+                "Not tied to actual loss — the sum is punitive, not compensatory"
               ]
             },
             {
@@ -768,7 +768,7 @@
               "values": [
                 "Enforceable if a genuine pre-estimate or proportionate to a legitimate interest",
                 "Generally enforceable as a straightforward allocation of risk",
-                "In civil law systems often reduced by the court rather than voided"
+                "Unenforceable in common law systems; in civil law systems often reduced by the court rather than voided"
               ]
             }
           ]

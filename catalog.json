@@ -29,7 +29,7 @@
       "discipline": "Legal",
       "description": "What actually happens when a pharma deal goes wrong — the third-party claim lifecycle, caps, baskets, survival periods, and the machinery that determines who pays.",
       "file": "modules/indemnification.json",
-      "version": 7,
+      "version": 8,
       "lessonCount": 18,
       "estimatedMinutes": 165,
       "accentColor": "#C4782A"

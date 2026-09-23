@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 4,
+  "id": "fenofibrate",
+  "title": "Fenofibrate",
+  "discipline": "Medicines",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "fen-l01-at-a-glance",
+      "title": "At a glance",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## What fenofibrate is\n\nFenofibrate is a **fibrate**, a family of medicines that mainly lower **triglycerides**, the fats the body stores and carries in the blood as fuel. It is one tablet a day, taken on top of diet, exercise and weight loss, not instead of them.\n\nThis module is built on one document: the **SmPC** (summary of product characteristics, the regulator-approved reference text for prescribers) of Secalip Supra 160 mg, authorised in Spain and held by Lacer, S.A. The version used is the text revised in December 2020. Where another source disagrees with it on what is approved, the SmPC wins."
+        },
+        {
+          "type": "text",
+          "markdown": "## What it is approved for\n\nThe SmPC lists three uses, all alongside diet:\n\n- Very high triglycerides (the label says *severe hypertriglyceridaemia*), with or without low **HDL cholesterol**, the fraction carried in particles that move cholesterol away from the arteries.\n- **Mixed hyperlipidaemia**, meaning both cholesterol and triglycerides are raised, when a **statin** (the standard first cholesterol medicine) cannot be used or is not tolerated.\n- Mixed hyperlipidaemia in people at high cardiovascular risk, added to a statin, when triglycerides and HDL cholesterol stay poorly controlled.\n\nNotice what is missing: ordinary high cholesterol as a first treatment. That is deliberate, and Lesson 3 explains how it came about."
+        },
+        {
+          "type": "text",
+          "markdown": "## What it does to blood fats\n\nAcross its clinical trials, the SmPC reports total cholesterol falling by 20–25%, triglycerides by 40–55%, and HDL cholesterol rising by 10–30%. In people with high cholesterol, **LDL cholesterol**, the fraction most closely tied to artery disease, fell by 20–35%.\n\nRead those as orientation, not as results. The SmPC gives them as ranges without naming the **comparator** (what the medicine was compared against) or the time point. You need both before any number means something."
+        },
+        {
+          "type": "text",
+          "markdown": "## What it does to heart attacks and strokes\n\nThe picture here is more modest than the lipid numbers suggest. The SmPC states that fibrates may reduce coronary heart disease events but have not been shown to reduce death from any cause.\n\nIts main outcome evidence is ACCORD-Lipid: 5,518 people with type 2 diabetes, all taking simvastatin, who received either fenofibrate or a **placebo** (a dummy tablet). Over a mean of 4.7 years, heart attack, stroke or cardiovascular death occurred at 2.2% per year with fenofibrate versus 2.4% with placebo. That is about 8% lower in relative terms and, over the whole trial, 0.74 percentage points lower in absolute terms. The result was not **statistically significant**, which means chance can't reasonably be ruled out.\n\nA **subgroup** (a slice of participants analysed separately) with high triglycerides and low HDL cholesterol did better. Subgroup results raise questions; they don't settle them. Lessons 8 and 10 return to this."
+        },
+        {
+          "type": "text",
+          "markdown": "## What to watch\n\nThe SmPC's warnings cluster in five places: the liver, the muscles (the risk rises when a statin is added), the kidneys, the pancreas and the gallbladder. It asks for **transaminases** (liver enzymes measured in a blood test) every three months in the first year, and for **creatinine** (a waste product used to track kidney function) in the first three months, then both periodically.\n\nIt must not be used in liver impairment, severe kidney impairment, known gallbladder disease, pancreatitis (unless caused by very high triglycerides), after a light-sensitivity reaction to a fibrate or ketoprofen, or with a peanut or soy allergy. Lessons 11 and 12 cover each of these."
+        },
+        {
+          "type": "text",
+          "markdown": "## What this module is, and isn't\n\nIt is a learning module, not prescribing advice. Every lesson is dated to the SmPC revision above. The module is refreshed every six months, or straight away if the SmPC changes or a **safety signal** (new evidence suggesting a possible side effect) appears.\n\nWhere the evidence is uncertain, the uncertainty is part of the lesson."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "fen-l01-at-a-glance-fc1",
+              "front": "Fibrate",
+              "back": "A family of lipid-lowering medicines that act mainly on triglycerides. Fenofibrate is one; bezafibrate, ciprofibrate and gemfibrozil are others."
+            },
+            {
+              "id": "fen-l01-at-a-glance-fc2",
+              "front": "SmPC",
+              "back": "Summary of product characteristics: the regulator-approved reference text for prescribers. In this module it always wins on what is approved."
+            },
+            {
+              "id": "fen-l01-at-a-glance-fc3",
+              "front": "Mixed hyperlipidaemia",
+              "back": "Both cholesterol and triglycerides are raised. Two of fenofibrate's three indications are for this, one without a statin and one alongside a statin."
+            },
+            {
+              "id": "fen-l01-at-a-glance-fc4",
+              "front": "Statistically significant",
+              "back": "A result unlikely enough under chance alone that the trial counts it as a real difference. ACCORD-Lipid's main result did not reach this bar."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "fen-l01-at-a-glance-q1",
+              "stem": "According to the SmPC, when can fenofibrate be used on its own for mixed hyperlipidaemia?",
+              "options": [
+                "As first-line treatment for anyone with raised cholesterol and triglycerides",
+                "When a statin is contraindicated or not tolerated",
+                "Only in people with type 2 diabetes",
+                "Only after a statin and ezetimibe have both failed"
+              ],
+              "correctIndex": 1,
+              "explanation": "Fenofibrate alone for mixed hyperlipidaemia is licensed only when a statin cannot be used or is not tolerated. Alongside a statin, it's licensed only in high-risk patients whose triglycerides and HDL cholesterol stay poorly controlled."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg comprimidos recubiertos con película. AEMPS CIMA, MA no. 63.533, text revision December 2020. Sections 4.1, 4.2, 4.3, 4.4, 5.1.\n2. **Journal** — ACCORD Study Group. Effects of combination lipid therapy in type 2 diabetes mellitus. *N Engl J Med* 2010;362:1563–74."
+        }
+      ]
+    },
+    {
+      "id": "fen-l02-how-it-works",
+      "title": "How it works",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A medicine that has to be switched on\n\nFenofibrate itself does very little. It is a **prodrug**, a medicine the body has to convert before it works. Enzymes called **esterases** split it quickly after it is swallowed and release **fenofibric acid**, the form that does the work. According to the EU product information for Cholib, unchanged fenofibrate isn't detected in the blood."
+        },
+        {
+          "type": "text",
+          "markdown": "## The switch it flips\n\nFenofibric acid activates **PPARα** (peroxisome proliferator-activated receptor alpha), a receptor inside cells that acts as a switch for genes involved in handling fat.\n\nFlipping that switch does two things to triglycerides. It turns up **lipoprotein lipase**, the enzyme that strips triglycerides out of fat-carrying particles in the blood. It also turns down apolipoprotein C-III, a protein on those particles that normally brakes that enzyme. The result is more stripping and less braking, so triglyceride-rich particles are cleared faster."
+        },
+        {
+          "type": "text",
+          "markdown": "## Fat travels in packages\n\nFat doesn't dissolve in blood, so it travels inside **lipoproteins**, particles of fat wrapped in protein. Those wrapping proteins are the **apolipoproteins**, which is why apolipoprotein C-III appeared above.\n\nThe SmPC describes fenofibrate's effect on three lipoproteins. **VLDL** (very-low-density lipoprotein), the main carrier of triglycerides, goes down. LDL goes down and shifts away from small, dense particles, a pattern the SmPC links to higher cardiovascular risk. HDL goes up, because PPARα also increases production of the apolipoproteins HDL is built from."
+        },
+        {
+          "type": "compare",
+          "title": "What fenofibrate does to each particle",
+          "items": [
+            {
+              "id": "vldl",
+              "label": "VLDL"
+            },
+            {
+              "id": "ldl",
+              "label": "LDL"
+            },
+            {
+              "id": "hdl",
+              "label": "HDL"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "what-it-carries",
+              "label": "What it carries",
+              "values": [
+                "Main triglyceride carrier",
+                "Main cholesterol carrier",
+                "Carries cholesterol away from arteries"
+              ]
+            },
+            {
+              "id": "effect",
+              "label": "Effect",
+              "values": [
+                "Goes down",
+                "Goes down",
+                "Goes up"
+              ]
+            },
+            {
+              "id": "why",
+              "label": "Why",
+              "values": [
+                "Cleared faster through lipoprotein lipase",
+                "Fewer small, dense particles",
+                "More apolipoproteins A-I and A-II are produced"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Beyond blood fats\n\nThe SmPC lists further effects. Uric acid, the substance behind gout, falls by about a quarter. **CRP** (C-reactive protein, a blood marker of inflammation) falls. Two clotting-related measures also fall in people who start with high levels.\n\nAll of these are changes in **markers**, things measured in the blood. None of them is proof of fewer heart attacks. Holding onto that distinction is the most useful habit this module can give you."
+        },
+        {
+          "type": "text",
+          "markdown": "## What happens in the body\n\nAbsorption rises when fenofibrate is taken with food, which is why the SmPC says to swallow the tablet whole with a meal. Blood levels peak 4–5 hours after a dose. More than 99% of fenofibric acid travels bound to **albumin**, the main protein in blood.\n\nIts **half-life**, the time it takes for blood levels to fall by half, is about 20 hours. It leaves the body mainly in the urine, almost completely within six days. Dialysis doesn't remove it. The kidney route is why kidney function drives the dose rules in Lesson 6."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why this matters for combinations\n\nFenofibrate isn't processed by **CYP3A4**, the liver enzyme that handles simvastatin, and it doesn't block it. That closes off one route for drug interactions with that statin. It doesn't remove the muscle risk the SmPC flags when a fibrate and a statin are combined, which Lessons 9 and 12 cover.\n\nThe SmPC does note weak-to-moderate blocking of CYP2C9, another liver enzyme. Medicines handled by CYP2C9 where a small change in blood level matters need closer monitoring."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why 160 mg isn't less than 200 mg\n\nSecalip Supra contains **micronised** fenofibrate, ground into very fine particles, and the SmPC describes its **bioavailability** (the share of a dose that reaches the bloodstream) as higher than older forms.\n\nThat's why the SmPC allows switching from a 200 mg Secalip capsule to the 160 mg tablet with no dose adjustment. With fenofibrate, the milligram number on the box doesn't tell you on its own what the body receives."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "fen-l02-how-it-works-fc1",
+              "front": "Prodrug",
+              "back": "A medicine the body must convert before it works. Fenofibrate is converted by esterases into fenofibric acid."
+            },
+            {
+              "id": "fen-l02-how-it-works-fc2",
+              "front": "PPARα",
+              "back": "A receptor inside cells that switches on genes for handling fat. Fenofibric acid activates it, raising lipoprotein lipase and lowering apolipoprotein C-III."
+            },
+            {
+              "id": "fen-l02-how-it-works-fc3",
+              "front": "Lipoprotein lipase",
+              "back": "The enzyme that strips triglycerides out of fat-carrying particles in the blood. Fenofibrate turns it up."
+            },
+            {
+              "id": "fen-l02-how-it-works-fc4",
+              "front": "Half-life",
+              "back": "The time for blood levels to fall by half. About 20 hours for fenofibric acid."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "fen-l02-how-it-works-q1",
+              "stem": "Why can a patient switch from a 200 mg Secalip capsule to a 160 mg Secalip Supra tablet without a dose adjustment?",
+              "options": [
+                "Because 40 mg of the capsule is inactive filler",
+                "Because the tablet's micronised form has higher bioavailability, so the milligram number alone doesn't reflect what the body receives",
+                "Because the tablet is taken twice a day",
+                "Because fenofibrate's effect doesn't depend on dose"
+              ],
+              "correctIndex": 1,
+              "explanation": "Secalip Supra uses micronised fenofibrate with higher bioavailability than older forms. The SmPC therefore treats 160 mg of this tablet as a direct replacement for a 200 mg Secalip capsule."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA, MA no. 63.533, text revision December 2020. Sections 4.2, 4.5, 5.1, 5.2.\n2. **EPAR** — Cholib (fenofibrate/simvastatin), EMA product information, section 4.5 (simvastatin and CYP3A4) and section 5.2 (unchanged fenofibrate not detected in plasma)."
+        }
+      ]
+    },
+    {
+      "id": "fen-l03-history",
+      "title": "History",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A French molecule\n\nFenofibrate was developed by Groupe Fournier, a French company, and has been in use in France since 1975. It is chemically related to two older fibrates, clofibrate and gemfibrozil. In the EU it has been sold mainly as Lipanthyl.\n\nIt reached the US market as Tricor in 1998, marketed by Abbott under a 1997 licence from Fournier. At that point it was already available in 77 countries."
+        },
+        {
+          "type": "text",
+          "markdown": "## One molecule, many forms\n\nMuch of fenofibrate's later life has been about formulation. The EU product information covers capsules of 67, 100, 200, 250 and 300 mg and tablets of 145 and 160 mg. These include standard, **micronised** and **prolonged-release** forms (the last releases the medicine slowly over the day), and a **nanoparticle** form with even smaller particles.\n\nSecalip Supra 160 mg, the product this module is based on, was first authorised in Spain on 1 September 2000."
+        },
+        {
+          "type": "text",
+          "markdown": "## The question caught up with it\n\nFibrates came into use before many of today's lipid-lowering medicines existed. The EMA framed its later review around that fact: the question became where fibrates fit now that alternatives were available.\n\nIn 2005 the EU's **PhVWP** (Pharmacovigilance Working Party, the expert group then responsible for EU safety reviews) looked at all fibrates, because evidence of long-term cardiovascular benefit was limited. It found no new safety issues. It concluded that fibrates still had a role but should not be **first-line**, meaning the first treatment tried."
+        },
+        {
+          "type": "text",
+          "markdown": "## The referral\n\nSeveral companies disputed that restriction. So on 20 October 2009 the UK regulator triggered an **Article 31 referral**, an EU-wide review of a medicine class on public-health grounds. It asked the **CHMP**, the EMA's main committee for human medicines, for an opinion.\n\nThe CHMP agreed with the working party. Fibrates remain an acceptable option for lowering lipids, but first-line use isn't justified. There were two exceptions: people who cannot take a statin, and people with very high triglycerides, where fibrates lower triglycerides more than statins do."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why fenofibrate kept a third indication\n\nFenofibrate came out of the review with something the other fibrates didn't get. Based on new data from ACCORD-Lipid, the CHMP accepted its use alongside a statin in some high-risk patients whose triglycerides and HDL cholesterol stayed poorly controlled. That recommendation is the third indication in the Secalip Supra SmPC today.\n\nThe ACCORD paragraph the review added to the label is also still there. It keeps three things together: the neutral overall result, the better result in the high-triglyceride, low-HDL subgroup, and a possible harmful effect in women that can't be ruled out."
+        },
+        {
+          "type": "text",
+          "markdown": "## Two medicines in one tablet\n\nThe add-on-to-a-statin idea then became a single tablet. Two **fixed-dose combinations** (two medicines in one tablet) were authorised for the whole EU at once. Pravafenix (fenofibrate + pravastatin) was authorised on 14 April 2011, and Cholib (fenofibrate + simvastatin) on 26 August 2013. Both are licensed only for high-risk adults with mixed hyperlipidaemia whose LDL cholesterol is already controlled on the statin alone.\n\nBecause they went through the EU-wide route, both have an **EPAR** (European public assessment report, the EMA's published evaluation). Single-ingredient fenofibrate was approved country by country and has none."
+        },
+        {
+          "type": "text",
+          "markdown": "## Same evidence, a different ending in the US\n\nOn 18 April 2016 the **FDA** (the US Food and Drug Administration) withdrew the approval of fenofibric acid delayed-release capsules (Trilipix) for use alongside a statin. It concluded that the combined outcome-trial evidence no longer showed that lowering triglycerides or raising HDL in statin-treated patients reduces cardiovascular events. The withdrawal concerned fenofibric acid capsules specifically.\n\nThe Secalip Supra SmPC, revised in 2020, still carries the statin add-on indication, and Cholib remains authorised in the EU. Both regulators had the same trial data in front of them and reached different conclusions."
+        },
+        {
+          "type": "compare",
+          "title": "The statin add-on question, two regulators",
+          "items": [
+            {
+              "id": "eu",
+              "label": "EU — fenofibrate"
+            },
+            {
+              "id": "us",
+              "label": "US — fenofibric acid (Trilipix)"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "first-decision",
+              "label": "First decision",
+              "values": [
+                "Moved to second-line after the 2009–2011 referral",
+                "Approved in December 2008, including use with a statin"
+              ]
+            },
+            {
+              "id": "statin-add-on",
+              "label": "Statin add-on",
+              "values": [
+                "Statin add-on kept for high-risk mixed hyperlipidaemia",
+                "Statin co-administration approval withdrawn April 2016"
+              ]
+            },
+            {
+              "id": "what-followed",
+              "label": "What followed",
+              "values": [
+                "Combination tablets with pravastatin (2011) and simvastatin (2013)",
+                "Reason: outcome trials showed no added cardiovascular benefit"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "fen-l03-history-fc1",
+              "front": "Article 31 referral",
+              "back": "An EU-wide review of a medicine or medicine class on public-health grounds. The fibrate referral was triggered by the UK in 2009."
+            },
+            {
+              "id": "fen-l03-history-fc2",
+              "front": "CHMP",
+              "back": "The EMA's Committee for Medicinal Products for Human Use. It gives the scientific opinion; the European Commission turns it into a binding decision."
+            },
+            {
+              "id": "fen-l03-history-fc3",
+              "front": "Fixed-dose combination",
+              "back": "Two medicines in one tablet. For fenofibrate in the EU: Pravafenix (with pravastatin) and Cholib (with simvastatin)."
+            },
+            {
+              "id": "fen-l03-history-fc4",
+              "front": "EPAR",
+              "back": "European public assessment report, the EMA's published evaluation of a centrally authorised medicine. Single-ingredient fenofibrate has none; Cholib and Pravafenix each have one."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "fen-l03-history-q1",
+              "stem": "What did the EU fibrate review allow for fenofibrate that it didn't allow for the other fibrates?",
+              "options": [
+                "First-line use for ordinary high cholesterol",
+                "Use in children",
+                "Use alongside a statin in some high-risk patients whose triglycerides and HDL cholesterol stay poorly controlled",
+                "Use without dietary measures"
+              ],
+              "correctIndex": 2,
+              "explanation": "Based on ACCORD-Lipid data, the CHMP accepted fenofibrate as an add-on to a statin in a narrow high-risk group. That wording is the third indication in the SmPC today."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA, MA no. 63.533, text revision December 2020. Sections 4.1, 5.1, 9.\n2. **EPAR-level** — EMA, Fibrates Article 31 referral (2010–11): referral overview, questions and answers, Annex III.\n3. **EPAR** — Cholib, EMEA/H/C/002559 (authorised 26 August 2013); Pravafenix, EMEA/H/C/001243 (authorised 14 April 2011).\n4. **Pharmacovigilance** — FAMHP (Belgium), EMA recommendation to limit fibrates to second-line, 28 October 2010.\n5. **US (differences only)** — Federal Register 81(74):22612–13, 18 April 2016.\n6. **Secondary, dates only** — Pharmacology Update: Fenofibrate, new antilipemic agent. Clinician.com, September 1998."
+        }
+      ]
+    }
+  ]
+}

@@ -33,6 +33,17 @@
       "lessonCount": 18,
       "estimatedMinutes": 165,
       "accentColor": "#C4782A"
+    },
+    {
+      "id": "fenofibrate",
+      "title": "Fenofibrate",
+      "discipline": "Medicines",
+      "description": "What the label approves, and what the trials showed",
+      "file": "modules/fenofibrate.json",
+      "version": 1,
+      "lessonCount": 15,
+      "estimatedMinutes": 135,
+      "accentColor": "#1D9E75"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "id": "fenofibrate",
   "title": "Fenofibrate",
   "discipline": "Medicines",
-  "version": 2,
+  "version": 3,
   "lessons": [
     {
       "id": "fen-l01-at-a-glance",
@@ -703,6 +703,322 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA, MA no. 63.533, text revision December 2020. Sections 4.2, 4.4, 4.6, 4.9, 5.2.\n2. **PIL** — Secalip Supra 160 mg, revised December 2020. Section 3.\n3. **US (differences only)** — Tricor (fenofibrate) prescribing information, June 2025 revision and earlier AbbVie version (strengths)."
+        }
+      ]
+    },
+    {
+      "id": "fen-l07-reading-a-trial",
+      "title": "Reading a clinical trial",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Why this lesson comes first\n\nThe next two lessons are built from trials, and every trial appears on the same card so you can read each one the same way. This lesson covers the handful of ideas those cards depend on, using fenofibrate's own trials as the examples."
+        },
+        {
+          "type": "text",
+          "markdown": "## Who gets what\n\nA trial starts with a question and a group of volunteers. Before the real comparison, many trials use a **run-in**: a short lead-in period on a fixed treatment, to see who tolerates it and sticks with it. FIELD ran one on placebo and then one on fenofibrate, before anyone was randomised.\n\nRandomisation comes next. In a **double-blind** trial, neither the participants nor the investigators know who is getting what, so expectations can't tilt the results. Trial registries sometimes call this 'masking'."
+        },
+        {
+          "type": "text",
+          "markdown": "## What counts as the answer\n\nEvery trial names its **primary endpoint** in advance: the single measure that decides whether the trial succeeded. Everything else is secondary, and can only support or question that main answer.\n\nOutcome trials often use a **composite endpoint**, which counts several kinds of event together. In ACCORD-Lipid it was the first occurrence of a heart attack, a stroke or cardiovascular death. Lipid trials use markers instead, such as the percentage change in triglycerides after 12 weeks. A marker tells you what the medicine did to the blood, not what it did for the patient."
+        },
+        {
+          "type": "text",
+          "markdown": "## Two ways to state the same effect\n\nIn FIELD, 5.9% of people on placebo and 5.2% of people on fenofibrate had a coronary event over five years.\n\nThe **absolute risk reduction** is the plain difference between those two figures: 0.7 percentage points. The **relative risk reduction** expresses that difference as a share of the placebo figure, which the trial reported as about 11%. The same result sounds small one way and bigger the other. That's why this module always gives both, together with the comparator and the time point.\n\nFor lipid trials, the equivalent pair is each group's percentage change plus the difference between the groups, again with the comparator and the week it was measured."
+        },
+        {
+          "type": "text",
+          "markdown": "## Hazard ratios and confidence intervals\n\nOutcome trials usually report a **hazard ratio** (HR), which compares how often events happened in the treated group with how often they happened in the comparison group over the course of the trial. An HR of 0.89 means events happened about 11% less often.\n\nThe **confidence interval** (CI) is the range of values the data are compatible with. FIELD's was 0.75 to 1.05. That range includes 1.0, which means no difference, so the result wasn't statistically significant. The **p-value**, 0.16 in FIELD, says the same thing another way; the conventional bar is 0.05."
+        },
+        {
+          "type": "text",
+          "markdown": "## Turning a result into people\n\nThe **number needed to treat** (NNT) is 100 divided by the absolute risk reduction in percentage points. It tells you how many people would need treating, for that length of time, to prevent one event.\n\nIn FIELD, total cardiovascular events, a secondary outcome, fell from 13.9% to 12.5% over five years. That's a 1.4-point difference, which gives an NNT of about 71 over five years. The trial didn't report this figure; it's calculated here from its numbers.\n\nAn NNT only means something when the difference is real. FIELD's primary result wasn't significant, so an NNT for it would dress up noise as a number."
+        },
+        {
+          "type": "text",
+          "markdown": "## Who is counted, and what else they took\n\nMost outcome trials are analysed by **intention to treat**: everyone is counted in the group they were assigned to, whether or not they kept taking the tablets. This protects the comparison from bias, and it means the result reflects the treatment as people actually took it.\n\nThat matters when people start other treatment on their own during the trial, which is called **drop-in**. In FIELD, 17% of the placebo group and 8% of the fenofibrate group started another lipid medicine, mostly a statin. The investigators said this may have hidden a larger benefit. It's also why every trial in this module is tagged with what participants were already taking."
+        },
+        {
+          "type": "text",
+          "markdown": "## Better, or not worse?\n\nA **superiority** trial asks whether a treatment is better than its comparator. A **non-inferiority** trial asks whether it is not worse by more than a limit set in advance.\n\nOne of Cholib's pivotal studies needed both answers: better on triglycerides and HDL, and not worse on LDL. It met the first two goals and missed the third. Lesson 9 shows the numbers."
+        },
+        {
+          "type": "text",
+          "markdown": "## Subgroups and interactions\n\nA subgroup result deserves attention only when the trial also tests for an **interaction**, which asks whether the treatment effect really differs between subgroups or only appears to by chance.\n\nIn ACCORD-Lipid, the test for a difference between lipid subgroups gave p = 0.057, just above the usual bar. The test for a difference between men and women gave p = 0.01. This module treats both as questions, not answers."
+        },
+        {
+          "type": "text",
+          "markdown": "## The combination tags\n\nEach trial card carries exactly one tag describing what participants were already taking:\n\n- 🔗 +STATIN: everyone was on a statin, and fenofibrate was added or compared on top of it\n- 🔗 +STATIN+EZE: everyone was on a statin plus ezetimibe\n- 🔗 +EZE: everyone was on ezetimibe, with no statin\n- 🔗 FDC: both medicines were given in one tablet or capsule\n- 🔗 MIXED: some participants were on background lipid treatment and some weren't\n- STATIN-INTOLERANT: participants couldn't take a statin\n- MONO: no background lipid treatment\n\n**Ezetimibe** is a cholesterol medicine that reduces how much cholesterol the gut absorbs."
+        },
+        {
+          "type": "text",
+          "markdown": "## Reading a card\n\nEvery card has the same eight lines: the registry number, who took part, background therapy, what the treatment was compared with, the main question, the headline result, what it means in plain words, and what's worth knowing.\n\nA **registry number**, such as an NCT or ISRCTN code, points to the trial's public record, where its plan was written down before any results came in. Comparing that record with the published paper is one of the simplest checks you can make."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "fen-l07-reading-a-trial-fc1",
+              "front": "Hazard ratio",
+              "back": "How often events happened with treatment compared with the comparator, over the trial. 0.89 means about 11% less often."
+            },
+            {
+              "id": "fen-l07-reading-a-trial-fc2",
+              "front": "Confidence interval",
+              "back": "The range of values the data are compatible with. If it includes 1.0 (for a hazard ratio), the result isn't statistically significant."
+            },
+            {
+              "id": "fen-l07-reading-a-trial-fc3",
+              "front": "Absolute vs relative risk reduction",
+              "back": "Absolute: the plain difference in percentage points. Relative: that difference as a share of the comparator's rate. This module always gives both."
+            },
+            {
+              "id": "fen-l07-reading-a-trial-fc4",
+              "front": "NNT",
+              "back": "Number needed to treat: 100 divided by the absolute risk reduction, over a stated time. Only meaningful when the difference is real."
+            },
+            {
+              "id": "fen-l07-reading-a-trial-fc5",
+              "front": "Drop-in",
+              "back": "Participants starting other treatment on their own during a trial. In FIELD, 17% on placebo and 8% on fenofibrate started other lipid drugs."
+            },
+            {
+              "id": "fen-l07-reading-a-trial-fc6",
+              "front": "Non-inferiority",
+              "back": "A test of whether a treatment is not worse than its comparator by more than a limit set in advance."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "fen-l07-reading-a-trial-q1",
+              "stem": "FIELD's primary result was HR 0.89 (95% CI 0.75–1.05). What does the interval tell you?",
+              "options": [
+                "Fenofibrate reduced coronary events by exactly 11%",
+                "The interval includes 1.0, so the result is compatible with no difference and isn't statistically significant",
+                "Between 75% and 105% of patients benefited",
+                "The trial was too short to measure anything"
+              ],
+              "correctIndex": 1,
+              "explanation": "An HR of 1.0 means no difference. Because FIELD's interval runs from 0.75 to 1.05 and includes 1.0, the data are compatible with no effect, which matches its p-value of 0.16."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Journal** — FIELD Study Investigators. Effects of long-term fenofibrate therapy on cardiovascular events in 9795 people with type 2 diabetes mellitus. *Lancet* 2005;366:1849–61. ISRCTN64783481.\n2. **Journal** — ACCORD Study Group. *N Engl J Med* 2010;362:1563–74. NCT00000620.\n3. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA 63.533, revision December 2020, section 5.1.\n4. **EPAR** — Cholib product information, section 5.1 (study 0501 design)."
+        }
+      ]
+    },
+    {
+      "id": "fen-l08-pivotal-trials",
+      "title": "The pivotal trials",
+      "xpReward": 60,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## What 'pivotal' means here\n\nA **pivotal trial** is one a regulator relies on to reach its decision. The Secalip Supra SmPC doesn't describe the lipid studies behind fenofibrate's original authorisations. It cites two large outcome trials instead: ACCORD-Lipid in section 5.1, and FIELD in the side-effects section. Those two shaped today's wording, so they are the pivotal trials in this module.\n\nA third, newer trial follows them. It sits outside the label but is worth knowing about."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: FIELD\nTag: MONO\n\n- Registry: ISRCTN64783481\n- Who took part: 9,795 adults aged 50–75 with type 2 diabetes, not taking a statin at entry; 2,131 had previous cardiovascular disease\n- Background therapy: no lipid-lowering treatment at entry (see drop-in below)\n- Compared with: placebo, over about five years\n- Main question: does micronised fenofibrate 200 mg a day reduce coronary events, meaning coronary death or a non-fatal heart attack?\n- Headline result: coronary events occurred in 5.2% on fenofibrate vs 5.9% on placebo over five years; HR 0.89 (95% CI 0.75–1.05), p = 0.16. That's about 11% lower in relative terms and 0.7 percentage points lower in absolute terms. It wasn't statistically significant.\n- In plain words: the main question came back 'not proven'. A secondary outcome, total cardiovascular events, was lower (12.5% vs 13.9%; HR 0.89, 95% CI 0.80–0.99), mostly because of fewer non-fatal heart attacks and fewer artery-opening procedures. Death from any cause was 7.3% vs 6.6% (p = 0.18).\n- Worth knowing: 17% of the placebo group and 8% of the fenofibrate group started other lipid drugs, mostly statins, which may have hidden part of the effect. Fewer people on fenofibrate needed laser treatment for retinopathy (3.6% vs 5.2%). There was also more pancreatitis (0.8% vs 0.5%) and more pulmonary embolism (1.1% vs 0.7%) — the figures the SmPC quotes."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: ACCORD-Lipid\nTag: 🔗 +STATIN\n\n- Registry: NCT00000620\n- Who took part: 5,518 adults with type 2 diabetes at high cardiovascular risk\n- Background therapy: open-label simvastatin for everyone\n- Compared with: simvastatin plus placebo; mean follow-up 4.7 years\n- Main question: does adding fenofibrate to simvastatin reduce heart attack, stroke or cardiovascular death?\n- Headline result: 2.2% per year with fenofibrate vs 2.4% per year with placebo; HR 0.92 (95% CI 0.79–1.08), p = 0.32. That's about 8% lower in relative terms and, over the whole trial, 0.74 percentage points lower in absolute terms. It wasn't statistically significant. Death from any cause was 1.5% vs 1.6% per year.\n- In plain words: across the whole trial, adding fenofibrate to a statin didn't reduce cardiovascular events.\n- Worth knowing: in the 941 people with high triglycerides and low HDL, events were 12.4% vs 17.3% (HR 0.69, 95% CI 0.49–0.97), but the interaction test gave p = 0.057. A separate test pointed to benefit in men and possible harm in women (p = 0.01). ACCORD-Lipid also ran inside a blood-sugar trial, a 2×2 **factorial design** that tests two questions in one set of participants."
+        },
+        {
+          "type": "text",
+          "markdown": "## What the regulator did with these two\n\nNeither trial answered its main question with a yes. Even so, the EU review kept fenofibrate available, moved it to second-line, and granted the add-on-to-a-statin indication on the strength of the ACCORD data. The label prints the favourable subgroup and the warning about women side by side.\n\nIn 2016 the US drew the opposite conclusion for fenofibric acid. Both readings are on the record, and this module doesn't choose between them."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: LENS (outside the label)\nTag: 🔗 MIXED\n\n- Registry: NCT03439345\n- Who took part: 1,151 adults with type 1 or type 2 diabetes and early retinopathy, recruited through Scotland's eye-screening programme\n- Background therapy: usual care; the share of participants on statins isn't confirmed in this module's notes, so this tag is provisional\n- Compared with: placebo; median follow-up 4.0 years\n- Main question: does fenofibrate 145 mg (daily, or on alternate days in people with impaired kidney function) slow progression to referable retinopathy or the need for eye treatment?\n- Headline result: 22.7% on fenofibrate vs 29.2% on placebo; HR 0.73 (95% CI 0.58–0.91), p = 0.006. That's about 27% lower in relative terms and 6.5 percentage points lower in absolute terms over four years.\n- In plain words: in people with early diabetic eye disease, fenofibrate slowed progression. This is not an indication in the EU label.\n- Worth knowing: there was no effect on sight, measured as visual acuity, or on quality of life. Average eGFR ran 7.9 lower on fenofibrate, consistent with the creatinine rises the SmPC describes. Alternate-day dosing was the trial's own scheme and doesn't appear in the label."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "fen-l08-pivotal-trials-fc1",
+              "front": "Pivotal trial",
+              "back": "A trial a regulator relies on to reach its decision. For fenofibrate in this module: FIELD and ACCORD-Lipid."
+            },
+            {
+              "id": "fen-l08-pivotal-trials-fc2",
+              "front": "Factorial design",
+              "back": "One set of participants randomised to answer two questions at once. ACCORD-Lipid ran inside ACCORD's blood-sugar comparison."
+            },
+            {
+              "id": "fen-l08-pivotal-trials-fc3",
+              "front": "FIELD in one line",
+              "back": "Primary result not significant (HR 0.89, 95% CI 0.75–1.05); total cardiovascular events lower; drop-in statins may have hidden part of the effect."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "fen-l08-pivotal-trials-q1",
+              "stem": "Which statement about ACCORD-Lipid is accurate?",
+              "options": [
+                "It showed a significant reduction in cardiovascular death",
+                "It tested fenofibrate without any statin",
+                "Its overall result wasn't significant, and a favourable high-triglyceride, low-HDL subgroup had an interaction p-value of 0.057",
+                "It excluded women"
+              ],
+              "correctIndex": 2,
+              "explanation": "Everyone in ACCORD-Lipid was on simvastatin. The overall HR was 0.92 and not significant. The subgroup looked better, but its interaction test just missed the usual bar, and the label also carries a possible harm signal in women."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA 63.533, revision December 2020, sections 4.8 and 5.1.\n2. **EPAR-level** — EMA, Fibrates Article 31 referral (2010–11).\n3. **Journal** — FIELD Study Investigators. *Lancet* 2005;366:1849–61.\n4. **Journal** — ACCORD Study Group. *N Engl J Med* 2010;362:1563–74; subgroup counts from *Cardiovasc Diabetol* 2010;9:24.\n5. **Journal** — Preiss D et al. Effect of fenofibrate on progression of diabetic retinopathy (LENS). *NEJM Evid* 2024;3(8):EVIDoa2400179.\n6. **US (differences only)** — Federal Register 81(74):22612–13, 18 April 2016."
+        }
+      ]
+    },
+    {
+      "id": "fen-l09-combination-trials",
+      "title": "🔗 Combination trials",
+      "xpReward": 70,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Why this lesson matters\n\nFenofibrate is rarely the only lipid medicine a patient takes. This lesson shows which partner medicines each licence actually names, sets the SmPC's own interaction lines side by side, compares what is known for fenofibrate alone and in combination, and lists every combination trial found in the registers."
+        },
+        {
+          "type": "text",
+          "markdown": "## What the EU licences actually name\n\n- Secalip Supra: 'a statin', without naming which one, in high-risk mixed hyperlipidaemia when triglycerides and HDL stay uncontrolled.\n- Cholib: simvastatin only, at 20 or 40 mg, when LDL is already controlled on that dose.\n- Pravafenix: pravastatin 40 mg or another moderate-intensity statin regimen, when LDL is controlled. That second option was added later; the original wording named pravastatin 40 mg only.\n- The Spanish rosuvastatin + fenofibrate products: rosuvastatin, as a replacement for the same doses taken as separate tablets.\n\nNone of the EU fenofibrate licences reviewed for this module names ezetimibe."
+        },
+        {
+          "type": "text",
+          "markdown": "## The SmPC's interaction lines\n\n**Statins.** Section 4.5 of the Secalip Supra SmPC says the risk of serious muscle toxicity rises when fenofibrate is combined with a statin (the SmPC calls statins HMG-CoA reductase inhibitors) or with another fibrate. The combination should be used with caution, and patients should be watched closely for signs of muscle toxicity. Section 4.4 goes further: co-prescription should be reserved for severe dyslipidaemia with high cardiovascular risk, in patients with no history of muscle disease, and under strict monitoring.\n\n**Ezetimibe.** The Secalip Supra SmPC has no ezetimibe line at all. The ezetimibe SmPC covers the pairing from its own side: fenofibrate raised ezetimibe levels about 1.5-fold, prescribers should be aware of a possible risk of gallstones, and if gallstones are suspected the gallbladder should be investigated and the combination stopped."
+        },
+        {
+          "type": "compare",
+          "title": "Alone, with a statin, with a statin and ezetimibe",
+          "items": [
+            {
+              "id": "fenofibrate-alone",
+              "label": "Fenofibrate alone"
+            },
+            {
+              "id": "statin",
+              "label": "+ statin"
+            },
+            {
+              "id": "statin-ezetimibe",
+              "label": "+ statin + ezetimibe"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "lipids",
+              "label": "Lipids",
+              "values": [
+                "SmPC ranges only, with no comparator or time point",
+                "Cholib study 0502, triglycerides 28 points lower than simvastatin 40 mg alone at 12 weeks",
+                "one 12-week trial in 611 people (NCT00093899)"
+              ]
+            },
+            {
+              "id": "outcomes",
+              "label": "Outcomes",
+              "values": [
+                "FIELD primary result not significant; total cardiovascular events lower",
+                "ACCORD-Lipid not significant overall",
+                "no trial found"
+              ]
+            },
+            {
+              "id": "eu-licence",
+              "label": "EU licence",
+              "values": [
+                "yes, for severe hypertriglyceridaemia, or when a statin isn't possible",
+                "yes, through Secalip Supra's third indication, Cholib and Pravafenix",
+                "none found"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## How to read those three columns\n\nRead each column on its own, not against the others. Each column draws on different trials, in different people, at different doses. The table shows what evidence exists; it doesn't show which approach works best. No trial has compared all three head-to-head."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: Cholib study 0501\nTag: 🔗 +STATIN\n\n- Registry: NCT00349375 (EudraCT 2005-003270-14)\n- Who took part: adults with mixed dyslipidaemia at cardiovascular risk whose lipids weren't controlled on simvastatin 20 mg\n- Background therapy: a simvastatin 20 mg run-in; fenofibrate was given as a separate tablet (**co-administration**), not as the combination tablet\n- Compared with: simvastatin 40 mg, i.e. doubling the statin; 12 weeks for the main question, 24 weeks in total\n- Main question: is fenofibrate 145 mg plus simvastatin 20 mg better than simvastatin 40 mg on triglycerides and HDL, and not worse on LDL?\n- Headline result: at 12 weeks (493 vs 505 people), triglycerides fell 28.2% vs 4.6% (a 26.5-point difference). HDL rose 7.3% vs 1.6% (5.8 points). LDL fell 5.6% vs 10.5%, a 4.8-point gap in favour of simvastatin 40 mg, so non-inferiority on LDL was not met.\n- In plain words: adding fenofibrate did more for triglycerides and HDL than doubling the statin, while doubling the statin did more for LDL.\n- Worth knowing: the Cholib SmPC reports the missed LDL goal openly. This is an uncertainty stated as content, not hidden."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: Cholib study 0502\nTag: 🔗 +STATIN\n\n- Registry: NCT00352183 (EudraCT 2006-005851-14; ANZCTR ACTRN012605000777695)\n- Who took part: adults without diabetes, with mixed dyslipidaemia at cardiovascular risk, whose lipids weren't controlled on simvastatin 40 mg after a six-week run-in\n- Background therapy: simvastatin 40 mg, with fenofibrate given as a separate tablet\n- Compared with: simvastatin 40 mg plus placebo; 24 weeks\n- Main question: at 12 weeks, is the combination better on triglycerides, LDL and HDL?\n- Headline result: at 12 weeks (221 vs 219 people), triglycerides fell 27.2% vs 0.7% (a 28.2-point difference). HDL rose 5.8% vs fell 0.8% (6.5 points). LDL fell 6.3% vs 5.2% (a 1.2-point difference, p = 0.54, not significant). At 24 weeks, the LDL difference was 7.2 points (p = 0.005).\n- In plain words: on top of simvastatin 40 mg, fenofibrate lowered triglycerides and raised HDL. An extra LDL effect only appeared at 24 weeks.\n- Worth knowing: the ANZCTR record lists its primary outcomes 'at 6 months', while the SmPC describes the primary criterion at 12 weeks. The only publication found so far is a conference abstract. Separately, the Cholib SmPC reports that fenofibrate lowered exposure to simvastatin's active form by 21–42% in three pharmacokinetic studies."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: Pravafenix pivotal study\nTag: 🔗 FDC\n\n- Registry: not found in this search\n- Who took part: 248 high-risk adults with mixed hyperlipidaemia, not at their LDL goal on pravastatin (LDL at least 100 mg/dL, triglycerides 150–400 mg/dL)\n- Background therapy: pravastatin 40 mg\n- Compared with: pravastatin 40 mg alone, double-blind; 12 weeks\n- Main question: does the combination capsule lower **non-HDL cholesterol** (total cholesterol minus HDL, i.e. all the cholesterol in potentially artery-clogging particles) more than pravastatin alone?\n- Headline result: non-HDL cholesterol fell 14.1% vs 6.1% (an 8-point difference, p = 0.002). LDL fell 11.7% vs 5.9%.\n- In plain words: over 12 weeks, the combination capsule lowered non-HDL cholesterol more than pravastatin alone.\n- Worth knowing: the trial enrolled people who were not at their LDL goal, but the licence is for people whose LDL is already controlled. That's a gap worth reading about in the EPAR. Adverse events were reported in 36.6% vs 32.0% of participants."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: fenofibrate + ezetimibe\nTag: 🔗 +EZE\n\n- Registry: not found in this search\n- Who took part: 625 adults with mixed hyperlipidaemia, on no lipid-lowering drug at baseline\n- Background therapy: none. The comparison of interest is ezetimibe added to fenofibrate.\n- Compared with: fenofibrate 160 mg alone (plus placebo and ezetimibe-alone arms); 12 weeks, with a 48-week extension\n- Main question: does adding ezetimibe to fenofibrate lower LDL more than fenofibrate alone?\n- Headline result: LDL fell 20% with both medicines vs 6% with fenofibrate alone at 12 weeks (a 14-point difference, taken from the published table).\n- In plain words: the two medicines together lowered LDL more than fenofibrate alone.\n- Worth knowing: the results in this module currently come from the US ezetimibe label's table of this trial. They will be replaced with the journal publication's figures. Neither medicine's EU fenofibrate licence names this pairing."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: ezetimibe/simvastatin + fenofibrate\nTag: 🔗 +STATIN+EZE\n\n- Registry: NCT00093899\n- Who took part: 611 adults aged 18–79 with mixed hyperlipidaemia and no coronary disease (type 2 diabetes allowed)\n- Background therapy: none at entry. The comparison of interest is fenofibrate added to ezetimibe/simvastatin 10/20 mg.\n- Compared with: ezetimibe/simvastatin alone (plus placebo and fenofibrate-alone arms); 12 weeks\n- Main question: what does adding fenofibrate 160 mg to ezetimibe/simvastatin do to lipids, and is it safe?\n- Headline result: a follow-up analysis found larger falls in the cholesterol carried by VLDL, IDL and LDL, and a rise in HDL, with the three medicines together. On most lipoprotein fractions, though, the effects were not additive. The primary LDL figures from the main paper haven't yet been extracted.\n- In plain words: the triple combination changed lipid particles more than ezetimibe/simvastatin alone, over 12 weeks.\n- Worth knowing: this is the only triple-combination trial found. It measured lipids only, over 12 weeks, and no EU fenofibrate licence names this combination."
+        },
+        {
+          "type": "text",
+          "markdown": "## The register list\n\nThese trials were found by searching ClinicalTrials.gov, the EU Clinical Trials Register and ANZCTR on 23 September 2026. Status is shown as found.\n\n🔗 +STATIN\n- ACCORD-Lipid · NCT00000620 · outcomes · completed, published\n- Cholib 0501 · NCT00349375 · lipids · completed, reported in the Cholib SmPC\n- Cholib 0502 · NCT00352183 · lipids · completed; EU register synopsis and a conference abstract only\n- Cholib 0503 (switch from atorvastatin) · NCT00362934 · lipids · completed, pooled in the SmPC\n- Cholib 0504 (switch from pravastatin) · NCT00362206 · lipids · completed, pooled in the SmPC\n- Rosuvastatin + fenofibrate (IlDong) · NCT02262143 · non-HDL cholesterol · completed; publication not verified\n- Rosuvastatin + fenofibrate (Yonsei) · NCT01414803 · safety markers · completed; publication not verified\n\n🔗 FDC\n- Cholib tablets vs single medicines · NCT01674712 · lipids · completed, published\n- Pravafenix pivotal · registry not found · lipids · published\n\n🔗 +EZE\n- Ezetimibe + fenofibrate 160 mg · registry not found · lipids, with a 48-week extension · published\n- Fenofibrate 145 mg + ezetimibe, metabolic syndrome · NCT00349284 · lipids · published\n\n🔗 +STATIN+EZE\n- Ezetimibe/simvastatin + fenofibrate · NCT00093899 · lipids · completed, published\n\n🔗 MIXED (provisional tags)\n- LENS · NCT03439345 · retinopathy · completed, published\n- FAME 1 EYE (type 1 diabetes) · NCT01320345 · retinopathy · active, not recruiting per ClinicalTrials.gov; no results found\n- DRCR Protocol AF · NCT04661358 · retinopathy · active, not recruiting per ClinicalTrials.gov; no results found\n\nSTATIN-INTOLERANT\n- No trial confirmed in this search.\n\nNot counted: trials of fenofibric acid, a separate US product (for example NCT00300482 and NCT00463606), and observational studies."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "fen-l09-combination-trials-fc1",
+              "front": "Co-administration vs FDC",
+              "back": "Co-administration: two separate tablets taken together. FDC: both medicines in one tablet or capsule. Cholib's pivotal studies used co-administration."
+            },
+            {
+              "id": "fen-l09-combination-trials-fc2",
+              "front": "Non-HDL cholesterol",
+              "back": "Total cholesterol minus HDL: all the cholesterol in potentially artery-clogging particles. It was the primary endpoint of the Pravafenix pivotal study."
+            },
+            {
+              "id": "fen-l09-combination-trials-fc3",
+              "front": "Fenofibrate + ezetimibe in the label",
+              "back": "The Secalip Supra SmPC has no ezetimibe line. The ezetimibe SmPC flags about 1.5-fold higher ezetimibe levels and a possible gallstone risk."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "fen-l09-combination-trials-q1",
+              "stem": "What does the Secalip Supra SmPC say about combining fenofibrate with ezetimibe?",
+              "options": [
+                "The combination is contraindicated",
+                "It recommends the combination for patients who can't take a statin",
+                "Nothing. The SmPC has no ezetimibe interaction line; the gallstone caution comes from the ezetimibe SmPC.",
+                "It halves the fenofibrate dose when ezetimibe is added"
+              ],
+              "correctIndex": 2,
+              "explanation": "Only the statin and fibrate lines exist in the Secalip Supra SmPC. What is said about the pairing is written in the ezetimibe SmPC, from ezetimibe's side."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA 63.533, revision December 2020, sections 4.1, 4.4, 4.5.\n2. **EPAR** — Cholib product information, sections 4.5 and 5.1; Pravafenix EPAR (indication, main study).\n3. **SmPC (other molecule)** — EU ezetimibe SmPC, sections 4.4 and 4.5 (fibrates).\n4. **Registers** — ClinicalTrials.gov, EU Clinical Trials Register and ANZCTR records as listed above, accessed 23 September 2026.\n5. **Journal** — Farnier M et al. *Am J Cardiol* 2010 (Pravafenix); Farnier M et al. *Am Heart J* 2007;153:335.e1–8 and *J Lipid Res* 2008;49:2641–7 (NCT00093899); McKenney JM et al. *J Am Coll Cardiol* 2006;47:1584–7; Foucher C et al. 2015 (NCT01674712); ACCORD Study Group, *N Engl J Med* 2010.\n6. **US label (data table only)** — ezetimibe prescribing information, combination-with-fenofibrate table; to be replaced with the journal source."
         }
       ]
     }

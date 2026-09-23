@@ -40,7 +40,7 @@
       "discipline": "Medicines",
       "description": "What the label approves, and what the trials showed",
       "file": "modules/fenofibrate.json",
-      "version": 2,
+      "version": 3,
       "lessonCount": 15,
       "estimatedMinutes": 135,
       "accentColor": "#1D9E75"

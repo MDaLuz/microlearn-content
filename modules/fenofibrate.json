@@ -3,7 +3,7 @@
   "id": "fenofibrate",
   "title": "Fenofibrate",
   "discipline": "Medicines",
-  "version": 3,
+  "version": 4,
   "lessons": [
     {
       "id": "fen-l01-at-a-glance",
@@ -1019,6 +1019,363 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA 63.533, revision December 2020, sections 4.1, 4.4, 4.5.\n2. **EPAR** — Cholib product information, sections 4.5 and 5.1; Pravafenix EPAR (indication, main study).\n3. **SmPC (other molecule)** — EU ezetimibe SmPC, sections 4.4 and 4.5 (fibrates).\n4. **Registers** — ClinicalTrials.gov, EU Clinical Trials Register and ANZCTR records as listed above, accessed 23 September 2026.\n5. **Journal** — Farnier M et al. *Am J Cardiol* 2010 (Pravafenix); Farnier M et al. *Am Heart J* 2007;153:335.e1–8 and *J Lipid Res* 2008;49:2641–7 (NCT00093899); McKenney JM et al. *J Am Coll Cardiol* 2006;47:1584–7; Foucher C et al. 2015 (NCT01674712); ACCORD Study Group, *N Engl J Med* 2010.\n6. **US label (data table only)** — ezetimibe prescribing information, combination-with-fenofibrate table; to be replaced with the journal source."
+        }
+      ]
+    },
+    {
+      "id": "fen-l10-cv-outcomes",
+      "title": "Heart-attack and stroke outcomes",
+      "xpReward": 60,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The question that matters\n\nLipid numbers are markers. This lesson asks what patients actually care about: does fenofibrate reduce heart attacks, strokes and deaths?\n\nThe SmPC answers in one sentence: fibrates may reduce coronary heart disease events, but they have not been shown to reduce death from any cause, whether in people who already have cardiovascular disease or in those who don't."
+        },
+        {
+          "type": "text",
+          "markdown": "## Heart attacks\n\nFIELD's main result, coronary death or non-fatal heart attack, wasn't significant: 5.2% on fenofibrate vs 5.9% on placebo over five years. Looking at the two parts separately, there were fewer non-fatal heart attacks, but coronary deaths weren't reduced; their estimate pointed the other way, without reaching significance. This lesson doesn't quote those component numbers, because the published summary gives them only in relative terms.\n\nACCORD-Lipid, where everyone was also on simvastatin, found no significant difference in its main result or in any secondary outcome over a mean of 4.7 years."
+        },
+        {
+          "type": "text",
+          "markdown": "## Strokes\n\nFIELD reported only non-significant changes in stroke. ACCORD-Lipid found no significant difference in non-fatal stroke. When all placebo-controlled fibrate trials are pooled (see below), there is no benefit on stroke either: the estimate is a 3% change, with a 95% confidence interval from 16% worse to 9% better."
+        },
+        {
+          "type": "text",
+          "markdown": "## Death\n\nIn FIELD, death from any cause was 7.3% on fenofibrate vs 6.6% on placebo over five years (p = 0.18, not significant). In ACCORD-Lipid it was 1.5% vs 1.6% per year, HR 0.91 (95% CI 0.75–1.10). Neither trial showed a difference, which matches the SmPC's sentence."
+        },
+        {
+          "type": "text",
+          "markdown": "## The pooled picture\n\nA **meta-analysis** combines the results of several trials into a single estimate. The largest one for this class, published in 2010, pooled 18 placebo-controlled fibrate trials with 45,058 participants.\n\nIt found a 10% relative reduction in major cardiovascular events (95% CI 0–18%, p = 0.048) and a 13% relative reduction in coronary events (95% CI 7–19%). It found no effect on stroke, cardiovascular death or death from any cause.\n\nKeep two caveats in mind. First, fenofibrate was the drug tested in only three of those 18 trials; most used clofibrate, bezafibrate or gemfibrozil. Second, the pooled figures are relative only. The absolute benefit depends on how high each person's risk is to begin with, and the summary doesn't report it."
+        },
+        {
+          "type": "text",
+          "markdown": "## A different fibrate, a clear negative\n\nFibrate debates often cite PROMINENT, which tested pemafibrate, a newer molecule. In 10,497 people with type 2 diabetes, high triglycerides and low HDL, all on background lipid treatment, 572 people on pemafibrate and 560 on placebo had a primary event over a median of 3.4 years (HR 1.03, 95% CI 0.91–1.15). Pemafibrate also caused more kidney-related adverse events and more blood clots in the veins.\n\nIt appears here only because it comes up so often. It isn't evidence about fenofibrate, and it isn't a head-to-head comparison with FIELD or ACCORD."
+        },
+        {
+          "type": "compare",
+          "title": "Where the outcome evidence stands",
+          "items": [
+            {
+              "id": "supported",
+              "label": "Supported"
+            },
+            {
+              "id": "not-shown",
+              "label": "Not shown"
+            },
+            {
+              "id": "open-questions",
+              "label": "Open questions"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "point-1",
+              "label": "Point 1",
+              "values": [
+                "Changes in blood lipids",
+                "Fewer deaths from any cause",
+                "Benefit in people with high triglycerides and low HDL (subgroup findings)"
+              ]
+            },
+            {
+              "id": "point-2",
+              "label": "Point 2",
+              "values": [
+                "Fewer total cardiovascular events in FIELD (a secondary outcome)",
+                "Fewer strokes",
+                "How much FIELD's statin drop-in hid"
+              ]
+            },
+            {
+              "id": "point-3",
+              "label": "Point 3",
+              "values": [
+                "Fewer coronary events across pooled fibrate trials (class-level)",
+                "Overall benefit when added to a statin (ACCORD-Lipid)",
+                "Effects on the eye (LENS was positive, outside the label)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## The same trials, framed differently\n\nThe EU SmPC says fibrates *may* reduce coronary events, and that they haven't been shown to reduce death. The US Tricor label leads with a limitation: fenofibrate did not reduce coronary heart disease events or deaths in two large randomised trials in type 2 diabetes. Both statements are accurate, but each label puts the emphasis in a different place."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "fen-l10-cv-outcomes-fc1",
+              "front": "Meta-analysis",
+              "back": "A single estimate combined from several trials. The 2010 fibrate meta-analysis pooled 18 trials, only three of them using fenofibrate."
+            },
+            {
+              "id": "fen-l10-cv-outcomes-fc2",
+              "front": "Fenofibrate and death from any cause",
+              "back": "Not shown to be reduced: FIELD 7.3% vs 6.6% (NS), ACCORD-Lipid HR 0.91 (NS), and no effect in the pooled fibrate analysis."
+            },
+            {
+              "id": "fen-l10-cv-outcomes-fc3",
+              "front": "PROMINENT",
+              "back": "Pemafibrate vs placebo, HR 1.03 (95% CI 0.91–1.15). A different molecule: context for the class, not evidence about fenofibrate."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "fen-l10-cv-outcomes-q1",
+              "stem": "The 2010 fibrate meta-analysis found a 13% relative reduction in coronary events. What's the most important caveat when applying that to fenofibrate?",
+              "options": [
+                "The result wasn't statistically significant",
+                "Fenofibrate was tested in only 3 of the 18 trials, and the figure is relative only, with no absolute effect reported",
+                "The trials all compared fibrates with statins",
+                "It only included people without diabetes"
+              ],
+              "correctIndex": 1,
+              "explanation": "The pooled estimate is for the fibrate class, drawn mostly from other molecules. As a relative figure, it can't tell you how many events would be avoided without knowing each person's starting risk."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA 63.533, revision December 2020, section 5.1.\n2. **Journal** — FIELD Study Investigators. *Lancet* 2005;366:1849–61.\n3. **Journal** — ACCORD Study Group. *N Engl J Med* 2010;362:1563–74.\n4. **Journal** — Jun M et al. Effects of fibrates on cardiovascular outcomes: a systematic review and meta-analysis. *Lancet* 2010;375:1875–84.\n5. **Journal** — Pradhan AD et al. Triglyceride lowering with pemafibrate to reduce cardiovascular risk (PROMINENT). *N Engl J Med* 2022.\n6. **US (differences only)** — Tricor prescribing information, June 2025, limitations of use."
+        }
+      ]
+    },
+    {
+      "id": "fen-l11-side-effects",
+      "title": "Side effects",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## How the SmPC counts\n\nThe SmPC lists each **adverse reaction**, meaning an unwanted effect reasonably linked to the medicine, by how often it occurs. Common means at least 1 in 100 people but fewer than 1 in 10. Uncommon means 1 in 1,000 to 1 in 100, and rare means 1 in 10,000 to 1 in 1,000. 'Not known' means the frequency can't be estimated.\n\nThe list draws on placebo-controlled trials involving 2,344 patients, plus reports received after the medicine went on sale. The effects reported most often are digestive."
+        },
+        {
+          "type": "text",
+          "markdown": "## Common\n\n- Digestive symptoms of moderate severity: abdominal pain, nausea, vomiting, diarrhoea, wind\n- Raised transaminases, seen on blood tests\n- Raised **homocysteine**, an amino acid in the blood. In FIELD it rose by an average of 6.5 µmol/L and fell back after stopping. The SmPC says this may be linked to the higher rate of blood clots in the veins, but its clinical meaning is unclear."
+        },
+        {
+          "type": "text",
+          "markdown": "## Uncommon\n\n- Headache\n- Blood clots: pulmonary embolism (a clot in the lungs) and deep vein thrombosis (a clot in a leg vein)\n- Pancreatitis\n- Gallstones\n- Skin reactions: rash, itching, hives\n- Muscle problems: aches, inflammation, cramps, weakness\n- Sexual dysfunction\n- Raised creatinine"
+        },
+        {
+          "type": "text",
+          "markdown": "## What FIELD adds to those words\n\nFIELD is the source of the clot and pancreatitis figures the SmPC quotes. Each is over about five years, compared with placebo:\n\n- Pancreatitis: 0.8% vs 0.5% (p = 0.031). That's 0.3 percentage points more, or about 1.6 times as often.\n- Pulmonary embolism: 1.1% vs 0.7% (p = 0.022). That's 0.4 points more, also about 1.6 times as often.\n- Deep vein thrombosis: 1.4% vs 1.0% (p = 0.074). That difference wasn't significant.\n\nThe 'times as often' figures are calculated here from the published rates."
+        },
+        {
+          "type": "text",
+          "markdown": "## Rare, and frequency not known\n\nRare: lower haemoglobin and white blood cell counts, allergic reactions, hepatitis, hair loss, sensitivity to light, and raised urea.\n\nFrequency not known: **rhabdomyolysis** (severe muscle breakdown that can damage the kidneys), **interstitial lung disease** (inflammation or scarring of lung tissue), jaundice, complications of gallstones, severe skin reactions such as Stevens-Johnson syndrome, and fatigue."
+        },
+        {
+          "type": "text",
+          "markdown": "## When to stop and see a doctor\n\nThe PIL tells patients to stop the medicine and get medical help straight away for any of the following:\n\n- Muscle cramps, pain, tenderness or weakness\n- Stomach pain, which can signal pancreatitis\n- Chest pain with breathlessness, or pain, redness or swelling in a leg, which can signal a blood clot\n- Yellowing of the skin or eyes\n- Swelling of the face, lips, tongue or throat\n- A severe rash that looks like a burn\n- Long-term breathing problems"
+        },
+        {
+          "type": "text",
+          "markdown": "## The creatinine rise that isn't kidney damage\n\nFenofibrate often raises creatinine, the blood marker used to track kidney function. The SmPC says the rise is usually stable over time and returns to baseline after stopping. In the Cholib trials, 10% of people on fenofibrate plus simvastatin had a rise of more than 30 µmol/L, compared with 4.4% on a statin alone; 0.3% reached a level above 200 µmol/L.\n\nThe label's rule still applies: interrupt treatment if creatinine goes above 50% over the upper limit of normal."
+        },
+        {
+          "type": "compare",
+          "title": "Most common side effects, two labels",
+          "items": [
+            {
+              "id": "secalip-supra",
+              "label": "Secalip Supra (EU)"
+            },
+            {
+              "id": "tricor",
+              "label": "Tricor (US)"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "reaction-1",
+              "label": "Reaction 1",
+              "values": [
+                "Digestive symptoms",
+                "Abnormal liver tests"
+              ]
+            },
+            {
+              "id": "reaction-2",
+              "label": "Reaction 2",
+              "values": [
+                "Raised transaminases",
+                "Raised muscle enzyme (CPK)"
+              ]
+            },
+            {
+              "id": "reaction-3",
+              "label": "Reaction 3",
+              "values": [
+                "Raised homocysteine",
+                "Rhinitis"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Why the two lists differ\n\nThe US label counts a reaction as common if it occurred in more than 2% of patients and at least 1 percentage point more often than on placebo. The EU list uses frequency bands drawn from trials plus reports after launch. The two labels count differently, so the lists don't contradict each other."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "fen-l11-side-effects-fc1",
+              "front": "Rhabdomyolysis",
+              "back": "Severe muscle breakdown that can damage the kidneys. Listed as 'frequency not known'; the risk rises when fenofibrate is combined with a statin."
+            },
+            {
+              "id": "fen-l11-side-effects-fc2",
+              "front": "Homocysteine",
+              "back": "A blood amino acid that rose by about 6.5 µmol/L on fenofibrate in FIELD. It may be linked to the higher rate of vein clots; its clinical meaning is unclear."
+            },
+            {
+              "id": "fen-l11-side-effects-fc3",
+              "front": "FIELD pancreatitis",
+              "back": "0.8% vs 0.5% on placebo over about five years: 0.3 percentage points more, about 1.6 times as often."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "fen-l11-side-effects-q1",
+              "stem": "A patient on fenofibrate develops chest pain and breathlessness. Why does the PIL treat this as urgent?",
+              "options": [
+                "It's the usual digestive side effect",
+                "It can signal a clot in the lungs, which occurred more often on fenofibrate than on placebo in FIELD",
+                "It means the dose is too low",
+                "It's an expected sign that triglycerides are falling"
+              ],
+              "correctIndex": 1,
+              "explanation": "Pulmonary embolism occurred in 1.1% on fenofibrate vs 0.7% on placebo in FIELD. The PIL lists chest pain with breathlessness among the reasons to stop and seek help immediately."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA 63.533, revision December 2020, sections 4.4 and 4.8.\n2. **PIL** — Secalip Supra 160 mg, revised December 2020, section 4.\n3. **EPAR** — Cholib product information, sections 4.4 and 4.8.\n4. **Journal** — FIELD Study Investigators. *Lancet* 2005;366:1849–61.\n5. **US (differences only)** — Tricor prescribing information, adverse reactions."
+        }
+      ]
+    },
+    {
+      "id": "fen-l12-contraindications-interactions",
+      "title": "Who shouldn't take it, and interactions",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Who must not take it\n\nSection 4.3 of the SmPC rules fenofibrate out for people with:\n\n- Liver impairment, including biliary cirrhosis, or liver test results that stay abnormal without explanation\n- Known gallbladder disease\n- Severe kidney impairment (eGFR below 30)\n- Acute or chronic pancreatitis, unless it was caused by very high triglycerides\n- A previous light-sensitivity reaction to a fibrate or to ketoprofen\n- Allergy to fenofibrate or any other ingredient\n- Peanut or soy allergy\n\nOn that last point, section 4.3 says the tablet contains soy *oil*, while the ingredient list names soy *lecithin*. The practical rule is the same either way."
+        },
+        {
+          "type": "text",
+          "markdown": "## Who needs extra care\n\nThe muscle risk is higher in people over 70, people with a personal or family history of inherited muscle disorders, people with kidney impairment or an underactive thyroid, and people who drink heavily. Low blood albumin and existing kidney impairment also raise the risk.\n\nThe SmPC says to suspect muscle toxicity when there is widespread muscle pain, muscle inflammation, cramps or weakness, or a large rise in **CPK** (creatine phosphokinase, a muscle enzyme measured in the blood) to more than five times the upper limit of normal. In any of those cases, stop the medicine.\n\nThe tablet also contains lactose, which matters for people with rare inherited sugar-intolerance conditions."
+        },
+        {
+          "type": "text",
+          "markdown": "## Interactions the SmPC lists\n\n- **Oral anticoagulants** (blood thinners such as warfarin): fenofibrate strengthens their effect and raises the risk of bleeding. Cut the anticoagulant dose by about a third when starting fenofibrate, then adjust using the **INR**, a blood test that measures how long blood takes to clot.\n- Ciclosporin: a few severe but reversible cases of kidney impairment have been reported. Monitor kidney function, and stop fenofibrate if results worsen badly.\n- Statins and other fibrates: higher risk of muscle toxicity (see Lesson 9).\n- Glitazones (a class of diabetes medicines): HDL can paradoxically fall. Monitor HDL, and stop one of the two if it drops too low.\n- Medicines processed by CYP2C9, CYP2C19 or CYP2A6 that have a **narrow therapeutic index**, meaning a small change in blood level can matter: monitor closely and adjust the dose if needed."
+        },
+        {
+          "type": "text",
+          "markdown": "## What the list doesn't include\n\nThe Secalip Supra SmPC has no ezetimibe line; Lesson 9 covers what the ezetimibe SmPC says about the pairing. This lesson doesn't add interactions the SmPC itself doesn't list."
+        },
+        {
+          "type": "compare",
+          "title": "Fenofibrate alone vs the Cholib combination tablet",
+          "items": [
+            {
+              "id": "secalip-supra",
+              "label": "Secalip Supra"
+            },
+            {
+              "id": "cholib",
+              "label": "Cholib"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "kidneys",
+              "label": "Kidneys",
+              "values": [
+                "Contraindicated when eGFR is below 30; dose capped at 30–59",
+                "Contraindicated when eGFR is below 60"
+              ]
+            },
+            {
+              "id": "pregnancy-and-breastfeeding",
+              "label": "Pregnancy and breastfeeding",
+              "values": [
+                "Pregnancy only after weighing benefit and risk; not in breastfeeding",
+                "Contraindicated in pregnancy and breastfeeding"
+              ]
+            },
+            {
+              "id": "statins-and-other-medicines",
+              "label": "Statins and other medicines",
+              "values": [
+                "Statins: use with caution and watch for muscle toxicity",
+                "Other statins, gemfibrozil, ciclosporin, danazol and potent CYP3A4 inhibitors are contraindicated"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Why the combination tablet is stricter\n\nCholib contains simvastatin, so it inherits simvastatin's own rules as well as fenofibrate's. That's why it also rules out people who have had muscle problems on a statin or fibrate before, and people whose CK was above five times the upper limit of normal on a previous statin. Moving from two separate tablets to one combined tablet changes the rules as well as the packaging."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "fen-l12-contraindications-interactions-fc1",
+              "front": "CPK",
+              "back": "Creatine phosphokinase, a muscle enzyme measured in the blood. Stop fenofibrate if it rises above 5× the upper limit of normal with muscle symptoms."
+            },
+            {
+              "id": "fen-l12-contraindications-interactions-fc2",
+              "front": "INR",
+              "back": "A blood test that measures clotting time. When starting fenofibrate in someone on an oral anticoagulant, cut the anticoagulant by about a third and adjust by INR."
+            },
+            {
+              "id": "fen-l12-contraindications-interactions-fc3",
+              "front": "Narrow therapeutic index",
+              "back": "A medicine where a small change in blood level can matter. For these, if processed by CYP2C9, CYP2C19 or CYP2A6, the SmPC asks for close monitoring."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "fen-l12-contraindications-interactions-q1",
+              "stem": "A patient on warfarin is starting fenofibrate. What does the SmPC recommend?",
+              "options": [
+                "Stop warfarin",
+                "No change is needed",
+                "Reduce the anticoagulant dose by about one third at the start, then adjust it using INR",
+                "Double the fenofibrate dose"
+              ],
+              "correctIndex": 2,
+              "explanation": "Fenofibrate strengthens the effect of oral anticoagulants and raises the bleeding risk. The SmPC recommends starting with about a third less anticoagulant and adjusting by INR."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA 63.533, revision December 2020, sections 2, 4.3, 4.4, 4.5, 4.6.\n2. **PIL** — Secalip Supra 160 mg, revised December 2020, section 2.\n3. **EPAR** — Cholib product information, sections 4.3 and 4.5."
         }
       ]
     }

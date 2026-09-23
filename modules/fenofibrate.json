@@ -3,7 +3,7 @@
   "id": "fenofibrate",
   "title": "Fenofibrate",
   "discipline": "Medicines",
-  "version": 1,
+  "version": 2,
   "lessons": [
     {
       "id": "fen-l01-at-a-glance",
@@ -334,6 +334,375 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA, MA no. 63.533, text revision December 2020. Sections 4.1, 5.1, 9.\n2. **EPAR-level** — EMA, Fibrates Article 31 referral (2010–11): referral overview, questions and answers, Annex III.\n3. **EPAR** — Cholib, EMEA/H/C/002559 (authorised 26 August 2013); Pravafenix, EMEA/H/C/001243 (authorised 14 April 2011).\n4. **Pharmacovigilance** — FAMHP (Belgium), EMA recommendation to limit fibrates to second-line, 28 October 2010.\n5. **US (differences only)** — Federal Register 81(74):22612–13, 18 April 2016.\n6. **Secondary, dates only** — Pharmacology Update: Fenofibrate, new antilipemic agent. Clinician.com, September 1998."
+        }
+      ]
+    },
+    {
+      "id": "fen-l04-approved-uses",
+      "title": "What it's approved for",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## One condition behind all three uses\n\nEvery use in the SmPC carries the same condition. Fenofibrate is an **adjunct**, something added on top, to diet and to other non-drug measures such as exercise and weight loss. Those measures continue during treatment.\n\nThe SmPC also asks for **secondary causes** to be dealt with first. These are conditions that raise blood fats in their own right: poorly controlled type 2 diabetes, an underactive thyroid, nephrotic syndrome (a kidney disorder in which protein leaks into the urine), blocked bile flow in the liver, and heavy drinking. Some medicines have the same effect, among them diuretics, beta-blockers, oestrogens, oral contraceptives, immunosuppressants and protease inhibitors."
+        },
+        {
+          "type": "text",
+          "markdown": "## Use 1: very high triglycerides\n\nThe first indication is severe hypertriglyceridaemia, with or without low HDL cholesterol. It is the one use where fenofibrate can be the first medicine tried, because the EU review found fibrates lower triglycerides more than statins do.\n\nThe SmPC doesn't put a number on *severe*. The US label does: 500 mg/dL or more, which is roughly 5.6 **mmol/L** (the unit most European labs report in). That number is shown here only to mark the difference between the two labels. It isn't an EU rule."
+        },
+        {
+          "type": "text",
+          "markdown": "## Use 2: when a statin isn't an option\n\nThe second indication is mixed hyperlipidaemia when a statin is **contraindicated**, meaning it must not be used for that patient, or when a statin isn't tolerated. In this case fenofibrate takes the place of the medicine that would normally come first."
+        },
+        {
+          "type": "text",
+          "markdown": "## Use 3: on top of a statin\n\nThe third indication is mixed hyperlipidaemia in people at high cardiovascular risk, taken alongside a statin, when triglycerides and HDL cholesterol are still not adequately controlled.\n\nThree conditions have to be true at the same time: high risk, a statin already being taken, and a lipid problem the statin hasn't fixed. This is the indication the 2009–2011 EU review granted to fenofibrate alone among the fibrates, based on ACCORD-Lipid."
+        },
+        {
+          "type": "text",
+          "markdown": "## Notice what isn't there\n\nLook at how each indication is written. All three are defined by blood-fat levels. None of them promises fewer heart attacks, strokes or deaths, and the SmPC says plainly that fibrates have not been shown to reduce death from any cause.\n\nThe label doesn't support first-line use for ordinary high cholesterol. It doesn't recommend use under 18 either, because there are no data in that age group. And it asks for the response to be checked with blood-lipid tests: if the response isn't adequate after several months, other or additional treatment should be considered."
+        },
+        {
+          "type": "compare",
+          "title": "Three kinds of fenofibrate product, three kinds of indication",
+          "items": [
+            {
+              "id": "fenofibrate-alone",
+              "label": "Fenofibrate alone"
+            },
+            {
+              "id": "cholib-pravafenix",
+              "label": "Cholib, Pravafenix"
+            },
+            {
+              "id": "rosuvastatin-fenofibrate",
+              "label": "Rosuvastatin + fenofibrate (Spain)"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "scope",
+              "label": "Scope",
+              "values": [
+                "Three indications, all defined by lipid levels",
+                "Fenofibrate plus a statin in one product, authorised EU-wide",
+                "Authorised nationally"
+              ]
+            },
+            {
+              "id": "who-it-is-for",
+              "label": "Who it is for",
+              "values": [
+                "Can be the first medicine in severe hypertriglyceridaemia",
+                "High-risk adults with mixed hyperlipidaemia",
+                "Substitution only: for patients already controlled on both medicines taken separately at the same doses"
+              ]
+            },
+            {
+              "id": "condition",
+              "label": "Condition",
+              "values": [
+                "Added to a statin only if triglycerides and HDL stay uncontrolled",
+                "LDL must already be controlled on the matching statin alone",
+                "Not for starting treatment"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## A narrower door in the US\n\nThe US label for Tricor, revised in June 2025, has two uses. One is severe hypertriglyceridaemia. The other is lowering LDL cholesterol in primary hyperlipidaemia when the recommended LDL-lowering treatment isn't possible. There is no add-on-to-a-statin indication.\n\nThe US label also states that fenofibrate did not reduce coronary heart disease events or deaths in two large **randomised** trials (trials in which participants are assigned to treatment by chance) in people with type 2 diabetes."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "fen-l04-approved-uses-fc1",
+              "front": "Adjunct",
+              "back": "Something added on top of other treatment. Every fenofibrate indication is an adjunct to diet and non-drug measures."
+            },
+            {
+              "id": "fen-l04-approved-uses-fc2",
+              "front": "Secondary causes",
+              "back": "Conditions or medicines that raise blood fats in their own right, such as uncontrolled diabetes, an underactive thyroid or heavy drinking. The SmPC asks for these to be treated before fenofibrate is considered."
+            },
+            {
+              "id": "fen-l04-approved-uses-fc3",
+              "front": "Contraindicated",
+              "back": "Must not be used for that patient. One fenofibrate indication applies when a statin is contraindicated or not tolerated."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "fen-l04-approved-uses-q1",
+              "stem": "Which of these is an approved use of Secalip Supra 160 mg?",
+              "options": [
+                "Reducing cardiovascular death in people with type 2 diabetes",
+                "First-line treatment of ordinary high cholesterol",
+                "Mixed hyperlipidaemia in high-risk patients on a statin, when triglycerides and HDL cholesterol stay poorly controlled",
+                "Children with inherited high cholesterol"
+              ],
+              "correctIndex": 2,
+              "explanation": "That is the third indication, which the EU review granted on the basis of ACCORD-Lipid. None of the indications is defined by outcomes such as death. First-line use for ordinary high cholesterol isn't supported, and use under 18 isn't recommended."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA, MA no. 63.533, text revision December 2020. Sections 4.1, 4.2, 4.4, 5.1.\n2. **EPAR-level** — EMA, Fibrates Article 31 referral (2010–11): questions and answers.\n3. **EPAR** — Cholib, EMEA/H/C/002559; Pravafenix, EMEA/H/C/001243 (therapeutic indications).\n4. **SmPC (combination, national)** — Rofemax 5 mg/160 mg, Tecnimede (CIMA 90854); Statifenix 20 mg/160 mg (CIMA 90864), section 4.1.\n5. **US (differences only)** — Tricor (fenofibrate) prescribing information, revised June 2025."
+        }
+      ]
+    },
+    {
+      "id": "fen-l05-strengths-products",
+      "title": "Strengths and products",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The tablet this module is built on\n\nSecalip Supra 160 mg is a white, oblong **film-coated tablet** (a tablet with a thin outer layer), engraved with '160' on one side. Each tablet contains 160 mg of micronised fenofibrate. Packs hold 10 to 100 tablets, and hospital packs hold 280 or 300. Not every pack size is necessarily on sale.\n\nTwo **excipients** (ingredients other than the active substance) matter for patients: lactose in the core, and soy lecithin in the coating. The tablets keep for three years below 30 °C, in the original pack to protect them from moisture."
+        },
+        {
+          "type": "text",
+          "markdown": "## One product, several names\n\nThe **PIL** (patient information leaflet, the plain-language sheet in the box) lists the same product under other names in other countries: Lipanthyl 160 mg in France, Lipidil-Ter 160 mg in Germany and Supralip 160 mg in the UK.\n\nIn Spain the **MAH** (marketing authorisation holder, the company legally responsible for the product) is Lacer, S.A. The tablets are made in France. Its sister product, Secalip 145 mg, still carries the Fournier logo on the tablet."
+        },
+        {
+          "type": "text",
+          "markdown": "## The Secalip family\n\nSpain has four Secalip products: Secalip 145 mg tablets (nanoparticle fenofibrate, ground even finer than micronised), Secalip Supra 160 mg tablets, Secalip 200 mg capsules, and Secalip 250 mg prolonged-release capsules.\n\nThe labels treat the first three as interchangeable: the 145 mg nanoparticle tablet, the 160 mg micronised tablet and the 200 mg micronised capsule can be swapped for one another without changing the dose. The milligram figures differ because particle size changes how much of the dose the body absorbs."
+        },
+        {
+          "type": "compare",
+          "title": "Same dose, different milligrams",
+          "items": [
+            {
+              "id": "secalip-145-mg",
+              "label": "Secalip 145 mg"
+            },
+            {
+              "id": "secalip-supra-160-mg",
+              "label": "Secalip Supra 160 mg"
+            },
+            {
+              "id": "secalip-200-mg",
+              "label": "Secalip 200 mg"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "form",
+              "label": "Form",
+              "values": [
+                "Nanoparticle tablet",
+                "Micronised tablet",
+                "Micronised capsule"
+              ]
+            },
+            {
+              "id": "note",
+              "label": "Note",
+              "values": [
+                "Finest particles of the three",
+                "The product this module is based on",
+                "The oldest of the three forms"
+              ]
+            },
+            {
+              "id": "switching",
+              "label": "Switching",
+              "values": [
+                "Can replace a 200 mg capsule or a 160 mg tablet directly",
+                "Can replace a 200 mg capsule directly",
+                "The starting point for switching to the other two"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Worth knowing: labels copy each other\n\nIn its dosing section, the Secalip 250 mg SmPC says that patients on a 145 mg or 160 mg tablet can switch to a 200 mg micronised capsule. That sentence is about a different product, yet it sits inside the 250 mg label.\n\nIt's a small slip, but it's a useful reminder. Product information is written by people, and text sometimes carries over from a sister product. Read the section you're relying on rather than assuming it's right."
+        },
+        {
+          "type": "text",
+          "markdown": "## Generics\n\nSeveral companies sell **generics**, which are copies authorised because they match the original product. Spanish packs mark them with the letters EFG. They include 160 mg tablets and 200 mg capsules from companies such as Sun, Pensa and Teva."
+        },
+        {
+          "type": "text",
+          "markdown": "## Combination products\n\nFenofibrate also comes paired with a statin in a single product:\n\n- Cholib: fenofibrate 145 mg with simvastatin 20 or 40 mg, as tablets, authorised EU-wide.\n- Pravafenix: pravastatin 40 mg with fenofibrate 160 mg, as capsules, authorised EU-wide.\n- Rosuvastatin with fenofibrate: authorised nationally in Spain by several companies, including Tecnimede, Intas, Viatris and Althera, in strengths from 5/145 to 20/160 mg. Most are tablets. Statifenix 20/160 mg is a capsule that contains two tablets.\n\nNone of these combines fenofibrate with ezetimibe. Lesson 9 returns to that gap."
+        },
+        {
+          "type": "text",
+          "markdown": "## Outside the EU\n\nIn the US, Tricor comes as 48 mg and 145 mg tablets. Fenofibric acid, the active form of the medicine, is also sold there as a separate product.\n\nIn Switzerland, fenofibrate is available as Lipanthyl 200 M and 267 M capsules from Viatris. There is no 160 mg tablet."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "fen-l05-strengths-products-fc1",
+              "front": "Excipient",
+              "back": "Any ingredient other than the active substance. In Secalip Supra, lactose and soy lecithin are the ones that matter for patients."
+            },
+            {
+              "id": "fen-l05-strengths-products-fc2",
+              "front": "PIL",
+              "back": "Patient information leaflet: the plain-language sheet in the box, which ranks second in this module's order of trust."
+            },
+            {
+              "id": "fen-l05-strengths-products-fc3",
+              "front": "MAH",
+              "back": "Marketing authorisation holder: the company legally responsible for a product. For Secalip Supra in Spain, that is Lacer, S.A."
+            },
+            {
+              "id": "fen-l05-strengths-products-fc4",
+              "front": "Generic",
+              "back": "A copy authorised because it matches the original product. Spanish packs mark generics with the letters EFG."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "fen-l05-strengths-products-q1",
+              "stem": "Which fenofibrate combination is licensed only as substitution therapy, for patients already controlled on both medicines taken separately?",
+              "options": [
+                "Cholib (fenofibrate + simvastatin)",
+                "Pravafenix (pravastatin + fenofibrate)",
+                "Rosuvastatin + fenofibrate products authorised in Spain",
+                "Secalip Supra 160 mg"
+              ],
+              "correctIndex": 2,
+              "explanation": "The Spanish rosuvastatin/fenofibrate products are for patients whose doses of each medicine are already set. Cholib and Pravafenix are add-ons for patients whose LDL is already controlled on the statin alone."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA, MA no. 63.533, text revision December 2020. Sections 2, 3, 4.2, 6.\n2. **PIL** — Secalip Supra 160 mg, revised December 2020. Section 6.\n3. **SmPC / PIL (sister products)** — Secalip 145 mg (CIMA 66861); Secalip 200 mg (CIMA 60176); Secalip 250 mg (CIMA 56864), section 4.2.\n4. **EPAR** — Cholib, EMEA/H/C/002559; Pravafenix, EMEA/H/C/001243.\n5. **SmPC (combination, national)** — Rofemax, Tecnimede (CIMA 90854); Rosuvastatina/fenofibrato Intas (CIMA 90785); Rosuvastatina/fenofibrato Althera (CIMA 91112); Ixfenro, Viatris (CIMA 91137); Statifenix (CIMA 90864).\n6. **Secondary (AEMPS-derived listings)** — generics via nomenclator.org and vademecum.es.\n7. **US and Swiss (differences only)** — Tricor prescribing information; Swissmedic product data for Lipanthyl 200 M / 267 M."
+        }
+      ]
+    },
+    {
+      "id": "fen-l06-how-taken",
+      "title": "How it's taken",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The routine\n\nThe dose is one tablet a day, with a meal. Swallow it whole with a glass of water, and don't crush or chew it. The PIL explains in one line why the meal matters: the tablet doesn't work as well on an empty stomach. That matches the SmPC, which reports higher absorption when fenofibrate is taken with food.\n\nDiet and exercise continue alongside the tablet. They are part of the indication, not a warm-up before it."
+        },
+        {
+          "type": "text",
+          "markdown": "## Checking that it works\n\nThe SmPC asks for the response to be measured with blood-lipid tests. If the response isn't adequate after several months, other or additional treatment should be considered.\n\nThe PIL adds that treatment is long-term. Patients shouldn't stop unless their doctor tells them to, or unless the tablets make them feel unwell."
+        },
+        {
+          "type": "text",
+          "markdown": "## A missed dose\n\nIf a dose is missed, the PIL says to take the next one with the next meal and then carry on at the usual time. Never take a double dose to make up for a missed one."
+        },
+        {
+          "type": "text",
+          "markdown": "## Kidneys: the rule this tablet can't follow\n\nKidney function is measured as **eGFR** (estimated glomerular filtration rate: how much blood the kidneys filter each minute, adjusted for body size). The SmPC sets three bands:\n\n- Below 30: fenofibrate must not be used. If eGFR falls below 30 and stays there during treatment, stop it.\n- 30 to 59: no more than 100 mg of standard or 67 mg of micronised fenofibrate a day.\n- 60 and above: the usual dose.\n\nSecalip Supra only comes as a 160 mg tablet, and it has to be swallowed whole. At an eGFR of 30–59, this product therefore can't meet its own label's dose limit. The PIL says the doctor may prescribe a lower dose, which would mean a different product."
+        },
+        {
+          "type": "text",
+          "markdown": "## Kidney and liver checks\n\nCreatinine should be measured during the first three months and periodically after that. Treatment should be interrupted if creatinine rises more than 50% above the **upper limit of normal** (ULN, the top of the laboratory's reference range).\n\nTransaminases should be measured every three months for the first year, then periodically. Treatment stops if they rise above three times the ULN, or if hepatitis is confirmed. Fenofibrate isn't recommended in liver impairment at all, because there are no data."
+        },
+        {
+          "type": "text",
+          "markdown": "## Special groups\n\nPeople aged 65 and over take the usual dose, unless their eGFR is below 60. Under-18s: not recommended, as there are no data.\n\nPregnancy: use only after carefully weighing benefit against risk, because there are no human data. Breastfeeding: fenofibrate must not be used, because it isn't known whether it passes into breast milk."
+        },
+        {
+          "type": "text",
+          "markdown": "## Overdose\n\nOnly isolated overdose cases have been reported, and most caused no symptoms. There is no antidote, and dialysis doesn't remove fenofibrate, so treatment is supportive. In Spain, the PIL directs people to the national toxicology information service."
+        },
+        {
+          "type": "compare",
+          "title": "Taking it: the Spanish tablet and the US label",
+          "items": [
+            {
+              "id": "secalip-supra",
+              "label": "Secalip Supra (Spain)"
+            },
+            {
+              "id": "tricor",
+              "label": "Tricor (US)"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "food",
+              "label": "Food",
+              "values": [
+                "Take with a meal",
+                "Any time of day, with or without food"
+              ]
+            },
+            {
+              "id": "strengths",
+              "label": "Strengths",
+              "values": [
+                "One strength: 160 mg",
+                "Two strengths: 48 mg and 145 mg"
+              ]
+            },
+            {
+              "id": "kidney-dosing",
+              "label": "Kidney dosing",
+              "values": [
+                "eGFR 30–59: dose limit this tablet can't meet",
+                "The 48 mg strength allows lower doses"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "fen-l06-how-taken-fc1",
+              "front": "eGFR",
+              "back": "Estimated glomerular filtration rate: a measure of kidney function. Below 30, fenofibrate must not be used. From 30 to 59, the dose is capped below what Secalip Supra provides."
+            },
+            {
+              "id": "fen-l06-how-taken-fc2",
+              "front": "ULN",
+              "back": "Upper limit of normal, the top of a lab's reference range. Stop fenofibrate if transaminases exceed 3× ULN; interrupt it if creatinine rises more than 50% above ULN."
+            },
+            {
+              "id": "fen-l06-how-taken-fc3",
+              "front": "Missed dose",
+              "back": "Take the next dose with the next meal, then continue as usual. Never double up."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "fen-l06-how-taken-q1",
+              "stem": "A patient's eGFR is 45. What does the Secalip Supra label imply?",
+              "options": [
+                "Continue 160 mg daily with closer monitoring",
+                "Take the tablet every other day",
+                "Fenofibrate is contraindicated at this level",
+                "The dose limit is 67 mg micronised, which this 160 mg tablet can't provide, so a different product would be needed"
+              ],
+              "correctIndex": 3,
+              "explanation": "Between 30 and 59, the SmPC caps the dose at 100 mg of standard or 67 mg of micronised fenofibrate. Secalip Supra only exists as a whole 160 mg tablet. Fenofibrate is only contraindicated below 30, and the label doesn't mention alternate-day dosing."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA, MA no. 63.533, text revision December 2020. Sections 4.2, 4.4, 4.6, 4.9, 5.2.\n2. **PIL** — Secalip Supra 160 mg, revised December 2020. Section 3.\n3. **US (differences only)** — Tricor (fenofibrate) prescribing information, June 2025 revision and earlier AbbVie version (strengths)."
         }
       ]
     }

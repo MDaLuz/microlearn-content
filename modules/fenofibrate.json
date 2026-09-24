@@ -3,7 +3,7 @@
   "id": "fenofibrate",
   "title": "Fenofibrate",
   "discipline": "Medicines",
-  "version": 4,
+  "version": 5,
   "lessons": [
     {
       "id": "fen-l01-at-a-glance",
@@ -1376,6 +1376,259 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA 63.533, revision December 2020, sections 2, 4.3, 4.4, 4.5, 4.6.\n2. **PIL** — Secalip Supra 160 mg, revised December 2020, section 2.\n3. **EPAR** — Cholib product information, sections 4.3 and 4.5."
+        }
+      ]
+    },
+    {
+      "id": "fen-l13-pharmacovigilance",
+      "title": "Pharmacovigilance",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Watching a medicine after approval\n\n**Pharmacovigilance** is the ongoing monitoring of a medicine's safety once it's on the market. It depends on reports. The Secalip Supra SmPC asks healthcare professionals to report suspected adverse reactions through Spain's national system (notificaRAM.es). The PIL invites patients to report directly through the same system."
+        },
+        {
+          "type": "text",
+          "markdown": "## How the EU re-checks an old medicine\n\nCompanies submit a **PSUR** (periodic safety update report) at set intervals. It is a summary of all the safety information gathered on the medicine. For medicines authorised country by country, the EU assesses every company's PSURs for the same substance together, in a **PSUSA** (periodic safety update single assessment).\n\nFenofibrate has three PSUSAs on EMA's website, covering data to July 2017, July 2020 and July 2023. All three ended with the outcome 'maintenance', meaning the product information stayed as it was."
+        },
+        {
+          "type": "text",
+          "markdown": "## The biggest review wasn't about a new side effect\n\nThe most consequential EU review of fenofibrate, the 2009–2011 referral, found no new safety issues. It changed where fenofibrate sits in treatment because of its benefit, not its harms: the evidence for fewer cardiovascular events was limited, and other treatments had become available.\n\nThis is a useful reminder that the benefit–risk balance can shift from either side."
+        },
+        {
+          "type": "text",
+          "markdown": "## The risk management plan\n\nA **risk management plan** (RMP) lists a medicine's important risks and describes how each one is being minimised and studied further. Single-ingredient fenofibrate has no public RMP summary, but Cholib does.\n\nCholib's summary sorts risks into two groups. Identified risks are those with enough proof of a link to the medicine: gallstones, pancreatitis, muscle damage including rhabdomyolysis, drug-induced hepatitis, creatinine rises, sensitivity to light, blood clots in the veins, severe skin reactions, interstitial lung disease, and new-onset diabetes linked to the statin. Potential risks are those where a link is possible but not established: more major cardiovascular events in women on the combination, and raised homocysteine."
+        },
+        {
+          "type": "text",
+          "markdown": "## What nobody has studied\n\nRMPs also list **missing information**: groups in which safety simply hasn't been studied. For Cholib these are people under 18, pregnant or breastfeeding women, people with severe kidney impairment, and people with liver insufficiency.\n\nAll of Cholib's risks are handled through routine measures, meaning label warnings and ongoing monitoring. No additional safety studies are required."
+        },
+        {
+          "type": "text",
+          "markdown": "## One signal, followed all the way through\n\nThe possible harm in women first appeared as a subgroup finding in ACCORD-Lipid (interaction p = 0.01). It then went into the SmPC's section 5.1, and it now sits in Cholib's RMP as an important potential risk.\n\nThis is how an uncertainty from a trial is meant to travel: it stays visible, labelled as uncertain, until evidence settles it."
+        },
+        {
+          "type": "text",
+          "markdown": "## Safety letters\n\nWhen a safety issue needs to reach prescribers fast, companies send a **DHPC** (direct healthcare professional communication), a letter agreed with the regulator. This module's research found no fenofibrate-specific DHPC. The 2010 referral outcome reached prescribers through EMA and national agencies, such as Belgium's medicines agency."
+        },
+        {
+          "type": "text",
+          "markdown": "## What would trigger a refresh of this module\n\n- A new revision of the Secalip Supra SmPC\n- A PSUSA outcome other than 'maintenance'\n- A safety signal or safety letter for fenofibrate\n\nThe current basis is the December 2020 SmPC. The latest PSUSA found covers data to July 2023 (published March 2024), so checking for the next one is a standing task."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "fen-l13-pharmacovigilance-fc1",
+              "front": "PSUSA",
+              "back": "Periodic safety update single assessment: the EU assessing all companies' safety reports for one substance together. Fenofibrate's 2017, 2020 and 2023 outcomes were all 'maintenance'."
+            },
+            {
+              "id": "fen-l13-pharmacovigilance-fc2",
+              "front": "Risk management plan",
+              "back": "A document listing a medicine's identified risks, potential risks and missing information, and how each is managed. Cholib's lists more cardiovascular events in women as a potential risk."
+            },
+            {
+              "id": "fen-l13-pharmacovigilance-fc3",
+              "front": "Missing information",
+              "back": "Groups in which safety hasn't been studied. For Cholib: under-18s, pregnancy and breastfeeding, severe kidney impairment, liver insufficiency."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "fen-l13-pharmacovigilance-q1",
+              "stem": "Fenofibrate's 2017, 2020 and 2023 PSUSAs ended with 'maintenance'. What does that mean?",
+              "options": [
+                "The medicine was withdrawn",
+                "The product information stayed as it was",
+                "New warnings were added",
+                "The medicine needs no further monitoring"
+              ],
+              "correctIndex": 1,
+              "explanation": "'Maintenance' means the assessment led to no change in the product information. Monitoring continues regardless, and the next report cycle starts over."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA 63.533, revision December 2020, sections 4.8 and 5.1.\n2. **PIL** — Secalip Supra 160 mg, revised December 2020, section 4.\n3. **Pharmacovigilance** — EMA, PSUSA/00001362/201707, PSUSA/00001362/202007 and PSUSA/00001362/202307 (fenofibrate).\n4. **Pharmacovigilance** — Summary of the risk management plan for Cholib (EMA).\n5. **EPAR-level** — EMA, Fibrates Article 31 referral (2010–11).\n6. **Pharmacovigilance** — FAMHP (Belgium), 28 October 2010."
+        }
+      ]
+    },
+    {
+      "id": "fen-l14-esc-guidelines",
+      "title": "Where the ESC guidelines place it",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## What a guideline is\n\nThe ESC/EAS guidelines, from the European Society of Cardiology and the European Atherosclerosis Society, advise doctors on practice. They don't change what a medicine is licensed for, which is why they sit below the SmPC in this module's order of trust.\n\nEach recommendation has a **class of recommendation**: I means 'is recommended', IIa 'should be considered', IIb 'may be considered', and III 'is not recommended'. It also has a **level of evidence**, from A (several randomised trials or meta-analyses) to C (expert consensus or small studies)."
+        },
+        {
+          "type": "text",
+          "markdown": "## 2019: fibrates in two places\n\nThe 2019 guidelines mention fenofibrate or bezafibrate twice, both times in combination with a statin, and both times with the wording 'may be considered' (Class IIb):\n\n- in primary prevention, for patients already at their LDL goal whose triglycerides are above 2.3 mmol/L\n- in high-risk patients already at their LDL goal whose triglycerides are above 2.3 mmol/L\n\nIn both cases LDL comes first and must already be at goal. The fibrate is an optional next step."
+        },
+        {
+          "type": "text",
+          "markdown": "## A stronger option for the same problem\n\nThe same 2019 guidelines rank a different medicine higher. In high-risk patients whose triglycerides stay between 1.5 and 5.6 mmol/L despite a statin, high-dose icosapent ethyl (a purified omega-3 fatty acid) 'should be considered', which is Class IIa, one step above the fibrates."
+        },
+        {
+          "type": "text",
+          "markdown": "## 2025: the focused update\n\nThe 2025 update covered only recommendations that were new or changed, and only those in Class I, IIa or III. It added no fibrate recommendation, so the 2019 wording is still the latest.\n\nIts text describes conventional fibrates as lowering triglycerides modestly, with minimal impact on major cardiovascular events. It restated icosapent ethyl at Class IIa. It added volanesorsen at Class IIa for a rare inherited cause of extremely high triglycerides. And it made ezetimibe and bempedoic acid Class I for patients who can't tolerate a statin."
+        },
+        {
+          "type": "compare",
+          "title": "The label and the guidelines, side by side",
+          "items": [
+            {
+              "id": "secalip-supra-smpc",
+              "label": "Secalip Supra SmPC"
+            },
+            {
+              "id": "esc-eas-guidelines",
+              "label": "ESC/EAS guidelines"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "high-triglycerides",
+              "label": "High triglycerides",
+              "values": [
+                "Can be the first medicine in severe hypertriglyceridaemia",
+                "Triglycerides despite a statin: icosapent ethyl ranked higher (Class IIa)"
+              ]
+            },
+            {
+              "id": "when-a-statin-isn-t-possible",
+              "label": "When a statin isn't possible",
+              "values": [
+                "Stands in for a statin in mixed hyperlipidaemia when a statin isn't possible",
+                "Statin intolerance: ezetimibe or bempedoic acid (Class I, 2025)"
+              ]
+            },
+            {
+              "id": "on-top-of-a-statin",
+              "label": "On top of a statin",
+              "values": [
+                "Added to a statin when triglycerides and HDL stay uncontrolled (no threshold given)",
+                "LDL at goal first; then a fibrate 'may be considered' if triglycerides are above 2.3 mmol/L (Class IIb)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Where they agree, and where they don't\n\nBoth documents put fenofibrate after the statin. They differ in two ways. The guidelines insist that LDL is at goal first, and they give a number, 2.3 mmol/L, where the label simply says triglycerides are 'not adequately controlled'.\n\nThe second indication is the sharper contrast. The label lets fenofibrate stand in for a statin in mixed hyperlipidaemia, while the 2025 update gives its strongest statin-intolerance recommendations to other medicines.\n\nOne further document is worth knowing about. A 2021 statement from the European Atherosclerosis Society suggests fenofibrate may be considered in type 2 diabetes for both large-vessel and small-vessel benefits. That is a consensus statement, not a guideline, and it ranks accordingly."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "fen-l14-esc-guidelines-fc1",
+              "front": "Class IIb",
+              "back": "ESC wording 'may be considered': the weakest positive recommendation. This is where the 2019 guidelines place adding fenofibrate to a statin."
+            },
+            {
+              "id": "fen-l14-esc-guidelines-fc2",
+              "front": "Level of evidence",
+              "back": "How strong the evidence behind a recommendation is: A (several randomised trials or meta-analyses), B, or C (expert consensus or small studies)."
+            },
+            {
+              "id": "fen-l14-esc-guidelines-fc3",
+              "front": "2.3 mmol/L",
+              "back": "The triglyceride threshold (about 200 mg/dL) above which the 2019 ESC/EAS guidelines say a fibrate may be considered, once LDL is at goal."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "fen-l14-esc-guidelines-q1",
+              "stem": "According to the 2019 ESC/EAS guidelines, when may fenofibrate be considered alongside a statin?",
+              "options": [
+                "As first-line treatment for high LDL",
+                "When LDL is already at goal and triglycerides stay above 2.3 mmol/L",
+                "Only in people who can't take a statin",
+                "Whenever HDL is low, whatever the LDL"
+              ],
+              "correctIndex": 1,
+              "explanation": "The guidelines put LDL first. Only once LDL is at goal and triglycerides stay above 2.3 mmol/L may a fibrate be considered (Class IIb). The 2025 update didn't change this."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA 63.533, revision December 2020, section 4.1.\n2. **ESC guidelines** — Mach F et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. *Eur Heart J* 2020;41:111–88.\n3. **ESC guidelines** — Mach F et al. 2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias. *Eur Heart J* 2025;46(42):4359–78.\n4. **Journal** — Averna M et al. Practical guidance for combination lipid-modifying therapy in high- and very-high-risk patients: an EAS Task Force statement. *Atherosclerosis* 2021;325:99–109."
+        }
+      ]
+    },
+    {
+      "id": "fen-l15-recap",
+      "title": "One-page recap",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Fenofibrate on one page\n\n*Basis: Secalip Supra 160 mg SmPC, revision December 2020. Next refresh: March 2027.*\n\n**What it is.** A fibrate and a prodrug. It is converted to fenofibric acid, which activates PPARα, clears triglyceride-rich particles faster and raises HDL.\n\n**What it's approved for** (always alongside diet):\n- severe hypertriglyceridaemia\n- mixed hyperlipidaemia when a statin can't be used\n- in high-risk mixed hyperlipidaemia, added to a statin when triglycerides and HDL stay uncontrolled\n\n**How it's taken.** One 160 mg tablet a day, whole, with a meal. It must not be used when eGFR is below 30. From 30 to 59, the dose limit is lower than this tablet can provide.\n\n**What it does to blood fats.** Triglycerides fall by 40–55%, and HDL rises by 10–30%. The SmPC gives these as ranges without a comparator or time point."
+        },
+        {
+          "type": "text",
+          "markdown": "**What it does to events.**\n- FIELD, vs placebo over 5 years: coronary events 5.2% vs 5.9%, HR 0.89, 95% CI 0.75–1.05. Not significant.\n- ACCORD-Lipid, added to simvastatin, vs placebo over a mean of 4.7 years: 2.2% vs 2.4% a year, HR 0.92, 95% CI 0.79–1.08. Not significant.\n- It hasn't been shown to reduce death from any cause.\n\n**Combinations.** The EU licences name a statin (Secalip Supra), simvastatin (Cholib), pravastatin or a moderate-intensity statin (Pravafenix), and rosuvastatin as a substitute for separate tablets (in Spain). None names ezetimibe, and the SmPC has no ezetimibe line.\n\n**Safety.** Digestive upset, and rises in transaminases and creatinine. Pancreatitis and blood clots in the veins were more frequent than on placebo in FIELD. The risk of muscle damage rises when fenofibrate is combined with a statin. Anticoagulant doses need cutting by about a third.\n\n**Regulators and guidelines.** The EU has kept it second-line since 2010–11. The US withdrew fenofibric acid's statin add-on approval in 2016. The ESC places adding it to a statin at Class IIb, once LDL is at goal and triglycerides are above 2.3 mmol/L."
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "fen-l15-recap-q1",
+              "stem": "Which statement best summarises fenofibrate's outcome evidence?",
+              "options": [
+                "It clearly reduces death from any cause",
+                "Its large trials missed their primary outcomes, with some secondary and subgroup signals, and no effect on overall mortality",
+                "It has never been tested in outcome trials",
+                "It works best as first-line treatment for high LDL"
+              ],
+              "correctIndex": 1,
+              "explanation": "FIELD and ACCORD-Lipid both missed their primary outcomes. FIELD found fewer total cardiovascular events (a secondary outcome), and ACCORD found a favourable subgroup. Neither showed an effect on death from any cause."
+            },
+            {
+              "id": "fen-l15-recap-q2",
+              "stem": "A patient with an eGFR of 45 is prescribed Secalip Supra 160 mg. What's the issue?",
+              "options": [
+                "None; 160 mg is the standard dose",
+                "Fenofibrate is contraindicated below 60",
+                "The label caps the dose at 67 mg micronised at this eGFR, which this tablet can't provide",
+                "The tablet should be taken on an empty stomach"
+              ],
+              "correctIndex": 2,
+              "explanation": "Between 30 and 59, the SmPC caps the dose below what a whole 160 mg tablet delivers. A different product would be needed."
+            },
+            {
+              "id": "fen-l15-recap-q3",
+              "stem": "Where does the combination of fenofibrate and ezetimibe stand?",
+              "options": [
+                "Named in the Secalip Supra licence",
+                "Sold as an EU combination tablet",
+                "Not named in any EU fenofibrate licence reviewed here; the gallstone caution comes from the ezetimibe SmPC",
+                "Contraindicated by the Secalip Supra SmPC"
+              ],
+              "correctIndex": 2,
+              "explanation": "The Secalip Supra SmPC is silent on ezetimibe. The ezetimibe SmPC notes about 1.5-fold higher ezetimibe exposure and a possible gallstone risk."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA 63.533, revision December 2020.\n2. **PIL** — Secalip Supra 160 mg, revised December 2020.\n3. **EPAR** — Cholib and Pravafenix; EMA Fibrates Article 31 referral (2010–11).\n4. **Journal** — FIELD (*Lancet* 2005); ACCORD-Lipid (*N Engl J Med* 2010).\n5. **ESC guidelines** — 2019 ESC/EAS dyslipidaemia guidelines and 2025 Focused Update.\n6. **US (differences only)** — Federal Register, 18 April 2016.\n\nEvery fact on this page is covered in more detail, with its full source, in Lessons 1–14."
         }
       ]
     }

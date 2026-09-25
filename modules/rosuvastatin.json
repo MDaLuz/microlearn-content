@@ -3,7 +3,7 @@
   "id": "rosuvastatin",
   "title": "Rosuvastatin",
   "discipline": "Medicines",
-  "version": 1,
+  "version": 2,
   "lessons": [
     {
       "id": "ros-l01-at-a-glance",
@@ -320,6 +320,370 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Crestor 5/10/20 mg, AEMPS CIMA 70.243, revision October 2025. Sections 1, 3, 4.1, 4.2, 5.1, 7, 9.\n2. **EPAR-level** — MEB (Netherlands) Public Assessment Report, Crestor, NL/H/0343/001-004/E/001, 3 February 2011, including Annexes I and II.\n3. **EPAR-level** — EMA, Crestor 5 mg, Article 29(2) referral (CHMP opinion 21 April 2005; EC decision 9 August 2005).\n4. **Journal** — Wolfe SM. Dangers of rosuvastatin identified before and after FDA approval. *Lancet*, June 2004.\n5. **US (differences only)** — AstraZeneca press release on FDA approval, 13 August 2003; US Crestor prescribing information, JUPITER section."
+        }
+      ]
+    },
+    {
+      "id": "ros-l04-approved-uses",
+      "title": "What it's approved for",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## One condition behind every use\n\nEach use in the SmPC comes with the same condition: rosuvastatin is an **adjunct**, something added on top of other measures. For high cholesterol, that means diet and other non-drug measures such as exercise and weight loss, which continue during treatment.\n\nThe SmPC also asks for **secondary hypercholesterolaemia**, raised cholesterol caused by another condition, to be treated first. It names an underactive thyroid and nephrotic syndrome, a kidney disorder in which protein leaks into the urine."
+        },
+        {
+          "type": "text",
+          "markdown": "## Use 1: high cholesterol\n\nThe first indication covers primary hypercholesterolaemia and mixed dyslipidaemia. The SmPC names them with the **Fredrickson types**, an older lab classification of lipid disorders: type IIa is raised LDL, and type IIb is raised LDL and triglycerides together. Heterozygous familial hypercholesterolaemia is included.\n\nIt applies to adults and to children from 6 years old, in each case only after diet and other measures have not been enough. Children must be treated by specialists. Doses are 5–10 mg from age 6 to 9, and 5–20 mg from age 10 to 17."
+        },
+        {
+          "type": "text",
+          "markdown": "## Use 2: the inherited double-copy form\n\nThe second indication is homozygous familial hypercholesterolaemia, from 6 years old. Rosuvastatin is used here alongside diet and other lipid treatments, such as LDL apheresis, or on its own if those treatments aren't appropriate.\n\nThe evidence behind this use is thin. The SmPC describes an open-label study of 42 patients (8 of them children) on 20–40 mg, in which LDL fell by an average of 22%. There was no comparator. With a condition this rare, that is often the best evidence available."
+        },
+        {
+          "type": "text",
+          "markdown": "## Use 3: preventing a first event\n\nThe third indication is **primary prevention**, treatment given before any heart attack or stroke has happened. It covers people at high risk of a *first* major cardiovascular event, alongside correcting their other risk factors, such as blood pressure and smoking. The dose is 20 mg, the dose used in JUPITER.\n\nFor who counts as high risk, the indication points to section 5.1. That section describes JUPITER's post-hoc analyses of higher-risk participants, so the indication's boundaries are drawn from them."
+        },
+        {
+          "type": "text",
+          "markdown": "## Notice what isn't there\n\nThree uses were proposed or tested but aren't in the label:\n\n- Raised triglycerides on their own. Regulators called this 'a poorly defined entity' and didn't accept it as an indication.\n- Slowing the build-up of plaque in the arteries. The METEOR trial is described in the label, but no indication was granted.\n- Heart failure. The CORONA trial didn't show a benefit.\n\nThere is also no separate prevention indication for people who have already had a heart attack or stroke. The prevention wording is about a first event only."
+        },
+        {
+          "type": "compare",
+          "title": "Three labels, three sets of uses",
+          "items": [
+            {
+              "id": "crestor",
+              "label": "Crestor (Spain)"
+            },
+            {
+              "id": "rosuvastatin-ezetimibe",
+              "label": "Rosuvastatin + ezetimibe (Spain)"
+            },
+            {
+              "id": "crestor-2",
+              "label": "Crestor (US, April 2026)"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "use-1",
+              "label": "Use 1",
+              "values": [
+                "High cholesterol and mixed dyslipidaemia, from age 6",
+                "Substitution only: for people already controlled on both medicines taken separately",
+                "Reducing major cardiovascular events in adults at increased risk"
+              ]
+            },
+            {
+              "id": "use-2",
+              "label": "Use 2",
+              "values": [
+                "Homozygous FH, from age 6",
+                "Primary hypercholesterolaemia",
+                "Also raised triglycerides and dysbetalipoproteinaemia"
+              ]
+            },
+            {
+              "id": "use-3",
+              "label": "Use 3",
+              "values": [
+                "Prevention of a first event in high-risk people",
+                "Not for starting treatment",
+                "Children with heterozygous FH from age 8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## The US door is wider in some places\n\nThe US label includes three indications the EU never granted: raised triglycerides, primary dysbetalipoproteinaemia (a rare inherited lipid disorder), and slowing the progression of atherosclerosis, the plaque build-up that METEOR measured. Its prevention wording also covers 'adults at increased risk' without limiting it to a first event.\n\nIn two places it is narrower: for children, it starts at age 8 in heterozygous familial hypercholesterolaemia and at 7 in the homozygous form, while the EU label starts at 6 for both."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ros-l04-approved-uses-fc1",
+              "front": "Adjunct",
+              "back": "Something added on top of other measures. For high cholesterol, rosuvastatin is an adjunct to diet and non-drug measures."
+            },
+            {
+              "id": "ros-l04-approved-uses-fc2",
+              "front": "Fredrickson types",
+              "back": "An older lab classification of lipid disorders. Type IIa is raised LDL; type IIb is raised LDL and triglycerides. Crestor's first indication covers both."
+            },
+            {
+              "id": "ros-l04-approved-uses-fc3",
+              "front": "Primary prevention",
+              "back": "Treatment given before any heart attack or stroke has happened. Crestor's prevention indication covers people at high risk of a first event."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ros-l04-approved-uses-q1",
+              "stem": "Which of these is an indication in the US Crestor label but not in the Spanish SmPC?",
+              "options": [
+                "Heterozygous familial hypercholesterolaemia in adults",
+                "Raised triglycerides as an indication in its own right",
+                "Homozygous familial hypercholesterolaemia",
+                "Mixed dyslipidaemia"
+              ],
+              "correctIndex": 1,
+              "explanation": "EU assessors didn't accept isolated raised triglycerides as an indication, calling it poorly defined. The US label includes it. The other three options appear in both labels."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Crestor 5/10/20 mg, AEMPS CIMA 70.243, revision October 2025. Sections 4.1, 4.2, 4.4, 5.1.\n2. **EPAR-level** — MEB (Netherlands) Public Assessment Report, Crestor, NL/H/0343, 3 February 2011.\n3. **SmPC (combination, national)** — Rosuvastatina/Ezetimiba Stadagen (CIMA 84659); Rosuvastatina/Ezetimiba Sandoz (CIMA 88393). Section 4.1.\n4. **US (differences only)** — Crestor prescribing information, April 2026 revision (FDA label 021366s047)."
+        }
+      ]
+    },
+    {
+      "id": "ros-l05-strengths-products",
+      "title": "Strengths and products",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The tablets this module is built on\n\nCrestor comes as round **film-coated tablets** (tablets with a thin outer layer). The 5 mg tablet is yellow, and the 10 mg and 20 mg tablets are pink. Every tablet is engraved 'ZD4522' plus its strength, which is the development code from Lesson 3.\n\nThe most important **excipient** (an ingredient other than the active substance) for patients is lactose, from about 91 mg per tablet at 10 mg to about 183 mg at 20 mg. Crestor comes in blister packs of 7 to 100 tablets, or in bottles of 30 or 100. It keeps for three years below 30 °C, in the original pack to protect it from moisture."
+        },
+        {
+          "type": "text",
+          "markdown": "## Who stands behind it\n\nIn Spain, the **MAH** (marketing authorisation holder, the company legally responsible for the product) is now Grünenthal GmbH, of Aachen, Germany. The tablets are made by Grünenthal and by Farmaceutici Formenti in Italy, and Almirall is the local representative.\n\nAccording to the PIL, the same product is sold as Crestor in 17 countries of the European Economic Area, from the Netherlands and Germany to Portugal and Poland."
+        },
+        {
+          "type": "text",
+          "markdown": "## The 40 mg question\n\nThe Crestor SmPC on CIMA lists only 5, 10 and 20 mg, yet it contains rules for 40 mg. The PIL even describes stepping the dose up to 40 mg.\n\nThe reason is that 40 mg rosuvastatin *is* part of the Spanish market. Generic 40 mg tablets are authorised in Spain, and the Spanish agency's 2015 assessment reports name Crestor 40 mg as their reference product. The SmPC text also comes from the shared EU procedure, which always included 40 mg.\n\nThis module couldn't confirm whether a separate Crestor 40 mg listing is still active. The practical point stands, though: the 40 mg rules apply to every rosuvastatin 40 mg tablet a patient might receive."
+        },
+        {
+          "type": "text",
+          "markdown": "## Generics\n\nMany **generics** (copies authorised because they match the original) are sold in Spain, with the letters EFG on the pack. Some differ from Crestor in small but useful ways. Several have a score line and can be split into equal halves, whereas Crestor is swallowed whole.\n\nSeveral companies, including Krka, Normon, Teva and Cinfa, also sell 15 mg and 30 mg tablets. Crestor was never made in those strengths, so they aren't labelled as generics."
+        },
+        {
+          "type": "text",
+          "markdown": "## Combination products in Spain\n\nRosuvastatin is also sold combined with other medicines in one tablet or capsule:\n\n- with ezetimibe: many companies, 5 to 40 mg rosuvastatin with 10 mg ezetimibe\n- with fenofibrate: several companies, including Tecnimede, Intas, Viatris and Althera (see the fenofibrate module)\n- with amlodipine, a blood pressure medicine: capsules of 10 or 20 mg rosuvastatin with 5 or 10 mg amlodipine\n- with valsartan, a blood pressure medicine (Valsaros): 10 or 20 mg rosuvastatin with 80 or 160 mg valsartan\n- with acetylsalicylic acid (Roasax): capsules of 5, 10 or 20 mg rosuvastatin with 100 mg aspirin\n\nThe ones checked for this module are for **substitution therapy** only, meaning they replace the same medicines already being taken separately at the same doses. Lesson 9 goes through the evidence behind each pairing."
+        },
+        {
+          "type": "compare",
+          "title": "Three ways rosuvastatin reaches a patient",
+          "items": [
+            {
+              "id": "crestor",
+              "label": "Crestor"
+            },
+            {
+              "id": "generics",
+              "label": "Generics"
+            },
+            {
+              "id": "combinations",
+              "label": "Combinations"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "range",
+              "label": "Range",
+              "values": [
+                "5, 10 and 20 mg tablets in Spain",
+                "5 to 40 mg, some also 15 and 30 mg",
+                "With ezetimibe, fenofibrate, amlodipine, valsartan or aspirin"
+              ]
+            },
+            {
+              "id": "how-it-is-used",
+              "label": "How it is used",
+              "values": [
+                "Swallowed whole",
+                "Some can be split in half",
+                "Substitution therapy, not for starting treatment"
+              ]
+            },
+            {
+              "id": "note",
+              "label": "Note",
+              "values": [
+                "The reference product",
+                "Marked EFG",
+                "Covered in Lesson 9"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Outside the EU\n\nIn the US, Crestor comes in 5, 10, 20 and 40 mg strengths, debossed with the same 'ZD4522' code as in Spain. The Swiss label hasn't yet been reviewed for this module."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ros-l05-strengths-products-fc1",
+              "front": "Excipient",
+              "back": "Any ingredient other than the active substance. In Crestor, lactose is the one that matters most for patients."
+            },
+            {
+              "id": "ros-l05-strengths-products-fc2",
+              "front": "MAH",
+              "back": "Marketing authorisation holder: the company legally responsible for a product. For Crestor in Spain, that is Grünenthal GmbH."
+            },
+            {
+              "id": "ros-l05-strengths-products-fc3",
+              "front": "Substitution therapy",
+              "back": "A combination product that replaces the same medicines already taken separately at the same doses. It isn't used to start treatment."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ros-l05-strengths-products-q1",
+              "stem": "Why does the Spanish Crestor SmPC contain rules for a 40 mg dose it doesn't list?",
+              "options": [
+                "It's a printing error",
+                "40 mg rosuvastatin is part of the Spanish market, and the SmPC text comes from the shared EU procedure that includes 40 mg",
+                "40 mg is only for children",
+                "The 40 mg rules apply only in the US"
+              ],
+              "correctIndex": 1,
+              "explanation": "Generic 40 mg tablets are authorised in Spain, with Crestor 40 mg named as their reference product, and the harmonised EU text always covered 40 mg. The rules apply whichever 40 mg tablet a patient receives."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Crestor 5/10/20 mg, AEMPS CIMA 70.243, revision October 2025. Sections 1, 2, 3, 6.\n2. **PIL** — Crestor 10 mg, revised October 2025. Sections 3 and 6.\n3. **SmPC / assessment reports (generics and combinations, Spain)** — Rosuvastatina Cinfa (CIMA 80212–80215; IPE 80214); Rosuvastatina Farmalider (IPE 81441); Rosuvastatina Krka (CIMA 81842–81846); Rosuvastatina/Ezetimiba Krka (CIMA 91083) and Cinfa (CIMA 88172); Rosuvastatina/Amlodipino Teva (CIMA 85328); Valsaros (CIMA 82505); Roasax (CIMA 85515).\n4. **US (differences only)** — Crestor prescribing information, April 2026."
+        }
+      ]
+    },
+    {
+      "id": "ros-l06-how-taken",
+      "title": "How it's taken",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The routine\n\nRosuvastatin is taken once a day, at any time of day, with or without food. The tablet is swallowed whole with water. The PIL suggests taking it at the same time every day, because that makes it easier to remember.\n\nDiet and exercise continue alongside the tablet."
+        },
+        {
+          "type": "text",
+          "markdown": "## Starting and adjusting\n\nFor high cholesterol, treatment starts at 5 mg or 10 mg, even for someone switching from a higher dose of another statin. The choice depends on the person's cholesterol level, their cardiovascular risk and their risk of side effects. After four weeks the dose can go up one step.\n\n40 mg is reserved for severe high cholesterol at high cardiovascular risk (especially familial hypercholesterolaemia) that isn't at goal on 20 mg. It requires routine follow-up and should be started under specialist supervision.\n\nFor the prevention indication, the dose is 20 mg."
+        },
+        {
+          "type": "text",
+          "markdown": "## Who starts at 5 mg\n\nThe SmPC recommends starting at 5 mg for:\n\n- people over 70\n- people of Asian origin\n- moderate kidney impairment\n- factors that predispose to muscle problems\n- other medicines that at least double rosuvastatin exposure\n\nPeople known to carry one of the transporter gene variants from Lesson 2 take half the usual dose, with a maximum of 20 mg.\n\nOne small mismatch: the PIL's list of Asian origins includes Filipino, while the SmPC's pharmacokinetic section names Japanese, Chinese, Vietnamese, Korean and Indo-Asian patients."
+        },
+        {
+          "type": "text",
+          "markdown": "## Kidneys and liver\n\nKidney function is measured here as **creatinine clearance**, how much blood the kidneys clean of creatinine each minute.\n\n- Below 30 mL/min: rosuvastatin must not be used.\n- Below 60 mL/min: start at 5 mg; 40 mg is contraindicated.\n\nLiver function is graded with the **Child-Pugh score**, which rates how severe liver disease is.\n\n- Score 7 or below: exposure doesn't rise.\n- Score 8–9: exposure rises, and kidney function should be assessed.\n- Above 9: there is no experience.\n- Active liver disease: rosuvastatin is contraindicated."
+        },
+        {
+          "type": "text",
+          "markdown": "## The checks\n\nLiver tests are done before starting treatment and three months later. Treatment is stopped, or the dose reduced, if transaminases rise above three times the **ULN** (upper limit of normal, the top of the laboratory's reference range).\n\nMuscle is tracked with **CK** (creatine kinase, a muscle enzyme measured in the blood). Routine CK checks aren't needed in people without symptoms, and CK shouldn't be measured after strenuous exercise. If it's above five times the ULN before treatment, the test is repeated within 5–7 days, and treatment isn't started if the result is confirmed."
+        },
+        {
+          "type": "text",
+          "markdown": "## Missed doses and stopping\n\nIf a dose is missed, the PIL says simply to take the next one at the usual time, without doubling up. Anyone who wants to stop should talk to their doctor first, because cholesterol levels rise again once treatment ends."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pregnancy, breastfeeding and children\n\nRosuvastatin is contraindicated in pregnancy and breastfeeding. Women who could become pregnant need adequate contraception, and treatment must stop immediately if a pregnancy occurs.\n\nChildren are treated only by specialists. It isn't recommended under 6."
+        },
+        {
+          "type": "text",
+          "markdown": "## Overdose\n\nThere is no specific treatment for an overdose. Care is supportive, with liver function and CK monitored, and haemodialysis is unlikely to help. In Spain, the PIL gives the national toxicology information line."
+        },
+        {
+          "type": "compare",
+          "title": "Where the EU and US labels part ways",
+          "items": [
+            {
+              "id": "crestor",
+              "label": "Crestor (Spain)"
+            },
+            {
+              "id": "crestor-2",
+              "label": "Crestor (US, April 2026)"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "kidneys",
+              "label": "Kidneys",
+              "values": [
+                "Severe kidney impairment: contraindicated",
+                "Severe kidney impairment, not on dialysis: start at 5 mg, maximum 10 mg"
+              ]
+            },
+            {
+              "id": "ciclosporin",
+              "label": "Ciclosporin",
+              "values": [
+                "contraindicated",
+                "Cyclosporine: maximum 5 mg"
+              ]
+            },
+            {
+              "id": "contraindications",
+              "label": "Contraindications",
+              "values": [
+                "Pregnancy and breastfeeding: contraindicated",
+                "Contraindications limited to acute liver failure, decompensated cirrhosis and hypersensitivity"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ros-l06-how-taken-fc1",
+              "front": "Creatinine clearance",
+              "back": "A measure of kidney function. Below 30 mL/min, rosuvastatin must not be used; below 60, start at 5 mg and never use 40 mg."
+            },
+            {
+              "id": "ros-l06-how-taken-fc2",
+              "front": "Child-Pugh score",
+              "back": "A score of liver disease severity. At 8–9, rosuvastatin exposure rises; above 9, there is no experience."
+            },
+            {
+              "id": "ros-l06-how-taken-fc3",
+              "front": "CK",
+              "back": "Creatine kinase, a muscle enzyme. It isn't checked routinely, and shouldn't be measured after strenuous exercise; if baseline CK is above 5× ULN and confirmed, treatment isn't started."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ros-l06-how-taken-q1",
+              "stem": "A 74-year-old woman of Korean origin with normal kidney function is starting Crestor for high cholesterol. What does the SmPC recommend?",
+              "options": [
+                "Start at 10 mg, and go to 40 mg if needed",
+                "Start at 5 mg; 40 mg is contraindicated for her",
+                "Start at 20 mg, the prevention dose",
+                "Rosuvastatin is contraindicated over 70"
+              ],
+              "correctIndex": 1,
+              "explanation": "Being over 70 and of Asian origin each mean a 5 mg start. Asian origin also makes 40 mg contraindicated. Age alone is not a contraindication."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Crestor 5/10/20 mg, AEMPS CIMA 70.243, revision October 2025. Sections 4.2, 4.3, 4.4, 4.6, 4.9, 5.2.\n2. **PIL** — Crestor 10 mg, revised October 2025. Sections 2 and 3.\n3. **US (differences only)** — Crestor prescribing information, April 2026 revision (FDA label 021366s047)."
         }
       ]
     }

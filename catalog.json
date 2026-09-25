@@ -44,6 +44,17 @@
       "lessonCount": 15,
       "estimatedMinutes": 135,
       "accentColor": "#1D9E75"
+    },
+    {
+      "id": "rosuvastatin",
+      "title": "Rosuvastatin",
+      "discipline": "Medicines",
+      "description": "What the label approves, and what the trials showed",
+      "file": "modules/rosuvastatin.json",
+      "version": 1,
+      "lessonCount": 15,
+      "estimatedMinutes": 150,
+      "accentColor": "#1D9E75"
     }
   ]
 }

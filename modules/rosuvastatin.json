@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 4,
+  "id": "rosuvastatin",
+  "title": "Rosuvastatin",
+  "discipline": "Medicines",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "ros-l01-at-a-glance",
+      "title": "At a glance",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## What rosuvastatin is\n\nRosuvastatin is a **statin**, one of a family of medicines that lower cholesterol by slowing how much of it the liver makes. It is taken as one tablet a day, at any time of day, with or without food.\n\nThis module is built on one document: the **SmPC** (summary of product characteristics, the regulator-approved reference text for prescribers) for Crestor 5, 10 and 20 mg, as authorised in Spain, where the marketing authorisation holder is Grünenthal GmbH. The version used is the text revised in **October 2025**. Wherever another source disagrees about what is approved, the SmPC wins."
+        },
+        {
+          "type": "text",
+          "markdown": "## What it is approved for\n\nThe SmPC lists three uses:\n\n- High cholesterol in adults, and in children from 6 years old. This covers raised **LDL cholesterol** (the fraction most closely tied to artery disease), including **familial hypercholesterolaemia** (an inherited form that raises LDL from birth), and **mixed dyslipidaemia** (raised cholesterol and triglycerides together). In each case it is added to diet when diet and other non-drug measures haven't been enough.\n- The rare form in which both parents passed on the gene (homozygous familial hypercholesterolaemia), from 6 years old, alongside diet and other lipid treatments such as LDL apheresis, a dialysis-like filtering of LDL out of the blood.\n- Prevention of major cardiovascular events in people at high risk of a *first* event, alongside correcting their other risk factors."
+        },
+        {
+          "type": "text",
+          "markdown": "## What it does to blood fats\n\nThe SmPC's dose table comes from a small study with 17 or 18 people per dose and 13 on **placebo** (a dummy tablet). LDL cholesterol fell by 45% at 5 mg, 52% at 10 mg, 55% at 20 mg and 63% at 40 mg, compared with 7% on placebo.\n\nTwo cautions apply. First, the table doesn't state how long people were treated, which is part of the time point every number needs. The SmPC says separately that the effect starts within a week and reaches its maximum by about four weeks. Second, the groups are tiny, so treat the exact figures as orientation.\n\nThe **comparator** here, meaning the treatment the medicine is measured against, is placebo."
+        },
+        {
+          "type": "text",
+          "markdown": "## What it does to heart attacks and strokes\n\nThe prevention indication rests on JUPITER, a trial of 17,802 people who took rosuvastatin 20 mg or placebo for a mean of two years. In it, LDL was 45% lower on rosuvastatin than on placebo.\n\nNotice how the SmPC tells the rest of the story. It doesn't give the trial's overall result. Instead it describes two **post-hoc analyses** (analyses chosen after the data had been seen) of higher-risk participants, both showing fewer cardiovascular deaths, strokes and heart attacks. In neither analysis was death from any cause reduced.\n\nLesson 8 shows the full trial."
+        },
+        {
+          "type": "text",
+          "markdown": "## What to watch\n\n- Muscles: aches are common, while **rhabdomyolysis** (severe muscle breakdown that can damage the kidneys) is rare. Reports rise at 40 mg.\n- The liver: **transaminases** (liver enzymes measured in a blood test) should be checked before starting treatment and again three months later.\n- The kidneys: at high doses, some people develop **proteinuria** (protein in the urine). It's usually temporary.\n- Blood sugar: in JUPITER, 2.8% of people on rosuvastatin developed diabetes, compared with 2.3% on placebo.\n\nRosuvastatin must not be used in:\n\n- active liver disease\n- severe kidney impairment\n- existing muscle disease\n- people taking ciclosporin\n- pregnancy or breastfeeding, or women who could become pregnant and aren't using adequate contraception\n\nLessons 11 and 12 cover each of these."
+        },
+        {
+          "type": "text",
+          "markdown": "## What this module is, and isn't\n\nThis is a learning module, not prescribing advice. Every lesson is dated to the SmPC revision above. The module is refreshed every six months, or straight away if the SmPC changes or a **safety signal** (new evidence suggesting a possible side effect) appears.\n\nOne point to note from the start: this Spanish SmPC covers 5, 10 and 20 mg tablets, yet it still contains dosing rules for 40 mg. Lesson 5 explains why."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ros-l01-at-a-glance-fc1",
+              "front": "Statin",
+              "back": "A family of medicines that lower cholesterol by slowing its production in the liver. Rosuvastatin is one of them."
+            },
+            {
+              "id": "ros-l01-at-a-glance-fc2",
+              "front": "Familial hypercholesterolaemia",
+              "back": "An inherited condition that raises LDL cholesterol from birth. Heterozygous means one copy of the gene; homozygous means two, and is much rarer and more severe."
+            },
+            {
+              "id": "ros-l01-at-a-glance-fc3",
+              "front": "Post-hoc analysis",
+              "back": "An analysis chosen after the data had been seen. The EU SmPC describes JUPITER mainly through post-hoc analyses of higher-risk participants."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ros-l01-at-a-glance-q1",
+              "stem": "Which of these is an approved use of Crestor, according to the Spanish SmPC?",
+              "options": [
+                "Raised triglycerides alone, as a stand-alone indication",
+                "Prevention of major cardiovascular events in people at high risk of a first event, alongside correcting other risk factors",
+                "Children under 6 with familial hypercholesterolaemia",
+                "Chronic heart failure"
+              ],
+              "correctIndex": 1,
+              "explanation": "That is the prevention indication. Raised triglycerides on their own were not accepted as an indication, the label covers children only from 6 years old, and heart failure isn't an indication (Lesson 3 explains why)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Crestor 5/10/20 mg comprimidos recubiertos con película. AEMPS CIMA, MA nos. 70.334, 70.243 and 70.244; text revision October 2025. Sections 1, 4.1, 4.2, 4.3, 4.4, 4.8, 5.1."
+        }
+      ]
+    },
+    {
+      "id": "ros-l02-how-it-works",
+      "title": "How it works",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The enzyme it blocks\n\nRosuvastatin blocks **HMG-CoA reductase**, the liver enzyme that controls the **rate-limiting step** in making cholesterol, meaning the slowest step, which sets the pace for the whole process. The enzyme turns a molecule called HMG-CoA into mevalonate, an early building block of cholesterol. Rosuvastatin competes with HMG-CoA for the enzyme's active site, and it acts mainly in the liver, the organ it is designed to reach."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why LDL falls\n\nWhen the liver makes less cholesterol, it compensates by putting more **LDL receptors** on its surface. These are docking points that pull LDL particles out of the blood. More receptors means more LDL is cleared.\n\nThe liver also makes less **VLDL** (very-low-density lipoprotein, the particle that carries triglycerides and later becomes LDL). Fewer VLDL particles today means fewer LDL particles tomorrow."
+        },
+        {
+          "type": "compare",
+          "title": "At 10 mg, in the SmPC's small dose table",
+          "items": [
+            {
+              "id": "ldl-cholesterol",
+              "label": "LDL cholesterol"
+            },
+            {
+              "id": "hdl-cholesterol",
+              "label": "HDL cholesterol"
+            },
+            {
+              "id": "triglycerides",
+              "label": "Triglycerides"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "at-10-mg-vs-placebo",
+              "label": "At 10 mg vs placebo",
+              "values": [
+                "−52% vs −7% on placebo",
+                "+14% vs +3% on placebo",
+                "−10% vs −3% on placebo"
+              ]
+            },
+            {
+              "id": "in-context",
+              "label": "In context",
+              "values": [
+                "The main target",
+                "A modest rise",
+                "Yet −35% at 5 mg"
+              ]
+            },
+            {
+              "id": "across-doses",
+              "label": "Across doses",
+              "values": [
+                "Consistent across doses",
+                "Not larger at higher doses",
+                "Small groups make this noisy"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Reading that table honestly\n\nTriglycerides fell by 35% at 5 mg but only 10% at 10 mg. A medicine doesn't usually work less well at a higher dose, and nothing in the SmPC suggests rosuvastatin does. With 17 people per group, one or two unusual results can move the average a long way. Small groups make noisy numbers, and noisy numbers deserve light weight."
+        },
+        {
+          "type": "text",
+          "markdown": "## Beyond LDL\n\nThe SmPC reports that rosuvastatin also lowers **apolipoprotein B**, the protein that sits on every artery-clogging particle, one per particle. It lowers **non-HDL cholesterol** (total cholesterol minus HDL) and raises apolipoprotein A1, the main protein on HDL.\n\nAll of these are **markers**, things measured in the blood. They show what the medicine does to lipids, not what it does for the patient."
+        },
+        {
+          "type": "text",
+          "markdown": "## What happens in the body\n\nBlood levels peak about five hours after a dose. Only around 20% of a dose reaches the circulation, which is its **bioavailability**. About 90% of the rosuvastatin in the blood is bound to proteins, mainly albumin.\n\nOnly about 10% is broken down, mostly by the liver enzyme CYP2C9. Around 90% leaves the body unchanged in the faeces. Its **half-life**, the time it takes for blood levels to fall by half, is about 19 hours.\n\nThe Dutch assessment report gives protein binding as about 85% rather than 90%. The difference is small, but it's a reminder that source documents don't always agree."
+        },
+        {
+          "type": "text",
+          "markdown": "## Transporters, not metabolism\n\nMost of rosuvastatin's interactions don't come from liver enzymes. They come from **transporter proteins**, which move medicines into and out of cells. OATP1B1 pulls rosuvastatin into liver cells, and BCRP pumps it out of cells. Blocking either one raises blood levels.\n\nExposure is measured as **AUC** (area under the curve, the total amount in the blood over time). Ciclosporin, for example, raises rosuvastatin's AUC about 7 times, which is why the combination is contraindicated.\n\nInherited differences in the genes for these transporters also matter. A **genetic variant** that weakens OATP1B1 (SLCO1B1 c.521CC) raises exposure about 1.6 times; one that weakens BCRP (ABCG2 c.421AA) raises it about 2.4 times. For people known to carry either variant, the SmPC advises half the usual dose and a maximum of 20 mg."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why ancestry appears in the label\n\nPharmacokinetic studies show about twice the exposure in Japanese, Chinese, Vietnamese and Korean patients, and about 1.3 times in Indo-Asian patients, compared with white patients. The SmPC therefore recommends a starting dose of 5 mg for patients of Asian origin and contraindicates the 40 mg dose in them."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ros-l02-how-it-works-fc1",
+              "front": "HMG-CoA reductase",
+              "back": "The liver enzyme that controls the rate-limiting step in cholesterol production. Statins block it."
+            },
+            {
+              "id": "ros-l02-how-it-works-fc2",
+              "front": "LDL receptor",
+              "back": "A docking point on liver cells that pulls LDL out of the blood. When the liver makes less cholesterol, it adds more of these receptors."
+            },
+            {
+              "id": "ros-l02-how-it-works-fc3",
+              "front": "OATP1B1 and BCRP",
+              "back": "Transporter proteins that move rosuvastatin into and out of cells. Blocking them raises rosuvastatin levels; this is the source of most of its interactions."
+            },
+            {
+              "id": "ros-l02-how-it-works-fc4",
+              "front": "AUC",
+              "back": "Area under the curve: the total amount of a medicine in the blood over time. Ciclosporin raises rosuvastatin's AUC about 7-fold."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ros-l02-how-it-works-q1",
+              "stem": "Why is rosuvastatin contraindicated with ciclosporin?",
+              "options": [
+                "Ciclosporin blocks HMG-CoA reductase too",
+                "Ciclosporin blocks transporter proteins, raising rosuvastatin exposure about 7-fold",
+                "Rosuvastatin raises ciclosporin levels dangerously",
+                "Both medicines are broken down by CYP3A4"
+              ],
+              "correctIndex": 1,
+              "explanation": "Most rosuvastatin interactions work through transporters, not liver enzymes. The SmPC reports a 7.1-fold rise in rosuvastatin's AUC with ciclosporin, while ciclosporin levels themselves were unaffected."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Crestor 5/10/20 mg, AEMPS CIMA 70.243, revision October 2025. Sections 4.2, 4.3, 4.5, 5.1, 5.2.\n2. **EPAR-level** — MEB (Netherlands) Public Assessment Report, Crestor, NL/H/0343/001-004/E/001, 3 February 2011. Clinical pharmacokinetics."
+        }
+      ]
+    },
+    {
+      "id": "ros-l03-history",
+      "title": "History",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A late arrival\n\nRosuvastatin was discovered by the Japanese company Shionogi. It is fully synthetic, unlike the earliest statins, which came from fungi. AstraZeneca licensed the worldwide rights from Shionogi and developed the medicine under the code ZD4522, which is still engraved on every Crestor tablet.\n\nBy the time it reached patients, several other statins were already established. It had to earn its place against them."
+        },
+        {
+          "type": "text",
+          "markdown": "## A contested European start\n\nThe first approval came in the Netherlands on 6 November 2002. The Netherlands then acted as the **reference member state**, the country that assesses a medicine first on behalf of the others, in a **mutual recognition procedure**, in which other EU countries are asked to accept that first approval.\n\nTwelve countries accepted it by March 2003. Nine countries raised potential serious concerns: about the starting dose, the balance of benefit and risk at 40 mg, use in kidney and liver disease, and interactions. The applications were withdrawn in Germany, Norway and Spain, and France withdrew only the 40 mg strength because of kidney effects. An 80 mg dose had already been dropped, after protein appeared in the urine at 40 and 80 mg."
+        },
+        {
+          "type": "text",
+          "markdown": "## The 5 mg question\n\nWhen a 5 mg tablet was added in 2004, member states disagreed about whether 5 mg should be the starting dose for everyone. The UK sent the question to an **Article 29 referral**, the EU's arbitration route when countries disagree during mutual recognition.\n\nIn April 2005 the CHMP, the EMA's main committee for human medicines, concluded that either 5 mg or 10 mg was an acceptable starting dose, chosen according to the patient's cholesterol level and risk factors. The European Commission made that binding in August 2005, and it's still the wording in today's SmPC."
+        },
+        {
+          "type": "text",
+          "markdown": "## Early safety scrutiny\n\nIn 2004 a US consumer group argued in *The Lancet* that rosuvastatin should be withdrawn, citing reports of kidney failure and rhabdomyolysis. It also pointed to US pre-approval data at 80 mg: markedly raised muscle enzymes in 1.9% of patients, myopathy in 1.0% and rhabdomyolysis in 0.4%.\n\nThe Dutch assessors took a different view of the marketed doses. Muscle findings up to 40 mg were comparable with other statins. In later population studies, rhabdomyolysis occurred at 0.1 per 1,000 patient-years on rosuvastatin versus 0.06 on other statins, a difference that wasn't statistically significant. Their answer was to restrict 40 mg rather than remove it."
+        },
+        {
+          "type": "text",
+          "markdown": "## Outcomes came later\n\nWhen rosuvastatin was first approved there were no data on heart attacks or deaths. Regulators accepted LDL as a **surrogate endpoint**, a lab measure trusted to stand in for clinical outcomes, as they had for other statins.\n\nThe outcome trials that followed gave mixed results:\n\n- In chronic heart failure (CORONA), rosuvastatin 10 mg didn't reduce cardiovascular events or deaths.\n- In METEOR, it slowed thickening of the neck arteries. That result was added to the label's trial descriptions, but no indication was granted for it.\n- JUPITER led to the prevention indication, approved in March 2010. That same month, use in children aged 10–17 was approved; it has since been extended to children from 6."
+        },
+        {
+          "type": "text",
+          "markdown": "## Spain joined late\n\nSpain had withdrawn in 2003, so Crestor only arrived there through a later 'repeat-use' procedure, alongside Germany, Malta, Norway and Poland. The Spanish authorisations date from 11 November 2008 (10 and 20 mg) and 15 January 2009 (5 mg). The marketing authorisation holder in Spain is now Grünenthal GmbH."
+        },
+        {
+          "type": "compare",
+          "title": "JUPITER in two labels",
+          "items": [
+            {
+              "id": "eu",
+              "label": "EU (Spanish SmPC)"
+            },
+            {
+              "id": "us-label",
+              "label": "US label"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "indication",
+              "label": "Indication",
+              "values": [
+                "people at high risk of a first cardiovascular event",
+                "adults at increased cardiovascular risk"
+              ]
+            },
+            {
+              "id": "what-it-reports",
+              "label": "What it reports",
+              "values": [
+                "Reports LDL −45% and two post-hoc high-risk analyses",
+                "Reports the overall result: 142 vs 252 events"
+              ]
+            },
+            {
+              "id": "overall-result",
+              "label": "Overall result",
+              "values": [
+                "Doesn't state the trial's overall result",
+                "44% relative and 1.2% absolute risk reduction"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ros-l03-history-fc1",
+              "front": "Mutual recognition procedure",
+              "back": "An EU route in which one country (the reference member state) assesses a medicine and others are asked to recognise that approval. For Crestor, the reference member state was the Netherlands."
+            },
+            {
+              "id": "ros-l03-history-fc2",
+              "front": "Article 29 referral",
+              "back": "The EU's arbitration route when member states disagree during mutual recognition. For Crestor it settled the starting dose in 2005: 5 or 10 mg."
+            },
+            {
+              "id": "ros-l03-history-fc3",
+              "front": "Surrogate endpoint",
+              "back": "A lab measure, such as LDL, accepted in place of clinical outcomes. Rosuvastatin was first approved on LDL data alone."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ros-l03-history-q1",
+              "stem": "Why was Crestor only authorised in Spain in 2008, six years after its first EU approval?",
+              "options": [
+                "Spain rejected rosuvastatin as unsafe",
+                "The application was withdrawn in Spain during the 2003 mutual recognition procedure; Spain joined through a later repeat-use procedure",
+                "Spain required new outcome trials first",
+                "Crestor was first approved centrally by the EMA in 2008"
+              ],
+              "correctIndex": 1,
+              "explanation": "During the first mutual recognition procedure, applications were withdrawn in Germany, Norway and Spain after concerns were raised. Spain was included in a later repeat-use procedure and authorised Crestor in November 2008."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Crestor 5/10/20 mg, AEMPS CIMA 70.243, revision October 2025. Sections 1, 3, 4.1, 4.2, 5.1, 7, 9.\n2. **EPAR-level** — MEB (Netherlands) Public Assessment Report, Crestor, NL/H/0343/001-004/E/001, 3 February 2011, including Annexes I and II.\n3. **EPAR-level** — EMA, Crestor 5 mg, Article 29(2) referral (CHMP opinion 21 April 2005; EC decision 9 August 2005).\n4. **Journal** — Wolfe SM. Dangers of rosuvastatin identified before and after FDA approval. *Lancet*, June 2004.\n5. **US (differences only)** — AstraZeneca press release on FDA approval, 13 August 2003; US Crestor prescribing information, JUPITER section."
+        }
+      ]
+    }
+  ]
+}

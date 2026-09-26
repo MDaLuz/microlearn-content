@@ -3,7 +3,7 @@
   "id": "rosuvastatin",
   "title": "Rosuvastatin",
   "discipline": "Medicines",
-  "version": 2,
+  "version": 3,
   "lessons": [
     {
       "id": "ros-l01-at-a-glance",
@@ -684,6 +684,238 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Crestor 5/10/20 mg, AEMPS CIMA 70.243, revision October 2025. Sections 4.2, 4.3, 4.4, 4.6, 4.9, 5.2.\n2. **PIL** — Crestor 10 mg, revised October 2025. Sections 2 and 3.\n3. **US (differences only)** — Crestor prescribing information, April 2026 revision (FDA label 021366s047)."
+        }
+      ]
+    },
+    {
+      "id": "ros-l07-reading-a-trial",
+      "title": "Reading a clinical trial",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Why this lesson comes first\n\nThe next two lessons are built from trials. Each trial appears on the same card, so you can read them all the same way. This lesson covers the ideas those cards rely on, using rosuvastatin's own trials as the examples."
+        },
+        {
+          "type": "text",
+          "markdown": "## Who gets what\n\nMany trials begin with a **run-in**, a short lead-in period on a fixed treatment. It shows who tolerates the treatment and who keeps taking it. JUPITER used a four-week run-in on placebo tablets, so only people who took their tablets reliably went on to be randomised.\n\nAfter the run-in, a **double-blind** design keeps both participants and investigators unaware of who is getting what, so expectations can't tilt the results."
+        },
+        {
+          "type": "text",
+          "markdown": "## What counts as the answer\n\nEach trial names its **primary endpoint** in advance: the single measure that decides whether the trial succeeded. Outcome trials often use a **composite endpoint**, which counts several kinds of event together.\n\nComposites can differ a lot between trials. JUPITER's included hospitalisation for unstable angina and artery-opening procedures, as well as heart attack, stroke and cardiovascular death. HOPE-3's first primary endpoint counted only the last three. Before comparing results, check what was counted."
+        },
+        {
+          "type": "text",
+          "markdown": "## Two ways to state the same effect\n\nIn HOPE-3, over a median of 5.6 years, 4.8% of people on placebo and 3.7% on rosuvastatin had a cardiovascular death, heart attack or stroke.\n\nThe **absolute risk reduction** is the plain difference between those figures: 1.1 percentage points. The **relative risk reduction** expresses that difference as a share of the placebo figure, which the trial reported as about 24%. The same result sounds small one way and larger the other. That is why this module always gives both, along with what the treatment was compared against and over what time."
+        },
+        {
+          "type": "text",
+          "markdown": "## Hazard ratios and confidence intervals\n\nA **hazard ratio** (HR) compares how often events happened with treatment against how often they happened in the comparison group, over the course of the trial. The **confidence interval** (CI) gives the range of values the data are compatible with.\n\nHOPE-3's HR was 0.76, with a CI of 0.64 to 0.91. The whole range sits below 1.0, which means no difference, so the result is statistically significant. CORONA's HR was 0.92, with a CI of 0.83 to 1.02. That range crosses 1.0, so the result is compatible with no effect. The **p-value** says the same thing another way: 0.002 for HOPE-3 and 0.12 for CORONA, against the usual bar of 0.05."
+        },
+        {
+          "type": "text",
+          "markdown": "## Rates per person-year\n\nSome trials report events per 100 **person-years**. Person-years add up the time each participant was followed, so 100 people followed for two years count as 200 person-years. This is useful when people are followed for different lengths of time.\n\nJUPITER reported 0.77 events per 100 person-years on rosuvastatin and 1.36 on placebo. That's an absolute difference of about 0.6 per 100 person-years, or about 6 events per 1,000 people per year."
+        },
+        {
+          "type": "text",
+          "markdown": "## Turning a result into people\n\nThe **number needed to treat** (NNT) is 100 divided by the absolute risk reduction in percentage points. It tells you how many people need treating, for a stated time, to prevent one event.\n\nFor HOPE-3's first primary outcome, 100 ÷ 1.1 gives about 91 people treated for 5.6 years to prevent one cardiovascular death, heart attack or stroke. This figure is calculated here from the trial's published numbers."
+        },
+        {
+          "type": "text",
+          "markdown": "## When a trial stops early\n\nAn independent **data safety monitoring board** looks at results while a trial is still running. If one arm is clearly doing better, the board can stop the trial.\n\nJUPITER was **stopped early for benefit**, after a median of 1.9 years of a planned four or so. Stopping at a moment when the benefit looks large tends to overstate the true effect, and a review of stopped trials in *JAMA* in 2010 found this pattern across medicine. The benefit may be real but smaller than the headline figure."
+        },
+        {
+          "type": "text",
+          "markdown": "## Planned before or chosen after\n\nA subgroup analysis that was **prespecified**, written into the plan before any results were seen, carries more weight than a post-hoc analysis chosen afterwards. The strongest subgroup findings also pass a test for **interaction**, which checks whether the effect genuinely differs between subgroups.\n\nThis matters for rosuvastatin. The EU label describes JUPITER mainly through post-hoc analyses of higher-risk participants, and those analyses define who counts as high risk for the prevention indication."
+        },
+        {
+          "type": "text",
+          "markdown": "## Who is counted\n\nMost outcome trials are analysed by **intention to treat**: everyone stays in the group they were randomised to, whether or not they kept taking the tablets. This protects the comparison. It also means the result reflects the medicine as people actually took it, stops and all.\n\nSome trials test **non-inferiority**, asking whether a new approach is not worse than the standard by more than a limit set in advance. Several rosuvastatin combination trials in Lesson 9 are built this way."
+        },
+        {
+          "type": "text",
+          "markdown": "## The combination tags\n\nEach trial card carries exactly one tag. The tag describes the lipid-lowering treatment participants were already on, plus any Lesson 9 partner medicine given or randomised by design. Everyday usual-care medicines taken by some participants don't change it.\n\n- 🔗 +EZE: everyone was on ezetimibe\n- 🔗 +EZE+PCSK9: everyone was on ezetimibe and a PCSK9 inhibitor\n- 🔗 +EZE+BEMP: everyone was on ezetimibe and bempedoic acid\n- 🔗 +ASA: everyone was on acetylsalicylic acid\n- 🔗 +SGLT2: everyone was on dapagliflozin or empagliflozin\n- 🔗 +ANTIHTN: everyone was on a listed blood-pressure medicine, taken as a separate tablet\n- 🔗 FDC: two or more medicines in one tablet or capsule\n- 🔗 MIXED: only part of the trial received a Lesson 9 partner by design\n- STATIN-INTOLERANT: participants couldn't take a statin\n- MONO: no lipid-lowering background and no Lesson 9 partner\n\n**Ezetimibe** is a cholesterol medicine that reduces how much cholesterol the gut absorbs."
+        },
+        {
+          "type": "text",
+          "markdown": "## Reading a card\n\nEvery card has the same eight lines:\n\n- registry number\n- who took part\n- background therapy\n- what it was compared with\n- the main question\n- the headline result\n- in plain words\n- what's worth knowing\n\nThe **registry number** points to the trial's public record, where its plan was written down before the results came in."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ros-l07-reading-a-trial-fc1",
+              "front": "Person-years",
+              "back": "Total follow-up time added across participants. 100 people followed for two years = 200 person-years."
+            },
+            {
+              "id": "ros-l07-reading-a-trial-fc2",
+              "front": "Stopped early for benefit",
+              "back": "A trial halted when one arm looks clearly better. The effect is often overstated. JUPITER stopped at a median of 1.9 years."
+            },
+            {
+              "id": "ros-l07-reading-a-trial-fc3",
+              "front": "Prespecified vs post-hoc",
+              "back": "Prespecified: planned before results were seen. Post-hoc: chosen afterwards. Prespecified analyses carry more weight."
+            },
+            {
+              "id": "ros-l07-reading-a-trial-fc4",
+              "front": "NNT",
+              "back": "100 ÷ absolute risk reduction (percentage points), over a stated time. For HOPE-3's first primary outcome, about 91 people over 5.6 years."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ros-l07-reading-a-trial-q1",
+              "stem": "CORONA reported HR 0.92 (95% CI 0.83–1.02). What can you conclude?",
+              "options": [
+                "Rosuvastatin reduced events by 8% in heart failure",
+                "The interval crosses 1.0, so the result is compatible with no effect",
+                "Rosuvastatin increased events",
+                "The trial was stopped early"
+              ],
+              "correctIndex": 1,
+              "explanation": "A hazard ratio of 1.0 means no difference. CORONA's interval runs from 0.83 to 1.02, so it includes 1.0, which matches the p-value of 0.12."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Journal** — Ridker PM et al. JUPITER. *N Engl J Med* 2008;359:2195–207.\n2. **Journal** — Yusuf S et al. HOPE-3, cholesterol lowering. *N Engl J Med* 2016;374:2021–31. NCT00468923.\n3. **Journal** — Kjekshus J et al. CORONA. *N Engl J Med* 2007;357:2248–61.\n4. **Journal** — Bassler D et al. Stopping randomized trials early for benefit and estimation of treatment effects. *JAMA* 2010;303:1180–7.\n5. **SmPC** — Crestor, AEMPS CIMA 70.243, revision October 2025, section 5.1."
+        }
+      ]
+    },
+    {
+      "id": "ros-l08-pivotal-trials",
+      "title": "The pivotal trials",
+      "xpReward": 70,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Five trials, three kinds of answer\n\nA **pivotal trial** is one that regulators or clinical practice rely on. Rosuvastatin's large outcome trials fall into three groups:\n\n- two positive trials in people without heart disease: JUPITER and HOPE-3\n- one imaging trial measuring a marker: METEOR\n- two neutral trials in people with advanced disease: CORONA in heart failure and AURORA in dialysis\n\nThe EU SmPC describes only JUPITER and METEOR. The cards below show all five."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: JUPITER\nTag: MONO\n\n- Registry: NCT00239681\n- Who took part: 17,802 people without heart disease or diabetes (men aged 50 or over, women 60 or over), with normal LDL (below 3.4 mmol/L) and raised C-reactive protein (2 mg/L or above), an inflammation marker\n- Background therapy: none. People on current or previous lipid-lowering treatment were excluded. A four-week placebo run-in selected people who took their tablets reliably.\n- Compared with: placebo. Stopped early after a median of 1.9 years (maximum 5.0), of a planned four or so.\n- Main question: does rosuvastatin 20 mg reduce first major cardiovascular events (heart attack, stroke, artery-opening procedure, hospitalisation for unstable angina, cardiovascular death)?\n- Headline result: 0.77 vs 1.36 events per 100 person-years; 142 vs 251 events; HR 0.56 (95% CI 0.46–0.69). That is about 44% lower in relative terms and about 6 fewer events per 1,000 people per year in absolute terms. Death from any cause: 1.00 vs 1.25 per 100 person-years; HR 0.80 (95% CI 0.67–0.97).\n- In plain words: in people with normal LDL but raised inflammation, rosuvastatin cut first cardiovascular events by almost half in relative terms over about two years.\n- Worth knowing: early stopping tends to overstate effects. Diabetes was reported more often on rosuvastatin (2.8% vs 2.3% in the SmPC). The EU SmPC doesn't give this overall result; it gives post-hoc higher-risk analyses instead. Even event counts can drift between documents: the US label counts 252 placebo events, the publication 251."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: HOPE-3\nTag: 🔗 MIXED\n\n- Registry: NCT00468923\n- Who took part: 12,705 people at intermediate risk without cardiovascular disease, from 21 countries and many ethnic backgrounds\n- Background therapy: in a **factorial design** (one group of participants randomised to two questions at once), half were also randomised to candesartan 16 mg plus hydrochlorothiazide 12.5 mg for blood pressure, and half to placebo. Lesson 9 covers that combination.\n- Compared with: placebo, over a median of 5.6 years\n- Main question: does rosuvastatin 10 mg, at a fixed dose with no lipid targets, reduce cardiovascular death, heart attack or stroke?\n- Headline result: 3.7% vs 4.8%; HR 0.76 (95% CI 0.64–0.91), p = 0.002. That is about 24% lower in relative terms and 1.1 percentage points lower in absolute terms over 5.6 years. The broader second primary outcome was 4.4% vs 5.7% (HR 0.75).\n- In plain words: a moderate fixed dose lowered events in people who weren't high risk and didn't have high cholesterol.\n- Worth knowing: LDL was on average 26.5% lower than on placebo over the trial. That is about half the fall in the SmPC's short dose table, but they are different studies in different people over different times, so don't compare them head-to-head. Muscle symptoms were more frequent (5.8% vs 4.7%), and so was cataract surgery. HOPE-3 doesn't appear in the EU SmPC."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: METEOR\nTag: MONO\n\n- Registry: NCT00225589\n- Who took part: 984 people aged 45–70 at low coronary risk (below 10% over 10 years), with an average LDL of 4.0 mmol/L and early, silent artery disease\n- Background therapy: none\n- Compared with: placebo, over 2 years; rosuvastatin 40 mg\n- Main question: does rosuvastatin slow the thickening of the neck artery wall, measured by ultrasound as **CIMT** (carotid intima-media thickness)?\n- Headline result: CIMT progressed 0.0145 mm per year less than on placebo (95% CI 0.0093–0.0196). It barely changed on rosuvastatin (−0.0014 mm per year, not significant) and increased on placebo (+0.0131 mm per year).\n- In plain words: over two years, the artery wall stopped thickening on rosuvastatin and kept thickening on placebo.\n- Worth knowing: CIMT is a surrogate endpoint. The SmPC says outright that no direct link between reduced CIMT and fewer events has been shown, and that these low-risk people aren't the target population for 40 mg. No indication was granted."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: CORONA\nTag: MONO\n\n- Registry: NCT00206310\n- Who took part: 5,011 people aged 60 or over with ischaemic systolic heart failure (NYHA class II–IV) who didn't need cholesterol treatment\n- Background therapy: optimal heart-failure treatment; no lipid-lowering treatment\n- Compared with: placebo, over a median of 32.8 months; rosuvastatin 10 mg\n- Main question: does rosuvastatin reduce cardiovascular death, heart attack or stroke?\n- Headline result: 692 vs 732 events; HR 0.92 (95% CI 0.83–1.02), p = 0.12. Deaths: 728 vs 759 (HR 0.95). Not statistically significant.\n- In plain words: LDL fell 45%, but the main outcome and deaths didn't change significantly.\n- Worth knowing: a prespecified secondary analysis found fewer cardiovascular hospitalisations (2,193 vs 2,564). There were no muscle safety problems. The Dutch assessors noted the trial didn't alter the safety profile. No heart-failure indication exists."
+        },
+        {
+          "type": "text",
+          "markdown": "## A second heart-failure trial\n\nGISSI-HF randomised 4,574 people with heart failure to rosuvastatin 10 mg or placebo for 3.9 years. The hazard ratio for death was 1.00 (95% CI 0.90–1.12). Two heart-failure trials together found no effect on death. This trial has no card because its registry record wasn't checked in this pass."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: AURORA\nTag: MONO\n\n- Registry: NCT00240331\n- Who took part: 2,776 people aged 50–80 on maintenance haemodialysis, not already on a statin\n- Background therapy: usual dialysis care; no lipid-lowering treatment\n- Compared with: placebo, over a median of 3.8 years; rosuvastatin 10 mg\n- Main question: does rosuvastatin reduce cardiovascular death, heart attack or stroke?\n- Headline result: 9.2 vs 9.5 events per 100 person-years; HR 0.96 (95% CI 0.84–1.11), p = 0.59. Death from any cause: 13.5 vs 14.0 per 100 person-years (HR 0.96).\n- In plain words: LDL fell 43% at three months, but cardiovascular events didn't change.\n- Worth knowing: the EU SmPC contraindicates rosuvastatin in severe kidney impairment, which includes people on dialysis. The US label allows 5–10 mg in severe impairment when the person isn't on dialysis. AURORA isn't mentioned in the SmPC."
+        },
+        {
+          "type": "compare",
+          "title": "Where the trials landed",
+          "items": [
+            {
+              "id": "no-established-disease",
+              "label": "No established disease"
+            },
+            {
+              "id": "marker-only",
+              "label": "Marker only"
+            },
+            {
+              "id": "advanced-disease",
+              "label": "Advanced disease"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "first-point",
+              "label": "First point",
+              "values": [
+                "JUPITER: HR 0.56, stopped early",
+                "METEOR: artery-wall thickening slowed",
+                "CORONA (heart failure): HR 0.92, not significant"
+              ]
+            },
+            {
+              "id": "second-point",
+              "label": "Second point",
+              "values": [
+                "HOPE-3: HR 0.76 over 5.6 years",
+                "No outcome data",
+                "AURORA (dialysis): HR 0.96, not significant"
+              ]
+            },
+            {
+              "id": "bottom-line",
+              "label": "Bottom line",
+              "values": [
+                "Both positive",
+                "No indication granted",
+                "LDL fell in both, but events didn't"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## How to hold these results\n\nThe columns come from different trials in different people, so read each one on its own and don't compare across them. Taken separately, the pattern is clear. Rosuvastatin reduced events in people without established disease. In heart failure and in dialysis, lowering LDL wasn't enough to change outcomes.\n\nThe EU label draws its prevention indication from JUPITER's post-hoc higher-risk analyses. The US label reports JUPITER's overall result. Both are on the record."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ros-l08-pivotal-trials-fc1",
+              "front": "JUPITER in one line",
+              "back": "Rosuvastatin 20 mg vs placebo in people with normal LDL and raised CRP. HR 0.56. Stopped early at a median of 1.9 years."
+            },
+            {
+              "id": "ros-l08-pivotal-trials-fc2",
+              "front": "HOPE-3 in one line",
+              "back": "Rosuvastatin 10 mg vs placebo in intermediate-risk people. 3.7% vs 4.8% over 5.6 years (HR 0.76)."
+            },
+            {
+              "id": "ros-l08-pivotal-trials-fc3",
+              "front": "CORONA and AURORA",
+              "back": "Heart failure and dialysis. LDL fell, but events didn't change (HR 0.92 and 0.96, both not significant)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ros-l08-pivotal-trials-q1",
+              "stem": "Which trial result is described in the EU Crestor SmPC?",
+              "options": [
+                "HOPE-3's overall result",
+                "AURORA in dialysis",
+                "METEOR's artery-wall imaging result",
+                "GISSI-HF in heart failure"
+              ],
+              "correctIndex": 2,
+              "explanation": "Section 5.1 of the SmPC describes METEOR and JUPITER (through post-hoc analyses). HOPE-3, AURORA and GISSI-HF aren't mentioned, and CORONA appears only in the Dutch assessment report."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Crestor, AEMPS CIMA 70.243, revision October 2025. Sections 4.3, 4.4 and 5.1.\n2. **EPAR-level** — MEB (Netherlands) Public Assessment Report, Crestor, NL/H/0343, 3 February 2011.\n3. **Journal** — Ridker PM et al. JUPITER. *N Engl J Med* 2008;359:2195–207.\n4. **Journal** — Yusuf S et al. HOPE-3. *N Engl J Med* 2016;374:2021–31.\n5. **Journal** — Kjekshus J et al. CORONA. *N Engl J Med* 2007;357:2248–61.\n6. **Journal** — Fellström BC et al. AURORA. *N Engl J Med* 2009;360:1395–407.\n7. **Journal (review)** — GISSI-HF figures, via a review of statins in heart failure (PMC11198214).\n8. **US (differences only)** — Crestor prescribing information: JUPITER event counts; dosing in severe renal impairment."
         }
       ]
     }

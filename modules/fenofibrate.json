@@ -3,7 +3,8 @@
   "id": "fenofibrate",
   "title": "Fenofibrate",
   "discipline": "Medicines",
-  "version": 5,
+  "version": 6,
+  "disclaimer": "Educational summary of public regulatory and scientific sources (Spanish and EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Secalip Supra 160 mg SmPC revised in December 2020. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
       "id": "fen-l01-at-a-glance",
@@ -967,15 +968,15 @@
         },
         {
           "type": "text",
-          "markdown": "### Trial card: fenofibrate + ezetimibe\nTag: 🔗 +EZE\n\n- Registry: not found in this search\n- Who took part: 625 adults with mixed hyperlipidaemia, on no lipid-lowering drug at baseline\n- Background therapy: none. The comparison of interest is ezetimibe added to fenofibrate.\n- Compared with: fenofibrate 160 mg alone (plus placebo and ezetimibe-alone arms); 12 weeks, with a 48-week extension\n- Main question: does adding ezetimibe to fenofibrate lower LDL more than fenofibrate alone?\n- Headline result: LDL fell 20% with both medicines vs 6% with fenofibrate alone at 12 weeks (a 14-point difference, taken from the published table).\n- In plain words: the two medicines together lowered LDL more than fenofibrate alone.\n- Worth knowing: the results in this module currently come from the US ezetimibe label's table of this trial. They will be replaced with the journal publication's figures. Neither medicine's EU fenofibrate licence names this pairing."
+          "markdown": "### Trial card: fenofibrate + ezetimibe\nTag: 🔗 +EZE\n\n- Registry: NCT00092560 (12-week study); NCT00092573 (48-week extension)\n- Who took part: 625 adults with mixed hyperlipidaemia, on no lipid-lowering drug at baseline\n- Background therapy: none. The comparison of interest is ezetimibe added to fenofibrate.\n- Compared with: fenofibrate 160 mg alone (plus placebo and ezetimibe-alone arms); 12 weeks, with a 48-week extension\n- Main question: does adding ezetimibe to fenofibrate lower LDL more than fenofibrate alone?\n- Headline result: at 12 weeks, LDL fell 20.4% with both medicines, significantly more than with fenofibrate alone (p < 0.001), which the US ezetimibe label's table puts at about 6%. In the 48-week extension, LDL was 22% lower on both medicines vs 9% on fenofibrate alone.\n- In plain words: the two medicines together lowered LDL more than fenofibrate alone.\n- Worth knowing: triglycerides fell 44% and HDL rose 19% on the combination. Over 48 weeks, no muscle-enzyme rises of 10× the upper limit or more were seen. No EU fenofibrate licence names this pairing."
         },
         {
           "type": "text",
-          "markdown": "### Trial card: ezetimibe/simvastatin + fenofibrate\nTag: 🔗 +STATIN+EZE\n\n- Registry: NCT00093899\n- Who took part: 611 adults aged 18–79 with mixed hyperlipidaemia and no coronary disease (type 2 diabetes allowed)\n- Background therapy: none at entry. The comparison of interest is fenofibrate added to ezetimibe/simvastatin 10/20 mg.\n- Compared with: ezetimibe/simvastatin alone (plus placebo and fenofibrate-alone arms); 12 weeks\n- Main question: what does adding fenofibrate 160 mg to ezetimibe/simvastatin do to lipids, and is it safe?\n- Headline result: a follow-up analysis found larger falls in the cholesterol carried by VLDL, IDL and LDL, and a rise in HDL, with the three medicines together. On most lipoprotein fractions, though, the effects were not additive. The primary LDL figures from the main paper haven't yet been extracted.\n- In plain words: the triple combination changed lipid particles more than ezetimibe/simvastatin alone, over 12 weeks.\n- Worth knowing: this is the only triple-combination trial found. It measured lipids only, over 12 weeks, and no EU fenofibrate licence names this combination."
+          "markdown": "### Trial card: ezetimibe/simvastatin + fenofibrate\nTag: 🔗 +STATIN+EZE\n\n- Registry: NCT00093899\n- Who took part: 611 adults aged 18–79 with mixed hyperlipidaemia and no coronary disease (type 2 diabetes allowed)\n- Background therapy: none at entry. For this lesson, the comparison of interest is fenofibrate added to ezetimibe/simvastatin 10/20 mg.\n- Compared with: fenofibrate 160 mg alone (the trial's main comparator), ezetimibe/simvastatin alone and placebo; 12 weeks\n- Main question: does ezetimibe/simvastatin plus fenofibrate lower LDL more than fenofibrate alone?\n- Headline result: LDL fell 45.8% with all three vs 15.7% with fenofibrate alone. Against ezetimibe/simvastatin alone (−47.1%), the difference wasn't significant. Triglycerides (−50.0%) and non-HDL cholesterol (−50.5%) fell more with all three than with any other arm, and HDL rose 18.7% vs 9.3% on ezetimibe/simvastatin.\n- In plain words: adding fenofibrate to ezetimibe/simvastatin didn't lower LDL further, but it lowered triglycerides and raised HDL more.\n- Worth knowing: a follow-up analysis found the effects weren't additive on most lipoprotein fractions. This is the only triple-combination trial with results found. It measured lipids only, over 12 weeks, and no EU fenofibrate licence names this combination."
         },
         {
           "type": "text",
-          "markdown": "## The register list\n\nThese trials were found by searching ClinicalTrials.gov, the EU Clinical Trials Register and ANZCTR on 23 September 2026. Status is shown as found.\n\n🔗 +STATIN\n- ACCORD-Lipid · NCT00000620 · outcomes · completed, published\n- Cholib 0501 · NCT00349375 · lipids · completed, reported in the Cholib SmPC\n- Cholib 0502 · NCT00352183 · lipids · completed; EU register synopsis and a conference abstract only\n- Cholib 0503 (switch from atorvastatin) · NCT00362934 · lipids · completed, pooled in the SmPC\n- Cholib 0504 (switch from pravastatin) · NCT00362206 · lipids · completed, pooled in the SmPC\n- Rosuvastatin + fenofibrate (IlDong) · NCT02262143 · non-HDL cholesterol · completed; publication not verified\n- Rosuvastatin + fenofibrate (Yonsei) · NCT01414803 · safety markers · completed; publication not verified\n\n🔗 FDC\n- Cholib tablets vs single medicines · NCT01674712 · lipids · completed, published\n- Pravafenix pivotal · registry not found · lipids · published\n\n🔗 +EZE\n- Ezetimibe + fenofibrate 160 mg · registry not found · lipids, with a 48-week extension · published\n- Fenofibrate 145 mg + ezetimibe, metabolic syndrome · NCT00349284 · lipids · published\n\n🔗 +STATIN+EZE\n- Ezetimibe/simvastatin + fenofibrate · NCT00093899 · lipids · completed, published\n\n🔗 MIXED (provisional tags)\n- LENS · NCT03439345 · retinopathy · completed, published\n- FAME 1 EYE (type 1 diabetes) · NCT01320345 · retinopathy · active, not recruiting per ClinicalTrials.gov; no results found\n- DRCR Protocol AF · NCT04661358 · retinopathy · active, not recruiting per ClinicalTrials.gov; no results found\n\nSTATIN-INTOLERANT\n- No trial confirmed in this search.\n\nNot counted: trials of fenofibric acid, a separate US product (for example NCT00300482 and NCT00463606), and observational studies."
+          "markdown": "## The register list\n\nThese trials were found by searching ClinicalTrials.gov, the EU Clinical Trials Register and ANZCTR on 23 September 2026, with a second ClinicalTrials.gov pass on 26 September 2026. Status is shown as found.\n\n🔗 +STATIN\n- ACCORD-Lipid · NCT00000620 · outcomes · completed, published\n- Cholib 0501 · NCT00349375 · lipids · completed, reported in the Cholib SmPC\n- Cholib 0502 · NCT00352183 · lipids · completed; EU register synopsis and a conference abstract only\n- Cholib 0503 (switch from atorvastatin) · NCT00362934 · lipids · completed, pooled in the SmPC\n- Cholib 0504 (switch from pravastatin) · NCT00362206 · lipids · completed, pooled in the SmPC\n- Rosuvastatin + fenofibrate (IlDong) · NCT02262143 · non-HDL cholesterol · completed; publication not verified\n- Rosuvastatin + fenofibrate (Yonsei) · NCT01414803 · safety markers · completed; publication not verified\n- DIACOR, fenofibrate + simvastatin in diabetes · NCT00309712 · lipids · completed\n- Fenofibrate vs ezetimibe added to atorvastatin · NCT00195793 · lipids · completed\n\n🔗 FDC\n- Cholib tablets vs single medicines · NCT01674712 · lipids · completed, published\n- Pravafenix pivotal · registry not found · lipids · published\n- Pravastatin/fenofibrate vs its components (US) · NCT00459745 · lipids · completed\n- Pravafenix vs atorvastatin 10 mg · NCT02166593 · lipids · completed\n- Atorvastatin/fenofibrate vs atorvastatin · NCT04882293 · lipids · status unknown\n- ENSEMBLE, ezetimibe/fenofibrate tablet added to a moderate-intensity statin, type 2 diabetes · NCT06293417 · 3,958 people · recruiting\n\n🔗 +EZE\n- Ezetimibe + fenofibrate 160 mg · NCT00092560, extension NCT00092573 · lipids · completed, published\n- Fenofibrate 145 mg + ezetimibe, metabolic syndrome · NCT00349284 · lipids · published\n\n🔗 +STATIN+EZE\n- Ezetimibe/simvastatin + fenofibrate · NCT00093899 · lipids · completed, published\n\n🔗 MIXED (provisional tags)\n- LENS · NCT03439345 · retinopathy · completed, published\n- FAME 1 EYE (type 1 diabetes) · NCT01320345 · retinopathy · active, not recruiting per ClinicalTrials.gov; no results found\n- DRCR Protocol AF · NCT04661358 · retinopathy · active, not recruiting per ClinicalTrials.gov; no results found\n\nSTATIN-INTOLERANT\n- No trial confirmed in this search.\n\nNot counted: trials of fenofibric acid, a separate US product (for example NCT00300482 and NCT00463606), and observational studies."
         },
         {
           "type": "flashcard",
@@ -1018,7 +1019,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA 63.533, revision December 2020, sections 4.1, 4.4, 4.5.\n2. **EPAR** — Cholib product information, sections 4.5 and 5.1; Pravafenix EPAR (indication, main study).\n3. **SmPC (other molecule)** — EU ezetimibe SmPC, sections 4.4 and 4.5 (fibrates).\n4. **Registers** — ClinicalTrials.gov, EU Clinical Trials Register and ANZCTR records as listed above, accessed 23 September 2026.\n5. **Journal** — Farnier M et al. *Am J Cardiol* 2010 (Pravafenix); Farnier M et al. *Am Heart J* 2007;153:335.e1–8 and *J Lipid Res* 2008;49:2641–7 (NCT00093899); McKenney JM et al. *J Am Coll Cardiol* 2006;47:1584–7; Foucher C et al. 2015 (NCT01674712); ACCORD Study Group, *N Engl J Med* 2010.\n6. **US label (data table only)** — ezetimibe prescribing information, combination-with-fenofibrate table; to be replaced with the journal source."
+          "markdown": "## Sources\n\n1. **SmPC** — Secalip Supra 160 mg, AEMPS CIMA 63.533, revision December 2020, sections 4.1, 4.4, 4.5.\n2. **EPAR** — Cholib product information, sections 4.5 and 5.1; Pravafenix EPAR (indication, main study).\n3. **SmPC (other molecule)** — EU ezetimibe SmPC, sections 4.4 and 4.5 (fibrates).\n4. **Registers** — ClinicalTrials.gov, EU Clinical Trials Register and ANZCTR records as listed above, accessed 23 September 2026.\n5. **Journal** — Farnier M et al. *Am J Cardiol* 2010 (Pravafenix); Farnier M et al. *Eur Heart J* 2005;26:897–905 (NCT00092560); Farnier M et al. *Am Heart J* 2007;153:335.e1–8 and *J Lipid Res* 2008;49:2641–7 (NCT00093899); McKenney JM et al. *J Am Coll Cardiol* 2006;47:1584–7; Foucher C et al. 2015 (NCT01674712); ACCORD Study Group, *N Engl J Med* 2010.\n6. **US label (one figure only)** — ezetimibe prescribing information, combination-with-fenofibrate table (the fenofibrate-alone LDL change)."
         }
       ]
     },
@@ -1480,7 +1481,7 @@
         },
         {
           "type": "text",
-          "markdown": "## 2025: the focused update\n\nThe 2025 update covered only recommendations that were new or changed, and only those in Class I, IIa or III. It added no fibrate recommendation, so the 2019 wording is still the latest.\n\nIts text describes conventional fibrates as lowering triglycerides modestly, with minimal impact on major cardiovascular events. It restated icosapent ethyl at Class IIa. It added volanesorsen at Class IIa for a rare inherited cause of extremely high triglycerides. And it made ezetimibe and bempedoic acid Class I for patients who can't tolerate a statin."
+          "markdown": "## 2025: the focused update\n\nThe 2025 update covered only recommendations that were new or changed, and only those in Class I, IIa or III. It added no fibrate recommendation, so the 2019 wording is still the latest.\n\nIts text describes conventional fibrates as lowering triglycerides modestly, with minimal impact on major cardiovascular events. It restated icosapent ethyl at Class IIa. It added volanesorsen at Class IIa for a rare inherited cause of extremely high triglycerides. And for people who can't take a statin, it recommended non-statin medicines with proven cardiovascular benefit, such as ezetimibe (Class I), and named bempedoic acid specifically (Class I)."
         },
         {
           "type": "compare",
@@ -1509,7 +1510,7 @@
               "label": "When a statin isn't possible",
               "values": [
                 "Stands in for a statin in mixed hyperlipidaemia when a statin isn't possible",
-                "Statin intolerance: ezetimibe or bempedoic acid (Class I, 2025)"
+                "Statin intolerance: non-statin medicines such as ezetimibe, or bempedoic acid (Class I, 2025)"
               ]
             },
             {
@@ -1601,28 +1602,28 @@
               "explanation": "FIELD and ACCORD-Lipid both missed their primary outcomes. FIELD found fewer total cardiovascular events (a secondary outcome), and ACCORD found a favourable subgroup. Neither showed an effect on death from any cause."
             },
             {
-              "id": "fen-l15-recap-q2",
-              "stem": "A patient with an eGFR of 45 is prescribed Secalip Supra 160 mg. What's the issue?",
+              "id": "fen-l15-recap-q4",
+              "stem": "Why do the EU and US labels differ on adding fenofibrate to a statin?",
               "options": [
-                "None; 160 mg is the standard dose",
-                "Fenofibrate is contraindicated below 60",
-                "The label caps the dose at 67 mg micronised at this eGFR, which this tablet can't provide",
-                "The tablet should be taken on an empty stomach"
+                "The US never approved fenofibrate",
+                "Both saw the same outcome trials: the EU kept a narrow add-on indication, while the FDA withdrew fenofibric acid's statin add-on approval in 2016",
+                "The EU found a new safety problem that the US didn't",
+                "ACCORD-Lipid was only submitted in the US"
               ],
-              "correctIndex": 2,
-              "explanation": "Between 30 and 59, the SmPC caps the dose below what a whole 160 mg tablet delivers. A different product would be needed."
+              "correctIndex": 1,
+              "explanation": "Neither regulator had new safety data. Reading the same neutral outcome trials, the EU granted a narrow add-on indication after the 2009–2011 review, while the US withdrew the statin add-on approval for fenofibric acid in 2016 (Lessons 3 and 8)."
             },
             {
-              "id": "fen-l15-recap-q3",
-              "stem": "Where does the combination of fenofibrate and ezetimibe stand?",
+              "id": "fen-l15-recap-q5",
+              "stem": "Which FIELD safety findings does the Secalip Supra SmPC quote?",
               "options": [
-                "Named in the Secalip Supra licence",
-                "Sold as an EU combination tablet",
-                "Not named in any EU fenofibrate licence reviewed here; the gallstone caution comes from the ezetimibe SmPC",
-                "Contraindicated by the Secalip Supra SmPC"
+                "Fewer strokes than on placebo",
+                "More pancreatitis and more pulmonary embolism than on placebo",
+                "Liver failure in 5% of patients",
+                "No difference in any adverse event"
               ],
-              "correctIndex": 2,
-              "explanation": "The Secalip Supra SmPC is silent on ezetimibe. The ezetimibe SmPC notes about 1.5-fold higher ezetimibe exposure and a possible gallstone risk."
+              "correctIndex": 1,
+              "explanation": "The SmPC quotes FIELD's pancreatitis (0.8% vs 0.5%) and pulmonary embolism (1.1% vs 0.7%) figures, both statistically significant (Lesson 11)."
             }
           ]
         },

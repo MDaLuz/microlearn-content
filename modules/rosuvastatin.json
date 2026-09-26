@@ -3,7 +3,8 @@
   "id": "rosuvastatin",
   "title": "Rosuvastatin",
   "discipline": "Medicines",
-  "version": 6,
+  "version": 7,
+  "disclaimer": "Educational summary of public regulatory and scientific sources (Spanish and EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Crestor 5/10/20 mg SmPC revised in October 2025. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
       "id": "ros-l01-at-a-glance",
@@ -228,7 +229,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Early safety scrutiny\n\nIn 2004 a US consumer group argued in *The Lancet* that rosuvastatin should be withdrawn, citing reports of kidney failure and rhabdomyolysis. It also pointed to US pre-approval data at 80 mg: markedly raised muscle enzymes in 1.9% of patients, myopathy in 1.0% and rhabdomyolysis in 0.4%.\n\nThe Dutch assessors took a different view of the marketed doses. Muscle findings up to 40 mg were comparable with other statins. In later population studies, rhabdomyolysis occurred at 0.1 per 1,000 patient-years on rosuvastatin versus 0.06 on other statins, a difference that wasn't statistically significant. Their answer was to restrict 40 mg rather than remove it."
+          "markdown": "## Early safety scrutiny\n\nIn 2004 a US consumer group argued in *The Lancet* that rosuvastatin should be withdrawn, citing reports of kidney failure and rhabdomyolysis. It also pointed to muscle problems in the US pre-approval data at 80 mg, the dose that was later dropped.\n\nThe Dutch assessors took a different view of the marketed doses. Muscle findings up to 40 mg were comparable with other statins. In later population studies, rhabdomyolysis occurred at 0.1 per 1,000 patient-years on rosuvastatin versus 0.06 on other statins, a difference that wasn't statistically significant. Their answer was to restrict 40 mg rather than remove it."
         },
         {
           "type": "text",
@@ -756,8 +757,8 @@
             },
             {
               "id": "ros-l07-reading-a-trial-fc3",
-              "front": "Prespecified vs post-hoc",
-              "back": "Prespecified: planned before results were seen. Post-hoc: chosen afterwards. Prespecified analyses carry more weight."
+              "front": "Prespecified analysis",
+              "back": "An analysis written into the trial plan before any results were seen. It carries more weight than a post-hoc analysis chosen afterwards."
             },
             {
               "id": "ros-l07-reading-a-trial-fc4",
@@ -964,7 +965,7 @@
               "values": [
                 "Outcome trials: JUPITER and HOPE-3 positive; CORONA and AURORA neutral",
                 "Outcome trial: RACING, not worse than rosuvastatin 20 mg over 3 years",
-                "Only early-phase or planned trials found"
+                "Only small, early or ongoing trials found; none has reported outcomes"
               ]
             },
             {
@@ -1001,7 +1002,7 @@
         },
         {
           "type": "text",
-          "markdown": "### Trial card: telmisartan/amlodipine plus rosuvastatin\nTag: 🔗 +ANTIHTN\n\n- Registry: NCT03566316 (the arms match the published trial; not yet confirmed)\n- Who took part: 202 Korean patients with high blood pressure and high cholesterol\n- Background therapy: telmisartan 80 mg in every arm\n- Compared with: telmisartan 80 mg plus rosuvastatin 20 mg, and telmisartan/amlodipine 80/5 mg, over 8 weeks\n- Main question: does telmisartan/amlodipine plus rosuvastatin lower blood pressure more than telmisartan plus rosuvastatin, and LDL more than telmisartan/amlodipine?\n- Headline result: systolic blood pressure fell by 19.3 vs 6.7 mmHg at 8 weeks, a difference of −12.6 mmHg (95% CI −18.1 to −7.1). The LDL comparison, the second primary endpoint, wasn't extracted in this pass.\n- In plain words: adding amlodipine lowered blood pressure further, and rosuvastatin didn't get in the way.\n- Worth knowing: this is an 8-week trial measuring markers only, with no outcome data. Telmisartan and rosuvastatin aren't combined in any EU licence found in this pass."
+          "markdown": "### Trial card: telmisartan/amlodipine plus rosuvastatin\nTag: 🔗 +ANTIHTN\n\n- Registry: NCT03067688\n- Who took part: 202 Korean patients with high blood pressure and high cholesterol\n- Background therapy: telmisartan 80 mg in every arm\n- Compared with: telmisartan 80 mg plus rosuvastatin 20 mg, and telmisartan/amlodipine 80/5 mg, over 8 weeks\n- Main question: does telmisartan/amlodipine plus rosuvastatin lower blood pressure more than telmisartan plus rosuvastatin, and LDL more than telmisartan/amlodipine?\n- Headline result: systolic blood pressure fell by 19.3 vs 6.7 mmHg at 8 weeks, a difference of −12.6 mmHg (95% CI −18.1 to −7.1). LDL fell 52.5% with the three medicines and rose 2.7% on telmisartan/amlodipine alone, a difference of −55.1 percentage points (95% CI −61.5 to −48.8).\n- In plain words: adding amlodipine lowered blood pressure further, and rosuvastatin didn't get in the way.\n- Worth knowing: no adverse events led to stopping treatment. This is an 8-week trial measuring markers only, with no outcome data. A second, smaller Korean trial of the same combination (NCT03566316, 134 people) was published in 2019. Telmisartan and rosuvastatin aren't combined in any EU licence found in this pass."
         },
         {
           "type": "text",
@@ -1013,7 +1014,7 @@
         },
         {
           "type": "text",
-          "markdown": "## The register list\n\nThese trials were found by searching ClinicalTrials.gov and published trial reports on 25 September 2026. The list covers combinations of rosuvastatin with this lesson's partners.\n\n🔗 MIXED\n- RACING · NCT03044665 · outcomes · published; registry status never updated ('unknown')\n- HOPE-3 · NCT00468923 · outcomes · completed, published\n- Ezetimibe/rosuvastatin + telmisartan · registry not found · markers · published 2023\n- Rosuvastatin/ezetimibe vs bempedoic acid/ezetimibe vs all three · NCT07255820 · markers · completed; results not found\n- AZD0780 (an oral PCSK9 inhibitor) + ezetimibe ± rosuvastatin or bempedoic acid · NCT06742853 · phase 1 · completed, results not found\n\n🔗 +ANTIHTN\n- Telmisartan/amlodipine + rosuvastatin · NCT03566316 (to confirm) · markers · published 2020\n- J-TAROS, telmisartan/amlodipine/rosuvastatin · NCT03088254 · markers · published 2019\n- Amlodipine/valsartan/rosuvastatin · NCT03536598 · markers · 203 enrolled, results not extracted\n\n🔗 FDC\n- Amlodipine/rosuvastatin · registry not found · markers · published 2020\n- TELSTA-YU, telmisartan/rosuvastatin · registry not found · markers · published 2018, results not extracted\n- Amlodipine/losartan/rosuvastatin · registry not found · markers · published 2017 (tag provisional)\n- Dapagliflozin/rosuvastatin · NCT06772168 · markers · recruiting\n- Rosuvastatin 40 + aspirin 81 + P2Y12 inhibitor, one pill after an acute coronary syndrome · NCT05514938 · adherence and outcomes · completed; results posted, not yet reviewed\n\n🔗 +SGLT2\n- Dapagliflozin + rosuvastatin, cholesterol metabolism · NCT03074630 · 12 people · phase 4\n- Empagliflozin + ezetimibe/rosuvastatin, pharmacokinetics · NCT06578676 · 56 people · phase 1\n\n🔗 +ASA, STATIN-INTOLERANT\n- None found as background designs\n\nNothing was found for lercanidipine. Excluded from the list: TIPS-3, which used simvastatin; observational studies; and trials that mixed different statins."
+          "markdown": "## The register list\n\nThese trials were found by searching ClinicalTrials.gov and published trial reports on 25 September 2026, with a second ClinicalTrials.gov pass on 26 September 2026. The list covers combinations of rosuvastatin with this lesson's partners.\n\n🔗 MIXED\n- RACING · NCT03044665 · outcomes · published; registry status never updated ('unknown')\n- HOPE-3 · NCT00468923 · outcomes · completed, published\n- Ezetimibe/rosuvastatin + telmisartan · registry not found · markers · published 2023\n- Rosuvastatin/ezetimibe vs bempedoic acid/ezetimibe vs all three · NCT07255820 · markers · completed; results not found\n- AZD0780 (an oral PCSK9 inhibitor) + ezetimibe ± rosuvastatin or bempedoic acid · NCT06742853 · phase 1 · completed, results not found\n- LAPLACE-2, evolocumab or ezetimibe added to atorvastatin, rosuvastatin or simvastatin · NCT01763866 · markers · phase 3, completed\n- Inclisiran + rosuvastatin, coronary plaque · NCT06338293 · imaging · phase 4, recruiting\n\n🔗 +EZE+PCSK9\n- C-STAR, evolocumab + rosuvastatin + ezetimibe early after an acute coronary syndrome · NCT05661552 · markers · phase 4, completed\n- SEsiR-ACS, inclisiran + atorvastatin or rosuvastatin + ezetimibe after an acute coronary syndrome · NCT07799779 · imaging · phase 4, not yet recruiting\n\n🔗 +EZE+BEMP\n- TRICONOS, bempedoic acid + ezetimibe + rosuvastatin or atorvastatin · NCT06686615 · 2,000 planned · recruiting\n- Bempedoic acid/ezetimibe + high-intensity statin · NCT07474649 · markers · phase 3, not yet recruiting\n\n🔗 +ANTIHTN\n- Telmisartan/amlodipine + rosuvastatin · NCT03067688 · markers · published 2020\n- Telmisartan/amlodipine + rosuvastatin, second trial · NCT03566316 · markers · 134 people, published 2019\n- Losartan + amlodipine + rosuvastatin + ezetimibe, taken together · NCT04074551 · markers · phase 3, completed\n- J-TAROS, telmisartan/amlodipine/rosuvastatin · NCT03088254 · markers · published 2019\n- Amlodipine/valsartan/rosuvastatin · NCT03536598 · markers · 203 enrolled, results not extracted\n\n🔗 FDC\n- Amlodipine/rosuvastatin · registry not found · markers · published 2020\n- TELSTA-YU, telmisartan/rosuvastatin · registry not found · markers · published 2018, results not extracted\n- Amlodipine/losartan/rosuvastatin · registry not found · markers · published 2017 (tag provisional)\n- Dapagliflozin/rosuvastatin · NCT06772168 · markers · recruiting\n- Berlim, empagliflozin/rosuvastatin 25/20 and 25/10 · NCT04602754 (recruiting), NCT04603508 (status unknown) · markers · phase 3\n- Bempedoic acid-based single tablet vs separate tablets, with rosuvastatin · NCT07182383, NCT07201545 · bioequivalence · phase 1, completed\n- Rosuvastatin 40 + aspirin 81 + P2Y12 inhibitor, one pill after an acute coronary syndrome · NCT05514938 · adherence and outcomes · completed; results posted, not yet reviewed\n\n🔗 +SGLT2\n- Dapagliflozin + rosuvastatin, cholesterol metabolism · NCT03074630 · 12 people · phase 4\n- Empagliflozin + ezetimibe/rosuvastatin, pharmacokinetics · NCT06578676 · 56 people · phase 1\n\n🔗 +ASA, STATIN-INTOLERANT\n- None found as background designs\n\nNothing was found for lercanidipine. Excluded from the list: TIPS-3, which used simvastatin; observational studies; and trials that mixed different statins."
         },
         {
           "type": "text",
@@ -1060,7 +1061,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **SmPC** — Crestor, AEMPS CIMA 70.243, revision October 2025, sections 4.4, 4.5 and 5.1.\n2. **SmPC (combination products)** — Spanish: rosuvastatin/ezetimibe (e.g. CIMA 84659, 88393), rosuvastatin/amlodipine Aristo (85393) and Teva (85328), Valsaros (82505), Roasax (85515). EU: Roxiper, Croatian SmPC.\n3. **EPAR-level (national)** — Roxiper Public Assessment Report, Hungary, HU/H/0484/001-004/DC, 15 February 2019.\n4. **Registers** — ClinicalTrials.gov records as listed above, accessed 25 September 2026.\n5. **Journal** — Kim BK et al. RACING. *Lancet* 2022;400:380–90. Yusuf S et al. HOPE-3 combined therapy. *N Engl J Med* 2016;374:2032–43. Jin X et al. *J Clin Hypertens* 2020;22:1835–45. Kim W et al. *J Clin Hypertens* 2020;22:261–9. Song ZY et al. *J Clin Med* 2023;12:2377. Oh GC et al. TELSTA-YU. *Clin Ther* 2018;40:676–91. J-TAROS. *Clin Ther* 2019;41:233–48. Lee HY et al. *Clin Ther* 2017;39:2366–79."
+          "markdown": "## Sources\n\n1. **SmPC** — Crestor, AEMPS CIMA 70.243, revision October 2025, sections 4.4, 4.5 and 5.1.\n2. **SmPC (combination products)** — Spanish: rosuvastatin/ezetimibe (e.g. CIMA 84659, 88393), rosuvastatin/amlodipine Aristo (85393) and Teva (85328), Valsaros (82505), Roasax (85515). EU: Roxiper, Croatian SmPC.\n3. **EPAR-level (national)** — Roxiper Public Assessment Report, Hungary, HU/H/0484/001-004/DC, 15 February 2019.\n4. **Registers** — ClinicalTrials.gov records as listed above, accessed 25 September 2026.\n5. **Journal** — Kim BK et al. RACING. *Lancet* 2022;400:380–90. Yusuf S et al. HOPE-3 combined therapy. *N Engl J Med* 2016;374:2032–43. Jin X et al. *J Clin Hypertens* 2020;22:1835–45 (NCT03067688). Telmisartan/amlodipine and rosuvastatin, *Clin Ther* 2019;41:728–41 (NCT03566316). Kim W et al. *J Clin Hypertens* 2020;22:261–9. Song ZY et al. *J Clin Med* 2023;12:2377. Oh GC et al. TELSTA-YU. *Clin Ther* 2018;40:676–91. J-TAROS. *Clin Ther* 2019;41:233–48. Lee HY et al. *Clin Ther* 2017;39:2366–79."
         }
       ]
     },
@@ -1348,46 +1349,6 @@
           "markdown": "## Other interactions\n\n- **Fusidic acid**, an antibiotic: don't combine. Stop rosuvastatin during treatment and for 7 days after, because rhabdomyolysis, including deaths, has been reported with the combination.\n- Antacids containing aluminium and magnesium halve rosuvastatin levels. Taking the antacid 2 hours later reduces the effect.\n- Erythromycin lowers rosuvastatin exposure by 20%.\n- **Vitamin K antagonists** (warfarin-type anticoagulants): starting or raising rosuvastatin can raise the **INR**, a clotting test. Monitor it.\n- Oral contraceptives: exposure to ethinylestradiol rises by 26% and to norgestrel by 34%.\n- No meaningful interactions through the CYP450 enzymes are expected."
         },
         {
-          "type": "compare",
-          "title": "Contraindications: the EU and US labels",
-          "items": [
-            {
-              "id": "crestor",
-              "label": "Crestor (Spain)"
-            },
-            {
-              "id": "crestor-2",
-              "label": "Crestor (US, April 2026)"
-            }
-          ],
-          "attributes": [
-            {
-              "id": "kidneys",
-              "label": "Kidneys",
-              "values": [
-                "Severe kidney impairment: contraindicated",
-                "Severe kidney impairment, not on dialysis: 5–10 mg"
-              ]
-            },
-            {
-              "id": "ciclosporin",
-              "label": "Ciclosporin",
-              "values": [
-                "contraindicated",
-                "Cyclosporine: maximum 5 mg"
-              ]
-            },
-            {
-              "id": "contraindications",
-              "label": "Contraindications",
-              "values": [
-                "Pregnancy and breastfeeding: contraindicated",
-                "acute liver failure, decompensated cirrhosis, hypersensitivity"
-              ]
-            }
-          ]
-        },
-        {
           "type": "flashcard",
           "title": "Key terms",
           "cards": [
@@ -1529,7 +1490,7 @@
         },
         {
           "type": "text",
-          "markdown": "## 2025: the focused update\n\nThe 2025 update left the LDL goals unchanged and moved risk estimation to SCORE2 and SCORE2-OP. For rosuvastatin, the changes that matter are:\n\n- Acute coronary syndrome: intensify existing lipid treatment in hospital (I C). In people not already on treatment who are unlikely to reach the goal on a statin alone, start a high-intensity statin *plus ezetimibe* during that hospital stay (IIa B).\n- Statin intolerance: ezetimibe (I A) and bempedoic acid (I B).\n- Bempedoic acid may be added when the goal isn't reached on the maximum tolerated statin, with or without ezetimibe (IIa C)."
+          "markdown": "## 2025: the focused update\n\nThe 2025 update left the LDL goals unchanged and moved risk estimation to SCORE2 and SCORE2-OP. For rosuvastatin, the changes that matter are:\n\n- Acute coronary syndrome: intensify existing lipid treatment in hospital (I C). In people not already on treatment who are unlikely to reach the goal on a statin alone, start a high-intensity statin *plus ezetimibe* during that hospital stay (IIa B).\n- Statin intolerance: non-statin medicines with proven cardiovascular benefit, such as ezetimibe, are recommended (I A), and bempedoic acid is named specifically (I B).\n- Bempedoic acid may be added when the goal isn't reached on the maximum tolerated statin, with or without ezetimibe (IIa C)."
         },
         {
           "type": "compare",
@@ -1662,16 +1623,16 @@
               "explanation": "The SmPC lists ticagrelor at ×2.6 exposure, and the PRAC established the interaction as a cause of rhabdomyolysis. Weigh the benefits of both medicines against the higher exposure."
             },
             {
-              "id": "ros-l15-recap-q3",
-              "stem": "Why does the Spanish Crestor SmPC contain 40 mg rules?",
+              "id": "ros-l15-recap-q4",
+              "stem": "Which finding appears in rosuvastatin trials but not in the Crestor SmPC?",
               "options": [
-                "It's an error",
-                "40 mg rosuvastatin is on the Spanish market as generics referencing Crestor 40 mg, and the shared EU text always included 40 mg",
-                "40 mg is for children",
-                "40 mg is the prevention dose"
+                "Rhabdomyolysis",
+                "More cataract surgery (LODESTAR, HOPE-3)",
+                "New diabetes",
+                "Protein in the urine at 40 mg"
               ],
               "correctIndex": 1,
-              "explanation": "The SmPC text comes from the EU procedure that always covered 40 mg, and 40 mg tablets are available in Spain. The prevention dose is 20 mg."
+              "explanation": "Rhabdomyolysis, diabetes and proteinuria are all in the SmPC. Cataract surgery was more frequent on rosuvastatin in LODESTAR and HOPE-3, but the label doesn't mention it (Lessons 11 and 13)."
             }
           ]
         },

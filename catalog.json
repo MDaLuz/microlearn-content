@@ -40,7 +40,7 @@
       "discipline": "Medicines",
       "description": "What the label approves, and what the trials showed",
       "file": "modules/fenofibrate.json",
-      "version": 5,
+      "version": 6,
       "lessonCount": 15,
       "estimatedMinutes": 135,
       "accentColor": "#1D9E75"
@@ -51,7 +51,7 @@
       "discipline": "Medicines",
       "description": "What the label approves, and what the trials showed",
       "file": "modules/rosuvastatin.json",
-      "version": 6,
+      "version": 7,
       "lessonCount": 15,
       "estimatedMinutes": 150,
       "accentColor": "#1D9E75"

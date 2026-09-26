@@ -3,7 +3,7 @@
   "id": "rosuvastatin",
   "title": "Rosuvastatin",
   "discipline": "Medicines",
-  "version": 4,
+  "version": 5,
   "lessons": [
     {
       "id": "ros-l01-at-a-glance",
@@ -1061,6 +1061,374 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Crestor, AEMPS CIMA 70.243, revision October 2025, sections 4.4, 4.5 and 5.1.\n2. **SmPC (combination products)** — Spanish: rosuvastatin/ezetimibe (e.g. CIMA 84659, 88393), rosuvastatin/amlodipine Aristo (85393) and Teva (85328), Valsaros (82505), Roasax (85515). EU: Roxiper, Croatian SmPC.\n3. **EPAR-level (national)** — Roxiper Public Assessment Report, Hungary, HU/H/0484/001-004/DC, 15 February 2019.\n4. **Registers** — ClinicalTrials.gov records as listed above, accessed 25 September 2026.\n5. **Journal** — Kim BK et al. RACING. *Lancet* 2022;400:380–90. Yusuf S et al. HOPE-3 combined therapy. *N Engl J Med* 2016;374:2032–43. Jin X et al. *J Clin Hypertens* 2020;22:1835–45. Kim W et al. *J Clin Hypertens* 2020;22:261–9. Song ZY et al. *J Clin Med* 2023;12:2377. Oh GC et al. TELSTA-YU. *Clin Ther* 2018;40:676–91. J-TAROS. *Clin Ther* 2019;41:233–48. Lee HY et al. *Clin Ther* 2017;39:2366–79."
+        }
+      ]
+    },
+    {
+      "id": "ros-l10-cv-outcomes",
+      "title": "Heart-attack and stroke outcomes",
+      "xpReward": 60,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The question that matters\n\nLower LDL is a marker. This lesson asks what patients care about: does rosuvastatin mean fewer heart attacks, strokes and deaths?\n\nThe EU SmPC answers through JUPITER's post-hoc higher-risk analyses. In those, rosuvastatin reduced a combination of cardiovascular death, stroke and heart attack. Death from any cause was not affected in either analysis."
+        },
+        {
+          "type": "text",
+          "markdown": "## Heart attacks and strokes in JUPITER\n\nAcross the whole trial (rosuvastatin 20 mg vs placebo, median 1.9 years):\n\n- **Heart attack:** 0.17 vs 0.37 per 100 person-years (HR 0.46). That is about 54% lower in relative terms, and about 2 fewer per 1,000 people per year.\n- **Stroke:** 0.18 vs 0.34 per 100 person-years (HR 0.52). That is about 48% lower in relative terms, and about 1.6 fewer per 1,000 people per year.\n\nRemember that JUPITER stopped early (Lesson 7). The true effects may be somewhat smaller than these figures."
+        },
+        {
+          "type": "text",
+          "markdown": "## Death: two sources, two framings\n\nJUPITER's publication reports fewer deaths from any cause across the whole trial: 1.00 vs 1.25 per 100 person-years (HR 0.80, 95% CI 0.67–0.97).\n\nThe EU SmPC doesn't report that overall figure. It reports only the higher-risk post-hoc analyses, and in both of them death from any cause wasn't significantly reduced (p = 0.193 and p = 0.076). Both statements are accurate. They describe different slices of the same trial.\n\nIn advanced disease, rosuvastatin didn't reduce deaths: CORONA (HR 0.95), AURORA (HR 0.96) and GISSI-HF (HR 1.00)."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: LODESTAR\nTag: MONO\n\n- Registry: NCT02579499\n- Who took part: 4,400 adults with coronary artery disease at 12 hospitals in South Korea\n- Background therapy: no lipid partner. A factorial design also randomised how the dose was chosen, but not any partner medicine.\n- Compared with: atorvastatin, open-label, over 3 years. Average doses were 17.1 mg rosuvastatin and 36.0 mg atorvastatin.\n- Main question: does rosuvastatin do better than atorvastatin on death, heart attack, stroke or coronary revascularisation?\n- Headline result: 8.7% vs 8.2%; HR 1.06 (95% CI 0.86–1.30), p = 0.58. That is 0.5 percentage points higher on rosuvastatin, which isn't statistically significant.\n- In plain words: in a **head-to-head trial**, which directly compares two active treatments, the two statins performed about the same on hard outcomes, even though LDL ran slightly lower on rosuvastatin (1.8 vs 1.9 mmol/L).\n- Worth knowing: more new diabetes needing medication (7.2% vs 5.3%) and more cataract surgery (2.5% vs 1.5%) on rosuvastatin (Lesson 11). This was a single-country, open-label trial in Korea, where rosuvastatin exposure runs higher."
+        },
+        {
+          "type": "text",
+          "markdown": "## The class picture\n\nThe Cholesterol Treatment Trialists' Collaboration pooled 26 statin trials with about 170,000 participants. For every 1.0 mmol/L reduction in LDL, major vascular events fell by about 22% (rate ratio 0.78, 95% CI 0.76–0.80) and deaths from any cause by about 10% (rate ratio 0.90, 95% CI 0.87–0.93).\n\nThese figures are relative and describe statins as a class. The absolute benefit for any one person depends on how high their risk is to start with. So the pooled estimate supports rosuvastatin's direction of effect, but it doesn't give its size for a particular patient."
+        },
+        {
+          "type": "compare",
+          "title": "Where rosuvastatin changes outcomes",
+          "items": [
+            {
+              "id": "no-established-disease",
+              "label": "No established disease"
+            },
+            {
+              "id": "against-another-statin",
+              "label": "Against another statin"
+            },
+            {
+              "id": "advanced-disease",
+              "label": "Advanced disease"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "first-point",
+              "label": "First point",
+              "values": [
+                "JUPITER: HR 0.56, stopped early",
+                "LODESTAR vs atorvastatin: HR 1.06",
+                "Heart failure (CORONA, GISSI-HF): no effect on death"
+              ]
+            },
+            {
+              "id": "second-point",
+              "label": "Second point",
+              "values": [
+                "HOPE-3: HR 0.76 over 5.6 years",
+                "Similar hard outcomes",
+                "Dialysis (AURORA): no effect"
+              ]
+            },
+            {
+              "id": "bottom-line",
+              "label": "Bottom line",
+              "values": [
+                "Fewer heart attacks and strokes",
+                "More new diabetes and cataract surgery",
+                "LDL fell, but events didn't"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Reading the three columns\n\nOnly LODESTAR is a head-to-head comparison. The other columns come from placebo-controlled trials in different populations, so each column stands on its own and they shouldn't be compared with each other."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ros-l10-cv-outcomes-fc1",
+              "front": "CTT, per 1 mmol/L lower LDL",
+              "back": "Across 26 statin trials: about 22% fewer major vascular events and about 10% fewer deaths. These are relative figures for the class."
+            },
+            {
+              "id": "ros-l10-cv-outcomes-fc2",
+              "front": "LODESTAR",
+              "back": "Rosuvastatin vs atorvastatin in coronary disease: 8.7% vs 8.2% (HR 1.06), with more new diabetes and cataract surgery on rosuvastatin."
+            },
+            {
+              "id": "ros-l10-cv-outcomes-fc3",
+              "front": "JUPITER and death",
+              "back": "Whole trial: HR 0.80 for death from any cause. EU label (post-hoc higher-risk analyses): no significant effect on death. The difference comes from which part of the trial is reported."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ros-l10-cv-outcomes-q1",
+              "stem": "What does LODESTAR allow you to say that JUPITER and HOPE-3 don't?",
+              "options": [
+                "That rosuvastatin beats placebo",
+                "A direct comparison with another statin: similar hard outcomes to atorvastatin, but more new diabetes and cataract surgery",
+                "That rosuvastatin reduces deaths in heart failure",
+                "That rosuvastatin works best with ezetimibe"
+              ],
+              "correctIndex": 1,
+              "explanation": "LODESTAR compared rosuvastatin head-to-head with atorvastatin. JUPITER and HOPE-3 compared it with placebo, so they can't tell you how it performs against another statin."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Crestor, AEMPS CIMA 70.243, revision October 2025, section 5.1.\n2. **Journal** — Ridker PM et al. JUPITER. *N Engl J Med* 2008;359:2195–207.\n3. **Journal** — Yusuf S et al. HOPE-3. *N Engl J Med* 2016;374:2021–31.\n4. **Journal** — Lee YJ et al. LODESTAR secondary analysis. *BMJ* 2023;383:e075837.\n5. **Journal** — Cholesterol Treatment Trialists' Collaboration. *Lancet* 2010;376:1670–81.\n6. **Journal** — CORONA (*N Engl J Med* 2007); AURORA (*N Engl J Med* 2009); GISSI-HF via review (PMC11198214)."
+        }
+      ]
+    },
+    {
+      "id": "ros-l11-side-effects",
+      "title": "Side effects",
+      "xpReward": 60,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## How the SmPC counts\n\nThe SmPC groups each adverse reaction by how often it occurs:\n\n- common: 1 in 100 to 1 in 10\n- uncommon: 1 in 1,000 to 1 in 100\n- rare: 1 in 10,000 to 1 in 1,000\n- very rare: below 1 in 10,000\n- not known: frequency can't be estimated\n\nThe SmPC describes side effects as generally mild and short-lived, and fewer than 4% of patients in controlled trials stopped treatment because of them. Like other statins, their frequency tends to rise with the dose."
+        },
+        {
+          "type": "text",
+          "markdown": "## Common\n\n- Headache and dizziness\n- Constipation, nausea and abdominal pain\n- Muscle aches (myalgia)\n- Weakness (asthenia)\n- Diabetes. How often it appears depends on risk factors: fasting glucose of 5.6 mmol/L or above, BMI above 30, raised triglycerides or high blood pressure."
+        },
+        {
+          "type": "text",
+          "markdown": "## Less common, rare and very rare\n\n- Uncommon: itching, rash and hives.\n- Rare: low platelets, allergic reactions including angioedema, pancreatitis, raised liver enzymes, myopathy (including inflammation of the muscles), rhabdomyolysis, a lupus-like syndrome and muscle rupture.\n- Very rare: nerve damage in the arms and legs, memory loss, jaundice, hepatitis, joint pain, blood in the urine and breast enlargement in men."
+        },
+        {
+          "type": "text",
+          "markdown": "## Frequency not known\n\nThe SmPC also lists depression, sleep problems, cough and breathlessness, diarrhoea, oedema, tendon problems and anaphylaxis. Several items on this list need their own explanation:\n\n- Severe skin reactions, including Stevens-Johnson syndrome and **DRESS** (drug reaction with eosinophilia and systemic symptoms), which can be life-threatening. After either one, rosuvastatin must never be restarted.\n- **Immune-mediated necrotising myopathy**: muscle weakness and a raised muscle enzyme that persist even after the statin is stopped.\n- New or worsening **myasthenia gravis**, a disease in which muscles weaken with use."
+        },
+        {
+          "type": "text",
+          "markdown": "## Kidneys\n\nAt higher doses some people develop protein in the urine, mostly of tubular origin, meaning it comes from the kidney's small tubes rather than its filters. A shift to ++ or more was seen in under 1% of people on 10–20 mg and about 3% of people on 40 mg. It usually settles on its own, and it hasn't been shown to predict kidney disease.\n\nBlood in the urine occurs at a low rate. Reports of serious kidney events are more frequent at 40 mg."
+        },
+        {
+          "type": "text",
+          "markdown": "## Muscles\n\nMuscle aches are common. Rhabdomyolysis is rare but is reported more often at doses above 20 mg. CK rises with the dose, though mostly mildly and without symptoms. Treatment stops if CK exceeds five times the ULN.\n\nIn children, CK above ten times the ULN, and muscle symptoms after exercise, were seen more often than in adults.\n\nIn HOPE-3, over 5.6 years, muscle symptoms occurred in 5.8% of people on rosuvastatin 10 mg and 4.7% on placebo, 1.1 percentage points more."
+        },
+        {
+          "type": "compare",
+          "title": "The diabetes signal, trial by trial",
+          "items": [
+            {
+              "id": "jupiter",
+              "label": "JUPITER (vs placebo)"
+            },
+            {
+              "id": "hope-3",
+              "label": "HOPE-3 (vs placebo)"
+            },
+            {
+              "id": "lodestar",
+              "label": "LODESTAR (vs atorvastatin)"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "diabetes",
+              "label": "Diabetes",
+              "values": [
+                "Diabetes 2.8% vs 2.3%",
+                "No excess of diabetes reported",
+                "New diabetes needing medication: 7.2% vs 5.3%"
+              ]
+            },
+            {
+              "id": "duration",
+              "label": "Duration",
+              "values": [
+                "Mean of 2 years",
+                "Median of 5.6 years",
+                "3 years, open-label"
+              ]
+            },
+            {
+              "id": "detail",
+              "label": "Detail",
+              "values": [
+                "Mostly in people with fasting glucose of 5.6–6.9 mmol/L",
+                "Rosuvastatin 10 mg",
+                "HR 1.39 (95% CI 1.03–1.87)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Reading the diabetes signal\n\nEach column is a separate trial with its own comparator, so don't compare them directly. Diabetes appeared more often with rosuvastatin in JUPITER, and against atorvastatin in LODESTAR, but not in HOPE-3.\n\nThe SmPC's position is that the vascular benefit outweighs this risk, and that it shouldn't be a reason to stop a statin. It asks for people at risk of diabetes to be monitored instead."
+        },
+        {
+          "type": "text",
+          "markdown": "## A signal the label doesn't carry\n\nLODESTAR found more cataract surgery on rosuvastatin than on atorvastatin (2.5% vs 1.5% over 3 years; HR 1.66, 95% CI 1.07–2.58), and HOPE-3 also reported an excess. Cataract doesn't appear anywhere in the Crestor SmPC.\n\nThis is a trial finding that the label hasn't taken up. It isn't proof of harm, but it is worth tracking in Lesson 13."
+        },
+        {
+          "type": "text",
+          "markdown": "## When to stop and see a doctor\n\nThe PIL tells patients to stop and get help straight away for any of these:\n\n- difficulty breathing, or swelling of the face, lips, tongue or throat\n- intense itching with hives\n- target-shaped skin patches with blisters or mouth ulcers\n- a widespread rash with fever and swollen glands\n- unexplained muscle pain or cramps that last longer than expected\n- a muscle rupture\n- lupus-like symptoms\n\nIt also asks patients to see a doctor if they notice weakness that gets worse with activity, double vision, drooping eyelids, or difficulty swallowing or breathing. These can be signs of myasthenia."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ros-l11-side-effects-fc1",
+              "front": "DRESS",
+              "back": "Drug reaction with eosinophilia and systemic symptoms: a widespread rash, fever and swollen glands. After DRESS or Stevens-Johnson syndrome, rosuvastatin must never be restarted."
+            },
+            {
+              "id": "ros-l11-side-effects-fc2",
+              "front": "Immune-mediated necrotising myopathy",
+              "back": "Muscle weakness and a raised CK that persist after the statin is stopped. Very rare, with frequency not known."
+            },
+            {
+              "id": "ros-l11-side-effects-fc3",
+              "front": "Cataract",
+              "back": "More cataract surgery on rosuvastatin in LODESTAR (2.5% vs 1.5% against atorvastatin) and in HOPE-3. Not mentioned in the Crestor SmPC."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ros-l11-side-effects-q1",
+              "stem": "According to the SmPC, what should happen when a patient at risk of diabetes starts rosuvastatin?",
+              "options": [
+                "Rosuvastatin shouldn't be used",
+                "Switch to atorvastatin immediately",
+                "Continue, with clinical and biochemical monitoring, because the vascular benefit outweighs the risk",
+                "Halve the dose"
+              ],
+              "correctIndex": 2,
+              "explanation": "The SmPC says the rise in blood sugar is outweighed by the reduction in vascular risk, so it isn't a reason to stop. Patients at risk should be monitored according to national guidelines."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Crestor, AEMPS CIMA 70.243, revision October 2025, sections 4.4 and 4.8.\n2. **PIL** — Crestor 10 mg, revised October 2025, section 4.\n3. **Journal** — Ridker PM et al. JUPITER. *N Engl J Med* 2008.\n4. **Journal** — Yusuf S et al. HOPE-3. *N Engl J Med* 2016;374:2021–31 (muscle symptoms, cataract and diabetes, as reported in secondary summaries).\n5. **Journal** — Lee YJ et al. LODESTAR. *BMJ* 2023;383:e075837."
+        }
+      ]
+    },
+    {
+      "id": "ros-l12-contraindications-interactions",
+      "title": "Who shouldn't take it, and interactions",
+      "xpReward": 60,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Who must not take it, at any dose\n\n- Allergy to rosuvastatin or any ingredient\n- Active liver disease, including unexplained persistent rises in transaminases or any rise above three times the ULN\n- Severe kidney impairment (creatinine clearance below 30)\n- Myopathy\n- Taking sofosbuvir/velpatasvir/voxilaprevir (a hepatitis C treatment)\n- Taking ciclosporin\n- Pregnancy or breastfeeding, and women who could become pregnant without adequate contraception"
+        },
+        {
+          "type": "text",
+          "markdown": "## Who must not take 40 mg\n\nOn top of the list above, 40 mg is contraindicated for people with:\n\n- moderate kidney impairment (creatinine clearance below 60)\n- an underactive thyroid\n- a personal or family history of inherited muscle disorders\n- previous muscle problems on a statin or fibrate\n- alcohol abuse\n- situations that raise blood levels\n- Asian origin\n- a fibrate being taken at the same time\n\nEach of these factors raises either blood levels or the underlying risk to muscle."
+        },
+        {
+          "type": "text",
+          "markdown": "## Extra care, and when not to use it at all\n\nCaution is needed after age 70 and with the muscle risk factors above. Rosuvastatin shouldn't be used at all during an acute, serious illness that could lead to muscle breakdown or kidney failure: sepsis, very low blood pressure, major surgery, trauma, severe metabolic or electrolyte disorders, or uncontrolled seizures.\n\nOther warnings:\n\n- Anyone who has had a severe skin reaction to it must never take it again.\n- It can unmask or worsen myasthenia.\n- It contains lactose.\n- If interstitial lung disease is suspected, treatment must stop."
+        },
+        {
+          "type": "text",
+          "markdown": "## A leaflet line without an SmPC twin\n\nThe PIL asks patients to talk to their doctor if they have severe respiratory insufficiency. The SmPC's warnings section (October 2025 revision) has no matching line. The nearest it comes is its warning on interstitial lung disease.\n\nPILs are meant to reflect the SmPC. When a line appears only in the PIL, it's worth noting and raising at the next review."
+        },
+        {
+          "type": "text",
+          "markdown": "## Medicines that raise exposure\n\nMost interactions work through the transporters from Lesson 2. The SmPC's table lists, among others:\n\n- sofosbuvir/velpatasvir/voxilaprevir (×7.4) and ciclosporin (×7.1): contraindicated\n- darolutamide (×5.2), regorafenib (×3.8) and atazanavir/ritonavir (×3.1)\n- roxadustat (×2.9); velpatasvir, momelotinib and ticagrelor (×2.6–2.7)\n- teriflunomide or leflunomide (×2.5), clopidogrel (×2), febuxostat and gemfibrozil (×1.9)\n\nThe rule of thumb: if a medicine roughly doubles exposure or more, start at 5 mg, and cap the dose so that total exposure stays at or below 40 mg taken alone. For example, the cap is 20 mg with gemfibrozil, and 10 mg with atazanavir/ritonavir."
+        },
+        {
+          "type": "text",
+          "markdown": "## Other interactions\n\n- **Fusidic acid**, an antibiotic: don't combine. Stop rosuvastatin during treatment and for 7 days after, because rhabdomyolysis, including deaths, has been reported with the combination.\n- Antacids containing aluminium and magnesium halve rosuvastatin levels. Taking the antacid 2 hours later reduces the effect.\n- Erythromycin lowers rosuvastatin exposure by 20%.\n- **Vitamin K antagonists** (warfarin-type anticoagulants): starting or raising rosuvastatin can raise the **INR**, a clotting test. Monitor it.\n- Oral contraceptives: exposure to ethinylestradiol rises by 26% and to norgestrel by 34%.\n- No meaningful interactions through the CYP450 enzymes are expected."
+        },
+        {
+          "type": "compare",
+          "title": "Contraindications: the EU and US labels",
+          "items": [
+            {
+              "id": "crestor",
+              "label": "Crestor (Spain)"
+            },
+            {
+              "id": "crestor-2",
+              "label": "Crestor (US, April 2026)"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "kidneys",
+              "label": "Kidneys",
+              "values": [
+                "Severe kidney impairment: contraindicated",
+                "Severe kidney impairment, not on dialysis: 5–10 mg"
+              ]
+            },
+            {
+              "id": "ciclosporin",
+              "label": "Ciclosporin",
+              "values": [
+                "contraindicated",
+                "Cyclosporine: maximum 5 mg"
+              ]
+            },
+            {
+              "id": "contraindications",
+              "label": "Contraindications",
+              "values": [
+                "Pregnancy and breastfeeding: contraindicated",
+                "acute liver failure, decompensated cirrhosis, hypersensitivity"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ros-l12-contraindications-interactions-fc1",
+              "front": "Fusidic acid",
+              "back": "Never combine it with rosuvastatin. Stop the statin during systemic fusidic acid treatment and for 7 days after."
+            },
+            {
+              "id": "ros-l12-contraindications-interactions-fc2",
+              "front": "The 2× exposure rule",
+              "back": "If a co-medication raises rosuvastatin AUC 2-fold or more, start at 5 mg and cap the dose so that exposure stays at or below 40 mg taken alone."
+            },
+            {
+              "id": "ros-l12-contraindications-interactions-fc3",
+              "front": "INR",
+              "back": "A clotting test. It can rise when rosuvastatin is started or increased in someone taking a vitamin K antagonist, so monitor it."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ros-l12-contraindications-interactions-q1",
+              "stem": "A patient on rosuvastatin needs systemic fusidic acid for a severe infection. What does the SmPC say?",
+              "options": [
+                "Halve the rosuvastatin dose",
+                "No change needed",
+                "Stop rosuvastatin during fusidic acid treatment and restart 7 days after the last dose",
+                "Switch to 40 mg"
+              ],
+              "correctIndex": 2,
+              "explanation": "Rhabdomyolysis, including deaths, has been reported with the combination. The statin is paused while fusidic acid is given and restarted 7 days after the last dose."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Crestor, AEMPS CIMA 70.243, revision October 2025, sections 4.2, 4.3, 4.4, 4.5, 4.6.\n2. **PIL** — Crestor 10 mg, revised October 2025, section 2.\n3. **US (differences only)** — Crestor prescribing information, April 2026 revision (FDA label 021366s047)."
         }
       ]
     }

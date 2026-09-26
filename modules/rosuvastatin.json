@@ -3,7 +3,7 @@
   "id": "rosuvastatin",
   "title": "Rosuvastatin",
   "discipline": "Medicines",
-  "version": 3,
+  "version": 4,
   "lessons": [
     {
       "id": "ros-l01-at-a-glance",
@@ -916,6 +916,151 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Crestor, AEMPS CIMA 70.243, revision October 2025. Sections 4.3, 4.4 and 5.1.\n2. **EPAR-level** — MEB (Netherlands) Public Assessment Report, Crestor, NL/H/0343, 3 February 2011.\n3. **Journal** — Ridker PM et al. JUPITER. *N Engl J Med* 2008;359:2195–207.\n4. **Journal** — Yusuf S et al. HOPE-3. *N Engl J Med* 2016;374:2021–31.\n5. **Journal** — Kjekshus J et al. CORONA. *N Engl J Med* 2007;357:2248–61.\n6. **Journal** — Fellström BC et al. AURORA. *N Engl J Med* 2009;360:1395–407.\n7. **Journal (review)** — GISSI-HF figures, via a review of statins in heart failure (PMC11198214).\n8. **US (differences only)** — Crestor prescribing information: JUPITER event counts; dosing in severe renal impairment."
+        }
+      ]
+    },
+    {
+      "id": "ros-l09-combination-trials",
+      "title": "🔗 Combination trials",
+      "xpReward": 90,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Two kinds of partner\n\nRosuvastatin is rarely a person's only heart medicine. This lesson covers two kinds of partner. Part A covers other lipid medicines: ezetimibe, and, on top of that, a PCSK9 inhibitor or bempedoic acid. Part B covers cardiometabolic medicines: acetylsalicylic acid, the SGLT2 inhibitors dapagliflozin and empagliflozin, and seven blood-pressure medicines (telmisartan, valsartan, losartan, amlodipine, lercanidipine, hydrochlorothiazide and indapamide).\n\nFor each partner, the lesson asks three questions. What do the licences actually name? What does the Crestor SmPC say about the pairing? And what trials exist?"
+        },
+        {
+          "type": "text",
+          "markdown": "## What the licences name\n\nA **fixed-dose combination** puts two or more medicines in one tablet or capsule. The following were found in Spain or elsewhere in the EU:\n\n- Crestor itself names no partner. Section 5.1 mentions only small studies with fenofibrate and niacin.\n- Rosuvastatin + ezetimibe (many Spanish products): substitution, for primary hypercholesterolaemia. Some also cover coronary heart disease after an acute coronary syndrome.\n- Rosuvastatin + fenofibrate (Spain): substitution (see the fenofibrate module).\n- Rosuvastatin + amlodipine (Spain): substitution, for people already controlled on both medicines taken separately.\n- Rosuvastatin + valsartan (Valsaros) and rosuvastatin + acetylsalicylic acid (Roasax): authorised in Spain. Their indication text wasn't reviewed in this pass.\n- Rosuvastatin + perindopril + indapamide (Roxiper): authorised through a **decentralised procedure** (several EU countries assessing one application together, here led by Hungary) for high blood pressure with high cholesterol, as substitution. It is contraindicated when creatinine clearance is below 60."
+        },
+        {
+          "type": "text",
+          "markdown": "## What no licence names\n\nThis pass found no EU licence that combines rosuvastatin with telmisartan, losartan, lercanidipine, hydrochlorothiazide, dapagliflozin, empagliflozin, a PCSK9 inhibitor or bempedoic acid.\n\nWhen these medicines are combined in practice, each is prescribed on its own licence, taken as a separate tablet. That is **co-administration**: taking two medicines together without a combined product."
+        },
+        {
+          "type": "text",
+          "markdown": "## The Crestor SmPC's interaction lines\n\nFor lipid partners:\n\n- Ezetimibe raises rosuvastatin exposure about 1.2-fold. An interaction on side effects can't be ruled out, and very rare rhabdomyolysis has been reported with ezetimibe plus statins, so the SmPC asks for caution.\n- Fenofibrate has no meaningful effect on blood levels, but the muscle risk may add up. 40 mg is contraindicated with any fibrate, and treatment starts at 5 mg.\n- Gemfibrozil almost doubles exposure (×1.9) and isn't recommended.\n\nFor antiplatelet partners, often taken alongside aspirin: clopidogrel doubles exposure, and ticagrelor raises it 2.6-fold.\n\nThe SmPC has no line at all for acetylsalicylic acid, dapagliflozin, empagliflozin, any of the seven blood-pressure medicines, PCSK9 inhibitors or bempedoic acid."
+        },
+        {
+          "type": "compare",
+          "title": "Part A: alone, with ezetimibe, with ezetimibe plus a third agent",
+          "items": [
+            {
+              "id": "rosuvastatin-alone",
+              "label": "Rosuvastatin alone"
+            },
+            {
+              "id": "ezetimibe",
+              "label": "+ ezetimibe"
+            },
+            {
+              "id": "ezetimibe-pcsk9-inhibitor-or-bempedoic-acid",
+              "label": "+ ezetimibe + PCSK9 inhibitor or bempedoic acid"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "evidence",
+              "label": "Evidence",
+              "values": [
+                "Outcome trials: JUPITER and HOPE-3 positive; CORONA and AURORA neutral",
+                "Outcome trial: RACING, not worse than rosuvastatin 20 mg over 3 years",
+                "Only early-phase or planned trials found"
+              ]
+            },
+            {
+              "id": "licensing",
+              "label": "Licensing",
+              "values": [
+                "Licensed as Crestor and its generics",
+                "Many Spanish substitution FDCs",
+                "No EU combination licence found"
+              ]
+            },
+            {
+              "id": "note",
+              "label": "Note",
+              "values": [
+                "The evidence base for the other two columns",
+                "Crestor SmPC: exposure ×1.2, caution",
+                "No outcome trial specific to rosuvastatin found"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## How to read those columns\n\nRead each column on its own. They come from different trials, in different people, over different time frames. The table shows how much evidence exists for each approach, not which one works best. No trial has compared all three head-to-head."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: RACING\nTag: 🔗 MIXED\n\n- Registry: NCT03044665\n- Who took part: 3,780 people with established atherosclerotic disease at 26 centres in South Korea; average LDL about 80 mg/dL at entry\n- Background therapy: half were randomised to add ezetimibe; the trial allowed doses to be adjusted to reach the LDL target\n- Compared with: rosuvastatin 20 mg alone. Open-label (everyone knew which treatment they were on). Non-inferiority margin of 2.0 percentage points. 3 years.\n- Main question: is rosuvastatin 10 mg plus ezetimibe 10 mg no worse than rosuvastatin 20 mg at preventing cardiovascular death, major cardiovascular events or stroke?\n- Headline result: 9.1% vs 9.9% at 3 years; difference −0.78 percentage points (90% CI −2.39 to 0.83). That is about 8% lower in relative terms (calculated here), and within the non-inferiority margin.\n- In plain words: adding ezetimibe to a moderate dose was no worse than doubling the statin.\n- Worth knowing: fewer people stopped or reduced treatment on the combination. Korean patients carry about twice the rosuvastatin exposure of white patients (Lesson 2), so the doses don't translate one-to-one to European patients. Being open-label, it's weaker than a blinded trial for softer outcomes."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: HOPE-3, combined arm\nTag: 🔗 MIXED\n\n- Registry: NCT00468923\n- Who took part: 6,348 people at intermediate risk without cardiovascular disease, from HOPE-3's factorial design\n- Background therapy: none. This comparison takes the two extreme arms of the factorial design.\n- Compared with: dual placebo (3,168 people) versus rosuvastatin 10 mg plus candesartan 16 mg plus hydrochlorothiazide 12.5 mg (3,180 people), over a median of 5.6 years\n- Main question: does lowering cholesterol and blood pressure together reduce cardiovascular death, heart attack or stroke?\n- Headline result: 3.6% vs 5.0%; HR 0.71 (95% CI 0.56–0.90), p = 0.005. That is about 29% lower in relative terms and 1.4 percentage points lower in absolute terms over 5.6 years. LDL was 0.87 mmol/L lower and systolic blood pressure 6.2 mmHg lower.\n- In plain words: rosuvastatin plus two blood-pressure medicines lowered events more clearly than either approach showed on its own.\n- Worth knowing: muscle weakness and dizziness were more common, but about as many people stopped treatment in each arm. The medicines were given as separate tablets, not as a single pill. Hydrochlorothiazide is on this lesson's list; candesartan isn't. No EU licence names this combination."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: telmisartan/amlodipine plus rosuvastatin\nTag: 🔗 +ANTIHTN\n\n- Registry: NCT03566316 (the arms match the published trial; not yet confirmed)\n- Who took part: 202 Korean patients with high blood pressure and high cholesterol\n- Background therapy: telmisartan 80 mg in every arm\n- Compared with: telmisartan 80 mg plus rosuvastatin 20 mg, and telmisartan/amlodipine 80/5 mg, over 8 weeks\n- Main question: does telmisartan/amlodipine plus rosuvastatin lower blood pressure more than telmisartan plus rosuvastatin, and LDL more than telmisartan/amlodipine?\n- Headline result: systolic blood pressure fell by 19.3 vs 6.7 mmHg at 8 weeks, a difference of −12.6 mmHg (95% CI −18.1 to −7.1). The LDL comparison, the second primary endpoint, wasn't extracted in this pass.\n- In plain words: adding amlodipine lowered blood pressure further, and rosuvastatin didn't get in the way.\n- Worth knowing: this is an 8-week trial measuring markers only, with no outcome data. Telmisartan and rosuvastatin aren't combined in any EU licence found in this pass."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: amlodipine/rosuvastatin single pill\nTag: 🔗 FDC\n\n- Registry: not found in this search\n- Who took part: 106 Korean patients with high blood pressure and high cholesterol, at 15 centres\n- Background therapy: none; 4-week placebo run-in with lifestyle measures\n- Compared with: amlodipine 10 mg alone, and rosuvastatin 20 mg alone, over 8 weeks\n- Main question: does one pill of rosuvastatin 20 mg plus amlodipine 10 mg lower blood pressure and LDL like its parts?\n- Headline result: systolic blood pressure fell by 22.8 mmHg in the single-pill group, the largest fall of the three arms. The between-group LDL figures weren't extracted in this pass.\n- In plain words: the single pill did both jobs over 8 weeks.\n- Worth knowing: the trial is small and short. Rosuvastatin + amlodipine is licensed in Spain as capsules, for substitution only."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: ezetimibe/rosuvastatin plus telmisartan\nTag: 🔗 MIXED\n\n- Registry: not found in this search\n- Who took part: 181 South Korean patients with high cholesterol and high blood pressure\n- Background therapy: ezetimibe/rosuvastatin in two of the three arms\n- Compared with: ezetimibe/rosuvastatin 10/20 mg alone, and telmisartan 80 mg alone, over 8 weeks\n- Main question: do all three medicines together lower blood pressure and LDL as well as their parts?\n- Headline result: systolic blood pressure fell by 25.8 vs 7.7 mmHg (all three vs ezetimibe/rosuvastatin alone) at 8 weeks. The LDL figures weren't extracted in this pass.\n- In plain words: adding telmisartan lowered blood pressure without affecting the lipid treatment.\n- Worth knowing: one of the few trials combining rosuvastatin, ezetimibe and a blood-pressure medicine. It measured markers only."
+        },
+        {
+          "type": "text",
+          "markdown": "## The register list\n\nThese trials were found by searching ClinicalTrials.gov and published trial reports on 25 September 2026. The list covers combinations of rosuvastatin with this lesson's partners.\n\n🔗 MIXED\n- RACING · NCT03044665 · outcomes · published; registry status never updated ('unknown')\n- HOPE-3 · NCT00468923 · outcomes · completed, published\n- Ezetimibe/rosuvastatin + telmisartan · registry not found · markers · published 2023\n- Rosuvastatin/ezetimibe vs bempedoic acid/ezetimibe vs all three · NCT07255820 · markers · completed; results not found\n- AZD0780 (an oral PCSK9 inhibitor) + ezetimibe ± rosuvastatin or bempedoic acid · NCT06742853 · phase 1 · completed, results not found\n\n🔗 +ANTIHTN\n- Telmisartan/amlodipine + rosuvastatin · NCT03566316 (to confirm) · markers · published 2020\n- J-TAROS, telmisartan/amlodipine/rosuvastatin · NCT03088254 · markers · published 2019\n- Amlodipine/valsartan/rosuvastatin · NCT03536598 · markers · 203 enrolled, results not extracted\n\n🔗 FDC\n- Amlodipine/rosuvastatin · registry not found · markers · published 2020\n- TELSTA-YU, telmisartan/rosuvastatin · registry not found · markers · published 2018, results not extracted\n- Amlodipine/losartan/rosuvastatin · registry not found · markers · published 2017 (tag provisional)\n- Dapagliflozin/rosuvastatin · NCT06772168 · markers · recruiting\n- Rosuvastatin 40 + aspirin 81 + P2Y12 inhibitor, one pill after an acute coronary syndrome · NCT05514938 · adherence and outcomes · completed; results posted, not yet reviewed\n\n🔗 +SGLT2\n- Dapagliflozin + rosuvastatin, cholesterol metabolism · NCT03074630 · 12 people · phase 4\n- Empagliflozin + ezetimibe/rosuvastatin, pharmacokinetics · NCT06578676 · 56 people · phase 1\n\n🔗 +ASA, STATIN-INTOLERANT\n- None found as background designs\n\nNothing was found for lercanidipine. Excluded from the list: TIPS-3, which used simvastatin; observational studies; and trials that mixed different statins."
+        },
+        {
+          "type": "text",
+          "markdown": "## What the register shows\n\nThe evidence divides into two very different kinds. On the lipid side there are outcome trials (JUPITER, HOPE-3, RACING). On the blood-pressure and diabetes side, almost everything is an 8-week marker trial or a pharmacokinetic study, most of them in Korea. The main exception is HOPE-3's combined arm, which used separate tablets.\n\nA **polypill**, a single pill combining several heart medicines, has outcome evidence in general. The one rosuvastatin-plus-aspirin polypill trial found here, a 140-person phase 2 study, has posted results that haven't yet been reviewed for this module."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ros-l09-combination-trials-fc1",
+              "front": "Fixed-dose combination vs co-administration",
+              "back": "Fixed-dose combination: one tablet containing several medicines. Co-administration: separate tablets taken together. HOPE-3 used co-administration."
+            },
+            {
+              "id": "ros-l09-combination-trials-fc2",
+              "front": "Crestor SmPC lines for this lesson's partners",
+              "back": "Ezetimibe ×1.2, fibrates (40 mg contraindicated), clopidogrel ×2, ticagrelor ×2.6. Nothing for aspirin, SGLT2 inhibitors, the blood-pressure medicines, PCSK9 inhibitors or bempedoic acid."
+            },
+            {
+              "id": "ros-l09-combination-trials-fc3",
+              "front": "RACING in one line",
+              "back": "Rosuvastatin 10 mg + ezetimibe was no worse than rosuvastatin 20 mg over 3 years (9.1% vs 9.9%), with fewer treatment stops."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ros-l09-combination-trials-q1",
+              "stem": "Which statement about rosuvastatin combined with blood-pressure medicines is best supported by this lesson?",
+              "options": [
+                "Every combination has outcome-trial evidence",
+                "Outcome evidence comes mainly from HOPE-3, which used separate tablets; the single-pill trials measured only markers over about 8 weeks",
+                "The Crestor SmPC warns specifically about amlodipine",
+                "Telmisartan/rosuvastatin is licensed across the EU"
+              ],
+              "correctIndex": 1,
+              "explanation": "HOPE-3's combined arm is the outcome evidence, and it used separate tablets. The fixed-dose combination trials are short studies of blood pressure and LDL. The Crestor SmPC has no line for any of the seven blood-pressure medicines."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Crestor, AEMPS CIMA 70.243, revision October 2025, sections 4.4, 4.5 and 5.1.\n2. **SmPC (combination products)** — Spanish: rosuvastatin/ezetimibe (e.g. CIMA 84659, 88393), rosuvastatin/amlodipine Aristo (85393) and Teva (85328), Valsaros (82505), Roasax (85515). EU: Roxiper, Croatian SmPC.\n3. **EPAR-level (national)** — Roxiper Public Assessment Report, Hungary, HU/H/0484/001-004/DC, 15 February 2019.\n4. **Registers** — ClinicalTrials.gov records as listed above, accessed 25 September 2026.\n5. **Journal** — Kim BK et al. RACING. *Lancet* 2022;400:380–90. Yusuf S et al. HOPE-3 combined therapy. *N Engl J Med* 2016;374:2032–43. Jin X et al. *J Clin Hypertens* 2020;22:1835–45. Kim W et al. *J Clin Hypertens* 2020;22:261–9. Song ZY et al. *J Clin Med* 2023;12:2377. Oh GC et al. TELSTA-YU. *Clin Ther* 2018;40:676–91. J-TAROS. *Clin Ther* 2019;41:233–48. Lee HY et al. *Clin Ther* 2017;39:2366–79."
         }
       ]
     }

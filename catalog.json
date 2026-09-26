@@ -51,7 +51,7 @@
       "discipline": "Medicines",
       "description": "What the label approves, and what the trials showed",
       "file": "modules/rosuvastatin.json",
-      "version": 5,
+      "version": 6,
       "lessonCount": 15,
       "estimatedMinutes": 150,
       "accentColor": "#1D9E75"

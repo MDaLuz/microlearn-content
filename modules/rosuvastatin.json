@@ -3,7 +3,7 @@
   "id": "rosuvastatin",
   "title": "Rosuvastatin",
   "discipline": "Medicines",
-  "version": 5,
+  "version": 6,
   "lessons": [
     {
       "id": "ros-l01-at-a-glance",
@@ -1429,6 +1429,255 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Crestor, AEMPS CIMA 70.243, revision October 2025, sections 4.2, 4.3, 4.4, 4.5, 4.6.\n2. **PIL** — Crestor 10 mg, revised October 2025, section 2.\n3. **US (differences only)** — Crestor prescribing information, April 2026 revision (FDA label 021366s047)."
+        }
+      ]
+    },
+    {
+      "id": "ros-l13-pharmacovigilance",
+      "title": "Pharmacovigilance",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Watching a medicine after approval\n\n**Pharmacovigilance** is the ongoing monitoring of a medicine's safety once it's on the market. The Crestor SmPC asks healthcare professionals in Spain to report suspected side effects to the national system (notificaRAM.es), and the PIL invites patients to report directly too.\n\nEvery statin warning in this module that came after approval started with reports like these."
+        },
+        {
+          "type": "text",
+          "markdown": "## The EU's regular check-ups\n\nCompanies send a **PSUR** (periodic safety update report) at set intervals. For medicines authorised nationally, the EU assesses all companies' reports on the same substance together in a single **PSUSA** (periodic safety update single assessment).\n\nThe most recent rosuvastatin PSUSA found, covering data to November 2022, ended with 'maintenance', meaning no change to the label. Rosuvastatin combinations have their own PSUSAs. Most also ended with maintenance, but at least two ended with a variation, and one of them changed every rosuvastatin label."
+        },
+        {
+          "type": "text",
+          "markdown": "## A signal found through a combination product\n\nWhen the EU reviewed the safety reports for ezetimibe/rosuvastatin (data to July 2020), its safety committee, the **PRAC** (Pharmacovigilance Risk Assessment Committee), reached two conclusions:\n\n- Rosuvastatin can cause DRESS. The evidence included cases where symptoms cleared when the medicine was stopped, and one case where they returned when it was restarted.\n- Ticagrelor can interact with rosuvastatin to cause rhabdomyolysis.\n\nThe PRAC applied both conclusions to *every* product containing rosuvastatin, not just the combination. Both now appear in the Crestor SmPC: the severe skin reaction warning in section 4.4, and ticagrelor (×2.6 exposure) in section 4.5."
+        },
+        {
+          "type": "text",
+          "markdown": "## A class-wide **signal**\n\nA signal is new information suggesting that a medicine may cause an effect, strong enough to need checking.\n\nIn January 2023 the PRAC concluded that all statins, and every combination product containing one, should warn about myasthenia gravis and ocular myasthenia. These conditions can appear for the first time or get worse, with frequency not known. Treatment should stop if symptoms worsen, and symptoms have come back when the same or a different statin was restarted.\n\nThe Crestor SmPC and PIL now carry this warning."
+        },
+        {
+          "type": "text",
+          "markdown": "## Safety decisions from the early years\n\nRosuvastatin's early safety history set limits that are still in place today:\n\n- The 80 mg dose was withdrawn.\n- 40 mg was restricted to severe cases under specialist supervision.\n- Asian patients were given a lower starting dose.\n- Kidney function checks were recommended at 40 mg.\n\nThe company has kept a **risk management plan** (RMP), a document listing a medicine's risks and how each one is managed and studied, since at least 2009. No public RMP summary for Crestor was found in this pass."
+        },
+        {
+          "type": "text",
+          "markdown": "## The watchlist\n\nTwo items sit outside the label for now:\n\n- **Cataract.** LODESTAR and HOPE-3 both reported more cataract surgery on rosuvastatin. The SmPC doesn't mention cataract, and no PRAC assessment of it was found in this pass.\n- **A leaflet-only line.** The PIL warns about severe respiratory insufficiency, but there is no matching line in the SmPC (Lesson 12).\n\nNeither is proof of anything. Both are the kind of item that a regular review is designed to catch."
+        },
+        {
+          "type": "text",
+          "markdown": "## What triggers a refresh of this module\n\n- A new revision of the Crestor SmPC\n- A PSUSA for rosuvastatin, or for a rosuvastatin combination, that ends with a variation\n- A PRAC signal on statins or on rosuvastatin\n\nThe current basis is the October 2025 SmPC. The next scheduled refresh is March 2027."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ros-l13-pharmacovigilance-fc1",
+              "front": "PSUSA",
+              "back": "The EU's single assessment of all companies' periodic safety reports for one substance. Rosuvastatin's review of data to November 2022 ended in 'maintenance'."
+            },
+            {
+              "id": "ros-l13-pharmacovigilance-fc2",
+              "front": "How DRESS entered the Crestor label",
+              "back": "Through the review of ezetimibe/rosuvastatin (data to July 2020). The PRAC applied its conclusion to every rosuvastatin-containing product."
+            },
+            {
+              "id": "ros-l13-pharmacovigilance-fc3",
+              "front": "Statins and myasthenia",
+              "back": "PRAC, January 2023: all statins can trigger or worsen myasthenia gravis. Stop if symptoms worsen; symptoms can return when a statin is restarted."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ros-l13-pharmacovigilance-q1",
+              "stem": "How did the DRESS warning reach the Crestor SmPC?",
+              "options": [
+                "Through JUPITER",
+                "Through the PRAC's review of ezetimibe/rosuvastatin safety reports, which it extended to all rosuvastatin products",
+                "Through the US FDA",
+                "Through the original 2002 approval"
+              ],
+              "correctIndex": 1,
+              "explanation": "The PRAC concluded, from reviewing a combination product's safety reports, that rosuvastatin itself can cause DRESS. It asked for every rosuvastatin label to be updated."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Crestor, AEMPS CIMA 70.243, revision October 2025, sections 4.4, 4.5 and 4.8.\n2. **PIL** — Crestor 10 mg, revised October 2025.\n3. **Pharmacovigilance** — EMA PSUSA/00002664/202211 (rosuvastatin); PSUSA/00010271/202007 (ezetimibe/rosuvastatin, CMDh scientific conclusions); PSUSA/00010434/202107, PSUSA/00010735/202510 and PSUSA/00010915/202501 (rosuvastatin combinations).\n4. **Pharmacovigilance** — PRAC recommendations on signals, adopted 9–12 January 2023 (EMA/PRAC/4770/2023); MHRA Drug Safety Update, September 2023.\n5. **EPAR-level** — MEB (Netherlands) Public Assessment Report, Crestor, NL/H/0343, 3 February 2011.\n6. **Journal** — LODESTAR, *BMJ* 2023; HOPE-3, *N Engl J Med* 2016."
+        }
+      ]
+    },
+    {
+      "id": "ros-l14-esc-guidelines",
+      "title": "Where the ESC guidelines place it",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Guidelines, not licences\n\nThe ESC/EAS guidelines advise on practice. They don't change what a product is licensed for.\n\nEach recommendation carries a **class of recommendation**: I means 'is recommended', IIa 'should be considered', IIb 'may be considered' and III 'is not recommended'. It also carries a **level of evidence**, from A (several randomised trials) to C (expert consensus or small studies)."
+        },
+        {
+          "type": "text",
+          "markdown": "## 2019: statins at the centre\n\nThe 2019 guidelines set LDL goals by risk level:\n\n- Very-high risk: at least a 50% reduction and LDL below 1.4 mmol/L. This is I A for secondary prevention and I C for primary prevention.\n- High risk: at least a 50% reduction and LDL below 1.8 mmol/L (I A).\n\nThe drug steps are:\n\n1. A **high-intensity statin**, one that lowers LDL by about half, up to the highest tolerated dose (I A).\n2. Add ezetimibe if the goal isn't reached (I B).\n3. Add a PCSK9 inhibitor in very-high-risk secondary prevention if the goal still isn't reached (I A).\n\nFor raised triglycerides in high-risk people, a statin is the first choice (I B)."
+        },
+        {
+          "type": "text",
+          "markdown": "## Where rosuvastatin fits\n\nThe guidelines talk about statin intensity, not brands. The RACING investigators describe rosuvastatin 10 mg as moderate intensity and 20 mg as high intensity.\n\nThis creates a tension worth noticing. The guideline says to go up to the highest *tolerated* dose. The EU label reserves 40 mg for severe high cholesterol at high risk that isn't at goal on 20 mg, starts it under specialist supervision, and contraindicates it in several groups (Lesson 12). The label sets the outer limits that the guideline's advice has to work within."
+        },
+        {
+          "type": "text",
+          "markdown": "## 2025: the focused update\n\nThe 2025 update left the LDL goals unchanged and moved risk estimation to SCORE2 and SCORE2-OP. For rosuvastatin, the changes that matter are:\n\n- Acute coronary syndrome: intensify existing lipid treatment in hospital (I C). In people not already on treatment who are unlikely to reach the goal on a statin alone, start a high-intensity statin *plus ezetimibe* during that hospital stay (IIa B).\n- Statin intolerance: ezetimibe (I A) and bempedoic acid (I B).\n- Bempedoic acid may be added when the goal isn't reached on the maximum tolerated statin, with or without ezetimibe (IIa C)."
+        },
+        {
+          "type": "compare",
+          "title": "The label and the guidelines",
+          "items": [
+            {
+              "id": "crestor-smpc",
+              "label": "Crestor SmPC"
+            },
+            {
+              "id": "esc-eas-guidelines",
+              "label": "ESC/EAS guidelines"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "starting-point",
+              "label": "Starting point",
+              "values": [
+                "Start at 5 or 10 mg; step up after 4 weeks",
+                "High-intensity statin up to the highest tolerated dose (I A)"
+              ]
+            },
+            {
+              "id": "stepping-up",
+              "label": "Stepping up",
+              "values": [
+                "40 mg only for severe cases, under specialist supervision",
+                "Ezetimibe if not at goal (I B); started together after ACS (IIa, 2025)"
+              ]
+            },
+            {
+              "id": "combinations-and-further-steps",
+              "label": "Combinations and further steps",
+              "values": [
+                "Ezetimibe combinations: substitution only, not for starting treatment",
+                "PCSK9 inhibitor or bempedoic acid as further steps"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## A practical consequence\n\nThe 2025 update suggests starting a statin and ezetimibe *together* after an acute coronary syndrome. The Spanish rosuvastatin/ezetimibe combination tablets, however, are labelled as not suitable for starting treatment.\n\nFollowing the guideline within those licences means starting with separate tablets and switching to the combination tablet once the doses are settled. The guideline and the label don't contradict each other; they operate at different levels."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ros-l14-esc-guidelines-fc1",
+              "front": "The 2019 ESC treatment steps",
+              "back": "High-intensity statin to the highest tolerated dose (I A), then add ezetimibe (I B), then add a PCSK9 inhibitor in very-high-risk secondary prevention (I A)."
+            },
+            {
+              "id": "ros-l14-esc-guidelines-fc2",
+              "front": "High-intensity statin",
+              "back": "A statin dose that lowers LDL by about half. RACING describes rosuvastatin 20 mg as high intensity and 10 mg as moderate intensity."
+            },
+            {
+              "id": "ros-l14-esc-guidelines-fc3",
+              "front": "ACS, 2025 update",
+              "back": "In people not yet treated who are unlikely to reach the goal on a statin alone: high-intensity statin plus ezetimibe during the hospital stay (IIa B)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ros-l14-esc-guidelines-q1",
+              "stem": "The 2025 update suggests starting statin plus ezetimibe together after an acute coronary syndrome. How does that fit with the Spanish rosuvastatin/ezetimibe combination tablets?",
+              "options": [
+                "Start with the combination tablet straight away",
+                "Start with separate tablets, then switch to the combination tablet once the doses are settled, because the combination tablets are licensed for substitution only",
+                "The guideline overrides the licence",
+                "Ezetimibe can't be used after an acute coronary syndrome"
+              ],
+              "correctIndex": 1,
+              "explanation": "The combination tablets are labelled as not suitable for starting treatment. Guideline advice has to work within the licence: start with separate tablets, then switch."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Crestor, AEMPS CIMA 70.243, revision October 2025, sections 4.1 and 4.2.\n2. **SmPC (combination)** — Rosuvastatina/Ezetimiba Stadagen (CIMA 84659); Rosuvastatina/Ezetimiba Sandoz (CIMA 88393), section 4.2.\n3. **ESC guidelines** — Mach F et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. *Eur Heart J* 2020;41:111–88.\n4. **ESC guidelines** — Mach F et al. 2025 Focused Update. *Eur Heart J* 2025;46(42):4359–78.\n5. **Journal** — Kim BK et al. RACING. *Lancet* 2022;400:380–90."
+        }
+      ]
+    },
+    {
+      "id": "ros-l15-recap",
+      "title": "One-page recap",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Rosuvastatin on one page\n\n*Basis: Crestor 5/10/20 mg SmPC (Spain), October 2025 revision. Next refresh: March 2027.*\n\n**What it is.** A statin that blocks HMG-CoA reductase in the liver. The liver responds by making more LDL receptors, which pull LDL out of the blood. Most of its interactions work through transporters (OATP1B1, BCRP), not liver enzymes.\n\n**What it's approved for.** High cholesterol and mixed dyslipidaemia from age 6; homozygous familial hypercholesterolaemia from age 6; and prevention of a first cardiovascular event in high-risk people. That last indication is drawn from JUPITER's post-hoc higher-risk analyses.\n\n**How it's taken.** Once a day, at any time, with or without food. Start at 5 or 10 mg, or 5 mg if over 70, of Asian origin, with moderate kidney impairment or with interacting medicines. The dose can be stepped up after 4 weeks. 40 mg is restricted and started under a specialist."
+        },
+        {
+          "type": "text",
+          "markdown": "**What it does to events.**\n- JUPITER vs placebo (median 1.9 years, stopped early): HR 0.56; about 6 fewer events per 1,000 people per year.\n- HOPE-3 vs placebo (5.6 years): 3.7% vs 4.8%, HR 0.76.\n- Heart failure (CORONA) and dialysis (AURORA): no benefit.\n- Against atorvastatin (LODESTAR): similar outcomes.\n\n**Combinations.** Spanish substitution tablets pair it with ezetimibe, fenofibrate, amlodipine, valsartan or aspirin. RACING found rosuvastatin 10 mg plus ezetimibe no worse than 20 mg alone. HOPE-3's combined arm with candesartan and hydrochlorothiazide gave HR 0.71. Most of the other blood-pressure combination trials are 8-week studies of blood pressure and LDL only.\n\n**Safety.** Muscle aches are common and rhabdomyolysis rare. Protein in the urine appears at 40 mg. There is a diabetes signal (JUPITER, LODESTAR), and cataract appears in trials but not in the label. DRESS and myasthenia warnings came from EU safety reviews. Fusidic acid and ciclosporin are the key interactions to avoid.\n\n**Guidelines.** High-intensity statin, then ezetimibe, then a PCSK9 inhibitor. From 2025, statin plus ezetimibe can be started together after an acute coronary syndrome."
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ros-l15-recap-q1",
+              "stem": "Which statement about rosuvastatin's outcome evidence is accurate?",
+              "options": [
+                "It reduced events in heart failure and in dialysis",
+                "It reduced events in people without established disease (JUPITER, HOPE-3), but not in heart failure or dialysis, and matched atorvastatin head-to-head",
+                "It has only been tested on LDL levels",
+                "It beat atorvastatin on hard outcomes"
+              ],
+              "correctIndex": 1,
+              "explanation": "JUPITER and HOPE-3 were positive. CORONA and AURORA were neutral. LODESTAR found similar outcomes to atorvastatin (HR 1.06)."
+            },
+            {
+              "id": "ros-l15-recap-q2",
+              "stem": "A patient on rosuvastatin is starting ticagrelor after an acute coronary syndrome. What does the label point to?",
+              "options": [
+                "Nothing; there is no interaction",
+                "Ticagrelor raises rosuvastatin exposure about 2.6-fold, and the combination has been linked to rhabdomyolysis, so benefit and risk need weighing",
+                "Stop rosuvastatin permanently",
+                "Double the rosuvastatin dose"
+              ],
+              "correctIndex": 1,
+              "explanation": "The SmPC lists ticagrelor at ×2.6 exposure, and the PRAC established the interaction as a cause of rhabdomyolysis. Weigh the benefits of both medicines against the higher exposure."
+            },
+            {
+              "id": "ros-l15-recap-q3",
+              "stem": "Why does the Spanish Crestor SmPC contain 40 mg rules?",
+              "options": [
+                "It's an error",
+                "40 mg rosuvastatin is on the Spanish market as generics referencing Crestor 40 mg, and the shared EU text always included 40 mg",
+                "40 mg is for children",
+                "40 mg is the prevention dose"
+              ],
+              "correctIndex": 1,
+              "explanation": "The SmPC text comes from the EU procedure that always covered 40 mg, and 40 mg tablets are available in Spain. The prevention dose is 20 mg."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Crestor 5/10/20 mg, AEMPS CIMA 70.243, revision October 2025.\n2. **PIL** — Crestor 10 mg, revised October 2025.\n3. **EPAR-level** — MEB (Netherlands) Public Assessment Report, Crestor, NL/H/0343 (2011); EMA Article 29(2) referral, Crestor 5 mg (2005).\n4. **Pharmacovigilance** — EMA PSUSAs for rosuvastatin and its combinations; PRAC signal on statins and myasthenia (2023).\n5. **Journal** — JUPITER, HOPE-3, CORONA, AURORA, LODESTAR, RACING.\n6. **ESC guidelines** — 2019 ESC/EAS dyslipidaemia guidelines and the 2025 Focused Update.\n\nEvery point on this page is covered in more detail, with full sources, in Lessons 1–14."
         }
       ]
     }

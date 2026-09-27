@@ -3,7 +3,7 @@
   "id": "sitagliptin",
   "title": "Sitagliptin",
   "discipline": "Molecules",
-  "version": 1,
+  "version": 2,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Januvia 25/50/100 mg product information published by the EMA on 31 October 2025. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -313,6 +313,366 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 4.2, 4.4, 4.8, 5.1, 9.\n2. **EPAR** — Januvia: Scientific Discussion (2007); variation assessment report II/0008 (2009); EPAR summary for the public; procedural steps after authorisation; paediatric investigation plan compliance statement (2020).\n3. **EPAR (generics)** — Sitagliptin SUN public assessment report; Sitagliptin Accord EPAR overview.\n4. **EPAR-level** — EMA news, 26 March 2013 and 26 July 2013 (incretin-based therapies and the pancreas).\n5. **Secondary** — Merck press release on EU approval, 26 March 2007.\n6. **US (differences only)** — FDA approval, 16 October 2006."
+        }
+      ]
+    },
+    {
+      "id": "sit-l04-approved-uses",
+      "title": "What it's approved for",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## One condition behind every use\n\nEvery use in the SmPC is for adults with **type 2 diabetes**, a condition in which the body doesn't make enough insulin, or the insulin it makes doesn't work well enough. Each use is also an **adjunct** to diet and exercise, meaning it is added on top of them and never replaces them.\n\nSitagliptin isn't for type 1 diabetes or diabetic ketoacidosis, and it isn't for children."
+        },
+        {
+          "type": "text",
+          "markdown": "## Use 1: on its own, with a condition\n\nAs **monotherapy**, meaning a single medicine with no other diabetes drug, sitagliptin is approved only when diet and exercise haven't been enough *and* metformin can't be used because of contraindications or side effects.\n\nThis is why: metformin comes first, and the EPAR notes that sitagliptin appears slightly less effective than metformin when each is used alone."
+        },
+        {
+          "type": "text",
+          "markdown": "## Use 2: two medicines together\n\nAs **dual therapy**, meaning two diabetes medicines together, sitagliptin can be combined with:\n\n- metformin, when metformin alone isn't enough\n- a sulphonylurea, when the highest tolerated sulphonylurea dose isn't enough *and* metformin can't be used\n- a PPARγ agonist, meaning a thiazolidinedione such as pioglitazone, when that medicine is appropriate but not enough on its own"
+        },
+        {
+          "type": "text",
+          "markdown": "## Use 3: three medicines, or insulin\n\nAs triple therapy, sitagliptin can be added to metformin plus a sulphonylurea, or to metformin plus a PPARγ agonist, when the two together aren't enough.\n\nIt can also be an **add-on** to insulin, meaning added to a treatment already in place: a stable insulin dose, with or without metformin, that isn't giving good enough control."
+        },
+        {
+          "type": "text",
+          "markdown": "## Notice what isn't there\n\nJanuvia's own indication doesn't name SGLT2 inhibitors or GLP-1 receptor agonists, two newer classes of diabetes medicine. It also makes no claim about reducing heart attacks or strokes. TECOS showed no extra harm to the heart, but it didn't show a benefit either.\n\nThe SGLT2 pairing does exist in the EU, but under a different licence: Steglujan, which combines sitagliptin with ertugliflozin in one tablet."
+        },
+        {
+          "type": "compare",
+          "title": "Three labels, three scopes",
+          "items": [
+            {
+              "id": "januvia",
+              "label": "Januvia (EU)"
+            },
+            {
+              "id": "steglujan",
+              "label": "Steglujan (EU)"
+            },
+            {
+              "id": "januvia-2",
+              "label": "Januvia (US)"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "scope",
+              "label": "Scope",
+              "values": [
+                "With metformin, a sulphonylurea, pioglitazone or insulin, in listed combinations",
+                "Sitagliptin + ertugliflozin in one tablet",
+                "Adjunct to diet and exercise, with no metformin condition"
+              ]
+            },
+            {
+              "id": "conditions",
+              "label": "Conditions",
+              "values": [
+                "On its own only if metformin can't be used",
+                "When metformin and/or a sulphonylurea plus one of its components aren't enough",
+                "Not studied in people with a history of pancreatitis"
+              ]
+            },
+            {
+              "id": "also-notable",
+              "label": "Also notable",
+              "values": [
+                "No SGLT2 inhibitor named",
+                "Or for people already taking both separately",
+                "Carries a heart-failure warning for the drug class"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Where the US label differs\n\nThe US indication is broader. It says only that sitagliptin is an adjunct to diet and exercise, with no requirement that metformin be unsuitable. It adds that sitagliptin hasn't been studied in people who have had pancreatitis.\n\nThe US label also carries a heart-failure warning. It is based on outcome trials of two other DPP-4 inhibitors, not sitagliptin. The EU SmPC has no such warning. Lesson 10 looks at why."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "sit-l04-approved-uses-fc1",
+              "front": "Monotherapy condition",
+              "back": "In the EU, sitagliptin on its own is approved only when metformin can't be used because of contraindications or intolerance."
+            },
+            {
+              "id": "sit-l04-approved-uses-fc2",
+              "front": "PPARγ agonist",
+              "back": "A thiazolidinedione such as pioglitazone, which makes the body more sensitive to insulin. It is one of sitagliptin's licensed partners."
+            },
+            {
+              "id": "sit-l04-approved-uses-fc3",
+              "front": "Sitagliptin + SGLT2 in the EU",
+              "back": "Not named in Januvia's indication. The licensed pairing is Steglujan, which combines ertugliflozin and sitagliptin in one tablet."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "sit-l04-approved-uses-q1",
+              "stem": "Which of these is NOT named in Januvia's own EU indication?",
+              "options": [
+                "Add-on to metformin",
+                "Add-on to insulin",
+                "Combination with an SGLT2 inhibitor",
+                "Triple therapy with metformin and a sulphonylurea"
+              ],
+              "correctIndex": 2,
+              "explanation": "The Januvia indication names metformin, sulphonylureas, PPARγ agonists and insulin. The SGLT2 pairing is licensed separately, as Steglujan."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 4.1, 4.2, 4.4, 5.1.\n2. **EPAR** — Januvia: EPAR summary for the public.\n3. **EPAR (combination)** — Steglujan, EMEA/H/C/004313: therapeutic indication.\n4. **US (differences only)** — Januvia prescribing information (Merck): indications, limitations of use, warnings."
+        }
+      ]
+    },
+    {
+      "id": "sit-l05-strengths-products",
+      "title": "Strengths and products",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The tablets\n\nJanuvia comes as round **film-coated tablets** (tablets with a thin outer layer) in three strengths, each with a number printed on one side:\n\n- 25 mg: pink, '221'\n- 50 mg: light beige, '112'\n- 100 mg: beige, '277'\n\nThe **excipients**, the ingredients other than the active substance, include no lactose, and each tablet contains less than 1 mmol of sodium. The tablets keep for two years below 25 °C. Packs range from 14 to 98 tablets, plus hospital-style unit-dose strips of 50."
+        },
+        {
+          "type": "text",
+          "markdown": "## One text for the whole EU\n\nThe **MAH** (marketing authorisation holder, the company legally responsible for the product) is Merck Sharp & Dohme B.V. in Haarlem, the Netherlands, which also releases the batches. Because the licence is central, every EU country uses the same SmPC, translated into each language."
+        },
+        {
+          "type": "text",
+          "markdown": "## Same medicine, other names\n\nThe EU has also authorised sitagliptin under other brand names, as a **duplicate marketing authorisation**: a second licence for the same product under another name. According to the Janumet EPAR summary, sitagliptin was authorised as Januvia and Xelevia from 2007, and as Tesavel from 2008. This module hasn't checked whether each duplicate is still marketed."
+        },
+        {
+          "type": "text",
+          "markdown": "## Generics\n\nSince its patent expired, generic sitagliptin has also been authorised centrally. Sitagliptin SUN, for example, showed **bioequivalence** with Januvia 100 mg: its blood levels matched closely enough to count as the same medicine. For the 25 mg and 50 mg strengths, the regulators accepted a **biowaiver**, meaning no separate human study was needed because the lower strengths are made in the same way."
+        },
+        {
+          "type": "text",
+          "markdown": "## Combination tablets\n\nTwo **fixed-dose combinations** (two medicines in one tablet) contain sitagliptin:\n\n- Janumet, also sold as Velmetia: sitagliptin 50 mg with metformin 850 mg or 1,000 mg, taken twice a day. It is for people not controlled on metformin alone, people already taking both medicines separately, or people who also need a sulphonylurea, pioglitazone or insulin.\n- Steglujan: ertugliflozin 5 mg or 15 mg with sitagliptin 100 mg, taken once a day, authorised in March 2018. The SGLT2 inhibitor half of the pairing is covered in Lesson 9."
+        },
+        {
+          "type": "compare",
+          "title": "Sitagliptin, three ways",
+          "items": [
+            {
+              "id": "januvia",
+              "label": "Januvia"
+            },
+            {
+              "id": "janumet-velmetia",
+              "label": "Janumet / Velmetia"
+            },
+            {
+              "id": "steglujan",
+              "label": "Steglujan"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "strengths",
+              "label": "Strengths",
+              "values": [
+                "25, 50 or 100 mg",
+                "50 mg + metformin 850 or 1,000 mg",
+                "100 mg + ertugliflozin 5 or 15 mg"
+              ]
+            },
+            {
+              "id": "how-often",
+              "label": "How often",
+              "values": [
+                "Once daily",
+                "Twice daily",
+                "Once daily"
+              ]
+            },
+            {
+              "id": "also-notable",
+              "label": "Also notable",
+              "values": [
+                "Dose reduced when kidney function is lower",
+                "Tablet strength chosen by the previous metformin dose",
+                "An SGLT2 inhibitor pairing"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Outside the EU\n\nThe US sells the same three strengths. In 2023 the FDA also approved another sitagliptin product, Zituvio, from Zydus, in 25, 50 and 100 mg strengths. The Swiss label hasn't yet been reviewed for this module."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "sit-l05-strengths-products-fc1",
+              "front": "Duplicate marketing authorisation",
+              "back": "A second licence for the same product under another brand name. For sitagliptin, the EU examples are Xelevia and Tesavel."
+            },
+            {
+              "id": "sit-l05-strengths-products-fc2",
+              "front": "Bioequivalence",
+              "back": "Blood levels close enough to the original product to count as the same medicine. Sitagliptin SUN showed it against Januvia 100 mg."
+            },
+            {
+              "id": "sit-l05-strengths-products-fc3",
+              "front": "Janumet",
+              "back": "Sitagliptin 50 mg plus metformin 850 mg or 1,000 mg, taken twice a day. Also sold as Velmetia."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "sit-l05-strengths-products-q1",
+              "stem": "How often is Janumet taken, and why does that differ from Januvia?",
+              "options": [
+                "Once daily, like Januvia",
+                "Twice daily, because each tablet holds half the daily sitagliptin dose alongside a metformin dose",
+                "Three times daily with meals",
+                "Weekly"
+              ],
+              "correctIndex": 1,
+              "explanation": "Each Janumet tablet contains 50 mg of sitagliptin, so two tablets give the usual 100 mg a day, alongside twice-daily metformin."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 2, 3, 6, 7.\n2. **EPAR (combinations)** — Janumet: EPAR summary for the public (EMA/370017/2013); Velmetia EPAR page; Steglujan EPAR page (EMEA/H/C/004313).\n3. **EPAR (generics)** — Sitagliptin SUN public assessment report; Sitagliptin Accord EPAR overview.\n4. **US (differences only)** — Januvia prescribing information; Zituvio approval report (ConsultantLive, 2023)."
+        }
+      ]
+    },
+    {
+      "id": "sit-l06-how-taken",
+      "title": "How it's taken",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The routine\n\nThe dose is one 100 mg tablet a day, with or without food. Diet and exercise continue alongside it. The PIL says to take it for as long as the doctor prescribes it, and not to stop without talking to them first."
+        },
+        {
+          "type": "text",
+          "markdown": "## Alongside other diabetes medicines\n\nWhen sitagliptin is added to metformin or pioglitazone, those doses stay the same. When it is added to a sulphonylurea or insulin, the SmPC suggests considering a *lower* dose of that other medicine. Together they can push blood sugar too low."
+        },
+        {
+          "type": "text",
+          "markdown": "## A missed dose\n\nThe SmPC says to take a missed dose as soon as you remember, but never two doses on the same day. The PIL is more practical: if you only remember when the next dose is due, skip the missed one.\n\nBoth say the same thing in different words. It's a useful reminder that the PIL is written for patients."
+        },
+        {
+          "type": "text",
+          "markdown": "## The kidneys set the dose\n\nThe SmPC asks for kidney function to be checked before starting and periodically after that. The daily dose depends on GFR:\n\n- GFR 45 mL/min or above: 100 mg\n- GFR 30 to below 45 mL/min: 50 mg\n- GFR below 30 mL/min, including dialysis: 25 mg\n\nOn dialysis, the timing of the tablet doesn't matter. The SmPC calls both 45–60 and 30–45 'moderate' kidney impairment, even though only the lower band needs a smaller dose. And when sitagliptin is combined with another diabetes medicine, that medicine's own kidney rules apply too. The lowest threshold across all the medicines decides."
+        },
+        {
+          "type": "text",
+          "markdown": "## Liver, age and children\n\nMild or moderate liver impairment needs no dose change. Severe liver impairment hasn't been studied, so the SmPC asks for caution, although the kidneys do most of the work of clearing sitagliptin.\n\nAge alone needs no adjustment, even though blood levels are about 19% higher in people aged 65–80. Sitagliptin shouldn't be used between 10 and 17 because it didn't work well enough in that age group. It hasn't been studied below age 10."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pregnancy, breastfeeding and driving\n\nSitagliptin shouldn't be used in pregnancy, because there aren't enough human data. It shouldn't be used while breastfeeding either: it isn't known whether it passes into human milk, and in rats it reached levels in milk about four times those in the blood.\n\nDizziness and drowsiness have been reported, and taking it with a sulphonylurea or insulin can cause low blood sugar. Both are worth keeping in mind before driving."
+        },
+        {
+          "type": "text",
+          "markdown": "## Overdose\n\nSingle doses of up to 800 mg have been given in trials. They caused only a minimal change in **QTc**, an ECG measure of the heart's electrical recovery time, which wasn't considered clinically relevant.\n\nTreatment of an overdose is supportive, including an ECG. A 3–4 hour haemodialysis session removes only about 13.5% of the drug. Longer dialysis can be considered, and it isn't known whether peritoneal dialysis removes it."
+        },
+        {
+          "type": "compare",
+          "title": "Kidney dosing in two labels",
+          "items": [
+            {
+              "id": "januvia",
+              "label": "Januvia (EU)"
+            },
+            {
+              "id": "januvia-2",
+              "label": "Januvia (US)"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "kidney-measure",
+              "label": "Kidney measure",
+              "values": [
+                "Thresholds in GFR, mL/min",
+                "Thresholds in eGFR, mL/min/1.73 m²"
+              ]
+            },
+            {
+              "id": "doses",
+              "label": "Doses",
+              "values": [
+                "50 mg at 30–45; 25 mg below 30",
+                "Same doses at the same cut-offs"
+              ]
+            },
+            {
+              "id": "also-notable",
+              "label": "Also notable",
+              "values": [
+                "Two different bands both labelled 'moderate'",
+                "Adjustment starts below 45"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "sit-l06-how-taken-fc1",
+              "front": "Kidney dose table",
+              "back": "GFR 45 or above: 100 mg. 30–45: 50 mg. Below 30 or on dialysis: 25 mg."
+            },
+            {
+              "id": "sit-l06-how-taken-fc2",
+              "front": "With a sulphonylurea or insulin",
+              "back": "Consider lowering the sulphonylurea or insulin dose, because the combination can cause hypoglycaemia."
+            },
+            {
+              "id": "sit-l06-how-taken-fc3",
+              "front": "Missed dose",
+              "back": "Take it when you remember, but never twice on the same day. If the next dose is already due, skip the missed one."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "sit-l06-how-taken-q1",
+              "stem": "A patient's GFR is 38 mL/min. What dose of Januvia does the SmPC set?",
+              "options": [
+                "100 mg once daily",
+                "50 mg once daily",
+                "25 mg once daily",
+                "Sitagliptin is contraindicated"
+              ],
+              "correctIndex": 1,
+              "explanation": "At a GFR of 30 to below 45, the dose is 50 mg once daily. Below 30 it's 25 mg. Kidney impairment isn't a contraindication."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 4.2, 4.6, 4.7, 4.9, 5.2, 5.3.\n2. **PIL** — Januvia package leaflet, sections 2 and 3.\n3. **US (differences only)** — Januvia prescribing information, section 2.2."
         }
       ]
     }

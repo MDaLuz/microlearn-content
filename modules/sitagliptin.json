@@ -3,7 +3,7 @@
   "id": "sitagliptin",
   "title": "Sitagliptin",
   "discipline": "Molecules",
-  "version": 5,
+  "version": 6,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Januvia 25/50/100 mg product information published by the EMA on 31 October 2025. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -217,7 +217,7 @@
         },
         {
           "type": "text",
-          "markdown": "## A growing list of combinations\n\nThe first licence covered sitagliptin alone and with metformin or pioglitazone. In December 2007 the EU added use with a sulphonylurea, and the three-drug combination of sulphonylurea plus metformin. Later changes brought the licence to the list you'll see in Lesson 4, which includes use with insulin."
+          "markdown": "## A growing list of combinations\n\nThe first licence, in March 2007, covered sitagliptin only in combination: with metformin, or with a PPARγ agonist such as pioglitazone. In December 2007 the EU added use with a sulphonylurea, and the three-drug combination of sulphonylurea plus metformin. Use on its own (only for people who can't take metformin) came later, as did use with insulin. Lesson 4 shows the licence as it stands today."
         },
         {
           "type": "text",
@@ -249,7 +249,7 @@
               "id": "licensed-uses",
               "label": "Licensed uses",
               "values": [
-                "Alone, or with metformin or pioglitazone",
+                "Only with metformin or pioglitazone",
                 "Wide range of combinations, including insulin"
               ]
             },
@@ -312,7 +312,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 4.2, 4.4, 4.8, 5.1, 9.\n2. **EPAR** — Januvia: Scientific Discussion (2007); variation assessment report II/0008 (2009); EPAR summary for the public; procedural steps after authorisation; paediatric investigation plan compliance statement (2020).\n3. **EPAR (generics)** — Sitagliptin SUN public assessment report; Sitagliptin Accord EPAR overview.\n4. **EPAR-level** — EMA news, 26 March 2013 and 26 July 2013 (incretin-based therapies and the pancreas).\n5. **Secondary** — Merck press release on EU approval, 26 March 2007.\n6. **US (differences only)** — FDA approval, 16 October 2006."
+          "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 4.2, 4.4, 4.8, 5.1, 9.\n2. **EPAR** — Januvia: Scientific Discussion (2007); variation assessment report II/0008 (2009); EPAR summary for the public; procedural steps after authorisation; paediatric investigation plan compliance statement (2020).\n3. **EPAR (generics)** — Sitagliptin SUN public assessment report; Sitagliptin Accord EPAR overview.\n4. **EPAR-level** — EMA news, 26 March 2013 and 26 July 2013 (incretin-based therapies and the pancreas).\n5. **Secondary** — Merck press release on EU approval, 26 March 2007.\n6. **US (differences only)** — FDA approval, 16 October 2006.\n7. **EPAR** — Januvia: variation assessment report II/0002 (2008), initial indications."
         }
       ]
     },
@@ -460,7 +460,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Combination tablets\n\nTwo **fixed-dose combinations** (two medicines in one tablet) contain sitagliptin:\n\n- Janumet, also sold as Velmetia: sitagliptin 50 mg with metformin 850 mg or 1,000 mg, taken twice a day. It is for people not controlled on metformin alone, people already taking both medicines separately, or people who also need a sulphonylurea, pioglitazone or insulin.\n- Steglujan: ertugliflozin 5 mg or 15 mg with sitagliptin 100 mg, taken once a day, authorised in March 2018. The SGLT2 inhibitor half of the pairing is covered in Lesson 9."
+          "markdown": "## Combination tablets\n\nTwo **fixed-dose combinations** (two medicines in one tablet) contain sitagliptin:\n\n- Janumet, also authorised as Velmetia and Efficib: sitagliptin 50 mg with metformin 850 mg or 1,000 mg, taken twice a day. It is for people not controlled on metformin alone, people already taking both medicines separately, or people who also need a sulphonylurea, pioglitazone or insulin.\n- Steglujan: ertugliflozin 5 mg or 15 mg with sitagliptin 100 mg, taken once a day, authorised in March 2018. The SGLT2 inhibitor half of the pairing is covered in Lesson 9."
         },
         {
           "type": "compare",
@@ -1379,6 +1379,255 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 4.2, 4.3, 4.4, 4.5, 4.6, 5.2.\n2. **US (differences only)** — Januvia prescribing information: contraindications, limitations of use, section 5.2."
+        }
+      ]
+    },
+    {
+      "id": "sit-l13-pharmacovigilance",
+      "title": "Pharmacovigilance",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Watching after approval\n\n**Pharmacovigilance** means monitoring a medicine's safety once it's on the market. The Januvia SmPC asks healthcare professionals to report suspected side effects through their national system. The PIL invites patients to report directly as well."
+        },
+        {
+          "type": "text",
+          "markdown": "## Regular check-ups that changed the label\n\nCompanies send a **PSUR** (periodic safety update report) at set intervals. The EMA assesses these reports for sitagliptin in a single **PSUSA** (periodic safety update single assessment). Two PSUSAs added side effects to the label:\n\n- **2015** (data from August 2011 to August 2014): bullous pemphigoid and arthropathy (joint disease). The evidence included four published cases, one of which had a clear positive dechallenge.\n- **2018** (data from August 2014 to August 2017): thrombocytopenia (low platelets), added as a rare side effect. The same change was applied to the sitagliptin/metformin tablets."
+        },
+        {
+          "type": "text",
+          "markdown": "## How 307 reports became one line\n\nThe thrombocytopenia decision shows how a **signal**, new information suggesting a medicine may cause an effect, is weighed.\n\nThere were 307 reports in total. Forty-five described a positive **dechallenge**, meaning the problem improved after the medicine was stopped. Four of those also described a positive **rechallenge**, meaning the problem returned when the medicine was restarted. But 39 of the 45 lacked detail or had other possible causes. That left six informative cases, and those six, with no alternative explanation, carried the decision. Quality counts for more than quantity."
+        },
+        {
+          "type": "text",
+          "markdown": "## The 2013 pancreas review\n\nIn 2013, a study of pancreas tissue from a small number of organ donors raised concerns about pancreatitis and cell changes with incretin-based medicines. The EMA reviewed all of them, including DPP-4 inhibitors.\n\nIt found that the study had serious limitations: the groups differed in age, sex, disease duration and treatment. It concluded that the available data didn't confirm an increased risk of pancreatic side effects. It asked for pancreatitis warnings to be worded the same way across the whole group.\n\nOn pancreatic cancer, the EMA found that clinical trials didn't point to a higher risk, but there were too few cases to be sure, and some uncertainty remained. TECOS later found no significant difference in either pancreatitis (p = 0.07) or pancreatic cancer (p = 0.32)."
+        },
+        {
+          "type": "text",
+          "markdown": "## The risk management plan\n\nA **risk management plan** (RMP) lists a medicine's important risks and how they are handled. It sorts them into three groups: identified risks (clearly linked), potential risks (possible but not proven) and missing information (not studied).\n\nThe EMA publishes an RMP summary for Januvia. The generic versions, which must match it, list:\n\n- no important identified risks\n- one important potential risk: pancreatic cancer\n- missing information: use in pregnancy and breastfeeding\n\nRoutine measures, meaning label warnings and ongoing monitoring, are considered enough."
+        },
+        {
+          "type": "text",
+          "markdown": "## A quality problem, not a side effect\n\nIn 2022, the US FDA found an impurity called NTTP in some sitagliptin samples. NTTP is a **nitrosamine**, a type of compound that can damage DNA. Some nitrosamines are considered probable causes of cancer, and they are also found in small amounts in some foods.\n\nThe usual **acceptable intake**, the daily amount considered to add negligible cancer risk over a lifetime, was 37 ng a day. To avoid shortages, the FDA temporarily allowed up to 246.7 ng a day and advised patients not to stop sitagliptin. Australia's regulator later set the limit at 100 ng a day, saying this matched the approach of the EMA and Health Canada.\n\nThis was a manufacturing issue, not a side effect of sitagliptin itself."
+        },
+        {
+          "type": "text",
+          "markdown": "## What triggers a refresh\n\nThis module is updated immediately if any of these happen:\n\n- the EMA publishes updated Januvia product information\n- a PSUSA ends in a label change\n- the EMA's safety committee issues a signal on DPP-4 inhibitors\n\nThe current basis is the product information published on 31 October 2025. Pancreatic cancer (a potential risk) and heart failure (a US warning, not an EU one) are the items to watch."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "sit-l13-pharmacovigilance-fc1",
+              "front": "What PSUSAs added",
+              "back": "2015: bullous pemphigoid and arthropathy. 2018: thrombocytopenia (rare)."
+            },
+            {
+              "id": "sit-l13-pharmacovigilance-fc2",
+              "front": "Dechallenge / rechallenge",
+              "back": "Dechallenge: the problem improves after stopping the medicine. Rechallenge: it returns on restarting. A positive rechallenge is strong evidence of cause."
+            },
+            {
+              "id": "sit-l13-pharmacovigilance-fc3",
+              "front": "Sitagliptin RMP (generic versions)",
+              "back": "Identified risks: none. Potential risk: pancreatic cancer. Missing information: pregnancy and breastfeeding."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "sit-l13-pharmacovigilance-q1",
+              "stem": "What made the EU add thrombocytopenia to the sitagliptin label in 2018?",
+              "options": [
+                "A large randomised trial",
+                "307 reports alone",
+                "A small number of well-documented cases, including positive rechallenges, with no other explanation",
+                "A US FDA warning"
+              ],
+              "correctIndex": 2,
+              "explanation": "Most of the 307 reports lacked detail or had other possible causes. Six informative cases, four of them with a positive rechallenge, supported a true link."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 4.4 and 4.8.\n2. **Pharmacovigilance** — CHMP scientific conclusions, PSUSA/00002711/201408 (EMA/304624/2015) and PSUSA/00002711/201708 (EMA/423578/2018); sitagliptin/metformin PSUSA/00002003/201708.\n3. **Pharmacovigilance** — EMA press release, 'Investigation into GLP-1-based diabetes therapies concluded' (EMA/463027/2013).\n4. **Pharmacovigilance** — RMP summaries for sitagliptin generics (EMA; Danish Medicines Agency), aligned to the reference product.\n5. **Journal** — Green JB et al. TECOS. *N Engl J Med* 2015;373:232–42.\n6. **Other regulators (differences only)** — FDA Drug Safety Communication on NTTP, 9 August 2022; TGA safety update on NTTP."
+        }
+      ]
+    },
+    {
+      "id": "sit-l14-esc-guidelines",
+      "title": "Where the ESC guidelines place it",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Guidelines, not licences\n\nThe ESC guidelines advise on practice. They don't change what a medicine is licensed for.\n\nEach recommendation has a **class of recommendation**: I means 'is recommended', IIa means 'should be considered', IIb means 'may be considered', and III means 'is not recommended'. The guideline covered here is the 2023 ESC guideline on cardiovascular disease in people with diabetes."
+        },
+        {
+          "type": "text",
+          "markdown": "## The shift the guideline reflects\n\nSince TECOS, outcome trials of two newer drug classes, the SGLT2 inhibitors and the GLP-1 receptor agonists, have shown fewer cardiovascular events. The 2023 guideline builds on those trials:\n\n- **Diabetes plus established atherosclerotic disease:** an SGLT2 inhibitor and/or a GLP-1 receptor agonist is recommended to lower cardiovascular risk, whatever the blood sugar.\n- **Diabetes plus heart failure:** an SGLT2 inhibitor is recommended.\n- **No established disease, but a 10-year risk of 10% or more:** either class may be considered, based on expert consensus."
+        },
+        {
+          "type": "text",
+          "markdown": "## Where sitagliptin sits\n\nFor people with type 2 diabetes and heart failure who need *more* glucose lowering, the guideline lists medicines whose safety on heart-failure hospitalisation has been shown: metformin, GLP-1 receptor agonists, insulin, and two DPP-4 inhibitors, sitagliptin and linagliptin. It describes these two as having a neutral effect on heart-failure hospitalisation.\n\nSaxagliptin and pioglitazone, by contrast, aren't recommended in heart failure.\n\nIn short, sitagliptin is a blood-sugar medicine with proven heart safety, not a medicine for protecting the heart."
+        },
+        {
+          "type": "compare",
+          "title": "The label and the guideline",
+          "items": [
+            {
+              "id": "januvia-smpc",
+              "label": "Januvia SmPC"
+            },
+            {
+              "id": "esc-2023",
+              "label": "ESC 2023"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "main-message",
+              "label": "Main message",
+              "values": [
+                "Indicated for glycaemic control only",
+                "SGLT2 inhibitors and GLP-1 receptor agonists first for heart protection"
+              ]
+            },
+            {
+              "id": "sitagliptin-s-status",
+              "label": "Sitagliptin's status",
+              "values": [
+                "TECOS shown as safety data, not as a benefit",
+                "Sitagliptin as a heart-safe option for extra glucose control"
+              ]
+            },
+            {
+              "id": "also-notable",
+              "label": "Also notable",
+              "values": [
+                "No SGLT2 inhibitor named as a partner",
+                "Saxagliptin not recommended in heart failure"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Where the two meet\n\nConsider someone who follows the guideline. They may already be on metformin and an SGLT2 inhibitor for heart protection, and then need sitagliptin to lower their blood sugar further.\n\nJanuvia's own indication doesn't name that combination. The only EU licence pairing sitagliptin with an SGLT2 inhibitor is Steglujan, with ertugliflozin (Lesson 9). The Januvia SmPC has no SGLT2 interaction line either. Here the label trails practice. This isn't a warning; it's a gap to be aware of."
+        },
+        {
+          "type": "text",
+          "markdown": "## One guideline among several\n\nThe ESC guideline takes the cardiologist's view of diabetes. Diabetes organisations, such as the ADA/EASD consensus, publish their own treatment algorithms. This module hasn't reviewed them, and the wording used here was checked against published summaries of the 2023 ESC text rather than the full guideline."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "sit-l14-esc-guidelines-fc1",
+              "front": "ESC 2023: heart protection in diabetes",
+              "back": "SGLT2 inhibitors and/or GLP-1 receptor agonists, whatever the blood sugar, in people with established atherosclerotic disease. SGLT2 inhibitors in heart failure."
+            },
+            {
+              "id": "sit-l14-esc-guidelines-fc2",
+              "front": "ESC 2023: sitagliptin's place",
+              "back": "For extra glucose control, including in heart failure, because its effect on heart-failure hospitalisation is neutral. Saxagliptin isn't recommended in heart failure."
+            },
+            {
+              "id": "sit-l14-esc-guidelines-fc3",
+              "front": "Where the label trails practice",
+              "back": "The guideline often puts people on an SGLT2 inhibitor first. Januvia's indication doesn't name SGLT2 inhibitors; only Steglujan (ertugliflozin) licenses the pairing."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "sit-l14-esc-guidelines-q1",
+              "stem": "According to the 2023 ESC guideline, which drug classes are recommended to lower cardiovascular risk in type 2 diabetes with atherosclerotic disease, whatever the blood sugar?",
+              "options": [
+                "DPP-4 inhibitors",
+                "Sulphonylureas",
+                "SGLT2 inhibitors and/or GLP-1 receptor agonists",
+                "Pioglitazone"
+              ],
+              "correctIndex": 2,
+              "explanation": "Those two classes have outcome trials showing cardiovascular benefit. Sitagliptin's TECOS showed safety, not benefit, so the guideline uses it for additional glucose control."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 4.1 and 5.1.\n2. **ESC guidelines** — Marx N et al. 2023 ESC Guidelines for the management of cardiovascular disease in patients with diabetes. *Eur Heart J* 2023;44:4043–140 (read via ESC Congress news, the ACC 'Ten points to remember' summary, the *Diabetes & Primary Care* 'Distilled' summary and the NVVC endorsement statement).\n3. **EPAR (combination)** — Steglujan, EMEA/H/C/004313."
+        }
+      ]
+    },
+    {
+      "id": "sit-l15-recap",
+      "title": "One-page recap",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Sitagliptin on one page\n\n*Basis: Januvia EU SmPC, product information published by the EMA on 31 October 2025. Next refresh: March 2027.*\n\n**What it is.** The first DPP-4 inhibitor. It protects the gut's incretin hormones, so insulin rises and glucagon falls, but only when blood sugar is normal or high. About 79% leaves the body unchanged in the urine.\n\n**What it's approved for.** Adults with type 2 diabetes, alongside diet and exercise. On its own, only if metformin can't be used. Otherwise with metformin, a sulphonylurea, pioglitazone or insulin, in the listed combinations. The SGLT2 pairing is licensed only as Steglujan (ertugliflozin).\n\n**How it's taken.** 100 mg once a day, with or without food. 50 mg at GFR 30–45, and 25 mg below 30 or on dialysis. Consider lowering the dose of a sulphonylurea or insulin taken with it."
+        },
+        {
+          "type": "text",
+          "markdown": "**What it does.**\n- HbA1c: about −0.7 to −0.8 points vs placebo, alone or added to metformin, at 24 weeks. Slightly less than metformin head-to-head. Up to −2.1 when started together with metformin.\n- Heart: in TECOS (14,671 people with heart disease, about 3 years), 11.4% vs 11.6% had a cardiovascular event, HR 0.98. Heart-failure hospitalisation HR 1.00. No harm and no benefit.\n\n**Safety.** Low hypoglycaemia risk on its own; the risk comes from sulphonylureas or insulin. Pancreatitis: stop if suspected, never restart if confirmed. Allergic reactions usually occur in the first 3 months. Bullous pemphigoid, arthropathy and thrombocytopenia were added through safety reviews. The only formal contraindication is allergy.\n\n**Guidelines.** ESC 2023 puts SGLT2 inhibitors and GLP-1 receptor agonists first for heart protection. Sitagliptin is a heart-safe option for extra glucose control."
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "sit-l15-recap-q1",
+              "stem": "What does TECOS allow you to say about sitagliptin?",
+              "options": [
+                "It reduces heart attacks",
+                "It is non-inferior to placebo for heart events and heart-failure hospitalisation, with no benefit shown",
+                "It increases heart failure like saxagliptin",
+                "It wasn't tested in people with heart disease"
+              ],
+              "correctIndex": 1,
+              "explanation": "HR 0.98 for the main outcome and 1.00 for heart-failure hospitalisation. That's safety, not benefit."
+            },
+            {
+              "id": "sit-l15-recap-q2",
+              "stem": "A patient with a GFR of 25 on dialysis needs sitagliptin. What dose does the SmPC set?",
+              "options": [
+                "100 mg",
+                "50 mg",
+                "25 mg, given without regard to the timing of dialysis",
+                "Sitagliptin is contraindicated"
+              ],
+              "correctIndex": 2,
+              "explanation": "Below 30, including dialysis, the dose is 25 mg once a day. Timing around dialysis doesn't matter."
+            },
+            {
+              "id": "sit-l15-recap-q3",
+              "stem": "What did Januvia's first EU licence, in March 2007, cover?",
+              "options": [
+                "Sitagliptin on its own, as the first diabetes tablet",
+                "Only combinations: with metformin, or with a PPARγ agonist such as pioglitazone",
+                "Every use in today's label, including insulin",
+                "Only use together with an SGLT2 inhibitor"
+              ],
+              "correctIndex": 1,
+              "explanation": "The first licence was combination-only. Sulphonylurea combinations followed in December 2007, and use on its own (only when metformin can't be used) and with insulin came later (Lessons 3 and 4)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025.\n2. **PIL** — Januvia package leaflet.\n3. **EPAR** — Januvia EPAR (summary, variation reports, PSUSA conclusions); Janumet, Velmetia and Steglujan EPARs.\n4. **Journal** — TECOS (*N Engl J Med* 2015); pivotal HbA1c studies (*Diabetes Care* 2006; *Diabetes Obes Metab* 2007); SAVOR-TIMI 53 and EXAMINE (*N Engl J Med* 2013).\n5. **ESC guidelines** — 2023 ESC guidelines on cardiovascular disease in diabetes.\n\nEvery point here is covered in more detail, with full sources, in Lessons 1–14."
         }
       ]
     }

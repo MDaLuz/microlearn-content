@@ -172,7 +172,8 @@ if (molecule) {
   // Each module defines its own tag set in the "combination tags" block of its trial-reading lesson.
   const tagBlock = texts.find(({ b }) => /^## The combination tags/m.test(b.markdown));
   const tags = tagBlock ? [...tagBlock.b.markdown.matchAll(/^- (🔗 \S+|STATIN-INTOLERANT|MONO):/gm)].map((m) => m[1]) : [];
-  if (!tagBlock) err('molecule', 'no "## The combination tags" block defining the tag set');
+  const hasCards = texts.some(({ b }) => b.markdown.startsWith('### Trial card:'));
+  if (hasCards && !tagBlock) err('molecule', 'trial cards found, but no "## The combination tags" block defining the tag set');
 
   const seen = new Set();
   mod.lessons.forEach((lesson, li) => {

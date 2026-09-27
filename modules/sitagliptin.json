@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 4,
+  "id": "sitagliptin",
+  "title": "Sitagliptin",
+  "discipline": "Molecules",
+  "version": 1,
+  "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Januvia 25/50/100 mg product information published by the EMA on 31 October 2025. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
+  "lessons": [
+    {
+      "id": "sit-l01-at-a-glance",
+      "title": "At a glance",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## What sitagliptin is\n\nSitagliptin is a **DPP-4 inhibitor**, a tablet for type 2 diabetes. It helps the body's own **incretin** hormones, which the gut releases after meals to raise insulin, keep working for longer. The dose is one tablet a day, with or without food.\n\nThis module is built on the **SmPC** (summary of product characteristics, the regulator-approved reference text for prescribers) for Januvia 25, 50 and 100 mg. Januvia is authorised across the whole EU through the European Medicines Agency (EMA), and Merck Sharp & Dohme B.V. is the marketing authorisation holder. The version used is the product information the EMA published on **31 October 2025**. Where any source disagrees on what is approved, the SmPC wins."
+        },
+        {
+          "type": "text",
+          "markdown": "## What it is approved for\n\nFor adults with type 2 diabetes, Januvia is approved to improve **glycaemic control**, meaning control of blood sugar, alongside diet and exercise. The SmPC allows it in several combinations:\n\n- On its own, only when metformin (the usual first diabetes tablet) can't be used.\n- With metformin.\n- With a **sulphonylurea**, a tablet that pushes the pancreas to release insulin, when metformin can't be used.\n- With a **thiazolidinedione** (pioglitazone), a tablet that makes the body more sensitive to insulin.\n- In three-drug combinations with metformin.\n- Added to insulin, with or without metformin."
+        },
+        {
+          "type": "text",
+          "markdown": "## What it does to blood sugar\n\nDiabetes trials measure **HbA1c**, a blood test that reflects average blood sugar over the past two to three months. Compared with a **placebo** (a dummy tablet), sitagliptin 100 mg on its own lowered HbA1c by 0.6 percentage points at 18 weeks and 0.8 at 24 weeks, from a starting level of about 8.0%. Added to metformin, it lowered HbA1c by 0.7 points at 24 weeks.\n\nIn a direct comparison over 24 weeks, sitagliptin lowered HbA1c by 0.43 points and metformin by 0.57. The EPAR summary concludes that sitagliptin appears slightly less effective than metformin.\n\nFor HbA1c, the difference in percentage points is the effect itself. Unlike heart attacks, there are no event rates to express as a relative reduction."
+        },
+        {
+          "type": "text",
+          "markdown": "## What it does to the heart\n\nTECOS followed 14,671 people with type 2 diabetes and established heart disease for a median of three years. Heart-related death, heart attack, stroke or hospitalisation for unstable angina occurred in 11.4% on sitagliptin and 11.6% on placebo, a hazard ratio of 0.98 (95% CI 0.89–1.08). Hospitalisation for heart failure was 3.1% in both groups.\n\nTECOS was a **non-inferiority** trial, designed to show the medicine does no harm to the heart. It showed exactly that: no extra harm, and no extra benefit. Lesson 10 explains why that distinction matters."
+        },
+        {
+          "type": "text",
+          "markdown": "## What to watch\n\n- Pancreatitis. If it is suspected, stop the medicine. If it is confirmed, never restart it.\n- **Hypoglycaemia** (low blood sugar). This is mainly a risk when sitagliptin is combined with a sulphonylurea (4.7–13.8% of patients) or with insulin (9.6%).\n- Serious allergic reactions, usually within the first three months.\n- **Bullous pemphigoid**, a blistering skin disease.\n- Kidney function, which sets the dose.\n\nThe only contraindication is allergy to the medicine. Even so, the SmPC says it shouldn't be used in type 1 diabetes, in **diabetic ketoacidosis** (a dangerous build-up of acids caused by lack of insulin), in pregnancy or during breastfeeding."
+        },
+        {
+          "type": "text",
+          "markdown": "## What this module is, and isn't\n\nThis is a learning module, not prescribing advice. It is refreshed every six months, or straight away if the SmPC changes or a **safety signal** (new evidence suggesting a possible side effect) appears.\n\nOne detail to know from the start: the Januvia SmPC gives no revision date of its own, and the leaflet still shows the placeholder '{MM/YYYY}'. So this module is dated by the EMA's publication date instead."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "sit-l01-at-a-glance-fc1",
+              "front": "DPP-4 inhibitor",
+              "back": "A tablet for type 2 diabetes that blocks the enzyme DPP-4, so the gut's incretin hormones last longer and raise insulin after meals. Sitagliptin was the first."
+            },
+            {
+              "id": "sit-l01-at-a-glance-fc2",
+              "front": "HbA1c",
+              "back": "A blood test that reflects average blood sugar over 2–3 months. The main efficacy measure in diabetes trials."
+            },
+            {
+              "id": "sit-l01-at-a-glance-fc3",
+              "front": "TECOS in one line",
+              "back": "14,671 people with heart disease, about 3 years: 11.4% vs 11.6%, HR 0.98. No extra harm and no extra benefit."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "sit-l01-at-a-glance-q1",
+              "stem": "When is Januvia approved on its own, without other diabetes tablets?",
+              "options": [
+                "As the first tablet for everyone with type 2 diabetes",
+                "Only when metformin can't be used because of contraindications or intolerance",
+                "Only in type 1 diabetes",
+                "Only together with insulin"
+              ],
+              "correctIndex": 1,
+              "explanation": "Sitagliptin on its own is licensed only when metformin is inappropriate. It shouldn't be used in type 1 diabetes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Januvia 25/50/100 mg film-coated tablets, EU SmPC (EMEA/H/C/000722), EMA product information updated 31 October 2025. Sections 4.1–4.4, 4.6, 5.1, 10.\n2. **PIL** — Januvia package leaflet (same document).\n3. **EPAR** — Januvia: EPAR summary for the public (EMA)."
+        }
+      ]
+    },
+    {
+      "id": "sit-l02-how-it-works",
+      "title": "How it works",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The gut talks to the pancreas\n\nAfter a meal, the gut releases two incretin hormones: **GLP-1** (glucagon-like peptide-1) and **GIP** (glucose-dependent insulinotropic polypeptide). They signal to the **beta cells**, the cells in the pancreas that make insulin, to release more of it. This only happens when blood sugar is normal or high."
+        },
+        {
+          "type": "text",
+          "markdown": "## The enzyme that switches them off\n\nThe DPP-4 enzyme breaks these incretin hormones down within minutes. Sitagliptin blocks DPP-4, so more active GLP-1 and GIP stay in the blood.\n\nThe result is two effects:\n\n- More insulin is released.\n- Less **glucagon** is released. Glucagon is the hormone that tells the liver to release sugar.\n\nHigher insulin and lower glucagon together mean less sugar is made by the liver, and HbA1c falls. The SmPC adds that sitagliptin is highly selective: at treatment doses it doesn't block the closely related enzymes DPP-8 and DPP-9."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why it rarely causes low blood sugar on its own\n\nThe incretin effect is **glucose-dependent**: it switches off when blood sugar is low. When glucose is low, GLP-1 doesn't stimulate insulin or hold back glucagon. It also doesn't blunt the body's normal glucagon response when sugar drops too far.\n\nSulphonylureas work differently. They push insulin out even when sugar is already low, which is why hypoglycaemia is a sulphonylurea problem, and becomes a sitagliptin problem only when the two are combined."
+        },
+        {
+          "type": "compare",
+          "title": "Two ways to raise insulin",
+          "items": [
+            {
+              "id": "sitagliptin",
+              "label": "Sitagliptin"
+            },
+            {
+              "id": "sulphonylurea",
+              "label": "Sulphonylurea"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "how-it-works",
+              "label": "How it works",
+              "values": [
+                "Protects the gut's incretin hormones",
+                "Acts on the beta cells directly"
+              ]
+            },
+            {
+              "id": "when-it-raises-insulin",
+              "label": "When it raises insulin",
+              "values": [
+                "Raises insulin only when glucose is normal or high",
+                "Raises insulin even when glucose is low"
+              ]
+            },
+            {
+              "id": "hypoglycaemia",
+              "label": "Hypoglycaemia",
+              "values": [
+                "Low hypoglycaemia risk on its own",
+                "Hypoglycaemia is a known risk"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Working alongside metformin\n\nIn a two-day study in healthy volunteers, sitagliptin raised active GLP-1, while metformin raised both active and total GLP-1. Together, their effect on active GLP-1 added up. Only sitagliptin raised active GIP.\n\nThe SmPC also reports better beta-cell **markers**, measurements taken in the blood that estimate how well these cells are working. Markers show what a medicine does to the body's chemistry. They don't show what it does to the patient's health."
+        },
+        {
+          "type": "text",
+          "markdown": "## What happens in the body\n\nBlood levels peak one to four hours after a dose. **Bioavailability**, the share of a dose that reaches the bloodstream, is about 87%, and a high-fat meal makes no difference. Only 38% of the drug binds to blood proteins.\n\nAbout 79% leaves the body unchanged in the urine, and very little is broken down. The **half-life**, the time it takes for blood levels to fall by half, is about 12.4 hours."
+        },
+        {
+          "type": "text",
+          "markdown": "## The kidneys set the dose\n\nBecause sitagliptin leaves through the kidneys, its levels rise as kidney function falls. Kidney function is measured as **GFR** (glomerular filtration rate), how much blood the kidneys filter each minute. Exposure is measured as **AUC** (area under the curve), the total amount in the blood over time. Compared with normal kidney function, AUC rises:\n\n- at GFR 60–90 mL/min: about 1.2 times\n- at GFR 45–60 mL/min: about 1.6 times\n- at GFR 30–45 mL/min: about 2 times\n- below 30 mL/min, including dialysis: about 4 times\n\nThat's why the dose falls to 50 mg and then 25 mg (Lesson 6). A 3–4 hour haemodialysis session removes only about 13.5% of the drug."
+        },
+        {
+          "type": "text",
+          "markdown": "## Few interactions\n\nOnly a small share of sitagliptin is processed by liver enzymes, so it has little potential for interactions. Ciclosporin raised sitagliptin's AUC by 29%, which wasn't considered clinically meaningful. Sitagliptin raised digoxin's AUC by 11%, so people at risk of digoxin toxicity should be monitored. Sitagliptin didn't meaningfully change the levels of metformin, glyburide, simvastatin, warfarin or oral contraceptives.\n\nOne gap remains: strong inhibitors of the liver enzyme CYP3A4 haven't been studied in people with severe kidney impairment. In those patients, liver breakdown matters more."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "sit-l02-how-it-works-fc1",
+              "front": "GLP-1 and GIP",
+              "back": "Incretin hormones released by the gut after meals. They raise insulin when glucose is normal or high, and GLP-1 also lowers glucagon."
+            },
+            {
+              "id": "sit-l02-how-it-works-fc2",
+              "front": "Glucose-dependent",
+              "back": "Active only when blood sugar is normal or high. This is why sitagliptin alone rarely causes hypoglycaemia."
+            },
+            {
+              "id": "sit-l02-how-it-works-fc3",
+              "front": "Sitagliptin and the kidneys",
+              "back": "About 79% leaves the body unchanged in urine. Exposure roughly doubles at GFR 30–45 and quadruples below 30, so the dose drops."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "sit-l02-how-it-works-q1",
+              "stem": "Why does sitagliptin on its own rarely cause hypoglycaemia?",
+              "options": [
+                "It doesn't affect insulin",
+                "Its incretin effect is glucose-dependent and switches off when blood sugar is low",
+                "It's taken with food",
+                "It blocks glucagon completely"
+              ],
+              "correctIndex": 1,
+              "explanation": "GLP-1 and GIP raise insulin only when glucose is normal or high, and GLP-1 doesn't blunt the glucagon response to low sugar. Sulphonylureas raise insulin regardless of glucose, so combining the two brings hypoglycaemia back."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 4.2, 4.5, 4.9, 5.1, 5.2."
+        }
+      ]
+    },
+    {
+      "id": "sit-l03-history",
+      "title": "History",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The first of its class\n\nSitagliptin was developed by Merck under the code MK-0431. The US FDA approved it on 16 October 2006, making it the first DPP-4 inhibitor on the market. The US is mentioned here only to anchor the timeline; this module is built on the EU label."
+        },
+        {
+          "type": "text",
+          "markdown": "## One approval for the whole EU\n\nJanuvia went through the **centralised procedure**, the EU route in which one EMA assessment leads to a single licence valid in every member state. The European Commission granted that licence in March 2007. Merck announced it as the first DPP-4 inhibitor approved by the European Commission.\n\nBecause the approval was central, Januvia has an **EPAR** (European public assessment report, the EMA's published evaluation). The original dossier covered nine studies in almost 6,000 patients. It also records that tablets of 25, 50, 100 and 200 mg were developed, but only 25, 50 and 100 mg were authorised."
+        },
+        {
+          "type": "text",
+          "markdown": "## What the assessors weren't sure about\n\nThe EPAR is candid. For use on its own, sitagliptin was never compared directly with a sulphonylurea. In a trial against glipizide, where both were added to metformin, the two drugs lowered HbA1c similarly. However, the glipizide dose was low: about 40% of patients were on 5 mg a day or less. The assessors wrote that non-inferiority had not been unequivocally proven, and more patients stopped sitagliptin because it wasn't working well enough.\n\nThe current SmPC still reports those details, and the EPAR summary says sitagliptin appears slightly less effective than metformin."
+        },
+        {
+          "type": "text",
+          "markdown": "## A growing list of combinations\n\nThe first licence covered sitagliptin alone and with metformin or pioglitazone. In December 2007 the EU added use with a sulphonylurea, and the three-drug combination of sulphonylurea plus metformin. Later changes brought the licence to the list you'll see in Lesson 4, which includes use with insulin."
+        },
+        {
+          "type": "text",
+          "markdown": "## The pancreas question\n\nIn March 2013 the EMA began investigating findings that suggested pancreatic risks with incretin-based diabetes medicines, the group that includes DPP-4 inhibitors. The investigation concluded in July 2013.\n\nToday's SmPC carries an explicit warning about acute pancreatitis. In TECOS, confirmed pancreatitis occurred in 0.3% of people on sitagliptin and 0.2% on placebo. The EMA still lists a study of incretin-based therapies and pancreatic cancer among its post-authorisation studies. Lesson 13 follows this thread."
+        },
+        {
+          "type": "text",
+          "markdown": "## Children: a negative result written into the label\n\nUnder EU rules, the company had to test sitagliptin in children. In a 20-week trial in 10–17-year-olds, HbA1c didn't improve compared with placebo: the difference was −0.2 points, with a 95% CI of −0.7 to 0.3. The SmPC therefore says it shouldn't be used in this age group because it doesn't work well enough.\n\nThis is a regulatory system working as intended. A negative trial result was reported openly and changed the label."
+        },
+        {
+          "type": "text",
+          "markdown": "## Generics arrive\n\nGeneric sitagliptin is now also authorised centrally. Sitagliptin SUN and Sitagliptin Accord, for example, showed that the body absorbs them in the same way as Januvia 100 mg (bioequivalence). The EMA concluded that, as with Januvia, their benefits outweigh their risks."
+        },
+        {
+          "type": "compare",
+          "title": "Then and now",
+          "items": [
+            {
+              "id": "2007",
+              "label": "2007"
+            },
+            {
+              "id": "2025",
+              "label": "2025"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "licensed-uses",
+              "label": "Licensed uses",
+              "values": [
+                "Alone, or with metformin or pioglitazone",
+                "Wide range of combinations, including insulin"
+              ]
+            },
+            {
+              "id": "heart-outcomes",
+              "label": "Heart outcomes",
+              "values": [
+                "No cardiovascular outcome data yet",
+                "TECOS: no extra harm to the heart, no extra benefit"
+              ]
+            },
+            {
+              "id": "also-notable",
+              "label": "Also notable",
+              "values": [
+                "First DPP-4 inhibitor approved in the EU",
+                "Pancreatitis and bullous pemphigoid warnings; not for children"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "sit-l03-history-fc1",
+              "front": "Centralised procedure",
+              "back": "One EMA assessment leading to a single licence valid across the EU. This is why Januvia has a full EPAR."
+            },
+            {
+              "id": "sit-l03-history-fc2",
+              "front": "Glipizide comparison",
+              "back": "HbA1c fell by a similar amount, but the glipizide dose was low. The EPAR said non-inferiority wasn't unequivocally proven."
+            },
+            {
+              "id": "sit-l03-history-fc3",
+              "front": "Sitagliptin in children",
+              "back": "No HbA1c benefit in 10–17-year-olds (−0.2 points, 95% CI −0.7 to 0.3), so the SmPC says it shouldn't be used."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "sit-l03-history-q1",
+              "stem": "What did the EU assessors conclude about sitagliptin versus glipizide?",
+              "options": [
+                "Sitagliptin was clearly superior",
+                "HbA1c fell similarly, but because the glipizide dose was low, non-inferiority wasn't unequivocally proven",
+                "Glipizide wasn't tested",
+                "Sitagliptin caused more hypoglycaemia"
+              ],
+              "correctIndex": 1,
+              "explanation": "The EPAR notes the low sulphonylurea dose and the extra discontinuations with sitagliptin. Hypoglycaemia was actually much lower with sitagliptin (4.9% vs 32.0%)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 4.2, 4.4, 4.8, 5.1, 9.\n2. **EPAR** — Januvia: Scientific Discussion (2007); variation assessment report II/0008 (2009); EPAR summary for the public; procedural steps after authorisation; paediatric investigation plan compliance statement (2020).\n3. **EPAR (generics)** — Sitagliptin SUN public assessment report; Sitagliptin Accord EPAR overview.\n4. **EPAR-level** — EMA news, 26 March 2013 and 26 July 2013 (incretin-based therapies and the pancreas).\n5. **Secondary** — Merck press release on EU approval, 26 March 2007.\n6. **US (differences only)** — FDA approval, 16 October 2006."
+        }
+      ]
+    }
+  ]
+}

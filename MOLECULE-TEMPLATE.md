@@ -83,7 +83,7 @@ Every fact comes from a named source. When sources disagree, the higher one wins
 | `id` | the INN in kebab case — e.g. `fenofibrate`, `rosuvastatin`, `bempedoic-acid`. Asset folder uses the same id. |
 | Lesson id prefix | a 3-letter code for the INN, e.g. `fen` → `fen-l01-at-a-glance` |
 | `title` | the INN, e.g. "Rosuvastatin". The brand and country of the basis SmPC are named in lesson 1. |
-| `discipline` | `"Medicines"` — the same for every molecule module, so they read as one series |
+| `discipline` | `"Molecules"` — the same for every molecule module (formerly "Medicines"), so they read as one series |
 | `schemaVersion` | `4`, as for every current module |
 | `levels` | omit |
 | `disclaimer` | required (SCHEMA.md §7) — template below; placed just before `lessons` |

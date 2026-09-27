@@ -162,7 +162,7 @@ if ((mod.schemaVersion ?? 1) < neededSchema) {
 if (molecule) {
   if (!mod.disclaimer) err('molecule', 'disclaimer is required (SCHEMA.md §7)');
   else if (!/as of/i.test(mod.disclaimer)) warn('molecule', 'disclaimer has no "as of" basis');
-  if (mod.discipline !== 'Medicines') warn('molecule', `discipline "${mod.discipline}" (template: "Medicines")`);
+  if (mod.discipline !== 'Molecules') warn('molecule', `discipline "${mod.discipline}" (template: "Molecules")`);
   if (mod.lessons.length !== 15) warn('molecule', `${mod.lessons.length} lessons (blueprint has 15)`);
 
   const BANNED = /\b(best-in-class|breakthrough|game[- ]changer|revolutionary|safest|most effective|powerful|well[- ]tolerated|superior to)\b/i;

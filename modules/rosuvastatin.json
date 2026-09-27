@@ -2,8 +2,8 @@
   "schemaVersion": 4,
   "id": "rosuvastatin",
   "title": "Rosuvastatin",
-  "discipline": "Medicines",
-  "version": 7,
+  "discipline": "Molecules",
+  "version": 8,
   "disclaimer": "Educational summary of public regulatory and scientific sources (Spanish and EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Crestor 5/10/20 mg SmPC revised in October 2025. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {

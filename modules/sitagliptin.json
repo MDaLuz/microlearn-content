@@ -3,7 +3,7 @@
   "id": "sitagliptin",
   "title": "Sitagliptin",
   "discipline": "Molecules",
-  "version": 3,
+  "version": 4,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Januvia 25/50/100 mg product information published by the EMA on 31 October 2025. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -882,6 +882,147 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 4.8, 5.1 (Table 2, Table 3).\n2. **EPAR** — Januvia: EPAR summary for the public; variation assessment report II/0008.\n3. **Journal** — Aschner P et al. *Diabetes Care* 2006;29:2632–7 (Study 021). Charbonnel B et al. *Diabetes Care* 2006;29:2638–43 (Study 020). Nauck MA et al. *Diabetes Obes Metab* 2007 (Study 024).\n4. **Journal** — Green JB et al. TECOS. *N Engl J Med* 2015;373:232–42. NCT00790205."
+        }
+      ]
+    },
+    {
+      "id": "sit-l09-combination-trials",
+      "title": "🔗 Combination trials",
+      "xpReward": 90,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Rarely alone\n\nMost people with type 2 diabetes end up on more than one medicine, and sitagliptin is almost always one of several. This lesson covers four things:\n\n1. Which partner medicines the licences name.\n2. What the SmPC says about each pairing.\n3. A fixed comparison: sitagliptin alone, with metformin, and with metformin plus an SGLT2 inhibitor.\n4. The trials behind each combination.\n\nAn **SGLT2 inhibitor** is a diabetes medicine that makes the kidneys pass extra sugar out in the urine."
+        },
+        {
+          "type": "text",
+          "markdown": "## What the licences name\n\n- **Januvia:** metformin; a sulphonylurea (when metformin can't be used); pioglitazone; metformin plus a sulphonylurea; metformin plus pioglitazone; insulin, with or without metformin.\n- **Janumet / Velmetia:** sitagliptin and metformin in one tablet, which can also be combined with a sulphonylurea, pioglitazone or insulin.\n- **Steglujan:** sitagliptin and ertugliflozin (an SGLT2 inhibitor) in one tablet, for use when metformin and/or a sulphonylurea plus either component isn't enough.\n\nNo sitagliptin licence found for this module names dapagliflozin, empagliflozin or a GLP-1 receptor agonist."
+        },
+        {
+          "type": "text",
+          "markdown": "## What the SmPC says about each partner\n\n- **Metformin:** neither medicine meaningfully changes the other's blood levels.\n- **Sulphonylureas and insulin:** sitagliptin didn't change glyburide levels (a sulphonylurea). The real issue is hypoglycaemia (4.7–13.8% with a sulphonylurea, 9.6% with insulin), so the SmPC suggests considering a lower sulphonylurea or insulin dose.\n- **Pioglitazone:** there's no blood-level line (the interaction study used rosiglitazone). **Peripheral oedema**, swelling of the hands or legs, was common in the pioglitazone trials.\n- **SGLT2 inhibitors:** the Januvia SmPC has no line about them at all. The ertugliflozin pairing is covered in the separate Steglujan SmPC, which this module hasn't reviewed."
+        },
+        {
+          "type": "compare",
+          "title": "Alone, with metformin, with metformin plus an SGLT2 inhibitor",
+          "items": [
+            {
+              "id": "sitagliptin-alone",
+              "label": "Sitagliptin alone"
+            },
+            {
+              "id": "metformin",
+              "label": "+ metformin"
+            },
+            {
+              "id": "metformin-sglt2-inhibitor",
+              "label": "+ metformin + SGLT2 inhibitor"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "hba1c-effect",
+              "label": "HbA1c effect",
+              "values": [
+                "About −0.8 points HbA1c vs placebo at 24 weeks",
+                "About −0.7 points vs placebo when added (24 weeks)",
+                "Adding ertugliflozin: about −0.7 points vs placebo (26 weeks)"
+              ]
+            },
+            {
+              "id": "context",
+              "label": "Context",
+              "values": [
+                "Slightly less than metformin head-to-head",
+                "Up to −2.1 points when both are started together",
+                "No outcome trial of the combination found"
+              ]
+            },
+            {
+              "id": "licensing",
+              "label": "Licensing",
+              "values": [
+                "Licensed only when metformin can't be used",
+                "Licensed as separate tablets or as Janumet",
+                "Licensed only with ertugliflozin, as Steglujan"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## How to read the three columns\n\nThe columns come from different trials. They differ in starting HbA1c (about 7 to 9%), in duration and in who took part. The largest figure, −2.1 points, comes from people who started both medicines at once with a high starting HbA1c. That's a different situation from adding one medicine to another.\n\nSo read each column on its own. No trial compared all three regimens head-to-head."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: starting sitagliptin and metformin together\nTag: MONO\n\n- Registry: not yet matched\n- Who took part: adults with type 2 diabetes who weren't taking any diabetes medicine, average starting HbA1c 8.8%\n- Background therapy: none. Both medicines were started together in a **factorial design**, which tests each medicine alone and in combination within one trial.\n- Compared with: placebo, each medicine alone, and the combinations, over 24 weeks\n- Main question: does starting sitagliptin 50 mg plus metformin twice daily lower HbA1c more than either alone?\n- Headline result: compared with placebo, HbA1c fell 1.6 points with metformin 500 mg twice daily (183 patients) and 2.1 points with metformin 1,000 mg twice daily (178 patients).\n- In plain words: starting both medicines together produced the largest HbA1c falls seen in the sitagliptin programme.\n- Worth knowing: hypoglycaemia was similar across all groups. This **initial combination therapy**, starting two medicines at once, isn't in Januvia's indication wording. Janumet covers people already taking both, or not controlled on metformin alone."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: VERTIS SITA2\nTag: 🔗 +MET+SGLT2\n\n- Registry: not yet matched\n- Who took part: about 464 adults not controlled on sitagliptin 100 mg plus metformin (1,500 mg a day or more), HbA1c 7.0–10.5%\n- Background therapy: sitagliptin plus metformin. The tag names the full three-drug regimen tested; the SGLT2 inhibitor was the medicine added.\n- Compared with: placebo added, versus ertugliflozin 5 mg or 15 mg added, over 26 weeks\n- Main question: does adding ertugliflozin to sitagliptin plus metformin lower HbA1c?\n- Headline result: placebo-corrected HbA1c fell 0.69 points (5 mg) and 0.76 points (15 mg), p < 0.001 for both. The EMA summary gives the raw falls as 0.8–0.9 points vs 0.1 with placebo.\n- In plain words: adding an SGLT2 inhibitor to sitagliptin plus metformin lowered HbA1c by about another 0.7 points.\n- Worth knowing: the effect lasted to 52 weeks, with lower body weight and blood pressure. The figures here come from company and summary sources, not the journal paper. This trial supports Steglujan."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: VERTIS FACTORIAL\nTag: 🔗 +MET\n\n- Registry: not yet matched\n- Who took part: 1,233 adults not controlled on metformin (1,500 mg a day or more)\n- Background therapy: metformin\n- Compared with: ertugliflozin 5 mg or 15 mg alone, sitagliptin 100 mg alone, or ertugliflozin plus sitagliptin **co-administered** (taken together as separate tablets), over 26 weeks\n- Main question: does adding both medicines to metformin lower HbA1c more than adding either one?\n- Headline result: HbA1c fell 1.5 points with both combinations vs 1.0–1.1 points with each medicine alone (p < 0.001).\n- In plain words: on top of metformin, sitagliptin plus ertugliflozin gave about 0.4–0.5 points more than either medicine alone.\n- Worth knowing: the combinations also lowered weight and blood pressure more than sitagliptin alone. Ertugliflozin is the only SGLT2 inhibitor with an EU combination licence with sitagliptin."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: dapagliflozin added to sitagliptin\nTag: 🔗 MIXED\n\n- Registry: NCT00984867\n- Who took part: 447 adults not controlled on sitagliptin 100 mg, with or without metformin, HbA1c 7.0–10.0%\n- Background therapy: one group on sitagliptin alone, one on sitagliptin plus metformin\n- Compared with: placebo added, versus dapagliflozin 10 mg added, over 24 weeks plus a 24-week extension\n- Main question: does adding dapagliflozin to sitagliptin lower HbA1c?\n- Headline result: HbA1c fell significantly more with dapagliflozin than with placebo, and the effect lasted to 48 weeks. The exact figure hasn't been extracted in this pass.\n- In plain words: the dapagliflozin pairing lowers blood sugar too, but no EU combination tablet exists.\n- Worth knowing: **genital mycotic infections** (fungal infections of the genitals) and urinary infections were more common with dapagliflozin, as expected for the class. The two medicines are prescribed together, each under its own licence."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: adding sitagliptin while insulin is intensified\nTag: 🔗 +INSULIN\n\n- Registry: not yet matched\n- Who took part: 660 adults on insulin glargine, with or without metformin, starting HbA1c 8.74%\n- Background therapy: insulin glargine, adjusted by patients against their morning blood sugar\n- Compared with: placebo, over 24 weeks\n- Main question: does sitagliptin improve control and reduce the insulin dose needed?\n- Headline result: HbA1c fell 1.31 vs 0.87 points, a difference of −0.45 points (95% CI −0.60 to −0.29). Insulin rose by 19 vs 24 units a day. Hypoglycaemia occurred in 25.2% vs 36.8%.\n- In plain words: adding sitagliptin lowered blood sugar further with slightly less insulin and fewer low-sugar episodes.\n- Worth knowing: the difference in hypoglycaemia came mostly from fewer people having three or more episodes (9.4% vs 19.1%). Severe hypoglycaemia didn't differ between the groups."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: Study 035, added to glimepiride\nTag: 🔗 MIXED\n\n- Registry: not yet matched (Merck study 035)\n- Who took part: 441 adults not controlled on glimepiride (a sulphonylurea), with or without metformin\n- Background therapy: one group on glimepiride alone, one on glimepiride plus metformin\n- Compared with: placebo added, over 24 weeks\n- Main question: does adding sitagliptin to glimepiride, with or without metformin, lower HbA1c?\n- Headline result: placebo-corrected HbA1c fell 0.6 points with glimepiride alone (102 patients) and 0.9 points with glimepiride plus metformin (115 patients).\n- In plain words: sitagliptin lowered HbA1c on top of a sulphonylurea, and more so when metformin was also taken.\n- Worth knowing: weight rose slightly more than with placebo. With sulphonylureas, hypoglycaemia is the main thing to watch; the SmPC reports 4.7–13.8% across sulphonylurea trials."
+        },
+        {
+          "type": "text",
+          "markdown": "## The register list\n\nThis list was compiled from the SmPC, EMA summaries and web-indexed registers on 26 September 2026. It isn't a structured export.\n\nMONO\n- Starting sitagliptin and metformin together (factorial) · not yet matched · 24 weeks · reported in the SmPC\n- VERTIS SITA: ertugliflozin plus sitagliptin as first treatment · not yet matched · 26 weeks · published\n\n🔗 +MET\n- Study 020, added to metformin · not yet matched · 24 weeks\n- Study 024, against glipizide on metformin · not yet matched · about 1 year\n- VERTIS FACTORIAL · not yet matched · 26 weeks, extended to 52\n\n🔗 +MET+SGLT2\n- VERTIS SITA2 · not yet matched · 26 weeks, extended to 52\n- Empagliflozin added to metformin plus sitagliptin (Korea) · registry not found · results not extracted\n\n🔗 +TZD\n- Added to pioglitazone · 24 weeks · −0.7 points vs placebo\n- Added to pioglitazone plus metformin · 26 weeks · −0.7 points vs placebo\n\n🔗 +INSULIN\n- Added to insulin, with or without metformin · 24 weeks · −0.6 points vs placebo\n- Added during insulin intensification · 24 weeks · difference −0.45 points\n\n🔗 MIXED\n- TECOS · NCT00790205 · outcomes · published 2015\n- Study 035, glimepiride with or without metformin · not yet matched · 24 weeks\n- Dapagliflozin added to sitagliptin, with or without metformin · NCT00984867 · 24 + 24 weeks\n\nNot found: any outcome trial of sitagliptin combined with an SGLT2 inhibitor; any EU licence pairing sitagliptin with dapagliflozin or empagliflozin."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "sit-l09-combination-trials-fc1",
+              "front": "Sitagliptin + SGLT2 in EU licences",
+              "back": "Only with ertugliflozin, in the Steglujan combination tablet. The Januvia SmPC has no SGLT2 line."
+            },
+            {
+              "id": "sit-l09-combination-trials-fc2",
+              "front": "Starting sitagliptin and metformin together",
+              "back": "Up to −2.1 points HbA1c vs placebo at 24 weeks, from a starting HbA1c of 8.8%. The highest figure in the programme, but not comparable with add-on trials."
+            },
+            {
+              "id": "sit-l09-combination-trials-fc3",
+              "front": "Hypoglycaemia in combination",
+              "back": "Sitagliptin doesn't change sulphonylurea blood levels; the risk is low blood sugar: 4.7–13.8% with a sulphonylurea and 9.6% with insulin."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "sit-l09-combination-trials-q1",
+              "stem": "A doctor wants to combine sitagliptin with empagliflozin and metformin. What do the EU licences reviewed here offer?",
+              "options": [
+                "A three-in-one EU tablet",
+                "A Januvia indication that names empagliflozin",
+                "No licence naming empagliflozin. Each medicine is prescribed under its own licence, and the licensed SGLT2 pairing is ertugliflozin (Steglujan).",
+                "Empagliflozin is contraindicated with sitagliptin"
+              ],
+              "correctIndex": 2,
+              "explanation": "Januvia's indication doesn't name any SGLT2 inhibitor, and no EU combination tablet with empagliflozin was found. The SmPC also has no interaction line. Ertugliflozin is the only licensed SGLT2 pairing."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 4.1, 4.2, 4.4, 4.5, 4.8, 5.1 (Table 2).\n2. **EPAR (combinations)** — Janumet: EPAR summary for the public (2013); Steglujan EPAR page and medicine overview (EMEA/H/C/004313).\n3. **Registers** — ClinicalTrials.gov NCT00790205 and NCT00984867, accessed 26 September 2026.\n4. **Journal** — Jabbour SA et al. *Diabetes Care* 2014;37:740–50 (dapagliflozin added to sitagliptin). Korean phase 3 trial of empagliflozin added to metformin plus sitagliptin (Yonsei repository).\n5. **Secondary** — Merck/Pfizer press release on VERTIS SITA2, 15 September 2016; MIMS (UK) summaries of VERTIS FACTORIAL and SITA2; *Aust Prescr* 2019;42(2) on VERTIS SITA; AstraZeneca press release, 9 June 2012."
         }
       ]
     }

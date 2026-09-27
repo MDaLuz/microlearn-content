@@ -3,7 +3,7 @@
   "id": "sitagliptin",
   "title": "Sitagliptin",
   "discipline": "Molecules",
-  "version": 4,
+  "version": 5,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Januvia 25/50/100 mg product information published by the EMA on 31 October 2025. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -1023,6 +1023,362 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 4.1, 4.2, 4.4, 4.5, 4.8, 5.1 (Table 2).\n2. **EPAR (combinations)** — Janumet: EPAR summary for the public (2013); Steglujan EPAR page and medicine overview (EMEA/H/C/004313).\n3. **Registers** — ClinicalTrials.gov NCT00790205 and NCT00984867, accessed 26 September 2026.\n4. **Journal** — Jabbour SA et al. *Diabetes Care* 2014;37:740–50 (dapagliflozin added to sitagliptin). Korean phase 3 trial of empagliflozin added to metformin plus sitagliptin (Yonsei repository).\n5. **Secondary** — Merck/Pfizer press release on VERTIS SITA2, 15 September 2016; MIMS (UK) summaries of VERTIS FACTORIAL and SITA2; *Aust Prescr* 2019;42(2) on VERTIS SITA; AstraZeneca press release, 9 June 2012."
+        }
+      ]
+    },
+    {
+      "id": "sit-l10-cv-outcomes",
+      "title": "Heart-attack and stroke outcomes",
+      "xpReward": 60,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The question\n\nDoes sitagliptin change the number of heart attacks, strokes or deaths? The SmPC's answer comes from TECOS. Added to usual care, sitagliptin didn't increase major cardiovascular events or hospitalisation for heart failure.\n\nThe SmPC doesn't claim that sitagliptin *reduces* any of these, and TECOS gives no grounds for such a claim."
+        },
+        {
+          "type": "text",
+          "markdown": "## TECOS, outcome by outcome\n\nThe trial compared 7,332 people on sitagliptin with 7,339 on placebo over a median of three years. Every difference was 0.2 percentage points or less, and none was significant.\n\n- Cardiovascular death: 5.2% vs 5.0% (HR 1.03)\n- Heart attack: 4.1% vs 4.3% (HR 0.95)\n- Stroke: 2.4% vs 2.5% (HR 0.97)\n- Hospitalisation for unstable angina: 1.6% vs 1.8% (HR 0.90)\n- Death from any cause: 7.5% vs 7.3% (HR 1.01, 95% CI 0.90–1.14)\n- Hospitalisation for heart failure: 3.1% vs 3.1% (HR 1.00, 95% CI 0.83–1.20)"
+        },
+        {
+          "type": "text",
+          "markdown": "## Who the answer applies to\n\nEveryone in TECOS already had cardiovascular disease, and HbA1c was between 6.5% and 8.0%. People with eGFR below 30 weren't enrolled. The trial did include 2,004 people aged 75 or over and 3,324 with eGFR below 60.\n\nSo the reassurance covers people like these. It says less about those with very poor kidney function, or with much higher blood sugar."
+        },
+        {
+          "type": "text",
+          "markdown": "## The heart-failure question across the class\n\nWhen one DPP-4 inhibitor shows a harm, people ask whether it's a **class effect**, shared by every drug with the same mechanism. In 2013, SAVOR-TIMI 53 tested saxagliptin in 16,492 people. Hospitalisation for heart failure was 3.5% vs 2.8% (HR 1.27, 95% CI 1.07–1.51). That's about 27% higher in relative terms and 0.7 percentage points higher in absolute terms, and it came as a surprise.\n\nIn EXAMINE, which tested alogliptin after a recent heart attack or unstable angina, a later analysis counted 106 vs 89 heart-failure hospitalisations. The HR was 1.19 (95% CI 0.90–1.58), which isn't significant. TECOS found HR 1.00 for sitagliptin."
+        },
+        {
+          "type": "compare",
+          "title": "Hospitalisation for heart failure in three DPP-4 inhibitor trials",
+          "items": [
+            {
+              "id": "savor-timi-53",
+              "label": "SAVOR-TIMI 53 (saxagliptin)"
+            },
+            {
+              "id": "examine",
+              "label": "EXAMINE (alogliptin)"
+            },
+            {
+              "id": "tecos",
+              "label": "TECOS (sitagliptin)"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "event-rates",
+              "label": "Event rates",
+              "values": [
+                "3.5% vs 2.8%",
+                "106 vs 89 events (post-hoc analysis)",
+                "3.1% vs 3.1%"
+              ]
+            },
+            {
+              "id": "hr-95-ci",
+              "label": "HR (95% CI)",
+              "values": [
+                "HR 1.27 (95% CI 1.07–1.51)",
+                "HR 1.19 (95% CI 0.90–1.58)",
+                "HR 1.00 (95% CI 0.83–1.20)"
+              ]
+            },
+            {
+              "id": "significance",
+              "label": "Significance",
+              "values": [
+                "Significant",
+                "Not significant",
+                "Not significant"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## How to read the three columns\n\nThese are different drugs, in different people, with heart failure measured in different ways, so they aren't a head-to-head comparison. A pooled analysis of all three trials found a small overall increase in heart-failure hospitalisation (RR 1.12, 95% CI 1.00–1.25). But the results varied between trials (**heterogeneity**, I² = 42%), and SAVOR drove most of the increase. The authors concluded that the signal may be specific to saxagliptin or may be chance."
+        },
+        {
+          "type": "text",
+          "markdown": "## Two labels, two readings\n\nThe US Januvia label carries a heart-failure warning, based on trials of 'two other members' of the class. The EU Januvia SmPC has no heart-failure warning. It reports TECOS's heart-failure result (HR 1.00) in section 5.1 instead.\n\nThe two regulators looked at the same evidence. One wrote a class-wide warning, and the other wrote down the result for this particular drug. Lesson 14 shows how guidelines rank sitagliptin now that newer medicine classes have their own outcome trials."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "sit-l10-cv-outcomes-fc1",
+              "front": "TECOS: heart failure",
+              "back": "3.1% vs 3.1%, HR 1.00 (95% CI 0.83–1.20). Sitagliptin didn't increase hospitalisation for heart failure."
+            },
+            {
+              "id": "sit-l10-cv-outcomes-fc2",
+              "front": "SAVOR-TIMI 53",
+              "back": "Saxagliptin, not sitagliptin. Hospitalisation for heart failure 3.5% vs 2.8%, HR 1.27. This trial is behind the US class warning."
+            },
+            {
+              "id": "sit-l10-cv-outcomes-fc3",
+              "front": "Class effect",
+              "back": "A harm or benefit shared by every drug with the same mechanism. For DPP-4 inhibitors and heart failure, the evidence doesn't show one."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "sit-l10-cv-outcomes-q1",
+              "stem": "Why does the US Januvia label carry a heart-failure warning when TECOS found HR 1.00?",
+              "options": [
+                "TECOS showed a significant increase",
+                "The warning is class-wide, based on trials of two other DPP-4 inhibitors",
+                "The EU label has the same warning",
+                "Sitagliptin is contraindicated in heart failure"
+              ],
+              "correctIndex": 1,
+              "explanation": "The US warning refers to saxagliptin (SAVOR-TIMI 53) and alogliptin (EXAMINE). The EU SmPC has no heart-failure warning and reports the neutral TECOS result instead."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Section 5.1, Table 3.\n2. **Journal** — Green JB et al. TECOS. *N Engl J Med* 2015;373:232–42.\n3. **Journal** — Scirica BM et al. SAVOR-TIMI 53. *N Engl J Med* 2013;369:1317–26. White WB et al. EXAMINE. *N Engl J Med* 2013;369:1327–35 (post-hoc heart-failure analysis via *Br J Cardiol* 2017).\n4. **Journal** — Meta-analysis of DPP-4 inhibitor outcome trials. *Can J Hosp Pharm* 2016;69(3).\n5. **US (differences only)** — Januvia prescribing information, section 5.2."
+        }
+      ]
+    },
+    {
+      "id": "sit-l11-side-effects",
+      "title": "Side effects",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## How the SmPC counts\n\nThe SmPC's table combines placebo-controlled trials of sitagliptin alone with reports received after launch. The frequencies are:\n\n- common: 1 in 100 to 1 in 10\n- uncommon: 1 in 1,000 to 1 in 100\n- rare: 1 in 10,000 to 1 in 1,000\n- not known: can't be estimated\n\nThe serious reactions it highlights are pancreatitis and allergic reactions."
+        },
+        {
+          "type": "text",
+          "markdown": "## From common to not known\n\n- **Common:** hypoglycaemia (mostly when combined with a sulphonylurea or insulin) and headache\n- **Uncommon:** dizziness, constipation and itching\n- **Rare:** **thrombocytopenia**, a low platelet count\n- **Not known:**\n  - allergic reactions, including anaphylaxis, angioedema and hives\n  - interstitial lung disease\n  - vomiting\n  - pancreatitis, including haemorrhagic and necrotising forms\n  - skin reactions, including rash, **cutaneous vasculitis** (inflamed small blood vessels in the skin), Stevens-Johnson syndrome and bullous pemphigoid\n  - joint and muscle pain, back pain and **arthropathy** (joint disease)\n  - reduced kidney function and acute kidney failure"
+        },
+        {
+          "type": "text",
+          "markdown": "## What depends on the partner medicine\n\nSome side effects were seen more often when sitagliptin was combined with other medicines:\n\n- **Hypoglycaemia:** very common with a sulphonylurea plus metformin\n- **Nausea and vomiting:** common with metformin\n- **Flatulence:** common with metformin or pioglitazone\n- **Swelling of the hands or legs:** common with pioglitazone\n- **Flu:** common with insulin\n- **Dry mouth:** uncommon with insulin\n\nMany of these reflect the partner medicine as much as sitagliptin."
+        },
+        {
+          "type": "compare",
+          "title": "Where hypoglycaemia comes from",
+          "items": [
+            {
+              "id": "alone-or-with-metformin-or-pioglitazone",
+              "label": "Alone, or with metformin or pioglitazone"
+            },
+            {
+              "id": "with-a-sulphonylurea",
+              "label": "With a sulphonylurea"
+            },
+            {
+              "id": "with-insulin",
+              "label": "With insulin"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "how-often",
+              "label": "How often",
+              "values": [
+                "Rates similar to placebo",
+                "4.7–13.8% in trials",
+                "9.6% in trials"
+              ]
+            },
+            {
+              "id": "detail",
+              "label": "Detail",
+              "values": [
+                "The glucose-dependent mechanism protects",
+                "Very common with a sulphonylurea plus metformin",
+                "Fewer episodes than placebo during insulin intensification"
+              ]
+            },
+            {
+              "id": "what-to-do",
+              "label": "What to do",
+              "values": [
+                "No dose change needed for the partner",
+                "Consider a lower sulphonylurea dose",
+                "Consider a lower insulin dose"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Hypoglycaemia in TECOS\n\nIn TECOS, severe hypoglycaemia occurred in 2.7% on sitagliptin vs 2.5% on placebo among people already taking insulin or a sulphonylurea. Among those taking neither, it was 1.0% vs 0.7%. Both differences are 0.3 percentage points or less. The pattern matches the trials above: the partner medicine matters more than sitagliptin."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pancreatitis\n\nIn TECOS, confirmed pancreatitis occurred in 0.3% on sitagliptin vs 0.2% on placebo, which wasn't statistically significant.\n\nThe typical symptom is persistent, severe abdominal pain, which may spread to the back. If pancreatitis is suspected, sitagliptin (and any other suspect medicine) is stopped. If it is confirmed, sitagliptin is never restarted.\n\nThe PIL asks patients to mention anything that raises the risk: past pancreatitis, gallstones, alcohol dependence or very high triglycerides."
+        },
+        {
+          "type": "text",
+          "markdown": "## Allergy and skin reactions\n\nSerious allergic reactions appeared within the first three months of treatment, some of them after the very first dose. These include anaphylaxis, angioedema and peeling skin conditions such as Stevens-Johnson syndrome. If one is suspected, sitagliptin is stopped and a different diabetes treatment is started.\n\nBlistering of the skin may be bullous pemphigoid, and the SmPC says to stop sitagliptin if this is suspected."
+        },
+        {
+          "type": "text",
+          "markdown": "## When to stop and call a doctor\n\nThe PIL tells patients to stop and seek help straight away for:\n\n- severe, persistent pain in the abdomen, possibly spreading to the back, with or without nausea and vomiting\n- a serious allergic reaction: rash, hives, blisters or peeling skin, or swelling of the face, lips, tongue or throat that makes breathing or swallowing hard\n\nIn trials of 10–17-year-olds, the side effects were comparable to those in adults."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "sit-l11-side-effects-fc1",
+              "front": "Pancreatitis rule",
+              "back": "If suspected, stop sitagliptin. If confirmed, never restart it. The typical sign is persistent, severe abdominal pain."
+            },
+            {
+              "id": "sit-l11-side-effects-fc2",
+              "front": "Severe hypoglycaemia in TECOS",
+              "back": "2.7% vs 2.5% in people already on insulin or a sulphonylurea; 1.0% vs 0.7% in those on neither. The partner medicine matters more than sitagliptin."
+            },
+            {
+              "id": "sit-l11-side-effects-fc3",
+              "front": "Bullous pemphigoid",
+              "back": "A blistering skin disease reported with DPP-4 inhibitors. If it's suspected, stop sitagliptin."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "sit-l11-side-effects-q1",
+              "stem": "A patient on sitagliptin plus glimepiride has repeated hypoglycaemia. What does the SmPC point to?",
+              "options": [
+                "Stop sitagliptin at once",
+                "Consider lowering the sulphonylurea dose. Hypoglycaemia mainly comes from the sulphonylurea combination.",
+                "Double the sitagliptin dose",
+                "Sitagliptin causes hypoglycaemia on its own"
+              ],
+              "correctIndex": 1,
+              "explanation": "Sitagliptin's effect is glucose-dependent. Hypoglycaemia appears when it's combined with a sulphonylurea or insulin, and the SmPC suggests considering a lower dose of those medicines."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 4.2, 4.4, 4.8.\n2. **PIL** — Januvia package leaflet, sections 2 and 4.\n3. **Journal** — Green JB et al. TECOS. *N Engl J Med* 2015;373:232–42."
+        }
+      ]
+    },
+    {
+      "id": "sit-l12-contraindications-interactions",
+      "title": "Who shouldn't take it, and interactions",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## One contraindication\n\nThe SmPC lists a single **contraindication**, an absolute reason not to use a medicine: allergy to sitagliptin or to any ingredient in the tablet. That's the whole list."
+        },
+        {
+          "type": "text",
+          "markdown": "## 'Should not be used' is a separate category\n\nSeveral situations aren't formal contraindications, but the SmPC still says sitagliptin shouldn't be used:\n\n- type 1 diabetes, or treating diabetic ketoacidosis\n- pregnancy, because there aren't enough human data\n- breastfeeding, because it isn't known whether sitagliptin passes into breast milk\n- children aged 10–17, because it doesn't work well enough\n\nThe difference matters. A contraindication is an absolute bar. 'Should not be used' is a strong recommendation, usually because data are missing or the drug doesn't work well enough."
+        },
+        {
+          "type": "text",
+          "markdown": "## Use with care\n\n- **Past pancreatitis:** use with caution. The US label adds that sitagliptin has never been studied in these patients.\n- **Severe liver impairment:** not studied, although the kidneys clear most of the drug.\n- **Kidney function:** the dose follows GFR (Lesson 6).\n- **With a sulphonylurea or insulin:** consider lowering their dose to avoid hypoglycaemia."
+        },
+        {
+          "type": "text",
+          "markdown": "## Interactions: a short list\n\nSitagliptin is carried by **P-glycoprotein**, a pump protein that moves drugs out of cells, and by **OAT3**, a transporter in the kidney. Even so, the SmPC rates the risk of meaningful interactions as low.\n\n- **Ciclosporin** raised sitagliptin exposure by 29%. This wasn't considered clinically meaningful.\n- **Digoxin** exposure rose by 11% on sitagliptin. No dose change is needed, but people at risk of digoxin toxicity should be monitored.\n- **Metformin, glyburide, simvastatin, rosiglitazone, warfarin and oral contraceptives** weren't meaningfully affected.\n\nTwo gaps remain. Strong CYP3A4 inhibitors (such as ketoconazole, itraconazole, ritonavir and clarithromycin) haven't been studied in severe kidney disease, where the liver's role grows. OAT3 inhibitors such as probenecid have only been tested in the lab."
+        },
+        {
+          "type": "text",
+          "markdown": "## The interaction that matters most\n\nIn practice, the most important interaction isn't about drug levels. It's about effect. Adding sitagliptin to a sulphonylurea or insulin can push blood sugar too low. The fix is simple and written into the SmPC: consider a lower dose of the other medicine."
+        },
+        {
+          "type": "compare",
+          "title": "Safety wording in the EU and US labels",
+          "items": [
+            {
+              "id": "januvia",
+              "label": "Januvia (EU)"
+            },
+            {
+              "id": "januvia-2",
+              "label": "Januvia (US)"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "contraindication",
+              "label": "Contraindication",
+              "values": [
+                "allergy to sitagliptin or an ingredient",
+                "history of a serious allergic reaction to sitagliptin"
+              ]
+            },
+            {
+              "id": "past-pancreatitis",
+              "label": "Past pancreatitis",
+              "values": [
+                "use with caution",
+                "not studied"
+              ]
+            },
+            {
+              "id": "heart-failure",
+              "label": "Heart failure",
+              "values": [
+                "No heart-failure warning",
+                "Class heart-failure warning"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "sit-l12-contraindications-interactions-fc1",
+              "front": "Contraindication vs 'should not be used'",
+              "back": "Contraindication: an absolute bar (for sitagliptin, only allergy). 'Should not be used': a strong recommendation, for example in pregnancy, type 1 diabetes or children."
+            },
+            {
+              "id": "sit-l12-contraindications-interactions-fc2",
+              "front": "Digoxin",
+              "back": "Exposure rises 11% with sitagliptin. No dose change, but monitor people at risk of digoxin toxicity."
+            },
+            {
+              "id": "sit-l12-contraindications-interactions-fc3",
+              "front": "Strong CYP3A4 inhibitors",
+              "back": "Not studied with sitagliptin in severe kidney disease, where liver metabolism matters more. This is an open gap in the data."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "sit-l12-contraindications-interactions-q1",
+              "stem": "Which of these is a formal contraindication for sitagliptin in the EU SmPC?",
+              "options": [
+                "Pregnancy",
+                "Type 1 diabetes",
+                "Allergy to sitagliptin or any ingredient",
+                "eGFR below 30"
+              ],
+              "correctIndex": 2,
+              "explanation": "Allergy is the only contraindication. Pregnancy and type 1 diabetes fall under 'should not be used'. Low eGFR means a lower dose, not avoiding the drug."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 4.2, 4.3, 4.4, 4.5, 4.6, 5.2.\n2. **US (differences only)** — Januvia prescribing information: contraindications, limitations of use, section 5.2."
         }
       ]
     }

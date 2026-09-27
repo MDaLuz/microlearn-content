@@ -62,7 +62,7 @@
       "discipline": "Molecules",
       "description": "What the label approves, and what the trials showed",
       "file": "modules/sitagliptin.json",
-      "version": 4,
+      "version": 5,
       "lessonCount": 15,
       "estimatedMinutes": 150,
       "accentColor": "#1D9E75"

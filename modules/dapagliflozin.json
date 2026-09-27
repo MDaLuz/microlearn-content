@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 4,
+  "id": "dapagliflozin",
+  "title": "Dapagliflozin",
+  "discipline": "Molecules",
+  "version": 1,
+  "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Forxiga 5/10 mg product information published by the EMA on 12 March 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
+  "lessons": [
+    {
+      "id": "dap-l01-at-a-glance",
+      "title": "At a glance",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## What dapagliflozin is\n\nDapagliflozin is an **SGLT2 inhibitor**. It blocks SGLT2, a protein in the kidney that normally takes sugar back into the blood, so sugar, salt and water leave the body in the urine instead. The dose is one 10 mg tablet a day.\n\nThis module is built on the **SmPC** (summary of product characteristics, the regulator-approved reference text for prescribers) for Forxiga 5 mg and 10 mg. Forxiga is authorised across the whole EU through the European Medicines Agency (EMA), and AstraZeneca AB is the marketing authorisation holder. The version used is the product information the EMA published on 12 March 2026."
+        },
+        {
+          "type": "text",
+          "markdown": "## Three different uses\n\nDapagliflozin started as a diabetes medicine. It is now approved for three conditions:\n\n- **Type 2 diabetes**, in adults and children aged 10 and over, alongside diet and exercise. It can be used on its own when metformin isn't tolerated, or added to other diabetes medicines.\n- **Heart failure**, a condition in which the heart doesn't pump blood as well as it should. The indication covers adults with symptoms of long-term heart failure.\n- **Chronic kidney disease**, in which the kidneys gradually lose their ability to filter the blood. The indication covers adults.\n\nThe heart-failure and kidney uses don't require diabetes."
+        },
+        {
+          "type": "text",
+          "markdown": "## What it does to blood sugar\n\nIn diabetes, its effect is measured with **HbA1c**, a blood test that reflects average blood sugar over the past two to three months.\n\n- On its own, dapagliflozin lowered HbA1c by 0.66 percentage points more than placebo at 24 weeks.\n- Added to other diabetes medicines, the extra reduction was about 0.5 to 0.7 points.\n- Against glipizide (a sulphonylurea), both added to metformin, HbA1c fell by 0.52 points with each drug at 52 weeks. That met the trial's test for **non-inferiority**, which shows a new treatment isn't meaningfully worse than an established one.\n- In the glipizide comparison, hypoglycaemia (low blood sugar) occurred in 3.5% of people on dapagliflozin and 40.8% on glipizide. Body weight fell by 3.2 kg on dapagliflozin and rose by 1.4 kg on glipizide."
+        },
+        {
+          "type": "text",
+          "markdown": "## What it does to the heart and kidneys\n\nSome of the results below are given per 100 **patient-years**. One patient-year is one person followed for one year, so rates stay comparable when people are followed for different lengths of time.\n\n- **Heart failure with reduced pumping (DAPA-HF):** 4,744 people, median 18 months. Death from heart causes, hospitalisation for heart failure or an urgent heart-failure visit occurred at 11.6 vs 15.6 per 100 patient-years. That is 26% lower in relative terms and 4 fewer events per 100 patient-years in absolute terms.\n- **Heart failure with pumping above 40% (DELIVER):** 6,263 people, median 28 months. 7.8 vs 9.6 per 100 patient-years: 18% lower, and 1.8 fewer per 100 patient-years.\n- **Chronic kidney disease (DAPA-CKD):** 4,304 people, median 28.5 months. 9.2% vs 14.5% reached the main outcome, which combined serious kidney decline and death. That is 39% lower in relative terms and 5.3 percentage points lower in absolute terms. The trial was stopped early because the benefit was clear.\n- **Type 2 diabetes (DECLARE):** 17,160 people, median 4.2 years. Dapagliflozin didn't reduce heart attack, stroke and heart death combined, but it did no harm on that measure. Hospitalisation for heart failure or heart death was 4.9% vs 5.8%."
+        },
+        {
+          "type": "text",
+          "markdown": "## What to watch\n\n- **Genital infections** were the most common side effect, in 5.5% of people vs 0.6% on placebo.\n- **Urinary infections** occurred in 4.7% vs 3.5%.\n- **Volume depletion**, meaning the body has lost too much fluid, can cause dizziness or low blood pressure.\n- **Diabetic ketoacidosis** is a dangerous build-up of acids in the blood. With this medicine it can happen even when blood sugar isn't very high.\n- **Fournier's gangrene** is a rare but serious infection of the tissue around the genitals.\n- Low blood sugar mainly occurs when dapagliflozin is combined with a sulphonylurea or insulin.\n\nThe only contraindication is allergy to the medicine. It shouldn't be used in type 1 diabetes."
+        },
+        {
+          "type": "text",
+          "markdown": "## What this module is, and isn't\n\nThis is a learning module, not prescribing advice. It is refreshed every six months, or immediately if the SmPC changes or a **safety signal** (new evidence of a possible side effect) appears.\n\nOne detail from the start: the SmPC gives no revision date of its own, so this module is dated by the EMA's publication date. The SmPC also gives the first authorisation as 12 November 2012, while the EMA's web page says 11 November."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "dap-l01-at-a-glance-fc1",
+              "front": "SGLT2 inhibitor",
+              "back": "A medicine that blocks SGLT2 in the kidney, so sugar, salt and water leave the body in the urine. Dapagliflozin is one."
+            },
+            {
+              "id": "dap-l01-at-a-glance-fc2",
+              "front": "Forxiga's three indications",
+              "back": "Type 2 diabetes (adults and children aged 10+), symptomatic chronic heart failure (adults), and chronic kidney disease (adults)."
+            },
+            {
+              "id": "dap-l01-at-a-glance-fc3",
+              "front": "DAPA-HF in one line",
+              "back": "4,744 people with heart failure with reduced pumping. 11.6 vs 15.6 events per 100 patient-years, HR 0.74."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "dap-l01-at-a-glance-q1",
+              "stem": "Which Forxiga indications require the patient to have diabetes?",
+              "options": [
+                "All three",
+                "Only the type 2 diabetes indication; heart failure and chronic kidney disease don't require diabetes",
+                "Heart failure and diabetes, but not kidney disease",
+                "None, because it's only a kidney medicine"
+              ],
+              "correctIndex": 1,
+              "explanation": "The heart-failure and kidney benefits were shown in people with and without diabetes, so those indications don't depend on diabetes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Forxiga 5 mg and 10 mg film-coated tablets, EU SmPC (EMEA/H/C/002322), EMA product information updated 12 March 2026. Sections 4.1–4.4, 4.8, 5.1, 9, 10.\n2. **PIL** — Forxiga package leaflet (same document).\n3. **EPAR** — Forxiga: medicine overview (EMA/12370/2023) and EPAR page."
+        }
+      ]
+    },
+    {
+      "id": "dap-l02-how-it-works",
+      "title": "How it works",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Sugar the kidneys usually keep\n\nThe kidneys filter sugar out of the blood all the time and then take almost all of it back. Most of that recovery happens in the **proximal tubule**, the first stretch of the kidney's tiny tubes, and SGLT2 does most of the work.\n\nWhen dapagliflozin blocks SGLT2, the sugar stays in the urine. In people with type 2 diabetes, about 70 g of sugar a day leaves the body this way at the 10 mg dose. That's roughly 280 kilocalories."
+        },
+        {
+          "type": "text",
+          "markdown": "## Precise, and independent of insulin\n\nDapagliflozin is more than 1,400 times more selective for SGLT2 than for **SGLT1**, the main sugar transporter in the gut. So it doesn't block sugar absorption from food.\n\nIt works without needing insulin. How much sugar it removes depends on how much is in the blood: when blood sugar is normal, little is removed. That's why it rarely causes low blood sugar on its own, and the body's normal defences against low blood sugar keep working."
+        },
+        {
+          "type": "text",
+          "markdown": "## Salt, water and pressure\n\nSGLT2 carries sodium along with sugar, so blocking it keeps salt in the urine too. The sugar also pulls water with it, which is called **osmotic diuresis**. In trials, urine volume went up by about 375 mL a day.\n\nThe extra salt reaching further down the kidney's tubes triggers **tubuloglomerular feedback**, a signal that narrows the blood vessel feeding each filter. That lowers **intraglomerular pressure**, the pressure inside the kidney's filters. The SmPC links this, together with less fluid overload and lower blood pressure, to protection of the heart and kidneys, and it says these benefits don't depend only on lowering blood sugar."
+        },
+        {
+          "type": "compare",
+          "title": "Two effects, two dependencies",
+          "items": [
+            {
+              "id": "blood-sugar-effect",
+              "label": "Blood-sugar effect"
+            },
+            {
+              "id": "heart-and-kidney-effect",
+              "label": "Heart and kidney effect"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "depends-on",
+              "label": "Depends on",
+              "values": [
+                "Needs enough kidney filtering to work",
+                "Works through salt, water and pressure"
+              ]
+            },
+            {
+              "id": "also-note",
+              "label": "Also note",
+              "values": [
+                "Weaker below GFR 45",
+                "Shown with and without diabetes"
+              ]
+            },
+            {
+              "id": "in-poor-kidney-function",
+              "label": "In poor kidney function",
+              "values": [
+                "Probably absent in severe kidney impairment",
+                "Tested down to eGFR 25 in DAPA-CKD"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Other measurable changes\n\nAt 24 weeks, blood pressure fell by 3.7/1.8 mmHg on dapagliflozin, compared with 0.5/0.5 mmHg on placebo. Weight went down and uric acid fell.\n\n**Haematocrit**, the share of the blood made up of red cells, rose by 2.3 percentage points. This happens because the blood holds less water. These are all markers: they show what the medicine does to the body's chemistry, not what happens to the patient."
+        },
+        {
+          "type": "text",
+          "markdown": "## What happens in the body\n\nBlood levels peak within two hours on an empty stomach. **Bioavailability** (the share of a dose that reaches the bloodstream) is 78%. A fatty meal lowers the peak level by up to half but doesn't change the total amount absorbed, so the tablet can be taken with or without food.\n\nThe liver and kidneys convert dapagliflozin into an inactive form using an enzyme called **UGT1A9**. The CYP enzymes play only a minor role. The **half-life** (the time it takes for blood levels to fall by half) is about 13 hours, and less than 2% leaves the body unchanged in the urine."
+        },
+        {
+          "type": "text",
+          "markdown": "## Kidney function changes the effect more than the exposure\n\nAs kidney function falls, blood levels of dapagliflozin rise by 32%, 60% and 87% in mild, moderate and severe impairment. Yet the amount of sugar removed falls sharply: 85 g a day with normal kidneys, then 52, 18 and 11 g.\n\nSo the dose doesn't change with kidney function, but the effect on blood sugar fades. Severe liver impairment raises exposure by about two-thirds, which is why a 5 mg starting dose is advised there."
+        },
+        {
+          "type": "text",
+          "markdown": "## Few interactions\n\n- Rifampicin lowered dapagliflozin exposure by 22%, and mefenamic acid raised it by 55%. Neither needed a dose change.\n- Dapagliflozin didn't meaningfully change levels of metformin, pioglitazone, sitagliptin, glimepiride, hydrochlorothiazide, bumetanide, valsartan, digoxin or warfarin.\n- Three interactions do need attention:\n  - it adds to the effect of diuretics\n  - it can lower lithium levels\n  - with insulin or a sulphonylurea, it raises the risk of low blood sugar\n\nOne lab test, the 1,5-anhydroglucitol assay, becomes unreliable for tracking blood sugar."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "dap-l02-how-it-works-fc1",
+              "front": "SGLT1 vs SGLT2",
+              "back": "SGLT2 takes sugar back in the kidney. SGLT1 is the gut's main sugar transporter. Dapagliflozin is more than 1,400 times more selective for SGLT2."
+            },
+            {
+              "id": "dap-l02-how-it-works-fc2",
+              "front": "Osmotic diuresis",
+              "back": "Sugar in the urine pulls water with it. With dapagliflozin, that's about 375 mL more urine a day."
+            },
+            {
+              "id": "dap-l02-how-it-works-fc3",
+              "front": "Tubuloglomerular feedback",
+              "back": "More salt reaching the distal tubule signals the kidney to lower pressure in its filters. This is one proposed route for kidney protection."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "dap-l02-how-it-works-q1",
+              "stem": "Why does dapagliflozin's blood-sugar effect fade in kidney impairment, while its heart and kidney benefits persist?",
+              "options": [
+                "Because the drug isn't absorbed",
+                "Sugar removal depends on how much the kidneys filter, while the heart and kidney benefits work through salt, water and pressure",
+                "Because the dose is reduced",
+                "Because UGT1A9 stops working"
+              ],
+              "correctIndex": 1,
+              "explanation": "Sugar removal falls from 85 to 11 g a day as kidney function drops. The SmPC says the heart and kidney benefits don't depend only on lowering blood sugar."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Forxiga, EU SmPC, EMA product information updated 12 March 2026. Sections 4.2, 4.4, 4.5, 5.1, 5.2."
+        }
+      ]
+    },
+    {
+      "id": "dap-l03-history",
+      "title": "History",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A diabetes medicine first\n\nDapagliflozin was developed through the diabetes alliance between Bristol-Myers Squibb and AstraZeneca. In the EU it went through the **centralised procedure**, a single EMA assessment that produces one licence valid in every member state. The EU licence was granted in November 2012.\n\nBecause of that route, Forxiga has an **EPAR** (European public assessment report, the EMA's published evaluation) and a long list of later assessments. In the US, the FDA approved dapagliflozin as Farxiga in January 2014."
+        },
+        {
+          "type": "text",
+          "markdown": "## Outcome trials begin\n\nThe first licence covered type 2 diabetes only. DECLARE, a trial in more than 17,000 people designed to check the medicine's effect on heart events, began enrolling in April 2013.\n\nNo one could have predicted that dapagliflozin's future would lie as much in heart failure and kidney disease as in blood sugar."
+        },
+        {
+          "type": "text",
+          "markdown": "## Class-wide safety reviews\n\nIn 2016 and 2017, the EMA ran two **Article 20 referrals**. This is the EU procedure for reviewing a safety concern about centrally authorised medicines, and both reviews covered all SGLT2 inhibitors. The first was about diabetic ketoacidosis. The second was about lower-limb amputations, a concern first raised with canagliflozin.\n\nBoth reviews led to warnings that are still in the SmPC today. Lesson 13 covers them in detail."
+        },
+        {
+          "type": "text",
+          "markdown": "## Type 1 diabetes: approved in 2019\n\nIn early 2019, the EMA announced the first oral medicine to be added to insulin for certain people with type 1 diabetes. This was dapagliflozin 5 mg, for adults with a BMI of 27 or more whose blood sugar wasn't controlled by optimal insulin therapy. The European Commission approved it in March 2019.\n\nThe US FDA declined the same use in July 2019."
+        },
+        {
+          "type": "text",
+          "markdown": "## From diabetes to heart and kidneys\n\nThe large outcome trials then reshaped the licence. Through a series of changes assessed between 2020 and 2022, Forxiga gained indications for heart failure with reduced pumping (based on DAPA-HF) and for chronic kidney disease (based on DAPA-CKD). The heart-failure indication was then extended to people whose heart pumps above 40% (based on DELIVER). Use in type 2 diabetes was also extended to children aged 10 and over.\n\nToday's indications for heart failure and kidney disease don't require diabetes."
+        },
+        {
+          "type": "text",
+          "markdown": "## Type 1 diabetes: withdrawn in 2021\n\nOn 25 October 2021, AstraZeneca removed the type 1 diabetes indication across the EU and the UK. Regulators stressed that this wasn't because of any new safety concern. In the type 1 trials, diabetic ketoacidosis had been common, affecting at least 1 person in 100. The company pointed to possible confusion now that the medicine was used so widely for other conditions.\n\nThe **additional risk minimisation measures**, extra safety materials for doctors and patients beyond the label, were discontinued. Patients were advised to stop in consultation with a diabetes specialist. The UK regulator added that blood pressure may rise slightly after stopping.\n\nA patient organisation, JDRF, estimated that more than 2,000 people were affected."
+        },
+        {
+          "type": "compare",
+          "title": "2012 and 2026",
+          "items": [
+            {
+              "id": "2012",
+              "label": "2012"
+            },
+            {
+              "id": "2026",
+              "label": "2026"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "indications",
+              "label": "Indications",
+              "values": [
+                "Type 2 diabetes in adults only",
+                "Type 2 diabetes (from age 10), heart failure and kidney disease"
+              ]
+            },
+            {
+              "id": "outcome-data",
+              "label": "Outcome data",
+              "values": [
+                "No outcome data",
+                "Four large outcome trials"
+              ]
+            },
+            {
+              "id": "also-notable",
+              "label": "Also notable",
+              "values": [
+                "One of several new diabetes classes",
+                "Type 1 diabetes approved in 2019 and withdrawn in 2021"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "dap-l03-history-fc1",
+              "front": "Type 1 diabetes withdrawal",
+              "back": "25 October 2021, a company decision with no new safety concern. Diabetic ketoacidosis was common in the type 1 trials."
+            },
+            {
+              "id": "dap-l03-history-fc2",
+              "front": "Article 20 referral",
+              "back": "The EU safety review for centrally authorised medicines. SGLT2 inhibitors went through two: diabetic ketoacidosis (2016) and amputations (2017)."
+            },
+            {
+              "id": "dap-l03-history-fc3",
+              "front": "How the licence grew",
+              "back": "2012: type 2 diabetes. 2019–2021: type 1 diabetes (later withdrawn). 2020–2022: heart failure and chronic kidney disease, from the outcome trials."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "dap-l03-history-q1",
+              "stem": "Why was dapagliflozin's type 1 diabetes indication removed in the EU in 2021?",
+              "options": [
+                "A new safety signal forced the EMA to withdraw it",
+                "The company decided to remove it; regulators said it wasn't due to new safety concerns, although diabetic ketoacidosis was common in type 1 trials",
+                "It never worked in type 1 diabetes",
+                "The FDA required it"
+              ],
+              "correctIndex": 1,
+              "explanation": "The EMA and MHRA communications stress that no new safety concern was involved. Diabetic ketoacidosis in type 1 diabetes was a known, common risk."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Forxiga, EU SmPC, EMA product information updated 12 March 2026. Sections 4.1, 4.4, 9.\n2. **EPAR** — Forxiga EPAR page: initial public assessment report (EMA/689976/2012); variation reports and CHMP opinions WS-1344, WS-1737, WS-1941, WS-1952, WS-2299; Article 20 assessment reports (2016, 2017).\n3. **Pharmacovigilance** — DHPC 'Forxiga 5 mg should no longer be used for the treatment of type 1 diabetes mellitus' (2021); MHRA Drug Safety Update on the withdrawal.\n4. **EPAR-level** — EMA news, 'First oral add-on treatment to insulin for treatment of certain patients with type 1 diabetes' (1 February 2019).\n5. **Secondary** — Medscape/The Hospitalist report (2021); JDRF International statement (2021).\n6. **US (differences only)** — BMS press release on the FDA approval of Farxiga (January 2014)."
+        }
+      ]
+    }
+  ]
+}

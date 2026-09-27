@@ -3,7 +3,7 @@
   "id": "sitagliptin",
   "title": "Sitagliptin",
   "discipline": "Molecules",
-  "version": 2,
+  "version": 3,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Januvia 25/50/100 mg product information published by the EMA on 31 October 2025. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -673,6 +673,215 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 4.2, 4.6, 4.7, 4.9, 5.2, 5.3.\n2. **PIL** — Januvia package leaflet, sections 2 and 3.\n3. **US (differences only)** — Januvia prescribing information, section 2.2."
+        }
+      ]
+    },
+    {
+      "id": "sit-l07-reading-a-trial",
+      "title": "Reading a clinical trial",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Why this lesson comes first\n\nDiabetes trials come in two kinds. Registration trials measure blood sugar over a few months. Outcome trials follow thousands of people for years to see what happens to their hearts. The next lesson uses both, and each needs slightly different reading skills. This lesson covers those skills, using sitagliptin's own trials as examples."
+        },
+        {
+          "type": "text",
+          "markdown": "## A lab value standing in for health\n\nThe pivotal sitagliptin trials measured HbA1c, which is a **surrogate endpoint**: a lab value accepted in place of what patients actually care about, such as eye damage, kidney failure or heart attacks. Regulators approve diabetes medicines on HbA1c because long-term high blood sugar causes those complications.\n\nThe link between HbA1c and complications is well established for blood sugar in general. That doesn't mean every medicine that lowers HbA1c lowers every complication, and that gap is why outcome trials exist."
+        },
+        {
+          "type": "text",
+          "markdown": "## How HbA1c results are reported\n\nMost results in the SmPC are given as a **least-squares mean**, an average adjusted for differences between patients at the start of the trial, such as their starting HbA1c. The headline figure is usually the **placebo-corrected change**, meaning the change on the medicine minus the change on placebo.\n\nFor example, in the 24-week monotherapy trial, HbA1c fell by 0.6 points on sitagliptin. The placebo-corrected change was 0.8 points, because HbA1c rose slightly in the placebo group."
+        },
+        {
+          "type": "text",
+          "markdown": "## Who counts in the analysis\n\nAn **intention-to-treat** analysis counts every randomised patient in their original group, whether or not they kept taking the tablets. A **per-protocol analysis** counts only the patients who followed the trial plan closely.\n\nThis matters for sitagliptin. The SmPC reports the head-to-head comparison with metformin per-protocol (−0.43 vs −0.57 points). TECOS reports two confidence intervals for the same hazard ratio of 0.98. The intention-to-treat analysis gives 0.89–1.08, and the per-protocol analysis used for the non-inferiority test gives 0.88–1.09. Same trial, same answer, but different people counted."
+        },
+        {
+          "type": "text",
+          "markdown": "## Proving 'not worse'\n\nA non-inferiority trial sets a **non-inferiority margin** in advance: the largest harm the trial will accept and still call the treatment 'not worse'. TECOS used an upper limit of 1.3 for the hazard ratio, in line with the FDA's policy on cardiovascular risk in diabetes medicines.\n\nThe top of the per-protocol confidence interval was 1.09, well below 1.3, so sitagliptin passed. The test for superiority (actually being better than placebo) gave p = 0.65, far from significant. TECOS therefore answers the safety question and leaves the benefit question with a no."
+        },
+        {
+          "type": "text",
+          "markdown": "## Keeping blood sugar equal on purpose\n\nIn TECOS, doctors could add other diabetes medicines to either group as needed. That produced **glycaemic equipoise**: blood sugar was kept similar in both arms, so any difference in heart events would come from sitagliptin itself rather than from lower sugar. Over the trial, HbA1c differed by only 0.29 points.\n\nThat design is also why TECOS is a **cardiovascular outcome trial**, a large, long trial that counts heart events rather than lab values."
+        },
+        {
+          "type": "text",
+          "markdown": "## Stating effects honestly\n\nFor HbA1c, the difference between groups (for example, 0.7 points) is already the absolute effect. There's no event rate to turn into a percentage.\n\nFor heart events, this module always gives both forms. In TECOS the primary outcome occurred in 11.4% on sitagliptin and 11.6% on placebo. That is 0.2 percentage points in absolute terms and about 2% in relative terms, and neither was significant."
+        },
+        {
+          "type": "text",
+          "markdown": "## The combination tags\n\nEach trial card carries exactly one tag. The tag describes the diabetes medicines participants were already taking.\n\n- MONO: no other glucose-lowering medicine\n- 🔗 +MET: metformin\n- 🔗 +MET+SU: metformin plus a sulphonylurea\n- 🔗 +MET+SGLT2: metformin plus an SGLT2 inhibitor\n- 🔗 +SU: a sulphonylurea\n- 🔗 +TZD: pioglitazone, with or without metformin\n- 🔗 +INSULIN: insulin, with or without metformin\n- 🔗 FDC: medicines combined in one tablet\n- 🔗 MIXED: usual care, varying from patient to patient"
+        },
+        {
+          "type": "text",
+          "markdown": "## Reading a card\n\nEvery card has the same eight lines: registry number, who took part, background therapy, what the trial compared, the main question, the headline result, what it means in plain words, and what's worth knowing.\n\nA **registry number** (such as an NCT code) points to the trial's public record. When the card shows only an internal study number, it means this module hasn't yet matched the trial to its public record."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "sit-l07-reading-a-trial-fc1",
+              "front": "Surrogate endpoint",
+              "back": "A lab value accepted in place of what patients care about. For diabetes, HbA1c stands in for complications."
+            },
+            {
+              "id": "sit-l07-reading-a-trial-fc2",
+              "front": "Per-protocol vs intention to treat",
+              "back": "Per-protocol counts only patients who followed the trial plan. Intention to treat counts everyone randomised. TECOS reported both."
+            },
+            {
+              "id": "sit-l07-reading-a-trial-fc3",
+              "front": "Non-inferiority margin",
+              "back": "The largest harm accepted in advance for a result to still count as 'not worse'. TECOS used a hazard ratio of 1.3; the upper confidence limit was 1.09."
+            },
+            {
+              "id": "sit-l07-reading-a-trial-fc4",
+              "front": "Glycaemic equipoise",
+              "back": "Keeping blood sugar similar in both arms, so that any difference in outcomes comes from the drug itself. In TECOS, HbA1c differed by only 0.29 points."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "sit-l07-reading-a-trial-q1",
+              "stem": "TECOS: HR 0.98, per-protocol 95% CI 0.88–1.09, non-inferiority margin 1.3. What can you conclude?",
+              "options": [
+                "Sitagliptin reduces heart events",
+                "Sitagliptin increases heart events",
+                "Sitagliptin is not worse than placebo for heart events, and no benefit was shown",
+                "The trial was inconclusive"
+              ],
+              "correctIndex": 2,
+              "explanation": "The upper limit of the confidence interval, 1.09, is below the 1.3 margin, so non-inferiority is shown. The interval also includes 1.0 and the superiority p-value was 0.65, so no benefit was shown."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 4.8 and 5.1.\n2. **Journal** — Green JB et al. TECOS. *N Engl J Med* 2015;373:232–42. NCT00790205.\n3. **Secondary** — TECOS summaries (Pink Sheet, 2015; WikiJournalClub), for the origin of the margin and the superiority p-value."
+        }
+      ]
+    },
+    {
+      "id": "sit-l08-pivotal-trials",
+      "title": "The pivotal trials",
+      "xpReward": 70,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Two kinds of evidence\n\nJanuvia was approved on nine studies involving almost 6,000 patients. All of them measured HbA1c over roughly 18 to 52 weeks. The cardiovascular outcome trial, TECOS, came eight years later.\n\nA **pivotal trial** is one that the regulators or clinical practice rely on to make decisions. The cards below show four of the registration trials and then TECOS."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: Study 021, monotherapy\nTag: MONO\n\n- Registry: not yet matched (Merck study 021)\n- Who took part: 741 adults with type 2 diabetes and a starting HbA1c of about 8.0%\n- Background therapy: none\n- Compared with: placebo, over 24 weeks, with sitagliptin 100 mg or 200 mg\n- Main question: does sitagliptin alone lower HbA1c?\n- Headline result: placebo-subtracted HbA1c fell by 0.79 points at 100 mg and 0.94 points at 200 mg. The SmPC reports −0.8 points (95% CI −1.0 to −0.6) for the 229 patients on 100 mg.\n- In plain words: on its own, sitagliptin lowered HbA1c by just under one percentage point more than placebo over six months.\n- Worth knowing: the 200 mg dose lowered HbA1c slightly more, but only 25, 50 and 100 mg were authorised. The monotherapy licence also only applies when metformin can't be used."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: Study 020, added to metformin\nTag: 🔗 +MET\n\n- Registry: not yet matched (Merck study 020)\n- Who took part: 701 adults whose diabetes wasn't controlled on metformin (1,500 mg a day or more)\n- Background therapy: metformin\n- Compared with: placebo added to metformin, over 24 weeks\n- Main question: does adding sitagliptin to metformin lower HbA1c?\n- Headline result: placebo-corrected HbA1c fell by 0.7 points (95% CI −0.8 to −0.5; 453 patients analysed in the SmPC). In the placebo arm, HbA1c barely moved (−0.02).\n- In plain words: adding sitagliptin to metformin lowered HbA1c by about 0.7 points more than adding placebo.\n- Worth knowing: body weight changed about equally in both groups, and hypoglycaemia was similar. This trial is the basis for the most common use of sitagliptin, together with metformin."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: Study 024, against glipizide\nTag: 🔗 +MET\n\n- Registry: not yet matched (Merck study 024)\n- Who took part: 1,172 adults whose diabetes wasn't controlled on metformin\n- Background therapy: metformin\n- Compared with: glipizide, a sulphonylurea, at an average of 10 mg a day (about 40% took 5 mg a day or less), over about one year\n- Main question: is sitagliptin no worse than glipizide at lowering HbA1c?\n- Headline result: the SmPC reports a similar fall in HbA1c. Hypoglycaemia occurred in 4.9% on sitagliptin vs 32.0% on glipizide, and weight changed by −1.5 kg vs +1.1 kg.\n- In plain words: blood sugar was lowered by a similar amount, with far less hypoglycaemia and no weight gain.\n- Worth knowing: the EU assessors said non-inferiority wasn't unequivocally proven, because the glipizide dose was low, and more patients stopped sitagliptin because it wasn't working. The trial's advantages are real, but the comparison was tilted."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: sitagliptin vs metformin\nTag: MONO\n\n- Registry: not yet matched\n- Who took part: 1,050 adults with type 2 diabetes who hadn't taken any diabetes medicine for at least 4 months; starting HbA1c about 7.2%\n- Background therapy: none\n- Compared with: metformin (average dose about 1,900 mg a day), head-to-head over 24 weeks\n- Main question: how does sitagliptin alone compare with metformin alone?\n- Headline result: HbA1c fell by 0.43 points on sitagliptin vs 0.57 on metformin (per-protocol). Gut side effects occurred in 2.7% vs 12.6%, and weight changed by −0.6 kg vs −1.9 kg.\n- In plain words: metformin lowered HbA1c a little more, and sitagliptin caused fewer stomach problems.\n- Worth knowing: the SmPC reports this per-protocol only. The EPAR summary concludes that sitagliptin appears slightly less effective than metformin, which fits with metformin remaining the first-choice medicine."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: TECOS\nTag: 🔗 MIXED\n\n- Registry: NCT00790205\n- Who took part: 14,671 adults with type 2 diabetes, established cardiovascular disease and an HbA1c of 6.5–8.0%. People with eGFR below 30 were excluded. The trial included 2,004 people aged 75 or over and 3,324 with eGFR below 60.\n- Background therapy: usual care, and doctors could add other diabetes medicines in either arm\n- Compared with: placebo, over a median of 3.0 years\n- Main question: does sitagliptin increase heart events (cardiovascular death, heart attack, stroke or hospitalisation for unstable angina)?\n- Headline result: 11.4% vs 11.6% (4.06 vs 4.17 per 100 person-years). HR 0.98; the per-protocol 95% CI was 0.88–1.09, which met non-inferiority (p < 0.001). That is 0.2 percentage points lower in absolute terms and about 2% lower in relative terms, not significant. Hospitalisation for heart failure: HR 1.00.\n- In plain words: sitagliptin didn't harm the heart, and it didn't protect it either.\n- Worth knowing: HbA1c differed by only 0.29 points between the arms, by design. There was no significant difference in acute pancreatitis (p = 0.07) or pancreatic cancer (p = 0.32)."
+        },
+        {
+          "type": "compare",
+          "title": "Registration trials vs TECOS",
+          "items": [
+            {
+              "id": "registration-trials",
+              "label": "Registration trials"
+            },
+            {
+              "id": "tecos",
+              "label": "TECOS"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "what-it-measured",
+              "label": "What it measured",
+              "values": [
+                "HbA1c, measured over 18–52 weeks",
+                "Heart events, over a median of 3 years"
+              ]
+            },
+            {
+              "id": "size",
+              "label": "Size",
+              "values": [
+                "Hundreds to about 1,200 patients each",
+                "14,671 patients with heart disease"
+              ]
+            },
+            {
+              "id": "what-it-showed",
+              "label": "What it showed",
+              "values": [
+                "Showed that it lowers blood sugar",
+                "Showed no heart harm and no heart benefit"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## How the two fit together\n\nThe registration trials answer one question: does sitagliptin lower blood sugar? TECOS answers a different one: is it safe for the heart? They were designed for different jobs, so read each on its own terms and don't set them against each other.\n\nThe EU label reflects both. The indications are about blood sugar control, and TECOS appears as a safety description in sections 4.8 and 5.1, not as an indication."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "sit-l08-pivotal-trials-fc1",
+              "front": "Study 021",
+              "back": "Sitagliptin alone vs placebo for 24 weeks: about 0.8 points lower HbA1c at 100 mg. A 200 mg arm was tested, but that dose was never authorised."
+            },
+            {
+              "id": "sit-l08-pivotal-trials-fc2",
+              "front": "Study 024 (glipizide)",
+              "back": "HbA1c similar, hypoglycaemia 4.9% vs 32.0%. The low glipizide dose meant non-inferiority wasn't unequivocally proven."
+            },
+            {
+              "id": "sit-l08-pivotal-trials-fc3",
+              "front": "TECOS",
+              "back": "14,671 people with heart disease, median 3 years, HR 0.98. Non-inferior to placebo, with no benefit."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "sit-l08-pivotal-trials-q1",
+              "stem": "Why did the EU assessors question the glipizide comparison?",
+              "options": [
+                "The trial was too short",
+                "The glipizide dose was low, and more patients stopped sitagliptin because it wasn't working",
+                "Sitagliptin caused more hypoglycaemia",
+                "No metformin background was used"
+              ],
+              "correctIndex": 1,
+              "explanation": "The average glipizide dose was 10 mg, with about 40% on 5 mg or less. More patients stopped sitagliptin for lack of efficacy. Hypoglycaemia was much lower with sitagliptin."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Januvia, EU SmPC, EMA product information updated 31 October 2025. Sections 4.8, 5.1 (Table 2, Table 3).\n2. **EPAR** — Januvia: EPAR summary for the public; variation assessment report II/0008.\n3. **Journal** — Aschner P et al. *Diabetes Care* 2006;29:2632–7 (Study 021). Charbonnel B et al. *Diabetes Care* 2006;29:2638–43 (Study 020). Nauck MA et al. *Diabetes Obes Metab* 2007 (Study 024).\n4. **Journal** — Green JB et al. TECOS. *N Engl J Med* 2015;373:232–42. NCT00790205."
         }
       ]
     }

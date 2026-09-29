@@ -3,7 +3,7 @@
   "id": "dapagliflozin",
   "title": "Dapagliflozin",
   "discipline": "Molecules",
-  "version": 2,
+  "version": 3,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Forxiga 5/10 mg product information published by the EMA on 12 March 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -625,6 +625,230 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Forxiga, EU SmPC, EMA product information updated 12 March 2026. Sections 4.2, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 5.2, 5.3.\n2. **PIL** — Forxiga package leaflet, sections 2 and 3."
+        }
+      ]
+    },
+    {
+      "id": "dap-l07-reading-a-trial",
+      "title": "Reading a clinical trial",
+      "xpReward": 60,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Why this lesson comes first\n\nDapagliflozin's big trials use methods that the earlier modules only touched on: two main questions in one trial, strict rules on which questions can be tested, recurrent events, patient-reported symptoms and pooled trials. This lesson covers each of them before Lesson 8 applies them."
+        },
+        {
+          "type": "text",
+          "markdown": "## Two main questions, one strict order\n\nDECLARE had **dual primary endpoints**, meaning two main questions answered at the same time. One was heart attack, stroke or cardiovascular death. The other was hospitalisation for heart failure or cardiovascular death.\n\nThe trial used **hierarchical testing**: questions are tested in a fixed order, and testing stops at the first question that fails. Superiority on heart attack, stroke or cardiovascular death wasn't shown (p = 0.172). So the next questions, on kidney outcomes and death from any cause, weren't formally tested. Their p-values are reported as **nominal**: calculated, but not protected against chance findings."
+        },
+        {
+          "type": "text",
+          "markdown": "## Look inside the composite\n\nA **composite endpoint** counts several kinds of event together, so always check which part drives the result.\n\nIn DECLARE, the heart-failure-or-death composite improved (HR 0.83). That came almost entirely from fewer hospitalisations for heart failure (HR 0.73), not from fewer deaths (HR 0.98).\n\nDAPA-HF and DELIVER also counted urgent heart-failure visits, which are softer events than death. DAPA-HF reports that all three parts contributed, and that urgent visits were few."
+        },
+        {
+          "type": "text",
+          "markdown": "## Stating effects honestly\n\nIn DAPA-HF, the main outcome occurred at 11.6 events per 100 patient-years on dapagliflozin versus 15.6 on placebo. That is about 4 fewer events per 100 patient-years in absolute terms. The hazard ratio of 0.74 means about 26% fewer in relative terms.\n\nEvery trial in this module is reported with both kinds of figure, together with what it was compared against and over what time."
+        },
+        {
+          "type": "text",
+          "markdown": "## First events and all events\n\nMost trials count only each person's *first* event. But heart failure keeps coming back. A **rate ratio** compares *all* events, first and repeat, between groups.\n\nIn DAPA-HF, there were 567 heart-failure hospitalisations and cardiovascular deaths on dapagliflozin and 742 on placebo, a rate ratio of 0.75. That's close to the first-event result, which suggests the benefit continues beyond the first event."
+        },
+        {
+          "type": "text",
+          "markdown": "## How patients feel\n\nA **patient-reported outcome** is a measure scored by patients themselves. Heart-failure trials use the KCCQ questionnaire, which measures symptoms on a 0–100 scale.\n\nThe result can be expressed as a **win ratio**. Each patient on the drug is compared with each patient on placebo, and every pair is scored as a win, a loss or a tie. A win ratio above 1 favours the drug: 1.18 in DAPA-HF and 1.11 in DELIVER."
+        },
+        {
+          "type": "text",
+          "markdown": "## When a trial stops early\n\nDAPA-CKD was stopped early for efficacy, on the advice of its independent **data monitoring committee**, the group that reviews results while a trial is still running.\n\nAs with rosuvastatin's JUPITER trial, stopping at a moment of clear benefit can overstate how large the effect really is. The direction is reliable, but treat the size with some caution."
+        },
+        {
+          "type": "text",
+          "markdown": "## Subgroups and pooled trials\n\nDAPA-HF and DAPA-CKD each checked a subgroup planned in advance: patients with and without diabetes. The effect was similar in both.\n\nA **pooled analysis** combines individual patients' data from several trials. Pooling DAPA-HF and DELIVER, as planned in advance, showed fewer cardiovascular deaths (HR 0.85, 95% CI 0.75–0.96), a result that neither trial showed clearly on its own."
+        },
+        {
+          "type": "text",
+          "markdown": "## Not worse, as well as better\n\nThe glipizide comparison tested non-inferiority. At 52 weeks, the HbA1c difference was 0.00 points, with a 95% CI of −0.11 to 0.11, well inside the trial's margin.\n\nDECLARE tested non-inferiority on heart attack, stroke and cardiovascular death first, and passed (one-sided p < 0.001). Only after that did it test superiority, which it didn't show."
+        },
+        {
+          "type": "text",
+          "markdown": "## The combination tags\n\nEach trial card carries exactly one tag for the background therapy:\n\n- MONO: no background glucose-lowering medicine\n- 🔗 +MET: metformin\n- 🔗 +MET+SU: metformin plus a sulphonylurea\n- 🔗 +DPP4: a DPP-4 inhibitor, with or without metformin\n- 🔗 +SU: a sulphonylurea\n- 🔗 +INSULIN: insulin\n- 🔗 +GLP1: a GLP-1 receptor agonist\n- 🔗 +STATIN: a statin\n- 🔗 +ANTIHTN: blood-pressure medicines, including ACE inhibitors or ARBs\n- 🔗 +HF-SOC: standard heart-failure treatment\n- 🔗 FDC: a fixed-dose combination tablet\n- 🔗 MIXED: usual care that varied between patients"
+        },
+        {
+          "type": "text",
+          "markdown": "## Reading a card\n\nEvery card has eight lines: registry number, who took part, background therapy, what the drug was compared with, the main question, the headline result, what it means in plain words, and what's worth knowing.\n\nThe **registry number** points to the trial's public record."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "dap-l07-reading-a-trial-fc1",
+              "front": "Hierarchical testing",
+              "back": "Endpoints are tested in a fixed order, stopping at the first failure. In DECLARE, heart attack, stroke or cardiovascular death wasn't shown to improve, so the kidney and death results are only nominal."
+            },
+            {
+              "id": "dap-l07-reading-a-trial-fc2",
+              "front": "Rate ratio",
+              "back": "A comparison of all events, first and repeat. In DAPA-HF: 567 vs 742 heart-failure events and cardiovascular deaths, rate ratio 0.75."
+            },
+            {
+              "id": "dap-l07-reading-a-trial-fc3",
+              "front": "Win ratio",
+              "back": "Every drug patient is compared with every placebo patient. Above 1 favours the drug. For KCCQ symptoms: 1.18 in DAPA-HF and 1.11 in DELIVER."
+            },
+            {
+              "id": "dap-l07-reading-a-trial-fc4",
+              "front": "Pooled analysis",
+              "back": "Combining individual patients' data across trials. DAPA-HF plus DELIVER: cardiovascular death HR 0.85."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "dap-l07-reading-a-trial-q1",
+              "stem": "DECLARE shows a renal composite HR of 0.76. Why doesn't the SmPC treat this as a confirmed benefit?",
+              "options": [
+                "The confidence interval crosses 1",
+                "The trial was too small",
+                "Hierarchical testing stopped when heart attack, stroke or cardiovascular death wasn't shown to improve, so the renal result is only nominal",
+                "Renal outcomes weren't measured"
+              ],
+              "correctIndex": 2,
+              "explanation": "Once the heart attack, stroke or cardiovascular death superiority test failed (p = 0.172), the planned order of tests ended. Later results can be shown, but they aren't confirmatory."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Forxiga, EU SmPC, EMA product information updated 12 March 2026. Section 5.1 (DECLARE, DAPA-HF, DELIVER, DAPA-CKD, glipizide study).\n2. **EPAR** — Forxiga medicine overview (EMA/12370/2023) for event rates per 100 patient-years."
+        }
+      ]
+    },
+    {
+      "id": "dap-l08-pivotal-trials",
+      "title": "The pivotal trials",
+      "xpReward": 75,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Four outcome trials and one glucose trial\n\nForxiga's three indications rest on four large **pivotal trials**, the trials that regulators relied on: DECLARE for diabetes, DAPA-HF and DELIVER for heart failure, and DAPA-CKD for kidney disease. A fifth card shows the head-to-head glucose trial against glipizide.\n\nAll four outcome trials compared dapagliflozin 10 mg with placebo, on top of the patient's usual treatment."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: DECLARE-TIMI 58\nTag: 🔗 MIXED\n\n- Registry: NCT01730534\n- Who took part: 17,160 adults with type 2 diabetes, 40.6% with established cardiovascular disease and 10% with heart failure; mean eGFR 85\n- Background therapy: usual diabetes care; 98% were on at least one diabetes medicine (metformin 82%, sulphonylurea 43%, insulin 41%)\n- Compared with: placebo, over a median of 4.2 years\n- Main question: two primary endpoints. (1) Heart attack, stroke or cardiovascular death. (2) Hospitalisation for heart failure or cardiovascular death.\n- Headline result: (1) 8.8% vs 9.4%, HR 0.93 (95% CI 0.84–1.03): non-inferior, but superiority not shown (p = 0.172). (2) 4.9% vs 5.8%, HR 0.83 (95% CI 0.73–0.95), p = 0.005: about 17% lower in relative terms and 0.9 percentage points lower in absolute terms.\n- In plain words: dapagliflozin didn't reduce heart attacks or strokes. It did reduce hospitalisation for heart failure (2.5% vs 3.3%), with no change in cardiovascular death (2.9% vs 2.9%).\n- Worth knowing: the kidney composite (4.3% vs 5.6%, HR 0.76) and death from any cause (6.2% vs 6.6%, HR 0.93) are nominal only, because hierarchical testing stopped. This trial started the heart-failure story."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: DAPA-HF\nTag: 🔗 +HF-SOC\n\n- Registry: NCT03036124\n- Who took part: 4,744 adults with heart failure, ejection fraction 40% or below, NYHA class II–IV, and eGFR 30 or above; 42% had type 2 diabetes\n- Background therapy: standard heart-failure treatment. 94% took an ACE inhibitor, ARB or ARNI; 96% a beta-blocker; 71% an MRA; 93% a diuretic.\n- Compared with: placebo, over a median of 18 months\n- Main question: does dapagliflozin reduce cardiovascular death, hospitalisation for heart failure or an urgent heart-failure visit?\n- Headline result: 11.6 vs 15.6 events per 100 patient-years; HR 0.74 (95% CI 0.65–0.85), p < 0.0001. That is about 26% fewer in relative terms and 4 fewer per 100 patient-years in absolute terms.\n- In plain words: on top of full heart-failure treatment, dapagliflozin reduced deaths and worsening heart failure, with or without diabetes (HR 0.75 with, 0.73 without).\n- Worth knowing: all three parts of the outcome contributed. Total events (first and repeat) fell similarly, with a rate ratio of 0.75. Symptoms improved on the KCCQ questionnaire (win ratio 1.18)."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: DELIVER\nTag: 🔗 +HF-SOC\n\n- Registry: NCT03619213\n- Who took part: 6,263 adults aged 40 or over with heart failure, ejection fraction above 40% and structural heart disease; 10% were enrolled during or soon after a hospital stay; 45% had type 2 diabetes\n- Background therapy: standard care. 98% took a diuretic, 83% a beta-blocker, 77% an ACE inhibitor, ARB or ARNI, and 43% an MRA.\n- Compared with: placebo, over a median of 28 months\n- Main question: does dapagliflozin reduce cardiovascular death, hospitalisation for heart failure or an urgent heart-failure visit?\n- Headline result: 7.8 vs 9.6 events per 100 patient-years; HR 0.82 (95% CI 0.73–0.92), p = 0.0008. That is about 18% fewer in relative terms and 1.8 fewer per 100 patient-years in absolute terms.\n- In plain words: the benefit extended to people whose hearts still pump reasonably well, across all ejection-fraction bands (49% or below, 50–59%, 60% or above).\n- Worth knowing: the effect was smaller than in DAPA-HF, and the patients were older with more mild symptoms. Pooled with DAPA-HF, cardiovascular death was lower (HR 0.85). This trial is why the EU indication has no ejection-fraction limit."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: DAPA-CKD\nTag: 🔗 +ANTIHTN\n\n- Registry: NCT03036150\n- Who took part: 4,304 adults with chronic kidney disease, eGFR 25–75 and albuminuria (mean eGFR 43); 67.5% had type 2 diabetes\n- Background therapy: standard care, with 97% on an ACE inhibitor or ARB\n- Compared with: placebo, over a median of 28.5 months, stopped early for efficacy\n- Main question: does dapagliflozin reduce a sustained fall in eGFR of at least 50%, kidney failure, or kidney or cardiovascular death?\n- Headline result: 9.2% vs 14.5%, about 39% lower in relative terms and 5.3 percentage points lower in absolute terms. The effect was visible from month 4.\n- In plain words: dapagliflozin slowed kidney disease and cut deaths, with or without diabetes (HR 0.64 with diabetes, 0.50 without).\n- Worth knowing: death from any cause was also significantly lower. Because the trial stopped early, the effect may be overstated."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: dapagliflozin vs glipizide\nTag: 🔗 +MET\n\n- Registry: not yet matched\n- Who took part: 801 adults with type 2 diabetes not controlled on metformin (HbA1c 6.5–10%)\n- Background therapy: metformin\n- Compared with: glipizide, a sulphonylurea, head-to-head over 52 weeks, with extensions to 208 weeks\n- Main question: is dapagliflozin no worse than glipizide at lowering HbA1c?\n- Headline result: −0.52 vs −0.52 points at 52 weeks; difference 0.00 (95% CI −0.11 to 0.11), which is non-inferior. Weight changed by −3.2 vs +1.4 kg. Hypoglycaemia occurred in 3.5% vs 40.8%.\n- In plain words: blood sugar fell equally, with weight loss instead of weight gain and far less hypoglycaemia.\n- Worth knowing: by 208 weeks, HbA1c had drifted to −0.10 vs +0.20. Fewer than 40% of patients remained in the trial by then, so long-term figures rest on a shrinking group."
+        },
+        {
+          "type": "compare",
+          "title": "The outcome trials at a glance",
+          "items": [
+            {
+              "id": "declare",
+              "label": "DECLARE (diabetes)"
+            },
+            {
+              "id": "dapa-hf-and-deliver",
+              "label": "DAPA-HF and DELIVER (heart failure)"
+            },
+            {
+              "id": "dapa-ckd",
+              "label": "DAPA-CKD (kidneys)"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "main-result",
+              "label": "Main result",
+              "values": [
+                "Heart attack, stroke or CV death: HR 0.93 (not superior)",
+                "HR 0.74 (ejection fraction 40% or below)",
+                "9.2% vs 14.5%"
+              ]
+            },
+            {
+              "id": "second-result",
+              "label": "Second result",
+              "values": [
+                "Heart-failure hospitalisation or CV death: HR 0.83",
+                "HR 0.82 (ejection fraction above 40%)",
+                "Worked with and without diabetes"
+              ]
+            },
+            {
+              "id": "caveat",
+              "label": "Caveat",
+              "values": [
+                "Kidney and death results nominal only",
+                "Pooled CV death: HR 0.85",
+                "Stopped early for efficacy"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## How to read these trials\n\nThese trials enrolled different people, used different outcomes and ran for different lengths of time, so they aren't a head-to-head comparison. Read each one on its own terms. Taken together, they show a medicine whose clearest effects are on heart failure and the kidneys, while its effect on heart attacks and strokes was neutral."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "dap-l08-pivotal-trials-fc1",
+              "front": "DECLARE in one line",
+              "back": "No effect on heart attack, stroke or CV death (HR 0.93). Fewer heart-failure hospitalisations or CV deaths (HR 0.83), driven by hospitalisations."
+            },
+            {
+              "id": "dap-l08-pivotal-trials-fc2",
+              "front": "DAPA-HF vs DELIVER",
+              "back": "Ejection fraction 40% or below: HR 0.74. Above 40%: HR 0.82. Together, they're why the EU indication has no ejection-fraction limit."
+            },
+            {
+              "id": "dap-l08-pivotal-trials-fc3",
+              "front": "DAPA-CKD in one line",
+              "back": "9.2% vs 14.5% for serious kidney decline or death. It worked with and without diabetes, and was stopped early for efficacy."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "dap-l08-pivotal-trials-q1",
+              "stem": "Which statement about DECLARE is accurate?",
+              "options": [
+                "It showed fewer heart attacks and strokes",
+                "It showed fewer heart-failure hospitalisations or cardiovascular deaths, driven by hospitalisations, while heart attack, stroke or CV death was only non-inferior",
+                "It proved a reduction in death from any cause",
+                "It enrolled only people with heart failure"
+              ],
+              "correctIndex": 1,
+              "explanation": "The heart attack, stroke or CV death endpoint was non-inferior but not superior. The heart-failure composite improved because of fewer hospitalisations, and the death results are nominal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Forxiga, EU SmPC, EMA product information updated 12 March 2026. Sections 4.8 and 5.1.\n2. **EPAR** — Forxiga medicine overview (EMA/12370/2023); variation assessment reports WS-1539, WS-1737, WS-1941/WS-1952 and WS-2299.\n3. **Journal** — Wiviott SD et al. DECLARE-TIMI 58. *N Engl J Med* 2019;380:347–57. McMurray JJV et al. DAPA-HF. *N Engl J Med* 2019;381:1995–2008. Solomon SD et al. DELIVER. *N Engl J Med* 2022;387:1089–98. Heerspink HJL et al. DAPA-CKD. *N Engl J Med* 2020;383:1436–46."
         }
       ]
     }

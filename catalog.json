@@ -73,7 +73,7 @@
       "discipline": "Molecules",
       "description": "What the label approves, and what the trials showed",
       "file": "modules/dapagliflozin.json",
-      "version": 2,
+      "version": 3,
       "lessonCount": 15,
       "estimatedMinutes": 160,
       "accentColor": "#1D9E75"

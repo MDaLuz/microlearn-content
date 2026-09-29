@@ -3,7 +3,7 @@
   "id": "dapagliflozin",
   "title": "Dapagliflozin",
   "discipline": "Molecules",
-  "version": 3,
+  "version": 4,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Forxiga 5/10 mg product information published by the EMA on 12 March 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -754,7 +754,7 @@
         },
         {
           "type": "text",
-          "markdown": "### Trial card: dapagliflozin vs glipizide\nTag: 🔗 +MET\n\n- Registry: not yet matched\n- Who took part: 801 adults with type 2 diabetes not controlled on metformin (HbA1c 6.5–10%)\n- Background therapy: metformin\n- Compared with: glipizide, a sulphonylurea, head-to-head over 52 weeks, with extensions to 208 weeks\n- Main question: is dapagliflozin no worse than glipizide at lowering HbA1c?\n- Headline result: −0.52 vs −0.52 points at 52 weeks; difference 0.00 (95% CI −0.11 to 0.11), which is non-inferior. Weight changed by −3.2 vs +1.4 kg. Hypoglycaemia occurred in 3.5% vs 40.8%.\n- In plain words: blood sugar fell equally, with weight loss instead of weight gain and far less hypoglycaemia.\n- Worth knowing: by 208 weeks, HbA1c had drifted to −0.10 vs +0.20. Fewer than 40% of patients remained in the trial by then, so long-term figures rest on a shrinking group."
+          "markdown": "### Trial card: dapagliflozin vs glipizide\nTag: 🔗 +MET\n\n- Registry: NCT00660907\n- Who took part: 801 adults with type 2 diabetes not controlled on metformin (HbA1c 6.5–10%)\n- Background therapy: metformin\n- Compared with: glipizide, a sulphonylurea, head-to-head over 52 weeks, with extensions to 208 weeks\n- Main question: is dapagliflozin no worse than glipizide at lowering HbA1c?\n- Headline result: −0.52 vs −0.52 points at 52 weeks; difference 0.00 (95% CI −0.11 to 0.11), which is non-inferior. Weight changed by −3.2 vs +1.4 kg. Hypoglycaemia occurred in 3.5% vs 40.8%.\n- In plain words: blood sugar fell equally, with weight loss instead of weight gain and far less hypoglycaemia.\n- Worth knowing: by 208 weeks, HbA1c had drifted to −0.10 vs +0.20. Fewer than 40% of patients remained in the trial by then, so long-term figures rest on a shrinking group."
         },
         {
           "type": "compare",

@@ -3,7 +3,7 @@
   "id": "dapagliflozin",
   "title": "Dapagliflozin",
   "discipline": "Molecules",
-  "version": 4,
+  "version": 5,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Forxiga 5/10 mg product information published by the EMA on 12 March 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -849,6 +849,190 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Forxiga, EU SmPC, EMA product information updated 12 March 2026. Sections 4.8 and 5.1.\n2. **EPAR** — Forxiga medicine overview (EMA/12370/2023); variation assessment reports WS-1539, WS-1737, WS-1941/WS-1952 and WS-2299.\n3. **Journal** — Wiviott SD et al. DECLARE-TIMI 58. *N Engl J Med* 2019;380:347–57. McMurray JJV et al. DAPA-HF. *N Engl J Med* 2019;381:1995–2008. Solomon SD et al. DELIVER. *N Engl J Med* 2022;387:1089–98. Heerspink HJL et al. DAPA-CKD. *N Engl J Med* 2020;383:1436–46."
+        }
+      ]
+    },
+    {
+      "id": "dap-l09-combination-trials",
+      "title": "🔗 Combination trials",
+      "xpReward": 95,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Six partner groups\n\nPeople on dapagliflozin usually take other medicines too. This lesson looks at six situations: dapagliflozin **alone**, with **metformin**, with a **statin**, with a **GLP-1 receptor agonist** (an injected diabetes medicine that mimics the gut hormone GLP-1), with a **DPP-4 inhibitor**, and with **blood-pressure medicines**.\n\nFor each one, it asks three questions: what the licences name, what the SmPC says, and which trials exist."
+        },
+        {
+          "type": "text",
+          "markdown": "## What the licences name\n\n- **Forxiga:** open wording, 'in addition to other medicinal products for the treatment of type 2 diabetes'. No partner is named.\n- **Xigduo and Ebymect:** dapagliflozin and metformin in one tablet.\n- **Qtern:** dapagliflozin and saxagliptin (a DPP-4 inhibitor) in one tablet.\n\nThis pass found no EU licence that combines dapagliflozin with a statin, a GLP-1 receptor agonist or a blood-pressure medicine. When those medicines are used together, each is prescribed on its own licence, which is called **co-administration**."
+        },
+        {
+          "type": "text",
+          "markdown": "## What the SmPC says about each partner\n\n- **Metformin, sitagliptin, glimepiride, pioglitazone:** no meaningful change in drug levels in either direction.\n- **Simvastatin:** a single 20 mg dose of dapagliflozin raised simvastatin exposure by 19% and simvastatin acid by 31%. The SmPC doesn't consider this clinically relevant.\n- **Thiazide and loop diuretics:** the water-losing effect adds up, raising the risk of dehydration and low blood pressure.\n- **Other blood-pressure medicines:** no change in levels with valsartan. The SmPC asks for caution in people on blood-pressure treatment who have a history of low blood pressure.\n- **Insulin and sulphonylureas:** a lower dose may be needed to avoid hypoglycaemia.\n- **GLP-1 receptor agonists:** there is no interaction line. The only data are the exenatide trial described in section 5.1."
+        },
+        {
+          "type": "compare",
+          "title": "Part 1: alone, with metformin, with a statin",
+          "items": [
+            {
+              "id": "alone",
+              "label": "Alone"
+            },
+            {
+              "id": "metformin",
+              "label": "+ Metformin"
+            },
+            {
+              "id": "statin",
+              "label": "+ Statin"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "key-figure",
+              "label": "Key figure",
+              "values": [
+                "HbA1c −0.66 points vs placebo at 24 weeks",
+                "Added to metformin: −0.54 points vs placebo (24 weeks)",
+                "Simvastatin exposure +19%, not clinically relevant"
+              ]
+            },
+            {
+              "id": "further-evidence",
+              "label": "Further evidence",
+              "values": [
+                "Outcome trials: DECLARE, DAPA-HF, DELIVER, DAPA-CKD",
+                "Both started together: −1.98 points vs about −1.45 for either alone",
+                "LDL +2.9% vs −1.0% on placebo"
+              ]
+            },
+            {
+              "id": "licence",
+              "label": "Licence",
+              "values": [
+                "Monotherapy licensed only if metformin isn't tolerated",
+                "Licensed as Xigduo / Ebymect",
+                "No combination trial or licence found"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "compare",
+          "title": "Part 2: with a GLP-1 receptor agonist, a DPP-4 inhibitor, or blood-pressure medicines",
+          "items": [
+            {
+              "id": "glp-1-receptor-agonist",
+              "label": "+ GLP-1 receptor agonist"
+            },
+            {
+              "id": "dpp-4-inhibitor",
+              "label": "+ DPP-4 inhibitor"
+            },
+            {
+              "id": "blood-pressure-medicines",
+              "label": "+ Blood-pressure medicines"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "key-figure",
+              "label": "Key figure",
+              "values": [
+                "With exenatide: −1.98 points vs −1.39 (dapagliflozin) and −1.60 (exenatide)",
+                "Added to sitagliptin: −0.48 points vs placebo (24 weeks)",
+                "On an ACE inhibitor or ARB: systolic pressure −3.1 to −4.3 mmHg vs placebo"
+              ]
+            },
+            {
+              "id": "further-evidence",
+              "label": "Further evidence",
+              "values": [
+                "Lower weight and blood pressure than either alone",
+                "Hypoglycaemia similar to placebo",
+                "DAPA-CKD: 97% on an ACE inhibitor or ARB"
+              ]
+            },
+            {
+              "id": "also-note",
+              "label": "Also note",
+              "values": [
+                "No combination licence",
+                "Licensed as Qtern (with saxagliptin)",
+                "Adds to the effect of diuretics"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## How to read the six columns\n\nEach column comes from different trials. They differ in how long they ran, where patients' HbA1c started (7.7% to 9.3%) and who took part. The biggest reductions, about 2 points, come from trials where patients started with a high HbA1c, above 9%. The columns show what evidence exists; they don't rank the combinations against each other.\n\nTwo columns have no outcome data: the statin and the GLP-1 receptor agonist columns. The blood-pressure column does, because DAPA-CKD was run on top of ACE inhibitors or ARBs."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: DURATION-8 (with exenatide)\nTag: 🔗 +MET\n\n- Registry: NCT02229396\n- Who took part: 685 adults with type 2 diabetes not controlled on metformin, HbA1c 8–12% (average about 9.3%)\n- Background therapy: metformin\n- Compared with: dapagliflozin alone and once-weekly exenatide alone, over 28 weeks, double-blind\n- Main question: does dapagliflozin plus a GLP-1 receptor agonist lower HbA1c more than either medicine alone?\n- Headline result: HbA1c fell 1.98 points with the combination, 1.39 with dapagliflozin and 1.60 with exenatide. The combination did 0.59 points better than dapagliflozin and 0.38 better than exenatide. Weight fell 3.6 kg vs 2.2 and 1.6 kg.\n- In plain words: the two classes add up. Blood sugar, weight and systolic blood pressure (−4.3 vs −1.8 and −1.2 mmHg) all improved more with the combination.\n- Worth knowing: this is the only trial of a dapagliflozin plus GLP-1 receptor agonist combination in the SmPC. It measured glucose, weight and blood pressure, not heart or kidney outcomes. Exenatide is one GLP-1 receptor agonist; others weren't studied here."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: added to sitagliptin\nTag: 🔗 +DPP4\n\n- Registry: NCT00984867\n- Who took part: 447 adults not controlled on sitagliptin 100 mg, with or without metformin\n- Background therapy: sitagliptin (a DPP-4 inhibitor), with or without metformin\n- Compared with: placebo added, over 24 weeks with an extension to 48 weeks\n- Main question: does adding dapagliflozin to a DPP-4 inhibitor lower HbA1c?\n- Headline result: HbA1c fell 0.48 points more than with placebo at 24 weeks (95% CI −0.62 to −0.34). At 48 weeks it was −0.30 vs +0.38, and weight was 2.2 kg lower.\n- In plain words: dapagliflozin added real glucose lowering on top of sitagliptin, and the effect lasted.\n- Worth knowing: hypoglycaemia stayed below 5%, similar to placebo. This is the same trial that appears in the sitagliptin module, seen from the other side. The licensed single-tablet pairing uses saxagliptin (Qtern), not sitagliptin."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: starting dapagliflozin and metformin together\nTag: MONO\n\n- Registry: not yet matched\n- Who took part: adults with type 2 diabetes not on any medicine, HbA1c 7.5–12% (average about 9.0%); 1,236 patients across two studies\n- Background therapy: none. Both medicines were started at the same time.\n- Compared with: dapagliflozin alone and metformin alone, over 24 weeks\n- Main question: does starting both medicines together lower HbA1c more than either alone?\n- Headline result: HbA1c fell 1.98 points with the combination (211 patients), 1.45 with dapagliflozin and 1.44 with metformin. The combination did about 0.5 points better than either alone.\n- In plain words: starting both together worked better than starting one.\n- Worth knowing: dapagliflozin alone matched metformin alone here (difference −0.01). Even so, the licence allows dapagliflozin on its own only when metformin isn't tolerated."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: blood-pressure studies on an ACE inhibitor or ARB\nTag: 🔗 +ANTIHTN\n\n- Registry: not yet matched (two 12-week studies)\n- Who took part: 1,062 adults with type 2 diabetes and high blood pressure, not controlled despite stable treatment. In one study patients were on an ACE inhibitor or ARB; in the other, on an ACE inhibitor or ARB plus one more blood-pressure medicine.\n- Background therapy: an ACE inhibitor or ARB, with or without one more blood-pressure medicine\n- Compared with: placebo, over 12 weeks\n- Main question: does dapagliflozin lower HbA1c and blood pressure on top of blood-pressure treatment?\n- Headline result: systolic blood pressure fell 3.1 and 4.3 mmHg more than with placebo in the two studies. HbA1c also improved; the SmPC doesn't give the figure.\n- In plain words: on top of existing blood-pressure medicines, dapagliflozin lowered systolic pressure a few more points.\n- Worth knowing: the effect is modest, and it's larger when blood sugar is very high. The SmPC asks for caution when a fall in blood pressure could be risky, for example in older people or those with a history of low blood pressure."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: added to insulin\nTag: 🔗 +INSULIN\n\n- Registry: not yet matched\n- Who took part: 387 adults on insulin, half also on one or two oral diabetes medicines\n- Background therapy: insulin, with or without oral diabetes medicines\n- Compared with: placebo added, over 24 weeks with extensions to 104 weeks\n- Main question: does adding dapagliflozin improve control and reduce the insulin dose needed?\n- Headline result: HbA1c fell 0.60 points more than with placebo at 24 weeks. The daily insulin dose was 6.2 units lower than with placebo. At 104 weeks, HbA1c was −0.71 vs −0.06.\n- In plain words: dapagliflozin lowered blood sugar while insulin doses stayed flat. On placebo, doses kept rising.\n- Worth knowing: minor hypoglycaemia was 40.3% vs 34.0% at 24 weeks; major hypoglycaemia was 0.5% in both groups. By 104 weeks, 72.4% of patients were still in the trial on dapagliflozin vs 54.8% on placebo."
+        },
+        {
+          "type": "text",
+          "markdown": "## The register list\n\nThis list was compiled from the SmPC and the trials already cited in this module on 27 September 2026. It isn't a structured export from a trial register.\n\nMONO\n- Starting with metformin (two studies) · not yet matched · 24 weeks\n\n🔗 +MET\n- Added to metformin · not yet matched · 24 weeks, extended to 102\n- DURATION-8 (with exenatide) · NCT02229396 · 28 weeks\n- Against glipizide · not yet matched · 52 weeks, extended to 208\n\n🔗 +DPP4\n- Added to sitagliptin, with or without metformin · NCT00984867 · 24 + 24 weeks\n\n🔗 +SU / 🔗 +MET+SU\n- Added to glimepiride · 24 weeks, extended to 48 · −0.68 points\n- Added to metformin plus a sulphonylurea · 24 weeks · −0.69 points\n\n🔗 +INSULIN\n- Added to insulin · 24 weeks, extended to 104\n\n🔗 +ANTIHTN\n- Two blood-pressure studies · 12 weeks\n- DAPA-CKD · NCT03036150 · outcomes\n\n🔗 +HF-SOC\n- DAPA-HF · NCT03036124 · DELIVER · NCT03619213\n\n🔗 +STATIN\n- No combination trial found. There is only a single-dose interaction study with simvastatin."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "dap-l09-combination-trials-fc1",
+              "front": "Dapagliflozin + GLP-1 receptor agonist",
+              "back": "DURATION-8 with exenatide: −1.98 points vs −1.39 and −1.60 with each alone, plus lower weight and blood pressure. No combination licence."
+            },
+            {
+              "id": "dap-l09-combination-trials-fc2",
+              "front": "Dapagliflozin + statin",
+              "back": "Simvastatin exposure +19% (not relevant). LDL +2.9% vs −1.0%. No combination trial or licence found."
+            },
+            {
+              "id": "dap-l09-combination-trials-fc3",
+              "front": "Dapagliflozin + diuretics",
+              "back": "The water-losing effects add up, raising the risk of dehydration and low blood pressure. This is the key interaction line for blood-pressure partners."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "dap-l09-combination-trials-q1",
+              "stem": "Which dapagliflozin combination has licensed EU single-tablet products?",
+              "options": [
+                "With a statin",
+                "With exenatide",
+                "With metformin (Xigduo / Ebymect) and with saxagliptin (Qtern)",
+                "With an ACE inhibitor"
+              ],
+              "correctIndex": 2,
+              "explanation": "Only metformin and saxagliptin pairings exist as EU combination tablets. The other partners are co-administered, each on its own licence."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Forxiga, EU SmPC, EMA product information updated 12 March 2026. Sections 4.1, 4.2, 4.4, 4.5, 4.8, 5.1 (Tables 3–8; blood-pressure and pooled analyses).\n2. **EPAR (combinations)** — Xigduo EPAR overview; Qtern EPAR overview; WS-1539 (Edistride and Ebymect).\n3. **Registers** — ClinicalTrials.gov NCT02229396, NCT00984867, NCT03036150, NCT03036124 and NCT03619213 (numbers to be verified).\n4. **Journal** — Jabbour SA et al. *Diabetes Care* 2014;37:740–50 (added to sitagliptin); DURATION-8 primary publication (to be added after verification)."
         }
       ]
     }

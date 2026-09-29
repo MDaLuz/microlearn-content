@@ -3,7 +3,7 @@
   "id": "dapagliflozin",
   "title": "Dapagliflozin",
   "discipline": "Molecules",
-  "version": 1,
+  "version": 2,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Forxiga 5/10 mg product information published by the EMA on 12 March 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -309,6 +309,322 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Forxiga, EU SmPC, EMA product information updated 12 March 2026. Sections 4.1, 4.4, 9.\n2. **EPAR** — Forxiga EPAR page: initial public assessment report (EMA/689976/2012); variation reports and CHMP opinions WS-1344, WS-1737, WS-1941, WS-1952, WS-2299; Article 20 assessment reports (2016, 2017).\n3. **Pharmacovigilance** — DHPC 'Forxiga 5 mg should no longer be used for the treatment of type 1 diabetes mellitus' (2021); MHRA Drug Safety Update on the withdrawal.\n4. **EPAR-level** — EMA news, 'First oral add-on treatment to insulin for treatment of certain patients with type 1 diabetes' (1 February 2019).\n5. **Secondary** — Medscape/The Hospitalist report (2021); JDRF International statement (2021).\n6. **US (differences only)** — BMS press release on the FDA approval of Farxiga (January 2014)."
+        }
+      ]
+    },
+    {
+      "id": "dap-l04-approved-uses",
+      "title": "What it's approved for",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Type 2 diabetes: the wording\n\nForxiga is approved for adults and children aged 10 and over whose type 2 diabetes isn't controlled well enough. In every case it's an **adjunct**: it's added to diet and exercise, never used instead of them.\n\nIt can be used in two ways:\n\n- As **monotherapy**, meaning the only diabetes medicine, when metformin is considered inappropriate *due to intolerance*. Compare Januvia, which allows monotherapy for contraindications as well as intolerance.\n- Added to other medicines for type 2 diabetes."
+        },
+        {
+          "type": "text",
+          "markdown": "## An open-ended partner list\n\nJanuvia's licence names each partner medicine it can be combined with. Forxiga's doesn't. It simply says 'in addition to other medicinal products for the treatment of type 2 diabetes', and points to sections 4.4, 4.5 and 5.1 for the combinations that were actually studied.\n\nThose studied combinations are:\n\n- metformin\n- a sulphonylurea\n- metformin plus a sulphonylurea\n- sitagliptin, with or without metformin\n- insulin\n- exenatide (a GLP-1 receptor agonist)\n- metformin, when both are started together\n\nLesson 9 covers each of them."
+        },
+        {
+          "type": "text",
+          "markdown": "## Heart failure: no pumping limit in the wording\n\nThe heart-failure indication covers adults with symptoms of long-term (chronic) heart failure. It sets no limit on **ejection fraction**, the share of blood the heart pumps out with each beat.\n\nThe two trials behind it split patients at that point:\n\n- DAPA-HF: ejection fraction 40% or below\n- DELIVER: ejection fraction above 40%\n\nThe SmPC flags two gaps. Experience in **NYHA class** IV is limited (NYHA is a I–IV scale of how much heart failure limits daily activity, and IV is the most severe). People with infiltrative cardiomyopathy, a group of diseases in which abnormal material builds up in the heart muscle, weren't studied."
+        },
+        {
+          "type": "text",
+          "markdown": "## Chronic kidney disease: broad wording, narrower evidence\n\nThe kidney indication simply says 'chronic kidney disease' in adults. The trial behind it, DAPA-CKD, was narrower. It enrolled people with eGFR 25–75 and **albuminuria**, meaning the protein albumin was leaking into the urine (a urine albumin-to-creatinine ratio of 200 to 5,000 mg/g). Two-thirds of the participants had type 2 diabetes.\n\nThe SmPC states the gap directly: there is no experience in people who have neither diabetes nor albuminuria. It adds that patients with albuminuria may benefit more. Treatment also shouldn't be *started* below GFR 25."
+        },
+        {
+          "type": "text",
+          "markdown": "## Notice what isn't there\n\n- **Type 1 diabetes.** The indication was withdrawn in 2021, and the SmPC now says dapagliflozin 'should not be used' in type 1 diabetes.\n- **Children with heart failure or kidney disease.** The EMA waived paediatric studies for these uses, so under-18s aren't covered.\n\nThe type 2 diabetes indication does cover children from age 10, but the evidence is modest. The paediatric trial included 72 patients aged 10–24. Its confidence intervals crossed zero, both overall (−0.75 points, 95% CI −1.65 to 0.15) and for under-18s (−0.59, 95% CI −1.66 to 0.48). The label still extends to age 10, partly because children's pharmacokinetics were similar to adults'. Read that as an uncertainty in the label."
+        },
+        {
+          "type": "compare",
+          "title": "Three indications, three trial populations",
+          "items": [
+            {
+              "id": "type-2-diabetes",
+              "label": "Type 2 diabetes"
+            },
+            {
+              "id": "heart-failure",
+              "label": "Heart failure"
+            },
+            {
+              "id": "chronic-kidney-disease",
+              "label": "Chronic kidney disease"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "who",
+              "label": "Who",
+              "values": [
+                "Adults and children aged 10+",
+                "Adults, any ejection fraction",
+                "Adults, broad wording"
+              ]
+            },
+            {
+              "id": "key-point",
+              "label": "Key point",
+              "values": [
+                "Monotherapy only if metformin isn't tolerated",
+                "DAPA-HF (40% or below) and DELIVER (above 40%)",
+                "Trial: eGFR 25–75 with albuminuria"
+              ]
+            },
+            {
+              "id": "caveat",
+              "label": "Caveat",
+              "values": [
+                "Glucose effect fades below GFR 45",
+                "Limited data in NYHA class IV",
+                "No experience without diabetes and without albuminuria"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "dap-l04-approved-uses-fc1",
+              "front": "Monotherapy wording",
+              "back": "Forxiga: when metformin is inappropriate due to intolerance only. Januvia: due to contraindications or intolerance."
+            },
+            {
+              "id": "dap-l04-approved-uses-fc2",
+              "front": "Ejection fraction",
+              "back": "The share of blood the heart pumps out with each beat. The Forxiga heart-failure indication has no ejection-fraction limit."
+            },
+            {
+              "id": "dap-l04-approved-uses-fc3",
+              "front": "Albuminuria and the kidney indication",
+              "back": "DAPA-CKD enrolled patients with albuminuria. There's no experience in people with neither diabetes nor albuminuria."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "dap-l04-approved-uses-q1",
+              "stem": "A 60-year-old without diabetes has chronic kidney disease with eGFR 50 and no albuminuria. What does the SmPC say?",
+              "options": [
+                "Dapagliflozin is contraindicated",
+                "The indication wording covers them, but there's no trial experience in people without diabetes and without albuminuria",
+                "The dose should be 5 mg",
+                "They must first develop albuminuria"
+              ],
+              "correctIndex": 1,
+              "explanation": "The CKD indication is broadly worded. The SmPC states there's no experience in patients without diabetes who don't have albuminuria, and that those with albuminuria may benefit more."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Forxiga, EU SmPC, EMA product information updated 12 March 2026. Sections 4.1, 4.2, 4.4, 4.8, 5.1, 5.2.\n2. **EPAR** — Forxiga: variation assessment reports WS-1737 (heart failure with reduced ejection fraction), WS-1941 (chronic kidney disease), WS-1952 (children from age 10) and WS-2299 (DELIVER). Paediatric waiver for heart failure and chronic kidney disease: SmPC section 5.1.\n3. **PIL** — Forxiga package leaflet, section 1."
+        }
+      ]
+    },
+    {
+      "id": "dap-l05-strengths-products",
+      "title": "Strengths and products",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The tablets\n\nForxiga comes as yellow **film-coated tablets** (tablets with a thin outer layer):\n\n- 5 mg: round, engraved '5' and '1427'\n- 10 mg: diamond-shaped, engraved '10' and '1428'\n\nThe key **excipient** (an ingredient other than the active substance) is lactose: 25 mg in the 5 mg tablet and 50 mg in the 10 mg tablet. The tablets keep for three years and need no special storage. Packs come as calendar blisters marked Monday to Sunday (14, 28 or 98 tablets), or as unit-dose strips."
+        },
+        {
+          "type": "text",
+          "markdown": "## Who stands behind it\n\nThe **MAH** (marketing authorisation holder, the company legally responsible for the product) is AstraZeneca AB in Södertälje, Sweden. Batches are released from Södertälje and from Macclesfield in the UK. Because the authorisation is central, every EU country uses the same SmPC, translated into its own language."
+        },
+        {
+          "type": "text",
+          "markdown": "## Same medicine, other names\n\nIn 2019 the EMA assessed four products together: Forxiga and Edistride (dapagliflozin alone), and Xigduo and Ebymect (dapagliflozin with metformin). Edistride and Ebymect are a **duplicate marketing authorisation**: a second licence for the same product under another brand name. This module hasn't checked whether each duplicate is still marketed."
+        },
+        {
+          "type": "text",
+          "markdown": "## Combination tablets\n\nTwo **fixed-dose combinations** (two medicines in one tablet) contain dapagliflozin:\n\n- **Xigduo** (also sold as Ebymect): dapagliflozin 5 mg with metformin 850 mg or 1,000 mg, taken twice a day with a meal. It's for people not controlled on metformin alone, as an add-on to other diabetes medicines, or to replace the two taken as separate tablets.\n- **Qtern**: saxagliptin (a DPP-4 inhibitor) with dapagliflozin. It's for adults not controlled on metformin and/or a sulphonylurea plus one of its two components, or already taking both separately.\n\nLesson 9 looks at the trials behind both."
+        },
+        {
+          "type": "text",
+          "markdown": "## Generics\n\nGeneric dapagliflozin is now also authorised centrally. For example, Dapagliflozin Viatris showed **bioequivalence** with Forxiga: its blood levels matched closely enough to count as the same medicine. The EMA concluded that, as with Forxiga, its benefits outweigh its risks."
+        },
+        {
+          "type": "compare",
+          "title": "Dapagliflozin, three ways",
+          "items": [
+            {
+              "id": "forxiga",
+              "label": "Forxiga"
+            },
+            {
+              "id": "xigduo-ebymect",
+              "label": "Xigduo / Ebymect"
+            },
+            {
+              "id": "qtern",
+              "label": "Qtern"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "strength",
+              "label": "Strength",
+              "values": [
+                "5 mg or 10 mg",
+                "5 mg + metformin 850 mg or 1,000 mg",
+                "With saxagliptin"
+              ]
+            },
+            {
+              "id": "dosing",
+              "label": "Dosing",
+              "values": [
+                "Once a day",
+                "Twice a day, with a meal",
+                "Adds a DPP-4 inhibitor"
+              ]
+            },
+            {
+              "id": "indications",
+              "label": "Indications",
+              "values": [
+                "All three indications",
+                "Type 2 diabetes only",
+                "Type 2 diabetes only"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Outside the EU\n\nThe US and Swiss labels haven't been reviewed for this module yet. The US brand name is Farxiga."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "dap-l05-strengths-products-fc1",
+              "front": "Forxiga tablets",
+              "back": "5 mg: round, '1427'. 10 mg: diamond-shaped, '1428'. Both yellow and both contain lactose. Calendar blister packs."
+            },
+            {
+              "id": "dap-l05-strengths-products-fc2",
+              "front": "Xigduo",
+              "back": "Dapagliflozin 5 mg plus metformin 850 mg or 1,000 mg, taken twice a day with a meal. Also sold as Ebymect."
+            },
+            {
+              "id": "dap-l05-strengths-products-fc3",
+              "front": "Qtern",
+              "back": "Saxagliptin plus dapagliflozin in one tablet, for type 2 diabetes. It's the dapagliflozin + DPP-4 inhibitor combination product."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "dap-l05-strengths-products-q1",
+              "stem": "Which dapagliflozin product can be used for heart failure?",
+              "options": [
+                "Xigduo",
+                "Qtern",
+                "Forxiga",
+                "All three"
+              ],
+              "correctIndex": 2,
+              "explanation": "The heart-failure and kidney indications belong to Forxiga (and its duplicate, Edistride). Xigduo and Qtern are combination products for type 2 diabetes only."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Forxiga, EU SmPC, EMA product information updated 12 March 2026. Sections 2, 3, 6, 7; Annex II.\n2. **EPAR** — Forxiga/Xigduo/Edistride/Ebymect variation assessment report WS-1539 (EMA/476671/2019).\n3. **EPAR (combinations)** — Xigduo EPAR overview and CHMP summary of opinion (21 November 2013); Qtern EPAR overview.\n4. **EPAR (generic)** — Dapagliflozin Viatris EPAR overview."
+        }
+      ]
+    },
+    {
+      "id": "dap-l06-how-taken",
+      "title": "How it's taken",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The routine\n\nThe dose is one 10 mg tablet a day, for all three indications. It can be taken at any time of day, with or without food. The tablet is swallowed whole with half a glass of water. The PIL suggests taking it at the same time each day, to make it easier to remember.\n\nWhen dapagliflozin is added to insulin or a sulphonylurea, the SmPC says a lower dose of that medicine may be considered, to reduce the risk of low blood sugar."
+        },
+        {
+          "type": "text",
+          "markdown": "## A missed dose: the 12-hour rule\n\nThe PIL gives a precise rule:\n\n- If the next dose is **12 hours or more** away, take the missed tablet as soon as you remember.\n- If it's **less than 12 hours** away, skip the missed tablet.\n\nEither way, never take a double dose."
+        },
+        {
+          "type": "text",
+          "markdown": "## Kidneys: no dose change, but a starting limit\n\nThe dose never changes with kidney function. What changes is when treatment can start and what it achieves:\n\n- Below GFR 25, starting treatment isn't recommended, because experience is limited. In DAPA-CKD, people who were already on treatment continued below 25, and even onto dialysis.\n- In type 2 diabetes, the effect on blood sugar is weaker below GFR 45 and probably absent in severe impairment. Extra glucose-lowering treatment may be needed.\n\nExpect an **eGFR dip**, a small, expected fall in kidney function in the first weeks. In DAPA-CKD, eGFR fell by 4.0 on dapagliflozin versus 0.8 on placebo at day 14. By 28 months the overall decline was smaller on dapagliflozin: 7.4 versus 8.6."
+        },
+        {
+          "type": "text",
+          "markdown": "## Liver\n\nMild or moderate liver impairment needs no dose change. In severe impairment, exposure rises by about two-thirds, so the SmPC recommends starting at 5 mg and moving up to 10 mg if the lower dose causes no problems."
+        },
+        {
+          "type": "text",
+          "markdown": "## Sick days and surgery\n\nThe SmPC sets out a **sick-day rule**, a temporary pause during acute illness:\n\n- **Major surgery or serious acute illness:** interrupt treatment and monitor ketones, preferably in the blood rather than the urine. Restart when ketones are normal and the person is stable.\n- **Fluid loss, for example from vomiting or diarrhoea:** pause until the fluid loss is corrected.\n- **Serious kidney infection or urosepsis:** consider a pause.\n\nThe PIL puts it simply: if you can't eat or drink, or you're vomiting or have a fever, your doctor may ask you to stop until you recover."
+        },
+        {
+          "type": "text",
+          "markdown": "## Special groups\n\n- **Older people:** no dose change based on age, but they're more at risk of fluid loss and more often take diuretics.\n- **Children:** from age 10 for type 2 diabetes only.\n- **Pregnancy:** not recommended in the second and third trimesters, because rat studies showed kidney effects in the young. Stop when a pregnancy is detected.\n- **Breastfeeding:** don't use it.\n- **Driving:** no meaningful effect on its own, but low blood sugar is possible when it's taken with a sulphonylurea or insulin."
+        },
+        {
+          "type": "text",
+          "markdown": "## Overdose and lab tests\n\nSingle doses of up to 500 mg caused no toxicity in healthy volunteers, although sugar stayed in their urine for at least five days. Treatment of an overdose is supportive, and it isn't known whether haemodialysis removes dapagliflozin.\n\nTwo lab effects are expected. Urine tests will always show sugar, and the 1,5-anhydroglucitol blood test becomes unreliable for judging blood-sugar control."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "dap-l06-how-taken-fc1",
+              "front": "Missed dose",
+              "back": "Next dose 12 hours or more away: take it now. Less than 12 hours away: skip it. Never double up."
+            },
+            {
+              "id": "dap-l06-how-taken-fc2",
+              "front": "GFR 25",
+              "back": "Don't start dapagliflozin below GFR 25. Patients already on it can continue, as they did in DAPA-CKD."
+            },
+            {
+              "id": "dap-l06-how-taken-fc3",
+              "front": "Sick-day rule",
+              "back": "Pause for major surgery, serious acute illness or fluid loss. Check ketones, and restart once they're normal and the person is stable."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "dap-l06-how-taken-q1",
+              "stem": "A patient on dapagliflozin has gastroenteritis, with vomiting and not drinking. What does the SmPC recommend?",
+              "options": [
+                "Double the dose",
+                "Continue as normal",
+                "Pause dapagliflozin until the fluid loss is corrected, and watch for ketoacidosis",
+                "Switch to 5 mg"
+              ],
+              "correctIndex": 2,
+              "explanation": "Conditions that cause fluid loss call for a temporary pause and careful monitoring. Poor intake also raises the risk of ketoacidosis."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Forxiga, EU SmPC, EMA product information updated 12 March 2026. Sections 4.2, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 5.2, 5.3.\n2. **PIL** — Forxiga package leaflet, sections 2 and 3."
         }
       ]
     }

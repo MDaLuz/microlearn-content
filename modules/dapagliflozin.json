@@ -3,7 +3,7 @@
   "id": "dapagliflozin",
   "title": "Dapagliflozin",
   "discipline": "Molecules",
-  "version": 6,
+  "version": 7,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Forxiga 5/10 mg product information published by the EMA on 12 March 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -1401,6 +1401,255 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Forxiga, EU SmPC, EMA product information updated 12 March 2026. Sections 4.2, 4.3, 4.4, 4.5, 4.6.\n2. **EPAR (combination)** — Xigduo EPAR overview (restrictions)."
+        }
+      ]
+    },
+    {
+      "id": "dap-l13-pharmacovigilance",
+      "title": "Pharmacovigilance",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Watching after approval\n\n**Pharmacovigilance** means monitoring a medicine's safety once it's on the market. The Forxiga SmPC asks healthcare professionals to report suspected side effects through their national system, and the PIL invites patients to report directly.\n\nFor dapagliflozin, most of the big safety decisions were made for the whole SGLT2 inhibitor class, not for this one medicine alone."
+        },
+        {
+          "type": "text",
+          "markdown": "## 2016: ketoacidosis without very high sugar\n\nIn 2016 the EMA completed an EU-wide review of diabetic ketoacidosis with SGLT2 inhibitors. It found rare cases, some life-threatening, and many were atypical: blood sugar wasn't as high as doctors would expect, which could delay diagnosis. The review made five recommendations:\n\n- Stop immediately if ketoacidosis is suspected, and don't restart unless another cause has been found and resolved.\n- Use caution when risk factors are present: low insulin reserve, a sudden cut in insulin dose, illness, surgery, alcohol misuse, poor intake or dehydration.\n- Pause treatment for major surgery or a hospital stay with serious illness.\n- Remember that SGLT2 inhibitors weren't authorised for type 1 diabetes.\n- The benefits still outweigh the risks.\n\nEvery one of these points is in today's SmPC."
+        },
+        {
+          "type": "text",
+          "markdown": "## 2016–2017: the amputation question\n\nIn March 2016, the CANVAS trial of canagliflozin, another SGLT2 inhibitor, showed about twice as many lower-limb amputations as placebo, mostly of toes. The European Commission started an **Article 20 procedure**, an EU-wide safety review. In July 2016, because all SGLT2 inhibitors share the same mechanism and a class effect couldn't be ruled out, the review was widened to the whole class.\n\nIn February 2017 the EMA's safety committee, the **PRAC**, concluded that no increased risk had been seen with dapagliflozin or empagliflozin. However, the data were limited, so the risk might still apply to them. Every SGLT2 inhibitor now carries a warning about foot care. The dapagliflozin SmPC still says it is 'unknown whether this constitutes a class effect'."
+        },
+        {
+          "type": "text",
+          "markdown": "## A kidney trial that was also a safety study\n\nDAPA-CKD had a second job. In the risk management plan, it was listed as a **post-authorisation safety study** (PASS), meaning a study required after approval to check a specific risk. Here, that risk was amputation.\n\nSo the trial that won the kidney indication was also collecting evidence on the class's amputation question."
+        },
+        {
+          "type": "text",
+          "markdown": "## 2021: a safety letter to end an indication\n\nWhen the type 1 diabetes indication was withdrawn in 2021, prescribers were informed by a direct healthcare professional communication (DHPC), a safety letter agreed with the regulator. It explained four points:\n\n- The 5 mg dose should no longer be used for type 1 diabetes.\n- The withdrawal wasn't due to a new safety concern.\n- Diabetic ketoacidosis had been common in the type 1 trials.\n- Patients should stop in consultation with a specialist.\n\nThe extra safety materials that had supported the type 1 indication were discontinued."
+        },
+        {
+          "type": "text",
+          "markdown": "## Regular check-ups and the risk plan\n\nThe EPAR lists periodic safety update single assessments (PSUSAs) for dapagliflozin from 2017, 2022 and 2024. Their outcomes haven't been read for this module yet. The risk management plan was last updated in June 2026.\n\nOne point to note: the SmPC's list of side effects already includes items added after the medicine was launched, such as Fournier's gangrene, angioedema and tubulointerstitial nephritis."
+        },
+        {
+          "type": "text",
+          "markdown": "## What triggers a refresh\n\n- Updated Forxiga product information from the EMA\n- A PSUSA that ends in a label change\n- A PRAC signal on SGLT2 inhibitors\n\nThe current basis is the product information published on 12 March 2026. The items to watch are amputation (still an open class question) and ketoacidosis around surgery and illness."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "dap-l13-pharmacovigilance-fc1",
+              "front": "2016 ketoacidosis review",
+              "back": "Found atypical cases with only moderately high sugar. Stop if ketoacidosis is suspected, pause for surgery or serious illness, and take care when risk factors are present."
+            },
+            {
+              "id": "dap-l13-pharmacovigilance-fc2",
+              "front": "2017 amputation review",
+              "back": "Triggered by canagliflozin in CANVAS and extended to the whole class. No increase was seen with dapagliflozin, but data were limited, so there is a class warning on foot care."
+            },
+            {
+              "id": "dap-l13-pharmacovigilance-fc3",
+              "front": "PASS",
+              "back": "A post-authorisation safety study. DAPA-CKD doubled as the PASS for dapagliflozin's amputation risk."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "dap-l13-pharmacovigilance-q1",
+              "stem": "Why does the dapagliflozin SmPC carry an amputation warning?",
+              "options": [
+                "DECLARE showed more amputations with dapagliflozin",
+                "A class review started by canagliflozin's CANVAS trial concluded that a class effect couldn't be excluded, even though no increase was seen with dapagliflozin",
+                "The FDA required it",
+                "Amputation is a common side effect"
+              ],
+              "correctIndex": 1,
+              "explanation": "The PRAC widened the canagliflozin review to all SGLT2 inhibitors because they share a mechanism. With limited data, it applied a foot-care warning to the whole class."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Forxiga, EU SmPC, EMA product information updated 12 March 2026. Sections 4.4 and 4.8.\n2. **Pharmacovigilance** — EMA press release, 'EMA confirms recommendations to minimise ketoacidosis risk with SGLT2 inhibitors for diabetes' (2016).\n3. **Pharmacovigilance** — PRAC press release EMA/76661/2017 and Annex IV scientific conclusions, Article 20 procedure on SGLT2 inhibitors (amputation).\n4. **EPAR** — Forxiga variation assessment report WS-1941 (DAPA-CKD as a category 3 PASS); EPAR page (PSUSA and RMP listings).\n5. **Pharmacovigilance** — DHPC, 'Forxiga 5 mg should no longer be used for the treatment of type 1 diabetes mellitus' (2021)."
+        }
+      ]
+    },
+    {
+      "id": "dap-l14-esc-guidelines",
+      "title": "Where the ESC guidelines place it",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Three guidelines, one medicine\n\nDapagliflozin has three indications, and three ESC guidelines cover them: heart failure, diabetes with cardiovascular disease, and (through both) kidney disease. Guidelines advise on practice; they don't change the licence.\n\nEach recommendation has a **class of recommendation** (I means 'is recommended') and a **level of evidence** (A means several randomised trials)."
+        },
+        {
+          "type": "text",
+          "markdown": "## Heart failure with reduced pumping\n\nThe 2021 ESC heart-failure guideline built its treatment plan for reduced ejection fraction on **four pillars**: the four drug classes that every suitable patient should receive:\n\n- an ACE inhibitor, ARB or ARNI\n- a beta-blocker\n- a mineralocorticoid receptor antagonist\n- an SGLT2 inhibitor, dapagliflozin or empagliflozin\n\nDAPA-HF is the trial behind dapagliflozin's place among them."
+        },
+        {
+          "type": "text",
+          "markdown": "## Heart failure with better pumping\n\nThe 2023 focused update extended the recommendation. Dapagliflozin or empagliflozin is now **recommended (Class I, level A)** in heart failure with mildly reduced ejection fraction (41–49%) and in heart failure with preserved ejection fraction (50% or above). The goal is to reduce heart-failure hospitalisation or cardiovascular death.\n\nThat makes SGLT2 inhibitors, along with diuretics for fluid, the only Class I drugs in those groups. The other pillars stay at the weaker Class IIb in mildly reduced ejection fraction, and have no specific recommendation in preserved ejection fraction. DELIVER, and empagliflozin's EMPEROR-Preserved, are the trials behind the change."
+        },
+        {
+          "type": "text",
+          "markdown": "## Diabetes and kidney disease\n\nThe same 2023 update recommends dapagliflozin or empagliflozin (Class I, level A) for people with type 2 diabetes and chronic kidney disease, to reduce heart-failure hospitalisation or cardiovascular death.\n\nThe 2023 ESC diabetes guideline recommends an SGLT2 inhibitor and/or a GLP-1 receptor agonist in type 2 diabetes with atherosclerotic cardiovascular disease, whatever the blood sugar. It also recommends SGLT2 inhibitors in heart failure."
+        },
+        {
+          "type": "compare",
+          "title": "The label and the guidelines",
+          "items": [
+            {
+              "id": "forxiga-smpc",
+              "label": "Forxiga SmPC"
+            },
+            {
+              "id": "esc-guidelines",
+              "label": "ESC guidelines"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "heart-failure",
+              "label": "Heart failure",
+              "values": [
+                "any ejection fraction",
+                "One of four pillars in reduced ejection fraction; Class I A above 40%"
+              ]
+            },
+            {
+              "id": "kidney-disease",
+              "label": "Kidney disease",
+              "values": [
+                "Chronic kidney disease: adults, broad wording",
+                "Class I A in type 2 diabetes plus chronic kidney disease"
+              ]
+            },
+            {
+              "id": "diabetes",
+              "label": "Diabetes",
+              "values": [
+                "Type 2 diabetes: monotherapy only if metformin isn't tolerated",
+                "SGLT2 inhibitor or GLP-1 RA in diabetes with cardiovascular disease, whatever the sugar"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Where the label and guidelines line up\n\nHere the label and the guidelines match closely, unlike the sitagliptin module, where the label lagged behind practice. Both drop the ejection-fraction split for SGLT2 inhibitors, and both place the heart and kidney uses outside a pure blood-sugar logic.\n\nOne gap remains. The guidelines recommend the whole SGLT2 inhibitor class in chronic kidney disease, but the Forxiga SmPC notes that it has no experience in patients who have neither diabetes nor albuminuria."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "dap-l14-esc-guidelines-fc1",
+              "front": "Four pillars",
+              "back": "The core drugs for heart failure with reduced ejection fraction: an ACE inhibitor, ARB or ARNI; a beta-blocker; an MRA; and an SGLT2 inhibitor such as dapagliflozin."
+            },
+            {
+              "id": "dap-l14-esc-guidelines-fc2",
+              "front": "ESC 2023: ejection fraction above 40%",
+              "back": "Dapagliflozin or empagliflozin is Class I A in mildly reduced and preserved ejection fraction. The other pillars are only Class IIb in mildly reduced ejection fraction, with no specific recommendation in preserved."
+            },
+            {
+              "id": "dap-l14-esc-guidelines-fc3",
+              "front": "ESC 2023: type 2 diabetes plus kidney disease",
+              "back": "Dapagliflozin or empagliflozin is recommended (Class I A) to reduce heart-failure hospitalisation or cardiovascular death."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "dap-l14-esc-guidelines-q1",
+              "stem": "According to the 2023 ESC focused update, which drug classes have a Class I recommendation in heart failure with preserved ejection fraction?",
+              "options": [
+                "Beta-blockers and MRAs",
+                "SGLT2 inhibitors (dapagliflozin or empagliflozin), plus diuretics for fluid",
+                "ACE inhibitors only",
+                "None"
+              ],
+              "correctIndex": 1,
+              "explanation": "The update made SGLT2 inhibitors Class I A for ejection fraction above 40%. Diuretics are recommended for congestion. The other pillars have no specific recommendation in preserved ejection fraction."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Forxiga, EU SmPC, EMA product information updated 12 March 2026. Sections 4.1, 4.4, 5.1.\n2. **ESC guidelines** — McDonagh TA et al. 2023 Focused Update of the 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. *Eur Heart J* 2023 (read via ACC 'Ten points to remember' and PACE-CME summaries; verify against the full text).\n3. **ESC guidelines** — 2021 ESC heart failure guidelines (four-pillar algorithm, via a Medscape/MDedge report).\n4. **ESC guidelines** — Marx N et al. 2023 ESC Guidelines for the management of cardiovascular disease in patients with diabetes. *Eur Heart J* 2023;44:4043–140."
+        }
+      ]
+    },
+    {
+      "id": "dap-l15-recap",
+      "title": "One-page recap",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Dapagliflozin on one page\n\n*Basis: Forxiga EU SmPC, product information published by the EMA on 12 March 2026. Next refresh: March 2027.*\n\n**What it is.** An SGLT2 inhibitor. It blocks sugar and salt reabsorption in the kidney, and about 70 g of sugar a day leaves in the urine. It works independently of insulin. Its heart and kidney effects work through salt, water and pressure, not only through blood sugar.\n\n**What it's approved for.** Type 2 diabetes (from age 10), symptomatic chronic heart failure at any ejection fraction, and chronic kidney disease in adults. The heart and kidney uses don't require diabetes. Type 1 diabetes was approved in 2019 and withdrawn in 2021.\n\n**How it's taken.** 10 mg once a day for all indications, with or without food. There's no dose change for kidney function, but don't start below GFR 25. Start at 5 mg in severe liver impairment. Pause for surgery or acute illness."
+        },
+        {
+          "type": "text",
+          "markdown": "**What it does.**\n- Blood sugar: about −0.5 to −0.7 points added to other medicines. The effect fades below GFR 45.\n- Diabetes (DECLARE): no effect on heart attacks or strokes. Fewer heart-failure hospitalisations: 2.5% vs 3.3%.\n- Heart failure: HR 0.74 (DAPA-HF) and HR 0.82 (DELIVER). Pooled cardiovascular death HR 0.85.\n- Kidneys (DAPA-CKD): 9.2% vs 14.5%, with and without diabetes, and fewer deaths.\n\n**Safety.** Genital infections (5.5% vs 0.6%). Ketoacidosis, including with near-normal blood sugar. Fournier's gangrene (very rare). Volume depletion. A small, expected early dip in eGFR. Class warnings from EU reviews on ketoacidosis (2016) and amputation (2017). The only contraindication is allergy.\n\n**Combinations.** Licensed tablets with metformin (Xigduo) and with saxagliptin (Qtern). It adds to exenatide, sitagliptin and blood-pressure medicines. There's no statin combination licence; a phase 3 single-tablet trial with rosuvastatin is under way.\n\n**Guidelines.** One of four pillars in reduced ejection fraction. ESC Class I A above 40% ejection fraction, and in type 2 diabetes with chronic kidney disease."
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "dap-l15-recap-q1",
+              "stem": "What best describes dapagliflozin's cardiovascular evidence?",
+              "options": [
+                "It reduces heart attacks and strokes",
+                "It is neutral on heart attacks and strokes, but consistently reduces heart-failure events, and it protects the kidneys",
+                "It was only tested in diabetes",
+                "It increases heart failure"
+              ],
+              "correctIndex": 1,
+              "explanation": "DECLARE was neutral on heart attacks and strokes. DAPA-HF, DELIVER and DECLARE all reduced heart-failure hospitalisation, and DAPA-CKD protected the kidneys."
+            },
+            {
+              "id": "dap-l15-recap-q2",
+              "stem": "A patient with GFR 22 asks to start dapagliflozin for chronic kidney disease. What does the SmPC say?",
+              "options": [
+                "Start at 5 mg",
+                "Starting isn't recommended below GFR 25 because experience is limited. People already on treatment may continue.",
+                "It is contraindicated",
+                "Start at 20 mg"
+              ],
+              "correctIndex": 1,
+              "explanation": "The GFR 25 limit applies to starting treatment. In DAPA-CKD, patients continued below 25 and even onto dialysis."
+            },
+            {
+              "id": "dap-l15-recap-q3",
+              "stem": "Why was the type 1 diabetes indication removed?",
+              "options": [
+                "A new safety signal emerged",
+                "The company decided to withdraw it; there was no new safety concern, although ketoacidosis was common in the type 1 trials",
+                "The FDA required it",
+                "It never worked"
+              ],
+              "correctIndex": 1,
+              "explanation": "The 2021 DHPC and the MHRA both stressed that no new safety concern was involved."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Forxiga, EU SmPC, EMA product information updated 12 March 2026.\n2. **PIL** — Forxiga package leaflet.\n3. **EPAR** — Forxiga EPAR (variation reports WS-1539, WS-1737, WS-1941, WS-1952, WS-2299; Article 20 reports); Xigduo and Qtern EPARs.\n4. **Pharmacovigilance** — EMA/PRAC communications on ketoacidosis (2016) and amputation (2017); the type 1 diabetes DHPC (2021).\n5. **Journal** — DECLARE, DAPA-HF, DELIVER and DAPA-CKD (*N Engl J Med* 2019–2022).\n6. **ESC guidelines** — 2021 heart-failure guidelines and 2023 focused update; 2023 diabetes guidelines.\n\nEvery point here is covered in more detail, with its source, in Lessons 1–14."
         }
       ]
     }

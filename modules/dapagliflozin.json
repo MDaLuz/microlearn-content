@@ -3,7 +3,7 @@
   "id": "dapagliflozin",
   "title": "Dapagliflozin",
   "discipline": "Molecules",
-  "version": 7,
+  "version": 8,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Forxiga 5/10 mg product information published by the EMA on 12 March 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -750,7 +750,7 @@
         },
         {
           "type": "text",
-          "markdown": "### Trial card: DAPA-CKD\nTag: 🔗 +ANTIHTN\n\n- Registry: NCT03036150\n- Who took part: 4,304 adults with chronic kidney disease, eGFR 25–75 and albuminuria (mean eGFR 43); 67.5% had type 2 diabetes\n- Background therapy: standard care, with 97% on an ACE inhibitor or ARB\n- Compared with: placebo, over a median of 28.5 months, stopped early for efficacy\n- Main question: does dapagliflozin reduce a sustained fall in eGFR of at least 50%, kidney failure, or kidney or cardiovascular death?\n- Headline result: 9.2% vs 14.5%, about 39% lower in relative terms and 5.3 percentage points lower in absolute terms. The effect was visible from month 4.\n- In plain words: dapagliflozin slowed kidney disease and cut deaths, with or without diabetes (HR 0.64 with diabetes, 0.50 without).\n- Worth knowing: death from any cause was also significantly lower. Because the trial stopped early, the effect may be overstated."
+          "markdown": "### Trial card: DAPA-CKD\nTag: 🔗 +ANTIHTN\n\n- Registry: NCT03036150\n- Who took part: 4,304 adults with chronic kidney disease, eGFR 25–75 and albuminuria (mean eGFR 43); 67.5% had type 2 diabetes\n- Background therapy: standard care, with 97% on an ACE inhibitor or ARB\n- Compared with: placebo, over a median of 28.5 months, stopped early for efficacy\n- Main question: does dapagliflozin reduce a sustained fall in eGFR of at least 50%, kidney failure, or kidney or cardiovascular death?\n- Headline result: 9.2% vs 14.5%, about 39% lower in relative terms and 5.3 percentage points lower in absolute terms. The effect was visible from month 4.\n- In plain words: dapagliflozin slowed kidney disease and cut deaths, with or without diabetes (HR 0.64 with diabetes, 0.50 without).\n- Worth knowing: death from any cause was also significantly lower. Because the trial stopped early, the effect may be overstated. It was also the safety study used to track the class's amputation signal."
         },
         {
           "type": "text",
@@ -911,7 +911,7 @@
               "values": [
                 "Monotherapy licensed only if metformin isn't tolerated",
                 "Licensed as Xigduo / Ebymect",
-                "No combination trial or licence found"
+                "No licence; a phase 3 single-tablet trial with rosuvastatin is under way"
               ]
             }
           ]
@@ -977,19 +977,19 @@
         },
         {
           "type": "text",
-          "markdown": "### Trial card: starting dapagliflozin and metformin together\nTag: MONO\n\n- Registry: not yet matched\n- Who took part: adults with type 2 diabetes not on any medicine, HbA1c 7.5–12% (average about 9.0%); 1,236 patients across two studies\n- Background therapy: none. Both medicines were started at the same time.\n- Compared with: dapagliflozin alone and metformin alone, over 24 weeks\n- Main question: does starting both medicines together lower HbA1c more than either alone?\n- Headline result: HbA1c fell 1.98 points with the combination (211 patients), 1.45 with dapagliflozin and 1.44 with metformin. The combination did about 0.5 points better than either alone.\n- In plain words: starting both together worked better than starting one.\n- Worth knowing: dapagliflozin alone matched metformin alone here (difference −0.01). Even so, the licence allows dapagliflozin on its own only when metformin isn't tolerated."
+          "markdown": "### Trial card: starting dapagliflozin and metformin together\nTag: MONO\n\n- Registry: NCT00643851 and NCT00859898\n- Who took part: adults with type 2 diabetes not on any medicine, HbA1c 7.5–12% (average about 9.0%); 1,236 patients across two studies\n- Background therapy: none. Both medicines were started at the same time.\n- Compared with: dapagliflozin alone and metformin alone, over 24 weeks\n- Main question: does starting both medicines together lower HbA1c more than either alone?\n- Headline result: HbA1c fell 1.98 points with the combination (211 patients), 1.45 with dapagliflozin and 1.44 with metformin. The combination did about 0.5 points better than either alone.\n- In plain words: starting both together worked better than starting one.\n- Worth knowing: dapagliflozin alone matched metformin alone here (difference −0.01). Even so, the licence allows dapagliflozin on its own only when metformin isn't tolerated."
         },
         {
           "type": "text",
-          "markdown": "### Trial card: blood-pressure studies on an ACE inhibitor or ARB\nTag: 🔗 +ANTIHTN\n\n- Registry: not yet matched (two 12-week studies)\n- Who took part: 1,062 adults with type 2 diabetes and high blood pressure, not controlled despite stable treatment. In one study patients were on an ACE inhibitor or ARB; in the other, on an ACE inhibitor or ARB plus one more blood-pressure medicine.\n- Background therapy: an ACE inhibitor or ARB, with or without one more blood-pressure medicine\n- Compared with: placebo, over 12 weeks\n- Main question: does dapagliflozin lower HbA1c and blood pressure on top of blood-pressure treatment?\n- Headline result: systolic blood pressure fell 3.1 and 4.3 mmHg more than with placebo in the two studies. HbA1c also improved; the SmPC doesn't give the figure.\n- In plain words: on top of existing blood-pressure medicines, dapagliflozin lowered systolic pressure a few more points.\n- Worth knowing: the effect is modest, and it's larger when blood sugar is very high. The SmPC asks for caution when a fall in blood pressure could be risky, for example in older people or those with a history of low blood pressure."
+          "markdown": "### Trial card: blood-pressure studies on an ACE inhibitor or ARB\nTag: 🔗 +ANTIHTN\n\n- Registry: NCT01137474 and NCT01195662 (two 12-week studies)\n- Who took part: 1,062 adults with type 2 diabetes and high blood pressure, not controlled despite stable treatment. In one study patients were on an ACE inhibitor or ARB; in the other, on an ACE inhibitor or ARB plus one more blood-pressure medicine.\n- Background therapy: an ACE inhibitor or ARB, with or without one more blood-pressure medicine\n- Compared with: placebo, over 12 weeks\n- Main question: does dapagliflozin lower HbA1c and blood pressure on top of blood-pressure treatment?\n- Headline result: systolic blood pressure fell 3.1 and 4.3 mmHg more than with placebo in the two studies. HbA1c also improved; the SmPC doesn't give the figure.\n- In plain words: on top of existing blood-pressure medicines, dapagliflozin lowered systolic pressure a few more points.\n- Worth knowing: the effect is modest, and it's larger when blood sugar is very high. The SmPC asks for caution when a fall in blood pressure could be risky, for example in older people or those with a history of low blood pressure."
         },
         {
           "type": "text",
-          "markdown": "### Trial card: added to insulin\nTag: 🔗 +INSULIN\n\n- Registry: not yet matched\n- Who took part: 387 adults on insulin, half also on one or two oral diabetes medicines\n- Background therapy: insulin, with or without oral diabetes medicines\n- Compared with: placebo added, over 24 weeks with extensions to 104 weeks\n- Main question: does adding dapagliflozin improve control and reduce the insulin dose needed?\n- Headline result: HbA1c fell 0.60 points more than with placebo at 24 weeks. The daily insulin dose was 6.2 units lower than with placebo. At 104 weeks, HbA1c was −0.71 vs −0.06.\n- In plain words: dapagliflozin lowered blood sugar while insulin doses stayed flat. On placebo, doses kept rising.\n- Worth knowing: minor hypoglycaemia was 40.3% vs 34.0% at 24 weeks; major hypoglycaemia was 0.5% in both groups. By 104 weeks, 72.4% of patients were still in the trial on dapagliflozin vs 54.8% on placebo."
+          "markdown": "### Trial card: added to insulin\nTag: 🔗 +INSULIN\n\n- Registry: NCT00673231\n- Who took part: 387 adults on insulin, half also on one or two oral diabetes medicines\n- Background therapy: insulin, with or without oral diabetes medicines\n- Compared with: placebo added, over 24 weeks with extensions to 104 weeks\n- Main question: does adding dapagliflozin improve control and reduce the insulin dose needed?\n- Headline result: HbA1c fell 0.60 points more than with placebo at 24 weeks. The daily insulin dose was 6.2 units lower than with placebo. At 104 weeks, HbA1c was −0.71 vs −0.06.\n- In plain words: dapagliflozin lowered blood sugar while insulin doses stayed flat. On placebo, doses kept rising.\n- Worth knowing: minor hypoglycaemia was 40.3% vs 34.0% at 24 weeks; major hypoglycaemia was 0.5% in both groups. By 104 weeks, 72.4% of patients were still in the trial on dapagliflozin vs 54.8% on placebo."
         },
         {
           "type": "text",
-          "markdown": "## The register list\n\nThis list was compiled from the SmPC and the trials already cited in this module on 27 September 2026. It isn't a structured export from a trial register.\n\nMONO\n- Starting with metformin (two studies) · not yet matched · 24 weeks\n\n🔗 +MET\n- Added to metformin · not yet matched · 24 weeks, extended to 102\n- DURATION-8 (with exenatide) · NCT02229396 · 28 weeks\n- Against glipizide · not yet matched · 52 weeks, extended to 208\n\n🔗 +DPP4\n- Added to sitagliptin, with or without metformin · NCT00984867 · 24 + 24 weeks\n\n🔗 +SU / 🔗 +MET+SU\n- Added to glimepiride · 24 weeks, extended to 48 · −0.68 points\n- Added to metformin plus a sulphonylurea · 24 weeks · −0.69 points\n\n🔗 +INSULIN\n- Added to insulin · 24 weeks, extended to 104\n\n🔗 +ANTIHTN\n- Two blood-pressure studies · 12 weeks\n- DAPA-CKD · NCT03036150 · outcomes\n\n🔗 +HF-SOC\n- DAPA-HF · NCT03036124 · DELIVER · NCT03619213\n\n🔗 +STATIN\n- No combination trial found. There is only a single-dose interaction study with simvastatin."
+          "markdown": "## The register list\n\nThis list was compiled from the SmPC and the trials already cited in this module on 27 September 2026, with registry numbers matched on ClinicalTrials.gov on 30 September 2026. It isn't a structured export from a trial register.\n\nMONO\n- Starting with metformin (two studies) · NCT00643851, NCT00859898 · 24 weeks\n\n🔗 +MET\n- Added to metformin · NCT00528879 · 24 weeks, extended to 102\n- DURATION-8 (with exenatide) · NCT02229396 · 28 weeks\n- Against glipizide · NCT00660907 · 52 weeks, extended to 208\n\n🔗 +DPP4\n- Added to sitagliptin, with or without metformin · NCT00984867 · 24 + 24 weeks\n\n🔗 +SU / 🔗 +MET+SU\n- Added to glimepiride · NCT00680745 · 24 weeks, extended to 48 · −0.68 points\n- Added to metformin plus a sulphonylurea · NCT01392677 · 24 weeks · −0.69 points\n\n🔗 +INSULIN\n- Added to insulin · NCT00673231 · 24 weeks, extended to 104\n\n🔗 +ANTIHTN\n- Two blood-pressure studies · NCT01137474, NCT01195662 · 12 weeks\n- DAPA-CKD · NCT03036150 · outcomes\n\n🔗 +HF-SOC\n- DAPA-HF · NCT03036124 · DELIVER · NCT03619213\n\n🔗 +STATIN\n- Dapagliflozin + rosuvastatin in one tablet (phase 3, recruiting) · NCT06772168\n- Single-dose interaction study with simvastatin and valsartan · NCT00839683"
         },
         {
           "type": "flashcard",
@@ -1003,7 +1003,7 @@
             {
               "id": "dap-l09-combination-trials-fc2",
               "front": "Dapagliflozin + statin",
-              "back": "Simvastatin exposure +19% (not relevant). LDL +2.9% vs −1.0%. No combination trial or licence found."
+              "back": "Simvastatin exposure +19% (not relevant). LDL +2.9% vs −1.0%. No licence; a phase 3 single-tablet trial with rosuvastatin is under way."
             },
             {
               "id": "dap-l09-combination-trials-fc3",
@@ -1032,7 +1032,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **SmPC** — Forxiga, EU SmPC, EMA product information updated 12 March 2026. Sections 4.1, 4.2, 4.4, 4.5, 4.8, 5.1 (Tables 3–8; blood-pressure and pooled analyses).\n2. **EPAR (combinations)** — Xigduo EPAR overview; Qtern EPAR overview; WS-1539 (Edistride and Ebymect).\n3. **Registers** — ClinicalTrials.gov NCT02229396, NCT00984867, NCT03036150, NCT03036124 and NCT03619213 (numbers to be verified).\n4. **Journal** — Jabbour SA et al. *Diabetes Care* 2014;37:740–50 (added to sitagliptin); DURATION-8 primary publication (to be added after verification)."
+          "markdown": "## Sources\n\n1. **SmPC** — Forxiga, EU SmPC, EMA product information updated 12 March 2026. Sections 4.1, 4.2, 4.4, 4.5, 4.8, 5.1 (Tables 3–8; blood-pressure and pooled analyses).\n2. **EPAR (combinations)** — Xigduo EPAR overview; Qtern EPAR overview; WS-1539 (Edistride and Ebymect).\n3. **Registers** — ClinicalTrials.gov NCT02229396, NCT00984867, NCT03036150, NCT03036124 and NCT03619213; for the other register-list numbers, see the list itself.\n4. **Journal** — Jabbour SA et al. *Diabetes Care* 2014;37:740–50 (added to sitagliptin); DURATION-8 primary publication (to be added after verification)."
         }
       ]
     },

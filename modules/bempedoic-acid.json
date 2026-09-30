@@ -3,7 +3,7 @@
   "id": "bempedoic-acid",
   "title": "Bempedoic acid",
   "discipline": "Molecules",
-  "version": 4,
+  "version": 5,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Nilemdo and Nustendi product information published by the EMA on 27 February 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -21,7 +21,7 @@
         },
         {
           "type": "text",
-          "markdown": "## What it does to LDL\n\nIn four 12-week trials against placebo:\n\n- **On top of the highest tolerated statin dose:** LDL fell 15–17% on bempedoic acid, while it rose about 2% on placebo.\n- **In people who couldn't take statins:** LDL fell 23–24%, compared with −1% to +5% on placebo.\n\nThe reduction is smaller on top of a statin than without one."
+          "markdown": "## What it does to LDL\n\nIn four 12-week trials against placebo:\n\n- **On top of the highest tolerated statin dose:** LDL fell 15–17% on bempedoic acid, while it rose about 2% on placebo.\n- **In people who couldn't take statins:** LDL fell 23–24%, compared with −1% to +5% on placebo.\n\nThe full effect appears within about four weeks. The reduction is smaller on top of a statin than without one."
         },
         {
           "type": "text",
@@ -986,7 +986,7 @@
         },
         {
           "type": "text",
-          "markdown": "### Trial card: triple combination with atorvastatin\nTag: 🔗 FDC\n\n- Registry: not found in this pass\n- Who took part: adults with high cholesterol (phase 2)\n- Background therapy: atorvastatin 20 mg\n- Compared with: placebo, in a phase 2 trial\n- Main question: how far can the bempedoic acid/ezetimibe combination tablet lower LDL on top of a statin?\n- Headline result: LDL fell by 64% vs placebo. 95% of patients achieved a reduction of at least 50%, and 90% reached below 70 mg/dL. hsCRP fell by 48%.\n- In plain words: three mechanisms together gave a very large LDL reduction.\n- Worth knowing: these figures come from a company press release, not from the SmPC or a peer-reviewed paper found in this pass. No EU triple tablet exists."
+          "markdown": "### Trial card: triple combination with atorvastatin\nTag: 🔗 FDC\n\n- Registry: NCT03051100\n- Who took part: adults with high cholesterol (phase 2)\n- Background therapy: atorvastatin 20 mg\n- Compared with: placebo, in a phase 2 trial\n- Main question: how far can the bempedoic acid/ezetimibe combination tablet lower LDL on top of a statin?\n- Headline result: LDL fell by 64% vs placebo. 95% of patients achieved a reduction of at least 50%, and 90% reached below 70 mg/dL. hsCRP fell by 48%.\n- In plain words: three mechanisms together gave a very large LDL reduction.\n- Worth knowing: these figures come from a company press release, not from the SmPC or a peer-reviewed paper found in this pass. No EU triple tablet exists."
         },
         {
           "type": "text",
@@ -994,7 +994,7 @@
         },
         {
           "type": "text",
-          "markdown": "## The register list\n\nThis list was compiled from the SmPCs, publications and ClinicalTrials.gov on 29 September 2026. It isn't a structured export.\n\n🔗 +STATIN\n- CLEAR Harmony · NCT02666664 · 52 weeks\n- CLEAR Wisdom · NCT02991118 · 52 weeks\n\n🔗 +EZE\n- CLEAR Tranquility · NCT03001076 · 12 weeks\n\n🔗 FDC\n- CLEAR Combo · NCT03337308 · 12 weeks\n- Triple combination with atorvastatin (phase 2) · registry not found · press release only\n\n🔗 +PCSK9\n- Added to evolocumab · NCT03193047 · 2 months · published 2021\n- With a PCSK9 inhibitor plus ezetimibe (phase 4 crossover) · NCT06381947 · results not found\n\nSTATIN-INTOLERANT\n- CLEAR Serenity · NCT02988115 · 24 weeks\n- CLEAR Outcomes · NCT02993406 · 3.4 years (including the diabetes analysis)\n\n🔗 +ANTIHTN · 🔗 +SGLT2 · 🔗 +GLP1\n- No dedicated trials found."
+          "markdown": "## The register list\n\nThis list was compiled from the SmPCs, publications and ClinicalTrials.gov on 29 September 2026. It isn't a structured export.\n\n🔗 +STATIN\n- CLEAR Harmony · NCT02666664 · 52 weeks\n- CLEAR Wisdom · NCT02991118 · 52 weeks\n\n🔗 +EZE\n- CLEAR Tranquility · NCT03001076 · 12 weeks\n\n🔗 FDC\n- CLEAR Combo · NCT03337308 · 12 weeks\n- Triple combination with atorvastatin (phase 2) · NCT03051100 · press release only\n\n🔗 +PCSK9\n- Added to evolocumab · NCT03193047 · 2 months · published 2021\n- With a PCSK9 inhibitor plus ezetimibe (phase 4 crossover) · NCT06381947 · results not found\n\nSTATIN-INTOLERANT\n- CLEAR Serenity · NCT02988115 · 24 weeks\n- CLEAR Outcomes · NCT02993406 · 3.4 years (including the diabetes analysis)\n\n🔗 +ANTIHTN · 🔗 +SGLT2 · 🔗 +GLP1\n- No dedicated trials found."
         },
         {
           "type": "flashcard",

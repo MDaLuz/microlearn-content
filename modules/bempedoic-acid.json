@@ -3,7 +3,7 @@
   "id": "bempedoic-acid",
   "title": "Bempedoic acid",
   "discipline": "Molecules",
-  "version": 3,
+  "version": 4,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Nilemdo and Nustendi product information published by the EMA on 27 February 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -858,6 +858,186 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Nilemdo, EU SmPC, EMA product information updated 27 February 2026. Section 5.1 (Tables 2–4).\n2. **SmPC** — Nustendi, EU SmPC, EMA product information updated 27 February 2026. Section 5.1 (CLEAR Combo).\n3. **EPAR** — Nustendi medicine overview (CLEAR Combo randomised population).\n4. **Journal** — Ray KK et al. CLEAR Harmony. *N Engl J Med* 2019. Goldberg AC et al. CLEAR Wisdom. *JAMA* 2019. Laufs U et al. CLEAR Serenity. *J Am Heart Assoc* 2019. Ballantyne CM et al. CLEAR Tranquility. *Atherosclerosis* 2018. Ballantyne CM et al. CLEAR Combo. *Eur J Prev Cardiol* 2020. Nissen SE et al. CLEAR Outcomes. *N Engl J Med* 2023;388:1353–64. (Citations to be verified.)"
+        }
+      ]
+    },
+    {
+      "id": "bem-l09-combination-trials",
+      "title": "🔗 Combination trials",
+      "xpReward": 90,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Six partners, three questions\n\nBempedoic acid is almost always added to other medicines. This lesson looks at six possible partners: a **statin**, **ezetimibe**, a **PCSK9 inhibitor** (an injected medicine that sharply lowers LDL), **blood-pressure medicines**, **SGLT2 inhibitors** and **GLP-1 receptor agonists**.\n\nFor each partner it asks the same three questions: what the licences name, what the SmPCs say, and which trials exist. For the last three partners, the honest answer is often 'nothing specific'."
+        },
+        {
+          "type": "text",
+          "markdown": "## What the licences name\n\n- **Nilemdo:** 'with a statin', 'statin with other lipid-lowering therapies', or 'alone or with other lipid-lowering therapies'. The cardiovascular indication names ezetimibe.\n- **Nustendi:** combines bempedoic acid with ezetimibe in a single tablet.\n\nThe phrase 'other lipid-lowering therapies' is broad. It doesn't exclude a PCSK9 inhibitor, but it doesn't name one either. Neither label mentions blood-pressure medicines, SGLT2 inhibitors or GLP-1 receptor agonists."
+        },
+        {
+          "type": "text",
+          "markdown": "## What the SmPCs say about each partner\n\n- **Statins:** bempedoic acid roughly doubles simvastatin acid levels and raises other statins 1.4–1.5 times. Simvastatin is limited to 20 mg a day (40 mg in severe cases; above 40 mg is contraindicated), and patients should be watched for muscle symptoms.\n- **Ezetimibe:** total exposure rises about 1.6 times. The SmPC says this isn't clinically meaningful.\n- **PCSK9 inhibitors:** no interaction line.\n- **Blood-pressure medicines:** the only line is for fimasartan, a blood-pressure medicine whose levels may rise because bempedoic acid weakly blocks the OATP transporters.\n- **SGLT2 inhibitors and GLP-1 receptor agonists:** no lines. The only diabetes medicines mentioned are metformin (bempedoic acid doesn't change its levels) and, in Nustendi's ezetimibe section, glipizide and tolbutamide (no change)."
+        },
+        {
+          "type": "compare",
+          "title": "Part 1: with a statin, ezetimibe or a PCSK9 inhibitor",
+          "items": [
+            {
+              "id": "statin",
+              "label": "+ Statin"
+            },
+            {
+              "id": "ezetimibe",
+              "label": "+ Ezetimibe"
+            },
+            {
+              "id": "pcsk9-inhibitor",
+              "label": "+ PCSK9 inhibitor"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "ldl-effect",
+              "label": "LDL effect",
+              "values": [
+                "LDL about −17 to −18 points vs placebo (Harmony, Wisdom)",
+                "LDL about −28.5 points (Tranquility); −36% with the Nustendi tablet",
+                "One phase 2 trial: LDL −30% vs placebo at 8 weeks"
+              ]
+            },
+            {
+              "id": "label-and-trials",
+              "label": "Label and trials",
+              "values": [
+                "Simvastatin limited to 20 mg (40 mg in severe cases); watch for muscle symptoms",
+                "Licensed as Nustendi",
+                "Excluded from CLEAR Harmony"
+              ]
+            },
+            {
+              "id": "also-note",
+              "label": "Also note",
+              "values": [
+                "No outcome trial on full-dose statins",
+                "Outcome subgroup: HR 0.94, wide interval",
+                "Not named in any licence"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "compare",
+          "title": "Part 2: with blood-pressure medicines, SGLT2 inhibitors or GLP-1 receptor agonists",
+          "items": [
+            {
+              "id": "blood-pressure-medicines",
+              "label": "+ Blood-pressure medicines"
+            },
+            {
+              "id": "sglt2-inhibitor",
+              "label": "+ SGLT2 inhibitor"
+            },
+            {
+              "id": "glp-1-receptor-agonist",
+              "label": "+ GLP-1 receptor agonist"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "closest-evidence",
+              "label": "Closest evidence",
+              "values": [
+                "85% of CLEAR Outcomes patients had high blood pressure",
+                "Closest evidence: the diabetes group in CLEAR Outcomes",
+                "Closest evidence: the diabetes group in CLEAR Outcomes"
+              ]
+            },
+            {
+              "id": "dedicated-trials",
+              "label": "Dedicated trials",
+              "values": [
+                "No dedicated trial found",
+                "No dedicated trial found",
+                "No dedicated trial found"
+              ]
+            },
+            {
+              "id": "smpc",
+              "label": "SmPC",
+              "values": [
+                "Only SmPC line: fimasartan",
+                "No SmPC line",
+                "No SmPC line"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## How to read the six columns\n\nPart 1 rests on real trials, of different sizes and lengths and with different starting LDL levels, so read each column on its own and don't compare them head-to-head. Part 2 mostly shows absence: no trial, no licence wording and no interaction line.\n\nAbsence of evidence isn't evidence of harm. Many patients in CLEAR Outcomes probably took these medicines as part of usual care. But the sources reviewed here don't report how many, so this module can't say what the combination does."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: bempedoic acid added to evolocumab\nTag: 🔗 +PCSK9\n\n- Registry: NCT03193047\n- Who took part: 59 adults with high cholesterol (LDL 160 mg/dL or above before treatment)\n- Background therapy: after a 1.5-month **washout period** (all lipid medicines stopped), everyone took evolocumab 420 mg a month for 3 months\n- Compared with: placebo added to evolocumab, randomised 1:1, over 2 months\n- Main question: does bempedoic acid lower LDL further on top of a PCSK9 inhibitor?\n- Headline result: LDL fell by 30.3% more than with placebo (p < 0.001), and hsCRP also fell significantly (p = 0.029). Safety was comparable to placebo.\n- In plain words: even on a strong injected medicine, bempedoic acid added about another third.\n- Worth knowing: this was a small, short phase 2 trial. Everyone had stopped their other lipid medicines first, which isn't how patients are usually treated. It's the only published randomised PCSK9 combination trial found."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: bempedoic acid, ezetimibe and a PCSK9 inhibitor\nTag: 🔗 +PCSK9\n\n- Registry: NCT06381947\n- Who took part: statin-intolerant high- or very-high-risk adults not at their LDL target despite at least 12 weeks on a PCSK9 inhibitor plus ezetimibe\n- Background therapy: a PCSK9 inhibitor plus ezetimibe\n- Compared with: an open-label **crossover design**, in which each patient receives both options in turn\n- Main question: does adding bempedoic acid to a PCSK9 inhibitor plus ezetimibe help statin-intolerant patients reach their target?\n- Headline result: no results found in this pass. The protocol is dated May 2023.\n- In plain words: this is the combination doctors actually face, and it's still being tested.\n- Worth knowing: this is an **investigator-initiated trial**, run by independent researchers rather than the company. Its registry entry states that no randomised phase 3 trial has tested this triple combination in statin-intolerant patients."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: triple combination with atorvastatin\nTag: 🔗 FDC\n\n- Registry: not found in this pass\n- Who took part: adults with high cholesterol (phase 2)\n- Background therapy: atorvastatin 20 mg\n- Compared with: placebo, in a phase 2 trial\n- Main question: how far can the bempedoic acid/ezetimibe combination tablet lower LDL on top of a statin?\n- Headline result: LDL fell by 64% vs placebo. 95% of patients achieved a reduction of at least 50%, and 90% reached below 70 mg/dL. hsCRP fell by 48%.\n- In plain words: three mechanisms together gave a very large LDL reduction.\n- Worth knowing: these figures come from a company press release, not from the SmPC or a peer-reviewed paper found in this pass. No EU triple tablet exists."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: CLEAR Outcomes in people with diabetes\nTag: STATIN-INTOLERANT\n\n- Registry: NCT02993406\n- Who took part: all 13,970 CLEAR Outcomes patients, grouped by blood sugar: 6,373 with diabetes (45.6%), 5,796 with prediabetes and 1,801 with normal blood sugar\n- Background therapy: varied; the use of diabetes medicines (including SGLT2 inhibitors and GLP-1 receptor agonists) wasn't reported in the sources read\n- Compared with: placebo, over a median of 3.4 years (a prespecified analysis)\n- Main question: does the benefit hold in diabetes, and does bempedoic acid cause new diabetes?\n- Headline result: in patients with diabetes, MACE-4 HR 0.83 (95% CI 0.72–0.95), an absolute reduction of 2.4 percentage points. New diabetes occurred in 11.1% vs 11.5% (HR 0.95, 95% CI 0.83–1.09).\n- In plain words: benefit held in diabetes, and unlike statins, bempedoic acid didn't raise the risk of new diabetes.\n- Worth knowing: there was no sign of **effect modification** (the benefit didn't differ between blood-sugar groups; interaction p = 0.42). This is the closest evidence available for the SGLT2 and GLP-1 columns, but it isn't a combination trial."
+        },
+        {
+          "type": "text",
+          "markdown": "## The register list\n\nThis list was compiled from the SmPCs, publications and ClinicalTrials.gov on 29 September 2026. It isn't a structured export.\n\n🔗 +STATIN\n- CLEAR Harmony · NCT02666664 · 52 weeks\n- CLEAR Wisdom · NCT02991118 · 52 weeks\n\n🔗 +EZE\n- CLEAR Tranquility · NCT03001076 · 12 weeks\n\n🔗 FDC\n- CLEAR Combo · NCT03337308 · 12 weeks\n- Triple combination with atorvastatin (phase 2) · registry not found · press release only\n\n🔗 +PCSK9\n- Added to evolocumab · NCT03193047 · 2 months · published 2021\n- With a PCSK9 inhibitor plus ezetimibe (phase 4 crossover) · NCT06381947 · results not found\n\nSTATIN-INTOLERANT\n- CLEAR Serenity · NCT02988115 · 24 weeks\n- CLEAR Outcomes · NCT02993406 · 3.4 years (including the diabetes analysis)\n\n🔗 +ANTIHTN · 🔗 +SGLT2 · 🔗 +GLP1\n- No dedicated trials found."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "bem-l09-combination-trials-fc1",
+              "front": "Bempedoic acid + PCSK9 inhibitor",
+              "back": "One phase 2 trial with 59 patients: LDL −30% vs placebo on evolocumab at 2 months. Not named in any licence; a phase 4 triple-combination trial is under way."
+            },
+            {
+              "id": "bem-l09-combination-trials-fc2",
+              "front": "Bempedoic acid in diabetes",
+              "back": "CLEAR Outcomes diabetes group: MACE-4 HR 0.83, 2.4 points lower in absolute terms. No increase in new diabetes (11.1% vs 11.5%)."
+            },
+            {
+              "id": "bem-l09-combination-trials-fc3",
+              "front": "The three empty columns",
+              "back": "Blood-pressure medicines, SGLT2 inhibitors and GLP-1 receptor agonists: no dedicated trials and no licence wording. The only SmPC line is fimasartan."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "bem-l09-combination-trials-q1",
+              "stem": "What can this module say about combining bempedoic acid with an SGLT2 inhibitor?",
+              "options": [
+                "It's contraindicated",
+                "A dedicated trial showed extra benefit",
+                "No dedicated trial or SmPC line was found. The closest evidence is the CLEAR Outcomes diabetes group, which isn't a combination trial.",
+                "The Nustendi label covers it"
+              ],
+              "correctIndex": 2,
+              "explanation": "No licence names SGLT2 inhibitors, and no interaction line or dedicated trial was found. Absence of evidence isn't evidence of harm, but it's also not proof of benefit."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Nilemdo, EU SmPC, EMA product information updated 27 February 2026. Sections 4.1, 4.4, 4.5, 5.1.\n2. **SmPC** — Nustendi, EU SmPC, EMA product information updated 27 February 2026. Sections 4.1, 4.5, 4.8, 5.1.\n3. **Journal** — Rubino J et al. Lipid lowering with bempedoic acid added to a PCSK9 inhibitor therapy. *J Clin Lipidol* 2021. NCT03193047.\n4. **Journal** — Ray KK et al. Efficacy and safety of bempedoic acid among patients with and without diabetes: prespecified analysis of the CLEAR Outcomes randomised trial. *Lancet Diabetes Endocrinol* 2024;12:19–28. NCT02993406.\n5. **Registers** — ClinicalTrials.gov NCT06381947 (protocol version 1.0, 2 May 2023).\n6. **Secondary** — Healio, 16 September 2017 (Esperion press release on the triple-combination phase 2 trial)."
         }
       ]
     }

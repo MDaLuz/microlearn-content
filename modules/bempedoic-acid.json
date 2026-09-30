@@ -3,7 +3,7 @@
   "id": "bempedoic-acid",
   "title": "Bempedoic acid",
   "discipline": "Molecules",
-  "version": 1,
+  "version": 2,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Nilemdo and Nustendi product information published by the EMA on 27 February 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -296,6 +296,348 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Nilemdo, EU SmPC, EMA product information updated 27 February 2026. Sections 3, 5.1, 9; package leaflet (local representatives).\n2. **EPAR** — Nilemdo: public assessment report (EMA/CHMP/86202/2020); CHMP summary of positive opinion (EMA/CHMP/44961/2020); variation assessment report II/0031 (EMA/287787/2024); CHMP post-authorisation summary of opinion II-31 (EMA/CHMP/115783/2024)."
+        }
+      ]
+    },
+    {
+      "id": "bem-l04-approved-uses",
+      "title": "What it's approved for",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Who it's for\n\nBoth products are for adults only, always as an **adjunct** (an add-on) to diet. The lipid indication covers two groups:\n\n- People with primary hypercholesterolaemia, including **heterozygous familial hypercholesterolaemia**, an inherited form passed on through one copy of the faulty gene.\n- People with **mixed dyslipidaemia**, where cholesterol and triglycerides are both raised.\n\nNeither product is licensed as a replacement for a statin in someone who can take one."
+        },
+        {
+          "type": "text",
+          "markdown": "## Nilemdo: two routes for cholesterol\n\n1. **Added to a statin** (with or without other lipid medicines), when LDL isn't at goal on the **maximum tolerated dose**: the highest statin dose a patient can take without unacceptable side effects.\n2. **Without a statin**, alone or with other lipid medicines, when the patient is statin-intolerant or a statin is contraindicated."
+        },
+        {
+          "type": "text",
+          "markdown": "## Nustendi: one step later\n\nNustendi's wording assumes ezetimibe has already been tried:\n\n1. **Added to a statin**, when LDL isn't at goal on the maximum tolerated statin dose *plus ezetimibe*.\n2. **Without a statin**, when the patient is statin-intolerant or a statin is contraindicated, and LDL isn't at goal on *ezetimibe alone*.\n3. **As a replacement** for bempedoic acid and ezetimibe already being taken as separate tablets.\n\nSo Nilemdo can be the next step after a statin, while Nustendi is the next step after a statin and ezetimibe."
+        },
+        {
+          "type": "text",
+          "markdown": "## The cardiovascular indication\n\nSince 2024, both products are also approved to reduce cardiovascular risk in adults who already have atherosclerotic disease, or who are at high risk of it. For people who already have the disease, this is **secondary prevention**. For high-risk people without it yet, it's **primary prevention**. The label ties the claim to LDL lowering ('by lowering LDL-C levels') and to correcting other risk factors.\n\nNilemdo can be used on top of the maximum tolerated statin dose, with or without ezetimibe, or on its own or with ezetimibe when a statin can't be taken. Nustendi again comes after ezetimibe has not been enough, or replaces the two separate tablets."
+        },
+        {
+          "type": "text",
+          "markdown": "## A caveat printed in the Nustendi label\n\nThe Nustendi SmPC is unusually candid about what the evidence doesn't show:\n\n- In CLEAR Outcomes, the group already taking ezetimibe at the start had a hazard ratio of 0.94 (95% CI 0.74–1.20). That interval includes no effect.\n- In the 335 high-risk patients on ezetimibe without established disease, LDL fell by 26.7%, but the reduction in cardiovascular risk couldn't be estimated.\n- The SmPC states that, in high-risk patients, evidence for the combination tablet covers only the effect on lipids.\n\nThe EU indication exists, but for primary prevention the outcome evidence is thin."
+        },
+        {
+          "type": "text",
+          "markdown": "## Notice what isn't there\n\n- **Children:** paediatric studies were *deferred* for Nilemdo (ages 4 to under 18) and *waived* for Nustendi, so neither product has children's data.\n- **Homozygous familial hypercholesterolaemia:** not in the wording.\n- **First-line use instead of a statin:** there's no such route for patients who can take a statin."
+        },
+        {
+          "type": "compare",
+          "title": "Where each product fits",
+          "items": [
+            {
+              "id": "nilemdo",
+              "label": "Nilemdo"
+            },
+            {
+              "id": "nustendi",
+              "label": "Nustendi"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "main-route",
+              "label": "Main route",
+              "values": [
+                "After the maximum tolerated statin dose",
+                "After statin plus ezetimibe, or ezetimibe alone"
+              ]
+            },
+            {
+              "id": "alternative",
+              "label": "Alternative",
+              "values": [
+                "Or without a statin if one can't be taken",
+                "Or replacing the two separate tablets"
+              ]
+            },
+            {
+              "id": "cardiovascular-use",
+              "label": "Cardiovascular use",
+              "values": [
+                "Cardiovascular indication with or without ezetimibe",
+                "Primary-prevention outcome evidence is thin"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "bem-l04-approved-uses-fc1",
+              "front": "Maximum tolerated dose",
+              "back": "The highest statin dose a patient can take without unacceptable side effects. Bempedoic acid is added when LDL isn't at goal on it."
+            },
+            {
+              "id": "bem-l04-approved-uses-fc2",
+              "front": "Nilemdo vs Nustendi in the treatment sequence",
+              "back": "Nilemdo is the next step after a statin. Nustendi is the next step after a statin plus ezetimibe (or ezetimibe alone), or replaces the two separate tablets."
+            },
+            {
+              "id": "bem-l04-approved-uses-fc3",
+              "front": "The Nustendi primary-prevention caveat",
+              "back": "In high-risk patients, the evidence for the combination tablet covers only lipid effects. In the CLEAR subgroup already on ezetimibe, HR was 0.94 (95% CI 0.74–1.20)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "bem-l04-approved-uses-q1",
+              "stem": "A statin-intolerant patient hasn't tried ezetimibe yet. Which product fits the label wording?",
+              "options": [
+                "Nustendi, straight away",
+                "Nilemdo, alone or with other lipid medicines. Nustendi is for patients not at goal on ezetimibe alone.",
+                "Neither",
+                "Only a statin"
+              ],
+              "correctIndex": 1,
+              "explanation": "Nustendi's statin-free route requires LDL not at goal on ezetimibe alone. Nilemdo can be used when a statin can't be taken, without that prior step."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Nilemdo, EU SmPC, EMA product information updated 27 February 2026. Sections 4.1, 4.2, 5.1.\n2. **SmPC** — Nustendi 180 mg/10 mg, EU SmPC (EMEA/H/C/004959), EMA product information updated 27 February 2026. Sections 4.1, 4.2, 4.4, 5.1."
+        }
+      ]
+    },
+    {
+      "id": "bem-l05-strengths-products",
+      "title": "Strengths and products",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Two tablets\n\n- **Nilemdo 180 mg:** a white to off-white oval **film-coated tablet** (a tablet with a thin outer layer), debossed '180' on one side and 'ESP' on the other. It contains 28.5 mg of lactose and needs no special storage.\n- **Nustendi 180 mg/10 mg:** a blue oval tablet, debossed '818' and 'ESP'. It contains 71.6 mg of lactose. It must be kept in the original pack to protect it from moisture, and its blisters include an extra moisture-barrier layer.\n\nFor both, lactose is the **excipient** (an ingredient other than the active substance) that matters most for patients. Both keep for three years and come in packs of 10 to 100 tablets."
+        },
+        {
+          "type": "text",
+          "markdown": "## One licence holder, several partners\n\nThe **MAH** (marketing authorisation holder, the company legally responsible for the product) of both products is Daiichi Sankyo Europe in Munich, and batches are released from Pfaffenhofen in Germany.\n\nEach patient leaflet lists a **local representative** for every country: the company patients and doctors contact there. The lists show a partner network:\n\n- Zentiva covers the Czech Republic, Slovakia, Croatia, Bulgaria and the Baltic states for both products.\n- Organon covers France for both products.\n- In the Nordic countries the split differs by product. For Nilemdo, Organon covers Denmark, Norway, Finland and Sweden. For Nustendi, Daiichi Sankyo Europe handles them directly."
+        },
+        {
+          "type": "text",
+          "markdown": "## The combination came first\n\nBoth products received their CHMP opinion on the same day, 30 January 2020. But Nustendi, the **fixed-dose combination** (two medicines in one tablet), was authorised on 27 March 2020, five days before Nilemdo on 1 April 2020. Both licences were renewed on 18 November 2024."
+        },
+        {
+          "type": "text",
+          "markdown": "## Is one tablet the same as two?\n\nThe Nustendi SmPC compares the combination tablet with bempedoic acid and ezetimibe taken as two separate tablets:\n\n- **Bempedoic acid:** exposure was similar.\n- **Ezetimibe:** peak levels were 13% lower, and 22% lower for its active glucuronide form, but total exposure was similar.\n\nThe SmPC judges the difference unlikely to be clinically significant. That's why Nustendi can replace the separate tablets."
+        },
+        {
+          "type": "compare",
+          "title": "Nilemdo vs Nustendi",
+          "items": [
+            {
+              "id": "nilemdo",
+              "label": "Nilemdo"
+            },
+            {
+              "id": "nustendi",
+              "label": "Nustendi"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "contents",
+              "label": "Contents",
+              "values": [
+                "Bempedoic acid 180 mg",
+                "Bempedoic acid 180 mg + ezetimibe 10 mg"
+              ]
+            },
+            {
+              "id": "tablet",
+              "label": "Tablet",
+              "values": [
+                "White tablet, '180'",
+                "Blue tablet, '818'"
+              ]
+            },
+            {
+              "id": "storage",
+              "label": "Storage",
+              "values": [
+                "No special storage",
+                "Keep in the original pack (protect from moisture)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Outside the EU\n\nThe US and Swiss labels haven't been reviewed for this module yet."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "bem-l05-strengths-products-fc1",
+              "front": "Tablet markings",
+              "back": "Nilemdo: white, '180' / 'ESP'. Nustendi: blue, '818' / 'ESP'."
+            },
+            {
+              "id": "bem-l05-strengths-products-fc2",
+              "front": "Who distributes where",
+              "back": "Daiichi Sankyo Europe holds both licences. Zentiva covers Central and Eastern Europe and the Baltics, and Organon covers France. In the Nordics, Organon covers Nilemdo while Daiichi covers Nustendi directly."
+            },
+            {
+              "id": "bem-l05-strengths-products-fc3",
+              "front": "Authorisation order",
+              "back": "Nustendi (the combination) was authorised on 27 March 2020, five days before Nilemdo on 1 April 2020. Both had the same CHMP opinion date."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "bem-l05-strengths-products-q1",
+              "stem": "Which product must be kept in its original pack to protect it from moisture?",
+              "options": [
+                "Nilemdo",
+                "Nustendi",
+                "Both",
+                "Neither"
+              ],
+              "correctIndex": 1,
+              "explanation": "Nustendi's SmPC requires storage in the original package, protected from moisture. Nilemdo needs no special storage."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Nilemdo, EU SmPC, EMA product information updated 27 February 2026. Sections 2, 3, 6, 7, 9; Annex II; package leaflet section 6.\n2. **SmPC** — Nustendi, EU SmPC, EMA product information updated 27 February 2026. Sections 2, 3, 5.2, 6, 7, 9; Annex II; package leaflet section 6.\n3. **EPAR** — Nilemdo and Nustendi EPAR pages (CHMP opinion and authorisation dates)."
+        }
+      ]
+    },
+    {
+      "id": "bem-l06-how-taken",
+      "title": "How it's taken",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The routine\n\nThe dose is one tablet a day, of either product, with or without food, swallowed whole. The PIL adds that it can be taken with food or between meals, and that stopping without the doctor's agreement may let cholesterol rise again.\n\nFor Nustendi, a high-fat breakfast lowered peak levels (bempedoic acid by 30%, ezetimibe by 12%) but not total exposure. The SmPC doesn't consider this meaningful."
+        },
+        {
+          "type": "text",
+          "markdown": "## With a statin: the simvastatin cap\n\nBecause bempedoic acid raises statin levels, simvastatin is capped:\n\n- **20 mg a day** as the normal limit\n- **40 mg a day** only for severe hypercholesterolaemia at high cardiovascular risk, when lower doses haven't reached goal\n- **Above 40 mg:** contraindicated\n\nWith other statins, the SmPC asks for monitoring for statin side effects, especially muscle symptoms."
+        },
+        {
+          "type": "text",
+          "markdown": "## Nustendi and bile acid sequestrants\n\nA **bile acid sequestrant** (such as cholestyramine) is a lipid medicine that binds bile acids in the gut. It also binds ezetimibe, cutting its exposure by about 55%. Nustendi should therefore be taken at least 2 hours before, or at least 4 hours after, a bile acid sequestrant."
+        },
+        {
+          "type": "text",
+          "markdown": "## A missed dose\n\nThe PIL gives a simple rule:\n\n- If you notice later the same day, take the missed tablet, then take the next one at the usual time the following day.\n- If you only notice the next day, just take that day's tablet as usual. Don't make up the missed one."
+        },
+        {
+          "type": "text",
+          "markdown": "## Kidneys and liver\n\n**Kidneys:** no dose change is needed for mild or moderate kidney impairment. Data in severe impairment and dialysis are limited, so extra monitoring for side effects may be needed.\n\n**Liver:** liver tests are done when treatment starts. The two products differ here:\n\n- **Nilemdo:** no dose change in mild or moderate liver impairment. Severe impairment hasn't been studied, so periodic liver tests should be considered.\n- **Nustendi:** fine in mild liver impairment, but *not recommended* in moderate or severe impairment, because ezetimibe exposure rises about fourfold in moderate impairment."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pregnancy, contraception and breastfeeding\n\n**Pregnancy:** both products are contraindicated, because blocking cholesterol production may harm a developing baby. Treatment should stop before conception, or as soon as a pregnancy is planned or found.\n\n**Contraception:** women who could become pregnant need effective contraception. If diarrhoea or vomiting lasts more than 2 days, the pill may not work, so the PIL advises a backup method for 7 days.\n\n**Breastfeeding:** here the sources disagree. The SmPCs say breastfeeding 'may be considered', because very little reaches the milk: the **relative infant dose** (the share of the mother's weight-adjusted dose a baby receives) is about 0.5% for bempedoic acid and 0.04% for ezetimibe. Yet both EMA public overviews still say the medicines must not be used in breastfeeding women. The SmPC is the reference here, and the overviews appear not to have been updated."
+        },
+        {
+          "type": "text",
+          "markdown": "## Other groups, driving and overdose\n\n- **Age:** no dose change is needed.\n- **Under 18:** safety and efficacy haven't been established.\n- **Driving:** Nilemdo has little or no effect. Nustendi has a minor effect, because dizziness has been reported.\n- **Overdose:** doses up to 240 mg a day showed no dose-limiting toxicity. Treatment is supportive."
+        },
+        {
+          "type": "compare",
+          "title": "Practical differences",
+          "items": [
+            {
+              "id": "nilemdo",
+              "label": "Nilemdo"
+            },
+            {
+              "id": "nustendi",
+              "label": "Nustendi"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "bile-acid-sequestrant",
+              "label": "Bile acid sequestrant",
+              "values": [
+                "No bile acid sequestrant timing rule",
+                "At least 2 h before or 4 h after a bile acid sequestrant"
+              ]
+            },
+            {
+              "id": "moderate-liver-impairment",
+              "label": "Moderate liver impairment",
+              "values": [
+                "no dose change",
+                "Moderate or severe liver impairment: not recommended"
+              ]
+            },
+            {
+              "id": "driving",
+              "label": "Driving",
+              "values": [
+                "little or no effect",
+                "minor effect (dizziness)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "bem-l06-how-taken-fc1",
+              "front": "Simvastatin cap",
+              "back": "20 mg a day, or 40 mg in severe cases at high risk. Above 40 mg is contraindicated with bempedoic acid."
+            },
+            {
+              "id": "bem-l06-how-taken-fc2",
+              "front": "Missed dose",
+              "back": "Later the same day: take it. Noticed the next day: skip it and take that day's tablet as usual."
+            },
+            {
+              "id": "bem-l06-how-taken-fc3",
+              "front": "Breastfeeding discrepancy",
+              "back": "The SmPCs say breastfeeding 'may be considered' (relative infant dose about 0.5%). The EMA overviews still say 'must not be used'. The SmPC is the reference."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "bem-l06-how-taken-q1",
+              "stem": "A patient with moderate liver impairment (Child-Pugh B) needs further LDL lowering. What do the labels say?",
+              "options": [
+                "Both products are fine without a dose change",
+                "Nilemdo needs no dose change, but Nustendi isn't recommended because ezetimibe exposure rises about fourfold",
+                "Both are contraindicated",
+                "Nustendi is preferred"
+              ],
+              "correctIndex": 1,
+              "explanation": "Bempedoic acid exposure is actually slightly lower in liver impairment. The ezetimibe in Nustendi is the problem: its exposure rises about fourfold in moderate impairment."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Nilemdo, EU SmPC, EMA product information updated 27 February 2026. Sections 4.2, 4.3, 4.4, 4.6, 4.7, 4.9, 5.2.\n2. **SmPC** — Nustendi, EU SmPC, EMA product information updated 27 February 2026. Sections 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 5.2.\n3. **PIL** — Nilemdo and Nustendi package leaflets, sections 2 and 3.\n4. **EPAR** — Nilemdo medicine overview (EMA/131272/2024); Nustendi medicine overview (updated June 2025)."
         }
       ]
     }

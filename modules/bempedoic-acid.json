@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 4,
+  "id": "bempedoic-acid",
+  "title": "Bempedoic acid",
+  "discipline": "Molecules",
+  "version": 1,
+  "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Nilemdo and Nustendi product information published by the EMA on 27 February 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
+  "lessons": [
+    {
+      "id": "bem-l01-at-a-glance",
+      "title": "At a glance",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## What bempedoic acid is\n\nBempedoic acid is an **ACL inhibitor**. It blocks ATP citrate lyase, an enzyme the liver uses to make cholesterol, one step before the enzyme that statins block. It's a **prodrug**: the tablet is inactive until an enzyme found mainly in the liver switches it on. The dose is one 180 mg tablet a day.\n\nThis module is built on two **SmPCs** (the regulator-approved reference texts for prescribers), both authorised across the EU and both held by Daiichi Sankyo Europe:\n\n- **Nilemdo:** bempedoic acid on its own\n- **Nustendi:** bempedoic acid with ezetimibe in one tablet\n\nThe version used is the product information the EMA published on 27 February 2026."
+        },
+        {
+          "type": "text",
+          "markdown": "## Two indications\n\n**High cholesterol.** Nilemdo is approved for adults with primary hypercholesterolaemia (inherited or non-inherited high LDL) or mixed dyslipidaemia, alongside diet:\n\n- with a statin, when the highest statin dose the patient can tolerate isn't enough\n- on its own or with other lipid medicines, when a statin can't be used\n\nThe second route covers **statin intolerance**, meaning the patient can't take a statin because of its side effects, as well as cases where a statin is contraindicated.\n\n**Cardiovascular risk.** It's also approved for adults with, or at high risk of, **ASCVD** (disease caused by fatty build-up in the arteries), to reduce cardiovascular risk. It can be added to the highest tolerated statin dose, with or without ezetimibe, or used on its own or with ezetimibe when a statin can't be used."
+        },
+        {
+          "type": "text",
+          "markdown": "## What it does to LDL\n\nIn four 12-week trials against placebo:\n\n- **On top of the highest tolerated statin dose:** LDL fell 15–17% on bempedoic acid, while it rose about 2% on placebo.\n- **In people who couldn't take statins:** LDL fell 23–24%, compared with −1% to +5% on placebo.\n\nThe reduction is smaller on top of a statin than without one."
+        },
+        {
+          "type": "text",
+          "markdown": "## What it does to heart attacks\n\nCLEAR Outcomes followed 13,970 people who couldn't take statins, 70% of whom already had cardiovascular disease, for a median of 3.4 years. It measured **MACE** (major adverse cardiovascular events). Here that meant cardiovascular death, heart attack, stroke or an artery-opening procedure.\n\nMACE occurred in 11.7% of people on bempedoic acid and 13.3% on placebo (HR 0.87, 95% CI 0.79–0.96). That's 13% lower in relative terms and 1.6 percentage points lower in absolute terms.\n\nThe benefit came from fewer heart attacks and fewer procedures. Stroke and cardiovascular death didn't change significantly."
+        },
+        {
+          "type": "text",
+          "markdown": "## What to watch\n\n- **Uric acid and gout.** Bempedoic acid can cause **hyperuricaemia** (raised uric acid) and trigger **gout** (painful joint inflammation from uric acid crystals). It does this by blocking **OAT2**, a transporter in the kidney. Gout occurred in 1.4% of patients vs 0.4% on placebo.\n- **Blood and liver tests.** Haemoglobin may dip slightly, and liver enzymes may rise.\n- **Creatinine.** It rises slightly through the same OAT2 effect. This doesn't mean the kidneys are working worse.\n- **Statins.** Bempedoic acid raises statin levels. Simvastatin above 40 mg is contraindicated with it.\n- **Pregnancy.** It's contraindicated in pregnancy, and women who could become pregnant need effective contraception."
+        },
+        {
+          "type": "text",
+          "markdown": "## What this module is, and isn't\n\nThis is a learning module, not prescribing advice. It's refreshed every six months, or straight away if the SmPC changes or a **safety signal** (new evidence of a possible side effect) appears.\n\nAs with other EMA products, the SmPC carries no revision date of its own, so this module is dated by the EMA's publication date."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "bem-l01-at-a-glance-fc1",
+              "front": "ACL inhibitor",
+              "back": "A medicine that blocks ATP citrate lyase, one step upstream of the enzyme statins block. Bempedoic acid is the first."
+            },
+            {
+              "id": "bem-l01-at-a-glance-fc2",
+              "front": "Nilemdo vs Nustendi",
+              "back": "Nilemdo: bempedoic acid 180 mg on its own. Nustendi: bempedoic acid plus ezetimibe in one tablet. Both are held by Daiichi Sankyo Europe."
+            },
+            {
+              "id": "bem-l01-at-a-glance-fc3",
+              "front": "CLEAR Outcomes in one line",
+              "back": "13,970 statin-intolerant people, 3.4 years: MACE 11.7% vs 13.3%, HR 0.87. Fewer heart attacks and procedures; no significant effect on stroke or cardiovascular death."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "bem-l01-at-a-glance-q1",
+              "stem": "Which patients can take Nilemdo without a statin?",
+              "options": [
+                "Anyone with high cholesterol",
+                "Patients who are statin-intolerant or for whom a statin is contraindicated",
+                "Only patients already on a PCSK9 inhibitor",
+                "Only children"
+              ],
+              "correctIndex": 1,
+              "explanation": "Without a statin, Nilemdo is licensed only for patients who can't take one. Everyone else takes it on top of the highest statin dose they can tolerate."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Nilemdo 180 mg film-coated tablets, EU SmPC (EMEA/H/C/004958), EMA product information updated 27 February 2026. Sections 4.1–4.4, 4.8, 5.1, 10.\n2. **SmPC** — Nustendi, EU product information (therapeutic indication as listed on the EMA product page).\n3. **EPAR** — Nilemdo medicine overview (EMA/131272/2024)."
+        }
+      ]
+    },
+    {
+      "id": "bem-l02-how-it-works",
+      "title": "How it works",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## One step earlier than statins\n\nThe liver makes cholesterol through a chain of steps called the **cholesterol synthesis pathway**. Statins block one step, HMG-CoA reductase. Bempedoic acid blocks ATP citrate lyase, which sits further upstream in the same chain.\n\nThe result is the same as with a statin. With less cholesterol made inside it, the liver puts more **LDL receptors** on its surface. These are docking points that pull LDL out of the blood. Blocking ACL also reduces how much fatty acid the liver makes."
+        },
+        {
+          "type": "text",
+          "markdown": "## Switched on in the liver\n\nBempedoic acid only becomes active after an enzyme called **ACSVL1** converts it. According to the SmPC, ACSVL1 is found mainly in the liver and not in skeletal muscle.\n\nIt's tempting to connect this with muscle side effects, since those are why many people stop statins. The SmPC states only where the enzyme is found. It doesn't claim a muscle benefit, and this module doesn't either."
+        },
+        {
+          "type": "compare",
+          "title": "Statin vs bempedoic acid",
+          "items": [
+            {
+              "id": "statin",
+              "label": "Statin"
+            },
+            {
+              "id": "bempedoic-acid",
+              "label": "Bempedoic acid"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "target",
+              "label": "Target",
+              "values": [
+                "Blocks HMG-CoA reductase",
+                "Blocks ATP citrate lyase, one step earlier"
+              ]
+            },
+            {
+              "id": "standing",
+              "label": "Standing",
+              "values": [
+                "The reference medicine for LDL and outcomes",
+                "Activated by ACSVL1, found mainly in the liver"
+              ]
+            },
+            {
+              "id": "effect",
+              "label": "Effect",
+              "values": [
+                "The first choice for most patients",
+                "LDL −17 to −28 percentage points vs placebo, depending on background treatment"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Beyond LDL\n\nBempedoic acid also lowers non-HDL cholesterol, total cholesterol and **apolipoprotein B**, the protein carried on every artery-clogging particle. It also lowers **CRP** (C-reactive protein), a blood marker of inflammation.\n\nIn people with diabetes, HbA1c was on average 0.2 points lower than on placebo, with no difference in low blood sugar. These are all markers: they show what the medicine does to the blood, not directly what happens to the patient."
+        },
+        {
+          "type": "text",
+          "markdown": "## What happens in the body\n\nBlood levels peak about 3.5 hours after a dose, and food doesn't change how much is absorbed. Steady state is reached after about a week. More than 99% of the drug binds to blood proteins.\n\nThe body clears bempedoic acid mainly by **glucuronidation**: the liver attaches a sugar-like molecule to it, using the enzyme UGT2B7. It isn't broken down by CYP enzymes, and it doesn't block or induce them. The **half-life** (the time for blood levels to halve) is about 19 hours. Less than 5% leaves the body unchanged."
+        },
+        {
+          "type": "text",
+          "markdown": "## Transporters explain the interactions\n\nBempedoic acid weakly blocks **OATP1B1** and OATP1B3, transporters that carry statins and some other medicines into the liver. That's why it raises statin levels:\n\n- simvastatin acid: about 2 times\n- atorvastatin, pravastatin and rosuvastatin: 1.4 to 1.5 times\n\nIt also raises total ezetimibe exposure about 1.6-fold, which the SmPC doesn't consider clinically meaningful.\n\nBlocking OAT2 in the kidney accounts for the small rises in creatinine and uric acid."
+        },
+        {
+          "type": "text",
+          "markdown": "## Kidneys, liver and body weight\n\n- **Kidneys:** exposure is 1.4 to 2.2 times higher in kidney impairment, and 1.5 to 1.75 times higher in people on dialysis. Mild or moderate impairment needs no dose change, but data in severe impairment are limited.\n- **Liver:** exposure is slightly *lower* in mild or moderate liver impairment. Severe impairment hasn't been studied.\n- **Body weight:** people weighing less than 73 kg have about 30% higher exposure, but no dose change is needed."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "bem-l02-how-it-works-fc1",
+              "front": "Where ACL sits",
+              "back": "In the cholesterol synthesis pathway, one step upstream of HMG-CoA reductase, the enzyme statins block."
+            },
+            {
+              "id": "bem-l02-how-it-works-fc2",
+              "front": "ACSVL1",
+              "back": "The enzyme that activates bempedoic acid. It's found mainly in the liver, not in skeletal muscle. The SmPC doesn't claim a muscle benefit from this."
+            },
+            {
+              "id": "bem-l02-how-it-works-fc3",
+              "front": "Bempedoic acid and statin levels",
+              "back": "Weak OATP1B1/1B3 blocking raises simvastatin acid about 2-fold and other statins 1.4–1.5-fold. That's why simvastatin is limited to 20 mg a day (40 mg only in severe cases), and doses above 40 mg are contraindicated."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "bem-l02-how-it-works-q1",
+              "stem": "Why do creatinine and uric acid rise slightly on bempedoic acid?",
+              "options": [
+                "It damages the kidneys",
+                "It blocks the kidney transporter OAT2, which normally helps remove them",
+                "It's broken down into uric acid",
+                "It causes dehydration"
+              ],
+              "correctIndex": 1,
+              "explanation": "OAT2 inhibition reduces how much creatinine and uric acid the kidney tubules remove. The SmPC says the creatinine rise doesn't appear to indicate worsening kidney function."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Nilemdo, EU SmPC, EMA product information updated 27 February 2026. Sections 4.2, 4.5, 4.8, 5.1, 5.2."
+        }
+      ]
+    },
+    {
+      "id": "bem-l03-history",
+      "title": "History",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A new class\n\nBempedoic acid was developed under the code ETC-1002, and its tablets are still debossed 'ESP'. It's the first medicine to block ATP citrate lyase. It arrived long after statins, ezetimibe and the PCSK9 inhibitors, aimed at a group those medicines didn't serve well: people who can't take statins."
+        },
+        {
+          "type": "text",
+          "markdown": "## Approved in 2020 on LDL alone\n\nNilemdo went through the EU's centralised procedure. The CHMP gave a positive opinion on 30 January 2020, and the European Commission authorised it on 1 April 2020. Nustendi, the combination with ezetimibe, was authorised the same year.\n\nThe initial approval rested on four trials in 3,623 patients, all measuring LDL at 12 weeks. LDL was accepted as a **surrogate endpoint**, a lab value standing in for heart attacks and strokes. At that point there was no outcome data."
+        },
+        {
+          "type": "text",
+          "markdown": "## Who sells it where\n\nDaiichi Sankyo Europe holds the EU licence. The patient leaflet lists partner companies as local contacts in some countries, including Zentiva in Central and Eastern Europe and the Baltics, and Organon in the Nordic countries and France. This is a common way to extend reach across a fragmented market."
+        },
+        {
+          "type": "text",
+          "markdown": "## 2023–2024: the outcome trial arrives\n\nCLEAR Outcomes tested bempedoic acid in almost 14,000 people who couldn't take statins, and it reduced major cardiovascular events. Through a formal change to the licence (variation II/31), the CHMP recommended a new cardiovascular risk-reduction indication in March 2024. Its assessment report was published in June 2024.\n\nThe label now makes an outcome claim, not just an LDL claim."
+        },
+        {
+          "type": "text",
+          "markdown": "## Renewal and children\n\nThe EU licence was renewed on 18 November 2024. **Renewal** is the review every EU licence goes through after its first five years.\n\nFor children, the EMA has deferred the required studies, from age 4 to under 18, so there are no paediatric data yet."
+        },
+        {
+          "type": "compare",
+          "title": "2020 and 2026",
+          "items": [
+            {
+              "id": "2020",
+              "label": "2020"
+            },
+            {
+              "id": "2026",
+              "label": "2026"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "evidence",
+              "label": "Evidence",
+              "values": [
+                "Approved on LDL results alone",
+                "Outcome data from CLEAR Outcomes"
+              ]
+            },
+            {
+              "id": "trials",
+              "label": "Trials",
+              "values": [
+                "Four 12-week trials",
+                "Cardiovascular risk-reduction indication added (2024)"
+              ]
+            },
+            {
+              "id": "indications",
+              "label": "Indications",
+              "values": [
+                "High cholesterol indication only",
+                "Licence renewed in 2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "bem-l03-history-fc1",
+              "front": "Nilemdo's EU timeline",
+              "back": "CHMP opinion January 2020; EU authorisation 1 April 2020; cardiovascular indication recommended March 2024; renewed November 2024."
+            },
+            {
+              "id": "bem-l03-history-fc2",
+              "front": "Surrogate endpoint at approval",
+              "back": "In 2020, approval rested on LDL at 12 weeks. Outcome evidence came later, from CLEAR Outcomes."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "bem-l03-history-q1",
+              "stem": "What changed in the Nilemdo licence in 2024?",
+              "options": [
+                "It was withdrawn",
+                "A cardiovascular risk-reduction indication was added, based on CLEAR Outcomes",
+                "Children were added",
+                "The dose was doubled"
+              ],
+              "correctIndex": 1,
+              "explanation": "Variation II/31 added the cardiovascular indication after CLEAR Outcomes. Before that, the label covered LDL lowering only."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Nilemdo, EU SmPC, EMA product information updated 27 February 2026. Sections 3, 5.1, 9; package leaflet (local representatives).\n2. **EPAR** — Nilemdo: public assessment report (EMA/CHMP/86202/2020); CHMP summary of positive opinion (EMA/CHMP/44961/2020); variation assessment report II/0031 (EMA/287787/2024); CHMP post-authorisation summary of opinion II-31 (EMA/CHMP/115783/2024)."
+        }
+      ]
+    }
+  ]
+}

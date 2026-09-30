@@ -77,6 +77,17 @@
       "lessonCount": 15,
       "estimatedMinutes": 160,
       "accentColor": "#1D9E75"
+    },
+    {
+      "id": "bempedoic-acid",
+      "title": "Bempedoic acid",
+      "discipline": "Molecules",
+      "description": "What the label approves, and what the trials showed",
+      "file": "modules/bempedoic-acid.json",
+      "version": 1,
+      "lessonCount": 15,
+      "estimatedMinutes": 150,
+      "accentColor": "#1D9E75"
     }
   ]
 }

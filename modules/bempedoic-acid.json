@@ -3,7 +3,7 @@
   "id": "bempedoic-acid",
   "title": "Bempedoic acid",
   "discipline": "Molecules",
-  "version": 2,
+  "version": 3,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Nilemdo and Nustendi product information published by the EMA on 27 February 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -638,6 +638,226 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Nilemdo, EU SmPC, EMA product information updated 27 February 2026. Sections 4.2, 4.3, 4.4, 4.6, 4.7, 4.9, 5.2.\n2. **SmPC** — Nustendi, EU SmPC, EMA product information updated 27 February 2026. Sections 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 5.2.\n3. **PIL** — Nilemdo and Nustendi package leaflets, sections 2 and 3.\n4. **EPAR** — Nilemdo medicine overview (EMA/131272/2024); Nustendi medicine overview (updated June 2025)."
+        }
+      ]
+    },
+    {
+      "id": "bem-l07-reading-a-trial",
+      "title": "Reading a clinical trial",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Why this lesson comes first\n\nBempedoic acid's trials raise questions the earlier modules didn't: what 'statin-intolerant' means, what a 'maximum tolerated' statin dose covers, what happens when whole trial sites are dropped from the analysis, and how to read an outcome trial in people who don't take statins. This lesson covers those questions before Lesson 8 uses them."
+        },
+        {
+          "type": "text",
+          "markdown": "## The LDL result, stated honestly\n\nThe four registration trials report the percentage change in LDL from baseline to week 12 for each group. The effect of the medicine is the **placebo-corrected difference**: the change on bempedoic acid minus the change on placebo.\n\nIn CLEAR Harmony, LDL fell by 16.5% on bempedoic acid and rose by 1.6% on placebo, so the difference is about 18 percentage points. For LDL, that difference is the effect itself. Unlike heart attacks, there's no event rate to turn into a relative reduction."
+        },
+        {
+          "type": "text",
+          "markdown": "## Two patients on the drug for every one on placebo\n\nMost of these trials used a 2:1 **randomisation ratio**: two patients on bempedoic acid for every one on placebo. CLEAR Combo used 2:2:2:1 across four arms.\n\nUnequal ratios give more safety data on the new medicine. They also leave the placebo group smaller, so its results carry more uncertainty. Combo's placebo arm, for example, had only 41 patients."
+        },
+        {
+          "type": "text",
+          "markdown": "## What does 'statin-intolerant' mean?\n\nThe label uses the phrase 'statin-intolerant', but each trial wrote its own **operational definition**, the precise rule used to decide who counted:\n\n- **Tranquility:** unable to tolerate more than the lowest approved starting dose of a statin.\n- **Serenity:** intolerant of at least two statins, one of them at the lowest dose. Doses below the lowest approved one were allowed.\n- **Outcomes:** very low statin doses were allowed. 23% of patients were taking one at the start.\n\nSo 'statin-intolerant' covers a range, from no statin at all to a small dose. Keep that in mind when reading the results."
+        },
+        {
+          "type": "text",
+          "markdown": "## What does 'maximum tolerated' mean?\n\nIn CLEAR Wisdom, Harmony and Combo, bempedoic acid was added to the 'maximum tolerated' statin therapy. The SmPC explains that this could include statin regimens other than daily dosing, very low doses, or even no statin at all.\n\nOther details matter too. Patients on simvastatin 40 mg or more were excluded, because of the interaction, and Harmony also excluded people taking PCSK9 inhibitors."
+        },
+        {
+          "type": "text",
+          "markdown": "## When sites are dropped\n\nIn CLEAR Combo, the SmPC reports a **sensitivity analysis**, meaning a repeat of the analysis under different assumptions to test how solid the result is. This one left out three whole trial sites (81 patients) because of systematic non-compliance with all four treatments. The Nustendi figures come from the remaining 301 patients.\n\nDropping sites after the fact is unusual, and it's worth noticing. The EMA accepted this analysis as the basis for the SmPC. The reason is stated openly in the label, which is the right way to handle it."
+        },
+        {
+          "type": "text",
+          "markdown": "## An outcome trial runs on events\n\nCLEAR Outcomes was an **event-driven trial**: it kept running until enough heart events had happened to answer its question, not until a fixed date. More than 95% of patients were followed to the end, and fewer than 1% were lost to follow-up.\n\nIts primary endpoint was **MACE-4**: cardiovascular death, non-fatal heart attack, non-fatal stroke or coronary revascularisation (reopening a blocked heart artery). The main secondary endpoint, **MACE-3**, dropped revascularisation. Always check which parts of a composite endpoint drive the result."
+        },
+        {
+          "type": "text",
+          "markdown": "## Subgroups with wide intervals\n\nThe SmPC reports that the Outcomes result was 'generally consistent' across **prespecified subgroups** (groups defined before the results were known), including people already taking ezetimibe.\n\nHowever, the ezetimibe subgroup's own hazard ratio was 0.94, with a 95% confidence interval of 0.74–1.20. An interval that wide includes both benefit and no effect. 'Consistent with the overall result' and 'proven in this subgroup' aren't the same claim."
+        },
+        {
+          "type": "text",
+          "markdown": "## The combination tags\n\nEach trial card carries exactly one tag for its background therapy:\n\n- MONO: no background lipid treatment\n- STATIN-INTOLERANT: a population unable to take statins, with varied background treatment\n- 🔗 +STATIN: on a statin\n- 🔗 +STATIN+EZE: on a statin plus ezetimibe\n- 🔗 +EZE: on ezetimibe\n- 🔗 +PCSK9: on a PCSK9 inhibitor\n- 🔗 +ANTIHTN: on blood-pressure medicines\n- 🔗 +SGLT2: on an SGLT2 inhibitor\n- 🔗 +GLP1: on a GLP-1 receptor agonist\n- 🔗 FDC: testing a combination tablet\n- 🔗 MIXED: background varied between patients"
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "bem-l07-reading-a-trial-fc1",
+              "front": "Placebo-corrected difference",
+              "back": "The change on the drug minus the change on placebo. In CLEAR Harmony, LDL fell 16.5% on bempedoic acid and rose 1.6% on placebo, a difference of about 18 points."
+            },
+            {
+              "id": "bem-l07-reading-a-trial-fc2",
+              "front": "Operational definition",
+              "back": "The precise rule a trial uses to decide who counts. 'Statin-intolerant' ranged from no statin at all to a very low dose, depending on the trial."
+            },
+            {
+              "id": "bem-l07-reading-a-trial-fc3",
+              "front": "Sensitivity analysis in CLEAR Combo",
+              "back": "Three sites (81 patients) were excluded for systematic non-compliance. The SmPC's Nustendi figures come from the remaining 301."
+            },
+            {
+              "id": "bem-l07-reading-a-trial-fc4",
+              "front": "MACE-4 vs MACE-3",
+              "back": "MACE-4: cardiovascular death, heart attack, stroke or coronary revascularisation. MACE-3 drops revascularisation."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "bem-l07-reading-a-trial-q1",
+              "stem": "In CLEAR Outcomes, the subgroup already on ezetimibe had HR 0.94 (95% CI 0.74–1.20). What can you say?",
+              "options": [
+                "Bempedoic acid is proven to reduce events in ezetimibe users",
+                "The subgroup result is compatible with benefit or no effect. It's consistent with the overall trial, but doesn't prove benefit on its own.",
+                "Bempedoic acid is harmful with ezetimibe",
+                "The subgroup wasn't prespecified"
+              ],
+              "correctIndex": 1,
+              "explanation": "The interval crosses 1.0. The overall trial was positive, and this subgroup doesn't contradict it, but the subgroup alone can't confirm a benefit. The Nustendi SmPC says as much."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Nilemdo, EU SmPC, EMA product information updated 27 February 2026. Section 5.1 (Tables 2–4).\n2. **SmPC** — Nustendi, EU SmPC, EMA product information updated 27 February 2026. Section 5.1 (CLEAR Combo; CLEAR Outcomes subgroups)."
+        }
+      ]
+    },
+    {
+      "id": "bem-l08-pivotal-trials",
+      "title": "The pivotal trials",
+      "xpReward": 75,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Six pivotal trials\n\nA **pivotal trial** is one that regulators relied on to approve the medicine. Bempedoic acid has six:\n\n- **LDL trials on a statin background:** CLEAR Wisdom and CLEAR Harmony\n- **LDL trials in statin-intolerant people:** CLEAR Tranquility and CLEAR Serenity\n- **The combination-tablet trial:** CLEAR Combo\n- **The outcome trial:** CLEAR Outcomes\n\nAll of them compared bempedoic acid (or the combination) with placebo."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: CLEAR Harmony\nTag: 🔗 +STATIN\n\n- Registry: NCT02666664\n- Who took part: 2,230 adults at high cardiovascular risk, all on a statin (50% high-intensity), mean LDL 2.7 mmol/L\n- Background therapy: the maximum tolerated statin dose, with or without other lipid medicines (PCSK9 inhibitors and simvastatin 40 mg or more excluded)\n- Compared with: placebo, randomised 2:1, over 52 weeks (efficacy measured at week 12)\n- Main question: how safe is bempedoic acid on top of a statin, and how much does it lower LDL?\n- Headline result: at week 12, LDL changed by −16.5% vs +1.6%, a difference of about 18 percentage points. LDL below 1.8 mmol/L was reached by 32% vs 9%.\n- In plain words: on top of a statin, bempedoic acid lowered LDL by roughly a sixth.\n- Worth knowing: this was the largest LDL trial and it ran for a full year, which makes it the main source of safety data on a statin background. Almost all patients (96%) were White."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: CLEAR Wisdom\nTag: 🔗 +STATIN\n\n- Registry: NCT02991118\n- Who took part: 779 adults with high cholesterol and heart disease or high risk; 91% were on a statin (53% high-intensity); mean LDL 3.1 mmol/L\n- Background therapy: the maximum tolerated lipid treatment, which could include no statin or very low doses\n- Compared with: placebo, randomised 2:1, over 52 weeks (efficacy measured at week 12)\n- Main question: does bempedoic acid lower LDL on top of maximum tolerated therapy?\n- Headline result: at week 12, LDL changed by −15.1% vs +2.4%, a difference of about 17.5 percentage points.\n- In plain words: the result was close to Harmony's, in a population with a higher starting LDL.\n- Worth knowing: the tag reflects the majority (91% on a statin), but 9% weren't taking one. The 'maximum tolerated' definition was broad."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: CLEAR Tranquility\nTag: 🔗 +EZE\n\n- Registry: NCT03001076\n- Who took part: 269 statin-intolerant adults (able to take no more than the lowest starting dose of a statin), mean LDL 3.3 mmol/L\n- Background therapy: ezetimibe 10 mg for everyone; 28–33% were also on a statin at or below the lowest dose\n- Compared with: placebo, randomised 2:1, over 12 weeks\n- Main question: does bempedoic acid lower LDL when added to ezetimibe?\n- Headline result: LDL changed by −23.5% vs +5.0%, a difference of about 28.5 percentage points.\n- In plain words: on top of ezetimibe, bempedoic acid lowered LDL by nearly a quarter.\n- Worth knowing: this trial supports Nustendi's statin-free route. LDL rose 5% on placebo, which widens the gap."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: CLEAR Serenity\nTag: STATIN-INTOLERANT\n\n- Registry: NCT02988115\n- Who took part: 345 adults intolerant of at least two statins (one at the lowest dose), mean LDL 4.1 mmol/L\n- Background therapy: varied. 133 patients on bempedoic acid and 67 on placebo took no lipid medicine at all; others took doses below the lowest approved statin dose, or other non-statin medicines.\n- Compared with: placebo, randomised 2:1, over 24 weeks (efficacy measured at week 12)\n- Main question: does bempedoic acid lower LDL in people who can't take statins?\n- Headline result: LDL changed by −22.6% vs −1.2%, a difference of about 21.4 percentage points. In people taking no other lipid medicine, the difference was −22.1% (95% CI −26.8 to −17.4).\n- In plain words: used on its own, bempedoic acid lowered LDL by about a fifth.\n- Worth knowing: this is the closest the programme comes to a pure monotherapy result, because of the no-background subgroup."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: CLEAR Combo\nTag: 🔗 FDC\n\n- Registry: NCT03337308\n- Who took part: 382 high-risk adults on the maximum tolerated statin (61–69% taking a statin), mean LDL 3.9 mmol/L; 301 analysed\n- Background therapy: the maximum tolerated statin dose, which could include none\n- Compared with: four arms, randomised 2:2:2:1: Nustendi, bempedoic acid alone, ezetimibe alone, or placebo, over 12 weeks\n- Main question: does the combination tablet lower LDL more than each part alone?\n- Headline result: LDL changed by −36.2% on Nustendi, −17.2% on bempedoic acid, −23.2% on ezetimibe and +1.8% on placebo. Nustendi vs placebo: −38.0 points (95% CI −46.5 to −29.6).\n- In plain words: the two medicines roughly add up, and together they lowered LDL by more than a third.\n- Worth knowing: three sites (81 patients) were excluded for systematic non-compliance, and the SmPC figures come from that sensitivity analysis. The placebo arm had only 41 patients."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: CLEAR Outcomes\nTag: STATIN-INTOLERANT\n\n- Registry: NCT02993406\n- Who took part: 13,970 statin-intolerant adults, 70% with established cardiovascular disease and 30% at high risk, mean LDL 3.6 mmol/L. 48% were women, 46% had diabetes and 85% had high blood pressure.\n- Background therapy: varied. 41% took some lipid medicine, including ezetimibe (12%) and very low-dose statins (23%).\n- Compared with: placebo, randomised 1:1, event-driven, median follow-up 3.4 years\n- Main question: does bempedoic acid reduce MACE-4 (cardiovascular death, non-fatal heart attack, non-fatal stroke or coronary revascularisation)?\n- Headline result: 11.7% vs 13.3%, HR 0.87 (95% CI 0.79–0.96), p = 0.0037. That's 13% lower in relative terms and 1.6 percentage points lower in absolute terms. MACE-3: 8.2% vs 9.5% (HR 0.85).\n- In plain words: in people who can't take statins, bempedoic acid cut major heart events, mainly heart attacks and procedures.\n- Worth knowing: non-fatal heart attacks fell (3.4% vs 4.5%, HR 0.73) and so did revascularisation (6.2% vs 7.6%, HR 0.81). Stroke and cardiovascular death (3.8% vs 3.7%) didn't change significantly. LDL was about 20% lower at 6 months."
+        },
+        {
+          "type": "compare",
+          "title": "LDL change vs placebo at week 12, by background",
+          "items": [
+            {
+              "id": "on-a-statin",
+              "label": "On a statin"
+            },
+            {
+              "id": "statin-intolerant",
+              "label": "Statin-intolerant"
+            },
+            {
+              "id": "combination-tablet",
+              "label": "Combination tablet"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "first-trial",
+              "label": "First trial",
+              "values": [
+                "Wisdom: about −17.5 points",
+                "Serenity: about −21 points",
+                "Combo: −38 points vs placebo"
+              ]
+            },
+            {
+              "id": "second-trial",
+              "label": "Second trial",
+              "values": [
+                "Harmony: about −18 points",
+                "Tranquility (on ezetimibe): about −28.5 points",
+                "Bempedoic acid and ezetimibe roughly add up"
+              ]
+            },
+            {
+              "id": "note",
+              "label": "Note",
+              "values": [
+                "Smallest effect, from a lower starting LDL",
+                "Larger, from a higher starting LDL",
+                "Figures from a sensitivity analysis"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## How to read that comparison\n\nThe three columns come from different trials, with different starting LDL levels (2.7–4.1 mmol/L), different background treatments and different definitions of intolerance. They show the range of effect, not a ranking. The only direct comparison of the parts is inside CLEAR Combo, where all arms were randomised within one trial."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "bem-l08-pivotal-trials-fc1",
+              "front": "What drove the CLEAR Outcomes result",
+              "back": "Fewer non-fatal heart attacks (HR 0.73) and revascularisations (HR 0.81). Stroke (HR 0.82) and cardiovascular death (HR 1.04) didn't change significantly. MACE-3 was also lower (HR 0.85)."
+            },
+            {
+              "id": "bem-l08-pivotal-trials-fc2",
+              "front": "CLEAR Combo in one line",
+              "back": "Nustendi −36%, bempedoic acid −17%, ezetimibe −23%, placebo +2% at 12 weeks. Three sites were excluded for non-compliance."
+            },
+            {
+              "id": "bem-l08-pivotal-trials-fc3",
+              "front": "LDL effect by background",
+              "back": "On a statin: about −17 to −18 points vs placebo. Statin-intolerant: about −21 to −28 points. Combination tablet: −38 points."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "bem-l08-pivotal-trials-q1",
+              "stem": "Why is bempedoic acid's LDL effect smaller in CLEAR Harmony than in CLEAR Serenity?",
+              "options": [
+                "Harmony used a lower dose",
+                "Harmony patients were on statins, which already act on the same pathway, and started from a lower LDL. The two trials also differ in design, so they aren't a head-to-head comparison.",
+                "Serenity was longer",
+                "Bempedoic acid doesn't work with statins"
+              ],
+              "correctIndex": 1,
+              "explanation": "Harmony's background statin and lower starting LDL (2.7 vs 4.1 mmol/L) leave less room for further lowering. Because they're separate trials, the difference shows context, not a direct comparison."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Nilemdo, EU SmPC, EMA product information updated 27 February 2026. Section 5.1 (Tables 2–4).\n2. **SmPC** — Nustendi, EU SmPC, EMA product information updated 27 February 2026. Section 5.1 (CLEAR Combo).\n3. **EPAR** — Nustendi medicine overview (CLEAR Combo randomised population).\n4. **Journal** — Ray KK et al. CLEAR Harmony. *N Engl J Med* 2019. Goldberg AC et al. CLEAR Wisdom. *JAMA* 2019. Laufs U et al. CLEAR Serenity. *J Am Heart Assoc* 2019. Ballantyne CM et al. CLEAR Tranquility. *Atherosclerosis* 2018. Ballantyne CM et al. CLEAR Combo. *Eur J Prev Cardiol* 2020. Nissen SE et al. CLEAR Outcomes. *N Engl J Med* 2023;388:1353–64. (Citations to be verified.)"
         }
       ]
     }

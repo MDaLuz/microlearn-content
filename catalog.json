@@ -84,7 +84,7 @@
       "discipline": "Molecules",
       "description": "What the label approves, and what the trials showed",
       "file": "modules/bempedoic-acid.json",
-      "version": 2,
+      "version": 3,
       "lessonCount": 15,
       "estimatedMinutes": 150,
       "accentColor": "#1D9E75"

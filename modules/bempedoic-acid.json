@@ -3,7 +3,7 @@
   "id": "bempedoic-acid",
   "title": "Bempedoic acid",
   "discipline": "Molecules",
-  "version": 6,
+  "version": 7,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Nilemdo and Nustendi product information published by the EMA on 27 February 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -1383,6 +1383,242 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Nilemdo, EU SmPC, EMA product information updated 27 February 2026. Sections 4.2, 4.3, 4.4, 4.5.\n2. **SmPC** — Nustendi, EU SmPC. Sections 4.2, 4.3, 4.4, 4.5, 5.2."
+        }
+      ]
+    },
+    {
+      "id": "bem-l13-pharmacovigilance",
+      "title": "Pharmacovigilance",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Watching after approval\n\n**Pharmacovigilance** means monitoring a medicine's safety once it's on the market. Both SmPCs ask healthcare professionals to report suspected side effects through their national reporting system. The patient leaflets invite patients to report directly as well."
+        },
+        {
+          "type": "text",
+          "markdown": "## One joint safety review\n\nBempedoic acid alone and bempedoic acid with ezetimibe are assessed together in a single **PSUSA** (periodic safety update single assessment). The EU's safety committee (PRAC) reviewed the data up to February 2024 and, in October 2024, recommended 'maintenance': no change to either label. The next periodic review, in October 2025, also ended in maintenance."
+        },
+        {
+          "type": "text",
+          "markdown": "## A risk plan that got shorter\n\nA **risk management plan** (RMP) lists a medicine's important risks and how each one is handled. Before CLEAR Outcomes, bempedoic acid's RMP listed two **important potential risks**, meaning possible harms that hadn't been confirmed:\n\n- muscle problems when taken with statins\n- gout\n\nAfter CLEAR Outcomes, both were removed in RMP version 5.0 (2024). The plan has been updated since; the current version is 8.1 (January 2026). The published summary now states that there are no important identified or potential risks. It still lists **missing information**: groups or situations in which safety hasn't been studied well enough.\n\nThis doesn't mean gout disappeared. It remains a warning in the SmPC. It means regulators no longer treat it as a risk that needs special tracking beyond routine measures."
+        },
+        {
+          "type": "text",
+          "markdown": "## Renewed without a time limit\n\nAt its five-year renewal in November 2024, the CHMP found that the benefit–risk balance was still favourable. It renewed the licence with **unlimited validity**, meaning no further five-year renewal is required. This usually signals that regulators are comfortable with a medicine's safety experience, though monitoring continues."
+        },
+        {
+          "type": "text",
+          "markdown": "## The watchlist\n\nThree items sit outside the formal risk list:\n\n- **Gallstones:** 2.2% vs 1.2% in CLEAR Outcomes, but not in the Nilemdo SmPC table.\n- **Tendon rupture:** raised by earlier studies and in the US label, not increased in CLEAR Outcomes, and not in the EU label.\n- **Fibrate combinations:** the triglyceride and HDL paradox, with more anaemia and raised uric acid.\n\nNone of these is a confirmed EU signal. They're what a future PSUSA would be expected to look at."
+        },
+        {
+          "type": "text",
+          "markdown": "## What triggers a refresh of this module\n\n- New product information for Nilemdo or Nustendi from the EMA\n- A PSUSA that ends in a label change\n- A PRAC signal, for example on gallstones\n\nThe current basis is the product information published on 27 February 2026. The next scheduled refresh is March 2027."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "bem-l13-pharmacovigilance-fc1",
+              "front": "PSUSA outcome",
+              "back": "Bempedoic acid and bempedoic acid/ezetimibe were assessed together (data to February 2024). Outcome in October 2024: maintenance, with no label change."
+            },
+            {
+              "id": "bem-l13-pharmacovigilance-fc2",
+              "front": "RMP after CLEAR Outcomes",
+              "back": "'Myopathy with statins' and 'gout' were removed as important potential risks (RMP v5.0). Gout remains a warning in the SmPC."
+            },
+            {
+              "id": "bem-l13-pharmacovigilance-fc3",
+              "front": "Unlimited validity",
+              "back": "A renewal outcome meaning no further five-year renewal is needed. Nilemdo received it in November 2024."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "bem-l13-pharmacovigilance-q1",
+              "stem": "Gout was removed from bempedoic acid's list of important potential risks in 2024. What does that mean?",
+              "options": [
+                "Bempedoic acid no longer causes gout",
+                "The gout warning was deleted from the SmPC",
+                "Regulators judged that gout no longer needs special tracking in the RMP. It stays a warning in the SmPC, handled through routine measures.",
+                "Gout became an identified risk"
+              ],
+              "correctIndex": 2,
+              "explanation": "The RMP and the SmPC do different jobs. The SmPC still warns about gout, while the RMP no longer lists it as needing additional monitoring."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Nilemdo and Nustendi, EU SmPCs, EMA product information updated 27 February 2026. Sections 4.4 and 4.8.\n2. **EPAR** — Nilemdo and Nustendi: procedural steps taken and scientific information after authorisation (PSUSA/10841/202402; PSUR assessment EMA/PSUR/0000274450, October 2025; renewal; II/0031; RMP v8.1).\n3. **Pharmacovigilance** — EU risk management plan version 5.0, Nilemdo and Nustendi (sign-off 26 February 2024); Swissmedic RMP summary for Nilemdo.\n4. **Journal** — Nissen SE et al. CLEAR Outcomes. *N Engl J Med* 2023 (gallstones)."
+        }
+      ]
+    },
+    {
+      "id": "bem-l14-esc-guidelines",
+      "title": "Where the ESC guidelines place it",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Guidelines, not licences\n\nThe ESC/EAS guidelines advise on clinical practice; they don't change what a medicine is licensed for.\n\nEach recommendation has a **class of recommendation**: I means 'is recommended', IIa 'should be considered', IIb 'may be considered' and III 'is not recommended'. It also has a **level of evidence**, from A (several randomised trials) to C (expert consensus or small studies)."
+        },
+        {
+          "type": "text",
+          "markdown": "## 2019: too early\n\nThe 2019 dyslipidaemia guidelines were published before bempedoic acid was approved in 2020, so they don't contain a formal recommendation for it. Their treatment sequence was a statin, then ezetimibe, then a PCSK9 inhibitor (see the rosuvastatin module)."
+        },
+        {
+          "type": "text",
+          "markdown": "## 2025: two places in the sequence\n\nThe 2025 focused update gave bempedoic acid two recommendations:\n\n- **Statin intolerance:** bempedoic acid is recommended (**Class I, level B**), alongside ezetimibe (Class I, level A).\n- **Add-on:** in high- or very-high-risk patients who don't reach their LDL goal on the maximum tolerated statin, with or without ezetimibe, adding bempedoic acid should be considered (**Class IIa, level C**).\n\nThe first rests on CLEAR Outcomes. The second draws on the LDL trials and expert judgement, which is why its evidence level is lower."
+        },
+        {
+          "type": "compare",
+          "title": "The label and the guideline",
+          "items": [
+            {
+              "id": "nilemdo-nustendi-smpc",
+              "label": "Nilemdo / Nustendi SmPC"
+            },
+            {
+              "id": "esc-2025",
+              "label": "ESC 2025"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "main-position",
+              "label": "Main position",
+              "values": [
+                "Added to the maximum tolerated statin, or used without a statin when one isn't tolerated",
+                "Statin intolerance: Class I (B)"
+              ]
+            },
+            {
+              "id": "second-position",
+              "label": "Second position",
+              "values": [
+                "Cardiovascular indication since 2024",
+                "Add-on when not at goal: Class IIa (C)"
+              ]
+            },
+            {
+              "id": "context",
+              "label": "Context",
+              "values": [
+                "Nustendi comes after ezetimibe has been tried",
+                "Sits alongside ezetimibe, PCSK9 inhibitors and inclisiran"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Where they line up\n\nThe label and the guideline agree on the main point: bempedoic acid is for patients who can't take a statin, or who aren't at goal on one. Both also reflect the outcome evidence: the Class I recommendation matches the 2024 cardiovascular indication.\n\nOne gap remains. The guideline places bempedoic acid alongside PCSK9 inhibitors and inclisiran, but the only randomised evidence for combining it with a PCSK9 inhibitor is one small phase 2 trial (Lesson 9)."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "bem-l14-esc-guidelines-fc1",
+              "front": "ESC 2025: statin intolerance",
+              "back": "Bempedoic acid Class I (B), alongside ezetimibe Class I (A). CLEAR Outcomes is the basis."
+            },
+            {
+              "id": "bem-l14-esc-guidelines-fc2",
+              "front": "ESC 2025: add-on",
+              "back": "Bempedoic acid should be considered (Class IIa, C) when LDL isn't at goal on the maximum tolerated statin, with or without ezetimibe."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "bem-l14-esc-guidelines-q1",
+              "stem": "Why is the 2025 add-on recommendation Class IIa (C) rather than Class I?",
+              "options": [
+                "Bempedoic acid doesn't lower LDL on top of statins",
+                "The outcome trial enrolled statin-intolerant patients, so for add-on use on top of full-dose statins, the evidence rests on LDL trials and expert judgement",
+                "It's contraindicated with statins",
+                "The ESC doesn't grade non-statins"
+              ],
+              "correctIndex": 1,
+              "explanation": "CLEAR Outcomes tested patients who couldn't take statins. On top of full statin therapy, LDL lowering is shown but outcome benefit isn't directly tested."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Nilemdo and Nustendi, EU SmPCs, EMA product information updated 27 February 2026. Section 4.1.\n2. **ESC guidelines** — Mach F et al. 2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias. *Eur Heart J* 2025;46(42):4359–78 (via a Turkish Society of Cardiology bulletin summary; to be verified against the full text).\n3. **ESC guidelines** — Mach F et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. *Eur Heart J* 2020;41:111–88."
+        }
+      ]
+    },
+    {
+      "id": "bem-l15-recap",
+      "title": "One-page recap",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Bempedoic acid on one page\n\n*Basis: Nilemdo and Nustendi EU SmPCs, product information published by the EMA on 27 February 2026. Next refresh: March 2027.*\n\n**What it is:** the first ATP citrate lyase inhibitor. It blocks cholesterol production one step before statins, and it's a prodrug activated mainly in the liver. Nilemdo contains bempedoic acid 180 mg; Nustendi adds ezetimibe 10 mg.\n\n**What it's approved for:** adults with high cholesterol, either added to the maximum tolerated statin or without a statin when one isn't tolerated. Since 2024 it's also approved to reduce cardiovascular risk. Nustendi comes after ezetimibe, or replaces the two separate tablets.\n\n**How it's taken:** one tablet a day, with or without food. Simvastatin is limited to 20 mg a day (40 mg in severe cases). Nustendi goes 2 hours before or 4 hours after cholestyramine. It's contraindicated in pregnancy."
+        },
+        {
+          "type": "text",
+          "markdown": "**What it does:**\n- **LDL vs placebo:** about 17–18 points lower on a statin, 21–28 points lower in statin-intolerant patients, and 38 points lower with Nustendi.\n- **CLEAR Outcomes (13,970 people, 3.4 years):** MACE-4 11.7% vs 13.3%, HR 0.87. Fewer heart attacks and procedures; no change in stroke or death.\n\n**Safety:** uric acid and gout, small haemoglobin drops, a creatinine rise via OAT2 (not kidney damage), and liver enzyme rises. Watch the fibrate paradox. Gallstones in CLEAR Outcomes aren't in the Nilemdo SmPC. The PSUSA ended in maintenance, and the licence was renewed without a time limit.\n\n**Guidelines:** ESC 2025 gives Class I (B) in statin intolerance and IIa (C) as an add-on."
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "bem-l15-recap-q1",
+              "stem": "Which statement best summarises CLEAR Outcomes?",
+              "options": [
+                "It reduced cardiovascular death",
+                "In statin-intolerant patients, it cut major events (HR 0.87) through fewer heart attacks and procedures, with no significant effect on stroke or death",
+                "It tested bempedoic acid on top of high-dose statins",
+                "It showed no benefit"
+              ],
+              "correctIndex": 1,
+              "explanation": "The effect came from heart attacks (HR 0.73) and revascularisation (HR 0.81). Cardiovascular death had HR 1.04."
+            },
+            {
+              "id": "bem-l15-recap-q2",
+              "stem": "A patient takes simvastatin 80 mg. Can Nilemdo be added?",
+              "options": [
+                "Yes, without change",
+                "Not at that dose. Simvastatin above 40 mg is contraindicated with bempedoic acid, so the dose must come down (normally to 20 mg, or 40 mg in severe cases) or the statin must be switched.",
+                "Only with Nustendi",
+                "Only in children"
+              ],
+              "correctIndex": 1,
+              "explanation": "Bempedoic acid roughly doubles simvastatin acid exposure, which is why doses above 40 mg are contraindicated."
+            },
+            {
+              "id": "bem-l15-recap-q3",
+              "stem": "Why does creatinine rise slightly on bempedoic acid?",
+              "options": [
+                "Kidney damage",
+                "Blocking the kidney transporter OAT2 reduces how much creatinine the tubules secrete. The SmPC says this doesn't appear to mean worse kidney function.",
+                "Dehydration",
+                "Muscle breakdown"
+              ],
+              "correctIndex": 1,
+              "explanation": "It's an interaction with the body's own creatinine handling, but eGFR readings still need careful interpretation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Nilemdo and Nustendi, EU SmPCs, EMA product information updated 27 February 2026.\n2. **PIL** — Nilemdo and Nustendi package leaflets.\n3. **EPAR** — Nilemdo and Nustendi EPARs (initial assessments, II/0031 and II/0035, procedural steps, RMP).\n4. **Journal** — The CLEAR trials: Harmony, Wisdom, Serenity, Tranquility, Combo and Outcomes.\n5. **ESC guidelines** — 2025 ESC/EAS Focused Update.\n\nEvery point here is covered in more detail, with full sources, in Lessons 1–14."
         }
       ]
     }

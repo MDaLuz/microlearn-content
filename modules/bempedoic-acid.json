@@ -3,7 +3,7 @@
   "id": "bempedoic-acid",
   "title": "Bempedoic acid",
   "discipline": "Molecules",
-  "version": 5,
+  "version": 6,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Nilemdo and Nustendi product information published by the EMA on 27 February 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -1038,6 +1038,351 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Nilemdo, EU SmPC, EMA product information updated 27 February 2026. Sections 4.1, 4.4, 4.5, 5.1.\n2. **SmPC** — Nustendi, EU SmPC, EMA product information updated 27 February 2026. Sections 4.1, 4.5, 4.8, 5.1.\n3. **Journal** — Rubino J et al. Lipid lowering with bempedoic acid added to a PCSK9 inhibitor therapy. *J Clin Lipidol* 2021. NCT03193047.\n4. **Journal** — Ray KK et al. Efficacy and safety of bempedoic acid among patients with and without diabetes: prespecified analysis of the CLEAR Outcomes randomised trial. *Lancet Diabetes Endocrinol* 2024;12:19–28. NCT02993406.\n5. **Registers** — ClinicalTrials.gov NCT06381947 (protocol version 1.0, 2 May 2023).\n6. **Secondary** — Healio, 16 September 2017 (Esperion press release on the triple-combination phase 2 trial)."
+        }
+      ]
+    },
+    {
+      "id": "bem-l10-cv-outcomes",
+      "title": "Heart-attack and stroke outcomes",
+      "xpReward": 60,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The question\n\nDoes bempedoic acid reduce heart attacks, strokes and deaths? The EU answer rests on one trial, CLEAR Outcomes: 13,970 statin-intolerant people followed for a median of 3.4 years.\n\nThe short answer is that it reduced heart attacks and artery-opening procedures. Strokes and deaths didn't change significantly."
+        },
+        {
+          "type": "text",
+          "markdown": "## Heart attacks and procedures\n\n- **Non-fatal heart attack:** 3.4% vs 4.5% (HR 0.73, 95% CI 0.62–0.87). That's 27% lower in relative terms and 1.1 percentage points lower in absolute terms.\n- **Fatal or non-fatal heart attack:** 3.7% vs 4.8% (HR 0.77).\n- **Coronary revascularisation:** 6.2% vs 7.6% (HR 0.81). That's 19% lower in relative terms and 1.4 points lower in absolute terms.\n\nThe main endpoint (MACE-4) fell from 13.3% to 11.7%. Treating about 63 people for around 40 months prevents one event (calculated from the 1.6-point difference)."
+        },
+        {
+          "type": "text",
+          "markdown": "## Strokes and deaths\n\n- **Non-fatal stroke:** 1.7% vs 2.1% (HR 0.82, 95% CI 0.64–1.05), not significant.\n- **Fatal or non-fatal stroke:** 1.9% vs 2.3% (HR 0.85), not significant.\n- **Cardiovascular death:** 3.8% vs 3.7% (HR 1.04, 95% CI 0.88–1.24).\n- **Death from any cause:** no significant difference, as reported in the trial publication.\n\nThe benefit of bempedoic acid is on heart attacks and procedures, not on survival, at least over 3.4 years."
+        },
+        {
+          "type": "text",
+          "markdown": "## Is the result the size LDL would predict?\n\nThe **LDL hypothesis** holds that lowering LDL by any means reduces heart events in proportion to how much LDL falls. At 6 months, LDL in CLEAR Outcomes was about 29 mg/dL (about 0.76 mmol/L) lower than on placebo.\n\nThe statin meta-analysis in the rosuvastatin module found about 22% fewer events per 1 mmol/L. On that scale, a 0.76 mmol/L drop would predict roughly 17% fewer events. The observed figure was 13% (HR 0.87). The numbers are in the same range, which fits the idea that bempedoic acid works through LDL. This is an illustration calculated here, not a formal test."
+        },
+        {
+          "type": "text",
+          "markdown": "## Two subgroups worth knowing\n\n**People with diabetes (6,373):** MACE-4 HR 0.83, 2.4 percentage points lower in absolute terms, with no difference from the rest of the trial (interaction p = 0.42).\n\n**Primary prevention (4,206 high-risk people without prior events):** a separate analysis reported relative reductions of 30% in MACE-4 (5.3% vs 7.6%), 39% in heart attacks (1.4% vs 2.2%) and 39% in cardiovascular death (1.8% vs 3.1%). This is a subgroup analysis, and the full trial showed no effect on cardiovascular death. It suggests a benefit but doesn't prove one.\n\nThe EU SmPC reports neither subgroup. The Nustendi SmPC also says outright that its primary-prevention evidence is limited to lipid effects."
+        },
+        {
+          "type": "compare",
+          "title": "Where the outcome evidence stands",
+          "items": [
+            {
+              "id": "shown",
+              "label": "Shown"
+            },
+            {
+              "id": "not-shown",
+              "label": "Not shown"
+            },
+            {
+              "id": "open",
+              "label": "Open"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "first-point",
+              "label": "First point",
+              "values": [
+                "Fewer heart attacks (HR 0.73–0.77)",
+                "Fewer strokes",
+                "Primary-prevention subgroup (large relative figures)"
+              ]
+            },
+            {
+              "id": "second-point",
+              "label": "Second point",
+              "values": [
+                "Fewer revascularisations (HR 0.81)",
+                "Fewer cardiovascular deaths",
+                "Effect on top of full-dose statins"
+              ]
+            },
+            {
+              "id": "third-point",
+              "label": "Third point",
+              "values": [
+                "Holds in people with diabetes",
+                "Fewer deaths from any cause",
+                "Longer than 3.4 years"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "bem-l10-cv-outcomes-fc1",
+              "front": "CLEAR Outcomes: what fell",
+              "back": "Non-fatal heart attack 3.4% vs 4.5% (HR 0.73) and revascularisation 6.2% vs 7.6% (HR 0.81). Strokes and deaths didn't change significantly."
+            },
+            {
+              "id": "bem-l10-cv-outcomes-fc2",
+              "front": "NNT in CLEAR Outcomes",
+              "back": "About 63 people treated for around 40 months to prevent one MACE-4 event, calculated from 11.7% vs 13.3%."
+            },
+            {
+              "id": "bem-l10-cv-outcomes-fc3",
+              "front": "LDL hypothesis check",
+              "back": "LDL about 0.76 mmol/L lower predicts roughly 17% fewer events (22% per mmol/L). The observed reduction was 13%, which is consistent with benefit through LDL."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "bem-l10-cv-outcomes-q1",
+              "stem": "A primary-prevention subgroup analysis of CLEAR Outcomes reported 39% fewer cardiovascular deaths. How should you weigh this?",
+              "options": [
+                "As proof that bempedoic acid prevents cardiovascular death",
+                "As a hypothesis from a subgroup. The full trial showed no effect on cardiovascular death, and the EU SmPC doesn't report the subgroup.",
+                "As evidence of harm",
+                "As the basis of the EU indication"
+              ],
+              "correctIndex": 1,
+              "explanation": "Subgroup findings can suggest where benefit is larger, but they can't overturn the overall result. The overall cardiovascular-death HR was 1.04."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Nilemdo, EU SmPC, EMA product information updated 27 February 2026. Section 5.1, Table 4.\n2. **SmPC** — Nustendi, EU SmPC. Sections 4.4 and 5.1 (subgroups).\n3. **Journal** — Nissen SE et al. CLEAR Outcomes. *N Engl J Med* 2023;388:1353–64.\n4. **Journal** — Ray KK et al. CLEAR Outcomes by glycaemic status. *Lancet Diabetes Endocrinol* 2024;12:19–28.\n5. **Journal** — Nissen SE et al. CLEAR Outcomes primary prevention. *JAMA* 2023;330:131–40.\n6. **Journal** — Cholesterol Treatment Trialists' Collaboration. *Lancet* 2010;376:1670–81 (see the rosuvastatin module)."
+        }
+      ]
+    },
+    {
+      "id": "bem-l11-side-effects",
+      "title": "Side effects",
+      "xpReward": 60,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## How the SmPCs count\n\nNilemdo's table combines the phase 3 cholesterol trials with CLEAR Outcomes. CLEAR Outcomes figures are given as an **exposure-adjusted incidence**: events per amount of time on treatment, which suits a long trial where people were followed for different lengths of time.\n\nNustendi's table adds the known side effects of ezetimibe, which makes it longer."
+        },
+        {
+          "type": "text",
+          "markdown": "## Nilemdo's list\n\n- **Common:**\n  - anaemia\n  - gout and raised uric acid\n  - raised AST (a liver enzyme)\n  - pain in the arms or legs\n  - lower eGFR (the lab estimate of kidney function)\n- **Uncommon:**\n  - lower haemoglobin\n  - weight loss\n  - raised ALT and other liver tests\n  - raised creatinine and urea"
+        },
+        {
+          "type": "text",
+          "markdown": "## What Nustendi adds\n\nNustendi's table adds effects reported with the combination tablet, and with ezetimibe on its own.\n\n**Common with the combination:**\n\n- **Gut:** constipation, diarrhoea, abdominal pain, nausea, dry mouth, wind, gastritis\n- **Muscles and joints:** muscle spasms, muscle aches, back pain, joint pain\n- **Other:** dizziness, headache, raised blood pressure, cough, tiredness, weakness, reduced appetite, raised creatinine\n\n**Frequency not known, from ezetimibe:** allergic reactions, low platelets, pancreatitis, hepatitis, gallstones and gallbladder inflammation, erythema multiforme, and myopathy or rhabdomyolysis."
+        },
+        {
+          "type": "text",
+          "markdown": "## Uric acid and gout\n\nBecause it blocks OAT2, bempedoic acid raised uric acid by about 48 µmol/L on average. The rise came within 4 weeks and reversed after stopping.\n\n- **Gout in the phase 3 trials:** 1.4% vs 0.4% on placebo.\n- **Gout in CLEAR Outcomes:** 3.1% vs 2.1%. Most people who developed it already had gout, or had high uric acid at the start.\n- **With a fibrate as well:** raised uric acid was more frequent (19.5% vs 10.4% without a fibrate), but gout itself wasn't.\n\nThe rule: stop treatment if raised uric acid comes with symptoms of gout."
+        },
+        {
+          "type": "text",
+          "markdown": "## Blood count\n\nIn the phase 3 trials, haemoglobin dropped by at least 20 g/L to below the **lower limit of normal** (the bottom of the lab's reference range) in 4.6% of patients vs 1.9% on placebo. Larger drops (more than 50 g/L) were equally rare in both groups, at 0.2%.\n\nAnaemia was reported in 2.5% vs 1.6%, and in CLEAR Outcomes in 4.7% vs 3.9%. With a fibrate as well, it was 9.6% vs 4.5% without. These changes appeared early and reversed after stopping."
+        },
+        {
+          "type": "text",
+          "markdown": "## Kidney and liver numbers\n\n**Kidneys:** creatinine rose by an average of about 4–6 µmol/L, and urea rose too, within 4 weeks. The SmPC says this reflects blocked OAT2 secretion of creatinine and doesn't appear to mean worse kidney function. It does mean eGFR readings need careful interpretation.\n\n**Liver:** liver enzymes above 3 times the upper limit of normal occurred in 0.7% vs 0.3% in the phase 3 trials, and 1.6% vs 1.0% in CLEAR Outcomes. For Nustendi the figure was 2.4% vs 0%. None of these rises came with jaundice-type bilirubin increases, and all reversed."
+        },
+        {
+          "type": "text",
+          "markdown": "## Two signals missing from the EU label\n\n- **Gallstones:** in CLEAR Outcomes, **cholelithiasis** (gallstones) occurred in 2.2% on bempedoic acid vs 1.2% on placebo. The Nilemdo SmPC table doesn't list it. The Nustendi SmPC lists it only as an ezetimibe effect with frequency 'not known'.\n- **Tendon rupture:** earlier studies raised a possible link, and it appeared in the US label, but CLEAR Outcomes showed no increase. It isn't mentioned in either EU SmPC.\n\nNeither point is proof of anything. Both are worth tracking in Lesson 13."
+        },
+        {
+          "type": "compare",
+          "title": "Phase 3 trials vs CLEAR Outcomes",
+          "items": [
+            {
+              "id": "phase-3",
+              "label": "Phase 3 (12–52 weeks)"
+            },
+            {
+              "id": "clear-outcomes",
+              "label": "CLEAR Outcomes (3.4 years)"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "gout",
+              "label": "Gout",
+              "values": [
+                "Gout 1.4% vs 0.4%",
+                "Gout 3.1% vs 2.1%"
+              ]
+            },
+            {
+              "id": "anaemia",
+              "label": "Anaemia",
+              "values": [
+                "Anaemia 2.5% vs 1.6%",
+                "Anaemia 4.7% vs 3.9%"
+              ]
+            },
+            {
+              "id": "liver-enzymes",
+              "label": "Liver enzymes",
+              "values": [
+                "Liver enzymes >3× ULN: 0.7% vs 0.3%",
+                "Liver enzymes >3× ULN: 1.6% vs 1.0%"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "bem-l11-side-effects-fc1",
+              "front": "Uric acid and gout",
+              "back": "Uric acid rises about 48 µmol/L within 4 weeks, through OAT2. Gout 3.1% vs 2.1% in CLEAR Outcomes, mostly in people with prior gout. Stop if gout symptoms appear."
+            },
+            {
+              "id": "bem-l11-side-effects-fc2",
+              "front": "Creatinine rise",
+              "back": "About 4–6 µmol/L, from blocked OAT2 secretion. It doesn't appear to mean worse kidney function, but interpret eGFR with care."
+            },
+            {
+              "id": "bem-l11-side-effects-fc3",
+              "front": "Gallstones",
+              "back": "2.2% vs 1.2% in CLEAR Outcomes. Not in the Nilemdo SmPC table; listed for Nustendi only through ezetimibe."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "bem-l11-side-effects-q1",
+              "stem": "A patient on bempedoic acid with a history of gout develops a painful, swollen big toe. What does the SmPC say?",
+              "options": [
+                "Continue; gout is unrelated",
+                "Stop bempedoic acid if raised uric acid comes with gout symptoms",
+                "Double the dose",
+                "Add a fibrate"
+              ],
+              "correctIndex": 1,
+              "explanation": "Bempedoic acid raises uric acid and can bring on gout, especially in people with a history of it. The SmPC says to discontinue treatment in that case."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Nilemdo, EU SmPC, EMA product information updated 27 February 2026. Sections 4.4 and 4.8.\n2. **SmPC** — Nustendi, EU SmPC. Sections 4.4 and 4.8.\n3. **Journal** — Nissen SE et al. CLEAR Outcomes. *N Engl J Med* 2023;388:1353–64 (gallstones); CLEAR Outcomes safety analysis, *J Clin Lipidol* 2024;18(1):e59–e69.\n4. **Secondary** — AJMC commentary on tendon rupture in CLEAR Outcomes."
+        }
+      ]
+    },
+    {
+      "id": "bem-l12-contraindications-interactions",
+      "title": "Who shouldn't take it, and interactions",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Contraindications\n\n**Both products are contraindicated in:**\n- allergy to the active substances or any ingredient\n- pregnancy\n- use with simvastatin above 40 mg a day\n\n**Nustendi is also contraindicated with a statin** in people with active liver disease or unexplained, persistently raised transaminases. This rule comes from its ezetimibe component. When Nustendi is taken with a statin, that statin's own SmPC also applies."
+        },
+        {
+          "type": "text",
+          "markdown": "## Use with care, or not at all\n\n- **Gout, or a tendency to it:** bempedoic acid can trigger gout.\n- **Severe kidney impairment or dialysis:** data are limited, so monitor for side effects.\n- **Liver:** for Nilemdo, severe impairment hasn't been studied, so consider periodic liver tests. Nustendi isn't recommended in moderate or severe impairment.\n- **Lactose:** both tablets contain it, so people with rare inherited sugar-intolerance conditions shouldn't take them."
+        },
+        {
+          "type": "text",
+          "markdown": "## Other lipid medicines\n\n- **Statins:** bempedoic acid raises statin levels (simvastatin acid about 2 times, others 1.4–1.5 times), which increases the risk of muscle problems. If CPK rises above 10 times the upper limit of normal, stop both medicines.\n- **Fibrates:** the combination can paradoxically *raise* triglycerides and *lower* HDL. Check both at 4 weeks and periodically after that, and stop one of the medicines if the changes matter clinically. Anaemia and raised uric acid are also more frequent.\n- **Nustendi with fenofibrate:** if gallstones are suspected, investigate the gallbladder and consider switching treatment. The safety of ezetimibe with fibrates hasn't been established."
+        },
+        {
+          "type": "text",
+          "markdown": "## Transporter interactions\n\nBempedoic acid weakly blocks OATP1B1 and OATP1B3. Medicines carried by these transporters may therefore reach higher levels. The SmPC names bosentan, fimasartan, and the hepatitis C medicines asunaprevir, glecaprevir, grazoprevir and voxilaprevir.\n\nIt also blocks OAT2, and may weakly block OAT3. Probenecid raises bempedoic acid exposure 1.7 times, which isn't considered meaningful. Bempedoic acid doesn't change metformin or oral contraceptive levels."
+        },
+        {
+          "type": "text",
+          "markdown": "## Interactions from Nustendi's ezetimibe\n\n- **Ciclosporin:** raises ezetimibe exposure about 3.4 times, and up to 12 times in one kidney-transplant patient. Start with caution and monitor ciclosporin levels.\n- **Cholestyramine:** cuts ezetimibe by about 55%. Separate the doses by at least 2 hours before or 4 hours after.\n- **Warfarin and similar anticoagulants:** there are reports of raised INR (a clotting test), so monitor INR when adding Nustendi.\n- **Fenofibrate and gemfibrozil:** raise ezetimibe 1.5 and 1.7 times."
+        },
+        {
+          "type": "compare",
+          "title": "Nilemdo vs Nustendi: extra rules",
+          "items": [
+            {
+              "id": "nilemdo",
+              "label": "Nilemdo"
+            },
+            {
+              "id": "nustendi",
+              "label": "Nustendi"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "contraindications",
+              "label": "Contraindications",
+              "values": [
+                "allergy, pregnancy, simvastatin above 40 mg",
+                "Adds: with a statin in active liver disease"
+              ]
+            },
+            {
+              "id": "liver",
+              "label": "Liver",
+              "values": [
+                "Severe liver impairment: not studied",
+                "Moderate or severe liver impairment: not recommended"
+              ]
+            },
+            {
+              "id": "interaction-rules",
+              "label": "Interaction rules",
+              "values": [
+                "No ciclosporin, cholestyramine or warfarin lines",
+                "Adds ciclosporin, cholestyramine, INR and gallstone rules"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "bem-l12-contraindications-interactions-fc1",
+              "front": "Contraindications",
+              "back": "Allergy, pregnancy, simvastatin above 40 mg. Nustendi adds: with a statin in active liver disease or persistently raised transaminases."
+            },
+            {
+              "id": "bem-l12-contraindications-interactions-fc2",
+              "front": "Fibrate paradox",
+              "back": "With bempedoic acid, fibrates may raise triglycerides and lower HDL. Check at 4 weeks and periodically, and stop one medicine if it's clinically relevant."
+            },
+            {
+              "id": "bem-l12-contraindications-interactions-fc3",
+              "front": "Nustendi + ciclosporin",
+              "back": "Ezetimibe exposure rises about 3.4 times (up to 12 times). Start with caution and monitor ciclosporin levels."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "bem-l12-contraindications-interactions-q1",
+              "stem": "A patient on fenofibrate starts Nilemdo. What does the SmPC ask for?",
+              "options": [
+                "Nothing",
+                "Check triglycerides and HDL at 4 weeks and periodically, because the combination can raise triglycerides and lower HDL",
+                "Stop fenofibrate first",
+                "Halve the Nilemdo dose"
+              ],
+              "correctIndex": 1,
+              "explanation": "The fibrate interaction is reversible but paradoxical. If the changes are clinically relevant, one of the two medicines is stopped."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Nilemdo, EU SmPC, EMA product information updated 27 February 2026. Sections 4.2, 4.3, 4.4, 4.5.\n2. **SmPC** — Nustendi, EU SmPC. Sections 4.2, 4.3, 4.4, 4.5, 5.2."
         }
       ]
     }

@@ -3,7 +3,7 @@
   "id": "bempedoic-acid",
   "title": "Bempedoic acid",
   "discipline": "Molecules",
-  "version": 7,
+  "version": 8,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Nilemdo and Nustendi product information published by the EMA on 27 February 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -1557,7 +1557,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **SmPC** — Nilemdo and Nustendi, EU SmPCs, EMA product information updated 27 February 2026. Section 4.1.\n2. **ESC guidelines** — Mach F et al. 2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias. *Eur Heart J* 2025;46(42):4359–78 (via a Turkish Society of Cardiology bulletin summary; to be verified against the full text).\n3. **ESC guidelines** — Mach F et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. *Eur Heart J* 2020;41:111–88."
+          "markdown": "## Sources\n\n1. **SmPC** — Nilemdo and Nustendi, EU SmPCs, EMA product information updated 27 February 2026. Section 4.1.\n2. **ESC guidelines** — Mach F et al. 2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias. *Eur Heart J* 2025;46(42):4359–78 (PMID 40878289; recommendation wording via a Turkish Society of Cardiology bulletin summary).\n3. **ESC guidelines** — Mach F et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. *Eur Heart J* 2020;41:111–88."
         }
       ]
     },

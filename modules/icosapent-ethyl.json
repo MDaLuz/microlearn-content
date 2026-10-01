@@ -3,7 +3,7 @@
   "id": "icosapent-ethyl",
   "title": "Icosapent ethyl (EPA)",
   "discipline": "Molecules",
-  "version": 6,
+  "version": 7,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Vazkepa product information published by the EMA on 13 March 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -1046,7 +1046,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Consistent across subgroups, with one twist\n\nThe benefit was similar across the prespecified subgroups: primary vs secondary prevention, diabetes or not, men vs women, and US vs non-US patients (all interaction p-values above 0.29).\n\nThe twist: the benefit was similar whether baseline triglycerides were above or below 1.7 mmol/L (150 mg/dL) (p = 0.68), even though the label's threshold is 1.7. That fits Lesson 2's point that triglycerides aren't the main driver.\n\nIn the 3,146 patients from the US, the reduction looked larger (HR 0.69), and it included death from any cause. The difference between regions wasn't statistically significant, but it has fed the debate over the mineral-oil placebo."
+          "markdown": "## Consistent across subgroups, with one twist\n\nThe benefit was similar across the prespecified subgroups: primary vs secondary prevention, diabetes or not, men vs women, and US vs non-US patients (all interaction p-values above 0.29).\n\nThe twist: the benefit was similar whether baseline triglycerides were above or below 1.7 mmol/L (150 mg/dL) (p = 0.68), even though the label's threshold is 1.7. That fits Lesson 2's point that triglycerides aren't the main driver.\n\nIn the 3,146 patients from the US, the reduction looked larger (HR 0.69), and it included death from any cause. For the main endpoints, the difference between regions wasn't statistically significant. For death from any cause it was (interaction p = 0.02), and that has fed the debate over the mineral-oil placebo."
         },
         {
           "type": "compare",
@@ -1136,7 +1136,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Section 5.1, Table 2.\n2. **Journal** — Bhatt DL et al. REDUCE-IT USA. *Circulation* 2020 (abstract via eScholarship).\n3. **Secondary** — PACE-CME summary of REDUCE-IT (AHA 2018): subgroup interaction tests.\n4. **Journal** — Nicholls SJ et al. STRENGTH. *JAMA* 2020.\n5. **EPAR-level** — EMA press release on omega-3 fatty acid medicines."
+          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Section 5.1, Table 2.\n2. **Journal** — Bhatt DL et al. REDUCE-IT USA. *Circulation* 2020;141:367–75.\n3. **Secondary** — PACE-CME summary of REDUCE-IT (AHA 2018): subgroup interaction tests.\n4. **Journal** — Nicholls SJ et al. STRENGTH. *JAMA* 2020.\n5. **EPAR-level** — EMA press release on omega-3 fatty acid medicines."
         }
       ]
     },
@@ -1538,7 +1538,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Section 4.1.\n2. **ESC guidelines** — Mach F et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. *Eur Heart J* 2020;41:111–88. 2025 Focused Update, *Eur Heart J* 2025;46(42):4359–78 (via a TKD bulletin summary; to be verified).\n3. **HTA** — NICE TA805, 'Icosapent ethyl with statin therapy for reducing the risk of cardiovascular events in people with raised triglycerides', 13 July 2022 (via Triglyceride Forum and PharmTech reports).\n4. **HTA** — NCPE Ireland, HTA ID 23006, technical summary (2025)."
+          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Section 4.1.\n2. **ESC guidelines** — Mach F et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. *Eur Heart J* 2020;41:111–88. 2025 Focused Update, *Eur Heart J* 2025;46(42):4359–78 (PMID 40878289; recommendation wording via a TKD bulletin summary).\n3. **HTA** — NICE TA805, 'Icosapent ethyl with statin therapy for reducing the risk of cardiovascular events in people with raised triglycerides', 13 July 2022 (via Triglyceride Forum and PharmTech reports).\n4. **HTA** — NCPE Ireland, HTA ID 23006, technical summary (2025)."
         }
       ]
     },

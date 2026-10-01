@@ -3,7 +3,7 @@
   "id": "icosapent-ethyl",
   "title": "Icosapent ethyl (EPA)",
   "discipline": "Molecules",
-  "version": 3,
+  "version": 4,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Vazkepa product information published by the EMA on 13 March 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -844,6 +844,182 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Sections 4.8 and 5.1 (REDUCE-IT design and Table 2).\n2. **Journal** — Bhatt DL et al. REDUCE-IT. *N Engl J Med* 2019;380:11–22. NCT01492361.\n3. **Journal** — Nicholls SJ et al. STRENGTH. *JAMA* 2020;324:2268–80. NCT02104817.\n4. **Journal** — Kalstad AA et al. OMEMI. *Circulation* 2021;143:528–39. NCT01841944.\n5. **Secondary** — PMC review of REDUCE-IT vs STRENGTH (PMC11697285); PACE-CME; R3i; Physician's Weekly; AHA Early Career Voice (OMEMI design).\n6. **EPAR-level** — EMA press release on omega-3 fatty acid medicines."
+        }
+      ]
+    },
+    {
+      "id": "ipe-l09-combination-trials",
+      "title": "🔗 Combination trials",
+      "xpReward": 85,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Always a combination\n\nIcosapent ethyl is never used on its own. Its licence requires a statin, and in REDUCE-IT nearly everyone also took blood-pressure and antiplatelet medicines. This lesson looks at six partners: **statins**, **ezetimibe**, **PCSK9 inhibitors**, **blood-pressure medicines**, **SGLT2 inhibitors** and **GLP-1 receptor agonists**.\n\nThe main source here is REDUCE-IT's background therapy. No dedicated combination trials were found for any of the six partners."
+        },
+        {
+          "type": "text",
+          "markdown": "## What the licence names\n\nThe Vazkepa indication names one partner: a statin. It's required ('statin-treated patients'). None of the other five partners is mentioned, and none is excluded either. No combination tablet containing icosapent ethyl exists in the EU."
+        },
+        {
+          "type": "text",
+          "markdown": "## What the SmPC says about partners\n\n- **Statins:** no change in drug levels with atorvastatin.\n- **Other medicines processed by liver enzymes:** no interaction with omeprazole, rosiglitazone (a diabetes medicine) or warfarin.\n- **Antiplatelets and anticoagulants:** higher bleeding risk, so monitor periodically.\n- **Ezetimibe, PCSK9 inhibitors, blood-pressure medicines, SGLT2 inhibitors and GLP-1 receptor agonists:** no lines at all.\n\nThe sorbitol in the capsule may affect how well some other oral medicines are absorbed, but that applies to medicines in general, not to any specific partner."
+        },
+        {
+          "type": "compare",
+          "title": "Part 1: with a statin, ezetimibe or a PCSK9 inhibitor",
+          "items": [
+            {
+              "id": "statin",
+              "label": "+ Statin"
+            },
+            {
+              "id": "ezetimibe",
+              "label": "+ Ezetimibe"
+            },
+            {
+              "id": "pcsk9-inhibitor",
+              "label": "+ PCSK9 inhibitor"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "in-reduce-it",
+              "label": "In REDUCE-IT",
+              "values": [
+                "Everyone in REDUCE-IT: 63% moderate-intensity, 31% high-intensity",
+                "6.4% of REDUCE-IT patients",
+                "Excluded from REDUCE-IT"
+              ]
+            },
+            {
+              "id": "design-or-licence",
+              "label": "Design or licence",
+              "values": [
+                "Required by the licence",
+                "Randomisation stratified by ezetimibe use",
+                "No combination trial found"
+              ]
+            },
+            {
+              "id": "finding",
+              "label": "Finding",
+              "values": [
+                "No interaction with atorvastatin",
+                "No differential benefit seen",
+                "Not named in the licence"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "compare",
+          "title": "Part 2: with blood-pressure medicines, SGLT2 inhibitors or GLP-1 receptor agonists",
+          "items": [
+            {
+              "id": "blood-pressure-medicines",
+              "label": "+ Blood-pressure medicines"
+            },
+            {
+              "id": "sglt2-inhibitor",
+              "label": "+ SGLT2 inhibitor"
+            },
+            {
+              "id": "glp-1-receptor-agonist",
+              "label": "+ GLP-1 receptor agonist"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "in-reduce-it",
+              "label": "In REDUCE-IT",
+              "values": [
+                "95.2% of REDUCE-IT patients",
+                "Used by a small proportion in REDUCE-IT",
+                "Used by a small proportion in REDUCE-IT"
+              ]
+            },
+            {
+              "id": "detail",
+              "label": "Detail",
+              "values": [
+                "77.5% on an ACE inhibitor or ARB",
+                "Closest evidence: the diabetes subgroup (HR 0.77)",
+                "Closest evidence: the diabetes subgroup"
+              ]
+            },
+            {
+              "id": "smpc",
+              "label": "SmPC",
+              "values": [
+                "No SmPC line",
+                "No SmPC line",
+                "No SmPC line"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## How to read the six columns\n\nAll six columns come from the background therapy in one trial, not from trials designed to test each combination. Read each column on its own, never as a ranking.\n\n- **Statins and blood-pressure medicines** are well represented, because nearly every patient took them.\n- **Ezetimibe** is thin, at 6.4% of patients.\n- **PCSK9 inhibitors** are absent, because they were excluded.\n- **SGLT2 inhibitors and GLP-1 receptor agonists** are rare, because the trial predates their widespread use."
+        },
+        {
+          "type": "text",
+          "markdown": "## How REDUCE-IT handled ezetimibe\n\nThe trial used **stratified randomisation**: patients were randomised separately within groups, one of which was whether they took ezetimibe, so that each arm received a balanced share of ezetimibe users. The investigators reported no difference in benefit between patients who did and didn't take ezetimibe.\n\nWith only about 520 ezetimibe users, though, the trial couldn't have detected a modest difference. 'No difference seen' isn't the same as 'shown to be the same'."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why PCSK9 inhibitors were excluded\n\nPatients on PCSK9 inhibitors could join only after a **washout**, meaning they stopped the drug for a set period before enrolment. In practice, that kept PCSK9 users out of the trial.\n\nSo for someone on a statin plus a PCSK9 inhibitor whose triglycerides are still high, REDUCE-IT provides no direct evidence."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: REDUCE-IT, patients with diabetes\nTag: 🔗 +STATIN\n\n- Registry: NCT01492361\n- Who took part: REDUCE-IT patients with type 2 diabetes, 4,730 (57.8%) of the 8,179\n- Background therapy: a statin for everyone. Only a small proportion took SGLT2 inhibitors or GLP-1 receptor agonists.\n- Compared with: the mineral-oil placebo, median follow-up 4.9 years (a prespecified subgroup analysis)\n- Main question: does the benefit hold in people with diabetes?\n- Headline result: for the primary endpoint, HR 0.77 vs placebo. Absolute rates weren't in the sources reviewed. The **subgroup interaction**, the test of whether benefit differed with or without diabetes, wasn't significant (p = 0.29).\n- In plain words: people with diabetes benefited about as much as everyone else in the trial.\n- Worth knowing: this is the closest evidence for the SGLT2 and GLP-1 columns. It doesn't test those combinations, because few patients took those medicines."
+        },
+        {
+          "type": "text",
+          "markdown": "## The register list\n\nThis list was compiled from the SmPC, trial summaries and ClinicalTrials.gov on 30 September 2026.\n\n🔗 +STATIN\n- REDUCE-IT · NCT01492361 · 4.9 years (including the diabetes subgroup)\n- STRENGTH (EPA + DHA, comparison product) · NCT02104817 · stopped for futility\n\n🔗 +EZE · 🔗 +STATIN+EZE · 🔗 +PCSK9 · 🔗 +ANTIHTN · 🔗 +SGLT2 · 🔗 +GLP1\n- No dedicated icosapent ethyl combination trials found."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ipe-l09-combination-trials-fc1",
+              "front": "The only partner the licence names",
+              "back": "A statin, and it's required. Ezetimibe, PCSK9 inhibitors, blood-pressure medicines, SGLT2 inhibitors and GLP-1 receptor agonists aren't mentioned."
+            },
+            {
+              "id": "ipe-l09-combination-trials-fc2",
+              "front": "Ezetimibe in REDUCE-IT",
+              "back": "6.4% of patients, with randomisation stratified by ezetimibe use. No differential benefit was seen, but the group was too small to rule one out."
+            },
+            {
+              "id": "ipe-l09-combination-trials-fc3",
+              "front": "PCSK9 inhibitors in REDUCE-IT",
+              "back": "Excluded unless washed out first, so there's no direct evidence for adding icosapent ethyl on top of a PCSK9 inhibitor."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ipe-l09-combination-trials-q1",
+              "stem": "A patient takes a statin, ezetimibe and an SGLT2 inhibitor, and still has triglycerides of 2.2 mmol/L. What does the evidence offer for adding Vazkepa?",
+              "options": [
+                "A dedicated trial of exactly this combination",
+                "Indirect evidence only: REDUCE-IT included few ezetimibe users and few SGLT2 users, and showed no difference by ezetimibe use or by diabetes",
+                "A contraindication",
+                "Nothing, because the label forbids it"
+              ],
+              "correctIndex": 1,
+              "explanation": "The label allows it, since only a statin is required. But the trial evidence for this exact background is indirect, coming from small subgroups and consistency analyses."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Sections 4.1, 4.4, 4.5, 5.1.\n2. **Secondary (investigator slides)** — ACC REDUCE-IT REVASC slide deck (NCT01492361; baseline ezetimibe and diabetes).\n3. **Secondary** — ACC.org REDUCE-IT summary, AHA 2018 (ezetimibe subgroup); WikiJournalClub REDUCE-IT (stratification; PCSK9 exclusion); PACE-CME (diabetes subgroup and interaction tests).\n4. **HTA** — NICE TA805, committee discussion (SGLT2 inhibitor and GLP-1 receptor agonist use in REDUCE-IT)."
         }
       ]
     }

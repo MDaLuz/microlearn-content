@@ -3,7 +3,7 @@
   "id": "icosapent-ethyl",
   "title": "Icosapent ethyl (EPA)",
   "discipline": "Molecules",
-  "version": 5,
+  "version": 6,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Vazkepa product information published by the EMA on 13 March 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -1357,6 +1357,249 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Sections 4.3, 4.4, 4.5, 5.2.\n2. **SmPC (comparison)** — Omacor, UK SmPC (emc product 1706) and Spanish SmPC (CIMA 65476)."
+        }
+      ]
+    },
+    {
+      "id": "ipe-l13-pharmacovigilance",
+      "title": "Pharmacovigilance",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Watched more closely\n\n**Pharmacovigilance** means monitoring a medicine's safety once it's on the market. Vazkepa carries the black triangle of additional monitoring, so healthcare professionals are specifically asked to report any suspected side effect. Patients can report directly through their national system too."
+        },
+        {
+          "type": "text",
+          "markdown": "## Two risks, both confirmed\n\nThe risk management plan (RMP) lists two **important identified risks**. These are harms linked to the medicine with enough evidence that they need active management:\n\n- bleeding in patients on antithrombotic therapy\n- atrial fibrillation or flutter\n\nIt lists no important potential risks. Both identified risks are handled through routine measures: SmPC warnings, monitoring advice and reporting.\n\nCompare bempedoic acid, whose RMP removed its potential risks after an outcome trial. For icosapent ethyl, the outcome trial *confirmed* two risks, and they were added to the RMP as identified risks."
+        },
+        {
+          "type": "text",
+          "markdown": "## What hasn't been found\n\nThis module's search found no **PSUSA** (periodic safety update single assessment) outcome for icosapent ethyl, and no PRAC safety signal or letter to healthcare professionals. That doesn't mean none exists; it may simply not have been found. The SmPC's post-marketing list does show new reports, including raised triglycerides, joint pain, diarrhoea, abdominal discomfort and pain in the limbs."
+        },
+        {
+          "type": "text",
+          "markdown": "## The 2018 lesson\n\nThe mixed omega-3 story shows pharmacovigilance working on efficacy as well as safety. The EMA reviewed medicines that had been used for almost two decades and found no new safety problem. Even so, it concluded that their benefit after a heart attack wasn't confirmed, and removed that use.\n\nThe same logic applies to Vazkepa. Its benefit rests on one trial and one disputed placebo. A future trial with a neutral placebo could strengthen that evidence or weaken it."
+        },
+        {
+          "type": "text",
+          "markdown": "## What triggers a refresh\n\n- New Vazkepa product information from the EMA\n- A PSUSA ending in a variation\n- A PRAC signal, for example on bleeding or atrial fibrillation\n- A new outcome trial with a neutral placebo\n\nThe current basis is the product information reflecting the January 2026 renewal. The next scheduled refresh is March 2027."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ipe-l13-pharmacovigilance-fc1",
+              "front": "Vazkepa's RMP risks",
+              "back": "Two important identified risks: bleeding in patients on antithrombotics, and atrial fibrillation or flutter. No important potential risks."
+            },
+            {
+              "id": "ipe-l13-pharmacovigilance-fc2",
+              "front": "Additional monitoring",
+              "back": "The black triangle. Vazkepa is watched more closely, and suspected side effects should be reported."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ipe-l13-pharmacovigilance-q1",
+              "stem": "What does the 2018 omega-3 review show about pharmacovigilance?",
+              "options": [
+                "It only deals with side effects",
+                "It can remove an indication when benefit isn't confirmed, even with no new safety problem",
+                "It never changes old medicines",
+                "It only applies to new medicines"
+              ],
+              "correctIndex": 1,
+              "explanation": "The EMA found no new safety concern but judged the post-heart-attack benefit unconfirmed. The benefit–risk balance became negative, so that use was removed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Sections 4.4 and 4.8.\n2. **Pharmacovigilance** — Summary of the risk management plan for Vazkepa (EMA).\n3. **EPAR-level** — EMA press release, 'Omega-3 fatty acid medicines no longer considered effective in preventing heart disease'."
+        }
+      ]
+    },
+    {
+      "id": "ipe-l14-esc-guidelines",
+      "title": "Where the ESC guidelines place it",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Guidelines and payers\n\nThe ESC/EAS guidelines advise on practice, using a **class of recommendation** (I, IIa, IIb or III) and a **level of evidence** (A to C).\n\nThis lesson also brings in a third voice: **health technology assessment** (HTA). An HTA body decides whether a health system should pay for a medicine, and for which patients. Its answer can be narrower than both the licence and the guideline."
+        },
+        {
+          "type": "text",
+          "markdown": "## ESC/EAS: 2019 and 2025\n\nThe 2019 dyslipidaemia guidelines say high-dose icosapent ethyl (2 g twice daily) **should be considered (Class IIa)** in high-risk patients whose triglycerides stay between 1.5 and 5.6 mmol/L despite a statin.\n\nThe 2025 focused update restated it at IIa (level B). In the same update, conventional fibrates were described as having minimal effect on major events (see the fenofibrate module). Icosapent ethyl therefore sits one class above fibrates for persistent triglycerides."
+        },
+        {
+          "type": "text",
+          "markdown": "## NICE: narrower than the licence\n\nIn July 2022, NICE (England's HTA body) recommended icosapent ethyl, but only for part of the licensed population:\n\n- adults on a statin\n- with **established cardiovascular disease**, meaning secondary prevention only\n- with triglycerides of 1.7 mmol/L or above\n- with LDL above 1.04 and at most 2.60 mmol/L, matching the REDUCE-IT entry criteria\n\nThe diabetes-plus-risk-factors group in the EU licence wasn't included. NICE described it as the first medicine in its class recommended for cardiovascular risk reduction, with about 425,000 people eligible in England."
+        },
+        {
+          "type": "text",
+          "markdown": "## Ireland: the same narrowing\n\nIreland's HTA body (NCPE) also assessed the secondary-prevention group with LDL between 1.04 and 2.59 mmol/L. Its technical summary noted the rises in biomarkers seen in the placebo arm, the same mineral-oil question covered in Lesson 7. HTA bodies read the same trial, but they ask a different question: is it worth paying for, and in whom?"
+        },
+        {
+          "type": "compare",
+          "title": "Licence, guideline, payer",
+          "items": [
+            {
+              "id": "eu-licence",
+              "label": "EU licence"
+            },
+            {
+              "id": "esc-2019-2025",
+              "label": "ESC 2019 / 2025"
+            },
+            {
+              "id": "nice-2022",
+              "label": "NICE 2022"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "who",
+              "label": "Who",
+              "values": [
+                "On a statin, triglycerides of 1.7 mmol/L or above",
+                "IIa: high risk with triglycerides of 1.5–5.6 mmol/L on a statin",
+                "Secondary prevention only"
+              ]
+            },
+            {
+              "id": "detail",
+              "label": "Detail",
+              "values": [
+                "Established cardiovascular disease, or diabetes plus a risk factor",
+                "Ranked above fibrates for persistent triglycerides",
+                "LDL 1.04–2.60 mmol/L"
+              ]
+            },
+            {
+              "id": "limits-or-basis",
+              "label": "Limits or basis",
+              "values": [
+                "No LDL range stated",
+                "Built on REDUCE-IT",
+                "Diabetes-only group not covered"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Reading the three together\n\nEach layer narrows the group further. The licence is the widest. The guideline adds 'should be considered' and a triglyceride range. The payer limits it to the group where the trial evidence is strongest and the cost case works.\n\nFor mixed omega-3 products (Omacor-type), there's no heart-prevention recommendation at all. They're used for lowering triglycerides only."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ipe-l14-esc-guidelines-fc1",
+              "front": "ESC for icosapent ethyl",
+              "back": "Class IIa (2019; restated as IIa B in 2025): high-risk patients with triglycerides of 1.5–5.6 mmol/L despite a statin."
+            },
+            {
+              "id": "ipe-l14-esc-guidelines-fc2",
+              "front": "NICE TA805 (2022)",
+              "back": "Secondary prevention only, triglycerides of 1.7 mmol/L or above, LDL above 1.04 and at most 2.60 mmol/L. Narrower than the EU licence."
+            },
+            {
+              "id": "ipe-l14-esc-guidelines-fc3",
+              "front": "Health technology assessment",
+              "back": "Decides whether a health system pays for a medicine, and for whom. It's often narrower than the licence."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ipe-l14-esc-guidelines-q1",
+              "stem": "A statin-treated patient with diabetes, one risk factor, no established cardiovascular disease and triglycerides of 2.0 mmol/L is in England. Where do they stand?",
+              "options": [
+                "Inside the EU licence, but outside NICE's recommendation, which covers secondary prevention only",
+                "Outside the licence",
+                "Covered by NICE but not the licence",
+                "Contraindicated"
+              ],
+              "correctIndex": 0,
+              "explanation": "The EU licence includes diabetes plus a risk factor. NICE limited funding to established cardiovascular disease."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Section 4.1.\n2. **ESC guidelines** — Mach F et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. *Eur Heart J* 2020;41:111–88. 2025 Focused Update, *Eur Heart J* 2025;46(42):4359–78 (via a TKD bulletin summary; to be verified).\n3. **HTA** — NICE TA805, 'Icosapent ethyl with statin therapy for reducing the risk of cardiovascular events in people with raised triglycerides', 13 July 2022 (via Triglyceride Forum and PharmTech reports).\n4. **HTA** — NCPE Ireland, HTA ID 23006, technical summary (2025)."
+        }
+      ]
+    },
+    {
+      "id": "ipe-l15-recap",
+      "title": "One-page recap",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Icosapent ethyl on one page\n\n*Basis: Vazkepa EU SmPC (renewal 15 January 2026; MAH Recordati). Next refresh: March 2027.*\n\n**What it is:** purified EPA, an omega-3 fatty acid, as an ethyl ester. It's prescription-only, not a supplement. Its mechanism is 'not completely understood', and lowering triglycerides explains only part of the benefit.\n\n**Approved for:** reducing cardiovascular events in statin-treated adults at high risk with triglycerides of 1.7 mmol/L or above, who have either established cardiovascular disease or diabetes plus a risk factor.\n\n**How it's taken:** 2 × 998 mg capsules twice daily, with or after a meal, swallowed whole. Don't use with soya or peanut allergy, and avoid it in hereditary fructose intolerance."
+        },
+        {
+          "type": "text",
+          "markdown": "**What it does (REDUCE-IT, 8,179 patients, 4.9 years):**\n- Five-point MACE: 17.2% vs 22.0%, HR 0.75 (NNT about 21)\n- Cardiovascular death: HR 0.80\n- Stroke and heart attack were also reduced\n- Death from any cause: not significant\n\nThe mineral-oil placebo is still debated. STRENGTH, which tested EPA+DHA against corn oil, was neutral (HR 0.99).\n\n**Safety:** bleeding (serious bleeding higher only with antithrombotics), atrial fibrillation (12.5% vs 6.3% in people with prior AF), swelling, constipation and gout. The RMP lists bleeding and AF as identified risks.\n\n**Context:** mixed omega-3 products lost their EU indication after heart attack, but keep their triglyceride indication. The ESC rates icosapent ethyl IIa, and NICE funds it for secondary prevention only. Recordati took over the EU licence in 2025."
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ipe-l15-recap-q1",
+              "stem": "Which statement about the REDUCE-IT evidence is most balanced?",
+              "options": [
+                "It proves all omega-3s prevent heart attacks",
+                "It showed a 25% relative reduction in major events with purified EPA. Whether part of that came from the mineral-oil placebo is still debated, and a different omega-3 product (STRENGTH) was neutral.",
+                "It showed no benefit",
+                "It was open-label"
+              ],
+              "correctIndex": 1,
+              "explanation": "The trial was positive and double-blind. The placebo question and STRENGTH's neutral result are the key caveats."
+            },
+            {
+              "id": "ipe-l15-recap-q2",
+              "stem": "Why are triglycerides not the main explanation for the benefit?",
+              "options": [
+                "Triglycerides weren't measured",
+                "Triglycerides fell 18% while events fell 25%, the benefit didn't track triglyceride response, and it was similar below 1.7 mmol/L",
+                "Triglycerides rose",
+                "The SmPC says triglycerides explain all of it"
+              ],
+              "correctIndex": 1,
+              "explanation": "The SmPC states that lowering triglycerides contributes only a minor part. The benefit tracked on-treatment EPA levels more closely."
+            },
+            {
+              "id": "ipe-l15-recap-q3",
+              "stem": "A patient on a statin plus apixaban (an anticoagulant) starts Vazkepa. What matters most?",
+              "options": [
+                "A dose reduction for apixaban",
+                "Bleeding risk: serious bleeding was higher in REDUCE-IT patients on antithrombotics (3.4% vs 2.6%), so monitor periodically",
+                "Nothing",
+                "Stop the statin"
+              ],
+              "correctIndex": 1,
+              "explanation": "There's no known change in drug levels, but the bleeding effects add up. Bleeding with antithrombotics is an important identified risk in the RMP."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC (renewal 15 January 2026).\n2. **PIL** — Vazkepa package leaflet.\n3. **EPAR** — Vazkepa EPAR and RMP summary.\n4. **EPAR-level** — EMA press release on omega-3 fatty acid medicines.\n5. **Journal** — REDUCE-IT (*N Engl J Med* 2019); STRENGTH (*JAMA* 2020).\n6. **ESC guidelines** — 2019 ESC/EAS dyslipidaemia guidelines and 2025 Focused Update.\n7. **HTA** — NICE TA805 (2022).\n\nEvery point here is covered in more detail, with full sources, in Lessons 1–14."
         }
       ]
     }

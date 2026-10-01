@@ -3,7 +3,7 @@
   "id": "icosapent-ethyl",
   "title": "Icosapent ethyl (EPA)",
   "discipline": "Molecules",
-  "version": 1,
+  "version": 2,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Vazkepa product information published by the EMA on 13 March 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -305,6 +305,344 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Sections 4.8, 5.1, 7, 9; package leaflet (local representatives).\n2. **EPAR** — Vazkepa EPAR page (CHMP opinion 28 January 2021; marketing authorisation 26 March 2021).\n3. **EPAR-level** — EMA press release, 'Omega-3 fatty acid medicines no longer considered effective in preventing heart disease'.\n4. **Secondary (company)** — Amarin press release, 24 June 2025, and Amarin Form 10-Q/10-K filings (reimbursement, Recordati agreement).\n5. **Secondary** — World Pharmaceuticals (2025), for the timing of the Great Britain approval."
+        }
+      ]
+    },
+    {
+      "id": "ipe-l04-approved-uses",
+      "title": "What it's approved for",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## One indication, several gates\n\nVazkepa has a single indication, and a patient has to meet every part of it:\n\n1. An adult\n2. Already taking a statin. Vazkepa is an **adjunct**, meaning it's added on top of the statin, not used instead of it.\n3. At high cardiovascular risk\n4. With triglycerides of 1.7 mmol/L or higher\n5. With either established cardiovascular disease, or diabetes plus at least one other **risk factor**, meaning a feature that raises the chance of a heart attack or stroke\n\nIf any part is missing, the patient falls outside the licence."
+        },
+        {
+          "type": "text",
+          "markdown": "## What REDUCE-IT meant by high risk\n\nThe trial behind the indication enrolled two groups:\n\n- **Established cardiovascular disease** (71%): aged 45 or over, with documented disease of the heart arteries, the brain or neck arteries, or the leg arteries\n- **Diabetes plus risk factors** (29%): aged 50 or over, with diabetes treated with medicines, plus at least one of these:\n  - high blood pressure\n  - older age (55 or over for men, 65 or over for women)\n  - low HDL cholesterol\n  - smoking\n  - raised CRP (a marker of inflammation)\n  - kidney impairment\n  - protein in the urine\n  - diabetic eye disease\n  - signs of narrowed leg arteries\n\nThe SmPC points to these definitions in section 5.1."
+        },
+        {
+          "type": "text",
+          "markdown": "## Label and trial don't match exactly\n\nThe trial's **entry criteria**, the rules for who could join, differed from the label in two ways:\n\n- **Triglycerides:** the trial accepted patients from 1.53 mmol/L at screening (up to just under 5.64). The label starts at 1.7 mmol/L.\n- **LDL:** the trial required LDL that was already fairly well controlled on a statin, between 1.03 and 2.59 mmol/L. The label doesn't state an LDL range.\n\nBoth gaps are normal: a label is written for practice, not as a copy of the trial protocol. But it's worth knowing that patients with high LDL weren't studied."
+        },
+        {
+          "type": "text",
+          "markdown": "## Notice what isn't there\n\n- **A triglyceride indication:** Vazkepa isn't licensed simply to lower triglycerides.\n- **Use without a statin:** everyone in REDUCE-IT took a statin.\n- **Children:** paediatric studies were waived.\n- **Very high triglycerides:** levels of 5.64 mmol/L or above were excluded from the trial.\n- **PCSK9 inhibitor users:** they were excluded from the trial."
+        },
+        {
+          "type": "text",
+          "markdown": "## The Omacor comparison\n\nMixed omega-3 (Omacor) now has a different, purely lipid indication: endogenous hypertriglyceridaemia (raised triglycerides produced by the body, rather than from dietary fat), alongside diet. The **Fredrickson types** are an older laboratory classification of lipid disorders, and Omacor's indication uses them:\n\n- **Type IV** (triglycerides raised): Omacor on its own.\n- **Types IIb and III** (cholesterol and triglycerides both raised): Omacor with a statin, when the statin doesn't control triglycerides well enough.\n\nIt isn't for type I, where the raised triglycerides come from dietary fat. Its old heart indication after a heart attack was removed."
+        },
+        {
+          "type": "compare",
+          "title": "Two omega-3 products, two kinds of indication",
+          "items": [
+            {
+              "id": "vazkepa",
+              "label": "Vazkepa"
+            },
+            {
+              "id": "omacor",
+              "label": "Omacor"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "aim",
+              "label": "Aim",
+              "values": [
+                "Reduce cardiovascular events",
+                "Lower triglycerides"
+              ]
+            },
+            {
+              "id": "how",
+              "label": "How",
+              "values": [
+                "Added to a statin in high-risk patients with triglycerides of 1.7 mmol/L or above",
+                "On its own (type IV) or with a statin (IIb/III)"
+              ]
+            },
+            {
+              "id": "basis",
+              "label": "Basis",
+              "values": [
+                "Based on an outcome trial",
+                "Heart indication after a heart attack removed"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ipe-l04-approved-uses-fc1",
+              "front": "The five gates",
+              "back": "Adult. On a statin. High cardiovascular risk. Triglycerides of 1.7 mmol/L or above. Established cardiovascular disease, or diabetes plus one more risk factor."
+            },
+            {
+              "id": "ipe-l04-approved-uses-fc2",
+              "front": "Label vs trial thresholds",
+              "back": "The label starts at triglycerides of 1.7 mmol/L. The trial screened from 1.53 mmol/L and needed LDL between 1.03 and 2.59 mmol/L."
+            },
+            {
+              "id": "ipe-l04-approved-uses-fc3",
+              "front": "Omacor's current indication",
+              "back": "Endogenous hypertriglyceridaemia: type IV on its own; types IIb/III with a statin. Not for heart prevention."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ipe-l04-approved-uses-q1",
+              "stem": "A 58-year-old with type 2 diabetes, high blood pressure and triglycerides of 2.4 mmol/L asks about Vazkepa. She isn't on a statin. Does she fit the label?",
+              "options": [
+                "Yes, diabetes plus a risk factor is enough",
+                "No. The indication requires statin treatment, so a statin comes first.",
+                "Yes, because her triglycerides are high",
+                "No, because she's under 65"
+              ],
+              "correctIndex": 1,
+              "explanation": "Vazkepa is an adjunct to a statin. Without one, she falls outside the licence, even though she meets the other gates."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Sections 4.1, 4.2, 5.1.\n2. **EPAR** — Vazkepa EPAR page (therapeutic indication; paediatric waiver).\n3. **SmPC (comparison)** — Omacor 1000 mg soft capsules, Spanish SmPC (CIMA 65476), section 4.1."
+        }
+      ]
+    },
+    {
+      "id": "ipe-l05-strengths-products",
+      "title": "Strengths and products",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A large capsule, four times a day\n\nVazkepa comes in a single strength: a 998 mg **soft capsule**, meaning a gelatin shell filled with liquid. It's oblong, light yellow to amber, 25 × 10 mm, and printed 'IPE' in white.\n\nThe **excipients**, the ingredients other than the active substance, that patients need to know about are:\n\n- maltitol (30 mg) and sorbitol (83 mg), both sugar alcohols\n- soya lecithin\n\nThe daily dose is four capsules. For people who find tablets hard to swallow, that's a real consideration."
+        },
+        {
+          "type": "text",
+          "markdown": "## Packs designed for the dose\n\n- **Bottles:** 120 capsules, which at four a day is 30 days' supply. Cartons hold one or three bottles. The cap is child-resistant: push down and turn.\n- **Blisters:** unit-dose strips of 4×2 capsules, printed 'Day 1 · Dose 1 · Dose 2', to make the twice-daily routine easier to follow.\n\nThe capsules keep for five years when stored below 30 °C and protected from moisture."
+        },
+        {
+          "type": "text",
+          "markdown": "## Who stands behind it\n\nThe **MAH** (marketing authorisation holder, the company legally responsible for the product) is Recordati in Milan. Batches are released by MIAS Pharma in Ireland.\n\nThe **local representative**, the company patients and doctors contact in each country, is almost always a Recordati affiliate: Bouchara-Recordati in France, Casen Recordati in Spain, Jaba Recordati in Portugal, and Herbacos Recordati in the Czech Republic and Slovakia. The exception is Greece, where the partner Vianex fills that role."
+        },
+        {
+          "type": "text",
+          "markdown": "## Same code, different evidence\n\nThe **ATC code** is the international classification that groups medicines by chemistry and use. Vazkepa and Omacor share the same one: C10AX06.\n\nYet one has outcome evidence for heart protection, and the other lost its heart indication. An ATC code classifies a molecule's chemistry, not the evidence for using it, so the same code can carry very different labels."
+        },
+        {
+          "type": "text",
+          "markdown": "## The comparison product\n\nOmacor comes as 1 g soft capsules, each containing 460 mg of EPA and 380 mg of DHA (as ethyl esters), plus vitamin E as an antioxidant. It also contains soya oil. The dose is two capsules a day, rising to four if needed. Bottles hold 20 to 100 capsules, and there's also a 10 × 28 multipack."
+        },
+        {
+          "type": "compare",
+          "title": "Vazkepa vs Omacor capsules",
+          "items": [
+            {
+              "id": "vazkepa-998-mg",
+              "label": "Vazkepa 998 mg"
+            },
+            {
+              "id": "omacor-1000-mg",
+              "label": "Omacor 1000 mg"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "contents",
+              "label": "Contents",
+              "values": [
+                "EPA only",
+                "EPA 460 mg + DHA 380 mg"
+              ]
+            },
+            {
+              "id": "dose",
+              "label": "Dose",
+              "values": [
+                "4 capsules a day (about 4 g of EPA)",
+                "2–4 capsules a day"
+              ]
+            },
+            {
+              "id": "excipients",
+              "label": "Excipients",
+              "values": [
+                "Contains sorbitol, maltitol and soya lecithin",
+                "Contains soya oil"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ipe-l05-strengths-products-fc1",
+              "front": "The Vazkepa capsule",
+              "back": "998 mg soft capsule, 25 × 10 mm, printed 'IPE'. Four a day. Contains maltitol, sorbitol and soya lecithin."
+            },
+            {
+              "id": "ipe-l05-strengths-products-fc2",
+              "front": "One bottle = one month",
+              "back": "120 capsules at four a day is 30 days. Blister packs are labelled Day 1 · Dose 1 · Dose 2."
+            },
+            {
+              "id": "ipe-l05-strengths-products-fc3",
+              "front": "Shared ATC code",
+              "back": "Vazkepa and Omacor are both C10AX06. ATC classifies chemistry, not evidence."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ipe-l05-strengths-products-q1",
+              "stem": "Why can Vazkepa and Omacor share an ATC code but have such different indications?",
+              "options": [
+                "The ATC code is wrong",
+                "ATC classifies chemistry and use; indications depend on each product's own trials and assessment",
+                "Both have the same indication",
+                "Omacor is a generic of Vazkepa"
+              ],
+              "correctIndex": 1,
+              "explanation": "Vazkepa's indication rests on REDUCE-IT. Omacor's heart indication was removed after review. The shared code says nothing about that."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Sections 2, 3, 5.1, 6, 7; Annex II; package leaflet section 6.\n2. **SmPC (comparison)** — Omacor 1000 mg, Spanish SmPC and PIL (CIMA 65476); UK SmPC (emc product 1706)."
+        }
+      ]
+    },
+    {
+      "id": "ipe-l06-how-taken",
+      "title": "How it's taken",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The routine\n\nThe dose is two capsules twice a day, taken with or just after a meal. Swallow them whole: don't break, crush, dissolve or chew them, so the full dose gets through.\n\nAll the trials gave it with food, and no study tested it without food. That's why the meal instruction matters."
+        },
+        {
+          "type": "text",
+          "markdown": "## A missed dose\n\nTake a missed dose as soon as you remember. If a whole day's dose is missed, just carry on with the next scheduled dose. Don't double up to catch up."
+        },
+        {
+          "type": "text",
+          "markdown": "## Kidneys, liver and age\n\nNo dose change is needed for kidney or liver impairment, or for age. The pharmacokinetics haven't been studied in kidney or liver impairment, but REDUCE-IT patients with these conditions didn't need routine dose changes.\n\nIn people with liver impairment, the SmPC asks for liver enzymes (ALT and AST) to be checked before starting and at suitable intervals during treatment."
+        },
+        {
+          "type": "text",
+          "markdown": "## Bleeding and heart rhythm\n\n**Bleeding:** if someone also takes antiplatelet medicines (including aspirin) or anticoagulants, monitor them periodically. If signs of bleeding appear, such as bruising, nosebleeds, blood in the urine or gut bleeding, appropriate laboratory tests may be considered. Patients should report any bleeding promptly.\n\n**Heart rhythm:** watch for atrial fibrillation, especially in people who've had it before. Signs include palpitations, breathlessness, fainting or dizziness, chest discomfort and an irregular pulse. Do an ECG when clinically indicated."
+        },
+        {
+          "type": "text",
+          "markdown": "## Allergies and sugars\n\n- **Soya or peanut allergy:** don't use it, because the capsule contains soya lecithin.\n- **Fish or shellfish allergy:** use with caution. It isn't known whether the risk is higher.\n- **Hereditary fructose intolerance:** don't use it, because of the sorbitol and maltitol.\n- **Other medicines:** sorbitol adds to any sorbitol or fructose from other medicines or food, and may affect how well some other oral medicines are absorbed."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pregnancy and breastfeeding: three wordings\n\n**Pregnancy:** there are limited data. As a precaution, it's better to avoid Vazkepa unless the benefit outweighs the risk to the baby.\n\n**Breastfeeding:** the sources say different things:\n\n- The Vazkepa SmPC says to decide between stopping breastfeeding and stopping Vazkepa, weighing the benefit of each. EPA passes into breast milk in line with the mother's diet.\n- The Vazkepa PIL simply says it's 'not recommended'.\n- The UK Omacor SmPC says it 'should not be used' during breastfeeding.\n\nThe Vazkepa SmPC is the reference here."
+        },
+        {
+          "type": "text",
+          "markdown": "## Children, driving and overdose\n\n- **Children:** there's no relevant use under 18.\n- **Driving:** Vazkepa has no or negligible effect on driving or using machines.\n- **Overdose:** there's no specific treatment. Treat the symptoms and give supportive care."
+        },
+        {
+          "type": "compare",
+          "title": "Practical differences: Vazkepa vs Omacor",
+          "items": [
+            {
+              "id": "vazkepa",
+              "label": "Vazkepa"
+            },
+            {
+              "id": "omacor",
+              "label": "Omacor"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "dosing",
+              "label": "Dosing",
+              "values": [
+                "4 capsules a day, with or after food",
+                "2–4 capsules a day; can be taken with food to avoid stomach upset"
+              ]
+            },
+            {
+              "id": "warfarin",
+              "label": "Warfarin",
+              "values": [
+                "No interaction with warfarin levels, but monitor for bleeding",
+                "Check prothrombin time when combined with warfarin, and when stopping"
+              ]
+            },
+            {
+              "id": "ldl",
+              "label": "LDL",
+              "values": [
+                "LDL barely changed in REDUCE-IT",
+                "Can raise LDL in some patients"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ipe-l06-how-taken-fc1",
+              "front": "How to take it",
+              "back": "Two capsules twice a day, with or after a meal, swallowed whole."
+            },
+            {
+              "id": "ipe-l06-how-taken-fc2",
+              "front": "Who shouldn't take it",
+              "back": "People with soya or peanut allergy, or hereditary fructose intolerance. Use caution with fish or shellfish allergy."
+            },
+            {
+              "id": "ipe-l06-how-taken-fc3",
+              "front": "Bleeding and AF monitoring",
+              "back": "With antithrombotic medicines, monitor periodically and test if bleeding appears. Watch for AF symptoms, especially with a history of AF."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ipe-l06-how-taken-q1",
+              "stem": "A patient on Vazkepa and aspirin notices easy bruising and a nosebleed. What does the SmPC suggest?",
+              "options": [
+                "Ignore it; it's unrelated",
+                "Bleeding is a known risk, especially with antithrombotic medicines. Appropriate laboratory tests may be considered, and the patient should report it promptly.",
+                "Double the dose",
+                "Stop the statin"
+              ],
+              "correctIndex": 1,
+              "explanation": "Bleeding was more frequent with icosapent ethyl, and serious bleeding was higher only in patients on antithrombotic medicines. The SmPC asks for monitoring and prompt reporting."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Sections 4.2–4.9, 5.2.\n2. **PIL** — Vazkepa package leaflet, sections 2 and 3.\n3. **SmPC (comparison)** — Omacor, UK SmPC (emc product 1706) and Spanish SmPC (CIMA 65476)."
         }
       ]
     }

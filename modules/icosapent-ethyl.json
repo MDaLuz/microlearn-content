@@ -3,7 +3,7 @@
   "id": "icosapent-ethyl",
   "title": "Icosapent ethyl (EPA)",
   "discipline": "Molecules",
-  "version": 2,
+  "version": 3,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Vazkepa product information published by the EMA on 13 March 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -643,6 +643,207 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Sections 4.2–4.9, 5.2.\n2. **PIL** — Vazkepa package leaflet, sections 2 and 3.\n3. **SmPC (comparison)** — Omacor, UK SmPC (emc product 1706) and Spanish SmPC (CIMA 65476)."
+        }
+      ]
+    },
+    {
+      "id": "ipe-l07-reading-a-trial",
+      "title": "Reading a clinical trial",
+      "xpReward": 60,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Why this lesson comes first\n\nThe omega-3 story turns on questions that most trials let you skip: what was the placebo made of, why did one trial stop early and another not, and why do two similar-looking trials disagree? This lesson covers those questions before Lesson 8 applies them."
+        },
+        {
+          "type": "text",
+          "markdown": "## A placebo is still a **comparator**\n\nEvery result compares the drug with something else, its comparator. Ideally that comparator is an **inert placebo**: a dummy that has no effect of its own.\n\nFor oil-based capsules, though, the placebo has to be an oil too. REDUCE-IT used light mineral oil, and STRENGTH used corn oil. If the placebo oil isn't truly inert, the result measures the drug's effect *plus* any harm or benefit from the placebo."
+        },
+        {
+          "type": "text",
+          "markdown": "## What happened in REDUCE-IT's placebo arm\n\nAt one year, LDL had risen by 10% in the placebo arm, compared with 3% on icosapent ethyl (SmPC figures). Reports of the trial data also describe rises in CRP (an inflammation marker) and apolipoprotein B in the placebo arm.\n\nIn STRENGTH, the corn-oil placebo didn't change these **biomarkers** (lab measures used to track a biological process). That's the core of the debate: was part of REDUCE-IT's benefit really the mineral-oil group doing slightly worse?"
+        },
+        {
+          "type": "text",
+          "markdown": "## How big could the placebo effect be?\n\nNo one knows exactly. The investigators of STRENGTH argued that at least part of REDUCE-IT's benefit may come from more events in the control arm. Supporters of REDUCE-IT point out that the shifts in placebo biomarkers were small, and that analyses within the trial still showed a substantial effect.\n\nThe EMA approved Vazkepa on REDUCE-IT and presents its efficacy in the SmPC. The SmPC mentions mineral oil only when discussing constipation. Commentators have called for a head-to-head trial, or another corn-oil-controlled trial."
+        },
+        {
+          "type": "text",
+          "markdown": "## Stopping early for futility\n\nTrials can be stopped early for benefit (as with rosuvastatin's JUPITER) or **stopped for futility**: when an interim look shows the trial is very unlikely to find a benefit if it continues. That decision rests with the independent **data monitoring committee**, the experts who review the results while the trial is still blinded to everyone else.\n\nSTRENGTH was stopped for futility in January 2020. Its two event curves were almost on top of each other."
+        },
+        {
+          "type": "text",
+          "markdown": "## Five-point and three-point MACE\n\nREDUCE-IT's primary endpoint counted five event types: cardiovascular death, heart attack, stroke, artery-opening procedures and hospitalisation for unstable angina.\n\nIts key secondary endpoint counted only the three 'hardest' ones: cardiovascular death, heart attack and stroke. Both fell by about a quarter, so the result didn't rest only on the softer events."
+        },
+        {
+          "type": "text",
+          "markdown": "## When trials disagree\n\nREDUCE-IT and STRENGTH differ in several ways at once: the product (purified EPA vs EPA plus DHA), the placebo (mineral oil vs corn oil), the patients (STRENGTH required low HDL) and how much EPA levels rose. This is **between-trial heterogeneity**: differences in design that make it impossible to pin the difference in results on any one cause.\n\nSecondary sources don't even agree on the EPA figures. One summary reports a rise of 144 vs 90 µg/mL; another reports 63% vs 67%. When summaries conflict, go back to the original paper."
+        },
+        {
+          "type": "text",
+          "markdown": "## Open-label then, blinded now\n\nThe older omega-3 approvals rested on GISSI-Prevenzione (1999), which was open-label: patients and doctors knew who took what. REDUCE-IT and STRENGTH were both double-blind. Their disagreement is about the details of good trials, not about one good trial and one poor one."
+        },
+        {
+          "type": "text",
+          "markdown": "## The combination tags\n\nEach trial card carries exactly one tag:\n\n- MONO: no background lipid-lowering treatment\n- 🔗 +STATIN: everyone on a statin\n- 🔗 +STATIN+EZE: on a statin plus ezetimibe\n- 🔗 +EZE: on ezetimibe\n- 🔗 +PCSK9: on a PCSK9 inhibitor\n- 🔗 +ANTIHTN: on blood-pressure medicines\n- 🔗 +SGLT2: on an SGLT2 inhibitor\n- 🔗 +GLP1: on a GLP-1 receptor agonist\n- 🔗 FDC: a combination tablet\n- 🔗 MIXED: varied background treatment"
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ipe-l07-reading-a-trial-fc1",
+              "front": "Comparator",
+              "back": "What the drug is compared against. For oil capsules, the placebo is an oil too: mineral oil in REDUCE-IT, corn oil in STRENGTH."
+            },
+            {
+              "id": "ipe-l07-reading-a-trial-fc2",
+              "front": "The mineral-oil debate",
+              "back": "In REDUCE-IT's placebo arm, LDL rose 10% (vs 3% on the drug), and CRP and apoB also rose. Was part of the benefit placebo harm? The question is unresolved."
+            },
+            {
+              "id": "ipe-l07-reading-a-trial-fc3",
+              "front": "Stopped for futility",
+              "back": "Ended early because a benefit had become very unlikely. STRENGTH was stopped in January 2020."
+            },
+            {
+              "id": "ipe-l07-reading-a-trial-fc4",
+              "front": "Between-trial heterogeneity",
+              "back": "Differences in product, placebo, patients and EPA levels between trials. They make the cause of differing results hard to pin down."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ipe-l07-reading-a-trial-q1",
+              "stem": "Why can't REDUCE-IT vs STRENGTH be read as a clean comparison of EPA vs EPA+DHA?",
+              "options": [
+                "Because STRENGTH was open-label",
+                "Because the trials differed in product, placebo oil, patients and EPA levels all at once",
+                "Because REDUCE-IT was too small",
+                "Because both had the same result"
+              ],
+              "correctIndex": 1,
+              "explanation": "With several design differences changing at the same time, no single factor can be identified as the cause. Only a head-to-head trial with the same placebo could isolate it."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Sections 4.8 and 5.1.\n2. **Journal** — Nicholls SJ et al. STRENGTH. *JAMA* 2020;324:2268–80.\n3. **Secondary** — Cleveland Clinic ConsultQD; PACE-CME; R3i editorial; MDedge and Pharmaceutical Technology reports of the STRENGTH presentation (AHA 2020).\n4. **EPAR-level** — EMA press release on omega-3 fatty acid medicines (GISSI-Prevenzione)."
+        }
+      ]
+    },
+    {
+      "id": "ipe-l08-pivotal-trials",
+      "title": "The pivotal trials",
+      "xpReward": 70,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## One pivotal trial, one key contrast\n\nThe EU licence rests on a single **pivotal trial**, REDUCE-IT. A second trial is just as important for understanding the evidence: STRENGTH, which tested a different high-dose omega-3 product and found no benefit.\n\nBoth tags are 🔗 +STATIN, because every patient in both trials was on a statin."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: REDUCE-IT\nTag: 🔗 +STATIN\n\n- Registry: NCT01492361\n- Who took part: 8,179 statin-treated adults: 70.7% with established cardiovascular disease, and 29.3% with diabetes plus risk factors. Triglycerides were 1.53 to under 5.64 mmol/L at screening, LDL 1.03–2.59 mmol/L. Median age 64; 28.8% women; 90% White.\n- Background therapy: a moderate- (63%) or high-intensity (31%) statin. Most also took antiplatelets (85.5%) and blood-pressure medicines (95.2%). PCSK9 inhibitors were excluded.\n- Compared with: a light mineral-oil placebo, randomised 1:1, event-driven, median 4.9 years\n- Main question: does icosapent ethyl 4 g a day reduce five-point MACE?\n- Headline result: 17.2% vs 22.0%, HR 0.75 (95% CI 0.68–0.83), p < 0.0001: 25% lower in relative terms and 4.8 percentage points in absolute terms. Three-point MACE: 11.2% vs 14.8%, HR 0.74.\n- In plain words: on top of a statin, icosapent ethyl cut major heart events by about a quarter over five years.\n- Worth knowing: the placebo arm's LDL rose 10% (vs 3% on the drug), and other placebo-arm biomarkers also rose, which is the mineral-oil debate. Hospitalisation for atrial fibrillation was more frequent (3% vs 2%)."
+        },
+        {
+          "type": "text",
+          "markdown": "### Trial card: STRENGTH\nTag: 🔗 +STATIN\n\n- Registry: NCT02104817\n- Who took part: 13,078 statin-treated adults at high cardiovascular risk, with raised triglycerides (180–500 mg/dL) and low HDL. 675 centres in 22 countries.\n- Background therapy: a statin, plus usual care\n- Compared with: a corn-oil placebo, randomised 1:1. Stopped for futility in January 2020.\n- Main question: does omega-3 carboxylic acids 4 g a day (EPA plus DHA, Epanova) reduce five-point MACE?\n- Headline result: 12.0% vs 12.2%, HR 0.99 (95% CI 0.90–1.09), p = 0.84: no difference in relative or absolute terms.\n- In plain words: a high-dose EPA-plus-DHA product didn't reduce heart events compared with corn oil.\n- Worth knowing: triglycerides fell 19% and CRP 20%, yet outcomes didn't change. Atrial fibrillation increased, by about 69% in relative terms. Epanova isn't one of the products covered in this module."
+        },
+        {
+          "type": "compare",
+          "title": "REDUCE-IT vs STRENGTH",
+          "items": [
+            {
+              "id": "reduce-it",
+              "label": "REDUCE-IT"
+            },
+            {
+              "id": "strength",
+              "label": "STRENGTH"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "product",
+              "label": "Product",
+              "values": [
+                "Purified EPA (icosapent ethyl), 4 g a day",
+                "EPA + DHA (carboxylic acids), 4 g a day"
+              ]
+            },
+            {
+              "id": "placebo",
+              "label": "Placebo",
+              "values": [
+                "Mineral-oil placebo, which raised LDL and CRP",
+                "Corn-oil placebo, neutral on biomarkers"
+              ]
+            },
+            {
+              "id": "result",
+              "label": "Result",
+              "values": [
+                "HR 0.75: positive",
+                "HR 0.99: stopped for futility"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## How to hold these two results\n\nThese aren't a head-to-head comparison. Product, placebo, patients (STRENGTH required low HDL) and EPA levels all differed, so no single explanation can be proven.\n\nThe main candidate explanations are:\n\n1. EPA alone works, but adding DHA doesn't.\n2. A higher EPA level is needed.\n3. Part of REDUCE-IT's effect came from the mineral-oil placebo.\n\nEach has supporters. The EU licence is built on REDUCE-IT, and Lesson 14 shows how guidelines handle the uncertainty."
+        },
+        {
+          "type": "text",
+          "markdown": "## The older omega-3 trials\n\nFor the mixed omega-3 products, the original heart approval rested on GISSI-Prevenzione (1999), an open-label trial of 1 g a day. Later randomised trials and meta-analyses didn't confirm the benefit, which led the EMA to remove that indication.\n\nOMEMI tested 1.8 g a day of EPA plus DHA against corn oil in 1,027 people aged 70–82 who'd recently had a heart attack. After two years it found no reduction in events (21.4% vs 20.0%, HR 1.08). New atrial fibrillation was more frequent on the omega-3 (7.2% vs 4.0%), though this difference wasn't statistically significant."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ipe-l08-pivotal-trials-fc1",
+              "front": "What REDUCE-IT showed",
+              "back": "8,179 statin-treated patients, 4.9 years, mineral-oil placebo. Five-point MACE 17.2% vs 22.0%, HR 0.75."
+            },
+            {
+              "id": "ipe-l08-pivotal-trials-fc2",
+              "front": "STRENGTH in one line",
+              "back": "13,078 patients, EPA+DHA 4 g a day vs corn oil. 12.0% vs 12.2%, HR 0.99. Stopped for futility."
+            },
+            {
+              "id": "ipe-l08-pivotal-trials-fc3",
+              "front": "Three explanations",
+              "back": "EPA alone works but DHA doesn't add benefit; a higher EPA level is needed; or the mineral-oil placebo inflated the effect. None is proven."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ipe-l08-pivotal-trials-q1",
+              "stem": "Which statement about REDUCE-IT and STRENGTH is fair?",
+              "options": [
+                "STRENGTH proves REDUCE-IT was wrong",
+                "REDUCE-IT proves DHA is harmful",
+                "They differ in product, placebo, patients and EPA levels, so the reason for their different results can't be proven from these two trials alone",
+                "Both trials used the same placebo"
+              ],
+              "correctIndex": 2,
+              "explanation": "Several design differences changed at the same time. The candidate explanations remain hypotheses until a head-to-head trial with the same placebo is run."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Sections 4.8 and 5.1 (REDUCE-IT design and Table 2).\n2. **Journal** — Bhatt DL et al. REDUCE-IT. *N Engl J Med* 2019;380:11–22. NCT01492361.\n3. **Journal** — Nicholls SJ et al. STRENGTH. *JAMA* 2020;324:2268–80. NCT02104817.\n4. **Journal** — Kalstad AA et al. OMEMI. *Circulation* 2021;143:528–39. NCT01841944.\n5. **Secondary** — PMC review of REDUCE-IT vs STRENGTH (PMC11697285); PACE-CME; R3i; Physician's Weekly; AHA Early Career Voice (OMEMI design).\n6. **EPAR-level** — EMA press release on omega-3 fatty acid medicines."
         }
       ]
     }

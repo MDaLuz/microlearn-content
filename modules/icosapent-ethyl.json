@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 4,
+  "id": "icosapent-ethyl",
+  "title": "Icosapent ethyl (EPA)",
+  "discipline": "Molecules",
+  "version": 1,
+  "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Vazkepa product information published by the EMA on 13 March 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
+  "lessons": [
+    {
+      "id": "ipe-l01-at-a-glance",
+      "title": "At a glance",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## What icosapent ethyl is\n\nIcosapent ethyl is a highly purified, prescription-only form of **EPA** (eicosapentaenoic acid), an **omega-3 fatty acid** found in fish oil. It isn't a food supplement. The dose is four 998 mg capsules a day: two in the morning and two in the evening, with or after a meal.\n\nThis module is built on the **SmPC** (the regulator-approved reference text for prescribers) for Vazkepa. It's authorised across the EU and now held by Recordati in Milan. The basis is the product information that reflects the January 2026 renewal."
+        },
+        {
+          "type": "text",
+          "markdown": "## One indication, tightly defined\n\nVazkepa is approved for one purpose: to reduce the risk of cardiovascular events in adults who are already taking a statin and are at high cardiovascular risk. They must have raised **triglycerides** (a type of blood fat), at 1.7 mmol/L or above, and one of two things:\n\n- **Established cardiovascular disease**, meaning known disease of the heart or blood vessels (such as a previous heart attack, stroke or narrowed leg arteries)\n- Diabetes plus at least one other cardiovascular risk factor\n\nIt isn't approved as a triglyceride-lowering treatment on its own."
+        },
+        {
+          "type": "text",
+          "markdown": "## Not really a triglyceride drug\n\nIn its main trial, triglycerides fell by 18% on icosapent ethyl and rose by 2% on placebo at one year. That's a modest effect.\n\nThe SmPC states that lowering triglycerides seems to explain only a small part of the benefit. The outcome didn't track how far triglycerides or LDL fell. What tracked the outcome most closely was the level of EPA in the blood."
+        },
+        {
+          "type": "text",
+          "markdown": "## What it does to heart events\n\nREDUCE-IT followed 8,179 statin-treated patients for a median of 4.9 years. Its main outcome combined five kinds of event into a **MACE** measure (major adverse cardiovascular events): cardiovascular death, heart attack, stroke, artery-opening procedures and hospitalisation for unstable angina.\n\n- **Main outcome:** 17.2% vs 22.0%, HR 0.75 (95% CI 0.68–0.83). That's 25% lower in relative terms and 4.8 percentage points lower in absolute terms.\n- **Cardiovascular death:** 4.3% vs 5.2%, HR 0.80 (95% CI 0.66–0.98).\n- **Death from any cause:** 6.7% vs 7.6%, HR 0.87 (95% CI 0.74–1.02). Not significant."
+        },
+        {
+          "type": "text",
+          "markdown": "## What to watch\n\n- **Bleeding:** 11.8% vs 9.9%. Serious bleeding was more frequent only in people also taking blood thinners (3.4% vs 2.6%).\n- **Irregular heart rhythm:** **atrial fibrillation** (an irregular, often fast heart rhythm) or flutter occurred in 5.8% vs 4.5%, and in 12.5% vs 6.3% of people who'd had it before.\n- **Other common effects:** swelling of the hands or legs, constipation, muscle and joint pain, gout and rash.\n- **Allergies:** it's contraindicated with soya allergy, and it shouldn't be used with peanut allergy either. Use caution with fish or shellfish allergy.\n- **Hereditary fructose intolerance:** the capsules contain sorbitol and maltitol, so people with this rare inherited condition shouldn't take them."
+        },
+        {
+          "type": "text",
+          "markdown": "## The other omega-3 story\n\nMixed omega-3 medicines, which combine EPA with **DHA** (docosahexaenoic acid, another omega-3 fatty acid) as in Omacor, were authorised in several EU countries from 2000 for use after a heart attack, at 1 g a day. The EMA later concluded they weren't effective for that purpose, and that indication was removed. They're still approved for lowering triglycerides.\n\nThe two belong to the same family, but they're different products, at different doses, with different evidence. This module follows that contrast throughout."
+        },
+        {
+          "type": "text",
+          "markdown": "## What this module is, and isn't\n\nThis is a learning module, not prescribing advice. Vazkepa is under **additional monitoring**, the EU's black-triangle status for medicines whose safety is watched especially closely. The module is refreshed every six months, or immediately if the SmPC changes.\n\nThe SmPC gives no revision date of its own, and the leaflet's 'last revised' line is blank."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ipe-l01-at-a-glance-fc1",
+              "front": "Who Vazkepa is for",
+              "back": "Adults on a statin at high cardiovascular risk, with triglycerides at 1.7 mmol/L or above, plus either established cardiovascular disease, or diabetes and one more risk factor."
+            },
+            {
+              "id": "ipe-l01-at-a-glance-fc2",
+              "front": "REDUCE-IT in one line",
+              "back": "8,179 statin-treated patients over 4.9 years. Five-point MACE 17.2% vs 22.0%, HR 0.75. Cardiovascular death HR 0.80."
+            },
+            {
+              "id": "ipe-l01-at-a-glance-fc3",
+              "front": "EPA vs mixed omega-3",
+              "back": "Vazkepa is purified EPA at 4 g a day, with a heart-outcome indication. Mixed EPA+DHA products at 1 g a day lost their post-heart-attack indication in the EU."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ipe-l01-at-a-glance-q1",
+              "stem": "Which patient fits the Vazkepa indication?",
+              "options": [
+                "Someone with high triglycerides who isn't on a statin",
+                "A statin-treated adult with triglycerides of 2.1 mmol/L and a previous heart attack",
+                "A child with inherited high triglycerides",
+                "Anyone wanting to lower triglycerides without heart risk"
+              ],
+              "correctIndex": 1,
+              "explanation": "The indication needs three things together: statin treatment, triglycerides of at least 1.7 mmol/L, and either established cardiovascular disease, or diabetes plus another risk factor."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa 998 mg soft capsules, EU SmPC (EMEA/H/C/005398), EMA product information (renewal of 15 January 2026). Sections 2, 4.1–4.4, 4.8, 5.1, 9, 10.\n2. **EPAR** — Vazkepa: EPAR page and medicine overview.\n3. **EPAR-level** — EMA press release, 'Omega-3 fatty acid medicines no longer considered effective in preventing heart disease'."
+        }
+      ]
+    },
+    {
+      "id": "ipe-l02-how-it-works",
+      "title": "How it works",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## From capsule to EPA\n\nEach capsule holds an **ethyl ester** of EPA, a stable chemical form suited to a medicine. During absorption, the gut removes the ethyl group through **de-esterification**, and EPA is taken up in the small intestine.\n\nFrom there, most of it travels through the **lymphatic system**, the network of vessels that carries absorbed fats, before it reaches the blood. Levels peak about 5 hours after a dose.\n\nIn every trial, Vazkepa was taken with or after a meal, and no study checked the effect of food. That's why the SmPC says to take it with food."
+        },
+        {
+          "type": "text",
+          "markdown": "## A mechanism that isn't fully understood\n\nThe SmPC says plainly that the mechanisms 'are not completely understood'. It lists several that are likely to contribute:\n\n- fewer triglyceride-rich particles in the blood\n- anti-inflammatory and antioxidant effects\n- fewer inflammatory cells (macrophages) in artery walls\n- better function of the vessel lining\n- more stable plaques\n- a mild effect against platelet clumping\n\nOne proposed route: EPA takes the place of **arachidonic acid**, another fatty acid in cell membranes. As a result, the body makes fewer of the pro-inflammatory **eicosanoids**, signalling molecules made from these fatty acids. The SmPC adds that the direct clinical meaning of each finding is unclear."
+        },
+        {
+          "type": "text",
+          "markdown": "## What it does to blood fats\n\nIn the liver, EPA slows the enzymes that build triglycerides and speeds up fat burning. The result is less **VLDL** (very-low-density lipoprotein, the particle that carries triglycerides from the liver). EPA also boosts lipoprotein lipase, the enzyme that clears triglycerides from the blood.\n\nThe net effect is lower triglycerides, lower VLDL, lower **remnant cholesterol** (cholesterol carried in the leftovers of triglyceride-rich particles) and lower CRP, a blood marker of inflammation."
+        },
+        {
+          "type": "text",
+          "markdown": "## The puzzle\n\nTriglycerides fell by 18%, yet cardiovascular events fell by 25%. According to the SmPC, how much triglycerides or LDL fell had little link to how much benefit a patient got. The EPA level in the blood had a much stronger link: people who reached 175 µg/mL or more had less than half the risk of those below 100 µg/mL. The average at the start was 26 µg/mL.\n\nKeep in mind that this is an **on-treatment analysis**: it compares patients by the levels they happened to reach, not by randomisation. People who reach high levels may differ in other ways, such as how reliably they take their capsules. So the EPA link is suggestive, not proof."
+        },
+        {
+          "type": "text",
+          "markdown": "## What happens in the body\n\nMost EPA in the blood is built into larger fat molecules, and less than 1% circulates as a free fatty acid. The body breaks EPA down by **beta-oxidation**, the same fat-burning process it uses for dietary fats. CYP enzymes play only a minor part, and EPA isn't excreted by the kidneys.\n\nThe half-life of EPA (the time for blood levels to halve) is about 89 hours, which is long. In interaction studies, icosapent ethyl didn't change levels of omeprazole, rosiglitazone, warfarin or atorvastatin."
+        },
+        {
+          "type": "compare",
+          "title": "Purified EPA vs mixed omega-3",
+          "items": [
+            {
+              "id": "icosapent-ethyl",
+              "label": "Icosapent ethyl (Vazkepa)"
+            },
+            {
+              "id": "omega-3-acid-ethyl-esters",
+              "label": "Omega-3 acid ethyl esters (e.g. Omacor)"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "composition",
+              "label": "Composition",
+              "values": [
+                "EPA only, as an ethyl ester",
+                "EPA plus DHA"
+              ]
+            },
+            {
+              "id": "dose",
+              "label": "Dose",
+              "values": [
+                "4 g a day",
+                "1 g a day for the former post-heart-attack use"
+              ]
+            },
+            {
+              "id": "heart-indication",
+              "label": "Heart indication",
+              "values": [
+                "Heart-outcome indication (REDUCE-IT)",
+                "Post-heart-attack indication removed; triglyceride indication kept"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ipe-l02-how-it-works-fc1",
+              "front": "How EPA gets absorbed",
+              "back": "The ethyl ester is removed in the gut, and EPA travels mainly through the lymphatic system. Take it with or after a meal."
+            },
+            {
+              "id": "ipe-l02-how-it-works-fc2",
+              "front": "The triglyceride puzzle",
+              "back": "Triglycerides fell 18% but events fell 25%. The benefit tracked the EPA level in the blood more than the change in triglycerides or LDL."
+            },
+            {
+              "id": "ipe-l02-how-it-works-fc3",
+              "front": "On-treatment analysis",
+              "back": "It compares patients by the levels they reached, not by randomisation. It's suggestive, but open to confounding."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ipe-l02-how-it-works-q1",
+              "stem": "Why shouldn't the link between high EPA levels and lower risk be treated as proof?",
+              "options": [
+                "EPA wasn't measured",
+                "It's an on-treatment analysis: patients weren't randomised to EPA levels, so other differences between them may explain part of the link",
+                "The link was negative",
+                "Only 10 patients were analysed"
+              ],
+              "correctIndex": 1,
+              "explanation": "Achieved levels reflect adherence, absorption and patient differences. Only the randomised comparison of drug vs placebo counts as proof of benefit."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Sections 4.2, 4.5, 5.1, 5.2.\n2. **EPAR-level** — EMA press release on omega-3 fatty acid medicines (post-heart-attack indication)."
+        }
+      ]
+    },
+    {
+      "id": "ipe-l03-history",
+      "title": "History",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The omega-3 backstory\n\nMixed omega-3 medicines were first approved for use after a heart attack in several EU countries around 2000. The approvals rested largely on GISSI-Prevenzione, a 1999 trial that was **open-label**, meaning patients and doctors knew who was getting what.\n\nLater trials and analyses didn't confirm the benefit. The EMA reviewed all the data and concluded that the benefit–risk balance for preventing further heart problems after a heart attack was negative. That use was removed, although the products can still be used to lower triglycerides. There were no new safety concerns."
+        },
+        {
+          "type": "text",
+          "markdown": "## A different product, a new trial\n\nIcosapent ethyl was developed by Amarin as purified EPA only, at a much higher dose of 4 g a day. Its approval didn't rest on the older omega-3 data. It rested on its own outcome trial, REDUCE-IT.\n\nThe CHMP gave a positive opinion on 28 January 2021, and the European Commission authorised Vazkepa on 26 March 2021. Great Britain followed the next month."
+        },
+        {
+          "type": "text",
+          "markdown": "## The placebo question\n\nREDUCE-IT's placebo capsules contained a small amount of light mineral oil (4 mL). The SmPC notes that this may have had a mild laxative effect, which complicates the comparison for constipation.\n\nThere's a second detail. At one year, LDL had risen by 10% on placebo but only 3% on icosapent ethyl. Whether the mineral-oil placebo made the placebo group slightly worse off is a long-running debate, covered in Lesson 8."
+        },
+        {
+          "type": "text",
+          "markdown": "## Approval is not access\n\nAn EU licence doesn't put a medicine in patients' hands. In most countries it also needs **reimbursement**: national agreement to pay for it, negotiated country by country. Amarin filed about 20 reimbursement dossiers. Sweden granted national reimbursement and launch in March 2022, and Finland reimbursed it in October 2022, with launch in December. Some countries, such as Denmark, allow reimbursement for individual patients before a national decision."
+        },
+        {
+          "type": "text",
+          "markdown": "## 2025: the Recordati deal\n\nOn 24 June 2025, Amarin signed an exclusive long-term **licensing agreement**, including supply, with Recordati covering 59 countries, mostly in Europe. The terms:\n\n- $25 million upfront\n- up to $150 million in **milestone payments**, sums due when agreed sales levels are reached\n- ongoing supply revenue and royalties\n\nAmarin said its European patent protection runs to 2039, and it restructured its operations to save about $70 million. Recordati is now the marketing authorisation holder, and its affiliates are the local contacts across Europe."
+        },
+        {
+          "type": "text",
+          "markdown": "## Renewal\n\nThe licence was renewed on 15 January 2026, and Vazkepa remains under additional monitoring. Vazkepa isn't authorised for children, and the EMA waived paediatric studies for it."
+        },
+        {
+          "type": "compare",
+          "title": "2021 vs 2026",
+          "items": [
+            {
+              "id": "2021",
+              "label": "2021"
+            },
+            {
+              "id": "2026",
+              "label": "2026"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "licence",
+              "label": "Licence",
+              "values": [
+                "EU approval, held by Amarin",
+                "Licence held by Recordati after the 2025 deal"
+              ]
+            },
+            {
+              "id": "indication-or-renewal",
+              "label": "Indication or renewal",
+              "values": [
+                "One indication, from REDUCE-IT",
+                "Renewed in January 2026"
+              ]
+            },
+            {
+              "id": "status",
+              "label": "Status",
+              "values": [
+                "Launches waiting on reimbursement",
+                "Still under additional monitoring"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ipe-l03-history-fc1",
+              "front": "Why mixed omega-3s lost the post-heart-attack use",
+              "back": "The approvals rested on the open-label GISSI-Prevenzione trial (1999). Later data didn't confirm the benefit, so the EMA judged the benefit–risk negative for that use."
+            },
+            {
+              "id": "ipe-l03-history-fc2",
+              "front": "Amarin–Recordati deal (June 2025)",
+              "back": "59 countries. $25 million upfront, up to $150 million in sales milestones, plus supply revenue and royalties. Recordati is now the MAH."
+            },
+            {
+              "id": "ipe-l03-history-fc3",
+              "front": "Approval vs access",
+              "back": "EU authorisation, then country-by-country reimbursement. Examples: Sweden, March 2022; Finland, launched December 2022."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ipe-l03-history-q1",
+              "stem": "Why did Vazkepa's approval not depend on the older omega-3 heart data?",
+              "options": [
+                "Because the older data were positive",
+                "Because it's a different product (purified EPA at 4 g a day) with its own outcome trial, REDUCE-IT",
+                "Because it was approved for triglycerides only",
+                "Because it was approved nationally"
+              ],
+              "correctIndex": 1,
+              "explanation": "The EMA's negative conclusion was about mixed omega-3 products at 1 g a day after a heart attack. Vazkepa was assessed on REDUCE-IT."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Sections 4.8, 5.1, 7, 9; package leaflet (local representatives).\n2. **EPAR** — Vazkepa EPAR page (CHMP opinion 28 January 2021; marketing authorisation 26 March 2021).\n3. **EPAR-level** — EMA press release, 'Omega-3 fatty acid medicines no longer considered effective in preventing heart disease'.\n4. **Secondary (company)** — Amarin press release, 24 June 2025, and Amarin Form 10-Q/10-K filings (reimbursement, Recordati agreement).\n5. **Secondary** — World Pharmaceuticals (2025), for the timing of the Great Britain approval."
+        }
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "id": "icosapent-ethyl",
   "title": "Icosapent ethyl (EPA)",
   "discipline": "Molecules",
-  "version": 4,
+  "version": 5,
   "disclaimer": "Educational summary of public regulatory and scientific sources (EU product information and assessment reports, clinical trial registers, ESC/EAS guidelines), current as of the Vazkepa product information published by the EMA on 13 March 2026. This is not medical advice and not promotional material. Treatment decisions must follow the current official product information and a qualified healthcare professional.",
   "lessons": [
     {
@@ -1020,6 +1020,343 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Sections 4.1, 4.4, 4.5, 5.1.\n2. **Secondary (investigator slides)** — ACC REDUCE-IT REVASC slide deck (NCT01492361; baseline ezetimibe and diabetes).\n3. **Secondary** — ACC.org REDUCE-IT summary, AHA 2018 (ezetimibe subgroup); WikiJournalClub REDUCE-IT (stratification; PCSK9 exclusion); PACE-CME (diabetes subgroup and interaction tests).\n4. **HTA** — NICE TA805, committee discussion (SGLT2 inhibitor and GLP-1 receptor agonist use in REDUCE-IT)."
+        }
+      ]
+    },
+    {
+      "id": "ipe-l10-cv-outcomes",
+      "title": "Heart-attack and stroke outcomes",
+      "xpReward": 60,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The question\n\nDoes icosapent ethyl reduce heart attacks, strokes and deaths? The EU answer rests on REDUCE-IT: 8,179 statin-treated patients followed for a median of 4.9 years.\n\nIn short, it reduced both composite endpoints and almost every individual event, including cardiovascular death. Death from any cause fell too, but not significantly."
+        },
+        {
+          "type": "text",
+          "markdown": "## Event by event\n\n- **Heart attack:** 6.1% vs 8.7% (HR 0.69). That's 31% lower in relative terms and 2.6 percentage points lower in absolute terms.\n- **Stroke:** 2.4% vs 3.3% (HR 0.72, 95% CI 0.55–0.93), 0.9 points lower.\n- **Urgent or emergency artery-opening procedure:** 5.3% vs 7.8% (HR 0.65), 2.5 points lower.\n- **Hospitalisation for unstable angina:** 2.6% vs 3.8% (HR 0.68), 1.2 points lower.\n\nUnlike bempedoic acid in CLEAR Outcomes, the effect here includes stroke."
+        },
+        {
+          "type": "text",
+          "markdown": "## Deaths\n\n- **Cardiovascular death:** 4.3% vs 5.2% (HR 0.80, 95% CI 0.66–0.98). That's 20% lower in relative terms and 0.9 points lower in absolute terms.\n- **Death from any cause:** 6.7% vs 7.6% (HR 0.87, 95% CI 0.74–1.02). Not significant.\n\nThe SmPC notes that death from any cause wasn't part of either composite endpoint. It was reported, but the trial wasn't designed to test it."
+        },
+        {
+          "type": "text",
+          "markdown": "## Turning it into people\n\nThe primary endpoint fell from 22.0% to 17.2%, a difference of 4.8 percentage points. On those figures, about 21 people would need treating for around 4.9 years to prevent one event. That's the **number needed to treat**, calculated here from the published rates.\n\nDon't set it against other modules' NNTs, such as about 63 for bempedoic acid. Different trials, patients, follow-up times and placebos make that comparison meaningless."
+        },
+        {
+          "type": "text",
+          "markdown": "## Consistent across subgroups, with one twist\n\nThe benefit was similar across the prespecified subgroups: primary vs secondary prevention, diabetes or not, men vs women, and US vs non-US patients (all interaction p-values above 0.29).\n\nThe twist: the benefit was similar whether baseline triglycerides were above or below 1.7 mmol/L (150 mg/dL) (p = 0.68), even though the label's threshold is 1.7. That fits Lesson 2's point that triglycerides aren't the main driver.\n\nIn the 3,146 patients from the US, the reduction looked larger (HR 0.69), and it included death from any cause. The difference between regions wasn't statistically significant, but it has fed the debate over the mineral-oil placebo."
+        },
+        {
+          "type": "compare",
+          "title": "Where the outcome evidence stands",
+          "items": [
+            {
+              "id": "shown",
+              "label": "Shown"
+            },
+            {
+              "id": "not-shown",
+              "label": "Not shown"
+            },
+            {
+              "id": "open",
+              "label": "Open"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "main-point",
+              "label": "Main point",
+              "values": [
+                "Fewer heart attacks, strokes and procedures",
+                "Lower death from any cause (HR 0.87, not significant)",
+                "How much of the effect the mineral-oil placebo contributed"
+              ]
+            },
+            {
+              "id": "second-point",
+              "label": "Second point",
+              "values": [
+                "Lower cardiovascular death (HR 0.80)",
+                "Benefit for mixed EPA+DHA (STRENGTH HR 0.99)",
+                "Effect on top of PCSK9 inhibitors"
+              ]
+            },
+            {
+              "id": "third-point",
+              "label": "Third point",
+              "values": [
+                "Consistent across subgroups",
+                "Benefit for 1 g a day of mixed omega-3 after a heart attack",
+                "Effect with modern diabetes medicines"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ipe-l10-cv-outcomes-fc1",
+              "front": "REDUCE-IT components",
+              "back": "Heart attack 6.1% vs 8.7%, stroke 2.4% vs 3.3%, cardiovascular death 4.3% vs 5.2% (HR 0.80). Death from any cause: HR 0.87, not significant."
+            },
+            {
+              "id": "ipe-l10-cv-outcomes-fc2",
+              "front": "NNT in REDUCE-IT",
+              "back": "About 21 people treated for about 4.9 years to prevent one primary event (calculated from 22.0% vs 17.2%)."
+            },
+            {
+              "id": "ipe-l10-cv-outcomes-fc3",
+              "front": "Triglyceride subgroup",
+              "back": "Benefit was similar whether baseline triglycerides were above or below 1.7 mmol/L (interaction p = 0.68)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ipe-l10-cv-outcomes-q1",
+              "stem": "Which outcome did NOT fall significantly in REDUCE-IT?",
+              "options": [
+                "Heart attack",
+                "Stroke",
+                "Cardiovascular death",
+                "Death from any cause"
+              ],
+              "correctIndex": 3,
+              "explanation": "Death from any cause was 6.7% vs 7.6% (HR 0.87, 95% CI 0.74–1.02). The interval crosses 1, and it wasn't part of either composite endpoint."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Section 5.1, Table 2.\n2. **Journal** — Bhatt DL et al. REDUCE-IT USA. *Circulation* 2020 (abstract via eScholarship).\n3. **Secondary** — PACE-CME summary of REDUCE-IT (AHA 2018): subgroup interaction tests.\n4. **Journal** — Nicholls SJ et al. STRENGTH. *JAMA* 2020.\n5. **EPAR-level** — EMA press release on omega-3 fatty acid medicines."
+        }
+      ]
+    },
+    {
+      "id": "ipe-l11-side-effects",
+      "title": "Side effects",
+      "xpReward": 55,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The headline list\n\nThe SmPC lists the most frequent side effects as:\n\n- bleeding (11.8%)\n- swelling of the hands or legs (7.8%)\n- atrial fibrillation (5.8%)\n- constipation (5.4%)\n- muscle and bone pain (4.3%)\n- gout (4.3%)\n- rash (3.0%)\n\nThe frequencies come from all trials plus reports received after launch."
+        },
+        {
+          "type": "text",
+          "markdown": "## By frequency\n\n- **Very common:** bleeding\n- **Common:** atrial fibrillation or flutter, constipation, **eructation** (burping), gout, rash, muscle and bone pain, and swelling of the hands or legs\n- **Uncommon:** allergic reactions, and **dysgeusia**, an altered sense of taste (a fishy taste here)\n- **Not known:** swelling of the throat\n\nReports received since launch also mention raised triglycerides, joint pain, diarrhoea, abdominal discomfort and pain in the arms or legs. These come from voluntary reports, so neither their frequency nor a causal link can be established."
+        },
+        {
+          "type": "text",
+          "markdown": "## Bleeding: it depends on the partners\n\nBleeding occurred in 11.8% vs 9.9% on placebo. The most frequent types were gut bleeding (3.1%), bruising (2.5%), blood in the urine (1.9%) and nosebleeds (1.5%).\n\nSerious bleeding was more frequent only in people also taking an **antithrombotic**, a medicine that prevents clots, such as aspirin or an anticoagulant: 3.4% vs 2.6%. Without one, the rate was 0.2% in both groups."
+        },
+        {
+          "type": "compare",
+          "title": "Serious bleeding in REDUCE-IT",
+          "items": [
+            {
+              "id": "with-antithrombotics",
+              "label": "With antithrombotics"
+            },
+            {
+              "id": "without-antithrombotics",
+              "label": "Without antithrombotics"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "serious-bleeding",
+              "label": "Serious bleeding",
+              "values": [
+                "3.4% vs 2.6% on placebo",
+                "0.2% vs 0.2%"
+              ]
+            },
+            {
+              "id": "who-it-applies-to",
+              "label": "Who it applies to",
+              "values": [
+                "About 85% of trial patients took them",
+                "No difference"
+              ]
+            },
+            {
+              "id": "takeaway",
+              "label": "Takeaway",
+              "values": [
+                "Monitor periodically",
+                "Risk linked to the combination"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Atrial fibrillation: a class signal\n\nAtrial fibrillation or flutter occurred in 5.8% vs 4.5%. It needed hospitalisation of 24 hours or more in 3% vs 2%. In people who'd had it before, the rate doubled: 12.5% vs 6.3%.\n\nThe signal isn't unique to icosapent ethyl. STRENGTH (EPA+DHA) showed about a 69% relative increase in atrial fibrillation, and OMEMI saw more of it too (7.2% vs 4.0%), though that difference wasn't statistically significant. The STRENGTH lead investigator described it as a concern across omega-3 trials."
+        },
+        {
+          "type": "text",
+          "markdown": "## Constipation, and the placebo again\n\nConstipation occurred in 5.4% vs 3.6%. Serious constipation was rare: 0.1% vs 0.2%.\n\nThe SmPC itself warns that this comparison may be confounded. The mineral-oil placebo may have had a mild laxative effect, which would make constipation look more common on the medicine than it really is."
+        },
+        {
+          "type": "text",
+          "markdown": "## When to contact a doctor\n\nThe patient leaflet tells patients to contact a doctor straight away about:\n\n- palpitations or an irregular heartbeat, which can mean atrial fibrillation\n- bruising easily, or bleeding that won't stop\n\nThey should also get medical help for an allergic reaction:\n\n- rash or itching\n- hives\n- difficulty breathing\n- tightness in the throat\n- swollen lips\n- stomach cramps, diarrhoea or vomiting"
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ipe-l11-side-effects-fc1",
+              "front": "Bleeding with icosapent ethyl",
+              "back": "11.8% vs 9.9% overall. Serious bleeding was higher only with antithrombotics (3.4% vs 2.6%); without them it was 0.2% vs 0.2%."
+            },
+            {
+              "id": "ipe-l11-side-effects-fc2",
+              "front": "Atrial fibrillation",
+              "back": "5.8% vs 4.5% overall, and 12.5% vs 6.3% in those with prior AF. A signal seen in other omega-3 trials too: STRENGTH, and a non-significant trend in OMEMI."
+            },
+            {
+              "id": "ipe-l11-side-effects-fc3",
+              "front": "Constipation caveat",
+              "back": "5.4% vs 3.6%, but the mineral-oil placebo may have had a laxative effect, which would exaggerate the difference."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ipe-l11-side-effects-q1",
+              "stem": "A patient with a history of atrial fibrillation is considering Vazkepa. What does the evidence show?",
+              "options": [
+                "No change in AF risk",
+                "AF occurred in 12.5% vs 6.3% of patients with prior AF, so monitor for palpitations, irregular pulse or breathlessness",
+                "AF risk is lower on Vazkepa",
+                "AF is a contraindication"
+              ],
+              "correctIndex": 1,
+              "explanation": "The SmPC warns about AF, especially in people with a history of it, and advises clinical monitoring and an ECG when indicated. It isn't a contraindication."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Sections 4.4 and 4.8.\n2. **PIL** — Vazkepa package leaflet, section 4.\n3. **Secondary** — R3i editorial and a Physician's Weekly report (atrial fibrillation in STRENGTH and OMEMI)."
+        }
+      ]
+    },
+    {
+      "id": "ipe-l12-contraindications-interactions",
+      "title": "Who shouldn't take it, and interactions",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Contraindications\n\nVazkepa must not be used in anyone allergic to icosapent ethyl, to soya, or to any other ingredient. The SmPC adds that people allergic to peanut must not use it either, because the capsule contains soya lecithin.\n\nPeople with hereditary fructose intolerance shouldn't take it, because it contains maltitol and sorbitol."
+        },
+        {
+          "type": "text",
+          "markdown": "## Use with care\n\n- **Fish or shellfish allergy:** use with caution. It isn't known whether the risk of an allergic reaction is higher.\n- **Liver impairment:** monitor ALT and AST before starting and during treatment.\n- **History of atrial fibrillation:** watch for symptoms, and do an ECG when clinically indicated.\n- **Antithrombotic medicines:** bleeding risk is higher, so monitor periodically."
+        },
+        {
+          "type": "text",
+          "markdown": "## Interactions: a short list\n\nEPA is cleared mainly by beta-oxidation, the same process the body uses for dietary fats. CYP enzymes play only a minor role, which keeps the interaction potential low.\n\nWhen icosapent ethyl was tested at the full dose with four medicines that are typical CYP substrates (omeprazole, rosiglitazone, warfarin and atorvastatin), no interactions were seen.\n\nThe practical interaction isn't about drug levels at all. It's added bleeding risk with antiplatelet medicines (including aspirin) and anticoagulants."
+        },
+        {
+          "type": "text",
+          "markdown": "## Sorbitol: the excipient interaction\n\nEach capsule contains 83 mg of sorbitol, so a full day's dose contains about 332 mg. The SmPC asks prescribers to take into account sorbitol or fructose from other medicines and from food. It also notes that sorbitol may affect how well some other oral medicines are absorbed."
+        },
+        {
+          "type": "compare",
+          "title": "Vazkepa vs Omacor: the safety rules",
+          "items": [
+            {
+              "id": "vazkepa",
+              "label": "Vazkepa"
+            },
+            {
+              "id": "omacor",
+              "label": "Omacor"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "allergy-and-contents",
+              "label": "Allergy and contents",
+              "values": [
+                "Contraindicated: soya or peanut allergy; avoid in hereditary fructose intolerance",
+                "Contains soya oil"
+              ]
+            },
+            {
+              "id": "warfarin",
+              "label": "Warfarin",
+              "values": [
+                "Warfarin levels unchanged, but monitor for bleeding",
+                "Check prothrombin time when starting or stopping alongside warfarin"
+              ]
+            },
+            {
+              "id": "other-warnings",
+              "label": "Other warnings",
+              "values": [
+                "Warnings: atrial fibrillation and liver enzymes",
+                "Can raise LDL; check liver enzymes if signs of liver damage"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "ipe-l12-contraindications-interactions-fc1",
+              "front": "Who must not take Vazkepa",
+              "back": "Anyone allergic to icosapent ethyl, soya, peanut or an ingredient. Avoid in hereditary fructose intolerance."
+            },
+            {
+              "id": "ipe-l12-contraindications-interactions-fc2",
+              "front": "Why interactions are few",
+              "back": "EPA is cleared by beta-oxidation, like dietary fat, and CYP enzymes play a minor role. No interactions were seen with omeprazole, rosiglitazone, warfarin or atorvastatin."
+            },
+            {
+              "id": "ipe-l12-contraindications-interactions-fc3",
+              "front": "Sorbitol per day",
+              "back": "83 mg per capsule, so about 332 mg a day at four capsules. Count it together with other sorbitol and fructose sources."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "ipe-l12-contraindications-interactions-q1",
+              "stem": "A patient on warfarin starts Vazkepa. What does the SmPC say?",
+              "options": [
+                "Warfarin levels rise, so halve the dose",
+                "No change in warfarin levels was seen, but bleeding risk is higher with anticoagulants, so monitor periodically",
+                "The combination is contraindicated",
+                "Stop warfarin"
+              ],
+              "correctIndex": 1,
+              "explanation": "There was no pharmacokinetic interaction with warfarin, but the bleeding effects add up. Omacor's label, by contrast, asks for prothrombin-time checks."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **SmPC** — Vazkepa, EU SmPC. Sections 4.3, 4.4, 4.5, 5.2.\n2. **SmPC (comparison)** — Omacor, UK SmPC (emc product 1706) and Spanish SmPC (CIMA 65476)."
         }
       ]
     }

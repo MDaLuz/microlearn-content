@@ -3,7 +3,7 @@
   "id": "indemnification",
   "title": "Indemnification and third-party claims",
   "discipline": "Legal",
-  "version": 8,
+  "version": 9,
   "lessons": [
     {
       "id": "idm-l01-why-hard-to-picture",
@@ -24,7 +24,7 @@
         },
         {
           "type": "text",
-          "markdown": "That reframing matters more than it might sound.\n\nA cap is not an abstract number. It is the point at which the indemnifying party stops caring about the outcome of a litigation they may still be controlling. A survival period is not a date. It is the moment a problem you have not yet discovered becomes permanently yours. A consent-to-settle provision is not a formality. It is the mechanism that decides who wins an argument the parties are certain to have."
+          "markdown": "That reframing matters more than it might sound.\n\nA cap is not an abstract number. It is the point at which the indemnifying party stops caring about the outcome of a litigation they may still be controlling. A **survival period** is not a date. It is the moment a problem you have not yet discovered becomes permanently yours. A consent-to-settle provision is not a formality. It is the mechanism that decides who wins an argument the parties are certain to have."
         },
         {
           "type": "text",
@@ -257,7 +257,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Why the procedures diverge sharply\n\nIn a direct claim there is nothing to defend. No external proceeding, no outside claimant, no real-time decisions. The procedure is simply: notice, a response period, and then whatever dispute resolution mechanism the agreement provides. The entire question is whether the indemnity is owed.\n\nIn a third-party claim there is a live proceeding that somebody has to run. Counsel must be instructed. Filings have deadlines. Settlement offers arrive and expire. Decisions must be made continuously, by someone, while the parties may disagree about what those decisions should be.\n\nThat is why the third-party machinery exists: notice requirements, control of defense, cooperation duties, consent to settle. None of it has any application to a direct claim."
+          "markdown": "## Why the procedures diverge sharply\n\nIn a direct claim there is nothing to defend. No external proceeding, no outside claimant, no real-time decisions. The procedure is simply: notice, a response period, and then whatever dispute resolution mechanism the agreement provides. The entire question is whether the indemnity is owed.\n\nIn a third-party claim there is a live proceeding that somebody has to run. Counsel must be instructed. Filings have deadlines. Settlement offers arrive and expire. Decisions must be made continuously, by someone, while the parties may disagree about what those decisions should be.\n\nThat is why the third-party machinery exists: notice requirements, control of defense, cooperation duties, **consent to settle**. None of it has any application to a direct claim."
         },
         {
           "type": "compare",
@@ -896,7 +896,7 @@
         },
         {
           "type": "text",
-          "markdown": "Note what happens near the threshold. With a basket of one million and losses of 1.01 million, a deductible basket pays ten thousand and a tipping basket pays 1.01 million.\n\nThe clause is a single sentence and the two versions look almost identical. One word — whether recovery is of losses \"in excess of\" the threshold or of \"all losses\" once the threshold is exceeded — carries the whole difference."
+          "markdown": "Note what happens near the threshold. With a basket of one million and losses of 1.01 million, a deductible basket pays ten thousand and a **tipping basket** pays 1.01 million.\n\nThe clause is a single sentence and the two versions look almost identical. One word — whether recovery is of losses \"in excess of\" the threshold or of \"all losses\" once the threshold is exceeded — carries the whole difference."
         },
         {
           "type": "text",

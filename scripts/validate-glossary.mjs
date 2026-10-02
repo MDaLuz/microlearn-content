@@ -7,8 +7,8 @@
 // Hard checks (exit 1 on failure): schema, unique kebab-case ids, required
 // fields, `short` of 25 words or fewer, `related` / `example.moduleId` /
 // `modules` links, and no term or alias shared by two entries.
-// The coverage report is informational: bold spans in the Molecules modules'
-// text blocks (Sources excluded) that match no term or alias, minus label-like spans and the
+// The coverage report is informational: bold spans in the text blocks (Sources
+// excluded) of the Molecules modules and of any module an entry is tagged with that match no term or alias, minus label-like spans and the
 // entries in glossary-ignore.json.
 
 import { readFileSync } from 'node:fs';
@@ -23,7 +23,7 @@ const err = (where, msg) => errors.push(`${where}: ${msg}`);
 // Lowercase, trim, strip trailing ':' and '.'.
 export const normalise = (s) => s.toLowerCase().trim().replace(/[:.]+$/, '').trim();
 
-const CATEGORIES = ['trials', 'regulatory', 'lipids', 'safety', 'pharmacology', 'diabetes'];
+const CATEGORIES = ['trials', 'regulatory', 'lipids', 'safety', 'pharmacology', 'diabetes', 'legal'];
 const KEBAB = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
 let glossary;
@@ -97,8 +97,9 @@ const ignore = new Set(read('glossary-ignore.json').map(normalise));
 const labelLike = (raw) => /[:.]\s*$/.test(raw);
 const allUnmatched = new Map();
 
-console.log('Coverage (Molecules modules; bold spans in text blocks, Sources excluded)');
-for (const m of catalog.modules.filter((x) => x.discipline === 'Molecules')) {
+console.log('Coverage (Molecules and glossary-tagged modules; bold spans in text blocks, Sources excluded)');
+const tagged = new Set(entries.flatMap((e) => e.modules ?? []));
+for (const m of catalog.modules.filter((x) => x.discipline === 'Molecules' || tagged.has(x.id))) {
   let mod;
   try {
     mod = read(m.file);

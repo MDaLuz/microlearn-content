@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-10-02",
   "entries": [
     {
@@ -1492,6 +1492,794 @@
       ],
       "modules": [
         "*"
+      ]
+    },
+    {
+      "id": "representations-and-warranties",
+      "term": "Representations and warranties",
+      "aliases": [
+        "reps and warranties",
+        "representation",
+        "representations",
+        "warranty",
+        "warranties",
+        "reps",
+        "rep"
+      ],
+      "category": "legal",
+      "short": "Statements of fact one party makes in the contract; if one proves untrue, the other may claim.",
+      "simpler": "The seller's signed fact sheet about the business. If a fact turns out false, the fact sheet is what you sue on.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: breach of a rep is the most common indemnity trigger."
+      },
+      "notToConfuse": "Not a covenant, which is a promise to do or not do something in the future.",
+      "related": [
+        "indemnification",
+        "knowledge-qualifier",
+        "materiality-scrape",
+        "survival-period"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "knowledge-qualifier",
+      "term": "Knowledge qualifier",
+      "aliases": [
+        "knowledge qualifiers",
+        "to the seller's knowledge",
+        "knowledge-qualified"
+      ],
+      "category": "legal",
+      "short": "Wording that limits a rep to what the seller actually knew, e.g. 'to the Seller's knowledge'.",
+      "simpler": "'As far as I know, the roof doesn't leak' is a much weaker promise than 'the roof doesn't leak'.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: knowledge qualifiers narrow what counts as a breach, shifting unknown risk back to the buyer."
+      },
+      "notToConfuse": "Not the same as a materiality qualifier, which limits a rep to things that matter enough.",
+      "related": [
+        "representations-and-warranties",
+        "materiality-scrape"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "materiality-scrape",
+      "term": "Materiality scrape",
+      "aliases": [
+        "materiality scrapes",
+        "materiality qualifier",
+        "materiality qualifiers",
+        "double materiality"
+      ],
+      "category": "legal",
+      "short": "A clause that ignores 'material' qualifiers in reps when calculating breach or loss for indemnity purposes.",
+      "simpler": "Removing the 'only if it's serious' filter once you're counting the damage, so small breaches still add up.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: a scrape stops 'material' from being counted twice, once in the rep and again in the basket."
+      },
+      "notToConfuse": "Not the basket itself: the scrape decides what counts; the basket decides when you can recover.",
+      "related": [
+        "representations-and-warranties",
+        "basket"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "indemnification",
+      "term": "Indemnification",
+      "aliases": [
+        "indemnity",
+        "indemnities",
+        "indemnify",
+        "indemnification clause"
+      ],
+      "category": "legal",
+      "short": "A contractual promise by one party to cover the other's losses from specified events.",
+      "simpler": "A promise to pay the bill if certain things go wrong, written down before anything has gone wrong.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: the clause names who indemnifies whom, for what, and within which limits."
+      },
+      "notToConfuse": "Not insurance, although it does a similar job: here the counterparty, not an insurer, pays.",
+      "related": [
+        "indemnifying-party",
+        "representations-and-warranties",
+        "specific-indemnity"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "indemnifying-party",
+      "term": "Indemnifying party",
+      "aliases": [
+        "indemnifying party",
+        "indemnified party",
+        "indemnitor",
+        "indemnitee"
+      ],
+      "category": "legal",
+      "short": "The indemnifying party pays; the indemnified party is protected and claims.",
+      "simpler": "The guarantor and the person being guaranteed.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: the indemnifying party usually wants control of the defence; the indemnified party wants a say in settlement."
+      },
+      "notToConfuse": "Not fixed by role in the deal: buyer and seller can each be either, depending on the clause.",
+      "related": [
+        "indemnification",
+        "control-of-defense",
+        "consent-to-settle"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "direct-claim",
+      "term": "Direct claim",
+      "aliases": [
+        "direct claims",
+        "inter-party claim"
+      ],
+      "category": "legal",
+      "short": "A claim between the two contracting parties themselves, e.g. buyer against seller for a breached rep.",
+      "simpler": "A dispute inside the family, with no outsider involved.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: direct and third-party claims run on different procedures, and are often conflated."
+      },
+      "notToConfuse": "Not a third-party claim, where an outsider sues first and the indemnity passes the cost on.",
+      "related": [
+        "third-party-claim",
+        "notice-of-claim"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "third-party-claim",
+      "term": "Third-party claim",
+      "aliases": [
+        "third-party claims",
+        "third party claim"
+      ],
+      "category": "legal",
+      "short": "A claim by an outsider (patient, competitor, regulator) against the indemnified party that the indemnity may cover.",
+      "simpler": "Someone outside the deal knocks on the door, and the contract decides who answers and who pays.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: the first 30 days after a third-party claim arrives decide a lot: notice, timing, defence."
+      },
+      "notToConfuse": "Not a direct claim between the deal parties.",
+      "related": [
+        "direct-claim",
+        "notice-of-claim",
+        "control-of-defense"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "notice-of-claim",
+      "term": "Notice of claim",
+      "aliases": [
+        "notice of claim",
+        "claim notice",
+        "notice requirement",
+        "notice requirements"
+      ],
+      "category": "legal",
+      "short": "The formal notification the indemnified party must give, with content and deadlines set by the contract.",
+      "simpler": "Reporting a car accident to your insurer: late or incomplete reports can cost you cover.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: what happens when notice is late or defective, and whether the indemnifying party must show prejudice."
+      },
+      "notToConfuse": "Not the claim itself: notice starts the procedure; it doesn't prove the loss.",
+      "related": [
+        "third-party-claim",
+        "direct-claim",
+        "survival-period"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "control-of-defense",
+      "term": "Control of defence",
+      "aliases": [
+        "control of defense",
+        "control of defence",
+        "defense control",
+        "assume the defense"
+      ],
+      "category": "legal",
+      "short": "Who runs the response to a third-party claim: picks counsel, sets strategy, pays.",
+      "simpler": "Who holds the steering wheel when the car you both care about is in trouble.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: the most consequential and least understood procedural term."
+      },
+      "notToConfuse": "Not the same as paying: one party can fund the defence while the other controls it, or vice versa.",
+      "related": [
+        "consent-to-settle",
+        "indemnifying-party",
+        "duty-to-cooperate"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "consent-to-settle",
+      "term": "Consent to settle",
+      "aliases": [
+        "consent-to-settle",
+        "settlement consent"
+      ],
+      "category": "legal",
+      "short": "A clause requiring one party's agreement before the other settles a third-party claim.",
+      "simpler": "Neither driver can sell the shared car without the other's signature.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: where interests genuinely diverge, e.g. a settlement that's cheap for the payer but admits fault for the protected party."
+      },
+      "notToConfuse": "Not control of defence: you can control the defence yet still need consent to settle.",
+      "related": [
+        "control-of-defense",
+        "third-party-claim"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "duty-to-cooperate",
+      "term": "Duty to cooperate",
+      "aliases": [
+        "cooperation",
+        "cooperation duties",
+        "duty to cooperate"
+      ],
+      "category": "legal",
+      "short": "The obligation to give the other side the documents, people and access needed to handle a claim.",
+      "simpler": "Sharing the keys and the paperwork so whoever is driving can actually drive.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: practical cooperation during a live claim, and its tension with privilege."
+      },
+      "notToConfuse": "Not a waiver of privilege, which needs to be protected separately.",
+      "related": [
+        "privilege",
+        "control-of-defense"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "privilege",
+      "term": "Legal privilege",
+      "aliases": [
+        "privilege",
+        "attorney-client privilege",
+        "legal professional privilege",
+        "joint defense",
+        "joint defence",
+        "common interest"
+      ],
+      "category": "legal",
+      "short": "Protection keeping certain lawyer–client communications confidential from opponents and courts.",
+      "simpler": "A sealed envelope that the other side in a dispute can't open, unless you open it yourself.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: how privilege survives, or doesn't, when two parties coordinate a defence."
+      },
+      "notToConfuse": "Not general confidentiality: an NDA doesn't create privilege.",
+      "related": [
+        "duty-to-cooperate"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "direct-damages",
+      "term": "Direct damages",
+      "aliases": [
+        "direct damages",
+        "direct loss"
+      ],
+      "category": "legal",
+      "short": "Losses that flow naturally and immediately from the breach.",
+      "simpler": "The broken window itself, not the burglary it later allowed.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: what is actually recoverable once a claim succeeds."
+      },
+      "notToConfuse": "Not consequential damages, which are further removed and often excluded.",
+      "related": [
+        "consequential-damages",
+        "cap"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "consequential-damages",
+      "term": "Consequential damages",
+      "aliases": [
+        "consequential damages",
+        "indirect damages",
+        "consequential loss",
+        "lost profits"
+      ],
+      "category": "legal",
+      "short": "Losses one step removed from the breach, such as lost profits or lost opportunities.",
+      "simpler": "Not the broken window, but the sales you lost while the shop was closed for repairs.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: why consequential damages exclusions are negotiated so hard."
+      },
+      "notToConfuse": "Not a fixed legal category everywhere: what counts as 'consequential' varies by jurisdiction and drafting.",
+      "related": [
+        "direct-damages",
+        "carve-out"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "carve-out",
+      "term": "Carve-out",
+      "aliases": [
+        "carve-outs",
+        "carve out",
+        "excluded from the cap"
+      ],
+      "category": "legal",
+      "short": "An exception that takes a matter outside a general rule or limit.",
+      "simpler": "A 'except for…' line that punches a hole in a fence.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: fraud and fundamental reps are typical carve-outs from caps and exclusions."
+      },
+      "notToConfuse": "Not a separate indemnity, though specific indemnities often sit in carve-outs.",
+      "related": [
+        "cap",
+        "specific-indemnity",
+        "exclusive-remedy"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "cap",
+      "term": "Cap",
+      "aliases": [
+        "liability cap",
+        "indemnity cap",
+        "caps"
+      ],
+      "category": "legal",
+      "short": "The maximum total amount the indemnifying party can be made to pay.",
+      "simpler": "The ceiling on the bill, however bad things get.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: caps, baskets and de minimis work together as one financial architecture."
+      },
+      "notToConfuse": "Not a basket, which sets the floor before recovery starts.",
+      "related": [
+        "basket",
+        "de-minimis",
+        "carve-out"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "basket",
+      "term": "Basket",
+      "aliases": [
+        "baskets",
+        "deductible",
+        "tipping basket",
+        "threshold",
+        "first-dollar basket"
+      ],
+      "category": "legal",
+      "short": "A loss threshold that must be reached before indemnity claims can be paid.",
+      "simpler": "Worked illustration: €1m basket, €1.2m loss. A tipping basket pays €1.2m from the first euro; a deductible pays only €0.2m above the threshold.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: the deductible vs tipping basket distinction changes outcomes materially."
+      },
+      "notToConfuse": "Not de minimis: de minimis filters individual small claims; the basket applies to the aggregate.",
+      "related": [
+        "cap",
+        "de-minimis",
+        "materiality-scrape"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "de-minimis",
+      "term": "De minimis",
+      "aliases": [
+        "de minimis threshold",
+        "de minimis claims",
+        "de minimis"
+      ],
+      "category": "legal",
+      "short": "A minimum size below which individual claims are ignored, and often don't count towards the basket either.",
+      "simpler": "A shop that won't process returns under €5.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: de minimis claims can quietly erode a basket if they don't count towards it."
+      },
+      "notToConfuse": "Not the basket: de minimis works claim by claim; the basket works on the total.",
+      "related": [
+        "basket",
+        "cap"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "survival-period",
+      "term": "Survival period",
+      "aliases": [
+        "survival",
+        "survival periods",
+        "survive"
+      ],
+      "category": "legal",
+      "short": "How long reps and indemnities remain claimable after closing.",
+      "simpler": "The warranty period on the deal itself: after it expires, you can't claim.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: how claim timing interacts with survival, and why fundamental reps survive longer."
+      },
+      "notToConfuse": "Not the limitation period set by law, although the contract may shorten or extend it.",
+      "related": [
+        "fundamental-representations",
+        "notice-of-claim",
+        "representations-and-warranties"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "fundamental-representations",
+      "term": "Fundamental representations",
+      "aliases": [
+        "fundamental reps",
+        "fundamental representations",
+        "general reps"
+      ],
+      "category": "legal",
+      "short": "Core reps (title, authority, capitalisation) that usually get longer survival and sit outside the cap.",
+      "simpler": "The 'do you actually own what you're selling?' questions, too basic to limit.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: fundamental vs general reps and their different survival periods."
+      },
+      "notToConfuse": "Not specific indemnities: fundamental reps cover basics; specific indemnities cover known risks.",
+      "related": [
+        "survival-period",
+        "carve-out",
+        "cap"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "escrow",
+      "term": "Escrow",
+      "aliases": [
+        "escrow account",
+        "escrow agent",
+        "release schedule"
+      ],
+      "category": "legal",
+      "short": "Part of the price held by an independent agent, released over time, to fund indemnity claims.",
+      "simpler": "A deposit held by a neutral third party until the flat is handed back in good shape.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: mechanics of actually getting paid, release schedules, and what happens to disputed amounts."
+      },
+      "notToConfuse": "Not a holdback: in a holdback the buyer simply keeps the money rather than an independent agent.",
+      "related": [
+        "holdback",
+        "cap"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "holdback",
+      "term": "Holdback",
+      "aliases": [
+        "holdbacks",
+        "retention"
+      ],
+      "category": "legal",
+      "short": "Part of the purchase price the buyer keeps back for a period to cover potential claims.",
+      "simpler": "Paying the builder 90% now and the last 10% after the snagging list is done.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: holdback vs escrow, and who holds the money while claims are pending."
+      },
+      "notToConfuse": "Not escrow, which uses a neutral agent.",
+      "related": [
+        "escrow"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "rw-insurance",
+      "term": "R&W insurance",
+      "aliases": [
+        "R&W insurance",
+        "representations and warranties insurance",
+        "warranty and indemnity insurance",
+        "W&I insurance",
+        "RWI"
+      ],
+      "category": "legal",
+      "short": "An insurance policy that pays for losses from breached reps, instead of or alongside the seller.",
+      "simpler": "Buying insurance on the seller's fact sheet, so you claim from an insurer, not the seller.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: what R&W insurance changes about negotiation dynamics."
+      },
+      "notToConfuse": "Not product liability insurance, which covers claims from patients or users.",
+      "related": [
+        "representations-and-warranties",
+        "subrogation",
+        "cap"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "subrogation",
+      "term": "Subrogation",
+      "aliases": [
+        "subrogated",
+        "subrogation rights"
+      ],
+      "category": "legal",
+      "short": "An insurer's right, after paying a claim, to pursue whoever caused the loss.",
+      "simpler": "Your insurer pays for your car, then takes over your right to sue the other driver.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: how insurance interacts with the indemnity package."
+      },
+      "notToConfuse": "Not a new claim: the insurer steps into the insured's existing rights.",
+      "related": [
+        "rw-insurance"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "specific-indemnity",
+      "term": "Specific indemnity",
+      "aliases": [
+        "specific indemnities",
+        "special indemnity"
+      ],
+      "category": "legal",
+      "short": "An indemnity for a known, identified risk, such as pending litigation or a live regulatory issue.",
+      "simpler": "Pricing a known crack in the wall separately, rather than as part of the general warranty.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: it usually sits outside the cap, the basket, and sometimes the survival period."
+      },
+      "notToConfuse": "Not a general indemnity, which covers unknown risks under negotiated limits.",
+      "related": [
+        "indemnification",
+        "carve-out",
+        "cap"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "exclusive-remedy",
+      "term": "Exclusive remedy",
+      "aliases": [
+        "exclusive remedy provision",
+        "sole remedy",
+        "sole recourse"
+      ],
+      "category": "legal",
+      "short": "A clause making indemnification the only route to recover for breach, preventing workarounds via other claims.",
+      "simpler": "One door in, so nobody climbs through the window to avoid the limits.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: it almost always carves out fraud."
+      },
+      "notToConfuse": "Not a waiver of all claims: fraud and specified carve-outs typically survive it.",
+      "related": [
+        "carve-out",
+        "indemnification"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "mitigation",
+      "term": "Mitigation",
+      "aliases": [
+        "duty to mitigate",
+        "mitigate"
+      ],
+      "category": "legal",
+      "short": "The obligation to take reasonable steps to limit one's own loss.",
+      "simpler": "If your roof leaks, put a bucket down; you can't let the house flood and claim for all of it.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: mitigation affects how much of a loss is recoverable."
+      },
+      "notToConfuse": "Not settlement: mitigation is about limiting damage, not ending the dispute.",
+      "related": [
+        "direct-damages",
+        "consequential-damages"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "product-liability",
+      "term": "Product liability",
+      "aliases": [
+        "product liability claim",
+        "product liability claims"
+      ],
+      "category": "legal",
+      "short": "Claims that a product caused harm because of a defect in design, manufacture or warnings.",
+      "simpler": "A patient says the medicine hurt them, and asks who is responsible.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: product liability behaves differently from IP or regulatory claims under an indemnity."
+      },
+      "notToConfuse": "Not a regulatory action: authorities enforce rules; product liability claims come from injured people.",
+      "related": [
+        "third-party-claim",
+        "ip-infringement"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "ip-infringement",
+      "term": "IP infringement",
+      "aliases": [
+        "IP infringement",
+        "patent infringement",
+        "infringement claim"
+      ],
+      "category": "legal",
+      "short": "A claim that a product or process uses someone else's protected intellectual property without permission.",
+      "simpler": "Building on land that turns out to belong to a neighbour.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: IP claims can block sales, not just cost money."
+      },
+      "notToConfuse": "Not invalidity: infringement says 'you use my IP'; invalidity says 'your IP shouldn't exist'.",
+      "related": [
+        "third-party-claim",
+        "product-liability"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "arbitration",
+      "term": "Arbitration",
+      "aliases": [
+        "arbitral tribunal",
+        "arbitrator",
+        "arbitration clause"
+      ],
+      "category": "legal",
+      "short": "Private dispute resolution by arbitrators chosen under the contract, with a binding award.",
+      "simpler": "Hiring a private referee whose decision both teams agreed in advance to accept.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: why the forum choice matters more than people assume."
+      },
+      "notToConfuse": "Not mediation, where a neutral helps the parties agree but decides nothing.",
+      "related": [
+        "litigation",
+        "governing-law"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "litigation",
+      "term": "Litigation",
+      "aliases": [
+        "court proceedings",
+        "lawsuit"
+      ],
+      "category": "legal",
+      "short": "Resolving a dispute in public state courts.",
+      "simpler": "The public match with an official referee and spectators.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: litigation vs arbitration: timelines, costs, confidentiality."
+      },
+      "notToConfuse": "Not arbitration, which is private and harder to appeal.",
+      "related": [
+        "arbitration",
+        "governing-law"
+      ],
+      "modules": [
+        "indemnification"
+      ]
+    },
+    {
+      "id": "governing-law",
+      "term": "Governing law",
+      "aliases": [
+        "choice of law",
+        "governing law clause",
+        "forum",
+        "jurisdiction clause",
+        "choice of forum"
+      ],
+      "category": "legal",
+      "short": "The law the contract is read under, and the forum where disputes go.",
+      "simpler": "Choosing the rulebook and the stadium before the match.",
+      "example": {
+        "moduleId": "indemnification",
+        "text": "In the module: the forum choice shapes timelines, costs and outcomes."
+      },
+      "notToConfuse": "Not the same thing twice: governing law (which rules) and forum (where) are separate choices.",
+      "related": [
+        "arbitration",
+        "litigation"
+      ],
+      "modules": [
+        "indemnification"
       ]
     }
   ]

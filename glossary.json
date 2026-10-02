@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "updated": "2026-10-02",
   "entries": [
     {
@@ -2050,7 +2050,8 @@
         "representations and warranties insurance",
         "warranty and indemnity insurance",
         "W&I insurance",
-        "RWI"
+        "RWI",
+        "reps and warranties insurance"
       ],
       "category": "legal",
       "short": "An insurance policy that pays for losses from breached reps, instead of or alongside the seller.",

@@ -1,0 +1,1498 @@
+{
+  "version": 1,
+  "updated": "2026-10-02",
+  "entries": [
+    {
+      "id": "smpc",
+      "term": "SmPC",
+      "aliases": [
+        "summary of product characteristics",
+        "SmPCs"
+      ],
+      "category": "regulatory",
+      "short": "The regulator-approved reference text for prescribers: what a medicine is approved for, how to use it, and its risks.",
+      "simpler": "Think of it as the medicine's official user manual for doctors. If anything else disagrees, the manual wins.",
+      "example": {
+        "moduleId": "sitagliptin",
+        "text": "Januvia's EU SmPC is the anchor of the sitagliptin module; its section 4.1 lists every approved use."
+      },
+      "notToConfuse": "Not the PIL: the PIL is the plain-language leaflet for patients, written from the SmPC.",
+      "related": [
+        "pil",
+        "epar",
+        "indication"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "pil",
+      "term": "PIL",
+      "aliases": [
+        "patient information leaflet",
+        "package leaflet"
+      ],
+      "category": "regulatory",
+      "short": "The plain-language leaflet in the box, written for patients and based on the SmPC.",
+      "simpler": "The SmPC is the technical manual; the PIL is the quick-start guide written for the person taking the medicine.",
+      "example": {
+        "moduleId": "icosapent-ethyl",
+        "text": "Vazkepa's PIL says breastfeeding is 'not recommended', while the SmPC says to weigh benefit and risk. The SmPC is the reference."
+      },
+      "notToConfuse": "Not the SmPC. When the two differ, the SmPC wins.",
+      "related": [
+        "smpc"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "epar",
+      "term": "EPAR",
+      "aliases": [
+        "European public assessment report"
+      ],
+      "category": "regulatory",
+      "short": "The EMA's published evaluation of a medicine authorised through the EU-wide (centralised) procedure.",
+      "simpler": "It's the examiner's marking notes, published: what the assessors saw, liked and doubted.",
+      "example": {
+        "moduleId": "sitagliptin",
+        "text": "Januvia's EPAR records that non-inferiority against glipizide was 'not convincingly' shown because the glipizide dose was low."
+      },
+      "notToConfuse": "Medicines approved country by country (e.g. Crestor, Secalip Supra) have no EPAR; they have national assessment reports instead.",
+      "related": [
+        "centralised-procedure",
+        "smpc",
+        "mutual-recognition-procedure"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "mah",
+      "term": "MAH",
+      "aliases": [
+        "marketing authorisation holder"
+      ],
+      "category": "regulatory",
+      "short": "The company legally responsible for a medicine in a given market.",
+      "simpler": "The name on the licence: the company that answers to the regulator if something goes wrong.",
+      "example": {
+        "moduleId": "icosapent-ethyl",
+        "text": "Vazkepa's MAH changed from Amarin to Recordati after their 2025 licensing deal."
+      },
+      "notToConfuse": "Not necessarily the manufacturer or the local distributor; those can be other companies.",
+      "related": [
+        "epar",
+        "smpc"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "centralised-procedure",
+      "term": "Centralised procedure",
+      "aliases": [
+        "centralised procedure",
+        "EU-wide authorisation"
+      ],
+      "category": "regulatory",
+      "short": "One EMA assessment leading to a single licence valid in every EU member state.",
+      "simpler": "One exam, one certificate, valid in the whole EU.",
+      "example": {
+        "moduleId": "dapagliflozin",
+        "text": "Forxiga went through the centralised procedure in 2012, so it has one EU SmPC and a full EPAR."
+      },
+      "notToConfuse": "Not the mutual recognition procedure, where one country assesses and others are asked to recognise it.",
+      "related": [
+        "epar",
+        "mutual-recognition-procedure"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "mutual-recognition-procedure",
+      "term": "Mutual recognition procedure",
+      "aliases": [
+        "mutual recognition procedure",
+        "MRP",
+        "decentralised procedure",
+        "reference member state"
+      ],
+      "category": "regulatory",
+      "short": "One EU country assesses a medicine first; other countries are asked to recognise that approval.",
+      "simpler": "One teacher marks the exam, and other schools decide whether to accept the grade.",
+      "example": {
+        "moduleId": "rosuvastatin",
+        "text": "Crestor was first approved in the Netherlands in 2002; Spain withdrew from the 2003 recognition round and only authorised it in 2008."
+      },
+      "notToConfuse": "Not centralised: there is no single EU licence and no EPAR.",
+      "related": [
+        "centralised-procedure",
+        "referral"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "referral",
+      "term": "Referral",
+      "aliases": [
+        "Article 31 referral",
+        "Article 29 referral",
+        "Article 20 referral",
+        "Article 20 procedure"
+      ],
+      "category": "regulatory",
+      "short": "A formal EU-wide review of a medicine or class, triggered by a safety, efficacy or disagreement question.",
+      "simpler": "Calling in the referee when countries disagree or a new concern appears.",
+      "example": {
+        "moduleId": "fenofibrate",
+        "text": "The 2009–2011 Article 31 referral moved fibrates to second-line, but kept fenofibrate's add-on-to-statin use."
+      },
+      "notToConfuse": "The article number matters: 31 = public-health concern; 29 = disagreement during mutual recognition; 20 = centrally authorised medicines.",
+      "related": [
+        "mutual-recognition-procedure",
+        "pharmacovigilance"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "generic",
+      "term": "Generic",
+      "aliases": [
+        "generics",
+        "EFG"
+      ],
+      "category": "regulatory",
+      "short": "A copy of an off-patent medicine, authorised because it behaves the same in the body as the original.",
+      "simpler": "Same recipe, different bakery, proven to rise the same way.",
+      "example": {
+        "moduleId": "dapagliflozin",
+        "text": "Dapagliflozin Viatris was authorised as a generic of Forxiga after showing bioequivalence."
+      },
+      "notToConfuse": "Not a biosimilar (for biological medicines), and not a different salt or strength with its own trials.",
+      "related": [
+        "bioequivalence",
+        "mah"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "bioequivalence",
+      "term": "Bioequivalence",
+      "aliases": [
+        "bioequivalent",
+        "biowaiver"
+      ],
+      "category": "regulatory",
+      "short": "Blood levels of a copy are close enough to the original's that they count as the same medicine.",
+      "simpler": "Two kettles that boil the same water in the same time: the details inside differ, the result doesn't.",
+      "example": {
+        "moduleId": "sitagliptin",
+        "text": "Sitagliptin SUN showed bioequivalence with Januvia 100 mg; the 25 and 50 mg strengths got a biowaiver."
+      },
+      "notToConfuse": "Not a clinical outcome trial: it compares blood levels, not heart attacks.",
+      "related": [
+        "generic",
+        "auc"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "fixed-dose-combination",
+      "term": "Fixed-dose combination",
+      "aliases": [
+        "fixed-dose combinations",
+        "FDC",
+        "combination tablet",
+        "single pill"
+      ],
+      "category": "regulatory",
+      "short": "Two or more medicines in one tablet or capsule.",
+      "simpler": "A two-in-one shampoo: fewer bottles, but you can't adjust each ingredient separately.",
+      "example": {
+        "moduleId": "bempedoic-acid",
+        "text": "Nustendi combines bempedoic acid 180 mg and ezetimibe 10 mg in one tablet."
+      },
+      "notToConfuse": "Not co-administration, which means taking separate tablets together.",
+      "related": [
+        "generic",
+        "indication"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "excipient",
+      "term": "Excipient",
+      "aliases": [
+        "excipients"
+      ],
+      "category": "regulatory",
+      "short": "Any ingredient in a tablet or capsule other than the active substance.",
+      "simpler": "The packaging and glue of the pill, not the medicine itself, but some people react to it.",
+      "example": {
+        "moduleId": "icosapent-ethyl",
+        "text": "Vazkepa's sorbitol and maltitol mean people with hereditary fructose intolerance shouldn't take it."
+      },
+      "notToConfuse": "Not 'inactive' in every sense: excipients like lactose, soya or sorbitol can matter for some patients.",
+      "related": [
+        "contraindication"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "indication",
+      "term": "Indication",
+      "aliases": [
+        "indications",
+        "approved use"
+      ],
+      "category": "regulatory",
+      "short": "The condition and patient group a medicine is officially approved to treat (SmPC section 4.1).",
+      "simpler": "The job description the regulator signed off.",
+      "example": {
+        "moduleId": "icosapent-ethyl",
+        "text": "Vazkepa's single indication: statin-treated, high-risk adults with triglycerides ≥1.7 mmol/L."
+      },
+      "notToConfuse": "Not a guideline recommendation: guidelines advise practice; the indication is what the licence allows.",
+      "related": [
+        "smpc",
+        "contraindication",
+        "hta"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "contraindication",
+      "term": "Contraindication",
+      "aliases": [
+        "contraindicated",
+        "contraindications"
+      ],
+      "category": "regulatory",
+      "short": "A situation in which a medicine must not be used.",
+      "simpler": "A 'Do not enter' sign, as opposed to 'Drive carefully'.",
+      "example": {
+        "moduleId": "sitagliptin",
+        "text": "Januvia's only contraindication is allergy; pregnancy is 'should not be used', a weaker category."
+      },
+      "notToConfuse": "Not a warning or precaution ('use with care'), and not 'should not be used'.",
+      "related": [
+        "indication",
+        "smpc"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "hta",
+      "term": "Health technology assessment",
+      "aliases": [
+        "HTA",
+        "health technology assessment"
+      ],
+      "category": "regulatory",
+      "short": "An assessment of whether a health system should pay for a medicine, and for which patients.",
+      "simpler": "The licence says the car is roadworthy; HTA decides whether the company fleet will buy it.",
+      "example": {
+        "moduleId": "icosapent-ethyl",
+        "text": "NICE funds Vazkepa only for secondary prevention with LDL 1.04–2.60 mmol/L, narrower than the EU licence."
+      },
+      "notToConfuse": "Not regulatory approval: a medicine can be licensed but not reimbursed.",
+      "related": [
+        "indication"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "additional-monitoring",
+      "term": "Additional monitoring",
+      "aliases": [
+        "black triangle"
+      ],
+      "category": "safety",
+      "short": "EU status (▼) for medicines whose safety is watched especially closely, with extra encouragement to report side effects.",
+      "simpler": "A 'new driver' sticker: nothing is wrong, but everyone keeps a closer eye.",
+      "example": {
+        "moduleId": "icosapent-ethyl",
+        "text": "Vazkepa carries the black triangle."
+      },
+      "notToConfuse": "Not a warning that the medicine is unsafe.",
+      "related": [
+        "pharmacovigilance",
+        "safety-signal"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "randomised",
+      "term": "Randomised trial",
+      "aliases": [
+        "randomised",
+        "randomisation",
+        "randomised controlled trial",
+        "RCT"
+      ],
+      "category": "trials",
+      "short": "A trial in which chance decides who gets the medicine and who gets the comparison.",
+      "simpler": "Tossing a coin for each patient, so the two groups start out alike and only the treatment differs.",
+      "example": {
+        "moduleId": "rosuvastatin",
+        "text": "JUPITER randomised 17,802 people to rosuvastatin 20 mg or placebo."
+      },
+      "notToConfuse": "Not an observational study, where people choose (or are chosen for) treatment.",
+      "related": [
+        "placebo",
+        "double-blind",
+        "comparator"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "placebo",
+      "term": "Placebo",
+      "aliases": [
+        "dummy tablet"
+      ],
+      "category": "trials",
+      "short": "A dummy treatment that looks like the medicine but contains no active drug.",
+      "simpler": "A decoy, so that expectations affect both groups equally.",
+      "example": {
+        "moduleId": "icosapent-ethyl",
+        "text": "REDUCE-IT's placebo contained light mineral oil; whether that oil was truly inert is still debated."
+      },
+      "notToConfuse": "Not always perfectly inert, especially for oil capsules.",
+      "related": [
+        "comparator",
+        "double-blind"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "comparator",
+      "term": "Comparator",
+      "aliases": [
+        "comparison group",
+        "control group"
+      ],
+      "category": "trials",
+      "short": "Whatever the medicine is compared against: placebo or another active treatment.",
+      "simpler": "The yardstick. A result only means something once you know what it was measured against.",
+      "example": {
+        "moduleId": "dapagliflozin",
+        "text": "Against glipizide, dapagliflozin lowered HbA1c by the same 0.52 points; against placebo it was a 0.66-point difference."
+      },
+      "notToConfuse": "Not always placebo: a head-to-head trial uses an active comparator.",
+      "related": [
+        "placebo",
+        "non-inferiority"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "double-blind",
+      "term": "Double-blind",
+      "aliases": [
+        "double-blinded",
+        "masking",
+        "masked"
+      ],
+      "category": "trials",
+      "short": "Neither patients nor investigators know who received which treatment.",
+      "simpler": "A blind tasting: nobody knows which glass is which, so expectations can't tilt the verdict.",
+      "example": {
+        "moduleId": "sitagliptin",
+        "text": "TECOS was double-blind; patients and doctors didn't know who had sitagliptin."
+      },
+      "notToConfuse": "Not open-label, where everyone knows.",
+      "related": [
+        "open-label",
+        "placebo"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "open-label",
+      "term": "Open-label",
+      "aliases": [
+        "open label",
+        "unblinded"
+      ],
+      "category": "trials",
+      "short": "Everyone in the trial knows who is getting what.",
+      "simpler": "A tasting with the labels showing.",
+      "example": {
+        "moduleId": "rosuvastatin",
+        "text": "RACING was open-label, which makes softer outcomes more vulnerable to bias."
+      },
+      "notToConfuse": "Not automatically worthless: hard outcomes like death are less affected than symptoms.",
+      "related": [
+        "double-blind"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "primary-endpoint",
+      "term": "Primary endpoint",
+      "aliases": [
+        "primary endpoint",
+        "primary outcome",
+        "dual primary endpoints"
+      ],
+      "category": "trials",
+      "short": "The single main result a trial names in advance to decide whether it succeeded.",
+      "simpler": "The finish line drawn before the race starts.",
+      "example": {
+        "moduleId": "dapagliflozin",
+        "text": "DECLARE had two primary endpoints; the heart-attack/stroke one wasn't superior, the heart-failure one was."
+      },
+      "notToConfuse": "Not a secondary endpoint, which can only support or question the main answer.",
+      "related": [
+        "composite-endpoint",
+        "p-value"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "composite-endpoint",
+      "term": "Composite endpoint",
+      "aliases": [
+        "composite endpoint",
+        "composite"
+      ],
+      "category": "trials",
+      "short": "Several kinds of event counted together as one outcome.",
+      "simpler": "Counting 'any car problem' instead of just 'engine failure': more events, but check which problem drives the total.",
+      "example": {
+        "moduleId": "dapagliflozin",
+        "text": "DECLARE's heart-failure/CV-death composite improved (HR 0.83), driven by hospitalisations (HR 0.73), not deaths (HR 0.98)."
+      },
+      "notToConfuse": "Not every component improving: always look inside.",
+      "related": [
+        "mace",
+        "primary-endpoint"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "mace",
+      "term": "MACE",
+      "aliases": [
+        "major adverse cardiovascular events",
+        "MACE-3",
+        "MACE-4",
+        "3-point MACE",
+        "5-point MACE"
+      ],
+      "category": "trials",
+      "short": "A composite of major heart and vessel events; the number of components varies by trial.",
+      "simpler": "A shopping basket of heart events. Always read the label to see what's inside.",
+      "example": {
+        "moduleId": "bempedoic-acid",
+        "text": "CLEAR Outcomes' MACE-4 (CV death, heart attack, stroke, revascularisation): 11.7% vs 13.3%."
+      },
+      "notToConfuse": "Not a fixed definition: 3-point, 4-point and 5-point MACE differ.",
+      "related": [
+        "composite-endpoint"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "surrogate-endpoint",
+      "term": "Surrogate endpoint",
+      "aliases": [
+        "surrogate endpoint",
+        "surrogate",
+        "marker",
+        "markers",
+        "biomarker",
+        "biomarkers"
+      ],
+      "category": "trials",
+      "short": "A lab measure accepted in place of outcomes patients care about.",
+      "simpler": "Checking the fuel gauge instead of whether you reached your destination.",
+      "example": {
+        "moduleId": "fenofibrate",
+        "text": "Fenofibrate lowers triglycerides 40–55%, yet ACCORD-Lipid didn't show fewer heart events."
+      },
+      "notToConfuse": "Not proof of clinical benefit: a marker can move without outcomes following.",
+      "related": [
+        "primary-endpoint",
+        "hba1c",
+        "ldl-cholesterol"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "absolute-risk-reduction",
+      "term": "Absolute risk reduction",
+      "aliases": [
+        "absolute risk reduction",
+        "ARR",
+        "absolute terms"
+      ],
+      "category": "trials",
+      "short": "The plain difference in event rates between groups, in percentage points.",
+      "simpler": "If rain falls on 22 of 100 days without an umbrella app and 17 with it, the absolute gain is 5 dry days.",
+      "example": {
+        "moduleId": "icosapent-ethyl",
+        "text": "REDUCE-IT: 22.0% vs 17.2%, an absolute reduction of 4.8 percentage points."
+      },
+      "notToConfuse": "Not relative risk reduction, which expresses the same difference as a share of the comparator rate.",
+      "related": [
+        "relative-risk-reduction",
+        "nnt"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "relative-risk-reduction",
+      "term": "Relative risk reduction",
+      "aliases": [
+        "relative risk reduction",
+        "RRR",
+        "relative terms"
+      ],
+      "category": "trials",
+      "short": "The difference in event rates expressed as a share of the comparator's rate.",
+      "simpler": "A '25% off' label: impressive, but 25% of what?",
+      "example": {
+        "moduleId": "rosuvastatin",
+        "text": "HOPE-3: 4.8% → 3.7% is about 24% relative, but only 1.1 points absolute."
+      },
+      "notToConfuse": "Not absolute risk: a big relative cut of a small risk can be a tiny absolute gain.",
+      "related": [
+        "absolute-risk-reduction",
+        "hazard-ratio"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "hazard-ratio",
+      "term": "Hazard ratio",
+      "aliases": [
+        "HR",
+        "hazard ratios"
+      ],
+      "category": "trials",
+      "short": "How often events happened on the treatment compared with the comparator, over the trial.",
+      "simpler": "Comparing how often two cars break down per year of driving: 0.75 means 25% fewer breakdowns.",
+      "example": {
+        "moduleId": "icosapent-ethyl",
+        "text": "REDUCE-IT: HR 0.75 (95% CI 0.68–0.83), i.e. about 25% fewer major events."
+      },
+      "notToConfuse": "Not absolute risk: HR 0.75 can mean 22%→17% or 2%→1.5%.",
+      "related": [
+        "confidence-interval",
+        "relative-risk-reduction"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "confidence-interval",
+      "term": "Confidence interval",
+      "aliases": [
+        "CI",
+        "95% CI",
+        "confidence intervals"
+      ],
+      "category": "trials",
+      "short": "The range of values the trial's data are compatible with.",
+      "simpler": "A weather forecast range: '18–24 °C', not exactly 21. If the range for a hazard ratio includes 1.0, 'no effect' is still possible.",
+      "example": {
+        "moduleId": "sitagliptin",
+        "text": "TECOS: HR 0.98 (0.88–1.09) includes 1.0, so no effect on heart events either way."
+      },
+      "notToConfuse": "Not the range where 95% of patients' results fall.",
+      "related": [
+        "hazard-ratio",
+        "p-value",
+        "statistically-significant"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "p-value",
+      "term": "p-value",
+      "aliases": [
+        "p value",
+        "p-values",
+        "nominal p-value",
+        "nominal"
+      ],
+      "category": "trials",
+      "short": "How surprising the result would be if the treatment truly had no effect; below 0.05 is the usual bar.",
+      "simpler": "How odd it would be to flip 9 heads in 10 tosses with a fair coin.",
+      "example": {
+        "moduleId": "dapagliflozin",
+        "text": "DECLARE MACE superiority p = 0.172, so later endpoints were only 'nominal'."
+      },
+      "notToConfuse": "Not the probability that the drug works, and not a measure of how big the effect is.",
+      "related": [
+        "statistically-significant",
+        "confidence-interval"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "statistically-significant",
+      "term": "Statistically significant",
+      "aliases": [
+        "statistically significant",
+        "statistical significance",
+        "not significant",
+        "NS"
+      ],
+      "category": "trials",
+      "short": "A result unlikely enough under chance alone to count as a real difference, usually p < 0.05.",
+      "simpler": "A signal loud enough to stand out from background noise.",
+      "example": {
+        "moduleId": "fenofibrate",
+        "text": "ACCORD-Lipid's main result (HR 0.92, CI 0.79–1.08) was not statistically significant."
+      },
+      "notToConfuse": "Not the same as clinically important: a tiny effect can be significant in a huge trial.",
+      "related": [
+        "p-value",
+        "confidence-interval"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "nnt",
+      "term": "Number needed to treat",
+      "aliases": [
+        "NNT",
+        "number needed to treat"
+      ],
+      "category": "trials",
+      "short": "How many people need treating, for a stated time, to prevent one event: 100 ÷ absolute risk reduction.",
+      "simpler": "How many tickets you'd buy to win once.",
+      "example": {
+        "moduleId": "icosapent-ethyl",
+        "text": "REDUCE-IT: 100 ÷ 4.8 ≈ 21 people for about 4.9 years to prevent one event (calculated)."
+      },
+      "notToConfuse": "Not comparable across trials with different patients, follow-up and placebos.",
+      "related": [
+        "absolute-risk-reduction"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "non-inferiority",
+      "term": "Non-inferiority",
+      "aliases": [
+        "non-inferiority",
+        "non-inferior",
+        "non-inferiority margin"
+      ],
+      "category": "trials",
+      "short": "A test of whether a treatment is not worse than a comparator by more than a limit set in advance.",
+      "simpler": "Proving the new route isn't more than 5 minutes slower, not that it's faster.",
+      "example": {
+        "moduleId": "sitagliptin",
+        "text": "TECOS: upper CI 1.09, below the margin of 1.3, so no extra heart harm was shown."
+      },
+      "notToConfuse": "Not superiority: passing non-inferiority doesn't mean the drug is better.",
+      "related": [
+        "comparator",
+        "confidence-interval"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "subgroup",
+      "term": "Subgroup analysis",
+      "aliases": [
+        "subgroup",
+        "subgroups",
+        "prespecified subgroup",
+        "prespecified",
+        "interaction",
+        "subgroup interaction"
+      ],
+      "category": "trials",
+      "short": "Results for a slice of trial participants; an interaction test checks whether the effect truly differs there.",
+      "simpler": "Looking only at the left-handed players in a team's season stats: interesting, but small samples mislead.",
+      "example": {
+        "moduleId": "fenofibrate",
+        "text": "ACCORD-Lipid's high-TG/low-HDL subgroup did better, but the interaction p was 0.057."
+      },
+      "notToConfuse": "Not proof on its own; consistent with the whole trial is not the same as proven in the subgroup.",
+      "related": [
+        "post-hoc",
+        "statistically-significant"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "post-hoc",
+      "term": "Post-hoc analysis",
+      "aliases": [
+        "post-hoc analysis",
+        "post-hoc analyses",
+        "post-hoc"
+      ],
+      "category": "trials",
+      "short": "An analysis chosen after the data had been seen.",
+      "simpler": "Drawing the target around the arrow after it lands.",
+      "example": {
+        "moduleId": "rosuvastatin",
+        "text": "The EU Crestor SmPC describes JUPITER through post-hoc higher-risk analyses, not its overall result."
+      },
+      "notToConfuse": "Not prespecified: post-hoc findings generate hypotheses rather than confirm them.",
+      "related": [
+        "subgroup"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "intention-to-treat",
+      "term": "Intention to treat",
+      "aliases": [
+        "ITT",
+        "intention-to-treat",
+        "per-protocol",
+        "per-protocol analysis"
+      ],
+      "category": "trials",
+      "short": "Everyone is analysed in the group they were randomised to, whether or not they took the tablets.",
+      "simpler": "Judging a diet plan by everyone who signed up, not just those who stuck to it.",
+      "example": {
+        "moduleId": "sitagliptin",
+        "text": "TECOS reported HR 0.98 with an ITT CI of 0.89–1.08 and a per-protocol CI of 0.88–1.09."
+      },
+      "notToConfuse": "Not per-protocol, which only counts those who followed the plan closely.",
+      "related": [
+        "randomised"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "stopped-early",
+      "term": "Stopped early",
+      "aliases": [
+        "stopped early for benefit",
+        "stopped for futility",
+        "data monitoring committee",
+        "data safety monitoring board"
+      ],
+      "category": "trials",
+      "short": "A trial halted by its independent monitoring committee because benefit (or futility) already looks clear.",
+      "simpler": "Calling a match at half-time: the lead may be real, but the final score might have been closer.",
+      "example": {
+        "moduleId": "dapagliflozin",
+        "text": "DAPA-CKD stopped early for efficacy; STRENGTH stopped for futility."
+      },
+      "notToConfuse": "Not a guarantee of the effect size: stopping for benefit tends to overstate it.",
+      "related": [
+        "hazard-ratio"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "person-years",
+      "term": "Person-years",
+      "aliases": [
+        "patient-years",
+        "person-years",
+        "per 100 patient-years"
+      ],
+      "category": "trials",
+      "short": "Total follow-up time added across participants; used to express event rates fairly.",
+      "simpler": "Like counting kilometres driven, not just cars: 100 people for 2 years = 200 person-years.",
+      "example": {
+        "moduleId": "dapagliflozin",
+        "text": "DAPA-HF: 11.6 vs 15.6 events per 100 patient-years."
+      },
+      "notToConfuse": "Not the number of patients.",
+      "related": [
+        "absolute-risk-reduction"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "meta-analysis",
+      "term": "Meta-analysis",
+      "aliases": [
+        "meta-analyses",
+        "pooled analysis"
+      ],
+      "category": "trials",
+      "short": "A single estimate combined from several trials.",
+      "simpler": "Averaging many weather stations to see the regional trend.",
+      "example": {
+        "moduleId": "rosuvastatin",
+        "text": "CTT: across 26 statin trials, about 22% fewer major vascular events per 1 mmol/L lower LDL."
+      },
+      "notToConfuse": "Not stronger than its inputs: pooling different molecules or designs can mislead.",
+      "related": [
+        "randomised",
+        "relative-risk-reduction"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "pivotal-trial",
+      "term": "Pivotal trial",
+      "aliases": [
+        "pivotal trials",
+        "pivotal"
+      ],
+      "category": "trials",
+      "short": "A trial that regulators relied on to approve a medicine or an indication.",
+      "simpler": "The decisive match of a season.",
+      "example": {
+        "moduleId": "icosapent-ethyl",
+        "text": "REDUCE-IT is Vazkepa's single pivotal trial."
+      },
+      "notToConfuse": "Not every published trial about a medicine.",
+      "related": [
+        "indication",
+        "randomised"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "run-in",
+      "term": "Run-in",
+      "aliases": [
+        "run-in period",
+        "washout",
+        "washout period"
+      ],
+      "category": "trials",
+      "short": "A lead-in period before randomisation, e.g. on placebo, to check adherence or wash out other drugs.",
+      "simpler": "A trial lap before the real race.",
+      "example": {
+        "moduleId": "rosuvastatin",
+        "text": "JUPITER used a four-week placebo run-in to select reliable tablet-takers."
+      },
+      "notToConfuse": "Not part of the comparison itself.",
+      "related": [
+        "randomised"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "ldl-cholesterol",
+      "term": "LDL cholesterol",
+      "aliases": [
+        "LDL",
+        "LDL-C",
+        "LDL cholesterol"
+      ],
+      "category": "lipids",
+      "short": "Cholesterol carried in low-density lipoprotein particles; the fraction most closely tied to artery disease.",
+      "simpler": "The delivery trucks that can crash into artery walls and leave cargo behind.",
+      "example": {
+        "moduleId": "rosuvastatin",
+        "text": "Rosuvastatin 10 mg lowered LDL about 52% vs 7% on placebo in the SmPC's dose table."
+      },
+      "notToConfuse": "Not 'bad cholesterol' as a substance: it's the carrier particle that matters.",
+      "related": [
+        "hdl-cholesterol",
+        "non-hdl-cholesterol",
+        "apolipoprotein-b"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "hdl-cholesterol",
+      "term": "HDL cholesterol",
+      "aliases": [
+        "HDL",
+        "HDL-C",
+        "HDL cholesterol"
+      ],
+      "category": "lipids",
+      "short": "Cholesterol carried in high-density particles that move cholesterol away from the arteries.",
+      "simpler": "The clean-up crew. More crew doesn't always mean a cleaner street.",
+      "example": {
+        "moduleId": "fenofibrate",
+        "text": "Fenofibrate raises HDL 10–30%, yet raising HDL hasn't reliably cut heart events."
+      },
+      "notToConfuse": "Not a treatment target in itself under current guidelines.",
+      "related": [
+        "ldl-cholesterol"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "triglycerides",
+      "term": "Triglycerides",
+      "aliases": [
+        "TG",
+        "triglyceride"
+      ],
+      "category": "lipids",
+      "short": "Fats the body stores and carries in the blood as fuel.",
+      "simpler": "The fuel in the tank, as opposed to cholesterol, which is building material.",
+      "example": {
+        "moduleId": "icosapent-ethyl",
+        "text": "Vazkepa lowered triglycerides 18%, but the SmPC says that explains only a minor part of its benefit."
+      },
+      "notToConfuse": "Not cholesterol: different molecule, different drugs.",
+      "related": [
+        "ldl-cholesterol",
+        "non-hdl-cholesterol"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "non-hdl-cholesterol",
+      "term": "Non-HDL cholesterol",
+      "aliases": [
+        "non-HDL",
+        "non-HDL-C",
+        "non-HDL cholesterol"
+      ],
+      "category": "lipids",
+      "short": "Total cholesterol minus HDL: all the cholesterol in potentially artery-clogging particles.",
+      "simpler": "All the trucks except the clean-up crew.",
+      "example": {
+        "moduleId": "fenofibrate",
+        "text": "Pravafenix's pivotal trial measured non-HDL: −14.1% vs −6.1% with pravastatin alone."
+      },
+      "notToConfuse": "Not LDL alone: it also counts VLDL and remnants.",
+      "related": [
+        "ldl-cholesterol",
+        "apolipoprotein-b"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "apolipoprotein-b",
+      "term": "Apolipoprotein B",
+      "aliases": [
+        "apoB",
+        "apolipoprotein B",
+        "apolipoproteins",
+        "apolipoprotein"
+      ],
+      "category": "lipids",
+      "short": "The protein carried once on every artery-clogging particle, so it counts the particles.",
+      "simpler": "Counting the trucks rather than weighing their cargo.",
+      "example": {
+        "moduleId": "bempedoic-acid",
+        "text": "Bempedoic acid lowers apoB as well as LDL."
+      },
+      "notToConfuse": "Not apoA1, the main protein of HDL.",
+      "related": [
+        "ldl-cholesterol",
+        "non-hdl-cholesterol"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "ascvd",
+      "term": "ASCVD",
+      "aliases": [
+        "atherosclerotic cardiovascular disease",
+        "established cardiovascular disease",
+        "atherosclerotic disease"
+      ],
+      "category": "lipids",
+      "short": "Disease caused by fatty build-up in the arteries: heart attack, stroke, narrowed leg arteries.",
+      "simpler": "Rust inside the pipes.",
+      "example": {
+        "moduleId": "icosapent-ethyl",
+        "text": "71% of REDUCE-IT patients had established cardiovascular disease."
+      },
+      "notToConfuse": "Not heart failure or rhythm problems, which can have other causes.",
+      "related": [
+        "primary-secondary-prevention"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "primary-secondary-prevention",
+      "term": "Primary and secondary prevention",
+      "aliases": [
+        "primary prevention",
+        "secondary prevention"
+      ],
+      "category": "lipids",
+      "short": "Primary: preventing a first event. Secondary: preventing another event after one has happened.",
+      "simpler": "Fitting a smoke alarm before any fire vs after the kitchen already burned once.",
+      "example": {
+        "moduleId": "icosapent-ethyl",
+        "text": "NICE funds Vazkepa only for secondary prevention."
+      },
+      "notToConfuse": "Not about treatment order (first-line vs second-line).",
+      "related": [
+        "ascvd"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "statin-intolerance",
+      "term": "Statin intolerance",
+      "aliases": [
+        "statin-intolerant",
+        "statin intolerant",
+        "maximum tolerated dose",
+        "maximum tolerated"
+      ],
+      "category": "lipids",
+      "short": "Being unable to take a statin, or an adequate statin dose, because of side effects.",
+      "simpler": "Being allergic to the standard tool, so you need a different one.",
+      "example": {
+        "moduleId": "bempedoic-acid",
+        "text": "CLEAR Outcomes enrolled 13,970 statin-intolerant patients; 23% still took a very low statin dose."
+      },
+      "notToConfuse": "Not one fixed definition: each trial wrote its own rule.",
+      "related": [
+        "ldl-cholesterol"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "hba1c",
+      "term": "HbA1c",
+      "aliases": [
+        "glycated haemoglobin",
+        "A1c"
+      ],
+      "category": "diabetes",
+      "short": "A blood test reflecting average blood sugar over the past 2–3 months.",
+      "simpler": "A three-month average on a fitness tracker rather than today's step count.",
+      "example": {
+        "moduleId": "sitagliptin",
+        "text": "Sitagliptin lowered HbA1c about 0.7 points vs placebo when added to metformin."
+      },
+      "notToConfuse": "Not a single blood-sugar reading.",
+      "related": [
+        "surrogate-endpoint",
+        "hypoglycaemia"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "egfr",
+      "term": "eGFR",
+      "aliases": [
+        "GFR",
+        "estimated glomerular filtration rate",
+        "glomerular filtration rate",
+        "creatinine clearance",
+        "eGFR dip"
+      ],
+      "category": "diabetes",
+      "short": "A lab estimate of how much blood the kidneys filter per minute; it guides dosing.",
+      "simpler": "The flow rate of the body's water filter.",
+      "example": {
+        "moduleId": "dapagliflozin",
+        "text": "Don't start dapagliflozin below GFR 25; an early, expected eGFR 'dip' of about 4 points isn't damage."
+      },
+      "notToConfuse": "Not the same as creatinine itself, which is one input to the estimate.",
+      "related": [
+        "hba1c"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "hypoglycaemia",
+      "term": "Hypoglycaemia",
+      "aliases": [
+        "low blood sugar",
+        "hypoglycemia"
+      ],
+      "category": "diabetes",
+      "short": "Blood sugar falling too low, causing shakiness, sweating, confusion or worse.",
+      "simpler": "Running the tank below empty.",
+      "example": {
+        "moduleId": "dapagliflozin",
+        "text": "Versus glipizide: hypoglycaemia 3.5% vs 40.8%."
+      },
+      "notToConfuse": "Not usually caused by SGLT2 or DPP-4 inhibitors alone; sulphonylureas and insulin are the main culprits.",
+      "related": [
+        "hba1c"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "prodrug",
+      "term": "Prodrug",
+      "aliases": [
+        "prodrugs"
+      ],
+      "category": "pharmacology",
+      "short": "A medicine that must be converted in the body before it works.",
+      "simpler": "A flat-pack chair: useless until assembled.",
+      "example": {
+        "moduleId": "bempedoic-acid",
+        "text": "Bempedoic acid is activated by ACSVL1, an enzyme found mainly in the liver."
+      },
+      "notToConfuse": "Not a weaker drug: once activated it acts normally.",
+      "related": [
+        "half-life",
+        "bioavailability"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "half-life",
+      "term": "Half-life",
+      "aliases": [
+        "half-lives",
+        "t½"
+      ],
+      "category": "pharmacology",
+      "short": "The time for blood levels of a medicine to fall by half.",
+      "simpler": "How long it takes a cup of coffee to cool halfway.",
+      "example": {
+        "moduleId": "icosapent-ethyl",
+        "text": "EPA's half-life is about 89 hours; sitagliptin's about 12.4 hours."
+      },
+      "notToConfuse": "Not how long the medicine's effect lasts.",
+      "related": [
+        "auc",
+        "bioavailability"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "bioavailability",
+      "term": "Bioavailability",
+      "aliases": [
+        "bioavailable"
+      ],
+      "category": "pharmacology",
+      "short": "The share of a dose that reaches the bloodstream.",
+      "simpler": "How much of a parcel actually arrives after the courier loses some on the way.",
+      "example": {
+        "moduleId": "rosuvastatin",
+        "text": "Only about 20% of a rosuvastatin dose reaches the circulation."
+      },
+      "notToConfuse": "Not potency or effect.",
+      "related": [
+        "auc",
+        "half-life"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "auc",
+      "term": "AUC",
+      "aliases": [
+        "area under the curve",
+        "exposure"
+      ],
+      "category": "pharmacology",
+      "short": "Total exposure to a medicine in the blood over time.",
+      "simpler": "Total rainfall over a day, not the heaviest shower.",
+      "example": {
+        "moduleId": "rosuvastatin",
+        "text": "Ciclosporin raises rosuvastatin AUC about 7-fold, which is why the combination is contraindicated."
+      },
+      "notToConfuse": "Not the peak level (Cmax).",
+      "related": [
+        "half-life",
+        "bioavailability",
+        "bioequivalence"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "cyp-enzymes",
+      "term": "CYP enzymes",
+      "aliases": [
+        "CYP3A4",
+        "CYP2C9",
+        "CYP450",
+        "cytochrome P450"
+      ],
+      "category": "pharmacology",
+      "short": "Liver enzymes that break down many medicines; blocking them is a common cause of interactions.",
+      "simpler": "The recycling plant: jam one line and other loads pile up.",
+      "example": {
+        "moduleId": "fenofibrate",
+        "text": "Fenofibrate isn't processed by CYP3A4, removing one interaction route with simvastatin."
+      },
+      "notToConfuse": "Not the only interaction route: transporters matter too.",
+      "related": [
+        "transporter"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "transporter",
+      "term": "Transporter protein",
+      "aliases": [
+        "transporter proteins",
+        "transporters",
+        "OATP1B1",
+        "OATP1B3",
+        "BCRP",
+        "OAT2",
+        "OAT3",
+        "P-glycoprotein"
+      ],
+      "category": "pharmacology",
+      "short": "A protein that moves medicines into or out of cells; blocking it can raise drug levels.",
+      "simpler": "Doors and pumps in the cell wall: block a door and the drug piles up outside.",
+      "example": {
+        "moduleId": "bempedoic-acid",
+        "text": "Bempedoic acid blocks OAT2 in the kidney, nudging creatinine and uric acid up."
+      },
+      "notToConfuse": "Not an enzyme: transporters move drugs, enzymes break them down.",
+      "related": [
+        "cyp-enzymes",
+        "auc"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "adverse-reaction",
+      "term": "Adverse reaction",
+      "aliases": [
+        "adverse reactions",
+        "side effect",
+        "side effects",
+        "adverse event",
+        "adverse events"
+      ],
+      "category": "safety",
+      "short": "An unwanted effect reasonably linked to a medicine; the SmPC groups them by frequency (common = 1 in 100 to 1 in 10).",
+      "simpler": "An unwanted passenger: the SmPC tells you how often they board.",
+      "example": {
+        "moduleId": "dapagliflozin",
+        "text": "Genital infections: 5.5% vs 0.6% on placebo, listed as 'common'."
+      },
+      "notToConfuse": "Not every adverse event in a trial: events are counted regardless of cause; reactions are judged linked.",
+      "related": [
+        "pharmacovigilance",
+        "safety-signal"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "pharmacovigilance",
+      "term": "Pharmacovigilance",
+      "aliases": [
+        "drug safety monitoring"
+      ],
+      "category": "safety",
+      "short": "Monitoring a medicine's safety after it's on the market.",
+      "simpler": "Keeping the smoke detectors switched on after the house is built.",
+      "example": {
+        "moduleId": "fenofibrate",
+        "text": "The 2009–2011 fibrate referral changed use on benefit grounds; pharmacovigilance covers efficacy questions too."
+      },
+      "notToConfuse": "Not only about side effects: it reviews the benefit–risk balance.",
+      "related": [
+        "psusa",
+        "rmp",
+        "safety-signal"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "psusa",
+      "term": "PSUSA",
+      "aliases": [
+        "PSUR",
+        "periodic safety update report",
+        "periodic safety update single assessment"
+      ],
+      "category": "safety",
+      "short": "The EU's single assessment of all companies' periodic safety reports for one substance.",
+      "simpler": "A combined annual check-up for every brand of the same medicine.",
+      "example": {
+        "moduleId": "sitagliptin",
+        "text": "PSUSAs added bullous pemphigoid (2015) and thrombocytopenia (2018) to Januvia's label."
+      },
+      "notToConfuse": "Not a new trial: it reviews reports and data already collected.",
+      "related": [
+        "pharmacovigilance",
+        "rmp"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "rmp",
+      "term": "Risk management plan",
+      "aliases": [
+        "RMP",
+        "risk management plan",
+        "important identified risk",
+        "important potential risk",
+        "missing information"
+      ],
+      "category": "safety",
+      "short": "A document listing a medicine's important risks and how each is minimised and studied.",
+      "simpler": "A risk register for one medicine: known hazards, suspected hazards, and blind spots.",
+      "example": {
+        "moduleId": "icosapent-ethyl",
+        "text": "Vazkepa's RMP lists bleeding with antithrombotics and AF as important identified risks."
+      },
+      "notToConfuse": "Not the SmPC warnings list: a risk can stay in the SmPC after leaving the RMP.",
+      "related": [
+        "pharmacovigilance",
+        "psusa"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "safety-signal",
+      "term": "Safety signal",
+      "aliases": [
+        "signal",
+        "safety signals"
+      ],
+      "category": "safety",
+      "short": "New information suggesting a medicine may cause an effect, strong enough to need checking.",
+      "simpler": "Smoke, before anyone has found the fire.",
+      "example": {
+        "moduleId": "rosuvastatin",
+        "text": "A 2023 PRAC signal led to myasthenia warnings for all statins."
+      },
+      "notToConfuse": "Not a confirmed side effect: many signals are ruled out.",
+      "related": [
+        "pharmacovigilance"
+      ],
+      "modules": [
+        "*"
+      ]
+    },
+    {
+      "id": "rhabdomyolysis",
+      "term": "Rhabdomyolysis",
+      "aliases": [
+        "muscle breakdown"
+      ],
+      "category": "safety",
+      "short": "Severe muscle breakdown that can damage the kidneys.",
+      "simpler": "Muscle cells bursting and clogging the kidney's filters.",
+      "example": {
+        "moduleId": "rosuvastatin",
+        "text": "Rare with rosuvastatin, but reported more often above 20 mg and with interacting drugs."
+      },
+      "notToConfuse": "Not ordinary muscle aches (myalgia), which are common and harmless by comparison.",
+      "related": [
+        "transporter",
+        "auc"
+      ],
+      "modules": [
+        "*"
+      ]
+    }
+  ]
+}

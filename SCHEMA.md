@@ -490,7 +490,10 @@ Every block is a JSON object with a `"type"` string discriminator. Unknown types
   "src": "assets/indoor-gardening/early-blight.jpg",
   "alt": "Feuille de tomate présentant des taches circulaires brunes avec des anneaux concentriques caractéristiques du mildiou précoce.",
   "caption": "Mildiou précoce — les taches concentriques distinguent cette maladie de la brûlure bactérienne.",
-  "aspectRatio": 1.5
+  "aspectRatio": 1.5,
+  "credit": "Jane Doe / Wikimedia Commons",
+  "license": "CC-BY-SA-4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Example.webp"
 }
 ```
 
@@ -503,12 +506,17 @@ Every block is a JSON object with a `"type"` string discriminator. Unknown types
 | `alt` | string | yes | Accessibility text. See conventions below. |
 | `caption` | string | no | Short caption shown below the image. Sentence case. |
 | `aspectRatio` | number | no | Width ÷ height. Defaults to 4:3 (1.333) if omitted. Set explicitly to prevent layout shift before the image loads. |
+| `credit` | string | yes | Who made it, as the licence requires it to be credited. Own diagrams: `"Compound (own diagram)"`. |
+| `license` | string | yes | One of `own`, `CC0`, `PD`, `CC-BY-4.0`, `CC-BY-SA-4.0`, `EMA-reuse`, `EC-reuse`. Anything else fails validation. Check the licence on the source page for every non-own image. |
+| `sourceUrl` | string \| null | yes unless `own` | `https://` link to the page the image (and its licence) came from. `null` for `own`. Listed on the app's Image credits screen. |
+
+The app renders the image without cropping, opens it full screen on tap (zoomable, for Gantts and proofs), and lists every non-`own` image on the Image credits screen in Settings.
 
 #### Image file specs
 
-- Format: JPEG for photographs and complex illustrations. PNG for diagrams with transparency or sharp edges.
-- Max dimensions: 1200 × 1200 px. Larger images waste bandwidth on mobile.
-- File size target: under 300 KB per image. JPEG quality 75–85 is usually sufficient.
+- Format: SVG for diagrams (drawn for the course), WebP for photographs. Other formats fail validation.
+- Max width: 1600 px (WebP). Max file size: 200 KB. Both are checked by the validator.
+- SVG: self-contained (no external fonts, images or scripts); set `aspectRatio` from the `viewBox`.
 - Naming: `assets/<module-id>/<lesson-id>-<slug>.<ext>`. Example: `assets/indoor-gardening/l03-yellowing-leaves.jpg`.
 
 #### Alt text conventions

@@ -8,6 +8,7 @@
 // promotional wording. Exits 1 on any error; warnings don't fail the run.
 
 import { readFileSync } from 'node:fs';
+import { checkImage } from './image-check.mjs';
 import { dirname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -137,8 +138,8 @@ for (const lesson of mod.lessons ?? []) {
         break;
       }
       case 'image':
-        if (!b.src?.startsWith('assets/') || b.src.includes('..')) err(w, `invalid src "${b.src}"`);
-        if (!b.alt) err(w, 'missing alt');
+        // src, alt, credit, licence, sourceUrl, file exists, format, size (image-check.mjs)
+        for (const e of checkImage(b, root)) err(w, e);
         break;
       case 'illustration':
         if (!b.imageUrl?.startsWith('https://')) err(w, 'imageUrl must be https');

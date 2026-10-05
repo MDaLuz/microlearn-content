@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 4
+    "version": 5
   },
   "modules": [
     {
@@ -113,6 +113,17 @@
       "version": 1,
       "lessonCount": 6,
       "estimatedMinutes": 35,
+      "accentColor": "#7C8792"
+    },
+    {
+      "id": "gl-m1-generic-basics",
+      "title": "Generics & launch 1: Generic drug basics",
+      "discipline": "Generics & launch",
+      "description": "Reference product, bioequivalence, protection periods, legal bases",
+      "file": "modules/gl-m1-generic-basics.json",
+      "version": 1,
+      "lessonCount": 8,
+      "estimatedMinutes": 60,
       "accentColor": "#7C8792"
     }
   ]

@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 4,
+  "id": "gl-m1-generic-basics",
+  "title": "Generics & launch 1: Generic drug basics",
+  "discipline": "Generics & launch",
+  "version": 1,
+  "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
+  "lessons": [
+    {
+      "id": "gl1-l01-reference-product",
+      "title": "The reference product",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Every generic has a reference\n\nA generic application doesn't prove safety and efficacy from scratch. Instead it relies on a **reference medicinal product** (*médicament de référence*): a medicine authorised in the EU on the basis of a complete dossier of its own, with quality, non-clinical and clinical data. Choosing and documenting the right reference product is one of the first things regulatory affairs settles."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m1/generic-what-must-match-own.svg",
+          "alt": "Two panels: must match (active substance and amount, pharmaceutical form, bioequivalence) and may differ (excipients, appearance, salt or ester unless safety or efficacy differs, name, packaging)",
+          "caption": "Reference product vs generic: what must match",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.86
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m1/originator-vs-generic-pack.webp",
+          "alt": "Pharmacy shelf: Bayer Aspirin 500 mg boxes priced 11.99 beside store-brand acetylsalicylic acid 500 mg boxes priced 8.99",
+          "caption": "Branded original and store-brand generic side by side (Canada)",
+          "credit": "Wikimedia Commons / Daniel Case",
+          "license": "CC-BY-SA-3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bayer_Aspirin_and_store-brand_generic_on_Canadian_drugstore_shelf.jpg",
+          "zoomable": true,
+          "aspectRatio": 1.1952191235059761
+        },
+        {
+          "type": "text",
+          "markdown": "## What 'generic' means in EU law\n\nUnder Art. 10(2)(b), a generic has three things in common with its reference product:\n\n- the same qualitative and quantitative composition in active substances\n- the same pharmaceutical form\n- **bioequivalence** (*bioéquivalence*), shown by appropriate studies (Lesson 2)\n\nDifferent salts, esters or isomers of the same substance count as the same active substance, unless they differ significantly in safety or efficacy. All immediate-release oral forms, such as tablets and capsules, count as one pharmaceutical form."
+        },
+        {
+          "type": "text",
+          "markdown": "## A reference from another EU country\n\nThe reference product doesn't have to be authorised in the country where the generic is filed. Under the **European reference product** (*médicament de référence européen*) rule in Art. 10(1), it can be a product authorised in another EU member state. The application then names that state, and its authority confirms the reference's details."
+        },
+        {
+          "type": "text",
+          "markdown": "## The global marketing authorisation\n\nAll the strengths, forms and presentations the originator adds later belong to one **global marketing authorisation** (*autorisation globale de mise sur le marché*). This is set out in Art. 6(1). The protection clock therefore starts once, with the very first authorisation. A new strength launched years later doesn't restart it."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** the reference product determines when you may file and launch (Lesson 4), and the reference batches the bioequivalence study must use. A wrong or unavailable reference product can stall the whole project."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl1-l01-reference-product-fc1",
+              "front": "Reference medicinal product",
+              "back": "An EU-authorised medicine with its own full dossier, on which a generic relies. FR: médicament de référence."
+            },
+            {
+              "id": "gl1-l01-reference-product-fc2",
+              "front": "Global marketing authorisation",
+              "back": "All later strengths and forms of the originator count as one authorisation, so the protection clock starts once. FR: autorisation globale de mise sur le marché."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl1-l01-reference-product-q1",
+              "stem": "The originator launched a new 5 mg strength six years after its first EU approval. When does its data protection period start?",
+              "options": [
+                "From the 5 mg approval",
+                "From the first EU authorisation of the product, under the global marketing authorisation",
+                "It has no protection",
+                "From the generic's filing date"
+              ],
+              "correctIndex": 1,
+              "explanation": "Under Art. 6(1), later strengths belong to the same global marketing authorisation, so the clock runs from the first authorisation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 6(1) (global marketing authorisation), Art. 10(1) (European reference product; protection periods), Art. 10(2)(a)–(b) (definitions of the reference product and the generic medicinal product), Art. 10(3) (hybrid applications).\n2. **EU guidance** — CMDh and EMA guidance on the choice of reference medicinal product (to be cited precisely in Module 2).\n3. **Image** — Wikimedia Commons, 'Bayer Aspirin and store-brand generic on Canadian drugstore shelf' by Daniel Case (CC BY-SA 3.0), resized."
+        }
+      ]
+    },
+    {
+      "id": "gl1-l02-bioequivalence",
+      "title": "Bioequivalence in plain words",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## What bioequivalence proves\n\nIf the generic releases the active substance into the blood at the same rate and to the same extent as the reference, it's expected to work the same way. A bioequivalence study measures exactly that. Usually healthy volunteers take each product in turn, in a **crossover design** (*plan croisé*), and blood samples are taken over time."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m1/bioequivalence-curves.svg",
+          "alt": "Blood-level curves over time for reference and generic, nearly overlapping, with peak (Cmax) and area under the curve marked, and an 80–125% acceptance band",
+          "caption": "Bioequivalence in one picture",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.739
+        },
+        {
+          "type": "text",
+          "markdown": "## Two numbers that matter\n\n- **Cmax**: the peak blood level, which reflects how fast the substance gets in\n- **AUC** (area under the curve): the total exposure, meaning how much gets in overall\n\nBoth numbers are compared between the generic and the reference, as a ratio."
+        },
+        {
+          "type": "text",
+          "markdown": "## The usual EU test\n\nUnder the EMA bioequivalence guideline, the 90% **confidence interval** (*intervalle de confiance*) of the generic/reference ratio must lie within 80.00–125.00%, for both AUC and Cmax. Two exceptions apply:\n\n- For narrow-therapeutic-index substances, where small changes matter clinically, the range can be tightened to 90.00–111.11%.\n- For highly variable substances, the Cmax range can, under conditions, be widened, up to 69.84–143.19%.\n\n'80–125%' doesn't mean a generic may deliver 20% less drug. The averages are usually close to 100%. What must fit inside the range is the uncertainty around that average."
+        },
+        {
+          "type": "text",
+          "markdown": "## When a study fails\n\nIf the confidence interval falls outside the range, the product can't be shown to be bioequivalent. Typical responses are reformulating the product, or running a larger study. In both cases this means months of delay, and often a new batch."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** the bioequivalence study is usually the longest scientific step before submission in own development. For in-licensed dossiers, check early that the study used an EU reference product, and that its report is complete."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl1-l02-bioequivalence-fc1",
+              "front": "Bioequivalence",
+              "back": "Same rate and extent of absorption as the reference. Tested with the 90% CI of the AUC and Cmax ratios, which must fall within 80–125%. FR: bioéquivalence."
+            },
+            {
+              "id": "gl1-l02-bioequivalence-fc2",
+              "front": "Cmax and AUC",
+              "back": "Cmax: peak blood level (speed). AUC: total exposure (amount)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl1-l02-bioequivalence-q1",
+              "stem": "What does the 80–125% rule actually require?",
+              "options": [
+                "The generic contains 80–125% of the stated dose",
+                "The 90% confidence interval of the generic/reference ratio for AUC and Cmax lies within 80–125%",
+                "Each volunteer's result lies within 80–125%",
+                "The generic is 20% cheaper"
+              ],
+              "correctIndex": 1,
+              "explanation": "It applies to the confidence interval of the ratio. In practice, passing products have average ratios close to 100%."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — EMA, Guideline on the investigation of bioequivalence (CPMP/EWP/QWP/1401/98 Rev. 1/Corr**), acceptance ranges and design.\n2. **EU law** — Directive 2001/83/EC, Art. 10(2)(b).\n3. **Image** — own diagram with illustrative curves (no licence-clean Commons image showed Cmax and AUC clearly)."
+        }
+      ]
+    },
+    {
+      "id": "gl1-l03-biowaivers",
+      "title": "Biowaivers and additional strengths",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Not every strength needs its own study\n\nA **biowaiver** (*dispense d'étude de bioéquivalence*) is permission not to run an in-vivo bioequivalence study for a particular strength or product. Instead, the applicant shows in the lab why one isn't needed."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m1/biowaiver-strengths.svg",
+          "alt": "One bioequivalence study at the highest strength covering three lower strengths, provided five conditions are met",
+          "caption": "One study, several strengths",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.905
+        },
+        {
+          "type": "text",
+          "markdown": "## Additional-strength biowaiver\n\nUnder the EMA guideline, a study on one strength can cover the others if five conditions are all met:\n\n1. The same manufacturing process.\n2. The same qualitative composition.\n3. Proportional composition.\n4. Similar dissolution profiles in the lab.\n5. Pharmacokinetics that behave linearly over the dose range.\n\nWhich strength must be studied depends on the substance."
+        },
+        {
+          "type": "text",
+          "markdown": "## BCS-based biowaiver\n\nFor some substances, a whole study can be replaced by lab data under the **Biopharmaceutics Classification System** (BCS), set out in the ICH M9 guideline. This is possible mainly for highly soluble substances in immediate-release forms that meet strict criteria. It's less common, but very valuable when it applies."
+        },
+        {
+          "type": "text",
+          "markdown": "## Dissolution testing\n\nBoth kinds of waiver rely on **dissolution testing** (*essai de dissolution*): measuring how fast the tablet releases the substance in the lab, usually at several pH levels. The waiver stands or falls on those comparisons."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** biowaivers save months and money. When a range of strengths is planned, ask early which strength has the bioequivalence study and whether the waiver conditions are documented."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl1-l03-biowaivers-fc1",
+              "front": "Biowaiver",
+              "back": "Permission to skip an in-vivo BE study, based on lab data (additional-strength or BCS-based). FR: dispense d'étude de bioéquivalence."
+            },
+            {
+              "id": "gl1-l03-biowaivers-fc2",
+              "front": "BCS",
+              "back": "Biopharmaceutics Classification System. It can justify replacing a BE study for some highly soluble, immediate-release substances (ICH M9)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl1-l03-biowaivers-q1",
+              "stem": "A generic comes in 10, 20 and 40 mg. A BE study was run only on 40 mg. What usually allows the other strengths to be approved?",
+              "options": [
+                "Nothing; each needs its own study",
+                "An additional-strength biowaiver, if the process, composition, proportionality, dissolution and linear pharmacokinetics conditions are met",
+                "A lower price",
+                "A bigger dossier"
+              ],
+              "correctIndex": 1,
+              "explanation": "The EMA guideline sets the conditions under which one study can support the other strengths."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — EMA, Guideline on the investigation of bioequivalence (CPMP/EWP/QWP/1401/98 Rev. 1), additional-strength biowaiver.\n2. **ICH** — ICH M9, Biopharmaceutics Classification System-based biowaivers (adopted by EMA)."
+        }
+      ]
+    },
+    {
+      "id": "gl1-l04-data-protection",
+      "title": "Data and market protection: 8 + 2 (+1)",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Two separate clocks\n\nA new medicine gets regulatory protection that has nothing to do with patents. There are two periods:\n\n- **Data protection** (*protection des données*): generics can't refer to the originator's data, so they can't even file.\n- **Market protection** (*protection commerciale*): generics may file and be approved, but they can't be placed on the market yet.\n\nPatents and supplementary protection certificates (SPCs) run in parallel and are covered in Module 3."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m1/data-protection-timelines.svg",
+          "alt": "Two timelines: current rules with 8 years of data protection, 2 years of market protection and an optional extra year; reform with 8 years plus 1 year plus extensions, capped at 11 years",
+          "caption": "When can a generic file, and when can it launch?",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.818
+        },
+        {
+          "type": "text",
+          "markdown": "## Today's rule: 8 + 2 (+1)\n\nUnder Art. 10(1) of Directive 2001/83/EC:\n\n- A generic may be **filed** 8 years after the reference product's first EU authorisation.\n- It may be **placed on the market** after 10 years.\n- The 10 years become 11 if, during the first 8 years, the originator obtained a new indication bringing a significant clinical benefit."
+        },
+        {
+          "type": "text",
+          "markdown": "## The reform: 8 + 1, with extensions\n\nIn December 2025, the Parliament and the Council reached political agreement on the EU 'pharma package', which will replace Directive 2001/83/EC. It keeps 8 years of data protection but cuts the standard market protection to **1 year**. Extensions are possible, for example for a significant new indication, up to a combined cap of 11 years. The package also widens the Bolar exemption (Module 3).\n\nThe new rules apply only after formal adoption and a transition period. The EMA expects them to become applicable around 2028. Which existing reference products move to the new regime is set by the final transitional provisions. Until RA confirms otherwise, plan with today's 8 + 2 (+1)."
+        },
+        {
+          "type": "text",
+          "markdown": "## How a PM uses this\n\nFor each product and country, keep three dates:\n\n1. the earliest filing date (data protection end)\n2. the earliest regulatory launch date (market protection end)\n3. the earliest legal launch date once patents and SPCs are included (Module 3)\n\nThe launch date is the latest of these."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** filing can, and should, start before launch is allowed. Many teams file around year 8 so that approval lands just as market protection ends."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl1-l04-data-protection-fc1",
+              "front": "Data protection",
+              "back": "Period during which generics can't refer to the originator's data, so they can't file. Today 8 years. FR: protection des données."
+            },
+            {
+              "id": "gl1-l04-data-protection-fc2",
+              "front": "Market protection",
+              "back": "Period during which generics may be approved but not sold. Today 2 years (+1 for a significant new indication); reform: 1 year plus extensions, capped at 11. FR: protection commerciale."
+            },
+            {
+              "id": "gl1-l04-data-protection-fc3",
+              "front": "8 + 2 (+1)",
+              "back": "File from year 8, launch from year 10 (or 11), counted from the reference product's first EU authorisation."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl1-l04-data-protection-q1",
+              "stem": "A reference product was first authorised in the EU in March 2018, with no new indication. Under today's rules, when may a generic be placed on the market (ignoring patents)?",
+              "options": [
+                "March 2024",
+                "March 2026",
+                "March 2028",
+                "March 2029"
+              ],
+              "correctIndex": 2,
+              "explanation": "8 years of data protection plus 2 years of market protection gives 10 years from March 2018, so March 2028. Filing was possible from March 2026."
+            },
+            {
+              "id": "gl1-l04-data-protection-q2",
+              "stem": "What does the 2025–2026 pharma package change for standard market protection?",
+              "options": [
+                "Nothing",
+                "It cuts it from 2 years to 1 year, with possible extensions up to a combined cap of 11 years",
+                "It removes data protection",
+                "It doubles it"
+              ],
+              "correctIndex": 1,
+              "explanation": "Data protection stays at 8 years. Market protection becomes 1 year plus possible extensions. The rules apply only after adoption and transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 10(1) (8 + 2 (+1)).\n2. **EU** — European Parliament press release, 11 December 2025 (provisional agreement: 8 years of data protection + 1 year of market protection; 11-year cap). Council press release, 11 December 2025, updated 6 March 2026 with the agreed texts.\n3. **EU** — EMA, 'Reform of the EU pharmaceutical legislation' (implementation timeline: applicable around 2028).\n4. **Secondary** — law-firm summaries (Cooley, Morgan Lewis, Taylor Wessing, A&O Shearman), used for context only."
+        }
+      ]
+    }
+  ]
+}

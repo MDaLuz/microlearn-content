@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 7
+    "version": 8
   },
   "modules": [
     {
@@ -124,6 +124,17 @@
       "version": 2,
       "lessonCount": 8,
       "estimatedMinutes": 60,
+      "accentColor": "#7C8792"
+    },
+    {
+      "id": "gl-m2-regulatory",
+      "title": "Generics & launch 2: Regulatory basics",
+      "discipline": "Generics & launch",
+      "description": "Who decides, which procedure, the CTD, the DCP clock and life after approval",
+      "file": "modules/gl-m2-regulatory.json",
+      "version": 1,
+      "lessonCount": 10,
+      "estimatedMinutes": 75,
       "accentColor": "#7C8792"
     }
   ]

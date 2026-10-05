@@ -14,6 +14,7 @@
 import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { checkImage } from './image-check.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const read = (f) => JSON.parse(readFileSync(join(root, f), 'utf8'));
@@ -57,6 +58,16 @@ for (const [i, e] of entries.entries()) {
   if (!Array.isArray(e.aliases)) err(where, '`aliases` must be an array');
   if (!filled(e.example?.moduleId) || !filled(e.example?.text)) err(where, '`example` needs moduleId and text');
   if (e.category && !CATEGORIES.includes(e.category)) err(where, `unknown category "${e.category}"`);
+  // Optional layers: a picture (same rules as lesson images) and translations.
+  if (e.image !== undefined) for (const m of checkImage(e.image, root)) err(where, `image: ${m}`);
+  if (e.translations !== undefined) {
+    const t = e.translations;
+    if (!t || typeof t !== 'object' || Array.isArray(t)) err(where, '`translations` must be an object');
+    else for (const [lang, v] of Object.entries(t)) {
+      if (!/^[a-z]{2}$/.test(lang)) err(where, `translations: "${lang}" isn't a 2-letter language code`);
+      if (typeof v !== 'string' || !v.trim()) err(where, `translations.${lang} must be a non-empty string`);
+    }
+  }
   const words = (e.short ?? '').trim().split(/\s+/).filter(Boolean).length;
   if (words > 25) err(where, `\`short\` has ${words} words (max 25)`);
 }

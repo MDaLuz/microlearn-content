@@ -3,7 +3,7 @@
   "id": "gl-m1-generic-basics",
   "title": "Generics & launch 1: Generic drug basics",
   "discipline": "Generics & launch",
-  "version": 1,
+  "version": 2,
   "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
   "lessons": [
     {
@@ -331,6 +331,303 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 10(1) (8 + 2 (+1)).\n2. **EU** — European Parliament press release, 11 December 2025 (provisional agreement: 8 years of data protection + 1 year of market protection; 11-year cap). Council press release, 11 December 2025, updated 6 March 2026 with the agreed texts.\n3. **EU** — EMA, 'Reform of the EU pharmaceutical legislation' (implementation timeline: applicable around 2028).\n4. **Secondary** — law-firm summaries (Cooley, Morgan Lewis, Taylor Wessing, A&O Shearman), used for context only."
+        }
+      ]
+    },
+    {
+      "id": "gl1-l05-legal-bases",
+      "title": "The legal bases",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Every application has a legal basis\n\nThe **legal basis** (*base légale*) is the article of Directive 2001/83/EC an application is filed under. It decides which data the dossier must contain and which data it may borrow, and it's one of the first decisions in any project."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m1/legal-basis-decision-tree.svg",
+          "alt": "Decision tree: EU reference plus bioequivalence leads to Art. 10(1), else 10(3) hybrid; no reference and known substances combined leads to 10b; otherwise 10a or 8(3); 10c shown apart",
+          "caption": "Choosing the legal basis: a simplified tree",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.538
+        },
+        {
+          "type": "text",
+          "markdown": "## The six routes in one line each\n\n- **Art. 10(1), generic:** relies on the reference product's data and adds quality data and bioequivalence (Lessons 1–2).\n- **Art. 10(3), hybrid:** (*demande hybride*) used when the product isn't strictly a generic, for example a different strength, form, route or indication, or when bioequivalence alone isn't enough. It relies on the reference product plus bridging studies.\n- **Art. 10a, well-established use:** (*usage médical bien établi*) the substance has been in well-established medical use in the EU for at least 10 years, so published literature replaces the company's own studies.\n- **Art. 10b, fixed combination:** known substances combined in a new way (Lesson 6).\n- **Art. 10c, informed consent:** (*consentement éclairé*) another MAH allows its full dossier to be used for an identical product.\n- **Art. 8(3), full or mixed:** the company's own complete dossier (Lesson 7)."
+        },
+        {
+          "type": "text",
+          "markdown": "### Process card: Choosing the legal basis\n\n- What it is: the decision on which article of Directive 2001/83/EC the application uses\n- Who owns it: Regulatory affairs, with input from the dossier owner and, if needed, scientific advice from an authority\n- Inputs: reference product availability, bioequivalence data, product differences, protection dates\n- Output: a documented legal basis and a list of the data required\n- Typical duration: days for a clear generic; weeks to months if a hybrid or a combination needs advice\n- What makes it slip: reference product unavailable in the EU, failed or missing bioequivalence, unclear protection dates\n- PM watch-points: get this decision in writing before the timeline is fixed, because it determines what has to be produced"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** the legal basis sets the length of the work before filing. A switch late in the project, for example from generic to hybrid, often means new studies and months of delay."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl1-l05-legal-bases-fc1",
+              "front": "Legal basis",
+              "back": "The article of Directive 2001/83/EC an application is filed under. It decides which data are needed. FR: base légale."
+            },
+            {
+              "id": "gl1-l05-legal-bases-fc2",
+              "front": "Hybrid application, Art. 10(3)",
+              "back": "Used when the product differs from the reference (strength, form, route, indication) or bioequivalence isn't enough. Reference data plus bridging studies. FR: demande hybride."
+            },
+            {
+              "id": "gl1-l05-legal-bases-fc3",
+              "front": "Informed consent, Art. 10c",
+              "back": "Another MAH allows its full dossier to be used for an identical product. FR: consentement éclairé."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl1-l05-legal-bases-q1",
+              "stem": "A company wants to launch an oral solution, but the reference product exists only as tablets. Which basis is most likely?",
+              "options": [
+                "Art. 10(1) generic",
+                "Art. 10(3) hybrid",
+                "Art. 10c informed consent",
+                "No route exists"
+              ],
+              "correctIndex": 1,
+              "explanation": "A different pharmaceutical form falls outside the generic definition, so the hybrid route, with bridging data, is the usual option."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 8(3), 10(1), 10(3), 10a, 10b, 10c.\n2. **EU guidance** — European Commission, Notice to Applicants, Vol. 2A, Chapter 1 (Marketing authorisation: legal bases)."
+        }
+      ]
+    },
+    {
+      "id": "gl1-l06-art10b",
+      "title": "Art. 10b: fixed combinations",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Known pieces, new combination\n\nArt. 10b covers a medicine that combines active substances already used in authorised medicines, but not yet authorised together in that combination. The single substances are well known. What's new is putting them in one product."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m1/art10b-fixed-combination.svg",
+          "alt": "Substances A and B joined in one tablet, with the data needed: full quality data, new studies on the combination, often bioequivalence vs the separate products; single substances not re-proved",
+          "caption": "Art. 10b: two known substances, one new product",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.739
+        },
+        {
+          "type": "text",
+          "markdown": "## What the dossier must show\n\nUnder Art. 10b, the application must give the results of new non-clinical or clinical studies on the **combination**. It doesn't have to provide scientific references for each substance on its own. Full quality data for the new product are always required.\n\nIn practice, the EMA guideline on **fixed combination medicinal products** (*associations fixes*) explains what's expected. A common element is a bioequivalence study comparing the combined tablet with the substances taken as separate products. That shows the combination behaves like the free combination doctors already use."
+        },
+        {
+          "type": "text",
+          "markdown": "## 10b or a generic of a combination?\n\nIf an authorised A+B product already exists and its protection has expired, a new A+B product may be filed as a **generic of that combination** under Art. 10(1), which is usually simpler. Art. 10b is the route when no authorised A+B reference exists, or when the product can't rely on it."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why companies choose 10b\n\nCompanies use fixed combinations to make treatment simpler: one tablet instead of two. They're common in cardiometabolic medicines, for example combining two cholesterol medicines. The Medicines modules in this app list several, such as rosuvastatin with ezetimibe, or bempedoic acid with ezetimibe."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** 10b projects usually need new studies, often a bioequivalence study of the combination against the separate products. Plan the study, its reference batches of both single products, and the time to report it before filing."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl1-l06-art10b-fc1",
+              "front": "Art. 10b",
+              "back": "Known substances newly combined in one product. New data on the combination are required; data on each single substance aren't. FR: association fixe (art. 10b)."
+            },
+            {
+              "id": "gl1-l06-art10b-fc2",
+              "front": "10b vs generic of a combination",
+              "back": "If an authorised A+B product exists and its protection has expired, an A+B generic under Art. 10(1) may be possible. Otherwise, 10b."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl1-l06-art10b-q1",
+              "stem": "Which statement about an Art. 10b application is correct?",
+              "options": [
+                "It needs no new data",
+                "It needs new studies on the combination, but not references proving each single substance",
+                "It can only be used for biologicals",
+                "It needs the other MAH's consent"
+              ],
+              "correctIndex": 1,
+              "explanation": "Art. 10b requires data on the combination. Each known substance doesn't need to be re-proved on its own."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 10b; Art. 10(1).\n2. **EU guidance** — EMA, Guideline on clinical development of fixed combination medicinal products (EMA/CHMP/158268/2017).\n3. **Course** — Medicines modules: rosuvastatin (Lesson 9) and bempedoic acid (Nustendi)."
+        }
+      ]
+    },
+    {
+      "id": "gl1-l07-art83",
+      "title": "Art. 8(3): full and mixed dossiers",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## When you can't borrow\n\nArt. 8(3) is the standard route for a new medicine: a complete dossier with the company's own quality, non-clinical and clinical data. In the generics world it's less common, but you'll meet it. For example, when there's no usable EU reference product, or when a product is filed on a dossier written to stand on its own."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m1/dossier-blocks.svg",
+          "alt": "Three dossier stacks: Art. 8(3) full with own non-clinical and clinical data; 8(3) mixed with own studies plus literature; 10(1) generic relying on the reference plus a bioequivalence study",
+          "caption": "What's inside the dossier, by legal basis",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.86
+        },
+        {
+          "type": "text",
+          "markdown": "## Full vs mixed\n\nA **full application** (*demande complète*) contains the company's own studies in every module.\n\nA **mixed application** (*demande mixte*) is still filed under Art. 8(3), but combines the company's own studies with published scientific literature for parts of the non-clinical or clinical documentation. Annex I of the Directive describes it."
+        },
+        {
+          "type": "text",
+          "markdown": "## Quality is never borrowed\n\nWhatever the legal basis, the quality part of the dossier (CTD Module 3) always describes your own product: its substance, manufacture, controls and stability. For a PM, this matters: quality documentation comes from the manufacturer on every route, and gaps in it delay every route equally."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why it matters for planning\n\nFull and mixed dossiers carry the most pre-submission work and the most assessment questions. When an in-licensed dossier is labelled '8(3)', check what it really contains (own studies or literature) during the gap analysis in Module 2."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** an Art. 8(3) dossier means the longest preparation and usually more assessment questions. Budget extra clock-stop time for responses."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl1-l07-art83-fc1",
+              "front": "Mixed application",
+              "back": "Filed under Art. 8(3), combining own studies with published literature (Directive 2001/83/EC, Annex I). FR: demande mixte."
+            },
+            {
+              "id": "gl1-l07-art83-fc2",
+              "front": "Quality module",
+              "back": "CTD Module 3 always describes your own product, on every legal basis. It's never borrowed."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl1-l07-art83-q1",
+              "stem": "Which part of the dossier is always the applicant's own, whatever the legal basis?",
+              "options": [
+                "The clinical module",
+                "The non-clinical module",
+                "The quality module (Module 3)",
+                "None"
+              ],
+              "correctIndex": 2,
+              "explanation": "Every application documents the quality of its own product. Only non-clinical and clinical data can rely on a reference product or on literature."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 8(3); Annex I, Part II (mixed marketing authorisation applications; well-established use).\n2. **EU guidance** — Notice to Applicants, Vol. 2A, Chapter 1."
+        }
+      ]
+    },
+    {
+      "id": "gl1-l08-recap",
+      "title": "Recap: legal basis to timeline",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## One table to remember\n\nThe legal basis tells you what the dossier needs, and so how long preparation will take. This table sums up Module 1."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m1/legal-basis-matrix.svg",
+          "alt": "Table of six legal bases, showing what each relies on, the own data needed and the relative effort before filing, from lowest (generic) to highest (full or mixed)",
+          "caption": "Legal basis at a glance",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.702
+        },
+        {
+          "type": "text",
+          "markdown": "## Three questions to ask on any new project\n\n1. What's the legal basis, and is it confirmed in writing?\n2. What's the reference product, when was it first authorised in the EU, and so when can we file and launch?\n3. Which studies exist (bioequivalence, combination, bridging), and which still have to be done?\n\nThe answers give the first draft of the pre-submission timeline."
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl1-l08-recap-q1",
+              "stem": "A project combines two known substances, and no A+B product exists in the EU. Which basis is likely, and what's the main extra work?",
+              "options": [
+                "10(1); nothing extra",
+                "10b; new studies on the combination, often bioequivalence against the separate products",
+                "10c; a consent letter",
+                "10a; a literature review"
+              ],
+              "correctIndex": 1,
+              "explanation": "Without an existing A+B reference product, Art. 10b applies, and the combination needs its own data."
+            },
+            {
+              "id": "gl1-l08-recap-q2",
+              "stem": "A reference product was first authorised in the EU in June 2017. Under today's rules, when may a generic be filed, ignoring patents?",
+              "options": [
+                "June 2023",
+                "June 2025",
+                "June 2027",
+                "June 2028"
+              ],
+              "correctIndex": 1,
+              "explanation": "Eight years of data protection runs to June 2025. Launch is possible from June 2027, or 2028 if a significant new indication was granted."
+            },
+            {
+              "id": "gl1-l08-recap-q3",
+              "stem": "Why does a late switch from generic to hybrid hurt the timeline?",
+              "options": [
+                "It doesn't",
+                "A hybrid needs bridging data, which usually means new studies and months of work before filing",
+                "Hybrids are always rejected",
+                "Hybrids need consent from the originator"
+              ],
+              "correctIndex": 1,
+              "explanation": "The legal basis decides what data are needed. Changing it late adds studies to the critical path."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 8(3), 10(1), 10(3), 10a, 10b, 10c.\n2. **Course** — Module 1, Lessons 1–7."
         }
       ]
     }

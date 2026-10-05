@@ -64,7 +64,7 @@ for (const [i, e] of entries.entries()) {
     const t = e.translations;
     if (!t || typeof t !== 'object' || Array.isArray(t)) err(where, '`translations` must be an object');
     else for (const [lang, v] of Object.entries(t)) {
-      if (!/^[a-z]{2}$/.test(lang)) err(where, `translations: "${lang}" isn't a 2-letter language code`);
+      if (!['fr', 'de'].includes(lang)) err(where, `translations: "${lang}" isn't a supported language (fr, de)`);
       if (typeof v !== 'string' || !v.trim()) err(where, `translations.${lang} must be a non-empty string`);
     }
   }

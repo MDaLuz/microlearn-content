@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "updated": "2026-10-05",
   "entries": [
     {
@@ -214,8 +214,7 @@
       "id": "bioequivalence",
       "term": "Bioequivalence",
       "aliases": [
-        "bioequivalent",
-        "biowaiver"
+        "bioequivalent"
       ],
       "category": "regulatory",
       "short": "Blood levels of a copy are close enough to the original's that they count as the same medicine.",
@@ -696,7 +695,10 @@
       ],
       "modules": [
         "*"
-      ]
+      ],
+      "translations": {
+        "fr": "intervalle de confiance"
+      }
     },
     {
       "id": "p-value",
@@ -1332,7 +1334,10 @@
       ],
       "modules": [
         "*"
-      ]
+      ],
+      "translations": {
+        "fr": "aire sous la courbe (ASC)"
+      }
     },
     {
       "id": "cyp-enzymes",
@@ -2748,6 +2753,247 @@
       ],
       "translations": {
         "fr": "registre des risques"
+      }
+    },
+    {
+      "id": "european-reference-product",
+      "term": "European reference product",
+      "aliases": [
+        "European reference product",
+        "European reference medicinal product"
+      ],
+      "category": "launch",
+      "short": "A reference product authorised in another EU member state, not the country where the generic is filed.",
+      "simpler": "Borrowing the benchmark from a neighbour when your own country never had it.",
+      "example": {
+        "moduleId": "gl-m1-generic-basics",
+        "text": "Module 1, Lesson 1: allowed by Art. 10(1) of Directive 2001/83/EC."
+      },
+      "notToConfuse": "Not a non-EU reference: it must be authorised in an EU member state.",
+      "related": [
+        "reference-product",
+        "global-marketing-authorisation"
+      ],
+      "modules": [
+        "gl-m1-generic-basics"
+      ],
+      "translations": {
+        "fr": "médicament de référence européen"
+      }
+    },
+    {
+      "id": "global-marketing-authorisation",
+      "term": "Global marketing authorisation",
+      "aliases": [
+        "global marketing authorisation",
+        "global MA"
+      ],
+      "category": "launch",
+      "short": "All strengths, forms and presentations of an originator count as one authorisation for protection purposes.",
+      "simpler": "One family tree: new branches don't restart the family's age.",
+      "example": {
+        "moduleId": "gl-m1-generic-basics",
+        "text": "Module 1, Lesson 1: a new strength years later doesn't restart the 8-year clock."
+      },
+      "notToConfuse": "Not one licence document: it's a legal grouping (Art. 6(1)).",
+      "related": [
+        "reference-product",
+        "data-protection"
+      ],
+      "modules": [
+        "gl-m1-generic-basics"
+      ],
+      "translations": {
+        "fr": "autorisation globale de mise sur le marché"
+      }
+    },
+    {
+      "id": "crossover-design",
+      "term": "Crossover design",
+      "aliases": [
+        "crossover design",
+        "crossover study",
+        "two-way crossover"
+      ],
+      "category": "launch",
+      "short": "A study in which each volunteer takes both products in turn, so each acts as their own comparison.",
+      "simpler": "Taste-testing two coffees yourself rather than comparing your cup with a stranger's.",
+      "example": {
+        "moduleId": "gl-m1-generic-basics",
+        "text": "Module 1, Lesson 2: the standard bioequivalence study design."
+      },
+      "notToConfuse": "Not a parallel-group design, where each person gets only one product.",
+      "related": [
+        "cmax"
+      ],
+      "modules": [
+        "gl-m1-generic-basics"
+      ],
+      "translations": {
+        "fr": "plan croisé"
+      }
+    },
+    {
+      "id": "cmax",
+      "term": "Cmax",
+      "aliases": [
+        "Cmax",
+        "peak concentration"
+      ],
+      "category": "launch",
+      "short": "The peak blood level after a dose; reflects how fast the substance is absorbed.",
+      "simpler": "The highest point on the blood-level hill.",
+      "example": {
+        "moduleId": "gl-m1-generic-basics",
+        "text": "Module 1, Lesson 2: compared with AUC between generic and reference."
+      },
+      "notToConfuse": "Not total exposure; that's AUC.",
+      "related": [
+        "crossover-design"
+      ],
+      "modules": [
+        "gl-m1-generic-basics"
+      ],
+      "translations": {
+        "fr": "Cmax (concentration maximale)"
+      }
+    },
+    {
+      "id": "biowaiver",
+      "term": "Biowaiver",
+      "aliases": [
+        "biowaiver",
+        "biowaivers",
+        "additional-strength biowaiver",
+        "BCS-based biowaiver",
+        "BCS"
+      ],
+      "category": "launch",
+      "short": "Permission to skip an in-vivo bioequivalence study, justified with lab data.",
+      "simpler": "An exemption from the exam because your coursework already proves the skill.",
+      "example": {
+        "moduleId": "gl-m1-generic-basics",
+        "text": "Module 1, Lesson 3: one study at one strength can cover others if five conditions are met."
+      },
+      "notToConfuse": "Not a waiver of all evidence: dissolution data must support it.",
+      "related": [
+        "dissolution-testing",
+        "cmax"
+      ],
+      "modules": [
+        "gl-m1-generic-basics"
+      ],
+      "translations": {
+        "fr": "dispense d'étude de bioéquivalence"
+      }
+    },
+    {
+      "id": "dissolution-testing",
+      "term": "Dissolution testing",
+      "aliases": [
+        "dissolution testing",
+        "dissolution",
+        "dissolution profile",
+        "dissolution profiles"
+      ],
+      "category": "launch",
+      "short": "A lab test measuring how fast a tablet releases its substance, usually at several pH levels.",
+      "simpler": "Timing how fast a sugar cube melts in different drinks.",
+      "example": {
+        "moduleId": "gl-m1-generic-basics",
+        "text": "Module 1, Lesson 3: the basis of biowaivers."
+      },
+      "notToConfuse": "Not a blood-level study.",
+      "related": [
+        "biowaiver"
+      ],
+      "modules": [
+        "gl-m1-generic-basics"
+      ],
+      "translations": {
+        "fr": "essai de dissolution"
+      }
+    },
+    {
+      "id": "data-protection",
+      "term": "Data protection",
+      "aliases": [
+        "data protection",
+        "regulatory data protection",
+        "RDP",
+        "data exclusivity"
+      ],
+      "category": "launch",
+      "short": "Period during which generics can't rely on the originator's data, so they can't file. 8 years.",
+      "simpler": "A locked library: nobody may cite the book yet.",
+      "example": {
+        "moduleId": "gl-m1-generic-basics",
+        "text": "Module 1, Lesson 4: file from year 8 under today's rules."
+      },
+      "notToConfuse": "Not a patent: it's regulatory protection, running separately.",
+      "related": [
+        "market-protection",
+        "pharma-package"
+      ],
+      "modules": [
+        "gl-m1-generic-basics"
+      ],
+      "translations": {
+        "fr": "protection des données"
+      }
+    },
+    {
+      "id": "market-protection",
+      "term": "Market protection",
+      "aliases": [
+        "market protection",
+        "8 + 2 (+1)",
+        "8+2+1"
+      ],
+      "category": "launch",
+      "short": "Period during which generics may be approved but not sold. Today 2 (+1) years; reform: 1 plus extensions, cap 11.",
+      "simpler": "The library opens, but the shop downstairs stays closed for two more years.",
+      "example": {
+        "moduleId": "gl-m1-generic-basics",
+        "text": "Module 1, Lesson 4: launch from year 10 (or 11) under today's rules."
+      },
+      "notToConfuse": "Not data protection, which blocks filing.",
+      "related": [
+        "data-protection",
+        "pharma-package"
+      ],
+      "modules": [
+        "gl-m1-generic-basics"
+      ],
+      "translations": {
+        "fr": "protection commerciale"
+      }
+    },
+    {
+      "id": "pharma-package",
+      "term": "Pharma package",
+      "aliases": [
+        "pharma package",
+        "EU pharmaceutical reform",
+        "pharmaceutical package"
+      ],
+      "category": "launch",
+      "short": "The EU reform replacing Directive 2001/83/EC and Regulation 726/2004. Political agreement December 2025; applicable around 2028.",
+      "simpler": "The new rulebook, agreed but not yet in force.",
+      "example": {
+        "moduleId": "gl-m1-generic-basics",
+        "text": "Module 1, Lesson 4: 8 years data + 1 year market protection, extensions up to 11."
+      },
+      "notToConfuse": "Not in force yet; transitional rules decide which products it covers.",
+      "related": [
+        "data-protection",
+        "market-protection"
+      ],
+      "modules": [
+        "gl-m1-generic-basics"
+      ],
+      "translations": {
+        "fr": "paquet pharmaceutique (réforme)"
       }
     }
   ]

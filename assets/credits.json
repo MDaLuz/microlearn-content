@@ -12,6 +12,18 @@
           "lesson": "gl0-l05-pm"
         }
       ]
+    },
+    {
+      "src": "assets/gl-m1/originator-vs-generic-pack.webp",
+      "credit": "Wikimedia Commons / Daniel Case",
+      "license": "CC-BY-SA-3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bayer_Aspirin_and_store-brand_generic_on_Canadian_drugstore_shelf.jpg",
+      "usedIn": [
+        {
+          "module": "gl-m1-generic-basics",
+          "lesson": "gl1-l01-reference-product"
+        }
+      ]
     }
   ]
 }

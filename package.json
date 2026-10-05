@@ -29,7 +29,10 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "validate:glossary": "node scripts/validate-glossary.mjs"
+    "validate:glossary": "node scripts/validate-glossary.mjs",
+    "validate:images": "node scripts/validate-images.mjs",
+    "test:images": "node scripts/test-validate-images.mjs",
+    "validate": "node scripts/validate-glossary.mjs && node scripts/validate-images.mjs"
   },
   "engines": {
     "node": ">=18.0.0"

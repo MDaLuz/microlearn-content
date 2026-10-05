@@ -503,19 +503,21 @@ Every block is a JSON object with a `"type"` string discriminator. Unknown types
 |---|---|---|---|
 | `type` | `"image"` | yes | |
 | `src` | string | yes | Path relative to the content repo root. Must start with `assets/`. Must not contain `..` or `http(s)://`. The app validates this before fetching. |
-| `alt` | string | yes | Accessibility text. See conventions below. |
-| `caption` | string | no | Short caption shown below the image. Sentence case. |
+| `alt` | string | yes | Accessibility text, at most 200 characters. See conventions below. |
+| `caption` | string | no | Short caption shown below the image, at most 140 characters. Sentence case. |
 | `aspectRatio` | number | no | Width ÷ height. Defaults to 4:3 (1.333) if omitted. Set explicitly to prevent layout shift before the image loads. |
 | `credit` | string | yes | Who made it, as the licence requires it to be credited. Own diagrams: `"Compound (own diagram)"`. |
-| `license` | string | yes | One of `own`, `CC0`, `PD`, `CC-BY-4.0`, `CC-BY-SA-4.0`, `EMA-reuse`, `EC-reuse`. Anything else fails validation. Check the licence on the source page for every non-own image. |
+| `license` | string | yes | One of `own`, `CC0`, `PD`, `CC-BY-4.0`, `CC-BY-SA-4.0`, `CC-BY-3.0`, `CC-BY-SA-3.0`, `EMA-reuse`, `EC-reuse`. Anything else fails validation. Check the licence on the source page for every non-own image. |
+| `zoomable` | boolean | no | Opens full screen on tap. Defaults to true; set false for small decorative images. |
 | `sourceUrl` | string \| null | yes unless `own` | `https://` link to the page the image (and its licence) came from. `null` for `own`. Listed on the app's Image credits screen. |
 
 The app renders the image without cropping, opens it full screen on tap (zoomable, for Gantts and proofs), and lists every non-`own` image on the Image credits screen in Settings.
 
 #### Image file specs
 
-- Format: SVG for diagrams (drawn for the course), WebP for photographs. Other formats fail validation.
-- Max width: 1600 px (WebP). Max file size: 200 KB. Both are checked by the validator.
+- Format: SVG for diagrams (drawn for the course), WebP for photographs and screenshots, PNG only if WebP isn't possible. Other formats fail validation.
+- WebP and PNG: at most 1600 px wide and 200 KB. SVG: at most 300 KB, no scripts, no `on*` attributes, links only to `#id` or `data:`.
+- Full rules and the credits manifest: `assets/README.md`; checked by `npm run validate:images`, which also keeps `assets/credits.json` (the app's Image credits source) up to date.
 - SVG: self-contained (no external fonts, images or scripts); set `aspectRatio` from the `viewBox`.
 - Naming: `assets/<module-id>/<lesson-id>-<slug>.<ext>`. Example: `assets/indoor-gardening/l03-yellowing-leaves.jpg`.
 

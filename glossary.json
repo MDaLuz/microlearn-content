@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "updated": "2026-10-05",
   "entries": [
     {
@@ -2995,6 +2995,193 @@
       ],
       "translations": {
         "fr": "paquet pharmaceutique (réforme)"
+      }
+    },
+    {
+      "id": "legal-basis",
+      "term": "Legal basis",
+      "aliases": [
+        "legal basis",
+        "legal bases"
+      ],
+      "category": "launch",
+      "short": "The article of Directive 2001/83/EC an application is filed under; it decides which data are needed.",
+      "simpler": "The rulebook chapter your application plays by.",
+      "example": {
+        "moduleId": "gl-m1-generic-basics",
+        "text": "Module 1, Lesson 5: settled first, because it shapes the whole pre-submission plan."
+      },
+      "notToConfuse": "Not the procedure (DCP, MRP…): legal basis = what data; procedure = which route through the agencies.",
+      "related": [
+        "hybrid-application",
+        "full-application"
+      ],
+      "modules": [
+        "gl-m1-generic-basics"
+      ],
+      "translations": {
+        "fr": "base légale"
+      }
+    },
+    {
+      "id": "hybrid-application",
+      "term": "Hybrid application",
+      "aliases": [
+        "hybrid application",
+        "hybrid",
+        "Art. 10(3)"
+      ],
+      "category": "launch",
+      "short": "Used when a product differs from its reference (strength, form, route, indication) or bioequivalence isn't enough; adds bridging data.",
+      "simpler": "A generic with a bridge built to cover the differences.",
+      "example": {
+        "moduleId": "gl-m1-generic-basics",
+        "text": "Module 1, Lesson 5: an oral solution referencing tablets usually goes hybrid."
+      },
+      "notToConfuse": "Not a generic in the strict Art. 10(2)(b) sense.",
+      "related": [
+        "legal-basis",
+        "european-reference-product"
+      ],
+      "modules": [
+        "gl-m1-generic-basics"
+      ],
+      "translations": {
+        "fr": "demande hybride"
+      }
+    },
+    {
+      "id": "well-established-use",
+      "term": "Well-established use",
+      "aliases": [
+        "well-established use",
+        "WEU",
+        "Art. 10a"
+      ],
+      "category": "launch",
+      "short": "Route for substances in well-established EU medical use for 10+ years; published literature replaces the company's own studies.",
+      "simpler": "Citing the textbook instead of running the experiments again.",
+      "example": {
+        "moduleId": "gl-m1-generic-basics",
+        "text": "Module 1, Lesson 5: Art. 10a."
+      },
+      "notToConfuse": "Not a generic: no reference product is needed, but literature must be strong.",
+      "related": [
+        "legal-basis"
+      ],
+      "modules": [
+        "gl-m1-generic-basics"
+      ],
+      "translations": {
+        "fr": "usage médical bien établi"
+      }
+    },
+    {
+      "id": "fixed-combination-application",
+      "term": "Fixed combination application",
+      "aliases": [
+        "Art. 10b",
+        "fixed combination application",
+        "fixed combination",
+        "fixed combinations",
+        "fixed combination medicinal product"
+      ],
+      "category": "launch",
+      "short": "Application for known substances newly combined in one product; needs new data on the combination.",
+      "simpler": "Two familiar ingredients in a new recipe: you only test the recipe.",
+      "example": {
+        "moduleId": "gl-m1-generic-basics",
+        "text": "Module 1, Lesson 6: often includes bioequivalence against the separate products."
+      },
+      "notToConfuse": "Not a generic of an existing combination (that's Art. 10(1)).",
+      "related": [
+        "legal-basis",
+        "fixed-dose-combination"
+      ],
+      "modules": [
+        "gl-m1-generic-basics"
+      ],
+      "translations": {
+        "fr": "association fixe (art. 10b)"
+      }
+    },
+    {
+      "id": "informed-consent",
+      "term": "Informed consent application",
+      "aliases": [
+        "informed consent",
+        "Art. 10c",
+        "informed consent application"
+      ],
+      "category": "launch",
+      "short": "Another MAH allows its full dossier to be used for an identical product.",
+      "simpler": "Borrowing a friend's complete homework, with permission.",
+      "example": {
+        "moduleId": "gl-m1-generic-basics",
+        "text": "Module 1, Lesson 5: needs a deal, not new data."
+      },
+      "notToConfuse": "Not patient informed consent in clinical trials.",
+      "related": [
+        "legal-basis"
+      ],
+      "modules": [
+        "gl-m1-generic-basics"
+      ],
+      "translations": {
+        "fr": "consentement éclairé (art. 10c)"
+      }
+    },
+    {
+      "id": "full-application",
+      "term": "Full application",
+      "aliases": [
+        "full application",
+        "Art. 8(3)",
+        "stand-alone application",
+        "full dossier"
+      ],
+      "category": "launch",
+      "short": "An application with the company's own quality, non-clinical and clinical data in every module.",
+      "simpler": "Writing the whole book yourself.",
+      "example": {
+        "moduleId": "gl-m1-generic-basics",
+        "text": "Module 1, Lesson 7: the standard route for new medicines."
+      },
+      "notToConfuse": "Not 'mixed', which uses literature for parts.",
+      "related": [
+        "mixed-application",
+        "legal-basis"
+      ],
+      "modules": [
+        "gl-m1-generic-basics"
+      ],
+      "translations": {
+        "fr": "demande complète"
+      }
+    },
+    {
+      "id": "mixed-application",
+      "term": "Mixed application",
+      "aliases": [
+        "mixed application",
+        "mixed marketing authorisation application"
+      ],
+      "category": "launch",
+      "short": "An Art. 8(3) application combining own studies with published literature (Annex I).",
+      "simpler": "Your own chapters plus quoted ones.",
+      "example": {
+        "moduleId": "gl-m1-generic-basics",
+        "text": "Module 1, Lesson 7: check what an '8(3)' dossier really contains during gap analysis."
+      },
+      "notToConfuse": "Not well-established use, which relies on literature for the clinical part as a whole.",
+      "related": [
+        "full-application"
+      ],
+      "modules": [
+        "gl-m1-generic-basics"
+      ],
+      "translations": {
+        "fr": "demande mixte"
       }
     }
   ]

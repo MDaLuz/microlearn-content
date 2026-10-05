@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 6
+    "version": 7
   },
   "modules": [
     {
@@ -121,7 +121,7 @@
       "discipline": "Generics & launch",
       "description": "Reference product, bioequivalence, protection periods, legal bases",
       "file": "modules/gl-m1-generic-basics.json",
-      "version": 1,
+      "version": 2,
       "lessonCount": 8,
       "estimatedMinutes": 60,
       "accentColor": "#7C8792"

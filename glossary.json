@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "updated": "2026-10-05",
   "entries": [
     {
@@ -136,9 +136,7 @@
       "term": "Mutual recognition procedure",
       "aliases": [
         "mutual recognition procedure",
-        "MRP",
-        "decentralised procedure",
-        "reference member state"
+        "MRP"
       ],
       "category": "regulatory",
       "short": "One EU country assesses a medicine first; other countries are asked to recognise that approval.",
@@ -156,7 +154,7 @@
         "*"
       ],
       "translations": {
-        "fr": "procédure de reconnaissance mutuelle / décentralisée"
+        "fr": "procédure de reconnaissance mutuelle"
       }
     },
     {
@@ -3182,6 +3180,270 @@
       ],
       "translations": {
         "fr": "demande mixte"
+      }
+    },
+    {
+      "id": "marketing-authorisation",
+      "term": "Marketing authorisation",
+      "aliases": [
+        "marketing authorisation",
+        "MA",
+        "marketing authorization",
+        "licence"
+      ],
+      "category": "launch",
+      "short": "The licence that allows a specific medicine to be sold in a country or in the EU.",
+      "simpler": "The product's driving licence.",
+      "example": {
+        "moduleId": "gl-m2-regulatory",
+        "text": "Module 2, Lesson 1: granted by national agencies or, centrally, by the Commission."
+      },
+      "notToConfuse": "Not the MIA, which licenses a site, not a product.",
+      "related": [
+        "nca",
+        "decentralised-procedure"
+      ],
+      "modules": [
+        "gl-m2-regulatory"
+      ],
+      "translations": {
+        "fr": "autorisation de mise sur le marché (AMM)"
+      }
+    },
+    {
+      "id": "nca",
+      "term": "National competent authority",
+      "aliases": [
+        "NCA",
+        "national competent authority",
+        "national agency",
+        "national agencies",
+        "NCAs"
+      ],
+      "category": "launch",
+      "short": "A country's medicines agency, e.g. BfArM (DE), ANSM (FR), AEMPS (ES).",
+      "simpler": "The local regulator.",
+      "example": {
+        "moduleId": "gl-m2-regulatory",
+        "text": "Module 2, Lesson 1: grants national licences in MRP and DCP."
+      },
+      "notToConfuse": "Not the EMA, which works at EU level.",
+      "related": [
+        "cmdh",
+        "marketing-authorisation"
+      ],
+      "modules": [
+        "gl-m2-regulatory"
+      ],
+      "translations": {
+        "fr": "autorité nationale compétente"
+      }
+    },
+    {
+      "id": "cmdh",
+      "term": "CMDh",
+      "aliases": [
+        "CMDh"
+      ],
+      "category": "launch",
+      "short": "The group coordinating MRP and DCP, and settling disagreements between member states.",
+      "simpler": "The referee between national agencies.",
+      "example": {
+        "moduleId": "gl-m2-regulatory",
+        "text": "Module 2, Lesson 1: 60 days to reach agreement on a disputed procedure."
+      },
+      "notToConfuse": "Not the CHMP, which assesses centralised applications.",
+      "related": [
+        "nca",
+        "rms-cms"
+      ],
+      "modules": [
+        "gl-m2-regulatory"
+      ],
+      "translations": {
+        "fr": "CMDh"
+      }
+    },
+    {
+      "id": "ema",
+      "term": "EMA",
+      "aliases": [
+        "EMA",
+        "European Medicines Agency",
+        "CHMP"
+      ],
+      "category": "launch",
+      "short": "The EU agency coordinating scientific assessment of centralised applications, through its committee, the CHMP.",
+      "simpler": "The EU-level scientific assessor.",
+      "example": {
+        "moduleId": "gl-m2-regulatory",
+        "text": "Module 2, Lesson 1: the Commission decides on the CHMP's opinion."
+      },
+      "notToConfuse": "Not the decision-maker: the European Commission issues the binding decision.",
+      "related": [
+        "marketing-authorisation"
+      ],
+      "modules": [
+        "gl-m2-regulatory"
+      ],
+      "translations": {
+        "fr": "Agence européenne des médicaments (EMA)"
+      }
+    },
+    {
+      "id": "decentralised-procedure",
+      "term": "Decentralised procedure",
+      "aliases": [
+        "decentralised procedure",
+        "DCP",
+        "decentralized procedure"
+      ],
+      "category": "launch",
+      "short": "Several countries at once, no licence yet: the RMS assesses and the CMS approve. 120 + 90 days, then 30 national days.",
+      "simpler": "One lead examiner, several co-signers.",
+      "example": {
+        "moduleId": "gl-m2-regulatory",
+        "text": "Module 2, Lesson 2: the usual route for multi-country generic launches."
+      },
+      "notToConfuse": "Not the MRP, which starts from an existing licence.",
+      "related": [
+        "rms-cms",
+        "national-procedure"
+      ],
+      "modules": [
+        "gl-m2-regulatory"
+      ],
+      "translations": {
+        "fr": "procédure décentralisée"
+      }
+    },
+    {
+      "id": "national-procedure",
+      "term": "National procedure",
+      "aliases": [
+        "national procedure"
+      ],
+      "category": "launch",
+      "short": "An application in one country only; 210 days.",
+      "simpler": "Applying to one country's agency on its own.",
+      "example": {
+        "moduleId": "gl-m2-regulatory",
+        "text": "Module 2, Lesson 2: not allowed for the same product in several EU countries."
+      },
+      "notToConfuse": "Not the national phase of a DCP.",
+      "related": [
+        "decentralised-procedure"
+      ],
+      "modules": [
+        "gl-m2-regulatory"
+      ],
+      "translations": {
+        "fr": "procédure nationale"
+      }
+    },
+    {
+      "id": "rms-cms",
+      "term": "RMS and CMS",
+      "aliases": [
+        "RMS",
+        "CMS",
+        "reference member state",
+        "concerned member state",
+        "concerned member states"
+      ],
+      "category": "launch",
+      "short": "RMS: the lead country that writes the assessment. CMS: the countries that review and approve.",
+      "simpler": "The lead examiner and the co-signers.",
+      "example": {
+        "moduleId": "gl-m2-regulatory",
+        "text": "Module 2, Lesson 3: in an MRP, the RMS is the country with the existing licence."
+      },
+      "notToConfuse": "Not fixed per company: chosen per procedure.",
+      "related": [
+        "decentralised-procedure",
+        "repeat-use"
+      ],
+      "modules": [
+        "gl-m2-regulatory"
+      ],
+      "translations": {
+        "fr": "État membre de référence / concerné"
+      }
+    },
+    {
+      "id": "repeat-use",
+      "term": "Repeat-use procedure",
+      "aliases": [
+        "repeat-use procedure",
+        "repeat use"
+      ],
+      "category": "launch",
+      "short": "A later MRP that adds countries using the same assessment.",
+      "simpler": "Adding guests to a dinner that's already cooked.",
+      "example": {
+        "moduleId": "gl-m2-regulatory",
+        "text": "Module 2, Lesson 3: useful, but planning all countries upfront avoids a second round."
+      },
+      "notToConfuse": "Not a new DCP.",
+      "related": [
+        "rms-cms"
+      ],
+      "modules": [
+        "gl-m2-regulatory"
+      ],
+      "translations": {
+        "fr": "procédure de réutilisation"
+      }
+    },
+    {
+      "id": "ctd",
+      "term": "CTD",
+      "aliases": [
+        "CTD",
+        "Common Technical Document",
+        "eCTD"
+      ],
+      "category": "launch",
+      "short": "The standard dossier structure: Module 1 regional, 2 summaries, 3 quality, 4 non-clinical, 5 clinical. Electronic: eCTD.",
+      "simpler": "The dossier's table of contents, agreed worldwide.",
+      "example": {
+        "moduleId": "gl-m2-regulatory",
+        "text": "Module 2, Lesson 4: for a generic, Module 5 holds the BE study."
+      },
+      "notToConfuse": "Not a form to fill in: it's a structure for many documents.",
+      "related": [
+        "gap-analysis"
+      ],
+      "modules": [
+        "gl-m2-regulatory"
+      ],
+      "translations": {
+        "fr": "document technique commun (CTD)"
+      }
+    },
+    {
+      "id": "gap-analysis",
+      "term": "Gap analysis",
+      "aliases": [
+        "gap analysis",
+        "gap list"
+      ],
+      "category": "launch",
+      "short": "Comparing a received dossier with current EU requirements, and turning each shortfall into a task.",
+      "simpler": "A pre-flight checklist before take-off.",
+      "example": {
+        "moduleId": "gl-m2-regulatory",
+        "text": "Module 2, Lesson 5: sort each gap into 'blocks filing' or 'likely question'."
+      },
+      "notToConfuse": "Not an audit of the company: it's about the dossier.",
+      "related": [
+        "ctd"
+      ],
+      "modules": [
+        "gl-m2-regulatory"
+      ],
+      "translations": {
+        "fr": "analyse des écarts"
       }
     }
   ]

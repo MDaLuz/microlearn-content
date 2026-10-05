@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 4,
+  "id": "gl-m2-regulatory",
+  "title": "Generics & launch 2: Regulatory basics",
+  "discipline": "Generics & launch",
+  "version": 1,
+  "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
+  "lessons": [
+    {
+      "id": "gl2-l01-who-decides",
+      "title": "Who decides",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Two tracks to one goal\n\nA medicine can only be sold in the EU with a **marketing authorisation** (*autorisation de mise sur le marché, AMM*), a licence issued for a specific product. Who grants it depends on the route the application takes."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m2/eu-who-decides.svg",
+          "alt": "Central track: EMA's CHMP assesses, the European Commission decides, one EU-wide licence. National track: national agencies grant licences, CMDh coordinates MRP and DCP, one licence per country",
+          "caption": "Who decides on a marketing authorisation in the EU",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.702
+        },
+        {
+          "type": "text",
+          "markdown": "## The central track\n\nThe **EMA** (European Medicines Agency) coordinates the scientific assessment, through its committee for human medicines, the **CHMP**. The European Commission then issues the legally binding decision. The result is one licence valid in every EU country, plus Iceland, Liechtenstein and Norway."
+        },
+        {
+          "type": "text",
+          "markdown": "## The national track\n\nEach country has a **national competent authority**, or NCA (*autorité nationale compétente*): for example BfArM in Germany, ANSM in France, AEMPS in Spain. NCAs grant national licences. When the same product is filed in several countries through MRP or DCP, the **CMDh** (Coordination group for Mutual recognition and Decentralised procedures, human) coordinates the procedure and tries to settle disagreements."
+        },
+        {
+          "type": "text",
+          "markdown": "## When countries disagree\n\nIf a country believes approving the product would pose a potential serious risk to public health, the case goes to the CMDh, which has 60 days to reach agreement. If it can't, the case is referred to the CHMP, and the Commission takes a binding decision. Disagreements like this are rare for generics, but they can add months.\n\nSwitzerland isn't part of this system. Swissmedic grants Swiss licences separately."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** most generic launches you'll manage run on the national track, through a DCP or MRP. The CMDh's best-practice guides are the reference for how those procedures run."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl2-l01-who-decides-fc1",
+              "front": "Marketing authorisation",
+              "back": "The licence that allows a specific medicine to be sold. FR: autorisation de mise sur le marché (AMM)."
+            },
+            {
+              "id": "gl2-l01-who-decides-fc2",
+              "front": "NCA",
+              "back": "National competent authority, the medicines agency of an EU country, e.g. BfArM, ANSM, AEMPS. FR: autorité nationale compétente."
+            },
+            {
+              "id": "gl2-l01-who-decides-fc3",
+              "front": "CMDh",
+              "back": "Coordinates MRP and DCP procedures and settles disagreements between member states (60 days)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl2-l01-who-decides-q1",
+              "stem": "A generic is filed in Germany, France and Italy through a DCP. Who grants the licences?",
+              "options": [
+                "The European Commission, one licence",
+                "Each national agency, one licence per country",
+                "The EMA",
+                "The CMDh"
+              ],
+              "correctIndex": 1,
+              "explanation": "In MRP and DCP, each country grants its own national licence, with harmonised content. The CMDh coordinates, but doesn't grant."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 6 (marketing authorisation required), Art. 27 (CMDh), Art. 29 (disagreements; 60 days).\n2. **EU law** — Regulation (EC) No 726/2004 (EMA, CHMP, centralised procedure).\n3. **EU guidance** — CMDh website and Best Practice Guides."
+        }
+      ]
+    },
+    {
+      "id": "gl2-l02-procedures",
+      "title": "Procedures compared",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Four routes through the agencies\n\nThe legal basis from Module 1 decides *what data* the dossier needs. The procedure decides *which agencies* assess it and in what order."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m2/procedures-compared.svg",
+          "alt": "Table comparing national, MRP, DCP and centralised procedures: when each is used, how it works, and the legal clock",
+          "caption": "Four procedures compared",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.702
+        },
+        {
+          "type": "text",
+          "markdown": "## National procedure\n\nThe **national procedure** (*procédure nationale*) applies when the product is filed in one country only. That country has 210 days to decide. For the same product in two or more EU countries, a purely national procedure isn't allowed: MRP or DCP is required."
+        },
+        {
+          "type": "text",
+          "markdown": "## MRP and DCP\n\nIn the **MRP** (mutual recognition procedure), the product already has a licence in one country, which becomes the lead country. The others are asked to recognise that licence, with a 90-day phase for the lead country to update its assessment and 90 days for recognition.\n\nIn the **DCP** (decentralised procedure, *procédure décentralisée*), there's no licence yet. One country leads the assessment and the others approve it in parallel: 120 + 90 days, followed by 30 days for each country to issue its national licence. Lesson 6 walks through the DCP clock day by day."
+        },
+        {
+          "type": "text",
+          "markdown": "## Centralised procedure\n\nThe centralised procedure is mandatory for some product types, for example biotech medicines and certain new active substances, and optional for others. Generics of centrally authorised products can also use it. It takes 210 days of assessment, then a Commission decision."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** for a multi-country generic launch, the DCP is the usual choice. Its fixed clock makes the regulatory part the most predictable segment of the plan."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl2-l02-procedures-fc1",
+              "front": "DCP",
+              "back": "Decentralised procedure: no licence yet; one lead country assesses and the others approve in parallel. 120 + 90 days, then 30 national days. FR: procédure décentralisée."
+            },
+            {
+              "id": "gl2-l02-procedures-fc2",
+              "front": "MRP",
+              "back": "Mutual recognition procedure: an existing licence in one country is recognised by others. 90 + 90 days. FR: procédure de reconnaissance mutuelle."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl2-l02-procedures-q1",
+              "stem": "A company wants to launch a new generic in five EU countries, and has no licence anywhere yet. Which procedure fits?",
+              "options": [
+                "National procedure in each country",
+                "MRP",
+                "DCP",
+                "No procedure is needed"
+              ],
+              "correctIndex": 2,
+              "explanation": "There's no existing licence to recognise, and national procedures aren't allowed for the same product in several countries, so the DCP is the route."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 17 (210 days, national), Art. 18 (same product in several member states), Art. 28 (MRP and DCP timelines; 30-day national step).\n2. **EU law** — Regulation (EC) No 726/2004, Art. 3 (scope, including generics of centrally authorised products), Art. 6 (210 days).\n3. **EU guidance** — Notice to Applicants, Vol. 2A, Chapter 2 (MRP and DCP)."
+        }
+      ]
+    },
+    {
+      "id": "gl2-l03-rms-cms",
+      "title": "Choosing RMS and CMS",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Lead and followers\n\nIn a DCP or MRP, one country is the **reference member state** (*État membre de référence, RMS*). It writes the assessment report. The others are the **concerned member states** (*États membres concernés, CMS*). They review the report, comment, and approve or object."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m2/rms-and-cms.svg",
+          "alt": "A central RMS circle connected to four CMS circles (illustrative countries), next to a list of factors that drive the RMS choice",
+          "caption": "One lead country, several followers",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.818
+        },
+        {
+          "type": "text",
+          "markdown": "## How the RMS is chosen\n\nIn an MRP there's no choice: the RMS is the country that already granted the licence. In a DCP, the applicant proposes an RMS, and that agency must agree to take the role. Common considerations are below; these are industry practice, not rules:\n\n- the agency's capacity and available slots\n- its track record on timelines\n- its experience with the product type\n- fees and language\n- the applicant's most important markets"
+        },
+        {
+          "type": "text",
+          "markdown": "## The CMS list is a business decision\n\nThe CMS are simply the countries where you want a licence. Adding a country later is possible through a **repeat-use procedure** (*procédure de réutilisation*), a follow-on MRP using the same assessment. But planning the full list upfront avoids a second round."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** an RMS slot is often booked months ahead. Securing it is one of the earliest regulatory milestones on the plan."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl2-l03-rms-cms-fc1",
+              "front": "RMS",
+              "back": "Reference member state: the lead country that writes the assessment report in MRP or DCP. FR: État membre de référence."
+            },
+            {
+              "id": "gl2-l03-rms-cms-fc2",
+              "front": "CMS",
+              "back": "Concerned member state: a country that reviews and approves in MRP or DCP. FR: État membre concerné."
+            },
+            {
+              "id": "gl2-l03-rms-cms-fc3",
+              "front": "Repeat-use procedure",
+              "back": "A later MRP that adds countries using the same assessment. FR: procédure de réutilisation."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl2-l03-rms-cms-q1",
+              "stem": "In an MRP, which country is the RMS?",
+              "options": [
+                "Any country the applicant prefers",
+                "The country that already granted the licence",
+                "Always Germany",
+                "The EMA"
+              ],
+              "correctIndex": 1,
+              "explanation": "An MRP starts from an existing national licence, so that country is the reference member state."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 28 (RMS and CMS roles).\n2. **EU guidance** — CMDh Best Practice Guides for the MRP and the DCP (including RMS requests and repeat use).\n3. **Industry practice** — RMS selection criteria (labelled as practice)."
+        }
+      ]
+    },
+    {
+      "id": "gl2-l04-ctd",
+      "title": "The CTD dossier",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## One structure, worldwide\n\nEvery EU application is organised as a **CTD** (*document technique commun*), the Common Technical Document agreed through the ICH. Its structure is the same in the EU, the US, Japan and many other regions. Only Module 1 differs by region."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m2/ctd-pyramid.svg",
+          "alt": "Pyramid with Module 1 regional at the top, Module 2 summaries below, and Modules 3 quality, 4 non-clinical and 5 clinical at the base",
+          "caption": "The CTD dossier: five modules",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.667
+        },
+        {
+          "type": "text",
+          "markdown": "## The five modules\n\n- **Module 1, regional:** EU and country administrative forms, the proposed SmPC, labelling and patient leaflet, and national requirements.\n- **Module 2:** overviews and summaries written by experts.\n- **Module 3, quality:** The active substance and the finished product: manufacture, controls, specifications, stability.\n- **Module 4:** non-clinical study reports. For a generic, this mostly relies on the reference product.\n- **Module 5:** clinical study reports. For a generic, this is mainly the bioequivalence study."
+        },
+        {
+          "type": "text",
+          "markdown": "## eCTD\n\nIn the EU, the CTD is submitted electronically as an **eCTD**. That's a structured set of files with a defined folder layout and a lifecycle: each later change adds a new 'sequence' rather than replacing the whole dossier."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** Module 1 is prepared country by country, including translations later in the national phase. Module 3 usually comes from the dossier owner, so its quality decides how many questions you'll get."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl2-l04-ctd-fc1",
+              "front": "CTD",
+              "back": "Common Technical Document: Module 1 regional, Module 2 summaries, Module 3 quality, Module 4 non-clinical, Module 5 clinical. FR: document technique commun."
+            },
+            {
+              "id": "gl2-l04-ctd-fc2",
+              "front": "eCTD",
+              "back": "The electronic CTD format required for EU submissions. Each update is added as a new sequence."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl2-l04-ctd-q1",
+              "stem": "Where in the CTD would you find the bioequivalence study report for a generic?",
+              "options": [
+                "Module 1",
+                "Module 3",
+                "Module 4",
+                "Module 5"
+              ],
+              "correctIndex": 3,
+              "explanation": "Clinical study reports, including bioequivalence studies, go in Module 5. Module 3 is quality."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **ICH** — ICH M4, The Common Technical Document (organisation).\n2. **EU guidance** — Notice to Applicants, Vol. 2B (presentation and content of the dossier, CTD format, Module 1); EU eCTD specifications."
+        }
+      ]
+    },
+    {
+      "id": "gl2-l05-gap-analysis",
+      "title": "Dossier readiness and gap analysis",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Check before you file\n\nWhen a dossier is in-licensed, it was usually written for another market or another time. A **gap analysis** (*analyse des écarts*) compares it with current EU requirements before submission, and turns every shortfall into a task."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m2/gap-analysis-checklist.svg",
+          "alt": "Checklist of ten dossier areas to check, with example gaps highlighted, and a gap list table with owner, impact and due date",
+          "caption": "Gap analysis: what gets checked",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.667
+        },
+        {
+          "type": "text",
+          "markdown": "## What typically gets checked\n\n- **Regulatory:** legal basis and proof of the reference product; bioequivalence against an EU reference product, with a complete report.\n- **Quality:** stability data under EU climate conditions and enough of it; API documentation (ASMF or CEP); process validation status; a nitrosamine risk assessment.\n- **Sites:** EU GMP status of every manufacturing and testing site.\n- **Module 1:** country requirements; product information aligned with the reference product.\n- **Format:** eCTD.\n\nModules 4 and 5 explain the quality items in detail. This checklist is industry practice; the requirements behind each item come from EU guidelines."
+        },
+        {
+          "type": "text",
+          "markdown": "### Process card: Gap analysis\n\n- What it is: a structured comparison of the received dossier with EU requirements\n- Who owns it: Regulatory affairs, with QA for site and quality points\n- Inputs: the dossier as received, the target countries, the legal basis, the current EU guidelines\n- Output: a gap list with owner, impact (blocks filing, or likely question) and due date for each item\n- Typical duration: a few weeks; longer if the dossier is large or poorly structured\n- What makes it slip: late dossier transfer, missing raw data, slow answers from the dossier owner\n- PM watch-points: track 'blocks filing' gaps on the critical path; ask the dossier owner for dates, not promises"
+        },
+        {
+          "type": "text",
+          "markdown": "## Two kinds of gap\n\nSome gaps **block filing**: the dossier can't go in until they're fixed, for example missing stability data. Others are **likely questions**: the dossier can go in, but the agency will probably ask, which adds a clock-stop later. Sorting gaps into these two groups is what makes the list useful for planning."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** the gap analysis is the first reality check on the plan. 'Blocks filing' gaps set the earliest submission date."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl2-l05-gap-analysis-fc1",
+              "front": "Gap analysis",
+              "back": "Comparing a received dossier with current EU requirements, and turning each shortfall into a task. FR: analyse des écarts."
+            },
+            {
+              "id": "gl2-l05-gap-analysis-fc2",
+              "front": "Two kinds of gap",
+              "back": "Blocks filing (must be fixed before submission) vs likely question (fix now, or answer during a clock-stop)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl2-l05-gap-analysis-q1",
+              "stem": "The gap analysis finds only six months of stability data under EU conditions. How should the PM treat it?",
+              "options": [
+                "Ignore it; agencies don't check",
+                "As a gap that likely blocks filing, with an owner and a date, on the critical path",
+                "As a marketing issue",
+                "As a pharmacovigilance issue"
+              ],
+              "correctIndex": 1,
+              "explanation": "Insufficient stability data typically blocks filing, or triggers major objections, so it belongs on the critical path."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — Notice to Applicants, Vol. 2B; EMA quality guidelines (stability: ICH Q1A(R2) as adopted in the EU); EMA questions and answers on nitrosamine impurities.\n2. **Industry practice** — gap analysis method and checklist (labelled as practice)."
+        }
+      ]
+    }
+  ]
+}

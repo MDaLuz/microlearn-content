@@ -24,7 +24,7 @@ const err = (where, msg) => errors.push(`${where}: ${msg}`);
 // Lowercase, trim, strip trailing ':' and '.'.
 export const normalise = (s) => s.toLowerCase().trim().replace(/[:.]+$/, '').trim();
 
-const CATEGORIES = ['trials', 'regulatory', 'lipids', 'safety', 'pharmacology', 'diabetes', 'legal'];
+const CATEGORIES = ['trials', 'regulatory', 'lipids', 'safety', 'pharmacology', 'diabetes', 'legal', 'launch'];
 const KEBAB = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
 let glossary;

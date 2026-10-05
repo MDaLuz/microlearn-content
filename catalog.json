@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 3
+    "version": 4
   },
   "modules": [
     {
@@ -103,6 +103,17 @@
       "lessonCount": 15,
       "estimatedMinutes": 150,
       "accentColor": "#1D9E75"
+    },
+    {
+      "id": "gl-m0-orientation",
+      "title": "Generics & launch 0: Orientation",
+      "discipline": "Generics & launch",
+      "description": "Who's who, what binds them, and what a PM tracks",
+      "file": "modules/gl-m0-orientation.json",
+      "version": 1,
+      "lessonCount": 6,
+      "estimatedMinutes": 35,
+      "accentColor": "#7C8792"
     }
   ]
 }

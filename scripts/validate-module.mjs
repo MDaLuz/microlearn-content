@@ -231,7 +231,65 @@ if (molecule) {
   for (const [k, ls] of cols) if (ls.length > 1) warn('molecule', `comparison tables with the same columns (${k}) in ${ls.join(', ')}`);
 }
 
+// ---- Generics & launch course checks ----
+// Applied automatically to modules in that category (catalog discipline).
+
+const LAUNCH = 'Generics & launch';
+const report = [];
+if (mod.discipline === LAUNCH || entry?.discipline === LAUNCH) {
+  const PROCESS_FIELDS = ['- What it is:', '- Who owns it:', '- Inputs:', '- Output:', '- Typical duration:', '- What makes it slip:', '- PM watch-points:'];
+  const TIMELINE = '**What this means for the launch timeline:**';
+  const isSources = (b) => b.type === 'text' && /^\s*## Sources/.test(b.markdown ?? '');
+  let cards = 0;
+
+  for (const l of mod.lessons) {
+    const w = `lesson ${l.id}`;
+    const texts = l.blocks.map((b, i) => ({ b, i })).filter(({ b }) => b.type === 'text');
+
+    // Process cards: the seven fields, in order.
+    for (const { b, i } of texts) {
+      if (!/^\s*### Process card:/.test(b.markdown)) continue;
+      cards++;
+      const lines = b.markdown.split('\n').map((x) => x.trim());
+      let at = -1;
+      for (const f of PROCESS_FIELDS) {
+        const k = lines.findIndex((x, j) => j > at && x.startsWith(f));
+        if (k < 0) {
+          err(`${w} block ${i}`, `process card is missing "${f}" (or it's out of order)`);
+          break;
+        }
+        at = k;
+      }
+    }
+
+    // One "What this means for the launch timeline" line, before Sources (optional in recaps).
+    const tl = texts.filter(({ b }) => b.markdown.trim().startsWith(TIMELINE));
+    const recap = /^Recap/i.test(l.title);
+    if (tl.length > 1 || (!recap && tl.length === 0)) err(w, `needs exactly one "${TIMELINE}" block, has ${tl.length}`);
+    const src = l.blocks.findIndex(isSources);
+    for (const { i } of tl) if (src >= 0 && i > src) err(`${w} block ${i}`, 'the launch-timeline line must come before Sources');
+
+    // At least one image per lesson.
+    if (!l.blocks.some((b) => b.type === 'image')) err(w, 'has no image block');
+
+    // Jargon: bold terms per block, excluding Sources, the timeline label and list labels ending in ":".
+    for (const { b, i } of texts) {
+      if (isSources(b)) continue;
+      const terms = [...new Set(
+        [...b.markdown.matchAll(/\*\*([^*]+)\*\*/g)]
+          .map((m) => m[1].trim())
+          .filter((t) => !/:$/.test(t) && `**${t}**` !== TIMELINE)
+      )];
+      report.push(`${l.id} block ${i}: ${terms.length}${terms.length ? ` (${terms.join(', ')})` : ''}`);
+      if (terms.length > 3) err(`${w} block ${i}`, `${terms.length} new bold terms (max 3)`);
+    }
+  }
+  report.unshift(`process cards: ${cards}`);
+}
+
 // ---- Report ----
+
+if (args.includes('--report')) for (const r of report) console.log(`info  ${r}`);
 
 for (const w of warnings) console.log(`warn  ${w}`);
 for (const e of errors) console.log(`ERROR ${e}`);

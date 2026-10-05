@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "updated": "2026-10-02",
+  "version": 4,
+  "updated": "2026-10-05",
   "entries": [
     {
       "id": "smpc",
@@ -24,7 +24,10 @@
       ],
       "modules": [
         "*"
-      ]
+      ],
+      "translations": {
+        "fr": "résumé des caractéristiques du produit (RCP)"
+      }
     },
     {
       "id": "pil",
@@ -46,7 +49,10 @@
       ],
       "modules": [
         "*"
-      ]
+      ],
+      "translations": {
+        "fr": "notice"
+      }
     },
     {
       "id": "epar",
@@ -69,7 +75,10 @@
       ],
       "modules": [
         "*"
-      ]
+      ],
+      "translations": {
+        "fr": "rapport européen public d'évaluation (EPAR)"
+      }
     },
     {
       "id": "mah",
@@ -91,7 +100,10 @@
       ],
       "modules": [
         "*"
-      ]
+      ],
+      "translations": {
+        "fr": "titulaire de l'autorisation de mise sur le marché (AMM)"
+      }
     },
     {
       "id": "centralised-procedure",
@@ -114,7 +126,10 @@
       ],
       "modules": [
         "*"
-      ]
+      ],
+      "translations": {
+        "fr": "procédure centralisée"
+      }
     },
     {
       "id": "mutual-recognition-procedure",
@@ -139,7 +154,10 @@
       ],
       "modules": [
         "*"
-      ]
+      ],
+      "translations": {
+        "fr": "procédure de reconnaissance mutuelle / décentralisée"
+      }
     },
     {
       "id": "referral",
@@ -187,7 +205,10 @@
       ],
       "modules": [
         "*"
-      ]
+      ],
+      "translations": {
+        "fr": "médicament générique"
+      }
     },
     {
       "id": "bioequivalence",
@@ -210,7 +231,10 @@
       ],
       "modules": [
         "*"
-      ]
+      ],
+      "translations": {
+        "fr": "bioéquivalence"
+      }
     },
     {
       "id": "fixed-dose-combination",
@@ -235,7 +259,10 @@
       ],
       "modules": [
         "*"
-      ]
+      ],
+      "translations": {
+        "fr": "association fixe"
+      }
     },
     {
       "id": "excipient",
@@ -256,7 +283,10 @@
       ],
       "modules": [
         "*"
-      ]
+      ],
+      "translations": {
+        "fr": "excipient"
+      }
     },
     {
       "id": "indication",
@@ -280,7 +310,10 @@
       ],
       "modules": [
         "*"
-      ]
+      ],
+      "translations": {
+        "fr": "indication"
+      }
     },
     {
       "id": "contraindication",
@@ -303,7 +336,10 @@
       ],
       "modules": [
         "*"
-      ]
+      ],
+      "translations": {
+        "fr": "contre-indication"
+      }
     },
     {
       "id": "hta",
@@ -1398,7 +1434,10 @@
       ],
       "modules": [
         "*"
-      ]
+      ],
+      "translations": {
+        "fr": "pharmacovigilance"
+      }
     },
     {
       "id": "psusa",
@@ -2282,6 +2321,434 @@
       "modules": [
         "indemnification"
       ]
+    },
+    {
+      "id": "reference-product",
+      "term": "Reference product",
+      "aliases": [
+        "reference medicinal product",
+        "reference medicine",
+        "originator"
+      ],
+      "category": "launch",
+      "short": "The already-authorised medicine whose data a generic relies on.",
+      "simpler": "The original recipe that the copy must match.",
+      "example": {
+        "moduleId": "gl-m0-orientation",
+        "text": "Module 0, Lesson 1: generics are authorised by relying on the reference product's data once protection ends."
+      },
+      "notToConfuse": "Not necessarily the brand market leader today: it's the product authorised on full data.",
+      "related": [
+        "loss-of-exclusivity",
+        "generic"
+      ],
+      "modules": [
+        "gl-m0-orientation"
+      ],
+      "translations": {
+        "fr": "médicament de référence"
+      }
+    },
+    {
+      "id": "loss-of-exclusivity",
+      "term": "Loss of exclusivity",
+      "aliases": [
+        "LOE",
+        "loss of exclusivity"
+      ],
+      "category": "launch",
+      "short": "The point at which the reference product's protection ends and generics can enter.",
+      "simpler": "The day the 'only seller' sign comes down.",
+      "example": {
+        "moduleId": "gl-m0-orientation",
+        "text": "EC sector inquiry: generics entered about 25% below the originator's pre-LOE price."
+      },
+      "notToConfuse": "Not just patent expiry: data and market protection periods matter too (Module 1).",
+      "related": [
+        "reference-product",
+        "generic"
+      ],
+      "modules": [
+        "gl-m0-orientation"
+      ],
+      "translations": {
+        "fr": "perte d'exclusivité"
+      }
+    },
+    {
+      "id": "dossier-owner",
+      "term": "Dossier owner",
+      "aliases": [
+        "dossier owner",
+        "licensor",
+        "dossier holder"
+      ],
+      "category": "launch",
+      "short": "The company that developed a product and owns its registration data.",
+      "simpler": "The author who owns the book's rights.",
+      "example": {
+        "moduleId": "gl-m0-orientation",
+        "text": "Module 0, Lesson 2: often the manufacturer, licensing its dossier to EU partners."
+      },
+      "notToConfuse": "Not necessarily the MAH: the dossier owner may license the data to a different MAH.",
+      "related": [
+        "mah",
+        "in-licensing"
+      ],
+      "modules": [
+        "gl-m0-orientation"
+      ],
+      "translations": {
+        "fr": "détenteur du dossier / concédant"
+      }
+    },
+    {
+      "id": "in-licensing",
+      "term": "In-licensing",
+      "aliases": [
+        "in-licensing",
+        "out-licensing",
+        "licensing in",
+        "licensing out"
+      ],
+      "category": "launch",
+      "short": "Acquiring (in) or granting (out) the right to use a dossier for a territory.",
+      "simpler": "Renting a finished house vs building your own.",
+      "example": {
+        "moduleId": "gl-m0-orientation",
+        "text": "Module 0, Lesson 4: in-licensing skips development, so it's usually faster."
+      },
+      "notToConfuse": "Not a sale of the company: rights are licensed for a scope and territory.",
+      "related": [
+        "dossier-owner",
+        "licence-and-supply-agreement"
+      ],
+      "modules": [
+        "gl-m0-orientation"
+      ],
+      "translations": {
+        "fr": "acquisition / concession de licence"
+      }
+    },
+    {
+      "id": "licence-and-supply-agreement",
+      "term": "Licence and supply agreement",
+      "aliases": [
+        "licence and supply agreement",
+        "supply agreement",
+        "licence agreement",
+        "license and supply agreement"
+      ],
+      "category": "launch",
+      "short": "A contract giving dossier rights for a territory and setting supply terms: price, forecasts, lead times.",
+      "simpler": "The rental contract plus the delivery schedule.",
+      "example": {
+        "moduleId": "gl-m0-orientation",
+        "text": "Module 0, Lesson 3: the first document to read when asking 'who pays for this variation?'"
+      },
+      "notToConfuse": "Not the quality agreement, which covers GMP responsibilities.",
+      "related": [
+        "quality-agreement",
+        "in-licensing"
+      ],
+      "modules": [
+        "gl-m0-orientation"
+      ],
+      "translations": {
+        "fr": "contrat de licence et d'approvisionnement"
+      }
+    },
+    {
+      "id": "quality-agreement",
+      "term": "Quality agreement",
+      "aliases": [
+        "quality agreement",
+        "technical agreement",
+        "quality contract"
+      ],
+      "category": "launch",
+      "short": "The written GMP contract defining each party's responsibilities for outsourced activities.",
+      "simpler": "A shared rulebook saying who checks what before the product leaves the door.",
+      "example": {
+        "moduleId": "gl-m0-orientation",
+        "text": "EU GMP Chapter 7 requires it; it must be signed before commercial supply and QP release."
+      },
+      "notToConfuse": "Not the supply agreement, which covers commercial terms.",
+      "related": [
+        "licence-and-supply-agreement",
+        "qualified-person"
+      ],
+      "modules": [
+        "gl-m0-orientation"
+      ],
+      "translations": {
+        "fr": "contrat qualité"
+      }
+    },
+    {
+      "id": "pv-agreement",
+      "term": "PV agreement",
+      "aliases": [
+        "PV agreement",
+        "SDEA",
+        "safety data exchange agreement",
+        "pharmacovigilance agreement"
+      ],
+      "category": "launch",
+      "short": "An agreement setting how safety information flows between partners, and the deadlines.",
+      "simpler": "Who calls whom, and how fast, when a patient reports a problem.",
+      "example": {
+        "moduleId": "gl-m0-orientation",
+        "text": "Module 0, Lesson 3: often called an SDEA."
+      },
+      "notToConfuse": "Not the quality agreement: it covers safety reports, not manufacturing.",
+      "related": [
+        "qppv",
+        "pharmacovigilance"
+      ],
+      "modules": [
+        "gl-m0-orientation"
+      ],
+      "translations": {
+        "fr": "accord de pharmacovigilance"
+      }
+    },
+    {
+      "id": "qualified-person",
+      "term": "Qualified Person",
+      "aliases": [
+        "QP",
+        "qualified person",
+        "QP certification",
+        "QP release"
+      ],
+      "category": "launch",
+      "short": "The named person at an EU manufacturing or importing site who certifies each batch before release.",
+      "simpler": "The final inspector whose signature opens the door to the market.",
+      "example": {
+        "moduleId": "gl-m0-orientation",
+        "text": "Module 0, Lesson 2: for products from India, the QP at the EU importer certifies each batch."
+      },
+      "notToConfuse": "Not the QPPV, who is responsible for safety monitoring.",
+      "related": [
+        "mia",
+        "quality-agreement"
+      ],
+      "modules": [
+        "gl-m0-orientation"
+      ],
+      "translations": {
+        "fr": "personne qualifiée"
+      }
+    },
+    {
+      "id": "qppv",
+      "term": "QPPV",
+      "aliases": [
+        "qualified person for pharmacovigilance",
+        "QPPV"
+      ],
+      "category": "launch",
+      "short": "The named person responsible for the MAH's pharmacovigilance system, living and working in the EU.",
+      "simpler": "The product's safety officer on call.",
+      "example": {
+        "moduleId": "gl-m0-orientation",
+        "text": "Module 0, Lesson 2: required for every MAH."
+      },
+      "notToConfuse": "Not the QP, who releases batches.",
+      "related": [
+        "pv-agreement",
+        "pharmacovigilance"
+      ],
+      "modules": [
+        "gl-m0-orientation"
+      ],
+      "translations": {
+        "fr": "responsable de la pharmacovigilance (QPPV)"
+      }
+    },
+    {
+      "id": "mia",
+      "term": "MIA",
+      "aliases": [
+        "manufacturing and importation authorisation",
+        "manufacturing authorisation",
+        "importation authorisation",
+        "EU importer",
+        "importer"
+      ],
+      "category": "launch",
+      "short": "The authorisation an EU site needs to manufacture, or to import from outside the EU.",
+      "simpler": "The licence that lets a site be the EU's front door for a product.",
+      "example": {
+        "moduleId": "gl-m0-orientation",
+        "text": "Module 0, Lesson 2: a product made in India enters through an EU site holding an MIA."
+      },
+      "notToConfuse": "Not the marketing authorisation: the MIA is for sites; the MA is for products.",
+      "related": [
+        "qualified-person"
+      ],
+      "modules": [
+        "gl-m0-orientation"
+      ],
+      "translations": {
+        "fr": "autorisation de fabrication et d'importation"
+      }
+    },
+    {
+      "id": "wholesaler",
+      "term": "Wholesaler",
+      "aliases": [
+        "wholesaler",
+        "wholesale distribution authorisation",
+        "distributor",
+        "GDP"
+      ],
+      "category": "launch",
+      "short": "A company authorised to store and distribute medicines to pharmacies and hospitals, following good distribution practice.",
+      "simpler": "The warehouse and delivery network between factory and pharmacy.",
+      "example": {
+        "moduleId": "gl-m0-orientation",
+        "text": "Module 0, Lesson 2: needs a wholesale distribution authorisation."
+      },
+      "notToConfuse": "Not the MAH, though one company can be both.",
+      "related": [
+        "mah"
+      ],
+      "modules": [
+        "gl-m0-orientation"
+      ],
+      "translations": {
+        "fr": "grossiste-répartiteur"
+      }
+    },
+    {
+      "id": "regulatory-affairs",
+      "term": "Regulatory affairs",
+      "aliases": [
+        "regulatory affairs",
+        "RA"
+      ],
+      "category": "launch",
+      "short": "The function that prepares submissions, answers authorities' questions and manages changes to the licence.",
+      "simpler": "The product's diplomats with the authorities.",
+      "example": {
+        "moduleId": "gl-m0-orientation",
+        "text": "Module 0, Lesson 2: owns the submission and the variation tasks on the plan."
+      },
+      "notToConfuse": "Not Quality: RA handles the licence; QA handles GMP compliance.",
+      "related": [
+        "mah"
+      ],
+      "modules": [
+        "gl-m0-orientation"
+      ],
+      "translations": {
+        "fr": "affaires réglementaires"
+      }
+    },
+    {
+      "id": "gantt-chart",
+      "term": "Gantt chart",
+      "aliases": [
+        "Gantt chart",
+        "Gantt",
+        "milestone",
+        "milestones"
+      ],
+      "category": "launch",
+      "short": "A chart showing tasks as bars over time, with dependencies and milestones.",
+      "simpler": "A train timetable for the project.",
+      "example": {
+        "moduleId": "gl-m0-orientation",
+        "text": "Module 0, Lesson 5: the reference launch Gantt comes back in Module 9."
+      },
+      "notToConfuse": "Not a list of to-dos: it shows timing and dependencies.",
+      "related": [
+        "critical-path"
+      ],
+      "modules": [
+        "gl-m0-orientation"
+      ],
+      "translations": {
+        "fr": "diagramme de Gantt"
+      }
+    },
+    {
+      "id": "critical-path",
+      "term": "Critical path",
+      "aliases": [
+        "critical path"
+      ],
+      "category": "launch",
+      "short": "The chain of tasks with no slack: any delay pushes the end date.",
+      "simpler": "The longest queue that decides when everyone leaves.",
+      "example": {
+        "moduleId": "gl-m0-orientation",
+        "text": "Module 0, Lesson 5: a two-week slip on the critical path moves launch by two weeks."
+      },
+      "notToConfuse": "Not the most important tasks: it's the ones with zero float.",
+      "related": [
+        "gantt-chart",
+        "raci"
+      ],
+      "modules": [
+        "gl-m0-orientation"
+      ],
+      "translations": {
+        "fr": "chemin critique"
+      }
+    },
+    {
+      "id": "raci",
+      "term": "RACI",
+      "aliases": [
+        "RACI",
+        "RACI matrix"
+      ],
+      "category": "launch",
+      "short": "A table showing, for each task, who is Responsible, Accountable, Consulted and Informed.",
+      "simpler": "A cast list for every scene.",
+      "example": {
+        "moduleId": "gl-m0-orientation",
+        "text": "Module 0, Lesson 5: built from the agreements in Lesson 3."
+      },
+      "notToConfuse": "Not an org chart.",
+      "related": [
+        "risk-register",
+        "critical-path"
+      ],
+      "modules": [
+        "gl-m0-orientation"
+      ],
+      "translations": {
+        "fr": "matrice RACI"
+      }
+    },
+    {
+      "id": "risk-register",
+      "term": "Risk register",
+      "aliases": [
+        "risk register",
+        "risk log"
+      ],
+      "category": "launch",
+      "short": "A list of what could go wrong, with likelihood, impact, owner and mitigation.",
+      "simpler": "The weather forecast for the project, with umbrellas planned.",
+      "example": {
+        "moduleId": "gl-m0-orientation",
+        "text": "Module 0, Lesson 5: reviewed weekly with the top three risks."
+      },
+      "notToConfuse": "Not an issue log: risks may happen; issues already have.",
+      "related": [
+        "raci"
+      ],
+      "modules": [
+        "gl-m0-orientation"
+      ],
+      "translations": {
+        "fr": "registre des risques"
+      }
     }
   ]
 }

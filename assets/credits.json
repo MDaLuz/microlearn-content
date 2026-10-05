@@ -1,4 +1,17 @@
 {
   "generatedBy": "scripts/validate-images.mjs",
-  "images": []
+  "images": [
+    {
+      "src": "assets/gl-m0/gantt-chart-anatomy.svg",
+      "credit": "Wikimedia Commons / Malyszkz, from an original by Garrybooker and Abdull (en.wikipedia)",
+      "license": "PD",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GanttChartAnatomy.svg",
+      "usedIn": [
+        {
+          "module": "gl-m0-orientation",
+          "lesson": "gl0-l05-pm"
+        }
+      ]
+    }
+  ]
 }

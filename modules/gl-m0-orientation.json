@@ -1,0 +1,566 @@
+{
+  "schemaVersion": 4,
+  "id": "gl-m0-orientation",
+  "title": "Generics & launch 0: Orientation",
+  "discipline": "Generics & launch",
+  "version": 1,
+  "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
+  "lessons": [
+    {
+      "id": "gl0-l01-business",
+      "title": "The generic business in one page",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## What a generic is\n\nA **generic medicine** (*médicament générique*) contains the same active substance as a medicine that's already authorised. It's taken in the same way and works the same way in the body. That earlier medicine is the **reference product** (*médicament de référence*). Its own trial data protect it for a set period. Once that protection runs out, generics can be authorised by relying on the reference product's data, instead of repeating its clinical trials.\n\nThe moment protection ends is called **loss of exclusivity** (*perte d'exclusivité*). Module 1 explains the exact rules."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m0/price-after-loss-of-exclusivity.svg",
+          "alt": "Line chart: originator price stays near 100, then drifts down after loss of exclusivity; generic price enters about 25% lower and is about 40% lower after two years",
+          "caption": "What happens to price after loss of exclusivity",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.778
+        },
+        {
+          "type": "text",
+          "markdown": "## Why price, volume and speed decide everything\n\nWhen the European Commission studied medicines that faced generic competition between 2000 and 2007, it found two things. Generics entered at prices about 25% below the originator's price before loss of exclusivity. After two years, they were on average about 40% below.\n\nSo each pack earns little. A generic business makes money through **volume** (many packs) and **speed** (being on the market early, before prices fall further and before many competitors arrive). The Commission also noted that every week of delay in generic entry has a cost."
+        },
+        {
+          "type": "text",
+          "markdown": "## Not every launch is a pure generic\n\nSome of your launches won't be classic generics. A product that combines two known active substances in one tablet uses **Art. 10b**, the fixed-combination route. A product filed with a complete dossier of its own uses **Art. 8(3)**, the full or stand-alone route. Module 1 covers both. In every case, the business logic of this lesson still applies."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** in generics, time is money. Every avoidable week between approval and first sale is lost volume, which is why the PM role matters."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl0-l01-business-fc1",
+              "front": "Generic medicine",
+              "back": "Same active substance, same way of taking it, same effect in the body as an authorised reference product. FR: médicament générique."
+            },
+            {
+              "id": "gl0-l01-business-fc2",
+              "front": "Loss of exclusivity",
+              "back": "The moment the reference product's protection ends and generics can enter. FR: perte d'exclusivité."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl0-l01-business-q1",
+              "stem": "According to the European Commission's sector inquiry, how much cheaper were generics on average two years after entry?",
+              "options": [
+                "About 10%",
+                "About 25%",
+                "About 40%",
+                "About 90%"
+              ],
+              "correctIndex": 2,
+              "explanation": "About 25% below the originator's earlier price at entry, and about 40% below after two years (averages for 2000–2007)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 10(1) and 10(2)(b) (definition of a generic medicinal product), Art. 10b, Art. 8(3).\n2. **EU** — European Commission, Pharmaceutical Sector Inquiry, final report and press release (8 July 2009); preliminary findings (2008)."
+        }
+      ]
+    },
+    {
+      "id": "gl0-l02-cast",
+      "title": "Who's who in a launch",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The cast\n\nA generic launch involves several companies and several named people. One company can play more than one role. This map shows the main ones."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m0/who-is-who-in-a-launch.svg",
+          "alt": "Diagram: dossier owner to manufacturer to EU importer and QP to distributor to pharmacy; MAH linked by dashed lines to manufacturer, importer, regulatory affairs and QPPV",
+          "caption": "Who's who in a generic launch",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.702
+        },
+        {
+          "type": "text",
+          "markdown": "## Who owns the data\n\nThe **dossier owner** (*détenteur du dossier*) is the company that developed the product and owns the data behind it, often the manufacturer. When it lets another company use that dossier, it acts as the **licensor** (*concédant de licence*)."
+        },
+        {
+          "type": "text",
+          "markdown": "## Who is legally responsible\n\nThe **MAH** (*titulaire de l'autorisation de mise sur le marché*) holds the marketing authorisation and answers to the authorities for the product. EU law requires the MAH to be established in the EU or EEA. That's why a manufacturer based in India usually works through an EU company that holds the licence."
+        },
+        {
+          "type": "text",
+          "markdown": "## Who makes it and who lets it into the EU\n\nThe **manufacturer** makes the product. A product made outside the EU must come in through an EU site that holds an **MIA** (*autorisation de fabrication et d'importation*), a manufacturing and importation authorisation. At that site, a **QP** (*personne qualifiée*), or Qualified Person, certifies every batch before it can be sold. Module 6 explains why this is a key step for products from India."
+        },
+        {
+          "type": "text",
+          "markdown": "## Who handles regulatory work and safety\n\n**Regulatory affairs** (*affaires réglementaires*) prepares submissions, answers questions from the authorities and manages later changes. The **QPPV** (*responsable de la pharmacovigilance*) is the named person responsible for monitoring the product's safety once it's on the market. EU law requires the QPPV to live and work in the EU."
+        },
+        {
+          "type": "text",
+          "markdown": "## Who gets it to patients\n\nA **wholesaler** (*grossiste-répartiteur*) needs a wholesale distribution authorisation and must follow good distribution practice. Wholesalers move the product to pharmacies and hospitals. A local partner or affiliate often handles sales and tenders."
+        },
+        {
+          "type": "compare",
+          "title": "Roles the law requires vs roles the deal creates",
+          "items": [
+            {
+              "id": "required-by-eu-law",
+              "label": "Required by EU law"
+            },
+            {
+              "id": "created-by-the-business-deal",
+              "label": "Created by the business deal"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "role-1",
+              "label": "Role 1",
+              "values": [
+                "MAH, established in the EU or EEA",
+                "Dossier owner / licensor"
+              ]
+            },
+            {
+              "id": "role-2",
+              "label": "Role 2",
+              "values": [
+                "QP at the EU manufacturing or importing site",
+                "Local commercial partner"
+              ]
+            },
+            {
+              "id": "role-3",
+              "label": "Role 3",
+              "values": [
+                "QPPV, living and working in the EU",
+                "Project manager"
+              ]
+            },
+            {
+              "id": "role-4",
+              "label": "Role 4",
+              "values": [
+                "Wholesaler with a distribution authorisation",
+                "Supply-chain coordinator"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** each role has its own sign-offs. A launch can't move faster than its slowest required approver: QP certification, an MAH decision, or a regulatory submission."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl0-l02-cast-fc1",
+              "front": "MAH",
+              "back": "Marketing authorisation holder: legally responsible for the product, and must be established in the EU or EEA. FR: titulaire de l'AMM."
+            },
+            {
+              "id": "gl0-l02-cast-fc2",
+              "front": "QP",
+              "back": "Qualified Person: certifies each batch at the EU site before release. FR: personne qualifiée."
+            },
+            {
+              "id": "gl0-l02-cast-fc3",
+              "front": "QPPV",
+              "back": "The named person responsible for pharmacovigilance, living and working in the EU. FR: responsable de la pharmacovigilance."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl0-l02-cast-q1",
+              "stem": "A manufacturer in India wants to sell its product in Germany. Who must certify each batch before it can be sold in the EU?",
+              "options": [
+                "The Indian manufacturer's head of quality",
+                "A Qualified Person at an EU site that holds a manufacturing and importation authorisation",
+                "The German wholesaler",
+                "The QPPV"
+              ],
+              "correctIndex": 1,
+              "explanation": "Products made outside the EU are imported through an EU site with an MIA, where a QP certifies each batch."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC: Art. 8(2) (applicant established in the Union), Art. 40 (manufacturing and importation authorisation), Art. 48–51 (Qualified Person; batch certification), Art. 77–80 (wholesale distribution), Art. 104(3)(a) (QPPV residing and operating in the Union).\n2. **EU guidance** — EudraLex Vol. 4, Annex 16 (certification by a QP and batch release)."
+        }
+      ]
+    },
+    {
+      "id": "gl0-l03-agreements",
+      "title": "The agreements that bind them",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Contracts decide who does what\n\nThe companies in a launch are tied together by a set of written agreements. A PM rarely negotiates them, but reads them often, because the answer to 'who is doing this?' is usually in one of them."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m0/agreements-web.svg",
+          "alt": "Diagram: MAH at the centre, linked to the dossier owner (licence and supply), manufacturer and importer (quality agreement), PV provider (PV agreement) and distributor (distribution)",
+          "caption": "The agreements that bind a launch",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.778
+        },
+        {
+          "type": "text",
+          "markdown": "## Licence and supply agreement\n\nThe **licence and supply agreement** (*contrat de licence et d'approvisionnement*) gives the MAH the right to use the dossier in certain countries, and sets how the product will be supplied. It typically covers:\n\n- territory and exclusivity\n- prices and payments\n- forecasts and minimum orders\n- lead times\n- who pays for regulatory work\n\nThis is standard industry practice; contract structures and names vary."
+        },
+        {
+          "type": "text",
+          "markdown": "## Quality agreement\n\nWhenever a GMP activity is outsourced, EU GMP requires a written contract that defines each party's responsibilities. That contract is the **quality agreement** (*contrat qualité*). It sets out who tests, who releases, who handles complaints and deviations, and who approves changes."
+        },
+        {
+          "type": "text",
+          "markdown": "### Process card: Quality agreement\n\n- What it is: the written GMP contract between the MAH or importer and the manufacturer\n- Who owns it: the Quality teams on both sides; the QP must agree with it\n- Inputs: the supply agreement, the site's GMP status, the testing and release plan\n- Output: a signed agreement with a responsibility table\n- Typical duration: weeks, longer if the sites disagree on responsibilities\n- What makes it slip: unclear testing split, missing site audit, legal back-and-forth\n- PM watch-points: it must be signed before commercial supply and QP release; track it as a launch milestone"
+        },
+        {
+          "type": "text",
+          "markdown": "## PV agreement and distribution agreement\n\nA **PV agreement** (*accord de pharmacovigilance*), often called an SDEA (safety data exchange agreement), sets how safety information moves between partners, and within what deadlines. A distribution agreement covers the wholesaler or local partner. Both are standard practice, and their names vary."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** missing or unsigned agreements are a classic hidden blocker. Put each one on the plan with an owner and a target date."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl0-l03-agreements-fc1",
+              "front": "Quality agreement",
+              "back": "A written GMP contract defining each party's responsibilities for outsourced activities, required by EU GMP Chapter 7. FR: contrat qualité."
+            },
+            {
+              "id": "gl0-l03-agreements-fc2",
+              "front": "Licence and supply agreement",
+              "back": "Gives rights to use a dossier in a territory, and sets how the product is supplied (prices, forecasts, lead times). FR: contrat de licence et d'approvisionnement."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl0-l03-agreements-q1",
+              "stem": "Which agreement does EU GMP explicitly require when manufacturing or testing is outsourced?",
+              "options": [
+                "The licence agreement",
+                "The quality agreement",
+                "The distribution agreement",
+                "None; it's optional"
+              ],
+              "correctIndex": 1,
+              "explanation": "EudraLex Vol. 4, Chapter 7 requires a written contract covering the responsibilities for outsourced activities, known as the quality agreement."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — EudraLex Vol. 4, Part I, Chapter 7 (Outsourced activities).\n2. **EU guidance** — Good Pharmacovigilance Practices (GVP), on the MAH's pharmacovigilance system and contractual arrangements.\n3. **Industry practice** — licence, supply and distribution agreement contents (labelled as practice, not regulation)."
+        }
+      ]
+    },
+    {
+      "id": "gl0-l04-routes",
+      "title": "Licensing in vs developing in-house",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Two routes to the same shelf\n\nA company can get a generic onto the market in two ways: develop it itself, or take an existing dossier from someone who already developed it. Much of your work will involve the second route."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m0/two-routes-to-a-launch.svg",
+          "alt": "Diagram comparing two routes: in-licensing goes deal, dossier transfer, submission, approval, launch; own development adds formulation, bioequivalence study and dossier writing before submission",
+          "caption": "Two routes to a launch",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.105
+        },
+        {
+          "type": "text",
+          "markdown": "## In-licensing\n\nWith **in-licensing** (*acquisition de licence*), the company acquires the right to use another company's finished dossier. It skips product development, so the route is usually faster. The trade-off is dependence: on the quality of someone else's data, and on their supply."
+        },
+        {
+          "type": "text",
+          "markdown": "## Own development\n\nWith own development, the company formulates the product, runs the bioequivalence study and writes the dossier itself. This gives more control, but takes longer and needs investment upfront."
+        },
+        {
+          "type": "text",
+          "markdown": "## The other side of the deal\n\nThe same deal seen from the dossier owner's side is **out-licensing** (*concession de licence*): granting rights to its dossier to partners in other countries. In business development you see both directions, sometimes for the same product in different markets."
+        },
+        {
+          "type": "compare",
+          "title": "In-licensing vs own development",
+          "items": [
+            {
+              "id": "in-licensing",
+              "label": "In-licensing"
+            },
+            {
+              "id": "own-development",
+              "label": "Own development"
+            }
+          ],
+          "attributes": [
+            {
+              "id": "speed",
+              "label": "Speed",
+              "values": [
+                "Faster: no development",
+                "Slower: formulation, bioequivalence study, dossier"
+              ]
+            },
+            {
+              "id": "dependence-or-control",
+              "label": "Dependence or control",
+              "values": [
+                "Depends on the partner's data and supply",
+                "Full control of data and process"
+              ]
+            },
+            {
+              "id": "what-it-takes",
+              "label": "What it takes",
+              "values": [
+                "Starts with dossier transfer and gap analysis",
+                "Higher upfront investment"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** for in-licensed products, the plan starts at the deal: dossier transfer and gap analysis are the first critical steps."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl0-l04-routes-fc1",
+              "front": "In-licensing",
+              "back": "Acquiring the right to use another company's dossier. Faster than own development, but dependent on the partner. FR: acquisition de licence."
+            },
+            {
+              "id": "gl0-l04-routes-fc2",
+              "front": "Out-licensing",
+              "back": "Granting a partner the right to use your dossier in its territory. FR: concession de licence."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl0-l04-routes-q1",
+              "stem": "Why is in-licensing usually faster than own development?",
+              "options": [
+                "Authorities assess licensed dossiers faster",
+                "It skips formulation, the bioequivalence study and dossier writing",
+                "It doesn't need a marketing authorisation",
+                "Licensed products don't need a QP"
+              ],
+              "correctIndex": 1,
+              "explanation": "In-licensing starts from a finished dossier. The regulatory steps that follow are the same."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Industry practice** — business models for in-licensing and own development (labelled as practice).\n2. **EU law** — Directive 2001/83/EC, Art. 10 (the data a generic application needs, whoever developed it)."
+        }
+      ]
+    },
+    {
+      "id": "gl0-l05-pm",
+      "title": "What a PM actually tracks",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Five things to keep in hand\n\n1. Scope: which products, strengths, packs and countries\n2. Timeline\n3. Owners\n4. Risks\n5. Decisions\n\nEverything else in this course feeds one of these five."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m0/gantt-chart-anatomy.svg",
+          "alt": "Annotated example of a Gantt chart showing tasks, durations, dependencies and milestones",
+          "caption": "Anatomy of a Gantt chart",
+          "credit": "Wikimedia Commons / Malyszkz, from an original by Garrybooker and Abdull (en.wikipedia)",
+          "license": "PD",
+          "zoomable": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:GanttChartAnatomy.svg",
+          "aspectRatio": 1.5033557046979866
+        },
+        {
+          "type": "text",
+          "markdown": "## Timeline tools\n\nA **Gantt chart** (*diagramme de Gantt*) shows tasks as bars over time, with dependencies and milestones. The **critical path** (*chemin critique*) is the chain of tasks with no slack: if any one of them slips, the launch date slips. Milestones such as 'submission', 'approval' and 'first batch released' are the dates management asks about."
+        },
+        {
+          "type": "text",
+          "markdown": "## Ownership and risk tools\n\nA **RACI** (*matrice RACI*) lists, for each task, who is Responsible, Accountable, Consulted and Informed. A **risk register** (*registre des risques*) lists what could go wrong, how likely it is, its impact, and the mitigation. A decision log records what was decided, by whom and when."
+        },
+        {
+          "type": "text",
+          "markdown": "## A simple weekly rhythm\n\nA short weekly status update works well: what moved, what's late, the top three risks and the decisions needed, with a red, amber or green flag per country. These are practical PM conventions, not regulatory rules."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** the PM's job is to make the critical path visible early, and to keep it honest every week."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl0-l05-pm-fc1",
+              "front": "Critical path",
+              "back": "The chain of tasks with no slack: if one slips, the launch slips. FR: chemin critique."
+            },
+            {
+              "id": "gl0-l05-pm-fc2",
+              "front": "RACI",
+              "back": "For each task: who is Responsible, Accountable, Consulted and Informed. FR: matrice RACI."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl0-l05-pm-q1",
+              "stem": "A task on the critical path slips by two weeks, with nothing else changing. What happens to the launch date?",
+              "options": [
+                "Nothing",
+                "It slips by about two weeks",
+                "It moves earlier",
+                "Only the budget changes"
+              ],
+              "correctIndex": 1,
+              "explanation": "By definition, critical-path tasks have no slack, so a delay passes straight to the end date."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Image** — Wikimedia Commons, GanttChartAnatomy.svg (public domain; licence checked on the file page, 5 October 2026).\n2. **Practice** — standard project-management practice (Gantt, critical path, RACI, risk register)."
+        }
+      ]
+    },
+    {
+      "id": "gl0-l06-recap",
+      "title": "Recap: a launch on one page",
+      "xpReward": 35,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The whole journey\n\nHere's the sequence you'll see again in Module 9. Bar lengths are illustrative: real durations depend on the product, the procedure and the countries."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m0/launch-on-one-page.svg",
+          "alt": "Sequence: deal and dossier transfer, gap analysis, submission and DCP, national phase, authorisation, pricing and reimbursement, artworks and serialisation, launch batches and QP release, launch",
+          "caption": "A launch on one page",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.702
+        },
+        {
+          "type": "text",
+          "markdown": "## One fixed anchor\n\nIn the **decentralised procedure** (*procédure décentralisée*), the lead country has 120 days to draft its assessment, and the other countries then have 90 days to approve it. That makes about 210 days of assessment, plus pauses while the company answers questions (clock-stops). Module 2 walks through the clock.\n\nMost other steps don't have a legal deadline. They depend on people, contracts and supply, and that's where planning makes the biggest difference."
+        },
+        {
+          "type": "text",
+          "markdown": "## How the modules map to the timeline\n\n- **Module 1:** what kind of product it is\n- **Module 2:** how it gets approved\n- **Module 3:** when it may legally launch\n- **Modules 4–6:** how it's made, tested and imported\n- **Modules 7–8:** what's in the pack and on it\n- **Module 9:** the whole timeline together"
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl0-l06-recap-fc1",
+              "front": "Decentralised procedure",
+              "back": "A procedure in which one country leads the assessment and the others approve it. About 210 days of assessment plus clock-stops. FR: procédure décentralisée."
+            },
+            {
+              "id": "gl0-l06-recap-fc2",
+              "front": "Which steps have a legal clock?",
+              "back": "Mainly the decentralised procedure assessment (about 210 days plus clock-stops). Most other steps depend on people, contracts and supply."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl0-l06-recap-q1",
+              "stem": "Which part of a launch has a fixed legal clock?",
+              "options": [
+                "Signing the licence agreement",
+                "The decentralised procedure assessment (about 210 days plus clock-stops)",
+                "Artwork approval",
+                "Tender wins"
+              ],
+              "correctIndex": 1,
+              "explanation": "Directive 2001/83/EC sets 120 days for the lead country's draft assessment and 90 days for the other countries to approve. Most other steps depend on planning."
+            },
+            {
+              "id": "gl0-l06-recap-q2",
+              "stem": "Which module explains whether a product may legally launch on a given date?",
+              "options": [
+                "Module 2, Regulatory",
+                "Module 3, Intellectual property",
+                "Module 8, Artworks",
+                "Module 5, Manufacturing"
+              ],
+              "correctIndex": 1,
+              "explanation": "Patents, SPCs and exclusivity periods decide the earliest legal launch date."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 28(3)–(4) (decentralised procedure timelines).\n2. **Course** — Module 0, Lessons 1–5."
+        }
+      ]
+    }
+  ]
+}

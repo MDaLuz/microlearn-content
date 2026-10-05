@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "updated": "2026-10-05",
   "entries": [
     {
@@ -2866,7 +2866,8 @@
         "biowaivers",
         "additional-strength biowaiver",
         "BCS-based biowaiver",
-        "BCS"
+        "BCS",
+        "Biopharmaceutics Classification System"
       ],
       "category": "launch",
       "short": "Permission to skip an in-vivo bioequivalence study, justified with lab data.",

@@ -272,13 +272,13 @@ if (mod.discipline === LAUNCH || entry?.discipline === LAUNCH) {
     // At least one image per lesson.
     if (!l.blocks.some((b) => b.type === 'image')) err(w, 'has no image block');
 
-    // Jargon: bold terms per block, excluding Sources, the timeline label and list labels ending in ":".
+    // Jargon: bold terms per block, excluding Sources, the timeline label and list labels ending in ":" or ".".
     for (const { b, i } of texts) {
       if (isSources(b)) continue;
       const terms = [...new Set(
         [...b.markdown.matchAll(/\*\*([^*]+)\*\*/g)]
           .map((m) => m[1].trim())
-          .filter((t) => !/:$/.test(t) && `**${t}**` !== TIMELINE)
+          .filter((t) => !/[:.]$/.test(t) && `**${t}**` !== TIMELINE)
       )];
       report.push(`${l.id} block ${i}: ${terms.length}${terms.length ? ` (${terms.join(', ')})` : ''}`);
       if (terms.length > 3) err(`${w} block ${i}`, `${terms.length} new bold terms (max 3)`);

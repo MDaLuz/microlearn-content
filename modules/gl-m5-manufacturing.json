@@ -1,0 +1,620 @@
+{
+  "schemaVersion": 4,
+  "id": "gl-m5-manufacturing",
+  "title": "Generics & launch 5: From API to finished product",
+  "discipline": "Generics & launch",
+  "version": 1,
+  "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
+  "lessons": [
+    {
+      "id": "gl5-l01-api",
+      "title": "The API: ASMF or CEP",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The API in the dossier\n\nThe **active pharmaceutical ingredient** (*principe actif*), or API, is usually made by a different company than the finished product. The agency still needs its data (CTD section 3.2.S). Two routes let the API maker share that data without handing over its trade secrets."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m5/asmf-vs-cep.svg",
+          "alt": "Three boxes: ASMF with an open part for the MAH and a restricted part for the agency only; CEP issued by EDQM after its own assessment; and what goes into the dossier for each route",
+          "caption": "Documenting the API: ASMF or CEP",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.162
+        },
+        {
+          "type": "text",
+          "markdown": "## ASMF\n\nAn **ASMF** (*dossier permanent de la substance active*), or Active Substance Master File, has two parts:\n\n- The open part goes to the MAH and into its dossier.\n- The restricted part, with confidential manufacturing details, goes only to the agency.\n\nA **letter of access** (*lettre d'accès*) from the API maker authorises the agency to use the ASMF for your application."
+        },
+        {
+          "type": "text",
+          "markdown": "## CEP\n\nA **CEP** (*certificat de conformité aux monographies de la Pharmacopée européenne*), or Certificate of Suitability, is issued by the EDQM. The EDQM has already assessed the API against the European Pharmacopoeia. The MAH files a copy of the certificate, which replaces most of the API data. It often makes assessment simpler and faster."
+        },
+        {
+          "type": "text",
+          "markdown": "## What doesn't change\n\nOn either route, the API maker must notify changes in time, and the MAH must show that the API is made under GMP (EudraLex Vol. 4, Part II). APIs from outside the EU also need a **written confirmation** from the exporting country (Module 6)."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** check early whether the API has a CEP or an ASMF, and get the letter of access in time. An outdated ASMF or CEP is a typical gap that blocks filing."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl5-l01-api-fc1",
+              "front": "ASMF",
+              "back": "Active Substance Master File: an open part for the MAH, a restricted part for the agency only, plus a letter of access. FR: dossier permanent de la substance active."
+            },
+            {
+              "id": "gl5-l01-api-fc2",
+              "front": "CEP",
+              "back": "Certificate of Suitability issued by EDQM; replaces most API data in the dossier. FR: certificat de conformité (CEP)."
+            },
+            {
+              "id": "gl5-l01-api-fc3",
+              "front": "Letter of access",
+              "back": "The API maker's authorisation for the agency to use its ASMF for your application. FR: lettre d'accès."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl5-l01-api-q1",
+              "stem": "Who sees the restricted part of an ASMF?",
+              "options": [
+                "The MAH",
+                "The agency only",
+                "The wholesaler",
+                "Everyone"
+              ],
+              "correctIndex": 1,
+              "explanation": "The restricted part protects the API maker's know-how, so it goes only to the authority."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — EMA, Guideline on Active Substance Master File procedure (CHMP/QWP/227/02, current revision).\n2. **EU** — EDQM, Certification of suitability to the monographs of the European Pharmacopoeia.\n3. **EU guidance** — EudraLex Vol. 4, Part II (GMP for active substances)."
+        }
+      ]
+    },
+    {
+      "id": "gl5-l02-manufacturing",
+      "title": "From powder to tablet",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## How a tablet is made\n\nMost generic launches you'll manage are tablets or capsules. The steps follow a broadly similar pattern. Knowing their names helps you follow manufacturing updates and deviation reports."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m5/tablet-process-flow.svg",
+          "alt": "Six steps from dispensing to blending or granulation, drying and milling, final blend with lubricant, compression on a tablet press, and film coating, with in-process controls throughout",
+          "caption": "From powder to tablet",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.424
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m5/tablet-press.webp",
+          "alt": "Close-up of a rotary tablet press: the upper punch above a die table covered in powder, with freshly pressed white tablets being pushed off the table",
+          "caption": "Compression: a rotary tablet press in operation",
+          "credit": "Wikimedia Commons / Robin Müller",
+          "license": "CC-BY-SA-3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rundl%C3%A4uferpresse_an_der_Uni_T%C3%BCbingen,_in_Betrieb_05.jpg",
+          "zoomable": true,
+          "aspectRatio": 1.5
+        },
+        {
+          "type": "text",
+          "markdown": "## The steps\n\n1. **Dispensing:** weighing the raw materials.\n2. **Blending or granulation** (*granulation*): mixing, and often forming granules so the powder flows and compresses well.\n3. **Drying and milling.**\n4. **Final blend:** adding a lubricant.\n5. **Compression** (*compression*): a tablet press forms the tablets.\n6. **Coating** (*pelliculage*): a thin film for taste, protection or appearance."
+        },
+        {
+          "type": "text",
+          "markdown": "## In-process controls\n\n**In-process controls** (*contrôles en cours de fabrication*) check the product during manufacture, for example tablet weight, hardness, thickness and friability. They catch problems early, before the finished batch is tested."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** a manufacturing campaign takes days to weeks per batch. Slot availability at the plant, not the process itself, is often what limits launch timing."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl5-l02-manufacturing-fc1",
+              "front": "Granulation",
+              "back": "Forming granules from powder so it flows and compresses well. FR: granulation."
+            },
+            {
+              "id": "gl5-l02-manufacturing-fc2",
+              "front": "Compression",
+              "back": "Pressing the final blend into tablets on a tablet press. FR: compression."
+            },
+            {
+              "id": "gl5-l02-manufacturing-fc3",
+              "front": "In-process controls",
+              "back": "Checks during manufacture (weight, hardness, etc.) that catch problems early. FR: contrôles en cours de fabrication."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl5-l02-manufacturing-q1",
+              "stem": "Which step forms the tablets?",
+              "options": [
+                "Blending",
+                "Compression on a tablet press",
+                "Coating",
+                "Dispensing"
+              ],
+              "correctIndex": 1,
+              "explanation": "Compression turns the final blend into tablets. Coating then adds a film."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — EudraLex Vol. 4, Part I, Chapter 5 (production).\n2. **Practice** — typical oral solid-dose process steps (labelled as practice; each product differs).\n3. **Image** — own diagram; photo: Wikimedia Commons, 'Rundläuferpresse an der Uni Tübingen, in Betrieb 05' by Robin Müller (CC BY-SA 3.0), resized."
+        }
+      ]
+    },
+    {
+      "id": "gl5-l03-batch-types",
+      "title": "Batch types",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Not every batch is a commercial batch\n\nBatches serve different purposes along the way. The names come up constantly in planning meetings."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m5/batch-ladder.svg",
+          "alt": "Ladder from development batches to exhibit or biobatch, stability batches, validation batches and commercial batches",
+          "caption": "Batch types: a ladder to commercial supply",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.86
+        },
+        {
+          "type": "text",
+          "markdown": "## The ladder\n\n- **Development batches:** small, for working out the formulation.\n- **Biobatch** (*lot biologique*), also called an exhibit batch: the batch used in the bioequivalence study. Under the EMA guideline, it should usually be at least one-tenth of production scale or 100,000 units, whichever is greater.\n- **Stability batches:** placed on the registration stability programme.\n- **Validation batches:** commercial-scale batches that prove the process. They're often also the first launch stock.\n- **Commercial batches:** routine supply."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why the distinction matters\n\nOnly batches made at the registered site, with the registered process, can be sold, and only after QP certification. Using validation batches as launch stock is common, but it ties the launch date to the validation timeline."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** ask early whether launch stock will come from validation batches, and when they're scheduled. That date often drives the supply critical path."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl5-l03-batch-types-fc1",
+              "front": "Biobatch",
+              "back": "The batch used in the bioequivalence study; usually ≥ 1/10 of production scale or 100,000 units. FR: lot biologique (lot de bioéquivalence)."
+            },
+            {
+              "id": "gl5-l03-batch-types-fc2",
+              "front": "Validation batches",
+              "back": "Commercial-scale batches proving the process; often also the first launch stock. FR: lots de validation."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl5-l03-batch-types-q1",
+              "stem": "Why do validation batches often drive the launch date?",
+              "options": [
+                "They're the cheapest",
+                "They're commercial scale and often become the launch stock, so their timing and QP release set when stock exists",
+                "They don't need QP release",
+                "They're made after launch"
+              ],
+              "correctIndex": 1,
+              "explanation": "If launch stock comes from validation batches, the launch can't come before they're made, tested and certified."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — EMA, Guideline on the investigation of bioequivalence (batch size of the test product).\n2. **EU guidance** — EMA, Guideline on process validation for finished products; EudraLex Vol. 4, Annex 15."
+        }
+      ]
+    },
+    {
+      "id": "gl5-l04-packaging",
+      "title": "Packaging operations",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## From bulk to a pack you can sell\n\nPackaging turns bulk tablets into country-specific finished packs. It's also where the artwork (Module 8) and the anti-counterfeiting features meet the product."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m5/packaging-line-steps.svg",
+          "alt": "Packaging line steps: blister forming and sealing, coding with batch and expiry, cartoning with leaflet, serialisation with 2D code and tamper seal, case packing",
+          "caption": "Packaging operations",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.667
+        },
+        {
+          "type": "text",
+          "markdown": "## The steps\n\n- **Blistering:** tablets are sealed into a **blister** (*plaquette thermoformée*), commonly PVC/PVDC or aluminium/aluminium for moisture-sensitive products.\n- **Coding:** the batch number and expiry date are printed.\n- **Cartoning:** the blister and the patient leaflet go into the carton.\n- **Serialisation** (*sérialisation*): a unique 2D code and a tamper-evident seal are added, as required by the Falsified Medicines Directive (Module 8).\n- **Case packing:** shipper cases and pallets."
+        },
+        {
+          "type": "text",
+          "markdown": "## Country-specific packs\n\nEach country usually needs its own pack: its language, its national information, its pack sizes and its own artwork version. More countries means more packaging runs and more packaging material to order. **Line clearance** (*vide de ligne*) between runs prevents mix-ups."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** packaging material ordered late is a classic launch blocker. Approved artwork comes first, then printed material, then packaging runs per country."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl5-l04-packaging-fc1",
+              "front": "Blister",
+              "back": "A sealed pocket pack for tablets (PVC/PVDC or Alu/Alu). FR: plaquette thermoformée (blister)."
+            },
+            {
+              "id": "gl5-l04-packaging-fc2",
+              "front": "Serialisation",
+              "back": "A unique 2D code and tamper seal on each pack (FMD, Module 8). FR: sérialisation."
+            },
+            {
+              "id": "gl5-l04-packaging-fc3",
+              "front": "Line clearance",
+              "back": "Clearing the packaging line between runs to prevent mix-ups. FR: vide de ligne."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl5-l04-packaging-q1",
+              "stem": "Why does each EU country usually need its own packaging run?",
+              "options": [
+                "The tablets differ",
+                "The language, national particulars, pack sizes and artwork differ",
+                "QP rules forbid shared packs",
+                "Prices differ"
+              ],
+              "correctIndex": 1,
+              "explanation": "The product is the same, but the pack and its texts are country-specific, unless a multilingual pack is used (Module 8)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — EudraLex Vol. 4, Part I, Chapter 5 (packaging operations, line clearance).\n2. **EU law** — Commission Delegated Regulation (EU) 2016/161 (safety features).\n3. **Image** — own diagram (no licence-clean Commons photo of a blister line without people or brand names was found)."
+        }
+      ]
+    },
+    {
+      "id": "gl5-l05-release",
+      "title": "Release testing and QP certification",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The last steps before shipping\n\nOnce packed, a batch still can't be sold. It has to be tested, and certified by the QP. For products made in India, this happens partly in India and partly in the EU."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m5/release-testing-flow.svg",
+          "alt": "Flow from QC testing at the manufacturer to shipping to the EU importer, full EU testing on import, QP review and certification, then release",
+          "caption": "From last test to first shipment",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.667
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m5/qc-lab.webp",
+          "alt": "Quality control laboratory with several stacked HPLC systems on benches, solvent bottles on top, computers and printers alongside",
+          "caption": "A QC laboratory: HPLC systems for release testing",
+          "credit": "Wikimedia Commons / Root66",
+          "license": "CC-BY-SA-3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laboratoires_Arkopharma_-_Laboratoire_de_controle_-_Chromatographie_liquide.JPG",
+          "zoomable": true,
+          "aspectRatio": 1.5
+        },
+        {
+          "type": "text",
+          "markdown": "## How it fits together\n\n1. The manufacturer's quality control lab tests the batch and issues a CoA.\n2. The batch ships to the EU importer.\n3. Because there's no mutual recognition agreement with India, a **full analysis** is done in the EU on import (Module 6).\n4. The QP reviews the records and all results, and certifies the batch.\n5. The batch is released and can be distributed."
+        },
+        {
+          "type": "text",
+          "markdown": "## The QC lab\n\nThe **quality control laboratory** (*laboratoire de contrôle qualité*) runs the release tests: assay, dissolution, impurities and more, often using HPLC, a standard chemical analysis technique. Its results, signed off on a CoA, are core inputs to the QP."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** EU import testing and QP review add weeks after the batch leaves the plant. Book the testing slot and brief the QP before the batch ships."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl5-l05-release-fc1",
+              "front": "Release testing",
+              "back": "QC tests a batch must pass before QP certification and sale."
+            },
+            {
+              "id": "gl5-l05-release-fc2",
+              "front": "QC laboratory",
+              "back": "Runs release tests such as assay, dissolution and impurities, often by HPLC. FR: laboratoire de contrôle qualité."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl5-l05-release-q1",
+              "stem": "A batch made in India has a good Indian CoA. What still has to happen before EU sale?",
+              "options": [
+                "Nothing",
+                "Full EU testing on import and QP certification",
+                "Only a price approval",
+                "Only a new artwork"
+              ],
+              "correctIndex": 1,
+              "explanation": "Without an EU–India mutual recognition agreement, imported batches are re-analysed in the EU, then certified by a QP."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 51 (QP certification; analysis of imported batches).\n2. **EU guidance** — EudraLex Vol. 4, Annex 16; Part I, Chapter 6 (quality control).\n3. **Image** — own diagram; photo: Wikimedia Commons, 'Laboratoires Arkopharma - Laboratoire de controle - Chromatographie liquide' by Root66 (CC BY-SA 3.0), resized."
+        }
+      ]
+    },
+    {
+      "id": "gl5-l06-supply-planning",
+      "title": "Supply planning",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Why launch stock is ordered so early\n\nFrom ordering the API to having packs at a wholesaler can take months. Supply planning works backwards from the launch date."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m5/supply-lead-time.svg",
+          "alt": "Illustrative Gantt of supply lead times in weeks: API procurement, manufacturing slot, manufacture and QC, packaging, shipping, EU testing and QP, distribution, totalling about six months",
+          "caption": "Supply lead time: why launch stock is ordered early",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.818
+        },
+        {
+          "type": "text",
+          "markdown": "## Words from the supply agreement\n\n- **Forecast:** (*prévision*) your expected volumes, often binding for the first months.\n- **Minimum order quantity** (*quantité minimale de commande*), or MOQ: the smallest order the manufacturer accepts, often one full batch.\n- **Lead time** (*délai d'approvisionnement*): the time from order to delivery.\n- **Safety stock** (*stock de sécurité*): a buffer against delays, tenders or demand spikes."
+        },
+        {
+          "type": "text",
+          "markdown": "## Planning backwards\n\nTake the target launch date and subtract each lead time: distribution, QP, EU testing, shipping, packaging, manufacture, API. The result is the latest date the order can go in. Add buffers where the chain has a history of delays. These are planning practice, not regulation."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** the supply chain, not the regulatory approval, often sets the real launch date. Calculate the latest order date for every country and put it on the plan."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl5-l06-supply-planning-fc1",
+              "front": "MOQ",
+              "back": "Minimum order quantity: the smallest order a manufacturer accepts, often one batch. FR: quantité minimale de commande."
+            },
+            {
+              "id": "gl5-l06-supply-planning-fc2",
+              "front": "Lead time",
+              "back": "Time from order to delivery. Add up every step's lead time to find the latest order date. FR: délai d'approvisionnement."
+            },
+            {
+              "id": "gl5-l06-supply-planning-fc3",
+              "front": "Safety stock",
+              "back": "A buffer stock against delays or demand spikes. FR: stock de sécurité."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl5-l06-supply-planning-q1",
+              "stem": "Launch is planned for 1 June, and the full supply chain takes about 26 weeks. When must the order go in, at the latest?",
+              "options": [
+                "Mid-May",
+                "Around early December of the previous year",
+                "On approval day",
+                "1 June"
+              ],
+              "correctIndex": 1,
+              "explanation": "Twenty-six weeks before 1 June is around early December, before any buffer is added."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — supply planning terms and backward planning (labelled as practice; actual terms come from each supply agreement)."
+        }
+      ]
+    },
+    {
+      "id": "gl5-l07-tech-transfer",
+      "title": "Technology transfer",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Moving production is a project\n\n**Technology transfer** (*transfert de technologie*) means moving a product's manufacture or testing from one site to another, for example to add capacity, cut costs, or replace a site with GMP problems."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m5/tech-transfer-flow.svg",
+          "alt": "Steps of a technology transfer: transfer package, trial batches, validation and stability at the new site, variation to add the site, GMP status for the new site, then switch of supply",
+          "caption": "Moving production: technology transfer",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.667
+        },
+        {
+          "type": "text",
+          "markdown": "## What it involves\n\nA transfer typically involves:\n\n- handing over the process and methods\n- making trial batches\n- validating the process and generating stability data at the new site\n- adding the site to the licence through a variation\n- confirming the site's GMP status\n\nOnly then can supply switch."
+        },
+        {
+          "type": "text",
+          "markdown": "### Process card: Technology transfer\n\n- What it is: moving manufacture or testing of a product to a new site\n- Who owns it: the manufacturer's technical and quality teams, with RA for the variation\n- Inputs: process description, methods, specifications, the new site's capacity and GMP status\n- Output: a validated process at the new site, approved by variation, ready to supply\n- Typical duration: months to years\n- What makes it slip: failed trial batches, waiting for stability data, variation questions, an inspection of the new site\n- PM watch-points: never plan launch supply from a site that isn't yet in the licence; keep the old site running until the switch is approved"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** a transfer during a launch project adds a second critical path. Where possible, launch from the registered site and transfer later."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl5-l07-tech-transfer-fc1",
+              "front": "Technology transfer",
+              "back": "Moving manufacture or testing to a new site: validation, stability, variation and GMP status are all needed. FR: transfert de technologie."
+            },
+            {
+              "id": "gl5-l07-tech-transfer-fc2",
+              "front": "Can a new site supply the launch?",
+              "back": "Only once it is in the licence through an approved variation, with its GMP status confirmed. Keep the old site running until the switch."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl5-l07-tech-transfer-q1",
+              "stem": "A cheaper site is ready, but not yet in the licence. Can it supply the launch?",
+              "options": [
+                "Yes, if the QP agrees",
+                "No, not until it's added by an approved variation (and its GMP status is confirmed)",
+                "Yes, for the first batch only",
+                "Only in one country"
+              ],
+              "correctIndex": 1,
+              "explanation": "Only registered sites may supply. The variation, and the site's GMP status, come first."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Commission Regulation (EC) No 1234/2008, as amended (variations; manufacturing site changes).\n2. **EU guidance** — EudraLex Vol. 4, Annex 15 (validation); Chapter 7.\n3. **Practice** — transfer phases (labelled as practice)."
+        }
+      ]
+    },
+    {
+      "id": "gl5-l08-recap",
+      "title": "Recap: the supply critical path",
+      "xpReward": 35,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## One chain, ready on one day\n\nEverything in Module 5 has to come together on launch day: the API documented and supplied, the batches made and validated, packs in each country's artwork, and stock released and at the wholesaler."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m5/supply-critical-path.svg",
+          "alt": "Recap chain from API to validation batches to country packaging to EU testing and QP release to launch stock, with four monthly check questions",
+          "caption": "Supply critical path to launch",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.105
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl5-l08-recap-q1",
+              "stem": "Which of these can stop launch stock even after the licence is granted?",
+              "options": [
+                "A missing letter of access",
+                "Packaging material ordered too late",
+                "A trademark search",
+                "A price list"
+              ],
+              "correctIndex": 1,
+              "explanation": "Without printed packaging material there are no packs, and therefore no stock."
+            },
+            {
+              "id": "gl5-l08-recap-q2",
+              "stem": "The CEP for the API has expired. What's the risk?",
+              "options": [
+                "None",
+                "A dossier gap or variation is needed, and supply may be blocked until it's resolved",
+                "The patent restarts",
+                "The QP must resign"
+              ],
+              "correctIndex": 1,
+              "explanation": "Out-of-date API documentation is a typical blocker for filing and supply."
+            },
+            {
+              "id": "gl5-l08-recap-q3",
+              "stem": "What's the main supply risk in using validation batches as launch stock?",
+              "options": [
+                "They're too small",
+                "The launch date becomes tied to the validation schedule and its QP release",
+                "They can't be sold",
+                "They need a new licence"
+              ],
+              "correctIndex": 1,
+              "explanation": "It's common practice, but it puts validation on the critical path."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Course** — Module 5, Lessons 1–7."
+        }
+      ]
+    }
+  ]
+}

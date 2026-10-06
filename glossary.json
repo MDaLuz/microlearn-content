@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "updated": "2026-10-05",
   "entries": [
     {
@@ -4453,6 +4453,502 @@
       ],
       "translations": {
         "fr": "intégrité des données"
+      }
+    },
+    {
+      "id": "api",
+      "term": "API",
+      "aliases": [
+        "API",
+        "active pharmaceutical ingredient",
+        "active substance",
+        "APIs"
+      ],
+      "category": "launch",
+      "short": "The active substance in a medicine, usually made by a separate company.",
+      "simpler": "The ingredient that does the work.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 1: documented via ASMF or CEP."
+      },
+      "notToConfuse": "Not an excipient.",
+      "related": [
+        "asmf",
+        "cep"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "principe actif (substance active)"
+      }
+    },
+    {
+      "id": "asmf",
+      "term": "ASMF",
+      "aliases": [
+        "ASMF",
+        "Active Substance Master File",
+        "restricted part",
+        "open part"
+      ],
+      "category": "launch",
+      "short": "API documentation split into an open part (to the MAH) and a restricted part (to the agency only).",
+      "simpler": "A recipe book with a locked chapter only the inspector may read.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 1: needs a letter of access."
+      },
+      "notToConfuse": "Not a CEP.",
+      "related": [
+        "cep",
+        "letter-of-access"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "dossier permanent de la substance active (ASMF)"
+      }
+    },
+    {
+      "id": "cep",
+      "term": "CEP",
+      "aliases": [
+        "CEP",
+        "Certificate of Suitability",
+        "EDQM"
+      ],
+      "category": "launch",
+      "short": "EDQM-issued certificate that an API meets the European Pharmacopoeia; replaces most API data in the dossier.",
+      "simpler": "A pre-approved stamp on the API.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 1: an expired CEP is a typical gap."
+      },
+      "notToConfuse": "Not a GMP certificate.",
+      "related": [
+        "asmf",
+        "api"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "certificat de conformité aux monographies de la Ph. Eur. (CEP)"
+      }
+    },
+    {
+      "id": "letter-of-access",
+      "term": "Letter of access",
+      "aliases": [
+        "letter of access"
+      ],
+      "category": "launch",
+      "short": "The API maker's authorisation for the agency to use its ASMF for a given application.",
+      "simpler": "A signed permission slip.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 1."
+      },
+      "notToConfuse": "Not the ASMF itself.",
+      "related": [
+        "asmf"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "lettre d'accès"
+      }
+    },
+    {
+      "id": "written-confirmation",
+      "term": "Written confirmation",
+      "aliases": [
+        "written confirmation"
+      ],
+      "category": "launch",
+      "short": "A document from the exporting country's authority confirming GMP for an API imported into the EU.",
+      "simpler": "The API's export passport.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 1; detail in Module 6."
+      },
+      "notToConfuse": "Not an EU GMP certificate.",
+      "related": [
+        "api"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "confirmation écrite"
+      }
+    },
+    {
+      "id": "granulation",
+      "term": "Granulation",
+      "aliases": [
+        "granulation",
+        "granulate",
+        "blending"
+      ],
+      "category": "launch",
+      "short": "Forming granules from powder so it flows and compresses well.",
+      "simpler": "Turning flour into crumbs that pour evenly.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 2."
+      },
+      "notToConfuse": "Not coating.",
+      "related": [
+        "compression"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "granulation"
+      }
+    },
+    {
+      "id": "compression",
+      "term": "Compression",
+      "aliases": [
+        "compression",
+        "tablet press"
+      ],
+      "category": "launch",
+      "short": "Pressing the final blend into tablets on a tablet press.",
+      "simpler": "Pressing a biscuit from dough.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 2."
+      },
+      "notToConfuse": "Not coating.",
+      "related": [
+        "granulation",
+        "coating"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "compression"
+      }
+    },
+    {
+      "id": "coating",
+      "term": "Coating",
+      "aliases": [
+        "coating",
+        "film coating",
+        "film-coated"
+      ],
+      "category": "launch",
+      "short": "A thin film on tablets for taste, protection or appearance.",
+      "simpler": "A thin varnish on the tablet.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 2."
+      },
+      "notToConfuse": "Not the blister (that's packaging).",
+      "related": [
+        "compression"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "pelliculage"
+      }
+    },
+    {
+      "id": "in-process-controls",
+      "term": "In-process controls",
+      "aliases": [
+        "in-process controls",
+        "IPC",
+        "IPCs"
+      ],
+      "category": "launch",
+      "short": "Checks during manufacture (weight, hardness, thickness) that catch problems early.",
+      "simpler": "Tasting the soup while cooking.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 2."
+      },
+      "notToConfuse": "Not release testing.",
+      "related": [
+        "compression"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "contrôles en cours de fabrication"
+      }
+    },
+    {
+      "id": "biobatch",
+      "term": "Biobatch",
+      "aliases": [
+        "biobatch",
+        "exhibit batch",
+        "biobatches"
+      ],
+      "category": "launch",
+      "short": "The batch used in the bioequivalence study; usually ≥ 1/10 of production scale or 100,000 units.",
+      "simpler": "The batch that sat the exam.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 3."
+      },
+      "notToConfuse": "Not a validation batch.",
+      "related": [
+        "validation-batches"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "lot biologique (lot de bioéquivalence)"
+      }
+    },
+    {
+      "id": "validation-batches",
+      "term": "Validation batches",
+      "aliases": [
+        "validation batches",
+        "validation batch"
+      ],
+      "category": "launch",
+      "short": "Commercial-scale batches proving the process; often also the first launch stock.",
+      "simpler": "The dress rehearsal that becomes opening night.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 3: often on the supply critical path."
+      },
+      "notToConfuse": "Not development batches.",
+      "related": [
+        "biobatch",
+        "validation"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "lots de validation"
+      }
+    },
+    {
+      "id": "blister",
+      "term": "Blister",
+      "aliases": [
+        "blister",
+        "blisters",
+        "blistering",
+        "blister pack"
+      ],
+      "category": "launch",
+      "short": "A sealed pocket pack for tablets (e.g. PVC/PVDC or Alu/Alu).",
+      "simpler": "Each tablet in its own sealed bubble.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 4."
+      },
+      "notToConfuse": "Not the carton.",
+      "related": [
+        "serialisation"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "plaquette thermoformée (blister)"
+      }
+    },
+    {
+      "id": "serialisation",
+      "term": "Serialisation",
+      "aliases": [
+        "serialisation",
+        "serialization",
+        "2D code",
+        "unique identifier",
+        "2D DataMatrix"
+      ],
+      "category": "launch",
+      "short": "A unique 2D code and tamper seal on each pack, required by the Falsified Medicines Directive.",
+      "simpler": "A passport number for every box.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 4; detail in Module 8."
+      },
+      "notToConfuse": "Not the batch number, which is the same for the whole batch.",
+      "related": [
+        "blister"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "sérialisation"
+      }
+    },
+    {
+      "id": "line-clearance",
+      "term": "Line clearance",
+      "aliases": [
+        "line clearance"
+      ],
+      "category": "launch",
+      "short": "Clearing a packaging line between runs to prevent mix-ups.",
+      "simpler": "Clearing the table before serving the next dish.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 4."
+      },
+      "notToConfuse": "Not cleaning validation.",
+      "related": [
+        "blister"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "vide de ligne"
+      }
+    },
+    {
+      "id": "qc-laboratory",
+      "term": "QC laboratory",
+      "aliases": [
+        "QC laboratory",
+        "quality control laboratory",
+        "QC lab",
+        "HPLC"
+      ],
+      "category": "launch",
+      "short": "Runs release tests (assay, dissolution, impurities), often by HPLC.",
+      "simpler": "The lab that marks every batch's exam.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 5."
+      },
+      "notToConfuse": "Not the QP, who certifies.",
+      "related": [
+        "coa"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "laboratoire de contrôle qualité"
+      }
+    },
+    {
+      "id": "moq",
+      "term": "MOQ",
+      "aliases": [
+        "MOQ",
+        "minimum order quantity"
+      ],
+      "category": "launch",
+      "short": "The smallest order a manufacturer accepts, often one batch.",
+      "simpler": "The minimum you must buy.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 6."
+      },
+      "notToConfuse": "Not the forecast.",
+      "related": [
+        "lead-time",
+        "safety-stock"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "quantité minimale de commande"
+      }
+    },
+    {
+      "id": "lead-time",
+      "term": "Lead time",
+      "aliases": [
+        "lead time",
+        "lead times"
+      ],
+      "category": "launch",
+      "short": "Time from order to delivery; add each step's lead time to find the latest order date.",
+      "simpler": "How long before the delivery arrives.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 6: often about 6 months from API order to market stock."
+      },
+      "notToConfuse": "Not the shelf life.",
+      "related": [
+        "moq",
+        "safety-stock"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "délai d'approvisionnement"
+      }
+    },
+    {
+      "id": "safety-stock",
+      "term": "Safety stock",
+      "aliases": [
+        "safety stock"
+      ],
+      "category": "launch",
+      "short": "A buffer stock against delays or demand spikes.",
+      "simpler": "A spare tank of fuel.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 6."
+      },
+      "notToConfuse": "Not the minimum order.",
+      "related": [
+        "lead-time"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "stock de sécurité"
+      }
+    },
+    {
+      "id": "tech-transfer",
+      "term": "Technology transfer",
+      "aliases": [
+        "technology transfer",
+        "tech transfer",
+        "site transfer"
+      ],
+      "category": "launch",
+      "short": "Moving manufacture or testing to a new site: validation, stability, variation and GMP status needed.",
+      "simpler": "Moving the kitchen and proving the dish still tastes the same.",
+      "example": {
+        "moduleId": "gl-m5-manufacturing",
+        "text": "Module 5, Lesson 7."
+      },
+      "notToConfuse": "Not a variation alone.",
+      "related": [
+        "validation",
+        "variation"
+      ],
+      "modules": [
+        "gl-m5-manufacturing"
+      ],
+      "translations": {
+        "fr": "transfert de technologie"
       }
     }
   ]

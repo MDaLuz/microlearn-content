@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "updated": "2026-10-05",
   "entries": [
     {
@@ -5181,6 +5181,212 @@
       ],
       "translations": {
         "fr": "excursion de température"
+      }
+    },
+    {
+      "id": "primary-packaging",
+      "term": "Primary packaging",
+      "aliases": [
+        "primary packaging",
+        "immediate packaging"
+      ],
+      "category": "launch",
+      "short": "Packaging that touches the product (blister, bottle, closure); part of the quality data.",
+      "simpler": "The product's skin.",
+      "example": {
+        "moduleId": "gl-m7-finished-product",
+        "text": "Module 7, Lesson 3: changing it usually needs stability data and a variation."
+      },
+      "notToConfuse": "Not the carton.",
+      "related": [
+        "secondary-packaging",
+        "desiccant"
+      ],
+      "modules": [
+        "gl-m7-finished-product"
+      ],
+      "translations": {
+        "fr": "conditionnement primaire"
+      }
+    },
+    {
+      "id": "secondary-packaging",
+      "term": "Secondary packaging",
+      "aliases": [
+        "secondary packaging",
+        "outer packaging",
+        "carton"
+      ],
+      "category": "launch",
+      "short": "Outer packaging such as the carton; carries required texts, codes and safety features.",
+      "simpler": "The product's coat with its name tag.",
+      "example": {
+        "moduleId": "gl-m7-finished-product",
+        "text": "Module 7, Lesson 4."
+      },
+      "notToConfuse": "Not in contact with the product.",
+      "related": [
+        "primary-packaging",
+        "outer-packaging-particulars"
+      ],
+      "modules": [
+        "gl-m7-finished-product"
+      ],
+      "translations": {
+        "fr": "conditionnement secondaire"
+      }
+    },
+    {
+      "id": "excipient-known-effect",
+      "term": "Excipient with known effect",
+      "aliases": [
+        "excipients with known effect",
+        "excipient with known effect"
+      ],
+      "category": "launch",
+      "short": "An excipient that must be declared to patients, e.g. lactose or sodium (Commission guideline).",
+      "simpler": "An ingredient some people need to know about.",
+      "example": {
+        "moduleId": "gl-m7-finished-product",
+        "text": "Module 7, Lesson 2: a formulation change can mean an artwork change."
+      },
+      "notToConfuse": "Not every excipient: only those listed.",
+      "related": [
+        "excipient"
+      ],
+      "modules": [
+        "gl-m7-finished-product"
+      ],
+      "translations": {
+        "fr": "excipient à effet notoire"
+      }
+    },
+    {
+      "id": "desiccant",
+      "term": "Desiccant",
+      "aliases": [
+        "desiccant",
+        "desiccants"
+      ],
+      "category": "launch",
+      "short": "A sachet or canister absorbing moisture inside a bottle.",
+      "simpler": "A tiny sponge for humidity.",
+      "example": {
+        "moduleId": "gl-m7-finished-product",
+        "text": "Module 7, Lesson 3."
+      },
+      "notToConfuse": "Not a preservative.",
+      "related": [
+        "primary-packaging"
+      ],
+      "modules": [
+        "gl-m7-finished-product"
+      ],
+      "translations": {
+        "fr": "déshydratant"
+      }
+    },
+    {
+      "id": "outer-packaging-particulars",
+      "term": "Outer packaging particulars",
+      "aliases": [
+        "outer packaging particulars",
+        "Art. 54 particulars"
+      ],
+      "category": "launch",
+      "short": "The information the law requires on the carton (Art. 54): name, strength, substance, excipients, pack size, storage, MAH, batch, expiry and more.",
+      "simpler": "The carton's mandatory checklist.",
+      "example": {
+        "moduleId": "gl-m7-finished-product",
+        "text": "Module 7, Lesson 4."
+      },
+      "notToConfuse": "Not the Blue Box, which is national extra information.",
+      "related": [
+        "secondary-packaging"
+      ],
+      "modules": [
+        "gl-m7-finished-product"
+      ],
+      "translations": {
+        "fr": "mentions de l'emballage extérieur"
+      }
+    },
+    {
+      "id": "supplier-qualification",
+      "term": "Supplier qualification",
+      "aliases": [
+        "supplier qualification",
+        "approved suppliers",
+        "approved supplier",
+        "qualified supplier"
+      ],
+      "category": "launch",
+      "short": "Approving a supplier of starting or packaging materials for GMP use; depth depends on risk.",
+      "simpler": "Vetting a supplier before trusting their goods.",
+      "example": {
+        "moduleId": "gl-m7-finished-product",
+        "text": "Module 7, Lesson 5: printers count too."
+      },
+      "notToConfuse": "Not a price negotiation.",
+      "related": [
+        "change-control"
+      ],
+      "modules": [
+        "gl-m7-finished-product"
+      ],
+      "translations": {
+        "fr": "qualification des fournisseurs"
+      }
+    },
+    {
+      "id": "integral-device",
+      "term": "Integral device",
+      "aliases": [
+        "integral device",
+        "integral devices",
+        "drug-device combination"
+      ],
+      "category": "launch",
+      "short": "A device forming one product with the medicine; the licence application needs a notified-body opinion (MDR Art. 117).",
+      "simpler": "A pen that is the medicine's own delivery system.",
+      "example": {
+        "moduleId": "gl-m7-finished-product",
+        "text": "Module 7, Lesson 6."
+      },
+      "notToConfuse": "Not a separate CE-marked device in the box.",
+      "related": [
+        "notified-body"
+      ],
+      "modules": [
+        "gl-m7-finished-product"
+      ],
+      "translations": {
+        "fr": "dispositif intégral"
+      }
+    },
+    {
+      "id": "notified-body",
+      "term": "Notified body",
+      "aliases": [
+        "notified body",
+        "notified bodies"
+      ],
+      "category": "launch",
+      "short": "An organisation designated to assess medical devices.",
+      "simpler": "The device world's examiner.",
+      "example": {
+        "moduleId": "gl-m7-finished-product",
+        "text": "Module 7, Lesson 6."
+      },
+      "notToConfuse": "Not a medicines agency.",
+      "related": [
+        "integral-device"
+      ],
+      "modules": [
+        "gl-m7-finished-product"
+      ],
+      "translations": {
+        "fr": "organisme notifié"
       }
     }
   ]

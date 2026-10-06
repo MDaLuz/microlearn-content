@@ -1,0 +1,517 @@
+{
+  "schemaVersion": 4,
+  "id": "gl-m7-finished-product",
+  "title": "Generics & launch 7: The finished product, piece by piece",
+  "discipline": "Generics & launch",
+  "version": 1,
+  "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
+  "lessons": [
+    {
+      "id": "gl7-l01-pack-anatomy",
+      "title": "Anatomy of a finished pack",
+      "xpReward": 35,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## What's actually in the box\n\nA finished generic pack is more than tablets. Each part has its own supplier, its own specification and its own lead time. Any one of them can hold up a launch."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m7/pack-anatomy-own.svg",
+          "alt": "Parts of a finished pack: tablets, blister or bottle with closure and desiccant, patient leaflet, carton, and safety features",
+          "caption": "Anatomy of a finished pack",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.951
+        },
+        {
+          "type": "text",
+          "markdown": "## The parts\n\n- **Tablets:** the active substance plus excipients (Lesson 2).\n- **Primary packaging** (*conditionnement primaire*): whatever touches the product, such as a blister, or a bottle with its closure and desiccant (Lesson 3).\n- **Patient leaflet (PIL):** printed leaflet in the box.\n- **Secondary packaging** (*conditionnement secondaire*): the carton (Lesson 4).\n- **Safety features:** the unique 2D code and the tamper-evident seal (Module 8)."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why the distinction matters\n\nPrimary packaging protects the product, so its material is part of the quality data. Changing it usually needs new stability data. Secondary packaging doesn't touch the product, but it carries the legally required texts and codes. The text side is covered in Module 8."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** list every component with its supplier and lead time early. Printed items (blister foil, leaflet, carton) depend on approved artwork, so they're often the last to arrive."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl7-l01-pack-anatomy-fc1",
+              "front": "Primary packaging",
+              "back": "Packaging that touches the product (blister, bottle, closure). Part of the quality data. FR: conditionnement primaire."
+            },
+            {
+              "id": "gl7-l01-pack-anatomy-fc2",
+              "front": "Secondary packaging",
+              "back": "Outer packaging such as the carton; carries texts and codes. FR: conditionnement secondaire."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl7-l01-pack-anatomy-q1",
+              "stem": "Which change usually needs new stability data?",
+              "options": [
+                "A new carton printer",
+                "A new blister film material",
+                "A new font on the leaflet",
+                "A new pallet size"
+              ],
+              "correctIndex": 1,
+              "explanation": "Primary packaging protects the product, so changing its material can affect stability."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 54 (outer packaging), Art. 55 (blisters and small immediate packaging), Art. 59 (package leaflet).\n2. **Image** — own diagram (no licence-clean Commons photo of pack contents without brand names was found)."
+        }
+      ]
+    },
+    {
+      "id": "gl7-l02-tablet-components",
+      "title": "API and excipients",
+      "xpReward": 35,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A tablet is mostly not the medicine\n\nIn many tablets, the active substance is only a small part of the weight. The rest are **excipients**. Each one does a job, and each one comes from a supplier that must be qualified."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m7/tablet-composition-own.svg",
+          "alt": "Bar showing an illustrative split of a tablet: API, filler, binder, disintegrant, lubricant and film coat, with each role explained",
+          "caption": "What's in a tablet",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.951
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m7/tablets.webp",
+          "alt": "Two round white scored tablets on a wooden surface next to a ruler, each just under 1 cm across",
+          "caption": "A tablet: the active substance plus excipients",
+          "credit": "Wikimedia Commons / Anypodetos",
+          "license": "CC0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marcoumar_tablets.jpg",
+          "zoomable": true,
+          "aspectRatio": 1.322
+        },
+        {
+          "type": "text",
+          "markdown": "## Typical roles\n\n- **Filler:** gives bulk (e.g. lactose, cellulose).\n- **Binder:** holds the tablet together.\n- **Disintegrant:** helps it break up in the body.\n- **Lubricant:** stops it sticking to the press (e.g. magnesium stearate).\n- **Film coat:** appearance, taste, protection."
+        },
+        {
+          "type": "text",
+          "markdown": "## Excipients with known effect\n\nSome excipients must be declared to patients, for example lactose or sodium. These are **excipients with known effect** (*excipients à effet notoire*), and a Commission guideline lists them. They appear on the carton and in the leaflet, so a formulation change can mean an artwork change too."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** an excipient supplier change goes through supplier qualification and change control, and can reach artwork if an excipient with known effect is involved."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl7-l02-tablet-components-fc1",
+              "front": "Excipient with known effect",
+              "back": "An excipient that must be declared to patients, e.g. lactose or sodium. FR: excipient à effet notoire."
+            },
+            {
+              "id": "gl7-l02-tablet-components-fc2",
+              "front": "Excipient roles",
+              "back": "Filler, binder, disintegrant, lubricant, coating."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl7-l02-tablet-components-q1",
+              "stem": "Why can swapping one excipient affect the artwork?",
+              "options": [
+                "It never can",
+                "If it's an excipient with known effect, the label and leaflet must declare it",
+                "Artwork lists every supplier",
+                "The QP signs the artwork"
+              ],
+              "correctIndex": 1,
+              "explanation": "Excipients with known effect must be declared on the packaging and in the leaflet."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — European Commission, Guideline 'Excipients in the labelling and package leaflet of medicinal products for human use' (annex: excipients with known effect).\n2. **Image** — own diagram, proportions illustrative; photo: Wikimedia Commons, 'Marcoumar tablets' by Anypodetos (CC0), resized."
+        }
+      ]
+    },
+    {
+      "id": "gl7-l03-primary-packaging",
+      "title": "Primary packaging",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## What touches the product\n\nPrimary packaging keeps out moisture, light and oxygen, and keeps the product safe until it's used. The registered packaging is the one the stability data support. You can't swap it freely."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m7/primary-packaging-options-own.svg",
+          "alt": "Three primary packaging options: PVC or PVC/PVDC blister, moderate moisture protection; Alu/Alu cold-form blister, high moisture and light protection; HDPE bottle with closure, often with a desiccant",
+          "caption": "Primary packaging: what touches the product",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.319
+        },
+        {
+          "type": "text",
+          "markdown": "## Common options\n\n- **PVC or PVC/PVDC blisters:** clear film plus foil, with moderate moisture protection.\n- **Alu/Alu blisters** (cold-form): high protection against moisture and light.\n- **HDPE bottles:** plastic bottles, often with a **desiccant** (*déshydratant*), a small sachet or canister that absorbs moisture, and sometimes a child-resistant closure."
+        },
+        {
+          "type": "text",
+          "markdown": "## The rule that matters\n\nEach material has a specification, and must suit the product and meet Ph. Eur. requirements. Changing the primary packaging, for example to a cheaper film, usually needs new stability data and a variation. Plan it as a project, not as a purchasing decision."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** if a new pack type is needed for a market, such as a bottle instead of a blister, it needs its own stability data and approval before launch."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl7-l03-primary-packaging-fc1",
+              "front": "Desiccant",
+              "back": "A sachet or canister that absorbs moisture inside a bottle. FR: déshydratant."
+            },
+            {
+              "id": "gl7-l03-primary-packaging-fc2",
+              "front": "Alu/Alu blister",
+              "back": "A cold-form aluminium blister with high protection against moisture and light."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl7-l03-primary-packaging-q1",
+              "stem": "Purchasing proposes a cheaper blister film. What should the PM flag?",
+              "options": [
+                "Nothing",
+                "It's primary packaging: it likely needs stability data and a variation before use",
+                "Only a new artwork",
+                "Only a price update"
+              ],
+              "correctIndex": 1,
+              "explanation": "Changing what touches the product can affect its stability, and therefore its licence."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — EMA, Guideline on plastic immediate packaging materials; European Pharmacopoeia, chapter 3 (materials and containers).\n2. **EU law** — Commission Regulation (EC) No 1234/2008, as amended (variations to packaging).\n3. **Image** — own diagram (no licence-clean Commons photo of blisters and bottles without brand names was found)."
+        }
+      ]
+    },
+    {
+      "id": "gl7-l04-carton",
+      "title": "Secondary packaging: the carton",
+      "xpReward": 35,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Where the law lives on the pack\n\nThe carton doesn't touch the product, but it carries a long list of legally required information. It also carries the anti-counterfeiting features. Errors here can stop a launch as surely as a failed test."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m7/carton-faces-own.svg",
+          "alt": "Illustrative carton: front with name, strength, form, substance, pack size, Braille; side with batch, expiry, 2D code; back with excipients, storage, MAH, licence no., Blue Box; flaps with tamper seal",
+          "caption": "The carton, face by face",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.025
+        },
+        {
+          "type": "text",
+          "markdown": "## What's on it\n\nThe EU requires a set of **outer packaging particulars** (*mentions de l'emballage extérieur*). These include:\n\n- the name, strength and form\n- the active substance\n- the excipients with known effect\n- the pack size\n- storage conditions\n- the MAH and licence number\n- the batch and expiry date\n\nOn top of that come the product name in Braille, national information in the 'Blue Box', and the safety features."
+        },
+        {
+          "type": "text",
+          "markdown": "## A physical object with constraints\n\nThe carton has a fixed size, set by the packaging line. Everything has to fit on it, legibly and in the right language. That's why multi-country cartons are hard (Module 8)."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** carton printing comes after artwork approval and needs printer lead time. Order cartons as soon as the country artwork is final."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl7-l04-carton-fc1",
+              "front": "Outer packaging particulars",
+              "back": "The information the law requires on the carton (Art. 54): name, strength, substance, excipients, pack size, storage, MAH, batch, expiry and more. FR: mentions de l'emballage extérieur."
+            },
+            {
+              "id": "gl7-l04-carton-fc2",
+              "front": "Why multi-country cartons are hard",
+              "back": "The carton size is fixed by the packaging line, yet all particulars must fit legibly, in the right language, with Braille, Blue Box and safety features."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl7-l04-carton-q1",
+              "stem": "Which of these must appear on an EU carton?",
+              "options": [
+                "The supplier of the blister film",
+                "The batch number and expiry date",
+                "The API price",
+                "The QP's name"
+              ],
+              "correctIndex": 1,
+              "explanation": "Batch and expiry are among the Art. 54 particulars. Suppliers and prices aren't."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 54 (outer packaging), Art. 56a (Braille), Art. 57 (national information, the 'Blue Box').\n2. **EU law** — Commission Delegated Regulation (EU) 2016/161 (safety features).\n3. **Image** — own diagram (no licence-clean Commons photo of a carton without brand names was found)."
+        }
+      ]
+    },
+    {
+      "id": "gl7-l05-supplier-qualification",
+      "title": "Specifications and supplier qualification",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Every component has a supplier to approve\n\nUnder GMP, starting materials and packaging materials may only come from **approved suppliers**. That covers the API, excipients, blister film, foil, bottles, leaflets and cartons. **Supplier qualification** (*qualification des fournisseurs*) is how a supplier gets onto that list."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m7/supplier-qualification-flow.svg",
+          "alt": "Five steps of supplier qualification: identify need and specification, assess risk, audit or questionnaire, quality agreement and approval, then ongoing monitoring",
+          "caption": "Qualifying a supplier",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.667
+        },
+        {
+          "type": "text",
+          "markdown": "### Process card: Qualifying a packaging supplier\n\n- What it is: approving a supplier of a component (e.g. blister foil or cartons) for GMP use\n- Who owns it: the manufacturer's or packager's QA, with purchasing\n- Inputs: the component specification, a risk assessment, supplier documents, and an audit or questionnaire\n- Output: an approved supplier, a quality agreement where needed, and incoming-control rules\n- Typical duration: weeks; longer if an on-site audit is needed\n- What makes it slip: missing supplier certificates, audit scheduling, failed first deliveries\n- PM watch-points: a new supplier for a launch component must be approved before printing or delivery, so ask early"
+        },
+        {
+          "type": "text",
+          "markdown": "## Risk decides the depth\n\nThe deeper the risk, the deeper the check. An API or an excipient in direct contact with the product gets more scrutiny than a shipping case. For excipients, a formal risk assessment of the appropriate GMP is required."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** a new or unqualified component supplier is a hidden launch risk. Check the supplier status of every printed component early."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl7-l05-supplier-qualification-fc1",
+              "front": "Supplier qualification",
+              "back": "Approving a supplier of starting or packaging materials for GMP use; depth depends on risk. FR: qualification des fournisseurs."
+            },
+            {
+              "id": "gl7-l05-supplier-qualification-fc2",
+              "front": "Approved supplier",
+              "back": "A supplier on the GMP-approved list. Only approved suppliers may deliver GMP materials."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl7-l05-supplier-qualification-q1",
+              "stem": "A carton printer offers a faster slot but isn't yet approved. What's needed before using it?",
+              "options": [
+                "Nothing",
+                "Supplier qualification by QA (and change control) before printing for GMP use",
+                "Only a price quote",
+                "A new marketing authorisation"
+              ],
+              "correctIndex": 1,
+              "explanation": "Printed packaging is a GMP material, so the printer must be qualified first."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — EudraLex Vol. 4, Part I, Chapter 5 (starting and packaging materials; supplier approval).\n2. **EU guidance** — Guidelines on the formalised risk assessment for ascertaining the appropriate GMP for excipients (2015/C 95/02)."
+        }
+      ]
+    },
+    {
+      "id": "gl7-l06-devices",
+      "title": "Devices and special components",
+      "xpReward": 30,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## When a device comes with the medicine\n\nMost tablets need no device. Some products include one, such as a measuring cup, an oral syringe, a pen or an inhaler. The rules depend on whether the device is separate from the medicine or forms one product with it."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m7/device-types-own.svg",
+          "alt": "Two cards: a separate device such as a measuring cup, CE-marked on its own; and an integral device such as a pre-filled pen, where the licence needs a notified-body opinion",
+          "caption": "When a device is part of the product",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.424
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m7/device.webp",
+          "alt": "Two generic liquid medicine bottles with their cartons, each with a measuring dosing cup marked in teaspoons placed in front",
+          "caption": "Dosing cups supplied with oral liquids",
+          "credit": "U.S. Food and Drug Administration (via Wikimedia Commons)",
+          "license": "PD",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ten_Tips_to_Prevent_an_Accidental_Overdose_-_Dosing_Devices_(5686488051).jpg",
+          "zoomable": true,
+          "aspectRatio": 1.541
+        },
+        {
+          "type": "text",
+          "markdown": "## Two cases\n\n- **Separate device:** CE-marked on its own under the medical device rules, then included in the pack.\n- **Integral device** (*dispositif intégral*): forms a single product with the medicine, such as a pre-filled pen. The marketing authorisation application must include a **notified body** (*organisme notifié*) opinion on the device part."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** for products with a device, add the device supplier, its CE-marking or notified-body opinion, and its lead time to the plan. For plain tablets, you can skip this."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl7-l06-devices-fc1",
+              "front": "Integral device",
+              "back": "A device forming one product with the medicine; needs a notified-body opinion in the licence application (MDR Art. 117). FR: dispositif intégral."
+            },
+            {
+              "id": "gl7-l06-devices-fc2",
+              "front": "Notified body",
+              "back": "An organisation designated to assess medical devices. FR: organisme notifié."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl7-l06-devices-q1",
+              "stem": "A product includes a separate measuring cup. What does the cup need?",
+              "options": [
+                "Nothing",
+                "Its own CE marking as a medical device",
+                "A separate marketing authorisation",
+                "A QP certificate"
+              ],
+              "correctIndex": 1,
+              "explanation": "A separate device is CE-marked under the device rules. An integral device needs a notified-body opinion instead."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Regulation (EU) 2017/745 (Medical Device Regulation), Art. 117.\n2. **EU guidance** — EMA, Guideline on quality documentation for medicinal products when used with a medical device.\n3. **Image** — own diagram; photo: U.S. Food and Drug Administration, 'Ten Tips to Prevent an Accidental Overdose - Dosing Devices', via Wikimedia Commons (public domain), resized."
+        }
+      ]
+    },
+    {
+      "id": "gl7-l07-ripple",
+      "title": "Ripple effects of a change",
+      "xpReward": 35,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## One change, many teams\n\nBecause every component is tied to a specification, a supplier, the dossier and the artwork, one change rarely stays local. Seeing the ripple early is one of the most useful things a PM can do."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m7/change-ripple.svg",
+          "alt": "A central change, a new blister film supplier, rippling to QA (change control, supplier qualification), RA (possible variation), stability (new data if protection changes), supply and artwork",
+          "caption": "One change, many ripples",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.86
+        },
+        {
+          "type": "text",
+          "markdown": "## Ask the four questions\n\nFor any proposed change:\n\n1. Does QA need change control or supplier qualification?\n2. Does RA need a variation, and of which type?\n3. Does it affect stability?\n4. Does it touch supply or artwork?\n\nIf any answer is yes, the change has a timeline of its own, and it can't happen 'next week'."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** treat every component change before launch as a mini-project with its own owner and dates. Late changes are the most common source of late surprises."
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl7-l07-ripple-q1",
+              "stem": "Purchasing switches the excipient lactose to a new supplier. Which teams are likely involved?",
+              "options": [
+                "None",
+                "QA (supplier qualification and change control), and possibly RA. Artwork is unaffected unless the excipient itself changes",
+                "Only finance",
+                "Only the wholesaler"
+              ],
+              "correctIndex": 1,
+              "explanation": "Same excipient, new supplier: qualification and change control. Artwork changes only if the declared excipient itself changes."
+            },
+            {
+              "id": "gl7-l07-ripple-q2",
+              "stem": "Which change most likely needs stability data, a variation and supply planning?",
+              "options": [
+                "A new font",
+                "A new primary packaging material",
+                "A new pallet",
+                "A new courier"
+              ],
+              "correctIndex": 1,
+              "explanation": "Primary packaging protects the product. Changing it affects stability, the licence and the materials."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Course** — Module 4 (change control), Module 2 (variations), Module 7, Lessons 1–6."
+        }
+      ]
+    }
+  ]
+}

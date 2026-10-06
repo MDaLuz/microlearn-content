@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 13
+    "version": 14
   },
   "modules": [
     {
@@ -179,6 +179,17 @@
       "version": 1,
       "lessonCount": 8,
       "estimatedMinutes": 50,
+      "accentColor": "#7C8792"
+    },
+    {
+      "id": "gl-m7-finished-product",
+      "title": "Generics & launch 7: The finished product, piece by piece",
+      "discipline": "Generics & launch",
+      "description": "Pack anatomy, excipients, packaging, suppliers, devices and change ripples",
+      "file": "modules/gl-m7-finished-product.json",
+      "version": 1,
+      "lessonCount": 7,
+      "estimatedMinutes": 40,
       "accentColor": "#7C8792"
     }
   ]

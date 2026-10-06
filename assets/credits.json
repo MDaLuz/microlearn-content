@@ -72,6 +72,30 @@
           "lesson": "gl6-l05-gmp-status"
         }
       ]
+    },
+    {
+      "src": "assets/gl-m7/device.webp",
+      "credit": "U.S. Food and Drug Administration (via Wikimedia Commons)",
+      "license": "PD",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ten_Tips_to_Prevent_an_Accidental_Overdose_-_Dosing_Devices_(5686488051).jpg",
+      "usedIn": [
+        {
+          "module": "gl-m7-finished-product",
+          "lesson": "gl7-l06-devices"
+        }
+      ]
+    },
+    {
+      "src": "assets/gl-m7/tablets.webp",
+      "credit": "Wikimedia Commons / Anypodetos",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marcoumar_tablets.jpg",
+      "usedIn": [
+        {
+          "module": "gl-m7-finished-product",
+          "lesson": "gl7-l02-tablet-components"
+        }
+      ]
     }
   ]
 }

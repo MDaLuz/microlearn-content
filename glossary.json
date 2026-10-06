@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "updated": "2026-10-05",
   "entries": [
     {
@@ -3656,6 +3656,407 @@
       ],
       "translations": {
         "fr": "EudraVigilance"
+      }
+    },
+    {
+      "id": "patent",
+      "term": "Patent",
+      "aliases": [
+        "patent",
+        "patents",
+        "basic patent",
+        "compound patent"
+      ],
+      "category": "launch",
+      "short": "A right to stop others using an invention for up to 20 years from filing; the basic patent covers the molecule.",
+      "simpler": "A fence around an invention, with an expiry date.",
+      "example": {
+        "moduleId": "gl-m3-ip",
+        "text": "Module 3, Lesson 1: the compound patent usually sets the earliest launch."
+      },
+      "notToConfuse": "Not regulatory protection: patents are enforced by courts, not agencies.",
+      "related": [
+        "secondary-patents",
+        "spc"
+      ],
+      "modules": [
+        "gl-m3-ip"
+      ],
+      "translations": {
+        "fr": "brevet"
+      }
+    },
+    {
+      "id": "secondary-patents",
+      "term": "Secondary patents",
+      "aliases": [
+        "secondary patents",
+        "secondary patent",
+        "formulation patent",
+        "process patent"
+      ],
+      "category": "launch",
+      "short": "Later patents on salts, forms, formulations, processes or uses; sometimes avoidable.",
+      "simpler": "Extra fences built later around the same field.",
+      "example": {
+        "moduleId": "gl-m3-ip",
+        "text": "Module 3, Lesson 1: a design-around can avoid them."
+      },
+      "notToConfuse": "Not the compound patent, which can't be designed around.",
+      "related": [
+        "patent",
+        "freedom-to-operate"
+      ],
+      "modules": [
+        "gl-m3-ip"
+      ],
+      "translations": {
+        "fr": "brevets secondaires"
+      }
+    },
+    {
+      "id": "spc",
+      "term": "SPC",
+      "aliases": [
+        "SPC",
+        "SPCs",
+        "supplementary protection certificate"
+      ],
+      "category": "launch",
+      "short": "Extends the basic patent by up to 5 years; total ≤ 15 years from first EU authorisation; national.",
+      "simpler": "Extra time added to the fence to make up for slow development.",
+      "example": {
+        "moduleId": "gl-m3-ip",
+        "text": "Module 3, Lesson 2: SPC expiry is often the true launch date."
+      },
+      "notToConfuse": "Not a new patent: it extends an existing one for the authorised product.",
+      "related": [
+        "paediatric-extension",
+        "spc-manufacturing-waiver"
+      ],
+      "modules": [
+        "gl-m3-ip"
+      ],
+      "translations": {
+        "fr": "certificat complémentaire de protection (CCP)"
+      }
+    },
+    {
+      "id": "paediatric-extension",
+      "term": "Paediatric extension",
+      "aliases": [
+        "paediatric extension",
+        "paediatric investigation plan",
+        "PIP"
+      ],
+      "category": "launch",
+      "short": "+6 months of SPC protection after a completed paediatric investigation plan.",
+      "simpler": "A bonus half-year for studying the medicine in children.",
+      "example": {
+        "moduleId": "gl-m3-ip",
+        "text": "Module 3, Lesson 2: check it when calculating the SPC end."
+      },
+      "notToConfuse": "Not a new indication by itself.",
+      "related": [
+        "spc"
+      ],
+      "modules": [
+        "gl-m3-ip"
+      ],
+      "translations": {
+        "fr": "prorogation pédiatrique"
+      }
+    },
+    {
+      "id": "spc-manufacturing-waiver",
+      "term": "SPC manufacturing waiver",
+      "aliases": [
+        "SPC manufacturing waiver",
+        "SPC waiver",
+        "manufacturing waiver"
+      ],
+      "category": "launch",
+      "short": "Allows EU manufacturing during the SPC for export, and stockpiling in the last 6 months for EU launch; notification required.",
+      "simpler": "Permission to bake the cake before the shop may open.",
+      "example": {
+        "moduleId": "gl-m3-ip",
+        "text": "Module 3, Lesson 2: Regulation (EU) 2019/933."
+      },
+      "notToConfuse": "Not permission to sell in the EU before expiry.",
+      "related": [
+        "spc",
+        "bolar-exemption"
+      ],
+      "modules": [
+        "gl-m3-ip"
+      ],
+      "translations": {
+        "fr": "dérogation de fabrication (CCP)"
+      }
+    },
+    {
+      "id": "bolar-exemption",
+      "term": "Bolar exemption",
+      "aliases": [
+        "Bolar exemption",
+        "Bolar"
+      ],
+      "category": "launch",
+      "short": "Studies and steps needed for generic approval don't infringe patents or SPCs; the reform adds HTA, pricing and tenders.",
+      "simpler": "A legal pass to prepare before the fence comes down.",
+      "example": {
+        "moduleId": "gl-m3-ip",
+        "text": "Module 3, Lesson 4: Art. 10(6) of Directive 2001/83/EC."
+      },
+      "notToConfuse": "Not a licence to sell or stockpile.",
+      "related": [
+        "spc-manufacturing-waiver",
+        "procurement-tender"
+      ],
+      "modules": [
+        "gl-m3-ip"
+      ],
+      "translations": {
+        "fr": "exemption Bolar"
+      }
+    },
+    {
+      "id": "procurement-tender",
+      "term": "Procurement tender",
+      "aliases": [
+        "procurement tender",
+        "procurement tenders",
+        "tender",
+        "tenders",
+        "tender bids"
+      ],
+      "category": "launch",
+      "short": "A public competition in which payers or hospitals buy medicines from the winning bidder.",
+      "simpler": "A sealed-bid auction for supplying a medicine.",
+      "example": {
+        "moduleId": "gl-m3-ip",
+        "text": "Module 3, Lesson 4: the reform brings tender bids under Bolar."
+      },
+      "notToConfuse": "Not pricing approval: tenders award supply contracts.",
+      "related": [
+        "bolar-exemption"
+      ],
+      "modules": [
+        "gl-m3-ip"
+      ],
+      "translations": {
+        "fr": "appel d'offres"
+      }
+    },
+    {
+      "id": "freedom-to-operate",
+      "term": "Freedom to operate",
+      "aliases": [
+        "freedom to operate",
+        "FTO",
+        "FTO opinion",
+        "freedom-to-operate"
+      ],
+      "category": "launch",
+      "short": "An opinion on whether a specific product can launch in specific countries without infringing valid patents.",
+      "simpler": "Checking the route is clear before driving the truck.",
+      "example": {
+        "moduleId": "gl-m3-ip",
+        "text": "Module 3, Lesson 5: put the FTO opinion on the plan as a launch gate."
+      },
+      "notToConfuse": "Not a guarantee: courts can still disagree.",
+      "related": [
+        "opposition",
+        "secondary-patents"
+      ],
+      "modules": [
+        "gl-m3-ip"
+      ],
+      "translations": {
+        "fr": "liberté d'exploitation"
+      }
+    },
+    {
+      "id": "opposition",
+      "term": "EPO opposition",
+      "aliases": [
+        "opposition",
+        "EPO opposition"
+      ],
+      "category": "launch",
+      "short": "A challenge to a European patent within 9 months of grant, deciding validity for all countries at once.",
+      "simpler": "Objecting to the fence during its first months, for the whole of Europe.",
+      "example": {
+        "moduleId": "gl-m3-ip",
+        "text": "Module 3, Lesson 5: EPC Art. 99."
+      },
+      "notToConfuse": "Not a national court case.",
+      "related": [
+        "freedom-to-operate"
+      ],
+      "modules": [
+        "gl-m3-ip"
+      ],
+      "translations": {
+        "fr": "opposition (OEB)"
+      }
+    },
+    {
+      "id": "launch-at-risk",
+      "term": "Launch at risk",
+      "aliases": [
+        "launch at risk",
+        "at-risk launch",
+        "launching at risk"
+      ],
+      "category": "launch",
+      "short": "Launching before a patent expires, on the view it's invalid or not infringed; risk of injunction and damages.",
+      "simpler": "Crossing the fence because you think it's illegal, accepting you may have to pay.",
+      "example": {
+        "moduleId": "gl-m3-ip",
+        "text": "Module 3, Lesson 6: plan scenarios, not one date."
+      },
+      "notToConfuse": "Not illegal in itself: it's a calculated legal risk.",
+      "related": [
+        "preliminary-injunction",
+        "upc"
+      ],
+      "modules": [
+        "gl-m3-ip"
+      ],
+      "translations": {
+        "fr": "lancement à risque"
+      }
+    },
+    {
+      "id": "preliminary-injunction",
+      "term": "Preliminary injunction",
+      "aliases": [
+        "preliminary injunction",
+        "injunction",
+        "PI"
+      ],
+      "category": "launch",
+      "short": "A fast court order stopping sales while a patent case is decided.",
+      "simpler": "A red light while the referee reviews the play.",
+      "example": {
+        "moduleId": "gl-m3-ip",
+        "text": "Module 3, Lesson 6: standards differ widely by country."
+      },
+      "notToConfuse": "Not the final judgment.",
+      "related": [
+        "launch-at-risk",
+        "upc"
+      ],
+      "modules": [
+        "gl-m3-ip"
+      ],
+      "translations": {
+        "fr": "injonction provisoire"
+      }
+    },
+    {
+      "id": "upc",
+      "term": "UPC",
+      "aliases": [
+        "UPC",
+        "Unified Patent Court"
+      ],
+      "category": "launch",
+      "short": "Since June 2023, a court that can decide on many European patents for all participating EU states at once.",
+      "simpler": "One referee for many leagues.",
+      "example": {
+        "moduleId": "gl-m3-ip",
+        "text": "Module 3, Lesson 6: one ruling can stop sales in several countries."
+      },
+      "notToConfuse": "Not the EPO, which grants patents and handles oppositions.",
+      "related": [
+        "preliminary-injunction",
+        "opposition"
+      ],
+      "modules": [
+        "gl-m3-ip"
+      ],
+      "translations": {
+        "fr": "juridiction unifiée du brevet (JUB)"
+      }
+    },
+    {
+      "id": "inn",
+      "term": "INN",
+      "aliases": [
+        "INN",
+        "International Nonproprietary Name",
+        "common name"
+      ],
+      "category": "launch",
+      "short": "The common, official name of an active substance, e.g. rosuvastatin.",
+      "simpler": "The substance's real name, not its brand.",
+      "example": {
+        "moduleId": "gl-m3-ip",
+        "text": "Module 3, Lesson 7: many generics are named INN + company name."
+      },
+      "notToConfuse": "Not a trademark.",
+      "related": [
+        "invented-name"
+      ],
+      "modules": [
+        "gl-m3-ip"
+      ],
+      "translations": {
+        "fr": "DCI (dénomination commune internationale)"
+      }
+    },
+    {
+      "id": "invented-name",
+      "term": "Invented name",
+      "aliases": [
+        "invented name",
+        "brand name",
+        "trademark",
+        "trademarks"
+      ],
+      "category": "launch",
+      "short": "A brand-style product name; needs trademark clearance and agency acceptance (no confusion).",
+      "simpler": "The product's chosen nickname, which must not sound like another medicine.",
+      "example": {
+        "moduleId": "gl-m3-ip",
+        "text": "Module 3, Lesson 7: can differ by country in a DCP."
+      },
+      "notToConfuse": "Not the INN.",
+      "related": [
+        "inn"
+      ],
+      "modules": [
+        "gl-m3-ip"
+      ],
+      "translations": {
+        "fr": "nom de fantaisie / marque"
+      }
+    },
+    {
+      "id": "patent-linkage",
+      "term": "Patent linkage",
+      "aliases": [
+        "patent linkage",
+        "no patent linkage"
+      ],
+      "category": "launch",
+      "short": "Linking marketing authorisation to patent status: not done in the EU.",
+      "simpler": "In the EU the licence office doesn't check the fence.",
+      "example": {
+        "moduleId": "gl-m3-ip",
+        "text": "Module 3, Lesson 3: a licence isn't permission to launch."
+      },
+      "notToConfuse": "Not a patent type.",
+      "related": [
+        "patent"
+      ],
+      "modules": [
+        "gl-m3-ip"
+      ],
+      "translations": {
+        "fr": "lien brevet-AMM (patent linkage)"
       }
     }
   ]

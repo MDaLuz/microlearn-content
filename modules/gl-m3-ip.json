@@ -1,0 +1,597 @@
+{
+  "schemaVersion": 4,
+  "id": "gl-m3-ip",
+  "title": "Generics & launch 3: Intellectual property",
+  "discipline": "Generics & launch",
+  "version": 1,
+  "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
+  "lessons": [
+    {
+      "id": "gl3-l01-patent-types",
+      "title": "Patent types",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Patents protect inventions, not medicines\n\nA **patent** (*brevet*) gives its owner the right to stop others using an invention for up to 20 years from the filing date. A single medicine is often covered by several patents, filed at different times, each protecting a different aspect of it."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m3/patent-layers.svg",
+          "alt": "Five staggered bars over time: compound, salt or crystal form, formulation, process, and use or dosing patents, each lasting up to 20 years from its own filing",
+          "caption": "One medicine, several layers of patents",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.86
+        },
+        {
+          "type": "text",
+          "markdown": "## The usual layers\n\n- **Compound:** the molecule itself. This is the **basic patent** (*brevet de base*), usually the earliest and the strongest.\n- **Salt or crystal form:** a specific chemical form of the substance.\n- **Formulation:** the composition of the tablet or capsule.\n- **Process:** a way of making the substance or the product.\n- **Use or dosing:** a new indication or dosing regimen for a known substance."
+        },
+        {
+          "type": "text",
+          "markdown": "## Secondary patents\n\nPatents filed after the compound patent are often called **secondary patents** (*brevets secondaires*). A generic can sometimes avoid them, for example by using a different salt, formulation or process. That's why the generic's dossier and the IP analysis must be read together.\n\nThe compound patent can't be designed around, because the generic contains the same molecule."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** the compound patent, often extended by an SPC (Lesson 2), usually sets the earliest launch. Secondary patents decide whether *your specific product* is free to launch on that date."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl3-l01-patent-types-fc1",
+              "front": "Patent",
+              "back": "Right to stop others using an invention, for up to 20 years from filing. FR: brevet."
+            },
+            {
+              "id": "gl3-l01-patent-types-fc2",
+              "front": "Basic patent",
+              "back": "The patent on the molecule itself: usually the earliest and strongest, and the one an SPC extends. FR: brevet de base."
+            },
+            {
+              "id": "gl3-l01-patent-types-fc3",
+              "front": "Secondary patents",
+              "back": "Later patents on salts, forms, formulations, processes or uses. Sometimes avoidable by a generic. FR: brevets secondaires."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl3-l01-patent-types-q1",
+              "stem": "Why can't a generic design around the compound patent?",
+              "options": [
+                "Because it's always invalid",
+                "Because the generic contains the same molecule the compound patent protects",
+                "Because the EMA forbids it",
+                "Because process patents protect the molecule"
+              ],
+              "correctIndex": 1,
+              "explanation": "A generic must contain the same active substance, which is exactly what the compound patent covers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Law** — European Patent Convention, Art. 63(1) (term of 20 years from filing).\n2. **Practice** — patent landscape categories for medicines (labelled as practice)."
+        }
+      ]
+    },
+    {
+      "id": "gl3-l02-spc",
+      "title": "SPCs and the paediatric extension",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Making up for lost time\n\nDeveloping a medicine takes years, during which the patent clock is already running. A **supplementary protection certificate** (*certificat complémentaire de protection*), or SPC, extends the protection of the basic patent to compensate for that lost time."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m3/spc-timeline.svg",
+          "alt": "Timeline: 20-year patent from filing, then an SPC of up to 5 years, plus a 6-month paediatric extension, with total protection capped at 15 years from the first EU authorisation",
+          "caption": "How an SPC extends protection",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.818
+        },
+        {
+          "type": "text",
+          "markdown": "## The rules\n\n- **Length:** the time between patent filing and the first EU marketing authorisation, minus 5 years, capped at 5 years.\n- **Overall cap:** patent plus SPC protection can't exceed 15 years from the first EU authorisation.\n- **Paediatric extension:** another 6 months if the originator completed an agreed **paediatric investigation plan** (*plan d'investigation pédiatrique*).\n- **National:** SPCs are granted country by country, so an SPC may exist in Germany but not in Portugal, for example."
+        },
+        {
+          "type": "text",
+          "markdown": "## The SPC manufacturing waiver\n\nSince 2019, the **SPC manufacturing waiver** (*dérogation de fabrication*) lets a generic company make the product in the EU during the SPC period in two cases:\n\n- for export to countries without protection\n- in the last 6 months of the SPC, to stockpile for an EU launch on day one after expiry\n\nThe company must notify the patent office and the SPC holder in advance, and mark export packs."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** the SPC end date, including any paediatric extension, is often the true launch date. Day-one launch stock can be made in the last 6 months using the waiver, with notifications filed in time."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl3-l02-spc-fc1",
+              "front": "SPC",
+              "back": "Supplementary protection certificate: extends the basic patent by up to 5 years; total ≤15 years from first EU authorisation. FR: certificat complémentaire de protection."
+            },
+            {
+              "id": "gl3-l02-spc-fc2",
+              "front": "Paediatric extension",
+              "back": "+6 months on the SPC after a completed paediatric investigation plan. FR: prorogation pédiatrique."
+            },
+            {
+              "id": "gl3-l02-spc-fc3",
+              "front": "SPC manufacturing waiver",
+              "back": "Make in the EU during the SPC for export, or in the last 6 months to stockpile for EU launch. Prior notification required. FR: dérogation de fabrication."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl3-l02-spc-q1",
+              "stem": "A basic patent was filed in 2008, and the first EU authorisation came in 2018. How long can the SPC be, before any paediatric extension?",
+              "options": [
+                "10 years",
+                "5 years: 10 years minus 5 is 5, which is also the cap",
+                "2 years",
+                "No SPC is possible"
+              ],
+              "correctIndex": 1,
+              "explanation": "Ten years between filing and authorisation, minus 5, gives 5 years, which equals the maximum. The 15-year cap from 2018 (2033) isn't exceeded: the patent ends in 2028, plus 5 years is 2033."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Regulation (EC) No 469/2009 (SPCs), Art. 13 (duration).\n2. **EU law** — Regulation (EU) 2019/933 (SPC manufacturing waiver).\n3. **EU law** — Regulation (EC) No 1901/2006 (paediatric regulation), Art. 36 (6-month extension)."
+        }
+      ]
+    },
+    {
+      "id": "gl3-l03-two-clocks",
+      "title": "Exclusivity vs patents",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Two independent clocks\n\nModule 1 covered **regulatory protection**: data and market protection, set by medicines law. This module covers **patents and SPCs**, set by patent law. The two run independently and are enforced differently: agencies apply the first, courts apply the second."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m3/two-clocks.svg",
+          "alt": "Two bars: regulatory protection of 8 plus 2 years, and patent plus SPC protection; the earliest launch is the later end date; filing is possible from year 8",
+          "caption": "Two clocks decide the launch date",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.051
+        },
+        {
+          "type": "text",
+          "markdown": "## The launch rule\n\nThe earliest launch in a country is the **latest** of these dates:\n\n1. The end of market protection.\n2. The expiry of every patent the product would infringe.\n3. The expiry of any SPC, including a paediatric extension.\n\nThese dates can differ between countries, because SPCs and patents are national rights."
+        },
+        {
+          "type": "text",
+          "markdown": "## Agencies don't check patents\n\nIn the EU, a marketing authorisation can't be refused because a patent is in force. There's no 'patent linkage'. This means you can hold a valid licence and still be blocked by a patent. Holding a licence is not the same as being allowed to launch."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** file early, so you hold the licence by the time the latest clock runs out, but never treat the grant date as the launch date."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl3-l03-two-clocks-fc1",
+              "front": "Launch rule",
+              "back": "Earliest launch = the latest of: market protection end, patent expiry, and SPC (+ paediatric) expiry, country by country."
+            },
+            {
+              "id": "gl3-l03-two-clocks-fc2",
+              "front": "No patent linkage",
+              "back": "EU agencies don't refuse marketing authorisations because of patents. Courts enforce patents separately."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl3-l03-two-clocks-q1",
+              "stem": "A generic gets its licence in 2027. The SPC expires in 2029. When can it launch, absent litigation?",
+              "options": [
+                "2027, because the licence is granted",
+                "2029, when the SPC expires",
+                "Never",
+                "2028"
+              ],
+              "correctIndex": 1,
+              "explanation": "A licence doesn't override a patent or SPC. Launch waits for the later of the two clocks."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 10(1) (protection periods); Regulation (EC) No 726/2004, Art. 81(1), and the Commission's position on patent linkage (marketing authorisations can't be refused on patent grounds).\n2. **EU law** — Regulation (EC) No 469/2009."
+        }
+      ]
+    },
+    {
+      "id": "gl3-l04-bolar",
+      "title": "The Bolar exemption",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## What you may do before expiry\n\nThe **Bolar exemption** (*exemption Bolar*) says that the studies and trials needed to obtain a generic marketing authorisation don't infringe a patent or SPC. Without it, generics couldn't prepare in advance, and launches would start years after expiry."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m3/bolar-now-and-after-reform.svg",
+          "alt": "Before patent/SPC expiry, today vs after reform: studies and licensing allowed in both; pricing, reimbursement, tenders vary today, allowed after; stockpiling only via SPC waiver; selling infringes",
+          "caption": "The Bolar exemption: what you may do before expiry",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.86
+        },
+        {
+          "type": "text",
+          "markdown": "## Today\n\nThe exemption is in Art. 10(6) of Directive 2001/83/EC, but each country wrote it into its own patent law, with differences. In some countries it's unclear whether pricing and reimbursement applications, or tender bids, are covered."
+        },
+        {
+          "type": "text",
+          "markdown": "## After the reform\n\nThe pharma package agreed in December 2025 broadens and harmonises the exemption. It explicitly covers activities for:\n\n- marketing authorisations\n- health technology assessments\n- pricing and reimbursement\n- **procurement tenders** (*appels d'offres*)\n\nIt applies once the new law is adopted and the transition period has passed."
+        },
+        {
+          "type": "text",
+          "markdown": "## What Bolar never covers\n\nSelling the product before expiry is infringement, today and after the reform. Manufacturing stock for an EU launch is only possible through the SPC manufacturing waiver (Lesson 2), in the last 6 months of the SPC."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** today, ask patent counsel country by country whether pricing and tender steps may start before expiry. After the reform, these steps can run in parallel with the patent clock, which can bring launches forward."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl3-l04-bolar-fc1",
+              "front": "Bolar exemption",
+              "back": "Studies and steps needed for generic approval don't infringe patents or SPCs (Art. 10(6)). FR: exemption Bolar."
+            },
+            {
+              "id": "gl3-l04-bolar-fc2",
+              "front": "Bolar after the reform",
+              "back": "Will explicitly also cover HTA, pricing and reimbursement, and tender submissions, once the pharma package applies."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl3-l04-bolar-q1",
+              "stem": "Before SPC expiry, which activity is clearly covered by the Bolar exemption today, in every EU country?",
+              "options": [
+                "Selling small quantities",
+                "Running the bioequivalence study and obtaining the licence",
+                "Bidding in hospital tenders",
+                "Stockpiling at any time"
+              ],
+              "correctIndex": 1,
+              "explanation": "Studies and licensing are the core of Bolar. Tender and pricing coverage varies by country today, and stockpiling needs the SPC waiver."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 10(6).\n2. **EU** — Council and Parliament press releases on the pharma package, 11 December 2025.\n3. **Secondary** — Baker McKenzie, Potter Clarkson, Bird & Bird, ALTIUS, and IBA summaries of the expanded Bolar exemption (context).\n4. **EU law** — Regulation (EU) 2019/933 (SPC waiver)."
+        }
+      ]
+    },
+    {
+      "id": "gl3-l05-fto",
+      "title": "Freedom to operate",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Can this product launch without infringing?\n\nA **freedom-to-operate** analysis (*liberté d'exploitation*), or FTO, answers that question for a specific product in specific countries. Patent attorneys search the patents in force, check whether the product falls within them, and assess whether they're likely to be valid."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m3/fto-flow.svg",
+          "alt": "Flow from patent search to analysis to an FTO opinion per country, branching into four outcomes: clear, design around, challenge by opposition, or licence or wait",
+          "caption": "Freedom to operate: from search to decision",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.222
+        },
+        {
+          "type": "text",
+          "markdown": "## Four ways forward\n\n1. **Clear:** no blocking patent, so plan the launch.\n2. **Design around:** change the salt, form, formulation or process to avoid a secondary patent. This usually needs regulatory work.\n3. **Challenge:** attack the patent. An **opposition** (*opposition*) at the European Patent Office is possible within 9 months of grant, and covers all countries at once. Court actions for invalidity are also possible.\n4. **Licence or wait:** agree a licence with the patent holder, or wait for expiry."
+        },
+        {
+          "type": "text",
+          "markdown": "### Process card: FTO opinion\n\n- What it is: a written opinion on whether the product can be marketed in specific countries without infringing valid patents\n- Who owns it: patent counsel (internal or external); BD and RA supply product details\n- Inputs: the product's exact composition and process, the target countries, the patent landscape\n- Output: an FTO opinion per country, with conditions and risk ratings\n- Typical duration: weeks to a few months\n- What makes it slip: late or incomplete product details from the dossier owner, new patents granted during the project\n- PM watch-points: get the FTO before committing launch stock, and update it if the formulation or process changes"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** an FTO that comes late, or changes late, can move the launch or force a design change. Put the FTO opinion on the plan as a launch gate."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl3-l05-fto-fc1",
+              "front": "FTO",
+              "back": "Freedom to operate: an opinion on whether a specific product can launch in specific countries without infringing valid patents. FR: liberté d'exploitation."
+            },
+            {
+              "id": "gl3-l05-fto-fc2",
+              "front": "EPO opposition",
+              "back": "A challenge to a European patent within 9 months of grant, which decides validity for all countries at once. FR: opposition."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl3-l05-fto-q1",
+              "stem": "A formulation patent blocks the planned product until 2031, but the compound SPC ends in 2028. What could bring launch back to 2028?",
+              "options": [
+                "Nothing",
+                "Designing around the formulation patent, or successfully challenging it",
+                "Filing a variation",
+                "Using the Bolar exemption"
+              ],
+              "correctIndex": 1,
+              "explanation": "Secondary patents can sometimes be avoided or invalidated. Bolar doesn't allow sales."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Law** — European Patent Convention, Art. 99 (opposition within 9 months).\n2. **Practice** — FTO process (labelled as practice)."
+        }
+      ]
+    },
+    {
+      "id": "gl3-l06-launch-at-risk",
+      "title": "Launch at risk and injunctions",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Launching while a patent is still in force\n\nSometimes a company believes a patent is invalid, or that its product doesn't infringe it, and decides to launch anyway before the patent expires. That's a **launch at risk** (*lancement à risque*). If a court later upholds the patent, the company may have to stop selling and pay damages."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m3/launch-risk-grid.svg",
+          "alt": "Illustrative grid of four country situations with patent status, injunction risk and decision, plus definitions of preliminary injunction, damages and the Unified Patent Court",
+          "caption": "Launch at risk: a country-by-country decision",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.86
+        },
+        {
+          "type": "text",
+          "markdown": "## The tools on the other side\n\nA **preliminary injunction** (*injonction provisoire*) is a fast court order that stops sales while the full case is decided. How easily courts grant one differs widely between countries.\n\nSince June 2023, the **Unified Patent Court** (*juridiction unifiée du brevet*), or UPC, can decide on many European patents for all participating EU states at once. One ruling can therefore affect several markets."
+        },
+        {
+          "type": "text",
+          "markdown": "## Who decides\n\nA launch at risk is a management decision, taken on legal advice. The PM's role is to make the dates, conditions and scenarios visible, for example a plan with and without an injunction. Practices and risk appetite vary by company and country."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** for launch-at-risk products, plan scenarios rather than one date. Stock, artworks and tenders must be able to stop or start quickly."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl3-l06-launch-at-risk-fc1",
+              "front": "Launch at risk",
+              "back": "Launching before a patent expires, on the view that it's invalid or not infringed. The risk is an injunction plus damages. FR: lancement à risque."
+            },
+            {
+              "id": "gl3-l06-launch-at-risk-fc2",
+              "front": "Preliminary injunction",
+              "back": "A fast court order stopping sales while a case is decided. FR: injonction provisoire."
+            },
+            {
+              "id": "gl3-l06-launch-at-risk-fc3",
+              "front": "UPC",
+              "back": "Unified Patent Court: since June 2023, one ruling can cover all participating EU states. FR: juridiction unifiée du brevet."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl3-l06-launch-at-risk-q1",
+              "stem": "What does the Unified Patent Court change for launch-at-risk planning?",
+              "options": [
+                "Nothing",
+                "One ruling can stop sales in several participating countries at once",
+                "It removes SPCs",
+                "It approves generics"
+              ],
+              "correctIndex": 1,
+              "explanation": "Before the UPC, patent cases ran country by country. Now one court can rule for many states."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Law** — Agreement on a Unified Patent Court (in operation since 1 June 2023).\n2. **Practice** — launch-at-risk practice and national injunction standards (labelled as practice; national law varies)."
+        }
+      ]
+    },
+    {
+      "id": "gl3-l07-names",
+      "title": "Trademarks and invented names",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## What the product is called\n\nUnder EU law, a medicine's name can be an **invented name** (*nom de fantaisie*), which must not be confusable with the common name, or the common name together with a trademark or the MAH's name. The common name is usually the **INN** (*DCI, dénomination commune internationale*), the International Nonproprietary Name."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m3/naming-funnel.svg",
+          "alt": "Funnel from name ideas through trademark search and safety check to acceptance by each agency",
+          "caption": "Choosing a product name",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.905
+        },
+        {
+          "type": "text",
+          "markdown": "## Two separate checks\n\n**Trademark:** the name must be free to use and registrable, for example at the EU Intellectual Property Office (EUIPO) or nationally. This is a legal check.\n\n**Safety:** each agency checks that the name can't be confused with another medicine, in writing or when spoken. For centralised products, the EMA does this; in national procedures, each agency does it. This is a patient-safety check."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why many generics avoid invented names\n\nMany generics simply use the INN plus the company name, for example 'Substance Company 10 mg tablets'. That avoids trademark searches and reduces the risk of rejection. In a DCP the name may differ from country to country, which affects artworks (Module 8)."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** an invented name needs trademark clearance before filing, and can still be rejected by an agency. An INN plus company name is faster and safer for most generics."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl3-l07-names-fc1",
+              "front": "INN",
+              "back": "International Nonproprietary Name: the common name of a substance, e.g. 'rosuvastatin'. FR: DCI (dénomination commune internationale)."
+            },
+            {
+              "id": "gl3-l07-names-fc2",
+              "front": "Invented name",
+              "back": "A brand-style name that must not be confusable with the INN or other medicines. FR: nom de fantaisie."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl3-l07-names-q1",
+              "stem": "Why do many generics use 'INN + company name'?",
+              "options": [
+                "It's required by law",
+                "It avoids trademark clearance and lowers the risk of name rejection",
+                "Agencies prefer brands",
+                "It extends patent protection"
+              ],
+              "correctIndex": 1,
+              "explanation": "Invented names need trademark checks and safety acceptance by each agency. INN + company name sidesteps most of that."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 1(20) (name of the medicinal product), Art. 1(21) (common name).\n2. **EU guidance** — EMA, Guideline on the acceptability of names for human medicinal products processed through the centralised procedure (as the reference for name checks)."
+        }
+      ]
+    },
+    {
+      "id": "gl3-l08-recap",
+      "title": "Recap: earliest launch date",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The master grid\n\nFor every product and every country, the PM keeps one row. Each date comes from a different owner: RA, patent counsel and BD. The earliest possible launch is the latest date in the row."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m3/earliest-launch-grid.svg",
+          "alt": "Grid by country with market protection end, patent end, SPC end, open disputes and the resulting earliest launch date (illustrative values)",
+          "caption": "Earliest launch date, per country",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.105
+        },
+        {
+          "type": "text",
+          "markdown": "## Three questions for every new product\n\n1. When does market protection end, and under which regime (today's 8 + 2 + 1, or the reform's)?\n2. Which patents and SPCs apply in each country, and when do they expire, including paediatric extensions?\n3. Is there an FTO, and does it allow this product, or does a design-around or challenge decide the date?"
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl3-l08-recap-q1",
+              "stem": "Market protection ends in March 2028. The SPC ends in December 2029 in Germany, and there's no SPC in country X. What's the earliest launch in each?",
+              "options": [
+                "March 2028 in both",
+                "December 2029 in Germany; March 2028 in country X (if no other patent applies)",
+                "December 2029 in both",
+                "2026 in both"
+              ],
+              "correctIndex": 1,
+              "explanation": "SPCs are national. Without one, country X is bound only by market protection and any other patents."
+            },
+            {
+              "id": "gl3-l08-recap-q2",
+              "stem": "Which of these can a generic company do before SPC expiry, using the SPC waiver?",
+              "options": [
+                "Sell in the EU",
+                "Stockpile for an EU launch during the last 6 months, after notification",
+                "Ignore patents entirely",
+                "Register the patent itself"
+              ],
+              "correctIndex": 1,
+              "explanation": "The 2019 waiver allows EU manufacturing for export, and stockpiling in the final 6 months, with prior notification."
+            },
+            {
+              "id": "gl3-l08-recap-q3",
+              "stem": "Who decides on a launch at risk?",
+              "options": [
+                "The PM",
+                "Management, on legal advice",
+                "The EMA",
+                "The wholesaler"
+              ],
+              "correctIndex": 1,
+              "explanation": "It's a business decision with legal risk. The PM makes the scenarios and dates visible."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Course** — Module 1, Lesson 4; Module 3, Lessons 1–7."
+        }
+      ]
+    }
+  ]
+}

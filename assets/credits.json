@@ -36,6 +36,30 @@
           "lesson": "gl4-l01-gmp-gdp"
         }
       ]
+    },
+    {
+      "src": "assets/gl-m5/qc-lab.webp",
+      "credit": "Wikimedia Commons / Root66",
+      "license": "CC-BY-SA-3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laboratoires_Arkopharma_-_Laboratoire_de_controle_-_Chromatographie_liquide.JPG",
+      "usedIn": [
+        {
+          "module": "gl-m5-manufacturing",
+          "lesson": "gl5-l05-release"
+        }
+      ]
+    },
+    {
+      "src": "assets/gl-m5/tablet-press.webp",
+      "credit": "Wikimedia Commons / Robin Müller",
+      "license": "CC-BY-SA-3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rundl%C3%A4uferpresse_an_der_Uni_T%C3%BCbingen,_in_Betrieb_05.jpg",
+      "usedIn": [
+        {
+          "module": "gl-m5-manufacturing",
+          "lesson": "gl5-l02-manufacturing"
+        }
+      ]
     }
   ]
 }

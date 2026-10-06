@@ -1,0 +1,578 @@
+{
+  "schemaVersion": 4,
+  "id": "gl-m6-india-import",
+  "title": "Generics & launch 6: Importing from India",
+  "discipline": "Generics & launch",
+  "version": 1,
+  "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
+  "lessons": [
+    {
+      "id": "gl6-l01-third-country",
+      "title": "Why importing is different",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A product from outside the EU\n\nA **third country** (*pays tiers*) is any country outside the EU and EEA. When a finished product is made in a third country such as India, EU law adds steps that don't exist for products made inside the EU."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m6/india-to-eu-route.svg",
+          "alt": "Route from a plant in India through shipping to the EU importer, full EU testing, QP certification and the market, with the EU-only steps highlighted",
+          "caption": "From an Indian plant to an EU pharmacy",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.133
+        },
+        {
+          "type": "text",
+          "markdown": "## The three extra steps\n\n1. The product must enter through an EU site holding a manufacturing and importation authorisation (Lesson 2).\n2. Each batch must be fully analysed in the EU, unless an agreement with the exporting country removes this requirement. There isn't one for India (Lesson 3).\n3. A QP at the EU site must certify each batch, using that EU analysis (Lesson 4).\n\nOn top of these, the Indian sites must hold EU-recognised GMP status (Lesson 5). An API made in India needs a written confirmation from the Indian authority (Lesson 6)."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** each extra step adds time and needs an owner. Build them into the plan from the start, not after the licence is granted."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl6-l01-third-country-fc1",
+              "front": "Third country",
+              "back": "Any country outside the EU/EEA, for example India. Products from there go through extra EU import steps. FR: pays tiers."
+            },
+            {
+              "id": "gl6-l01-third-country-fc2",
+              "front": "Three extra import steps",
+              "back": "Entry through an EU site with an importation authorisation, full EU analysis of each batch (no agreement with India), and QP certification."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl6-l01-third-country-q1",
+              "stem": "Which step applies to a product made in India but not to one made in Germany?",
+              "options": [
+                "QP certification",
+                "Full analysis of each batch in the EU on import",
+                "A marketing authorisation",
+                "GMP compliance"
+              ],
+              "correctIndex": 1,
+              "explanation": "Both need QP certification, GMP and a licence. Full EU re-analysis applies to imports without an MRA."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 40(3) (importation authorisation), Art. 51 (testing and certification of imported batches), Art. 46b (API imports), Art. 111 (inspections)."
+        }
+      ]
+    },
+    {
+      "id": "gl6-l02-importer",
+      "title": "The EU importer",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The product's front door\n\nA product from India can't simply arrive at a wholesaler. It must enter through an EU site that holds a **manufacturing and importation authorisation** (MIA). That site receives the goods, stores them, has them tested, and provides the QP who certifies each batch."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m6/eu-importer-role.svg",
+          "alt": "EU importer holding an MIA, connected to four functions: physical import, storage, testing, and QP certification as the batch release site",
+          "caption": "The EU importer: the product's front door",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.105
+        },
+        {
+          "type": "text",
+          "markdown": "## Often a service provider\n\nMany MAHs don't run their own import site. Instead they contract an **importer** (*importateur*) that offers import, testing and QP release as a service. The **batch release site** (*site de libération des lots*) must be named in the dossier, and changing it later needs a variation."
+        },
+        {
+          "type": "text",
+          "markdown": "### Process card: Setting up the EU importer\n\n- What it is: choosing and contracting the EU site that imports, tests and releases the product\n- Who owns it: Quality (QA/QP) with supply chain; RA adds the site to the dossier\n- Inputs: the product, the volumes, the test methods (method transfer to the EU lab), the GMP status of the site\n- Output: a signed quality agreement, methods transferred and validated at the EU lab, and the site named in the licence\n- Typical duration: weeks to months; method transfer is often the longest step\n- What makes it slip: late test methods or reference standards from the manufacturer, lab capacity, contract negotiation\n- PM watch-points: decide the importer before filing, because it goes into the dossier, and start method transfer early"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** the importer and its testing lab must be ready, with methods transferred, before the first commercial batch arrives. Otherwise stock waits in the warehouse."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl6-l02-importer-fc1",
+              "front": "Importer (MIA holder)",
+              "back": "The EU site that imports, stores, tests and QP-releases third-country products. Named in the dossier. FR: importateur."
+            },
+            {
+              "id": "gl6-l02-importer-fc2",
+              "front": "Batch release site",
+              "back": "The EU site where the QP certifies batches. Changing it needs a variation. FR: site de libération des lots."
+            },
+            {
+              "id": "gl6-l02-importer-fc3",
+              "front": "Method transfer",
+              "back": "Setting up and validating the manufacturer's test methods at the EU lab. Often the longest importer task."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl6-l02-importer-q1",
+              "stem": "When should the EU importer be chosen?",
+              "options": [
+                "After launch",
+                "Before filing, because it's named in the dossier and needs method transfer",
+                "Only when the first batch ships",
+                "It's chosen by the wholesaler"
+              ],
+              "correctIndex": 1,
+              "explanation": "The release site is part of the licence, and its lab needs the test methods transferred and validated in time."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 40–41 (manufacturing and importation authorisation).\n2. **EU guidance** — EudraLex Vol. 4, Annex 16; Chapter 7 (outsourced activities).\n3. **Practice** — contract importer services and method transfer (labelled as practice)."
+        }
+      ]
+    },
+    {
+      "id": "gl6-l03-mra",
+      "title": "EU testing and the missing MRA",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Why every batch from India is tested again\n\nUnder EU law, each batch imported from a third country must undergo, in the EU:\n\n- a full qualitative analysis\n- a quantitative analysis of at least all the active substances\n- all other tests needed to meet the marketing authorisation\n\nThis is **import testing** (*contrôle à l'importation*)."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m6/mra-or-not.svg",
+          "alt": "Two flows: with an MRA, the partner's batch certificate is accepted and the QP certifies without full re-testing; without one, as for India, full EU analysis of every batch precedes QP certification",
+          "caption": "Why there's no shortcut for India: the MRA question",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2
+        },
+        {
+          "type": "text",
+          "markdown": "## The exception: mutual recognition agreements\n\nThe EU has **mutual recognition agreements** (*accords de reconnaissance mutuelle*), or MRAs, with some countries, such as the US, Japan, Canada and Switzerland. Under these agreements, each side accepts the other's GMP inspections and batch testing, so full EU re-testing can be waived. India has no MRA with the EU, so every batch is re-analysed."
+        },
+        {
+          "type": "text",
+          "markdown": "## What this means in practice\n\nImport testing needs an EU lab, often at or contracted by the importer, along with the transferred methods, reference standards and samples. It takes time for each batch, usually days to a few weeks, and it costs money. That cost is part of the product's economics."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** add EU import testing to every batch's lead time, and book lab capacity ahead of launch, especially for the first batches."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl6-l03-mra-fc1",
+              "front": "Import testing",
+              "back": "Full EU analysis of each batch imported from a country without an MRA (Art. 51). FR: contrôle à l'importation."
+            },
+            {
+              "id": "gl6-l03-mra-fc2",
+              "front": "MRA",
+              "back": "Mutual recognition agreement: with partner countries such as the US or Japan, EU re-testing can be waived. None with India. FR: accord de reconnaissance mutuelle."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl6-l03-mra-q1",
+              "stem": "Why are batches from India fully re-tested in the EU, while batches from Japan may not be?",
+              "options": [
+                "India has stricter rules",
+                "The EU has an MRA with Japan but not with India",
+                "Japanese products are cheaper",
+                "Re-testing is optional for both"
+              ],
+              "correctIndex": 1,
+              "explanation": "Art. 51(2) allows the waiver only where an MRA, or equivalent arrangement, applies."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 51(1)(b) and 51(2).\n2. **EU** — European Commission and EMA pages on mutual recognition agreements (check the current list per country)."
+        }
+      ]
+    },
+    {
+      "id": "gl6-l04-qp-import",
+      "title": "QP certification of imports",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The QP's file for an imported batch\n\nThe QP certifies an imported batch only when the full picture is complete. For a product from India, the file is bigger than for an EU-made one."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m6/qp-import-document-stack.svg",
+          "alt": "Eight documents leading to QP certification: CoA, batch record review, EU import tests, transport conditions, site GMP status, API written confirmation and GMP declaration, deviations, licence",
+          "caption": "What the QP needs for an imported batch",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.818
+        },
+        {
+          "type": "text",
+          "markdown": "## The usual checklist\n\n- The manufacturer's CoA and a review of the batch record (or a summary of it).\n- **EU import test results** (Lesson 3).\n- Transport conditions, including temperature records.\n- GMP status of every site in the chain (Lesson 5).\n- For the API: the written confirmation (Lesson 6) and a GMP declaration.\n- Deviations closed or assessed, and compliance with the marketing authorisation."
+        },
+        {
+          "type": "text",
+          "markdown": "## Who provides what\n\nMost of these documents come from the manufacturer in India. The quality agreement (Module 4) should list them, with deadlines. A missing temperature record, or an expired written confirmation, is enough to stop certification."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** agree a fixed document checklist with the manufacturer and the importer before the first shipment. Missing paperwork is a more common cause of delay than failed tests."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl6-l04-qp-import-fc1",
+              "front": "QP file for an import",
+              "back": "CoA, batch record review, EU test results, transport records, GMP status, API written confirmation, deviation closure, licence compliance."
+            },
+            {
+              "id": "gl6-l04-qp-import-fc2",
+              "front": "Commonest cause of import delay",
+              "back": "Missing paperwork, such as a temperature record or an expired written confirmation, more often than failed tests."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl6-l04-qp-import-q1",
+              "stem": "The EU test results are fine, but the temperature log of the shipment is missing. Can the QP certify?",
+              "options": [
+                "Yes, the tests passed",
+                "Not until the transport conditions are documented and assessed",
+                "Yes, if the wholesaler agrees",
+                "Only half the batch"
+              ],
+              "correctIndex": 1,
+              "explanation": "Transport conditions are part of the QP's assessment. Without them, the batch's quality can't be confirmed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — EudraLex Vol. 4, Annex 16 (certification by a QP and batch release), including imported products.\n2. **EU guidance** — Guidelines on GDP (2013/C 343/01), on transport conditions."
+        }
+      ]
+    },
+    {
+      "id": "gl6-l05-gmp-status",
+      "title": "EU GMP status of Indian sites",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Inspected by EU authorities\n\nSites outside the EU that supply the EU are inspected by EU authorities, usually the authority supervising the importer. Results are published in **EudraGMDP** (*base de données EudraGMDP*), the EU database of manufacturing authorisations, GMP certificates and non-compliance statements."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m6/reading-gmp-status-own.svg",
+          "alt": "Two cards: a GMP certificate with site, authority, inspection date and scope as valid evidence; and a non-compliance statement as a red flag that may restrict EU supply",
+          "caption": "Checking a site's GMP status",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.222
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m6/eudragmdp-search.webp",
+          "alt": "The public EudraGMDP search form for GMP compliance: fields for certificate number, dates and site details such as name, city and country, with an option to include non-compliance reports",
+          "caption": "The EudraGMDP search page for GMP certificates",
+          "credit": "© European Medicines Agency (EudraGMDP)",
+          "license": "EMA-reuse",
+          "sourceUrl": "https://eudragmdp.ema.europa.eu/inspections/gmpc/searchGMPCompliance.do",
+          "zoomable": true,
+          "aspectRatio": 1.732
+        },
+        {
+          "type": "text",
+          "markdown": "## Two documents to recognise\n\n- **GMP certificate:** the site passed an inspection for the listed activities and dosage forms.\n- **Non-compliance statement** (*déclaration de non-conformité*): the site failed. It can restrict or stop supply to the EU, sometimes for every product made there."
+        },
+        {
+          "type": "text",
+          "markdown": "## What to check\n\nFor each site:\n\n- Is it the right site and address?\n- Does the scope cover your activity and dosage form?\n- Is the certificate still in date?\n- Has a newer non-compliance statement been issued?\n\nCheck again before each major order, not just once."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** a non-compliance statement on a key Indian site can stop supply for months. Ask about the inspection history during the deal, and keep a backup plan for critical products."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl6-l05-gmp-status-fc1",
+              "front": "EudraGMDP",
+              "back": "The EU database of manufacturing authorisations, GMP certificates and non-compliance statements. FR: base de données EudraGMDP."
+            },
+            {
+              "id": "gl6-l05-gmp-status-fc2",
+              "front": "Non-compliance statement",
+              "back": "Issued when a site fails a GMP inspection; can restrict or stop EU supply. FR: déclaration de non-conformité."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl6-l05-gmp-status-q1",
+              "stem": "What does a non-compliance statement for the API site mean for your launch?",
+              "options": [
+                "Nothing",
+                "Supply from that site to the EU may be restricted or stopped, so launch is at risk",
+                "Only a price change",
+                "It affects US supply only"
+              ],
+              "correctIndex": 1,
+              "explanation": "EU authorities can block products and APIs from a non-compliant site."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 111 (inspections; GMP certificates; non-compliance).\n2. **EU** — EudraGMDP database (EMA).\n3. **Image** — own diagram; screenshot of the EudraGMDP search page, © European Medicines Agency, reproduced with acknowledgement (captured 6 October 2026)."
+        }
+      ]
+    },
+    {
+      "id": "gl6-l06-written-confirmation",
+      "title": "API written confirmation",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The API needs a passport too\n\nSince the Falsified Medicines Directive, an active substance imported into the EU must come with a **written confirmation** (*confirmation écrite*) from the exporting country's authority. For India, that's the national drug regulator."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m6/written-confirmation-flow.svg",
+          "alt": "Flow from the API site in India to the Indian authority issuing a written confirmation, allowing the API to be imported into the EU, with what the confirmation states",
+          "caption": "Importing the API: written confirmation",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.105
+        },
+        {
+          "type": "text",
+          "markdown": "## What it confirms\n\nThe written confirmation states three things:\n\n- the API site's GMP is at least equivalent to EU GMP\n- the site is regularly inspected\n- the authority will inform the EU of serious non-compliance\n\nIt's not needed for countries on the EU **equivalence list** (*liste d'équivalence*). India isn't on that list."
+        },
+        {
+          "type": "text",
+          "markdown": "## Treat it like a licence\n\nA written confirmation covers a specific API and site, and it has an expiry date. If it expires, the API can't be imported, so no finished product can be made for the EU from that API. Track expiry dates and request renewals early."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** an expired written confirmation can silently block an API delivery months before launch. Put the expiry dates in the risk register."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl6-l06-written-confirmation-fc1",
+              "front": "Written confirmation",
+              "back": "From the exporting country's authority: confirms that the API site's GMP is equivalent to the EU's. Required for API imports from countries such as India. FR: confirmation écrite."
+            },
+            {
+              "id": "gl6-l06-written-confirmation-fc2",
+              "front": "Equivalence list",
+              "back": "Countries whose API oversight the EU considers equivalent; no written confirmation needed. India isn't listed. FR: liste d'équivalence."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl6-l06-written-confirmation-q1",
+              "stem": "The API's written confirmation expires next month. What's the risk?",
+              "options": [
+                "None",
+                "The API can't be imported once it expires, which blocks EU manufacturing",
+                "Only a price increase",
+                "A new patent"
+              ],
+              "correctIndex": 1,
+              "explanation": "Without a valid written confirmation (or equivalence listing), the API can't enter the EU."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 46b (introduced by Directive 2011/62/EU, the Falsified Medicines Directive); Art. 111b (equivalence list).\n2. **EU guidance** — European Commission and EMA questions and answers on importing active substances."
+        }
+      ]
+    },
+    {
+      "id": "gl6-l07-logistics",
+      "title": "Logistics and customs",
+      "xpReward": 35,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Moving the goods\n\nFinished products travel from India to the EU importer by sea or by air. Both have to meet Good Distribution Practice, including temperature control and documentation."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m6/import-logistics-own.svg",
+          "alt": "Sea versus air freight, plus four logistics checkpoints: GDP transport and temperature monitoring, customs clearance, temperature excursions assessed by the QP, and shipping documents",
+          "caption": "Logistics: getting the goods to the EU importer",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.051
+        },
+        {
+          "type": "text",
+          "markdown": "## Choices and checkpoints\n\n- **Sea or air:** sea freight is cheaper but takes weeks; air freight takes days. Launch stock often goes by air. This is practice; the durations are illustrative.\n- **Temperature:** data loggers record the conditions during transport. If the temperature goes outside the allowed range, that's a **temperature excursion** (*excursion de température*), and the QP must assess it before release.\n- **Customs:** the goods clear EU customs, with the importer as consignee.\n- **Documents:** the CoA, packing list and temperature records travel with the shipment."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** first launch shipments deserve extra buffer: new routes, new paperwork and new customs set-ups often cause small delays that add up."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl6-l07-logistics-fc1",
+              "front": "Temperature excursion",
+              "back": "Transport outside the allowed temperature range; the QP must assess it before release. FR: excursion de température."
+            },
+            {
+              "id": "gl6-l07-logistics-fc2",
+              "front": "Sea or air",
+              "back": "Sea freight is cheaper but takes weeks; air takes days. Launch stock often goes by air (practice; durations illustrative)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl6-l07-logistics-q1",
+              "stem": "Why is launch stock often sent by air?",
+              "options": [
+                "Air freight is cheaper",
+                "It's much faster, which protects tight launch dates",
+                "Customs requires it",
+                "GDP forbids sea freight"
+              ],
+              "correctIndex": 1,
+              "explanation": "Air costs more but takes days instead of weeks. This is a planning choice, not a rule."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — Guidelines on GDP (2013/C 343/01), Chapter 9 (transportation).\n2. **Practice** — freight choices and durations (labelled as practice).\n3. **Image** — own diagram (no licence-clean Commons freight photo without people or brand names was found)."
+        }
+      ]
+    },
+    {
+      "id": "gl6-l08-delays",
+      "title": "Typical delays and buffers",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Where import timelines slip\n\nMost import delays come from a short list of causes. Knowing them helps you ask the right questions early and plan buffers that match reality."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m6/import-delays-buffers.svg",
+          "alt": "Table of six import risks with typical delays, from site GMP problems and expired written confirmations (months) to testing capacity, documents, customs and temperature excursions (days to weeks)",
+          "caption": "Where import timelines slip, and the buffers to plan",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.975
+        },
+        {
+          "type": "text",
+          "markdown": "## A simple routine\n\nBefore every order:\n\n1. Check the GMP status of every site.\n2. Check the expiry dates of the written confirmations.\n3. Confirm the EU testing slot.\n4. Confirm the document checklist with the manufacturer.\n\nAfter each shipment, note any delay and its cause, so your buffers reflect your partners' real track record. This routine is practice, not regulation."
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl6-l08-delays-q1",
+              "stem": "Which import risk usually causes the longest delay?",
+              "options": [
+                "A missing packing list",
+                "A non-compliance statement or a GMP problem at a key site",
+                "A customs form",
+                "A late courier"
+              ],
+              "correctIndex": 1,
+              "explanation": "GMP problems at a site can stop supply for months. The others typically cost days or weeks."
+            },
+            {
+              "id": "gl6-l08-delays-q2",
+              "stem": "What's the single best habit for avoiding import delays?",
+              "options": [
+                "Ordering more stock",
+                "Checking GMP status, written confirmations, testing slots and documents before every order",
+                "Using sea freight",
+                "Changing importer often"
+              ],
+              "correctIndex": 1,
+              "explanation": "Most delays are predictable from these four checks."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** set import buffers from your partners' real track record, not best-case durations, and run the four checks before every order."
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Course** — Module 6, Lessons 1–7.\n2. **Practice** — delay patterns and buffers (labelled as practice)."
+        }
+      ]
+    }
+  ]
+}

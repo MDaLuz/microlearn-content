@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 13,
   "updated": "2026-10-05",
   "entries": [
     {
@@ -4118,8 +4118,7 @@
       "term": "EU GMP certificate",
       "aliases": [
         "EU GMP certificate",
-        "GMP certificate",
-        "EudraGMDP"
+        "GMP certificate"
       ],
       "category": "launch",
       "short": "Issued after a successful inspection; published in the EU database EudraGMDP.",
@@ -4949,6 +4948,239 @@
       ],
       "translations": {
         "fr": "transfert de technologie"
+      }
+    },
+    {
+      "id": "third-country",
+      "term": "Third country",
+      "aliases": [
+        "third country",
+        "third countries",
+        "third-country"
+      ],
+      "category": "launch",
+      "short": "Any country outside the EU/EEA, e.g. India.",
+      "simpler": "Anywhere outside the EU club.",
+      "example": {
+        "moduleId": "gl-m6-india-import",
+        "text": "Module 6, Lesson 1: products from third countries go through extra import steps."
+      },
+      "notToConfuse": "Not 'non-EU language': Switzerland is a third country too, though it has an MRA.",
+      "related": [
+        "import-testing",
+        "mra"
+      ],
+      "modules": [
+        "gl-m6-india-import"
+      ],
+      "translations": {
+        "fr": "pays tiers"
+      }
+    },
+    {
+      "id": "import-testing",
+      "term": "Import testing",
+      "aliases": [
+        "import testing",
+        "full analysis",
+        "EU import testing",
+        "EU testing"
+      ],
+      "category": "launch",
+      "short": "Full EU analysis of each batch imported from a country without an MRA (Art. 51).",
+      "simpler": "Re-marking the exam at home.",
+      "example": {
+        "moduleId": "gl-m6-india-import",
+        "text": "Module 6, Lesson 3: adds days to weeks per batch."
+      },
+      "notToConfuse": "Not the manufacturer's own QC testing.",
+      "related": [
+        "mra",
+        "third-country"
+      ],
+      "modules": [
+        "gl-m6-india-import"
+      ],
+      "translations": {
+        "fr": "contrôle à l'importation"
+      }
+    },
+    {
+      "id": "mra",
+      "term": "MRA",
+      "aliases": [
+        "MRA",
+        "mutual recognition agreement",
+        "mutual recognition agreements"
+      ],
+      "category": "launch",
+      "short": "An agreement under which the EU and a partner country accept each other's GMP inspections and batch testing.",
+      "simpler": "Trusting each other's exam results.",
+      "example": {
+        "moduleId": "gl-m6-india-import",
+        "text": "Module 6, Lesson 3: none with India, so full EU re-testing applies."
+      },
+      "notToConfuse": "Not the mutual recognition procedure (MRP) for licences.",
+      "related": [
+        "import-testing"
+      ],
+      "modules": [
+        "gl-m6-india-import"
+      ],
+      "translations": {
+        "fr": "accord de reconnaissance mutuelle (ARM)"
+      }
+    },
+    {
+      "id": "batch-release-site",
+      "term": "Batch release site",
+      "aliases": [
+        "batch release site",
+        "site of batch release"
+      ],
+      "category": "launch",
+      "short": "The EU site where the QP certifies batches; named in the dossier.",
+      "simpler": "The final checkpoint's address.",
+      "example": {
+        "moduleId": "gl-m6-india-import",
+        "text": "Module 6, Lesson 2: changing it needs a variation."
+      },
+      "notToConfuse": "Not necessarily the manufacturing site.",
+      "related": [
+        "mia",
+        "qualified-person"
+      ],
+      "modules": [
+        "gl-m6-india-import"
+      ],
+      "translations": {
+        "fr": "site de libération des lots"
+      }
+    },
+    {
+      "id": "method-transfer",
+      "term": "Method transfer",
+      "aliases": [
+        "method transfer",
+        "analytical method transfer"
+      ],
+      "category": "launch",
+      "short": "Setting up and validating the manufacturer's test methods at another lab, e.g. the EU import-testing lab.",
+      "simpler": "Teaching a second lab to run the same test the same way.",
+      "example": {
+        "moduleId": "gl-m6-india-import",
+        "text": "Module 6, Lesson 2: often the longest importer task."
+      },
+      "notToConfuse": "Not tech transfer of the manufacturing process.",
+      "related": [
+        "import-testing",
+        "tech-transfer"
+      ],
+      "modules": [
+        "gl-m6-india-import"
+      ],
+      "translations": {
+        "fr": "transfert de méthodes analytiques"
+      }
+    },
+    {
+      "id": "eudragmdp",
+      "term": "EudraGMDP",
+      "aliases": [
+        "EudraGMDP"
+      ],
+      "category": "launch",
+      "short": "The EU database of manufacturing authorisations, GMP certificates and non-compliance statements.",
+      "simpler": "The public register of factory inspection results.",
+      "example": {
+        "moduleId": "gl-m6-india-import",
+        "text": "Module 6, Lesson 5: check each site before every major order."
+      },
+      "notToConfuse": "Not EudraVigilance (safety reports).",
+      "related": [
+        "gmp-certificate",
+        "non-compliance-statement"
+      ],
+      "modules": [
+        "gl-m6-india-import"
+      ],
+      "translations": {
+        "fr": "EudraGMDP"
+      }
+    },
+    {
+      "id": "non-compliance-statement",
+      "term": "Non-compliance statement",
+      "aliases": [
+        "non-compliance statement",
+        "statement of non-compliance"
+      ],
+      "category": "launch",
+      "short": "Issued when a site fails a GMP inspection; can restrict or stop EU supply.",
+      "simpler": "A red card for a factory.",
+      "example": {
+        "moduleId": "gl-m6-india-import",
+        "text": "Module 6, Lesson 5: can stop supply for months."
+      },
+      "notToConfuse": "Not a minor inspection observation.",
+      "related": [
+        "eudragmdp",
+        "gmp-certificate"
+      ],
+      "modules": [
+        "gl-m6-india-import"
+      ],
+      "translations": {
+        "fr": "déclaration de non-conformité"
+      }
+    },
+    {
+      "id": "equivalence-list",
+      "term": "Equivalence list",
+      "aliases": [
+        "equivalence list"
+      ],
+      "category": "launch",
+      "short": "Countries whose API oversight the EU considers equivalent; APIs from them need no written confirmation. India isn't listed.",
+      "simpler": "The EU's list of trusted API regulators.",
+      "example": {
+        "moduleId": "gl-m6-india-import",
+        "text": "Module 6, Lesson 6: Art. 111b."
+      },
+      "notToConfuse": "Not the MRA list.",
+      "related": [
+        "written-confirmation"
+      ],
+      "modules": [
+        "gl-m6-india-import"
+      ],
+      "translations": {
+        "fr": "liste d'équivalence"
+      }
+    },
+    {
+      "id": "temperature-excursion",
+      "term": "Temperature excursion",
+      "aliases": [
+        "temperature excursion",
+        "temperature excursions"
+      ],
+      "category": "launch",
+      "short": "Storage or transport outside the allowed temperature range; must be assessed before release.",
+      "simpler": "The truck got too hot or too cold.",
+      "example": {
+        "moduleId": "gl-m6-india-import",
+        "text": "Module 6, Lesson 7."
+      },
+      "notToConfuse": "Not a stability failure by itself.",
+      "related": [
+        "gdp"
+      ],
+      "modules": [
+        "gl-m6-india-import"
+      ],
+      "translations": {
+        "fr": "excursion de température"
       }
     }
   ]

@@ -60,6 +60,18 @@
           "lesson": "gl5-l02-manufacturing"
         }
       ]
+    },
+    {
+      "src": "assets/gl-m6/eudragmdp-search.webp",
+      "credit": "© European Medicines Agency (EudraGMDP)",
+      "license": "EMA-reuse",
+      "sourceUrl": "https://eudragmdp.ema.europa.eu/inspections/gmpc/searchGMPCompliance.do",
+      "usedIn": [
+        {
+          "module": "gl-m6-india-import",
+          "lesson": "gl6-l05-gmp-status"
+        }
+      ]
     }
   ]
 }

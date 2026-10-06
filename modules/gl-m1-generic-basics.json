@@ -3,7 +3,7 @@
   "id": "gl-m1-generic-basics",
   "title": "Generics & launch 1: Generic drug basics",
   "discipline": "Generics & launch",
-  "version": 2,
+  "version": 3,
   "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
   "lessons": [
     {
@@ -267,7 +267,7 @@
         },
         {
           "type": "text",
-          "markdown": "## The reform: 8 + 1, with extensions\n\nIn December 2025, the Parliament and the Council reached political agreement on the EU 'pharma package', which will replace Directive 2001/83/EC. It keeps 8 years of data protection but cuts the standard market protection to **1 year**. Extensions are possible, for example for a significant new indication, up to a combined cap of 11 years. The package also widens the Bolar exemption (Module 3).\n\nThe new rules apply only after formal adoption and a transition period. The EMA expects them to become applicable around 2028. Which existing reference products move to the new regime is set by the final transitional provisions. Until RA confirms otherwise, plan with today's 8 + 2 (+1)."
+          "markdown": "## The reform: 8 + 1, with extensions\n\nIn December 2025, the Parliament and the Council reached political agreement on the EU 'pharma package', which will replace Directive 2001/83/EC. It keeps 8 years of data protection but cuts the standard market protection to **1 year**. Extensions are possible, for example for a significant new indication, up to a combined cap of 11 years. The package also widens the Bolar exemption (Module 3).\n\nThe new rules apply only after formal adoption and a transition period. The EMA expects them to become applicable around 2028. Under the agreed transitional rules, reference products whose marketing authorisation application was submitted before the new law enters into force keep today's protection periods. So for practically every reference product you'll meet in the coming years, today's 8 + 2 (+1) applies."
         },
         {
           "type": "text",
@@ -330,7 +330,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 10(1) (8 + 2 (+1)).\n2. **EU** — European Parliament press release, 11 December 2025 (provisional agreement: 8 years of data protection + 1 year of market protection; 11-year cap). Council press release, 11 December 2025, updated 6 March 2026 with the agreed texts.\n3. **EU** — EMA, 'Reform of the EU pharmaceutical legislation' (implementation timeline: applicable around 2028).\n4. **Secondary** — law-firm summaries (Cooley, Morgan Lewis, Taylor Wessing, A&O Shearman), used for context only."
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 10(1) (8 + 2 (+1)).\n2. **EU** — European Parliament press release, 11 December 2025 (provisional agreement: 8 years of data protection + 1 year of market protection; 11-year cap). Council press release, 11 December 2025, updated 6 March 2026 with the agreed texts.\n3. **EU** — EMA, 'Reform of the EU pharmaceutical legislation' (implementation timeline: applicable around 2028).\n4. **Secondary** — law-firm summaries (Cooley, Morgan Lewis, Taylor Wessing, A&O Shearman), used for context; Baker McKenzie, 'EU Pharma Package: a landmark political deal sealed' (11 December 2025), for the transitional rule."
         }
       ]
     },

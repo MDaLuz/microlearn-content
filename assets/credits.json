@@ -24,6 +24,18 @@
           "lesson": "gl1-l01-reference-product"
         }
       ]
+    },
+    {
+      "src": "assets/gl-m4/gmp-production.webp",
+      "credit": "Wikimedia Commons / Robin Müller",
+      "license": "CC-BY-SA-3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rundl%C3%A4uferpresse_an_der_Uni_T%C3%BCbingen,_in_Betrieb_04.jpg",
+      "usedIn": [
+        {
+          "module": "gl-m4-quality",
+          "lesson": "gl4-l01-gmp-gdp"
+        }
+      ]
     }
   ]
 }

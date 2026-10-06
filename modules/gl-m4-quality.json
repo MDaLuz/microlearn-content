@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 4,
+  "id": "gl-m4-quality",
+  "title": "Generics & launch 4: Quality basics",
+  "discipline": "Generics & launch",
+  "version": 1,
+  "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
+  "lessons": [
+    {
+      "id": "gl4-l01-gmp-gdp",
+      "title": "GMP and GDP",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Two rulebooks along one chain\n\n**Good Manufacturing Practice** (*bonnes pratiques de fabrication, BPF*), or GMP, sets how medicines and their active substances must be made, tested and released. **Good Distribution Practice** (*bonnes pratiques de distribution, BPD*), or GDP, sets how they're stored and transported afterwards. Together they cover the product from the API site to the pharmacy."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m4/gmp-gdp-map-own.svg",
+          "alt": "Chain from API site (GMP Part II) to finished-product site (GMP Part I) to EU importer with QP (Annex 16) to wholesaler and transport (GDP)",
+          "caption": "GMP and GDP: the rules along the chain",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m4/gmp-production.webp",
+          "alt": "Close-up of a rotary tablet press in operation: an upper punch above the die table covered in white powder, with freshly pressed white tablets being ejected",
+          "caption": "Tablet production: the kind of operation GMP governs",
+          "credit": "Wikimedia Commons / Robin Müller",
+          "license": "CC-BY-SA-3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rundl%C3%A4uferpresse_an_der_Uni_T%C3%BCbingen,_in_Betrieb_04.jpg",
+          "zoomable": true,
+          "aspectRatio": 1.5
+        },
+        {
+          "type": "text",
+          "markdown": "## Where the rules live\n\n- **EudraLex Volume 4** holds the EU GMP guidelines: Part I for finished products, Part II for active substances, and annexes for special topics. Annex 15 covers validation, and Annex 16 covers QP certification.\n- The EU **GDP guidelines** cover wholesalers and transport.\n- The legal principles are in Directive (EU) 2017/1572."
+        },
+        {
+          "type": "text",
+          "markdown": "## How compliance is proven\n\nNational agencies inspect sites. A site that passes receives an **EU GMP certificate** (*certificat BPF*), which is published in the EU database EudraGMDP. For sites outside the EU, such as in India, this inspection matters especially, and Module 6 explains why."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** every site named in the dossier needs valid GMP status. An expired or missing certificate is a classic blocker for filing and for QP release."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl4-l01-gmp-gdp-fc1",
+              "front": "GMP",
+              "back": "Good Manufacturing Practice: how medicines and APIs are made, tested and released (EudraLex Vol. 4). FR: bonnes pratiques de fabrication (BPF)."
+            },
+            {
+              "id": "gl4-l01-gmp-gdp-fc2",
+              "front": "GDP",
+              "back": "Good Distribution Practice: storage and transport after release (EU GDP guidelines). FR: bonnes pratiques de distribution (BPD)."
+            },
+            {
+              "id": "gl4-l01-gmp-gdp-fc3",
+              "front": "EU GMP certificate",
+              "back": "Issued after a successful inspection and published in EudraGMDP. FR: certificat BPF."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl4-l01-gmp-gdp-q1",
+              "stem": "A wholesaler stores the product at the wrong temperature. Which rulebook was breached?",
+              "options": [
+                "GMP Part II",
+                "GDP",
+                "The CTD",
+                "The Bolar exemption"
+              ],
+              "correctIndex": 1,
+              "explanation": "Storage and transport after release fall under Good Distribution Practice."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive (EU) 2017/1572 (principles of GMP for human medicines).\n2. **EU guidance** — EudraLex Vol. 4, Parts I and II; Annexes 15 and 16.\n3. **EU guidance** — Guidelines of 5 November 2013 on Good Distribution Practice (2013/C 343/01).\n4. **Image** — Wikimedia Commons, 'Rundläuferpresse an der Uni Tübingen, in Betrieb 04' by Robin Müller (CC BY-SA 3.0), resized."
+        }
+      ]
+    },
+    {
+      "id": "gl4-l02-qp",
+      "title": "The Qualified Person",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## One signature per batch\n\nNo batch can be sold in the EU until a **Qualified Person** (*personne qualifiée*), or QP, has certified it. The QP is a named, qualified person working for the EU manufacturing or importing site. They carry personal legal responsibility for that certification."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m4/qp-certification.svg",
+          "alt": "Checklist of six points the QP verifies before certifying a batch, leading to QP certification recorded in a register",
+          "caption": "What the QP checks before signing",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.905
+        },
+        {
+          "type": "text",
+          "markdown": "## What the QP verifies\n\nIn plain terms, the QP checks four things:\n\n- the batch was made and tested as described in the marketing authorisation, under GMP\n- the records have been reviewed, and any deviation is closed or justified\n- the results meet the specification\n- for batches from outside the EU, the full analysis required on import has been done (Module 6)\n\nThe certification is recorded in a register."
+        },
+        {
+          "type": "text",
+          "markdown": "## The QP's own qualifications\n\nEU law sets minimum qualifications: a university degree in a relevant science, plus practical experience. Each country checks them. Many companies contract QP services from specialised providers."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** QP certification is the very last gate before a batch can ship. Give the QP the batch documentation early, because a launch date with no time for QP review is a launch date at risk."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl4-l02-qp-fc1",
+              "front": "Qualified Person (QP)",
+              "back": "Certifies each batch before it can be sold in the EU; personally responsible. FR: personne qualifiée."
+            },
+            {
+              "id": "gl4-l02-qp-fc2",
+              "front": "QP certification",
+              "back": "The QP's recorded confirmation that a batch meets the marketing authorisation and GMP. Only then can it be released."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl4-l02-qp-q1",
+              "stem": "The launch batch has a test result outside specification. Can the QP certify it?",
+              "options": [
+                "Yes, if the launch date is close",
+                "No; results must meet the specification (or be resolved through the quality system)",
+                "Only the MAH can decide",
+                "Yes, if the wholesaler agrees"
+              ],
+              "correctIndex": 1,
+              "explanation": "The QP may only certify batches that comply. Commercial pressure doesn't change that."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 48–51 (QP qualifications, duties, certification).\n2. **EU guidance** — EudraLex Vol. 4, Annex 16 (certification by a QP and batch release)."
+        }
+      ]
+    },
+    {
+      "id": "gl4-l03-specs-coa",
+      "title": "Specifications and the CoA",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The specification: what 'good' means\n\nA **specification** (*spécification*) lists the tests a batch must pass, the method for each, and the acceptance limit. Examples are assay (how much active substance), dissolution, impurities and microbial quality. It's part of the marketing authorisation (CTD Module 3), so changing it needs a variation."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m4/coa-mock-own.svg",
+          "alt": "Mock certificate of analysis for an illustrative tablet batch, listing tests, specification limits, results and pass marks",
+          "caption": "Reading a certificate of analysis",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.818
+        },
+        {
+          "type": "text",
+          "markdown": "## The certificate of analysis\n\nA **certificate of analysis** (*certificat d'analyse*), or CoA, reports one batch's results against the specification. Release limits apply when the batch is released. Shelf-life limits apply until its expiry date, and are sometimes wider, for example for impurities that can grow over time."
+        },
+        {
+          "type": "text",
+          "markdown": "## Reading one quickly\n\nTo read a CoA, check that:\n\n- the batch number matches the batch you're asking about\n- every test in the specification appears\n- every result is within its limit\n- the conclusion is 'complies'\n- it's signed and dated\n\nA CoA isn't QP certification. It's one of the documents the QP reviews."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** the CoA of the launch batch and of the API batch are standard QP inputs. Ask for them as soon as testing is done, not on launch week."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl4-l03-specs-coa-fc1",
+              "front": "Specification",
+              "back": "The tests, methods and acceptance limits a batch must meet. Part of the marketing authorisation. FR: spécification."
+            },
+            {
+              "id": "gl4-l03-specs-coa-fc2",
+              "front": "Certificate of analysis (CoA)",
+              "back": "One batch's results against the specification. Input to QP release, not the release itself. FR: certificat d'analyse."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl4-l03-specs-coa-q1",
+              "stem": "What does a CoA prove?",
+              "options": [
+                "That the batch is released",
+                "That the batch's test results meet the specification",
+                "That the patent has expired",
+                "That the price is approved"
+              ],
+              "correctIndex": 1,
+              "explanation": "Release needs QP certification. The CoA is evidence of test results."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **ICH** — ICH Q6A (specifications: test procedures and acceptance criteria).\n2. **EU guidance** — EudraLex Vol. 4, Part I, Chapter 6 (quality control); Annex 16.\n3. **Image** — own mock-up with illustrative values (or an openly licensed sample, if one was found; see the credit)."
+        }
+      ]
+    },
+    {
+      "id": "gl4-l04-stability",
+      "title": "Stability and climatic zones",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## How long does the product stay good?\n\nStability studies store batches under set conditions and test them over time. The results justify the **shelf life** (*durée de conservation*) and the storage instructions on the pack."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m4/climatic-zones.svg",
+          "alt": "Table of climatic zones I/II, III, IVa and IVb with long-term test conditions and example regions: EU in zone I/II at 25 °C and 60% RH, India in zone IVb at 30 °C and 75% RH",
+          "caption": "Climatic zones and stability conditions",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.86
+        },
+        {
+          "type": "text",
+          "markdown": "## Climatic zones\n\nThe world is grouped into **climatic zones** (*zones climatiques*), each with its own long-term test conditions:\n\n- The EU is in zones I/II: 25 °C at 60% relative humidity.\n- India is in zone IVb: 30 °C at 75% relative humidity.\n\nEvery programme also includes accelerated testing at 40 °C and 75% RH for 6 months, to spot problems early."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why it matters for imports\n\nA product developed in India may have been tested mainly under Indian conditions. Conditions harsher than the EU's can support an EU shelf life, but the data must cover the conditions and the duration claimed. They must also come from enough batches, packed in the packaging that will actually be sold. Missing EU-relevant stability data is one of the most common gap-analysis findings."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** stability data accumulate in real time and can't be accelerated after the fact. If the shelf life you want isn't supported, either file with a shorter shelf life and extend it later through a variation, or wait for more data."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl4-l04-stability-fc1",
+              "front": "Climatic zones",
+              "back": "Groups of climates with standard storage test conditions. EU = I/II (25 °C/60% RH); India = IVb (30 °C/75% RH). FR: zones climatiques."
+            },
+            {
+              "id": "gl4-l04-stability-fc2",
+              "front": "Shelf life",
+              "back": "How long the product stays within specification under the labelled storage conditions. Justified by stability data. FR: durée de conservation."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl4-l04-stability-q1",
+              "stem": "The dossier holds 6 months of stability data, but you want a 36-month shelf life. What's realistic?",
+              "options": [
+                "Claim 36 months anyway",
+                "Accept a shorter shelf life now and extend it by variation as data accrue, or wait",
+                "Use accelerated data only, forever",
+                "Ask the QP to approve 36 months"
+              ],
+              "correctIndex": 1,
+              "explanation": "The shelf life must be supported by data. Many products launch with a shorter shelf life and extend it later."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **ICH** — ICH Q1A(R2) (stability testing: long-term, intermediate and accelerated conditions).\n2. **EU guidance** — EMA, Guideline on stability testing: stability testing of existing active substances and related finished products (CPMP/QWP/122/02 Rev. 1).\n3. **WHO** — Stability testing guidance and climatic zone list (zone assignments by country)."
+        }
+      ]
+    },
+    {
+      "id": "gl4-l05-validation",
+      "title": "Validation",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Proving it works every time\n\n**Validation** (*validation*) is documented proof that a process, a piece of equipment or a test reliably does what it should. Under GMP, you can't simply assume consistency: you have to show it."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m4/validation-types.svg",
+          "alt": "Four boxes: equipment qualification, process validation, cleaning validation and analytical method validation, with a PM note on post-approval process validation",
+          "caption": "Validation: proving it works every time",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.105
+        },
+        {
+          "type": "text",
+          "markdown": "## The four kinds\n\n- **Equipment qualification:** the equipment is installed correctly and works as specified.\n- **Process validation** (*validation du procédé*): commercial-scale batches are made consistently.\n- **Cleaning validation:** no residue carries over to the next product.\n- **Analytical method validation:** each test measures what it's supposed to, accurately."
+        },
+        {
+          "type": "text",
+          "markdown": "## Timing of process validation\n\nUnder the EMA process validation guideline, for standard manufacturing processes the dossier can contain a validation scheme. Validation on commercial-scale batches is then completed after approval, but before the product is put on the market. Non-standard processes need validation data in the dossier itself."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** validation batches are often also the launch batches. Their timing, and the QP's review of the validation results, sit on the supply critical path."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl4-l05-validation-fc1",
+              "front": "Validation",
+              "back": "Documented proof that a process, equipment or test works reliably. FR: validation."
+            },
+            {
+              "id": "gl4-l05-validation-fc2",
+              "front": "Process validation",
+              "back": "Showing consistent commercial-scale batches. For standard processes, often completed after approval but before marketing. FR: validation du procédé."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl4-l05-validation-q1",
+              "stem": "The dossier holds a process validation scheme for a standard tablet. When must validation be done?",
+              "options": [
+                "Never",
+                "After approval, before the product is put on the market",
+                "Only after the first year of sales",
+                "Before the bioequivalence study"
+              ],
+              "correctIndex": 1,
+              "explanation": "The EMA guideline allows this for standard processes. The batches must be validated before marketing."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — EudraLex Vol. 4, Annex 15 (qualification and validation).\n2. **EU guidance** — EMA, Guideline on process validation for finished products (EMA/CHMP/CVMP/QWP/BWP/70278/2012 Rev. 1).\n3. **ICH** — ICH Q2(R2) (validation of analytical procedures)."
+        }
+      ]
+    },
+    {
+      "id": "gl4-l06-deviation-capa",
+      "title": "Deviations, CAPA, change control",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The quality system's loop\n\nThings go wrong, and things need to change. A GMP **pharmaceutical quality system** (*système qualité pharmaceutique*) handles both through a loop: record, investigate, correct, prevent, and control changes."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m4/deviation-capa-change.svg",
+          "alt": "Flow from deviation to investigation to CAPA to change control, with a dotted link showing that a change may need a regulatory variation",
+          "caption": "When something goes wrong, or needs to change",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.105
+        },
+        {
+          "type": "text",
+          "markdown": "## The vocabulary\n\n- **Deviation** (*déviation*): something didn't happen as planned. For example, a temperature excursion, or a step done out of order.\n- **Investigation:** finding the root cause, and checking whether other batches are affected.\n- **CAPA** (*actions correctives et préventives*): corrective actions fix this case; preventive actions stop it happening again.\n- **Change control** (*maîtrise des changements*): every planned change is assessed, approved and implemented in a controlled way."
+        },
+        {
+          "type": "text",
+          "markdown": "## Where quality meets regulatory\n\nSome changes alter what's registered in the marketing authorisation: a new API supplier, a new site, or a tighter or wider specification. Those need a variation (Module 2) before implementation, or within the timelines the variation type allows. Change control is where that link is made."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** an open deviation on a launch batch can stop QP release. A supply change that needs a Type IB or II variation can't ship until it's approved."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl4-l06-deviation-capa-fc1",
+              "front": "Deviation",
+              "back": "Something didn't go as planned; it must be recorded and investigated. FR: déviation."
+            },
+            {
+              "id": "gl4-l06-deviation-capa-fc2",
+              "front": "CAPA",
+              "back": "Corrective and preventive actions: fix this case, and prevent recurrence. FR: actions correctives et préventives."
+            },
+            {
+              "id": "gl4-l06-deviation-capa-fc3",
+              "front": "Change control",
+              "back": "Assessing, approving and implementing changes in a controlled way. Some changes also need a variation. FR: maîtrise des changements."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl4-l06-deviation-capa-q1",
+              "stem": "The manufacturer wants to switch to a new API supplier before launch. Which processes are triggered?",
+              "options": [
+                "None",
+                "Change control at the manufacturer, and very likely a variation before the change can be used for EU supply",
+                "Only a new CoA",
+                "Only a price change"
+              ],
+              "correctIndex": 1,
+              "explanation": "Supplier changes go through change control, and usually need a regulatory variation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — EudraLex Vol. 4, Part I, Chapter 1 (pharmaceutical quality system), Chapter 8 (complaints, deviations, recalls).\n2. **ICH** — ICH Q10 (pharmaceutical quality system).\n3. **EU law** — Commission Regulation (EC) No 1234/2008, as amended (variations)."
+        }
+      ]
+    },
+    {
+      "id": "gl4-l07-quality-agreements",
+      "title": "Quality agreements in practice",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Back to the agreement\n\nModule 0 introduced the quality agreement as a required contract. Here's what one actually decides, using a typical India-to-EU import as the example."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m4/quality-agreement-matrix.svg",
+          "alt": "RACI table showing manufacturer, importer/QP and MAH responsibilities for manufacture, EU release testing, QP certification, stability, change approval, complaints and recalls, and audits",
+          "caption": "Quality agreement: who does what",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.905
+        },
+        {
+          "type": "text",
+          "markdown": "## Reading the table\n\nEach row is an activity, and each column a party. 'R' marks who does the work, and 'A' who answers for it. Two rows matter most for launches:\n\n- **Release testing in the EU:** usually done by, or for, the importer, because products from India need full EU testing on import (Module 6).\n- **Change notification:** the manufacturer must tell its partners about changes in time, so that variations can be filed before the change affects EU supply."
+        },
+        {
+          "type": "text",
+          "markdown": "## Common weak spots\n\nTypical weak spots in practice:\n\n- vague change-notification periods\n- unclear ownership of the ongoing stability programme\n- no agreed timelines for deviation investigations\n- a missing audit right\n\nThese are industry experience, not legal rules, but each one can delay a batch."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** track the quality agreement as a launch milestone: draft, agreed, signed. Without it, there's no commercial supply and no QP release."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl4-l07-quality-agreements-fc1",
+              "front": "Typical quality-agreement rows",
+              "back": "Manufacture, EU release testing, QP certification, stability, change notification, complaints and recalls, audits."
+            },
+            {
+              "id": "gl4-l07-quality-agreements-fc2",
+              "front": "Change-notification clause",
+              "back": "Obliges the manufacturer to announce changes early enough for variations to be filed before supply is affected."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl4-l07-quality-agreements-q1",
+              "stem": "Why does the change-notification clause matter so much for a PM?",
+              "options": [
+                "It sets the price",
+                "Unannounced changes can require variations that block supply",
+                "It defines the brand name",
+                "It replaces GMP"
+              ],
+              "correctIndex": 1,
+              "explanation": "Late notice of a change can leave no time for the variation, so batches can't be shipped."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — EudraLex Vol. 4, Part I, Chapter 7 (outsourced activities).\n2. **Practice** — typical quality-agreement content and weak spots (labelled as practice)."
+        }
+      ]
+    },
+    {
+      "id": "gl4-l08-hot-topics",
+      "title": "Hot topics",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Three topics you'll hear about\n\nSome quality topics show up again and again in gap analyses, agency questions and inspections. They're worth knowing by name."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m4/quality-hot-topics.svg",
+          "alt": "Three panels: nitrosamines, elemental impurities and data integrity, each with a short description and its reference",
+          "caption": "Three quality topics you'll hear about",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2
+        },
+        {
+          "type": "text",
+          "markdown": "## Nitrosamines\n\n**Nitrosamines** (*nitrosamines*) are impurities, some of which may cause cancer even at very low levels. Since the EMA's 2020 review, MAHs must assess whether their products could contain them, test where there's a risk, and keep levels below the limits the EMA sets. A missing or outdated nitrosamine risk assessment is a frequent gap in in-licensed dossiers."
+        },
+        {
+          "type": "text",
+          "markdown": "## Elemental impurities\n\n**Elemental impurities** (*impuretés élémentaires*) are traces of metals, for example from catalysts or equipment. ICH Q3D sets permitted daily exposures, and the dossier needs a risk assessment against them."
+        },
+        {
+          "type": "text",
+          "markdown": "## Data integrity\n\n**Data integrity** (*intégrité des données*) means records are complete, accurate and traceable. The shorthand is ALCOA+: attributable, legible, contemporaneous, original, accurate, and more. Data-integrity findings at inspections can lead to a site losing its GMP certificate, which affects every product made there."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** ask for the nitrosamine and elemental-impurity assessments during gap analysis, and check the inspection history of every site. Each can stop a launch late."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl4-l08-hot-topics-fc1",
+              "front": "Nitrosamines",
+              "back": "Potentially cancer-causing impurities. MAHs must assess the risk, test where needed and meet EMA limits. FR: nitrosamines."
+            },
+            {
+              "id": "gl4-l08-hot-topics-fc2",
+              "front": "Elemental impurities",
+              "back": "Trace metals limited by ICH Q3D. A risk assessment is expected in Module 3. FR: impuretés élémentaires."
+            },
+            {
+              "id": "gl4-l08-hot-topics-fc3",
+              "front": "Data integrity (ALCOA+)",
+              "back": "Records complete, accurate and traceable. Serious findings can cost a site its GMP certificate. FR: intégrité des données."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl4-l08-hot-topics-q1",
+              "stem": "Which finding can affect every product made at a site?",
+              "options": [
+                "A single out-of-specification result",
+                "A serious data-integrity finding at inspection",
+                "A new trademark",
+                "A pricing delay"
+              ],
+              "correctIndex": 1,
+              "explanation": "Data-integrity failures undermine trust in all of a site's records, and can lead to a withdrawn GMP certificate."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — EMA, Questions and answers for MAHs on nitrosamine impurities; CHMP Article 5(3) opinion on nitrosamines (2020).\n2. **ICH** — ICH Q3D (elemental impurities).\n3. **EU guidance** — EMA GMP questions and answers on data integrity; MHRA, 'GXP' Data Integrity Guidance and Definitions (2018)."
+        }
+      ]
+    }
+  ]
+}

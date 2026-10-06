@@ -3,7 +3,7 @@
   "id": "gl-m2-regulatory",
   "title": "Generics & launch 2: Regulatory basics",
   "discipline": "Generics & launch",
-  "version": 1,
+  "version": 2,
   "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
   "lessons": [
     {
@@ -380,6 +380,374 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **EU guidance** — Notice to Applicants, Vol. 2B; EMA quality guidelines (stability: ICH Q1A(R2) as adopted in the EU); EMA questions and answers on nitrosamine impurities.\n2. **Industry practice** — gap analysis method and checklist (labelled as practice)."
+        }
+      ]
+    },
+    {
+      "id": "gl2-l06-dcp-clock",
+      "title": "The DCP clock",
+      "xpReward": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A fixed clock, with pauses you control\n\nThe DCP is the most predictable part of a launch plan, because EU law and the CMDh guide fix its steps. Its days are procedure days. The clock stops whenever the applicant is answering questions, and that's the part you can influence."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m2/dcp-clock.svg",
+          "alt": "DCP timeline, Day 0 to 210: Day 70 preliminary assessment, Day 100 comments, Day 105 questions and clock-stop, Day 120 draft report, possible early close, Day 145 comments, Day 180 issues, Day 210 end",
+          "caption": "The DCP clock, day by day",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.702
+        },
+        {
+          "type": "text",
+          "markdown": "## Step I: Day 0 to Day 120\n\nAfter validation, the procedure starts at Day 0. Around Day 70, the RMS shares its preliminary assessment, and the CMS comment by about Day 100. Around Day 105, you receive the consolidated list of questions, and the **clock-stop** (*arrêt de l'horloge*) begins. When you submit your responses, the clock restarts. At Day 120 the RMS issues its draft assessment report and the draft product texts. If everyone already agrees, the procedure can close here."
+        },
+        {
+          "type": "text",
+          "markdown": "## Step II: Day 120 to Day 210\n\nIf issues remain, the CMS comment again around Day 145. Around Day 180, the RMS circulates any outstanding issues, and there may be a further, shorter clock-stop. The procedure closes at Day 210 at the latest.\n\nIf countries still disagree because of a potential serious risk to public health, the case goes to the CMDh (Lesson 1)."
+        },
+        {
+          "type": "text",
+          "markdown": "### Process card: Responding to Day 105 questions\n\n- What it is: the applicant's answers to the consolidated list of questions\n- Who owns it: Regulatory affairs; the dossier owner and QA provide the data\n- Inputs: the list of questions, data from the dossier owner, new studies if needed\n- Output: a response document and updated dossier sections (new eCTD sequence)\n- Typical duration: often several weeks to a few months; the clock is stopped meanwhile (check the CMDh guide for the default and maximum clock-stop length)\n- What makes it slip: missing data from the dossier owner, new stability or validation data needed, slow internal reviews\n- PM watch-points: the clock-stop is the biggest variable in the DCP. Pre-agree response owners and dates before Day 105 arrives"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** the 210 legal days are fixed. Real duration is 210 days plus your clock-stops, and well-prepared responses are what shorten them."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl2-l06-dcp-clock-fc1",
+              "front": "Clock-stop",
+              "back": "A pause in the procedure clock while the applicant answers questions. Its length depends on you. FR: arrêt de l'horloge."
+            },
+            {
+              "id": "gl2-l06-dcp-clock-fc2",
+              "front": "Day 105",
+              "back": "The usual point in a DCP when the applicant receives the consolidated questions, and the first clock-stop starts."
+            },
+            {
+              "id": "gl2-l06-dcp-clock-fc3",
+              "front": "Day 120 close",
+              "back": "A DCP can close at Day 120 if all countries agree, skipping Step II."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl2-l06-dcp-clock-q1",
+              "stem": "What usually makes one DCP take much longer than another, for similar products?",
+              "options": [
+                "Day 70 moves",
+                "The length of the clock-stops while the applicant answers questions",
+                "The RMS's working hours",
+                "Translations"
+              ],
+              "correctIndex": 1,
+              "explanation": "Procedure days are fixed by law and guidance. Clock-stops depend on how quickly complete answers are provided."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 28(3)–(4).\n2. **EU guidance** — CMDh Best Practice Guide for the Decentralised Procedure and the DCP flow chart (Day 70, 100, 105, 120, 145, 180 and 210 steps; clock-stop rules)."
+        }
+      ]
+    },
+    {
+      "id": "gl2-l07-national-phase",
+      "title": "The national phase",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## From agreement to licences\n\nWhen the DCP closes, the countries have agreed the product texts in English. Each country still has to issue its own licence. This final stretch is the **national phase** (*phase nationale*)."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m2/national-phase.svg",
+          "alt": "Flow: procedure closes with agreed English texts; you send translations of SmPC, PIL and labelling; each country checks texts and national details; national licence granted within 30 days",
+          "caption": "After the procedure closes: the national phase",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.105
+        },
+        {
+          "type": "text",
+          "markdown": "## What happens\n\nThe applicant sends high-quality translations of the SmPC, the patient leaflet and the labelling to each country, within the short deadline set in the CMDh guide. Each country checks them, along with national details such as pack sizes and the local representative. EU law then gives each country 30 days to adopt its decision and grant the licence."
+        },
+        {
+          "type": "text",
+          "markdown": "## Licence is not launch\n\nThe licence date is a milestone, not the finish line. To sell, you still need several other things:\n\n- approved artwork, and packs printed with the right texts and codes (Module 8)\n- pricing and reimbursement, or a tender win, where relevant (Module 9)\n- product released by the QP and shipped (Modules 5 and 6)"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** book translators before Day 120 and plan artwork in parallel with the national phase, so the gap between licence and launch stays short."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl2-l07-national-phase-fc1",
+              "front": "National phase",
+              "back": "After the DCP closes: translations, national checks, and the national licence within 30 days. FR: phase nationale."
+            },
+            {
+              "id": "gl2-l07-national-phase-fc2",
+              "front": "Licence is not launch",
+              "back": "After the national licence you still need approved artwork and printed packs, pricing or a tender win, and QP-released stock."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl2-l07-national-phase-q1",
+              "stem": "The DCP closed on Day 210. What still has to happen before patients can buy the product?",
+              "options": [
+                "Nothing",
+                "Translations, national licences, then artwork, pricing or tenders, and released stock",
+                "Only a press release",
+                "A new DCP"
+              ],
+              "correctIndex": 1,
+              "explanation": "Closure of the procedure gives agreed texts. Licences, packs, prices and stock still have to follow."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 28(5) (30 days to adopt the national decision).\n2. **EU guidance** — CMDh Best Practice Guide for the Decentralised Procedure (national step; translations)."
+        }
+      ]
+    },
+    {
+      "id": "gl2-l08-variations",
+      "title": "Variations",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Approved isn't frozen\n\nAfter approval, any change to the licensed details, such as a new API supplier, a new site, a longer shelf life or updated product texts, needs a **variation** (*modification*). The EU classifies variations by risk, and the class decides the paperwork and the wait."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m2/variation-types.svg",
+          "alt": "Four steps of increasing size: Type IA minor, notify within 12 months; Type IB minor, 30-day review; Type II major, 60-day assessment; extension (new strength or form), assessed like a new application",
+          "caption": "Changing an approved product: variation types",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.86
+        },
+        {
+          "type": "text",
+          "markdown": "## The four classes\n\n- **Type IA:** minor, 'do and tell'. Under the guidelines applying since 15 January 2026, most are now collected into an annual update instead of being notified one by one. Some types must still be notified immediately.\n- **Type IB:** minor, 'tell, wait and do'. You can implement after a 30-day review if there's no objection.\n- **Type II:** major. You need approval before implementing; the assessment usually takes 60 days, and can be shorter or longer.\n- **Extension:** for example a new strength or pharmaceutical form. Assessed much like a new application."
+        },
+        {
+          "type": "text",
+          "markdown": "## Doing it efficiently\n\n**Grouping** puts several changes into one submission. **Worksharing** (*partage de travail*) lets one assessment cover the same change across several licences. Both are common for generics sold in many countries. The variations framework changed recently: the amended Regulation has applied since 1 January 2025, and new Commission guidelines apply from 15 January 2026. Several changes moved to lower, faster categories, so RA should always classify a change against the current guidelines."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** supply changes, such as a new API source or a site transfer, often need a Type IB or Type II variation, which must be approved before you ship. Put these variations on the critical path."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl2-l08-variations-fc1",
+              "front": "Variation",
+              "back": "Any change to an approved licence. Type IA (do and tell), IB (30-day review), II (approval needed, about 60 days), or extension. FR: modification."
+            },
+            {
+              "id": "gl2-l08-variations-fc2",
+              "front": "Worksharing",
+              "back": "One assessment covering the same change across several licences. FR: partage de travail."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl2-l08-variations-q1",
+              "stem": "The manufacturer wants to add a new API supplier. What should the PM ask first?",
+              "options": [
+                "Nothing; suppliers can change freely",
+                "Which variation type RA expects, and how long approval will take before the new supplier's material can be used",
+                "Whether marketing likes it",
+                "Whether the price changes"
+              ],
+              "correctIndex": 1,
+              "explanation": "Supplier changes need a variation, often Type IB or II. You can't use the material until the variation allows it."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Commission Regulation (EC) No 1234/2008 (variations), as amended, including Commission Delegated Regulation (EU) 2024/1701.\n2. **EU guidance** — European Commission, Guidelines on the details of the various categories of variations (C/2025/5045, 22 September 2025; applicable from 15 January 2026).\n3. **EU guidance** — EMA and CMDh, guidance on the application of the revised variations framework (transition rules; Type IA annual update); CMDh guidance on worksharing and grouping."
+        }
+      ]
+    },
+    {
+      "id": "gl2-l09-renewal-sunset",
+      "title": "Renewals and the sunset clause",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A licence has to be kept alive\n\nGetting a licence is half the job. Under today's rules, an EU licence must be renewed once, after 5 years. It can also lapse if the product isn't actually sold."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m2/licence-lifecycle.svg",
+          "alt": "Timeline of a licence: granted at year 0, must be marketed within 3 years (sunset check), renewal filed at least 9 months before year 5, then usually unlimited validity",
+          "caption": "Keeping a licence alive",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2
+        },
+        {
+          "type": "text",
+          "markdown": "## Renewal\n\nA licence is valid for 5 years. The **renewal** (*renouvellement*) application must be filed at least 9 months before expiry. After one renewal, the licence is usually valid indefinitely. The authority can require one more 5-year renewal for pharmacovigilance reasons. The EU pharma package revises parts of these rules once it applies (Module 1, Lesson 4), so check the current rule for each product."
+        },
+        {
+          "type": "text",
+          "markdown": "## Sunset clause\n\nUnder the **sunset clause** (*clause de caducité*), a licence lapses if the product isn't actually placed on the market in that country within 3 years of approval, or if it's off the market there for 3 consecutive years. Exemptions are possible in exceptional cases.\n\nThis matters for generics, because companies often file in more countries than they launch in at first."
+        },
+        {
+          "type": "text",
+          "markdown": "## What a PM tracks\n\nFor each country: the licence date, the date the product was first placed on the market, the renewal deadline, and any period off the market. A simple per-country table is enough, as long as it's kept up to date."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** the 3-year sunset clock starts at approval. A licence you don't launch on can quietly disappear."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl2-l09-renewal-sunset-fc1",
+              "front": "Renewal",
+              "back": "Today, a licence must be renewed once, after 5 years, with the application filed at least 9 months before expiry. FR: renouvellement."
+            },
+            {
+              "id": "gl2-l09-renewal-sunset-fc2",
+              "front": "Sunset clause",
+              "back": "A licence lapses if the product isn't marketed within 3 years of approval, or is off the market for 3 consecutive years. FR: clause de caducité."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl2-l09-renewal-sunset-q1",
+              "stem": "A DCP granted licences in six countries in 2025, but the product launched in only four. What risk applies to the other two?",
+              "options": [
+                "None",
+                "Under the sunset clause, those licences lapse if the product isn't marketed there within 3 years of approval",
+                "They become centralised licences",
+                "They transfer automatically to a partner"
+              ],
+              "correctIndex": 1,
+              "explanation": "The sunset clause applies country by country. Without launch or an exemption, those licences lapse."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 24 (validity, renewal, sunset clause).\n2. **EU** — EMA, 'Reform of the EU pharmaceutical legislation' (the framework changes once the reform applies).\n3. **EU guidance** — CMDh guidance on renewals and on the sunset clause."
+        }
+      ]
+    },
+    {
+      "id": "gl2-l10-pv-at-launch",
+      "title": "Pharmacovigilance at launch",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Safety monitoring starts with the first pack\n\nOnce a product is on the market, the MAH must collect and assess reports of suspected side effects, and act on them. For a generic, this is less work than for a new medicine, but the system has to be in place and working before launch."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m2/pv-at-launch.svg",
+          "alt": "MAH pharmacovigilance system described in the PSMF, linked to the QPPV; case reports to EudraVigilance (serious in 15 days, others in 90); risk management plan; PV agreements and EMA product data",
+          "caption": "Pharmacovigilance: ready on day one",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.818
+        },
+        {
+          "type": "text",
+          "markdown": "## The building blocks\n\n- **Pharmacovigilance system:** described in the **PSMF** (*dossier permanent du système de pharmacovigilance*), the pharmacovigilance system master file. It's kept up to date and available to inspectors.\n- **QPPV:** a named qualified person who lives and works in the EU (Module 0).\n- **Case reports:** individual reports of suspected side effects go to **EudraVigilance**, the EU safety database. Serious cases are due within 15 days and non-serious ones within 90 days."
+        },
+        {
+          "type": "text",
+          "markdown": "## What's lighter for generics\n\n- **Risk management plan:** required for generics too, but usually aligned with the reference product's safety concerns.\n- **Periodic safety reports:** generics are usually exempt from **PSURs**, unless the licence requires them or the EU list of reference dates does.\n\nAlso required: product data entered in the EMA's medicines database after approval, and PV agreements with partners (Module 0, Lesson 3). Some countries also ask for a local PV contact person."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** PV readiness belongs on the launch checklist: the QPPV named, the PSMF updated to include the product, partner agreements signed, and EMA product data entered."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl2-l10-pv-at-launch-fc1",
+              "front": "PSMF",
+              "back": "Pharmacovigilance system master file: describes the MAH's PV system and is available for inspection. FR: dossier permanent du système de pharmacovigilance."
+            },
+            {
+              "id": "gl2-l10-pv-at-launch-fc2",
+              "front": "EudraVigilance",
+              "back": "The EU database for suspected side-effect reports. Serious cases within 15 days, non-serious within 90."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl2-l10-pv-at-launch-q1",
+              "stem": "A patient's serious suspected side effect is reported to the MAH. Within how many days must it go to EudraVigilance?",
+              "options": [
+                "5 days",
+                "15 days",
+                "90 days",
+                "1 year"
+              ],
+              "correctIndex": 1,
+              "explanation": "Serious individual case reports are due within 15 days. Non-serious cases are due within 90 days."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 8(3) (RMP and pharmacovigilance system summary), Art. 104 (QPPV; PSMF), Art. 107 (case reporting), Art. 107b(3) (PSUR exemption for generics, with exceptions).\n2. **EU law** — Regulation (EC) No 726/2004, Art. 57 (product data submission).\n3. **EU guidance** — Good Pharmacovigilance Practices, Module II (PSMF) and Module VI (case reporting timelines)."
         }
       ]
     }

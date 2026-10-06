@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "updated": "2026-10-05",
   "entries": [
     {
@@ -3444,6 +3444,218 @@
       ],
       "translations": {
         "fr": "analyse des écarts"
+      }
+    },
+    {
+      "id": "clock-stop",
+      "term": "Clock-stop",
+      "aliases": [
+        "clock-stop",
+        "clock stop",
+        "clock-stops"
+      ],
+      "category": "launch",
+      "short": "A pause in the procedure clock while the applicant answers questions; its length depends on the applicant.",
+      "simpler": "A paused game clock while one team regroups.",
+      "example": {
+        "moduleId": "gl-m2-regulatory",
+        "text": "Module 2, Lesson 6: real DCP duration = 210 days + your clock-stops."
+      },
+      "notToConfuse": "Not a delay by the agency: it's the applicant's time.",
+      "related": [
+        "decentralised-procedure",
+        "national-phase"
+      ],
+      "modules": [
+        "gl-m2-regulatory"
+      ],
+      "translations": {
+        "fr": "arrêt de l'horloge"
+      }
+    },
+    {
+      "id": "national-phase",
+      "term": "National phase",
+      "aliases": [
+        "national phase"
+      ],
+      "category": "launch",
+      "short": "After the DCP closes: translations, national checks, and the national licence within 30 days.",
+      "simpler": "Each country stamping its own copy of the agreed text.",
+      "example": {
+        "moduleId": "gl-m2-regulatory",
+        "text": "Module 2, Lesson 7: book translators before Day 120."
+      },
+      "notToConfuse": "Not the national procedure.",
+      "related": [
+        "decentralised-procedure",
+        "clock-stop"
+      ],
+      "modules": [
+        "gl-m2-regulatory"
+      ],
+      "translations": {
+        "fr": "phase nationale"
+      }
+    },
+    {
+      "id": "variation",
+      "term": "Variation",
+      "aliases": [
+        "variation",
+        "variations",
+        "Type IA",
+        "Type IB",
+        "Type II",
+        "extension application",
+        "line extension"
+      ],
+      "category": "launch",
+      "short": "A change to an approved licence: Type IA (do and tell), IB (30-day review), II (approval needed), or extension.",
+      "simpler": "Asking permission to renovate, with forms sized by how big the change is.",
+      "example": {
+        "moduleId": "gl-m2-regulatory",
+        "text": "Module 2, Lesson 8: a new API supplier needs a variation before its material is used."
+      },
+      "notToConfuse": "Not a new application, except extensions, which are assessed like one.",
+      "related": [
+        "worksharing",
+        "renewal"
+      ],
+      "modules": [
+        "gl-m2-regulatory"
+      ],
+      "translations": {
+        "fr": "modification"
+      }
+    },
+    {
+      "id": "worksharing",
+      "term": "Worksharing",
+      "aliases": [
+        "worksharing",
+        "work-sharing",
+        "grouping"
+      ],
+      "category": "launch",
+      "short": "One assessment covering the same change across several licences; grouping puts several changes in one submission.",
+      "simpler": "One inspection for the same renovation in several identical flats.",
+      "example": {
+        "moduleId": "gl-m2-regulatory",
+        "text": "Module 2, Lesson 8: common for generics sold in many countries."
+      },
+      "notToConfuse": "Not the same as grouping: worksharing = several licences; grouping = several changes.",
+      "related": [
+        "variation"
+      ],
+      "modules": [
+        "gl-m2-regulatory"
+      ],
+      "translations": {
+        "fr": "partage de travail"
+      }
+    },
+    {
+      "id": "renewal",
+      "term": "Renewal",
+      "aliases": [
+        "renewal",
+        "renewals"
+      ],
+      "category": "launch",
+      "short": "Today: licences are renewed once after 5 years (file at least 9 months before expiry), then usually valid indefinitely.",
+      "simpler": "Renewing a passport once, then it's for life.",
+      "example": {
+        "moduleId": "gl-m2-regulatory",
+        "text": "Module 2, Lesson 9: the pharma package changes parts of this once it applies."
+      },
+      "notToConfuse": "Not a variation.",
+      "related": [
+        "sunset-clause",
+        "variation"
+      ],
+      "modules": [
+        "gl-m2-regulatory"
+      ],
+      "translations": {
+        "fr": "renouvellement"
+      }
+    },
+    {
+      "id": "sunset-clause",
+      "term": "Sunset clause",
+      "aliases": [
+        "sunset clause"
+      ],
+      "category": "launch",
+      "short": "A licence lapses if the product isn't marketed within 3 years of approval, or is off the market for 3 consecutive years.",
+      "simpler": "Use it or lose it.",
+      "example": {
+        "moduleId": "gl-m2-regulatory",
+        "text": "Module 2, Lesson 9: licences in countries where you never launch can quietly disappear."
+      },
+      "notToConfuse": "Not a renewal deadline.",
+      "related": [
+        "renewal"
+      ],
+      "modules": [
+        "gl-m2-regulatory"
+      ],
+      "translations": {
+        "fr": "clause de caducité"
+      }
+    },
+    {
+      "id": "psmf",
+      "term": "PSMF",
+      "aliases": [
+        "PSMF",
+        "pharmacovigilance system master file"
+      ],
+      "category": "launch",
+      "short": "The document describing the MAH's pharmacovigilance system, kept up to date and available for inspection.",
+      "simpler": "The PV system's instruction manual.",
+      "example": {
+        "moduleId": "gl-m2-regulatory",
+        "text": "Module 2, Lesson 10: the product must be added before launch."
+      },
+      "notToConfuse": "Not the RMP, which is product-specific.",
+      "related": [
+        "qppv",
+        "eudravigilance"
+      ],
+      "modules": [
+        "gl-m2-regulatory"
+      ],
+      "translations": {
+        "fr": "dossier permanent du système de pharmacovigilance"
+      }
+    },
+    {
+      "id": "eudravigilance",
+      "term": "EudraVigilance",
+      "aliases": [
+        "EudraVigilance",
+        "ICSR",
+        "individual case safety report"
+      ],
+      "category": "launch",
+      "short": "The EU database for suspected side-effect reports: serious within 15 days, non-serious within 90.",
+      "simpler": "The EU's central inbox for safety reports.",
+      "example": {
+        "moduleId": "gl-m2-regulatory",
+        "text": "Module 2, Lesson 10: reporting must work from day one."
+      },
+      "notToConfuse": "Not EudraGMDP, which holds GMP certificates (Module 6).",
+      "related": [
+        "psmf",
+        "pharmacovigilance"
+      ],
+      "modules": [
+        "gl-m2-regulatory"
+      ],
+      "translations": {
+        "fr": "EudraVigilance"
       }
     }
   ]

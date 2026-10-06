@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 10
+    "version": 11
   },
   "modules": [
     {
@@ -121,7 +121,7 @@
       "discipline": "Generics & launch",
       "description": "Reference product, bioequivalence, protection periods, legal bases",
       "file": "modules/gl-m1-generic-basics.json",
-      "version": 2,
+      "version": 3,
       "lessonCount": 8,
       "estimatedMinutes": 60,
       "accentColor": "#7C8792"
@@ -143,6 +143,17 @@
       "discipline": "Generics & launch",
       "description": "Patents, SPCs, Bolar, FTO, launch at risk and names",
       "file": "modules/gl-m3-ip.json",
+      "version": 1,
+      "lessonCount": 8,
+      "estimatedMinutes": 60,
+      "accentColor": "#7C8792"
+    },
+    {
+      "id": "gl-m4-quality",
+      "title": "Generics & launch 4: Quality basics",
+      "discipline": "Generics & launch",
+      "description": "GMP and GDP, the QP, specifications, stability, validation and change",
+      "file": "modules/gl-m4-quality.json",
       "version": 1,
       "lessonCount": 8,
       "estimatedMinutes": 60,

@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "updated": "2026-10-05",
   "entries": [
     {
@@ -2604,8 +2604,7 @@
       "aliases": [
         "wholesaler",
         "wholesale distribution authorisation",
-        "distributor",
-        "GDP"
+        "distributor"
       ],
       "category": "launch",
       "short": "A company authorised to store and distribute medicines to pharmacies and hospitals, following good distribution practice.",
@@ -4057,6 +4056,403 @@
       ],
       "translations": {
         "fr": "lien brevet-AMM (patent linkage)"
+      }
+    },
+    {
+      "id": "gmp",
+      "term": "GMP",
+      "aliases": [
+        "GMP",
+        "Good Manufacturing Practice",
+        "EudraLex Volume 4",
+        "EudraLex Vol. 4"
+      ],
+      "category": "launch",
+      "short": "Rules for how medicines and APIs are made, tested and released (EudraLex Vol. 4).",
+      "simpler": "The factory's rulebook.",
+      "example": {
+        "moduleId": "gl-m4-quality",
+        "text": "Module 4, Lesson 1: Part I finished products, Part II APIs."
+      },
+      "notToConfuse": "Not GDP, which covers storage and transport.",
+      "related": [
+        "gdp",
+        "gmp-certificate"
+      ],
+      "modules": [
+        "gl-m4-quality"
+      ],
+      "translations": {
+        "fr": "bonnes pratiques de fabrication (BPF)"
+      }
+    },
+    {
+      "id": "gdp",
+      "term": "GDP",
+      "aliases": [
+        "GDP",
+        "Good Distribution Practice",
+        "GDP guidelines"
+      ],
+      "category": "launch",
+      "short": "Rules for storing and transporting medicines after release.",
+      "simpler": "The warehouse and lorry rulebook.",
+      "example": {
+        "moduleId": "gl-m4-quality",
+        "text": "Module 4, Lesson 1: applies to wholesalers and transport."
+      },
+      "notToConfuse": "Not GMP.",
+      "related": [
+        "gmp",
+        "wholesaler"
+      ],
+      "modules": [
+        "gl-m4-quality"
+      ],
+      "translations": {
+        "fr": "bonnes pratiques de distribution (BPD)"
+      }
+    },
+    {
+      "id": "gmp-certificate",
+      "term": "EU GMP certificate",
+      "aliases": [
+        "EU GMP certificate",
+        "GMP certificate",
+        "EudraGMDP"
+      ],
+      "category": "launch",
+      "short": "Issued after a successful inspection; published in the EU database EudraGMDP.",
+      "simpler": "The factory's inspection pass.",
+      "example": {
+        "moduleId": "gl-m4-quality",
+        "text": "Module 4, Lesson 1: every site in the dossier needs valid status."
+      },
+      "notToConfuse": "Not a product licence.",
+      "related": [
+        "gmp"
+      ],
+      "modules": [
+        "gl-m4-quality"
+      ],
+      "translations": {
+        "fr": "certificat BPF"
+      }
+    },
+    {
+      "id": "specification",
+      "term": "Specification",
+      "aliases": [
+        "specification",
+        "specifications",
+        "release limits",
+        "shelf-life limits"
+      ],
+      "category": "launch",
+      "short": "The tests, methods and acceptance limits a batch must meet; part of the marketing authorisation.",
+      "simpler": "The pass mark for every batch.",
+      "example": {
+        "moduleId": "gl-m4-quality",
+        "text": "Module 4, Lesson 3: changing it needs a variation."
+      },
+      "notToConfuse": "Not the CoA, which reports one batch's results.",
+      "related": [
+        "coa"
+      ],
+      "modules": [
+        "gl-m4-quality"
+      ],
+      "translations": {
+        "fr": "spécification"
+      }
+    },
+    {
+      "id": "coa",
+      "term": "Certificate of analysis",
+      "aliases": [
+        "certificate of analysis",
+        "CoA",
+        "CoAs"
+      ],
+      "category": "launch",
+      "short": "One batch's test results against the specification.",
+      "simpler": "The batch's report card.",
+      "example": {
+        "moduleId": "gl-m4-quality",
+        "text": "Module 4, Lesson 3: input to QP release, not release itself."
+      },
+      "notToConfuse": "Not QP certification.",
+      "related": [
+        "specification",
+        "qualified-person"
+      ],
+      "modules": [
+        "gl-m4-quality"
+      ],
+      "translations": {
+        "fr": "certificat d'analyse"
+      }
+    },
+    {
+      "id": "shelf-life",
+      "term": "Shelf life",
+      "aliases": [
+        "shelf life",
+        "expiry date"
+      ],
+      "category": "launch",
+      "short": "How long the product stays within specification under the labelled storage conditions.",
+      "simpler": "The product's best-before period, proven by data.",
+      "example": {
+        "moduleId": "gl-m4-quality",
+        "text": "Module 4, Lesson 4: can be extended later by variation as data accrue."
+      },
+      "notToConfuse": "Not the time on the market.",
+      "related": [
+        "stability-climatic-zones"
+      ],
+      "modules": [
+        "gl-m4-quality"
+      ],
+      "translations": {
+        "fr": "durée de conservation"
+      }
+    },
+    {
+      "id": "stability-climatic-zones",
+      "term": "Stability and climatic zones",
+      "aliases": [
+        "climatic zones",
+        "climatic zone",
+        "stability studies",
+        "stability data",
+        "stability",
+        "accelerated testing"
+      ],
+      "category": "launch",
+      "short": "Stability studies store batches under set conditions; zones set them (EU I/II 25 °C/60% RH; India IVb 30 °C/75% RH).",
+      "simpler": "Ageing the product on purpose under local weather.",
+      "example": {
+        "moduleId": "gl-m4-quality",
+        "text": "Module 4, Lesson 4: missing EU-relevant data is a common gap."
+      },
+      "notToConfuse": "Not shelf life itself: the studies justify it.",
+      "related": [
+        "shelf-life"
+      ],
+      "modules": [
+        "gl-m4-quality"
+      ],
+      "translations": {
+        "fr": "zones climatiques / stabilité"
+      }
+    },
+    {
+      "id": "validation",
+      "term": "Validation",
+      "aliases": [
+        "validation",
+        "process validation",
+        "cleaning validation",
+        "qualification",
+        "method validation"
+      ],
+      "category": "launch",
+      "short": "Documented proof that a process, equipment or test works reliably.",
+      "simpler": "Proving it works every time, not once.",
+      "example": {
+        "moduleId": "gl-m4-quality",
+        "text": "Module 4, Lesson 5: process validation often completed after approval, before marketing."
+      },
+      "notToConfuse": "Not a one-off test.",
+      "related": [
+        "gmp"
+      ],
+      "modules": [
+        "gl-m4-quality"
+      ],
+      "translations": {
+        "fr": "validation"
+      }
+    },
+    {
+      "id": "deviation",
+      "term": "Deviation",
+      "aliases": [
+        "deviation",
+        "deviations"
+      ],
+      "category": "launch",
+      "short": "Something didn't go as planned; recorded and investigated.",
+      "simpler": "A planned route with a detour taken.",
+      "example": {
+        "moduleId": "gl-m4-quality",
+        "text": "Module 4, Lesson 6: an open deviation can block QP release."
+      },
+      "notToConfuse": "Not always a failure: some are minor.",
+      "related": [
+        "capa",
+        "change-control"
+      ],
+      "modules": [
+        "gl-m4-quality"
+      ],
+      "translations": {
+        "fr": "déviation"
+      }
+    },
+    {
+      "id": "capa",
+      "term": "CAPA",
+      "aliases": [
+        "CAPA",
+        "corrective and preventive actions"
+      ],
+      "category": "launch",
+      "short": "Corrective actions fix this case; preventive actions stop recurrence.",
+      "simpler": "Fix the leak, then fix the pipe.",
+      "example": {
+        "moduleId": "gl-m4-quality",
+        "text": "Module 4, Lesson 6."
+      },
+      "notToConfuse": "Not the investigation itself.",
+      "related": [
+        "deviation"
+      ],
+      "modules": [
+        "gl-m4-quality"
+      ],
+      "translations": {
+        "fr": "actions correctives et préventives (CAPA)"
+      }
+    },
+    {
+      "id": "change-control",
+      "term": "Change control",
+      "aliases": [
+        "change control"
+      ],
+      "category": "launch",
+      "short": "Assessing, approving and implementing changes in a controlled way; may trigger a variation.",
+      "simpler": "Asking 'what else does this touch?' before changing anything.",
+      "example": {
+        "moduleId": "gl-m4-quality",
+        "text": "Module 4, Lesson 6: a new API supplier goes through change control and usually a variation."
+      },
+      "notToConfuse": "Not a variation: that's the regulatory step that may follow.",
+      "related": [
+        "deviation",
+        "variation"
+      ],
+      "modules": [
+        "gl-m4-quality"
+      ],
+      "translations": {
+        "fr": "maîtrise des changements"
+      }
+    },
+    {
+      "id": "pqs",
+      "term": "Pharmaceutical quality system",
+      "aliases": [
+        "pharmaceutical quality system",
+        "PQS",
+        "quality system"
+      ],
+      "category": "launch",
+      "short": "The company-wide system managing quality: deviations, CAPA, change control, reviews (ICH Q10).",
+      "simpler": "The quality engine of the company.",
+      "example": {
+        "moduleId": "gl-m4-quality",
+        "text": "Module 4, Lesson 6."
+      },
+      "notToConfuse": "Not a single document.",
+      "related": [
+        "capa",
+        "change-control"
+      ],
+      "modules": [
+        "gl-m4-quality"
+      ],
+      "translations": {
+        "fr": "système qualité pharmaceutique"
+      }
+    },
+    {
+      "id": "nitrosamines",
+      "term": "Nitrosamines",
+      "aliases": [
+        "nitrosamines",
+        "nitrosamine",
+        "nitrosamine risk assessment"
+      ],
+      "category": "launch",
+      "short": "Impurities, some potentially carcinogenic at low levels; MAHs must assess, test and meet EMA limits.",
+      "simpler": "Unwanted trace impurities with very strict limits.",
+      "example": {
+        "moduleId": "gl-m4-quality",
+        "text": "Module 4, Lesson 8: a frequent gap in in-licensed dossiers."
+      },
+      "notToConfuse": "Not elemental impurities (metals).",
+      "related": [
+        "elemental-impurities"
+      ],
+      "modules": [
+        "gl-m4-quality"
+      ],
+      "translations": {
+        "fr": "nitrosamines"
+      }
+    },
+    {
+      "id": "elemental-impurities",
+      "term": "Elemental impurities",
+      "aliases": [
+        "elemental impurities",
+        "ICH Q3D"
+      ],
+      "category": "launch",
+      "short": "Trace metals from catalysts or equipment, limited by ICH Q3D.",
+      "simpler": "Tiny metal traces with daily limits.",
+      "example": {
+        "moduleId": "gl-m4-quality",
+        "text": "Module 4, Lesson 8."
+      },
+      "notToConfuse": "Not nitrosamines.",
+      "related": [
+        "nitrosamines"
+      ],
+      "modules": [
+        "gl-m4-quality"
+      ],
+      "translations": {
+        "fr": "impuretés élémentaires"
+      }
+    },
+    {
+      "id": "data-integrity",
+      "term": "Data integrity",
+      "aliases": [
+        "data integrity",
+        "ALCOA+",
+        "ALCOA"
+      ],
+      "category": "launch",
+      "short": "Records complete, accurate and traceable (ALCOA+).",
+      "simpler": "Can every number be trusted and traced?",
+      "example": {
+        "moduleId": "gl-m4-quality",
+        "text": "Module 4, Lesson 8: serious findings can cost a site its GMP certificate."
+      },
+      "notToConfuse": "Not IT security alone.",
+      "related": [
+        "gmp-certificate"
+      ],
+      "modules": [
+        "gl-m4-quality"
+      ],
+      "translations": {
+        "fr": "intégrité des données"
       }
     }
   ]

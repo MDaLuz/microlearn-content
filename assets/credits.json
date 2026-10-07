@@ -96,6 +96,18 @@
           "lesson": "gl7-l02-tablet-components"
         }
       ]
+    },
+    {
+      "src": "assets/gl-m8/qrd-template-page.webp",
+      "credit": "© European Medicines Agency (QRD template)",
+      "license": "EMA-reuse",
+      "sourceUrl": "https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/product-information-requirements/product-information-qrd-templates-human",
+      "usedIn": [
+        {
+          "module": "gl-m8-artworks",
+          "lesson": "gl8-l01-qrd"
+        }
+      ]
     }
   ]
 }

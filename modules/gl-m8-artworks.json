@@ -1,0 +1,599 @@
+{
+  "schemaVersion": 4,
+  "id": "gl-m8-artworks",
+  "title": "Generics & launch 8: Artworks",
+  "discipline": "Generics & launch",
+  "version": 1,
+  "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
+  "lessons": [
+    {
+      "id": "gl8-l01-qrd",
+      "title": "From SmPC to pack",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Text first, artwork second\n\nEverything printed on a pack or a leaflet starts as approved text: the SmPC, the labelling text and the PIL. These follow the **QRD template** (*modèle QRD*), the EMA's standard headings and wording. The template is used in centralised procedures and, with national notes, in MRP and DCP. **Artwork** (*maquette, artwork*) is how that approved text appears on the physical pack."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m8/text-to-pack.svg",
+          "alt": "Flow from QRD template to approved English texts, national translations, artwork per country, and printed carton, leaflet and blister foil",
+          "caption": "From SmPC text to printed pack",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.667
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m8/qrd-template-page.webp",
+          "alt": "A page of the EMA QRD product-information template: SmPC section headings 1 to 4.2, with standard statements in angle brackets, placeholders in curly brackets and guidance notes in green",
+          "caption": "The QRD template: fixed headings and standard wording (SmPC, version 10.4)",
+          "credit": "© European Medicines Agency (QRD template)",
+          "license": "EMA-reuse",
+          "sourceUrl": "https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/product-information-requirements/product-information-qrd-templates-human",
+          "zoomable": true,
+          "aspectRatio": 0.707
+        },
+        {
+          "type": "text",
+          "markdown": "## Why the distinction matters\n\nText is regulatory: it's approved during the procedure, and changes need a variation or a notification. Artwork is the design: layout, fonts and colours, with the text placed exactly. If the artwork shows a word that differs from the approved text, that's a compliance problem, not a design detail."
+        },
+        {
+          "type": "text",
+          "markdown": "## When texts become final\n\nIn a DCP, the English texts are agreed by day 210 (Module 2). The translations follow in the national phase, and only after that can country artworks be finalised. Many teams prepare artwork drafts during the clock-stops, so they're ready when the texts are final."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** artwork can only be finalised once the translated texts are approved, and printing comes after that. Prepare drafts early to keep the launch from waiting on the printer."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl8-l01-qrd-fc1",
+              "front": "QRD template",
+              "back": "The EMA's standard template for SmPC, labelling and PIL texts. Also used in MRP/DCP. FR: modèle QRD."
+            },
+            {
+              "id": "gl8-l01-qrd-fc2",
+              "front": "Artwork",
+              "back": "The graphic design of the pack and leaflet showing the approved texts exactly. FR: maquette (artwork)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl8-l01-qrd-q1",
+              "stem": "A carton artwork shows 'take with food', but the approved text says 'take with or without food'. What is this?",
+              "options": [
+                "A design choice",
+                "A compliance error: artwork must match the approved text",
+                "Fine if marketing agrees",
+                "A Blue Box item"
+              ],
+              "correctIndex": 1,
+              "explanation": "Artwork must reproduce the approved text exactly. Any difference is a regulatory problem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — EMA, QRD product-information templates (current version).\n2. **EU guidance** — CMDh, product information and QRD guidance for MRP/DCP.\n3. **Image** — own diagram; page 2 of the EMA QRD product-information template, version 10.4 (02/2024), © European Medicines Agency, reproduced unedited with acknowledgement."
+        }
+      ]
+    },
+    {
+      "id": "gl8-l02-mockups",
+      "title": "Mock-ups and specimens",
+      "xpReward": 35,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Showing the agency what the pack will look like\n\nEU law requires the application to include **mock-ups** (*maquettes*): flat, full-colour layouts of the outer and immediate packaging. Some agencies also ask for **specimens** (*spécimens*), meaning actual printed samples, later on."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m8/mockup-anatomy-placeholder.svg",
+          "alt": "Schematic flat carton mock-up showing front panel, side with 2D code area, back panel with Blue Box position, and the die-line around it",
+          "caption": "Anatomy of a mock-up",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2
+        },
+        {
+          "type": "text",
+          "markdown": "## What a mock-up shows\n\nA mock-up shows the real layout:\n\n- front, sides and back\n- fonts and colours\n- where the Blue Box, the Braille and the 2D code go\n\nThe flat carton is drawn inside its **die-line** (*plan de découpe*), the technical drawing of cut and fold lines from the packaging site."
+        },
+        {
+          "type": "text",
+          "markdown": "## Changes after approval\n\nIf a label or leaflet change isn't linked to the SmPC, for example a layout change, it can go through an **Art. 61(3) notification** (*notification article 61(3)*). The change can be made if the agency doesn't object within 90 days. Changes to the SmPC itself need a variation."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** mock-ups are needed during or right after the procedure, depending on the country. Plan them alongside the translations, not after the licence."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl8-l02-mockups-fc1",
+              "front": "Mock-up",
+              "back": "A flat, full-colour layout of the pack, submitted to agencies. FR: maquette."
+            },
+            {
+              "id": "gl8-l02-mockups-fc2",
+              "front": "Specimen",
+              "back": "An actual printed sample of the pack, required by some agencies. FR: spécimen."
+            },
+            {
+              "id": "gl8-l02-mockups-fc3",
+              "front": "Art. 61(3) notification",
+              "back": "A route for label or leaflet changes not linked to the SmPC; can proceed if there's no objection within 90 days."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl8-l02-mockups-q1",
+              "stem": "Marketing wants to move the logo on the carton. The approved texts don't change. Which route is typical?",
+              "options": [
+                "A Type II variation",
+                "An Art. 61(3) notification",
+                "A new marketing authorisation",
+                "Nothing at all"
+              ],
+              "correctIndex": 1,
+              "explanation": "Layout changes not linked to the SmPC usually go through the Art. 61(3) notification."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 61(1) (mock-ups) and 61(3) (notification of labelling and leaflet changes).\n2. **EU guidance** — CMDh guidance on mock-ups and specimens.\n3. **Image** — schematic; a real anonymised mock-up will be added."
+        }
+      ]
+    },
+    {
+      "id": "gl8-l03-bluebox-braille",
+      "title": "Blue Box and Braille",
+      "xpReward": 35,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Two features of every EU carton\n\nEach country can require extra information on the pack, printed in a framed area called the **Blue Box** (*encadré bleu*). EU law also requires the product name in **Braille** (*braille*) on the carton."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m8/bluebox-braille-placeholder.svg",
+          "alt": "Schematic carton with a framed Blue Box area for national particulars, and a panel of embossed Braille dots for the product name",
+          "caption": "Blue Box and Braille",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.105
+        },
+        {
+          "type": "text",
+          "markdown": "## The Blue Box\n\nThe Blue Box contains national particulars, for example the legal status, local product codes or reimbursement information. The CMDh publishes each country's requirements. Because the Blue Box differs by country, it's one of the main reasons each country needs its own pack (Lesson 6)."
+        },
+        {
+          "type": "text",
+          "markdown": "## Braille\n\nThe product name must appear in Braille on the outer packaging. Guidance recommends adding the strength where several strengths exist. The MAH must also make the leaflet available in formats suitable for blind and partially sighted people on request from patient organisations. Braille is embossed during carton printing, so it must be in the artwork and checked at proof stage."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** collect the Blue Box requirements for every target country before artwork starts. A missed national particular means a reprint."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl8-l03-bluebox-braille-fc1",
+              "front": "Blue Box",
+              "back": "A framed area on the carton for country-specific particulars (CMDh list per country). FR: encadré bleu."
+            },
+            {
+              "id": "gl8-l03-bluebox-braille-fc2",
+              "front": "Braille on packs",
+              "back": "The product name must appear in Braille on the carton (Art. 56a); strength recommended where several exist."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl8-l03-bluebox-braille-q1",
+              "stem": "Why does the Blue Box make multi-country packs harder?",
+              "options": [
+                "It's blue",
+                "Each country can require different particulars in it",
+                "It replaces the PIL",
+                "It contains the patent number"
+              ],
+              "correctIndex": 1,
+              "explanation": "National particulars differ, so one shared carton must fit every country's Blue Box."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 56a (Braille), Art. 57 (national particulars).\n2. **EU guidance** — CMDh, 'Blue Box' requirements; European Commission guideline on the readability of labelling and package leaflets (Braille).\n3. **Image** — schematic; a real anonymised carton will be added."
+        }
+      ]
+    },
+    {
+      "id": "gl8-l04-readability",
+      "title": "Readability (user) testing",
+      "xpReward": 35,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Can patients actually use the leaflet?\n\nThe patient leaflet must reflect consultations with target patient groups. In practice, that means **readability testing** (*test de lisibilité*), also called user testing: real people try to find and understand key information in the draft leaflet."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m8/readability-testing-loop.svg",
+          "alt": "Loop from a draft leaflet to a test round, revision and re-test until the criteria are met, then a report for the dossier",
+          "caption": "Readability (user) testing of the leaflet",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.424
+        },
+        {
+          "type": "text",
+          "markdown": "## How it typically works\n\nParticipants answer questions using the leaflet. A common success standard is that 90% of participants find each key piece of information, and 90% of those understand it. Failed items are rewritten and tested again."
+        },
+        {
+          "type": "text",
+          "markdown": "## For generics: bridging\n\nA generic's leaflet is usually very close to the reference product's. Often the applicant can **bridge** (*bridging*) to the reference product's tested leaflet, or to another already-tested leaflet, with a justification. That avoids a full new test."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** a full user test takes weeks. Check early whether a bridging justification is acceptable for your product."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl8-l04-readability-fc1",
+              "front": "Readability testing",
+              "back": "Testing the leaflet with real users to confirm they can find and understand key information (Art. 59(3)). FR: test de lisibilité."
+            },
+            {
+              "id": "gl8-l04-readability-fc2",
+              "front": "Bridging",
+              "back": "Justifying that a leaflet is close enough to an already-tested one, instead of running a new test."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl8-l04-readability-q1",
+              "stem": "What does a common readability success standard require?",
+              "options": [
+                "Everyone likes the design",
+                "90% find each key point, and 90% of those understand it",
+                "The leaflet is under 2 pages",
+                "The QP approves it"
+              ],
+              "correctIndex": 1,
+              "explanation": "The test measures whether information can be found and understood, not taste."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 59(3).\n2. **EU guidance** — European Commission, Guideline on the readability of the labelling and package leaflet of medicinal products for human use (2009)."
+        }
+      ]
+    },
+    {
+      "id": "gl8-l05-fmd",
+      "title": "Serialisation (FMD)",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A passport for every pack\n\nTo stop falsified medicines reaching patients, EU prescription medicines carry two **safety features** (*dispositifs de sécurité*): a **unique identifier** in a 2D DataMatrix code, and an **anti-tampering device** (*dispositif antieffraction*) that shows whether the pack has been opened. These have applied since 9 February 2019."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m8/fmd-serialisation.svg",
+          "alt": "Illustrative 2D code with its data (product code, serial number, batch, expiry, national number), the anti-tampering seal, and the flow from MAH upload to national system to pharmacy check",
+          "caption": "Serialisation under the Falsified Medicines Directive",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.86
+        },
+        {
+          "type": "text",
+          "markdown": "## How the system works\n\n1. The MAH, through the packager, prints a unique code on each pack.\n2. It uploads the codes to the EU hub, which passes them to the national verification systems.\n3. At dispensing, the pharmacy scans the pack. The system confirms it's genuine and marks it as dispensed (decommissioned).\n\nA code that doesn't match triggers an alert."
+        },
+        {
+          "type": "text",
+          "markdown": "## What a PM must arrange\n\nBefore the first pack ships, the following must be in place:\n\n- the MAH's onboarding with the European hub organisation\n- product master data uploaded for each country\n- packaging lines able to print and verify codes\n- carton space reserved for the code\n\nMissing onboarding means packs can't be dispensed, even if they're perfectly made."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** onboarding with the European hub and uploading product data take weeks. Start them well before launch, and confirm the data reaches each national system."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl8-l05-fmd-fc1",
+              "front": "Unique identifier",
+              "back": "The 2D DataMatrix code on each pack: product code, serial number, batch, expiry and, where required, a national number."
+            },
+            {
+              "id": "gl8-l05-fmd-fc2",
+              "front": "Anti-tampering device",
+              "back": "A seal showing whether the pack has been opened. FR: dispositif antieffraction."
+            },
+            {
+              "id": "gl8-l05-fmd-fc3",
+              "front": "Decommissioning",
+              "back": "Marking a pack as dispensed in the national system when the pharmacy scans it."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl8-l05-fmd-q1",
+              "stem": "Packs are made and released, but the MAH's product data was never uploaded. What happens at the pharmacy?",
+              "options": [
+                "Nothing",
+                "Scanning fails or raises an alert, so the pack can't be properly dispensed",
+                "The QP is notified automatically",
+                "The price changes"
+              ],
+              "correctIndex": 1,
+              "explanation": "Verification needs the codes in the system. Without upload, the pack fails at the pharmacy."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2011/62/EU (Falsified Medicines Directive); Commission Delegated Regulation (EU) 2016/161 (safety features), applicable since 9 February 2019.\n2. **EU** — European Medicines Verification Organisation and national verification organisations (system description).\n3. **Image** — own diagram (no licence-clean Commons photo of a 2D code on a carton without brand names was found)."
+        }
+      ]
+    },
+    {
+      "id": "gl8-l06-multilingual",
+      "title": "Multilingual packs",
+      "xpReward": 35,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## One pack for several countries\n\nThe particulars must be in the official language of each country where the pack is sold. A pack can carry several languages, as long as every language gives the same particulars. That's a **multilingual pack** (*conditionnement multilingue*)."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m8/multilingual-pack-tradeoffs-own.svg",
+          "alt": "Pros and cons of multilingual packs: fewer pack versions and simpler runs versus limited carton space, national Blue Box and codes per country, and agreed wording",
+          "caption": "One pack, several countries: multilingual packs",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.319
+        },
+        {
+          "type": "text",
+          "markdown": "## The trade-off\n\n**Pros:** fewer pack versions (SKUs), bigger packaging runs, and stock that can move between countries.\n\n**Cons:** limited carton space, a different Blue Box and different codes per country, and the need for every country's wording to fit. Multilingual packs are common for groups of smaller markets."
+        },
+        {
+          "type": "text",
+          "markdown": "## Practical checks\n\nBefore choosing a multilingual pack, check:\n\n- that the carton is big enough\n- that every country accepts it\n- that the Blue Box items can coexist\n- that the serialisation data reaches every relevant national system\n\nThese checks are practice; national rules decide."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** deciding single-country or multilingual packs early changes the artwork count, the packaging runs and the stock planning. Make it a decision on the plan, not an afterthought."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl8-l06-multilingual-fc1",
+              "front": "Multilingual pack",
+              "back": "One pack carrying the same particulars in several languages, for several countries (Art. 63(1)). FR: conditionnement multilingue."
+            },
+            {
+              "id": "gl8-l06-multilingual-fc2",
+              "front": "SKU",
+              "back": "Stock-keeping unit: one distinct pack version. Multilingual packs reduce their number."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl8-l06-multilingual-q1",
+              "stem": "What's the main constraint on multilingual packs?",
+              "options": [
+                "Price",
+                "Carton space for all languages, plus each country's Blue Box and codes",
+                "The QP's signature",
+                "Patent law"
+              ],
+              "correctIndex": 1,
+              "explanation": "The carton has a fixed size, and every country's particulars must fit legibly."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 63(1) (languages of the particulars).\n2. **EU guidance** — CMDh guidance on multilingual packaging.\n3. **Image** — own diagram (no licence-clean Commons photo of a multilingual pack was found)."
+        }
+      ]
+    },
+    {
+      "id": "gl8-l07-workflow",
+      "title": "The artwork workflow",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## From approved text to first printed pack\n\nEach country's artwork goes through the same loop. Most artwork delays come from late text approvals and rounds of corrections, not from design."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m8/artwork-workflow.svg",
+          "alt": "Six steps: brief with texts and die-line; design; proofreading against approved text incl. Braille and codes; RA, QA and marketing approval; printer proof and print run; first-print inspection",
+          "caption": "The artwork workflow",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.667
+        },
+        {
+          "type": "text",
+          "markdown": "### Process card: Country artwork\n\n- What it is: creating and approving the printed packaging (carton, leaflet, blister foil) for one country\n- Who owns it: the artwork or packaging coordinator; RA approves the texts, QA approves for GMP, and marketing approves the design\n- Inputs: approved translated texts, the die-line from the packaging site, Blue Box requirements, the serialisation area, Braille\n- Output: approved artwork, printer proofs, printed materials delivered to the packaging site\n- Typical duration: weeks per country, longer with many correction rounds\n- What makes it slip: late text approval, wrong die-line, proofreading errors found late, printer capacity\n- PM watch-points: start drafts in the clock-stops, use one approved text source, and track every country's artwork as a separate line on the plan"
+        },
+        {
+          "type": "text",
+          "markdown": "## Proofreading is a GMP control\n\n**Proofreading** (*relecture*) compares the artwork word by word with the approved text, and checks the Braille, the codes and the colours. Printing errors on packaging can lead to recalls, which is why it's controlled under GMP."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** artwork is often on the critical path in the last months before launch. Track text approval, proof rounds and printer slots for every country."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl8-l07-workflow-fc1",
+              "front": "Proofreading",
+              "back": "A word-by-word check of the artwork against the approved text, plus Braille, codes and colours. A GMP control. FR: relecture."
+            },
+            {
+              "id": "gl8-l07-workflow-fc2",
+              "front": "Die-line",
+              "back": "The technical drawing of the carton's cut and fold lines, from the packaging site. FR: plan de découpe."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl8-l07-workflow-q1",
+              "stem": "The artwork uses an old die-line from another packaging line. What's the risk?",
+              "options": [
+                "None",
+                "The printed carton may not fit the packaging line, so it has to be reprinted",
+                "Only a colour change",
+                "Only a delay in Braille"
+              ],
+              "correctIndex": 1,
+              "explanation": "The die-line must match the line that packs the product. Otherwise the cartons can't be used."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU guidance** — EudraLex Vol. 4, Part I, Chapter 5 (printed packaging materials; control).\n2. **Practice** — artwork workflow steps and roles (labelled as practice; company procedures vary)."
+        }
+      ]
+    },
+    {
+      "id": "gl8-l08-versions",
+      "title": "Version control after variations",
+      "xpReward": 35,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Artwork follows the licence\n\nEvery time the approved texts change, through a variation or an Art. 61(3) notification, the artwork changes too. Each country's pack then has a new artwork version, and a date by which it must be in use."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m8/artwork-versions.svg",
+          "alt": "Timeline of artwork versions v1 at launch, v2 after a safety variation and v3 for a new pack size, with an implementation deadline question about old stock",
+          "caption": "Artwork versions follow the licence",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.581
+        },
+        {
+          "type": "text",
+          "markdown": "## What to track per country\n\n- **Approved text version:** which approval it comes from.\n- **Artwork version:** linked to that text version.\n- **Implementation deadline:** the date from which new packs must carry the new texts. Safety-related changes are usually implemented faster.\n- **Old stock:** whether packs with old texts may still be released, until when, and under which conditions.\n\nThese implementation rules vary by country and by type of change."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why it matters at launch\n\nA variation approved just before launch can make freshly printed cartons obsolete. Before printing, check whether any text change is pending in any country."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** ask RA before every print order: is any text change pending? Printing just before a text change wastes material, and can delay launch."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl8-l08-versions-fc1",
+              "front": "Artwork version control",
+              "back": "Linking each artwork version to an approved text version, with implementation dates and old-stock rules per country."
+            },
+            {
+              "id": "gl8-l08-versions-fc2",
+              "front": "Implementation deadline",
+              "back": "The date from which packs must carry the updated approved texts. Usually shorter for safety changes."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl8-l08-versions-q1",
+              "stem": "A safety variation is approved two weeks before launch. What should the PM check first?",
+              "options": [
+                "Nothing",
+                "Whether the printed packaging still matches the approved texts, and the implementation deadline",
+                "The patent",
+                "The QP's holiday"
+              ],
+              "correctIndex": 1,
+              "explanation": "Printed materials may already be outdated. The implementation rules decide whether they can still be used."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 61(3); Commission Regulation (EC) No 1234/2008, as amended (variations and implementation).\n2. **EU guidance** — CMDh guidance on the implementation of changes to product information.\n3. **Practice** — artwork version control (labelled as practice)."
+        }
+      ]
+    }
+  ]
+}

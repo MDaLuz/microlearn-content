@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 14
+    "version": 15
   },
   "modules": [
     {
@@ -190,6 +190,17 @@
       "version": 1,
       "lessonCount": 7,
       "estimatedMinutes": 40,
+      "accentColor": "#7C8792"
+    },
+    {
+      "id": "gl-m8-artworks",
+      "title": "Generics & launch 8: Artworks",
+      "discipline": "Generics & launch",
+      "description": "QRD texts, mock-ups, Blue Box, Braille, user testing, serialisation, workflow",
+      "file": "modules/gl-m8-artworks.json",
+      "version": 1,
+      "lessonCount": 8,
+      "estimatedMinutes": 55,
       "accentColor": "#7C8792"
     }
   ]

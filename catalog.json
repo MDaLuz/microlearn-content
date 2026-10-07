@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 15
+    "version": 16
   },
   "modules": [
     {
@@ -201,6 +201,17 @@
       "version": 1,
       "lessonCount": 8,
       "estimatedMinutes": 55,
+      "accentColor": "#7C8792"
+    },
+    {
+      "id": "gl-m9-launch-chronology",
+      "title": "Generics & launch 9: A typical launch chronology",
+      "discipline": "Generics & launch",
+      "description": "The end-to-end Gantt, its phases, the critical path, PM tools and the capstone",
+      "file": "modules/gl-m9-launch-chronology.json",
+      "version": 1,
+      "lessonCount": 10,
+      "estimatedMinutes": 60,
       "accentColor": "#7C8792"
     }
   ]

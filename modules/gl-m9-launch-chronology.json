@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 4,
+  "id": "gl-m9-launch-chronology",
+  "title": "Generics & launch 9: A typical launch chronology",
+  "discipline": "Generics & launch",
+  "version": 1,
+  "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
+  "lessons": [
+    {
+      "id": "gl9-l01-reference-gantt",
+      "title": "The end-to-end Gantt",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Everything on one page\n\nThis module puts Modules 0 to 8 back together into one timeline. The example is an in-licensed generic filed through a DCP. The months are illustrative, but the sequence and the dependencies are typical."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m9/reference-launch-gantt.svg",
+          "alt": "Reference launch Gantt over about 20 months: dossier transfer, DCP, national phase, artworks, EMVS onboarding, launch batches, QP release, then pricing and reimbursement, with a launch marker",
+          "caption": "A reference launch: deal to first sale",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.695
+        },
+        {
+          "type": "text",
+          "markdown": "## Four tracks running in parallel\n\n- **Deal and dossier:** transfer, gap analysis, getting ready to file (Modules 0–2).\n- **Regulatory:** DCP and national phase (Module 2).\n- **Packaging and serialisation:** artworks, printed materials, EMVS (Modules 7–8).\n- **Supply:** batches, EU testing, QP release (Modules 4–6).\n\nMarket access (Lesson 5) closes the loop. Patents and SPCs (Module 3) can override the whole plan if they expire later than the licence."
+        },
+        {
+          "type": "text",
+          "markdown": "## Fixed and flexible\n\nOnly two segments have a clock set by law: the DCP's 210 assessment days and the 30-day national phase. Everything else depends on people, partners, suppliers and printers. That's where the PM's planning makes the difference."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** start the parallel tracks early. Artworks, serialisation onboarding and launch batches should run *during* the DCP, not after it."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl9-l01-reference-gantt-fc1",
+              "front": "Four tracks",
+              "back": "Deal and dossier, regulatory, packaging and serialisation, and supply, closed by market access."
+            },
+            {
+              "id": "gl9-l01-reference-gantt-fc2",
+              "front": "Fixed by law",
+              "back": "Only the DCP's 210 days and the 30-day national phase. Everything else is plannable."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl9-l01-reference-gantt-q1",
+              "stem": "Which track can start before the DCP ends, and should?",
+              "options": [
+                "None",
+                "Artworks, serialisation onboarding and launch batch planning",
+                "Only pricing",
+                "Only the gap analysis"
+              ],
+              "correctIndex": 1,
+              "explanation": "These take months, and waiting for the licence before starting them pushes the launch back."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 28 (DCP timelines).\n2. **Course** — Modules 0–8 (each phase's sources are in the lesson concerned).\n3. **Practice** — reference timeline (illustrative)."
+        }
+      ]
+    },
+    {
+      "id": "gl9-l02-phase1",
+      "title": "Phase 1: dossier transfer and gap analysis",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## From signature to a dossier you can file\n\nThe deal is signed, so the clock starts. Phase 1 turns a received dossier into one that's ready to submit."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m9/phase1-dossier-transfer.svg",
+          "alt": "Zoom on the reference launch Gantt with this phase's rows highlighted: deal and dossier transfer, gap analysis and closure, RMS slot and Module 1; entry, work, exit and slips below",
+          "caption": "Phase 1: dossier transfer and gap analysis",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.538
+        },
+        {
+          "type": "text",
+          "markdown": "## Entry, work, exit\n\nEach phase in this module is described the same way: what must be true to start it (**entry criteria**, *critères d'entrée*), the work done, and what must be true to finish it (**exit criteria**, *critères de sortie*).\n\n- **Entry:** deal signed, dossier received.\n- **Work:**\n  - inventory the dossier\n  - run the gap analysis (Module 2)\n  - check freedom to operate (Module 3)\n  - book an RMS slot\n  - choose the EU importer (Module 6)\n- **Exit:** all gaps that would block filing are closed, or accepted with a plan; the RMS slot is confirmed."
+        },
+        {
+          "type": "text",
+          "markdown": "## Typical slips\n\nCommon causes of delay in this phase:\n\n- late or incomplete dossier transfer\n- slow answers from the dossier owner\n- stability or nitrosamine gaps (Module 4)\n- an RMS without capacity\n\nAsk the dossier owner for dates, not promises."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** phase 1 sets the earliest submission date. Every week saved here moves the whole plan."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl9-l02-phase1-fc1",
+              "front": "Entry and exit criteria",
+              "back": "What must be true to start a phase, and to finish it. Used to judge whether a phase is really complete. FR: critères d'entrée / de sortie."
+            },
+            {
+              "id": "gl9-l02-phase1-fc2",
+              "front": "Phase 1 exit",
+              "back": "All gaps that would block filing are closed, or accepted with a plan, and the RMS slot is confirmed."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl9-l02-phase1-q1",
+              "stem": "Which decision belongs in phase 1, because it goes into the dossier?",
+              "options": [
+                "Pricing",
+                "Choosing the EU importer and batch release site",
+                "The tender bid",
+                "The artwork colours"
+              ],
+              "correctIndex": 1,
+              "explanation": "The release site is named in the dossier, so it must be decided before filing (Module 6)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Course** — Module 2, Lesson 5 (gap analysis); Module 3, Lesson 5 (FTO); Module 6, Lesson 2 (importer)."
+        }
+      ]
+    },
+    {
+      "id": "gl9-l03-phase2",
+      "title": "Phase 2: submission and the DCP",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The regulatory core\n\nPhase 2 is the most predictable phase on paper, because it has a legal clock. In practice, its real length depends on the clock-stops, which are the time you spend answering questions."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m9/phase2-submission-dcp.svg",
+          "alt": "Zoom on the reference launch Gantt with this phase's rows highlighted: the DCP (210 days plus clock-stops) and the national phase with translations; entry, work, exit and slips below",
+          "caption": "Phase 2: submission and the DCP",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.538
+        },
+        {
+          "type": "text",
+          "markdown": "## Entry, work, exit\n\n- **Entry:** the dossier is ready, with blocking gaps closed.\n- **Work:**\n  - validation\n  - day 0 to day 210\n  - answering the day 105 questions, and any later ones\n- **Exit:** end of procedure, with agreed English texts (SmPC, labelling, PIL)."
+        },
+        {
+          "type": "text",
+          "markdown": "## Use the clock-stops\n\nWhile RA answers questions, the other tracks shouldn't wait. Clock-stops are the time to:\n\n- draft artworks\n- start EMVS onboarding\n- schedule the validation batches\n- prepare translations\n\nThis is planning practice, and it's often what separates a fast launch from a slow one."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** phase 2 typically runs about 7 months of assessment plus clock-stops. Plan the clock-stop length realistically, based on the expected questions."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl9-l03-phase2-fc1",
+              "front": "Clock-stops as working time",
+              "back": "While RA answers questions, draft artworks, onboard to EMVS, schedule batches and prepare translations."
+            },
+            {
+              "id": "gl9-l03-phase2-fc2",
+              "front": "Phase 2 exit",
+              "back": "End of procedure, with agreed English texts: SmPC, labelling and PIL."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl9-l03-phase2-q1",
+              "stem": "What usually makes the DCP longer than 210 days?",
+              "options": [
+                "The agencies' holidays",
+                "Clock-stops while the applicant answers questions",
+                "The patent",
+                "The QP"
+              ],
+              "correctIndex": 1,
+              "explanation": "The 210 days count only assessment time. Clock-stops add the applicant's response time."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 28.\n2. **EU guidance** — CMDh Best Practice Guide for the DCP.\n3. **Course** — Module 2, Lesson 6."
+        }
+      ]
+    },
+    {
+      "id": "gl9-l04-phase3",
+      "title": "Phase 3: national phase and artworks",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## From one agreement to many national packs\n\nAfter day 210, the agreed English texts become national documents, national licences and, finally, printed packs for each country."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m9/phase3-national-artworks.svg",
+          "alt": "Zoom on the reference launch Gantt with this phase's rows highlighted: artworks (drafted during clock-stops) and EMVS onboarding; entry, work, exit and slips below",
+          "caption": "Phase 3: national phase, translations and artworks",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.538
+        },
+        {
+          "type": "text",
+          "markdown": "## Entry, work, exit\n\n- **Entry:** texts final or near-final, with drafts started during the clock-stops.\n- **Work:**\n  - translations\n  - mock-ups\n  - Blue Box requirements\n  - artwork for each country (Module 8)\n  - printed materials ordered\n- **Exit:**\n  - a national licence in each country\n  - approved artwork for each country\n  - printed materials delivered to the packaging site"
+        },
+        {
+          "type": "text",
+          "markdown": "## Typical slips\n\nCommon causes of delay:\n\n- late translations\n- multiple proof rounds\n- a wrong die-line\n- printer capacity\n- a variation changing the texts just before printing (Module 8, Lesson 8)\n\nEach country is its own line on the plan."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** printed packaging is often the last piece of the supply chain. Approved artwork for each country gates the packaging runs, and those gate the launch stock."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl9-l04-phase3-fc1",
+              "front": "Phase 3 exit",
+              "back": "National licence + approved country artwork + printed materials at the packaging site."
+            },
+            {
+              "id": "gl9-l04-phase3-fc2",
+              "front": "Typical phase 3 slips",
+              "back": "Late translations, multiple proof rounds, a wrong die-line, printer capacity, or a variation changing texts just before printing."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl9-l04-phase3-q1",
+              "stem": "Why should each country be its own line in phase 3?",
+              "options": [
+                "For decoration",
+                "Each country has its own licence date, translation, Blue Box and artwork approvals, which slip independently",
+                "Because the QP requires it",
+                "Because patents differ"
+              ],
+              "correctIndex": 1,
+              "explanation": "Country tasks run in parallel but slip independently. One shared line hides the late country."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 28(5) (national phase).\n2. **Course** — Module 2, Lesson 7; Module 8."
+        }
+      ]
+    },
+    {
+      "id": "gl9-l05-phase4",
+      "title": "Phase 4: from licence to market access",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A licence doesn't mean sales\n\nIn most EU countries, a generic only sells once its price is set and it's reimbursed, or once it has won the relevant tenders. **Pricing and reimbursement** (*prix et remboursement*), or P&R, is national: each country has its own rules, files and timelines."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m9/phase4-access.svg",
+          "alt": "Zoom on the reference launch Gantt with this phase's rows highlighted: pricing, reimbursement and tenders; entry, work, exit and slips below",
+          "caption": "Phase 4: from licence to market access",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.538
+        },
+        {
+          "type": "text",
+          "markdown": "## Entry, work, exit\n\n- **Entry:** national licence granted.\n- **Work:** pricing and reimbursement applications, listings, tender bids.\n- **Exit:** the price and reimbursement status are known, the tender is won (or there's a plan B), and the product is listed with wholesalers."
+        },
+        {
+          "type": "text",
+          "markdown": "## The legal frame\n\nThe **Transparency Directive** (*directive transparence*), Directive 89/105/EEC, sets maximum timelines: 90 days for a pricing decision, 90 days for a reimbursement decision, or 180 days if the two are combined. Many countries decide faster for generics.\n\nIn some markets, payers' or hospitals' tenders decide most of the volume. After the pharma reform, the Bolar exemption will explicitly allow pricing, reimbursement and tender steps before patent expiry (Module 3)."
+        },
+        {
+          "type": "text",
+          "markdown": "### Process card: Pricing and reimbursement application\n\n- What it is: the national application for a price and reimbursement status for the generic\n- Who owns it: the local market-access or commercial team, with RA support\n- Inputs: the national licence, a price proposal, the required national forms, sometimes reference-product prices\n- Output: a published price and reimbursement status, or a listing\n- Typical duration: up to 90/180 days by law; often shorter for generics; varies by country\n- What makes it slip: incomplete files, national calendars (fixed listing dates), changes in price rules\n- PM watch-points: know each country's listing calendar, and file as soon as the licence allows (or earlier, where Bolar permits)"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** in several countries, market access, not regulatory approval, sets the launch date. Put each country's listing dates on the plan."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl9-l05-phase4-fc1",
+              "front": "P&R",
+              "back": "Pricing and reimbursement: national decisions on price and reimbursement status. FR: prix et remboursement."
+            },
+            {
+              "id": "gl9-l05-phase4-fc2",
+              "front": "Transparency Directive",
+              "back": "Directive 89/105/EEC: 90 days for price, 90 for reimbursement, 180 combined (maximums). FR: directive transparence."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl9-l05-phase4-q1",
+              "stem": "A generic gets its licence in March, but the country publishes reimbursement lists quarterly, and the next one is in July. What's the realistic launch?",
+              "options": [
+                "March",
+                "Around the July listing (if the file is complete in time)",
+                "Never",
+                "January"
+              ],
+              "correctIndex": 1,
+              "explanation": "National listing calendars can set the real launch date. File early, and plan around the calendar."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Council Directive 89/105/EEC (Transparency Directive), Art. 2–6.\n2. **Course** — Module 3, Lesson 4 (Bolar exemption and the reform).\n3. **Practice** — national listing calendars and tenders (labelled as practice; varies by country)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "version": 14,
+  "version": 15,
   "updated": "2026-10-05",
   "entries": [
     {
@@ -5387,6 +5387,410 @@
       ],
       "translations": {
         "fr": "organisme notifié"
+      }
+    },
+    {
+      "id": "qrd-template",
+      "term": "QRD template",
+      "aliases": [
+        "QRD template",
+        "QRD",
+        "QRD templates"
+      ],
+      "category": "launch",
+      "short": "The EMA's standard template for SmPC, labelling and PIL texts; also used in MRP/DCP.",
+      "simpler": "The fill-in-the-blanks form for product information.",
+      "example": {
+        "moduleId": "gl-m8-artworks",
+        "text": "Module 8, Lesson 1."
+      },
+      "notToConfuse": "Not artwork: it governs text, not design.",
+      "related": [
+        "artwork"
+      ],
+      "modules": [
+        "gl-m8-artworks"
+      ],
+      "translations": {
+        "fr": "modèle QRD"
+      }
+    },
+    {
+      "id": "artwork",
+      "term": "Artwork",
+      "aliases": [
+        "artwork",
+        "artworks",
+        "packaging artwork"
+      ],
+      "category": "launch",
+      "short": "The graphic design of pack and leaflet showing the approved texts exactly.",
+      "simpler": "The final printed look of the pack.",
+      "example": {
+        "moduleId": "gl-m8-artworks",
+        "text": "Module 8, Lesson 7: often on the critical path before launch."
+      },
+      "notToConfuse": "Not the approved text itself.",
+      "related": [
+        "qrd-template",
+        "proofreading"
+      ],
+      "modules": [
+        "gl-m8-artworks"
+      ],
+      "translations": {
+        "fr": "maquette (artwork)"
+      }
+    },
+    {
+      "id": "mock-up",
+      "term": "Mock-up",
+      "aliases": [
+        "mock-up",
+        "mock-ups",
+        "mockup",
+        "specimen",
+        "specimens"
+      ],
+      "category": "launch",
+      "short": "A flat full-colour layout of the pack submitted to agencies; a specimen is an actual printed sample.",
+      "simpler": "A dress rehearsal of the pack on paper.",
+      "example": {
+        "moduleId": "gl-m8-artworks",
+        "text": "Module 8, Lesson 2: Art. 61(1)."
+      },
+      "notToConfuse": "Not the final print run.",
+      "related": [
+        "artwork",
+        "die-line"
+      ],
+      "modules": [
+        "gl-m8-artworks"
+      ],
+      "translations": {
+        "fr": "maquette / spécimen"
+      }
+    },
+    {
+      "id": "art-61-3",
+      "term": "Art. 61(3) notification",
+      "aliases": [
+        "Art. 61(3) notification",
+        "Article 61(3) notification",
+        "61(3)"
+      ],
+      "category": "launch",
+      "short": "Route for label or leaflet changes not linked to the SmPC; proceeds if no objection within 90 days.",
+      "simpler": "Telling the agency about a layout change and waiting for no objection.",
+      "example": {
+        "moduleId": "gl-m8-artworks",
+        "text": "Module 8, Lesson 2."
+      },
+      "notToConfuse": "Not a variation, which is needed for SmPC changes.",
+      "related": [
+        "mock-up",
+        "variation"
+      ],
+      "modules": [
+        "gl-m8-artworks"
+      ],
+      "translations": {
+        "fr": "notification article 61(3)"
+      }
+    },
+    {
+      "id": "die-line",
+      "term": "Die-line",
+      "aliases": [
+        "die-line",
+        "die-lines",
+        "dieline",
+        "technical drawing"
+      ],
+      "category": "launch",
+      "short": "The technical drawing of the carton's cut and fold lines, from the packaging site.",
+      "simpler": "The sewing pattern for the carton.",
+      "example": {
+        "moduleId": "gl-m8-artworks",
+        "text": "Module 8, Lesson 7: a wrong die-line means a reprint."
+      },
+      "notToConfuse": "Not the artwork itself.",
+      "related": [
+        "artwork"
+      ],
+      "modules": [
+        "gl-m8-artworks"
+      ],
+      "translations": {
+        "fr": "plan de découpe"
+      }
+    },
+    {
+      "id": "blue-box",
+      "term": "Blue Box",
+      "aliases": [
+        "Blue Box",
+        "blue box"
+      ],
+      "category": "launch",
+      "short": "A framed area on the carton for country-specific particulars (CMDh list per country).",
+      "simpler": "The country's own corner of the carton.",
+      "example": {
+        "moduleId": "gl-m8-artworks",
+        "text": "Module 8, Lesson 3."
+      },
+      "notToConfuse": "Not the Braille.",
+      "related": [
+        "braille",
+        "multilingual-pack"
+      ],
+      "modules": [
+        "gl-m8-artworks"
+      ],
+      "translations": {
+        "fr": "encadré bleu"
+      }
+    },
+    {
+      "id": "braille",
+      "term": "Braille",
+      "aliases": [
+        "Braille",
+        "braille"
+      ],
+      "category": "launch",
+      "short": "The product name must appear in Braille on the carton (Art. 56a); strength recommended where several exist.",
+      "simpler": "Raised dots so blind patients can read the name.",
+      "example": {
+        "moduleId": "gl-m8-artworks",
+        "text": "Module 8, Lesson 3: check it at proof stage."
+      },
+      "notToConfuse": "Not printed ink: it's embossed.",
+      "related": [
+        "blue-box"
+      ],
+      "modules": [
+        "gl-m8-artworks"
+      ],
+      "translations": {
+        "fr": "braille"
+      }
+    },
+    {
+      "id": "readability-testing",
+      "term": "Readability testing",
+      "aliases": [
+        "readability testing",
+        "user testing",
+        "bridging",
+        "bridging report"
+      ],
+      "category": "launch",
+      "short": "Testing the leaflet with real users (Art. 59(3)); generics can often bridge to a tested leaflet.",
+      "simpler": "Can patients find and understand what matters?",
+      "example": {
+        "moduleId": "gl-m8-artworks",
+        "text": "Module 8, Lesson 4: commonly 90% find, 90% of those understand."
+      },
+      "notToConfuse": "Not proofreading.",
+      "related": [
+        "pil"
+      ],
+      "modules": [
+        "gl-m8-artworks"
+      ],
+      "translations": {
+        "fr": "test de lisibilité"
+      }
+    },
+    {
+      "id": "safety-features",
+      "term": "Safety features",
+      "aliases": [
+        "safety features",
+        "anti-tampering device",
+        "ATD",
+        "tamper-evident seal"
+      ],
+      "category": "launch",
+      "short": "The unique identifier (2D code) and the anti-tampering device on each prescription pack (Reg. 2016/161).",
+      "simpler": "A passport and a seal on every box.",
+      "example": {
+        "moduleId": "gl-m8-artworks",
+        "text": "Module 8, Lesson 5."
+      },
+      "notToConfuse": "Not the batch number alone.",
+      "related": [
+        "serialisation",
+        "emvs"
+      ],
+      "modules": [
+        "gl-m8-artworks"
+      ],
+      "translations": {
+        "fr": "dispositifs de sécurité"
+      }
+    },
+    {
+      "id": "emvs",
+      "term": "EMVS",
+      "aliases": [
+        "EMVS",
+        "European hub",
+        "NMVS",
+        "national verification system",
+        "EMVO"
+      ],
+      "category": "launch",
+      "short": "The EU system of a central hub and national systems where pack codes are uploaded and checked at dispensing.",
+      "simpler": "The database every pack is checked against.",
+      "example": {
+        "moduleId": "gl-m8-artworks",
+        "text": "Module 8, Lesson 5: onboarding takes weeks."
+      },
+      "notToConfuse": "Not EudraGMDP.",
+      "related": [
+        "serialisation",
+        "decommissioning"
+      ],
+      "modules": [
+        "gl-m8-artworks"
+      ],
+      "translations": {
+        "fr": "système européen de vérification (EMVS)"
+      }
+    },
+    {
+      "id": "decommissioning",
+      "term": "Decommissioning",
+      "aliases": [
+        "decommissioning",
+        "decommissioned",
+        "decommission"
+      ],
+      "category": "launch",
+      "short": "Marking a pack as dispensed in the national system when the pharmacy scans it.",
+      "simpler": "Ticking off the box as delivered to the patient.",
+      "example": {
+        "moduleId": "gl-m8-artworks",
+        "text": "Module 8, Lesson 5."
+      },
+      "notToConfuse": "Not a recall.",
+      "related": [
+        "emvs"
+      ],
+      "modules": [
+        "gl-m8-artworks"
+      ],
+      "translations": {
+        "fr": "désactivation"
+      }
+    },
+    {
+      "id": "fmd",
+      "term": "Falsified Medicines Directive",
+      "aliases": [
+        "Falsified Medicines Directive",
+        "FMD"
+      ],
+      "category": "launch",
+      "short": "Directive 2011/62/EU, introducing safety features, API written confirmations and other anti-falsification rules.",
+      "simpler": "The EU's anti-counterfeit law.",
+      "example": {
+        "moduleId": "gl-m8-artworks",
+        "text": "Module 8, Lesson 5; also Module 6 (written confirmation)."
+      },
+      "notToConfuse": "Not GMP itself.",
+      "related": [
+        "safety-features",
+        "written-confirmation"
+      ],
+      "modules": [
+        "gl-m8-artworks"
+      ],
+      "translations": {
+        "fr": "directive sur les médicaments falsifiés"
+      }
+    },
+    {
+      "id": "multilingual-pack",
+      "term": "Multilingual pack",
+      "aliases": [
+        "multilingual pack",
+        "multilingual packs",
+        "SKU",
+        "SKUs"
+      ],
+      "category": "launch",
+      "short": "One pack with the same particulars in several languages, for several countries (Art. 63(1)).",
+      "simpler": "One box that speaks several languages.",
+      "example": {
+        "moduleId": "gl-m8-artworks",
+        "text": "Module 8, Lesson 6: fewer SKUs, less carton space."
+      },
+      "notToConfuse": "Not a pack for an unauthorised country.",
+      "related": [
+        "blue-box"
+      ],
+      "modules": [
+        "gl-m8-artworks"
+      ],
+      "translations": {
+        "fr": "conditionnement multilingue"
+      }
+    },
+    {
+      "id": "proofreading",
+      "term": "Proofreading",
+      "aliases": [
+        "proofreading",
+        "proof",
+        "proofs",
+        "printer proof"
+      ],
+      "category": "launch",
+      "short": "Word-by-word check of the artwork against approved text, plus Braille, codes and colours; a GMP control.",
+      "simpler": "Checking every letter before printing.",
+      "example": {
+        "moduleId": "gl-m8-artworks",
+        "text": "Module 8, Lesson 7."
+      },
+      "notToConfuse": "Not readability testing.",
+      "related": [
+        "artwork"
+      ],
+      "modules": [
+        "gl-m8-artworks"
+      ],
+      "translations": {
+        "fr": "relecture"
+      }
+    },
+    {
+      "id": "implementation-deadline",
+      "term": "Implementation deadline",
+      "aliases": [
+        "implementation deadline",
+        "implementation date",
+        "old stock"
+      ],
+      "category": "launch",
+      "short": "The date from which packs must carry updated approved texts; usually faster for safety changes.",
+      "simpler": "The date the old pack must give way to the new one.",
+      "example": {
+        "moduleId": "gl-m8-artworks",
+        "text": "Module 8, Lesson 8."
+      },
+      "notToConfuse": "Not the approval date.",
+      "related": [
+        "artwork",
+        "variation"
+      ],
+      "modules": [
+        "gl-m8-artworks"
+      ],
+      "translations": {
+        "fr": "date de mise en œuvre"
       }
     }
   ]

@@ -3,7 +3,7 @@
   "id": "gl-m9-launch-chronology",
   "title": "Generics & launch 9: A typical launch chronology",
   "discipline": "Generics & launch",
-  "version": 1,
+  "version": 2,
   "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
   "lessons": [
     {
@@ -362,6 +362,369 @@
         {
           "type": "text",
           "markdown": "## Sources\n\n1. **EU law** — Council Directive 89/105/EEC (Transparency Directive), Art. 2–6.\n2. **Course** — Module 3, Lesson 4 (Bolar exemption and the reform).\n3. **Practice** — national listing calendars and tenders (labelled as practice; varies by country)."
+        }
+      ]
+    },
+    {
+      "id": "gl9-l06-phase5",
+      "title": "Phase 5: EMVS and serialisation readiness",
+      "xpReward": 35,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A pack that can't be scanned can't be sold\n\nUnder the Falsified Medicines Directive, a pharmacy must be able to verify every pack. Phase 5 makes sure the MAH, its data and the packaging line are ready before the first serialised pack ships."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m9/phase5-serialisation.svg",
+          "alt": "Zoom on the reference launch Gantt with this phase's rows highlighted: EMVS onboarding and master data; entry, work, exit and slips below",
+          "caption": "Phase 5: EMVS onboarding and serialisation readiness",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.538
+        },
+        {
+          "type": "text",
+          "markdown": "## Entry, work, exit\n\n- **Entry:** the MAH is known, the packaging site is chosen, and the product data is defined.\n- **Work:**\n  - onboard with the EU hub organisation\n  - upload master data for each country (Module 8, Lesson 5)\n  - set up the packaging line to print and verify the codes\n- **Exit:** test uploads succeed, and the line prints and verifies codes correctly."
+        },
+        {
+          "type": "text",
+          "markdown": "## Typical slips\n\nTypical slips in this phase:\n\n- onboarding paperwork started too late\n- master data errors, such as wrong product codes for a country\n- the packaging line not yet validated for serialisation\n\nEach of these is invisible until the first scan fails, which is why test uploads belong on the plan."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** start onboarding during the DCP. It takes weeks, and without it, released packs can't be dispensed."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl9-l06-phase5-fc1",
+              "front": "Phase 5 exit",
+              "back": "Test uploads OK and the packaging line prints and verifies codes. Then serialised packs can ship."
+            },
+            {
+              "id": "gl9-l06-phase5-fc2",
+              "front": "Typical phase 5 slips",
+              "back": "Onboarding paperwork started late, master data errors such as wrong product codes, or a packaging line not yet validated for serialisation."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl9-l06-phase5-q1",
+              "stem": "When should EMVS onboarding start?",
+              "options": [
+                "After the first sale",
+                "During the DCP, well before the first batch is packed",
+                "Only after pricing",
+                "Never; the wholesaler does it"
+              ],
+              "correctIndex": 1,
+              "explanation": "Onboarding and master data take weeks, and packs can't be dispensed without them."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **EU law** — Commission Delegated Regulation (EU) 2016/161.\n2. **Course** — Module 8, Lesson 5."
+        }
+      ]
+    },
+    {
+      "id": "gl9-l07-phase6",
+      "title": "Phase 6: launch batches to first shipment",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The last mile\n\nThe licence, the artwork and serialisation are ready. Now physical stock has to be made, packed, imported, tested, certified and delivered to the wholesalers in each country."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m9/phase6-first-shipment.svg",
+          "alt": "Zoom on the reference launch Gantt with this phase's rows highlighted: validation and launch batches, EU testing and QP release; entry, work, exit and slips below",
+          "caption": "Phase 6: launch batches to first shipment",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.538
+        },
+        {
+          "type": "text",
+          "markdown": "## Entry, work, exit\n\n- **Entry:** printed materials are at the packaging site, and the batches are scheduled.\n- **Work:**\n  - manufacture and pack (Module 5)\n  - ship to the EU importer\n  - full EU testing\n  - QP certification (Module 6)\n- **Exit:** released stock is at the wholesaler in each country."
+        },
+        {
+          "type": "text",
+          "markdown": "## Launch readiness\n\nMany teams use a **launch-readiness checklist** (*liste de contrôle de lancement*): a one-page go/no-go list per country, reviewed shortly before launch. A typical list covers:\n\n- licence granted\n- price and reimbursement in place\n- artwork approved and stock released\n- EMVS live\n- PV system ready\n- wholesaler listed\n- launch communication ready\n\nThis is practice, not regulation."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** phase 6 turns all the previous phases into stock. Its slips (deviations, missing documents, testing capacity) usually cost weeks, so keep a buffer before the launch date."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl9-l07-phase6-fc1",
+              "front": "Launch-readiness checklist",
+              "back": "A go/no-go list per country before launch: licence, P&R, artwork, released stock, EMVS, PV, wholesaler listing, communication. FR: liste de contrôle de lancement."
+            },
+            {
+              "id": "gl9-l07-phase6-fc2",
+              "front": "Phase 6 exit",
+              "back": "Released stock at the wholesaler in each country, after manufacture, packing, shipment, full EU testing and QP certification."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl9-l07-phase6-q1",
+              "stem": "Stock is released, but EMVS master data for one country is missing. Is that country ready to launch?",
+              "options": [
+                "Yes",
+                "No; packs would fail verification at pharmacies",
+                "Only for hospitals",
+                "Only after pricing"
+              ],
+              "correctIndex": 1,
+              "explanation": "Every item on the readiness checklist must be green, and serialisation data is one of them."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Course** — Modules 5, 6 and 8.\n2. **Practice** — launch-readiness checklists (labelled as practice)."
+        }
+      ]
+    },
+    {
+      "id": "gl9-l08-critical-path",
+      "title": "Critical path and slip points",
+      "xpReward": 45,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Which chain decides the date?\n\nThe **critical path** is the chain of tasks with no slack (Module 0). For an in-licensed generic it usually runs dossier → DCP → national texts → artwork and printing → packing → EU testing and QP → launch. Market access, a later patent expiry, or a GMP problem can take over at any time."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m9/critical-path-slips.svg",
+          "alt": "Chain from dossier through DCP, national texts, artwork, packing and EU testing to launch, with red flags at frequent slip points, and three events that can override the whole chain",
+          "caption": "The critical path and where it slips",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.951
+        },
+        {
+          "type": "text",
+          "markdown": "## The usual slip points\n\nEach phase has a slip point that comes up again and again:\n\n- late dossier and stability gaps (phase 1)\n- long clock-stops (phase 2)\n- proof rounds and printer slots (phase 3)\n- documents and testing capacity (phase 6)\n\nA **slip point** (*point de glissement*) is a step that often runs late. Watch these weekly, rather than at the end."
+        },
+        {
+          "type": "text",
+          "markdown": "## Try it\n\nThe **Launch Gantt explorer** is an interactive version of the reference Gantt (ask Mathieu for the link). Move the clock-stop, artwork, batch, testing, pricing and patent sliders, and see how the launch date and the critical path change. It's a quick way to feel why parallel work matters."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** the critical path can switch from supply to market access, or to IP, when one input changes. Re-check it whenever a date moves."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl9-l08-critical-path-fc1",
+              "front": "Slip point",
+              "back": "A step that often runs late, e.g. clock-stops, proof rounds or testing capacity. Watch it weekly. FR: point de glissement."
+            },
+            {
+              "id": "gl9-l08-critical-path-fc2",
+              "front": "Critical path switch",
+              "back": "The path can change from supply to market access, or to IP, when one input changes. Re-check it after every date change."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl9-l08-critical-path-q1",
+              "stem": "Clock-stops grow from 3 to 8 months. What happens in the reference plan?",
+              "options": [
+                "Nothing",
+                "Launch moves later, because the DCP sits on the critical path",
+                "Only pricing moves",
+                "Only artwork moves earlier"
+              ],
+              "correctIndex": 1,
+              "explanation": "Everything after the DCP waits for it, so a longer clock-stop pushes the launch."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Course** — Module 0, Lesson 5 (critical path); Module 9, Lessons 1–7.\n2. **Practice** — typical slip points (labelled as practice)."
+        }
+      ]
+    },
+    {
+      "id": "gl9-l09-pm-toolkit",
+      "title": "PM toolkit",
+      "xpReward": 35,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Three tables you'll use every week\n\nModule 0 introduced the tools. Here's what they look like in a live launch. The examples are illustrative; your real templates may differ."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m9/pm-toolkit-schematic.svg",
+          "alt": "Three illustrative tables: a RACI matrix by task and function, a risk register with likelihood times impact and owner actions, and a decision log with date, decision, decision-maker and plan impact",
+          "caption": "PM toolkit: three simple tables",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.051
+        },
+        {
+          "type": "text",
+          "markdown": "## How to use them\n\n- **RACI:** build it from the agreements (Module 0) and update it when roles change.\n- **Risk register:**\n  - list each risk with its likelihood × impact (L×I)\n  - give each one an owner and a concrete action\n  - review the top three every week\n  - typical entries are expiring written confirmations, long clock-stops and printer slots\n- **Decision log:** record what was decided, by whom, when, and the effect on the plan, so decisions don't get re-opened by accident."
+        },
+        {
+          "type": "text",
+          "markdown": "## A weekly rhythm\n\nA short weekly status works well:\n\n- what moved\n- what's late\n- the top risks\n- the decisions needed\n- a red, amber or green flag per country\n\nThis is practice, not regulation."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** the tools only help if they're current. Fifteen minutes of updates every week saves days of surprises."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "gl9-l09-pm-toolkit-fc1",
+              "front": "Risk register essentials",
+              "back": "Risk, likelihood × impact, owner, concrete action. Review the top three weekly."
+            },
+            {
+              "id": "gl9-l09-pm-toolkit-fc2",
+              "front": "Decision log essentials",
+              "back": "Date, decision, who decided, impact on the plan."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl9-l09-pm-toolkit-q1",
+              "stem": "Why keep a decision log?",
+              "options": [
+                "For the auditors only",
+                "So decisions aren't re-opened or forgotten, and their effect on the plan is visible",
+                "To replace the RACI",
+                "To price the product"
+              ],
+              "correctIndex": 1,
+              "explanation": "Writing decisions down with their impact keeps the team aligned and the plan honest."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — standard PM tools (labelled as practice).\n2. **Image** — schematic; real templates will be added."
+        }
+      ]
+    },
+    {
+      "id": "gl9-l10-capstone",
+      "title": "Capstone: a real launch, backwards",
+      "xpReward": 60,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Putting it all together\n\nThe best way to make the course stick is to apply it to a launch that really happened. Take an anonymised past launch with Mathieu, and walk it backwards from the first sale."
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m9/capstone-worksheet.svg",
+          "alt": "Five-step worksheet: start at the first sale, find the last gate, trace each phase planned versus actual, mark slips and causes, and write one lesson per phase, with four discussion questions",
+          "caption": "Capstone: walk a real launch backwards",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2
+        },
+        {
+          "type": "text",
+          "markdown": "## The five steps\n\n1. Start at the first sale date.\n2. Find which gate came last: the licence, pricing and reimbursement, stock, or the patent.\n3. Trace each phase back, comparing planned and actual dates.\n4. Mark each slip and its cause.\n5. Write one lesson per phase for next time."
+        },
+        {
+          "type": "text",
+          "markdown": "## Questions to answer together\n\n- What was on the critical path, and was it the one you expected?\n- Which slip could have been seen earlier, and from which document?\n- Which phases overlapped well, for example artwork drafts during clock-stops?\n- What would you put in the risk register next time?"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for the launch timeline:** the capstone turns the reference Gantt into your own. Keep the lessons learned as a checklist for the next launch."
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "gl9-l10-capstone-q1",
+              "stem": "In the capstone, where do you start?",
+              "options": [
+                "At the deal signature",
+                "At the first sale date, then work backwards",
+                "At the patent filing",
+                "At the artwork"
+              ],
+              "correctIndex": 1,
+              "explanation": "Walking backwards from the first sale shows which gate came last, and so what really set the date."
+            },
+            {
+              "id": "gl9-l10-capstone-q2",
+              "stem": "Which of these is the best 'lesson learned' format?",
+              "options": [
+                "'Things were late'",
+                "'Artwork drafts should start at day 105; this time they started after day 210, which cost 6 weeks'",
+                "'Blame the printer'",
+                "'Work harder'"
+              ],
+              "correctIndex": 1,
+              "explanation": "Good lessons are specific: the phase, the cause, the size of the impact and what to change."
+            },
+            {
+              "id": "gl9-l10-capstone-q3",
+              "stem": "Which module explains why a granted licence still couldn't launch because of a patent?",
+              "options": [
+                "Module 3",
+                "Module 7",
+                "Module 8",
+                "Module 5"
+              ],
+              "correctIndex": 0,
+              "explanation": "Module 3 covers patents, SPCs and the earliest launch date."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Course** — Modules 0–9."
         }
       ]
     }

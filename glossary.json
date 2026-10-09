@@ -1,5 +1,5 @@
 {
-  "version": 16,
+  "version": 17,
   "updated": "2026-10-05",
   "entries": [
     {
@@ -5872,6 +5872,110 @@
       ],
       "translations": {
         "fr": "directive transparence"
+      }
+    },
+    {
+      "id": "launch-readiness-checklist",
+      "term": "Launch-readiness checklist",
+      "aliases": [
+        "launch-readiness checklist",
+        "launch readiness checklist",
+        "go/no-go"
+      ],
+      "category": "launch",
+      "short": "A go/no-go list per country before launch: licence, P&R, artwork, released stock, EMVS, PV, wholesaler listing, communication.",
+      "simpler": "The pre-flight checklist before take-off.",
+      "example": {
+        "moduleId": "gl-m9-launch-chronology",
+        "text": "Module 9, Lesson 7."
+      },
+      "notToConfuse": "Not the Gantt: it's a final gate check.",
+      "related": [
+        "critical-path",
+        "pricing-reimbursement"
+      ],
+      "modules": [
+        "gl-m9-launch-chronology"
+      ],
+      "translations": {
+        "fr": "liste de contrôle de lancement"
+      }
+    },
+    {
+      "id": "slip-point",
+      "term": "Slip point",
+      "aliases": [
+        "slip point",
+        "slip points"
+      ],
+      "category": "launch",
+      "short": "A step that often runs late, such as clock-stops, proof rounds or testing capacity.",
+      "simpler": "A known pothole on the road.",
+      "example": {
+        "moduleId": "gl-m9-launch-chronology",
+        "text": "Module 9, Lesson 8: watch weekly."
+      },
+      "notToConfuse": "Not a risk that has already happened.",
+      "related": [
+        "critical-path",
+        "risk-register"
+      ],
+      "modules": [
+        "gl-m9-launch-chronology"
+      ],
+      "translations": {
+        "fr": "point de glissement"
+      }
+    },
+    {
+      "id": "decision-log",
+      "term": "Decision log",
+      "aliases": [
+        "decision log"
+      ],
+      "category": "launch",
+      "short": "A record of decisions: date, decision, who decided, impact on the plan.",
+      "simpler": "The project's memory of what was agreed.",
+      "example": {
+        "moduleId": "gl-m9-launch-chronology",
+        "text": "Module 9, Lesson 9."
+      },
+      "notToConfuse": "Not meeting minutes in general.",
+      "related": [
+        "raci",
+        "risk-register"
+      ],
+      "modules": [
+        "gl-m9-launch-chronology"
+      ],
+      "translations": {
+        "fr": "registre des décisions"
+      }
+    },
+    {
+      "id": "rag-status",
+      "term": "RAG status",
+      "aliases": [
+        "RAG status",
+        "red, amber or green",
+        "RAG"
+      ],
+      "category": "launch",
+      "short": "A traffic-light flag per country or task: on track, at risk, or late.",
+      "simpler": "A traffic light for each part of the plan.",
+      "example": {
+        "moduleId": "gl-m9-launch-chronology",
+        "text": "Module 9, Lesson 9: part of the weekly status."
+      },
+      "notToConfuse": "Not a measure of quality.",
+      "related": [
+        "risk-register"
+      ],
+      "modules": [
+        "gl-m9-launch-chronology"
+      ],
+      "translations": {
+        "fr": "statut RAG (rouge / orange / vert)"
       }
     }
   ]

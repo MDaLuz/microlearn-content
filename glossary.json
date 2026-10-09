@@ -1,5 +1,5 @@
 {
-  "version": 15,
+  "version": 16,
   "updated": "2026-10-05",
   "entries": [
     {
@@ -5791,6 +5791,87 @@
       ],
       "translations": {
         "fr": "date de mise en œuvre"
+      }
+    },
+    {
+      "id": "entry-exit-criteria",
+      "term": "Entry and exit criteria",
+      "aliases": [
+        "entry criteria",
+        "exit criteria",
+        "entry and exit criteria"
+      ],
+      "category": "launch",
+      "short": "What must be true to start a phase, and to finish it.",
+      "simpler": "The doors in and out of each room of the project.",
+      "example": {
+        "moduleId": "gl-m9-launch-chronology",
+        "text": "Module 9, Lesson 2: used for every phase."
+      },
+      "notToConfuse": "Not task lists.",
+      "related": [
+        "critical-path",
+        "gantt-chart"
+      ],
+      "modules": [
+        "gl-m9-launch-chronology"
+      ],
+      "translations": {
+        "fr": "critères d'entrée / de sortie"
+      }
+    },
+    {
+      "id": "pricing-reimbursement",
+      "term": "Pricing and reimbursement",
+      "aliases": [
+        "pricing and reimbursement",
+        "P&R",
+        "market access",
+        "reimbursement",
+        "listing"
+      ],
+      "category": "launch",
+      "short": "National decisions on a medicine's price and reimbursement status; often the real launch gate.",
+      "simpler": "Getting on the payer's list at an agreed price.",
+      "example": {
+        "moduleId": "gl-m9-launch-chronology",
+        "text": "Module 9, Lesson 5: watch national listing calendars."
+      },
+      "notToConfuse": "Not the marketing authorisation.",
+      "related": [
+        "transparency-directive",
+        "procurement-tender"
+      ],
+      "modules": [
+        "gl-m9-launch-chronology"
+      ],
+      "translations": {
+        "fr": "prix et remboursement"
+      }
+    },
+    {
+      "id": "transparency-directive",
+      "term": "Transparency Directive",
+      "aliases": [
+        "Transparency Directive",
+        "Directive 89/105/EEC"
+      ],
+      "category": "launch",
+      "short": "Directive 89/105/EEC: maximum 90 days for price, 90 for reimbursement, 180 combined.",
+      "simpler": "The deadline rulebook for pricing decisions.",
+      "example": {
+        "moduleId": "gl-m9-launch-chronology",
+        "text": "Module 9, Lesson 5."
+      },
+      "notToConfuse": "Not the pharma package.",
+      "related": [
+        "pricing-reimbursement"
+      ],
+      "modules": [
+        "gl-m9-launch-chronology"
+      ],
+      "translations": {
+        "fr": "directive transparence"
       }
     }
   ]

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" font-family="Atkinson Hyperlegible, Arial, Helvetica, sans-serif"><rect width="820" height="520" fill="#FFFFFF"/>
+<text x="30" y="36" font-size="22" fill="#1B2430" font-weight="bold">Reference product and its generic, side by side</text>
+<text x="30" y="60" font-size="12" fill="#5B6672">Invented names. Based on a real fixed-dose pair: ezetimibe + atorvastatin.</text>
+<!-- Pack A: reference -->
+<g>
+<polygon points="40,110 70,88 390,88 360,110" fill="#EEF2F6" stroke="#C9D2DC"/>
+<polygon points="360,110 390,88 390,288 360,310" fill="#D9E0E8" stroke="#C9D2DC"/>
+<rect x="40" y="110" width="320" height="200" fill="#F7F9FB" stroke="#C9D2DC"/>
+<circle cx="66" cy="134" r="9" fill="#2F7FB3"/><text x="82" y="139" font-size="13" fill="#1B2430" font-weight="bold">ORIGINATOR</text>
+<line x1="56" y1="152" x2="344" y2="152" stroke="#1B2430" stroke-width="1"/>
+<text x="56" y="194" font-size="26" fill="#1F3A5F" font-weight="bold">Brandname®</text>
+<rect x="226" y="170" width="124" height="32" rx="5" fill="#2F7FB3"/><text x="288" y="192" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">10 mg/40 mg</text>
+<text x="56" y="224" font-size="14" fill="#1B2430" font-weight="bold">Ezetimibe/Atorvastatin</text>
+<text x="56" y="290" font-size="12" fill="#1B2430">30 film-coated tablets</text>
+<rect x="300" y="246" width="44" height="50" rx="4" fill="#DCEBF5"/>
+</g>
+<text x="200" y="336" font-size="13" fill="#2F7FB3" font-weight="bold" text-anchor="middle">Reference product</text>
+<!-- Pack B: generic -->
+<g>
+<polygon points="430,130 456,110 780,110 754,130" fill="#F1EEF6" stroke="#CFC8DB"/>
+<polygon points="754,130 780,110 780,270 754,290" fill="#E0DAEA" stroke="#CFC8DB"/>
+<rect x="430" y="130" width="324" height="160" fill="#FFFFFF" stroke="#CFC8DB"/>
+<rect x="430" y="130" width="90" height="160" fill="#5B3F8C"/>
+<text x="475" y="276" font-size="13" fill="#FFFFFF" font-weight="bold" text-anchor="middle">GENERICO</text>
+<text x="534" y="152" font-size="11" fill="#5B6672">Atorvastatin/Ezetimibe</text>
+<text x="534" y="180" font-size="17" fill="#1B2430" font-weight="bold">Atorvastatin Ezetimibe</text>
+<text x="534" y="203" font-size="17" fill="#1B2430" font-weight="bold">Generico <tspan fill="#5B3F8C">40 mg/10 mg</tspan></text>
+<ellipse cx="640" cy="240" rx="34" ry="10" fill="#FFFFFF" stroke="#9AA5B1"/>
+<text x="534" y="278" font-size="11" fill="#1B2430">30 tablets</text>
+</g>
+<text x="592" y="336" font-size="13" fill="#5B3F8C" font-weight="bold" text-anchor="middle">Generic</text>
+<!-- Callouts -->
+<rect x="30" y="360" width="370" height="130" rx="8" fill="#E8F4EE" stroke="#1D9E75"/>
+<text x="46" y="386" font-size="15" fill="#1D7A5C" font-weight="bold">Must match</text>
+<text x="46" y="412" font-size="13" fill="#1B2430">• Same active substances</text>
+<text x="46" y="434" font-size="13" fill="#1B2430">• Same amounts (10 mg + 40 mg)</text>
+<text x="46" y="456" font-size="13" fill="#1B2430">• Same pharmaceutical form (tablet)</text>
+<text x="46" y="478" font-size="13" fill="#1B2430">• Bioequivalent</text>
+<rect x="420" y="360" width="370" height="130" rx="8" fill="#FFF1D6" stroke="#B7791F"/>
+<text x="436" y="386" font-size="15" fill="#8A5A12" font-weight="bold">May differ</text>
+<text x="436" y="412" font-size="13" fill="#1B2430">• Name and pack design</text>
+<text x="436" y="434" font-size="13" fill="#1B2430">• Order of substances and strengths on the label</text>
+<text x="436" y="456" font-size="13" fill="#1B2430">• Tablet shape, colour, excipients</text>
+<text x="436" y="478" font-size="13" fill="#1B2430">• Pack size and price</text>
+</svg>

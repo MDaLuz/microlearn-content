@@ -3,7 +3,7 @@
   "id": "gl-m8-artworks",
   "title": "Generics & launch 8: Artworks",
   "discipline": "Generics & launch",
-  "version": 1,
+  "version": 2,
   "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
   "lessons": [
     {
@@ -108,6 +108,16 @@
           "aspectRatio": 2
         },
         {
+          "type": "image",
+          "src": "assets/gl-m8/mockup-carton.webp",
+          "alt": "Anonymised carton mock-up laid flat on its die-line: front, back, sides and flaps with TRADEMARK placeholder name, strength, Braille dots, pharmacode boxes and a batch details space, 123 x 55 x 25 mm",
+          "caption": "A real carton mock-up, anonymised (identifiers removed)",
+          "aspectRatio": 1,
+          "credit": "Compound (own material)",
+          "license": "own",
+          "zoomable": true
+        },
+        {
           "type": "text",
           "markdown": "## What a mock-up shows\n\nA mock-up shows the real layout:\n\n- front, sides and back\n- fonts and colours\n- where the Blue Box, the Braille and the 2D code go\n\nThe flat carton is drawn inside its **die-line** (*plan de découpe*), the technical drawing of cut and fold lines from the packaging site."
         },
@@ -160,7 +170,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 61(1) (mock-ups) and 61(3) (notification of labelling and leaflet changes).\n2. **EU guidance** — CMDh guidance on mock-ups and specimens.\n3. **Image** — schematic; a real anonymised mock-up will be added."
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 61(1) (mock-ups) and 61(3) (notification of labelling and leaflet changes).\n2. **EU guidance** — CMDh guidance on mock-ups and specimens.\n3. **Image** — own diagram; anonymised carton mock-up (own material, identifiers removed)."
         }
       ]
     },
@@ -182,6 +192,16 @@
           "license": "own",
           "zoomable": true,
           "aspectRatio": 2.105
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m8/braille-carton.webp",
+          "alt": "Front panel of an anonymised carton with two rows of Braille dots printed over the product name, strength and pack size",
+          "caption": "Braille on a carton front (anonymised mock-up)",
+          "aspectRatio": 2.692,
+          "credit": "Compound (own material)",
+          "license": "own",
+          "zoomable": true
         },
         {
           "type": "text",
@@ -231,7 +251,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 56a (Braille), Art. 57 (national particulars).\n2. **EU guidance** — CMDh, 'Blue Box' requirements; European Commission guideline on the readability of labelling and package leaflets (Braille).\n3. **Image** — schematic; a real anonymised carton will be added."
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 56a (Braille), Art. 57 (national particulars).\n2. **EU guidance** — CMDh, 'Blue Box' requirements; European Commission guideline on the readability of labelling and package leaflets (Braille).\n3. **Image** — own diagram; anonymised carton mock-up showing Braille (own material). A Blue Box example is still to be added."
         }
       ]
     },
@@ -402,6 +422,16 @@
           "aspectRatio": 2.319
         },
         {
+          "type": "image",
+          "src": "assets/gl-m8/multilingual-foil.webp",
+          "alt": "Anonymised blister lidding foil printed diagonally and repeated, with the placeholder TRADEMARK name and the dosage form and substances in Portuguese, Italian, Spanish, French, German and Dutch",
+          "caption": "One blister foil, six languages (anonymised mock-up)",
+          "aspectRatio": 1.806,
+          "credit": "Compound (own material)",
+          "license": "own",
+          "zoomable": true
+        },
+        {
           "type": "text",
           "markdown": "## The trade-off\n\n**Pros:** fewer pack versions (SKUs), bigger packaging runs, and stock that can move between countries.\n\n**Cons:** limited carton space, a different Blue Box and different codes per country, and the need for every country's wording to fit. Multilingual packs are common for groups of smaller markets."
         },
@@ -449,7 +479,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 63(1) (languages of the particulars).\n2. **EU guidance** — CMDh guidance on multilingual packaging.\n3. **Image** — own diagram (no licence-clean Commons photo of a multilingual pack was found)."
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 63(1) (languages of the particulars).\n2. **EU guidance** — CMDh guidance on multilingual packaging.\n3. **Image** — own diagram; anonymised multilingual blister-foil mock-up (own material, identifiers removed)."
         }
       ]
     },

@@ -3,7 +3,7 @@
   "id": "gl-m5-manufacturing",
   "title": "Generics & launch 5: From API to finished product",
   "discipline": "Generics & launch",
-  "version": 1,
+  "version": 2,
   "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
   "lessons": [
     {
@@ -264,6 +264,17 @@
           "aspectRatio": 2.667
         },
         {
+          "type": "image",
+          "src": "assets/gl-m5/blister-line.webp",
+          "alt": "Close-up of a compact blister packaging machine: rollers feeding foil and film, control displays and buttons on the side, and an operator's hand at the forming station",
+          "caption": "A blister packaging machine (cropped)",
+          "credit": "Wikimedia Commons / Aditiaudi",
+          "license": "CC-BY-SA-4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayursun_Blister_machine_division_Opperating_female.jpg",
+          "zoomable": true,
+          "aspectRatio": 0.621
+        },
+        {
           "type": "text",
           "markdown": "## The steps\n\n- **Blistering:** tablets are sealed into a **blister** (*plaquette thermoformée*), commonly PVC/PVDC or aluminium/aluminium for moisture-sensitive products.\n- **Coding:** the batch number and expiry date are printed.\n- **Cartoning:** the blister and the patient leaflet go into the carton.\n- **Serialisation** (*sérialisation*): a unique 2D code and a tamper-evident seal are added, as required by the Falsified Medicines Directive (Module 8).\n- **Case packing:** shipper cases and pallets."
         },
@@ -316,7 +327,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **EU guidance** — EudraLex Vol. 4, Part I, Chapter 5 (packaging operations, line clearance).\n2. **EU law** — Commission Delegated Regulation (EU) 2016/161 (safety features).\n3. **Image** — own diagram (no licence-clean Commons photo of a blister line without people or brand names was found)."
+          "markdown": "## Sources\n\n1. **EU guidance** — EudraLex Vol. 4, Part I, Chapter 5 (packaging operations, line clearance).\n2. **EU law** — Commission Delegated Regulation (EU) 2016/161 (safety features).\n3. **Image** — own diagram; photo: Wikimedia Commons, 'Ayursun Blister machine division Opperating female' by Aditiaudi (CC BY-SA 4.0), cropped to the machine and resized."
         }
       ]
     },

@@ -3,7 +3,7 @@
   "id": "gl-m7-finished-product",
   "title": "Generics & launch 7: The finished product, piece by piece",
   "discipline": "Generics & launch",
-  "version": 1,
+  "version": 2,
   "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
   "lessons": [
     {
@@ -24,6 +24,16 @@
           "license": "own",
           "zoomable": true,
           "aspectRatio": 1.951
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m7/leaflet.webp",
+          "alt": "Top of an anonymised package leaflet: title Package leaflet, information for the user, the placeholder invented name with strength, the standard opening statements and the six-section contents list",
+          "caption": "The package leaflet (anonymised mock-up)",
+          "aspectRatio": 1.009,
+          "credit": "Compound (own material)",
+          "license": "own",
+          "zoomable": true
         },
         {
           "type": "text",
@@ -73,7 +83,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 54 (outer packaging), Art. 55 (blisters and small immediate packaging), Art. 59 (package leaflet).\n2. **Image** — own diagram (no licence-clean Commons photo of pack contents without brand names was found)."
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 54 (outer packaging), Art. 55 (blisters and small immediate packaging), Art. 59 (package leaflet).\n2. **Image** — own diagram; anonymised package-leaflet mock-up (own material)."
         }
       ]
     },
@@ -179,6 +189,28 @@
           "aspectRatio": 2.319
         },
         {
+          "type": "image",
+          "src": "assets/gl-m7/blister.webp",
+          "alt": "An empty clear plastic blister pack seen from the top, with ten formed cavities for tablets",
+          "caption": "A blister: formed cavities, one per tablet",
+          "credit": "Wikimedia Commons / Sprinno",
+          "license": "CC0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Medication_blister_pack.jpg",
+          "zoomable": true,
+          "aspectRatio": 0.885
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m7/bottle.webp",
+          "alt": "An orange plastic pill bottle lying on its side with tablets and capsules spilling out; the label is not readable",
+          "caption": "A plastic bottle, the main alternative to blisters",
+          "credit": "Wikimedia Commons / Mpelletier1",
+          "license": "CC-BY-SA-3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pill_Bottle_Spilled.jpg",
+          "zoomable": true,
+          "aspectRatio": 1.096
+        },
+        {
           "type": "text",
           "markdown": "## Common options\n\n- **PVC or PVC/PVDC blisters:** clear film plus foil, with moderate moisture protection.\n- **Alu/Alu blisters** (cold-form): high protection against moisture and light.\n- **HDPE bottles:** plastic bottles, often with a **desiccant** (*déshydratant*), a small sachet or canister that absorbs moisture, and sometimes a child-resistant closure."
         },
@@ -226,7 +258,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **EU guidance** — EMA, Guideline on plastic immediate packaging materials; European Pharmacopoeia, chapter 3 (materials and containers).\n2. **EU law** — Commission Regulation (EC) No 1234/2008, as amended (variations to packaging).\n3. **Image** — own diagram (no licence-clean Commons photo of blisters and bottles without brand names was found)."
+          "markdown": "## Sources\n\n1. **EU guidance** — EMA, Guideline on plastic immediate packaging materials; European Pharmacopoeia, chapter 3 (materials and containers).\n2. **EU law** — Commission Regulation (EC) No 1234/2008, as amended (variations to packaging).\n3. **Image** — own diagram; photos: Wikimedia Commons, 'Medication blister pack' by Sprinno (CC0) and 'Pill Bottle Spilled' by Mpelletier1 (CC BY-SA 3.0), resized."
         }
       ]
     },
@@ -248,6 +280,17 @@
           "license": "own",
           "zoomable": true,
           "aspectRatio": 2.025
+        },
+        {
+          "type": "image",
+          "src": "assets/gl-m7/carton.webp",
+          "alt": "Illustration of a generic medicine carton marked 8 mg and 30, with a blister of tablets sliding out of one end",
+          "caption": "A carton with its blister (illustration)",
+          "credit": "Servier Medical Art / Laboratoires Servier (via Wikimedia Commons)",
+          "license": "CC-BY-SA-3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Drugs_and_Treatments_-_Drug_box_--_Smart-Servier.png",
+          "zoomable": true,
+          "aspectRatio": 2.493
         },
         {
           "type": "text",
@@ -297,7 +340,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 54 (outer packaging), Art. 56a (Braille), Art. 57 (national information, the 'Blue Box').\n2. **EU law** — Commission Delegated Regulation (EU) 2016/161 (safety features).\n3. **Image** — own diagram (no licence-clean Commons photo of a carton without brand names was found)."
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 54 (outer packaging), Art. 56a (Braille), Art. 57 (national information, the 'Blue Box').\n2. **EU law** — Commission Delegated Regulation (EU) 2016/161 (safety features).\n3. **Image** — own diagram; illustration: Servier Medical Art, 'Drug box', Laboratoires Servier (CC BY-SA 3.0), via Wikimedia Commons."
         }
       ]
     },

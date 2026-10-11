@@ -1,5 +1,5 @@
 {
-  "version": 17,
+  "version": 18,
   "updated": "2026-10-05",
   "entries": [
     {
@@ -187,7 +187,9 @@
       "term": "Generic",
       "aliases": [
         "generics",
-        "EFG"
+        "EFG",
+        "generic medicine",
+        "generic medicines"
       ],
       "category": "regulatory",
       "short": "A copy of an off-patent medicine, authorised because it behaves the same in the body as the original.",
@@ -1448,7 +1450,8 @@
       "aliases": [
         "PSUR",
         "periodic safety update report",
-        "periodic safety update single assessment"
+        "periodic safety update single assessment",
+        "PSURs"
       ],
       "category": "safety",
       "short": "The EU's single assessment of all companies' periodic safety reports for one substance.",
@@ -2919,7 +2922,8 @@
         "data protection",
         "regulatory data protection",
         "RDP",
-        "data exclusivity"
+        "data exclusivity",
+        "regulatory protection"
       ],
       "category": "launch",
       "short": "Period during which generics can't rely on the originator's data, so they can't file. 8 years.",
@@ -3081,7 +3085,8 @@
         "fixed combination application",
         "fixed combination",
         "fixed combinations",
-        "fixed combination medicinal product"
+        "fixed combination medicinal product",
+        "fixed combination medicinal products"
       ],
       "category": "launch",
       "short": "Application for known substances newly combined in one product; needs new data on the combination.",
@@ -4591,7 +4596,8 @@
       "aliases": [
         "granulation",
         "granulate",
-        "blending"
+        "blending",
+        "blending or granulation"
       ],
       "category": "launch",
       "short": "Forming granules from powder so it flows and compresses well.",
@@ -4748,7 +4754,9 @@
         "blister",
         "blisters",
         "blistering",
-        "blister pack"
+        "blister pack",
+        "Alu/Alu blisters",
+        "Alu/Alu blister"
       ],
       "category": "launch",
       "short": "A sealed pocket pack for tablets (e.g. PVC/PVDC or Alu/Alu).",
@@ -4984,7 +4992,8 @@
         "import testing",
         "full analysis",
         "EU import testing",
-        "EU testing"
+        "EU testing",
+        "EU import test results"
       ],
       "category": "launch",
       "short": "Full EU analysis of each batch imported from a country without an MRA (Art. 51).",
@@ -5583,7 +5592,8 @@
         "readability testing",
         "user testing",
         "bridging",
-        "bridging report"
+        "bridging report",
+        "bridge"
       ],
       "category": "launch",
       "short": "Testing the leaflet with real users (Art. 59(3)); generics can often bridge to a tested leaflet.",

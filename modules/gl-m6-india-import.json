@@ -3,7 +3,7 @@
   "id": "gl-m6-india-import",
   "title": "Generics & launch 6: Importing from India",
   "discipline": "Generics & launch",
-  "version": 1,
+  "version": 2,
   "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
   "lessons": [
     {
@@ -464,6 +464,17 @@
           "aspectRatio": 2.051
         },
         {
+          "type": "image",
+          "src": "assets/gl-m6/freight.webp",
+          "alt": "Two container barges loaded with stacked shipping containers travelling along a wide river past a city port, with cranes in the distance",
+          "caption": "Sea and river freight: containers on the move",
+          "credit": "Wikimedia Commons / Syced",
+          "license": "CC0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Container_ships_on_Saigon_River.jpg",
+          "zoomable": true,
+          "aspectRatio": 1.329
+        },
+        {
           "type": "text",
           "markdown": "## Choices and checkpoints\n\n- **Sea or air:** sea freight is cheaper but takes weeks; air freight takes days. Launch stock often goes by air. This is practice; the durations are illustrative.\n- **Temperature:** data loggers record the conditions during transport. If the temperature goes outside the allowed range, that's a **temperature excursion** (*excursion de température*), and the QP must assess it before release.\n- **Customs:** the goods clear EU customs, with the importer as consignee.\n- **Documents:** the CoA, packing list and temperature records travel with the shipment."
         },
@@ -507,7 +518,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **EU guidance** — Guidelines on GDP (2013/C 343/01), Chapter 9 (transportation).\n2. **Practice** — freight choices and durations (labelled as practice).\n3. **Image** — own diagram (no licence-clean Commons freight photo without people or brand names was found)."
+          "markdown": "## Sources\n\n1. **EU guidance** — Guidelines on GDP (2013/C 343/01), Chapter 9 (transportation).\n2. **Practice** — freight choices and durations (labelled as practice).\n3. **Image** — own diagram; photo: Wikimedia Commons, 'Container ships on Saigon River' by Syced (CC0), resized."
         }
       ]
     },

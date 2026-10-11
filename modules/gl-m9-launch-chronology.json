@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 4,
+  "schemaVersion": 6,
   "id": "gl-m9-launch-chronology",
   "title": "Generics & launch 9: A typical launch chronology",
   "discipline": "Generics & launch",
-  "version": 3,
+  "version": 4,
   "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
   "lessons": [
     {
@@ -532,7 +532,15 @@
         },
         {
           "type": "text",
-          "markdown": "## Try it\n\nThe **Launch Gantt explorer** is an interactive version of the reference Gantt (ask Mathieu for the link). Move the clock-stop, artwork, batch, testing, pricing and patent sliders, and see how the launch date and the critical path change. It's a quick way to feel why parallel work matters."
+          "markdown": "## Try it\n\nThe **Launch Gantt explorer** is an interactive version of the reference Gantt. Move the clock-stop, artwork, batch, testing, pricing and patent sliders, and see how the launch date and the critical path change. It's a quick way to feel why parallel work matters."
+        },
+        {
+          "type": "tool",
+          "src": "tools/launch-gantt-explorer.html",
+          "title": "Launch Gantt explorer",
+          "description": "Move the sliders and watch the launch month, critical path and float change.",
+          "buttonLabel": "Open the explorer",
+          "estimatedMinutes": 5
         },
         {
           "type": "text",

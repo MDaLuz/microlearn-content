@@ -1,0 +1,1707 @@
+{
+  "moduleId": "fenofibrate",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "fen-b1",
+      "title": "The medicine and its story",
+      "lessons": [
+        "fen-l01-at-a-glance",
+        "fen-l02-how-it-works",
+        "fen-l03-history"
+      ]
+    },
+    {
+      "id": "fen-b2",
+      "title": "The label in practice",
+      "lessons": [
+        "fen-l04-approved-uses",
+        "fen-l05-strengths-products",
+        "fen-l06-how-taken"
+      ]
+    },
+    {
+      "id": "fen-b3",
+      "title": "The evidence",
+      "lessons": [
+        "fen-l07-reading-a-trial",
+        "fen-l08-pivotal-trials",
+        "fen-l09-combination-trials",
+        "fen-l10-cv-outcomes"
+      ]
+    },
+    {
+      "id": "fen-b4",
+      "title": "Safety and guidelines",
+      "lessons": [
+        "fen-l11-side-effects",
+        "fen-l12-contraindications-interactions",
+        "fen-l13-pharmacovigilance",
+        "fen-l14-esc-guidelines"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-fen-l01",
+      "level": "lesson",
+      "covers": [
+        "fen-l01-at-a-glance"
+      ],
+      "summary": {
+        "title": "Fenofibrate at a glance",
+        "points": [
+          "A fibrate: mainly lowers triglycerides. One tablet a day, on top of diet, exercise and weight loss.",
+          "Three uses: severe hypertriglyceridaemia; mixed hyperlipidaemia when a statin isn't possible; added to a statin in high-risk mixed hyperlipidaemia.",
+          "Lipid ranges: triglycerides −40–55%, HDL +10–30%, given without comparator or time point.",
+          "Outcomes are modest: ACCORD-Lipid wasn't significant, and death from any cause hasn't been shown to fall.",
+          "Watch liver, muscles (more with a statin), kidneys, pancreas and gallbladder."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A GP wants to start Secalip Supra as the first treatment for a patient with ordinary high LDL.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the SmPC say?",
+              "options": [
+                "Allowed, provided LDL is checked again after four weeks",
+                "Not an approved use; it isn't first-line for that",
+                "Fine, as long as diet continues alongside",
+                "Only acceptable in patients under 18"
+              ],
+              "answer": 1,
+              "explanation": "Fenofibrate can be first only in severe hypertriglyceridaemia, or when a statin isn't possible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When can fenofibrate be used alone for mixed hyperlipidaemia?",
+              "options": [
+                "When a statin is contraindicated or not tolerated",
+                "Only once a statin and ezetimibe have both been tried and failed",
+                "Only in type 2 diabetes",
+                "Always, as first-line"
+              ],
+              "answer": 0,
+              "explanation": "It stands in for the statin when the statin can't be used."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A partner's sales deck says 'fenofibrate reduces cardiovascular deaths'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How does the SmPC put it?",
+              "options": [
+                "Clearly reduces cardiovascular and total deaths",
+                "Silent on outcomes; section 5.1 gives lipid changes only",
+                "May reduce coronary events; not shown to cut deaths",
+                "Shown to increase deaths in people with diabetes"
+              ],
+              "answer": 2,
+              "explanation": "The lipid numbers look strong; the outcome picture is modest."
+            },
+            {
+              "type": "mcq",
+              "prompt": "ACCORD-Lipid showed 2.2% vs 2.4% events per year. Why isn't this a proven benefit?",
+              "options": [
+                "It was stopped early for benefit",
+                "It only measured blood lipids",
+                "It had no placebo comparison arm",
+                "It wasn't statistically significant"
+              ],
+              "answer": 3,
+              "explanation": "About 8% lower in relative terms, but not significant."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-fen-l02",
+      "level": "lesson",
+      "covers": [
+        "fen-l02-how-it-works"
+      ],
+      "summary": {
+        "title": "How it works",
+        "points": [
+          "A prodrug: esterases convert it to fenofibric acid, the active form.",
+          "Fenofibric acid activates PPARα: more lipoprotein lipase, less apolipoprotein C-III, faster triglyceride clearance.",
+          "VLDL and LDL fall (fewer small dense particles); HDL rises.",
+          "Take with food; half-life about 20 hours; cleared by the kidneys, not removed by dialysis.",
+          "Micronised 160 mg replaces 200 mg capsules: milligrams alone don't tell you exposure."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A pharmacist is switching a patient from Secalip 200 mg capsules to Secalip Supra 160 mg.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Does the dose need adjusting?",
+              "options": [
+                "No: the micronised form is absorbed better",
+                "Yes: take two tablets to reach 200 mg",
+                "Yes: the tablet is weaker than the capsule",
+                "Only if kidney function is normal; otherwise stay on 200 mg"
+              ],
+              "answer": 0,
+              "explanation": "Particle size changes how much is absorbed."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why does the label insist on taking it with a meal?",
+              "options": [
+                "To lower the half-life",
+                "Absorption is higher with food",
+                "Because it's metabolised by CYP3A4",
+                "To prevent gallstones"
+              ],
+              "answer": 1,
+              "explanation": "The PIL says it doesn't work as well on an empty stomach."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A colleague asks why fenofibrate is easier to combine with simvastatin than gemfibrozil is.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the pharmacokinetic reason?",
+              "options": [
+                "Fenofibrate is removed by dialysis, unlike gemfibrozil",
+                "Fenofibrate carries no muscle risk with statins",
+                "Fenofibrate lowers simvastatin levels by blocking CYP3A4 in the gut",
+                "Fenofibrate isn't processed by CYP3A4 and doesn't block it"
+              ],
+              "answer": 3,
+              "explanation": "That closes one interaction route, but the additive muscle risk remains."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which effect is only a marker, not proof of benefit?",
+              "options": [
+                "Fewer heart attacks in FIELD's primary result",
+                "Fewer strokes in pooled fibrate trials",
+                "A fall in CRP and uric acid",
+                "Fewer deaths from any cause"
+              ],
+              "answer": 2,
+              "explanation": "Changes in blood markers aren't outcomes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-fen-l03",
+      "level": "lesson",
+      "covers": [
+        "fen-l03-history"
+      ],
+      "summary": {
+        "title": "History",
+        "points": [
+          "French molecule (Fournier), in use since 1975; Lipanthyl in the EU, Tricor in the US from 1998.",
+          "Many formulations: micronised, nanoparticle, prolonged-release; Secalip Supra authorised in Spain in 2000.",
+          "2009 Article 31 referral: fibrates kept, but not first-line, except statin intolerance and severe hypertriglyceridaemia.",
+          "Fenofibrate alone kept a statin add-on indication, based on ACCORD-Lipid; combinations Pravafenix (2011) and Cholib (2013) followed.",
+          "The US withdrew fenofibric acid's statin add-on approval in 2016, from the same evidence."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A US partner says: 'The FDA removed the statin add-on, so the EU indication must be gone too.'",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's accurate?",
+              "options": [
+                "The EU kept it; the US move was about fenofibric acid",
+                "The EU also withdrew it in 2016",
+                "Both regulators withdrew all fibrates",
+                "The EU never had an add-on indication for fenofibrate"
+              ],
+              "answer": 0,
+              "explanation": "Same trial data, different conclusions; Cholib remains authorised in the EU."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What kind of procedure was the 2009 fibrate review?",
+              "options": [
+                "An Article 29 referral",
+                "A centralised marketing application",
+                "An Article 31 referral",
+                "A periodic safety update assessment"
+              ],
+              "answer": 2,
+              "explanation": "Triggered by the UK on 20 October 2009."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Why do Cholib and Pravafenix have EPARs but Secalip Supra doesn't?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Choose the explanation.",
+              "options": [
+                "Secalip Supra predates EPARs being written",
+                "Spain doesn't publish assessment reports",
+                "EPARs are only written for generics and biosimilars",
+                "The combinations were authorised centrally"
+              ],
+              "answer": 3,
+              "explanation": "EPARs come with central authorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What was the referral's main reason for moving fibrates to second-line?",
+              "options": [
+                "New evidence of liver toxicity",
+                "Limited benefit evidence, not new harms",
+                "Manufacturing problems at Fournier's French sites",
+                "A rise in deaths in FIELD"
+              ],
+              "answer": 1,
+              "explanation": "The benefit side of the balance shifted."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-fen-l04",
+      "level": "lesson",
+      "covers": [
+        "fen-l04-approved-uses"
+      ],
+      "summary": {
+        "title": "What it's approved for",
+        "points": [
+          "Every use is an adjunct to diet and non-drug measures; secondary causes are treated first.",
+          "Use 1: severe hypertriglyceridaemia — the one place it can be first-line. The EU sets no number.",
+          "Use 2: mixed hyperlipidaemia when a statin is contraindicated or not tolerated.",
+          "Use 3: high-risk mixed hyperlipidaemia on a statin, when triglycerides and HDL stay uncontrolled.",
+          "No outcome promise, no under-18s; recheck lipids and change course if the response is inadequate."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A man with type 2 diabetes, on simvastatin, LDL at goal, triglycerides and HDL still poor, high risk.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which indication fits?",
+              "options": [
+                "Use 1: severe hypertriglyceridaemia",
+                "Use 3: add-on to a statin in high-risk mixed hyperlipidaemia",
+                "Use 2: statin replacement",
+                "None, because fenofibrate can't be combined with a statin in the EU"
+              ],
+              "answer": 1,
+              "explanation": "High risk, on a statin, and triglycerides/HDL uncontrolled: all three conditions are met."
+            },
+            {
+              "type": "mcq",
+              "prompt": "His triglycerides are high because his diabetes is badly controlled. What first?",
+              "options": [
+                "Improve diabetes control first",
+                "Switch the statin to fenofibrate",
+                "Use 2 applies instead of Use 3",
+                "Start fenofibrate immediately alongside"
+              ],
+              "answer": 0,
+              "explanation": "Uncontrolled diabetes is a listed secondary cause."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Compare the EU and US labels.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the US Tricor label lack?",
+              "options": [
+                "Any outcome statement",
+                "Any LDL indication",
+                "An add-on-to-a-statin indication",
+                "A severe hypertriglyceridaemia indication"
+              ],
+              "answer": 2,
+              "explanation": "The US uses are severe hypertriglyceridaemia and LDL lowering when recommended LDL treatment isn't possible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A team member quotes '500 mg/dL' as the EU threshold for 'severe'. Is that right?",
+              "options": [
+                "Yes, it's in SmPC section 4.1",
+                "It's the ESC threshold for fibrates",
+                "It's the threshold used for children",
+                "No: it's the US label's number"
+              ],
+              "answer": 3,
+              "explanation": "Roughly 5.6 mmol/L, shown only to mark the difference."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-fen-l05",
+      "level": "lesson",
+      "covers": [
+        "fen-l05-strengths-products"
+      ],
+      "summary": {
+        "title": "Strengths and products",
+        "points": [
+          "Secalip Supra: 160 mg micronised film-coated tablet; lactose and soy lecithin matter for patients. MAH Lacer.",
+          "Same product elsewhere: Lipanthyl (France), Lipidil-Ter (Germany), Supralip (UK).",
+          "Secalip 145 nanoparticle, Supra 160 micronised and 200 capsule are interchangeable at the same dose.",
+          "Labels copy each other: the 250 mg SmPC contains a sentence about other products.",
+          "Combinations: Cholib (simvastatin), Pravafenix (pravastatin), Spanish rosuvastatin + fenofibrate (substitution); none with ezetimibe."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient with a peanut allergy is prescribed Secalip Supra.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the problem?",
+              "options": [
+                "Only a problem if taken with food",
+                "It's contraindicated because of the soy",
+                "Fine if she takes an antihistamine",
+                "None; soy lecithin is safe even with a peanut allergy"
+              ],
+              "answer": 1,
+              "explanation": "Section 4.3 lists peanut and soy allergy."
+            },
+            {
+              "type": "mcq",
+              "prompt": "She was on Secalip 145 mg before. Can she move to 160 mg without a dose change?",
+              "options": [
+                "No: 160 mg is a higher dose than 145 mg",
+                "No: the 145 mg tablet is stronger",
+                "Only after a two-week washout to avoid double exposure",
+                "Yes: the three forms are interchangeable"
+              ],
+              "answer": 3,
+              "explanation": "Particle size explains the different milligram numbers."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A BD lead asks which fenofibrate combinations exist and what they're for.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which is licensed only as substitution for separate tablets?",
+              "options": [
+                "Pravafenix (EU-wide)",
+                "Secalip Supra 160 mg",
+                "Rosuvastatin + fenofibrate (Spain)",
+                "Cholib, the EU-wide fenofibrate and simvastatin tablet"
+              ],
+              "answer": 2,
+              "explanation": "Cholib and Pravafenix require LDL controlled on the matching statin; the rosuvastatin products replace the same doses taken separately."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which partner is missing from every combination?",
+              "options": [
+                "Ezetimibe",
+                "Simvastatin",
+                "Pravastatin",
+                "Rosuvastatin"
+              ],
+              "answer": 0,
+              "explanation": "No EU fenofibrate licence reviewed names ezetimibe."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-fen-l06",
+      "level": "lesson",
+      "covers": [
+        "fen-l06-how-taken"
+      ],
+      "summary": {
+        "title": "How it's taken",
+        "points": [
+          "One tablet a day with a meal, swallowed whole. Diet and exercise continue.",
+          "eGFR below 30: contraindicated. 30–59: max 67 mg micronised, which a 160 mg tablet can't provide.",
+          "Creatinine in the first 3 months; interrupt if it rises over 50% above ULN.",
+          "Transaminases every 3 months in year one; stop above 3× ULN.",
+          "Not in liver impairment, under-18s or breastfeeding; pregnancy only after weighing benefit and risk."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A 70-year-old on Secalip Supra has an eGFR of 45.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the label imply?",
+              "options": [
+                "Fenofibrate is contraindicated at this level",
+                "This tablet exceeds the dose cap; use another product",
+                "Continue 160 mg with closer monitoring",
+                "Split the tablet and take half daily to stay under the cap"
+              ],
+              "answer": 1,
+              "explanation": "This tablet can't meet its own label's limit at eGFR 30–59, and it can't be split."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A year later his eGFR falls to 25 and stays there.",
+              "options": [
+                "Switch to the 145 mg tablet",
+                "Halve the dose",
+                "Stop fenofibrate",
+                "Continue; dialysis will clear it"
+              ],
+              "answer": 2,
+              "explanation": "Below 30 it must not be used, and dialysis doesn't remove fenofibrate."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A patient on fenofibrate has a creatinine rise at month 2.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "When must treatment be interrupted?",
+              "options": [
+                "A rise of more than 50% above ULN",
+                "Any rise in creatinine at all",
+                "Only if eGFR falls below 60",
+                "Never; the rise is always harmless"
+              ],
+              "answer": 0,
+              "explanation": "Creatinine rises are common and usually stable, but the rule still applies."
+            },
+            {
+              "type": "mcq",
+              "prompt": "He forgot yesterday's dose.",
+              "options": [
+                "Take it on an empty stomach to catch up faster",
+                "Skip the rest of the week",
+                "Take two tablets today",
+                "Take the next one with the next meal; no doubling"
+              ],
+              "answer": 3,
+              "explanation": "The PIL's missed-dose rule."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-fen-l07",
+      "level": "lesson",
+      "covers": [
+        "fen-l07-reading-a-trial"
+      ],
+      "summary": {
+        "title": "Reading a clinical trial",
+        "points": [
+          "The primary endpoint decides success; everything else is supporting.",
+          "Give absolute and relative effects, with comparator and time; for lipid trials, each arm's change and the difference.",
+          "A CI including 1.0 means not significant; NNT only makes sense when the difference is real.",
+          "Drop-in (FIELD: 17% vs 8% started other lipid drugs) can hide an effect.",
+          "Subgroups need an interaction test; ACCORD's were p = 0.057 (lipids) and p = 0.01 (sex)."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "FIELD's primary result: HR 0.89 (95% CI 0.75–1.05).",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does it tell you?",
+              "options": [
+                "It proves an 11% reduction in events",
+                "It includes 1.0, so it's compatible with no effect",
+                "It shows fenofibrate increased risk",
+                "Between 75% and 105% of people benefited from the treatment"
+              ],
+              "answer": 1,
+              "explanation": "p = 0.16; not significant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Should you quote an NNT for FIELD's primary result?",
+              "options": [
+                "Yes: about 143 people treated for five years per event avoided",
+                "Yes: about 71 over five years",
+                "No: the primary result wasn't significant",
+                "Only for the women in the trial"
+              ],
+              "answer": 2,
+              "explanation": "The NNT of about 71 applies to total cardiovascular events, a secondary outcome."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A slide claims fenofibrate 'works in people with high triglycerides and low HDL' based on ACCORD-Lipid.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the right way to hold that claim?",
+              "options": [
+                "As a question, not an answer",
+                "As a proven fact",
+                "As disproven by the main result",
+                "As the trial's primary result"
+              ],
+              "answer": 0,
+              "explanation": "Subgroup findings raise questions; they don't settle them."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Cholib study 0501 needed better triglycerides/HDL and non-inferior LDL. It missed LDL non-inferiority. What does that mean?",
+              "options": [
+                "The combination was better on LDL as well as triglycerides",
+                "The trial failed on every endpoint",
+                "LDL wasn't measured in this study",
+                "Doubling the statin did more for LDL"
+              ],
+              "answer": 3,
+              "explanation": "It met two goals and missed the third."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-fen-l08",
+      "level": "lesson",
+      "covers": [
+        "fen-l08-pivotal-trials"
+      ],
+      "summary": {
+        "title": "The pivotal trials",
+        "points": [
+          "FIELD (diabetes, no statin): primary result not significant; total CV events lower; drop-in may have hidden effect.",
+          "FIELD also showed more pancreatitis and pulmonary embolism, and less retinopathy laser treatment.",
+          "ACCORD-Lipid (on simvastatin): HR 0.92, not significant; subgroup with high TG / low HDL better, women possibly worse.",
+          "The EU kept fenofibrate and granted the statin add-on from ACCORD; the US went the other way in 2016.",
+          "LENS: slowed diabetic eye disease (HR 0.73), but it isn't an EU indication."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "An ophthalmology partner wants to market Secalip Supra for diabetic retinopathy, citing LENS.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the position?",
+              "options": [
+                "Positive, but not an EU indication",
+                "LENS created a new EU indication for diabetic retinopathy",
+                "LENS tested fenofibric acid only",
+                "LENS was negative for retinopathy"
+              ],
+              "answer": 0,
+              "explanation": "Outside the label; it also showed no effect on sight or quality of life."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What did LENS show about kidney function?",
+              "options": [
+                "Kidney function improved slightly",
+                "eGFR ran about 7.9 lower",
+                "It caused kidney failure in some",
+                "No difference between arms"
+              ],
+              "answer": 1,
+              "explanation": "A familiar fenofibrate effect."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The regulator's decision rested on trials that both missed their primary endpoints.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which trial supported the add-on-to-a-statin indication?",
+              "options": [
+                "FIELD, through its total cardiovascular events result",
+                "LENS",
+                "PROMINENT",
+                "ACCORD-Lipid"
+              ],
+              "answer": 3,
+              "explanation": "Its subgroup data, printed in the label alongside the warning about women."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which two FIELD safety figures does the SmPC quote?",
+              "options": [
+                "Rhabdomyolysis and drug-induced hepatitis",
+                "New diabetes and cataract",
+                "Pancreatitis and pulmonary embolism",
+                "Stroke and death from any cause"
+              ],
+              "answer": 2,
+              "explanation": "Both about 1.6 times as often as on placebo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-fen-l09",
+      "level": "lesson",
+      "covers": [
+        "fen-l09-combination-trials"
+      ],
+      "summary": {
+        "title": "Combination trials",
+        "points": [
+          "Licences name: 'a statin' (Supra), simvastatin (Cholib), pravastatin or moderate statin (Pravafenix), rosuvastatin (Spain, substitution).",
+          "No EU fenofibrate licence names ezetimibe; the gallstone caution comes from the ezetimibe SmPC.",
+          "Statin + fibrate raises muscle risk: reserve for severe dyslipidaemia at high risk, no muscle history, strict monitoring.",
+          "Cholib studies: big triglyceride and HDL gains; LDL non-inferiority missed (0501).",
+          "Pravafenix enrolled people not at LDL goal, but is licensed for people at goal."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A partner wants to develop a fenofibrate + ezetimibe single tablet for the EU.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the evidence and labelling picture look like?",
+              "options": [
+                "Strong outcome data from ACCORD-Lipid",
+                "Already licensed EU-wide, as part of the Cholib range",
+                "Only a 12-week lipid trial; no licence",
+                "Contraindicated by the Secalip SmPC"
+              ],
+              "answer": 2,
+              "explanation": "The Secalip Supra SmPC has no ezetimibe line at all."
+            },
+            {
+              "type": "mcq",
+              "prompt": "If gallstones are suspected on the combination, what does the ezetimibe SmPC say?",
+              "options": [
+                "Investigate, and stop the combination",
+                "Add ursodeoxycholic acid and continue",
+                "Continue and recheck in a year",
+                "Halve the ezetimibe dose and repeat the ultrasound later"
+              ],
+              "answer": 0,
+              "explanation": "That caution sits in the ezetimibe label, not fenofibrate's."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Look at the Pravafenix pivotal study.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the gap between the trial and the licence?",
+              "options": [
+                "There's no gap between them",
+                "The trial used simvastatin",
+                "The trial lasted five years",
+                "Trial: not at LDL goal; licence: at goal"
+              ],
+              "answer": 3,
+              "explanation": "Worth reading about in the EPAR."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which statement about the three evidence columns (alone, + statin, + statin + ezetimibe) is right?",
+              "options": [
+                "The triple combination works best",
+                "It shows what evidence exists, not what's best",
+                "They were compared head-to-head in a single factorial trial",
+                "Fenofibrate alone works best"
+              ],
+              "answer": 1,
+              "explanation": "No trial compared all three."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-fen-l10",
+      "level": "lesson",
+      "covers": [
+        "fen-l10-cv-outcomes"
+      ],
+      "summary": {
+        "title": "Heart-attack and stroke outcomes",
+        "points": [
+          "SmPC: fibrates may reduce coronary events; not shown to reduce death from any cause.",
+          "FIELD: fewer non-fatal heart attacks, coronary deaths not reduced; ACCORD-Lipid: nothing significant.",
+          "No stroke benefit, in either trial or the pooled analysis.",
+          "2010 meta-analysis (18 trials): −10% major CV events, −13% coronary events; only 3 trials used fenofibrate.",
+          "PROMINENT (pemafibrate) was negative, but it's a different molecule."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A partner cites '13% fewer coronary events with fibrates' in a fenofibrate pitch.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the most important caveat?",
+              "options": [
+                "It compared fibrates against statins",
+                "Only 3 of 18 trials used fenofibrate",
+                "It excluded people with diabetes",
+                "The result wasn't statistically significant"
+              ],
+              "answer": 1,
+              "explanation": "Class-level and relative; absolute benefit depends on baseline risk."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Someone says PROMINENT proves fenofibrate doesn't work.",
+              "options": [
+                "PROMINENT was actually positive",
+                "PROMINENT was a head-to-head with FIELD",
+                "PROMINENT tested a different molecule",
+                "Correct; PROMINENT tested fenofibrate"
+              ],
+              "answer": 2,
+              "explanation": "Context for the class, nothing more."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Sort the evidence into 'supported', 'not shown' and 'open'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which is 'not shown'?",
+              "options": [
+                "Changes in blood lipids",
+                "Fewer total CV events in FIELD (secondary)",
+                "Fewer coronary events across pooled fibrate trials",
+                "Fewer deaths from any cause"
+              ],
+              "answer": 3,
+              "explanation": "FIELD, ACCORD and the pooled analysis show no effect on death."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How do the EU and US labels frame the same trials?",
+              "options": [
+                "Same data, different emphasis",
+                "Neither label mentions outcomes",
+                "They contradict each other on the data",
+                "The US label is more positive"
+              ],
+              "answer": 0,
+              "explanation": "Both accurate; different emphasis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-fen-l11",
+      "level": "lesson",
+      "covers": [
+        "fen-l11-side-effects"
+      ],
+      "summary": {
+        "title": "Side effects",
+        "points": [
+          "Common: digestive symptoms, raised transaminases, raised homocysteine.",
+          "Uncommon: headache, venous clots, pancreatitis, gallstones, rash, muscle problems, raised creatinine.",
+          "FIELD: pancreatitis 0.8% vs 0.5%, pulmonary embolism 1.1% vs 0.7% over 5 years.",
+          "Stop and seek help for muscle pain, abdominal pain, chest pain with breathlessness, leg swelling, jaundice.",
+          "Creatinine often rises, usually stable and reversible; interrupt above 50% over ULN."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient on fenofibrate develops sudden chest pain and breathlessness.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why is this urgent?",
+              "options": [
+                "It shows triglycerides are falling fast",
+                "It can signal a pulmonary embolism",
+                "It means the dose is too low",
+                "It's the usual digestive side effect"
+              ],
+              "answer": 1,
+              "explanation": "Stop and get medical help immediately."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Another patient has severe upper abdominal pain.",
+              "options": [
+                "Normal in the first weeks",
+                "Switch to the 145 mg tablet",
+                "Suspect pancreatitis: stop and seek help",
+                "Normal at the start; continue"
+              ],
+              "answer": 2,
+              "explanation": "Pancreatitis was 1.6× as frequent as on placebo in FIELD."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The EU and US 'common side effects' lists differ.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why?",
+              "options": [
+                "One of the two labels is wrong",
+                "The US uses only post-marketing data",
+                "They describe different molecules",
+                "They count side effects differently"
+              ],
+              "answer": 3,
+              "explanation": "The lists don't contradict each other."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What might explain the higher rate of vein clots, according to the SmPC?",
+              "options": [
+                "Raised homocysteine",
+                "Raised HDL cholesterol",
+                "Lower uric acid levels",
+                "Higher CRP levels"
+              ],
+              "answer": 0,
+              "explanation": "Homocysteine rose about 6.5 µmol/L in FIELD and fell back after stopping."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-fen-l12",
+      "level": "lesson",
+      "covers": [
+        "fen-l12-contraindications-interactions"
+      ],
+      "summary": {
+        "title": "Who shouldn't take it, and interactions",
+        "points": [
+          "Never: liver impairment, gallbladder disease, eGFR below 30, pancreatitis (unless from high TG), fibrate/ketoprofen photosensitivity, peanut or soy allergy.",
+          "Muscle risk higher over 70, with muscle disorders, kidney impairment, hypothyroidism, heavy drinking.",
+          "Warfarin: cut the anticoagulant by about a third, adjust by INR.",
+          "Ciclosporin: kidney impairment; glitazones: paradoxical HDL fall; narrow-index CYP2C9 drugs: monitor.",
+          "Cholib is stricter: eGFR below 60, pregnancy, and simvastatin's rules too."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient on warfarin is starting fenofibrate.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the SmPC recommend?",
+              "options": [
+                "No change is needed to warfarin",
+                "Stop warfarin while on fenofibrate",
+                "Double the fenofibrate dose instead of changing warfarin",
+                "Cut it by about a third, then adjust by INR"
+              ],
+              "answer": 3,
+              "explanation": "Fenofibrate strengthens oral anticoagulants."
+            },
+            {
+              "type": "mcq",
+              "prompt": "She also had a light-sensitivity reaction to ketoprofen gel years ago.",
+              "options": [
+                "Only a problem in summer",
+                "Use with sunscreen and avoid summer sun exposure",
+                "Fenofibrate is contraindicated",
+                "Halve the dose"
+              ],
+              "answer": 2,
+              "explanation": "A previous photosensitivity reaction to a fibrate or ketoprofen rules it out."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A switch from separate tablets to Cholib is proposed for a patient with eGFR 50.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Is it possible?",
+              "options": [
+                "Yes: Cholib is less strict on kidneys",
+                "No: Cholib needs eGFR of 60 or more",
+                "Only if she's on dialysis",
+                "Yes, at half the usual dose"
+              ],
+              "answer": 1,
+              "explanation": "The combination inherits simvastatin's rules as well as fenofibrate's."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which further interaction does the SmPC flag for a diabetic patient?",
+              "options": [
+                "Glitazones: HDL may fall",
+                "Metformin: contraindicated",
+                "Insulin: double the dose",
+                "SGLT2 inhibitors: contraindicated"
+              ],
+              "answer": 0,
+              "explanation": "Fenofibrate's interaction list is limited to what the SmPC itself names."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-fen-l13",
+      "level": "lesson",
+      "covers": [
+        "fen-l13-pharmacovigilance"
+      ],
+      "summary": {
+        "title": "Pharmacovigilance",
+        "points": [
+          "Fenofibrate's PSUSAs (data to 2017 and 2020) ended in maintenance: no label change.",
+          "The biggest review (2009–2011) changed its place because of limited benefit, not new harms.",
+          "Cholib's RMP: identified risks (gallstones, pancreatitis, muscle, liver, clots…) and potential risks (more CV events in women, homocysteine).",
+          "Missing information: under-18s, pregnancy, severe kidney impairment, liver insufficiency.",
+          "The 'women' signal travelled from an ACCORD subgroup into the SmPC and then the RMP."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your team is preparing a safety briefing for a Cholib in-licensing.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which risk is 'potential' rather than 'identified' in Cholib's RMP?",
+              "options": [
+                "More CV events in women",
+                "Pancreatitis",
+                "Rhabdomyolysis",
+                "Raised creatinine on the combination"
+              ],
+              "answer": 0,
+              "explanation": "A possible link, not established, traced back to ACCORD-Lipid (interaction p = 0.01)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What additional safety measures does the RMP require?",
+              "options": [
+                "Quarterly safety letters (DHPCs)",
+                "A controlled-access programme",
+                "Only routine measures",
+                "A pregnancy registry"
+              ],
+              "answer": 2,
+              "explanation": "All risks are handled through routine measures."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A colleague thinks benefit-risk changes only come from new side effects.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does fenofibrate's history show?",
+              "options": [
+                "PSUSAs removed its indications",
+                "The referral found new liver toxicity",
+                "Only new side effects change the balance",
+                "Balance can shift on the benefit side"
+              ],
+              "answer": 3,
+              "explanation": "Benefit-risk can move either way."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What should trigger a refresh of this module?",
+              "options": [
+                "A new generic launched in Spain",
+                "A PSUSA outcome other than maintenance",
+                "A competitor's marketing campaign",
+                "A change in the reimbursed price in any EU country"
+              ],
+              "answer": 1,
+              "explanation": "Also a new SmPC revision, or a safety signal or DHPC."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-fen-l14",
+      "level": "lesson",
+      "covers": [
+        "fen-l14-esc-guidelines"
+      ],
+      "summary": {
+        "title": "ESC guidelines",
+        "points": [
+          "2019: fibrate + statin 'may be considered' (IIb) when LDL is at goal and triglycerides stay above 2.3 mmol/L.",
+          "Icosapent ethyl ranks higher (IIa) for raised triglycerides on a statin.",
+          "2025: no new fibrate recommendation; fibrates described as having minimal impact on major CV events.",
+          "Statin intolerance: ezetimibe and bempedoic acid (Class I), not fibrates.",
+          "Both label and guidelines put fenofibrate after the statin; the guidelines demand LDL at goal and a number."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A high-risk patient on a statin has LDL at goal and triglycerides of 2.8 mmol/L.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do the 2019 ESC guidelines say about fenofibrate?",
+              "options": [
+                "It is not recommended (Class III)",
+                "It is recommended (Class I)",
+                "It may be considered (Class IIb)",
+                "It should be considered (Class IIa)"
+              ],
+              "answer": 2,
+              "explanation": "Above 2.3 mmol/L with LDL at goal: IIb."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which option ranks higher for the same patient?",
+              "options": [
+                "Gemfibrozil, which has the strongest outcome data (IIa)",
+                "Pemafibrate (I)",
+                "Niacin (IIb)",
+                "Icosapent ethyl (IIa)"
+              ],
+              "answer": 3,
+              "explanation": "Icosapent ethyl is one step above the fibrates."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Label vs guideline on statin intolerance.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Where's the sharpest contrast?",
+              "options": [
+                "Statin replacement: label yes, guideline prefers others",
+                "They agree fully on every point",
+                "The guideline contraindicates fenofibrate alongside statins",
+                "The label forbids replacing a statin"
+              ],
+              "answer": 0,
+              "explanation": "Guidelines don't change licences, but they shape practice."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A 2021 EAS statement suggests fenofibrate in type 2 diabetes. How should it rank?",
+              "options": [
+                "Equal to the ESC guideline",
+                "Below the guidelines",
+                "Above the SmPC",
+                "As an EU indication"
+              ],
+              "answer": 1,
+              "explanation": "Order of trust: SmPC, then guidelines, then consensus statements."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-fen-b1",
+      "level": "block",
+      "covers": [
+        "fen-l01-at-a-glance",
+        "fen-l02-how-it-works",
+        "fen-l03-history"
+      ],
+      "summary": {
+        "title": "The medicine and its story",
+        "points": [
+          "A prodrug fibrate acting through PPARα: strong on triglycerides and HDL, modest on outcomes.",
+          "Formulation drives exposure: 145, 160 and 200 mg can be equivalent doses.",
+          "The 2009–2011 referral moved fibrates to second-line on benefit grounds.",
+          "Fenofibrate alone kept the statin add-on in the EU; the US removed fenofibric acid's in 2016."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A partner in Latin America asks why the EU still allows fenofibrate on top of a statin when the US doesn't.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the best answer?",
+              "options": [
+                "The two regulators read ACCORD differently",
+                "The EU had access to a newer trial",
+                "The US never approved fenofibrate",
+                "The EU product is a different molecule"
+              ],
+              "answer": 0,
+              "explanation": "Same evidence, different regulatory readings."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which fact explains why lipid numbers look better than outcome data?",
+              "options": [
+                "The outcome trials used the wrong dose",
+                "Markers and outcomes always move together",
+                "Lipids are markers; the outcome trials missed",
+                "The lipid figures came from different patients than the outcomes"
+              ],
+              "answer": 2,
+              "explanation": "The module's most useful habit: marker ≠ outcome."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Link mechanism, formulation and history.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why could Fournier keep extending fenofibrate's life after 1975?",
+              "options": [
+                "It became first-line in 2010",
+                "New formulations improved absorption",
+                "It gained new indications each decade",
+                "Patent extensions on the molecule"
+              ],
+              "answer": 1,
+              "explanation": "Much of its later life was about formulation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why isn't fenofibrate first-line for ordinary high cholesterol?",
+              "options": [
+                "It's unsafe as a first treatment",
+                "It has no EU licence",
+                "It doesn't lower LDL at all, only triglycerides",
+                "Limited outcome benefit; statins come first"
+              ],
+              "answer": 3,
+              "explanation": "Exceptions: statin intolerance and severe hypertriglyceridaemia."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does PPARα activation do to lipoprotein lipase and apo C-III?",
+              "options": [
+                "Lipase down, apo C-III up",
+                "Both turned down",
+                "Both turned up",
+                "Lipase up, apo C-III down"
+              ],
+              "answer": 3,
+              "explanation": "More stripping, less braking."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-fen-b2",
+      "level": "block",
+      "covers": [
+        "fen-l04-approved-uses",
+        "fen-l05-strengths-products",
+        "fen-l06-how-taken"
+      ],
+      "summary": {
+        "title": "The label in practice",
+        "points": [
+          "Three lipid-defined uses, always with diet; no promise on events.",
+          "Products: interchangeable Secalip forms; combinations with simvastatin, pravastatin and rosuvastatin.",
+          "Dosing: with a meal; eGFR rules (below 30 no, 30–59 a dose this tablet can't give).",
+          "Monitoring: transaminases and creatinine early and periodically."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A 66-year-old, statin-intolerant, with mixed hyperlipidaemia, eGFR 72, soy allergy.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Can she take Secalip Supra?",
+              "options": [
+                "Yes: use 2 fits, and soy lecithin isn't an issue",
+                "Yes, at half the usual dose",
+                "No: the soy allergy rules it out",
+                "Only together with a statin"
+              ],
+              "answer": 2,
+              "explanation": "Check contraindications after matching the indication."
+            },
+            {
+              "type": "mcq",
+              "prompt": "If she had no allergy, which indication applies?",
+              "options": [
+                "Use 1: severe hypertriglyceridaemia",
+                "Use 2: statin not tolerated",
+                "Use 3: add-on to a statin",
+                "None of the three uses"
+              ],
+              "answer": 1,
+              "explanation": "Fenofibrate stands in for the statin."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What monitoring would follow?",
+              "options": [
+                "Liver and kidney tests early on",
+                "No routine monitoring",
+                "Monthly CK tests for the first year",
+                "Lipids once a year only"
+              ],
+              "answer": 0,
+              "explanation": "Then both periodically."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A Spanish distributor wants to swap Cholib for separate tablets to save cost.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which label difference matters most?",
+              "options": [
+                "Cholib is approved for children",
+                "Separate tablets are barred in diabetes",
+                "None; the rules are identical",
+                "Cholib is barred below eGFR 60"
+              ],
+              "answer": 3,
+              "explanation": "One tablet versus two changes the rules, not just the packaging."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which combination requires the patient to already take both medicines at the same doses?",
+              "options": [
+                "Rosuvastatin + fenofibrate",
+                "Cholib",
+                "Pravafenix, the pravastatin capsule",
+                "Secalip Supra"
+              ],
+              "answer": 0,
+              "explanation": "Substitution only."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Can a 160 mg tablet patient at eGFR 40 just split the tablet?",
+              "options": [
+                "Yes, split it in half",
+                "No: it must be swallowed whole",
+                "Yes, if the halves are taken with food",
+                "Yes, crush it into quarters"
+              ],
+              "answer": 1,
+              "explanation": "The tablet can't meet its own label's dose limit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-fen-b3",
+      "level": "block",
+      "covers": [
+        "fen-l07-reading-a-trial",
+        "fen-l08-pivotal-trials",
+        "fen-l09-combination-trials",
+        "fen-l10-cv-outcomes"
+      ],
+      "summary": {
+        "title": "The evidence",
+        "points": [
+          "FIELD and ACCORD-Lipid both missed their primary endpoints; secondary and subgroup signals only.",
+          "Drop-in, subgroups and interaction tests explain why the picture is uncertain, not negative.",
+          "Combination trials are short lipid studies; no outcome trial with ezetimibe.",
+          "No reduction in death or stroke; class benefit on coronary events is modest and relative."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "An investor asks for a one-line verdict on fenofibrate's outcome evidence.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which is most accurate?",
+              "options": [
+                "It clearly reduces death",
+                "It has never been tested in an outcome trial",
+                "Primary outcomes missed; no effect on death",
+                "It's been proven harmful"
+              ],
+              "answer": 2,
+              "explanation": "Uncertain, not negative."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why might FIELD have underestimated the effect?",
+              "options": [
+                "It was stopped early, before the effect could appear",
+                "It used too high a dose",
+                "Drop-in statins in the placebo group",
+                "It was too large to detect effects"
+              ],
+              "answer": 2,
+              "explanation": "Drop-in narrows the gap between arms."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which subgroup result does the EU label print alongside the favourable one?",
+              "options": [
+                "Benefit in children",
+                "Benefit in dialysis patients",
+                "Harm in men",
+                "Possible harm in women"
+              ],
+              "answer": 3,
+              "explanation": "Both are questions, not answers."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A partner proposes a triple combination (statin + ezetimibe + fenofibrate) for EU filing.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the evidence base?",
+              "options": [
+                "FIELD",
+                "One 12-week lipid trial",
+                "LENS",
+                "ACCORD-Lipid, which used simvastatin plus ezetimibe"
+              ],
+              "answer": 1,
+              "explanation": "Effects on most lipoprotein fractions weren't additive."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which outcome has never been shown for fenofibrate?",
+              "options": [
+                "Fewer strokes",
+                "Lower triglycerides",
+                "Fewer total CV events in FIELD's secondary outcome",
+                "Higher HDL"
+              ],
+              "answer": 0,
+              "explanation": "Neither trial nor the pooled analysis showed a stroke benefit."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A 13% relative reduction in coronary events across fibrates. What else do you need before using it?",
+              "options": [
+                "Nothing; it's definitive",
+                "Baseline risk and fenofibrate-specific data",
+                "Only the meta-analysis p-value",
+                "A check of the US label"
+              ],
+              "answer": 1,
+              "explanation": "Relative class effects don't give the size for a patient."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-fen-b4",
+      "level": "block",
+      "covers": [
+        "fen-l11-side-effects",
+        "fen-l12-contraindications-interactions",
+        "fen-l13-pharmacovigilance",
+        "fen-l14-esc-guidelines"
+      ],
+      "summary": {
+        "title": "Safety and guidelines",
+        "points": [
+          "Safety centres on pancreas, clots, gallbladder, muscle (worse with statins), liver and creatinine.",
+          "Key interactions: anticoagulants (cut by a third), ciclosporin, glitazones, statins.",
+          "PSUSAs: maintenance; the women signal lives on in Cholib's RMP.",
+          "Guidelines rank fenofibrate low (IIb), behind icosapent ethyl, and not for statin intolerance."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A 72-year-old on simvastatin and warfarin is being considered for fenofibrate add-on.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What has to happen with warfarin?",
+              "options": [
+                "Double it",
+                "Stop it until the fenofibrate dose is stable",
+                "Cut it by a third; adjust by INR",
+                "Nothing"
+              ],
+              "answer": 2,
+              "explanation": "Fenofibrate strengthens oral anticoagulants."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why is extra muscle caution needed?",
+              "options": [
+                "Simvastatin raises fenofibrate levels through CYP3A4",
+                "Fenofibrate blocks CYP3A4",
+                "Warfarin causes myopathy",
+                "Over 70 plus a statin both raise the muscle risk"
+              ],
+              "answer": 3,
+              "explanation": "Co-prescription is reserved for severe dyslipidaemia with high risk, no muscle history, strict monitoring."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What do the guidelines say for him if LDL is at goal and TG is 2.5 mmol/L?",
+              "options": [
+                "IIb; icosapent ethyl ranks higher",
+                "Not recommended (Class III)",
+                "Pemafibrate is recommended instead",
+                "Recommended (Class I)"
+              ],
+              "answer": 0,
+              "explanation": "LDL first, then optional next steps."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Trace how an uncertainty becomes a managed risk.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Where did the 'more CV events in women' concern go after ACCORD-Lipid?",
+              "options": [
+                "It was dropped as chance",
+                "Into a safety letter (DHPC)",
+                "Into a direct healthcare professional communication",
+                "Into the SmPC, then Cholib's RMP"
+              ],
+              "answer": 3,
+              "explanation": "It stays visible, labelled as uncertain."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which guideline change in 2025 affects fenofibrate's statin-replacement use?",
+              "options": [
+                "Withdrawal of the indication",
+                "Class I for ezetimibe and bempedoic acid",
+                "A new Class I recommendation for fibrates in intolerance",
+                "A ban on fibrates"
+              ],
+              "answer": 1,
+              "explanation": "Guidelines don't change the licence, but practice moves."
+            },
+            {
+              "type": "self-check",
+              "prompt": "In your own words: why did a referral with no new safety findings still restrict fenofibrate?",
+              "modelAnswer": "Benefit-risk is a balance. The referral found limited evidence of cardiovascular benefit, and better alternatives existed, so the benefit side shrank and first-line use was no longer justified."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-fen-m",
+      "level": "module",
+      "covers": [
+        "fen-l01-at-a-glance",
+        "fen-l02-how-it-works",
+        "fen-l03-history",
+        "fen-l04-approved-uses",
+        "fen-l05-strengths-products",
+        "fen-l06-how-taken",
+        "fen-l07-reading-a-trial",
+        "fen-l08-pivotal-trials",
+        "fen-l09-combination-trials",
+        "fen-l10-cv-outcomes",
+        "fen-l11-side-effects",
+        "fen-l12-contraindications-interactions",
+        "fen-l13-pharmacovigilance",
+        "fen-l14-esc-guidelines",
+        "fen-l15-recap"
+      ],
+      "summary": {
+        "title": "Fenofibrate: the whole picture",
+        "points": [
+          "A prodrug fibrate: strong lipid effects, modest and uncertain outcome evidence.",
+          "Second-line since 2010–11, with a statin add-on kept in the EU only.",
+          "Formulations change exposure; kidney rules can make the 160 mg tablet unusable.",
+          "Combinations: statins named, ezetimibe never; muscle risk rises with statins.",
+          "Safety: pancreatitis, clots, gallstones, creatinine; cut anticoagulants by a third.",
+          "Guidelines: IIb after LDL is at goal; icosapent ethyl ranks higher."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You're reviewing a rosuvastatin + fenofibrate substitution product for the Spanish market.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Who can be switched to it?",
+              "options": [
+                "Patients already stable on both separately",
+                "Any new patient with mixed hyperlipidaemia",
+                "Statin-intolerant patients with mixed hyperlipidaemia",
+                "Children over 10"
+              ],
+              "answer": 0,
+              "explanation": "Substitution only; not for starting treatment."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which rosuvastatin SmPC rule applies because fenofibrate is in the product?",
+              "options": [
+                "No rosuvastatin rule changes",
+                "Rosuvastatin must always be halved with any fibrate",
+                "No 40 mg rosuvastatin with a fibrate",
+                "Take fenofibrate without food"
+              ],
+              "answer": 2,
+              "explanation": "From the rosuvastatin module: fibrates raise muscle risk."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which claim could you NOT make in promotion?",
+              "options": [
+                "Contains a statin and a fibrate",
+                "Reduces cardiovascular deaths",
+                "Lowers triglycerides",
+                "Replaces two tablets with one"
+              ],
+              "answer": 1,
+              "explanation": "Fenofibrate hasn't been shown to reduce death from any cause."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Tie the story together from trial to label to guideline.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why does the EU label keep the statin add-on?",
+              "options": [
+                "ACCORD-Lipid was clearly positive",
+                "FIELD proved the add-on benefit in people with diabetes",
+                "The ESC asked for it",
+                "The CHMP accepted the subgroup for a niche"
+              ],
+              "answer": 3,
+              "explanation": "Printed with the warning about women."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which document wins when the SmPC and the ESC differ?",
+              "options": [
+                "The US label",
+                "The ESC, because guidelines are more recent",
+                "The SmPC, on what's approved",
+                "Whichever is more recent"
+              ],
+              "answer": 2,
+              "explanation": "This module's order of trust."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A patient has eGFR 52, is on simvastatin, and has triglycerides of 3 mmol/L. What's the practical problem with Secalip Supra?",
+              "options": [
+                "The dose cap is below 160 mg",
+                "Simvastatin is contraindicated",
+                "Fenofibrate is barred above 2.3 mmol/L",
+                "None"
+              ],
+              "answer": 0,
+              "explanation": "A different, lower-dose product would be needed."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

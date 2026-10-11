@@ -1,0 +1,1707 @@
+{
+  "moduleId": "sitagliptin",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "sit-b1",
+      "title": "The medicine and its story",
+      "lessons": [
+        "sit-l01-at-a-glance",
+        "sit-l02-how-it-works",
+        "sit-l03-history"
+      ]
+    },
+    {
+      "id": "sit-b2",
+      "title": "The label in practice",
+      "lessons": [
+        "sit-l04-approved-uses",
+        "sit-l05-strengths-products",
+        "sit-l06-how-taken"
+      ]
+    },
+    {
+      "id": "sit-b3",
+      "title": "The evidence",
+      "lessons": [
+        "sit-l07-reading-a-trial",
+        "sit-l08-pivotal-trials",
+        "sit-l09-combination-trials",
+        "sit-l10-cv-outcomes"
+      ]
+    },
+    {
+      "id": "sit-b4",
+      "title": "Safety and guidelines",
+      "lessons": [
+        "sit-l11-side-effects",
+        "sit-l12-contraindications-interactions",
+        "sit-l13-pharmacovigilance",
+        "sit-l14-esc-guidelines"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-sit-l01",
+      "level": "lesson",
+      "covers": [
+        "sit-l01-at-a-glance"
+      ],
+      "summary": {
+        "title": "Sitagliptin at a glance",
+        "points": [
+          "A DPP-4 inhibitor for type 2 diabetes: keeps the gut's incretin hormones active, raising insulin after meals.",
+          "Centrally authorised (Januvia, MSD). On its own only when metformin can't be used; many listed combinations.",
+          "HbA1c about −0.7 to −0.8 points vs placebo at 24 weeks; slightly less than metformin head-to-head.",
+          "TECOS: no extra heart harm and no extra benefit (HR 0.98).",
+          "Watch pancreatitis, hypoglycaemia with sulphonylureas or insulin, allergy, bullous pemphigoid, kidney dosing."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A newly diagnosed patient with type 2 diabetes and no contraindications to metformin.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Can Januvia be her first and only tablet?",
+              "options": [
+                "Only together with insulin",
+                "Yes, if she prefers it",
+                "No: metformin comes first",
+                "Yes, it's the first-line tablet"
+              ],
+              "answer": 2,
+              "explanation": "Metformin comes first; sitagliptin alone is slightly less effective."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Her HbA1c falls by 0.7 points. How should you express that effect?",
+              "options": [
+                "As 0.7 percentage points",
+                "As a hazard ratio",
+                "As a number needed to treat",
+                "As a 9% relative reduction"
+              ],
+              "answer": 0,
+              "explanation": "There's no event rate to turn into a relative reduction."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A cardiology partner wants to claim Januvia 'protects the heart'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does TECOS support?",
+              "options": [
+                "Protection against heart failure",
+                "An increase in heart events",
+                "A 2% proven reduction in events",
+                "No extra harm, no extra benefit"
+              ],
+              "answer": 3,
+              "explanation": "11.4% vs 11.6%, HR 0.98; heart-failure hospitalisation 3.1% in both."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the only formal contraindication?",
+              "options": [
+                "GFR below 30",
+                "Allergy to it",
+                "Type 1 diabetes",
+                "Pregnancy"
+              ],
+              "answer": 1,
+              "explanation": "The others are 'should not be used' situations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-sit-l02",
+      "level": "lesson",
+      "covers": [
+        "sit-l02-how-it-works"
+      ],
+      "summary": {
+        "title": "How it works",
+        "points": [
+          "GLP-1 and GIP raise insulin after meals; DPP-4 breaks them down within minutes; sitagliptin blocks DPP-4.",
+          "More insulin, less glucagon, but only when glucose is normal or high.",
+          "Glucose-dependence explains the low hypoglycaemia risk alone; sulphonylureas push insulin regardless.",
+          "Bioavailability about 87%; 79% leaves unchanged in urine; half-life about 12.4 hours.",
+          "Kidneys set the dose: exposure about 2× at GFR 30–45, 4× below 30. Few interactions."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient on sitagliptin alone asks whether she can get dangerously low blood sugar.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the explanation?",
+              "options": [
+                "Never: it doesn't affect insulin",
+                "Rarely: its effect is glucose-dependent",
+                "Only if taken with a high-fat meal",
+                "Often, like a sulphonylurea"
+              ],
+              "answer": 1,
+              "explanation": "The risk comes when a sulphonylurea or insulin is added."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Her GFR drops from 70 to 35. What happens to sitagliptin exposure?",
+              "options": [
+                "It doesn't change",
+                "It halves",
+                "It roughly doubles",
+                "It rises fourfold, as on dialysis"
+              ],
+              "answer": 2,
+              "explanation": "About 2× at GFR 30–45; about 4× below 30."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A pharmacist checks interactions for a patient on digoxin and ciclosporin.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the SmPC say about digoxin?",
+              "options": [
+                "Halve the digoxin dose from the start",
+                "Contraindicated",
+                "No effect at all",
+                "Small rise; monitor if at risk"
+              ],
+              "answer": 3,
+              "explanation": "A small rise, relevant only for those at risk of digoxin toxicity."
+            },
+            {
+              "type": "mcq",
+              "prompt": "And ciclosporin?",
+              "options": [
+                "A 29% rise, not meaningful",
+                "Lowers it by half",
+                "Contraindicated",
+                "It raises sitagliptin levels sevenfold"
+              ],
+              "answer": 0,
+              "explanation": "Sitagliptin has few meaningful interactions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-sit-l03",
+      "level": "lesson",
+      "covers": [
+        "sit-l03-history"
+      ],
+      "summary": {
+        "title": "History",
+        "points": [
+          "First DPP-4 inhibitor: FDA 2006, EU centralised licence March 2007; full EPAR.",
+          "Assessors doubted the glipizide comparison: low glipizide dose, non-inferiority not convincingly proven.",
+          "Combinations grew from metformin and pioglitazone to sulphonylureas and insulin.",
+          "2013 EMA pancreas review: no confirmed increased risk; pancreatitis warning harmonised.",
+          "Children 10–17: a negative trial, written into the label. Generics now authorised centrally."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A generic company plans to promote sitagliptin as 'as effective as a sulphonylurea'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What did the EU assessors conclude about the glipizide trial?",
+              "options": [
+                "Similar HbA1c, but not convincing",
+                "Sitagliptin caused more hypoglycaemia",
+                "Glipizide wasn't actually tested",
+                "Sitagliptin was clearly superior"
+              ],
+              "answer": 0,
+              "explanation": "About 40% of patients took 5 mg glipizide a day or less."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's true about generic sitagliptin in the EU?",
+              "options": [
+                "Only national generics exist",
+                "Generics aren't allowed until 2030",
+                "Generics need their own heart-outcome trial",
+                "Central authorisation on bioequivalence"
+              ],
+              "answer": 3,
+              "explanation": "Sitagliptin SUN and Accord, for example."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A paediatric endocrinologist asks about using sitagliptin in a 14-year-old.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the label say?",
+              "options": [
+                "Approved from age 10",
+                "It shouldn't be used",
+                "Contraindicated",
+                "Approved at half dose"
+              ],
+              "answer": 1,
+              "explanation": "−0.2 points (95% CI −0.7 to 0.3) vs placebo."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does that show about the EU system?",
+              "options": [
+                "Only positive trials change labels",
+                "Paediatric trials are optional",
+                "Negative results change labels",
+                "Negative trials are hidden"
+              ],
+              "answer": 2,
+              "explanation": "The paediatric obligation worked as intended."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-sit-l04",
+      "level": "lesson",
+      "covers": [
+        "sit-l04-approved-uses"
+      ],
+      "summary": {
+        "title": "What it's approved for",
+        "points": [
+          "Adults with type 2 diabetes, always as an adjunct to diet and exercise.",
+          "Monotherapy only when metformin can't be used.",
+          "Dual: with metformin; a sulphonylurea (if metformin can't be used); pioglitazone.",
+          "Triple: with metformin plus a sulphonylurea or pioglitazone; or add-on to insulin.",
+          "Not named: SGLT2 inhibitors or GLP-1 RAs; the SGLT2 pairing exists only as Steglujan (ertugliflozin)."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient on the highest tolerated sulphonylurea dose, who can't take metformin, isn't controlled.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Is sitagliptin + sulphonylurea a licensed dual therapy for him?",
+              "options": [
+                "No, never with a sulphonylurea",
+                "Yes, since metformin can't be used",
+                "Only in triple therapy with metformin added",
+                "Only together with insulin"
+              ],
+              "answer": 1,
+              "explanation": "Both conditions are met."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What should the doctor consider for the sulphonylurea dose?",
+              "options": [
+                "Raising it",
+                "Stopping it immediately",
+                "No change",
+                "Lowering it"
+              ],
+              "answer": 3,
+              "explanation": "The combination can push glucose too low."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Compare Januvia's EU indication with the US label.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which statement is right?",
+              "options": [
+                "Only the EU has a metformin condition",
+                "Both have the same metformin condition",
+                "The EU indication is broader",
+                "The US excludes metformin combinations"
+              ],
+              "answer": 0,
+              "explanation": "The US also adds that it hasn't been studied in people with past pancreatitis."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which partner is NOT named in Januvia's own EU indication?",
+              "options": [
+                "Insulin",
+                "Metformin",
+                "An SGLT2 inhibitor",
+                "Pioglitazone (a PPARγ agonist)"
+              ],
+              "answer": 2,
+              "explanation": "Steglujan covers the ertugliflozin pairing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-sit-l05",
+      "level": "lesson",
+      "covers": [
+        "sit-l05-strengths-products"
+      ],
+      "summary": {
+        "title": "Strengths and products",
+        "points": [
+          "Januvia 25, 50 and 100 mg; no lactose; one EU-wide SmPC; MAH MSD (Haarlem).",
+          "Duplicate licences: Xelevia and Tesavel.",
+          "Generics authorised centrally on bioequivalence, with biowaivers for lower strengths.",
+          "Janumet/Velmetia: 50 mg + metformin 850 or 1,000 mg, twice daily.",
+          "Steglujan: 100 mg + ertugliflozin 5 or 15 mg, once daily."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient on Januvia 100 mg plus metformin 1,000 mg twice daily wants one tablet.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which product fits, and how is it taken?",
+              "options": [
+                "Steglujan once daily",
+                "Januvia 200 mg once daily with metformin",
+                "Janumet once daily",
+                "Janumet 50/1,000 mg, twice daily"
+              ],
+              "answer": 3,
+              "explanation": "Each Janumet tablet holds half the daily sitagliptin dose with a metformin dose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why could a generic's 25 mg and 50 mg strengths skip their own human study?",
+              "options": [
+                "Lower strengths don't need approval",
+                "They used animal data",
+                "A biowaiver",
+                "Januvia's patent covers them"
+              ],
+              "answer": 2,
+              "explanation": "Bioequivalence was shown at 100 mg."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A BD colleague sees 'Xelevia' and 'Tesavel' in an EMA list.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What are they?",
+              "options": [
+                "Duplicate licences",
+                "Different molecules",
+                "Combination products",
+                "Generics"
+              ],
+              "answer": 0,
+              "explanation": "Authorised from 2007 and 2008; marketing status not checked in this module."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which sitagliptin product contains an SGLT2 inhibitor?",
+              "options": [
+                "Velmetia",
+                "Steglujan",
+                "Xelevia",
+                "Janumet, the metformin combination"
+              ],
+              "answer": 1,
+              "explanation": "Ertugliflozin 5 or 15 mg plus sitagliptin 100 mg."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-sit-l06",
+      "level": "lesson",
+      "covers": [
+        "sit-l06-how-taken"
+      ],
+      "summary": {
+        "title": "How it's taken",
+        "points": [
+          "100 mg once daily, with or without food; continue diet and exercise.",
+          "GFR 45 or above: 100 mg; 30–45: 50 mg; below 30 or dialysis: 25 mg, any time.",
+          "With metformin or pioglitazone: no change; with a sulphonylurea or insulin: consider lowering them.",
+          "Missed dose: take when remembered, never two in a day.",
+          "Not in pregnancy, breastfeeding, or ages 10–17; no adjustment for age alone."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A 78-year-old with GFR 38 on metformin needs sitagliptin.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What dose?",
+              "options": [
+                "25 mg",
+                "50 mg once daily",
+                "Contraindicated",
+                "100 mg"
+              ],
+              "answer": 1,
+              "explanation": "GFR 30–45 → 50 mg. Age alone needs no change."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What else must be checked?",
+              "options": [
+                "Nothing else",
+                "Only liver function",
+                "Metformin's own kidney rules",
+                "Only HbA1c"
+              ],
+              "answer": 2,
+              "explanation": "Each partner's kidney limits apply too."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A patient on dialysis is starting sitagliptin.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What dose and timing?",
+              "options": [
+                "Contraindicated",
+                "50 mg after dialysis",
+                "100 mg before dialysis",
+                "25 mg, at any time"
+              ],
+              "answer": 3,
+              "explanation": "Dialysis removes only about 13.5% in a 3–4 hour session."
+            },
+            {
+              "type": "mcq",
+              "prompt": "She also takes insulin. What does the SmPC suggest?",
+              "options": [
+                "A lower insulin dose",
+                "No change",
+                "Stop insulin",
+                "Raise the insulin"
+              ],
+              "answer": 0,
+              "explanation": "The combination can cause hypoglycaemia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-sit-l07",
+      "level": "lesson",
+      "covers": [
+        "sit-l07-reading-a-trial"
+      ],
+      "summary": {
+        "title": "Reading a clinical trial",
+        "points": [
+          "HbA1c is a surrogate endpoint; outcome trials check what it can't show.",
+          "SmPC results are least-squares means, usually placebo-corrected.",
+          "Intention-to-treat counts everyone; per-protocol counts adherers. TECOS used per-protocol for non-inferiority.",
+          "Non-inferiority margin (TECOS 1.3): the upper CI limit (1.09) must stay below it.",
+          "Glycaemic equipoise kept HbA1c similar, isolating the drug's own heart effect."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "TECOS: HR 0.98, per-protocol CI 0.88–1.09, margin 1.3; superiority p = 0.65.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What can you conclude?",
+              "options": [
+                "The trial was inconclusive",
+                "It increases heart events",
+                "Not worse; no benefit shown",
+                "Sitagliptin reduces heart events"
+              ],
+              "answer": 2,
+              "explanation": "Safety question answered; benefit question answered with a no."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why did TECOS keep HbA1c similar between arms on purpose?",
+              "options": [
+                "Because HbA1c can't be measured reliably for 3 years",
+                "To isolate the drug's own effect",
+                "To save money",
+                "To make the trial shorter"
+              ],
+              "answer": 1,
+              "explanation": "Glycaemic equipoise: HbA1c differed by only 0.29 points."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "In the 24-week monotherapy trial, HbA1c fell 0.6 on sitagliptin; the placebo-corrected change was 0.8.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How can the corrected figure be larger than the raw fall?",
+              "options": [
+                "HbA1c rose a little on placebo",
+                "It's a typo",
+                "The 200 mg arm was pooled into the figure",
+                "Per-protocol was used"
+              ],
+              "answer": 0,
+              "explanation": "Placebo-corrected = change on drug minus change on placebo."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why does the metformin head-to-head use per-protocol figures matter?",
+              "options": [
+                "It's always more conservative",
+                "It doesn't matter",
+                "It includes everyone randomised",
+                "It counts only adherers"
+              ],
+              "answer": 3,
+              "explanation": "Know who was counted."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-sit-l08",
+      "level": "lesson",
+      "covers": [
+        "sit-l08-pivotal-trials"
+      ],
+      "summary": {
+        "title": "The pivotal trials",
+        "points": [
+          "Registration: nine HbA1c studies (18–52 weeks, about 6,000 patients).",
+          "Study 021 alone: −0.8 vs placebo; 200 mg tested but never authorised.",
+          "Study 020 with metformin: −0.7 points; the basis of the most common use.",
+          "Study 024 vs glipizide: similar HbA1c, far less hypoglycaemia (4.9% vs 32%), but a low glipizide dose.",
+          "TECOS: 14,671 with heart disease, HR 0.98; safety, not benefit; no excess pancreatitis or pancreatic cancer."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A partner's slide says: 'Sitagliptin beats sulphonylureas: 85% less hypoglycaemia, weight loss.'",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the fair caveat?",
+              "options": [
+                "Sitagliptin caused weight gain",
+                "The trial had no metformin",
+                "The hypoglycaemia figures are wrong",
+                "The glipizide dose was low"
+              ],
+              "answer": 3,
+              "explanation": "The advantages are real, but the comparator was underdosed."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why isn't 200 mg available despite slightly better results in Study 021?",
+              "options": [
+                "200 mg failed to lower HbA1c more than placebo",
+                "200 mg is US-only",
+                "It was never authorised",
+                "200 mg was toxic"
+              ],
+              "answer": 2,
+              "explanation": "Developed, but never licensed."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "How do the registration trials and TECOS fit together?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which statement is right?",
+              "options": [
+                "They answer different questions",
+                "TECOS replaced the registration trials",
+                "TECOS proved a heart benefit",
+                "Registration trials measured heart events"
+              ],
+              "answer": 0,
+              "explanation": "Read each on its own terms."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where does TECOS appear in the EU label?",
+              "options": [
+                "Only in the US label",
+                "As safety data, not an indication",
+                "Nowhere",
+                "As a heart-protection indication in section 4.1"
+              ],
+              "answer": 1,
+              "explanation": "The indications are about glycaemic control only."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-sit-l09",
+      "level": "lesson",
+      "covers": [
+        "sit-l09-combination-trials"
+      ],
+      "summary": {
+        "title": "Combination trials",
+        "points": [
+          "Licences name metformin, sulphonylurea, pioglitazone and insulin; Steglujan covers ertugliflozin.",
+          "No licence names dapagliflozin, empagliflozin or a GLP-1 RA; no Januvia SGLT2 line.",
+          "Starting with metformin: up to −2.1 points, from a high baseline; not comparable with add-on trials.",
+          "Adding ertugliflozin to sitagliptin + metformin: about −0.7 points more (VERTIS SITA2).",
+          "With insulin: −0.45 points, less insulin and fewer hypoglycaemia episodes."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A doctor wants sitagliptin + empagliflozin + metformin for a patient.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do the EU licences offer?",
+              "options": [
+                "No licence names that pairing",
+                "The combination is contraindicated",
+                "Januvia's indication names empagliflozin",
+                "A three-in-one EU tablet"
+              ],
+              "answer": 0,
+              "explanation": "The licensed SGLT2 pairing is ertugliflozin (Steglujan)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A partner proposes a sitagliptin + dapagliflozin FDC. What evidence exists?",
+              "options": [
+                "A large outcome trial",
+                "An existing EU combination tablet",
+                "One HbA1c trial; no licence",
+                "Nothing at all"
+              ],
+              "answer": 2,
+              "explanation": "Genital and urinary infections were more common, as expected for the class."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Three columns: alone, + metformin, + metformin + SGLT2.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why can't you say starting both medicines together (−2.1) beats adding one (−0.7)?",
+              "options": [
+                "Because metformin was underdosed",
+                "Different trials and baselines",
+                "Because −2.1 is a misprint",
+                "Because the add-on trial was longer"
+              ],
+              "answer": 1,
+              "explanation": "The −2.1 came from people starting both at once with a high baseline HbA1c."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What did adding sitagliptin during insulin intensification show?",
+              "options": [
+                "More severe hypoglycaemia",
+                "No effect",
+                "No effect on HbA1c or on the insulin dose",
+                "Better control, less insulin"
+              ],
+              "answer": 3,
+              "explanation": "Severe hypoglycaemia didn't differ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-sit-l10",
+      "level": "lesson",
+      "covers": [
+        "sit-l10-cv-outcomes"
+      ],
+      "summary": {
+        "title": "Heart-attack and stroke outcomes",
+        "points": [
+          "TECOS: every outcome within 0.2 points; none significant. Death HR 1.01; heart failure HR 1.00.",
+          "Applies to people with CV disease, HbA1c 6.5–8.0%, eGFR 30 or above.",
+          "SAVOR (saxagliptin): heart-failure hospitalisation HR 1.27, significant; EXAMINE (alogliptin) HR 1.19, not significant.",
+          "Pooled: RR 1.12 with heterogeneity, driven by SAVOR; maybe saxagliptin-specific or chance.",
+          "US label: class heart-failure warning; EU: reports TECOS HR 1.00, no warning."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient with heart failure needs more glucose lowering. A doctor worries about DPP-4 inhibitors.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the evidence say for sitagliptin specifically?",
+              "options": [
+                "It reduced heart failure",
+                "It raised heart-failure admissions, like saxagliptin did",
+                "It's contraindicated in heart failure",
+                "TECOS found no increase in heart-failure hospitalisation (HR 1.00)"
+              ],
+              "answer": 3,
+              "explanation": "Neutral; ESC 2023 lists it as a heart-safe option."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which DPP-4 inhibitor trial showed a significant heart-failure increase?",
+              "options": [
+                "VERTIS SITA2",
+                "TECOS",
+                "SAVOR-TIMI 53",
+                "EXAMINE, the alogliptin trial"
+              ],
+              "answer": 2,
+              "explanation": "3.5% vs 2.8%, HR 1.27."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Why do the EU and US Januvia labels differ on heart failure?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Choose the explanation.",
+              "options": [
+                "TECOS showed harm in the US only",
+                "US: class warning; EU: TECOS result",
+                "The US label has no heart section",
+                "The EU carries the same class heart-failure warning"
+              ],
+              "answer": 1,
+              "explanation": "Same evidence, two regulatory readings."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Who does TECOS's reassurance cover least well?",
+              "options": [
+                "eGFR below 30, or very high HbA1c",
+                "People aged 75 or over",
+                "People with eGFR below 60, who were excluded",
+                "People with heart disease"
+              ],
+              "answer": 0,
+              "explanation": "eGFR below 30 was excluded; HbA1c was 6.5–8.0%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-sit-l11",
+      "level": "lesson",
+      "covers": [
+        "sit-l11-side-effects"
+      ],
+      "summary": {
+        "title": "Side effects",
+        "points": [
+          "Common: hypoglycaemia (mostly with sulphonylurea or insulin), headache.",
+          "Not known: allergy incl. anaphylaxis, pancreatitis, bullous pemphigoid, SJS, arthropathy, kidney effects.",
+          "Many combination side effects reflect the partner (nausea with metformin, oedema with pioglitazone).",
+          "Pancreatitis: stop if suspected, never restart if confirmed.",
+          "Serious allergy mostly in the first 3 months: stop and switch treatment."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient on sitagliptin plus glimepiride has repeated hypoglycaemia.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the SmPC point to?",
+              "options": [
+                "Consider lowering the sulphonylurea dose",
+                "Stop sitagliptin at once and permanently",
+                "Sitagliptin causes it on its own",
+                "Double sitagliptin"
+              ],
+              "answer": 0,
+              "explanation": "The risk comes mainly from the sulphonylurea."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Another patient has severe abdominal pain spreading to the back.",
+              "options": [
+                "Restart after a week",
+                "Stop; never restart if confirmed",
+                "Reduce to 25 mg",
+                "Continue and add an antacid"
+              ],
+              "answer": 1,
+              "explanation": "Typical presentation of pancreatitis."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A patient on sitagliptin + pioglitazone has swollen ankles.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the most likely source?",
+              "options": [
+                "Bullous pemphigoid",
+                "A late allergic reaction to sitagliptin",
+                "Pioglitazone-related oedema",
+                "Pancreatitis"
+              ],
+              "answer": 2,
+              "explanation": "Many combination side effects reflect the partner medicine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "An older patient develops tense blisters on the skin.",
+              "options": [
+                "Normal; continue",
+                "Add an antihistamine",
+                "Lower the dose",
+                "Bullous pemphigoid: stop"
+              ],
+              "answer": 3,
+              "explanation": "The SmPC says stop if suspected."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-sit-l12",
+      "level": "lesson",
+      "covers": [
+        "sit-l12-contraindications-interactions"
+      ],
+      "summary": {
+        "title": "Who shouldn't take it, and interactions",
+        "points": [
+          "One contraindication: allergy to sitagliptin or an ingredient.",
+          "'Should not be used': type 1 diabetes, ketoacidosis, pregnancy, breastfeeding, ages 10–17.",
+          "Caution: past pancreatitis, severe liver impairment; dose follows GFR.",
+          "Few interactions: ciclosporin +29% (not meaningful), digoxin +11% (monitor).",
+          "Gaps: strong CYP3A4 inhibitors in severe kidney disease; OAT3 inhibitors tested only in the lab."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A pregnant woman with type 2 diabetes is on sitagliptin.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the SmPC say?",
+              "options": [
+                "Continue at full dose",
+                "It shouldn't be used",
+                "It's formally contraindicated",
+                "Reduce to 25 mg"
+              ],
+              "answer": 1,
+              "explanation": "'Should not be used' is a strong recommendation, not a formal contraindication."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which IS a formal contraindication?",
+              "options": [
+                "Allergy to it",
+                "Type 1 diabetes",
+                "Breastfeeding",
+                "eGFR below 30"
+              ],
+              "answer": 0,
+              "explanation": "That's the whole list."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A patient with GFR 20 is started on clarithromycin.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the concern?",
+              "options": [
+                "Sitagliptin raises clarithromycin levels",
+                "Clarithromycin is contraindicated",
+                "An unstudied gap",
+                "No concern at all"
+              ],
+              "answer": 2,
+              "explanation": "An open data gap, not a labelled interaction."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the most important interaction in practice?",
+              "options": [
+                "Digoxin toxicity from raised levels",
+                "Ciclosporin",
+                "Warfarin",
+                "Hypoglycaemia with partners"
+              ],
+              "answer": 3,
+              "explanation": "It's about effect, not drug levels."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-sit-l13",
+      "level": "lesson",
+      "covers": [
+        "sit-l13-pharmacovigilance"
+      ],
+      "summary": {
+        "title": "Pharmacovigilance",
+        "points": [
+          "PSUSAs added bullous pemphigoid and arthropathy (2015) and thrombocytopenia (2018).",
+          "Thrombocytopenia: 307 reports, but six well-documented cases carried the decision.",
+          "2013 pancreas review: no confirmed risk; harmonised pancreatitis wording; cancer uncertainty remains.",
+          "RMP (generics): no identified risks; pancreatic cancer as potential risk; pregnancy and breastfeeding missing.",
+          "NTTP nitrosamine (2022): a manufacturing impurity, not a side effect."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your sitagliptin generic supplier reports an NTTP impurity above the usual limit.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What kind of issue is it?",
+              "options": [
+                "A new side effect",
+                "A new DPP-4 class safety signal",
+                "A manufacturing quality issue",
+                "An efficacy problem"
+              ],
+              "answer": 2,
+              "explanation": "The FDA temporarily allowed up to 246.7 ng/day to avoid shortages."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What was the usual acceptable intake for NTTP?",
+              "options": [
+                "No limit",
+                "1 mg a day",
+                "246.7 ng a day",
+                "37 ng a day"
+              ],
+              "answer": 3,
+              "explanation": "Australia later set 100 ng/day, matching EMA and Health Canada."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "How did 307 reports become one label line?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What drove the decision?",
+              "options": [
+                "A few well-documented cases",
+                "The total number of 307 reports",
+                "A randomised trial",
+                "An FDA warning"
+              ],
+              "answer": 0,
+              "explanation": "Quality of evidence beats quantity."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does a positive rechallenge mean?",
+              "options": [
+                "The medicine was never stopped",
+                "It came back on restarting",
+                "It improved on stopping",
+                "The dose was halved"
+              ],
+              "answer": 1,
+              "explanation": "Strong evidence of cause."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-sit-l14",
+      "level": "lesson",
+      "covers": [
+        "sit-l14-esc-guidelines"
+      ],
+      "summary": {
+        "title": "ESC guidelines",
+        "points": [
+          "ESC 2023: SGLT2 inhibitors and/or GLP-1 RAs for heart protection in diabetes with atherosclerotic disease.",
+          "SGLT2 inhibitors in heart failure; either class considered at 10-year risk ≥10%.",
+          "Sitagliptin: a heart-safe option for extra glucose control, including in heart failure.",
+          "Saxagliptin and pioglitazone aren't recommended in heart failure.",
+          "Label trails practice: Januvia's indication doesn't name SGLT2 partners."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient with diabetes and coronary disease is on metformin. HbA1c is 7.4%.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does ESC 2023 recommend for heart protection?",
+              "options": [
+                "A sulphonylurea",
+                "Sitagliptin first",
+                "An SGLT2 inhibitor and/or GLP-1 RA",
+                "Nothing; HbA1c is near target"
+              ],
+              "answer": 2,
+              "explanation": "Heart protection is independent of HbA1c."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Later he needs more glucose lowering, and has heart failure. Is sitagliptin an option?",
+              "options": [
+                "Only pioglitazone is allowed",
+                "No, all DPP-4 inhibitors are banned",
+                "Only saxagliptin is allowed",
+                "Yes: it's neutral on heart failure"
+              ],
+              "answer": 3,
+              "explanation": "Saxagliptin and pioglitazone aren't recommended in heart failure."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "He's now on metformin + empagliflozin + sitagliptin.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How does that fit the Januvia label?",
+              "options": [
+                "Fully covered by Januvia's indication",
+                "A gap: the label trails practice",
+                "Only Janumet covers it",
+                "It's contraindicated"
+              ],
+              "answer": 1,
+              "explanation": "Each medicine is prescribed under its own licence."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which sentence best describes sitagliptin's place?",
+              "options": [
+                "Heart-safe, not heart-protective",
+                "A first-line heart protector",
+                "A drug to avoid in heart disease",
+                "A replacement for metformin in heart disease"
+              ],
+              "answer": 0,
+              "explanation": "That's the guideline's view."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-sit-b1",
+      "level": "block",
+      "covers": [
+        "sit-l01-at-a-glance",
+        "sit-l02-how-it-works",
+        "sit-l03-history"
+      ],
+      "summary": {
+        "title": "The medicine and its story",
+        "points": [
+          "Glucose-dependent incretin protection: low hypoglycaemia risk alone, more with sulphonylureas.",
+          "Kidney-cleared: exposure rises as GFR falls, which drives the dose.",
+          "First in class, approved on HbA1c; slightly less effective than metformin.",
+          "The label kept honest findings: weak glipizide comparison, negative paediatric trial, pancreas review."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "An investor asks why sitagliptin isn't first-line despite being first in class.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the best answer?",
+              "options": [
+                "Metformin works slightly better",
+                "It's unsafe",
+                "It has no EU licence for use on its own",
+                "It causes weight gain"
+              ],
+              "answer": 0,
+              "explanation": "EPAR: slightly less effective than metformin."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which mechanism fact matters most for safety positioning?",
+              "options": [
+                "High protein binding",
+                "A 40-hour half-life",
+                "CYP3A4 metabolism",
+                "Glucose-dependence"
+              ],
+              "answer": 3,
+              "explanation": "The contrast with sulphonylureas."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Connect history with today's label.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What came of the 2013 pancreas review?",
+              "options": [
+                "A contraindication in anyone with past pancreatitis",
+                "No confirmed risk; wording harmonised",
+                "Nothing at all",
+                "Withdrawal of DPP-4 inhibitors"
+              ],
+              "answer": 1,
+              "explanation": "Pancreatic cancer stays a potential risk in the RMP."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why is the dose 25 mg below GFR 30?",
+              "options": [
+                "Dialysis removes most of it",
+                "Children need lower doses",
+                "It's cleared by the kidneys",
+                "It's metabolised by the liver"
+              ],
+              "answer": 2,
+              "explanation": "Mechanism explains labelling."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What did the negative paediatric trial lead to?",
+              "options": [
+                "A paediatric indication",
+                "A contraindication in children",
+                "Nothing",
+                "'Should not be used' at 10–17"
+              ],
+              "answer": 3,
+              "explanation": "Openly reported, label changed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-sit-b2",
+      "level": "block",
+      "covers": [
+        "sit-l04-approved-uses",
+        "sit-l05-strengths-products",
+        "sit-l06-how-taken"
+      ],
+      "summary": {
+        "title": "The label in practice",
+        "points": [
+          "Indication ladder: alone (if no metformin), dual, triple, or with insulin.",
+          "Products: Januvia, duplicates, generics, Janumet (twice daily), Steglujan (once daily).",
+          "Kidney dosing: 100 / 50 / 25 mg at GFR ≥45 / 30–45 / <30.",
+          "Lower the sulphonylurea or insulin dose when adding sitagliptin."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A 70-year-old on metformin and insulin, GFR 42, HbA1c not at goal.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which sitagliptin use applies?",
+              "options": [
+                "Monotherapy",
+                "Add-on to insulin, with metformin",
+                "Dual therapy with a sulphonylurea instead",
+                "Not licensed"
+              ],
+              "answer": 1,
+              "explanation": "Stable insulin with or without metformin."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What dose?",
+              "options": [
+                "50 mg once daily",
+                "25 mg",
+                "50 mg twice daily",
+                "100 mg"
+              ],
+              "answer": 0,
+              "explanation": "GFR 30–45."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What else should be considered?",
+              "options": [
+                "Stop metformin automatically at this age",
+                "Raise insulin",
+                "Lower insulin; check metformin rules",
+                "Nothing"
+              ],
+              "answer": 2,
+              "explanation": "Hypoglycaemia risk and the partner's limits."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A pharmacy wants to replace Januvia 100 mg + metformin 1,000 mg twice daily with one product.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which product and schedule?",
+              "options": [
+                "Janumet 100/2,000 once daily",
+                "Steglujan once daily",
+                "Janumet 50/1,000, twice daily",
+                "Januvia 100 once daily alone"
+              ],
+              "answer": 2,
+              "explanation": "Total sitagliptin stays 100 mg."
+            },
+            {
+              "type": "mcq",
+              "prompt": "If GFR falls to 35, is Janumet still suitable?",
+              "options": [
+                "Check metformin's limits too",
+                "Yes, no change needed",
+                "Double the dose",
+                "Switch to Steglujan, which has no kidney limit"
+              ],
+              "answer": 0,
+              "explanation": "Sitagliptin alone would fall to 50 mg daily."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does the EU indication say about using sitagliptin alone?",
+              "options": [
+                "Whenever the patient prefers it to metformin",
+                "Only if metformin can't be used",
+                "Never",
+                "Only in children"
+              ],
+              "answer": 1,
+              "explanation": "The US has no such condition."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-sit-b3",
+      "level": "block",
+      "covers": [
+        "sit-l07-reading-a-trial",
+        "sit-l08-pivotal-trials",
+        "sit-l09-combination-trials",
+        "sit-l10-cv-outcomes"
+      ],
+      "summary": {
+        "title": "The evidence",
+        "points": [
+          "HbA1c effects: about −0.7 to −0.8 points; the glipizide comparison was tilted.",
+          "TECOS: non-inferior for heart events and heart failure, no benefit, with glycaemic equipoise.",
+          "Combinations: many HbA1c add-on trials; no outcome trial with an SGLT2 inhibitor.",
+          "Heart failure: SAVOR's signal is saxagliptin-specific or chance; TECOS HR 1.00."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A payer asks: 'Should we prefer sitagliptin to reduce heart events?'",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the evidence-based answer?",
+              "options": [
+                "No: it increases events",
+                "Yes: TECOS proved a benefit",
+                "Yes: it reduced heart failure",
+                "No: safety, not benefit"
+              ],
+              "answer": 3,
+              "explanation": "Non-inferiority ≠ superiority."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How should you describe TECOS's 0.2-point difference?",
+              "options": [
+                "An NNT of 500",
+                "A 2% proven reduction in heart events",
+                "A 20% reduction",
+                "0.2 points; not significant"
+              ],
+              "answer": 3,
+              "explanation": "Give both forms, and say it wasn't significant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the per-protocol TECOS CI upper limit compared with the margin?",
+              "options": [
+                "1.3 vs 1.09: failed",
+                "1.09 vs 1.3: met",
+                "No margin was set",
+                "1.0 vs 1.3: inconclusive"
+              ],
+              "answer": 1,
+              "explanation": "Below the margin means not worse."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A competitor says 'all DPP-4 inhibitors raise heart failure'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the evidence show?",
+              "options": [
+                "Only TECOS was significant",
+                "None measured heart failure",
+                "No class effect is shown",
+                "All three trials were significant"
+              ],
+              "answer": 2,
+              "explanation": "Pooled RR 1.12 with heterogeneity, driven by SAVOR."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why can't you compare the trials head-to-head?",
+              "options": [
+                "Different drugs and populations",
+                "They were all the same",
+                "They were all stopped early for harm",
+                "They used the same placebo"
+              ],
+              "answer": 0,
+              "explanation": "Each column stands on its own."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which combination evidence exists for sitagliptin + SGLT2 inhibitors?",
+              "options": [
+                "A large outcome trial",
+                "No trials at all",
+                "Only animal studies",
+                "HbA1c trials only"
+              ],
+              "answer": 3,
+              "explanation": "Ertugliflozin is the only licensed pairing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-sit-b4",
+      "level": "block",
+      "covers": [
+        "sit-l11-side-effects",
+        "sit-l12-contraindications-interactions",
+        "sit-l13-pharmacovigilance",
+        "sit-l14-esc-guidelines"
+      ],
+      "summary": {
+        "title": "Safety and guidelines",
+        "points": [
+          "Hypoglycaemia comes from the partner; lower sulphonylurea or insulin doses.",
+          "Pancreatitis, allergy and bullous pemphigoid: stop; never restart after confirmed pancreatitis.",
+          "Safety reviews added pemphigoid, arthropathy and thrombocytopenia; pancreatic cancer is a potential risk.",
+          "ESC 2023: SGLT2/GLP-1 RA for heart protection; sitagliptin for extra glucose control, heart-safe."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A 65-year-old with heart failure on metformin and dapagliflozin needs more glucose lowering.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which option does ESC 2023 consider heart-safe here?",
+              "options": [
+                "Any DPP-4 inhibitor",
+                "Saxagliptin",
+                "Sitagliptin",
+                "Pioglitazone"
+              ],
+              "answer": 2,
+              "explanation": "Saxagliptin and pioglitazone aren't recommended in heart failure."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Does Januvia's label name dapagliflozin as a partner?",
+              "options": [
+                "No",
+                "Yes",
+                "It's contraindicated",
+                "Only as Steglujan"
+              ],
+              "answer": 0,
+              "explanation": "The label trails practice here."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Two months in, she reports blistering skin. What next?",
+              "options": [
+                "Ignore it",
+                "Stop: possible pemphigoid",
+                "Halve the dose and see if it settles",
+                "Add insulin"
+              ],
+              "answer": 1,
+              "explanation": "Added to the label through a 2015 PSUSA."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Explain how safety knowledge grows after approval.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which route added thrombocytopenia?",
+              "options": [
+                "TECOS",
+                "A 2018 PSUSA",
+                "The original approval",
+                "An ESC guideline"
+              ],
+              "answer": 1,
+              "explanation": "Applied also to sitagliptin/metformin tablets."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which item remains 'to watch' in the EU?",
+              "options": [
+                "Pancreatic cancer",
+                "QT prolongation",
+                "Hypoglycaemia alone",
+                "Lactose intolerance"
+              ],
+              "answer": 0,
+              "explanation": "Plus heart failure, a US-only warning."
+            },
+            {
+              "type": "self-check",
+              "prompt": "In your own words: what's the difference between 'contraindicated' and 'should not be used', with a sitagliptin example of each?",
+              "modelAnswer": "A contraindication is an absolute bar — for sitagliptin, only allergy to the medicine or an ingredient. 'Should not be used' is a strong recommendation, usually because data are missing or it doesn't work well enough — for example pregnancy, breastfeeding, type 1 diabetes, or children aged 10–17."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-sit-m",
+      "level": "module",
+      "covers": [
+        "sit-l01-at-a-glance",
+        "sit-l02-how-it-works",
+        "sit-l03-history",
+        "sit-l04-approved-uses",
+        "sit-l05-strengths-products",
+        "sit-l06-how-taken",
+        "sit-l07-reading-a-trial",
+        "sit-l08-pivotal-trials",
+        "sit-l09-combination-trials",
+        "sit-l10-cv-outcomes",
+        "sit-l11-side-effects",
+        "sit-l12-contraindications-interactions",
+        "sit-l13-pharmacovigilance",
+        "sit-l14-esc-guidelines",
+        "sit-l15-recap"
+      ],
+      "summary": {
+        "title": "Sitagliptin: the whole picture",
+        "points": [
+          "First DPP-4 inhibitor: glucose-dependent, kidney-cleared, few interactions.",
+          "Second after metformin; many licensed combinations; SGLT2 only via Steglujan.",
+          "HbA1c about −0.7 to −0.8 points; TECOS: heart-safe, not heart-protective.",
+          "Hypoglycaemia comes from partners; pancreatitis and allergy rules are strict.",
+          "Safety reviews added skin, joint and platelet effects; nitrosamines were a quality issue.",
+          "ESC 2023: SGLT2/GLP-1 RA first for the heart; sitagliptin for extra glucose control."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You're evaluating a sitagliptin generic launch in five EU countries.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which regulatory route do EU sitagliptin generics typically use?",
+              "options": [
+                "No authorisation needed",
+                "National outcome trials",
+                "Duplicate marketing authorisations only",
+                "Central, on bioequivalence"
+              ],
+              "answer": 3,
+              "explanation": "Sitagliptin SUN and Accord, for example."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which quality risk should be in the supplier audit plan?",
+              "options": [
+                "Soy lecithin",
+                "Peanut oil",
+                "Nitrosamines (NTTP)",
+                "Lactose content above the EU threshold"
+              ],
+              "answer": 2,
+              "explanation": "A manufacturing issue seen in 2022."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which promotional claim is NOT supported?",
+              "options": [
+                "Once daily",
+                "Low hypoglycaemia risk when used on its own",
+                "Lowers HbA1c",
+                "Reduces heart attacks and strokes"
+              ],
+              "answer": 3,
+              "explanation": "TECOS showed no benefit."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A patient story: 76, heart failure, GFR 28, on insulin and metformin, needs more control.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What sitagliptin dose?",
+              "options": [
+                "100 mg",
+                "25 mg once daily",
+                "Contraindicated",
+                "50 mg"
+              ],
+              "answer": 1,
+              "explanation": "GFR below 30."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What about metformin at GFR 28?",
+              "options": [
+                "Its own kidney rules apply",
+                "Double metformin",
+                "Stop metformin; sitagliptin covers it",
+                "No issue"
+              ],
+              "answer": 0,
+              "explanation": "Each partner's limits apply."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Is sitagliptin acceptable in her heart failure?",
+              "options": [
+                "Only with pioglitazone",
+                "Only saxagliptin is",
+                "Yes, with thinner evidence",
+                "No, DPP-4 inhibitors are contraindicated"
+              ],
+              "answer": 2,
+              "explanation": "But note TECOS excluded eGFR below 30, so evidence is thinner for her."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -36,7 +36,9 @@
       "version": 9,
       "lessonCount": 18,
       "estimatedMinutes": 165,
-      "accentColor": "#C4782A"
+      "accentColor": "#C4782A",
+      "reviews": "reviews/indemnification.reviews.json",
+      "reviewsVersion": 1
     },
     {
       "id": "fenofibrate",

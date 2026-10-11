@@ -1,0 +1,1671 @@
+{
+  "moduleId": "rosuvastatin",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "ros-b1",
+      "title": "The medicine and its story",
+      "lessons": [
+        "ros-l01-at-a-glance",
+        "ros-l02-how-it-works",
+        "ros-l03-history"
+      ]
+    },
+    {
+      "id": "ros-b2",
+      "title": "The label in practice",
+      "lessons": [
+        "ros-l04-approved-uses",
+        "ros-l05-strengths-products",
+        "ros-l06-how-taken"
+      ]
+    },
+    {
+      "id": "ros-b3",
+      "title": "The evidence",
+      "lessons": [
+        "ros-l07-reading-a-trial",
+        "ros-l08-pivotal-trials",
+        "ros-l09-combination-trials",
+        "ros-l10-cv-outcomes"
+      ]
+    },
+    {
+      "id": "ros-b4",
+      "title": "Safety and guidelines",
+      "lessons": [
+        "ros-l11-side-effects",
+        "ros-l12-contraindications-interactions",
+        "ros-l13-pharmacovigilance",
+        "ros-l14-esc-guidelines"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-ros-l01",
+      "level": "lesson",
+      "covers": [
+        "ros-l01-at-a-glance"
+      ],
+      "summary": {
+        "title": "Rosuvastatin at a glance",
+        "points": [
+          "A statin: it slows cholesterol production in the liver. One tablet a day, any time, with or without food.",
+          "Three EU uses: high cholesterol from age 6, homozygous FH from age 6, and prevention of a first cardiovascular event in high-risk people.",
+          "LDL falls about 45–63% across 5–40 mg in a small dose study; the effect peaks by about four weeks.",
+          "The EU label describes JUPITER through post-hoc higher-risk analyses, not its overall result.",
+          "Watch muscles, liver tests, protein in urine at high doses, and a small diabetes signal."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A colleague says: 'Crestor is approved to prevent heart attacks in anyone with high cholesterol.'",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the Spanish SmPC actually cover for prevention?",
+              "options": [
+                "Anyone who has already had a heart attack",
+                "High-risk people, before any first event",
+                "Only people with familial hypercholesterolaemia",
+                "Anyone with LDL above their target"
+              ],
+              "answer": 1,
+              "explanation": "The prevention indication is about a first event in high-risk people. There's no separate indication for people who have already had an event."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which kind of analysis does the EU label use to describe JUPITER?",
+              "options": [
+                "A pooled analysis of all statin trials",
+                "A head-to-head comparison with atorvastatin",
+                "Post-hoc analyses of higher-risk participants",
+                "The trial's overall primary result, as in the publication"
+              ],
+              "answer": 2,
+              "explanation": "The EU SmPC gives two post-hoc analyses chosen after the data were seen. The US label gives the overall result."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A patient on rosuvastatin asks which blood tests matter.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which check does the SmPC ask for before starting and again at three months?",
+              "options": [
+                "Liver transaminases",
+                "Kidney biopsy",
+                "CK in everyone",
+                "HbA1c in everyone"
+              ],
+              "answer": 0,
+              "explanation": "Transaminases are checked before treatment and three months later. CK isn't checked routinely in people without symptoms."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why is the dose-table LDL figure (−52% at 10 mg) only 'orientation'?",
+              "options": [
+                "It compares against atorvastatin",
+                "It was measured in children",
+                "It comes from the US label, not the EU SmPC",
+                "Tiny groups, and no stated duration"
+              ],
+              "answer": 3,
+              "explanation": "Tiny groups make noisy numbers, and every number needs its time point."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ros-l02",
+      "level": "lesson",
+      "covers": [
+        "ros-l02-how-it-works"
+      ],
+      "summary": {
+        "title": "How it works",
+        "points": [
+          "Blocks HMG-CoA reductase, the rate-limiting enzyme in the liver's cholesterol production.",
+          "The liver responds with more LDL receptors, which pull LDL out of the blood; it also makes less VLDL.",
+          "Only about 10% is metabolised; most leaves unchanged. Half-life about 19 hours.",
+          "Its interactions come mainly from transporters (OATP1B1, BCRP), not liver enzymes.",
+          "Asian patients have about twice the exposure: start at 5 mg, and 40 mg is contraindicated."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A pharmacist sees a patient on rosuvastatin who has just been prescribed ciclosporin after a transplant.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What is the mechanism behind the problem?",
+              "options": [
+                "Both medicines bind to albumin",
+                "Ciclosporin blocks CYP3A4 breakdown",
+                "Rosuvastatin raises ciclosporin levels",
+                "Ciclosporin blocks its transporters"
+              ],
+              "answer": 3,
+              "explanation": "Rosuvastatin is barely metabolised. Its key interactions run through OATP1B1 and BCRP, and ciclosporin blocks them."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does the SmPC say about this combination?",
+              "options": [
+                "No change needed",
+                "Take them 2 hours apart",
+                "It is contraindicated",
+                "Use 40 mg to overcome it"
+              ],
+              "answer": 2,
+              "explanation": "A 7-fold rise in exposure is too large to manage with a dose cap."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You're explaining to a partner why the label mentions ancestry and genes.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "A person known to carry the ABCG2 c.421AA variant needs rosuvastatin. What's the advice?",
+              "options": [
+                "Usual dose, maximum 40 mg",
+                "Half the usual dose, maximum 20 mg",
+                "Rosuvastatin is contraindicated",
+                "Start at 40 mg because the transporter is weaker"
+              ],
+              "answer": 1,
+              "explanation": "A weaker BCRP pump raises exposure about 2.4-fold, so the dose is halved and capped at 20 mg."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why does lowering liver cholesterol production lower LDL in the blood?",
+              "options": [
+                "The liver adds more LDL receptors",
+                "LDL is converted into HDL",
+                "The gut absorbs less cholesterol",
+                "The kidneys excrete more LDL in the urine"
+              ],
+              "answer": 0,
+              "explanation": "Less cholesterol made inside the cell means more LDL receptors on its surface, so more LDL is pulled in."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ros-l03",
+      "level": "lesson",
+      "covers": [
+        "ros-l03-history"
+      ],
+      "summary": {
+        "title": "History",
+        "points": [
+          "Discovered by Shionogi; developed by AstraZeneca as ZD4522. First EU approval: Netherlands, 2002.",
+          "The mutual recognition procedure was contested: Germany, Norway and Spain withdrew; France withdrew 40 mg.",
+          "An Article 29 referral (2005) settled the starting dose: 5 or 10 mg.",
+          "Approved first on LDL alone, a surrogate endpoint. Outcome trials came later, with mixed results.",
+          "Spain joined in 2008–2009 through a repeat-use procedure."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A business partner asks why Crestor launched in Spain six years after its first EU approval.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What is the accurate explanation?",
+              "options": [
+                "It withdrew in 2003, then joined by repeat use",
+                "Spain rejected rosuvastatin as unsafe",
+                "It was approved centrally by the EMA in 2008",
+                "Spain required its own outcome trial before approving it"
+              ],
+              "answer": 0,
+              "explanation": "Withdrawal isn't rejection. Spain came in through repeat use, with authorisations from November 2008 and January 2009."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which EU route settles disagreements between member states during mutual recognition?",
+              "options": [
+                "A Type II variation",
+                "A Bolar exemption",
+                "A periodic safety update single assessment",
+                "An Article 29 referral"
+              ],
+              "answer": 3,
+              "explanation": "For Crestor it fixed the starting dose at 5 or 10 mg, made binding by the Commission in August 2005."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Think about what 'approved on LDL' meant for later decisions.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which trial result led to a new EU indication?",
+              "options": [
+                "METEOR, leading to an indication to slow artery thickening",
+                "AURORA, leading to a dialysis indication",
+                "JUPITER, leading to the prevention indication in 2010",
+                "CORONA, leading to a heart-failure indication"
+              ],
+              "answer": 2,
+              "explanation": "METEOR is described in the label but got no indication; CORONA and AURORA were neutral."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why were the Dutch assessors willing to keep 40 mg?",
+              "options": [
+                "40 mg had its own outcome trial data",
+                "Muscle data matched other statins",
+                "The US had already approved 80 mg",
+                "40 mg was only used in children"
+              ],
+              "answer": 1,
+              "explanation": "The answer to the safety debate was restriction: specialist start, severe cases, and several contraindications."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ros-l04",
+      "level": "lesson",
+      "covers": [
+        "ros-l04-approved-uses"
+      ],
+      "summary": {
+        "title": "What it's approved for",
+        "points": [
+          "Every use is as an adjunct: diet and non-drug measures continue, and secondary causes are treated first.",
+          "High cholesterol (Fredrickson IIa and IIb, including heterozygous FH) from age 6; children only under specialists.",
+          "Homozygous FH from age 6: based on a 42-patient open-label study, no comparator.",
+          "Prevention of a first event in high-risk people, at 20 mg; 'high risk' is defined by JUPITER's post-hoc analyses.",
+          "Not in the EU label: raised triglycerides alone, plaque slowing (METEOR), heart failure (CORONA)."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A marketing draft says: 'Crestor: approved for high triglycerides and to slow plaque build-up.'",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's wrong with that claim for the Spanish label?",
+              "options": [
+                "Only the plaque claim is wrong",
+                "Only the triglyceride claim is wrong",
+                "Neither is an EU indication",
+                "Nothing; both are approved in Spain"
+              ],
+              "answer": 2,
+              "explanation": "Raised triglycerides alone appears in the US label, not the EU one. METEOR is only described in section 5.1."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A patient's high cholesterol turns out to be caused by an underactive thyroid. What does the SmPC ask first?",
+              "options": [
+                "Treat the thyroid first",
+                "Start with the ezetimibe combination",
+                "Start at 40 mg",
+                "Start rosuvastatin; ignore the thyroid"
+              ],
+              "answer": 0,
+              "explanation": "Secondary hypercholesterolaemia should be treated first."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Compare the EU and US labels.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Where is the US label narrower than the EU one?",
+              "options": [
+                "The US excludes mixed dyslipidaemia",
+                "Paediatric FH starts at 8, not 6",
+                "The US excludes homozygous FH",
+                "The US has no prevention indication"
+              ],
+              "answer": 1,
+              "explanation": "The US door is wider elsewhere (triglycerides, dysbetalipoproteinaemia) but narrower on paediatric age."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why is the homozygous FH indication accepted on such thin evidence?",
+              "options": [
+                "It was approved in the US first",
+                "It had a large placebo-controlled trial",
+                "It used LDL apheresis as comparator",
+                "The condition is rare"
+              ],
+              "answer": 3,
+              "explanation": "Rare diseases rarely allow large comparative trials."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ros-l05",
+      "level": "lesson",
+      "covers": [
+        "ros-l05-strengths-products"
+      ],
+      "summary": {
+        "title": "Strengths and products",
+        "points": [
+          "Crestor in Spain: 5, 10 and 20 mg film-coated tablets, engraved ZD4522; lactose is the key excipient.",
+          "MAH in Spain: Grünenthal GmbH. Sold as Crestor in 17 EEA countries.",
+          "40 mg is on the Spanish market as generics referencing Crestor 40 mg, so the 40 mg rules still apply.",
+          "Generics (EFG) may be scored and split; some come in 15 and 30 mg, which Crestor never had.",
+          "Combinations with ezetimibe, fenofibrate, amlodipine, valsartan or aspirin are substitution therapy only."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A distributor asks whether they can launch a rosuvastatin/ezetimibe tablet as first-line treatment.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do the Spanish combination licences allow?",
+              "options": [
+                "First-line treatment in everyone",
+                "Any use the prescriber chooses",
+                "Substitution only, not first-line",
+                "First-line, but only after a heart attack"
+              ],
+              "answer": 2,
+              "explanation": "These fixed-dose combinations replace separate tablets; they aren't for starting treatment."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A competitor sells rosuvastatin 15 mg. Why isn't it labelled as a generic?",
+              "options": [
+                "There's no 15 mg reference product",
+                "Generics can't have a score line",
+                "15 mg failed bioequivalence against Crestor",
+                "Only the MAH may sell 15 mg"
+              ],
+              "answer": 0,
+              "explanation": "A generic copies a reference product; a strength the reference never had can't be a generic of it."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The Spanish Crestor SmPC lists only 5, 10 and 20 mg.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why does it still contain 40 mg rules?",
+              "options": [
+                "It's a printing error left over from the US label",
+                "The rules apply only in the US",
+                "40 mg is the paediatric dose",
+                "40 mg generics exist; the EU text included it"
+              ],
+              "answer": 3,
+              "explanation": "The label text comes from the common EU procedure, and the rules apply to every 40 mg tablet a patient might get."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which practical difference can matter for patients switching from Crestor to some generics?",
+              "options": [
+                "Generics are only for children",
+                "Some generics can be split",
+                "Generics must be taken with food",
+                "Generics have a different half-life"
+              ],
+              "answer": 1,
+              "explanation": "Small product differences, such as scoring, can be useful in practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ros-l06",
+      "level": "lesson",
+      "covers": [
+        "ros-l06-how-taken"
+      ],
+      "summary": {
+        "title": "How it's taken",
+        "points": [
+          "Once a day, any time, with or without food. Start at 5 or 10 mg; step up after 4 weeks.",
+          "Start at 5 mg if over 70, of Asian origin, with moderate kidney impairment, muscle risk factors, or interacting medicines.",
+          "Creatinine clearance below 30: contraindicated. Below 60: start at 5 mg, no 40 mg.",
+          "Liver tests before and at 3 months; stop or reduce if transaminases exceed 3× ULN.",
+          "CK isn't routine. Contraindicated in pregnancy and breastfeeding. Missed dose: just take the next one."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A 74-year-old woman of Korean origin, normal kidneys, is starting Crestor for high cholesterol.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What starting dose does the SmPC recommend?",
+              "options": [
+                "20 mg, the prevention dose",
+                "10 mg, with 40 mg available later if needed",
+                "Rosuvastatin is contraindicated over 70",
+                "5 mg, and 40 mg is contraindicated for her"
+              ],
+              "answer": 3,
+              "explanation": "Both age over 70 and Asian origin point to 5 mg; Asian origin also rules out 40 mg."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Her baseline CK comes back at 6× ULN. What next?",
+              "options": [
+                "Repeat it; don't start if confirmed",
+                "Ignore it; CK isn't relevant",
+                "Start at 5 mg anyway and recheck CK after exercise",
+                "Start at 40 mg"
+              ],
+              "answer": 0,
+              "explanation": "A baseline CK above 5× ULN is rechecked, and treatment isn't started if confirmed. Avoid testing after strenuous exercise."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A man with creatinine clearance of 45 mL/min isn't at goal on 20 mg.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Can he go up to 40 mg?",
+              "options": [
+                "Yes, after another 4 weeks",
+                "No: 40 mg is barred below 60 mL/min",
+                "Yes, if a specialist starts it",
+                "Only if he takes it with food and a specialist agrees"
+              ],
+              "answer": 1,
+              "explanation": "Moderate kidney impairment caps him below 40 mg. Other options (such as adding ezetimibe) come into play."
+            },
+            {
+              "type": "mcq",
+              "prompt": "He asks what to do if he forgets a dose.",
+              "options": [
+                "Stop for a week and restart",
+                "Take two tablets the next day",
+                "Take the next one as usual; no doubling",
+                "Take it within 2 hours"
+              ],
+              "answer": 2,
+              "explanation": "The PIL keeps it simple: no double dose."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ros-l07",
+      "level": "lesson",
+      "covers": [
+        "ros-l07-reading-a-trial"
+      ],
+      "summary": {
+        "title": "Reading a clinical trial",
+        "points": [
+          "Check the primary endpoint and what a composite counts before comparing trials.",
+          "Give both absolute and relative risk reduction, with comparator and time.",
+          "HR below 1 with a CI that doesn't cross 1.0 is statistically significant.",
+          "NNT = 100 ÷ absolute risk reduction (percentage points), for a stated time.",
+          "Trials stopped early for benefit tend to overstate effects; prespecified beats post-hoc."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "HOPE-3: 4.8% on placebo vs 3.7% on rosuvastatin over 5.6 years.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the absolute risk reduction and NNT?",
+              "options": [
+                "24%; NNT about 4",
+                "1.1%; NNT about 9",
+                "1.1 points; NNT about 91",
+                "4.8 points"
+              ],
+              "answer": 2,
+              "explanation": "24% is the relative reduction. NNT uses the absolute difference: 100 ÷ 1.1 ≈ 91."
+            },
+            {
+              "type": "mcq",
+              "prompt": "HOPE-3's HR was 0.76 (95% CI 0.64–0.91). What does that mean?",
+              "options": [
+                "Significant: the CI is below 1.0",
+                "Rosuvastatin increased risk",
+                "Significant only in subgroups",
+                "Not significant: 0.76 is close to 1"
+              ],
+              "answer": 0,
+              "explanation": "A CI entirely below 1.0 rules out 'no difference' at the usual level."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A slide claims JUPITER proves a 44% benefit, and CORONA 'showed an 8% benefit in heart failure'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's wrong with the CORONA claim?",
+              "options": [
+                "CORONA was stopped early",
+                "CORONA was a post-hoc analysis",
+                "CORONA had no placebo arm",
+                "Its CI crosses 1.0"
+              ],
+              "answer": 3,
+              "explanation": "p = 0.12. An HR of 0.92 with an interval crossing 1.0 isn't a demonstrated benefit."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What caution applies to JUPITER's 44%?",
+              "options": [
+                "It used atorvastatin",
+                "It stopped early, which inflates effects",
+                "It wasn't randomised",
+                "It measured only LDL"
+              ],
+              "answer": 1,
+              "explanation": "Stopping at a moment when benefit looks large inflates the estimate; the true effect may be smaller."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ros-l08",
+      "level": "lesson",
+      "covers": [
+        "ros-l08-pivotal-trials"
+      ],
+      "summary": {
+        "title": "The pivotal trials",
+        "points": [
+          "JUPITER: normal LDL, raised CRP; HR 0.56 for first events; stopped early at 1.9 years.",
+          "HOPE-3: intermediate risk, 10 mg fixed dose; 3.7% vs 4.8% over 5.6 years (HR 0.76).",
+          "METEOR: artery-wall thickening slowed; a surrogate, no indication.",
+          "CORONA (heart failure) and AURORA (dialysis): LDL fell, events didn't change.",
+          "The EU SmPC describes only JUPITER and METEOR."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A partner wants to promote rosuvastatin in dialysis clinics.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the evidence and label say?",
+              "options": [
+                "Dialysis is the main indication",
+                "AURORA showed a 44% benefit",
+                "No benefit, and dialysis is contraindicated",
+                "The EU allows 5–10 mg in patients on dialysis"
+              ],
+              "answer": 2,
+              "explanation": "AURORA: HR 0.96, not significant. The US allows 5–10 mg only in severe impairment not on dialysis."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which trial is described in the EU SmPC?",
+              "options": [
+                "METEOR's imaging result",
+                "HOPE-3's overall result",
+                "AURORA's dialysis result",
+                "GISSI-HF's heart-failure result"
+              ],
+              "answer": 0,
+              "explanation": "Only JUPITER and METEOR appear in the EU SmPC."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Look at the pattern across the five trials.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the pattern suggest?",
+              "options": [
+                "It works best in dialysis",
+                "Benefit without disease; none in HF or dialysis",
+                "It only lowers LDL, never events",
+                "It works equally well in every population studied"
+              ],
+              "answer": 1,
+              "explanation": "JUPITER and HOPE-3 were positive; CORONA and AURORA neutral despite LDL falls."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why shouldn't you compare HOPE-3's LDL fall (−26.5%) with the SmPC dose table (−52% at 10 mg)?",
+              "options": [
+                "HOPE-3 measured HDL instead",
+                "The dose table is from the US",
+                "HOPE-3 used 40 mg",
+                "They're different studies"
+              ],
+              "answer": 3,
+              "explanation": "Read each number in its own context."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ros-l09",
+      "level": "lesson",
+      "covers": [
+        "ros-l09-combination-trials"
+      ],
+      "summary": {
+        "title": "Combination trials",
+        "points": [
+          "Fixed-dose combination: one tablet; co-administration: separate tablets taken together.",
+          "Licensed combinations in Spain are substitution only; many partners (telmisartan, SGLT2, PCSK9, bempedoic acid) have no EU combination licence.",
+          "SmPC lines: ezetimibe ×1.2, fibrates (no 40 mg), clopidogrel ×2, ticagrelor ×2.6.",
+          "RACING: rosuvastatin 10 + ezetimibe no worse than 20 mg over 3 years, with fewer treatment stops.",
+          "HOPE-3 combined arm (separate tablets): HR 0.71. Most BP combination trials are 8-week marker studies."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A licensing partner proposes a rosuvastatin + telmisartan single pill for the EU, citing 'outcome evidence'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the evidence actually support?",
+              "options": [
+                "RACING proves the outcome benefit",
+                "A large European outcome trial",
+                "HOPE-3 tested telmisartan",
+                "Only 8-week marker trials"
+              ],
+              "answer": 3,
+              "explanation": "HOPE-3 used candesartan with hydrochlorothiazide, as separate tablets. Telmisartan pairs only have short marker trials."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does the Crestor SmPC say about telmisartan?",
+              "options": [
+                "Contraindicated",
+                "Nothing at all",
+                "Halve the rosuvastatin dose",
+                "Maximum 10 mg"
+              ],
+              "answer": 1,
+              "explanation": "The SmPC has no line for aspirin, SGLT2 inhibitors, the BP medicines, PCSK9 inhibitors or bempedoic acid."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A cardiologist wonders whether to double the statin or add ezetimibe.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What did RACING show?",
+              "options": [
+                "Ezetimibe was clearly superior on cardiovascular deaths",
+                "It compared against a PCSK9 inhibitor",
+                "10 mg + ezetimibe was no worse than 20 mg",
+                "20 mg alone was clearly better"
+              ],
+              "answer": 2,
+              "explanation": "Non-inferiority, within a 2-point margin: about 9.0% vs 9.9% at 3 years."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What limits applying RACING's doses directly to European patients?",
+              "options": [
+                "Korean patients have higher exposure",
+                "It lasted only 8 weeks",
+                "It excluded people with heart disease",
+                "It was double-blind"
+              ],
+              "answer": 0,
+              "explanation": "Ancestry affects exposure (Lesson 2); it was also open-label."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ros-l10",
+      "level": "lesson",
+      "covers": [
+        "ros-l10-cv-outcomes"
+      ],
+      "summary": {
+        "title": "Heart-attack and stroke outcomes",
+        "points": [
+          "JUPITER: heart attacks HR 0.46, strokes HR 0.52, over a median of 1.9 years; effects may be overstated.",
+          "Death: HR 0.80 across JUPITER, but not significant in the EU label's post-hoc slices.",
+          "No effect on death in heart failure (CORONA, GISSI-HF) or dialysis (AURORA).",
+          "LODESTAR vs atorvastatin: similar hard outcomes (HR 1.06), more new diabetes and cataract surgery.",
+          "CTT: per 1 mmol/L lower LDL, about 22% fewer major vascular events and 10% fewer deaths (class, relative)."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Two documents disagree: the JUPITER paper says deaths fell; the EU SmPC says they didn't.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which is right?",
+              "options": [
+                "Both: different slices of one trial",
+                "Only the paper",
+                "Neither; JUPITER didn't measure deaths",
+                "Only the SmPC"
+              ],
+              "answer": 0,
+              "explanation": "Whole trial HR 0.80; the two post-hoc analyses weren't significant for death (p = 0.193 and 0.076)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does LODESTAR add that placebo trials can't?",
+              "options": [
+                "Evidence in heart failure",
+                "A head-to-head comparison",
+                "Proof rosuvastatin beats atorvastatin",
+                "Evidence with ezetimibe"
+              ],
+              "answer": 1,
+              "explanation": "Only LODESTAR compares two active statins directly."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A payer asks how big the benefit is for a low-risk 50-year-old.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How should you use the CTT figure (22% fewer events per 1 mmol/L)?",
+              "options": [
+                "It means 22% fewer deaths",
+                "It applies only to rosuvastatin",
+                "It's relative; absolute depends on risk",
+                "Use 22% as the absolute reduction for any patient"
+              ],
+              "answer": 2,
+              "explanation": "Low baseline risk means a small absolute gain, even with the same relative effect."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why read the three outcome columns (placebo, head-to-head, advanced disease) separately?",
+              "options": [
+                "They used different statins",
+                "They were all stopped early",
+                "They all used the 40 mg dose",
+                "Different trials and populations"
+              ],
+              "answer": 3,
+              "explanation": "Cross-trial comparisons mislead."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ros-l11",
+      "level": "lesson",
+      "covers": [
+        "ros-l11-side-effects"
+      ],
+      "summary": {
+        "title": "Side effects",
+        "points": [
+          "Common: headache, dizziness, gut upset, muscle aches, weakness, diabetes (depends on risk factors).",
+          "Rare but serious: rhabdomyolysis (more above 20 mg), DRESS and SJS (never restart), immune-mediated necrotising myopathy, myasthenia.",
+          "Protein in urine: about 3% at 40 mg, usually transient, not shown to predict kidney disease.",
+          "Diabetes: more in JUPITER and LODESTAR, not HOPE-3. The SmPC says monitor, don't stop.",
+          "Cataract: seen in LODESTAR and HOPE-3, absent from the label."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient with fasting glucose of 6.1 mmol/L and BMI 32 is starting rosuvastatin.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the SmPC say about her diabetes risk?",
+              "options": [
+                "Continue, with monitoring",
+                "Don't use rosuvastatin at all",
+                "Switch to atorvastatin",
+                "Halve the dose"
+              ],
+              "answer": 0,
+              "explanation": "Risk factors raise the chance of diabetes, but that isn't a reason to withhold the statin."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Months later she develops a widespread rash, fever and swollen glands. What's the rule?",
+              "options": [
+                "Reduce to 5 mg and continue",
+                "Pause for a week, then restart",
+                "Stop; never restart after DRESS",
+                "Add an antihistamine and continue"
+              ],
+              "answer": 2,
+              "explanation": "DRESS and Stevens-Johnson syndrome are permanent contraindications to rechallenge."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your team is drafting a safety summary for a partner.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which signal appears in trials but not in the Crestor SmPC?",
+              "options": [
+                "Diabetes",
+                "Cataract",
+                "Protein in the urine",
+                "Muscle aches"
+              ],
+              "answer": 1,
+              "explanation": "A trial finding the label hasn't taken up. Not proof of harm, but worth tracking."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Muscle weakness and raised CK persist after stopping the statin. What should you suspect?",
+              "options": [
+                "Hypothyroidism caused by the statin",
+                "Ordinary myalgia",
+                "An exercise-related CK rise that will settle with rest",
+                "Immune-mediated necrotising myopathy"
+              ],
+              "answer": 3,
+              "explanation": "Unlike ordinary statin myopathy, it doesn't settle when the statin is stopped."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ros-l12",
+      "level": "lesson",
+      "covers": [
+        "ros-l12-contraindications-interactions"
+      ],
+      "summary": {
+        "title": "Who shouldn't take it, and interactions",
+        "points": [
+          "Never: active liver disease, CrCl below 30, myopathy, ciclosporin, sofosbuvir/velpatasvir/voxilaprevir, pregnancy or breastfeeding.",
+          "No 40 mg: CrCl below 60, hypothyroidism, muscle history, alcohol abuse, Asian origin, fibrates, higher-exposure situations.",
+          "2× rule: if a co-medicine doubles exposure or more, start at 5 mg and cap so exposure stays ≤ 40 mg alone.",
+          "Fusidic acid: stop rosuvastatin during treatment and for 7 days after.",
+          "Antacids halve levels (take 2 hours later); monitor INR with vitamin K antagonists."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient on rosuvastatin 20 mg is starting gemfibrozil (×1.9 exposure).",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the 2× rule imply?",
+              "options": [
+                "Go up to 40 mg to overcome the interaction",
+                "Cap at 20 mg; not recommended",
+                "No change needed",
+                "Stop gemfibrozil after 7 days"
+              ],
+              "answer": 1,
+              "explanation": "The cap keeps exposure at or below 40 mg alone. Gemfibrozil is also 'not recommended' with rosuvastatin."
+            },
+            {
+              "type": "mcq",
+              "prompt": "The same patient needs systemic fusidic acid for an infection.",
+              "options": [
+                "Halve the rosuvastatin dose",
+                "Switch to 40 mg",
+                "Stop it; restart 7 days after",
+                "Continue at 5 mg and check CK weekly"
+              ],
+              "answer": 2,
+              "explanation": "Rhabdomyolysis, including deaths, has been reported with the combination."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "An EU–US label comparison is going into a partner deck.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How does the US label handle cyclosporine?",
+              "options": [
+                "Allows up to 5 mg",
+                "Contraindicates it, like the EU",
+                "Allows up to 40 mg",
+                "Doesn't mention it"
+              ],
+              "answer": 0,
+              "explanation": "The US label's contraindications are limited to acute liver failure, decompensated cirrhosis and hypersensitivity."
+            },
+            {
+              "type": "mcq",
+              "prompt": "The PIL warns about severe respiratory insufficiency, but the SmPC doesn't. What's the right reaction?",
+              "options": [
+                "Ignore the PIL line",
+                "Treat it as a contraindication",
+                "Assume the SmPC is wrong",
+                "Flag it for the next review"
+              ],
+              "answer": 3,
+              "explanation": "PILs should reflect the SmPC; a PIL-only line is worth flagging."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ros-l13",
+      "level": "lesson",
+      "covers": [
+        "ros-l13-pharmacovigilance"
+      ],
+      "summary": {
+        "title": "Pharmacovigilance",
+        "points": [
+          "PSURs are assessed together across companies in a PSUSA; rosuvastatin's (data to Nov 2022) ended in maintenance.",
+          "The ezetimibe/rosuvastatin PSUSA (data to July 2020) added DRESS and the ticagrelor interaction to every rosuvastatin label.",
+          "PRAC 2023: all statins warn about myasthenia gravis.",
+          "Early safety decisions still stand: no 80 mg, restricted 40 mg, lower Asian starting dose.",
+          "Watchlist: cataract, and the PIL-only respiratory line."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your company holds a rosuvastatin + amlodipine licence, not an ezetimibe one.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Did the DRESS conclusion from the ezetimibe/rosuvastatin review affect your label?",
+              "options": [
+                "Only after your own PSUSA",
+                "Yes: it applied to all rosuvastatin products",
+                "Only in the US",
+                "No, it applied only to ezetimibe combination products"
+              ],
+              "answer": 1,
+              "explanation": "A signal found through one combination can change all labels containing the substance."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does 'maintenance' as a PSUSA outcome mean?",
+              "options": [
+                "No change to the label",
+                "The RMP is cancelled",
+                "The product is withdrawn",
+                "A new indication is added"
+              ],
+              "answer": 0,
+              "explanation": "Maintenance means the benefit-risk balance and the label stay as they are."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You're planning the module refresh calendar.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which event should trigger an immediate refresh?",
+              "options": [
+                "A new generic rosuvastatin launch in Spain",
+                "A competitor's price cut",
+                "A combination PSUSA ending in a variation",
+                "A new US press release"
+              ],
+              "answer": 2,
+              "explanation": "Also: a new SmPC revision, or a PRAC signal on statins or rosuvastatin."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why is cataract on the watchlist rather than in the label?",
+              "options": [
+                "It was rejected as false",
+                "It's in the US label only",
+                "It only occurs at the withdrawn 80 mg dose",
+                "A trial signal not yet assessed by PRAC"
+              ],
+              "answer": 3,
+              "explanation": "A trial signal isn't proof of harm; regular review is designed to catch such items."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ros-l14",
+      "level": "lesson",
+      "covers": [
+        "ros-l14-esc-guidelines"
+      ],
+      "summary": {
+        "title": "ESC guidelines",
+        "points": [
+          "Guidelines advise; they don't change licences. Classes I–III, evidence levels A–C.",
+          "2019: high-intensity statin to the highest tolerated dose (I A), then ezetimibe (I B), then PCSK9 inhibitor (I A).",
+          "Rosuvastatin 20 mg is high intensity, 10 mg moderate; the label still restricts 40 mg.",
+          "2025: after ACS, statin plus ezetimibe can start together in hospital (IIa B); bempedoic acid for intolerance (I B).",
+          "Combination tablets are substitution only: start separate tablets, switch once doses are settled."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "After an acute coronary syndrome, a doctor wants to start rosuvastatin + ezetimibe together, as the 2025 update suggests.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do you do that within the Spanish licences?",
+              "options": [
+                "Separate tablets first, then switch",
+                "Ezetimibe isn't allowed after ACS",
+                "Start the combination tablet straight away",
+                "The guideline overrides the licence"
+              ],
+              "answer": 0,
+              "explanation": "The guideline and the label work at different levels; the combination tablets are licensed for substitution."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does a 'IIa B' recommendation mean?",
+              "options": [
+                "Is not recommended",
+                "Should be considered; moderate evidence",
+                "Is recommended",
+                "Expert opinion only"
+              ],
+              "answer": 1,
+              "explanation": "Class IIa = should be considered; level B = one randomised trial or large non-randomised studies."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The guideline says 'highest tolerated dose'; the label restricts 40 mg.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which sets the outer limit?",
+              "options": [
+                "Neither; the prescriber decides freely",
+                "The US label",
+                "The label",
+                "The guideline"
+              ],
+              "answer": 2,
+              "explanation": "Guidance has to work inside the licence's limits."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A very-high-risk patient after a heart attack isn't at goal on a high-intensity statin plus ezetimibe. What's the next 2019 step?",
+              "options": [
+                "Stop ezetimibe",
+                "Add fenofibrate to lower triglycerides further",
+                "Switch to atorvastatin",
+                "Add a PCSK9 inhibitor (I A)"
+              ],
+              "answer": 3,
+              "explanation": "Statin → ezetimibe → PCSK9 inhibitor in very-high-risk secondary prevention."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ros-b1",
+      "level": "block",
+      "covers": [
+        "ros-l01-at-a-glance",
+        "ros-l02-how-it-works",
+        "ros-l03-history"
+      ],
+      "summary": {
+        "title": "The medicine and its story",
+        "points": [
+          "A liver-targeted statin: blocks HMG-CoA reductase, more LDL receptors, LDL falls about half.",
+          "Interactions come from transporters (OATP1B1, BCRP), which explains ciclosporin and ancestry effects.",
+          "A contested EU start: withdrawals in 2003, an Article 29 referral on the starting dose, 40 mg restricted.",
+          "Approved on LDL; JUPITER later brought the prevention indication, other trials didn't."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A new BD colleague asks you to explain rosuvastatin's 'personality' in a partner meeting.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which link between mechanism and label is correct?",
+              "options": [
+                "CYP3A4 metabolism explains most interactions",
+                "Its fungal origin explains muscle effects",
+                "Transporters explain both",
+                "Its short half-life explains once-daily dosing"
+              ],
+              "answer": 2,
+              "explanation": "Rosuvastatin is barely metabolised; OATP1B1 and BCRP drive exposure."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why did the 2005 Article 29 referral matter for today's label?",
+              "options": [
+                "It withdrew 40 mg EU-wide",
+                "It fixed the 5 or 10 mg starting dose",
+                "It moved Crestor to the centralised procedure",
+                "It granted the prevention indication"
+              ],
+              "answer": 1,
+              "explanation": "The CHMP accepted either starting dose, chosen by cholesterol level and risk."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Connect history with safety.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do today's 40 mg restrictions trace back to the early years?",
+              "options": [
+                "Early concerns led to restriction, not removal",
+                "They came from the 2023 PRAC signal on statins",
+                "40 mg was added after JUPITER",
+                "40 mg was a US-only dose"
+              ],
+              "answer": 0,
+              "explanation": "80 mg was dropped; 40 mg kept with specialist start, severe cases, and contraindications."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which statement about the evidence base at first approval is true?",
+              "options": [
+                "JUPITER was already published",
+                "CORONA's outcome data supported the first approval",
+                "Approval relied on METEOR",
+                "No outcome data; LDL as a surrogate"
+              ],
+              "answer": 3,
+              "explanation": "Outcome trials came later."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why does the EU label start at 5 mg for Asian patients?",
+              "options": [
+                "About twice the exposure",
+                "It's a US requirement",
+                "They metabolise it faster",
+                "Asian trials showed no benefit"
+              ],
+              "answer": 0,
+              "explanation": "Higher exposure means more risk; 40 mg is also contraindicated."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ros-b2",
+      "level": "block",
+      "covers": [
+        "ros-l04-approved-uses",
+        "ros-l05-strengths-products",
+        "ros-l06-how-taken"
+      ],
+      "summary": {
+        "title": "The label in practice",
+        "points": [
+          "Three EU uses, all as an adjunct; prevention is for a first event, defined by JUPITER's post-hoc analyses.",
+          "Products: Crestor 5–20 mg, generics up to 40 mg (some 15 and 30 mg), substitution-only combinations.",
+          "Dosing: start 5 or 10 mg; 5 mg for over-70s, Asian origin, CrCl below 60, interactions.",
+          "40 mg: severe cases at high risk, not at goal on 20 mg, under a specialist."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A 68-year-old white man with CrCl 75 mL/min, heterozygous FH, LDL still high on 20 mg after 4 weeks.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the label allow next?",
+              "options": [
+                "Not possible; 20 mg is the maximum",
+                "40 mg, started by a specialist",
+                "Switch to a combination tablet now",
+                "Stop and restart at 5 mg"
+              ],
+              "answer": 1,
+              "explanation": "He has no 40 mg contraindication (under 70, not Asian, CrCl ≥ 60, no fibrate)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "He'd like ezetimibe added in one tablet straight away. What fits the Spanish licences?",
+              "options": [
+                "Start the combination tablet directly",
+                "Ezetimibe can't be combined with 40 mg",
+                "Combination tablets don't exist in Spain",
+                "Separate ezetimibe first, then switch"
+              ],
+              "answer": 3,
+              "explanation": "Combinations are substitution therapy only."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A partner's dossier lists 'raised triglycerides' and '15 mg Crestor-equivalent generic' in its plan.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's wrong with the triglyceride indication for the EU?",
+              "options": [
+                "It's only for the 40 mg dose",
+                "It's approved only in Spain",
+                "It isn't an EU indication",
+                "It needs a paediatric study first"
+              ],
+              "answer": 2,
+              "explanation": "It exists in the US label, not the EU one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's wrong with calling a 15 mg tablet a 'generic'?",
+              "options": [
+                "Generics can't exceed 10 mg",
+                "15 mg is only authorised for children",
+                "15 mg is unsafe",
+                "There's no 15 mg reference product"
+              ],
+              "answer": 3,
+              "explanation": "It's authorised, just not as a generic."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Who must start at 5 mg?",
+              "options": [
+                "A 55-year-old with normal kidneys and no risk factors",
+                "A 72-year-old",
+                "Anyone switching from atorvastatin 40 mg",
+                "Anyone starting the prevention indication"
+              ],
+              "answer": 1,
+              "explanation": "Over 70 is one of the 5 mg starting groups. Switching from a higher dose of another statin still starts at 5 or 10 mg."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ros-b3",
+      "level": "block",
+      "covers": [
+        "ros-l07-reading-a-trial",
+        "ros-l08-pivotal-trials",
+        "ros-l09-combination-trials",
+        "ros-l10-cv-outcomes"
+      ],
+      "summary": {
+        "title": "The evidence",
+        "points": [
+          "Read every result with comparator, time, absolute and relative effect; check CI against 1.0.",
+          "Positive in people without established disease (JUPITER, HOPE-3); neutral in heart failure and dialysis.",
+          "Combinations: RACING (ezetimibe) and HOPE-3's combined arm are the only outcome evidence; the rest are 8-week marker trials.",
+          "Head-to-head vs atorvastatin (LODESTAR): similar outcomes, more diabetes and cataract."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A competitor's slide: 'Rosuvastatin cuts events by 44% (JUPITER) and is superior to atorvastatin.'",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the best correction for the first claim?",
+              "options": [
+                "It's relative, from a trial stopped early",
+                "JUPITER wasn't randomised",
+                "44% is the reduction in deaths",
+                "44% is the absolute reduction in heart attacks"
+              ],
+              "answer": 0,
+              "explanation": "Always pair relative with absolute and note early stopping."
+            },
+            {
+              "type": "mcq",
+              "prompt": "And the second claim?",
+              "options": [
+                "There's no head-to-head trial",
+                "LODESTAR showed rosuvastatin superior",
+                "LODESTAR found similar outcomes",
+                "CORONA compared the two"
+              ],
+              "answer": 2,
+              "explanation": "Same outcomes; more new diabetes and cataract surgery on rosuvastatin."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A partner wants to position a rosuvastatin + candesartan + HCTZ polypill using HOPE-3.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the key limitation?",
+              "options": [
+                "It used separate tablets",
+                "HOPE-3 used atorvastatin",
+                "HOPE-3 lasted 8 weeks",
+                "HOPE-3 was negative for the combined arm"
+              ],
+              "answer": 0,
+              "explanation": "HR 0.71 over 5.6 years, but as co-administration, not a single pill."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which trials suggest LDL lowering isn't enough in advanced disease?",
+              "options": [
+                "LODESTAR and HOPE-3",
+                "JUPITER and HOPE-3",
+                "CORONA and AURORA",
+                "METEOR and RACING"
+              ],
+              "answer": 2,
+              "explanation": "LDL fell by over 40% in both, but events didn't change."
+            },
+            {
+              "type": "mcq",
+              "prompt": "RACING's result was −0.78 points (95% CI −2.39 to 0.83) with a 2.0-point margin. What does it show?",
+              "options": [
+                "Superiority of the combination",
+                "Non-inferiority",
+                "Nothing, since the CI crosses zero",
+                "Inferiority of the combination"
+              ],
+              "answer": 1,
+              "explanation": "For non-inferiority, the question is whether the interval stays within the margin, not whether it crosses zero."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ros-b4",
+      "level": "block",
+      "covers": [
+        "ros-l11-side-effects",
+        "ros-l12-contraindications-interactions",
+        "ros-l13-pharmacovigilance",
+        "ros-l14-esc-guidelines"
+      ],
+      "summary": {
+        "title": "Safety and guidelines",
+        "points": [
+          "Muscle risk rises with dose and exposure; most interactions raise exposure via transporters.",
+          "Never restart after DRESS or SJS; stop for fusidic acid; contraindicated with ciclosporin.",
+          "EU safety reviews (PSUSA, PRAC) added DRESS, ticagrelor and myasthenia to every label.",
+          "Guidelines push intensity and early ezetimibe; the label sets the limits."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A 66-year-old after ACS is on rosuvastatin 20 mg and is starting ticagrelor.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the label point to?",
+              "options": [
+                "Nothing; there's no interaction",
+                "Stop rosuvastatin permanently and switch class",
+                "Increase to 40 mg",
+                "A 2.6× rise: lower and cap the dose"
+              ],
+              "answer": 3,
+              "explanation": "It entered the label through the ezetimibe/rosuvastatin PSUSA. The 2× rule applies."
+            },
+            {
+              "type": "mcq",
+              "prompt": "He's also at diabetes risk. What does the SmPC advise?",
+              "options": [
+                "Avoid ezetimibe",
+                "Monitor and continue",
+                "Stop the statin",
+                "Switch to atorvastatin"
+              ],
+              "answer": 1,
+              "explanation": "Diabetes risk isn't a reason to stop."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your partner asks how safety knowledge reaches the label, and what guidelines can change.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which route added the myasthenia warning?",
+              "options": [
+                "The ESC 2025 update",
+                "The original approval",
+                "A PRAC class signal on statins",
+                "A rosuvastatin-only PSUSA in 2022"
+              ],
+              "answer": 2,
+              "explanation": "Class signals apply to every statin and combination containing one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Can the ESC 2025 update make the rosuvastatin/ezetimibe tablet a first-line product?",
+              "options": [
+                "Only in Spain",
+                "Yes, automatically",
+                "Yes, once the update is six months old",
+                "No; licences don't change"
+              ],
+              "answer": 3,
+              "explanation": "Follow the guideline with separate tablets, then switch."
+            },
+            {
+              "type": "self-check",
+              "prompt": "In your own words: why is cataract on the watchlist, and what would have to happen for it to enter the label?",
+              "modelAnswer": "Two trials (LODESTAR, HOPE-3) showed more cataract surgery on rosuvastatin, but no regulatory assessment has confirmed a causal signal. It would enter through a PRAC signal assessment or a PSUSA ending with a variation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ros-m",
+      "level": "module",
+      "covers": [
+        "ros-l01-at-a-glance",
+        "ros-l02-how-it-works",
+        "ros-l03-history",
+        "ros-l04-approved-uses",
+        "ros-l05-strengths-products",
+        "ros-l06-how-taken",
+        "ros-l07-reading-a-trial",
+        "ros-l08-pivotal-trials",
+        "ros-l09-combination-trials",
+        "ros-l10-cv-outcomes",
+        "ros-l11-side-effects",
+        "ros-l12-contraindications-interactions",
+        "ros-l13-pharmacovigilance",
+        "ros-l14-esc-guidelines",
+        "ros-l15-recap"
+      ],
+      "summary": {
+        "title": "Rosuvastatin: the whole picture",
+        "points": [
+          "A transporter-sensitive statin: exposure, not metabolism, drives its dosing rules and interactions.",
+          "Three EU uses; prevention is for a first event, framed by JUPITER's post-hoc analyses.",
+          "Evidence: positive without established disease, neutral in heart failure and dialysis, equal to atorvastatin.",
+          "Combinations: substitution only; outcome evidence mainly from RACING and HOPE-3.",
+          "Safety: muscle, diabetes and cataract signals; DRESS and myasthenia came from EU reviews.",
+          "Guidelines push intensity; the label sets the limits."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You're assessing a licensing opportunity: a rosuvastatin/ezetimibe FDC for Spain, marketed to cardiologists after ACS.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which claim would be acceptable in promotion?",
+              "options": [
+                "For patients stable on both separately",
+                "Approved in heart failure",
+                "Proven to cut deaths vs 20 mg alone",
+                "First-line after ACS"
+              ],
+              "answer": 0,
+              "explanation": "The licence is substitution-only; RACING showed non-inferiority on events, not fewer deaths."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which evidence best supports the pairing?",
+              "options": [
+                "CORONA",
+                "JUPITER",
+                "RACING",
+                "METEOR"
+              ],
+              "answer": 2,
+              "explanation": "RACING is the combination outcome trial; note Korean exposure differences."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which safety line from the EU label must be in the training for reps?",
+              "options": [
+                "Cataract as a labelled side effect",
+                "Contraindicated in all over-70s",
+                "Maximum dose 10 mg",
+                "DRESS: never restart"
+              ],
+              "answer": 3,
+              "explanation": "DRESS reached every rosuvastatin label via the ezetimibe/rosuvastatin PSUSA. Cataract isn't labelled."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A patient story ties the module together: 72, of Chinese origin, CrCl 55, after a first heart attack, starting ticagrelor.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the right starting dose?",
+              "options": [
+                "20 mg",
+                "5 mg",
+                "10 mg",
+                "40 mg"
+              ],
+              "answer": 1,
+              "explanation": "Over 70, Asian origin, CrCl below 60 and a ×2.6 interaction all point to 5 mg."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Could she ever take 40 mg?",
+              "options": [
+                "No: two separate 40 mg bars",
+                "Only if she stops ticagrelor",
+                "Yes, under a specialist",
+                "Yes, after 4 weeks"
+              ],
+              "answer": 0,
+              "explanation": "Two separate 40 mg contraindications."
+            },
+            {
+              "type": "mcq",
+              "prompt": "If she isn't at goal, what does the guideline path suggest within the label's limits?",
+              "options": [
+                "Increase to 40 mg under specialist supervision",
+                "Switch to fenofibrate",
+                "Stop ticagrelor",
+                "Add ezetimibe, then a PCSK9 inhibitor"
+              ],
+              "answer": 3,
+              "explanation": "Intensify by adding agents when the statin dose is capped."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -47,7 +47,9 @@
       "version": 7,
       "lessonCount": 15,
       "estimatedMinutes": 135,
-      "accentColor": "#1D9E75"
+      "accentColor": "#1D9E75",
+      "reviews": "reviews/fenofibrate.reviews.json",
+      "reviewsVersion": 1
     },
     {
       "id": "rosuvastatin",
@@ -58,7 +60,9 @@
       "version": 8,
       "lessonCount": 15,
       "estimatedMinutes": 150,
-      "accentColor": "#1D9E75"
+      "accentColor": "#1D9E75",
+      "reviews": "reviews/rosuvastatin.reviews.json",
+      "reviewsVersion": 1
     },
     {
       "id": "sitagliptin",
@@ -69,7 +73,9 @@
       "version": 6,
       "lessonCount": 15,
       "estimatedMinutes": 150,
-      "accentColor": "#1D9E75"
+      "accentColor": "#1D9E75",
+      "reviews": "reviews/sitagliptin.reviews.json",
+      "reviewsVersion": 1
     },
     {
       "id": "dapagliflozin",

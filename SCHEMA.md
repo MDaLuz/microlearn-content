@@ -98,6 +98,8 @@ The app fetches `catalog.json` on every launch (or from cache when offline) to k
 | `lessonCount` | integer | yes | Total number of lessons in the module. Must equal the actual count in the module file. Used to display progress before the module is loaded. |
 | `estimatedMinutes` | integer | yes | Rough total completion time. Used for display only; no enforcement. |
 | `accentColor` | string | yes | Hex color string (`#RRGGBB`). Used as the module accent throughout the UI. |
+| `reviews` | string | no | Path to the module's synthesis-review file, `reviews/<id>.reviews.json` (format: `schemas/reviews.schema.json`; checked by `npm run validate:reviews`). Modules without it simply have no reviews yet. |
+| `reviewsVersion` | integer | with `reviews` | Equals the review file's `version`. Bump it whenever the review file changes; the app then sends edited units back to box 1. |
 
 ---
 

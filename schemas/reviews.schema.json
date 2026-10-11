@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mdaluz.github.io/microlearn-content/schemas/reviews.schema.json",
+  "title": "Compound synthesis reviews (one file per module)",
+  "description": "reviews/<moduleId>.reviews.json. Cross-file rules (lesson ids exist, one unit per lesson/block/module, covers match blocks, recap lessons have no lesson unit, at most one self-check per unit, unique MCQ options, image paths exist) are enforced by scripts/validate-reviews.mjs.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["moduleId", "version", "blocks", "units"],
+  "properties": {
+    "moduleId": { "type": "string", "minLength": 1 },
+    "version": { "type": "integer", "minimum": 1 },
+    "blocks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "lessons"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "title": { "type": "string", "minLength": 1 },
+          "lessons": { "type": "array", "minItems": 3, "maxItems": 5, "items": { "type": "string" }, "uniqueItems": true }
+        }
+      }
+    },
+    "units": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/unit" }
+    }
+  },
+  "$defs": {
+    "unit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "level", "covers", "summary", "exercises"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "level": { "enum": ["lesson", "block", "module"] },
+        "covers": { "type": "array", "minItems": 1, "items": { "type": "string" }, "uniqueItems": true },
+        "summary": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["title", "points"],
+          "properties": {
+            "title": { "type": "string", "minLength": 1 },
+            "points": {
+              "type": "array",
+              "minItems": 3,
+              "maxItems": 6,
+              "items": { "type": "string", "minLength": 1, "description": "At most 30 words (checked by the validator)." }
+            },
+            "image": { "type": "string", "description": "Content-repo path to an existing asset, e.g. assets/gl-m9/critical-path-slips.svg." }
+          }
+        },
+        "exercises": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": { "$ref": "#/$defs/exercise" }
+        }
+      }
+    },
+    "exercise": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "scenario", "questions"],
+      "properties": {
+        "id": { "enum": ["ex1", "ex2"] },
+        "kind": { "enum": ["apply", "connect"] },
+        "scenario": { "type": "string", "minLength": 1 },
+        "questions": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 3,
+          "items": { "oneOf": [{ "$ref": "#/$defs/mcq" }, { "$ref": "#/$defs/selfCheck" }] }
+        }
+      }
+    },
+    "mcq": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "prompt", "options", "answer", "explanation"],
+      "properties": {
+        "type": { "const": "mcq" },
+        "prompt": { "type": "string", "minLength": 1 },
+        "options": { "type": "array", "minItems": 4, "maxItems": 4, "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "answer": { "type": "integer", "minimum": 0, "maximum": 3 },
+        "explanation": { "type": "string", "minLength": 1 }
+      }
+    },
+    "selfCheck": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "prompt", "modelAnswer"],
+      "properties": {
+        "type": { "const": "self-check" },
+        "prompt": { "type": "string", "minLength": 1 },
+        "modelAnswer": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

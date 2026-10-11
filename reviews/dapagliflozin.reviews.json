@@ -1,0 +1,1712 @@
+{
+  "moduleId": "dapagliflozin",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "dap-b1",
+      "title": "The medicine and its story",
+      "lessons": [
+        "dap-l01-at-a-glance",
+        "dap-l02-how-it-works",
+        "dap-l03-history"
+      ]
+    },
+    {
+      "id": "dap-b2",
+      "title": "The label in practice",
+      "lessons": [
+        "dap-l04-approved-uses",
+        "dap-l05-strengths-products",
+        "dap-l06-how-taken"
+      ]
+    },
+    {
+      "id": "dap-b3",
+      "title": "The evidence",
+      "lessons": [
+        "dap-l07-reading-a-trial",
+        "dap-l08-pivotal-trials",
+        "dap-l09-combination-trials",
+        "dap-l10-cv-outcomes"
+      ]
+    },
+    {
+      "id": "dap-b4",
+      "title": "Safety and guidelines",
+      "lessons": [
+        "dap-l11-side-effects",
+        "dap-l12-contraindications-interactions",
+        "dap-l13-pharmacovigilance",
+        "dap-l14-esc-guidelines"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-dap-l01",
+      "level": "lesson",
+      "covers": [
+        "dap-l01-at-a-glance"
+      ],
+      "summary": {
+        "title": "Dapagliflozin at a glance",
+        "points": [
+          "An SGLT2 inhibitor: sugar, salt and water leave in the urine. One 10 mg tablet a day.",
+          "Three EU uses: type 2 diabetes (from age 10), symptomatic chronic heart failure, chronic kidney disease. Only the first needs diabetes.",
+          "HbA1c about −0.5 to −0.7 points added to other medicines; matched glipizide with far less hypoglycaemia.",
+          "Outcomes: DAPA-HF HR 0.74, DELIVER 0.82, DAPA-CKD 9.2% vs 14.5%; DECLARE neutral on heart attack and stroke.",
+          "Watch genital infections, volume depletion, ketoacidosis (even at near-normal sugar), Fournier's gangrene."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A cardiologist wants to start Forxiga in a 68-year-old with heart failure who doesn't have diabetes.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Does the indication allow it?",
+              "options": [
+                "Only if HbA1c is above 6.5% at the start of treatment",
+                "No: every Forxiga indication requires type 2 diabetes first",
+                "Only at 5 mg, since the 10 mg dose is for diabetes",
+                "Yes: the heart-failure use doesn't need diabetes"
+              ],
+              "answer": 3,
+              "explanation": "Heart failure and chronic kidney disease are indications in their own right."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which side effect is most frequent overall?",
+              "options": [
+                "Hypoglycaemia when taken on its own",
+                "Diabetic ketoacidosis at near-normal sugar",
+                "Genital infections",
+                "Fournier's gangrene of the genital area"
+              ],
+              "answer": 2,
+              "explanation": "5.5% vs 0.6% on placebo; mostly mild and treatable."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A partner deck says 'dapagliflozin prevents heart attacks in diabetes'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What did DECLARE show?",
+              "options": [
+                "A significant 7% reduction in heart attacks and strokes",
+                "Non-inferior, but no reduction in heart attack, stroke or CV death",
+                "A benefit only in people with established disease",
+                "A rise in heart attacks offset by fewer strokes"
+              ],
+              "answer": 1,
+              "explanation": "HR 0.93 (95% CI 0.84–1.03). Its clear effect was on heart-failure hospitalisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How was DAPA-CKD's result expressed in absolute terms?",
+              "options": [
+                "5.3 percentage points lower",
+                "14.5% lower, the placebo rate itself",
+                "4 fewer events per 100 patient-years",
+                "39 percentage points lower over the trial"
+              ],
+              "answer": 0,
+              "explanation": "9.2% vs 14.5%: 39% relative, 5.3 points absolute."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-dap-l02",
+      "level": "lesson",
+      "covers": [
+        "dap-l02-how-it-works"
+      ],
+      "summary": {
+        "title": "How it works",
+        "points": [
+          "Blocks SGLT2 in the proximal tubule: about 70 g of sugar a day leaves in the urine at 10 mg.",
+          "Highly selective over SGLT1 and insulin-independent, so little hypoglycaemia on its own.",
+          "Salt and osmotic diuresis lower pressure inside the kidney's filters via tubuloglomerular feedback.",
+          "Glucose effect fades as GFR falls; heart and kidney effects work through salt, water and pressure.",
+          "Cleared by UGT1A9, half-life about 13 hours; few level interactions, but watch diuretics, lithium, insulin and sulphonylureas."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient's GFR falls from 70 to 35 while on dapagliflozin for diabetes and kidney disease.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What happens to the glucose effect?",
+              "options": [
+                "It gets stronger because exposure rises by over a half",
+                "It disappears, so the drug should be stopped at once",
+                "Nothing changes, because the dose is fixed at 10 mg",
+                "It weakens, while the kidney benefit persists"
+              ],
+              "answer": 3,
+              "explanation": "Sugar removal depends on filtration; organ protection works through salt, water and pressure."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Should the dose change?",
+              "options": [
+                "Yes: switch to the combination tablet with metformin",
+                "No: 10 mg regardless of kidney function",
+                "Yes: halve it to 5 mg below GFR 45 to limit exposure",
+                "Yes: double it to 20 mg to restore the glucose effect"
+              ],
+              "answer": 1,
+              "explanation": "Exposure rises a little, but the dose doesn't change."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A colleague asks why dapagliflozin protects the kidney even though it removes less sugar there.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the mechanism proposed in the SmPC?",
+              "options": [
+                "More salt downstream lowers pressure inside the filters",
+                "More sugar in the urine washes toxins out of the kidney",
+                "It increases insulin release, which protects the tubules",
+                "It blocks SGLT1 in the gut, cutting the kidney's workload"
+              ],
+              "answer": 0,
+              "explanation": "Tubuloglomerular feedback narrows the vessel feeding each filter."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why does haematocrit rise by about 2.3 points?",
+              "options": [
+                "It signals a bleeding risk that needs urgent investigation",
+                "It's a lab error caused by sugar in the sample tube",
+                "The blood holds less water",
+                "The bone marrow makes more red cells under SGLT2 blockade"
+              ],
+              "answer": 2,
+              "explanation": "A marker of fluid shift; a marked rise above 55% should still be investigated."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-dap-l03",
+      "level": "lesson",
+      "covers": [
+        "dap-l03-history"
+      ],
+      "summary": {
+        "title": "History",
+        "points": [
+          "Developed by BMS and AstraZeneca; centralised EU licence in November 2012 for type 2 diabetes.",
+          "Class-wide Article 20 reviews: ketoacidosis (2016) and amputations (2017).",
+          "Type 1 diabetes (5 mg, BMI ≥27) approved in 2019; withdrawn by the company in 2021, with no new safety concern.",
+          "DAPA-HF, DAPA-CKD and DELIVER added heart failure and kidney disease (2020–2022), without needing diabetes.",
+          "Children from age 10 added for type 2 diabetes."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A pharmacist asks why a patient's type 1 diabetes prescription for Forxiga 5 mg was stopped in 2021.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's accurate?",
+              "options": [
+                "The company withdrew the indication; there was no new safety concern",
+                "The EMA withdrew it after a new safety signal in type 1 patients",
+                "The FDA's 2019 refusal forced the EU to remove it",
+                "It never had an EU licence, only off-label use"
+              ],
+              "answer": 0,
+              "explanation": "Ketoacidosis had been common in the type 1 trials; possible confusion with wide use was cited."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What happened to the extra safety materials?",
+              "options": [
+                "They became a condition of the kidney indication",
+                "They moved into the type 2 diabetes PIL unchanged",
+                "They were extended to every heart-failure patient",
+                "They were discontinued"
+              ],
+              "answer": 3,
+              "explanation": "Additional risk minimisation measures ended with the indication."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "How did a diabetes drug become a heart-failure and kidney drug?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What drove the change?",
+              "options": [
+                "The 2017 amputation review, which widened its use",
+                "Large outcome trials (DAPA-HF, DAPA-CKD, DELIVER)",
+                "Generic competition that forced a new positioning",
+                "A new formulation that targets the heart directly"
+              ],
+              "answer": 1,
+              "explanation": "Variations assessed 2020–2022 added the indications."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What is an Article 20 referral?",
+              "options": [
+                "An arbitration between member states in mutual recognition",
+                "A national review of generics before they launch",
+                "The EU safety review for centrally authorised medicines",
+                "A company's voluntary withdrawal of an indication"
+              ],
+              "answer": 2,
+              "explanation": "SGLT2 inhibitors had two: ketoacidosis and amputations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-dap-l04",
+      "level": "lesson",
+      "covers": [
+        "dap-l04-approved-uses"
+      ],
+      "summary": {
+        "title": "What it's approved for",
+        "points": [
+          "Type 2 diabetes from age 10, as an adjunct; monotherapy only if metformin isn't tolerated.",
+          "The partner list is open: 'in addition to other medicinal products for type 2 diabetes'.",
+          "Heart failure: symptomatic chronic, no ejection-fraction limit (DAPA-HF ≤40%, DELIVER >40%).",
+          "Chronic kidney disease: broad wording, but no experience without diabetes and without albuminuria.",
+          "Not covered: type 1 diabetes; children with heart failure or kidney disease."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A 60-year-old without diabetes has chronic kidney disease, eGFR 50, no albuminuria.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the SmPC say?",
+              "options": [
+                "Allowed only at 5 mg until albuminuria appears",
+                "Covered by the wording, but without trial experience",
+                "Contraindicated, because albuminuria is a condition of the licence",
+                "Not covered, because the kidney use needs diabetes"
+              ],
+              "answer": 1,
+              "explanation": "DAPA-CKD enrolled people with albuminuria; patients with albuminuria may benefit more."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A patient with type 2 diabetes has a contraindication to metformin but tolerates it. Can Forxiga be used alone?",
+              "options": [
+                "Yes: monotherapy covers contraindications and intolerance",
+                "Yes, but only in children aged 10 to 17",
+                "Not under the wording: monotherapy needs intolerance",
+                "No: Forxiga can never be used alone in diabetes"
+              ],
+              "answer": 2,
+              "explanation": "Januvia's wording covers both; Forxiga's says 'due to intolerance'."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A heart-failure nurse asks whether ejection fraction matters for prescribing.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the indication say?",
+              "options": [
+                "Only 40% or below, as in DAPA-HF",
+                "Only above 40%, as in DELIVER",
+                "Only between 41% and 49%",
+                "No ejection-fraction limit"
+              ],
+              "answer": 3,
+              "explanation": "The two trials together cover the range."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which group has limited experience?",
+              "options": [
+                "NYHA class IV",
+                "Patients with ejection fraction above 60%",
+                "Patients without diabetes",
+                "Patients over 75 with NYHA class II"
+              ],
+              "answer": 0,
+              "explanation": "Infiltrative cardiomyopathy wasn't studied either."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-dap-l05",
+      "level": "lesson",
+      "covers": [
+        "dap-l05-strengths-products"
+      ],
+      "summary": {
+        "title": "Strengths and products",
+        "points": [
+          "Forxiga 5 mg (round, 1427) and 10 mg (diamond, 1428); yellow, contain lactose; calendar blisters.",
+          "MAH AstraZeneca AB (Södertälje); one SmPC for the whole EU.",
+          "Duplicates: Edistride (with Forxiga), Ebymect (with Xigduo).",
+          "Xigduo: 5 mg + metformin, twice daily with a meal. Qtern: with saxagliptin.",
+          "Generics authorised centrally on bioequivalence."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A heart-failure patient is offered Xigduo to 'simplify tablets'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the problem?",
+              "options": [
+                "Xigduo is a generic without a heart-failure licence yet",
+                "Xigduo is licensed for type 2 diabetes only",
+                "Nothing; all dapagliflozin products share the same uses",
+                "Xigduo contains saxagliptin, which is barred in heart failure"
+              ],
+              "answer": 1,
+              "explanation": "Only Forxiga carries the heart-failure and kidney indications."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How is Xigduo taken?",
+              "options": [
+                "Once a day at any time, like Forxiga",
+                "Three times a day before each main meal",
+                "Once a week, as a prolonged-release tablet",
+                "Twice a day with a meal"
+              ],
+              "answer": 3,
+              "explanation": "Each tablet holds 5 mg dapagliflozin plus metformin."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A BD colleague sees 'Edistride' and 'Ebymect' in an EMA list.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What are they?",
+              "options": [
+                "Duplicate licences of Forxiga and Xigduo",
+                "New molecules in the same class",
+                "Products withdrawn after the 2017 review",
+                "Generic copies made by other companies"
+              ],
+              "answer": 0,
+              "explanation": "A second licence for the same product under another name."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which dapagliflozin product pairs it with a DPP-4 inhibitor?",
+              "options": [
+                "Ebymect, the Xigduo duplicate",
+                "Edistride, the Forxiga duplicate",
+                "Qtern",
+                "Xigduo, with metformin"
+              ],
+              "answer": 2,
+              "explanation": "Saxagliptin plus dapagliflozin."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-dap-l06",
+      "level": "lesson",
+      "covers": [
+        "dap-l06-how-taken"
+      ],
+      "summary": {
+        "title": "How it's taken",
+        "points": [
+          "10 mg once daily for all indications, any time, with or without food.",
+          "Missed dose: 12 hours or more to the next dose, take it; less, skip it. Never double.",
+          "No dose change for kidney function; don't start below GFR 25; expect an early eGFR dip.",
+          "Severe liver impairment: start at 5 mg.",
+          "Sick-day rule: pause for major surgery, serious illness or fluid loss; check ketones before restarting."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient on dapagliflozin has gastroenteritis with vomiting and can't drink.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the SmPC recommend?",
+              "options": [
+                "Switch to 5 mg for the duration of the illness",
+                "Continue, but double the water intake to compensate",
+                "Continue as normal; vomiting doesn't affect it",
+                "Pause until the fluid loss is corrected"
+              ],
+              "answer": 3,
+              "explanation": "Watch for ketoacidosis, which can occur at near-normal sugar."
+            },
+            {
+              "type": "mcq",
+              "prompt": "She forgot this morning's dose and the next one is in 8 hours.",
+              "options": [
+                "Take two tablets tomorrow morning",
+                "Skip it",
+                "Take it now, and the next one as usual",
+                "Take half a tablet now and half later"
+              ],
+              "answer": 1,
+              "explanation": "Less than 12 hours to the next dose: skip."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A patient with GFR 22 asks to start dapagliflozin for kidney disease.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the SmPC say?",
+              "options": [
+                "Starting isn't recommended below GFR 25",
+                "It's formally contraindicated below GFR 30",
+                "Start at 5 mg and increase if tolerated",
+                "Start at 10 mg; the dose never changes"
+              ],
+              "answer": 0,
+              "explanation": "Patients already on treatment may continue, as in DAPA-CKD."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Two weeks after starting, eGFR falls by 4 points. What's this?",
+              "options": [
+                "Proof the drug isn't working for this patient",
+                "A lab error caused by sugar in the urine",
+                "The expected early dip",
+                "A sign of kidney injury that requires stopping"
+              ],
+              "answer": 2,
+              "explanation": "In DAPA-CKD, the long-term decline was slower on dapagliflozin."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-dap-l07",
+      "level": "lesson",
+      "covers": [
+        "dap-l07-reading-a-trial"
+      ],
+      "summary": {
+        "title": "Reading a clinical trial",
+        "points": [
+          "Hierarchical testing: once a step fails, later results are only nominal.",
+          "Check which component drives a composite (DECLARE: hospitalisations, not deaths).",
+          "Rate ratios count first and repeat events; win ratios score patient-reported symptoms.",
+          "Trials stopped early may overstate the size of the effect.",
+          "Pooled analyses can show what single trials couldn't (DAPA-HF + DELIVER: CV death HR 0.85)."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "DECLARE reports a renal composite HR of 0.76.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why isn't this a confirmed benefit?",
+              "options": [
+                "Kidney outcomes weren't measured in DECLARE at all",
+                "The confidence interval crosses 1.0 for the kidney outcome",
+                "The trial was stopped early for the kidney result",
+                "Hierarchical testing had already stopped"
+              ],
+              "answer": 3,
+              "explanation": "Superiority on heart attack, stroke or CV death wasn't shown (p = 0.172), so later tests are nominal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "DECLARE's HF-or-death composite was HR 0.83. What drove it?",
+              "options": [
+                "Fewer cardiovascular deaths, with hospitalisations unchanged",
+                "Fewer heart attacks counted inside the composite",
+                "Fewer heart-failure hospitalisations",
+                "An equal share of deaths and hospitalisations"
+              ],
+              "answer": 2,
+              "explanation": "Hospitalisation HR 0.73; CV death HR 0.98."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "DAPA-HF reports a rate ratio of 0.75 and a KCCQ win ratio of 1.18.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the rate ratio add?",
+              "options": [
+                "The benefit holds for repeat events, not just first ones",
+                "It shows symptoms improved, measured by patients",
+                "It replaces the hazard ratio as the primary result",
+                "It shows the drug works faster than the hazard ratio suggests"
+              ],
+              "answer": 0,
+              "explanation": "All events counted: 567 vs 742."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does a win ratio above 1 mean?",
+              "options": [
+                "Patients on placebo did better more often",
+                "Patients on the drug did better more often",
+                "The trial met its non-inferiority margin",
+                "The drug lowered HbA1c more than placebo"
+              ],
+              "answer": 1,
+              "explanation": "Each drug patient is compared with each placebo patient."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-dap-l08",
+      "level": "lesson",
+      "covers": [
+        "dap-l08-pivotal-trials"
+      ],
+      "summary": {
+        "title": "The pivotal trials",
+        "points": [
+          "DECLARE (diabetes): heart attack/stroke/CV death non-inferior, not superior; HF hospitalisation or CV death HR 0.83.",
+          "DAPA-HF (EF ≤40%): HR 0.74 on top of full heart-failure treatment, with or without diabetes.",
+          "DELIVER (EF >40%): HR 0.82; smaller effect, older patients.",
+          "DAPA-CKD: 9.2% vs 14.5%, with or without diabetes; stopped early; also fewer deaths.",
+          "vs glipizide: equal HbA1c, weight −3.2 vs +1.4 kg, hypoglycaemia 3.5% vs 40.8%."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A payer asks whether dapagliflozin should be preferred to cut heart attacks in diabetes.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the evidence-based answer?",
+              "options": [
+                "Only in people with prior heart attacks",
+                "Yes: DECLARE showed a significant 7% reduction",
+                "Yes: DAPA-HF showed fewer heart attacks",
+                "No: DECLARE showed no reduction"
+              ],
+              "answer": 3,
+              "explanation": "Its clear effects are on heart failure and the kidneys."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why does the EU heart-failure indication have no ejection-fraction limit?",
+              "options": [
+                "DAPA-HF and DELIVER together cover the range",
+                "DAPA-HF included preserved ejection fraction too",
+                "The EMA extrapolated from DECLARE's heart-failure data",
+                "DELIVER alone covered every ejection fraction"
+              ],
+              "answer": 0,
+              "explanation": "≤40% and >40%."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Compare the glipizide trial's 52-week and 208-week results.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why treat the 208-week figures with caution?",
+              "options": [
+                "HbA1c was measured with a different method",
+                "Fewer than 40% of patients remained",
+                "The trial switched to a placebo comparator",
+                "The glipizide dose was raised after 52 weeks"
+              ],
+              "answer": 1,
+              "explanation": "Long-term figures rest on a shrinking group."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What makes DAPA-CKD's size of effect uncertain?",
+              "options": [
+                "It measured only albuminuria",
+                "It enrolled only people with diabetes",
+                "It was stopped early for efficacy",
+                "It had no placebo arm"
+              ],
+              "answer": 2,
+              "explanation": "Direction reliable; size possibly overstated."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-dap-l09",
+      "level": "lesson",
+      "covers": [
+        "dap-l09-combination-trials"
+      ],
+      "summary": {
+        "title": "Combination trials",
+        "points": [
+          "Forxiga's partner list is open; licensed single tablets exist only with metformin (Xigduo) and saxagliptin (Qtern).",
+          "No combination licence with a statin, GLP-1 RA or blood-pressure medicine: those are co-administered.",
+          "DURATION-8: with exenatide, −1.98 vs −1.39 and −1.60 points, plus lower weight and BP.",
+          "Key interaction lines: diuretics add up; insulin and sulphonylureas need lower doses; simvastatin change not relevant.",
+          "Statin and GLP-1 RA columns have no outcome data; the BP column does (DAPA-CKD)."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A partner proposes a dapagliflozin + semaglutide single tablet for the EU.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What evidence exists for the pairing?",
+              "options": [
+                "A dedicated SmPC interaction line",
+                "A large outcome trial with semaglutide",
+                "An EU licence for a similar combination",
+                "Only exenatide data (DURATION-8), glucose and weight"
+              ],
+              "answer": 3,
+              "explanation": "Exenatide is one GLP-1 RA; others weren't studied here."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which combination does have licensed EU single tablets?",
+              "options": [
+                "With an ACE inhibitor, for kidney disease",
+                "With exenatide, as a weekly product",
+                "With metformin, and with saxagliptin",
+                "With a statin, for cardiovascular risk"
+              ],
+              "answer": 2,
+              "explanation": "Xigduo/Ebymect and Qtern."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A patient on a loop diuretic starts dapagliflozin.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the main concern?",
+              "options": [
+                "Lower dapagliflozin levels through UGT1A9 induction",
+                "Dehydration and low blood pressure",
+                "Hypoglycaemia through added insulin release",
+                "Higher diuretic blood levels through CYP inhibition"
+              ],
+              "answer": 1,
+              "explanation": "The water-losing effects add up."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why can't you rank the six combination columns?",
+              "options": [
+                "Different trials and starting HbA1c",
+                "They all started at the same HbA1c",
+                "Only the statin column used placebo",
+                "They were compared head-to-head in DECLARE"
+              ],
+              "answer": 0,
+              "explanation": "The biggest falls came from trials starting above 9%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-dap-l10",
+      "level": "lesson",
+      "covers": [
+        "dap-l10-cv-outcomes"
+      ],
+      "summary": {
+        "title": "Heart-attack and stroke outcomes",
+        "points": [
+          "Heart attacks and strokes: no reduction in DECLARE (HR 0.93).",
+          "Heart failure: fewer hospitalisations in DECLARE (0.73), DAPA-HF (0.74) and DELIVER (0.82).",
+          "Kidneys: slower decline in DAPA-CKD; DECLARE's kidney result is nominal.",
+          "Death: lower in DAPA-CKD; pooled heart-failure trials CV death HR 0.85.",
+          "The benefits act on fluid, pressure and kidneys, not on plaque."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Which outcome did dapagliflozin NOT improve?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Choose one.",
+              "options": [
+                "Heart attack, stroke and CV death in type 2 diabetes",
+                "Hospitalisation for heart failure in DECLARE",
+                "The heart-failure composite above 40% ejection fraction",
+                "Decline in kidney function in DAPA-CKD"
+              ],
+              "answer": 0,
+              "explanation": "DECLARE: HR 0.93, not superior."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What did pooling DAPA-HF and DELIVER show?",
+              "options": [
+                "Higher death in preserved ejection fraction",
+                "Fewer strokes than either trial alone",
+                "No difference in any outcome at all",
+                "Lower CV death (HR 0.85)"
+              ],
+              "answer": 3,
+              "explanation": "Neither trial showed it clearly on its own."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A colleague asks why dapagliflozin helps the heart but not heart attacks.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the best explanation?",
+              "options": [
+                "It lowers LDL cholesterol only modestly",
+                "It acts on fluid, pressure and kidneys, not plaque",
+                "It raises blood pressure in some patients",
+                "It was tested only in people without heart disease"
+              ],
+              "answer": 1,
+              "explanation": "Lesson 14 shows how guidelines use this."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How should DECLARE's heart-attack HR of 0.89 be read?",
+              "options": [
+                "A signal of harm",
+                "A confirmed 11% reduction",
+                "Nominal; no claim of fewer heart attacks",
+                "The primary result of the trial"
+              ],
+              "answer": 2,
+              "explanation": "Component results after the hierarchy stopped."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-dap-l11",
+      "level": "lesson",
+      "covers": [
+        "dap-l11-side-effects"
+      ],
+      "summary": {
+        "title": "Side effects",
+        "points": [
+          "Genital infections 5.5% vs 0.6% (women 8.4% vs 1.2%); mostly mild; phimosis reported.",
+          "Ketoacidosis can be euglycaemic (sugar below 14 mmol/L); don't restart without a resolved trigger.",
+          "Fournier's gangrene: very rare, urgent surgery and antibiotics.",
+          "Fluid loss and an early creatinine rise, mostly small and reversible.",
+          "Hypoglycaemia mainly with sulphonylureas or insulin; amputation is an open class question."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient on dapagliflozin has nausea, abdominal pain and fast breathing. Glucose is 11 mmol/L.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What should happen?",
+              "options": [
+                "Assess for ketoacidosis now; stop if suspected",
+                "Double the insulin dose and recheck tomorrow",
+                "Continue and recheck symptoms next week",
+                "Reassure: glucose isn't high enough for ketoacidosis"
+              ],
+              "answer": 0,
+              "explanation": "Euglycaemic ketoacidosis is easy to miss."
+            },
+            {
+              "type": "mcq",
+              "prompt": "After an episode with no clear trigger, can she restart?",
+              "options": [
+                "Yes, if she also takes insulin",
+                "Yes, at the 5 mg dose",
+                "Not recommended",
+                "Yes, after one week off treatment"
+              ],
+              "answer": 2,
+              "explanation": "Restart only if a clear trigger was found and resolved."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A man reports genital pain, redness and fever.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What must be ruled out?",
+              "options": [
+                "A urinary infection treated at home",
+                "An ordinary genital yeast infection only",
+                "Phimosis needing elective circumcision",
+                "Fournier's gangrene"
+              ],
+              "answer": 3,
+              "explanation": "Rare but life-threatening; urgent treatment."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A patient on glimepiride has repeated hypos after starting dapagliflozin.",
+              "options": [
+                "Stop dapagliflozin permanently",
+                "Consider lowering the sulphonylurea dose",
+                "Increase dapagliflozin to 20 mg",
+                "Hypoglycaemia can't be linked to it"
+              ],
+              "answer": 1,
+              "explanation": "6.0% vs 2.1% with glimepiride."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-dap-l12",
+      "level": "lesson",
+      "covers": [
+        "dap-l12-contraindications-interactions"
+      ],
+      "summary": {
+        "title": "Who shouldn't take it, and interactions",
+        "points": [
+          "Only contraindication: allergy.",
+          "'Should not be used': type 1 diabetes, breastfeeding. 'Not recommended': 2nd–3rd trimester, starting below GFR 25.",
+          "Extra care: fluid-loss risk, ketoacidosis risk factors, NYHA IV.",
+          "Effect interactions: diuretics, insulin/sulphonylureas, lithium (levels fall).",
+          "Xigduo inherits metformin's rules, including heart-failure restrictions."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient on lithium is starting dapagliflozin.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the SmPC advise?",
+              "options": [
+                "Nothing; dapagliflozin doesn't affect lithium",
+                "Halve the dapagliflozin dose",
+                "Stop lithium while on dapagliflozin",
+                "Monitor lithium more often; involve its prescriber"
+              ],
+              "answer": 3,
+              "explanation": "Dapagliflozin can lower lithium levels."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which is a formal contraindication?",
+              "options": [
+                "Type 1 diabetes",
+                "Allergy to dapagliflozin or an ingredient",
+                "Breastfeeding",
+                "GFR below 25"
+              ],
+              "answer": 1,
+              "explanation": "The others are 'should not be used' or 'not recommended'."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A heart-failure patient with diabetes is moved from Forxiga + metformin to Xigduo.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the irony?",
+              "options": [
+                "Xigduo carries metformin's heart-failure restrictions",
+                "Nothing; the rules are identical",
+                "Xigduo has a broader heart-failure licence than Forxiga",
+                "Xigduo removes the need for kidney monitoring"
+              ],
+              "answer": 0,
+              "explanation": "Combining two medicines combines both sets of rules."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Who has a higher ketoacidosis risk?",
+              "options": [
+                "Someone on metformin alone",
+                "Someone with high C-peptide",
+                "Someone whose insulin dose was just cut",
+                "Someone with NYHA class II"
+              ],
+              "answer": 2,
+              "explanation": "Low insulin reserve, illness, alcohol and dehydration also raise it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-dap-l13",
+      "level": "lesson",
+      "covers": [
+        "dap-l13-pharmacovigilance"
+      ],
+      "summary": {
+        "title": "Pharmacovigilance",
+        "points": [
+          "2016 class review: atypical ketoacidosis; stop if suspected, pause for surgery, care with risk factors.",
+          "2017 amputation review (from canagliflozin's CANVAS): no increase with dapagliflozin, but a class warning on foot care.",
+          "DAPA-CKD doubled as the post-authorisation safety study for amputation.",
+          "2021 DHPC ended the type 1 indication without a new safety concern.",
+          "Watch: amputation as a class question, and ketoacidosis around surgery."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A partner asks why the Forxiga label warns about amputations if DECLARE showed no increase.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the explanation?",
+              "options": [
+                "DECLARE showed more amputations with dapagliflozin",
+                "A class review couldn't exclude a class effect",
+                "Amputation is a common side effect in the SmPC",
+                "The FDA required the warning for the EU too"
+              ],
+              "answer": 1,
+              "explanation": "Triggered by canagliflozin; data for dapagliflozin were limited."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which study tracked the amputation risk after approval?",
+              "options": [
+                "DAPA-CKD, as a PASS",
+                "DELIVER, as a sub-study",
+                "DECLARE, as the primary outcome",
+                "A separate registry in type 1 diabetes"
+              ],
+              "answer": 0,
+              "explanation": "The kidney trial doubled as a post-authorisation safety study."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Most of dapagliflozin's safety decisions weren't specific to it.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why?",
+              "options": [
+                "Dapagliflozin has never had a safety review",
+                "They came from US labels",
+                "The EU only reviews generics",
+                "They were class reviews of all SGLT2 inhibitors"
+              ],
+              "answer": 3,
+              "explanation": "Ketoacidosis (2016) and amputations (2017)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What should trigger a module refresh?",
+              "options": [
+                "A new US brand name",
+                "A new generic launch",
+                "A PRAC signal on SGLT2 inhibitors",
+                "A competitor price cut"
+              ],
+              "answer": 2,
+              "explanation": "Also new product information or a PSUSA with a label change."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-dap-l14",
+      "level": "lesson",
+      "covers": [
+        "dap-l14-esc-guidelines"
+      ],
+      "summary": {
+        "title": "ESC guidelines",
+        "points": [
+          "HFrEF: one of four pillars with an ACEi/ARB/ARNI, beta-blocker and MRA.",
+          "2023 update: dapagliflozin or empagliflozin Class I A in HFmrEF and HFpEF.",
+          "Type 2 diabetes + CKD: Class I A to reduce HF hospitalisation or CV death.",
+          "Diabetes with ASCVD: SGLT2 inhibitor and/or GLP-1 RA, whatever the sugar.",
+          "Label and guidelines align closely; gap: CKD without diabetes or albuminuria."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient with HFpEF (EF 58%) and diabetes asks what's evidence-based.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which drug class is Class I there?",
+              "options": [
+                "None; it's all Class IIb",
+                "ACE inhibitors only",
+                "SGLT2 inhibitors (plus diuretics for fluid)",
+                "Beta-blockers and MRAs"
+              ],
+              "answer": 2,
+              "explanation": "Other pillars remain IIb above 40%."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which trial supports this?",
+              "options": [
+                "DECLARE",
+                "DAPA-HF",
+                "DURATION-8",
+                "DELIVER"
+              ],
+              "answer": 3,
+              "explanation": "With empagliflozin's EMPEROR-Preserved."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Compare this module's label–guideline fit with sitagliptin's.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's different?",
+              "options": [
+                "Sitagliptin is Class I for heart failure",
+                "Here they align; sitagliptin's label lagged practice",
+                "Both labels lag practice equally",
+                "Dapagliflozin's guideline is weaker"
+              ],
+              "answer": 1,
+              "explanation": "Both drop the ejection-fraction split for SGLT2 inhibitors."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where's the remaining gap?",
+              "options": [
+                "CKD without diabetes and without albuminuria",
+                "Type 2 diabetes in adults",
+                "Heart failure above 60% ejection fraction",
+                "Use with metformin"
+              ],
+              "answer": 0,
+              "explanation": "No trial experience in that group."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-dap-b1",
+      "level": "block",
+      "covers": [
+        "dap-l01-at-a-glance",
+        "dap-l02-how-it-works",
+        "dap-l03-history"
+      ],
+      "summary": {
+        "title": "The medicine and its story",
+        "points": [
+          "A kidney-acting drug whose sugar effect needs filtration, but whose organ benefits don't.",
+          "Three indications today; type 1 came and went (2019–2021).",
+          "Class reviews (2016–2017) shaped today's warnings.",
+          "Outcome trials turned a diabetes drug into a heart and kidney drug."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A new BD colleague asks why dapagliflozin's market is bigger than its diabetes use.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the core reason?",
+              "options": [
+                "It regained a type 1 diabetes licence in 2023",
+                "Heart-failure and kidney uses don't need diabetes",
+                "It became first-line in type 2 diabetes in 2020",
+                "It's licensed for weight loss in obesity"
+              ],
+              "answer": 1,
+              "explanation": "DAPA-HF, DAPA-CKD and DELIVER added indications for anyone with these conditions."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why do its heart and kidney effects persist when GFR falls?",
+              "options": [
+                "Insulin release increases as GFR falls",
+                "The dose is doubled in kidney impairment",
+                "They work through salt, water and pressure",
+                "Exposure falls, which protects the kidney"
+              ],
+              "answer": 2,
+              "explanation": "Only the sugar effect depends on filtration."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What was cited for withdrawing type 1 use?",
+              "options": [
+                "An FDA order",
+                "Lack of any HbA1c benefit",
+                "A new signal of liver injury",
+                "Possible confusion amid wide use; DKA was common in trials"
+              ],
+              "answer": 3,
+              "explanation": "No new safety concern."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Link mechanism to safety.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why can ketoacidosis occur with near-normal sugar?",
+              "options": [
+                "Sugar is lost in urine, masking the usual high glucose",
+                "The drug blocks ketone excretion",
+                "Insulin levels rise sharply",
+                "It stimulates glucagon only at night"
+              ],
+              "answer": 0,
+              "explanation": "So check ketones whatever the glucose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why is hypoglycaemia rare on its own?",
+              "options": [
+                "It's taken with food",
+                "Sugar removal falls as blood sugar normalises",
+                "It blocks SGLT1 in the gut",
+                "It releases glucagon continuously"
+              ],
+              "answer": 1,
+              "explanation": "Insulin-independent and glucose-dependent removal."
+            },
+            {
+              "type": "self-check",
+              "prompt": "In your own words: why does the label keep the 10 mg dose when kidney function falls, but warn the sugar effect fades?",
+              "modelAnswer": "Exposure only rises modestly in kidney impairment, so no dose change is needed for safety. But the sugar removed depends on how much the kidneys filter, so glucose lowering fades below GFR 45, while the heart and kidney benefits continue through salt, water and pressure effects."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-dap-b2",
+      "level": "block",
+      "covers": [
+        "dap-l04-approved-uses",
+        "dap-l05-strengths-products",
+        "dap-l06-how-taken"
+      ],
+      "summary": {
+        "title": "The label in practice",
+        "points": [
+          "Indications: diabetes (monotherapy only if metformin isn't tolerated), heart failure at any EF, CKD.",
+          "Products: Forxiga for all uses; Xigduo and Qtern for diabetes only.",
+          "10 mg daily; no kidney dose change; don't start below GFR 25; 5 mg start in severe liver impairment.",
+          "Sick-day rule and the 12-hour missed-dose rule."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A 74-year-old with HFrEF and CKD (GFR 28), no diabetes, on a loop diuretic.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Can dapagliflozin be started?",
+              "options": [
+                "No: heart failure without diabetes isn't covered",
+                "Yes, but at 5 mg because of age",
+                "Yes: 10 mg, GFR is above 25",
+                "No: GFR must be above 45 to start"
+              ],
+              "answer": 2,
+              "explanation": "Both heart failure and CKD indications apply."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What extra care applies?",
+              "options": [
+                "Fluid loss with the diuretic",
+                "Hypoglycaemia from the diuretic",
+                "Higher lithium levels",
+                "Lactose content of Xigduo"
+              ],
+              "answer": 0,
+              "explanation": "Older age and diuretics raise the risk."
+            },
+            {
+              "type": "mcq",
+              "prompt": "He's admitted for surgery. What's the rule?",
+              "options": [
+                "Switch to Xigduo in hospital",
+                "Continue throughout surgery",
+                "Double the dose after surgery",
+                "Pause; restart when ketones are normal and he's stable"
+              ],
+              "answer": 3,
+              "explanation": "Sick-day rule."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A diabetes patient on Forxiga + metformin wants one tablet.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which product and schedule?",
+              "options": [
+                "Edistride, twice daily",
+                "Qtern, once daily",
+                "Xigduo, twice daily with a meal",
+                "Forxiga 20 mg, once daily"
+              ],
+              "answer": 2,
+              "explanation": "5 mg dapagliflozin + metformin per tablet."
+            },
+            {
+              "type": "mcq",
+              "prompt": "If she later develops heart failure, which product carries that indication?",
+              "options": [
+                "Qtern",
+                "Xigduo",
+                "Ebymect",
+                "Forxiga"
+              ],
+              "answer": 3,
+              "explanation": "The combinations are diabetes only."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does 'monotherapy due to intolerance' exclude?",
+              "options": [
+                "Using it alone when metformin is merely contraindicated",
+                "Using it in heart failure",
+                "Using it with insulin",
+                "Using it in children"
+              ],
+              "answer": 0,
+              "explanation": "Forxiga's wording is narrower than Januvia's."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-dap-b3",
+      "level": "block",
+      "covers": [
+        "dap-l07-reading-a-trial",
+        "dap-l08-pivotal-trials",
+        "dap-l09-combination-trials",
+        "dap-l10-cv-outcomes"
+      ],
+      "summary": {
+        "title": "The evidence",
+        "points": [
+          "Read hierarchy, components, repeat events and early stopping before trusting a number.",
+          "Neutral on heart attack and stroke; consistent on heart failure and kidneys.",
+          "Combinations: licensed with metformin and saxagliptin; GLP-1 RA and statin columns lack outcomes.",
+          "Death benefit: DAPA-CKD, and pooled heart-failure trials."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A competitor claims 'SGLT2 inhibitors cut deaths in diabetes'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What did DECLARE show for death from any cause?",
+              "options": [
+                "A significant 7% reduction",
+                "6.2% vs 6.6%, nominal and not significant",
+                "An increase in deaths",
+                "No data on death"
+              ],
+              "answer": 1,
+              "explanation": "Hierarchy had stopped; death benefit is shown in DAPA-CKD and pooled HF trials."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where does a confirmed death benefit come from?",
+              "options": [
+                "DURATION-8",
+                "DAPA-CKD, and pooled DAPA-HF + DELIVER for CV death",
+                "DECLARE alone",
+                "The glipizide trial"
+              ],
+              "answer": 1,
+              "explanation": "Pooled CV death HR 0.85."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why read DAPA-CKD's size with caution?",
+              "options": [
+                "No placebo arm",
+                "Only diabetic patients",
+                "Too small to detect anything",
+                "Stopped early"
+              ],
+              "answer": 3,
+              "explanation": "Direction reliable."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A partner wants an SGLT2 + GLP-1 RA fixed combination with a heart claim.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What can the evidence support?",
+              "options": [
+                "Additive glucose, weight and BP effects only",
+                "A licensed EU combination already",
+                "Fewer heart attacks than either alone",
+                "A confirmed kidney benefit for the pair"
+              ],
+              "answer": 0,
+              "explanation": "DURATION-8 didn't measure outcomes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which tool shows benefit continues after the first event?",
+              "options": [
+                "A non-inferiority margin",
+                "A p-value",
+                "A rate ratio",
+                "A win ratio"
+              ],
+              "answer": 2,
+              "explanation": "DAPA-HF: 0.75."
+            },
+            {
+              "type": "self-check",
+              "prompt": "In your own words: what does it mean that DECLARE's kidney results are 'nominal'?",
+              "modelAnswer": "The trial tested its endpoints in a fixed order. Because superiority on heart attack, stroke or CV death wasn't shown, testing formally stopped, so later results like the kidney composite are calculated but not protected against chance. They're supportive, not confirmed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-dap-b4",
+      "level": "block",
+      "covers": [
+        "dap-l11-side-effects",
+        "dap-l12-contraindications-interactions",
+        "dap-l13-pharmacovigilance",
+        "dap-l14-esc-guidelines"
+      ],
+      "summary": {
+        "title": "Safety and guidelines",
+        "points": [
+          "Genital infections, euglycaemic ketoacidosis, Fournier's gangrene, fluid loss, early eGFR dip.",
+          "Only contraindication is allergy; type 1 diabetes and breastfeeding should not be used.",
+          "Class reviews: ketoacidosis 2016, amputations 2017; DAPA-CKD as PASS.",
+          "ESC: one of four pillars in HFrEF; Class I A above 40% EF and in diabetes with CKD."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A 70-year-old with HFpEF on a diuretic, insulin and lithium is starting dapagliflozin.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which interaction needs a level check?",
+              "options": [
+                "The diuretic",
+                "Lithium",
+                "None of them",
+                "Insulin"
+              ],
+              "answer": 1,
+              "explanation": "Dapagliflozin can lower lithium levels."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which needs a dose review?",
+              "options": [
+                "Dapagliflozin, to 5 mg",
+                "The diuretic, to raise its effect",
+                "Lithium, to avoid toxicity",
+                "Insulin, to avoid hypoglycaemia"
+              ],
+              "answer": 3,
+              "explanation": "Consider a lower insulin dose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does ESC 2023 say about SGLT2 inhibitors in HFpEF?",
+              "options": [
+                "No recommendation",
+                "Class III, not recommended",
+                "Class I A",
+                "Class IIb, like the other pillars"
+              ],
+              "answer": 2,
+              "explanation": "Along with diuretics for fluid."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Trace how a class safety signal reached the label.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Where did the amputation warning start?",
+              "options": [
+                "Canagliflozin's CANVAS trial",
+                "A type 1 trial",
+                "DECLARE",
+                "DAPA-HF"
+              ],
+              "answer": 0,
+              "explanation": "Then a class-wide Article 20 review."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What did the 2016 ketoacidosis review add?",
+              "options": [
+                "Routine ketone tests every month",
+                "A 5 mg maximum dose",
+                "Stop if suspected; pause for surgery; care with risk factors",
+                "A contraindication in type 2 diabetes"
+              ],
+              "answer": 2,
+              "explanation": "All are in today's SmPC."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A patient asks if a genital infection means stopping for good.",
+              "options": [
+                "Only for women",
+                "Usually not: most are mild and treatable",
+                "Only after two episodes",
+                "Yes, always"
+              ],
+              "answer": 1,
+              "explanation": "They rarely led to stopping in trials."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-dap-m",
+      "level": "module",
+      "covers": [
+        "dap-l01-at-a-glance",
+        "dap-l02-how-it-works",
+        "dap-l03-history",
+        "dap-l04-approved-uses",
+        "dap-l05-strengths-products",
+        "dap-l06-how-taken",
+        "dap-l07-reading-a-trial",
+        "dap-l08-pivotal-trials",
+        "dap-l09-combination-trials",
+        "dap-l10-cv-outcomes",
+        "dap-l11-side-effects",
+        "dap-l12-contraindications-interactions",
+        "dap-l13-pharmacovigilance",
+        "dap-l14-esc-guidelines",
+        "dap-l15-recap"
+      ],
+      "summary": {
+        "title": "Dapagliflozin: the whole picture",
+        "points": [
+          "An SGLT2 inhibitor whose organ benefits don't depend on blood sugar.",
+          "Diabetes, heart failure at any EF, and CKD; type 1 withdrawn in 2021.",
+          "Neutral on heart attacks; consistent on heart failure, kidneys and some deaths.",
+          "10 mg for all uses; don't start below GFR 25; sick-day pauses.",
+          "Safety: genital infections, euglycaemic ketoacidosis, Fournier's, fluid loss; class reviews.",
+          "Guidelines: a pillar of heart-failure care, aligned with the label."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You're evaluating a dapagliflozin generic launch across the EU.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which route do EU generics use?",
+              "options": [
+                "Central authorisation on bioequivalence",
+                "National outcome trials in each country",
+                "No authorisation for SGLT2 generics",
+                "Duplicate licences from AstraZeneca"
+              ],
+              "answer": 0,
+              "explanation": "Dapagliflozin Viatris, for example."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which claim could a generic NOT make?",
+              "options": [
+                "Slows kidney decline in CKD",
+                "Reduces heart-failure hospitalisation",
+                "One tablet a day",
+                "Reduces heart attacks and strokes"
+              ],
+              "answer": 3,
+              "explanation": "DECLARE showed no reduction."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which indications does a Forxiga generic typically share?",
+              "options": [
+                "Only type 1 diabetes",
+                "Those of Forxiga, the reference product",
+                "Only type 2 diabetes",
+                "Only heart failure"
+              ],
+              "answer": 1,
+              "explanation": "Subject to any patent or exclusivity carve-outs."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A patient story: 72, HFrEF, type 2 diabetes, GFR 35, on insulin, a loop diuretic and lithium.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What dose of dapagliflozin?",
+              "options": [
+                "20 mg to restore glucose effect",
+                "5 mg because of GFR",
+                "10 mg once daily",
+                "Not allowed below GFR 45"
+              ],
+              "answer": 2,
+              "explanation": "No kidney dose change; start allowed above 25."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What will be weaker for her?",
+              "options": [
+                "The kidney benefit",
+                "The heart-failure benefit",
+                "The genital infection risk",
+                "The glucose-lowering effect"
+              ],
+              "answer": 3,
+              "explanation": "Below GFR 45, sugar removal falls."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which three things need watching?",
+              "options": [
+                "Lithium levels, insulin dose and fluid status",
+                "Nothing beyond HbA1c",
+                "Liver enzymes, platelets and QT",
+                "CK, LDL and INR"
+              ],
+              "answer": 0,
+              "explanation": "Effect interactions matter most."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1712 @@
+{
+  "moduleId": "bempedoic-acid",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "bem-b1",
+      "title": "The medicine and its story",
+      "lessons": [
+        "bem-l01-at-a-glance",
+        "bem-l02-how-it-works",
+        "bem-l03-history"
+      ]
+    },
+    {
+      "id": "bem-b2",
+      "title": "The label in practice",
+      "lessons": [
+        "bem-l04-approved-uses",
+        "bem-l05-strengths-products",
+        "bem-l06-how-taken"
+      ]
+    },
+    {
+      "id": "bem-b3",
+      "title": "The evidence",
+      "lessons": [
+        "bem-l07-reading-a-trial",
+        "bem-l08-pivotal-trials",
+        "bem-l09-combination-trials",
+        "bem-l10-cv-outcomes"
+      ]
+    },
+    {
+      "id": "bem-b4",
+      "title": "Safety and guidelines",
+      "lessons": [
+        "bem-l11-side-effects",
+        "bem-l12-contraindications-interactions",
+        "bem-l13-pharmacovigilance",
+        "bem-l14-esc-guidelines"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-bem-l01",
+      "level": "lesson",
+      "covers": [
+        "bem-l01-at-a-glance"
+      ],
+      "summary": {
+        "title": "Bempedoic acid at a glance",
+        "points": [
+          "An ACL inhibitor: blocks cholesterol synthesis one step before statins; a prodrug activated in the liver.",
+          "Nilemdo (alone) and Nustendi (with ezetimibe), both Daiichi Sankyo Europe; one tablet a day.",
+          "Two indications: high cholesterol (with a statin, or without one if not possible) and CV risk reduction.",
+          "LDL −15–17% on a statin, −23–24% without; CLEAR Outcomes MACE 11.7% vs 13.3% (HR 0.87).",
+          "Watch uric acid and gout, small haemoglobin dips, creatinine rise, statin levels, pregnancy."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient who tolerates atorvastatin 80 mg well asks to switch to bempedoic acid instead.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Does the label support replacing the statin?",
+              "options": [
+                "Yes: it's an equal alternative to any statin",
+                "No: there's no route for patients who can take a statin",
+                "Yes, if LDL is already at goal on the statin and he prefers fewer side effects",
+                "Only as Nustendi, which includes ezetimibe"
+              ],
+              "answer": 1,
+              "explanation": "It's added to the maximum tolerated statin, or used without one only if a statin can't be taken."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What did CLEAR Outcomes reduce?",
+              "options": [
+                "Heart attacks and procedures",
+                "Deaths from any cause by about 13% overall",
+                "Cardiovascular deaths and strokes, not heart attacks",
+                "LDL only; it didn't measure clinical events"
+              ],
+              "answer": 0,
+              "explanation": "Stroke and CV death didn't change significantly."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Why does creatinine rise on bempedoic acid?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Choose the mechanism.",
+              "options": [
+                "It breaks down into creatinine in the liver",
+                "It damages the kidney's filtering units over time",
+                "It blocks OAT2 in the kidney",
+                "It causes dehydration through extra urine"
+              ],
+              "answer": 2,
+              "explanation": "The same transporter explains the uric acid rise."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which statin dose is contraindicated with it?",
+              "options": [
+                "Any atorvastatin dose above 40 mg",
+                "Rosuvastatin above 20 mg in Asian patients",
+                "Pravastatin at any dose, because of OATP",
+                "Simvastatin above 40 mg"
+              ],
+              "answer": 3,
+              "explanation": "Bempedoic acid roughly doubles simvastatin acid levels."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-bem-l02",
+      "level": "lesson",
+      "covers": [
+        "bem-l02-how-it-works"
+      ],
+      "summary": {
+        "title": "How it works",
+        "points": [
+          "Blocks ATP citrate lyase upstream of HMG-CoA reductase; the liver adds LDL receptors.",
+          "Activated by ACSVL1, mainly in the liver; the SmPC makes no muscle-benefit claim.",
+          "Also lowers apoB, non-HDL and CRP; HbA1c slightly lower in diabetes.",
+          "Cleared by glucuronidation (UGT2B7); no CYP effects; half-life about 19 hours.",
+          "Weak OATP1B1/1B3 blocking raises statins; OAT2 blocking raises creatinine and uric acid."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient on simvastatin 20 mg starts bempedoic acid.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What happens to simvastatin acid levels?",
+              "options": [
+                "They rise tenfold, so simvastatin must stop",
+                "They roughly double",
+                "They don't change, because CYP isn't involved",
+                "They fall by about half through UGT2B7"
+              ],
+              "answer": 1,
+              "explanation": "Weak OATP1B1/1B3 blocking."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What should be monitored?",
+              "options": [
+                "Uric acid only, since the statin isn't affected",
+                "Blood sugar, because statins and bempedoic acid both raise it",
+                "Kidney function weekly for the first month",
+                "Statin side effects, especially muscle symptoms"
+              ],
+              "answer": 3,
+              "explanation": "Higher statin exposure raises muscle risk."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A colleague says bempedoic acid 'avoids muscle pain because it isn't active in muscle'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the SmPC actually say?",
+              "options": [
+                "Only that ACSVL1 is mainly in the liver",
+                "That it causes no muscle side effects at all",
+                "That it's contraindicated in muscle disease",
+                "That it's proven safer for muscles than statins"
+              ],
+              "answer": 0,
+              "explanation": "No muscle-benefit claim is made."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why is the LDL effect smaller on top of a statin?",
+              "options": [
+                "The dose is lower when combined with a statin",
+                "Statins block the activation of bempedoic acid in the liver",
+                "The statin already acts on the same pathway",
+                "Statins speed up its clearance via CYP3A4"
+              ],
+              "answer": 2,
+              "explanation": "And patients on statins start from a lower LDL."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-bem-l03",
+      "level": "lesson",
+      "covers": [
+        "bem-l03-history"
+      ],
+      "summary": {
+        "title": "History",
+        "points": [
+          "First ACL inhibitor (ETC-1002); tablets still debossed 'ESP'.",
+          "Centralised EU approval in 2020 on four 12-week LDL trials: LDL as a surrogate.",
+          "Daiichi Sankyo holds the licence; partners include Zentiva and Organon.",
+          "CLEAR Outcomes led to a CV risk-reduction indication in 2024.",
+          "Renewed November 2024 with unlimited validity; paediatric studies deferred."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A distributor asks what Nilemdo's original approval rested on.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's correct?",
+              "options": [
+                "CLEAR Outcomes, which was completed before 2020",
+                "A head-to-head trial against atorvastatin",
+                "Data from the US approval only",
+                "Four 12-week trials measuring LDL"
+              ],
+              "answer": 3,
+              "explanation": "No outcome data at first."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What changed in 2024?",
+              "options": [
+                "A CV risk-reduction indication was added",
+                "The dose was raised to 360 mg",
+                "Children aged 4 and over were added after the paediatric plan was completed",
+                "The licence was suspended for gout"
+              ],
+              "answer": 0,
+              "explanation": "Via variation II/31, based on CLEAR Outcomes."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Why do Zentiva and Organon appear in the PIL?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Choose the explanation.",
+              "options": [
+                "They hold their own national licences under the decentralised procedure",
+                "They own the patent in their countries",
+                "They're local partners for Daiichi Sankyo",
+                "They manufacture all EU batches"
+              ],
+              "answer": 2,
+              "explanation": "A common way to extend reach in a fragmented market."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does 'unlimited validity' after renewal mean?",
+              "options": [
+                "Safety monitoring stops",
+                "No further five-year renewal is needed",
+                "The product can never be withdrawn, whatever new safety data appear",
+                "The patent is extended indefinitely"
+              ],
+              "answer": 1,
+              "explanation": "Monitoring continues."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-bem-l04",
+      "level": "lesson",
+      "covers": [
+        "bem-l04-approved-uses"
+      ],
+      "summary": {
+        "title": "What it's approved for",
+        "points": [
+          "Adults only, as an adjunct to diet; primary hypercholesterolaemia (incl. HeFH) or mixed dyslipidaemia.",
+          "Nilemdo: after the maximum tolerated statin, or without a statin if intolerant or contraindicated.",
+          "Nustendi: after statin plus ezetimibe, or ezetimibe alone; or replacing the two tablets.",
+          "CV indication since 2024, tied to LDL lowering; secondary and primary prevention.",
+          "Nustendi's label admits primary-prevention evidence covers lipids only."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A statin-intolerant patient hasn't tried ezetimibe yet.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which product fits the label wording?",
+              "options": [
+                "A statin at a lower dose, as the only route",
+                "Nustendi, straight away as the first step",
+                "Nilemdo",
+                "Neither, until ezetimibe has been tried for a year"
+              ],
+              "answer": 2,
+              "explanation": "Nustendi comes after ezetimibe alone isn't enough."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Later she's on Nilemdo plus ezetimibe as two tablets. Can she switch to Nustendi?",
+              "options": [
+                "No: Nustendi is only for patients on a statin",
+                "Only after a new LDL trial in her group",
+                "No: switching requires a washout period",
+                "Yes, as a replacement for the two tablets"
+              ],
+              "answer": 3,
+              "explanation": "Substitution is one of Nustendi's routes."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A medical team wants to promote Nustendi for primary prevention of heart attacks.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the Nustendi SmPC say?",
+              "options": [
+                "Evidence in high-risk patients covers only lipid effects",
+                "It's contraindicated without established disease",
+                "CLEAR Outcomes proved a 30% benefit in primary prevention, which the label states",
+                "The indication excludes primary prevention"
+              ],
+              "answer": 0,
+              "explanation": "The ezetimibe subgroup HR was 0.94 (0.74–1.20)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which group isn't in either wording?",
+              "options": [
+                "Heterozygous familial hypercholesterolaemia",
+                "Homozygous familial hypercholesterolaemia",
+                "Statin-intolerant adults",
+                "Mixed dyslipidaemia"
+              ],
+              "answer": 1,
+              "explanation": "Children aren't covered either."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-bem-l05",
+      "level": "lesson",
+      "covers": [
+        "bem-l05-strengths-products"
+      ],
+      "summary": {
+        "title": "Strengths and products",
+        "points": [
+          "Nilemdo 180 mg: white, '180'/'ESP'; Nustendi 180/10 mg: blue, '818'/'ESP'.",
+          "Both contain lactose; Nustendi must be kept in the original pack (moisture).",
+          "MAH Daiichi Sankyo Europe; Zentiva and Organon are local representatives in some countries.",
+          "Nustendi was authorised five days before Nilemdo (27 March vs 1 April 2020).",
+          "One Nustendi tablet behaves like two separate tablets."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A pharmacy repacks Nustendi into a pill organiser.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the problem?",
+              "options": [
+                "It must be refrigerated once removed from the blister and used within a week",
+                "It must stay in the original pack, away from moisture",
+                "It loses its ezetimibe content in light",
+                "Nothing, since it needs no special storage"
+              ],
+              "answer": 1,
+              "explanation": "Its blisters include an extra moisture barrier."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A Nordic patient on Nustendi needs the local contact. Who?",
+              "options": [
+                "Organon, as for Nilemdo in the Nordics",
+                "The national medicines agency",
+                "Daiichi Sankyo Europe directly",
+                "Zentiva, as in the Baltic states"
+              ],
+              "answer": 2,
+              "explanation": "The Nordic split differs by product."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Why can Nustendi replace two separate tablets?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What did the SmPC show?",
+              "options": [
+                "Total exposure was similar",
+                "Bempedoic acid exposure doubled",
+                "Peak ezetimibe levels were 50% higher",
+                "It was tested in an outcome trial"
+              ],
+              "answer": 0,
+              "explanation": "Ezetimibe peaks were 13% lower, judged not clinically significant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which product was authorised first?",
+              "options": [
+                "Nilemdo",
+                "Both on the same day",
+                "Neither, both in 2024",
+                "Nustendi"
+              ],
+              "answer": 3,
+              "explanation": "Same CHMP opinion date, five days apart."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-bem-l06",
+      "level": "lesson",
+      "covers": [
+        "bem-l06-how-taken"
+      ],
+      "summary": {
+        "title": "How it's taken",
+        "points": [
+          "One tablet a day, with or without food, swallowed whole.",
+          "Simvastatin: 20 mg normally, 40 mg in severe high-risk cases, above 40 mg contraindicated.",
+          "Nustendi: 2 h before or 4 h after a bile acid sequestrant; not recommended in moderate or severe liver impairment.",
+          "Missed dose: same day, take it; next day, skip it.",
+          "Contraindicated in pregnancy; SmPC allows breastfeeding to be considered, unlike older EMA overviews."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient takes simvastatin 80 mg and needs more LDL lowering.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Can Nilemdo be added?",
+              "options": [
+                "Yes, without any change to simvastatin",
+                "Yes, if CK is checked weekly",
+                "Not at that dose",
+                "Yes, but only as Nustendi"
+              ],
+              "answer": 2,
+              "explanation": "Above 40 mg is contraindicated; reduce (normally 20 mg) or switch statin."
+            },
+            {
+              "type": "mcq",
+              "prompt": "She also takes cholestyramine and wants Nustendi.",
+              "options": [
+                "Take Nustendi 2 h before or 4 h after it",
+                "Take Nustendi only at night",
+                "Cholestyramine is contraindicated with it",
+                "Take them together for convenience"
+              ],
+              "answer": 0,
+              "explanation": "Cholestyramine cuts ezetimibe by about 55%."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A patient with Child-Pugh B liver impairment needs further LDL lowering.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do the labels say?",
+              "options": [
+                "Both are contraindicated",
+                "Both are fine without any dose change, since the liver isn't involved",
+                "Nustendi is preferred",
+                "Nilemdo is fine; Nustendi isn't recommended"
+              ],
+              "answer": 3,
+              "explanation": "Ezetimibe exposure rises about fourfold in moderate impairment."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A breastfeeding mother asks about bempedoic acid. Which source wins?",
+              "options": [
+                "The EMA overview: must not be used while breastfeeding",
+                "The SmPC: breastfeeding may be considered",
+                "The US label",
+                "The PIL only"
+              ],
+              "answer": 1,
+              "explanation": "Relative infant dose about 0.5%; the overviews look outdated."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-bem-l07",
+      "level": "lesson",
+      "covers": [
+        "bem-l07-reading-a-trial"
+      ],
+      "summary": {
+        "title": "Reading a clinical trial",
+        "points": [
+          "LDL effect = placebo-corrected difference (Harmony: −16.5% vs +1.6%, about 18 points).",
+          "2:1 randomisation gives more safety data, but a smaller, noisier placebo group.",
+          "'Statin-intolerant' and 'maximum tolerated' had different operational definitions per trial.",
+          "CLEAR Combo's SmPC figures come from a sensitivity analysis excluding three sites.",
+          "CLEAR Outcomes was event-driven; check which components drive MACE-4."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "CLEAR Outcomes' ezetimibe subgroup: HR 0.94 (95% CI 0.74–1.20).",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What can you say?",
+              "options": [
+                "Compatible with benefit or no effect",
+                "Proven harm with ezetimibe",
+                "Not a prespecified subgroup",
+                "Proven benefit in ezetimibe users, because it's prespecified"
+              ],
+              "answer": 0,
+              "explanation": "'Consistent with the overall result' isn't 'proven in this subgroup'."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why does a 2:1 ratio matter for reading the result?",
+              "options": [
+                "It doubles the effect size",
+                "It makes the trial open-label",
+                "The placebo arm is smaller and less precise",
+                "The drug arm becomes less reliable because it is larger"
+              ],
+              "answer": 2,
+              "explanation": "Combo's placebo arm had only 41 patients."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A slide says 'proven in statin-intolerant patients' without saying what that meant.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why does the definition matter?",
+              "options": [
+                "It meant intolerance to ezetimibe",
+                "It ranged from no statin to very low doses",
+                "It always meant no statin at all for at least a full year",
+                "It was identical in every trial"
+              ],
+              "answer": 1,
+              "explanation": "Tranquility, Serenity and Outcomes each defined it differently."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What made CLEAR Combo's result unusual?",
+              "options": [
+                "It used a 1:1 ratio",
+                "It ran for five years",
+                "It had no placebo arm, only active comparators",
+                "Three sites were dropped for non-compliance"
+              ],
+              "answer": 3,
+              "explanation": "The SmPC states the reason openly."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-bem-l08",
+      "level": "lesson",
+      "covers": [
+        "bem-l08-pivotal-trials"
+      ],
+      "summary": {
+        "title": "The pivotal trials",
+        "points": [
+          "On a statin: Harmony and Wisdom, about 17–18 points LDL vs placebo.",
+          "Statin-intolerant: Serenity about 21 points; Tranquility on ezetimibe about 28.5.",
+          "Combo: Nustendi −36%, roughly the sum of its parts; 38 points vs placebo.",
+          "Outcomes: 13,970 statin-intolerant, MACE-4 HR 0.87; heart attacks and procedures fell.",
+          "Different trials and baselines: a range, not a ranking."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A partner claims 'bempedoic acid lowers LDL by 28%'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the fair correction?",
+              "options": [
+                "That's on ezetimibe in statin-intolerant patients",
+                "That's the CLEAR Outcomes figure",
+                "That's the figure on top of maximum tolerated statins in Harmony",
+                "That's the Nustendi combination"
+              ],
+              "answer": 0,
+              "explanation": "On a statin it's about 17–18 points."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which trial is the main safety source on a statin background?",
+              "options": [
+                "CLEAR Serenity",
+                "CLEAR Harmony",
+                "CLEAR Combo",
+                "CLEAR Tranquility"
+              ],
+              "answer": 1,
+              "explanation": "Largest LDL trial, a full year."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Why is the LDL effect smaller in Harmony than in Serenity?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Choose the best answer.",
+              "options": [
+                "Harmony used a lower dose of 90 mg instead of 180 mg",
+                "Bempedoic acid doesn't work with statins",
+                "Serenity lasted three years",
+                "Statin background and lower starting LDL"
+              ],
+              "answer": 3,
+              "explanation": "Different designs too, so not head-to-head."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where is the only direct comparison of the parts?",
+              "options": [
+                "Across Harmony and Serenity",
+                "In the evolocumab trial",
+                "Inside CLEAR Combo",
+                "In CLEAR Outcomes"
+              ],
+              "answer": 2,
+              "explanation": "All arms randomised in one trial."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-bem-l09",
+      "level": "lesson",
+      "covers": [
+        "bem-l09-combination-trials"
+      ],
+      "summary": {
+        "title": "Combination trials",
+        "points": [
+          "Licences: statin; 'other lipid-lowering therapies'; ezetimibe (Nustendi). PCSK9 not named.",
+          "SmPC lines: statins raised (simvastatin capped); ezetimibe ×1.6, not meaningful; fimasartan; no SGLT2/GLP-1 lines.",
+          "With evolocumab: one phase 2 trial, LDL −30% more at 2 months.",
+          "Triple PCSK9 + ezetimibe trial under way; triple FDC with atorvastatin only in a press release.",
+          "BP, SGLT2 and GLP-1 columns are empty; closest is the CLEAR Outcomes diabetes analysis."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A partner wants to market bempedoic acid on top of PCSK9 inhibitors.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the evidence?",
+              "options": [
+                "A large outcome trial with evolocumab",
+                "One small 2-month phase 2 trial",
+                "An EU licence naming PCSK9 inhibitors",
+                "CLEAR Harmony, which included PCSK9 users"
+              ],
+              "answer": 1,
+              "explanation": "Harmony excluded PCSK9 users."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A 64% LDL fall for a triple tablet comes from where?",
+              "options": [
+                "A peer-reviewed phase 3 trial",
+                "The Nustendi SmPC",
+                "A company press release",
+                "CLEAR Outcomes"
+              ],
+              "answer": 2,
+              "explanation": "No EU triple tablet exists."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "What can you say about bempedoic acid with an SGLT2 inhibitor?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Choose the accurate statement.",
+              "options": [
+                "It's contraindicated",
+                "Nustendi's label covers it under 'other lipid-lowering therapies'",
+                "A trial showed extra benefit",
+                "No dedicated trial or SmPC line exists"
+              ],
+              "answer": 3,
+              "explanation": "The closest evidence is the diabetes analysis, not a combination trial."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What did CLEAR Outcomes show in people with diabetes?",
+              "options": [
+                "Benefit held, and no more new diabetes",
+                "Benefit lost in diabetes",
+                "More new diabetes, as with statins, but benefit held overall",
+                "Higher HbA1c"
+              ],
+              "answer": 0,
+              "explanation": "HR 0.83; new diabetes 11.1% vs 11.5%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-bem-l10",
+      "level": "lesson",
+      "covers": [
+        "bem-l10-cv-outcomes"
+      ],
+      "summary": {
+        "title": "Heart-attack and stroke outcomes",
+        "points": [
+          "Non-fatal MI HR 0.73; revascularisation HR 0.81.",
+          "Stroke and CV death unchanged; no significant effect on death from any cause.",
+          "NNT about 63 over about 40 months for MACE-4.",
+          "The effect size fits the LDL hypothesis (about 17% predicted vs 13% seen).",
+          "Primary-prevention subgroup figures are hypotheses; the SmPC doesn't report them."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A primary-prevention analysis reports 39% fewer CV deaths.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How should you weigh it?",
+              "options": [
+                "As proof of fewer CV deaths",
+                "As evidence of harm",
+                "As a subgroup hypothesis",
+                "As the basis of the EU indication"
+              ],
+              "answer": 2,
+              "explanation": "The full trial showed no effect on CV death."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the NNT for MACE-4?",
+              "options": [
+                "About 630 over 10 years",
+                "About 13, from the 13% reduction",
+                "About 6 over one year",
+                "About 63 over about 40 months"
+              ],
+              "answer": 3,
+              "explanation": "100 ÷ 1.6."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Does CLEAR Outcomes fit the LDL hypothesis?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the check?",
+              "options": [
+                "LDL didn't fall in the trial",
+                "0.76 mmol/L lower predicts about 17%; 13% was seen",
+                "The hypothesis doesn't apply to non-statins",
+                "It predicts about 50%, so the result disagrees with the hypothesis"
+              ],
+              "answer": 1,
+              "explanation": "Same range: consistent with benefit through LDL."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which outcome is NOT shown?",
+              "options": [
+                "Fewer strokes",
+                "Fewer heart attacks",
+                "Benefit in diabetes",
+                "Fewer revascularisations"
+              ],
+              "answer": 0,
+              "explanation": "Stroke HR 0.82–0.85, not significant."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-bem-l11",
+      "level": "lesson",
+      "covers": [
+        "bem-l11-side-effects"
+      ],
+      "summary": {
+        "title": "Side effects",
+        "points": [
+          "Common: anaemia, gout and raised uric acid, raised AST, limb pain, lower eGFR.",
+          "Uric acid up about 48 µmol/L within 4 weeks; stop if gout symptoms appear.",
+          "Haemoglobin dips and anaemia, more with fibrates; reversible.",
+          "Creatinine up 4–6 µmol/L via OAT2, not kidney damage.",
+          "Gallstones (2.2% vs 1.2%) and tendon rupture aren't in the EU labels."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient with prior gout develops a hot, swollen big toe on bempedoic acid.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the SmPC say?",
+              "options": [
+                "Double the dose",
+                "Stop if raised uric acid comes with gout symptoms",
+                "Continue; gout is unrelated to bempedoic acid in this patient",
+                "Add a fibrate"
+              ],
+              "answer": 1,
+              "explanation": "Most gout cases were in people with prior gout or high uric acid."
+            },
+            {
+              "type": "mcq",
+              "prompt": "His eGFR dropped slightly. How to read it?",
+              "options": [
+                "Probably the OAT2 creatinine effect",
+                "Kidney damage that needs bempedoic acid stopped urgently",
+                "Muscle breakdown",
+                "Dehydration from the drug"
+              ],
+              "answer": 0,
+              "explanation": "Interpret eGFR with care."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A safety reviewer compares CLEAR Outcomes with the label.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which finding isn't in the Nilemdo table?",
+              "options": [
+                "Anaemia",
+                "Gout",
+                "Raised AST above three times the upper limit",
+                "Gallstones"
+              ],
+              "answer": 3,
+              "explanation": "2.2% vs 1.2%; Nustendi lists it only via ezetimibe."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What happens to uric acid with a fibrate too?",
+              "options": [
+                "Gout roughly doubles, while uric acid itself stays the same",
+                "No difference",
+                "Raised uric acid is more frequent, but not gout",
+                "Uric acid falls"
+              ],
+              "answer": 2,
+              "explanation": "19.5% vs 10.4%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-bem-l12",
+      "level": "lesson",
+      "covers": [
+        "bem-l12-contraindications-interactions"
+      ],
+      "summary": {
+        "title": "Who shouldn't take it, and interactions",
+        "points": [
+          "Contraindicated: allergy, pregnancy, simvastatin above 40 mg; Nustendi with a statin in active liver disease.",
+          "Care: gout, severe kidney impairment, liver; lactose.",
+          "Statins: stop both if CPK above 10× ULN. Fibrates: TG may rise and HDL fall; check at 4 weeks.",
+          "OATP substrates (bosentan, fimasartan, some hepatitis C drugs) may rise.",
+          "Nustendi's ezetimibe: ciclosporin, cholestyramine, INR and gallstone rules."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient on fenofibrate starts Nilemdo.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the SmPC ask for?",
+              "options": [
+                "Halve the Nilemdo dose",
+                "Check TG and HDL at 4 weeks and periodically",
+                "Stop fenofibrate first, then start Nilemdo a week later",
+                "Nothing"
+              ],
+              "answer": 1,
+              "explanation": "The fibrate paradox."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A transplant patient on ciclosporin is offered Nustendi.",
+              "options": [
+                "Contraindicated",
+                "Use Nilemdo plus extra ciclosporin to offset the interaction",
+                "Start with caution and monitor ciclosporin",
+                "No interaction"
+              ],
+              "answer": 2,
+              "explanation": "Ezetimibe exposure rises about 3.4×, up to 12×."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A patient on warfarin switches from Nilemdo to Nustendi.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What changes?",
+              "options": [
+                "Monitor INR when adding Nustendi",
+                "Stop warfarin for a week",
+                "Nothing; the products are identical",
+                "Warfarin is contraindicated"
+              ],
+              "answer": 0,
+              "explanation": "Reports of raised INR with ezetimibe."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which is a contraindication for both products?",
+              "options": [
+                "Mild kidney impairment",
+                "Gout",
+                "Breastfeeding",
+                "Pregnancy"
+              ],
+              "answer": 3,
+              "explanation": "Women who could become pregnant need effective contraception."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-bem-l13",
+      "level": "lesson",
+      "covers": [
+        "bem-l13-pharmacovigilance"
+      ],
+      "summary": {
+        "title": "Pharmacovigilance",
+        "points": [
+          "One PSUSA covers both products; data to Feb 2024 ended in maintenance.",
+          "After CLEAR Outcomes, myopathy with statins and gout were removed as important potential risks.",
+          "Gout remains a warning in the SmPC.",
+          "Renewed in 2024 with unlimited validity.",
+          "Watchlist: gallstones, tendon rupture, fibrate combinations."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A partner reads 'gout removed from the RMP' as 'no gout risk'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does it really mean?",
+              "options": [
+                "Bempedoic acid no longer causes gout after CLEAR Outcomes",
+                "The warning was deleted",
+                "Gout became an identified risk",
+                "Gout stays a warning, managed routinely"
+              ],
+              "answer": 3,
+              "explanation": "It no longer needs special tracking."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What was the PSUSA outcome?",
+              "options": [
+                "A new gallstone warning added to both labels",
+                "Maintenance: no label change",
+                "A new contraindication",
+                "Withdrawal of Nustendi"
+              ],
+              "answer": 1,
+              "explanation": "October 2024."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "What would most likely trigger the next safety change?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Choose the most plausible item.",
+              "options": [
+                "A PRAC signal on gallstones",
+                "A price change",
+                "A partner change in France, from Organon to Zentiva",
+                "A new generic in Spain"
+              ],
+              "answer": 0,
+              "explanation": "Gallstones are on the watchlist."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why is tendon rupture on the watchlist?",
+              "options": [
+                "It caused a withdrawal",
+                "It's a labelled EU side effect for both Nilemdo and Nustendi",
+                "Raised earlier and in the US label; not increased in CLEAR Outcomes",
+                "It's linked to ezetimibe"
+              ],
+              "answer": 2,
+              "explanation": "Not in either EU SmPC."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-bem-l14",
+      "level": "lesson",
+      "covers": [
+        "bem-l14-esc-guidelines"
+      ],
+      "summary": {
+        "title": "ESC guidelines",
+        "points": [
+          "2019 guidelines predate approval: no recommendation.",
+          "2025: statin intolerance Class I (B); add-on when not at goal Class IIa (C).",
+          "Class I rests on CLEAR Outcomes; the add-on rests on LDL trials and judgement.",
+          "Label and guideline align on statin intolerance and not-at-goal.",
+          "Gap: adding to a PCSK9 inhibitor has only phase 2 evidence."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A very-high-risk patient on max statin plus ezetimibe isn't at goal.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does ESC 2025 say about adding bempedoic acid?",
+              "options": [
+                "Should be considered (IIa, C)",
+                "Not recommended (III)",
+                "Recommended (I, A), on the basis of CLEAR Outcomes",
+                "No recommendation"
+              ],
+              "answer": 0,
+              "explanation": "Outcome evidence was in statin-intolerant patients."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which label route fits?",
+              "options": [
+                "Replacing the statin",
+                "Nustendi or Nilemdo on top of the statin",
+                "Nustendi only, and only without a statin in the regimen",
+                "Not licensed"
+              ],
+              "answer": 1,
+              "explanation": "Nustendi after statin plus ezetimibe."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Why is statin intolerance Class I but add-on only IIa?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Choose the reason.",
+              "options": [
+                "The ESC doesn't grade non-statins",
+                "Bempedoic acid doesn't lower LDL further when added to statins",
+                "The outcome trial enrolled statin-intolerant patients",
+                "It's contraindicated with statins"
+              ],
+              "answer": 2,
+              "explanation": "Add-on evidence rests on LDL trials."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which agent sits alongside it at Class I in intolerance?",
+              "options": [
+                "Niacin",
+                "Icosapent ethyl",
+                "Fenofibrate",
+                "Ezetimibe"
+              ],
+              "answer": 3,
+              "explanation": "Ezetimibe Class I (A)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-bem-b1",
+      "level": "block",
+      "covers": [
+        "bem-l01-at-a-glance",
+        "bem-l02-how-it-works",
+        "bem-l03-history"
+      ],
+      "summary": {
+        "title": "The medicine and its story",
+        "points": [
+          "An upstream LDL-lowerer for people who can't use, or aren't at goal on, statins.",
+          "Transporters explain statin interactions, creatinine and uric acid.",
+          "Approved on LDL in 2020; outcome indication in 2024; unlimited renewal.",
+          "Partners extend reach across Europe."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "An investor asks what made bempedoic acid's 2024 label stronger.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the answer?",
+              "options": [
+                "Approval for children from age 4",
+                "CLEAR Outcomes added an outcome claim",
+                "A muscle-safety claim versus statins",
+                "A new formulation with better absorption"
+              ],
+              "answer": 1,
+              "explanation": "Not just LDL anymore."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which mechanism explains three different label items?",
+              "options": [
+                "CYP3A4 inhibition",
+                "UGT2B7 induction",
+                "ACSVL1 activation in muscle, which limits statin effects",
+                "Transporter blocking (OATP and OAT2)"
+              ],
+              "answer": 3,
+              "explanation": "Statin levels, creatinine and uric acid."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why isn't there a muscle claim despite ACSVL1 being in the liver?",
+              "options": [
+                "The SmPC doesn't claim one",
+                "Trials showed more muscle pain",
+                "Regulators banned the claim",
+                "It's activated in muscle too"
+              ],
+              "answer": 0,
+              "explanation": "Don't overread the mechanism."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Link history to positioning.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Who was bempedoic acid aimed at?",
+              "options": [
+                "Children with familial hypercholesterolaemia",
+                "People with high triglycerides",
+                "People who can't take statins",
+                "People with heart failure"
+              ],
+              "answer": 2,
+              "explanation": "It arrived after statins, ezetimibe and PCSK9 inhibitors."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does LDL as a surrogate mean for the 2020 approval?",
+              "options": [
+                "Approval only in the US",
+                "Approval only for Nustendi",
+                "Approval before any outcome data",
+                "Approval after CLEAR Outcomes had been completed"
+              ],
+              "answer": 2,
+              "explanation": "Outcomes came in 2023–2024."
+            },
+            {
+              "type": "self-check",
+              "prompt": "In your own words: why do creatinine and uric acid rise, and why isn't that kidney damage?",
+              "modelAnswer": "Bempedoic acid blocks OAT2, a kidney transporter that helps secrete creatinine and uric acid into the urine. Less secretion means slightly higher blood levels, but filtration itself isn't worse, so the creatinine rise doesn't reflect kidney damage. eGFR estimates need careful interpretation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-bem-b2",
+      "level": "block",
+      "covers": [
+        "bem-l04-approved-uses",
+        "bem-l05-strengths-products",
+        "bem-l06-how-taken"
+      ],
+      "summary": {
+        "title": "The label in practice",
+        "points": [
+          "Nilemdo after a statin, or without one; Nustendi after ezetimibe, or as replacement.",
+          "CV indication since 2024; primary-prevention outcome evidence thin for Nustendi.",
+          "Simvastatin cap; bile acid sequestrant timing; Nustendi not in moderate liver impairment.",
+          "Pregnancy contraindicated; breastfeeding may be considered per SmPC."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A 58-year-old woman, statin-intolerant, on ezetimibe, LDL not at goal, Child-Pugh A.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which product fits?",
+              "options": [
+                "Nilemdo plus a statin",
+                "Neither",
+                "A statin at full dose",
+                "Nustendi"
+              ],
+              "answer": 3,
+              "explanation": "Not at goal on ezetimibe alone."
+            },
+            {
+              "type": "mcq",
+              "prompt": "She could become pregnant. What's needed?",
+              "options": [
+                "Monthly liver tests",
+                "Effective contraception",
+                "A lower dose",
+                "Nothing; it's safe in pregnancy"
+              ],
+              "answer": 1,
+              "explanation": "Contraindicated in pregnancy."
+            },
+            {
+              "type": "mcq",
+              "prompt": "She has a week of vomiting. What does the PIL advise about the pill?",
+              "options": [
+                "Use a backup method for 7 days",
+                "Stop Nustendi until the vomiting settles, then restart",
+                "Double the pill",
+                "No change"
+              ],
+              "answer": 0,
+              "explanation": "Vomiting more than 2 days may stop the pill working."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A pharmacist checks a prescription: Nustendi + simvastatin 40 mg + cholestyramine.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Is simvastatin 40 mg allowed?",
+              "options": [
+                "Only with Nilemdo",
+                "Only in severe high-risk cases",
+                "Never",
+                "Always, as long as CK is checked every month"
+              ],
+              "answer": 1,
+              "explanation": "Normally 20 mg; above 40 mg contraindicated."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How should the doses be timed?",
+              "options": [
+                "Nustendi 2 h before or 4 h after cholestyramine",
+                "Cholestyramine first, then Nustendi 1 h later",
+                "All together at breakfast",
+                "Timing doesn't matter"
+              ],
+              "answer": 0,
+              "explanation": "Cholestyramine binds ezetimibe."
+            },
+            {
+              "type": "mcq",
+              "prompt": "If her liver disease progresses to Child-Pugh B?",
+              "options": [
+                "Continue Nustendi",
+                "Switch statin and continue Nustendi at the same dose",
+                "Double the dose",
+                "Nustendi isn't recommended"
+              ],
+              "answer": 3,
+              "explanation": "Ezetimibe exposure rises fourfold."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-bem-b3",
+      "level": "block",
+      "covers": [
+        "bem-l07-reading-a-trial",
+        "bem-l08-pivotal-trials",
+        "bem-l09-combination-trials",
+        "bem-l10-cv-outcomes"
+      ],
+      "summary": {
+        "title": "The evidence",
+        "points": [
+          "LDL effects vary by background: 17–18 points on statins, 21–28 without, 38 with Nustendi.",
+          "Definitions of intolerance and 'maximum tolerated' vary; Combo used a sensitivity analysis.",
+          "CLEAR Outcomes: fewer heart attacks and procedures; not stroke or death.",
+          "Combinations beyond ezetimibe and statins have little or no evidence."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A competitor says 'bempedoic acid cuts cardiovascular deaths'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What did CLEAR Outcomes show?",
+              "options": [
+                "A 13% reduction in CV deaths",
+                "No data on deaths",
+                "CV death 3.8% vs 3.7%, unchanged",
+                "A 39% reduction in CV deaths across the whole trial"
+              ],
+              "answer": 2,
+              "explanation": "The 39% is a primary-prevention subgroup figure."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What did fall?",
+              "options": [
+                "Strokes",
+                "New diabetes",
+                "Heart attacks and revascularisations",
+                "Deaths from any cause, by about 13%"
+              ],
+              "answer": 2,
+              "explanation": "HR 0.73 and 0.81."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why can't Nustendi's −36% be directly compared with Harmony's −16.5%?",
+              "options": [
+                "Combo lasted longer",
+                "Harmony had no placebo",
+                "Nustendi contains twice the bempedoic acid dose",
+                "Different trials and baselines"
+              ],
+              "answer": 3,
+              "explanation": "Only within Combo are the parts compared."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A partner plans bempedoic acid + semaglutide co-promotion with an outcome claim.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What supports the claim?",
+              "options": [
+                "Nothing specific",
+                "A dedicated outcome trial",
+                "An EU licence",
+                "An SmPC interaction line"
+              ],
+              "answer": 0,
+              "explanation": "Only the CLEAR Outcomes diabetes analysis."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What did the diabetes analysis show?",
+              "options": [
+                "Higher HbA1c",
+                "Benefit held; no excess new diabetes",
+                "More new diabetes, offsetting the benefit",
+                "Benefit lost"
+              ],
+              "answer": 1,
+              "explanation": "HR 0.83; interaction p = 0.42."
+            },
+            {
+              "type": "self-check",
+              "prompt": "In your own words: why is the ezetimibe subgroup HR of 0.94 (0.74–1.20) not proof of benefit?",
+              "modelAnswer": "The interval runs from a 26% reduction to a 20% increase, so it includes no effect. The result is consistent with the overall trial but isn't precise enough to show benefit on its own in that subgroup."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-bem-b4",
+      "level": "block",
+      "covers": [
+        "bem-l11-side-effects",
+        "bem-l12-contraindications-interactions",
+        "bem-l13-pharmacovigilance",
+        "bem-l14-esc-guidelines"
+      ],
+      "summary": {
+        "title": "Safety and guidelines",
+        "points": [
+          "Gout, anaemia, liver enzymes and OAT2 creatinine rises; gallstones on the watchlist.",
+          "Contraindications: allergy, pregnancy, simvastatin above 40 mg.",
+          "Fibrate paradox; Nustendi adds ezetimibe's interaction rules.",
+          "PSUSA maintenance; RMP slimmed; ESC Class I in intolerance, IIa as add-on."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A statin-intolerant man with prior gout, on fenofibrate and warfarin, needs LDL lowering.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the first caution?",
+              "options": [
+                "Gout risk",
+                "Bleeding risk from Nilemdo",
+                "QT prolongation",
+                "Hypoglycaemia"
+              ],
+              "answer": 0,
+              "explanation": "Stop if gout symptoms appear."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What monitoring does fenofibrate add?",
+              "options": [
+                "INR daily",
+                "No change",
+                "TG and HDL at 4 weeks",
+                "CK weekly for the first three months"
+              ],
+              "answer": 2,
+              "explanation": "The fibrate paradox; anaemia and uric acid too."
+            },
+            {
+              "type": "mcq",
+              "prompt": "If Nustendi is chosen, what about warfarin?",
+              "options": [
+                "No effect",
+                "Double warfarin",
+                "Stop warfarin",
+                "Monitor INR"
+              ],
+              "answer": 3,
+              "explanation": "Ezetimibe reports of raised INR."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "How did CLEAR Outcomes change both the risk plan and the guideline?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Risk plan?",
+              "options": [
+                "The RMP was cancelled",
+                "Gout and myopathy dropped as important potential risks",
+                "A new gallstone risk was added",
+                "Gout became an identified risk needing extra studies"
+              ],
+              "answer": 1,
+              "explanation": "RMP v5.0, 2024."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Guideline?",
+              "options": [
+                "Class III",
+                "Class I (B) in statin intolerance",
+                "No change",
+                "Class IIb as an add-on only, with no intolerance role"
+              ],
+              "answer": 1,
+              "explanation": "ESC 2025 focused update."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which watchlist item has trial data but no EU label line?",
+              "options": [
+                "Gout",
+                "Simvastatin interaction",
+                "Pregnancy",
+                "Gallstones"
+              ],
+              "answer": 3,
+              "explanation": "2.2% vs 1.2%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-bem-m",
+      "level": "module",
+      "covers": [
+        "bem-l01-at-a-glance",
+        "bem-l02-how-it-works",
+        "bem-l03-history",
+        "bem-l04-approved-uses",
+        "bem-l05-strengths-products",
+        "bem-l06-how-taken",
+        "bem-l07-reading-a-trial",
+        "bem-l08-pivotal-trials",
+        "bem-l09-combination-trials",
+        "bem-l10-cv-outcomes",
+        "bem-l11-side-effects",
+        "bem-l12-contraindications-interactions",
+        "bem-l13-pharmacovigilance",
+        "bem-l14-esc-guidelines",
+        "bem-l15-recap"
+      ],
+      "summary": {
+        "title": "Bempedoic acid: the whole picture",
+        "points": [
+          "An upstream, liver-activated LDL-lowerer for patients who can't use or aren't at goal on statins.",
+          "Nilemdo after a statin; Nustendi after ezetimibe or as a replacement.",
+          "LDL −17 to −38 points depending on background; CLEAR Outcomes HR 0.87, via heart attacks and procedures.",
+          "Transporter effects: statin levels, creatinine, uric acid.",
+          "Safety: gout, anaemia, liver enzymes; gallstones on the watchlist.",
+          "ESC 2025: Class I in intolerance, IIa as add-on."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You're evaluating an in-licensing of bempedoic acid for a non-EU market.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which claim is best supported?",
+              "options": [
+                "Replaces statins in everyone",
+                "Fewer deaths in all patients",
+                "Fewer heart attacks in statin-intolerant patients",
+                "Proven benefit on top of PCSK9 inhibitors in phase 3"
+              ],
+              "answer": 2,
+              "explanation": "CLEAR Outcomes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which interaction must be in the label?",
+              "options": [
+                "Simvastatin capped at 40 mg",
+                "Contraindication with SGLT2 inhibitors",
+                "Avoid all antihypertensives",
+                "Metformin dose reduction"
+              ],
+              "answer": 0,
+              "explanation": "Simvastatin acid doubles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which product suits patients already on ezetimibe?",
+              "options": [
+                "Neither",
+                "Nilemdo plus a statin only",
+                "Nustendi",
+                "A statin at full dose"
+              ],
+              "answer": 2,
+              "explanation": "Or as replacement for two tablets."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A patient story: 66, statin-intolerant, prior MI, gout history, on ezetimibe, LDL 2.9 mmol/L.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which route fits?",
+              "options": [
+                "Nustendi, or Nilemdo with ezetimibe",
+                "Nothing more",
+                "A high-dose statin, since intolerance usually passes",
+                "Fenofibrate"
+              ],
+              "answer": 0,
+              "explanation": "CV indication covers established disease."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What should be watched first?",
+              "options": [
+                "Bleeding",
+                "Uric acid and gout",
+                "Hypoglycaemia",
+                "QT interval prolongation"
+              ],
+              "answer": 1,
+              "explanation": "Most gout in CLEAR Outcomes was in people with prior gout."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does ESC 2025 say for him?",
+              "options": [
+                "No recommendation",
+                "Class IIb, may be considered only",
+                "Class III",
+                "Class I (B) in statin intolerance"
+              ],
+              "answer": 3,
+              "explanation": "Alongside ezetimibe Class I (A)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2040 @@
+{
+  "moduleId": "indemnification",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "idm-b1",
+      "title": "Foundations",
+      "lessons": [
+        "idm-l01-why-hard-to-picture",
+        "idm-l02-reps-and-warranties",
+        "idm-l03-anatomy-of-the-clause"
+      ]
+    },
+    {
+      "id": "idm-b2",
+      "title": "The third-party claim machine",
+      "lessons": [
+        "idm-l04-direct-vs-third-party",
+        "idm-l05-first-thirty-days",
+        "idm-l06-control-of-defense",
+        "idm-l07-consent-to-settle",
+        "idm-l08-cooperation-and-privilege"
+      ]
+    },
+    {
+      "id": "idm-b3",
+      "title": "The financial architecture",
+      "lessons": [
+        "idm-l09-damages",
+        "idm-l10-caps-baskets-de-minimis",
+        "idm-l11-survival-periods",
+        "idm-l12-escrow-and-holdback",
+        "idm-l13-insurance"
+      ]
+    },
+    {
+      "id": "idm-b4",
+      "title": "Pharma claims, law and forum",
+      "lessons": [
+        "idm-l14-pharma-claim-types",
+        "idm-l15-choice-of-law",
+        "idm-l16-forum-design",
+        "idm-l17-cross-border-enforcement"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-idm-l01",
+      "level": "lesson",
+      "covers": [
+        "idm-l01-why-hard-to-picture"
+      ],
+      "summary": {
+        "title": "Why indemnification is hard to picture",
+        "points": [
+          "Claims are rare and land on a different desk, so negotiators rarely see their clauses operate.",
+          "The module's spine is the third-party claim lifecycle: letter, notice, control, settlement, money.",
+          "Caps, survival periods and consent rights are machinery that decides how that lifecycle plays out.",
+          "Much of indemnity negotiation is really about price: residual risk has a value."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A colleague says the cap is 'just a number we'll never use'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the module say a cap really is?",
+              "options": [
+                "A formality that courts usually ignore",
+                "The amount the buyer is guaranteed to recover on any claim, whatever happens",
+                "The point where the payer stops caring about the outcome",
+                "A figure set by the insurer, not the parties"
+              ],
+              "answer": 2,
+              "explanation": "Above the cap, the downside falls on the other party, even if the payer still controls the litigation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A buyer pushes the cap from 10% to 20% of deal value. What is really happening?",
+              "options": [
+                "A change that only matters for fraud claims",
+                "The buyer is buying risk protection that has a price",
+                "A standard step that sellers must accept",
+                "A purely legal point about wording, with no real commercial value attached"
+              ],
+              "answer": 1,
+              "explanation": "Residual risk could equally be reflected in the headline price."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Why do negotiators often misjudge which terms matter?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the structural reason?",
+              "options": [
+                "Indemnity clauses are too short to matter",
+                "Lawyers deliberately hide the key terms",
+                "Courts rewrite most indemnities after the fact, so the drafting rarely matters",
+                "They rarely see a claim, and when one arrives someone else handles it"
+              ],
+              "answer": 3,
+              "explanation": "The feedback loop is weak: the negotiator rarely learns whether the number mattered."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does a survival period mean in practice?",
+              "options": [
+                "When an undiscovered problem becomes permanently yours",
+                "How long the seller must keep its insurance",
+                "The date the purchase price is finally paid",
+                "The deadline by which the seller must disclose every known risk to the buyer"
+              ],
+              "answer": 0,
+              "explanation": "After expiry, a breach nobody discovered stays with the buyer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-l02",
+      "level": "lesson",
+      "covers": [
+        "idm-l02-reps-and-warranties"
+      ],
+      "summary": {
+        "title": "Representations and warranties",
+        "points": [
+          "Representation: a statement of fact. Warranty: a promise it's true, with a remedy. Covenant: a promise about future conduct.",
+          "A knowledge qualifier turns 'it's true' into 'we're not aware it's false': a large risk transfer in four words.",
+          "Ask whose knowledge, actual or constructive, and whether it's defined.",
+          "A materiality scrape ignores materiality when measuring loss; a double scrape also for finding breach.",
+          "Disclosure schedules are a second risk negotiation, often done late and read carelessly."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "The seller proposes adding 'to the seller's knowledge' to the litigation representation.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the buyer give up?",
+              "options": [
+                "Nothing, since knowledge is always presumed",
+                "The right to rely on the disclosure schedules",
+                "Protection against anything the seller genuinely didn't know",
+                "Only protection against deliberate fraud by the seller's senior management"
+              ],
+              "answer": 2,
+              "explanation": "Everything the seller didn't know becomes the buyer's problem."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which counter-proposal does the module value highly?",
+              "options": [
+                "Naming the individuals and saying actual or constructive knowledge",
+                "Raising the general cap by two percentage points to compensate the buyer",
+                "Deleting the disclosure schedules altogether",
+                "Adding 'in all material respects' as well"
+              ],
+              "answer": 0,
+              "explanation": "A defined knowledge standard is worth more than a few extra points on the cap."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A rep says 'in all material respects', and the agreement has a single materiality scrape.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the single scrape do?",
+              "options": [
+                "Deletes the representation entirely",
+                "Ignores materiality when measuring the loss, not when finding a breach",
+                "Removes materiality both for finding a breach and for measuring the loss",
+                "Applies only to fundamental representations"
+              ],
+              "answer": 1,
+              "explanation": "A double scrape would also remove it for deciding whether a breach occurred."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why should a buyer read the disclosure schedules as closely as the reps?",
+              "options": [
+                "Schedules can't affect indemnity claims",
+                "Schedules are only reviewed by the insurer and don't affect the indemnity at all",
+                "Schedules override the governing law clause",
+                "Anything properly disclosed is carved out of the representation"
+              ],
+              "answer": 3,
+              "explanation": "Schedules are a second negotiation about risk, conducted in a spreadsheet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-l03",
+      "level": "lesson",
+      "covers": [
+        "idm-l03-anatomy-of-the-clause"
+      ],
+      "summary": {
+        "title": "Anatomy of the clause",
+        "points": [
+          "Six questions: who, what losses, what trigger, what procedure, what limits, what other remedies excluded.",
+          "Indemnify reimburses after the fact; defend arises when the claim is asserted, even if it fails.",
+          "The definition of loss (fees, settlements, diminution in value) is a live negotiation dressed as boilerplate.",
+          "Specific indemnities for known risks usually sit outside cap, basket and sometimes survival.",
+          "Exclusive remedy stops parties escaping the limits through tort claims; fraud is the usual carve-out."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A claim against the buyer is defeated after 14 months of litigation. The seller says it owes nothing.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which obligation could still make the seller pay?",
+              "options": [
+                "The hold harmless wording, which only applies after judgment",
+                "A duty to defend, owed from when the claim was asserted",
+                "The indemnity, which is triggered even by failed claims",
+                "The exclusive remedy clause, which covers all costs"
+              ],
+              "answer": 1,
+              "explanation": "A defense can be owed on a claim that ultimately fails."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A recall is already under way at signing. How is it usually handled?",
+              "options": [
+                "A specific indemnity, outside the general cap and basket",
+                "Covered by the general cap like any other risk",
+                "Excluded as a known issue under the exclusive remedy clause, so nobody pays",
+                "Disclosed and therefore left with the buyer"
+              ],
+              "answer": 0,
+              "explanation": "A known, sizeable risk shouldn't compete with unknown risks for space under a shared cap."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The buyer's counsel wants to sue for misrepresentation to escape the cap.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What usually blocks this?",
+              "options": [
+                "The survival period",
+                "The disclosure schedules",
+                "An exclusive remedy clause",
+                "The de minimis threshold"
+              ],
+              "answer": 2,
+              "explanation": "Indemnification is the sole recourse, except usually for fraud."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why does the definition of 'fraud' in the carve-out matter?",
+              "options": [
+                "It determines the size of the escrow",
+                "It decides which court hears the dispute",
+                "It sets the length of the survival period for all general representations",
+                "Too narrow and it's unreachable; too broad and it swallows the exclusivity"
+              ],
+              "answer": 3,
+              "explanation": "The scope of the fraud carve-out repays careful reading."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-l04",
+      "level": "lesson",
+      "covers": [
+        "idm-l04-direct-vs-third-party"
+      ],
+      "summary": {
+        "title": "Direct claims and third-party claims",
+        "points": [
+          "Direct claim: one party against the other; nothing external to defend.",
+          "Third-party claim: an outsider sues; someone must run a live proceeding.",
+          "Notice, control, cooperation and consent machinery only makes sense for third-party claims.",
+          "Direct-claim notice requiring a loss estimate can kill a claim found late; use 'to the extent then determinable'.",
+          "In pharma, one set of facts often creates both claim types, with separate deadlines."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "In month 20 of a 24-month survival period, the buyer finds a compliance breach but can't size the loss yet.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What protects the buyer best?",
+              "options": [
+                "Treating it as a third-party claim, which gives the buyer extra time to notify",
+                "Waiting until the loss is known, then serving notice",
+                "Asking the seller to agree an extension informally",
+                "A clause allowing an estimate 'to the extent then determinable'"
+              ],
+              "answer": 3,
+              "explanation": "It preserves the claim without demanding a number that doesn't exist yet."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which machinery has no application to this direct claim?",
+              "options": [
+                "The survival period and the cap",
+                "Dispute resolution under the agreement",
+                "Control of defense and consent to settle",
+                "Notice and a response period"
+              ],
+              "answer": 2,
+              "explanation": "There's no external proceeding to defend."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A patient sues the acquired business, and the seller had hidden a safety signal.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How many claim paths are open?",
+              "options": [
+                "One: only the patient's claim matters, because product liability absorbs the rest",
+                "Two: a third-party claim and a direct claim for breach of a rep",
+                "None, because product liability is excluded",
+                "One: only the direct claim against the seller"
+              ],
+              "answer": 1,
+              "explanation": "Same facts, two procedures, two sets of deadlines."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the risk in that situation?",
+              "options": [
+                "Meeting one procedure's deadlines while missing the other's",
+                "The direct claim must wait for the trial",
+                "The cap doubles because two claims exist",
+                "The patient's claim automatically cancels the buyer's direct claim on the same facts"
+              ],
+              "answer": 0,
+              "explanation": "Overlooking one path can leave part of the exposure unrecovered."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-l05",
+      "level": "lesson",
+      "covers": [
+        "idm-l05-first-thirty-days"
+      ],
+      "summary": {
+        "title": "The first thirty days",
+        "points": [
+          "Read notice for timing, content and consequence: is notice a condition precedent?",
+          "Late notice usually defeats a claim only to the extent of prejudice, unless it's a condition precedent.",
+          "Two clocks: notice to the counterparty and to the insurer. The insurance clock is less forgiving.",
+          "Issue a litigation hold early; spoliation weakens the defense and creates real prejudice.",
+          "Don't engage the claimant substantively, and don't wait for certainty before notifying."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A claim letter arrives on Monday. Legal plans to notify the seller this week and the broker 'once it looks serious'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the biggest risk in that plan?",
+              "options": [
+                "Losing insurance coverage through late notice to the insurer",
+                "Breaching the seller's consent-to-settle right",
+                "Waiving privilege by telling the broker",
+                "Losing the indemnity through a late contractual notice to the seller this week"
+              ],
+              "answer": 0,
+              "explanation": "Under a claims-made policy, notice within the period is what makes coverage exist."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A manager drafts a friendly reply to the claimant explaining what happened. Advice?",
+              "options": [
+                "Send it only if it avoids admitting fault",
+                "Send it quickly to show good faith",
+                "Don't send it before internal alignment",
+                "Send it, but copy the seller"
+              ],
+              "answer": 2,
+              "explanation": "A well-meant reply can prejudice both the defense and coverage."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The contract says notice is a 'condition precedent' to indemnification.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What changes?",
+              "options": [
+                "The survival period is extended",
+                "A missed deadline can mean the indemnity never arises",
+                "Nothing changes; the seller must still show it was prejudiced by the delay",
+                "The insurer takes over the notice"
+              ],
+              "answer": 1,
+              "explanation": "The word 'condition' turns an arguable slip into a fatal one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How can a poor litigation hold hurt the indemnity claim?",
+              "options": [
+                "It cancels the duty to defend automatically",
+                "It doubles the basket for the claim",
+                "It moves control of defense to the insurer and cancels the seller's election right",
+                "It creates real prejudice, turning a notice defect into a defense for the payer"
+              ],
+              "answer": 3,
+              "explanation": "Spoliation findings travel and weaken the indemnified party's position."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-l06",
+      "level": "lesson",
+      "covers": [
+        "idm-l06-control-of-defense"
+      ],
+      "summary": {
+        "title": "Control of defense",
+        "points": [
+          "Control decides counsel, strategy, concessions and settlement: whether the case is run to minimise payout or protect a business.",
+          "The payer usually has 15–30 days to elect; silence usually means declining.",
+          "Counsel 'reasonably satisfactory' and a right to participate at own expense are standard.",
+          "Control should revert for conflicts, non-monetary relief, criminal or regulatory matters, and claims above the cap.",
+          "An insurer may appoint panel counsel, and may defend under a reservation of rights."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A competitor seeks an injunction to take the buyer's product off the market. The seller wants to run the defense.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which carve-out should return control to the buyer?",
+              "options": [
+                "Fraud by the seller",
+                "Claims under the basket",
+                "Non-monetary relief",
+                "Claims below the de minimis"
+              ],
+              "answer": 2,
+              "explanation": "The party that must live with the outcome should be running it."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A claim worth 30 is defended by a seller with 10 left under the cap. What's the problem?",
+              "options": [
+                "Above 10, the seller has no stake, so its incentive to fight disappears",
+                "The insurer automatically takes control",
+                "The seller must now pay the full 30 regardless of the cap, because it chose to defend",
+                "The claim becomes a direct claim"
+              ],
+              "answer": 0,
+              "explanation": "The sharpest, most often omitted carve-out."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The contract says the seller picks counsel; the seller's insurer says it appoints from its panel.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Who usually decides in practice?",
+              "options": [
+                "The buyer, as the party being sued",
+                "The insurer, because it's funding the defense",
+                "The seller, because the contract it negotiated says so and the contract prevails",
+                "The court, on application by either side"
+              ],
+              "answer": 1,
+              "explanation": "The policy can override what the parties negotiated."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why is defense under a reservation of rights awkward?",
+              "options": [
+                "The insured must pay all costs upfront",
+                "The claimant can see the insurer's file",
+                "The insurer has already accepted the claim in full, so counsel has no conflict at all",
+                "Appointed counsel reports to a party that may later deny coverage"
+              ],
+              "answer": 3,
+              "explanation": "Facts developed in the defense can inform the coverage decision."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-l07",
+      "level": "lesson",
+      "covers": [
+        "idm-l07-consent-to-settle"
+      ],
+      "summary": {
+        "title": "Consent to settle",
+        "points": [
+          "Different exposure creates different optimal settlements: the disagreement is structural.",
+          "Near the cap, the payer wants to settle at any figure below it.",
+          "A cheap settlement with an admission can be commercially disastrous for the operator.",
+          "Payer can't settle without consent for admissions, non-monetary terms, no full release or above-cap amounts; the indemnified party can't settle alone at all.",
+          "Insurers add a third consent; a hammer clause caps the insurer at its recommended figure."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "The seller, controlling the defense, proposes settling at 4 with an admission of a safety defect.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Can the buyer block it?",
+              "options": [
+                "Usually yes: settlements with an admission need its consent",
+                "No: once it elects to defend, the controlling party settles freely on any terms",
+                "Only if the insurer also objects",
+                "Only if the amount exceeds the cap"
+              ],
+              "answer": 0,
+              "explanation": "Admissions are one of the standard consent triggers."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why might the buyer refuse even though 4 is cheap?",
+              "options": [
+                "Because the seller pays nothing",
+                "Because 4 is above the basket, so the buyer would have to fund part of it itself",
+                "Because admissions are illegal in pharma",
+                "The admission will be cited in every later claim and to the regulator"
+              ],
+              "answer": 3,
+              "explanation": "The payer sees a number; the operator sees a document."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The insurer recommends settling at 5; the insured wants to fight. The policy has a hard hammer clause.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What happens?",
+              "options": [
+                "The insurer must keep funding the defense in full",
+                "The insurer pays at most 5 plus defense costs so far",
+                "The insured loses all coverage immediately",
+                "The insurer and insured split all further costs 70/30 under the hard hammer clause"
+              ],
+              "answer": 1,
+              "explanation": "The insured can fight on, at its own expense from that point."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What happens if the indemnified party settles alone without consent?",
+              "options": [
+                "The cap is reduced by half",
+                "The payer must reimburse the settlement anyway, as long as the amount was reasonable",
+                "It usually forfeits the indemnity for that claim",
+                "The settlement becomes void"
+              ],
+              "answer": 2,
+              "explanation": "The harsher of the two consent rights, and standard."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-l08",
+      "level": "lesson",
+      "covers": [
+        "idm-l08-cooperation-and-privilege"
+      ],
+      "summary": {
+        "title": "Cooperation, privilege and joint defense",
+        "points": [
+          "Documents and witnesses sit with the indemnified party, so cooperation duties fall mostly on it.",
+          "Ask who pays for cooperation: staff time, review and vendor costs.",
+          "Sharing privileged material usually waives privilege; common interest can protect it.",
+          "Common interest needs a shared legal interest, is fragile if parties become adverse, and varies by jurisdiction.",
+          "Insurer cooperation duties are enforced harder; disclosure to an insurer can waive privilege."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Seller and buyer are defending a product claim together and want to share candid exposure memos.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What doctrine lets them share without waiving privilege?",
+              "options": [
+                "Mitigation, if costs are reduced",
+                "Common interest, if they share a legal interest",
+                "Subrogation, once the insurer pays",
+                "Exclusive remedy, as long as the fraud carve-out is excluded from the agreement"
+              ],
+              "answer": 1,
+              "explanation": "A shared commercial wish for the claim to disappear isn't enough."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What should a joint defense agreement address above all?",
+              "options": [
+                "The seat of any future arbitration between the two of them over the indemnity",
+                "The amount of the general cap",
+                "Whether shared material can be used if the parties later fall out",
+                "The insurer's panel counsel rates"
+              ],
+              "answer": 2,
+              "explanation": "The divergence provisions are the ones worth reading."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The insurer, defending under a reservation of rights, asks for counsel's frank memo on weaknesses.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the danger?",
+              "options": [
+                "Handing your weaknesses to a party that may deny coverage, and possibly waiving privilege",
+                "It breaches the consent-to-settle clause",
+                "None; insurers are always within common interest",
+                "It ends the reservation of rights automatically"
+              ],
+              "answer": 0,
+              "explanation": "Ask the question before sending the memo."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How do consequences differ for failing to cooperate?",
+              "options": [
+                "Both are measured only by prejudice, so a short delay rarely has any consequence",
+                "Both void protection automatically",
+                "Neither has any real consequence",
+                "With the counterparty it's measured by prejudice; with the insurer it can void coverage"
+              ],
+              "answer": 3,
+              "explanation": "The insurer's sanction is categorical rather than proportionate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-l09",
+      "level": "lesson",
+      "covers": [
+        "idm-l09-damages"
+      ],
+      "summary": {
+        "title": "Damages",
+        "points": [
+          "Direct, consequential, incidental and punitive damages: the labels aren't settled across jurisdictions.",
+          "Excluding 'consequential damages' leaves lost profits arguable; naming them closes it.",
+          "Multiple-based damages: an EBITDA overstatement can mean overpayment times the deal multiple.",
+          "Liquidated damages must not be penalties (common law); civil law courts often reduce them instead.",
+          "Recovery is net of mitigation, insurance proceeds, third-party recoveries and tax benefits."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "The seller overstated EBITDA by 1m; the buyer paid 8× EBITDA.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the buyer's argument on loss?",
+              "options": [
+                "Its loss is 8m plus punitive damages",
+                "Its loss is the overpayment: about 8m",
+                "Its loss is the shortfall itself: 1m",
+                "It has no loss until it sells the business"
+              ],
+              "answer": 1,
+              "explanation": "Whoever wins the drafting point moves the indemnity's value by a factor of eight."
+            },
+            {
+              "type": "mcq",
+              "prompt": "The seller insists on excluding 'damages based on a multiple'. What does that do?",
+              "options": [
+                "Turns the EBITDA claim into a specific indemnity outside the general cap",
+                "Doubles the claim to 16m",
+                "Removes the cap entirely",
+                "Limits the claim to the 1m shortfall"
+              ],
+              "answer": 3,
+              "explanation": "That's the seller's standard protection."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A supply deal excludes 'consequential, indirect and special damages'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the weakness of that wording?",
+              "options": [
+                "Stacked labels without a definition invite an argument",
+                "It only applies to punitive damages",
+                "It excludes all damages, including direct ones, so the indemnity is worth nothing",
+                "It's unenforceable under every governing law"
+              ],
+              "answer": 0,
+              "explanation": "Courts don't treat the three identically."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Net of insurance proceeds recoverable' rather than 'received'. Who does it hurt?",
+              "options": [
+                "The indemnifying party, which now pays more because insurance is ignored entirely",
+                "The insurer, which loses subrogation",
+                "The indemnified party, which must claim on its own policy first",
+                "Nobody; the two wordings mean the same"
+              ],
+              "answer": 2,
+              "explanation": "It affects premiums and future coverage, a cost the payer doesn't bear."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-l10",
+      "level": "lesson",
+      "covers": [
+        "idm-l10-caps-baskets-de-minimis"
+      ],
+      "summary": {
+        "title": "Caps, baskets and de minimis",
+        "points": [
+          "De minimis: claims below it are ignored and usually don't count toward the basket.",
+          "Without an aggregation clause, many small linked breaches are unrecoverable.",
+          "Deductible basket: recover only the excess. Tipping basket: recover from the first unit once crossed.",
+          "Caps are tiered: general, fundamental, tax, and uncapped fraud. Ask which cap applies.",
+          "Most claims are decided by de minimis, aggregation and basket type, not the cap."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Deal 100; de minimis 0.05; basket 1; cap 10. Claims: 0.03, 0.2, 0.4, 0.6.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's recovered with a deductible basket?",
+              "options": [
+                "1.23",
+                "0.23",
+                "1.2",
+                "0.2"
+              ],
+              "answer": 3,
+              "explanation": "0.03 is ignored; 1.2 aggregate minus the 1.0 basket leaves 0.2."
+            },
+            {
+              "type": "mcq",
+              "prompt": "And with a tipping basket?",
+              "options": [
+                "1.23",
+                "10",
+                "1.2",
+                "0.2"
+              ],
+              "answer": 2,
+              "explanation": "Once over the threshold, recovery runs from the first unit (still excluding the 0.03)."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A buyer trades a deductible basket for 2 extra points on the cap.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the module say about that trade?",
+              "options": [
+                "A good trade, because the cap is the biggest number and decides most claims",
+                "Almost certainly a bad one: most claims never reach the cap",
+                "Neutral, since baskets and caps offset",
+                "Good only if fraud is uncapped"
+              ],
+              "answer": 1,
+              "explanation": "The basket type decides far more claims than the cap."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Thirty small errors from one faulty compliance process each fall below de minimis.",
+              "options": [
+                "Recoverable only if there's an aggregation clause",
+                "Recoverable only under the fraud carve-out, since each error is below de minimis",
+                "Always recoverable as one claim",
+                "Never recoverable under any clause"
+              ],
+              "answer": 0,
+              "explanation": "Aggregation lets claims from the same facts count as one."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-l11",
+      "level": "lesson",
+      "covers": [
+        "idm-l11-survival-periods"
+      ],
+      "summary": {
+        "title": "Survival periods",
+        "points": [
+          "General reps survive about 12–24 months: one audit cycle.",
+          "Tiered: fundamentals long or indefinite; tax to the assessment period; IP intermediate; specific indemnities until resolved.",
+          "A claim notified before expiry should survive until resolved; 'resolved within the period' is a trap.",
+          "Notice requiring a loss estimate bites hardest near expiry.",
+          "Pharma's latent risks need specific indemnities and insurance, not longer general survival."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A 24-month survival clause requires claims to be 'resolved' within the period. A third-party claim is notified in month 18.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the problem?",
+              "options": [
+                "The cap doubles after month 24",
+                "The claim may expire before it can realistically be resolved",
+                "The claim converts to a direct claim",
+                "None; notice alone preserves it, whatever the clause says about resolution"
+              ],
+              "answer": 1,
+              "explanation": "A survival that requires resolution isn't really a 24-month survival."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which wording should the buyer have asked for?",
+              "options": [
+                "All claims survive indefinitely",
+                "Claims must be resolved within 36 months, with a single extension allowed",
+                "Only fraud claims survive closing",
+                "Claims notified before expiry survive until finally resolved"
+              ],
+              "answer": 3,
+              "explanation": "The period governs when you must raise a claim, not finish it."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A buyer is worried about a safety signal that could appear in year four.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the right instrument?",
+              "options": [
+                "A larger general cap",
+                "A tipping basket",
+                "A specific indemnity or insurance, not the general survival period",
+                "A longer general survival of 30 months for every business representation"
+              ],
+              "answer": 2,
+              "explanation": "General survival is designed around the audit cycle, not pharma latency."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why do title representations survive much longer?",
+              "options": [
+                "A title defect goes to whether the buyer got what it paid for",
+                "Title is easy to check at closing, so a long period costs the seller nothing",
+                "Tax law requires it",
+                "Insurers insist on it"
+              ],
+              "answer": 0,
+              "explanation": "Fundamental reps get long or indefinite survival."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-l12",
+      "level": "lesson",
+      "covers": [
+        "idm-l12-escrow-and-holdback"
+      ],
+      "summary": {
+        "title": "Escrow and holdback",
+        "points": [
+          "An indemnity is only as good as the payer's existence and solvency when the claim arrives.",
+          "Escrow: neutral agent, release schedule, pending claims retained, interest and fees negotiated.",
+          "Holdback: cheaper, but the seller bears the buyer's credit risk and incentives.",
+          "If escrow is the exclusive source of recovery, it's the real cap.",
+          "R&W insurance often shrinks or removes escrow."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "The SPA has a 10% cap; the escrow agreement makes a 5% escrow the exclusive source of recovery.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the real cap?",
+              "options": [
+                "5%",
+                "15%",
+                "10%",
+                "Unlimited for fraud only"
+              ],
+              "answer": 0,
+              "explanation": "A 10% cap backed by a 5% exclusive escrow is a 5% cap with extra steps."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where is this point usually decided?",
+              "options": [
+                "In the R&W policy exclusions",
+                "In the disclosure schedules",
+                "In the governing law clause, which decides how the cap is read",
+                "In the escrow agreement, which gets less attention"
+              ],
+              "answer": 3,
+              "explanation": "It often moves the economics more than the cap negotiation."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A private equity seller will wind up its vehicle soon after closing.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why does that matter to the buyer?",
+              "options": [
+                "The seller's insurer takes over",
+                "There may be nobody to claim against later",
+                "Survival periods are suspended",
+                "The cap becomes unlimited"
+              ],
+              "answer": 1,
+              "explanation": "An uncapped indemnity from a dissolved party is worth little."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A known pending lawsuit needs security. What's common?",
+              "options": [
+                "Using the general escrow for it, since all claims share one pot anyway",
+                "A holdback with no release date",
+                "A separate escrow released when that matter resolves",
+                "Relying on the R&W policy"
+              ],
+              "answer": 2,
+              "explanation": "It stops a known risk consuming the escrow for unknown ones; R&W excludes known issues."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-l13",
+      "level": "lesson",
+      "covers": [
+        "idm-l13-insurance"
+      ],
+      "summary": {
+        "title": "Insurance and R&W insurance",
+        "points": [
+          "Occurrence policies cover events in the period; claims-made cover claims made in the period.",
+          "Claims-made needs the right retroactive date and tail cover, especially when the seller dissolves.",
+          "Deductible: insurer runs the claim. Self-insured retention: insured runs it until exhausted.",
+          "Gaps between seller and buyer programmes need assignment or additional-insured status; watch subrogation.",
+          "R&W insurance excludes known issues and often pharma product, regulatory and IP risks."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A product sold in 2019 under the seller's claims-made policy, which lapsed at closing, triggers a 2026 claim.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Is it covered?",
+              "options": [
+                "Not unless tail cover was bought",
+                "Yes, because the event was in 2019",
+                "Yes, under the buyer's new policy automatically",
+                "Only if the claim is below the retention"
+              ],
+              "answer": 0,
+              "explanation": "Under claims-made, the claim must be made while the policy (or its extended reporting period) is live."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which policy type would have covered it as of right?",
+              "options": [
+                "An R&W policy on the acquisition",
+                "An occurrence-based policy in force in 2019",
+                "A policy with a self-insured retention",
+                "A claims-made policy bought by the buyer in 2026 after the claim arrived"
+              ],
+              "answer": 1,
+              "explanation": "Occurrence policies cover events in the period, whenever the claim arrives."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The buyer plans to rely on R&W insurance instead of a seller indemnity in a pharma deal.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the key gap?",
+              "options": [
+                "R&W insurance requires a larger escrow and longer survival than a seller indemnity",
+                "R&W policies never pay out",
+                "R&W insurance only covers tax",
+                "Known issues and often product, regulatory and IP risks are excluded"
+              ],
+              "answer": 3,
+              "explanation": "It may cover the reps you worry about least."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your insurer pays a claim caused by your distribution partner. What might follow?",
+              "options": [
+                "Nothing; once the insurer has paid, the matter is closed for every party",
+                "The partner's cap doubles",
+                "The insurer pursues the partner through subrogation",
+                "Your policy is cancelled"
+              ],
+              "answer": 2,
+              "explanation": "That's why waivers of subrogation exist."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-l14",
+      "level": "lesson",
+      "covers": [
+        "idm-l14-pharma-claim-types"
+      ],
+      "summary": {
+        "title": "Pharma-specific claims",
+        "points": [
+          "Product liability: latent, multiple claimants, linked to pharmacovigilance failures.",
+          "An indemnity allocates risk between the parties; successor liability can still let claimants sue the buyer.",
+          "IP claims often seek an injunction, which an indemnity can't fix: control should sit with the buyer.",
+          "Infringing others' rights threatens sales; invalidity of acquired rights threatens value.",
+          "Regulators act rather than sue; check the 'third-party claim' definition and who handles the regulator."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "After an asset deal allocating pre-closing liability to the seller, a patient sues the buyer.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the indemnity do?",
+              "options": [
+                "Gives the buyer a right to recover after being sued, defending and paying",
+                "Makes the seller the defendant automatically, so the buyer drops out of the case",
+                "Transfers the claim to the regulator",
+                "Stops the patient suing the buyer"
+              ],
+              "answer": 0,
+              "explanation": "Indemnities don't bind third parties; successor liability may apply."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What then decides whether the allocation was real?",
+              "options": [
+                "The patient's choice of court and how quickly the case is heard",
+                "The size of the basket",
+                "The seller's survival, solvency and security",
+                "The buyer's market share"
+              ],
+              "answer": 2,
+              "explanation": "Back to escrow and security."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A regulator suspends a marketing authorisation because of pre-closing conduct.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What should you check first in the agreement?",
+              "options": [
+                "Whether the basket is deductible",
+                "Whether 'third-party claim' captures a regulatory action",
+                "Whether the cap includes tax",
+                "Whether the escrow earns interest"
+              ],
+              "answer": 1,
+              "explanation": "Definitions are often drafted around litigation only."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A pre-closing bribery issue is discovered. What's the tension?",
+              "options": [
+                "The seller can block any disclosure",
+                "It's covered by R&W insurance as standard",
+                "The buyer must stay silent to protect the indemnity until the seller agrees to disclose",
+                "A disclosure duty may conflict with the seller's defense interests"
+              ],
+              "answer": 3,
+              "explanation": "The regulatory clock runs faster than the indemnity clock."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-l15",
+      "level": "lesson",
+      "covers": [
+        "idm-l15-choice-of-law"
+      ],
+      "summary": {
+        "title": "Choice of law",
+        "points": [
+          "Governing law decides how damages, liquidated sums, good faith and ambiguity are treated.",
+          "English law: predictable and textual, no general good faith duty. New York: deep M&A case law.",
+          "Swiss law: neutral civil law, with good faith and court power to reduce penalties.",
+          "Mandatory rules and limitation periods can't be contracted away.",
+          "Third-party claims follow their own law, not the contract's."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your SPA is under English law. A patient injured in Germany sues the buyer.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which law governs the patient's claim?",
+              "options": [
+                "German law (or the law applicable there), not English law",
+                "Whichever law the seller chooses",
+                "Swiss law, as a neutral law",
+                "English law, as agreed in the SPA, because it binds anyone suing over the product"
+              ],
+              "answer": 0,
+              "explanation": "The governing law clause only binds the parties to it."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A clause sets a large stipulated sum for missing a milestone. Under Swiss law, what's likely?",
+              "options": [
+                "The sum is always enforced in full",
+                "A court may reduce an excessive sum",
+                "The sum converts to a cap",
+                "The sum is struck out entirely as a penalty"
+              ],
+              "answer": 1,
+              "explanation": "Civil law courts tend to reduce rather than void."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A party withholds consent to settle. The agreement says 'not unreasonably withheld'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why does the governing law matter here?",
+              "options": [
+                "It doesn't matter; the phrase means exactly the same under every governing law",
+                "It decides the size of the basket",
+                "It decides which insurer pays",
+                "Civil law adds a general good faith duty; English law generally doesn't"
+              ],
+              "answer": 3,
+              "explanation": "It shapes how a discretion may be exercised."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why might a negotiated survival period be undermined?",
+              "options": [
+                "The insurer can override it",
+                "Survival periods are always void",
+                "Some laws restrict contracting out of statutory limitation",
+                "Arbitration ignores survival periods, so they only bind in court proceedings"
+              ],
+              "answer": 2,
+              "explanation": "Limitation rules can upset a survival period from either direction."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-l16",
+      "level": "lesson",
+      "covers": [
+        "idm-l16-forum-design"
+      ],
+      "summary": {
+        "title": "Courts or arbitration",
+        "points": [
+          "Arbitration isn't reliably faster or cheaper; it offers neutrality, expertise, confidentiality and enforceable awards.",
+          "The cost is finality: errors of law usually can't be appealed.",
+          "The seat decides procedural law, supervising courts and where an award can be set aside; the venue is just the place.",
+          "Choose institution, number of arbitrators, language, scope and interim relief deliberately.",
+          "Avoid pathological clauses; confidentiality must be stated, not assumed."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A clause says 'ICC arbitration, seated in Zurich, hearings in Dubai'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which courts can set the award aside?",
+              "options": [
+                "Any court where assets sit",
+                "The Swiss courts",
+                "The Dubai courts",
+                "The ICC court in Paris"
+              ],
+              "answer": 1,
+              "explanation": "Only the courts of the seat can annul an award."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A three-member ICC tribunal for every dispute, including small ones. Effect?",
+              "options": [
+                "Appeals become available",
+                "Costs fall because ICC is administered and sets the fees",
+                "Small claims are resolved faster",
+                "Small claims become uneconomic to pursue"
+              ],
+              "answer": 3,
+              "explanation": "A procedural choice with a substantive outcome; consider a sole arbitrator below a threshold."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A dispute clause provides for arbitration and gives exclusive jurisdiction to the Geneva courts.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the problem?",
+              "options": [
+                "It's pathological: a dispute about the dispute",
+                "It makes the award unenforceable abroad automatically",
+                "It removes the governing law",
+                "None; parties can choose both"
+              ],
+              "answer": 0,
+              "explanation": "Contradictory clauses cost months and fees before the merits."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your dispute will involve safety data. What should the clause do?",
+              "options": [
+                "Rely on arbitration being confidential by default",
+                "Choose litigation for confidentiality",
+                "State confidentiality expressly",
+                "Use an ad hoc tribunal"
+              ],
+              "answer": 2,
+              "explanation": "The default is less protective than most assume."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-l17",
+      "level": "lesson",
+      "covers": [
+        "idm-l17-cross-border-enforcement"
+      ],
+      "summary": {
+        "title": "Enforcement across borders",
+        "points": [
+          "Arbitral awards travel under a widely ratified convention; court judgments mostly don't outside regional frameworks.",
+          "Enforcement can be refused only on narrow grounds; public policy is the most variable.",
+          "Setting aside happens at the seat; resisting enforcement happens where assets are.",
+          "You enforce where the assets are; ask where they are at signing.",
+          "States may waive immunity from jurisdiction but not from execution; structure to avoid needing enforcement."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your distributor in the Gulf has assets only at home. You're choosing between English courts and arbitration.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What usually decides it?",
+              "options": [
+                "Arbitration, because the award is far easier to enforce there",
+                "English courts, because English judgments are enforced everywhere by treaty",
+                "Neither; enforcement doesn't depend on forum",
+                "English courts, because they're faster"
+              ],
+              "answer": 0,
+              "explanation": "Enforceability, not speed or cost, should decide."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's even better than a good enforcement clause?",
+              "options": [
+                "A longer survival period and a higher cap to compensate for the enforcement risk",
+                "A higher cap",
+                "Security that avoids enforcement: guarantee, letter of credit or escrow",
+                "A tipping basket"
+              ],
+              "answer": 2,
+              "explanation": "Convert an enforcement problem into a documentation problem."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A ministry of health signed an arbitration clause and lost. Its assets are used for public functions.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Can you seize them?",
+              "options": [
+                "No: states can never be sued",
+                "Yes, but only at the seat",
+                "Yes: agreeing to arbitrate waives all immunity, including immunity from execution",
+                "Not necessarily: immunity from execution may still apply"
+              ],
+              "answer": 3,
+              "explanation": "Waiving jurisdictional immunity isn't waiving immunity from execution."
+            },
+            {
+              "type": "mcq",
+              "prompt": "An award is refused enforcement in one country. What then?",
+              "options": [
+                "It's automatically set aside at the seat",
+                "It may still be enforced elsewhere",
+                "It's void everywhere",
+                "It must be re-heard on the merits"
+              ],
+              "answer": 1,
+              "explanation": "Only annulment at the seat usually kills it everywhere."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-l18",
+      "level": "lesson",
+      "covers": [
+        "idm-l18-building-judgment"
+      ],
+      "summary": {
+        "title": "Building judgment",
+        "points": [
+          "Attention and consequence are badly correlated: the cap gets debated, the basket and escrow decide.",
+          "Experienced people ask different first questions: basket, escrow exclusivity, R&W exclusions, assets, notice conditions.",
+          "Feedback is weak: claims arrive years later, handled by someone else.",
+          "Close the loop on purpose: read every package, post-mortem claims, read judgments.",
+          "Ask 'what would actually happen?', not 'is this clause acceptable?'"
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You have 20 minutes before a negotiation call on a draft SPA.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which check comes first, according to the module?",
+              "options": [
+                "The basket type, before the cap",
+                "The parties' names and addresses",
+                "The headline cap percentage",
+                "The definition of fraud"
+              ],
+              "answer": 0,
+              "explanation": "Terms that look like mechanics often decide outcomes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which document should you also open?",
+              "options": [
+                "The NDA",
+                "The board minutes",
+                "The press release",
+                "The escrow agreement"
+              ],
+              "answer": 3,
+              "explanation": "Exclusivity there can override the cap."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A claim hit a deal your colleague negotiated three years ago.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the most valuable thing to do with it?",
+              "options": [
+                "Ask the insurer for its view only",
+                "Count how many clauses were negotiated",
+                "Post-mortem which provisions actually decided the outcome",
+                "File it with litigation and move on, since the negotiator can't change it now"
+              ],
+              "answer": 2,
+              "explanation": "This is the only direct feedback available, and it's routinely wasted."
+            },
+            {
+              "type": "self-check",
+              "prompt": "In your own words: why does the module call an indemnity 'a bet'?",
+              "modelAnswer": "Because it depends, years in advance, on the counterparty still existing, being solvent and willing to pay, under a law and in a forum that may not have been chosen carefully, and secured by whatever amount was negotiated in a side document. So the question is what would actually happen, not whether the clause reads well."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-b1",
+      "level": "block",
+      "covers": [
+        "idm-l01-why-hard-to-picture",
+        "idm-l02-reps-and-warranties",
+        "idm-l03-anatomy-of-the-clause"
+      ],
+      "summary": {
+        "title": "Foundations",
+        "points": [
+          "Indemnity is machinery for a claim lifecycle; negotiators rarely see it operate.",
+          "Qualifiers (knowledge, materiality) and schedules decide what a rep actually protects.",
+          "Indemnify, defend and hold harmless arise at different moments.",
+          "Specific indemnities handle known risks; exclusive remedy keeps the limits intact."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You're buying a generics portfolio. A known patent suit is pending, and the seller wants broad knowledge qualifiers.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How should the known patent suit be handled?",
+              "options": [
+                "Disclosed, so it becomes the buyer's risk",
+                "A specific indemnity outside the general cap and basket",
+                "Ignored, because a buy-side R&W policy will cover the pending patent suit",
+                "Included in the general cap like other risks"
+              ],
+              "answer": 1,
+              "explanation": "A known risk shouldn't compete with unknown ones under a shared cap."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which knowledge qualifier is least bad for the buyer?",
+              "options": [
+                "Actual knowledge of named people after reasonable enquiry",
+                "Undefined 'knowledge' of the company",
+                "Knowledge of anyone in management, at any time before or after signing",
+                "Knowledge as of the signing date only"
+              ],
+              "answer": 0,
+              "explanation": "Defined, named, and with an enquiry element."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why does the buyer want an exclusive remedy clause less than the seller does?",
+              "options": [
+                "It extends the survival period",
+                "It stops the buyer escaping the caps through tort claims",
+                "It removes the seller's fraud carve-out and so protects the buyer's recovery",
+                "It increases the basket"
+              ],
+              "answer": 1,
+              "explanation": "Exclusivity protects the negotiated limits, which mostly help the seller."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Link the foundations to price.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "A seller offers a lower price in exchange for a 5% cap and knowledge qualifiers. What's the right framing?",
+              "options": [
+                "A standard request with no economic value",
+                "A purely legal point to reject on principle, because caps aren't priced",
+                "A commercial trade of residual risk for price",
+                "A sign of fraud by the seller"
+              ],
+              "answer": 2,
+              "explanation": "Indemnity negotiation is largely about price."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which obligation can cost money even if the claim fails?",
+              "options": [
+                "Exclusive remedy",
+                "Hold harmless (in every court)",
+                "Indemnify",
+                "Defend"
+              ],
+              "answer": 3,
+              "explanation": "Defense costs accrue while the claim is live."
+            },
+            {
+              "type": "self-check",
+              "prompt": "In your own words: what is the difference between a single and a double materiality scrape?",
+              "modelAnswer": "A single scrape ignores materiality qualifiers only when calculating the loss once a breach is found. A double scrape also ignores them when deciding whether a breach happened at all, so even small inaccuracies count as breaches."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-b2",
+      "level": "block",
+      "covers": [
+        "idm-l04-direct-vs-third-party",
+        "idm-l05-first-thirty-days",
+        "idm-l06-control-of-defense",
+        "idm-l07-consent-to-settle",
+        "idm-l08-cooperation-and-privilege"
+      ],
+      "summary": {
+        "title": "The third-party claim machine",
+        "points": [
+          "Direct and third-party claims need different procedures; pharma facts often trigger both.",
+          "Two notice clocks run at once; the insurer's is stricter. Watch condition-precedent wording.",
+          "Control of defense should revert for conflicts, injunctions, regulatory matters and above-cap claims.",
+          "Consent rights look symmetric but favour whoever controls the defense; insurers add a third veto.",
+          "Cooperation and privilege need a joint defense agreement and care with insurers."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Month 1 of a product claim worth well above the seller's cap. The seller elects to defend; its insurer appoints panel counsel under a reservation of rights.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which carve-out lets the buyer take back control?",
+              "options": [
+                "Claims exceeding the cap",
+                "Claims below de minimis",
+                "Direct claims",
+                "Claims under a tipping basket"
+              ],
+              "answer": 0,
+              "explanation": "The seller has no stake above the cap."
+            },
+            {
+              "type": "mcq",
+              "prompt": "The buyer wants to share an internal root-cause analysis with the insurer. First question?",
+              "options": [
+                "Does it fit the escrow agreement?",
+                "Has the survival period started?",
+                "Is the basket deductible or tipping, and does the insurer need to know that?",
+                "Could this waive privilege or help the insurer deny cover?"
+              ],
+              "answer": 3,
+              "explanation": "The insurer has already signalled possible adversity."
+            },
+            {
+              "type": "mcq",
+              "prompt": "The insurer recommends settling; the buyer refuses. What clause decides the cost?",
+              "options": [
+                "The de minimis clause",
+                "The hammer clause",
+                "The exclusive remedy clause",
+                "The governing law clause"
+              ],
+              "answer": 1,
+              "explanation": "It caps the insurer's liability at the recommended figure plus costs."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Trace how one early mistake damages later stages.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Late notice to the insurer in week 1 affects what later?",
+              "options": [
+                "Nothing, if the contract notice was on time",
+                "Only the seller's indemnity, not insurance, because the policy has no notice rule",
+                "Coverage, and so who funds the defense and any settlement",
+                "Only the governing law"
+              ],
+              "answer": 2,
+              "explanation": "The insurance clock is less forgiving than the contractual one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A poor litigation hold in week 1 helps whom later?",
+              "options": [
+                "The buyer, which gets more time to notify because the facts are now unclear",
+                "The insurer, which must then pay more",
+                "Nobody; holds are a formality",
+                "The payer, which can argue it was prejudiced"
+              ],
+              "answer": 3,
+              "explanation": "Spoliation turns a technical defect into real prejudice."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why does the party with most to lose often have least settlement leverage?",
+              "options": [
+                "The controlling party shapes the offer, and refusal risks an 'unreasonable withholding' fight",
+                "Because insurers favour the indemnified party",
+                "Because consent rights are always one-sided by law",
+                "Because direct claims can't settle"
+              ],
+              "answer": 0,
+              "explanation": "Symmetric in form, asymmetric in effect."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-b3",
+      "level": "block",
+      "covers": [
+        "idm-l09-damages",
+        "idm-l10-caps-baskets-de-minimis",
+        "idm-l11-survival-periods",
+        "idm-l12-escrow-and-holdback",
+        "idm-l13-insurance"
+      ],
+      "summary": {
+        "title": "The financial architecture",
+        "points": [
+          "Damages wording (lost profits, multiples) can move recovery by a factor of eight.",
+          "De minimis, aggregation and basket type decide most claims; the cap decides few.",
+          "Survival: notified-then-survives, tiered periods, and pharma latency handled by other tools.",
+          "Escrow exclusivity can be the real cap; holdback shifts credit risk to the seller.",
+          "Insurance: occurrence vs claims-made, tail cover, retentions, R&W exclusions."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A buyer gets a 15% cap, a deductible basket of 1%, a 12-month survival requiring resolution, a 3% exclusive escrow, and a damages clause excluding multiples.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the effective maximum recovery?",
+              "options": [
+                "15%, the negotiated cap",
+                "3%, because the escrow is exclusive",
+                "18%, cap plus escrow",
+                "Unlimited, because fraud is uncapped"
+              ],
+              "answer": 1,
+              "explanation": "Exclusivity overrides the cap."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which term most threatens a third-party claim notified in month 10?",
+              "options": [
+                "The 15% cap",
+                "The deductible basket",
+                "Survival requiring resolution within 12 months",
+                "Excluding multiple-based damages"
+              ],
+              "answer": 2,
+              "explanation": "A long-running claim can't be resolved in two months."
+            },
+            {
+              "type": "mcq",
+              "prompt": "If EBITDA was overstated, what does the multiples exclusion do?",
+              "options": [
+                "Raises recovery to the overpayment, since the buyer paid a multiple of EBITDA",
+                "Limits recovery to the shortfall, not the overpayment",
+                "Has no effect on EBITDA claims",
+                "Turns it into a fraud claim"
+              ],
+              "answer": 1,
+              "explanation": "The seller has won the multiple fight."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The buyer adds buy-side R&W insurance.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What typically changes?",
+              "options": [
+                "The basket becomes tipping by law",
+                "Larger escrow and longer survival, because the insurer demands extra security",
+                "No change to the package",
+                "Smaller caps, shorter survival and minimal escrow"
+              ],
+              "answer": 3,
+              "explanation": "The security function moves to the insurer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What still needs a seller indemnity?",
+              "options": [
+                "Known issues found in diligence",
+                "Arithmetic errors in accounts",
+                "Breaches of title reps",
+                "Unknown breaches of general reps"
+              ],
+              "answer": 0,
+              "explanation": "R&W policies exclude known issues."
+            },
+            {
+              "type": "self-check",
+              "prompt": "In your own words: why does the basket type often matter more than the cap?",
+              "modelAnswer": "Most claims are far smaller than the cap. Whether a claim pays the excess only (deductible) or everything once the threshold is crossed (tipping) changes recovery on almost every claim, sometimes by a factor of six, while the cap only bites on the rare very large claim."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-b4",
+      "level": "block",
+      "covers": [
+        "idm-l14-pharma-claim-types",
+        "idm-l15-choice-of-law",
+        "idm-l16-forum-design",
+        "idm-l17-cross-border-enforcement"
+      ],
+      "summary": {
+        "title": "Pharma claims, law and forum",
+        "points": [
+          "Product liability, IP and regulatory claims behave differently; size the package to each.",
+          "Indemnities don't stop third parties suing; successor liability may apply.",
+          "Governing law decides interpretation; third-party claims follow their own law.",
+          "Forum: the seat matters most; arbitration trades appeal rights for enforceable awards.",
+          "Enforcement follows assets; secure the deal so you never need to enforce."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A Swiss licensor out-licenses to a Saudi state-owned distributor. Disputes: 'English courts, English law'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the biggest practical problem?",
+              "options": [
+                "English law can't govern a licence",
+                "Saudi law will govern the contract anyway, so the English law clause is void",
+                "An English judgment may be hard to enforce where the assets are",
+                "English courts can't hear licensing disputes"
+              ],
+              "answer": 2,
+              "explanation": "Choose a forum by where you'd need to enforce."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What would improve the position most?",
+              "options": [
+                "Switching to Swiss courts, which enforce everywhere in the Gulf by treaty",
+                "Adding a tipping basket",
+                "Raising the cap",
+                "Arbitration with a sound seat, an immunity waiver and security"
+              ],
+              "answer": 3,
+              "explanation": "Both jurisdiction and execution immunity need waiving, and security avoids enforcement."
+            },
+            {
+              "type": "mcq",
+              "prompt": "The product is withdrawn by the Saudi regulator for pre-closing conduct. What's the first contract check?",
+              "options": [
+                "Whether 'third-party claim' covers regulatory action",
+                "Whether the hammer clause applies",
+                "Whether the basket is deductible",
+                "Whether the escrow earns interest"
+              ],
+              "answer": 0,
+              "explanation": "Regulators act; they don't sue."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Connect law, forum and enforcement.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why should governing law and forum be decided separately?",
+              "options": [
+                "Forum always follows the governing law",
+                "Only the forum affects damages",
+                "Law decides how the contract is read; forum decides who reads it and whether the result travels",
+                "They're legally the same choice"
+              ],
+              "answer": 2,
+              "explanation": "Combining them is how parties pick a forum by accident."
+            },
+            {
+              "type": "mcq",
+              "prompt": "An IP claimant seeks an injunction against the buyer's product. Who should control the defense?",
+              "options": [
+                "The insurer, under its panel",
+                "The buyer, because non-monetary relief affects its business",
+                "The tribunal, by appointment",
+                "The seller, because it pays and the contract usually gives it control"
+              ],
+              "answer": 1,
+              "explanation": "An indemnity can't make good an injunction."
+            },
+            {
+              "type": "mcq",
+              "prompt": "An award is annulled at the seat. What usually follows?",
+              "options": [
+                "It can't be enforced elsewhere",
+                "It is re-heard at the venue",
+                "It can still be enforced everywhere",
+                "It converts into a court judgment"
+              ],
+              "answer": 0,
+              "explanation": "Annulment at the seat destroys the award at source."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-idm-m",
+      "level": "module",
+      "covers": [
+        "idm-l01-why-hard-to-picture",
+        "idm-l02-reps-and-warranties",
+        "idm-l03-anatomy-of-the-clause",
+        "idm-l04-direct-vs-third-party",
+        "idm-l05-first-thirty-days",
+        "idm-l06-control-of-defense",
+        "idm-l07-consent-to-settle",
+        "idm-l08-cooperation-and-privilege",
+        "idm-l09-damages",
+        "idm-l10-caps-baskets-de-minimis",
+        "idm-l11-survival-periods",
+        "idm-l12-escrow-and-holdback",
+        "idm-l13-insurance",
+        "idm-l14-pharma-claim-types",
+        "idm-l15-choice-of-law",
+        "idm-l16-forum-design",
+        "idm-l17-cross-border-enforcement",
+        "idm-l18-building-judgment"
+      ],
+      "summary": {
+        "title": "Indemnification: the whole picture",
+        "points": [
+          "An indemnity is a bet on a counterparty's existence, solvency and willingness to pay, years ahead.",
+          "The claim lifecycle (notice, control, consent, cooperation) runs alongside an insurer's stricter rules.",
+          "Money is decided by damages wording, de minimis, aggregation, basket type, escrow exclusivity and the right cap.",
+          "Pharma risks are latent, multiple and regulatory; use specific indemnities and insurance.",
+          "Governing law, seat and asset location decide whether a win becomes money.",
+          "Attention and consequence are badly correlated: check the mechanics first."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You're reviewing your company's out-licensing template for MENA partners before the next negotiation.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which three terms deserve the first look?",
+              "options": [
+                "Price, volume and term only",
+                "Recitals, definitions and signature blocks",
+                "Basket type, escrow exclusivity and the dispute clause",
+                "The cap first, then the cap for fundamentals, then the cap for tax"
+              ],
+              "answer": 2,
+              "explanation": "The terms that look like mechanics decide outcomes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A partner proposes 'courts of the partner's home country, home law'. What's your main concern?",
+              "options": [
+                "Only the partner's insurance",
+                "Only the length of the survival period and whether it starts at signing or closing",
+                "Only the court's language",
+                "Whether a judgment could be enforced and how the law reads the clauses"
+              ],
+              "answer": 3,
+              "explanation": "Law, forum and enforcement are linked but separate questions."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which notice wording should be in every template?",
+              "options": [
+                "Notice is only needed for third-party claims",
+                "Claims may be notified with a loss estimate 'to the extent then determinable'",
+                "Notice is a condition precedent to any claim",
+                "Notice must include a final loss figure"
+              ],
+              "answer": 1,
+              "explanation": "It preserves claims found late in the survival period."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A third-party product claim arrives two years after closing on a deal you negotiated.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which provision decides who runs the defense?",
+              "options": [
+                "The materiality scrape",
+                "Control of defense, as limited by the insurer's rights",
+                "The disclosure schedules",
+                "The exclusive remedy clause, which decides who runs any proceeding"
+              ],
+              "answer": 1,
+              "explanation": "The policy can override the contract's allocation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "The claim exceeds the cap. What follows across the package?",
+              "options": [
+                "The claim converts to a direct claim",
+                "The seller must keep paying in full",
+                "The cap automatically doubles",
+                "Control should revert, the payer may push to settle at the cap, and the excess is yours"
+              ],
+              "answer": 3,
+              "explanation": "The above-cap carve-out and consent rights matter here."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the most useful thing to do afterwards?",
+              "options": [
+                "Post-mortem which terms actually decided the outcome",
+                "Remove indemnities from future deals",
+                "Renegotiate the cap on all old deals so this can't happen again next time",
+                "Switch every template to arbitration"
+              ],
+              "answer": 0,
+              "explanation": "The only real feedback loop available."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -197,11 +197,15 @@ for (const file of files) {
   for (const l of lessons) if (!isRecap(l) && !lessonUnits.has(l)) err('coverage', `lesson "${l}" has no lesson unit`);
   for (const b of blockIds) if (!blockUnits.has(b)) err('coverage', `block ${b} has no block unit`);
   if (moduleUnits !== 1) err('coverage', `needs exactly 1 module unit, has ${moduleUnits}`);
+  // Lessons outside every block are allowed (the module unit covers them);
+  // they still need their own lesson unit, checked above.
+  const outside = lessons.filter((l) => !blockOf.has(l) && !isRecap(l));
 
   // ---- Report ----
   console.log(`\n${file}  (${r.units?.length ?? 0} units, ${balance.mcqs} MCQs, ${balance.selfChecks} self-check)`);
   for (const e of errors) console.log(`ERROR ${e}`);
   for (const w of warnings) console.log(`warn  ${w}`);
+  if (outside.length) console.log(`info  outside blocks: ${outside.join(', ')}`);
 
   if (showList) {
     console.log('\n  Review list: block and module units (check that questions draw on ≥ 2 lessons)');

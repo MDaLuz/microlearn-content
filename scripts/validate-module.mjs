@@ -7,7 +7,7 @@
 // a Sources block closing every lesson, known combination tags, and no
 // promotional wording. Exits 1 on any error; warnings don't fail the run.
 
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { checkImage } from './image-check.mjs';
 import { dirname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -56,7 +56,7 @@ const claimId = (id, where) => {
   else globalIds.set(id, where);
 };
 
-const MIN_SCHEMA = { compare: 2, timeline: 2, reveal: 3, image: 3, scenario: 3, audio: 5 };
+const MIN_SCHEMA = { compare: 2, timeline: 2, reveal: 3, image: 3, scenario: 3, audio: 5, tool: 6 };
 let neededSchema = 1;
 
 const checkQuestions = (qs, where) => {
@@ -148,6 +148,33 @@ for (const lesson of mod.lessons ?? []) {
       case 'audio':
         for (const f of ['audioUrl', 'caption', 'alt', 'duration']) if (b[f] === undefined) err(w, `missing ${f}`);
         break;
+      case 'tool': {
+        // A self-contained HTML page under tools/, opened from a card in the lesson.
+        for (const f of ['src', 'title', 'description']) if (!b[f]) err(w, `missing ${f}`);
+        if (b.buttonLabel !== undefined && typeof b.buttonLabel !== 'string') err(w, 'buttonLabel must be a string');
+        if (b.estimatedMinutes !== undefined && typeof b.estimatedMinutes !== 'number') err(w, 'estimatedMinutes must be a number');
+        if (!b.src) break;
+        if (!/^tools\/[\w./-]+\.html$/.test(b.src) || b.src.includes('..')) {
+          err(w, `src must be tools/<name>.html, got "${b.src}"`);
+          break;
+        }
+        const page = join(root, b.src);
+        if (!existsSync(page)) {
+          err(w, `${b.src} not found`);
+          break;
+        }
+        // No remote scripts; Google Fonts stylesheets are the only remote resource allowed.
+        const html = readFileSync(page, 'utf8');
+        for (const m of html.matchAll(/<script\b[^>]*\bsrc\s*=\s*["']?([^"'\s>]+)/gi)) {
+          err(w, `${b.src} loads a script from ${m[1]}`);
+        }
+        for (const m of html.matchAll(/<link\b[^>]*\bhref\s*=\s*["']?(https?:[^"'\s>]+)/gi)) {
+          if (!/^https:\/\/fonts\.(googleapis|gstatic)\.com(\/|$)/.test(m[1])) {
+            err(w, `${b.src} links ${m[1]} (only Google Fonts are allowed)`);
+          }
+        }
+        break;
+      }
       default:
         warn(w, `unknown block type "${b.type}" (renders as a placeholder)`);
     }

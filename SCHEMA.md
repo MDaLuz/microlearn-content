@@ -21,6 +21,7 @@ This is the canonical reference for the Compound content schema. It defines what
    - [image](#47-image)
    - [scenario](#48-scenario)
    - [audio](#49-audio)
+   - [tool](#410-tool)
 5. [Asset hosting](#5-asset-hosting)
 6. [Schema version history](#6-schema-version-history)
 7. [Content and copyright](#7-content-and-copyright)
@@ -649,6 +650,41 @@ Right order (prose tells the reader what to listen for):
 
 Both clips should be the same length and normalized to the same peak level so the comparison is fair.
 
+### 4.10 `tool`
+
+**Purpose:** An interactive HTML page (a calculator, simulator or explorer) opened from a card in the lesson. The lesson shows the card; the page opens full screen.
+
+**schemaVersion required:** 6+
+
+```json
+{
+  "type": "tool",
+  "src": "tools/launch-gantt-explorer.html",
+  "title": "Launch Gantt explorer",
+  "description": "Move the sliders and watch the launch month, critical path and float change.",
+  "buttonLabel": "Open the explorer",
+  "estimatedMinutes": 5
+}
+```
+
+#### Fields
+
+| Field | Type | Required | Notes |
+|---|---|---|---|
+| `type` | `"tool"` | yes | |
+| `src` | string | yes | Content-repo-relative path to an `.html` file under `tools/`. The app fetches it as text, caches it with the module for offline use, and renders it sandboxed (iframe `srcdoc` on web, WebView on native). |
+| `title` | string | yes | Card title and modal header. |
+| `description` | string | yes | One sentence on what to do with the tool. |
+| `buttonLabel` | string | no | Defaults to "Open". |
+| `estimatedMinutes` | number | no | Shown as "~N min" on the card. |
+
+#### Page rules
+
+- Self-contained: inline CSS and JS. No `<script src=…>` of any kind; Google Fonts stylesheets are the only remote resource allowed (the validator enforces both).
+- Must work without browser storage (it runs in a sandbox without `allow-same-origin`): wrap `localStorage` access in `try/catch`.
+- Follows the system light/dark theme by itself; the app doesn't recolour it.
+- A `tool` block doesn't replace the lesson's image: every lesson still needs at least one `image` block.
+
 ---
 
 ## 5. Asset hosting
@@ -745,6 +781,12 @@ This version number was reserved during development but the `illustration` block
 The `audio` block renders an inline audio player for hosted MP3 files. It enables content where listening is the teaching medium: DJing, language learning, music appreciation, and perceptual training exercises of any kind.
 
 Modules using `audio` blocks must declare `"schemaVersion": 5`. App version required: Compound 1.x with `expo-audio` support.
+
+### v6 (tool block)
+
+**Blocks added:** `tool`.
+
+The `tool` block opens a self-contained interactive HTML page from `tools/` in a full-screen modal, cached for offline use. Modules using `tool` blocks must declare `"schemaVersion": 6`. Apps without support skip the block silently, so the rest of the lesson still works.
 
 ---
 

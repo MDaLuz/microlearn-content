@@ -3,7 +3,7 @@
   "id": "gl-m9-launch-chronology",
   "title": "Generics & launch 9: A typical launch chronology",
   "discipline": "Generics & launch",
-  "version": 2,
+  "version": 3,
   "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
   "lessons": [
     {
@@ -599,11 +599,11 @@
         },
         {
           "type": "text",
-          "markdown": "## How to use them\n\n- **RACI:** build it from the agreements (Module 0) and update it when roles change.\n- **Risk register:**\n  - list each risk with its likelihood × impact (L×I)\n  - give each one an owner and a concrete action\n  - review the top three every week\n  - typical entries are expiring written confirmations, long clock-stops and printer slots\n- **Decision log:** record what was decided, by whom, when, and the effect on the plan, so decisions don't get re-opened by accident."
+          "markdown": "## How to use them\n\n- **RACI:** build it from the agreements (Module 0) and update it when roles change.\n- **Risk register:**\n  - list each risk with its likelihood × impact (L×I)\n  - give each one an owner and a concrete action\n  - review the top three every week\n  - typical entries are expiring written confirmations, long clock-stops and printer slots\n- **Decision log**: record what was decided, by whom, when, and the effect on the plan, so decisions don't get re-opened by accident."
         },
         {
           "type": "text",
-          "markdown": "## A weekly rhythm\n\nA short weekly status works well:\n\n- what moved\n- what's late\n- the top risks\n- the decisions needed\n- a red, amber or green flag per country\n\nThis is practice, not regulation."
+          "markdown": "## A weekly rhythm\n\nA short weekly status works well:\n\n- what moved\n- what's late\n- the top risks\n- the decisions needed\n- a **red, amber or green** flag per country\n\nThis is practice, not regulation."
         },
         {
           "type": "text",

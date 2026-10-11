@@ -38,6 +38,18 @@
       ]
     },
     {
+      "src": "assets/gl-m5/blister-line.webp",
+      "credit": "Wikimedia Commons / Aditiaudi",
+      "license": "CC-BY-SA-4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayursun_Blister_machine_division_Opperating_female.jpg",
+      "usedIn": [
+        {
+          "module": "gl-m5-manufacturing",
+          "lesson": "gl5-l04-packaging"
+        }
+      ]
+    },
+    {
       "src": "assets/gl-m5/qc-lab.webp",
       "credit": "Wikimedia Commons / Root66",
       "license": "CC-BY-SA-3.0",
@@ -70,6 +82,54 @@
         {
           "module": "gl-m6-india-import",
           "lesson": "gl6-l05-gmp-status"
+        }
+      ]
+    },
+    {
+      "src": "assets/gl-m6/freight.webp",
+      "credit": "Wikimedia Commons / Syced",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Container_ships_on_Saigon_River.jpg",
+      "usedIn": [
+        {
+          "module": "gl-m6-india-import",
+          "lesson": "gl6-l07-logistics"
+        }
+      ]
+    },
+    {
+      "src": "assets/gl-m7/blister.webp",
+      "credit": "Wikimedia Commons / Sprinno",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Medication_blister_pack.jpg",
+      "usedIn": [
+        {
+          "module": "gl-m7-finished-product",
+          "lesson": "gl7-l03-primary-packaging"
+        }
+      ]
+    },
+    {
+      "src": "assets/gl-m7/bottle.webp",
+      "credit": "Wikimedia Commons / Mpelletier1",
+      "license": "CC-BY-SA-3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pill_Bottle_Spilled.jpg",
+      "usedIn": [
+        {
+          "module": "gl-m7-finished-product",
+          "lesson": "gl7-l03-primary-packaging"
+        }
+      ]
+    },
+    {
+      "src": "assets/gl-m7/carton.webp",
+      "credit": "Servier Medical Art / Laboratoires Servier (via Wikimedia Commons)",
+      "license": "CC-BY-SA-3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Drugs_and_Treatments_-_Drug_box_--_Smart-Servier.png",
+      "usedIn": [
+        {
+          "module": "gl-m7-finished-product",
+          "lesson": "gl7-l04-carton"
         }
       ]
     },

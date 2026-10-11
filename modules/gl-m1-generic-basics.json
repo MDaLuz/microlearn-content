@@ -3,7 +3,7 @@
   "id": "gl-m1-generic-basics",
   "title": "Generics & launch 1: Generic drug basics",
   "discipline": "Generics & launch",
-  "version": 3,
+  "version": 4,
   "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
   "lessons": [
     {
@@ -27,14 +27,13 @@
         },
         {
           "type": "image",
-          "src": "assets/gl-m1/originator-vs-generic-pack.webp",
-          "alt": "Pharmacy shelf: Bayer Aspirin 500 mg boxes priced 11.99 beside store-brand acetylsalicylic acid 500 mg boxes priced 8.99",
-          "caption": "Branded original and store-brand generic side by side (Canada)",
-          "credit": "Wikimedia Commons / Daniel Case",
-          "license": "CC-BY-SA-3.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bayer_Aspirin_and_store-brand_generic_on_Canadian_drugstore_shelf.jpg",
+          "src": "assets/gl-m1/reference-vs-generic-pack-own.svg",
+          "alt": "Two invented packs of the same fixed-dose combination: a branded reference product and a generic, with what must match and what may differ",
+          "caption": "Reference product and generic: same substances and strengths, different name and pack",
+          "credit": "Compound (own diagram)",
+          "license": "own",
           "zoomable": true,
-          "aspectRatio": 1.1952191235059761
+          "aspectRatio": 1.577
         },
         {
           "type": "text",

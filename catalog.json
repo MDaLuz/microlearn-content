@@ -135,7 +135,7 @@
       "discipline": "Generics & launch",
       "description": "Reference product, bioequivalence, protection periods, legal bases",
       "file": "modules/gl-m1-generic-basics.json",
-      "version": 3,
+      "version": 4,
       "lessonCount": 8,
       "estimatedMinutes": 60,
       "accentColor": "#7C8792"

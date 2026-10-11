@@ -26,6 +26,16 @@
           "aspectRatio": 1.951
         },
         {
+          "type": "image",
+          "src": "assets/gl-m7/leaflet.webp",
+          "alt": "Top of an anonymised package leaflet: title Package leaflet, information for the user, the placeholder invented name with strength, the standard opening statements and the six-section contents list",
+          "caption": "The package leaflet (anonymised mock-up)",
+          "aspectRatio": 1.009,
+          "credit": "Compound (own material)",
+          "license": "own",
+          "zoomable": true
+        },
+        {
           "type": "text",
           "markdown": "## The parts\n\n- **Tablets:** the active substance plus excipients (Lesson 2).\n- **Primary packaging** (*conditionnement primaire*): whatever touches the product, such as a blister, or a bottle with its closure and desiccant (Lesson 3).\n- **Patient leaflet (PIL):** printed leaflet in the box.\n- **Secondary packaging** (*conditionnement secondaire*): the carton (Lesson 4).\n- **Safety features:** the unique 2D code and the tamper-evident seal (Module 8)."
         },
@@ -73,7 +83,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 54 (outer packaging), Art. 55 (blisters and small immediate packaging), Art. 59 (package leaflet).\n2. **Image** — own diagram (no licence-clean Commons photo of pack contents without brand names was found)."
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 54 (outer packaging), Art. 55 (blisters and small immediate packaging), Art. 59 (package leaflet).\n2. **Image** — own diagram; anonymised package-leaflet mock-up (own material)."
         }
       ]
     },

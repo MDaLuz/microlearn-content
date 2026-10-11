@@ -88,7 +88,9 @@
       "version": 8,
       "lessonCount": 15,
       "estimatedMinutes": 160,
-      "accentColor": "#1D9E75"
+      "accentColor": "#1D9E75",
+      "reviews": "reviews/dapagliflozin.reviews.json",
+      "reviewsVersion": 1
     },
     {
       "id": "bempedoic-acid",
@@ -99,7 +101,9 @@
       "version": 8,
       "lessonCount": 15,
       "estimatedMinutes": 150,
-      "accentColor": "#1D9E75"
+      "accentColor": "#1D9E75",
+      "reviews": "reviews/bempedoic-acid.reviews.json",
+      "reviewsVersion": 1
     },
     {
       "id": "icosapent-ethyl",
@@ -110,7 +114,9 @@
       "version": 7,
       "lessonCount": 15,
       "estimatedMinutes": 150,
-      "accentColor": "#1D9E75"
+      "accentColor": "#1D9E75",
+      "reviews": "reviews/icosapent-ethyl.reviews.json",
+      "reviewsVersion": 1
     },
     {
       "id": "gl-m0-orientation",

@@ -1,0 +1,1712 @@
+{
+  "moduleId": "icosapent-ethyl",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "ipe-b1",
+      "title": "The medicine and its story",
+      "lessons": [
+        "ipe-l01-at-a-glance",
+        "ipe-l02-how-it-works",
+        "ipe-l03-history"
+      ]
+    },
+    {
+      "id": "ipe-b2",
+      "title": "The label in practice",
+      "lessons": [
+        "ipe-l04-approved-uses",
+        "ipe-l05-strengths-products",
+        "ipe-l06-how-taken"
+      ]
+    },
+    {
+      "id": "ipe-b3",
+      "title": "The evidence",
+      "lessons": [
+        "ipe-l07-reading-a-trial",
+        "ipe-l08-pivotal-trials",
+        "ipe-l09-combination-trials",
+        "ipe-l10-cv-outcomes"
+      ]
+    },
+    {
+      "id": "ipe-b4",
+      "title": "Safety, payers and guidelines",
+      "lessons": [
+        "ipe-l11-side-effects",
+        "ipe-l12-contraindications-interactions",
+        "ipe-l13-pharmacovigilance",
+        "ipe-l14-esc-guidelines"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-ipe-l01",
+      "level": "lesson",
+      "covers": [
+        "ipe-l01-at-a-glance"
+      ],
+      "summary": {
+        "title": "Icosapent ethyl at a glance",
+        "points": [
+          "Purified prescription EPA (Vazkepa), four 998 mg capsules a day with food; MAH now Recordati.",
+          "One indication: statin-treated high-risk adults with TG ≥1.7 mmol/L and either CVD or diabetes plus a risk factor.",
+          "Not a triglyceride drug: TG fell 18%, events 25%; benefit tracked EPA levels.",
+          "REDUCE-IT: MACE 17.2% vs 22.0% (HR 0.75); CV death HR 0.80; all-cause death not significant.",
+          "Watch bleeding, atrial fibrillation, soya/peanut allergy, fructose intolerance. Mixed omega-3 lost its post-MI use."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A pharmacist is asked to supply Vazkepa to lower triglycerides in a patient not on a statin.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Does the licence cover it?",
+              "options": [
+                "No",
+                "Yes, if triglycerides are above 5.6 mmol/L",
+                "Yes, as long as the patient has diabetes",
+                "Yes, it's a triglyceride-lowering medicine first and foremost"
+              ],
+              "answer": 0,
+              "explanation": "Statin treatment is a requirement, and it isn't licensed simply to lower triglycerides."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A 66-year-old on a statin, prior MI, TG 2.1 mmol/L. Does he fit?",
+              "options": [
+                "No: Vazkepa is only for primary prevention",
+                "No: he needs diabetes too",
+                "No: TG must be above 5.6",
+                "Yes: all the gates are met"
+              ],
+              "answer": 3,
+              "explanation": "Adult, statin, high risk, TG ≥1.7, established CVD."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A colleague says 'omega-3s don't work: the EMA withdrew them for heart attacks'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the distinction?",
+              "options": [
+                "Vazkepa is only a supplement",
+                "The EMA withdrew Vazkepa in 2018 as well, along with every omega-3 product",
+                "That was mixed EPA+DHA at 1 g; Vazkepa has its own outcome trial",
+                "Both products have identical evidence"
+              ],
+              "answer": 2,
+              "explanation": "Different products, doses and evidence."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What did REDUCE-IT show for death from any cause?",
+              "options": [
+                "An increase driven by bleeding",
+                "Lower, but not significantly",
+                "No data were collected on deaths",
+                "A significant 25% reduction in all deaths"
+              ],
+              "answer": 1,
+              "explanation": "HR 0.87 (0.74–1.02)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ipe-l02",
+      "level": "lesson",
+      "covers": [
+        "ipe-l02-how-it-works"
+      ],
+      "summary": {
+        "title": "How it works",
+        "points": [
+          "An ethyl ester de-esterified in the gut; EPA travels via the lymph; take with food.",
+          "Mechanisms 'not completely understood': fewer TG-rich particles, anti-inflammatory, plaque stabilisation, mild antiplatelet effect.",
+          "EPA may replace arachidonic acid in membranes, reducing pro-inflammatory eicosanoids.",
+          "Benefit tracked EPA levels, not TG or LDL response, but that's an on-treatment analysis.",
+          "Cleared by beta-oxidation; half-life about 89 hours; few CYP interactions."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient asks whether she can take the capsules on an empty stomach.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the SmPC say?",
+              "options": [
+                "Empty stomach is better because absorption is faster",
+                "Take them with or after a meal",
+                "Either way, since food has been shown to make no difference",
+                "Only at bedtime, to reduce the fishy aftertaste"
+              ],
+              "answer": 1,
+              "explanation": "Every trial gave it with food, and none tested it without."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why are interactions few?",
+              "options": [
+                "It's cleared unchanged by the kidneys without any metabolism",
+                "It binds to warfarin and inactivates it in the gut",
+                "It strongly induces CYP3A4, cancelling interactions",
+                "EPA is burned like dietary fat"
+              ],
+              "answer": 3,
+              "explanation": "Beta-oxidation; CYP enzymes play a minor role."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A partner claims 'the higher your EPA level, the more you benefit, proven'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the caveat?",
+              "options": [
+                "It's an on-treatment analysis, not randomised",
+                "Only 10 patients reached high levels",
+                "The link went the other way",
+                "EPA levels weren't measured in REDUCE-IT, so the link is only modelled"
+              ],
+              "answer": 0,
+              "explanation": "People reaching high levels may differ, for example in adherence."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why isn't Vazkepa really a triglyceride drug?",
+              "options": [
+                "Triglycerides actually rose on treatment",
+                "It was never tested in people with raised triglycerides",
+                "Benefit didn't track the triglyceride fall",
+                "It lowers LDL more than triglycerides"
+              ],
+              "answer": 2,
+              "explanation": "TG −18%, events −25%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ipe-l03",
+      "level": "lesson",
+      "covers": [
+        "ipe-l03-history"
+      ],
+      "summary": {
+        "title": "History",
+        "points": [
+          "Mixed omega-3 approved post-MI around 2000 on open-label GISSI-Prevenzione; EMA later removed that use.",
+          "Vazkepa (Amarin) approved in 2021 on its own trial, REDUCE-IT.",
+          "Mineral-oil placebo: LDL rose 10% on placebo vs 3% on drug.",
+          "Approval isn't access: about 20 reimbursement dossiers; Sweden 2022, Finland 2022.",
+          "2025: Recordati licensing deal for 59 countries ($25m upfront, up to $150m milestones); renewal January 2026."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You're reviewing the Amarin–Recordati deal as a BD case study.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What did Recordati pay upfront?",
+              "options": [
+                "Nothing upfront, only milestone payments later",
+                "$150 million, plus royalties on all sales",
+                "$70 million, matching Amarin's cost savings",
+                "$25 million"
+              ],
+              "answer": 3,
+              "explanation": "Plus up to $150m in sales milestones, supply revenue and royalties."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's Recordati's role now?",
+              "options": [
+                "MAH in the EU, with affiliates as local contacts",
+                "A manufacturer supplying Amarin's EU launches",
+                "Only a distributor, with Amarin still holding the licence",
+                "A co-promoter in Southern Europe only"
+              ],
+              "answer": 0,
+              "explanation": "Recordati took over the EU licence."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Why didn't Vazkepa's approval depend on the older omega-3 data?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Choose the reason.",
+              "options": [
+                "It was approved nationally",
+                "Different product and dose, with its own outcome trial",
+                "The older mixed omega-3 data were positive and transferred directly to it",
+                "It was approved for triglycerides only"
+              ],
+              "answer": 1,
+              "explanation": "Purified EPA 4 g vs mixed omega-3 1 g."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the gap between EU approval and patient access?",
+              "options": [
+                "None; approval means immediate access",
+                "A second EMA review for each country before any sale is allowed",
+                "National reimbursement, country by country",
+                "A mandatory US approval first"
+              ],
+              "answer": 2,
+              "explanation": "Some countries allow individual reimbursement first."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ipe-l04",
+      "level": "lesson",
+      "covers": [
+        "ipe-l04-approved-uses"
+      ],
+      "summary": {
+        "title": "What it's approved for",
+        "points": [
+          "Five gates: adult, on a statin, high CV risk, TG ≥1.7 mmol/L, CVD or diabetes plus a risk factor.",
+          "REDUCE-IT: 71% established CVD, 29% diabetes plus risk factors.",
+          "Trial entry: TG from 1.53, LDL 1.03–2.59 mmol/L; high LDL wasn't studied.",
+          "Not covered: TG lowering alone, no statin, children, TG ≥5.64, PCSK9 users (excluded).",
+          "Omacor: triglyceride indication only (Fredrickson IV alone; IIb/III with a statin)."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A 58-year-old with diabetes and high blood pressure, TG 2.4 mmol/L, not on a statin.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Does she fit the label?",
+              "options": [
+                "Yes: her triglycerides are above the threshold",
+                "No: she must be over 65 to qualify",
+                "Yes: diabetes plus a risk factor is enough on its own",
+                "No: a statin comes first"
+              ],
+              "answer": 3,
+              "explanation": "Statin treatment is a gate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Once on a statin with LDL 3.5 mmol/L, what's the evidence caveat?",
+              "options": [
+                "Vazkepa lowers LDL too much",
+                "She's contraindicated above LDL 2.6 mmol/L until the statin dose is raised",
+                "Patients with LDL that high weren't studied",
+                "The label requires LDL below 1.0"
+              ],
+              "answer": 2,
+              "explanation": "REDUCE-IT required LDL 1.03–2.59."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Omacor and Vazkepa are both omega-3s. Compare their uses.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What is Omacor licensed for now?",
+              "options": [
+                "Lowering triglycerides only",
+                "Preventing a second heart attack at 1 g a day",
+                "Reducing CV events with a statin",
+                "Children with familial hypertriglyceridaemia"
+              ],
+              "answer": 0,
+              "explanation": "Its post-MI indication was removed."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which patients were excluded from REDUCE-IT?",
+              "options": [
+                "People with prior stroke",
+                "PCSK9 inhibitor users",
+                "People on blood-pressure medicines",
+                "People with diabetes"
+              ],
+              "answer": 1,
+              "explanation": "Unless washed out first."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ipe-l05",
+      "level": "lesson",
+      "covers": [
+        "ipe-l05-strengths-products"
+      ],
+      "summary": {
+        "title": "Strengths and products",
+        "points": [
+          "One strength: 998 mg soft capsule, 25 × 10 mm, 'IPE'; four a day.",
+          "Excipients: maltitol, sorbitol, soya lecithin.",
+          "Bottles of 120 (30 days) or day-labelled blisters.",
+          "MAH Recordati; Recordati affiliates as local reps, except Vianex in Greece.",
+          "Same ATC code as Omacor (C10AX06): ATC is chemistry, not evidence."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient struggles to swallow large tablets.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why is Vazkepa a practical challenge?",
+              "options": [
+                "Four large capsules a day, which must be swallowed whole",
+                "It comes as a liquid that tastes of fish",
+                "It's an injection every two weeks",
+                "One small tablet that dissolves under the tongue"
+              ],
+              "answer": 0,
+              "explanation": "25 × 10 mm, two twice daily."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How long does one bottle last?",
+              "options": [
+                "10 days",
+                "60 days",
+                "120 days",
+                "30 days"
+              ],
+              "answer": 3,
+              "explanation": "120 capsules at four a day."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A pricing analyst groups Vazkepa with Omacor because they share an ATC code.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why is that misleading?",
+              "options": [
+                "Omacor is a generic of Vazkepa",
+                "ATC classifies chemistry, not evidence",
+                "Both have the same indication",
+                "The ATC code is wrong for Vazkepa and will be changed at the next update"
+              ],
+              "answer": 1,
+              "explanation": "One has outcome evidence; the other lost its heart indication."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Who is the local contact in Greece?",
+              "options": [
+                "Recordati Hellas",
+                "Casen Recordati",
+                "Vianex",
+                "Amarin directly"
+              ],
+              "answer": 2,
+              "explanation": "The one exception to Recordati affiliates."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ipe-l06",
+      "level": "lesson",
+      "covers": [
+        "ipe-l06-how-taken"
+      ],
+      "summary": {
+        "title": "How it's taken",
+        "points": [
+          "Two capsules twice a day with or after a meal, swallowed whole.",
+          "Missed dose: take when remembered; skip a fully missed day; don't double.",
+          "No dose change for kidneys, liver or age; check liver enzymes in liver impairment.",
+          "Monitor bleeding with antiplatelets or anticoagulants; watch for atrial fibrillation.",
+          "Avoid with soya/peanut allergy or fructose intolerance; caution with fish allergy; SmPC is the reference on breastfeeding."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient on Vazkepa and aspirin notices easy bruising and a nosebleed.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the SmPC suggest?",
+              "options": [
+                "Consider lab tests; report bleeding promptly",
+                "Double the dose to stabilise platelets",
+                "Ignore it: bleeding is unrelated to omega-3",
+                "Stop the statin, which is the usual cause of easy bruising and nosebleeds"
+              ],
+              "answer": 0,
+              "explanation": "Bleeding risk is higher with antithrombotics."
+            },
+            {
+              "type": "mcq",
+              "prompt": "He missed the whole of yesterday's dose.",
+              "options": [
+                "Take yesterday's four now plus today's",
+                "Stop for a week, then restart",
+                "Take eight capsules today",
+                "Carry on with the next scheduled dose"
+              ],
+              "answer": 3,
+              "explanation": "Don't double up."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A breastfeeding mother asks about Vazkepa. The sources disagree.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which source is the reference?",
+              "options": [
+                "The EMA overview",
+                "The Vazkepa PIL: not recommended",
+                "The Vazkepa SmPC: weigh stopping one or the other",
+                "The Omacor SmPC: should not be used"
+              ],
+              "answer": 2,
+              "explanation": "EPA passes into milk in line with diet."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A patient with liver impairment starts it. What's asked?",
+              "options": [
+                "Halve the dose",
+                "Check ALT and AST before and during treatment",
+                "It's contraindicated in any degree of liver impairment",
+                "No checks needed"
+              ],
+              "answer": 1,
+              "explanation": "No dose change, but monitoring."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ipe-l07",
+      "level": "lesson",
+      "covers": [
+        "ipe-l07-reading-a-trial"
+      ],
+      "summary": {
+        "title": "Reading a clinical trial",
+        "points": [
+          "A placebo is still a comparator: REDUCE-IT used mineral oil, STRENGTH corn oil.",
+          "REDUCE-IT's placebo arm saw LDL, CRP and apoB rise; was part of the benefit placebo harm?",
+          "STRENGTH was stopped for futility in 2020.",
+          "Five-point and three-point MACE both fell about a quarter in REDUCE-IT.",
+          "Between-trial heterogeneity: product, placebo, patients and EPA levels all differed."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A competitor says 'REDUCE-IT was just a bad placebo'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's a fair answer?",
+              "options": [
+                "Disproven: the placebo was fully inert",
+                "Irrelevant: placebos never affect results",
+                "It's an open question; biomarker shifts were small",
+                "Proven: the mineral oil explains the whole effect, as STRENGTH showed"
+              ],
+              "answer": 2,
+              "explanation": "The EMA approved on REDUCE-IT; commentators want a neutral-placebo trial."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why did both MACE endpoints matter?",
+              "options": [
+                "They were the same endpoint",
+                "Five-point MACE wasn't significant",
+                "Three-point MACE was negative, so only softer events fell",
+                "The result didn't rest only on softer events"
+              ],
+              "answer": 3,
+              "explanation": "Both fell by about a quarter."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Why can't REDUCE-IT vs STRENGTH be read as EPA vs EPA+DHA?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Choose the reason.",
+              "options": [
+                "Product, placebo, patients and EPA levels all differed",
+                "Both had the same result",
+                "STRENGTH was open-label",
+                "REDUCE-IT was too small to detect a difference of that size"
+              ],
+              "answer": 0,
+              "explanation": "Between-trial heterogeneity."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does 'stopped for futility' mean?",
+              "options": [
+                "The drug was clearly harmful at the interim analysis",
+                "A benefit had become very unlikely",
+                "The trial ran out of money",
+                "The benefit was already proven"
+              ],
+              "answer": 1,
+              "explanation": "Decided by the data monitoring committee."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ipe-l08",
+      "level": "lesson",
+      "covers": [
+        "ipe-l08-pivotal-trials"
+      ],
+      "summary": {
+        "title": "The pivotal trials",
+        "points": [
+          "REDUCE-IT: 8,179 on statins, mineral-oil placebo, 4.9 years; HR 0.75; 3-point MACE HR 0.74.",
+          "Placebo LDL rose 10% vs 3%; AF hospitalisation 3% vs 2%.",
+          "STRENGTH: 13,078, EPA+DHA 4 g vs corn oil; HR 0.99; stopped for futility; AF up.",
+          "Three candidate explanations: EPA alone, higher EPA levels, or placebo effect. None proven.",
+          "GISSI-Prevenzione (open-label, 1 g) underpinned the old mixed omega-3 approvals."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A partner asks whether to license an EPA+DHA product with a heart claim.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does STRENGTH say?",
+              "options": [
+                "It wasn't completed, so it says nothing",
+                "A 25% benefit, matching REDUCE-IT",
+                "No benefit at 4 g against corn oil",
+                "A benefit only in women"
+              ],
+              "answer": 2,
+              "explanation": "HR 0.99; stopped for futility."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which trial is the EU licence built on?",
+              "options": [
+                "OMEMI",
+                "GISSI-Prevenzione",
+                "STRENGTH",
+                "REDUCE-IT"
+              ],
+              "answer": 3,
+              "explanation": "A single pivotal trial."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Hold the two trials together.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which statement is fair?",
+              "options": [
+                "The reason for the different results can't be proven",
+                "Both used the same placebo",
+                "STRENGTH proves REDUCE-IT was wrong, because its placebo was neutral",
+                "REDUCE-IT proves DHA is harmful"
+              ],
+              "answer": 0,
+              "explanation": "Three explanations, each with supporters."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What did both trials share?",
+              "options": [
+                "A positive outcome",
+                "More atrial fibrillation",
+                "The same placebo oil",
+                "The same product"
+              ],
+              "answer": 1,
+              "explanation": "AF is a class signal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ipe-l09",
+      "level": "lesson",
+      "covers": [
+        "ipe-l09-combination-trials"
+      ],
+      "summary": {
+        "title": "Combination trials",
+        "points": [
+          "The licence names one partner: a statin, required.",
+          "No SmPC lines for ezetimibe, PCSK9, BP medicines, SGLT2 or GLP-1; antithrombotics raise bleeding.",
+          "Evidence comes from REDUCE-IT's background: statins and BP well represented; ezetimibe 6.4%; PCSK9 excluded.",
+          "Diabetes subgroup: HR 0.77, no interaction (p = 0.29).",
+          "'No difference seen' with ezetimibe isn't 'shown to be the same'."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient on a statin, ezetimibe and an SGLT2 inhibitor still has TG 2.2 mmol/L.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the evidence offer for adding Vazkepa?",
+              "options": [
+                "A contraindication with SGLT2 inhibitors",
+                "Nothing, because the label forbids it",
+                "Indirect evidence only",
+                "A dedicated trial of exactly this combination"
+              ],
+              "answer": 2,
+              "explanation": "Few ezetimibe and SGLT2 users in REDUCE-IT."
+            },
+            {
+              "type": "mcq",
+              "prompt": "And on top of a PCSK9 inhibitor?",
+              "options": [
+                "A licensed combination",
+                "A contraindication",
+                "Strong evidence from a sub-study",
+                "No direct evidence"
+              ],
+              "answer": 3,
+              "explanation": "PCSK9 users were excluded."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Why is the ezetimibe result weak?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Choose the reason.",
+              "options": [
+                "Only about 520 users",
+                "Ezetimibe blocks EPA absorption",
+                "Ezetimibe users did worse",
+                "They weren't randomised"
+              ],
+              "answer": 0,
+              "explanation": "Too small to detect a modest difference."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's stratified randomisation?",
+              "options": [
+                "Choosing patients by EPA level",
+                "Randomising separately within groups for balance",
+                "Giving everyone the drug in turn",
+                "Randomising only the high-risk patients and observing the others"
+              ],
+              "answer": 1,
+              "explanation": "Here by ezetimibe use."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ipe-l10",
+      "level": "lesson",
+      "covers": [
+        "ipe-l10-cv-outcomes"
+      ],
+      "summary": {
+        "title": "Heart-attack and stroke outcomes",
+        "points": [
+          "Heart attack 6.1% vs 8.7%; stroke 2.4% vs 3.3%; urgent revascularisation and unstable angina also lower.",
+          "CV death HR 0.80; all-cause death HR 0.87, not significant.",
+          "NNT about 21 over 4.9 years; don't compare across modules.",
+          "Benefit similar above and below TG 1.7 mmol/L.",
+          "US patients looked better (HR 0.69), feeding the placebo debate."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Which outcome did NOT fall significantly?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Choose one.",
+              "options": [
+                "Death from any cause",
+                "Heart attack",
+                "Cardiovascular death",
+                "Stroke"
+              ],
+              "answer": 0,
+              "explanation": "HR 0.87 (0.74–1.02)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How does this differ from bempedoic acid's CLEAR Outcomes?",
+              "options": [
+                "Here only procedures fell",
+                "They're identical",
+                "Here stroke and CV death fell too",
+                "Here heart attacks didn't fall, only procedures and angina"
+              ],
+              "answer": 2,
+              "explanation": "CLEAR Outcomes showed no stroke or CV death effect."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A payer compares NNT 21 (Vazkepa) with NNT 63 (bempedoic acid).",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why is that misleading?",
+              "options": [
+                "Vazkepa's was relative",
+                "Different trials, patients, follow-up and placebos",
+                "Both used mineral oil",
+                "The NNTs were miscalculated from relative rather than absolute risk"
+              ],
+              "answer": 1,
+              "explanation": "Cross-trial NNTs aren't comparable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does the TG subgroup suggest?",
+              "options": [
+                "Benefit only below 1.7",
+                "TG explains all the benefit",
+                "TG must exceed 2.5 for benefit",
+                "TG isn't the main driver"
+              ],
+              "answer": 3,
+              "explanation": "Interaction p = 0.68."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ipe-l11",
+      "level": "lesson",
+      "covers": [
+        "ipe-l11-side-effects"
+      ],
+      "summary": {
+        "title": "Side effects",
+        "points": [
+          "Bleeding 11.8% vs 9.9%; serious bleeding higher only with antithrombotics (3.4% vs 2.6%).",
+          "AF 5.8% vs 4.5%; 12.5% vs 6.3% with prior AF; seen across high-dose omega-3 trials.",
+          "Also oedema, constipation (placebo may confound), gout, rash, musculoskeletal pain.",
+          "Uncommon: allergy, fishy taste.",
+          "Contact a doctor for palpitations or bleeding that won't stop."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient with prior atrial fibrillation is considering Vazkepa.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the evidence show?",
+              "options": [
+                "AF is a contraindication for anyone with a previous episode",
+                "AF is lower on Vazkepa",
+                "AF 12.5% vs 6.3%: monitor for symptoms",
+                "No change in AF risk"
+              ],
+              "answer": 2,
+              "explanation": "Palpitations, irregular pulse, breathlessness."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A patient not on any antithrombotic worries about serious bleeding.",
+              "options": [
+                "No difference without antithrombotics",
+                "Serious bleeding triples regardless",
+                "It's a contraindication",
+                "Bleeding risk is highest without aspirin"
+              ],
+              "answer": 0,
+              "explanation": "0.2% vs 0.2%."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Constipation was 5.4% vs 3.6%.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why read this with caution?",
+              "options": [
+                "Constipation wasn't recorded",
+                "The drug is a laxative",
+                "The figures are reversed: constipation was lower on the drug",
+                "The mineral-oil placebo may be laxative"
+              ],
+              "answer": 3,
+              "explanation": "The SmPC itself warns of confounding."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Is AF unique to icosapent ethyl?",
+              "options": [
+                "Yes, only with purified EPA",
+                "No: STRENGTH and OMEMI saw it too",
+                "Yes, it's only seen with purified EPA at 4 g a day",
+                "Only in women"
+              ],
+              "answer": 1,
+              "explanation": "A class concern for high-dose omega-3."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ipe-l12",
+      "level": "lesson",
+      "covers": [
+        "ipe-l12-contraindications-interactions"
+      ],
+      "summary": {
+        "title": "Who shouldn't take it, and interactions",
+        "points": [
+          "Contraindicated: allergy to icosapent ethyl, soya or peanut; avoid in hereditary fructose intolerance.",
+          "Caution: fish or shellfish allergy; liver impairment (monitor enzymes); prior AF.",
+          "No level interactions with omeprazole, rosiglitazone, warfarin or atorvastatin.",
+          "The practical interaction is bleeding with antiplatelets and anticoagulants.",
+          "Sorbitol about 332 mg/day: count with other sources."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A patient on warfarin starts Vazkepa.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the SmPC say?",
+              "options": [
+                "Contraindicated",
+                "No level change, but monitor for bleeding",
+                "Warfarin levels rise, so halve the warfarin dose at the start",
+                "Stop warfarin"
+              ],
+              "answer": 1,
+              "explanation": "Bleeding risk is about effect, not levels."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A patient has a peanut allergy.",
+              "options": [
+                "Use with an antihistamine",
+                "No issue; it's fish-derived",
+                "Don't use it",
+                "Use with caution only"
+              ],
+              "answer": 2,
+              "explanation": "The capsule contains soya lecithin."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Compare Vazkepa and Omacor safety rules.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does Omacor ask for with warfarin?",
+              "options": [
+                "Check prothrombin time when starting or stopping",
+                "Nothing",
+                "Contraindicated",
+                "Halve warfarin before starting Omacor, then recheck in a month"
+              ],
+              "answer": 0,
+              "explanation": "Vazkepa: monitor for bleeding instead."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A patient takes several medicines with sorbitol.",
+              "options": [
+                "Ignore it",
+                "Switch to Omacor, which contains no sorbitol or fructose",
+                "Halve Vazkepa",
+                "Count total sorbitol and fructose"
+              ],
+              "answer": 3,
+              "explanation": "Sorbitol may also affect absorption of other oral medicines."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ipe-l13",
+      "level": "lesson",
+      "covers": [
+        "ipe-l13-pharmacovigilance"
+      ],
+      "summary": {
+        "title": "Pharmacovigilance",
+        "points": [
+          "Additional monitoring (black triangle): report any suspected side effect.",
+          "RMP: two important identified risks (bleeding with antithrombotics, AF); no potential risks.",
+          "No PSUSA outcome or PRAC signal found in this module's search.",
+          "The 2018 omega-3 review removed an indication for lack of benefit, with no new safety issue.",
+          "A neutral-placebo outcome trial could strengthen or weaken the evidence."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A partner compares Vazkepa's RMP with bempedoic acid's.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the key difference?",
+              "options": [
+                "Vazkepa's trial confirmed two risks; bempedoic acid's removed two",
+                "Both removed all risks",
+                "Bempedoic acid added AF",
+                "Vazkepa has no RMP"
+              ],
+              "answer": 0,
+              "explanation": "Bleeding and AF became identified risks."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does the black triangle mean?",
+              "options": [
+                "Withdrawn soon",
+                "Restricted to hospital use until the next renewal",
+                "Watched more closely; report any suspected side effect",
+                "Conditional approval"
+              ],
+              "answer": 2,
+              "explanation": "Additional monitoring."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "What does the 2018 omega-3 review teach?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Choose the lesson.",
+              "options": [
+                "Only new medicines are monitored",
+                "Benefit can be reassessed without any new safety issue",
+                "Pharmacovigilance only covers side effects",
+                "Old medicines are never reviewed"
+              ],
+              "answer": 1,
+              "explanation": "Benefit–risk can shift from the benefit side."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which new evidence would trigger a module refresh?",
+              "options": [
+                "A price change in Sweden after the reimbursement review",
+                "A new local rep in Spain",
+                "A new bottle size",
+                "An outcome trial with a neutral placebo"
+              ],
+              "answer": 3,
+              "explanation": "Also a PSUSA variation or PRAC signal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ipe-l14",
+      "level": "lesson",
+      "covers": [
+        "ipe-l14-esc-guidelines"
+      ],
+      "summary": {
+        "title": "ESC guidelines and payers",
+        "points": [
+          "ESC 2019/2025: Class IIa for high-risk patients with TG 1.5–5.6 mmol/L on a statin.",
+          "Ranked above fibrates for persistent triglycerides.",
+          "NICE 2022: secondary prevention only, LDL 1.04–2.60 mmol/L.",
+          "Ireland's NCPE narrowed similarly and noted the placebo biomarkers.",
+          "Licence, guideline, payer: each layer narrows the group."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A statin-treated patient in England with diabetes, one risk factor, no CVD, TG 2.0 mmol/L.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Where does he stand?",
+              "options": [
+                "Inside the EU licence, outside NICE",
+                "Outside the licence",
+                "Covered by NICE but outside the EU licence",
+                "Contraindicated"
+              ],
+              "answer": 0,
+              "explanation": "NICE covers secondary prevention only."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does ESC say for him?",
+              "options": [
+                "Recommended (I)",
+                "Should be considered (IIa)",
+                "No recommendation",
+                "Not recommended (III)"
+              ],
+              "answer": 1,
+              "explanation": "High risk, TG 1.5–5.6 on a statin."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A BD lead plans an EU launch sequence.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why can't the licence alone forecast volumes?",
+              "options": [
+                "Guidelines override licences",
+                "Licences differ by country, so the EU label doesn't apply",
+                "Prescribers ignore payers",
+                "HTA bodies may fund only a subgroup"
+              ],
+              "answer": 3,
+              "explanation": "NICE and NCPE narrowed to secondary prevention."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where do mixed omega-3 products sit in the guidelines?",
+              "options": [
+                "Class IIa like Vazkepa, for patients after a heart attack",
+                "Class I for post-MI",
+                "No heart-prevention recommendation",
+                "Class IIb for diabetes"
+              ],
+              "answer": 2,
+              "explanation": "Triglyceride lowering only."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ipe-b1",
+      "level": "block",
+      "covers": [
+        "ipe-l01-at-a-glance",
+        "ipe-l02-how-it-works",
+        "ipe-l03-history"
+      ],
+      "summary": {
+        "title": "The medicine and its story",
+        "points": [
+          "Purified EPA at 4 g, distinct from mixed omega-3 at 1 g.",
+          "A benefit beyond triglycerides, with an unresolved mechanism.",
+          "Approved on its own outcome trial; the mineral-oil question persists.",
+          "Approval needed reimbursement; Recordati took over in 2025."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "An investor asks why Recordati paid for Vazkepa when omega-3s 'failed'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the strongest answer?",
+              "options": [
+                "Omega-3s never failed in the EU",
+                "It has a triglyceride indication only, so no heart claims apply",
+                "Vazkepa has its own positive outcome trial",
+                "It's a generic"
+              ],
+              "answer": 2,
+              "explanation": "Mixed omega-3 at 1 g lost its post-MI use; Vazkepa didn't."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the main evidence risk for the asset?",
+              "options": [
+                "The mineral-oil placebo debate",
+                "No EU licence",
+                "A pending withdrawal",
+                "Lack of any outcome trial for the EU indication"
+              ],
+              "answer": 0,
+              "explanation": "A neutral-placebo trial could cut either way."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What limited early sales after approval?",
+              "options": [
+                "A second EMA review",
+                "A ban in France",
+                "Manufacturing shortages at the Irish release site",
+                "Country-by-country reimbursement"
+              ],
+              "answer": 3,
+              "explanation": "About 20 dossiers."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Link mechanism to the evidence debate.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why does the TG puzzle matter for the placebo debate?",
+              "options": [
+                "There is no puzzle",
+                "If TG doesn't explain the benefit, critics ask what does",
+                "TG explains all of it",
+                "TG rose on the drug"
+              ],
+              "answer": 1,
+              "explanation": "EPA levels, anti-inflammatory effects, or a placebo shift."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which link is suggestive but not proof?",
+              "options": [
+                "REDUCE-IT's primary result",
+                "The 2018 omega-3 review",
+                "Higher EPA levels with lower risk",
+                "STRENGTH's neutral result with a corn-oil placebo"
+              ],
+              "answer": 2,
+              "explanation": "An on-treatment analysis."
+            },
+            {
+              "type": "self-check",
+              "prompt": "In your own words: why did the EMA remove mixed omega-3's heart indication but approve Vazkepa?",
+              "modelAnswer": "The mixed products' post-heart-attack approval rested on an open-label 1999 trial that later data didn't confirm, so the benefit wasn't shown. Vazkepa is a different product at a higher dose, and its approval rested on its own double-blind outcome trial, REDUCE-IT, which was positive."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ipe-b2",
+      "level": "block",
+      "covers": [
+        "ipe-l04-approved-uses",
+        "ipe-l05-strengths-products",
+        "ipe-l06-how-taken"
+      ],
+      "summary": {
+        "title": "The label in practice",
+        "points": [
+          "Five gates; trial entry was narrower than the label on LDL and TG.",
+          "Four capsules a day with food; sorbitol, maltitol, soya lecithin.",
+          "No dose changes; monitor bleeding, AF and liver enzymes where relevant.",
+          "Allergy and fructose rules; SmPC wins on breastfeeding."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A 70-year-old with prior stroke, on atorvastatin and clopidogrel, TG 1.9, LDL 2.2, peanut allergy.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Can he take Vazkepa?",
+              "options": [
+                "No: peanut allergy rules it out",
+                "Yes, all gates are met",
+                "Only at half dose",
+                "Yes, with an antihistamine"
+              ],
+              "answer": 0,
+              "explanation": "Soya lecithin in the capsule."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Without the allergy, what would need watching?",
+              "options": [
+                "Kidney function weekly",
+                "Bleeding with clopidogrel",
+                "Atorvastatin levels, which EPA raises markedly",
+                "LDL rising sharply"
+              ],
+              "answer": 1,
+              "explanation": "Monitor periodically."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Would he fit the indication otherwise?",
+              "options": [
+                "No: stroke isn't CVD",
+                "No: TG must be above 5.6",
+                "No: he needs diabetes",
+                "Yes: on a statin, CVD, TG ≥1.7"
+              ],
+              "answer": 3,
+              "explanation": "Established CVD includes stroke."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A pharmacist reviews Vazkepa for a patient with hereditary fructose intolerance.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What applies?",
+              "options": [
+                "Don't use it (sorbitol and maltitol)",
+                "Use the blister packs, which contain less sorbitol",
+                "Use with food",
+                "No issue"
+              ],
+              "answer": 0,
+              "explanation": "About 332 mg sorbitol a day."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What about a fish allergy?",
+              "options": [
+                "No relevance",
+                "Contraindicated, like soya and peanut allergy",
+                "Double the dose",
+                "Use with caution"
+              ],
+              "answer": 3,
+              "explanation": "Unknown whether risk is higher."
+            },
+            {
+              "type": "mcq",
+              "prompt": "And swallowing difficulty?",
+              "options": [
+                "Crush them into food",
+                "Capsules must be swallowed whole",
+                "Chew them",
+                "Open and drink the oil"
+              ],
+              "answer": 1,
+              "explanation": "Don't break, crush, dissolve or chew."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ipe-b3",
+      "level": "block",
+      "covers": [
+        "ipe-l07-reading-a-trial",
+        "ipe-l08-pivotal-trials",
+        "ipe-l09-combination-trials",
+        "ipe-l10-cv-outcomes"
+      ],
+      "summary": {
+        "title": "The evidence",
+        "points": [
+          "REDUCE-IT positive (HR 0.75), including stroke and CV death; all-cause death not significant.",
+          "STRENGTH neutral (HR 0.99) with a different product and placebo.",
+          "Placebo debate unresolved; between-trial heterogeneity prevents a clean answer.",
+          "Combination evidence is indirect, from REDUCE-IT's background."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A cardiologist asks if the evidence covers her patient on a PCSK9 inhibitor.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the honest answer?",
+              "options": [
+                "Yes, from STRENGTH",
+                "It's contraindicated",
+                "No direct evidence",
+                "Yes, from a REDUCE-IT sub-study"
+              ],
+              "answer": 2,
+              "explanation": "PCSK9 users were excluded."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's REDUCE-IT's NNT?",
+              "options": [
+                "About 210",
+                "About 4",
+                "About 63",
+                "About 21 over 4.9 years"
+              ],
+              "answer": 3,
+              "explanation": "From 22.0% vs 17.2%."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which event did NOT fall significantly?",
+              "options": [
+                "Stroke",
+                "Heart attack",
+                "Death from any cause",
+                "CV death"
+              ],
+              "answer": 2,
+              "explanation": "HR 0.87."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Explain the evidence to a sceptical payer.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which explanation for REDUCE-IT vs STRENGTH is proven?",
+              "options": [
+                "None of them",
+                "Higher EPA levels explain it",
+                "The placebo explains it",
+                "EPA alone works; DHA blocks it"
+              ],
+              "answer": 0,
+              "explanation": "Each has supporters."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why does the US subgroup matter?",
+              "options": [
+                "It was excluded",
+                "Its larger effect fed the placebo debate",
+                "It was the only positive region in the whole trial",
+                "It showed harm"
+              ],
+              "answer": 1,
+              "explanation": "The regional difference wasn't significant."
+            },
+            {
+              "type": "self-check",
+              "prompt": "In your own words: why is the choice of placebo oil so important here?",
+              "modelAnswer": "For oil capsules the placebo must also be an oil. If that oil isn't inert, the result measures the drug's effect plus any harm from the placebo. REDUCE-IT's mineral oil was linked to rises in LDL and CRP in the placebo arm, so part of the difference might come from the placebo group doing worse."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ipe-b4",
+      "level": "block",
+      "covers": [
+        "ipe-l11-side-effects",
+        "ipe-l12-contraindications-interactions",
+        "ipe-l13-pharmacovigilance",
+        "ipe-l14-esc-guidelines"
+      ],
+      "summary": {
+        "title": "Safety, payers and guidelines",
+        "points": [
+          "Identified risks: bleeding with antithrombotics, atrial fibrillation.",
+          "Allergies, fructose intolerance, sorbitol; few level interactions.",
+          "Additional monitoring; no PSUSA or PRAC signal found.",
+          "ESC IIa; NICE and Ireland fund secondary prevention only."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A 72-year-old with prior AF, on apixaban and a statin, after an MI; TG 2.3. England.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What are the two main risks?",
+              "options": [
+                "Rhabdomyolysis and myopathy",
+                "Liver failure and QT",
+                "Bleeding and recurrent AF",
+                "Hypoglycaemia and gout"
+              ],
+              "answer": 2,
+              "explanation": "Both are identified risks in the RMP."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Would NICE fund it for him?",
+              "options": [
+                "Only with diabetes",
+                "No: AF excludes him",
+                "No: only primary prevention is funded by NICE",
+                "Likely yes, if LDL is 1.04–2.60"
+              ],
+              "answer": 3,
+              "explanation": "Secondary prevention."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does ESC say?",
+              "options": [
+                "IIa",
+                "IIb",
+                "I",
+                "III"
+              ],
+              "answer": 0,
+              "explanation": "Should be considered."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Compare how safety evolved for Vazkepa and mixed omega-3.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What happened to mixed omega-3 in 2018?",
+              "options": [
+                "Given a black triangle",
+                "Post-MI use removed for lack of benefit",
+                "Withdrawn for bleeding risk after a PRAC review",
+                "Approved for heart failure"
+              ],
+              "answer": 1,
+              "explanation": "No new safety issue."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's Vazkepa's status?",
+              "options": [
+                "Under additional monitoring",
+                "Conditional approval",
+                "Over the counter",
+                "Withdrawn"
+              ],
+              "answer": 0,
+              "explanation": "Black triangle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which RMP category are bleeding and AF in?",
+              "options": [
+                "None",
+                "Important potential risks",
+                "Missing information",
+                "Important identified risks"
+              ],
+              "answer": 3,
+              "explanation": "Confirmed by REDUCE-IT."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-ipe-m",
+      "level": "module",
+      "covers": [
+        "ipe-l01-at-a-glance",
+        "ipe-l02-how-it-works",
+        "ipe-l03-history",
+        "ipe-l04-approved-uses",
+        "ipe-l05-strengths-products",
+        "ipe-l06-how-taken",
+        "ipe-l07-reading-a-trial",
+        "ipe-l08-pivotal-trials",
+        "ipe-l09-combination-trials",
+        "ipe-l10-cv-outcomes",
+        "ipe-l11-side-effects",
+        "ipe-l12-contraindications-interactions",
+        "ipe-l13-pharmacovigilance",
+        "ipe-l14-esc-guidelines",
+        "ipe-l15-recap"
+      ],
+      "summary": {
+        "title": "Icosapent ethyl: the whole picture",
+        "points": [
+          "Purified EPA 4 g/day for statin-treated high-risk adults with TG ≥1.7 mmol/L.",
+          "Benefit beyond triglycerides; mechanism not fully understood.",
+          "REDUCE-IT HR 0.75, including stroke and CV death; STRENGTH neutral; placebo debated.",
+          "Risks: bleeding with antithrombotics, AF; allergy and sorbitol rules.",
+          "Licence, ESC IIa, and payers narrowing to secondary prevention.",
+          "Mixed omega-3: triglycerides only; Recordati now holds Vazkepa."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You're assessing an omega-3 in-licensing opportunity in MENA.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which product type has heart-outcome evidence?",
+              "options": [
+                "Any omega-3 supplement",
+                "Purified EPA 4 g (Vazkepa)",
+                "Mixed EPA+DHA 1 g",
+                "EPA+DHA 4 g (Epanova)"
+              ],
+              "answer": 1,
+              "explanation": "STRENGTH and the 2018 review cut the others."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What would payers likely restrict to?",
+              "options": [
+                "All patients with high triglycerides, whatever their risk",
+                "Patients not on statins",
+                "Secondary prevention, LDL-controlled patients",
+                "Children"
+              ],
+              "answer": 2,
+              "explanation": "As NICE and Ireland did."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which risk communication is essential?",
+              "options": [
+                "Kidney damage",
+                "Liver failure",
+                "Hypoglycaemia",
+                "Bleeding with antithrombotics and AF"
+              ],
+              "answer": 3,
+              "explanation": "The identified risks."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A patient story: 64, prior MI, on a statin and aspirin, TG 2.6, LDL 1.9, history of AF.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Does he fit the label?",
+              "options": [
+                "Yes",
+                "No: needs diabetes",
+                "No: AF excludes him",
+                "No: LDL must be higher"
+              ],
+              "answer": 0,
+              "explanation": "All gates met."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What do you monitor?",
+              "options": [
+                "Blood sugar",
+                "Kidney function",
+                "Bleeding and AF symptoms",
+                "LDL rising"
+              ],
+              "answer": 2,
+              "explanation": "Aspirin plus prior AF."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How should he take it?",
+              "options": [
+                "Two weekly",
+                "Two capsules twice a day with meals",
+                "One capsule at night",
+                "Four capsules once a day on an empty stomach"
+              ],
+              "answer": 1,
+              "explanation": "Swallowed whole."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

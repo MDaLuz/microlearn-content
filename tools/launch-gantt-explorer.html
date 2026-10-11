@@ -6,7 +6,8 @@
 <title>Launch Gantt Explorer</title>
 <style>html{color-scheme:light}body{margin:0;font-size:14px}img{max-width:100%}[hidden]{display:none!important}</style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<!-- Non-blocking: loads as print-only, then switches to all media once fetched, so the page paints at once with system fonts and swaps when (if) the web fonts arrive. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
 <style>
 /* Layout: control rail left, live Gantt + readout right; stacks on phones. Phase colours match the course diagrams. */
 :root{

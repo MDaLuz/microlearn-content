@@ -3,7 +3,7 @@
   "id": "gl-m8-artworks",
   "title": "Generics & launch 8: Artworks",
   "discipline": "Generics & launch",
-  "version": 2,
+  "version": 3,
   "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
   "lessons": [
     {
@@ -185,13 +185,13 @@
         },
         {
           "type": "image",
-          "src": "assets/gl-m8/bluebox-braille-placeholder.svg",
-          "alt": "Schematic carton with a framed Blue Box area for national particulars, and a panel of embossed Braille dots for the product name",
-          "caption": "Blue Box and Braille",
+          "src": "assets/gl-m8/bluebox-braille-schematic.svg",
+          "alt": "Fictional Examplor 20 mg carton: Braille on the top flap, a Blue Box of national particulars and a 2D code on the side, and the common text on the front",
+          "caption": "Blue Box and Braille on an EU carton (schematic)",
           "credit": "Compound (own diagram)",
           "license": "own",
           "zoomable": true,
-          "aspectRatio": 2.105
+          "aspectRatio": 1.688
         },
         {
           "type": "image",
@@ -251,7 +251,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 56a (Braille), Art. 57 (national particulars).\n2. **EU guidance** — CMDh, 'Blue Box' requirements; European Commission guideline on the readability of labelling and package leaflets (Braille).\n3. **Image** — own diagram; anonymised carton mock-up showing Braille (own material). A Blue Box example is still to be added."
+          "markdown": "## Sources\n\n1. **EU law** — Directive 2001/83/EC, Art. 56a (Braille), Art. 57 (national particulars).\n2. **EU guidance** — CMDh, 'Blue Box' requirements; European Commission guideline on the readability of labelling and package leaflets (Braille).\n3. **Image** — own schematic of a fictional product; Blue Box contents illustrative. Anonymised carton mock-up showing Braille (own material)."
         }
       ]
     },

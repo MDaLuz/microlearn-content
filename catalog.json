@@ -212,7 +212,7 @@
       "discipline": "Generics & launch",
       "description": "QRD texts, mock-ups, Blue Box, Braille, user testing, serialisation, workflow",
       "file": "modules/gl-m8-artworks.json",
-      "version": 2,
+      "version": 3,
       "lessonCount": 8,
       "estimatedMinutes": 55,
       "accentColor": "#7C8792"

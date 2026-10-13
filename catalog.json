@@ -223,7 +223,7 @@
       "discipline": "Generics & launch",
       "description": "The end-to-end Gantt, its phases, the critical path, PM tools and the capstone",
       "file": "modules/gl-m9-launch-chronology.json",
-      "version": 5,
+      "version": 6,
       "lessonCount": 10,
       "estimatedMinutes": 60,
       "accentColor": "#7C8792"

@@ -3,7 +3,7 @@
   "id": "gl-m9-launch-chronology",
   "title": "Generics & launch 9: A typical launch chronology",
   "discipline": "Generics & launch",
-  "version": 5,
+  "version": 6,
   "disclaimer": "An educational course for project management of generic launches. It is not regulatory, legal or quality advice: EU rules are the anchor, and national and company practice vary.",
   "lessons": [
     {
@@ -657,7 +657,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **Practice** — standard PM tools (labelled as practice).\n2. **Case** — Project Kestrel, a synthetic launch written for this course. All names, dates and figures are invented.\n3. **Workbook** — the same tables, with formulas and blank copies, are in the Launch PM toolkit workbook (Excel)."
+          "markdown": "## Sources\n\n1. **Practice** — standard PM tools (labelled as practice).\n2. **Case** — Project Kestrel, a synthetic launch written for this course. All names, dates and figures are invented.\n3. **Workbook** — the same tables, with formulas and blank copies, are in the [Launch PM toolkit workbook (Excel)](https://mdaluz.github.io/microlearn-content/assets/gl-m9/launch-pm-toolkit-kestrel.xlsx)."
         }
       ]
     },
@@ -762,7 +762,7 @@
         },
         {
           "type": "text",
-          "markdown": "## Sources\n\n1. **Course** — Modules 0–9.\n2. **Case** — Project Kestrel, a synthetic launch written for this course. All names, dates and figures are invented. The full tracker is in the Launch PM toolkit workbook (Excel)."
+          "markdown": "## Sources\n\n1. **Course** — Modules 0–9.\n2. **Case** — Project Kestrel, a synthetic launch written for this course. All names, dates and figures are invented. The full tracker is in the [Launch PM toolkit workbook (Excel)](https://mdaluz.github.io/microlearn-content/assets/gl-m9/launch-pm-toolkit-kestrel.xlsx)."
         }
       ]
     }

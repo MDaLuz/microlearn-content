@@ -1,0 +1,788 @@
+{
+  "moduleId": "tr-m7-cardio",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "tr7-b1",
+      "title": "Intensity: easy to hard",
+      "lessons": [
+        "tr7-l01-zones",
+        "tr7-l02-easy",
+        "tr7-l03-intervals"
+      ]
+    },
+    {
+      "id": "tr7-b2",
+      "title": "Conditioning, steps and the week",
+      "lessons": [
+        "tr7-l04-kb-conditioning",
+        "tr7-l05-steps",
+        "tr7-l06-cardio-plan"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-tr7-l01",
+      "level": "lesson",
+      "covers": [
+        "tr7-l01-zones"
+      ],
+      "summary": {
+        "title": "Heart-rate zones",
+        "points": [
+          "Maximum heart rate ≈ 208 − 0.7 × age; individuals can differ by 10+ beats.",
+          "Five zones from 50–60% to 90–100% of maximum.",
+          "Zone 2 (60–70%): full sentences. Zone 4 (80–90%): a few words.",
+          "The talk test works without a monitor."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You're 40.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's your estimated maximum heart rate?",
+              "options": [
+                "About 140 beats a minute",
+                "About 220 beats a minute, using the classic 220 minus age",
+                "About 180 beats a minute",
+                "Exactly 175, with no individual variation"
+              ],
+              "answer": 2,
+              "explanation": "208 − 0.7 × 40 = 180."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Roughly what heart rate is zone 2 for you?",
+              "options": [
+                "About 160–175 beats a minute, near the top of your range",
+                "About 108–126 beats a minute",
+                "About 180 beats a minute",
+                "About 60–70 beats a minute"
+              ],
+              "answer": 1,
+              "explanation": "60–70% of 180."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You have no heart-rate monitor on a bike ride.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do you know you're in zone 2?",
+              "options": [
+                "You can talk in full sentences",
+                "You feel dizzy",
+                "You're sweating",
+                "You can only say a few words between breaths"
+              ],
+              "answer": 0,
+              "explanation": "The talk test."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How exact are the zone borders?",
+              "options": [
+                "Identical for all ages",
+                "Set by law",
+                "Exact to the beat for everyone, by definition",
+                "Rough; definitions vary"
+              ],
+              "answer": 3,
+              "explanation": "Use them as guides."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr7-l02",
+      "level": "lesson",
+      "covers": [
+        "tr7-l02-easy"
+      ],
+      "summary": {
+        "title": "Easy steady cardio",
+        "points": [
+          "Easy cardio builds heart, lungs and vessels and is easy to recover from.",
+          "WHO: 150–300 min moderate or 75–150 min vigorous a week; a vigorous minute counts about double.",
+          "Sport and active commuting often cover much of it.",
+          "20–40 minutes of brisk walking or easy cycling counts."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your week: 60 min of football and 2 × 30 min cycling to work.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do you stand against the WHO range?",
+              "options": [
+                "Around or above the bottom of it",
+                "Way above the top",
+                "It can't be judged",
+                "Far below, because sport and commuting don't count as cardio"
+              ],
+              "answer": 0,
+              "explanation": "Football adds vigorous minutes that count about double."
+            },
+            {
+              "type": "mcq",
+              "prompt": "If you were under 150 moderate-equivalent minutes, what would you add first?",
+              "options": [
+                "Three extra HIIT sessions on strength days",
+                "Easy walking or cycling",
+                "Longer strength sessions",
+                "Nothing"
+              ],
+              "answer": 1,
+              "explanation": "Easy cardio adds without stealing recovery."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend thinks cardio only counts in a gym.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does count?",
+              "options": [
+                "Only running",
+                "Only treadmill sessions longer than an hour",
+                "Sport, cycling and brisk walking",
+                "Only classes"
+              ],
+              "answer": 2,
+              "explanation": "Moderate-to-vigorous movement counts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why keep some cardio easy?",
+              "options": [
+                "Easy cardio burns more fat than any other intensity",
+                "Hard cardio is dangerous",
+                "It replaces strength training",
+                "It adds activity without stealing recovery from strength work"
+              ],
+              "answer": 3,
+              "explanation": "And it helps recovery between hard days."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr7-l03",
+      "level": "lesson",
+      "covers": [
+        "tr7-l03-intervals"
+      ],
+      "summary": {
+        "title": "Intervals and HIIT",
+        "points": [
+          "HIIT: hard efforts with easy recovery, e.g. 4 × 4 min hard, 3 min easy.",
+          "Both HIIT and steady cardio raise VO2max; HIIT slightly more (2015).",
+          "Similar fat and waist loss; HIIT about 40% less time (2017).",
+          "Hard sport often counts as interval work.",
+          "One or two sessions a week is plenty."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You play tennis hard twice a week.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Do you need extra HIIT?",
+              "options": [
+                "Yes, every day",
+                "Probably not: tennis already gives hard efforts",
+                "No cardio of any kind is needed",
+                "Yes, at least three HIIT sessions a week on top"
+              ],
+              "answer": 1,
+              "explanation": "Count hard sport as interval work."
+            },
+            {
+              "type": "mcq",
+              "prompt": "If you add one interval session, where?",
+              "options": [
+                "Away from strength sessions, or at least 3 h apart",
+                "Twice on strength days",
+                "Straight after a hard leg session to save time",
+                "The day before a match"
+              ],
+              "answer": 0,
+              "explanation": "Protect strength quality."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend says HIIT 'burns fat for 24 hours' and beats steady cardio.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What did the 2017 meta-analysis find?",
+              "options": [
+                "Steady cardio caused fat gain",
+                "HIIT had no effect",
+                "Twice the fat loss with HIIT in every study",
+                "Similar fat loss, less time with HIIT"
+              ],
+              "answer": 3,
+              "explanation": "A time-saver, not a secret."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does VO2max measure?",
+              "options": [
+                "Your body-fat percentage",
+                "Your strength",
+                "The maximum rate your body can use oxygen",
+                "Your maximum heart rate during a sprint"
+              ],
+              "answer": 2,
+              "explanation": "A key measure of aerobic fitness."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr7-l04",
+      "level": "lesson",
+      "covers": [
+        "tr7-l04-kb-conditioning"
+      ],
+      "summary": {
+        "title": "Kettlebell conditioning",
+        "points": [
+          "Swings raise heart rate a lot: about 87% of max in one small study.",
+          "Oxygen use was lower, about 65%: hard conditioning, not pure cardio.",
+          "Formats: swing intervals, complexes, EMOMs.",
+          "Use 5–10 minutes as a finisher; stop when technique breaks.",
+          "Evidence on kettlebells overall is limited."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You plan a finisher after session A.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which fits?",
+              "options": [
+                "15 swings every minute for 10 minutes",
+                "A 45-minute swing marathon to maximise calories",
+                "No finisher ever",
+                "Heavy snatches to failure"
+              ],
+              "answer": 0,
+              "explanation": "Short, at the end, technique first."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When do you stop the set early?",
+              "options": [
+                "When the bell feels warm",
+                "Never; finish the plan whatever happens",
+                "Only when you can't stand",
+                "When the hips stop snapping and form breaks"
+              ],
+              "answer": 3,
+              "explanation": "Quality first."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your watch says 170 bpm during swings, so you count it as hard cardio.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the study suggest?",
+              "options": [
+                "Swings are pure endurance training",
+                "Heart rate overstates the aerobic demand",
+                "Swings don't raise heart rate",
+                "Heart rate and oxygen use always match exactly in any exercise"
+              ],
+              "answer": 1,
+              "explanation": "About 87% of max heart rate, about 65% of max oxygen use."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's a kettlebell complex?",
+              "options": [
+                "One move repeated for a full hour",
+                "A rest day",
+                "Several moves without putting the bell down",
+                "A stretch"
+              ],
+              "answer": 2,
+              "explanation": "e.g. swing, clean, press, squat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr7-l05",
+      "level": "lesson",
+      "covers": [
+        "tr7-l05-steps"
+      ],
+      "summary": {
+        "title": "Daily steps",
+        "points": [
+          "Movement outside workouts can use more energy than a workout.",
+          "2022 meta-analysis: more steps linked to lower risk of death.",
+          "Benefit levelled off around 8,000–10,000 a day under 60; 6,000–8,000 over 60.",
+          "Observational: linked, not proven to cause.",
+          "Use a weekly average target; steps help fat loss without fatigue."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You average 5,000 steps on desk days.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's a sensible target?",
+              "options": [
+                "A weekly average of about 8,000–10,000",
+                "No target; steps don't matter",
+                "At least 25,000 every single day",
+                "Exactly 10,000 every day, or the day doesn't count"
+              ],
+              "answer": 0,
+              "explanation": "Where the benefit levelled off for under-60s."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which habit adds steps most easily?",
+              "options": [
+                "Running a marathon at the weekend",
+                "A 10-minute walk after meals",
+                "Driving shorter trips",
+                "Standing still at the desk"
+              ],
+              "answer": 1,
+              "explanation": "Small, repeatable walks."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend says the steps data prove walking makes you live longer.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the careful statement?",
+              "options": [
+                "Each step adds exactly one minute to your life",
+                "Only running counts",
+                "More steps are linked to lower risk; it's observational",
+                "Steps have no link with health"
+              ],
+              "answer": 2,
+              "explanation": "Association, not proof."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why do steps suit a strength-and-fat-loss plan?",
+              "options": [
+                "They need a gym",
+                "They build maximal strength",
+                "They replace strength training completely",
+                "They add energy use without much fatigue"
+              ],
+              "answer": 3,
+              "explanation": "No competition with strength sessions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr7-l06",
+      "level": "lesson",
+      "covers": [
+        "tr7-l06-cardio-plan"
+      ],
+      "summary": {
+        "title": "Cardio in your week",
+        "points": [
+          "Your sport is your cardio base, and often your interval work.",
+          "Add easy cardio if under 150 moderate-equivalent minutes.",
+          "Intervals sparingly, only if sport gives no hard efforts.",
+          "Keep hard cardio and hard legs ≥3 h apart; no hard legs the day before a match.",
+          "For fat loss, steps and food beat extra hard cardio."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You want faster fat loss and already play tennis twice a week.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the best cardio change?",
+              "options": [
+                "Three extra HIIT sessions on top of tennis and strength",
+                "Daily long runs",
+                "More daily steps and some easy cycling",
+                "Dropping strength training"
+              ],
+              "answer": 2,
+              "explanation": "Adds without fatigue."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What decides most of the energy balance?",
+              "options": [
+                "Food",
+                "Stretching",
+                "The type of cardio, as long as it's HIIT",
+                "Supplements"
+              ],
+              "answer": 0,
+              "explanation": "Module 9."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You plan a hard interval run on Friday evening and legs on Saturday morning.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the issue?",
+              "options": [
+                "None; order and spacing never matter for anything",
+                "Running is banned before legs",
+                "Intervals should always be done after legs",
+                "Hard sessions stacked too close together"
+              ],
+              "answer": 3,
+              "explanation": "Spread hard efforts out."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the priority on non-sport days?",
+              "options": [
+                "Hard cardio to make up for the missed sport",
+                "Strength sessions",
+                "Rest only",
+                "Stretching only"
+              ],
+              "answer": 1,
+              "explanation": "Strength first; cardio fits around it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr7-b1",
+      "level": "block",
+      "covers": [
+        "tr7-l01-zones",
+        "tr7-l02-easy",
+        "tr7-l03-intervals"
+      ],
+      "summary": {
+        "title": "Intensity: easy to hard",
+        "points": [
+          "Zones by share of max heart rate (≈ 208 − 0.7 × age); talk test as shortcut.",
+          "Easy cardio is the base; WHO 150–300 moderate minutes a week.",
+          "HIIT: similar fat loss in less time; slightly more VO2max.",
+          "Hard sport often counts as intervals."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Design a cardio week around football (Tue) and tennis (Sat).",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the cardio base?",
+              "options": [
+                "The two sports plus easy walking or cycling",
+                "Nothing; sport doesn't count",
+                "Only treadmill zone 2 for an hour daily",
+                "Three HIIT sessions on top of both sports"
+              ],
+              "answer": 0,
+              "explanation": "Sport covers hard efforts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where does zone 2 come from?",
+              "options": [
+                "The hardest minutes of football matches",
+                "Heavy squats",
+                "Swings",
+                "Easy rides, walks, easy runs"
+              ],
+              "answer": 3,
+              "explanation": "Full-sentence pace."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain why HIIT isn't a fat-burning secret.",
+              "modelAnswer": "Meta-analyses found HIIT and steady cardio gave similar fat and waist loss; HIIT just took about 40% less time. It's a time-saver, and food decides most of the energy balance."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend estimates max heart rate with 220 − age and trains exactly to the beat.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the caution?",
+              "options": [
+                "Formulas are exact for every person",
+                "Heart rate can't be estimated",
+                "Formulas are estimates with 10+ beats of error",
+                "Only 220 − age is valid"
+              ],
+              "answer": 2,
+              "explanation": "Use zones as guides, with the talk test."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which formula does the course use?",
+              "options": [
+                "200 + age",
+                "208 − 0.7 × age",
+                "220 − age, adjusted for weight",
+                "180 flat for everyone"
+              ],
+              "answer": 1,
+              "explanation": "Tanaka's estimate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr7-b2",
+      "level": "block",
+      "covers": [
+        "tr7-l04-kb-conditioning",
+        "tr7-l05-steps",
+        "tr7-l06-cardio-plan"
+      ],
+      "summary": {
+        "title": "Conditioning, steps and the week",
+        "points": [
+          "Kettlebell formats make short, hard finishers; stop when form breaks.",
+          "Steps: weekly average about 8,000–10,000; linked to lower mortality.",
+          "Keep sport; add steps and easy cardio; intervals sparingly.",
+          "Space hard efforts; strength first on non-sport days."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You have 8 spare minutes after session A.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's a good use?",
+              "options": [
+                "A 45-minute run straight away",
+                "Nothing; finishers never help",
+                "A swing EMOM with crisp technique",
+                "Heavy snatches to failure"
+              ],
+              "answer": 2,
+              "explanation": "Short, technical, optional."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the easiest everyday lever for fat loss?",
+              "options": [
+                "Daily steps",
+                "Ice baths",
+                "Stretching",
+                "Extra HIIT on every strength day"
+              ],
+              "answer": 0,
+              "explanation": "Adds energy use without fatigue."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Write your weekly cardio rules in one sentence.",
+              "modelAnswer": "Keep football and tennis as the base, walk to an average of about 8,000–10,000 steps a day, add easy rides if I'm under 150 moderate minutes, use swings only as a short finisher, and keep hard efforts away from strength days and match eves."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend plans daily HIIT for fat loss and stops lifting.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the risk?",
+              "options": [
+                "Faster fat loss with no downsides at all",
+                "Fatigue and muscle loss with little extra fat loss",
+                "No change",
+                "More muscle"
+              ],
+              "answer": 1,
+              "explanation": "Lifting protects muscle; food drives the deficit."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What would you suggest?",
+              "options": [
+                "HIIT twice a day and no lifting",
+                "Only stretching",
+                "Only supplements",
+                "Lifting 2–3×, steps, easy cardio, a moderate deficit"
+              ],
+              "answer": 3,
+              "explanation": "The Module 1 and 7 plan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr7-m",
+      "level": "module",
+      "covers": [
+        "tr7-l01-zones",
+        "tr7-l02-easy",
+        "tr7-l03-intervals",
+        "tr7-l04-kb-conditioning",
+        "tr7-l05-steps",
+        "tr7-l06-cardio-plan"
+      ],
+      "summary": {
+        "title": "Cardio and conditioning: the whole picture",
+        "points": [
+          "Zones from max heart rate (≈ 208 − 0.7 × age); the talk test is enough most days.",
+          "Most cardio easy; WHO 150–300 moderate minutes a week.",
+          "HIIT saves time with similar fat loss; hard sport counts.",
+          "Kettlebell finishers are short and technical.",
+          "Steps are the everyday lever; benefit levels off around 8,000–10,000 under 60.",
+          "Keep sport, add steps, space hard efforts, strength first."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You plan your cardio for the next 12 weeks.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the base?",
+              "options": [
+                "Daily HIIT, since it's the most time-efficient",
+                "Sport plus easy walking or cycling",
+                "Long runs only",
+                "No cardio; strength covers it"
+              ],
+              "answer": 1,
+              "explanation": "Easy and sport-based."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How many extra interval sessions?",
+              "options": [
+                "Four a week on top of sport",
+                "Always zero, even without sport",
+                "None or one a week, if sport lacks hard efforts",
+                "Two a day"
+              ],
+              "answer": 2,
+              "explanation": "Sparingly."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which target do you track daily?",
+              "options": [
+                "Steps, as a weekly average",
+                "Calories burned according to a watch",
+                "Maximum heart rate",
+                "Stretch time"
+              ],
+              "answer": 0,
+              "explanation": "About 8,000–10,000."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your old habit was mostly cardio and little strength.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What changes?",
+              "options": [
+                "Everything becomes HIIT",
+                "Cardio stays the priority and strength is dropped",
+                "Cardio disappears completely",
+                "Strength becomes the priority; cardio fits around it"
+              ],
+              "answer": 3,
+              "explanation": "Sport and steps remain."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How do you judge easy pace without a watch?",
+              "options": [
+                "Silent",
+                "Full sentences",
+                "A few words only",
+                "Breathless"
+              ],
+              "answer": 1,
+              "explanation": "The talk test."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain how your sport counts in this plan.",
+              "modelAnswer": "Football and tennis add vigorous minutes, which count about double towards the WHO range, and provide repeated hard efforts like intervals. So I keep them as my cardio base, add steps and easy cardio, and don't need extra HIIT."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 6,
+  "id": "tr-m8-mobility",
+  "title": "Training 8: Core, mobility, stretching and yoga",
+  "discipline": "Training",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "tr8-l01-core-role",
+      "title": "What the core really does",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Stopping movement, more than making it\n\nThe **core** is the muscles around your trunk: abdominals, obliques, the deep muscles of the spine and the hips. In daily life and in lifting, its main job is to keep the trunk steady while the arms and legs move, and to transfer force between them."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m8/core-jobs.svg",
+          "alt": "Three core jobs: anti-extension, resisting lower-back arching (plank); anti-rotation, resisting twisting (Pallof press); anti-lateral flexion, resisting side bending (suitcase carry).",
+          "caption": "Three jobs of the core",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Three 'anti' jobs (practice framework)\n\n- **Anti-extension:** resisting arching of the lower back, as in planks and dead bugs.\n- **Anti-rotation:** resisting twisting, as in Pallof presses and renegade rows.\n- **Anti-lateral flexion:** resisting bending sideways, as in side planks and suitcase carries.\n\nCrunches and sit-ups train the abs too, but they aren't necessary. This is a coaching framework rather than a guideline."
+        },
+        {
+          "type": "text",
+          "markdown": "## The core is already working\n\nSquats, deadlifts, carries, push-ups and presses all load the core. That's why a few targeted exercises a week are enough on top of a full-body programme."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** you don't need long ab sessions. Two or three core exercises a week, one for each 'anti' job, plus your compound lifts and carries, cover it."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr8-l01-core-role-fc1",
+              "front": "Core",
+              "back": "Muscles around the trunk (abs, obliques, deep spine muscles, hips) that keep it steady and transfer force."
+            },
+            {
+              "id": "tr8-l01-core-role-fc2",
+              "front": "Three anti-movements",
+              "back": "Anti-extension (plank), anti-rotation (Pallof press), anti-lateral flexion (side plank, suitcase carry)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr8-l01-core-role-q1",
+              "stem": "Which exercise trains anti-rotation?",
+              "options": [
+                "Crunch",
+                "Pallof press",
+                "Goblet squat",
+                "Calf raise"
+              ],
+              "correctIndex": 1,
+              "explanation": "You resist the band pulling you into a twist."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — core training as 'anti-movement' (e.g. the approach popularised by McGill); a coaching framework.\n2. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr8-l02-core-exercises",
+      "title": "Core exercises",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Five that cover everything\n\nWith a mat and a band, five exercises cover all three core jobs. Pick two or three per week, and progress them like any other exercise: longer holds, harder versions, or slower reps."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m8/core-exercises.svg",
+          "alt": "Side-view figures of five core exercises: dead bug, front plank, side plank, bird dog and Pallof press with a band.",
+          "caption": "Dead bug, plank, side plank, bird dog, Pallof press",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.414
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Dead bug\n\n- Pattern: anti-extension\n- Main muscles: abdominals, deep core\n- Equipment: mat\n- Set-up: lie on your back, arms up, hips and knees bent at 90°, lower back gently pressed to the floor\n- Cues: slowly reach one arm back and the opposite leg out; keep the lower back down; breathe out as you reach\n- Common errors: back arching off the floor; moving too fast\n- Easier / harder: easier: move only the legs; harder: straighter legs, slower, a light weight in the hands\n- Starting load: bodyweight; 6–10 slow reps each side"
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Front plank\n\n- Pattern: anti-extension\n- Main muscles: abdominals, shoulders, glutes\n- Equipment: mat\n- Set-up: forearms under the shoulders, body straight from head to heels\n- Cues: squeeze glutes and brace; push the floor away; breathe steadily\n- Common errors: hips sagging; hips piked high; holding the breath\n- Easier / harder: easier: knees down; harder: feet raised, lift one foot, longer holds\n- Starting load: hold 20–40 s with good form"
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Side plank\n\n- Pattern: anti-lateral flexion\n- Main muscles: obliques, hip muscles\n- Equipment: mat\n- Set-up: on one forearm, elbow under the shoulder, body in a straight line\n- Cues: push the hips up and slightly forward; stack the shoulders\n- Common errors: hips dropping or rolling back\n- Easier / harder: easier: knees bent; harder: top leg raised, longer holds\n- Starting load: hold 20–40 s each side"
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Bird dog\n\n- Pattern: anti-extension and anti-rotation\n- Main muscles: back extensors, glutes, deep core\n- Equipment: mat\n- Set-up: on hands and knees, back flat\n- Cues: reach one arm forward and the opposite leg back; hold 2 s; keep the hips level\n- Common errors: arching the back; hips tipping to one side\n- Easier / harder: easier: move only an arm or a leg; harder: slower, add a light band\n- Starting load: bodyweight; 6–10 slow reps each side"
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Pallof press\n\n- Pattern: anti-rotation\n- Main muscles: obliques, deep core\n- Equipment: a band anchored at chest height to the side\n- Set-up: stand side-on to the anchor, band held at the chest, feet hip-width\n- Cues: press the hands straight out and hold 2 s without letting the band twist you; return slowly\n- Common errors: rotating towards the anchor; leaning away\n- Easier / harder: easier: lighter band, stand closer; harder: stronger band, kneeling or split stance\n- Starting load: a band that allows 8–12 controlled reps each side"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** pick two core exercises per session from different jobs, for example a dead bug and a side plank, and progress them over the block."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr8-l02-core-exercises-fc1",
+              "front": "Plank holds",
+              "back": "20–40 s with good form beats long sagging holds; progress with harder versions."
+            },
+            {
+              "id": "tr8-l02-core-exercises-fc2",
+              "front": "Pallof press cue",
+              "back": "Press out and hold without letting the band twist you."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr8-l02-core-exercises-q1",
+              "stem": "Your front plank hips sag after 40 seconds. What's the best progression choice?",
+              "options": [
+                "Hold for 3 minutes anyway",
+                "Keep 20–40 s good holds and progress with harder versions",
+                "Switch to crunches",
+                "Hold your breath"
+              ],
+              "correctIndex": 1,
+              "explanation": "Quality holds, then harder variations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — core exercise technique as taught in strength coaching.\n2. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr8-l03-warmup",
+      "title": "Warm-ups that prepare you",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Warm, not tired\n\nA warm-up should raise body temperature, wake up the muscles you'll use and rehearse the movements, without draining energy. A 2010 meta-analysis found that warming up improved performance in most of the outcomes studied."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m8/ramp-warmup.svg",
+          "alt": "Four steps of a RAMP warm-up over about 5 minutes: raise (light movement), activate (glutes and core), mobilise (hips, upper back, shoulders) and potentiate (lighter sets of the first lift).",
+          "caption": "The RAMP warm-up in 5 minutes",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.733
+        },
+        {
+          "type": "text",
+          "markdown": "## The RAMP structure (practice)\n\n1. **Raise:** 1–2 minutes of light movement, like marching, skipping or easy swings.\n2. **Activate:** a few glute bridges and dead bugs.\n3. **Mobilise:** hip openers, thoracic rotations, arm circles.\n4. **Potentiate:** two lighter sets of the first exercise, getting closer to your working weight."
+        },
+        {
+          "type": "text",
+          "markdown": "## Before sport\n\nThe same idea works before football or tennis: easy movement, a few dynamic stretches like leg swings and lunges with a twist, then short accelerations. Long static stretches right before sport aren't needed (Lesson 4)."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** use a 3–5-minute RAMP warm-up before every session, ending with lighter sets of your first lift."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr8-l03-warmup-fc1",
+              "front": "RAMP",
+              "back": "Raise, activate, mobilise, potentiate: a short warm-up structure ending with lighter sets of the first lift."
+            },
+            {
+              "id": "tr8-l03-warmup-fc2",
+              "front": "Warm-up evidence",
+              "back": "A 2010 meta-analysis found warm-ups improved performance in most outcomes studied."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr8-l03-warmup-q1",
+              "stem": "Which is the best warm-up for a 30-minute strength session?",
+              "options": [
+                "15 minutes of static stretching",
+                "A 3–5-minute RAMP ending with lighter sets of the first lift",
+                "A 20-minute run",
+                "No warm-up"
+              ],
+              "correctIndex": 1,
+              "explanation": "Short, specific, energising."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Meta-analysis** — Fradkin AJ, Zazryn TR, Smoliga JM, Effects of warming-up on physical performance, J Strength Cond Res 2010;24(1):140–148.\n2. **Practice** — Jeffreys I, the RAMP warm-up framework.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr8-l04-stretching",
+      "title": "Stretching: what it does and doesn't do",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Two kinds\n\n- **Static stretching:** hold a lengthened position, for example 30 seconds.\n- **Dynamic stretching:** move through a range repeatedly, such as leg swings or walking lunges.\n\nBoth increase range of motion in the short term, and regular stretching increases it over weeks."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m8/stretching-evidence.svg",
+          "alt": "Bars for the effect of stretching on performance right afterwards: static stretches under 60 s about −1%; static 60 s or more about −5%; dynamic about +1%. Note: injury prevention not shown.",
+          "caption": "Stretching before training: small effects",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.278
+        },
+        {
+          "type": "text",
+          "markdown": "## What the evidence says\n\n- **Performance:** in a 2016 review, static stretches held 60 seconds or more per muscle reduced performance right afterwards by about 5%; shorter holds by about 1%. Dynamic stretching improved it slightly.\n- **Injury:** static stretching showed no clear effect on injuries. Strength training, by contrast, reduced sports injuries in a 2014 meta-analysis.\n- **Soreness:** stretching barely reduces next-day soreness.\n- **Flexibility:** strength training through a full range improved range of motion about as much as stretching in a 2021 meta-analysis."
+        },
+        {
+          "type": "text",
+          "markdown": "## So when to stretch\n\nStretch if you want more range for a specific need, like a deeper squat, or because it feels good. Do longer static stretches after training or at another time, and dynamic moves before. Full-range strength training already does much of the work."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** use dynamic moves before training and sport, keep static holds short beforehand, and do longer stretches afterwards or separately, only where you need more range."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr8-l04-stretching-fc1",
+              "front": "Static stretching before training",
+              "back": "Holds of 60 s or more per muscle reduced performance by about 5%; holds under 60 s by about 1% (2016 review)."
+            },
+            {
+              "id": "tr8-l04-stretching-fc2",
+              "front": "Stretching and injuries",
+              "back": "Static stretching showed no clear injury-prevention effect; strength training reduced sports injuries."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr8-l04-stretching-q1",
+              "stem": "Which statement matches the evidence?",
+              "options": [
+                "Stretching prevents most injuries",
+                "Full-range strength training improved flexibility about as much as stretching",
+                "Stretching eliminates next-day soreness",
+                "Dynamic stretching ruins performance"
+              ],
+              "correctIndex": 1,
+              "explanation": "A 2021 meta-analysis found similar range-of-motion gains."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Review** — Behm DG, Blazevich AJ, Kay AD, McHugh M, Acute effects of muscle stretching on physical performance, range of motion, and injury incidence, Appl Physiol Nutr Metab 2016;41(1):1–11.\n2. **Meta-analysis** — Lauersen JB, Bertelsen DM, Andersen LB, The effectiveness of exercise interventions to prevent sports injuries, Br J Sports Med 2014;48(11):871–877.\n3. **Review** — Herbert RD, de Noronha M, Kamper SJ, Stretching to prevent or reduce muscle soreness after exercise, Cochrane Database Syst Rev 2011;(7):CD004577.\n4. **Meta-analysis** — Afonso J et al., Strength training versus stretching for improving range of motion, Healthcare 2021;9(4):427.\n5. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr8-l05-desk",
+      "title": "Mobility for a desk job",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Four areas that stiffen\n\nLong hours sitting tend to leave four areas stiff: the hips, the upper back, the ankles and the shoulders. Short daily drills keep them moving, and they make squats, hinges and presses feel better. This is practice rather than evidence-based treatment."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m8/desk-mobility.svg",
+          "alt": "Four panels with one drill each: hips, a half-kneeling hip flexor stretch; upper back, open-book rotations; ankles, knee-to-wall rocks; shoulders, wall slides.",
+          "caption": "Four drills for desk-stiff areas",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## A 6-minute routine\n\n1. **Hips:** half-kneeling hip-flexor stretch, 45 s each side, squeezing the back glute.\n2. **Upper back:** open-book rotations lying on your side, 8 slow reps each side.\n3. **Ankles:** knee-to-wall rocks, 10 each side, heel down.\n4. **Shoulders:** wall slides, 10 slow reps, ribs down.\n\nDo it as a break from the desk, or as the 'mobilise' part of your warm-up."
+        },
+        {
+          "type": "text",
+          "markdown": "## Move more, sit less\n\nThe simplest mobility habit is changing position often: stand for calls, walk between meetings, take the stairs. The WHO also advises reducing sedentary time."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** do the 6-minute routine on desk days, and break long sitting periods every 30–60 minutes."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr8-l05-desk-fc1",
+              "front": "Desk-stiff areas",
+              "back": "Hips (flexors), upper back (rotation), ankles (bend), shoulders (overhead reach)."
+            },
+            {
+              "id": "tr8-l05-desk-fc2",
+              "front": "Open-book rotation",
+              "back": "Lying on your side, knees bent, rotate the top arm open to the floor behind you: an upper-back mobility drill."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr8-l05-desk-q1",
+              "stem": "Which drill targets the upper back?",
+              "options": [
+                "Knee-to-wall rocks",
+                "Open-book rotations",
+                "Hip-flexor stretch",
+                "Calf raises"
+              ],
+              "correctIndex": 1,
+              "explanation": "It rotates the upper (thoracic) spine."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — training conventions used in coaching; labelled as practice in the lesson.\n2. **Guideline** — WHO guidelines on physical activity and sedentary behaviour (2020); Bull FC et al., Br J Sports Med 2020;54:1451–1462.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr8-l06-yoga",
+      "title": "Yoga for lifters",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## What yoga adds\n\nYoga combines held positions, slow movement and breathing. For lifters it adds controlled range of motion, balance and a calm way to recover. A 2022 Cochrane review found that, for chronic low back pain, yoga probably gives small improvements in function compared with no exercise, and is probably similar to other exercise. It's a useful option, not a cure."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m8/yoga-flow.svg",
+          "alt": "A 10-minute flow of eight poses with times: child's pose, cat-cow, downward dog, low lunge each side, pigeon or figure-four each side, cobra, seated forward fold, and lying twist.",
+          "caption": "A 10-minute flow for lifters",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.158
+        },
+        {
+          "type": "text",
+          "markdown": "## A 10-minute flow\n\n1. Child's pose, 1 min\n2. Cat-cow, 1 min\n3. Downward dog, 1 min\n4. Low lunge, 1 min each side\n5. Pigeon or figure-four, 1 min each side\n6. Cobra, 30 s\n7. Seated forward fold, 1 min\n8. Lying twist, 30 s each side\n\nBreathe slowly through the nose. Move into each position only as far as stays comfortable."
+        },
+        {
+          "type": "text",
+          "markdown": "## When to do it\n\nAfter strength sessions, on rest days, or in the evening. It's not a substitute for strength training, but it's a pleasant way to build mobility and wind down."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** do the 10-minute flow once or twice a week, on rest days or after training. Treat it as mobility and recovery, alongside strength work rather than instead of it."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr8-l06-yoga-fc1",
+              "front": "Yoga and back pain",
+              "back": "For chronic low back pain, yoga probably gives small improvements in function, similar to other exercise (Cochrane 2022)."
+            },
+            {
+              "id": "tr8-l06-yoga-fc2",
+              "front": "10-minute flow",
+              "back": "Child's pose, cat-cow, downward dog, low lunge, pigeon, cobra, forward fold, lying twist."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr8-l06-yoga-q1",
+              "stem": "Where does yoga fit best in your week?",
+              "options": [
+                "Instead of all strength sessions",
+                "On rest days or after training, for mobility and recovery",
+                "Right before heavy swings",
+                "Only if injured"
+              ],
+              "correctIndex": 1,
+              "explanation": "It complements strength training."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Review** — Wieland LS et al., Yoga for chronic non-specific low back pain, Cochrane Database Syst Rev 2022;(11):CD010671.\n2. **Practice** — training conventions used in coaching; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr8-l07-recap",
+      "title": "Recap: your weekly core and mobility plan",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Small doses, often\n\n- **Every session:** a 3–5-minute RAMP warm-up.\n- **Two or three times a week:** two core exercises from different jobs.\n- **Desk days:** the 6-minute mobility routine.\n- **Once or twice a week:** the 10-minute yoga flow.\n- **Throughout:** full-range strength training and daily steps."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m8/mobility-week.svg",
+          "alt": "A week grid: RAMP warm-up on strength days; core exercises on Monday, Wednesday and Friday; desk routine on weekdays; yoga flow on Thursday and Sunday.",
+          "caption": "Core and mobility through the week",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.278
+        },
+        {
+          "type": "text",
+          "markdown": "## Matching it to your sport\n\nBefore football or tennis, use a dynamic warm-up and short accelerations. After matches, a few easy minutes of the yoga flow help you wind down. Strong hips, trunk and single-leg work (Module 4) protect you more than stretching does."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** fit core and mobility into the sessions you already do: warm-up, two core moves, a desk routine and a short weekly flow. No separate long sessions are needed."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr8-l07-recap-fc1",
+              "front": "Weekly core and mobility dose",
+              "back": "RAMP warm-up every session, 2 core moves 2–3×/week, desk routine on work days, 10-minute flow 1–2×/week."
+            },
+            {
+              "id": "tr8-l07-recap-fc2",
+              "front": "Best injury protection",
+              "back": "Strength training, including single-leg and trunk work, rather than stretching alone."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr8-l07-recap-q1",
+              "stem": "What protects you most against sports injuries, according to the evidence in this module?",
+              "options": [
+                "Long static stretching before games",
+                "Strength training",
+                "Yoga alone",
+                "Skipping warm-ups"
+              ],
+              "correctIndex": 1,
+              "explanation": "Strength training reduced sports injuries in a 2014 meta-analysis."
+            },
+            {
+              "id": "tr8-l07-recap-q2",
+              "stem": "You have 5 minutes before a strength session. What do you do?",
+              "options": [
+                "Static stretching for each muscle",
+                "A RAMP warm-up ending with lighter sets of the first lift",
+                "A 10-minute yoga flow",
+                "Nothing"
+              ],
+              "correctIndex": 1,
+              "explanation": "Short, specific, energising."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Meta-analysis** — Lauersen JB et al., Br J Sports Med 2014;48(11):871–877.\n2. **Practice** — training conventions used in coaching; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "schemaVersion": 6,
+  "id": "tr-m0-foundations",
+  "title": "Training 0: How training works",
+  "discipline": "Training",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "tr0-l01-overload",
+      "title": "Why the same workout stops working",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Your body is lazy, in a useful way\n\nTraining works because the body adapts to the demands you put on it. Lift something that's hard for you, and your muscles, nerves and tendons rebuild to cope better next time. That process is **adaptation**.\n\nThe catch: once the body has adapted, the same demand is no longer hard. The workout that changed you in month one maintains you in month six."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m0/overload-vs-plateau.svg",
+          "alt": "Two lines over 12 weeks. 'Same weight, same reps' rises for a few weeks, then goes flat. 'Progressive overload' keeps climbing in small steps as the load or reps increase.",
+          "caption": "Same workout vs progressive overload",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.952
+        },
+        {
+          "type": "text",
+          "markdown": "## Progressive overload\n\nTo keep improving, the demand has to grow over time. That's **progressive overload**: small, regular increases in what you ask of the body. You can add weight, add reps, add a set, slow the movement down, or choose a harder version of the exercise. Module 6 covers every option, including what to do when your dumbbells don't go any heavier."
+        },
+        {
+          "type": "text",
+          "markdown": "## The good news\n\nThe 2026 ACSM position stand, which reviewed 137 systematic reviews, found that the biggest jump in benefit comes from going from no strength training to some. You don't need a perfect plan to start. You need a plan that gets a little harder, week by week, and that you'll actually follow."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** if your weights, reps and exercises haven't changed for months, you're maintaining, not progressing. From now on, every week should be slightly harder than the last in at least one way."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr0-l01-overload-fc1",
+              "front": "Adaptation",
+              "back": "The body rebuilds to cope better with a demand it meets repeatedly. Once adapted, the same demand no longer drives change."
+            },
+            {
+              "id": "tr0-l01-overload-fc2",
+              "front": "Progressive overload",
+              "back": "Gradually increasing the demand (weight, reps, sets, tempo or exercise difficulty) so the body keeps adapting."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr0-l01-overload-q1",
+              "stem": "You've done 3 × 12 goblet squats with the same 12 kg kettlebell every week for six months. What's most likely happening?",
+              "options": [
+                "You're still gaining strength at the same rate as in month one",
+                "You're mostly maintaining, because the demand no longer challenges you",
+                "You're losing muscle, because the reps are too high",
+                "You're overtraining, because you squat every week"
+              ],
+              "correctIndex": 1,
+              "explanation": "The body adapted to that demand months ago. To progress, something has to increase: reps, load, sets or difficulty."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Guideline** — ACSM Position Stand (Phillips SM, chair, et al.), *Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews*, Med Sci Sports Exerc, April 2026.\n2. **Guideline** — ACSM Position Stand, *Progression Models in Resistance Training for Healthy Adults*, Med Sci Sports Exerc 2009;41(3):687–708.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr0-l02-stress-recovery",
+      "title": "Stress, recovery, adaptation",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Training breaks you down first\n\nRight after a hard session, you're weaker and more tired than before. The improvement happens afterwards, during **recovery**, when the body repairs and rebuilds. Muscle building stays raised for about a day or two after a session, which is one reason training each muscle about twice a week works well."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m0/stress-recovery-adaptation.svg",
+          "alt": "Performance after one session: a dip below baseline (fatigue), a return to baseline (recovery), then a small rise above it (adaptation) that fades without a new session.",
+          "caption": "Stress, recovery, adaptation (simplified)",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.05
+        },
+        {
+          "type": "text",
+          "markdown": "## Fitness and fatigue\n\nA more accurate picture is the **fitness–fatigue model**. Every session raises two things at once: fitness, which builds slowly and lasts, and fatigue, which builds fast and fades within days. How you perform on a given day is roughly fitness minus fatigue.\n\nThat explains two common experiences: why you can feel flat during a hard week, and why you often feel strong after a few easier days."
+        },
+        {
+          "type": "text",
+          "markdown": "## Timing matters\n\n- **Too little:** sessions too far apart or too easy, and the fitness gain fades before the next one.\n- **Too much:** hard sessions stacked without recovery, and fatigue piles up.\n- **About right:** a hard enough session, then enough rest, sleep and food, then the next one.\n\nSleep and nutrition aren't extras. They're where the adaptation actually happens (Module 9)."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** plan recovery as deliberately as training. With 2–3 full-body sessions a week, leave at least one day between them, and treat sleep as part of the programme."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr0-l02-stress-recovery-fc1",
+              "front": "Recovery",
+              "back": "The period after training when the body repairs and adapts. Driven by rest, sleep and nutrition."
+            },
+            {
+              "id": "tr0-l02-stress-recovery-fc2",
+              "front": "Fitness–fatigue model",
+              "back": "Each session raises fitness (slow, lasting) and fatigue (fast, short-lived). Performance on the day ≈ fitness − fatigue."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr0-l02-stress-recovery-q1",
+              "stem": "You feel weaker on Thursday after hard sessions on Monday and Wednesday. What does the fitness–fatigue model suggest?",
+              "options": [
+                "You've lost fitness and should train harder",
+                "Fatigue is temporarily masking the fitness you've built",
+                "Training twice a week is always too much",
+                "You should stop training for a month"
+              ],
+              "correctIndex": 1,
+              "explanation": "Fatigue rises fast and fades in days; the fitness underneath is still there. A lighter day or a rest day usually reveals it."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Guideline** — ACSM Position Stand (Phillips SM, chair, et al.), *Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews*, Med Sci Sports Exerc, April 2026.\n2. **Model** — Banister EW et al. (1975), the fitness–fatigue (impulse–response) model; supercompensation shown as a teaching simplification.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr0-l03-specificity",
+      "title": "You get what you train",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Specificity\n\nThe body adapts to the exact kind of demand you give it. That's **specificity**. Long runs make you better at long runs. Heavy, low-rep lifting makes you better at lifting heavy. Many light reps make you better at many light reps."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m0/specificity-map.svg",
+          "alt": "Four links from training to result: steady cardio to endurance; heavy 3–6 rep lifts to maximal strength; moderate loads near failure to muscle size; fast, light lifts and jumps to power.",
+          "caption": "What you train is what you get",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.05
+        },
+        {
+          "type": "text",
+          "markdown": "## What this means for a mostly-cardio routine\n\nRunning, cycling, football and tennis build an aerobic engine and sport skills. They do little for maximal strength or for building muscle in the upper body. If your goals include more muscle and strength, you need **resistance training**: working your muscles against a load, such as dumbbells, kettlebells, bands or your bodyweight."
+        },
+        {
+          "type": "text",
+          "markdown": "## Specific, but not narrow\n\nStrength also carries over. A stronger squat helps you sprint and jump; stronger hips and trunk help in tennis and football. Specificity means you choose the training that matches your goal, then add enough variety to cover the whole body (Module 2)."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** your current routine is very specific to cardio. To get stronger and build muscle, strength sessions need their own place in the week, not just more running."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr0-l03-specificity-fc1",
+              "front": "Specificity",
+              "back": "The body adapts specifically to the type of demand trained: endurance training builds endurance, heavy lifting builds strength."
+            },
+            {
+              "id": "tr0-l03-specificity-fc2",
+              "front": "Resistance training",
+              "back": "Training muscles against a load (weights, bands, bodyweight) to build strength and muscle. Also called strength training."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr0-l03-specificity-q1",
+              "stem": "You play football and run, and want more upper-body muscle. What's the most direct way to get it?",
+              "options": [
+                "Run longer and faster",
+                "Add resistance training for the upper body",
+                "Play more matches",
+                "Stretch more before games"
+              ],
+              "correctIndex": 1,
+              "explanation": "Specificity: upper-body muscle grows from upper-body resistance training, not from running."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Guideline** — ACSM Position Stand, *Progression Models in Resistance Training for Healthy Adults*, Med Sci Sports Exerc 2009;41(3):687–708.\n2. **Guideline** — ACSM Position Stand (Phillips SM, chair, et al.), *Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews*, Med Sci Sports Exerc, April 2026.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr0-l04-screening",
+      "title": "Before you start: a quick health check",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Most people can start straight away\n\nStrength training is safe for most healthy adults when it starts at a sensible level. Still, a short self-check is good practice. The standard tool is the **PAR-Q+**, the Physical Activity Readiness Questionnaire for Everyone, which is updated every year and is free online."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m0/screening-flow.svg",
+          "alt": "Flow chart: PAR-Q+ general questions. All 'no' leads to 'start gradually'. Any 'yes' leads to follow-up questions, then 'start gradually' or 'talk to a doctor or exercise professional first'.",
+          "caption": "A simple screening flow",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.278
+        },
+        {
+          "type": "text",
+          "markdown": "## What it asks\n\nIt asks about heart conditions, chest pain, dizziness or fainting, other chronic conditions, medicines, and bone or joint problems that could get worse with exercise. If every answer is no, start gradually. If any answer is yes, the follow-up questions tell you whether you can go ahead or should talk to a doctor or a qualified exercise professional first."
+        },
+        {
+          "type": "text",
+          "markdown": "## Stop signs during training\n\nStop and seek medical advice if you get chest pain or pressure, unusual breathlessness, dizziness, or a racing or irregular heartbeat. Normal muscle burn and next-day soreness are expected. Sharp or joint pain isn't (Module 9 covers the rules).\n\nThis course teaches training principles. It's not medical advice."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** fill in the current PAR-Q+ once before Module 0's baseline tests, and again whenever your health changes."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr0-l04-screening-fc1",
+              "front": "PAR-Q+",
+              "back": "Physical Activity Readiness Questionnaire for Everyone: a free, yearly-updated self-screen before increasing physical activity."
+            },
+            {
+              "id": "tr0-l04-screening-fc2",
+              "front": "Stop signs during training",
+              "back": "Chest pain or pressure, unusual breathlessness, dizziness, or a racing or irregular heartbeat: stop and seek medical advice."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr0-l04-screening-q1",
+              "stem": "During a kettlebell session you feel chest pressure and dizziness. What do you do?",
+              "options": [
+                "Slow down and finish the set",
+                "Stop and seek medical advice",
+                "Drink water and continue",
+                "Switch to a lighter kettlebell"
+              ],
+              "correctIndex": 1,
+              "explanation": "Chest pain or pressure, dizziness and unusual breathlessness are stop signs, not normal training discomfort."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Tool** — PAR-Q+ Collaboration (Warburton DER, Jamnik VK, Bredin SSD et al.), PAR-Q+, current version at eparmedx.com.\n2. **Guideline** — ACSM Position Stand (Phillips SM, chair, et al.), *Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews*, Med Sci Sports Exerc, April 2026.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr0-l05-baseline",
+      "title": "Baseline tests: where you start",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Measure before you change anything\n\nYou'll design and adjust your own programme, so you need numbers to compare against. A **baseline** is a set of simple measurements taken before you start, then repeated every 4–12 weeks. Compare yourself only with your earlier self, not with tables online."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m0/baseline-tests.svg",
+          "alt": "One-page test sheet: push-ups, goblet squat, front plank, side plank, resting heart rate and step test, waist and photos, each with its protocol and a box for the result and date.",
+          "caption": "Your baseline test sheet",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.745
+        },
+        {
+          "type": "text",
+          "markdown": "## The strength and core tests\n\nWarm up for 5 minutes first. Do the tests in this order, resting 3 minutes between them.\n\n1. **Push-ups:** as many as you can with good form (straight line from head to heels, chest close to the floor). Stop when form breaks.\n2. **Goblet squat:** hold the 12 kg kettlebell at your chest. Do as many full-depth reps as you can while still keeping about 2 in reserve, up to a cap of 30.\n3. **Front plank:** hold until your hips sag or lift. Note the time.\n4. **Side plank:** the same, on each side."
+        },
+        {
+          "type": "text",
+          "markdown": "## The engine and body tests\n\n- **Resting heart rate:** on waking, before getting up, count your pulse for 60 seconds. A typical adult range is 60–100 beats a minute, and it often drops as fitness improves.\n- **Step test:** step up and down on a step of about 30 cm, at 24 steps a minute (a metronome at 96 beats), for 3 minutes. Then sit and count your heart rate for 1 minute. Lower is fitter.\n- **Waist:** measure midway between your lowest rib and the top of your hip bone, at the end of a normal breath out.\n- **Photos:** front, side and back, same light, same time of day."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** do these tests this week and keep the sheet. They become your targets in Module 1 and your report card in Module 10."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr0-l05-baseline-fc1",
+              "front": "Baseline",
+              "back": "A set of measurements taken before a programme starts, repeated later to track progress against yourself."
+            },
+            {
+              "id": "tr0-l05-baseline-fc2",
+              "front": "Waist measurement",
+              "back": "Midway between your lowest rib and the top of your hip bone, at the end of a normal breath out."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr0-l05-baseline-q1",
+              "stem": "Why stop the goblet-squat test about 2 reps before failure, and cap it at 30?",
+              "options": [
+                "Because more than 30 reps damages the knees",
+                "To keep the test safe and repeatable, and because very high reps test endurance more than strength",
+                "Because the kettlebell is too heavy",
+                "Because the WHO sets that limit"
+              ],
+              "correctIndex": 1,
+              "explanation": "A consistent stopping point makes the result comparable next time; the cap keeps it a strength-endurance test rather than a long endurance test."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Protocol** — WHO STEPS surveillance manual, waist circumference measurement.\n2. **Practice** — YMCA 3-minute step test protocol (30 cm step, 24 steps/min, 1-minute recovery heart rate); used here only for self-comparison.\n3. **Health body** — American Heart Association, resting heart rate (60–100 beats a minute for most adults).\n4. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr0-l06-recap",
+      "title": "Recap: the training loop",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Four steps, repeated\n\nEvery programme in this course runs on the same loop.\n\n1. **Plan:** choose the exercises, sets, reps and load for the week.\n2. **Do:** train, aiming to make at least one thing slightly harder than last time.\n3. **Log:** write down what you did and how hard it felt.\n4. **Adjust:** use the log to set next week's targets.\n\nModules 5 and 6 turn this into a method. The baseline tests check it every few weeks."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m0/training-loop.svg",
+          "alt": "A circle with four arrows: plan, do, log, adjust. In the centre: 'progressive overload'. Outside, small labels: recovery between 'do' and 'log', baseline re-test every 4–12 weeks.",
+          "caption": "The training loop",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.491
+        },
+        {
+          "type": "text",
+          "markdown": "## What you now know\n\n- The body adapts to a demand, so the demand has to grow.\n- Improvement happens during recovery, not during the session.\n- You get what you train: cardio alone won't build strength or much muscle.\n- Screen yourself, then measure your baseline."
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr0-l06-recap-q1",
+              "stem": "Which step of the loop is most often missing from a 'same workout every week' routine?",
+              "options": [
+                "Do",
+                "Log and adjust",
+                "Recovery",
+                "Warm-up"
+              ],
+              "correctIndex": 1,
+              "explanation": "Without a log there's nothing to adjust from, so the workout stays the same and progress stops."
+            },
+            {
+              "id": "tr0-l06-recap-q2",
+              "stem": "When does adaptation mainly happen?",
+              "options": [
+                "During the hardest set",
+                "During recovery after the session",
+                "Only during sleep before a session",
+                "Only when you train to failure"
+              ],
+              "correctIndex": 1,
+              "explanation": "Training is the signal; the rebuilding happens in the hours and days after, helped by sleep and food."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Guideline** — ACSM Position Stand (Phillips SM, chair, et al.), *Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews*, Med Sci Sports Exerc, April 2026.\n2. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}

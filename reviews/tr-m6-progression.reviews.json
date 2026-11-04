@@ -1,0 +1,868 @@
+{
+  "moduleId": "tr-m6-progression",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "tr6-b1",
+      "title": "How to progress",
+      "lessons": [
+        "tr6-l01-overload-ways",
+        "tr6-l02-double-progression",
+        "tr6-l03-too-heavy"
+      ]
+    },
+    {
+      "id": "tr6-b2",
+      "title": "Tracking, fatigue and change",
+      "lessons": [
+        "tr6-l04-log",
+        "tr6-l05-deload",
+        "tr6-l06-plateaus",
+        "tr6-l07-variation"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-tr6-l01",
+      "level": "lesson",
+      "covers": [
+        "tr6-l01-overload-ways"
+      ],
+      "summary": {
+        "title": "Every way to make it harder",
+        "points": [
+          "Progression isn't only more weight.",
+          "Options: reps, sets, slower lowering, pauses, range, harder variation, one side, less rest, load.",
+          "Choose one method per exercise per block.",
+          "Default: reps then load; the others when the weight jump is too big."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your heaviest dumbbell is 10 kg and split squats are easy.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which is not a progression?",
+              "options": [
+                "Moving to Bulgarian split squats",
+                "A 3-second lowering phase on every rep",
+                "Same 3 × 12, same weight and tempo",
+                "A pause at the bottom"
+              ],
+              "answer": 2,
+              "explanation": "Nothing changed."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which method needs new kit?",
+              "options": [
+                "More load",
+                "Slower lowering with the same dumbbells",
+                "One side at a time",
+                "More reps"
+              ],
+              "answer": 0,
+              "explanation": "The others work with what you have."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend changes three progression methods at once on every exercise.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the problem?",
+              "options": [
+                "Progression isn't needed",
+                "You can't tell what's working",
+                "It makes sessions shorter",
+                "Nothing; more methods always means faster progress"
+              ],
+              "answer": 1,
+              "explanation": "One method per exercise per block."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the default method?",
+              "options": [
+                "Load first, every session, whatever happens",
+                "Range of motion only",
+                "Less rest only",
+                "Reps first, then load"
+              ],
+              "answer": 3,
+              "explanation": "Double progression (Lesson 2)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr6-l02",
+      "level": "lesson",
+      "covers": [
+        "tr6-l02-double-progression"
+      ],
+      "summary": {
+        "title": "Double progression",
+        "points": [
+          "Use a rep range, e.g. 8–12.",
+          "Keep the weight and add reps until every set hits the top with ≥1 in reserve.",
+          "Then add weight and start near the bottom.",
+          "With big jumps, use a wider range (10–15 or 12–20).",
+          "The load helper applies the rules."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Range 8–12. Last session at 10 kg: 12, 12, 11.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What next?",
+              "options": [
+                "Move to 12 kg now, since two sets reached the top",
+                "Stay at 10 kg; aim for 12, 12, 12",
+                "Drop to 8 kg to make the reps easier",
+                "Add a fourth set at 12 kg"
+              ],
+              "answer": 1,
+              "explanation": "Not every set has reached the top."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Then all three sets hit 12 with 2 in reserve. Next?",
+              "options": [
+                "Move up two weights at once",
+                "Stay at 10 kg for another four weeks",
+                "Stop the exercise",
+                "Move up and start near 8 reps"
+              ],
+              "answer": 3,
+              "explanation": "That's the second step."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your next kettlebell is 33% heavier.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which range helps you grow into it?",
+              "options": [
+                "A wider range, like 12–20",
+                "A narrower range, like 6–8, to force the jump",
+                "A range of exactly 10",
+                "No range at all"
+              ],
+              "answer": 0,
+              "explanation": "More room before the jump."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does the load helper need?",
+              "options": [
+                "Only the exercise name",
+                "Only your body weight and age",
+                "Range, weight, reps per set, RIR and available weights",
+                "Your heart rate"
+              ],
+              "answer": 2,
+              "explanation": "It applies double progression to your last session."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr6-l03",
+      "level": "lesson",
+      "covers": [
+        "tr6-l03-too-heavy"
+      ],
+      "summary": {
+        "title": "When the next weight is too heavy",
+        "points": [
+          "10 → 12.5 kg is 25%; 12 → 16 kg is 33%: often too big.",
+          "Reps of about 0.5–8 s built similar muscle; very slow reps (> ~10 s) may be less effective.",
+          "Bridge: more reps, slower or paused reps, one side or harder version, then the heavier weight for 1 set, then 2.",
+          "If nothing works, buy kit (Module 3)."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Rows at 12 kg are done; the next bell is 16 kg.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the first bridging step?",
+              "options": [
+                "Stop rowing until you buy a 14 kg bell",
+                "Go straight to 16 kg for all sets and accept fewer reps",
+                "Use a 15-second lowering",
+                "Keep adding reps up to about 20"
+              ],
+              "answer": 3,
+              "explanation": "Extend the range first."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Then?",
+              "options": [
+                "Switch to curls",
+                "16 kg for the first set only, then two sets",
+                "Go back to 8 kg",
+                "16 kg for five sets the next day"
+              ],
+              "answer": 1,
+              "explanation": "Step into the heavier weight."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend uses 15-second lowering on every rep.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the 2015 meta-analysis suggest?",
+              "options": [
+                "Very slow reps may build less muscle",
+                "Fast reps are harmful",
+                "Tempo has no possible effect",
+                "Slower is always better for muscle, without any limit"
+              ],
+              "answer": 0,
+              "explanation": "About 0.5–8 s is the useful range."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which tempo tool is sensible?",
+              "options": [
+                "A 20-second lowering on every rep",
+                "Bouncing out of the bottom",
+                "A 3-second lowering",
+                "Dropping the weight"
+              ],
+              "answer": 2,
+              "explanation": "Harder, within the useful range."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr6-l04",
+      "level": "lesson",
+      "covers": [
+        "tr6-l04-log"
+      ],
+      "summary": {
+        "title": "A one-minute log",
+        "points": [
+          "Log date, exercise, weight, reps per set, RIR on the last set, a note.",
+          "Weekly review: what progressed, what stalled 2–3 sessions, sleep and energy.",
+          "Then set next week's targets.",
+          "Keep it light: one line per exercise."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You write today's log.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which entry is most useful?",
+              "options": [
+                "'Goblet squat 12 kg: 15, 14, 13, RIR 2'",
+                "'Did squats'",
+                "'Good session, felt strong, legs tired, nice weather'",
+                "'45 minutes'"
+              ],
+              "answer": 0,
+              "explanation": "Weight, reps per set and effort."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When do you review the log?",
+              "options": [
+                "Never; logging is enough",
+                "Before every single set",
+                "Once a week",
+                "Only at the end of the year, all at once"
+              ],
+              "answer": 2,
+              "explanation": "Then set next week's targets."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your log shows a lift unchanged for three sessions.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does that flag?",
+              "options": [
+                "An injury",
+                "A possible plateau to diagnose",
+                "Nothing; logs only matter for professionals",
+                "A need to switch programmes immediately"
+              ],
+              "answer": 1,
+              "explanation": "Lesson 6 has the checklist."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which part of the training loop is the weekly review?",
+              "options": [
+                "Recover",
+                "Plan, which comes before any training",
+                "Do",
+                "Adjust"
+              ],
+              "answer": 3,
+              "explanation": "Plan → do → log → adjust."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr6-l05",
+      "level": "lesson",
+      "covers": [
+        "tr6-l05-deload"
+      ],
+      "summary": {
+        "title": "Fatigue and deloads",
+        "points": [
+          "Deload: a period of reduced training stress to shed fatigue and prepare (2023 Delphi consensus).",
+          "Practice: every 4–8 weeks, about one week.",
+          "Same exercises and weights, about half the sets, 3–4 reps in reserve.",
+          "Warning signs: performance down two sessions in a row, poor sleep, lingering joint aches."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Week 6: two lifts dropped two sessions running and sleep is poor.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's sensible?",
+              "options": [
+                "Add sets to push through the dip",
+                "Test your 1RM",
+                "A deload week",
+                "Stop training for a month"
+              ],
+              "answer": 2,
+              "explanation": "Classic warning signs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does the deload week look like?",
+              "options": [
+                "No training at all",
+                "Same exercises and weights, about half the sets",
+                "Double the volume",
+                "New exercises at maximum effort to keep things fresh"
+              ],
+              "answer": 1,
+              "explanation": "Shed fatigue, keep the habit."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend says deloads are for elite lifters only.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do they do for anyone?",
+              "options": [
+                "Reduce accumulated fatigue and prepare for the next block",
+                "Build muscle faster than training",
+                "Nothing; recreational lifters never accumulate fatigue",
+                "Replace sleep"
+              ],
+              "answer": 0,
+              "explanation": "Definition from the consensus."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Is one bad session a reason to deload?",
+              "options": [
+                "Only if sore",
+                "Yes, always take a month off",
+                "Yes; any bad session means a full deload week",
+                "No; look for a pattern over two or three"
+              ],
+              "answer": 3,
+              "explanation": "One bad day isn't a pattern."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr6-l06",
+      "level": "lesson",
+      "covers": [
+        "tr6-l06-plateaus"
+      ],
+      "summary": {
+        "title": "Plateaus",
+        "points": [
+          "Plateau: no progress on a lift for 2–3 weeks despite consistent training.",
+          "Check: effort, sleep and stress, food, weekly volume, fatigue.",
+          "Only then change the exercise or rep range.",
+          "In a deficit, holding strength can be a win."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Push-ups stalled for three weeks during a 900 kcal-a-day deficit.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Most likely cause?",
+              "options": [
+                "Too much sleep",
+                "Push-ups stop working after a month for everyone",
+                "The large deficit",
+                "Too little cardio"
+              ],
+              "answer": 2,
+              "explanation": "Large deficits stall muscle gain."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What do you check first in any plateau?",
+              "options": [
+                "The brand of your dumbbells and the mat",
+                "Effort: are sets really 1–3 from failure?",
+                "Your training clothes",
+                "The weather"
+              ],
+              "answer": 1,
+              "explanation": "Effort is first on the list."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend changes programme every time a lift stalls.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the better order?",
+              "options": [
+                "Supplements first",
+                "Only change the exercises",
+                "Programme first, then everything else if that fails",
+                "Effort, sleep, food, volume, fatigue, then programme"
+              ],
+              "answer": 3,
+              "explanation": "Most plateaus aren't about exercises."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How should you judge progress during fat loss?",
+              "options": [
+                "Strength held, plus waist and photos",
+                "By soreness",
+                "Only by new personal bests every week",
+                "Only by the scale"
+              ],
+              "answer": 0,
+              "explanation": "Holding strength in a deficit is progress."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr6-l07",
+      "level": "lesson",
+      "covers": [
+        "tr6-l07-variation"
+      ],
+      "summary": {
+        "title": "Changing exercises",
+        "points": [
+          "Planned variation can help; excessive random variation may compromise gains (2022 review).",
+          "Keep main lifts 6–12 weeks; rotate accessories freely.",
+          "Change a main lift when it stalls despite the checklist, hurts, or kit allows better.",
+          "Swap within the same pattern."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You want variety in your programme.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which approach fits the evidence?",
+              "options": [
+                "Stable main lifts, rotating accessories",
+                "Change only when bored",
+                "Never change any exercise at all",
+                "A brand-new set of exercises every single session"
+              ],
+              "answer": 0,
+              "explanation": "You can still progress the main lifts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Goblet squats stalled despite the checklist. Swap to?",
+              "options": [
+                "Push-ups, to give the legs a complete break",
+                "Nothing; keep stalling",
+                "Bulgarian split squat",
+                "Curls"
+              ],
+              "answer": 2,
+              "explanation": "Same pattern, new stimulus."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Social media says 'muscle confusion' needs daily new workouts.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the 2022 review suggest?",
+              "options": [
+                "Daily variation is required to keep any muscle growing",
+                "Variation has no effect either way",
+                "Only machines need variation",
+                "Excessive random variation may compromise gains"
+              ],
+              "answer": 3,
+              "explanation": "Planned variation, not chaos."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How long should a main lift stay?",
+              "options": [
+                "One session only, to keep the body guessing",
+                "About 6–12 weeks",
+                "Two days",
+                "Forever"
+              ],
+              "answer": 1,
+              "explanation": "Long enough to progress it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr6-b1",
+      "level": "block",
+      "covers": [
+        "tr6-l01-overload-ways",
+        "tr6-l02-double-progression",
+        "tr6-l03-too-heavy"
+      ],
+      "summary": {
+        "title": "How to progress",
+        "points": [
+          "Many ways to progress: reps, sets, tempo, pauses, range, variation, one side, density, load.",
+          "Double progression: reps to the top of the range, then weight.",
+          "Big jumps: widen the range and bridge with reps, tempo, pauses or one side.",
+          "Useful tempo is about 0.5–8 s per rep."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Range 10–15, one-arm row at 12 kg: 15, 15, 15 with 2 in reserve; next bell 16 kg.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the load helper suggest?",
+              "options": [
+                "Stop rowing",
+                "Drop to 10 kg",
+                "Bridge the 33% jump before moving up fully",
+                "Move straight to 16 kg for every set next time"
+              ],
+              "answer": 2,
+              "explanation": "Over ~15% is treated as too big."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which bridging step comes first?",
+              "options": [
+                "A 20-second lowering phase",
+                "More reps or slower lowering at 12 kg",
+                "16 kg for five sets right away",
+                "A new exercise"
+              ],
+              "answer": 1,
+              "explanation": "Then 16 kg for one set, then two."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain double progression in two sentences.",
+              "modelAnswer": "Keep the weight and add reps until every set reaches the top of the range with at least one rep in reserve. Then add weight and start again near the bottom of the range."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your 10 kg dumbbells are getting easy for split squats.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which three no-kit options are available?",
+              "options": [
+                "Heavier dumbbells, a barbell and a leg-press machine",
+                "Less sleep, more cardio and stretching",
+                "None",
+                "Slower lowering, pauses, Bulgarian split squats"
+              ],
+              "answer": 3,
+              "explanation": "Tempo, pauses, a harder version."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which tempo is least useful?",
+              "options": [
+                "15-second lowering",
+                "A 2-second pause at the bottom",
+                "3-second lowering on each rep",
+                "Normal controlled reps"
+              ],
+              "answer": 0,
+              "explanation": "Very slow reps may build less muscle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr6-b2",
+      "level": "block",
+      "covers": [
+        "tr6-l04-log",
+        "tr6-l05-deload",
+        "tr6-l06-plateaus",
+        "tr6-l07-variation"
+      ],
+      "summary": {
+        "title": "Tracking, fatigue and change",
+        "points": [
+          "Log weight, reps per set and RIR; review weekly.",
+          "Deload every 4–8 weeks or on warning signs: half the sets, same exercises.",
+          "Plateau checklist: effort, sleep, food, volume, fatigue, then programme.",
+          "Keep main lifts 6–12 weeks; rotate accessories."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Week 7: two lifts stalled for three weeks, and you haven't deloaded yet.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you do first?",
+              "options": [
+                "Run the checklist, then likely deload",
+                "Replace every exercise in the programme straight away",
+                "Add sets to everything",
+                "Stop logging"
+              ],
+              "answer": 0,
+              "explanation": "Fatigue is likely after 7 weeks."
+            },
+            {
+              "type": "mcq",
+              "prompt": "After the deload, what about the main lifts?",
+              "options": [
+                "Train to failure",
+                "Drop the lower body",
+                "Keep them if they now progress",
+                "Change them all regardless of how they respond"
+              ],
+              "answer": 2,
+              "explanation": "Change only if they still stall."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Write a simple deload recipe.",
+              "modelAnswer": "About one week; the same exercises and roughly the same weights; about half the sets; stop 3–4 reps from failure; keep sport as normal or ease off."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your friend's plan changes every exercise every week and has no log.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What two habits would help most?",
+              "options": [
+                "More exercises per session and more cardio",
+                "A one-minute log and stable main lifts",
+                "Longer rests only",
+                "Supplements and new shoes"
+              ],
+              "answer": 1,
+              "explanation": "Track, and keep lifts long enough to progress."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When is changing a main lift justified?",
+              "options": [
+                "Whenever you feel bored with it",
+                "Never",
+                "Every week",
+                "It stalls despite the checklist, hurts, or kit allows better"
+              ],
+              "answer": 3,
+              "explanation": "Within the same pattern."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr6-m",
+      "level": "module",
+      "covers": [
+        "tr6-l01-overload-ways",
+        "tr6-l02-double-progression",
+        "tr6-l03-too-heavy",
+        "tr6-l04-log",
+        "tr6-l05-deload",
+        "tr6-l06-plateaus",
+        "tr6-l07-variation"
+      ],
+      "summary": {
+        "title": "Progression: the whole picture",
+        "points": [
+          "Progress by reps, sets, tempo, pauses, range, variation, one side, density or load.",
+          "Double progression: reps to the top of the range, then weight.",
+          "Bridge big jumps; useful tempo is about 0.5–8 s per rep.",
+          "Log every session; review weekly.",
+          "Deload every 4–8 weeks or on warning signs; diagnose plateaus before changing exercises.",
+          "Keep main lifts for a block; rotate accessories."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You plan block 2 after six weeks of block 1.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What starts block 2?",
+              "options": [
+                "A brand-new programme with all-new exercises and no log",
+                "A month off",
+                "A 1RM test on every lift",
+                "A deload week, then the plan with updated targets"
+              ],
+              "answer": 3,
+              "explanation": "Shed fatigue, then progress."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which main lifts change?",
+              "options": [
+                "None, ever",
+                "Only those that stalled despite the checklist, or hurt",
+                "Only the easiest",
+                "All of them, every block, regardless"
+              ],
+              "answer": 1,
+              "explanation": "Within the same pattern."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How do you set each lift's next target?",
+              "options": [
+                "From the log, with double progression",
+                "By copying a friend",
+                "By adding 5 kg every session",
+                "By feel on the day, without looking at the log"
+              ],
+              "answer": 0,
+              "explanation": "The load helper helps."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your old habit: same weights, same reps for months.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What replaces it?",
+              "options": [
+                "Only cardio",
+                "More sessions of the same thing each week",
+                "Double progression with a log and planned deloads",
+                "Random new workouts daily"
+              ],
+              "answer": 2,
+              "explanation": "Progress that's planned and tracked."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What do you do when the next weight is too heavy?",
+              "options": [
+                "Buy new equipment straight away every time",
+                "Use 15-second reps",
+                "Bridge it: reps, tempo, pauses, one side",
+                "Stop the exercise"
+              ],
+              "answer": 2,
+              "explanation": "Kit is the last step."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Describe how you'll progress your goblet squat over the next 8 weeks.",
+              "modelAnswer": "Range 10–15 at 12 kg: add reps each session until all sets reach 15 with a rep or two in reserve; then bridge to 16 kg (more reps or slower lowering, then 16 kg for one set, then two, then all), logging every session and deloading around week 6–8 if needed."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

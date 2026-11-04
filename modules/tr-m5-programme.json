@@ -1,0 +1,589 @@
+{
+  "schemaVersion": 6,
+  "id": "tr-m5-programme",
+  "title": "Training 5: Programme design",
+  "discipline": "Training",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "tr5-l01-variables",
+      "title": "The programme variables",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Seven dials\n\nEvery strength programme is set by the same few dials:\n\n1. Exercise: which movement.\n2. Sets: how many rounds.\n3. Reps: how many repetitions per set.\n4. Load: how heavy.\n5. Rest: how long between sets.\n6. Tempo: how fast each rep moves.\n7. Frequency: how often each muscle is trained in a week."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m5/seven-dials.svg",
+          "alt": "Seven dials labelled exercise, sets, reps, load, rest, tempo and frequency, around a centre labelled 'hard sets per muscle per week', with effort shown as a needle on each set.",
+          "caption": "The seven programme dials",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.519
+        },
+        {
+          "type": "text",
+          "markdown": "## The number that matters most\n\nFor muscle, the most useful summary is **hard sets**: sets taken reasonably close to failure (Lesson 2). Count them per muscle group per week, and you have your **training volume**. The other dials mostly decide how comfortable, fast or specific those sets are."
+        },
+        {
+          "type": "text",
+          "markdown": "## Turn one dial at a time\n\nWhen something isn't working, change one dial and give it 3–4 weeks. Changing everything at once leaves you guessing what helped. Module 6 shows which dials to turn for progression."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** from now on, describe every session in dials: exercise, sets × reps, load, rest and target effort. That's what makes it repeatable and adjustable."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr5-l01-variables-fc1",
+              "front": "Hard set",
+              "back": "A set taken reasonably close to failure, roughly 0–3 reps in reserve. The unit for counting volume."
+            },
+            {
+              "id": "tr5-l01-variables-fc2",
+              "front": "Training volume",
+              "back": "The number of hard sets per muscle group per week."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr5-l01-variables-q1",
+              "stem": "Which change turns only one dial?",
+              "options": [
+                "New exercises, more sets and shorter rest",
+                "Same plan, but 4 sets instead of 3 on squats",
+                "A completely new programme",
+                "Training at a different time of day"
+              ],
+              "correctIndex": 1,
+              "explanation": "Change one thing, then judge it after a few weeks."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Guideline** — ACSM Position Stand (Phillips SM, chair, et al.), *Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews*, Med Sci Sports Exerc, April 2026.\n2. **Practice** — programming conventions used in strength coaching; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr5-l02-effort",
+      "title": "Effort: RPE, RIR and failure",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## How hard is hard enough?\n\nA set only counts as a hard set if it's close to failure. Two scales describe that:\n\n- **RIR**, reps in reserve: how many more reps you could have done.\n- **RPE**, rating of perceived exertion: on the resistance-training scale, RPE 10 = no reps left, RPE 9 = 1 left, RPE 8 = 2 left."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m5/rir-scale.svg",
+          "alt": "A horizontal scale from RPE 5 to 10 with matching reps in reserve from 5+ to 0. The zone from 1 to 3 reps in reserve is shaded as the usual working zone; 0 is marked as failure.",
+          "caption": "RPE and reps in reserve",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.733
+        },
+        {
+          "type": "text",
+          "markdown": "## Failure isn't required\n\nA 2023 meta-analysis found only a trivial muscle-growth advantage for training to failure, and none for true momentary failure. The 2026 ACSM position stand also found failure made no consistent difference for most adults. Failure does cost more fatigue, especially on big lifts. A sensible default is 1–3 reps in reserve, going closer to failure on small, safe exercises."
+        },
+        {
+          "type": "text",
+          "markdown": "## Estimating RIR honestly\n\nMost people underestimate how many reps they have left, by about one rep on average. Accuracy improves near the end of a set and in sets of 12 reps or fewer. Now and then, take a safe exercise, like push-ups, to true failure, to calibrate what '2 left' feels like."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** aim for 1–3 reps in reserve on most sets. Go to failure only occasionally, on safe exercises, to check your estimates."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr5-l02-effort-fc1",
+              "front": "RPE vs RIR",
+              "back": "RPE 10 = 0 reps in reserve, RPE 9 = 1, RPE 8 = 2. Usual working zone: RPE 7–9 (1–3 RIR)."
+            },
+            {
+              "id": "tr5-l02-effort-fc2",
+              "front": "Is failure needed?",
+              "back": "No. A 2023 meta-analysis found only a trivial advantage overall, and none for true momentary failure; it costs more fatigue."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr5-l02-effort-q1",
+              "stem": "You finish a set of 12 goblet squats and think you had 'maybe 4 left'. What's likely?",
+              "options": [
+                "You had exactly 4 left",
+                "You probably had a bit more; most people underestimate by about one rep",
+                "You were at failure",
+                "RIR can't be estimated"
+              ],
+              "correctIndex": 1,
+              "explanation": "People tend to underpredict reps to failure by about one rep."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Meta-analysis** — Refalo MC, Helms ER, Trexler ET, Hamilton DL, Fyfe JJ, Influence of resistance training proximity-to-failure on skeletal muscle hypertrophy, Sports Med 2023;53(3):649–665.\n2. **Scale** — Zourdos MC et al., Novel resistance training-specific rating of perceived exertion scale measuring repetitions in reserve, J Strength Cond Res 2016;30(1):267–275.\n3. **Review** — Halperin I et al., accuracy of repetitions-in-reserve predictions, scoping review and exploratory meta-analysis (as summarised by Stronger by Science, 'Reps in reserve').\n4. **Guideline** — ACSM Position Stand (Phillips SM, chair, et al.), *Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews*, Med Sci Sports Exerc, April 2026.\n5. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr5-l03-volume",
+      "title": "Volume: sets per muscle per week",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## More helps, with diminishing returns\n\nA 2026 meta-regression of 67 studies found that muscle growth rises with weekly hard sets, but each extra set adds a little less. About 4 sets a week already made a measurable difference. Strength levelled off much sooner: gains beyond about 3–4 weekly sets were small. The 2026 ACSM position stand suggests about 10 sets per muscle group per week for growth."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m5/volume-curve.svg",
+          "alt": "An illustrative curve of muscle growth against weekly hard sets, rising steeply up to about 10 then flattening. A shaded band marks 6–10 sets as a sensible start and 10–15 as later.",
+          "caption": "Weekly sets: diminishing returns",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.05
+        },
+        {
+          "type": "text",
+          "markdown": "## Counting sets\n\nCompound exercises train several muscles. A useful rule from the same meta-regression: count a set fully for the main muscle and as half a set for helpers. Three sets of push-ups give 3 sets for the chest and 1.5 for the triceps."
+        },
+        {
+          "type": "text",
+          "markdown": "## Where to start\n\nA sensible start, as practice, is 6–10 hard sets per muscle group per week, rising towards 10–15 if you recover well and progress stalls. With 3 × 30 minutes, about 8–10 for the big groups is realistic."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** count your weekly hard sets per pattern. Aim for about 6–10 for each big muscle group now, and add sets only when progress stalls and recovery is good."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr5-l03-volume-fc1",
+              "front": "Direct vs indirect sets",
+              "back": "Count a set fully for the main muscle and as half a set for helpers (e.g. push-ups: chest 1, triceps 0.5)."
+            },
+            {
+              "id": "tr5-l03-volume-fc2",
+              "front": "Volume for muscle vs strength",
+              "back": "Muscle keeps growing with more weekly sets (diminishing returns); strength levels off after about 3–4 weekly sets."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr5-l03-volume-q1",
+              "stem": "You do 3 sets of push-ups and 3 sets of floor press a week. How many sets for the triceps, counting helpers as half?",
+              "options": [
+                "0",
+                "3",
+                "6",
+                "12"
+              ],
+              "correctIndex": 1,
+              "explanation": "6 chest sets count fully; the triceps get half of 6, which is 3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Meta-regression** — Pelland JC, Remmert JF, Robinson ZP, Hinson SR, Zourdos MC, The resistance training dose-response: weekly volume and frequency, muscle hypertrophy and strength gain, Sports Med 2026;56:481–505.\n2. **Guideline** — ACSM Position Stand (Phillips SM, chair, et al.), *Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews*, Med Sci Sports Exerc, April 2026.\n3. **Review** — Iversen VM, Norum M, Schoenfeld BJ, Fimland MS, No time to lift? Designing time-efficient training programs for strength and hypertrophy, Sports Med 2021;51(10):2079–2095.\n4. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr5-l04-frequency",
+      "title": "Frequency: full-body A/B",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## How often to train each muscle\n\nThe 2026 ACSM position stand recommends training every major muscle group at least twice a week. With the same weekly sets, splitting them across more sessions made little difference for muscle growth, but helped strength: going from 1 to 2 sessions a week gave a clear gain."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m5/full-body-ab.svg",
+          "alt": "A week calendar with sessions A on Monday and Friday, B on Wednesday, and sport on Tuesday and Saturday. Session A: squat, push, pull, carry. Session B: hinge, lunge, push, pull, core.",
+          "caption": "Full-body A/B around your sport",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.158
+        },
+        {
+          "type": "text",
+          "markdown": "## Why full-body, not 'arm day'\n\nWith 2–3 sessions a week, a body-part split trains each muscle only once. Two alternating **full-body sessions**, A and B, train every pattern in each session or across the two, so each muscle gets two or three exposures a week. If you miss one, nothing goes untrained for a whole week."
+        },
+        {
+          "type": "text",
+          "markdown": "## Fitting your sport\n\nPlace strength sessions on non-sport days, or at least 3 hours away from sport (Module 1). Keep the hard leg work away from the day before a match."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** run two alternating full-body sessions, A and B, on 2–3 non-sport days. Each big muscle group then gets at least two exposures a week."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr5-l04-frequency-fc1",
+              "front": "Full-body A/B",
+              "back": "Two alternating full-body sessions covering all patterns, so each muscle is trained 2–3 times a week."
+            },
+            {
+              "id": "tr5-l04-frequency-fc2",
+              "front": "Frequency and volume",
+              "back": "With weekly sets equal, more sessions barely change muscle growth but help strength (1 → 2 sessions a week)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr5-l04-frequency-q1",
+              "stem": "With 3 sessions a week, why is full-body A/B better than chest, back and legs days?",
+              "options": [
+                "It needs less equipment",
+                "Each muscle gets 2–3 exposures instead of one",
+                "It uses no weights",
+                "It avoids warm-ups"
+              ],
+              "correctIndex": 1,
+              "explanation": "Body-part splits train each muscle once a week at this frequency."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Guideline** — ACSM Position Stand (Phillips SM, chair, et al.), *Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews*, Med Sci Sports Exerc, April 2026.\n2. **Meta-regression** — Pelland JC, Remmert JF, Robinson ZP, Hinson SR, Zourdos MC, The resistance training dose-response: weekly volume and frequency, muscle hypertrophy and strength gain, Sports Med 2026;56:481–505.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr5-l05-session",
+      "title": "A 30-minute session",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Four parts\n\n1. **Warm-up (3–5 min):** a few dynamic moves, then lighter sets of the first exercise.\n2. **Main lifts (15–18 min):** two supersets of compound exercises, one lower-body and one upper-body pattern in each.\n3. **Accessories (5–7 min):** a carry, core work or one isolation move.\n4. **Finisher (optional, 2–4 min):** a short block of swings or a carry."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m5/session-template.svg",
+          "alt": "A 30-minute timeline: warm-up 0–5 min, superset 1 (squat with push) 5–14, superset 2 (hinge with pull) 14–23, accessories 23–28, optional finisher 28–30.",
+          "caption": "A 30-minute full-body session",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Warm up specifically\n\nA 2021 review of time-efficient training suggests skipping long general warm-ups and using lighter sets of the exercise itself. Keep a short dynamic routine (Module 8) to get moving, then ramp up on the first lift."
+        },
+        {
+          "type": "text",
+          "markdown": "## An example session A (illustrative)\n\n- **A1:** goblet squat, 3 × 10–15 / **A2:** push-up, 3 × 8–15\n- **B1:** one-arm row, 3 × 10–12 each / **B2:** single-leg RDL, 3 × 8–12 each\n- **C:** suitcase carry, 3 × 30 s each side\n\nTarget 1–3 reps in reserve, and rest about 60–90 seconds after each pair."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** use the same four-part shape for every session: short warm-up, two supersets of compound lifts, a carry or core, and an optional finisher."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr5-l05-session-fc1",
+              "front": "30-minute shape",
+              "back": "Warm-up 3–5 min, two supersets of compound lifts, accessories, optional finisher."
+            },
+            {
+              "id": "tr5-l05-session-fc2",
+              "front": "Specific warm-up",
+              "back": "Lighter sets of the first exercise, after a few dynamic moves. Long general warm-ups aren't needed."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr5-l05-session-q1",
+              "stem": "Which part of the session gives way first when time is short?",
+              "options": [
+                "The main supersets",
+                "The accessories and finisher",
+                "The warm-up sets of the first lift",
+                "The rest between pairs"
+              ],
+              "correctIndex": 1,
+              "explanation": "Protect the compound lifts; trim accessories first."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Review** — Iversen VM, Norum M, Schoenfeld BJ, Fimland MS, No time to lift? Designing time-efficient training programs for strength and hypertrophy, Sports Med 2021;51(10):2079–2095.\n2. **Practice** — programming conventions used in strength coaching; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr5-l06-time-savers",
+      "title": "Saving time: supersets and circuits",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Pair, don't wait\n\nA **superset** alternates two exercises for different muscles, like a squat and a push-up, resting after the pair rather than after each set. A 2021 review found supersets of non-competing muscles roughly halve session time while keeping the same number of sets. They suit muscle building more than maximal strength."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m5/superset-timeline.svg",
+          "alt": "Two timelines doing the same six sets: straight sets with rests take about 15 minutes; a superset of squat and push-up alternating with short rests takes about 8 minutes.",
+          "caption": "Same sets, about half the time",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Other formats\n\n- **Circuit:** three or more exercises in a row, then rest. Good for conditioning; reps can slip as you tire.\n- **EMOM** (every minute on the minute): start a set at the top of each minute and rest for the remainder.\n- **Density block:** as many good sets as you can in a fixed time, for example 8 minutes. Beat the total next time."
+        },
+        {
+          "type": "text",
+          "markdown": "## Keep the quality\n\nTime-savers work only if the sets stay hard and the technique stays clean. Pair muscles that don't compete: lower with upper, or push with pull. Avoid pairing two grip-heavy moves, like rows with carries."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** run your main lifts as supersets of a lower-body and an upper-body exercise. You'll do the same sets in about half the time."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr5-l06-time-savers-fc1",
+              "front": "Superset",
+              "back": "Two exercises for different muscles done back to back, resting after the pair. Roughly halves time for the same sets."
+            },
+            {
+              "id": "tr5-l06-time-savers-fc2",
+              "front": "EMOM",
+              "back": "Every minute on the minute: start a set each minute; the rest of the minute is your rest."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr5-l06-time-savers-q1",
+              "stem": "Which pair makes the best superset?",
+              "options": [
+                "One-arm row and farmer's carry",
+                "Goblet squat and push-up",
+                "Push-up and floor press",
+                "Two hinges"
+              ],
+              "correctIndex": 1,
+              "explanation": "Lower body with upper body: they don't compete."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Review** — Iversen VM, Norum M, Schoenfeld BJ, Fimland MS, No time to lift? Designing time-efficient training programs for strength and hypertrophy, Sports Med 2021;51(10):2079–2095.\n2. **Practice** — programming conventions used in strength coaching; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr5-l07-order-rest",
+      "title": "Exercise order and rest",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## What goes first\n\nIn a 2021 meta-analysis, strength improved more on the exercise done first in a session, while muscle growth didn't depend on order. So put your priority lift first, while you're fresh, and follow it with the others. Big compound lifts before small isolation work is still a good default."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m5/order-rest.svg",
+          "alt": "Left: session order, priority lift first, then other compounds, then accessories. Right: rest of 1–2 min for big lifts, 60–90 s after pairs, under a minute for small moves.",
+          "caption": "Order and rest at a glance",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.278
+        },
+        {
+          "type": "text",
+          "markdown": "## How long to rest\n\nA 2024 meta-analysis found that resting more than 60 seconds between sets may give slightly more muscle growth, with no extra benefit beyond about 90 seconds. Untrained people usually do well with 1–2 minutes before repeating a big lift. In supersets, the other exercise is part of your rest."
+        },
+        {
+          "type": "text",
+          "markdown": "## Practical rules\n\n- Priority lift first.\n- Big lifts: 1–2 minutes before repeating the same exercise.\n- Superset pairs: 60–90 seconds after the pair.\n- Small, single-joint moves: under a minute is fine."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** put the lift you most want to improve first, and give big lifts at least a minute before you repeat them. In supersets, the other exercise counts as part of the rest."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr5-l07-order-rest-fc1",
+              "front": "Exercise order",
+              "back": "Strength improves most on what you do first; muscle growth doesn't depend on order. Priority lift first."
+            },
+            {
+              "id": "tr5-l07-order-rest-fc2",
+              "front": "Rest intervals",
+              "back": "More than ~60 s may help growth slightly; beyond ~90 s adds little. 1–2 min for big lifts."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr5-l07-order-rest-q1",
+              "stem": "You want a stronger split squat this block. Where does it go?",
+              "options": [
+                "Last, after the carries",
+                "First, when you're fresh",
+                "Anywhere; order never matters",
+                "Only in the warm-up"
+              ],
+              "correctIndex": 1,
+              "explanation": "Strength improved most on the exercise done first."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Meta-analysis** — Nunes JP et al., What influence does resistance exercise order have on muscular strength gains and muscle hypertrophy?, Eur J Sport Sci 2021;21(2):149–157.\n2. **Meta-analysis** — Singer A et al., Give it a rest: inter-set rest interval duration and muscle hypertrophy, Front Sports Act Living 2024;6:1429789.\n3. **Review** — Iversen VM, Norum M, Schoenfeld BJ, Fimland MS, No time to lift? Designing time-efficient training programs for strength and hypertrophy, Sports Med 2021;51(10):2079–2095.\n4. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr5-l08-recap",
+      "title": "Recap: build your week",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Putting the dials together\n\n- **Frequency:** 2–3 full-body sessions, A and B alternating.\n- **Volume:** about 6–10 hard sets per big muscle group a week.\n- **Effort:** 1–3 reps in reserve.\n- **Format:** supersets of lower and upper body; priority lift first.\n- **Rest:** 60–90 s after each pair."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m5/sample-week.svg",
+          "alt": "A sample week: Monday session A, Tuesday football, Wednesday session B, Thursday rest or walk, Friday session A, Saturday tennis, Sunday rest. Each session lists two supersets and a carry.",
+          "caption": "A sample week of 3 × 30 minutes",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.05
+        },
+        {
+          "type": "tool",
+          "src": "tools/programme-builder.html",
+          "title": "Programme builder",
+          "description": "Pick your sessions per week, minutes, kit, priority and sport days. It builds full-body A/B sessions from the Module 4 menu, with sets, reps, effort and rest, and counts your weekly sets per pattern. Rules of thumb, not a prescription.",
+          "buttonLabel": "Build my programme",
+          "estimatedMinutes": 5
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** build your first programme with the tool, run it for 4–6 weeks, and log every session. Module 6 shows how to progress it."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr5-l08-recap-fc1",
+              "front": "Default programme settings",
+              "back": "2–3 full-body sessions, 6–10 hard sets per big muscle a week, 1–3 RIR, supersets, priority lift first, 60–90 s rest after pairs."
+            },
+            {
+              "id": "tr5-l08-recap-fc2",
+              "front": "How long to run a plan",
+              "back": "4–6 weeks before judging it, changing one dial at a time."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr5-l08-recap-q1",
+              "stem": "Which plan best matches the module?",
+              "options": [
+                "Chest Monday, back Wednesday, legs Friday, 20 sets each to failure",
+                "Full-body A/B three times a week, 8–10 hard sets per big muscle, 1–3 RIR, supersets",
+                "One long session on Sunday",
+                "Different random workout every day"
+              ],
+              "correctIndex": 1,
+              "explanation": "Frequency, volume, effort and format as set out in this module."
+            },
+            {
+              "id": "tr5-l08-recap-q2",
+              "stem": "After two weeks, the plan feels hard but you're not sure it's working. What do you do?",
+              "options": [
+                "Switch programmes",
+                "Keep running it to 4–6 weeks while logging",
+                "Add three new exercises",
+                "Train to failure on everything"
+              ],
+              "correctIndex": 1,
+              "explanation": "Give a plan time, and judge it from the log."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Guideline** — ACSM Position Stand (Phillips SM, chair, et al.), *Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews*, Med Sci Sports Exerc, April 2026.\n2. **Meta-regression** — Pelland JC, Remmert JF, Robinson ZP, Hinson SR, Zourdos MC, The resistance training dose-response: weekly volume and frequency, muscle hypertrophy and strength gain, Sports Med 2026;56:481–505.\n3. **Review** — Iversen VM, Norum M, Schoenfeld BJ, Fimland MS, No time to lift? Designing time-efficient training programs for strength and hypertrophy, Sports Med 2021;51(10):2079–2095.\n4. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}

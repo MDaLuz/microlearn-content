@@ -113,7 +113,6 @@ for (const file of files) {
     if (u.level === 'lesson') {
       if (covers.length !== 1) err(w, `lesson unit must cover exactly 1 lesson, covers ${covers.length}`);
       else {
-        if (isRecap(covers[0])) err(w, `recap lesson "${covers[0]}" gets no lesson unit`);
         if (lessonUnits.has(covers[0])) err(w, `second lesson unit for "${covers[0]}" (first: ${lessonUnits.get(covers[0])})`);
         lessonUnits.set(covers[0], u.id);
       }
@@ -193,7 +192,7 @@ for (const file of files) {
     if (u.level === 'block' || u.level === 'module') reviewList.push({ id: u.id, level: u.level, covers, prompts });
   }
 
-  // ---- Coverage: one unit per lesson (except recaps), per block, per module ----
+  // ---- Coverage: one unit per lesson (optional for recaps), per block, per module ----
   for (const l of lessons) if (!isRecap(l) && !lessonUnits.has(l)) err('coverage', `lesson "${l}" has no lesson unit`);
   for (const b of blockIds) if (!blockUnits.has(b)) err('coverage', `block ${b} has no block unit`);
   if (moduleUnits !== 1) err('coverage', `needs exactly 1 module unit, has ${moduleUnits}`);

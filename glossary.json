@@ -1,5 +1,5 @@
 {
-  "version": 21,
+  "version": 22,
   "updated": "2026-11-04",
   "entries": [
     {
@@ -6968,6 +6968,270 @@
       ],
       "modules": [
         "tr-m4-exercises"
+      ]
+    },
+    {
+      "id": "hard-set",
+      "term": "Hard set",
+      "aliases": [
+        "working set",
+        "effective set"
+      ],
+      "category": "training",
+      "short": "A set taken reasonably close to failure, roughly 0–3 reps in reserve; the unit for counting training volume.",
+      "simpler": "A set that's genuinely hard by the end.",
+      "example": {
+        "moduleId": "tr-m5-programme",
+        "text": "Lesson 5.1: count hard sets per muscle per week."
+      },
+      "notToConfuse": "Not a warm-up set: those are lighter and don't count.",
+      "related": [
+        "training-volume",
+        "reps-in-reserve"
+      ],
+      "modules": [
+        "tr-m5-programme"
+      ]
+    },
+    {
+      "id": "training-volume",
+      "term": "Training volume",
+      "aliases": [
+        "weekly volume",
+        "sets per week"
+      ],
+      "category": "training",
+      "short": "The number of hard sets per muscle group per week; about 10 is a common guideline for muscle growth.",
+      "simpler": "How many hard sets each muscle gets in a week.",
+      "example": {
+        "moduleId": "tr-m5-programme",
+        "text": "Lesson 5.3: start around 6–10 sets per big muscle group a week."
+      },
+      "notToConfuse": "Not total weight lifted: counting hard sets is simpler and works well.",
+      "related": [
+        "hard-set"
+      ],
+      "modules": [
+        "tr-m5-programme"
+      ]
+    },
+    {
+      "id": "rpe",
+      "term": "RPE",
+      "aliases": [
+        "rating of perceived exertion"
+      ],
+      "category": "training",
+      "short": "A 1–10 effort scale; on the resistance-training version, RPE 10 means no reps left, RPE 8 means two left.",
+      "simpler": "How hard the set felt, out of 10.",
+      "example": {
+        "moduleId": "tr-m5-programme",
+        "text": "Lesson 5.2: the usual working zone is RPE 7–9."
+      },
+      "notToConfuse": "Not the cardio RPE scale, which rates whole-body effort.",
+      "related": [
+        "reps-in-reserve"
+      ],
+      "modules": [
+        "tr-m5-programme"
+      ]
+    },
+    {
+      "id": "training-to-failure",
+      "term": "Training to failure",
+      "aliases": [
+        "muscular failure",
+        "momentary failure"
+      ],
+      "category": "training",
+      "short": "Continuing a set until another rep with good form isn't possible. Not required for muscle growth, and it costs more fatigue.",
+      "simpler": "Doing reps until you physically can't do another.",
+      "example": {
+        "moduleId": "tr-m5-programme",
+        "text": "Lesson 5.2: a 2023 meta-analysis found only a trivial advantage overall."
+      },
+      "notToConfuse": "Not the same as a hard set: 1–3 reps in reserve is enough.",
+      "related": [
+        "hard-set",
+        "rpe"
+      ],
+      "modules": [
+        "tr-m5-programme"
+      ]
+    },
+    {
+      "id": "full-body-split",
+      "term": "Full-body A/B",
+      "aliases": [
+        "full-body training",
+        "A/B split"
+      ],
+      "category": "training",
+      "short": "Two alternating full-body sessions that cover all movement patterns, so each muscle is trained two or three times a week.",
+      "simpler": "Train the whole body each session, alternating two versions.",
+      "example": {
+        "moduleId": "tr-m5-programme",
+        "text": "Lesson 5.4: with 2–3 sessions a week, A/B beats body-part days."
+      },
+      "notToConfuse": "Not a body-part split, where each muscle gets one day a week.",
+      "related": [
+        "training-volume"
+      ],
+      "modules": [
+        "tr-m5-programme"
+      ]
+    },
+    {
+      "id": "superset",
+      "term": "Superset",
+      "aliases": [
+        "paired sets"
+      ],
+      "category": "training",
+      "short": "Two exercises for different muscles done back to back, resting after the pair; roughly halves session time for the same sets.",
+      "simpler": "Do two exercises in turn, then rest.",
+      "example": {
+        "moduleId": "tr-m5-programme",
+        "text": "Lesson 5.6: pair a lower-body and an upper-body exercise."
+      },
+      "notToConfuse": "Not a circuit, which strings three or more exercises together.",
+      "related": [
+        "emom"
+      ],
+      "modules": [
+        "tr-m5-programme"
+      ]
+    },
+    {
+      "id": "emom",
+      "term": "EMOM",
+      "aliases": [
+        "every minute on the minute"
+      ],
+      "category": "training",
+      "short": "Start a set at the top of every minute; the rest of the minute is your rest.",
+      "simpler": "A new set every minute, on the clock.",
+      "example": {
+        "moduleId": "tr-m5-programme",
+        "text": "Lesson 5.6: one of the time-saving formats."
+      },
+      "notToConfuse": "Not a rest-free circuit: the remaining seconds are rest.",
+      "related": [
+        "superset"
+      ],
+      "modules": [
+        "tr-m5-programme"
+      ]
+    },
+    {
+      "id": "double-progression",
+      "term": "Double progression",
+      "aliases": [
+        "rep-then-load progression"
+      ],
+      "category": "training",
+      "short": "Add reps within a range until every set reaches the top with reps to spare, then add weight and start near the bottom.",
+      "simpler": "Reps first, then weight.",
+      "example": {
+        "moduleId": "tr-m6-progression",
+        "text": "Lesson 6.2: range 8–12; move up when all sets hit 12 with at least 1 in reserve."
+      },
+      "notToConfuse": "Not adding weight every session, which stalls quickly with big dumbbell jumps.",
+      "related": [
+        "rep-tempo",
+        "hard-set"
+      ],
+      "modules": [
+        "tr-m6-progression"
+      ]
+    },
+    {
+      "id": "rep-tempo",
+      "term": "Tempo",
+      "aliases": [
+        "repetition tempo",
+        "rep duration"
+      ],
+      "category": "training",
+      "short": "How fast each phase of a rep moves; reps of about 0.5–8 seconds built similar muscle, very slow reps may be less effective.",
+      "simpler": "The speed of each rep.",
+      "example": {
+        "moduleId": "tr-m6-progression",
+        "text": "Lesson 6.3: a 3-second lowering makes a light weight harder."
+      },
+      "notToConfuse": "Not 'slower is always better': super-slow reps beyond about 10 seconds may be less effective.",
+      "related": [
+        "double-progression"
+      ],
+      "modules": [
+        "tr-m6-progression"
+      ]
+    },
+    {
+      "id": "deload",
+      "term": "Deload",
+      "aliases": [
+        "deload week",
+        "recovery week"
+      ],
+      "category": "training",
+      "short": "A planned period of reduced training stress to shed fatigue and prepare for the next block, often about a week of half the sets.",
+      "simpler": "A planned easier week.",
+      "example": {
+        "moduleId": "tr-m6-progression",
+        "text": "Lesson 6.5: every 4–8 weeks, or when performance drops two sessions in a row."
+      },
+      "notToConfuse": "Not stopping training: exercises stay, sets and effort drop.",
+      "related": [
+        "plateau"
+      ],
+      "modules": [
+        "tr-m6-progression"
+      ]
+    },
+    {
+      "id": "plateau",
+      "term": "Plateau",
+      "aliases": [
+        "stall",
+        "stalled lift"
+      ],
+      "category": "training",
+      "short": "No progress on a lift for 2–3 weeks despite consistent training.",
+      "simpler": "When a lift stops improving.",
+      "example": {
+        "moduleId": "tr-m6-progression",
+        "text": "Lesson 6.6: check effort, sleep, food, volume and fatigue before changing exercises."
+      },
+      "notToConfuse": "Not one bad session: it's a pattern over weeks.",
+      "related": [
+        "deload"
+      ],
+      "modules": [
+        "tr-m6-progression"
+      ]
+    },
+    {
+      "id": "training-block",
+      "term": "Training block",
+      "aliases": [
+        "mesocycle",
+        "block"
+      ],
+      "category": "training",
+      "short": "A run of weeks, often 4–12, with the same main lifts and goals, usually ending with a deload or re-test.",
+      "simpler": "A chapter of your training, with one plan.",
+      "example": {
+        "moduleId": "tr-m6-progression",
+        "text": "Lesson 6.7: keep main lifts for the whole block, rotate accessories."
+      },
+      "notToConfuse": "Not a single week: a block spans several.",
+      "related": [
+        "deload",
+        "plateau"
+      ],
+      "modules": [
+        "tr-m6-progression"
       ]
     }
   ]

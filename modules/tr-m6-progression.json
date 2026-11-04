@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 6,
+  "id": "tr-m6-progression",
+  "title": "Training 6: Progression and scaling",
+  "discipline": "Training",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "tr6-l01-overload-ways",
+      "title": "Every way to make it harder",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Not just more weight\n\nProgressive overload means asking a little more over time (Module 0). With home kit, adding weight is often the hardest option, because the next dumbbell can be a big jump. Luckily, there are many other dials."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m6/overload-ladder.svg",
+          "alt": "A ladder of ways to progress, from easiest to apply: more reps, more sets, slower lowering, pauses, more range, harder variation or leverage, one side at a time, less rest (density), more load.",
+          "caption": "Ways to progress an exercise",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.745
+        },
+        {
+          "type": "text",
+          "markdown": "## The options\n\n- **Reps:** one more rep per set.\n- **Sets:** one more set (within your weekly volume).\n- **Tempo:** a slower lowering phase, for example 3 seconds.\n- **Pauses:** a 1–2 second stop at the hardest point.\n- **Range:** deeper squats, deficit push-ups.\n- **Variation:** a harder version, such as split squat to Bulgarian, or incline to floor push-ups.\n- **One side at a time:** the same weight on one leg or arm.\n- **Density:** the same work in less time.\n- **Load:** the next weight up."
+        },
+        {
+          "type": "text",
+          "markdown": "## Pick one at a time\n\nUse one method per exercise per block, and track it. Reps first, then load, is the default (Lesson 2). The others come in when the next weight is too big a jump (Lesson 3)."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** for each exercise, decide how it will progress this block: usually reps then load, otherwise tempo, pauses, range or a harder variation."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr6-l01-overload-ways-fc1",
+              "front": "Overload without heavier weights",
+              "back": "More reps or sets, slower lowering, pauses, more range, harder variations, one side at a time, less rest."
+            },
+            {
+              "id": "tr6-l01-overload-ways-fc2",
+              "front": "One method at a time",
+              "back": "Choose one progression method per exercise per block, so you can see what works."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr6-l01-overload-ways-q1",
+              "stem": "Your heaviest dumbbell is 10 kg and split squats are getting easy. Which isn't a progression?",
+              "options": [
+                "A 3-second lowering phase",
+                "Moving to Bulgarian split squats",
+                "Doing the same 3 × 12 with the same weight and tempo",
+                "A pause at the bottom"
+              ],
+              "correctIndex": 2,
+              "explanation": "Nothing changed, so there's no added demand."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Guideline** — ACSM Position Stand, Progression Models in Resistance Training for Healthy Adults, Med Sci Sports Exerc 2009;41(3):687–708.\n2. **Practice** — programming conventions used in strength coaching; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr6-l02-double-progression",
+      "title": "Double progression",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Reps first, then weight\n\n**Double progression** uses a rep range, for example 8–12, and two steps:\n\n1. Keep the weight, and add reps session by session until every set reaches the top of the range with at least 1 rep in reserve.\n2. Then increase the weight, and start again near the bottom of the range."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m6/double-progression.svg",
+          "alt": "A chart over eight sessions: reps per set climb from 8 to 12 at 10 kg, then the weight steps up to 12 kg and reps drop back to 8, then climb again.",
+          "caption": "Double progression: reps, then weight",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.05
+        },
+        {
+          "type": "text",
+          "markdown": "## An example (illustrative)\n\nOne-arm row, 3 sets of 8–12 reps:\n\n- Week 1, 12 kg: 10, 9, 8\n- Week 2, 12 kg: 11, 10, 9\n- Week 3, 12 kg: 12, 11, 10\n- Week 4, 12 kg: 12, 12, 12, with 1–2 reps in reserve: move up\n- Week 5, 16 kg: 8, 8, 7"
+        },
+        {
+          "type": "text",
+          "markdown": "## Wide ranges help with big jumps\n\nIf the jump to the next weight is large, use a wider range, like 10–15 or 12–20. You'll have more room to grow into the heavier weight. The load helper does the sums for you."
+        },
+        {
+          "type": "tool",
+          "src": "tools/load-helper.html",
+          "title": "Load helper",
+          "description": "Enter your rep range, the weight you used, the reps you did in each set and your available weights. It tells you whether to add reps, move up, or use another option because the jump is too big.",
+          "buttonLabel": "Plan next session",
+          "estimatedMinutes": 2
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** give every main exercise a rep range and use double progression. Move up only when all sets hit the top of the range with a rep or two to spare."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr6-l02-double-progression-fc1",
+              "front": "Double progression rule",
+              "back": "Add reps until all sets reach the top of the range with ≥1 rep in reserve; then add weight and start near the bottom."
+            },
+            {
+              "id": "tr6-l02-double-progression-fc2",
+              "front": "Big jumps",
+              "back": "Use a wider rep range (10–15 or 12–20) so the next weight is reachable."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr6-l02-double-progression-q1",
+              "stem": "Range 8–12. Last session at 10 kg: 12, 12, 11. What next?",
+              "options": [
+                "Move to 12 kg",
+                "Stay at 10 kg and aim for 12, 12, 12",
+                "Drop to 8 kg",
+                "Add a fourth set at 12 kg"
+              ],
+              "correctIndex": 1,
+              "explanation": "Not every set has reached the top yet."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — programming conventions used in strength coaching; labelled as practice in the lesson.\n2. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr6-l03-too-heavy",
+      "title": "When the next weight is too heavy",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The gap problem\n\nGoing from 10 to 12.5 kg dumbbells is a 25% jump; from 12 to 16 kg kettlebells, 33%. That's often too much to keep the reps. Before buying more kit, use options that make the current weight harder."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m6/jump-options.svg",
+          "alt": "A gap between two weights, 12 kg and 16 kg, bridged by four steps: more reps beyond the range, slower lowering and pauses, one side at a time, then the heavier weight for fewer reps.",
+          "caption": "Bridging a big weight jump",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.828
+        },
+        {
+          "type": "text",
+          "markdown": "## Tempo and pauses\n\nA 2015 meta-analysis found that rep durations from about half a second to 8 seconds built similar muscle; very slow reps of more than about 10 seconds may be less effective. So a 3-second lowering or a 2-second pause is a useful tool, while super-slow reps are not."
+        },
+        {
+          "type": "text",
+          "markdown": "## The bridging sequence\n\n1. Extend the range: keep adding reps, up to about 20.\n2. Slow the lowering to 3 seconds, or add a pause.\n3. Switch to a one-sided or harder version.\n4. Try the heavier weight for one set, then two, at the bottom of the range.\n5. If none of these work, it's time for new kit (Module 3)."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** when the next weight is too big a jump, add reps, slow the lowering, pause or go one-sided before you buy. Avoid super-slow reps of 10 seconds or more."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr6-l03-too-heavy-fc1",
+              "front": "Useful tempo range",
+              "back": "Reps of about 0.5–8 seconds built similar muscle; super-slow reps (> ~10 s) may be less effective."
+            },
+            {
+              "id": "tr6-l03-too-heavy-fc2",
+              "front": "Bridging a jump",
+              "back": "More reps → slower lowering or pauses → one-sided or harder version → heavier weight for one set, then two."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr6-l03-too-heavy-q1",
+              "stem": "Which tempo change is least useful for muscle growth?",
+              "options": [
+                "A 3-second lowering phase",
+                "A 2-second pause at the bottom",
+                "A 15-second lowering on every rep",
+                "Normal controlled speed"
+              ],
+              "correctIndex": 2,
+              "explanation": "Very slow reps beyond about 10 seconds appear less effective."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Meta-analysis** — Schoenfeld BJ, Ogborn DI, Krieger JW, Effect of repetition duration during resistance training on muscle hypertrophy, Sports Med 2015;45(4):577–585.\n2. **Practice** — programming conventions used in strength coaching; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr6-l04-log",
+      "title": "A one-minute training log",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## If it isn't written, it didn't happen\n\nProgression needs a record. For each exercise, write the weight, the reps in each set and how many reps you had in reserve on the last set. A notes app, paper or a spreadsheet all work."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m6/log-sheet.svg",
+          "alt": "A simple log table with columns: date, exercise, weight, reps per set, RIR on last set, note. Example rows for goblet squat and one-arm row over two sessions, with progress highlighted.",
+          "caption": "A one-minute training log",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## The weekly review\n\nOnce a week, look across the log:\n\n- Which exercises progressed?\n- Which stalled for 2–3 sessions?\n- How were sleep and energy?\n\nThen set next week's targets. That's the 'adjust' step of the training loop (Module 0)."
+        },
+        {
+          "type": "text",
+          "markdown": "## Keep it light\n\nOne line per exercise is enough. Skip the stopwatch and the heart-rate charts. What matters is that next week's session can beat this one."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** log weight, reps and RIR for every exercise, every session, and review it once a week to set targets."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr6-l04-log-fc1",
+              "front": "Log essentials",
+              "back": "Date, exercise, weight, reps per set, reps in reserve on the last set, a short note."
+            },
+            {
+              "id": "tr6-l04-log-fc2",
+              "front": "Weekly review",
+              "back": "What progressed, what stalled for 2–3 sessions, how sleep and energy were; then set next week's targets."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr6-l04-log-q1",
+              "stem": "Which entry is most useful?",
+              "options": [
+                "'Good session'",
+                "'Goblet squat 12 kg: 15, 14, 13 — RIR 2'",
+                "'Legs felt tired'",
+                "'Did squats'"
+              ],
+              "correctIndex": 1,
+              "explanation": "Weight, reps per set and effort make the next session plannable."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — programming conventions used in strength coaching; labelled as practice in the lesson.\n2. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr6-l05-deload",
+      "title": "Fatigue and deload weeks",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Planned easy weeks\n\nA **deload** is a period of reduced training stress, designed to reduce physical and mental fatigue, help recovery and prepare for the next block. That's the definition agreed by coaches in a 2023 international Delphi consensus."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m6/deload-wave.svg",
+          "alt": "Bars for weekly training stress over ten weeks: four to six weeks rising gradually, one deload week at about half, then a new block starting slightly higher.",
+          "caption": "Build, deload, build again",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.412
+        },
+        {
+          "type": "text",
+          "markdown": "## How to do it (practice)\n\n- **When:** every 4–8 weeks, or sooner if warning signs appear.\n- **How long:** about one week.\n- **How:** keep the exercises and roughly the same weights, but do about half the sets, and stop further from failure (3–4 reps in reserve).\n- **Sport:** keep it as normal, or ease off if matches are frequent."
+        },
+        {
+          "type": "text",
+          "markdown": "## Warning signs\n\n- Performance drops for two sessions in a row.\n- Sleep is poor, or motivation has disappeared.\n- Joints ache in a way that doesn't fade between sessions.\n\nOne bad day isn't a pattern; two or three are."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** plan a lighter week every 4–8 weeks: half the sets, same exercises, further from failure. Take it sooner if performance drops for two sessions in a row."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr6-l05-deload-fc1",
+              "front": "Deload",
+              "back": "A planned period of reduced training stress to shed fatigue and prepare for the next block (2023 Delphi consensus)."
+            },
+            {
+              "id": "tr6-l05-deload-fc2",
+              "front": "Simple deload recipe",
+              "back": "About one week; same exercises and weights; roughly half the sets; 3–4 reps in reserve."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr6-l05-deload-q1",
+              "stem": "Your log shows lower reps on two lifts for two sessions in a row, and you've slept badly. What's sensible?",
+              "options": [
+                "Add sets to push through",
+                "Take a deload week",
+                "Stop training for a month",
+                "Test your 1RM"
+              ],
+              "correctIndex": 1,
+              "explanation": "Two sessions of decline plus poor sleep are classic deload signs."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Consensus** — Bell L, Strafford BW, Coleman M, Androulakis Korakakis P, Nolan D, Integrating deloading into strength and physique sports training programmes: an international Delphi consensus approach, Sports Med Open 2023;9.\n2. **Practice** — programming conventions used in strength coaching; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr6-l06-plateaus",
+      "title": "Plateaus: what's really stuck",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## When progress stops\n\nA **plateau** is when a lift hasn't progressed for 2–3 weeks despite consistent training. Before changing the programme, check the usual suspects. Most plateaus aren't about the exercises."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m6/plateau-checklist.svg",
+          "alt": "A checklist for a stalled lift: sets close to failure? Sleep 7+ hours? A moderate deficit and enough protein? Enough weekly sets? Recent deload? Only then change the exercise.",
+          "caption": "Diagnosing a plateau",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.745
+        },
+        {
+          "type": "text",
+          "markdown": "## Check in this order\n\n1. **Effort:** are the sets really 1–3 reps from failure? Test one set to failure on a safe exercise.\n2. **Sleep and stress:** short sleep slows recovery (Module 9).\n3. **Food:** a large deficit stalls muscle gain; protein matters (Modules 1 and 9).\n4. **Volume:** are there enough weekly sets for that muscle?\n5. **Fatigue:** when was the last deload?\n6. **Programme:** only now change the exercise or the rep range."
+        },
+        {
+          "type": "text",
+          "markdown": "## Plateaus in a deficit\n\nWhile losing fat, holding strength steady can itself be a win. Expect slower progress in a deficit, and judge it against your waist and photos as well as the log."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** when a lift stalls for 2–3 weeks, run the checklist: effort, sleep, food, volume, fatigue. Change the exercise last, not first."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr6-l06-plateaus-fc1",
+              "front": "Plateau",
+              "back": "No progress on a lift for 2–3 weeks despite consistent training."
+            },
+            {
+              "id": "tr6-l06-plateaus-fc2",
+              "front": "Plateau checklist",
+              "back": "Effort → sleep and stress → food → weekly volume → fatigue/deload → only then the programme."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr6-l06-plateaus-q1",
+              "stem": "Your push-ups stalled for three weeks during a 900 kcal-a-day deficit. What's the most likely cause?",
+              "options": [
+                "The exercise is wrong",
+                "The large deficit is limiting progress",
+                "You need a new programme",
+                "Push-ups stop working after a month"
+              ],
+              "correctIndex": 1,
+              "explanation": "Large deficits stall muscle gain; moderate the deficit first."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Meta-analysis** — Murphy C, Koehler K, Energy deficiency impairs resistance training gains in lean mass but not strength, Scand J Med Sci Sports 2022;32(1):125–137.\n2. **Practice** — programming conventions used in strength coaching; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr6-l07-variation",
+      "title": "Changing exercises: when it helps",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Novelty isn't progress\n\nChanging exercises every session feels fresh, but it makes progression hard to track. A 2022 systematic review found that planned variation can help, for example training a muscle from different angles, while excessive, random variation may compromise gains. The evidence is small, so keep it simple."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m6/variation-plan.svg",
+          "alt": "Two rows across three 6-week blocks: main lifts stay the same within each block and change only between blocks; accessories rotate more freely.",
+          "caption": "Stable main lifts, rotating accessories",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.562
+        },
+        {
+          "type": "text",
+          "markdown": "## A simple rule\n\n- Keep your main lifts for a whole block, about 6–12 weeks, so you can progress them.\n- Rotate accessories more freely: core moves, carries, isolation work.\n- Change a main lift when it stops progressing despite the checklist, when it hurts, or when your kit allows a better version."
+        },
+        {
+          "type": "text",
+          "markdown": "## Change within the pattern\n\nWhen you do change, swap within the same pattern: goblet squat to Bulgarian split squat, Romanian deadlift to single-leg RDL, push-up to feet-raised push-up. The Module 4 menu is your list."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** keep main lifts for 6–12 weeks and progress them; rotate accessories freely; when you change a main lift, swap within the same pattern."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr6-l07-variation-fc1",
+              "front": "Planned vs random variation",
+              "back": "Planned variation can help; excessive, random variation may compromise gains (2022 systematic review)."
+            },
+            {
+              "id": "tr6-l07-variation-fc2",
+              "front": "When to change a main lift",
+              "back": "When it stalls despite the plateau checklist, when it hurts, or when your kit allows a better version."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr6-l07-variation-q1",
+              "stem": "Which approach fits the evidence best?",
+              "options": [
+                "A brand-new set of exercises every session",
+                "The same main lifts for a 6–12-week block, with accessories rotating",
+                "Never change any exercise",
+                "Change only when bored"
+              ],
+              "correctIndex": 1,
+              "explanation": "Stable main lifts let you progress; accessories can rotate."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Systematic review** — Kassiano W et al., Does varying resistance exercises promote superior muscle hypertrophy and strength gains?, J Strength Cond Res 2022;36(6):1753–1762.\n2. **Practice** — programming conventions used in strength coaching; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Load helper</title>
+<style>
+:root{--bg:#FFFFFF;--card:#F7F4EE;--ink:#1B2430;--muted:#5B6672;--line:#E3E8EE;--go:#2E8B57;--gol:#DDF2E5;--stay:#2F7FB3;--stayl:#D6E9F5;--warn:#B7791F;--warnl:#FFF1D6;--back:#C2185B;--backl:#FBE4EE;--accent:#1F3A5F}
+@media (prefers-color-scheme:dark){:root{--bg:#14181E;--card:#1E242C;--ink:#E8ECF1;--muted:#9AA5B1;--line:#2C343E;--go:#5CC48A;--gol:#18301F;--stay:#6FB1DE;--stayl:#1B2C3A;--warn:#E0A84A;--warnl:#33281A;--back:#F06292;--backl:#3A1E2A;--accent:#8DB4E2}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 "Atkinson Hyperlegible",Arial,Helvetica,sans-serif;padding:16px}
+h1{font-size:20px;margin:0 0 4px} p.sub{color:var(--muted);margin:0 0 16px;font-size:13px}
+fieldset{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:0 0 12px;background:var(--card)}
+legend{font-weight:700;padding:0 6px}
+label{display:block;margin:8px 0}
+input{padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
+input[type=number]{width:80px} input.wide{width:100%;max-width:340px}
+button{background:var(--accent);color:var(--bg);border:0;border-radius:8px;padding:10px 18px;font:inherit;font-weight:700;cursor:pointer;width:100%}
+.res{border-radius:10px;padding:12px 14px;margin-top:14px;border-left:6px solid}
+.res h2{font-size:16px;margin:0 0 6px}
+.go{background:var(--gol);border-color:var(--go)} .go h2{color:var(--go)}
+.stay{background:var(--stayl);border-color:var(--stay)} .stay h2{color:var(--stay)}
+.warn{background:var(--warnl);border-color:var(--warn)} .warn h2{color:var(--warn)}
+.back{background:var(--backl);border-color:var(--back)} .back h2{color:var(--back)}
+ul{margin:6px 0 0;padding-left:18px}
+.err{color:var(--back);font-size:13px;margin-top:8px}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px}
+</style>
+</head>
+<body>
+<h1>Load helper</h1>
+<p class="sub">Double progression (Module 6): add reps until every set reaches the top of the range, then add weight.</p>
+
+<fieldset><legend>Last session</legend>
+  <label>Rep range <input id="lo" type="number" min="1" max="40" value="8"> to <input id="hi" type="number" min="1" max="50" value="12"></label>
+  <label>Weight used (kg) <input id="w" type="number" min="0" max="200" step="0.5" value="12"></label>
+  <label>Reps in each set <input id="reps" class="wide" value="12, 12, 11" aria-describedby="h1"></label>
+  <span id="h1" class="note">Separate with commas, e.g. 12, 11, 10</span>
+  <label>Reps in reserve on the last set <input id="rir" type="number" min="0" max="10" value="2"></label>
+</fieldset>
+
+<fieldset><legend>Weights you have</legend>
+  <label>Available weights (kg) <input id="avail" class="wide" value="6, 8, 10, 12, 16"></label>
+</fieldset>
+
+<button id="go" type="button">Plan next session</button>
+<div id="out" aria-live="polite"></div>
+
+<script>
+(function(){
+  var $=function(id){return document.getElementById(id);};
+  function nums(s){return s.split(/[,;\s]+/).map(parseFloat).filter(function(x){return !isNaN(x);});}
+  function li(a){return '<ul>'+a.map(function(x){return '<li>'+x+'</li>';}).join('')+'</ul>';}
+  function plan(){
+    var lo=+$('lo').value, hi=+$('hi').value, w=+$('w').value, rir=+$('rir').value;
+    var reps=nums($('reps').value), avail=nums($('avail').value).sort(function(a,b){return a-b;});
+    if(!reps.length || !(hi>lo)){ $('out').innerHTML='<p class="err">Enter a rep range (low below high) and the reps for each set.</p>'; return; }
+    var allTop = reps.every(function(r){return r>=hi;}), anyLow = reps.some(function(r){return r<lo;});
+    var next = avail.filter(function(x){return x>w;})[0];
+    var lower = avail.filter(function(x){return x<w;}).pop();
+    var html;
+    if(anyLow){
+      html='<div class="res back"><h2>Too heavy for now</h2>Some sets fell below '+lo+' reps.'+li([
+        'Stay at '+w+' kg and aim to get every set to '+lo+'+ reps, or',
+        (lower!==undefined?'drop to '+lower+' kg':'use an easier version')+' and build back up.',
+        'Check sleep, food and fatigue if this is new (Module 6 plateau checklist).'])+'</div>';
+    } else if(allTop && rir>=1){
+      if(next===undefined){
+        html='<div class="res warn"><h2>Top of the range, no heavier weight</h2>'+li([
+          'Extend the range: keep adding reps up to about 20.',
+          'Slow the lowering to 3 seconds, or add a 2-second pause.',
+          'Switch to a one-sided or harder version (Module 4 menu).',
+          'Plan new kit with the kit planner (Module 3).'])+'</div>';
+      } else {
+        var jump=(next-w)/w*100;
+        if(jump>15){
+          html='<div class="res warn"><h2>Ready, but '+w+' → '+next+' kg is a '+Math.round(jump)+'% jump</h2>Bridge it first:'+li([
+            'Keep '+w+' kg and add reps beyond '+hi+' (up to about 20), or slow the lowering to 3 s.',
+            'Next session, try '+next+' kg for the first set only; aim for '+lo+'+ reps.',
+            'When that works, do two sets at '+next+' kg, then all sets.',
+            'Or widen the range (e.g. 10–15 or 12–20) so the heavier weight is reachable.'])+'</div>';
+        } else {
+          html='<div class="res go"><h2>Move up to '+next+' kg</h2>Every set reached '+hi+' with reps to spare.'+li([
+            'Next session: '+next+' kg, aim for '+lo+'–'+(lo+2)+' reps per set.',
+            'Then add reps again until every set reaches '+hi+'.'])+'</div>';
+        }
+      }
+    } else if(allTop && rir<1){
+      html='<div class="res stay"><h2>Stay at '+w+' kg once more</h2>You reached '+hi+' reps but with nothing in reserve.'+li([
+        'Repeat '+w+' kg and aim for '+hi+' reps on every set with at least 1 rep in reserve.',
+        'Then move up.'])+'</div>';
+    } else {
+      var targets=reps.map(function(r){return Math.min(hi,r+1);});
+      html='<div class="res stay"><h2>Stay at '+w+' kg and add reps</h2>'+li([
+        'Next session target: '+targets.join(', ')+' reps.',
+        'Move up when every set reaches '+hi+' with at least 1 rep in reserve.'])+'</div>';
+    }
+    $('out').innerHTML=html+'<p class="note">Rules of thumb. A jump over about 15% is treated as too big. Log the result and re-run next session.</p>';
+  }
+  $('go').addEventListener('click',plan);
+})();
+</script>
+</body>
+</html>

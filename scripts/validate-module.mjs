@@ -258,28 +258,14 @@ if (molecule) {
   for (const [k, ls] of cols) if (ls.length > 1) warn('molecule', `comparison tables with the same columns (${k}) in ${ls.join(', ')}`);
 }
 
-// ---- Generics & launch and Training course checks ----
-// Applied automatically to modules in those categories (catalog discipline).
+// ---- Generics & launch course checks ----
+// Applied automatically to modules in that category (catalog discipline).
 
-const COURSE_RULES = {
-  'Generics & launch': {
-    cardHead: /^\s*### Process card:/,
-    cardName: 'process card',
-    fields: ['- What it is:', '- Who owns it:', '- Inputs:', '- Output:', '- Typical duration:', '- What makes it slip:', '- PM watch-points:'],
-    line: '**What this means for the launch timeline:**',
-  },
-  Training: {
-    cardHead: /^\s*### Exercise card:/,
-    cardName: 'exercise card',
-    fields: ['- Pattern:', '- Main muscles:', '- Equipment:', '- Set-up:', '- Cues:', '- Common errors:', '- Easier / harder:', '- Starting load:'],
-    line: '**What this means for your training:**',
-    sourcesLast: true,
-  },
-};
+const LAUNCH = 'Generics & launch';
 const report = [];
-const course = COURSE_RULES[mod.discipline] ?? COURSE_RULES[entry?.discipline];
-if (course) {
-  const TIMELINE = course.line;
+if (mod.discipline === LAUNCH || entry?.discipline === LAUNCH) {
+  const PROCESS_FIELDS = ['- What it is:', '- Who owns it:', '- Inputs:', '- Output:', '- Typical duration:', '- What makes it slip:', '- PM watch-points:'];
+  const TIMELINE = '**What this means for the launch timeline:**';
   const isSources = (b) => b.type === 'text' && /^\s*## Sources/.test(b.markdown ?? '');
   let cards = 0;
 
@@ -287,31 +273,28 @@ if (course) {
     const w = `lesson ${l.id}`;
     const texts = l.blocks.map((b, i) => ({ b, i })).filter(({ b }) => b.type === 'text');
 
-    // Standard cards: every field, in order.
+    // Process cards: the seven fields, in order.
     for (const { b, i } of texts) {
-      if (!course.cardHead.test(b.markdown)) continue;
+      if (!/^\s*### Process card:/.test(b.markdown)) continue;
       cards++;
       const lines = b.markdown.split('\n').map((x) => x.trim());
       let at = -1;
-      for (const f of course.fields) {
+      for (const f of PROCESS_FIELDS) {
         const k = lines.findIndex((x, j) => j > at && x.startsWith(f));
         if (k < 0) {
-          err(`${w} block ${i}`, `${course.cardName} is missing "${f}" (or it's out of order)`);
+          err(`${w} block ${i}`, `process card is missing "${f}" (or it's out of order)`);
           break;
         }
         at = k;
       }
     }
 
-    // One "What this means for…" line, before Sources (optional in recaps).
+    // One "What this means for the launch timeline" line, before Sources (optional in recaps).
     const tl = texts.filter(({ b }) => b.markdown.trim().startsWith(TIMELINE));
     const recap = /^Recap/i.test(l.title);
     if (tl.length > 1 || (!recap && tl.length === 0)) err(w, `needs exactly one "${TIMELINE}" block, has ${tl.length}`);
     const src = l.blocks.findIndex(isSources);
-    for (const { i } of tl) if (src >= 0 && i > src) err(`${w} block ${i}`, `the "${TIMELINE}" line must come before Sources`);
-
-    // The last block is Sources.
-    if (course.sourcesLast && !isSources(l.blocks.at(-1))) err(w, 'the last block must start with "## Sources"');
+    for (const { i } of tl) if (src >= 0 && i > src) err(`${w} block ${i}`, 'the launch-timeline line must come before Sources');
 
     // At least one image per lesson.
     if (!l.blocks.some((b) => b.type === 'image')) err(w, 'has no image block');
@@ -328,7 +311,7 @@ if (course) {
       if (terms.length > 3) err(`${w} block ${i}`, `${terms.length} new bold terms (max 3)`);
     }
   }
-  report.unshift(`${course.cardName}s: ${cards}`);
+  report.unshift(`process cards: ${cards}`);
 }
 
 // ---- Report ----

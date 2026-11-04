@@ -2,12 +2,7 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 19
-  },
-  "categories": {
-    "Training": {
-      "disclaimer": "General training education, not medical advice. Check with a doctor if you have a health condition, and stop if you feel chest pain, dizziness or unusual breathlessness."
-    }
+    "version": 18
   },
   "modules": [
     {
@@ -132,9 +127,7 @@
       "version": 1,
       "lessonCount": 6,
       "estimatedMinutes": 35,
-      "accentColor": "#7C8792",
-      "reviews": "reviews/gl-m0-orientation.reviews.json",
-      "reviewsVersion": 1
+      "accentColor": "#7C8792"
     },
     {
       "id": "gl-m1-generic-basics",
@@ -145,9 +138,7 @@
       "version": 4,
       "lessonCount": 8,
       "estimatedMinutes": 60,
-      "accentColor": "#7C8792",
-      "reviews": "reviews/gl-m1-generic-basics.reviews.json",
-      "reviewsVersion": 1
+      "accentColor": "#7C8792"
     },
     {
       "id": "gl-m2-regulatory",
@@ -158,9 +149,7 @@
       "version": 2,
       "lessonCount": 10,
       "estimatedMinutes": 75,
-      "accentColor": "#7C8792",
-      "reviews": "reviews/gl-m2-regulatory.reviews.json",
-      "reviewsVersion": 1
+      "accentColor": "#7C8792"
     },
     {
       "id": "gl-m3-ip",
@@ -171,9 +160,7 @@
       "version": 1,
       "lessonCount": 8,
       "estimatedMinutes": 60,
-      "accentColor": "#7C8792",
-      "reviews": "reviews/gl-m3-ip.reviews.json",
-      "reviewsVersion": 1
+      "accentColor": "#7C8792"
     },
     {
       "id": "gl-m4-quality",
@@ -184,9 +171,7 @@
       "version": 1,
       "lessonCount": 8,
       "estimatedMinutes": 60,
-      "accentColor": "#7C8792",
-      "reviews": "reviews/gl-m4-quality.reviews.json",
-      "reviewsVersion": 1
+      "accentColor": "#7C8792"
     },
     {
       "id": "gl-m5-manufacturing",
@@ -197,9 +182,7 @@
       "version": 2,
       "lessonCount": 8,
       "estimatedMinutes": 55,
-      "accentColor": "#7C8792",
-      "reviews": "reviews/gl-m5-manufacturing.reviews.json",
-      "reviewsVersion": 1
+      "accentColor": "#7C8792"
     },
     {
       "id": "gl-m6-india-import",
@@ -210,9 +193,7 @@
       "version": 2,
       "lessonCount": 8,
       "estimatedMinutes": 50,
-      "accentColor": "#7C8792",
-      "reviews": "reviews/gl-m6-india-import.reviews.json",
-      "reviewsVersion": 1
+      "accentColor": "#7C8792"
     },
     {
       "id": "gl-m7-finished-product",
@@ -223,9 +204,7 @@
       "version": 2,
       "lessonCount": 7,
       "estimatedMinutes": 40,
-      "accentColor": "#7C8792",
-      "reviews": "reviews/gl-m7-finished-product.reviews.json",
-      "reviewsVersion": 1
+      "accentColor": "#7C8792"
     },
     {
       "id": "gl-m8-artworks",
@@ -236,9 +215,7 @@
       "version": 3,
       "lessonCount": 8,
       "estimatedMinutes": 55,
-      "accentColor": "#7C8792",
-      "reviews": "reviews/gl-m8-artworks.reviews.json",
-      "reviewsVersion": 1
+      "accentColor": "#7C8792"
     },
     {
       "id": "gl-m9-launch-chronology",
@@ -249,35 +226,7 @@
       "version": 6,
       "lessonCount": 10,
       "estimatedMinutes": 60,
-      "accentColor": "#7C8792",
-      "reviews": "reviews/gl-m9-launch-chronology.reviews.json",
-      "reviewsVersion": 1
-    },
-    {
-      "id": "tr-m0-foundations",
-      "title": "Training 0: How training works",
-      "discipline": "Training",
-      "description": "Overload, recovery, specificity, and your starting point",
-      "file": "modules/tr-m0-foundations.json",
-      "version": 1,
-      "lessonCount": 6,
-      "estimatedMinutes": 40,
-      "accentColor": "#6B7280",
-      "reviews": "reviews/tr-m0-foundations.reviews.json",
-      "reviewsVersion": 1
-    },
-    {
-      "id": "tr-m1-goals",
-      "title": "Training 1: Goals and how to combine them",
-      "discipline": "Training",
-      "description": "Strength, muscle, fat loss and cardio in one plan",
-      "file": "modules/tr-m1-goals.json",
-      "version": 1,
-      "lessonCount": 7,
-      "estimatedMinutes": 50,
-      "accentColor": "#6B7280",
-      "reviews": "reviews/tr-m1-goals.reviews.json",
-      "reviewsVersion": 1
+      "accentColor": "#7C8792"
     }
   ]
 }

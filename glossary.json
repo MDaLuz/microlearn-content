@@ -1,5 +1,5 @@
 {
-  "version": 23,
+  "version": 24,
   "updated": "2026-11-04",
   "entries": [
     {
@@ -7500,6 +7500,276 @@
       ],
       "modules": [
         "tr-m8-mobility"
+      ]
+    },
+    {
+      "id": "maintenance-calories",
+      "term": "Maintenance calories",
+      "aliases": [
+        "maintenance",
+        "TDEE"
+      ],
+      "category": "training",
+      "short": "The daily energy intake at which your weight stays stable; formulas estimate it within about 10%, and your weight trend confirms it.",
+      "simpler": "What you eat to stay the same weight.",
+      "example": {
+        "moduleId": "tr-m9-nutrition",
+        "text": "Lesson 9.1: estimate, then check with 2–3 weeks of weigh-ins."
+      },
+      "notToConfuse": "Not resting energy use: maintenance includes activity and training.",
+      "related": [
+        "calorie-deficit",
+        "weekly-average-weight"
+      ],
+      "modules": [
+        "tr-m9-nutrition"
+      ]
+    },
+    {
+      "id": "rate-of-loss",
+      "term": "Rate of loss",
+      "aliases": [
+        "weight-loss rate",
+        "pace of loss"
+      ],
+      "category": "training",
+      "short": "How fast body weight falls; about 0.5–1% of body weight a week keeps more muscle and strength than faster loss.",
+      "simpler": "How quickly you lose weight.",
+      "example": {
+        "moduleId": "tr-m9-nutrition",
+        "text": "Lesson 9.1: 0.4–0.8 kg a week at 80 kg."
+      },
+      "notToConfuse": "Not a daily target: judge it on weekly averages.",
+      "related": [
+        "calorie-deficit",
+        "lean-mass"
+      ],
+      "modules": [
+        "tr-m9-nutrition"
+      ]
+    },
+    {
+      "id": "protein-target",
+      "term": "Protein target",
+      "aliases": [
+        "daily protein",
+        "g/kg protein"
+      ],
+      "category": "training",
+      "short": "About 1.6–2.2 g of protein per kg of body weight a day for people doing resistance training; the upper half in a deficit.",
+      "simpler": "How much protein to eat each day.",
+      "example": {
+        "moduleId": "tr-m9-nutrition",
+        "text": "Lesson 9.2: 120–165 g a day at 75 kg."
+      },
+      "notToConfuse": "Not per meal: it's the daily total.",
+      "related": [
+        "protein-per-meal",
+        "lean-mass"
+      ],
+      "modules": [
+        "tr-m9-nutrition"
+      ]
+    },
+    {
+      "id": "protein-per-meal",
+      "term": "Protein per meal",
+      "aliases": [
+        "protein distribution"
+      ],
+      "category": "training",
+      "short": "About 0.4 g/kg per meal over three to four meals; daily totals matter more than exact timing.",
+      "simpler": "A good portion of protein at each meal.",
+      "example": {
+        "moduleId": "tr-m9-nutrition",
+        "text": "Lesson 9.2: about 30–35 g per meal at 80 kg."
+      },
+      "notToConfuse": "Not an 'anabolic window': timing matters little once totals are met.",
+      "related": [
+        "protein-target"
+      ],
+      "modules": [
+        "tr-m9-nutrition"
+      ]
+    },
+    {
+      "id": "creatine-monohydrate",
+      "term": "Creatine monohydrate",
+      "aliases": [
+        "creatine"
+      ],
+      "category": "training",
+      "short": "The best-researched supplement for strength training: 3–5 g a day gives small extra gains; expect 1–2 kg of water weight at first.",
+      "simpler": "A well-tested powder that helps strength a little.",
+      "example": {
+        "moduleId": "tr-m9-nutrition",
+        "text": "Lesson 9.5: no loading phase needed."
+      },
+      "notToConfuse": "Not a steroid or a hormone.",
+      "related": [
+        "weekly-average-weight",
+        "lean-mass"
+      ],
+      "modules": [
+        "tr-m9-nutrition"
+      ]
+    },
+    {
+      "id": "doms",
+      "term": "Delayed-onset muscle soreness",
+      "aliases": [
+        "DOMS",
+        "muscle soreness"
+      ],
+      "category": "training",
+      "short": "Muscle soreness that peaks one to three days after new or harder exercise and fades as you adapt; you can train lightly through it.",
+      "simpler": "Sore muscles a day or two after training.",
+      "example": {
+        "moduleId": "tr-m9-nutrition",
+        "text": "Lesson 9.7: sore legs two days after your first lunges."
+      },
+      "notToConfuse": "Not injury pain: sharp, joint or worsening pain needs the traffic light.",
+      "related": [
+        "pain-traffic-light",
+        "recovery"
+      ],
+      "modules": [
+        "tr-m9-nutrition"
+      ]
+    },
+    {
+      "id": "pain-traffic-light",
+      "term": "Pain traffic light",
+      "aliases": [
+        "pain-monitoring model"
+      ],
+      "category": "training",
+      "short": "Rate pain during exercise 0–10: 0–2 continue; 3–5 adapt if it settles by next morning; above 5 or worse next day, stop that exercise.",
+      "simpler": "Green, amber, red for pain while training.",
+      "example": {
+        "moduleId": "tr-m9-nutrition",
+        "text": "Lesson 9.7: knee 4/10 that settles overnight is amber."
+      },
+      "notToConfuse": "Not for red-flag symptoms, which need medical help.",
+      "related": [
+        "doms",
+        "red-flag-symptoms"
+      ],
+      "modules": [
+        "tr-m9-nutrition"
+      ]
+    },
+    {
+      "id": "red-flag-symptoms",
+      "term": "Red-flag symptoms",
+      "aliases": [
+        "red flags"
+      ],
+      "category": "training",
+      "short": "Signs that need medical help, not training changes: chest pain, fainting, unusual breathlessness, a 'pop', rapid swelling, numbness or worsening night pain.",
+      "simpler": "Warning signs to stop and see a doctor.",
+      "example": {
+        "moduleId": "tr-m9-nutrition",
+        "text": "Lesson 9.7: chest pressure during intervals means stop and call for help."
+      },
+      "notToConfuse": "Not normal soreness or amber-zone pain.",
+      "related": [
+        "pain-traffic-light",
+        "par-q-plus"
+      ],
+      "modules": [
+        "tr-m9-nutrition"
+      ]
+    },
+    {
+      "id": "weekly-average-weight",
+      "term": "Weekly average weight",
+      "aliases": [
+        "weight trend",
+        "7-day average"
+      ],
+      "category": "training",
+      "short": "The mean of several morning weigh-ins in a week; daily weight swings 1–2 kg with water and food, so compare weeks.",
+      "simpler": "Your average weight over a week.",
+      "example": {
+        "moduleId": "tr-m9-nutrition",
+        "text": "Lesson 9.8: weigh on waking three or more times a week."
+      },
+      "notToConfuse": "Not a single morning's number.",
+      "related": [
+        "waist-measurement",
+        "maintenance-calories"
+      ],
+      "modules": [
+        "tr-m9-nutrition"
+      ]
+    },
+    {
+      "id": "waist-measurement",
+      "term": "Waist measurement",
+      "aliases": [
+        "waist"
+      ],
+      "category": "training",
+      "short": "Tape at the navel, relaxed, same time of day, every two weeks; it falls with fat loss even when weight stalls.",
+      "simpler": "How big your waist is, measured the same way each time.",
+      "example": {
+        "moduleId": "tr-m9-nutrition",
+        "text": "Lesson 9.8: waist down 2 cm at stable weight suggests recomposition."
+      },
+      "notToConfuse": "Not hip or belt size.",
+      "related": [
+        "body-recomposition",
+        "weekly-average-weight"
+      ],
+      "modules": [
+        "tr-m9-nutrition"
+      ]
+    },
+    {
+      "id": "training-brief",
+      "term": "Training brief",
+      "aliases": [
+        "programme brief"
+      ],
+      "category": "training",
+      "short": "A one-page summary of goal and 12-week measure, constraints, kit and baseline; every programme decision traces back to it.",
+      "simpler": "One page saying what you want and what you have.",
+      "example": {
+        "moduleId": "tr-m10-capstone",
+        "text": "Lesson 10.1: written before using the programme builder."
+      },
+      "notToConfuse": "Not the programme itself: the brief comes first.",
+      "related": [
+        "baseline",
+        "training-log"
+      ],
+      "modules": [
+        "tr-m10-capstone"
+      ]
+    },
+    {
+      "id": "training-log",
+      "term": "Training log",
+      "aliases": [
+        "workout log",
+        "session log"
+      ],
+      "category": "training",
+      "short": "A record of weight, reps and reps in reserve for every set, plus weekly weight, steps and sleep; it drives progression and reviews.",
+      "simpler": "Notes of what you lifted each session.",
+      "example": {
+        "moduleId": "tr-m10-capstone",
+        "text": "Lesson 10.3: used in the weekly check and the 4-week review."
+      },
+      "notToConfuse": "Not a diary of feelings: it records numbers you can act on.",
+      "related": [
+        "double-progression",
+        "reps-in-reserve",
+        "training-block"
+      ],
+      "modules": [
+        "tr-m10-capstone"
       ]
     }
   ]

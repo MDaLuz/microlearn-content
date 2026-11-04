@@ -1,0 +1,710 @@
+{
+  "moduleId": "gl-m0-orientation",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "gl0-b1",
+      "title": "The business and its players",
+      "lessons": [
+        "gl0-l01-business",
+        "gl0-l02-cast",
+        "gl0-l03-agreements"
+      ]
+    },
+    {
+      "id": "gl0-b2",
+      "title": "Routes, tools and the big picture",
+      "lessons": [
+        "gl0-l04-routes",
+        "gl0-l05-pm",
+        "gl0-l06-recap"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-gl0-l01",
+      "level": "lesson",
+      "covers": [
+        "gl0-l01-business"
+      ],
+      "summary": {
+        "title": "The generic business",
+        "points": [
+          "A generic has the same active substance as an authorised reference product and relies on its data instead of repeating trials.",
+          "Generics can enter at loss of exclusivity, when the reference product's protection ends.",
+          "EU sector inquiry: generics entered about 25% below the originator price, about 40% below after two years.",
+          "Margins per pack are thin, so the business runs on volume and speed."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your generic is approved, but the first sale is pushed back six weeks while a contract is finalised.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why does management care so much about six weeks?",
+              "options": [
+                "Generic prices rise over time, so a late launch earns more per pack",
+                "Authorities fine the MAH for each week between approval and launch",
+                "The marketing authorisation lapses if the product isn't sold in six weeks",
+                "Every week late is lost volume while prices keep falling"
+              ],
+              "answer": 3,
+              "explanation": "Prices fall as competitors arrive, so being early is worth the most."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does a generic rely on instead of its own clinical trials?",
+              "options": [
+                "A literature review written by the MAH's medical team",
+                "The reference product's data",
+                "A smaller confirmatory efficacy trial in patients",
+                "The national authority's own assessment of the substance"
+              ],
+              "answer": 1,
+              "explanation": "That's what makes the generic route fast and cheap."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A partner's slide says 'generics sell at the originator price for the first two years'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What did the Commission's sector inquiry find?",
+              "options": [
+                "Prices fell only in countries with tendering systems",
+                "Generics matched the originator price until a second competitor launched",
+                "About 25% below at entry, about 40% below after two years",
+                "About 80% below at entry, recovering to 40% below after two years"
+              ],
+              "answer": 2,
+              "explanation": "Prices drop at entry and keep falling."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A product combines two known substances in one tablet. Which route is it likely to use?",
+              "options": [
+                "Art. 10b, the fixed-combination route",
+                "Art. 8(3), because combinations always need a full dossier",
+                "Art. 10(1), as a pure generic of each single substance",
+                "No marketing authorisation, as both substances are already approved"
+              ],
+              "answer": 0,
+              "explanation": "Module 1 covers it; the time-is-money logic still applies."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl0-l02",
+      "level": "lesson",
+      "covers": [
+        "gl0-l02-cast"
+      ],
+      "summary": {
+        "title": "Who's who in a launch",
+        "points": [
+          "Dossier owner: developed the product and owns the data; acts as licensor when it lets others use it.",
+          "MAH: holds the authorisation, answers to the authorities, must be established in the EU or EEA.",
+          "A product made outside the EU enters through a site with an MIA, where a QP certifies every batch.",
+          "Regulatory affairs runs submissions; the QPPV, based in the EU, watches safety after launch.",
+          "Wholesalers need a distribution authorisation and follow GDP; the launch moves at the speed of its slowest approver."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "An Indian manufacturer wants to sell its tablets in Germany and asks what it must set up in the EU.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why can't the Indian company hold the marketing authorisation itself?",
+              "options": [
+                "Indian companies are barred from all EU procedures",
+                "Only wholesalers may hold an authorisation for imported products",
+                "The MAH must be established in the EU or EEA",
+                "It can, as long as its QPPV visits the EU every quarter"
+              ],
+              "answer": 2,
+              "explanation": "That's why it usually works through an EU licence holder."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Who certifies each batch before it can be sold in the EU?",
+              "options": [
+                "The national authority, batch by batch",
+                "The Indian site's head of quality, by signing the certificate of analysis",
+                "The QPPV, once the batch reaches the wholesaler",
+                "A QP at an EU site holding an MIA"
+              ],
+              "answer": 3,
+              "explanation": "QP certification is the gate to the EU market."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your plan shows the launch date driven only by the regulatory approval.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the lesson say limits how fast a launch can move?",
+              "options": [
+                "The fastest sign-off, because the others run in parallel",
+                "Its slowest required approver",
+                "The wholesaler's warehouse capacity in the largest market",
+                "The number of countries in the procedure, whatever the sign-offs"
+              ],
+              "answer": 1,
+              "explanation": "QP certification, an MAH decision or a submission can each hold it."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Who is the named person responsible for safety monitoring after launch?",
+              "options": [
+                "The QPPV",
+                "The wholesaler's responsible person",
+                "The QP at the importing site",
+                "The head of regulatory affairs at the dossier owner"
+              ],
+              "answer": 0,
+              "explanation": "EU law requires the QPPV to live and work in the EU."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl0-l03",
+      "level": "lesson",
+      "covers": [
+        "gl0-l03-agreements"
+      ],
+      "summary": {
+        "title": "The agreements that bind them",
+        "points": [
+          "The answer to 'who does this?' is usually in a contract.",
+          "Licence and supply agreement: territory, exclusivity, prices, forecasts, minimum orders, lead times, who pays for regulatory work.",
+          "Quality agreement: required by EU GMP when a GMP activity is outsourced; sets who tests, releases and approves changes.",
+          "PV agreement (SDEA): how safety data move between partners and how fast; plus a distribution agreement.",
+          "Unsigned agreements are a classic hidden blocker: give each an owner and a date."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Three weeks before the planned first supply, the quality agreement with the manufacturer is still unsigned.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the risk to the launch?",
+              "options": [
+                "Only the price in the supply agreement becomes uncertain",
+                "None: it can be signed after the first sales, once volumes are known",
+                "The QP can't release commercial supply without it",
+                "Only the PV reporting deadlines are affected"
+              ],
+              "answer": 2,
+              "explanation": "It must be signed before commercial supply and QP release."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Who owns the quality agreement?",
+              "options": [
+                "The wholesaler, who receives the product",
+                "Business development, since it negotiated the supply deal",
+                "The PM, who tracks it as a milestone",
+                "The Quality teams on both sides, with the QP's agreement"
+              ],
+              "answer": 3,
+              "explanation": "The PM tracks it; Quality owns it."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A partner asks which document says how fast it must forward a serious adverse event report to you.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Where do you look?",
+              "options": [
+                "The quality agreement's responsibility table",
+                "The PV agreement (SDEA)",
+                "The licence and supply agreement's forecast clause",
+                "The distribution agreement with the wholesaler"
+              ],
+              "answer": 1,
+              "explanation": "It sets how safety information moves, and within what deadlines."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where do minimum order quantities and lead times usually sit?",
+              "options": [
+                "The licence and supply agreement",
+                "The quality agreement",
+                "The marketing authorisation",
+                "The distribution agreement with the local wholesaler"
+              ],
+              "answer": 0,
+              "explanation": "It sets how the product is supplied."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl0-l04",
+      "level": "lesson",
+      "covers": [
+        "gl0-l04-routes"
+      ],
+      "summary": {
+        "title": "Licensing in vs developing in-house",
+        "points": [
+          "In-licensing: take the right to use another company's finished dossier. Usually faster.",
+          "Trade-off: you depend on someone else's data quality and supply.",
+          "Own development: formulate, run the bioequivalence study, write the dossier. More control, more time and upfront cost.",
+          "Out-licensing is the same deal from the dossier owner's side.",
+          "For in-licensed products the plan starts at the deal: dossier transfer and gap analysis come first."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "BD has just signed an in-licensing deal for a generic and asks you for the first plan.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which steps are first on the critical path?",
+              "options": [
+                "Formulation work and pilot batches at your own site",
+                "Dossier transfer and gap analysis",
+                "Artwork drafts for all countries",
+                "Booking the bioequivalence study with a clinical research organisation"
+              ],
+              "answer": 1,
+              "explanation": "The dossier exists; you need it in hand and checked."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the main risk of this route?",
+              "options": [
+                "No right to sell in the licensed territory",
+                "Higher upfront investment in formulation and studies",
+                "Dependence on the partner's data and supply",
+                "Longer development than doing it in-house"
+              ],
+              "answer": 2,
+              "explanation": "Speed is bought with dependence."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The same company grants rights to its own dossier to a partner in the Gulf.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's that called?",
+              "options": [
+                "Out-licensing",
+                "Informed consent under Art. 10c",
+                "In-licensing",
+                "Technology transfer"
+              ],
+              "answer": 0,
+              "explanation": "BD sees both directions, sometimes for the same product."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why is in-licensing usually faster?",
+              "options": [
+                "The authority assesses in-licensed dossiers on a shorter clock",
+                "The partner's QP releases the batches instead of yours",
+                "No gap analysis is needed when the dossier is bought",
+                "It skips formulation, the BE study and dossier writing"
+              ],
+              "answer": 3,
+              "explanation": "Development work has already been done."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl0-l05",
+      "level": "lesson",
+      "covers": [
+        "gl0-l05-pm"
+      ],
+      "summary": {
+        "title": "What a PM tracks",
+        "points": [
+          "Five things: scope, timeline, owners, risks, decisions.",
+          "Gantt chart: tasks as bars, with dependencies and milestones.",
+          "Critical path: the chain with no slack; any slip there moves the launch.",
+          "RACI for owners, risk register for what could go wrong, decision log for what was decided.",
+          "Weekly: what moved, what's late, top three risks, decisions needed, a RAG flag per country."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "The artwork approval slips by two weeks. It sits on the critical path, and nothing else changes.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What happens to the launch date?",
+              "options": [
+                "It slips by about two weeks",
+                "It slips by a month, because delays double downstream",
+                "It stays the same, because other tasks absorb the delay",
+                "It slips by about one week, as the float covers half"
+              ],
+              "answer": 0,
+              "explanation": "There's no slack on the critical path."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where do you record who made the call to accept the delay?",
+              "options": [
+                "The Gantt chart's milestone list",
+                "The risk register",
+                "The decision log",
+                "The RACI"
+              ],
+              "answer": 2,
+              "explanation": "What was decided, by whom and when."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A new team member asks who is Accountable for QP release versus who is Responsible.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which tool answers that?",
+              "options": [
+                "The decision log",
+                "The risk register",
+                "The weekly status update",
+                "The RACI"
+              ],
+              "answer": 3,
+              "explanation": "Responsible, Accountable, Consulted, Informed, task by task."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does a risk register hold for each risk?",
+              "options": [
+                "The task's start and end dates",
+                "Likelihood, impact and mitigation",
+                "The country's RAG flag only",
+                "Who was informed of the last decision"
+              ],
+              "answer": 1,
+              "explanation": "What could go wrong, how likely, how bad, and what you'll do."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl0-b1",
+      "level": "block",
+      "covers": [
+        "gl0-l01-business",
+        "gl0-l02-cast",
+        "gl0-l03-agreements"
+      ],
+      "summary": {
+        "title": "The business and its players",
+        "points": [
+          "Generics win on volume and speed; prices fall after entry, so every week counts.",
+          "The MAH, established in the EU, holds the licence; the dossier owner owns the data.",
+          "Imported batches pass through an EU site with an MIA, where a QP certifies each one.",
+          "Regulatory affairs runs submissions; the QPPV watches safety from the EU.",
+          "Contracts allocate the work: licence and supply, quality, PV and distribution agreements."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "An Indian dossier owner licenses a generic to your EU company for France and Germany.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which company holds the marketing authorisations?",
+              "options": [
+                "The Indian dossier owner, as licensor and manufacturer",
+                "The QP's site, because it releases the batches",
+                "The wholesaler in each country",
+                "Your EU company, as MAH"
+              ],
+              "answer": 3,
+              "explanation": "The MAH must be established in the EU or EEA."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which agreement sets who tests and who releases?",
+              "options": [
+                "The PV agreement",
+                "The distribution agreement",
+                "The quality agreement",
+                "The licence and supply agreement"
+              ],
+              "answer": 2,
+              "explanation": "EU GMP requires it when GMP activities are outsourced."
+            },
+            {
+              "type": "self-check",
+              "prompt": "In two sentences, explain to a new sales colleague why the PM fights for every week before first sale.",
+              "modelAnswer": "Generic prices fall after entry, from about 25% below to about 40% below the originator within two years. Each week late is volume lost at the best prices, often to competitors who got in first."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Approval came through, but no stock can be sold yet.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which sign-off is the most likely missing gate for imported product?",
+              "options": [
+                "QP certification of the batch",
+                "The licensor's board resolution",
+                "The QPPV's approval of the leaflet",
+                "The wholesaler's GDP certificate"
+              ],
+              "answer": 0,
+              "explanation": "No QP certification, no sale in the EU."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where would you check whether the partner must deliver within 12 weeks of an order?",
+              "options": [
+                "The quality agreement's responsibility table",
+                "Lead times in the licence and supply agreement",
+                "The marketing authorisation's annex",
+                "The quality agreement, which sets every delivery deadline"
+              ],
+              "answer": 1,
+              "explanation": "Supply terms sit in the supply agreement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl0-b2",
+      "level": "block",
+      "covers": [
+        "gl0-l04-routes",
+        "gl0-l05-pm",
+        "gl0-l06-recap"
+      ],
+      "summary": {
+        "title": "Routes, tools and the big picture",
+        "points": [
+          "In-licensing is faster but dependent; own development is slower but in your control.",
+          "For in-licensed products, dossier transfer and gap analysis start the plan.",
+          "Track scope, timeline, owners, risks and decisions; make the critical path visible early.",
+          "The decentralised procedure is the fixed clock: about 210 days plus clock-stops.",
+          "Most other steps depend on people, contracts and supply; planning helps most there."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Management wants one slide on why your in-licensed launch is dated month 18.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which part of the timeline has a legal clock?",
+              "options": [
+                "The artwork approval, fixed at 90 days by the QRD",
+                "The DCP assessment, about 210 days plus clock-stops",
+                "Supply, which the licence agreement fixes at 12 weeks",
+                "QP release, fixed at 30 days per batch"
+              ],
+              "answer": 1,
+              "explanation": "120 days for the lead country, then 90 for the others."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where does planning make the biggest difference?",
+              "options": [
+                "Steps without a legal deadline: people, contracts, supply",
+                "The assessment clock, which the PM can shorten by chasing the authority",
+                "The data protection period, which can be negotiated",
+                "None; the plan is set by law"
+              ],
+              "answer": 0,
+              "explanation": "That's where slips hide and where PMs earn their keep."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Name the five things a PM keeps in hand, and the tool you'd use for two of them.",
+              "modelAnswer": "Scope, timeline, owners, risks, decisions. Timeline: a Gantt chart with the critical path. Owners: a RACI (or risks: a risk register; decisions: a decision log)."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A colleague asks which module of this course to read for each question on the project.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'May we legally launch on 1 March?' Which module?",
+              "options": [
+                "Module 5, manufacturing",
+                "Module 8, artworks",
+                "Module 3, intellectual property",
+                "Module 2, regulatory procedures"
+              ],
+              "answer": 2,
+              "explanation": "Patents and SPCs decide the legal launch date."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'What has to be on the carton?' Which modules?",
+              "options": [
+                "Modules 4–6",
+                "Module 9 only",
+                "Module 1",
+                "Modules 7–8"
+              ],
+              "answer": 3,
+              "explanation": "What's in the pack and on it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl0-m",
+      "level": "module",
+      "covers": [
+        "gl0-l01-business",
+        "gl0-l02-cast",
+        "gl0-l03-agreements",
+        "gl0-l04-routes",
+        "gl0-l05-pm",
+        "gl0-l06-recap"
+      ],
+      "summary": {
+        "title": "Orientation: the whole picture",
+        "points": [
+          "Generics rely on a reference product's data; they win on volume and speed as prices fall.",
+          "The MAH holds the licence in the EU; imports pass a QP at an MIA site; the QPPV watches safety.",
+          "Licence and supply, quality, PV and distribution agreements decide who does what.",
+          "In-licensing is fast but dependent; own development is slow but controlled.",
+          "PMs track scope, timeline, owners, risks and decisions, and keep the critical path honest.",
+          "Only the DCP has a fixed clock (about 210 days plus clock-stops); the rest is planning."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You join a company that has just in-licensed a generic from India for five EU countries.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What are your first two plan items?",
+              "options": [
+                "Booking a bioequivalence study and ordering reference batches",
+                "Drafting artworks for the five countries",
+                "Dossier transfer and gap analysis",
+                "Agreeing prices with wholesalers in each country"
+              ],
+              "answer": 2,
+              "explanation": "In-licensed plans start at the deal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which agreements must you put on the plan with an owner and date?",
+              "options": [
+                "Licence and supply, quality, PV and distribution",
+                "Only the quality agreement, since the others aren't launch-critical",
+                "None; the authority's approval covers them",
+                "Only the licence and supply agreement"
+              ],
+              "answer": 0,
+              "explanation": "Unsigned agreements are a classic hidden blocker."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Who must certify each batch before sale?",
+              "options": [
+                "The Indian site's QA head",
+                "The MAH's general manager",
+                "The QPPV, once the batch has reached the EU wholesaler",
+                "A QP at an EU site with an MIA"
+              ],
+              "answer": 3,
+              "explanation": "Products made outside the EU come in through an MIA site."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your weekly status shows France red and Germany green.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What else belongs in that weekly update?",
+              "options": [
+                "Only the countries that changed colour",
+                "What moved, what's late, top three risks, decisions needed",
+                "The licence agreement's payment terms and royalty statements",
+                "The full RACI for every task, re-sent each week"
+              ],
+              "answer": 1,
+              "explanation": "Short, regular, with a flag per country."
+            },
+            {
+              "type": "mcq",
+              "prompt": "France's delay is on its critical path. What follows?",
+              "options": [
+                "France's launch date moves by the same amount",
+                "Nothing, as long as Germany stays green",
+                "The DCP clock pauses for France",
+                "Germany slips too, because all countries launch together"
+              ],
+              "answer": 0,
+              "explanation": "A slip on the critical path moves the launch."
+            },
+            {
+              "type": "self-check",
+              "prompt": "In one sentence, say why the PM role matters so much in generics.",
+              "modelAnswer": "Because prices fall and competitors arrive fast after loss of exclusivity, every avoidable week between approval and first sale is lost volume, and the PM's job is to find and remove those weeks."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

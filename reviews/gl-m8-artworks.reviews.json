@@ -1,0 +1,960 @@
+{
+  "moduleId": "gl-m8-artworks",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "gl8-b1",
+      "title": "Texts, mock-ups and the leaflet",
+      "lessons": [
+        "gl8-l01-qrd",
+        "gl8-l02-mockups",
+        "gl8-l03-bluebox-braille",
+        "gl8-l04-readability"
+      ]
+    },
+    {
+      "id": "gl8-b2",
+      "title": "Codes, languages and the workflow",
+      "lessons": [
+        "gl8-l05-fmd",
+        "gl8-l06-multilingual",
+        "gl8-l07-workflow",
+        "gl8-l08-versions"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-gl8-l01",
+      "level": "lesson",
+      "covers": [
+        "gl8-l01-qrd"
+      ],
+      "summary": {
+        "title": "From SmPC to pack",
+        "points": [
+          "Printed packs start as approved text: SmPC, labelling and PIL, following the QRD template.",
+          "Text is regulatory; artwork is the design that shows it exactly.",
+          "Any wording that differs from the approved text is a compliance problem.",
+          "In a DCP, English texts are agreed by Day 210; translations follow in the national phase.",
+          "Draft artwork during clock-stops; finalise once translations are approved."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A carton says 'take with food'; the approved text says 'take with or without food'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What is this?",
+              "options": [
+                "A Braille error",
+                "A design choice that's acceptable if the meaning is clear to patients",
+                "A compliance error: artwork must match the approved text",
+                "A Blue Box issue"
+              ],
+              "answer": 2,
+              "explanation": "Not a design detail."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which template sets the standard headings?",
+              "options": [
+                "The die-line",
+                "The CTD Module 3 template from the dossier owner",
+                "The CMDh Blue Box list",
+                "The QRD template"
+              ],
+              "answer": 3,
+              "explanation": "The EMA's standard texts."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The DCP is in its Day 105 clock-stop.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What can the artwork team usefully do now?",
+              "options": [
+                "Prepare artwork drafts",
+                "Print final cartons for all countries before the texts are agreed",
+                "Nothing until the licence",
+                "Submit specimens"
+              ],
+              "answer": 0,
+              "explanation": "So they're ready when texts are final."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When can a country's artwork be finalised?",
+              "options": [
+                "Before the English texts are agreed",
+                "After its translated texts are approved",
+                "At Day 120",
+                "At Day 0, using the texts submitted with the application"
+              ],
+              "answer": 1,
+              "explanation": "National phase first."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl8-l02",
+      "level": "lesson",
+      "covers": [
+        "gl8-l02-mockups"
+      ],
+      "summary": {
+        "title": "Mock-ups and specimens",
+        "points": [
+          "Applications include mock-ups: flat, full-colour layouts of outer and immediate packs.",
+          "Some agencies later ask for specimens: real printed samples.",
+          "Mock-ups show faces, fonts, colours, Blue Box, Braille and code area, within the die-line.",
+          "Label or leaflet changes not linked to the SmPC can use an Art. 61(3) notification: 90 days without objection.",
+          "SmPC changes need a variation. Plan mock-ups with translations, not after the licence."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Marketing wants to move the logo on the carton. The texts don't change.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which route is typical?",
+              "options": [
+                "An Art. 61(3) notification",
+                "A new DCP",
+                "Nothing; layout isn't regulated",
+                "A Type II variation with a full assessment of the new layout"
+              ],
+              "answer": 0,
+              "explanation": "Not linked to the SmPC."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When can the change be made?",
+              "options": [
+                "After the renewal",
+                "Immediately, as long as the agency is informed afterwards",
+                "If no objection within 90 days",
+                "After 30 days"
+              ],
+              "answer": 2,
+              "explanation": "That's the 61(3) route."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A country asks for 'specimens' after approval.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do they want?",
+              "options": [
+                "The SmPC in English",
+                "Actual printed samples of the pack",
+                "The die-line drawing",
+                "Flat colour layouts of every face, as submitted with the application"
+              ],
+              "answer": 1,
+              "explanation": "Mock-ups are the flat layouts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What frames the flat carton on a mock-up?",
+              "options": [
+                "The QRD template",
+                "The FMD code area marked by the serialisation provider",
+                "The Blue Box",
+                "The die-line from the packaging site"
+              ],
+              "answer": 3,
+              "explanation": "Cut and fold lines."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl8-l03",
+      "level": "lesson",
+      "covers": [
+        "gl8-l03-bluebox-braille"
+      ],
+      "summary": {
+        "title": "Blue Box and Braille",
+        "points": [
+          "The Blue Box holds each country's required particulars: legal status, codes, reimbursement.",
+          "The CMDh publishes each country's list; differences force country-specific packs.",
+          "The product name must be in Braille on the carton; strength recommended where several exist.",
+          "Braille is embossed during printing, so it's in the artwork and checked on the proof.",
+          "Collect Blue Box requirements before artwork starts; a missed item means a reprint."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You're starting artwork for four DCP countries.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What should you collect first?",
+              "options": [
+                "The Braille translation of the whole leaflet for every country",
+                "Each country's Blue Box requirements",
+                "The renewal dates",
+                "The specimen rules"
+              ],
+              "answer": 1,
+              "explanation": "A missed particular means a reprint."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your product comes in 10 and 20 mg. What should the Braille show?",
+              "options": [
+                "The name, and the strength",
+                "The batch number",
+                "The MAH's address",
+                "The name only, since strength is never recommended"
+              ],
+              "answer": 0,
+              "explanation": "Strength is recommended where several exist."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Proofs come back without Braille.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why is that serious?",
+              "options": [
+                "Braille is optional for generics",
+                "It isn't: Braille can be added by the pharmacy later",
+                "It only matters for the leaflet",
+                "Braille is embossed at printing, so it must be in the artwork now"
+              ],
+              "answer": 3,
+              "explanation": "Check it at proof stage."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why does the Blue Box make multi-country packs harder?",
+              "options": [
+                "It holds the patent number",
+                "It replaces the patient leaflet for national information",
+                "Each country can require different particulars",
+                "It must be printed in blue ink"
+              ],
+              "answer": 2,
+              "explanation": "Differences force separate packs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl8-l04",
+      "level": "lesson",
+      "covers": [
+        "gl8-l04-readability"
+      ],
+      "summary": {
+        "title": "Readability testing",
+        "points": [
+          "The leaflet must reflect consultation with patients: readability (user) testing.",
+          "Common standard: 90% find each key point, and 90% of those understand it.",
+          "Failed items are rewritten and retested.",
+          "Generics can often bridge to the reference product's tested leaflet, with a justification.",
+          "A full test takes weeks: check early whether bridging is acceptable."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Of 20 participants, 18 find the dosing information and 15 of those understand it.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Does it meet the common standard?",
+              "options": [
+                "Yes: 90% found it, which is the only criterion that counts",
+                "Yes: 15 out of 20 is enough",
+                "No: 15 of 18 is below 90%",
+                "No test is needed for dosing"
+              ],
+              "answer": 2,
+              "explanation": "90% find, and 90% of those understand."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What happens to that item?",
+              "options": [
+                "Accepted with a footnote",
+                "Moved to the carton",
+                "Removed from the leaflet",
+                "Rewritten and retested"
+              ],
+              "answer": 3,
+              "explanation": "That's the loop."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your generic's leaflet is almost identical to the reference's.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What can you usually do?",
+              "options": [
+                "Run a full test in every country",
+                "Bridge to the reference's tested leaflet, with a justification",
+                "Skip testing with no justification at all",
+                "Ask the reference holder to test it"
+              ],
+              "answer": 1,
+              "explanation": "Avoids a full new test."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why check this early?",
+              "options": [
+                "A full test takes weeks",
+                "Bridging needs a variation",
+                "It changes the BE study",
+                "The QP must sign the test"
+              ],
+              "answer": 0,
+              "explanation": "Plan it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl8-l05",
+      "level": "lesson",
+      "covers": [
+        "gl8-l05-fmd"
+      ],
+      "summary": {
+        "title": "Serialisation (FMD)",
+        "points": [
+          "Prescription packs carry a unique identifier (2D DataMatrix) and an anti-tampering device, since February 2019.",
+          "Codes are printed at packaging and uploaded to the EU hub, then to national systems.",
+          "Pharmacies scan to verify and decommission; mismatches raise alerts.",
+          "Before shipping: hub onboarding, product master data per country, coding lines, carton space.",
+          "Onboarding and data upload take weeks: start early and confirm data reach each country."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Packs are made and released, but product data were never uploaded.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What happens at the pharmacy?",
+              "options": [
+                "Nothing; the pharmacy enters the code manually and dispenses",
+                "Scanning fails or alerts, so the pack can't be dispensed properly",
+                "The pack is accepted, as it's released",
+                "The QP is notified automatically"
+              ],
+              "answer": 1,
+              "explanation": "Perfectly made packs can still be blocked."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does the unique identifier contain?",
+              "options": [
+                "The supply price",
+                "Only the batch number",
+                "The patient's name",
+                "Product code, serial number, batch, expiry, and national number where required"
+              ],
+              "answer": 3,
+              "explanation": "Encoded in the DataMatrix."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A colleague plans hub onboarding for launch week.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's wrong?",
+              "options": [
+                "Onboarding and data upload take weeks",
+                "Onboarding is only needed after the first sale",
+                "It's handled by the agency",
+                "The wholesaler does it"
+              ],
+              "answer": 0,
+              "explanation": "Start well before launch."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What happens when the pharmacy scans a genuine pack?",
+              "options": [
+                "It's re-serialised",
+                "Its expiry is extended",
+                "It's verified and marked as dispensed",
+                "It's sent back to the MAH"
+              ],
+              "answer": 2,
+              "explanation": "Decommissioning."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl8-l06",
+      "level": "lesson",
+      "covers": [
+        "gl8-l06-multilingual"
+      ],
+      "summary": {
+        "title": "Multilingual packs",
+        "points": [
+          "A pack can carry several languages if every language gives the same particulars.",
+          "Pros: fewer SKUs, bigger runs, stock that moves between countries.",
+          "Cons: carton space, different Blue Boxes and codes, every wording must fit.",
+          "Check: carton size, every country accepts, Blue Boxes coexist, serialisation data reach each system.",
+          "Decide early: it changes artwork count, runs and stock planning."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You're launching in three small Baltic markets.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the main appeal of a multilingual pack?",
+              "options": [
+                "No artwork approval is needed",
+                "Fewer SKUs and stock that can move between countries",
+                "No serialisation is needed",
+                "No Blue Box is needed when several languages share a pack"
+              ],
+              "answer": 1,
+              "explanation": "Common for groups of smaller markets."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the main constraint?",
+              "options": [
+                "The QRD template bans it",
+                "The QP can't certify it",
+                "Braille can't be shared",
+                "Carton space for all languages, Blue Boxes and codes"
+              ],
+              "answer": 3,
+              "explanation": "Everything must fit."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The multilingual decision is taken after artwork has started.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's affected?",
+              "options": [
+                "Artwork count, packaging runs and stock planning",
+                "Nothing; it's a design detail",
+                "Only the leaflet font",
+                "Only the DCP clock"
+              ],
+              "answer": 0,
+              "explanation": "Make it a plan decision."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which check is about the FMD?",
+              "options": [
+                "Carton size and the space for every language",
+                "Country acceptance",
+                "Serialisation data reaching each national system",
+                "Blue Box coexistence"
+              ],
+              "answer": 2,
+              "explanation": "Codes must work in every country."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl8-l07",
+      "level": "lesson",
+      "covers": [
+        "gl8-l07-workflow"
+      ],
+      "summary": {
+        "title": "The artwork workflow",
+        "points": [
+          "Each country's artwork follows the same loop; delays come from late texts and correction rounds.",
+          "Owner: artwork coordinator; RA approves text, QA for GMP, marketing the design.",
+          "Inputs: approved translations, die-line, Blue Box, serialisation area, Braille.",
+          "Proofreading word by word, plus Braille, codes and colours, is a GMP control.",
+          "Start drafts in clock-stops; one text source; one plan line per country."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "The artwork used an old die-line from another packaging line.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the risk?",
+              "options": [
+                "The carton won't fit the line and must be reprinted",
+                "None, as long as the text matches the approved version",
+                "Only a 61(3) notification is needed",
+                "Only the Braille moves"
+              ],
+              "answer": 0,
+              "explanation": "The die-line is technical."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Who approves the texts on the artwork?",
+              "options": [
+                "The QPPV",
+                "Marketing",
+                "The printer",
+                "RA"
+              ],
+              "answer": 3,
+              "explanation": "QA approves for GMP, marketing the design."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A recall is traced to a carton misprint.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which control should have caught it?",
+              "options": [
+                "Serialisation upload",
+                "Proofreading against the approved text",
+                "Readability testing",
+                "The QP's check of the CoA and the batch records"
+              ],
+              "answer": 1,
+              "explanation": "Proofreading is a GMP control."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What most often delays artwork?",
+              "options": [
+                "Waiting for the FMD hub to issue serial numbers",
+                "Design work on fonts and colours",
+                "Late text approvals and correction rounds",
+                "Braille embossing machines"
+              ],
+              "answer": 2,
+              "explanation": "Not design."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl8-l08",
+      "level": "lesson",
+      "covers": [
+        "gl8-l08-versions"
+      ],
+      "summary": {
+        "title": "Version control after variations",
+        "points": [
+          "When approved texts change, artwork changes too, with a new version per country.",
+          "Track: text version, artwork version, implementation deadline, old-stock rules.",
+          "Safety changes are usually implemented faster.",
+          "Rules vary by country and type of change.",
+          "Before every print order, ask RA if any text change is pending."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A safety variation is approved two weeks before launch.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you check first?",
+              "options": [
+                "Whether printed packs still match, and the implementation deadline",
+                "Whether the RMS has changed",
+                "Whether the BE study needs repeating for the new safety text",
+                "Whether the FTO is still valid"
+              ],
+              "answer": 0,
+              "explanation": "Freshly printed cartons may be obsolete."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why can safety changes hurt more?",
+              "options": [
+                "They apply only to new packs after renewal",
+                "They never need artwork changes",
+                "They can be ignored for generics",
+                "They're usually implemented faster"
+              ],
+              "answer": 3,
+              "explanation": "Shorter deadlines."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You're about to order 100,000 cartons for Germany.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you ask RA?",
+              "options": [
+                "Is the QP available to sign the proofs before printing?",
+                "Is the DCP clock running?",
+                "Is any text change pending?",
+                "Is the printer approved?"
+              ],
+              "answer": 2,
+              "explanation": "Printing before a text change wastes material."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What links an artwork version to the licence?",
+              "options": [
+                "The FMD serial number",
+                "The approved text version it comes from",
+                "The printer's job number",
+                "The batch number of the first stock packed with it"
+              ],
+              "answer": 1,
+              "explanation": "Version control per country."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl8-b1",
+      "level": "block",
+      "covers": [
+        "gl8-l01-qrd",
+        "gl8-l02-mockups",
+        "gl8-l03-bluebox-braille",
+        "gl8-l04-readability"
+      ],
+      "summary": {
+        "title": "Texts, mock-ups and the leaflet",
+        "points": [
+          "Artwork shows approved text exactly; differences are compliance errors.",
+          "DCP texts are agreed by Day 210; translations in the national phase; drafts during clock-stops.",
+          "Mock-ups go with the application; 61(3) for non-SmPC label changes; variations for SmPC changes.",
+          "Blue Box per country and Braille name (and strength) on every carton.",
+          "Readability: 90/90 standard, or bridge to a tested leaflet."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "The DCP closes in a month for four countries.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What should be ready already?",
+              "options": [
+                "The renewal file",
+                "Printed cartons for all four countries, ready to pack",
+                "Artwork drafts, Blue Box requirements and the bridging justification",
+                "Specimens for every country"
+              ],
+              "answer": 2,
+              "explanation": "Drafts and inputs, not prints."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When can each country's artwork be finalised?",
+              "options": [
+                "Before the clock-stop",
+                "After its translations are approved",
+                "After first sale",
+                "At Day 210, when the English texts are agreed"
+              ],
+              "answer": 1,
+              "explanation": "National phase."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain the difference between text and artwork, and why it matters.",
+              "modelAnswer": "Text (SmPC, labelling, PIL) is regulatory and approved in the procedure; artwork is the design showing it. Any difference on the pack is a compliance error, and changing text needs a variation or notification."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "After launch, marketing wants a new carton layout, and RA updates a side-effect in the SmPC.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which routes apply?",
+              "options": [
+                "61(3) for the layout; a variation for the SmPC change",
+                "61(3) for both, since neither changes the licence",
+                "A variation for both",
+                "Neither needs approval"
+              ],
+              "answer": 0,
+              "explanation": "Linked to the SmPC or not."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which carton element can't be added after printing?",
+              "options": [
+                "The Blue Box sticker",
+                "The batch number",
+                "The leaflet",
+                "Braille"
+              ],
+              "answer": 3,
+              "explanation": "Embossed during printing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl8-b2",
+      "level": "block",
+      "covers": [
+        "gl8-l05-fmd",
+        "gl8-l06-multilingual",
+        "gl8-l07-workflow",
+        "gl8-l08-versions"
+      ],
+      "summary": {
+        "title": "Codes, languages and the workflow",
+        "points": [
+          "FMD: unique identifier and tamper seal; hub onboarding and data before first shipment.",
+          "Multilingual packs cut SKUs but strain space, Blue Boxes and codes.",
+          "Artwork loop per country: texts, die-line, Blue Box, code area, Braille, proofreading.",
+          "Proofreading is a GMP control; misprints lead to recalls.",
+          "Version control links artwork to text; check for pending changes before printing."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Two months before launch, you review artwork status for five countries.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the plan show for each?",
+              "options": [
+                "Text approval, proof rounds and printer slot",
+                "Only the tender date",
+                "Only the country's launch date, since artwork follows automatically",
+                "Only the RMS"
+              ],
+              "answer": 0,
+              "explanation": "One line per country."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which FMD item must be done before packs ship?",
+              "options": [
+                "A specimen per country",
+                "A Type II variation",
+                "A new readability test",
+                "Hub onboarding and product data per country"
+              ],
+              "answer": 3,
+              "explanation": "Otherwise packs can't be dispensed."
+            },
+            {
+              "type": "self-check",
+              "prompt": "List three checks before choosing a multilingual pack.",
+              "modelAnswer": "That the carton is big enough; that every country accepts it; that the Blue Box items can coexist (and that serialisation data reach every national system)."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Cartons were printed last week; RA now says a text variation is approved.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you check?",
+              "options": [
+                "Only the die-line",
+                "Implementation deadline and old-stock rules per country",
+                "Only the FMD hub",
+                "Nothing; printed cartons can always be used until expiry"
+              ],
+              "answer": 1,
+              "explanation": "Rules vary by country and change type."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What habit would have prevented this?",
+              "options": [
+                "Printing earlier, before any variation could be approved",
+                "Using multilingual packs",
+                "Asking RA about pending text changes before printing",
+                "Skipping proofreading"
+              ],
+              "answer": 2,
+              "explanation": "Before every print order."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl8-m",
+      "level": "module",
+      "covers": [
+        "gl8-l01-qrd",
+        "gl8-l02-mockups",
+        "gl8-l03-bluebox-braille",
+        "gl8-l04-readability",
+        "gl8-l05-fmd",
+        "gl8-l06-multilingual",
+        "gl8-l07-workflow",
+        "gl8-l08-versions"
+      ],
+      "summary": {
+        "title": "Artworks: the whole picture",
+        "points": [
+          "Approved texts (QRD) drive artwork; any mismatch is a compliance error.",
+          "Mock-ups go to agencies; 61(3) or variations handle later changes.",
+          "Each country needs its Blue Box; Braille is embossed at printing.",
+          "Readability: 90/90 or bridging.",
+          "FMD codes need hub onboarding and data before shipping.",
+          "Artwork is often on the critical path: proofread, version-control, check pending changes."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You plan artwork for a DCP in five countries, two of them small markets sharing a pack.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "When should drafts start?",
+              "options": [
+                "After the national licences are granted in every country",
+                "Before the gap analysis",
+                "During the clock-stops",
+                "After first sale"
+              ],
+              "answer": 2,
+              "explanation": "So they're ready when texts are final."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How many artwork lines do you track?",
+              "options": [
+                "Ten, two per country",
+                "Five, even for the shared pack",
+                "One for all five",
+                "Four: three single-country packs and one shared pack"
+              ],
+              "answer": 3,
+              "explanation": "One line per artwork."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which inputs do you need for each artwork?",
+              "options": [
+                "Approved translations, die-line, Blue Box, code area, Braille",
+                "Only the printer's quote",
+                "Only marketing's design",
+                "Only the English SmPC"
+              ],
+              "answer": 0,
+              "explanation": "Process card inputs."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "One week before launch: packs are printed and released, but a pharmacy test scan fails.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the likely cause?",
+              "options": [
+                "A Braille error on the carton made during embossing",
+                "Product master data not uploaded or not reaching the national system",
+                "A wrong Blue Box",
+                "A failed readability test"
+              ],
+              "answer": 1,
+              "explanation": "FMD set-up."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What else should you confirm before shipping?",
+              "options": [
+                "No pending text change makes the print obsolete",
+                "The BE study date",
+                "That the RMS has confirmed the national licence numbers",
+                "The renewal deadline"
+              ],
+              "answer": 0,
+              "explanation": "Version control."
+            },
+            {
+              "type": "self-check",
+              "prompt": "In two sentences, explain why artwork is so often on the critical path in the last months.",
+              "modelAnswer": "Country artwork can only be finalised after translated texts are approved, then it needs proof rounds and a printer slot before packaging can run. Late texts, correction rounds and pending text changes all push the printed packs, and so the launch."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

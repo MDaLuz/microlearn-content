@@ -2,7 +2,12 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 18
+    "version": 19
+  },
+  "categories": {
+    "Training": {
+      "disclaimer": "General training education, not medical advice. Check with a doctor if you have a health condition, and stop if you feel chest pain, dizziness or unusual breathlessness."
+    }
   },
   "modules": [
     {
@@ -246,6 +251,32 @@
       "estimatedMinutes": 60,
       "accentColor": "#7C8792",
       "reviews": "reviews/gl-m9-launch-chronology.reviews.json",
+      "reviewsVersion": 1
+    },
+    {
+      "id": "tr-m0-foundations",
+      "title": "Training 0: How training works",
+      "discipline": "Training",
+      "description": "Overload, recovery, specificity, and your starting point",
+      "file": "modules/tr-m0-foundations.json",
+      "version": 1,
+      "lessonCount": 6,
+      "estimatedMinutes": 40,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/tr-m0-foundations.reviews.json",
+      "reviewsVersion": 1
+    },
+    {
+      "id": "tr-m1-goals",
+      "title": "Training 1: Goals and how to combine them",
+      "discipline": "Training",
+      "description": "Strength, muscle, fat loss and cardio in one plan",
+      "file": "modules/tr-m1-goals.json",
+      "version": 1,
+      "lessonCount": 7,
+      "estimatedMinutes": 50,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/tr-m1-goals.reviews.json",
       "reviewsVersion": 1
     }
   ]

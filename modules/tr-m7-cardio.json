@@ -1,0 +1,435 @@
+{
+  "schemaVersion": 6,
+  "id": "tr-m7-cardio",
+  "title": "Training 7: Cardio and conditioning",
+  "discipline": "Training",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "tr7-l01-zones",
+      "title": "Heart-rate zones and the talk test",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A simple intensity map\n\nCardio intensity is usually described in five zones, as a share of your **maximum heart rate**. A common estimate is 208 − 0.7 × age: about 180 beats a minute at 40. It's only an estimate; your true maximum can be 10 or more beats away."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m7/hr-zones.svg",
+          "alt": "Five horizontal bands for heart-rate zones as a share of maximum: zone 1 at 50–60%, zone 2 at 60–70%, zone 3 at 70–80%, zone 4 at 80–90% and zone 5 at 90–100%, each with a talk-test cue.",
+          "caption": "Five heart-rate zones",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.05
+        },
+        {
+          "type": "text",
+          "markdown": "## The five zones (practice)\n\n- **Zone 1 (50–60%):** very easy, like a walk.\n- **Zone 2 (60–70%):** easy; you can talk in full sentences.\n- **Zone 3 (70–80%):** moderate; short sentences only.\n- **Zone 4 (80–90%):** hard; a few words at a time.\n- **Zone 5 (90–100%):** all-out, for short bursts only.\n\nDefinitions vary slightly between sources, so treat the borders as rough."
+        },
+        {
+          "type": "text",
+          "markdown": "## No watch needed\n\nThe **talk test** works without a monitor: if you can chat comfortably, you're easy; if you can only say a few words, you're hard. For strength-focused people, the talk test plus the occasional heart-rate check is plenty."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** use the talk test for most sessions: full sentences for easy cardio, a few words for intervals. A heart-rate estimate of 208 − 0.7 × age gives a rough ceiling."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr7-l01-zones-fc1",
+              "front": "Estimated maximum heart rate",
+              "back": "About 208 − 0.7 × age (Tanaka). An estimate: individuals can differ by 10+ beats a minute."
+            },
+            {
+              "id": "tr7-l01-zones-fc2",
+              "front": "Talk test",
+              "back": "Full sentences = easy (zone 2). Short sentences = moderate. A few words = hard."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr7-l01-zones-q1",
+              "stem": "You're 40 and running at 120 beats a minute, chatting in full sentences. Which zone?",
+              "options": [
+                "Zone 1",
+                "About zone 2",
+                "Zone 4",
+                "Zone 5"
+              ],
+              "correctIndex": 1,
+              "explanation": "Max ≈ 180; 120 is about 67%, and you can talk in full sentences."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Study** — Tanaka H, Monahan KD, Seals DR, Age-predicted maximal heart rate revisited, J Am Coll Cardiol 2001;37(1):153–156.\n2. **Practice** — training conventions used in coaching; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr7-l02-easy",
+      "title": "Easy steady cardio",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The base of the pyramid\n\nEasy, steady cardio, the kind you can talk through, builds the heart, lungs and blood vessels, and it's easy to recover from. The WHO recommends 150–300 minutes a week of moderate activity for adults, or 75–150 minutes of vigorous activity. A minute of vigorous effort counts roughly double."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m7/intensity-pyramid.svg",
+          "alt": "A pyramid of weekly cardio time: a wide base of easy activity such as walking, cycling and easy runs, a smaller middle of moderate sport, and a small top of hard intervals.",
+          "caption": "Most cardio is easy",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.158
+        },
+        {
+          "type": "text",
+          "markdown": "## How sport counts\n\nFootball and tennis mix easy, moderate and very hard efforts. An hour of football or tennis typically adds a good share of vigorous minutes. Cycling to work or brisk walking adds moderate minutes. Many active people already reach the WHO range without a single 'cardio session'."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why keep some easy cardio\n\nEasy cardio adds weekly activity without stealing recovery from strength sessions. It also helps you recover between hard days. You don't need long sessions: 20–40 minutes of brisk walking or easy cycling counts."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** count your weekly cardio minutes, including sport. If you're under 150 moderate-equivalent minutes, add easy walking or cycling before adding hard sessions."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr7-l02-easy-fc1",
+              "front": "WHO aerobic range",
+              "back": "150–300 min a week of moderate activity, or 75–150 min of vigorous; a vigorous minute counts about double."
+            },
+            {
+              "id": "tr7-l02-easy-fc2",
+              "front": "Why easy cardio",
+              "back": "Builds the heart and lungs, adds activity, and is easy to recover from, so it doesn't steal from strength work."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr7-l02-easy-q1",
+              "stem": "You play 60 minutes of football and cycle 2 × 30 minutes to work each week. Roughly where are you against the WHO range?",
+              "options": [
+                "Far below",
+                "Around or above the bottom of it",
+                "Way above the top",
+                "It doesn't count"
+              ],
+              "correctIndex": 1,
+              "explanation": "Cycling adds 60 moderate minutes; football adds a good share of vigorous minutes, which count about double."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Guideline** — WHO guidelines on physical activity and sedentary behaviour (2020); Bull FC et al., Br J Sports Med 2020;54:1451–1462.\n2. **Practice** — training conventions used in coaching; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr7-l03-intervals",
+      "title": "Intervals and HIIT",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Hard, short, repeated\n\n**High-intensity interval training (HIIT)** alternates hard efforts with easy recovery, for example 4 × 4 minutes hard with 3 minutes easy, or 10 × 1 minute hard with 1 minute easy. It's demanding, so one or two sessions a week are plenty."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m7/hiit-vs-steady.svg",
+          "alt": "Two bars for each outcome, HIIT and steady cardio: fitness (VO2max) slightly higher with HIIT; fat loss and waist similar; time needed about 40% less with HIIT.",
+          "caption": "Intervals vs steady cardio",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.278
+        },
+        {
+          "type": "text",
+          "markdown": "## What the evidence says\n\n- **Fitness:** a 2015 meta-analysis found both raised maximal aerobic fitness (VO2max), with HIIT slightly more.\n- **Fat loss:** a 2017 meta-analysis in adults with overweight found similar reductions in body fat and waist size, with HIIT taking about 40% less time.\n\nSo HIIT is a time-saver, not a fat-burning secret."
+        },
+        {
+          "type": "text",
+          "markdown": "## Sport is often HIIT already\n\nFootball, tennis and hard group runs already contain repeated sprints. If you play hard once or twice a week, you may not need extra interval sessions. If you add one, keep it away from your strength sessions or at least 3 hours apart."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** count hard sport as interval work. Add at most one short interval session a week if your sport doesn't already provide hard efforts."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr7-l03-intervals-fc1",
+              "front": "HIIT",
+              "back": "Repeated hard efforts with easy recovery (e.g. 4 × 4 min hard, 3 min easy). Similar fat loss to steady cardio in less time."
+            },
+            {
+              "id": "tr7-l03-intervals-fc2",
+              "front": "VO2max",
+              "back": "The maximum rate your body can use oxygen: a key measure of aerobic fitness. Both HIIT and steady cardio raise it."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr7-l03-intervals-q1",
+              "stem": "What did the 2017 meta-analysis find for fat loss, HIIT vs steady cardio?",
+              "options": [
+                "HIIT burned twice as much fat",
+                "Similar fat loss, with HIIT taking about 40% less time",
+                "Steady cardio was useless",
+                "HIIT increased body fat"
+              ],
+              "correctIndex": 1,
+              "explanation": "Similar results; HIIT saved time."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Meta-analysis** — Milanović Z, Sporiš G, Weston M, Effectiveness of HIT and continuous endurance training for VO2max improvements, Sports Med 2015;45(10):1469–1481.\n2. **Meta-analysis** — Wewege M et al., HIIT vs moderate-intensity continuous training on body composition in overweight and obese adults, Obes Rev 2017;18(6):635–646.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr7-l04-kb-conditioning",
+      "title": "Kettlebell conditioning",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Strength tools as cardio\n\nKettlebell swings and simple complexes raise the heart rate a lot. In one small study, 12 minutes of swings averaged about 87% of maximum heart rate. Oxygen use was lower than that suggests, at about 65% of maximum, so treat it as hard conditioning rather than pure cardio. Evidence on kettlebell training overall is limited."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m7/kb-conditioning.svg",
+          "alt": "Three formats: 15 swings every minute for 10 minutes; a complex of swing, clean, press and squat, 5 reps each for 3–5 rounds; a 10-minute EMOM alternating swings and push-ups.",
+          "caption": "Three kettlebell conditioning formats",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Three formats\n\n1. **Swing intervals:** 15 swings at the top of each minute for 10 minutes; rest for the remainder.\n2. **Complex:** a sequence done without putting the bell down, for example 5 swings, 5 cleans, 5 presses and 5 goblet squats each side. Rest 1–2 minutes; 3–5 rounds.\n3. **EMOM:** alternate 15 swings and 10 push-ups every minute for 10 minutes."
+        },
+        {
+          "type": "text",
+          "markdown": "## Keep the technique\n\nConditioning formats stop counting as good training once form breaks. Use a bell you can swing with crisp hips (Module 4), stop sets before the back rounds, and keep the finisher to 5–10 minutes at the end of a strength session."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** use a 5–10-minute swing EMOM or complex as an optional finisher, not as a separate cardio session, and only while your technique stays crisp."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr7-l04-kb-conditioning-fc1",
+              "front": "Kettlebell complex",
+              "back": "Several exercises done back to back without putting the bell down, e.g. swing, clean, press, squat."
+            },
+            {
+              "id": "tr7-l04-kb-conditioning-fc2",
+              "front": "Swings as cardio",
+              "back": "Heart rate gets high (about 87% max in one study) but oxygen use is lower (about 65%): hard conditioning, not pure cardio."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr7-l04-kb-conditioning-q1",
+              "stem": "When should a swing EMOM stop?",
+              "options": [
+                "After exactly 30 minutes",
+                "When technique breaks down",
+                "When you feel any warmth",
+                "Never; push through"
+              ],
+              "correctIndex": 1,
+              "explanation": "Quality first: stop before form breaks."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Study** — Farrar RE, Mayhew JL, Koch AJ, Oxygen cost of kettlebell swings, J Strength Cond Res 2010;24(4):1034–1036.\n2. **Review** — Meigh NJ et al., Kettlebell training in clinical practice: a scoping review, BMC Sports Sci Med Rehabil 2019;11.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr7-l05-steps",
+      "title": "Daily steps: the underrated lever",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Movement outside workouts\n\nThe energy you use walking, standing and moving around outside training can be larger than what a workout burns, and it differs hugely between people. Daily steps are the easiest way to track it."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m7/steps-mortality.svg",
+          "alt": "Bars for relative risk of death by daily steps (2022 meta-analysis): about 3,600 steps as reference, lower risk at about 5,800, 7,800 and 10,900 steps.",
+          "caption": "More steps, lower risk",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.158
+        },
+        {
+          "type": "text",
+          "markdown": "## What large studies show\n\nA 2022 meta-analysis of 15 cohorts and about 47,000 adults found that more daily steps were linked to a progressively lower risk of death. The benefit levelled off around 8,000–10,000 steps a day for people under 60, and around 6,000–8,000 for people over 60. These are observational links, not proof of cause, but the pattern is consistent."
+        },
+        {
+          "type": "text",
+          "markdown": "## Making steps easy\n\n- Walk short trips and calls.\n- Get off public transport a stop early.\n- Take a 10-minute walk after meals.\n- Keep a weekly average target rather than a daily one.\n\nSteps also help fat loss without adding fatigue to strength training."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** aim for a weekly average of about 8,000–10,000 steps a day. It supports fat loss and health without competing with your strength sessions."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr7-l05-steps-fc1",
+              "front": "Daily steps target",
+              "back": "Benefits levelled off around 8,000–10,000 a day under 60, and 6,000–8,000 over 60 (2022 meta-analysis)."
+            },
+            {
+              "id": "tr7-l05-steps-fc2",
+              "front": "Non-exercise activity",
+              "back": "Energy used walking, standing and moving outside workouts: often larger than a workout, and very variable between people."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr7-l05-steps-q1",
+              "stem": "What did the 2022 steps meta-analysis find for adults under 60?",
+              "options": [
+                "No benefit above 3,000 steps",
+                "Risk fell with more steps, levelling off around 8,000–10,000",
+                "Only 20,000+ steps helped",
+                "Steps increased risk"
+              ],
+              "correctIndex": 1,
+              "explanation": "A progressive link, levelling off around 8,000–10,000."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Meta-analysis** — Paluch AE et al. (Steps for Health Collaborative), Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts, Lancet Public Health 2022;7(3):e219–e228.\n2. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr7-l06-cardio-plan",
+      "title": "Where cardio fits in your week",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Start from what you do\n\nIf you already play sport once or twice a week, that's your cardio base, and probably your interval work too. The plan is to protect it, add easy movement, and avoid stacking hard efforts on top of strength days."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m7/cardio-week.svg",
+          "alt": "A week plan: strength A Monday, football Tuesday, strength B Wednesday, easy cycling or walk Thursday, strength A Friday, tennis Saturday, long walk Sunday. Daily steps target shown underneath.",
+          "caption": "A week with strength, sport and easy cardio",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.158
+        },
+        {
+          "type": "text",
+          "markdown": "## Rules of thumb\n\n1. Keep your sport. It covers hard efforts and much of the WHO minutes.\n2. Add easy cardio, such as walking or cycling, if you're under 150 moderate-equivalent minutes.\n3. Add one short interval session only if your sport doesn't give you hard efforts.\n4. Keep hard cardio and hard legs at least 3 hours apart, and away from the day before a match.\n5. Use steps as the everyday lever for fat loss."
+        },
+        {
+          "type": "text",
+          "markdown": "## If your goal is fat loss\n\nCardio helps, but food decides most of the balance (Module 9). Adding more and more hard cardio usually costs strength-session quality before it adds much fat loss. Steps and a moderate deficit are the better levers."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** keep your sport, add steps and easy cardio, and use intervals sparingly. Strength sessions stay the priority on non-sport days."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr7-l06-cardio-plan-fc1",
+              "front": "Cardio priorities for a strength-and-fat-loss goal",
+              "back": "Keep sport, add steps and easy cardio, intervals sparingly, food for the deficit."
+            },
+            {
+              "id": "tr7-l06-cardio-plan-fc2",
+              "front": "Spacing hard sessions",
+              "back": "Keep hard cardio and hard leg work at least 3 hours apart, and avoid hard legs the day before a match."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr7-l06-cardio-plan-q1",
+              "stem": "You play tennis twice a week and want to lose fat. What's the best cardio addition?",
+              "options": [
+                "Three HIIT sessions a week",
+                "More daily steps and some easy cycling",
+                "Long runs every day",
+                "No change, and cut strength training"
+              ],
+              "correctIndex": 1,
+              "explanation": "Tennis covers hard efforts; steps and easy cardio add without fatigue."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Guideline** — WHO guidelines on physical activity and sedentary behaviour (2020); Bull FC et al., Br J Sports Med 2020;54:1451–1462.\n2. **Meta-analysis** — Schumann M et al., Compatibility of concurrent aerobic and strength training, Sports Med 2021 (doi:10.1007/s40279-021-01587-7).\n3. **Practice** — training conventions used in coaching; labelled as practice in the lesson.\n4. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}

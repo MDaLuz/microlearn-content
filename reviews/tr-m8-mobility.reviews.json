@@ -1,0 +1,792 @@
+{
+  "moduleId": "tr-m8-mobility",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "tr8-b1",
+      "title": "Core and warm-ups",
+      "lessons": [
+        "tr8-l01-core-role",
+        "tr8-l02-core-exercises",
+        "tr8-l03-warmup"
+      ]
+    },
+    {
+      "id": "tr8-b2",
+      "title": "Stretching, mobility and yoga",
+      "lessons": [
+        "tr8-l04-stretching",
+        "tr8-l05-desk",
+        "tr8-l06-yoga",
+        "tr8-l07-recap"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-tr8-l01",
+      "level": "lesson",
+      "covers": [
+        "tr8-l01-core-role"
+      ],
+      "summary": {
+        "title": "What the core does",
+        "points": [
+          "The core keeps the trunk steady and transfers force.",
+          "Three 'anti' jobs: anti-extension, anti-rotation, anti-lateral flexion.",
+          "Crunches aren't necessary.",
+          "Compound lifts and carries already load the core.",
+          "A coaching framework, not a guideline."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You want one exercise per core job.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which set fits?",
+              "options": [
+                "Dead bug, Pallof press, side plank",
+                "Curls, raises and extensions",
+                "Crunches, sit-ups and Russian twists, done to failure",
+                "Three plank variations only"
+              ],
+              "answer": 0,
+              "explanation": "Anti-extension, anti-rotation, anti-lateral flexion."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which job does a suitcase carry train?",
+              "options": [
+                "None",
+                "Anti-rotation",
+                "Anti-lateral flexion",
+                "Anti-extension, since the back stays straight"
+              ],
+              "answer": 2,
+              "explanation": "Resisting bending sideways."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend does 200 crunches a day for a strong core.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the course suggest?",
+              "options": [
+                "More crunches, since they're the only real core exercise",
+                "A few anti-movement exercises plus compound lifts",
+                "No core work at all, ever",
+                "Only stretching"
+              ],
+              "answer": 1,
+              "explanation": "Crunches aren't necessary."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why is a few exercises a week enough?",
+              "options": [
+                "Machines do it better",
+                "Core muscles don't adapt",
+                "The core is too small to train",
+                "Squats, deadlifts, carries and presses already load the core"
+              ],
+              "answer": 3,
+              "explanation": "Full-body training covers much of it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr8-l02",
+      "level": "lesson",
+      "covers": [
+        "tr8-l02-core-exercises"
+      ],
+      "summary": {
+        "title": "Core exercises",
+        "points": [
+          "Dead bug: lower back down, slow opposite arm and leg.",
+          "Front plank: straight line, glutes tight, 20–40 s good holds.",
+          "Side plank: hips up and forward, shoulders stacked.",
+          "Bird dog: opposite arm and leg, hips level.",
+          "Pallof press: press out and hold without twisting."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your plank hips sag after 40 seconds.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the best choice?",
+              "options": [
+                "Keep 20–40 s good holds and progress the version",
+                "Switch to crunches",
+                "Hold your breath to last longer",
+                "Hold for three minutes regardless of form"
+              ],
+              "answer": 0,
+              "explanation": "Quality holds, then harder versions."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's an easier side plank?",
+              "options": [
+                "Feet on a bench",
+                "A weight on the hip",
+                "Top leg raised for the whole hold",
+                "Knees bent"
+              ],
+              "answer": 3,
+              "explanation": "Shorter lever."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "During dead bugs your lower back lifts off the floor.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does it mean?",
+              "options": [
+                "Add a heavy weight",
+                "Go faster",
+                "The move is too hard: shorten it",
+                "Good: an arched back is the aim of the exercise"
+              ],
+              "answer": 2,
+              "explanation": "Move only the legs, or bend them more."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which exercise uses a band at chest height from the side?",
+              "options": [
+                "Front plank",
+                "Pallof press",
+                "Bird dog",
+                "Dead bug"
+              ],
+              "answer": 1,
+              "explanation": "Anti-rotation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr8-l03",
+      "level": "lesson",
+      "covers": [
+        "tr8-l03-warmup"
+      ],
+      "summary": {
+        "title": "Warm-ups",
+        "points": [
+          "Warm up to prepare, not to tire.",
+          "A 2010 meta-analysis: warm-ups improved performance in most outcomes.",
+          "RAMP: raise, activate, mobilise, potentiate (practice).",
+          "End with lighter sets of the first lift.",
+          "Before sport: easy movement, dynamic stretches, short accelerations."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You have 5 minutes before session A.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you do?",
+              "options": [
+                "15 minutes of static stretching for every muscle",
+                "RAMP ending with lighter goblet squat sets",
+                "Nothing",
+                "A 20-minute run"
+              ],
+              "answer": 1,
+              "explanation": "Short and specific."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the 'potentiate' step?",
+              "options": [
+                "A long hold of a hamstring stretch",
+                "A cold shower",
+                "Lighter sets of the first lift",
+                "A heavy max attempt"
+              ],
+              "answer": 2,
+              "explanation": "Ramp up towards working weight."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Before tennis you usually do long static stretches.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's a better routine?",
+              "options": [
+                "Longer static holds of two minutes per muscle",
+                "A heavy strength session",
+                "No warm-up at all",
+                "Easy movement, dynamic stretches, short accelerations"
+              ],
+              "answer": 3,
+              "explanation": "Lesson 4 explains why."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does 'activate' include?",
+              "options": [
+                "Glute bridges and dead bugs",
+                "Long static holds",
+                "Maximum sprints",
+                "Heavy deadlifts"
+              ],
+              "answer": 0,
+              "explanation": "Wake up glutes and core."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr8-l04",
+      "level": "lesson",
+      "covers": [
+        "tr8-l04-stretching"
+      ],
+      "summary": {
+        "title": "Stretching evidence",
+        "points": [
+          "Static holds ≥60 s per muscle cut performance ~5%; shorter holds ~1% (2016 review).",
+          "Dynamic stretching improved performance slightly.",
+          "Static stretching showed no clear injury-prevention effect; strength training reduced injuries.",
+          "Stretching barely reduces soreness.",
+          "Full-range strength training improved flexibility about as much as stretching."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You want deeper squats.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What helps?",
+              "options": [
+                "Never squatting deep",
+                "Long static holds right before heavy sets",
+                "Stretching only on match days",
+                "Full-range squats plus targeted stretches after training"
+              ],
+              "answer": 3,
+              "explanation": "Range improves with both."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When do longer static stretches fit best?",
+              "options": [
+                "Never",
+                "In the middle of a set",
+                "After training or at a separate time",
+                "Right before a heavy lift or a match"
+              ],
+              "answer": 2,
+              "explanation": "Short holds or dynamic moves before."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A teammate says stretching before games prevents injuries.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the evidence say?",
+              "options": [
+                "Stretching halves all injuries in every sport",
+                "No clear effect; strength training reduced injuries",
+                "Nothing is known",
+                "Stretching causes injuries"
+              ],
+              "answer": 1,
+              "explanation": "Lauersen 2014."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Does stretching stop next-day soreness?",
+              "options": [
+                "Barely",
+                "Yes, but only static stretching",
+                "It doubles soreness",
+                "Yes, completely, if done for ten minutes"
+              ],
+              "answer": 0,
+              "explanation": "Cochrane review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr8-l05",
+      "level": "lesson",
+      "covers": [
+        "tr8-l05-desk"
+      ],
+      "summary": {
+        "title": "Mobility for a desk job",
+        "points": [
+          "Sitting stiffens hips, upper back, ankles and shoulders (practice).",
+          "Drills: hip-flexor stretch, open-book rotations, knee-to-wall rocks, wall slides.",
+          "About 6 minutes on desk days, or as the warm-up's 'mobilise' step.",
+          "Break long sitting every 30–60 minutes."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your squat depth is limited by stiff ankles.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which drill helps?",
+              "options": [
+                "Crunches",
+                "Open-book rotations for the upper back",
+                "Knee-to-wall rocks",
+                "Wall slides"
+              ],
+              "answer": 2,
+              "explanation": "Ankle bend."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which drill targets the hip flexors?",
+              "options": [
+                "Half-kneeling hip-flexor stretch",
+                "Pallof press",
+                "Calf raises",
+                "Wall slides with ribs down"
+              ],
+              "answer": 0,
+              "explanation": "Squeeze the back glute."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You sit 8 hours a day.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the simplest habit?",
+              "options": [
+                "Nothing until it hurts",
+                "Change position every 30–60 minutes",
+                "Sit more upright, for longer",
+                "One long stretching session at the weekend only"
+              ],
+              "answer": 1,
+              "explanation": "Move often."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When does the desk routine fit?",
+              "options": [
+                "Only on holiday, when there's more time",
+                "Only after injuries",
+                "Never on training days",
+                "On desk days, or in the warm-up"
+              ],
+              "answer": 3,
+              "explanation": "Six minutes, flexible timing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr8-l06",
+      "level": "lesson",
+      "covers": [
+        "tr8-l06-yoga"
+      ],
+      "summary": {
+        "title": "Yoga for lifters",
+        "points": [
+          "Yoga adds controlled range, balance and calm recovery.",
+          "Cochrane 2022: for chronic low back pain, small improvements, similar to other exercise.",
+          "10-minute flow: child's pose, cat-cow, downward dog, low lunge, pigeon, cobra, forward fold, twist.",
+          "Use on rest days or after training; not a substitute for strength work."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "It's Sunday and you feel stiff after tennis.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What fits?",
+              "options": [
+                "A heavy deadlift session to loosen up",
+                "The 10-minute flow",
+                "Nothing",
+                "Hard intervals"
+              ],
+              "answer": 1,
+              "explanation": "Mobility and recovery."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How far do you go into each pose?",
+              "options": [
+                "Always to the end of range",
+                "As deep as possible, through any pain",
+                "Only as far as stays comfortable",
+                "Only with a partner pushing"
+              ],
+              "answer": 2,
+              "explanation": "Comfort sets the depth."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend wants to replace strength training with yoga.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the balanced view?",
+              "options": [
+                "Yoga is useless",
+                "Yoga builds more strength and muscle than lifting",
+                "Yoga cures back pain",
+                "Yoga complements strength work; it doesn't replace it"
+              ],
+              "answer": 3,
+              "explanation": "Different jobs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What did the 2022 review find for back pain?",
+              "options": [
+                "Small improvements, similar to other exercise",
+                "A complete cure in every case after six weeks",
+                "No studies exist",
+                "It made pain worse"
+              ],
+              "answer": 0,
+              "explanation": "An option, not a cure."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr8-b1",
+      "level": "block",
+      "covers": [
+        "tr8-l01-core-role",
+        "tr8-l02-core-exercises",
+        "tr8-l03-warmup"
+      ],
+      "summary": {
+        "title": "Core and warm-ups",
+        "points": [
+          "Core work mostly resists movement: three 'anti' jobs.",
+          "Five exercises: dead bug, plank, side plank, bird dog, Pallof press.",
+          "Pick two from different jobs per session; progress the version.",
+          "RAMP warm-up: 3–5 min ending with lighter sets of the first lift."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You add core to session B.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which pair covers two different jobs?",
+              "options": [
+                "Front plank and dead bug, both anti-extension",
+                "Side plank and Pallof press",
+                "Curls and raises",
+                "Two crunch variations"
+              ],
+              "answer": 1,
+              "explanation": "Anti-lateral flexion and anti-rotation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where does the core work go?",
+              "options": [
+                "Instead of the main lifts",
+                "First, before warming up, to pre-fatigue the core",
+                "After the main supersets",
+                "Between every set of squats"
+              ],
+              "answer": 2,
+              "explanation": "Accessory slot."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Describe your 5-minute warm-up before session A.",
+              "modelAnswer": "Raise: 1–2 min of marching or easy swings. Activate: glute bridges and dead bugs. Mobilise: hip openers and thoracic rotations. Potentiate: two lighter sets of goblet squats building towards my working weight."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend's 'core day' is 30 minutes of crunches once a week.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What would you suggest?",
+              "options": [
+                "Two anti-movement moves in 2–3 sessions a week",
+                "More crunches, spread over seven days",
+                "No core training",
+                "Machines only"
+              ],
+              "answer": 0,
+              "explanation": "Small doses, different jobs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which warm-up step rehearses the first lift?",
+              "options": [
+                "Raise",
+                "Mobilise",
+                "Activate",
+                "Potentiate"
+              ],
+              "answer": 3,
+              "explanation": "Lighter sets of it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr8-b2",
+      "level": "block",
+      "covers": [
+        "tr8-l04-stretching",
+        "tr8-l05-desk",
+        "tr8-l06-yoga",
+        "tr8-l07-recap"
+      ],
+      "summary": {
+        "title": "Stretching, mobility and yoga",
+        "points": [
+          "Long static holds before training slightly reduce performance; dynamic moves help.",
+          "Stretching doesn't clearly prevent injuries; strength training does.",
+          "Desk routine: hips, upper back, ankles, shoulders, about 6 minutes.",
+          "10-minute yoga flow once or twice a week for mobility and recovery.",
+          "Small doses fitted into existing sessions."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Plan your weekly mobility.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which plan fits the module?",
+              "options": [
+                "A 60-minute stretching session every day instead of lifting",
+                "Static stretching before every set",
+                "Nothing; mobility isn't needed",
+                "RAMP each session, desk routine on work days, yoga 1–2×"
+              ],
+              "answer": 3,
+              "explanation": "Small doses, often."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which is most protective against sports injuries?",
+              "options": [
+                "Skipping warm-ups",
+                "Strength training",
+                "Yoga alone",
+                "Long static stretching before matches"
+              ],
+              "answer": 1,
+              "explanation": "Lauersen 2014."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain when to use static and when dynamic stretching.",
+              "modelAnswer": "Dynamic stretching before training and sport, since it slightly improves performance; long static holds after training or at another time, where you need more range, because holds of 60 s or more right before reduce performance by about 5%."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your hips feel tight after long desk days and tennis.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which two tools fit?",
+              "options": [
+                "A heavy squat session every evening to loosen up",
+                "Long static stretches right before tennis",
+                "Hip-flexor stretch on desk days and the yoga flow on Sunday",
+                "Nothing"
+              ],
+              "answer": 2,
+              "explanation": "Mobility in small doses."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Does full-range strength training help flexibility?",
+              "options": [
+                "Yes, about as much as stretching (2021 meta-analysis)",
+                "Only with machines",
+                "No, lifting always makes you stiffer",
+                "Only for women"
+              ],
+              "answer": 0,
+              "explanation": "Train through the full range."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr8-m",
+      "level": "module",
+      "covers": [
+        "tr8-l01-core-role",
+        "tr8-l02-core-exercises",
+        "tr8-l03-warmup",
+        "tr8-l04-stretching",
+        "tr8-l05-desk",
+        "tr8-l06-yoga",
+        "tr8-l07-recap"
+      ],
+      "summary": {
+        "title": "Core, mobility and yoga: the whole picture",
+        "points": [
+          "Core work resists movement; compound lifts already load it.",
+          "Two core moves from different jobs, 2–3 times a week.",
+          "RAMP warm-up before every session.",
+          "Stretching: dynamic before, longer static after; it doesn't clearly prevent injuries.",
+          "Desk routine and a short yoga flow keep hips, back, ankles and shoulders moving.",
+          "Strength training is the best injury protection."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You build your weekly plan.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How often do core exercises appear?",
+              "options": [
+                "Once a month",
+                "Never",
+                "Every day for 30 minutes, crunches only",
+                "2–3 times a week, two moves each"
+              ],
+              "answer": 3,
+              "explanation": "Small doses, often."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What comes before every strength session?",
+              "options": [
+                "A RAMP warm-up",
+                "A long run",
+                "A yoga flow",
+                "A 15-minute static stretching routine"
+              ],
+              "answer": 0,
+              "explanation": "Short and specific."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When does the yoga flow fit?",
+              "options": [
+                "Instead of strength sessions",
+                "Rest days or after training, 1–2 times a week",
+                "Before heavy lifts, to relax the muscles",
+                "Only when injured"
+              ],
+              "answer": 1,
+              "explanation": "Mobility and recovery."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You used to stretch before games and do crunches for core.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What replaces the pre-game stretching?",
+              "options": [
+                "Longer static holds of two minutes each",
+                "No warm-up",
+                "A dynamic warm-up with short accelerations",
+                "Heavy squats"
+              ],
+              "answer": 2,
+              "explanation": "Dynamic before, static later."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What replaces the crunches?",
+              "options": [
+                "Curls",
+                "More crunches with a weight on the chest",
+                "Nothing",
+                "Anti-movement core exercises"
+              ],
+              "answer": 3,
+              "explanation": "Dead bug, side plank, Pallof press and others."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Summarise your core and mobility week in one sentence.",
+              "modelAnswer": "A RAMP warm-up every session, two core moves from different jobs in 2–3 sessions, the 6-minute desk routine on work days, a 10-minute yoga flow once or twice a week, and full-range strength training plus daily steps."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

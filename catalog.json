@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 22
+    "version": 23
   },
   "categories": {
     "Training": {
@@ -342,6 +342,32 @@
       "estimatedMinutes": 50,
       "accentColor": "#6B7280",
       "reviews": "reviews/tr-m6-progression.reviews.json",
+      "reviewsVersion": 1
+    },
+    {
+      "id": "tr-m7-cardio",
+      "title": "Training 7: Cardio and conditioning",
+      "discipline": "Training",
+      "description": "Zones, easy cardio, intervals, kettlebell finishers and steps",
+      "file": "modules/tr-m7-cardio.json",
+      "version": 1,
+      "lessonCount": 6,
+      "estimatedMinutes": 40,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/tr-m7-cardio.reviews.json",
+      "reviewsVersion": 1
+    },
+    {
+      "id": "tr-m8-mobility",
+      "title": "Training 8: Core, mobility, stretching and yoga",
+      "discipline": "Training",
+      "description": "What the core does, warm-ups, stretching evidence and a 10-minute flow",
+      "file": "modules/tr-m8-mobility.json",
+      "version": 1,
+      "lessonCount": 7,
+      "estimatedMinutes": 50,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/tr-m8-mobility.reviews.json",
       "reviewsVersion": 1
     }
   ]

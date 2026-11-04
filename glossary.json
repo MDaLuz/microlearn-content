@@ -1,5 +1,5 @@
 {
-  "version": 22,
+  "version": 23,
   "updated": "2026-11-04",
   "entries": [
     {
@@ -7232,6 +7232,274 @@
       ],
       "modules": [
         "tr-m6-progression"
+      ]
+    },
+    {
+      "id": "max-heart-rate",
+      "term": "Maximum heart rate",
+      "aliases": [
+        "HRmax",
+        "max HR"
+      ],
+      "category": "training",
+      "short": "The highest heart rate you can reach; estimated as about 208 − 0.7 × age, with 10+ beats of individual error.",
+      "simpler": "Your heart's top speed.",
+      "example": {
+        "moduleId": "tr-m7-cardio",
+        "text": "Lesson 7.1: at 40, about 180 beats a minute."
+      },
+      "notToConfuse": "Not a target: it's the ceiling the zones are based on.",
+      "related": [
+        "heart-rate-zones",
+        "talk-test"
+      ],
+      "modules": [
+        "tr-m7-cardio"
+      ]
+    },
+    {
+      "id": "heart-rate-zones",
+      "term": "Heart-rate zones",
+      "aliases": [
+        "training zones",
+        "zone 2"
+      ],
+      "category": "training",
+      "short": "Five intensity bands as a share of maximum heart rate, from zone 1 (very easy) to zone 5 (all-out).",
+      "simpler": "Five levels of effort, from easy to flat out.",
+      "example": {
+        "moduleId": "tr-m7-cardio",
+        "text": "Lesson 7.1: zone 2 is 60–70%, where you can talk in full sentences."
+      },
+      "notToConfuse": "Not exact borders: definitions vary between sources.",
+      "related": [
+        "max-heart-rate",
+        "talk-test"
+      ],
+      "modules": [
+        "tr-m7-cardio"
+      ]
+    },
+    {
+      "id": "talk-test",
+      "term": "Talk test",
+      "aliases": [
+        "conversation test"
+      ],
+      "category": "training",
+      "short": "Judging intensity by speech: full sentences means easy, short sentences moderate, a few words hard.",
+      "simpler": "If you can chat, it's easy.",
+      "example": {
+        "moduleId": "tr-m7-cardio",
+        "text": "Lesson 7.1: no watch needed for most sessions."
+      },
+      "notToConfuse": "Not a breathing test for asthma or medical use.",
+      "related": [
+        "heart-rate-zones"
+      ],
+      "modules": [
+        "tr-m7-cardio"
+      ]
+    },
+    {
+      "id": "hiit",
+      "term": "HIIT",
+      "aliases": [
+        "high-intensity interval training",
+        "intervals"
+      ],
+      "category": "training",
+      "short": "Repeated hard efforts with easy recovery; similar fat loss to steady cardio in about 40% less time.",
+      "simpler": "Hard, rest, hard, rest.",
+      "example": {
+        "moduleId": "tr-m7-cardio",
+        "text": "Lesson 7.3: football and tennis often count as interval work."
+      },
+      "notToConfuse": "Not a fat-burning secret: it saves time rather than burning more fat.",
+      "related": [
+        "vo2max",
+        "aerobic-training"
+      ],
+      "modules": [
+        "tr-m7-cardio"
+      ]
+    },
+    {
+      "id": "vo2max",
+      "term": "VO2max",
+      "aliases": [
+        "maximal oxygen uptake",
+        "aerobic capacity"
+      ],
+      "category": "training",
+      "short": "The maximum rate your body can use oxygen; a key measure of aerobic fitness, raised by both steady cardio and HIIT.",
+      "simpler": "How big your aerobic engine is.",
+      "example": {
+        "moduleId": "tr-m7-cardio",
+        "text": "Lesson 7.3: HIIT raised it slightly more than steady cardio in a 2015 meta-analysis."
+      },
+      "notToConfuse": "Not the same as heart rate: heart rate can be high while oxygen use is lower, as in kettlebell swings.",
+      "related": [
+        "hiit"
+      ],
+      "modules": [
+        "tr-m7-cardio"
+      ]
+    },
+    {
+      "id": "daily-steps",
+      "term": "Daily steps",
+      "aliases": [
+        "step count",
+        "NEAT"
+      ],
+      "category": "training",
+      "short": "Walking outside workouts; more steps were linked to lower mortality, levelling off around 8,000–10,000 a day under 60.",
+      "simpler": "Everyday walking, counted.",
+      "example": {
+        "moduleId": "tr-m7-cardio",
+        "text": "Lesson 7.5: a weekly average target helps fat loss without extra fatigue."
+      },
+      "notToConfuse": "Not a workout: steps are everyday movement, tracked as an average.",
+      "related": [
+        "aerobic-training"
+      ],
+      "modules": [
+        "tr-m7-cardio"
+      ]
+    },
+    {
+      "id": "core",
+      "term": "Core",
+      "aliases": [
+        "trunk",
+        "midsection"
+      ],
+      "category": "training",
+      "short": "The muscles around the trunk (abs, obliques, deep spine muscles, hips) that keep it steady and transfer force.",
+      "simpler": "Your middle, which holds you steady.",
+      "example": {
+        "moduleId": "tr-m8-mobility",
+        "text": "Lesson 8.1: its main job is resisting movement."
+      },
+      "notToConfuse": "Not just the 'six-pack' muscle at the front.",
+      "related": [
+        "anti-rotation",
+        "bracing"
+      ],
+      "modules": [
+        "tr-m8-mobility"
+      ]
+    },
+    {
+      "id": "anti-rotation",
+      "term": "Anti-movement core training",
+      "aliases": [
+        "anti-extension",
+        "anti-rotation",
+        "anti-lateral flexion"
+      ],
+      "category": "training",
+      "short": "Core exercises that resist arching, twisting or side-bending, such as planks, Pallof presses and side planks.",
+      "simpler": "Core work where your job is to not move.",
+      "example": {
+        "moduleId": "tr-m8-mobility",
+        "text": "Lesson 8.2: pick two exercises from different 'anti' jobs."
+      },
+      "notToConfuse": "Not crunches: those bend the spine rather than resisting movement.",
+      "related": [
+        "core"
+      ],
+      "modules": [
+        "tr-m8-mobility"
+      ]
+    },
+    {
+      "id": "ramp-warmup",
+      "term": "RAMP warm-up",
+      "aliases": [
+        "RAMP"
+      ],
+      "category": "training",
+      "short": "A short warm-up structure: raise, activate, mobilise, potentiate, ending with lighter sets of the first lift.",
+      "simpler": "Get warm, wake up, loosen up, practise.",
+      "example": {
+        "moduleId": "tr-m8-mobility",
+        "text": "Lesson 8.3: 3–5 minutes before every session."
+      },
+      "notToConfuse": "Not a long stretching routine.",
+      "related": [
+        "dynamic-stretching"
+      ],
+      "modules": [
+        "tr-m8-mobility"
+      ]
+    },
+    {
+      "id": "dynamic-stretching",
+      "term": "Static vs dynamic stretching",
+      "aliases": [
+        "static stretching",
+        "dynamic stretching"
+      ],
+      "category": "training",
+      "short": "Static: holding a stretch. Dynamic: moving through a range repeatedly. Long static holds before training slightly reduce performance.",
+      "simpler": "Holding a stretch versus moving through it.",
+      "example": {
+        "moduleId": "tr-m8-mobility",
+        "text": "Lesson 8.4: dynamic before training, longer static holds after or separately."
+      },
+      "notToConfuse": "Not injury prevention: static stretching showed no clear effect on injuries.",
+      "related": [
+        "ramp-warmup",
+        "mobility"
+      ],
+      "modules": [
+        "tr-m8-mobility"
+      ]
+    },
+    {
+      "id": "thoracic-spine",
+      "term": "Thoracic spine",
+      "aliases": [
+        "upper back",
+        "mid-back"
+      ],
+      "category": "training",
+      "short": "The upper and middle back section of the spine, which rotates and extends; it often stiffens with long sitting.",
+      "simpler": "Your upper back.",
+      "example": {
+        "moduleId": "tr-m8-mobility",
+        "text": "Lesson 8.5: open-book rotations keep it moving."
+      },
+      "notToConfuse": "Not the lower back (lumbar spine), which should mostly stay steady when lifting.",
+      "related": [
+        "mobility"
+      ],
+      "modules": [
+        "tr-m8-mobility"
+      ]
+    },
+    {
+      "id": "yoga-flow",
+      "term": "Yoga flow",
+      "aliases": [
+        "flow",
+        "vinyasa"
+      ],
+      "category": "training",
+      "short": "A short sequence of yoga poses linked with slow breathing; used here for mobility and recovery.",
+      "simpler": "A few poses in a row, with slow breathing.",
+      "example": {
+        "moduleId": "tr-m8-mobility",
+        "text": "Lesson 8.6: a 10-minute flow once or twice a week."
+      },
+      "notToConfuse": "Not a substitute for strength training.",
+      "related": [
+        "mobility"
+      ],
+      "modules": [
+        "tr-m8-mobility"
       ]
     }
   ]

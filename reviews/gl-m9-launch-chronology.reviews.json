@@ -1,0 +1,1219 @@
+{
+  "moduleId": "gl-m9-launch-chronology",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "gl9-b1",
+      "title": "The plan and its first phases",
+      "lessons": [
+        "gl9-l01-reference-gantt",
+        "gl9-l02-phase1",
+        "gl9-l03-phase2",
+        "gl9-l04-phase3"
+      ]
+    },
+    {
+      "id": "gl9-b2",
+      "title": "From licence to stock on the shelf",
+      "lessons": [
+        "gl9-l05-phase4",
+        "gl9-l06-phase5",
+        "gl9-l07-phase6"
+      ]
+    },
+    {
+      "id": "gl9-b3",
+      "title": "Steering the launch",
+      "lessons": [
+        "gl9-l08-critical-path",
+        "gl9-l09-pm-toolkit",
+        "gl9-l10-capstone"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-gl9-l01",
+      "level": "lesson",
+      "covers": [
+        "gl9-l01-reference-gantt"
+      ],
+      "summary": {
+        "title": "The end-to-end Gantt",
+        "points": [
+          "Four parallel tracks: deal and dossier, regulatory, packaging and serialisation, supply.",
+          "Market access closes the loop; patents and SPCs can override the whole plan.",
+          "Only the DCP's 210 days and the 30-day national phase are fixed by law.",
+          "Everything else depends on people, partners, suppliers and printers.",
+          "Run artworks, EMVS onboarding and launch batches during the DCP, not after it."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A draft plan puts artwork, EMVS onboarding and batch planning after the national licences.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the main problem?",
+              "options": [
+                "They should run in parallel during the DCP",
+                "Nothing; those tasks legally require a national licence before they can start",
+                "EMVS onboarding isn't needed for generics",
+                "Artwork should come before the gap analysis"
+              ],
+              "answer": 0,
+              "explanation": "Start the parallel tracks early."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which segments have a legal clock?",
+              "options": [
+                "QP release and EU testing",
+                "The gap analysis and the artwork rounds",
+                "Pricing and printing",
+                "The DCP's 210 days and the 30-day national phase"
+              ],
+              "answer": 3,
+              "explanation": "Everything else is plannable."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The SPC expires six months after the expected licence.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What happens to the plan?",
+              "options": [
+                "Nothing; the licence date is the launch date regardless of patents",
+                "Market access starts earlier automatically",
+                "The SPC date overrides it and sets the launch",
+                "The DCP clock pauses"
+              ],
+              "answer": 2,
+              "explanation": "Module 3 can override the plan."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which track holds batches, EU testing and QP release?",
+              "options": [
+                "Deal and dossier",
+                "Supply",
+                "Packaging and serialisation",
+                "Regulatory"
+              ],
+              "answer": 1,
+              "explanation": "Modules 4–6."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl9-l02",
+      "level": "lesson",
+      "covers": [
+        "gl9-l02-phase1"
+      ],
+      "summary": {
+        "title": "Phase 1: transfer and gap analysis",
+        "points": [
+          "Each phase has entry criteria, work, and exit criteria.",
+          "Entry: deal signed, dossier received.",
+          "Work: inventory, gap analysis, FTO check, RMS slot, choose the EU importer.",
+          "Exit: blocking gaps closed or accepted with a plan; RMS slot confirmed.",
+          "Slips: late transfer, slow owner answers, stability or nitrosamine gaps, no RMS capacity."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Three months after signature, the dossier is in but the RMS slot isn't confirmed.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Is phase 1 complete?",
+              "options": [
+                "No: a confirmed RMS slot is an exit criterion",
+                "Only if the FTO is done",
+                "Yes: receiving the dossier is the only exit criterion for phase 1",
+                "Yes, if the gap analysis has started"
+              ],
+              "answer": 0,
+              "explanation": "Exit criteria judge completeness."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which decision belongs in phase 1 because it goes into the dossier?",
+              "options": [
+                "Ordering cartons",
+                "Choosing the EU importer and batch release site",
+                "Choosing the wholesaler",
+                "Setting the price"
+              ],
+              "answer": 1,
+              "explanation": "Module 6."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The dossier owner says stability data 'should be ready soon'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you ask for?",
+              "options": [
+                "Nothing; trust the partner",
+                "A new BE study",
+                "A new RMS",
+                "Dates, not promises"
+              ],
+              "answer": 3,
+              "explanation": "Slow answers are a classic slip."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why does phase 1 matter so much?",
+              "options": [
+                "It decides the price",
+                "It has a fixed legal clock",
+                "It sets the earliest submission date",
+                "It replaces the DCP for in-licensed dossiers"
+              ],
+              "answer": 2,
+              "explanation": "Every week saved moves the whole plan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl9-l03",
+      "level": "lesson",
+      "covers": [
+        "gl9-l03-phase2"
+      ],
+      "summary": {
+        "title": "Phase 2: submission and the DCP",
+        "points": [
+          "Entry: dossier ready, blocking gaps closed.",
+          "Work: validation, Day 0 to 210, answering Day 105 and later questions.",
+          "Exit: end of procedure with agreed English texts.",
+          "Real length depends on clock-stops; about 7 months of assessment plus pauses.",
+          "Use clock-stops to draft artworks, start EMVS onboarding, schedule batches, prepare translations."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "RA expects a 3-month clock-stop at Day 105.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What should the other tracks do meanwhile?",
+              "options": [
+                "Start printing final cartons",
+                "Draft artworks, start EMVS onboarding, schedule batches, prepare translations",
+                "Start pricing applications in every country",
+                "Wait until the procedure ends, since texts may change during the clock-stop"
+              ],
+              "answer": 1,
+              "explanation": "Often what separates fast from slow launches."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's phase 2's exit?",
+              "options": [
+                "End of procedure with agreed English texts",
+                "Approved country artwork",
+                "National licences in every country",
+                "First QP release"
+              ],
+              "answer": 0,
+              "explanation": "Licences come in phase 3."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your plan shows phase 2 as exactly 210 days.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's missing?",
+              "options": [
+                "Nothing",
+                "The 60-day CMDh referral, which every DCP includes",
+                "The national phase",
+                "A realistic clock-stop estimate"
+              ],
+              "answer": 3,
+              "explanation": "Clock-stops make it longer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What drives the clock-stop estimate?",
+              "options": [
+                "The printer's slots",
+                "The RMS's fees and its language requirements",
+                "The expected questions",
+                "The number of CMS"
+              ],
+              "answer": 2,
+              "explanation": "Plan it realistically."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl9-l04",
+      "level": "lesson",
+      "covers": [
+        "gl9-l04-phase3"
+      ],
+      "summary": {
+        "title": "Phase 3: national phase and artworks",
+        "points": [
+          "Entry: texts final or near-final, with drafts started in clock-stops.",
+          "Work: translations, mock-ups, Blue Box requirements, country artwork, printed materials ordered.",
+          "Exit: national licence, approved artwork and printed materials at the packaging site, per country.",
+          "Slips: late translations, proof rounds, wrong die-line, printer capacity, a late text variation.",
+          "Each country is its own line; printed packaging gates the launch stock."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Germany has its licence and approved artwork; its cartons are still at the printer.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Has Germany exited phase 3?",
+              "options": [
+                "Yes, if the QP agrees",
+                "Yes: the licence and approved artwork are the only exit criteria",
+                "No: printed materials must be at the packaging site",
+                "Only if pricing is done"
+              ],
+              "answer": 2,
+              "explanation": "Licence + artwork + printed materials."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why is each country a separate plan line?",
+              "options": [
+                "Printers bill per country",
+                "Each country has its own RMS",
+                "The DCP requires it",
+                "Licence, translation, Blue Box and artwork slip independently"
+              ],
+              "answer": 3,
+              "explanation": "One country's slip shouldn't hide in an average."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A text variation is approved just before cartons go to print.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the risk?",
+              "options": [
+                "Printing old texts, wasting material and delaying launch",
+                "None; variations only affect the leaflet and never the carton",
+                "The DCP reopens",
+                "The licence lapses"
+              ],
+              "answer": 0,
+              "explanation": "Module 8, Lesson 8."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What gates the launch stock in phase 3?",
+              "options": [
+                "The SDEA with the partner and the PSMF update",
+                "Approved artwork and printed packaging per country",
+                "The BE study",
+                "The RMS's assessment report"
+              ],
+              "answer": 1,
+              "explanation": "Packaging runs follow."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl9-l05",
+      "level": "lesson",
+      "covers": [
+        "gl9-l05-phase4"
+      ],
+      "summary": {
+        "title": "Phase 4: market access",
+        "points": [
+          "Most generics only sell once priced and reimbursed, or after winning tenders.",
+          "P&R is national, with its own rules, files and timelines.",
+          "Transparency Directive maximums: 90 days price, 90 reimbursement, 180 combined.",
+          "Exit: price and status known, tender won or plan B, listed with wholesalers.",
+          "Know listing calendars; file as soon as allowed. Access can set the launch date."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A licence arrives in March; reimbursement lists are published quarterly, next in July.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the realistic launch?",
+              "options": [
+                "Six months after the licence",
+                "March, since the licence allows sales immediately in every EU country",
+                "Only after the next renewal",
+                "Around the July listing, if the file is complete in time"
+              ],
+              "answer": 3,
+              "explanation": "Market access, not approval, sets the date here."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Who usually owns the P&R application?",
+              "options": [
+                "The QPPV",
+                "The local market-access or commercial team, with RA support",
+                "The RMS",
+                "The QP at the importing site, once stock is released"
+              ],
+              "answer": 1,
+              "explanation": "Process card."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A country takes 170 days to decide both price and reimbursement together.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Is that within the Transparency Directive?",
+              "options": [
+                "No: the maximum is 90 days for both together",
+                "The directive doesn't set timelines",
+                "Yes: the combined maximum is 180 days",
+                "No: generics must be decided within 30 days"
+              ],
+              "answer": 2,
+              "explanation": "90 + 90, or 180 combined."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What will the pharma reform change for these steps?",
+              "options": [
+                "Bolar will explicitly allow them before patent expiry",
+                "Tenders will be abolished",
+                "P&R will move to the EMA",
+                "Price decisions will be automatic"
+              ],
+              "answer": 0,
+              "explanation": "Module 3."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl9-l06",
+      "level": "lesson",
+      "covers": [
+        "gl9-l06-phase5"
+      ],
+      "summary": {
+        "title": "Phase 5: EMVS readiness",
+        "points": [
+          "Under the FMD, pharmacies must be able to verify every pack.",
+          "Entry: MAH known, packaging site chosen, product data defined.",
+          "Work: onboard with the EU hub, upload master data per country, set up line printing and verification.",
+          "Exit: test uploads succeed; the line prints and verifies codes.",
+          "Slips stay invisible until the first scan fails: start onboarding during the DCP."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Onboarding paperwork is planned to start after the national licences.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the risk?",
+              "options": [
+                "It takes weeks, and released packs can't be dispensed without it",
+                "None; onboarding is instant once the national licences are granted",
+                "The DCP will be suspended",
+                "Only the leaflet is affected"
+              ],
+              "answer": 0,
+              "explanation": "Start during the DCP."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which proves phase 5 is done?",
+              "options": [
+                "The licence is granted",
+                "Test uploads succeed and the line prints and verifies codes",
+                "Cartons are printed",
+                "The QP signs the batch"
+              ],
+              "answer": 1,
+              "explanation": "Exit criteria."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "One country's master data has the wrong product code.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "When would you normally find out without testing?",
+              "options": [
+                "At QP release",
+                "During the DCP's Day 105 questions",
+                "At the renewal",
+                "When the first pharmacy scan fails"
+              ],
+              "answer": 3,
+              "explanation": "That's why test uploads belong on the plan."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which slip is about the packaging site?",
+              "options": [
+                "A late pricing and reimbursement file in one country",
+                "Wrong master data",
+                "The line not yet validated for serialisation",
+                "Onboarding started late"
+              ],
+              "answer": 2,
+              "explanation": "Typical phase 5 slips."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl9-l07",
+      "level": "lesson",
+      "covers": [
+        "gl9-l07-phase6"
+      ],
+      "summary": {
+        "title": "Phase 6: launch batches to shipment",
+        "points": [
+          "Entry: printed materials at the packaging site, batches scheduled.",
+          "Work: manufacture and pack, ship to the importer, full EU testing, QP certification.",
+          "Exit: released stock at the wholesaler in each country.",
+          "Launch-readiness checklist per country: licence, P&R, artwork and stock, EMVS, PV, wholesaler, communication.",
+          "Slips (deviations, documents, testing capacity) cost weeks: keep a buffer."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Stock is released, but EMVS master data for Belgium is missing.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Is Belgium ready to launch?",
+              "options": [
+                "No: packs would fail verification at pharmacies",
+                "Yes, if the price is set",
+                "Only for hospital supply",
+                "Yes: released stock is the only condition that matters for go/no-go"
+              ],
+              "answer": 0,
+              "explanation": "A go/no-go item is missing."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which item belongs on the launch-readiness checklist?",
+              "options": [
+                "BE study approved",
+                "Gap analysis started",
+                "RMS slot booked",
+                "PV system ready"
+              ],
+              "answer": 3,
+              "explanation": "Plus licence, P&R, artwork and stock, EMVS, wholesaler, communication."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your plan has no buffer between QP release and the launch date.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why is that risky?",
+              "options": [
+                "The DCP may reopen",
+                "Wholesalers need a year's notice",
+                "Phase 6 slips usually cost weeks",
+                "QP release always happens early"
+              ],
+              "answer": 2,
+              "explanation": "Deviations, documents, testing capacity."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's phase 6's exit?",
+              "options": [
+                "Stock at the EU importer",
+                "Released stock at the wholesaler in each country",
+                "Batches made and packed at the Indian site",
+                "QP-certified stock anywhere"
+              ],
+              "answer": 1,
+              "explanation": "The last mile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl9-l08",
+      "level": "lesson",
+      "covers": [
+        "gl9-l08-critical-path"
+      ],
+      "summary": {
+        "title": "Critical path and slip points",
+        "points": [
+          "Usual path: dossier, DCP, national texts, artwork and printing, packing, EU testing and QP, launch.",
+          "Market access, a later patent expiry or a GMP problem can take over.",
+          "Slip points: late dossier and stability gaps, long clock-stops, proof rounds and printers, documents and testing.",
+          "Watch slip points weekly, not at the end.",
+          "Re-check the critical path whenever a date moves; the Gantt explorer shows the effect."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "In the reference plan, clock-stops grow from 3 to 8 months.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What happens?",
+              "options": [
+                "Launch moves later, because the DCP is on the critical path",
+                "Nothing, because artwork and supply run in parallel and absorb the delay",
+                "Only the price changes",
+                "Launch moves earlier"
+              ],
+              "answer": 0,
+              "explanation": "No slack on the critical path."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which is a phase 3 slip point?",
+              "options": [
+                "Late dossier transfer",
+                "Proof rounds and printer slots",
+                "EU testing capacity for the launch batches",
+                "Long clock-stops"
+              ],
+              "answer": 1,
+              "explanation": "Phase by phase."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A country's reimbursement list moves from June to October; supply is ready in July.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What happens to that country's critical path?",
+              "options": [
+                "It moves back to the DCP, since texts must be re-agreed",
+                "It stays on supply",
+                "It switches to market access",
+                "It moves to IP"
+              ],
+              "answer": 2,
+              "explanation": "One input can switch the path."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When should you re-check the critical path?",
+              "options": [
+                "Only when the QP asks",
+                "Once, at kick-off",
+                "Only at launch",
+                "Whenever a date moves"
+              ],
+              "answer": 3,
+              "explanation": "It can switch at any time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl9-l09",
+      "level": "lesson",
+      "covers": [
+        "gl9-l09-pm-toolkit"
+      ],
+      "summary": {
+        "title": "PM toolkit (Project Kestrel)",
+        "points": [
+          "RACI from the agreements: one A per row; update when roles change.",
+          "Risk register: L×I, owner, concrete action; review the top three weekly.",
+          "Decision log: what, who, when and the effect on the plan.",
+          "Kestrel: top risks at month 10 were a long clock-stop (16) and an expiring written confirmation (15); both happened.",
+          "Waiting for final texts before artwork cost Kestrel about 2 months on the critical path."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A new risk: the printer may lack capacity in Q3. Likelihood 3, impact 4.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's its score, and how is it rated?",
+              "options": [
+                "12, red",
+                "7, green, because the impact is only moderate",
+                "12, amber",
+                "16, red"
+              ],
+              "answer": 2,
+              "explanation": "3 × 4 = 12; red is 15 or more."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What must the entry include?",
+              "options": [
+                "Only the score",
+                "The decision log date",
+                "The QP's name and the date of the next batch release",
+                "An owner and a concrete action"
+              ],
+              "answer": 3,
+              "explanation": "Risk, L×I, owner, action."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "In the Kestrel RACI, the PM is R for artwork, and Labelling is A.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the rule on A?",
+              "options": [
+                "The PM is always A for every task in the plan",
+                "Exactly one A per row",
+                "A is optional",
+                "Two As are allowed if both teams agree"
+              ],
+              "answer": 1,
+              "explanation": "Accountability can't be shared."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why record the 'wait for final texts' decision?",
+              "options": [
+                "To make its effect on the plan visible later",
+                "Because the RACI demands it",
+                "Because the agency requires a decision log",
+                "To blame the person who decided"
+              ],
+              "answer": 0,
+              "explanation": "So decisions aren't re-opened or forgotten."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl9-l10",
+      "level": "lesson",
+      "covers": [
+        "gl9-l10-capstone"
+      ],
+      "summary": {
+        "title": "Capstone: a launch backwards",
+        "points": [
+          "Start at the first sale, find the last gate, trace phases back, mark slips, write one lesson per phase.",
+          "Kestrel: planned month 18, first sale in Germany at month 23.",
+          "Last gate: QP release at 22.5, after the licence (19) and SPC expiry (17).",
+          "The failed batch and late EMVS data stayed inside the slack.",
+          "France launched at month 27, held by P&R, not supply."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You're walking Kestrel backwards.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which problem did not move Germany's first-sale date?",
+              "options": [
+                "Import testing without a booked slot",
+                "The failed launch batch and its remake",
+                "The 4.5-month clock-stop at Day 105",
+                "Artwork drafts starting after Day 210"
+              ],
+              "answer": 1,
+              "explanation": "It ran inside the slack."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which gate came last in Germany?",
+              "options": [
+                "Pricing and reimbursement",
+                "The SPC expiry, at month 17",
+                "Released stock, at month 22.5",
+                "The licence, at month 19"
+              ],
+              "answer": 2,
+              "explanation": "The latest gate decides."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You write the lessons learned from Kestrel.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which is the best format?",
+              "options": [
+                "'The printer was slow, as usual'",
+                "'Artwork was late'",
+                "'Be faster next time'",
+                "'Start artwork drafts at Day 105; this time they started after Day 210, costing about 2 months'"
+              ],
+              "answer": 3,
+              "explanation": "Specific, timed and costed."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What held France until month 27?",
+              "options": [
+                "Pricing and reimbursement",
+                "The German SPC",
+                "The failed batch",
+                "Late EMVS master data for the French packs"
+              ],
+              "answer": 0,
+              "explanation": "Not supply."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl9-b1",
+      "level": "block",
+      "covers": [
+        "gl9-l01-reference-gantt",
+        "gl9-l02-phase1",
+        "gl9-l03-phase2",
+        "gl9-l04-phase3"
+      ],
+      "summary": {
+        "title": "The plan and its first phases",
+        "points": [
+          "Four tracks run in parallel; only the DCP and national phase have legal clocks.",
+          "Phase 1: transfer, gap analysis, FTO, RMS slot, importer; sets the earliest submission.",
+          "Phase 2: DCP with clock-stops; use them for artwork drafts, EMVS, batches, translations.",
+          "Phase 3: translations, mock-ups, Blue Box, artwork, printed materials per country.",
+          "Entry and exit criteria show whether a phase is really done."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Month 6: the DCP is in its Day 105 clock-stop; artwork hasn't started.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the biggest lost opportunity?",
+              "options": [
+                "Choosing the importer",
+                "Running the gap analysis",
+                "Booking the RMS slot, which should happen during the clock-stop",
+                "Artwork drafts during the clock-stop"
+              ],
+              "answer": 3,
+              "explanation": "Those belong in phase 1."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What would phase 3 then risk?",
+              "options": [
+                "A lapsed licence",
+                "Artwork and printing landing on the critical path",
+                "A second DCP, since the texts were agreed too late",
+                "A failed BE study"
+              ],
+              "answer": 1,
+              "explanation": "As in Kestrel."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain entry and exit criteria, and why they help a PM.",
+              "modelAnswer": "Entry criteria are what must be true to start a phase; exit criteria what must be true to finish it. They stop a phase being called 'done' when key items (like a confirmed RMS slot or printed materials) are still missing."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Phase 1 is late because the dossier owner keeps promising stability data.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the effect on the plan?",
+              "options": [
+                "Nothing; the DCP can start without stability",
+                "Only France moves",
+                "Submission, and everything after it, moves",
+                "Only the artwork moves"
+              ],
+              "answer": 2,
+              "explanation": "Phase 1 sets the earliest submission."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which phase 1 task also feeds the dossier?",
+              "options": [
+                "Choosing the EU importer",
+                "Booking printers",
+                "Setting prices in each of the target countries",
+                "Onboarding to EMVS"
+              ],
+              "answer": 0,
+              "explanation": "It's named in the dossier."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl9-b2",
+      "level": "block",
+      "covers": [
+        "gl9-l05-phase4",
+        "gl9-l06-phase5",
+        "gl9-l07-phase6"
+      ],
+      "summary": {
+        "title": "From licence to stock on the shelf",
+        "points": [
+          "Phase 4: P&R and tenders; national calendars can set the launch date.",
+          "Transparency Directive maximums: 90 + 90, or 180 combined.",
+          "Phase 5: EMVS onboarding, master data, line set-up; start during the DCP.",
+          "Phase 6: make, pack, ship, test, certify, deliver to wholesalers.",
+          "Go/no-go checklist per country; keep a buffer before launch."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Go/no-go meeting for three countries: A has everything; B lacks EMVS data; C awaits a July listing.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which countries can launch now?",
+              "options": [
+                "A and B, since stock is released in both",
+                "A and C",
+                "All three",
+                "A only"
+              ],
+              "answer": 3,
+              "explanation": "B fails verification; C has no listing."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What sets C's date?",
+              "options": [
+                "The SPC",
+                "Market access",
+                "Supply, since stock is released later than the listing",
+                "The DCP"
+              ],
+              "answer": 1,
+              "explanation": "The listing calendar."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Name five items on a launch-readiness checklist.",
+              "modelAnswer": "Licence granted; price and reimbursement in place; artwork approved and stock released; EMVS live; PV system ready (also wholesaler listed, launch communication ready)."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "EU testing capacity is tight for the first batches.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What should have been done?",
+              "options": [
+                "Skip EU testing for launch stock",
+                "Ship by sea instead of by air to give the lab more time",
+                "Book the testing slot ahead of launch",
+                "Ask the RMS to test"
+              ],
+              "answer": 2,
+              "explanation": "A classic phase 6 slip."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which phase must be complete before serialised packs ship?",
+              "options": [
+                "Phase 5",
+                "None",
+                "Phase 3 for every country",
+                "Phase 4"
+              ],
+              "answer": 0,
+              "explanation": "EMVS readiness."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl9-b3",
+      "level": "block",
+      "covers": [
+        "gl9-l08-critical-path",
+        "gl9-l09-pm-toolkit",
+        "gl9-l10-capstone"
+      ],
+      "summary": {
+        "title": "Steering the launch",
+        "points": [
+          "The critical path usually runs through the DCP, artwork and supply, but can switch.",
+          "Watch slip points weekly: gaps, clock-stops, proof rounds, documents and testing.",
+          "RACI, risk register and decision log only help if kept current.",
+          "Kestrel: planned month 18, actual 23; the last gate was released stock.",
+          "Walk launches backwards and write specific, costed lessons."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Kestrel's risk register at month 10 showed a long clock-stop (16) and an expiring written confirmation (15).",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What happened to both?",
+              "options": [
+                "Only the written confirmation expired",
+                "Neither happened, since they were mitigated on time",
+                "Both happened",
+                "Only the clock-stop happened"
+              ],
+              "answer": 2,
+              "explanation": "So did two amber risks."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which slip ran inside the slack?",
+              "options": [
+                "Late artwork drafts",
+                "The failed launch batch",
+                "The 4.5-month clock-stop at Day 105",
+                "Late dossier transfer"
+              ],
+              "answer": 1,
+              "explanation": "It looked alarming but didn't move the date."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Why did artwork drafts starting after Day 210 matter so much in Kestrel?",
+              "modelAnswer": "Artwork was on the critical path, so waiting for final texts instead of drafting in the clock-stop pushed printing, packing and stock, costing about 2 months."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You start a new launch next month.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you take from Kestrel into the risk register?",
+              "options": [
+                "Clock-stop length, written-confirmation expiry, EU testing slot",
+                "Only the BE study",
+                "Only the price risk, since supply always recovers",
+                "Nothing; every launch is different"
+              ],
+              "answer": 0,
+              "explanation": "Lessons become a checklist."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How often should the top risks be reviewed?",
+              "options": [
+                "Once per phase",
+                "At launch only",
+                "Monthly",
+                "Every week"
+              ],
+              "answer": 3,
+              "explanation": "Fifteen minutes saves days."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl9-m",
+      "level": "module",
+      "covers": [
+        "gl9-l01-reference-gantt",
+        "gl9-l02-phase1",
+        "gl9-l03-phase2",
+        "gl9-l04-phase3",
+        "gl9-l05-phase4",
+        "gl9-l06-phase5",
+        "gl9-l07-phase6",
+        "gl9-l08-critical-path",
+        "gl9-l09-pm-toolkit",
+        "gl9-l10-capstone"
+      ],
+      "summary": {
+        "title": "Launch chronology: the whole picture",
+        "points": [
+          "Four tracks in parallel; only the DCP and national phase are fixed by law.",
+          "Phases 1–6 each have entry and exit criteria.",
+          "Use clock-stops for artwork, EMVS, batches and translations.",
+          "Market access, IP or GMP can take over the critical path.",
+          "Keep RACI, risk register and decision log current; review weekly.",
+          "Walk launches backwards: last gate, slips and causes, one lesson per phase."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You plan a DCP launch in four countries with an Indian manufacturer.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which tasks run during the DCP?",
+              "options": [
+                "Printing final cartons and shipping launch stock to wholesalers",
+                "Artwork drafts, EMVS onboarding, batch scheduling, translations",
+                "Only RA responses",
+                "Nothing until the licences"
+              ],
+              "answer": 1,
+              "explanation": "Parallel tracks."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which phase 1 decision must be made before filing?",
+              "options": [
+                "The wholesaler",
+                "The tender bid",
+                "The launch communication",
+                "The EU importer"
+              ],
+              "answer": 3,
+              "explanation": "Named in the dossier."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A country lists reimbursement twice a year. What do you do?",
+              "options": [
+                "Ignore it; supply decides",
+                "Ask the RMS to coordinate the listing with the other countries",
+                "Put its listing dates on the plan and file as soon as allowed",
+                "Launch without reimbursement"
+              ],
+              "answer": 2,
+              "explanation": "Market access may set the date."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "After launch, management asks why Kestrel launched five months late.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which chain drove it?",
+              "options": [
+                "Transfer, gap closure, a long clock-stop, late artwork, packing and testing",
+                "The failed batch and the EMVS data, which both moved the date",
+                "French pricing",
+                "The SPC expiry"
+              ],
+              "answer": 0,
+              "explanation": "Those last ones stayed inside the slack or affected only France."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which tool showed the cost of waiting for final texts?",
+              "options": [
+                "The decision log",
+                "The RACI",
+                "The SmPC",
+                "The CoA of the first launch batch"
+              ],
+              "answer": 0,
+              "explanation": "What, who, when and effect."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Write one Kestrel lesson learned in the recommended format.",
+              "modelAnswer": "'Start artwork drafts at Day 105; this time they started after Day 210, which cost about 2 months on the critical path.' (Or: 'Book the EU testing slot before the batch ships; this time it wasn't booked, costing several weeks.')"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

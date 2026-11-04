@@ -1,0 +1,879 @@
+{
+  "moduleId": "gl-m5-manufacturing",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "gl5-b1",
+      "title": "From API to finished pack",
+      "lessons": [
+        "gl5-l01-api",
+        "gl5-l02-manufacturing",
+        "gl5-l03-batch-types",
+        "gl5-l04-packaging"
+      ]
+    },
+    {
+      "id": "gl5-b2",
+      "title": "Release, supply and moving sites",
+      "lessons": [
+        "gl5-l05-release",
+        "gl5-l06-supply-planning",
+        "gl5-l07-tech-transfer",
+        "gl5-l08-recap"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-gl5-l01",
+      "level": "lesson",
+      "covers": [
+        "gl5-l01-api"
+      ],
+      "summary": {
+        "title": "The API: ASMF or CEP",
+        "points": [
+          "The API is usually made by another company; the agency still needs its data (CTD 3.2.S).",
+          "ASMF: open part to the MAH, restricted part to the agency only; a letter of access links it to you.",
+          "CEP: issued by the EDQM against the Ph. Eur.; replaces most API data and often speeds assessment.",
+          "Either way: timely change notification, GMP (Part II), and a written confirmation for non-EU APIs.",
+          "An outdated ASMF or CEP is a typical filing blocker."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your API maker uses an ASMF. Filing is in six weeks.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What must you get from the API maker in time?",
+              "options": [
+                "A CEP, since ASMFs aren't accepted for generics",
+                "Its EU GMP certificate for the finished product",
+                "The restricted part, to include in your own dossier",
+                "A letter of access"
+              ],
+              "answer": 3,
+              "explanation": "It authorises the agency to use the ASMF for your application."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Who sees the restricted part?",
+              "options": [
+                "Every CMS and the MAH's regulatory team",
+                "The agency only",
+                "The MAH and the agency, under a confidentiality agreement",
+                "The QP at the importing site"
+              ],
+              "answer": 1,
+              "explanation": "That's how trade secrets are protected."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A second API source has a valid CEP.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why might RA prefer it?",
+              "options": [
+                "A CEP removes the need for GMP at the API site",
+                "A CEP lets you skip the bioequivalence study",
+                "The EDQM has already assessed it, so assessment is simpler",
+                "A CEP site never needs a written confirmation from India"
+              ],
+              "answer": 2,
+              "explanation": "It replaces most of the API data."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which requirement applies whatever the route, for an API from India?",
+              "options": [
+                "A written confirmation from the exporting country",
+                "A paediatric investigation plan agreed for the API",
+                "A separate DCP for the API",
+                "A new BE study with the API"
+              ],
+              "answer": 0,
+              "explanation": "Module 6 covers it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl5-l02",
+      "level": "lesson",
+      "covers": [
+        "gl5-l02-manufacturing"
+      ],
+      "summary": {
+        "title": "From powder to tablet",
+        "points": [
+          "Steps: dispensing, blending or granulation, drying and milling, final blend, compression, coating.",
+          "Granulation helps powder flow and compress.",
+          "Coating is a thin film for taste, protection or appearance.",
+          "In-process controls (weight, hardness, thickness, friability) catch problems early.",
+          "A campaign takes days to weeks; plant slots often limit timing more than the process."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A deviation report says 'tablet hardness out of range at the press'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which step was running?",
+              "options": [
+                "Dispensing of the raw materials",
+                "Cartoning",
+                "Compression",
+                "Coating with the film"
+              ],
+              "answer": 2,
+              "explanation": "The tablet press forms the tablets."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What kind of check found it?",
+              "options": [
+                "QP certification",
+                "A stability test at 40 °C",
+                "Release testing at the EU importer",
+                "An in-process control"
+              ],
+              "answer": 3,
+              "explanation": "Catching problems before the finished batch is tested."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The site says the process takes ten days per batch, but the first slot is in four months.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What limits launch timing here?",
+              "options": [
+                "Slot availability at the plant",
+                "The process itself, which can't be shortened",
+                "The coating step",
+                "The QP's workload in the EU"
+              ],
+              "answer": 0,
+              "explanation": "Often the real constraint."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why is a lubricant added to the final blend?",
+              "options": [
+                "To make the tablet break up and dissolve faster in the body",
+                "So it compresses and leaves the press cleanly",
+                "To mask the taste of the active substance",
+                "To protect the tablet from moisture"
+              ],
+              "answer": 1,
+              "explanation": "The coating handles taste and protection."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl5-l03",
+      "level": "lesson",
+      "covers": [
+        "gl5-l03-batch-types"
+      ],
+      "summary": {
+        "title": "Batch types",
+        "points": [
+          "Development batches work out the formulation.",
+          "Biobatch: used in the BE study; usually ≥1/10 of production scale or 100,000 units.",
+          "Stability batches feed the registration programme.",
+          "Validation batches prove the process at commercial scale and often become launch stock.",
+          "Only registered site and process, QP-certified, can be sold; validation timing drives supply."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Production scale is 500,000 tablets.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the usual minimum biobatch size?",
+              "options": [
+                "500,000, the full production scale",
+                "10,000, enough for the volunteers",
+                "50,000, one-tenth of production scale",
+                "100,000 units"
+              ],
+              "answer": 3,
+              "explanation": "One-tenth or 100,000, whichever is greater."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Can development batches be sold?",
+              "options": [
+                "Yes, if the CoA says complies",
+                "No; only batches from the registered site and process, after QP certification",
+                "Yes, in countries without a tender",
+                "Yes, as samples to doctors"
+              ],
+              "answer": 1,
+              "explanation": "They aren't commercial batches."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Launch stock will come from the three validation batches.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the PM need to know early?",
+              "options": [
+                "Only the biobatch date, since validation follows it automatically",
+                "Nothing; validation batches are always on time",
+                "When they're scheduled and when the QP can release them",
+                "Only the stability pull points"
+              ],
+              "answer": 2,
+              "explanation": "That date often drives the supply critical path."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which batch type sits on the registration stability programme?",
+              "options": [
+                "Stability batches",
+                "Commercial batches",
+                "The QP's retained samples",
+                "Development batches"
+              ],
+              "answer": 0,
+              "explanation": "They justify the shelf life."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl5-l04",
+      "level": "lesson",
+      "covers": [
+        "gl5-l04-packaging"
+      ],
+      "summary": {
+        "title": "Packaging operations",
+        "points": [
+          "Blistering (PVC/PVDC or Alu/Alu), coding, cartoning, serialisation, case packing.",
+          "Serialisation: a unique 2D code and tamper seal under the FMD.",
+          "Each country needs its own pack: language, national details, pack sizes, artwork.",
+          "Line clearance between runs prevents mix-ups.",
+          "Sequence: approved artwork, printed material, then packaging runs by country."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You're launching in five countries from one bulk batch.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How many packaging runs should you expect?",
+              "options": [
+                "One, since the tablets are identical",
+                "None until a tender is won",
+                "One per strength only, shared across countries",
+                "Usually one per country"
+              ],
+              "answer": 3,
+              "explanation": "Language, national particulars, pack sizes and artwork differ."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What must exist before cartons can be printed?",
+              "options": [
+                "Approved artwork",
+                "The QP certificate for the batch",
+                "The PSUR",
+                "The wholesaler's order"
+              ],
+              "answer": 0,
+              "explanation": "Artwork, then printed material, then runs."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The product is moisture-sensitive.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which blister is more likely?",
+              "options": [
+                "Paper sachets",
+                "Aluminium/aluminium",
+                "Plain PVC, which is the cheapest option",
+                "A glass bottle without a desiccant"
+              ],
+              "answer": 1,
+              "explanation": "Alu/Alu protects best against moisture."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why is line clearance done between country runs?",
+              "options": [
+                "To re-test the bulk",
+                "To restart the serialisation database",
+                "To prevent mix-ups between packs",
+                "To recalibrate the tablet press"
+              ],
+              "answer": 2,
+              "explanation": "Wrong-language packs are a classic error."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl5-l05",
+      "level": "lesson",
+      "covers": [
+        "gl5-l05-release"
+      ],
+      "summary": {
+        "title": "Release testing and QP certification",
+        "points": [
+          "The manufacturer's QC lab tests the batch and issues a CoA.",
+          "With no MRA with India, a full analysis is done in the EU on import.",
+          "The QP reviews records and all results, then certifies.",
+          "QC uses tests such as assay, dissolution and impurities, often by HPLC.",
+          "Import testing and QP review add weeks: book the slot and brief the QP before shipping."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "An Indian batch arrives with a clean Indian CoA.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What still has to happen before EU sale?",
+              "options": [
+                "Full EU testing on import and QP certification",
+                "A new stability study",
+                "Only a visual check by the wholesaler",
+                "Nothing; the Indian CoA is enough under GMP"
+              ],
+              "answer": 0,
+              "explanation": "No MRA with India."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What should have been done before the batch shipped?",
+              "options": [
+                "Print new artwork",
+                "Book the EU testing slot and brief the QP",
+                "File a variation to name the batch in the licence",
+                "Restart the DCP clock"
+              ],
+              "answer": 1,
+              "explanation": "Those weeks can be planned."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A colleague asks why release takes three weeks after arrival.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the main reason?",
+              "options": [
+                "The national agency checks every batch",
+                "The wholesaler re-tests each pallet",
+                "EU import testing plus QP review",
+                "The FMD code must be approved by the EMA"
+              ],
+              "answer": 2,
+              "explanation": "Both add weeks."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does HPLC typically measure in release?",
+              "options": [
+                "Serial number validity",
+                "Carton print quality",
+                "Tablet hardness at the press",
+                "Assay and impurities"
+              ],
+              "answer": 3,
+              "explanation": "A standard chemical analysis technique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl5-l06",
+      "level": "lesson",
+      "covers": [
+        "gl5-l06-supply-planning"
+      ],
+      "summary": {
+        "title": "Supply planning",
+        "points": [
+          "API order to packs at the wholesaler can take months: plan backwards from launch.",
+          "Forecast (often binding at first), MOQ (often a full batch), lead time, safety stock.",
+          "Subtract each lead time: distribution, QP, testing, shipping, packaging, manufacture, API.",
+          "That gives the latest order date; add buffers where delays are common.",
+          "Supply, not approval, often sets the real launch date."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Launch is 1 June. The chain takes about 26 weeks.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "When must the order go in, at the latest?",
+              "options": [
+                "Early March, three months ahead",
+                "Mid-January, with a buffer",
+                "Around early December of the previous year",
+                "Early April, once the licence is granted"
+              ],
+              "answer": 2,
+              "explanation": "26 weeks back from 1 June."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A small country needs 8,000 packs; the MOQ is one batch of 50,000. What's the issue?",
+              "options": [
+                "None; MOQs apply only to the API",
+                "None: the agency lets you split one batch across any artworks",
+                "The QP can split the batch freely across artworks",
+                "You must order far more than needed, or share the batch"
+              ],
+              "answer": 3,
+              "explanation": "MOQ is often one full batch."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your plan shows approval in March and launch in April.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's missing?",
+              "options": [
+                "The repeat-use procedure",
+                "A latest order date per country",
+                "The renewal date and the sunset-clause date for each country",
+                "The PSUR schedule"
+              ],
+              "answer": 1,
+              "explanation": "Supply often sets the real date."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A tender may suddenly need double volumes. Which buffer helps?",
+              "options": [
+                "Safety stock",
+                "A larger biobatch",
+                "A longer forecast horizon",
+                "A shorter lead time"
+              ],
+              "answer": 0,
+              "explanation": "A buffer against delays, tenders or spikes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl5-l07",
+      "level": "lesson",
+      "covers": [
+        "gl5-l07-tech-transfer"
+      ],
+      "summary": {
+        "title": "Technology transfer",
+        "points": [
+          "Moving manufacture or testing to another site: capacity, cost or GMP problems.",
+          "Steps: hand over process and methods, trial batches, validation and stability, variation, GMP status.",
+          "Owners: the manufacturer's technical and quality teams, with RA for the variation.",
+          "Takes months to years; slips on failed trials, stability, questions or inspection.",
+          "Never plan launch supply from a site not yet in the licence; launch first, transfer later."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A cheaper site is ready but not yet in the licence. Launch is in five months.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Can it supply the launch?",
+              "options": [
+                "Yes, if trial batches pass",
+                "Yes, if the QP agrees",
+                "Yes, because the process is identical",
+                "No, not until added by an approved variation with GMP confirmed"
+              ],
+              "answer": 3,
+              "explanation": "Never plan launch supply from an unregistered site."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does the PM recommend?",
+              "options": [
+                "Use the new site for launch and skip its stability data",
+                "Launch from the registered site, transfer later",
+                "Delay the launch until the new site is in",
+                "Run both sites for launch stock"
+              ],
+              "answer": 1,
+              "explanation": "A transfer adds a second critical path."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The current site has GMP problems, so a transfer starts mid-project.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the planning effect?",
+              "options": [
+                "No effect if the new site is in the EU",
+                "The DCP restarts",
+                "A second critical path with its own variation and validation",
+                "Only the artwork changes"
+              ],
+              "answer": 2,
+              "explanation": "Months to years."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why keep the old site running until the switch?",
+              "options": [
+                "So supply continues until the new site is approved",
+                "Because the variation requires both",
+                "So the QP can compare old and new batches side by side before approving",
+                "Because GMP forbids closing a site"
+              ],
+              "answer": 0,
+              "explanation": "PM watch-point."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl5-b1",
+      "level": "block",
+      "covers": [
+        "gl5-l01-api",
+        "gl5-l02-manufacturing",
+        "gl5-l03-batch-types",
+        "gl5-l04-packaging"
+      ],
+      "summary": {
+        "title": "From API to finished pack",
+        "points": [
+          "API data come through an ASMF (with letter of access) or a CEP.",
+          "Tablets: granulation, compression, coating; in-process controls catch issues.",
+          "Biobatch, stability, validation and commercial batches have different jobs.",
+          "Packaging adds coding, serialisation and a country-specific pack.",
+          "Artwork approval and printed material lead to the packaging runs."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You're preparing launch supply for four countries from validation batches. The API has an ASMF.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which three items do you put early on the plan?",
+              "options": [
+                "The paediatric plan, the BE study and the PSUR",
+                "The renewal date and the sunset clock",
+                "Only the GMP certificate",
+                "Letter of access, validation batch dates, printed material per country"
+              ],
+              "answer": 3,
+              "explanation": "API documentation, batches, packaging."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How many packaging runs do you plan?",
+              "options": [
+                "About four, one per country",
+                "One",
+                "Eight, two per country",
+                "Two, one per language family"
+              ],
+              "answer": 0,
+              "explanation": "Country-specific packs."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain why validation batches often drive the launch date.",
+              "modelAnswer": "They're commercial-scale batches that prove the process and are often the first launch stock, so the launch can't happen before they're made, tested and QP-released."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The API maker updates its manufacturing route without telling you.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which rule was likely breached?",
+              "options": [
+                "The biobatch size rule",
+                "The letter of access",
+                "Timely change notification",
+                "Line clearance between packaging runs at the plant"
+              ],
+              "answer": 2,
+              "explanation": "API makers must notify changes in time."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What could follow for your licence?",
+              "options": [
+                "A new BE study automatically",
+                "A variation, and possibly a supply block until approved",
+                "Only an artwork change",
+                "Nothing, if the API meets the Ph. Eur."
+              ],
+              "answer": 1,
+              "explanation": "Registered details changed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl5-b2",
+      "level": "block",
+      "covers": [
+        "gl5-l05-release",
+        "gl5-l06-supply-planning",
+        "gl5-l07-tech-transfer",
+        "gl5-l08-recap"
+      ],
+      "summary": {
+        "title": "Release, supply and moving sites",
+        "points": [
+          "EU import testing and QP certification add weeks after the batch leaves India.",
+          "Plan supply backwards from launch: lead times, MOQ, forecast, safety stock.",
+          "The latest order date per country belongs on the plan.",
+          "Technology transfer needs validation, stability, a variation and GMP status.",
+          "Launch from the registered site; transfer afterwards."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Launch is planned for 1 September. Manufacture plus packaging takes 10 weeks, shipping 4, EU testing and QP 3, distribution 1, and the API 8.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the latest order date?",
+              "options": [
+                "Around 1 August",
+                "Around mid-April, allowing for the API in parallel",
+                "Around early March",
+                "Around mid-June"
+              ],
+              "answer": 2,
+              "explanation": "26 weeks back from 1 September."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What would you add?",
+              "options": [
+                "A new biobatch",
+                "A buffer where the chain has a history of delays",
+                "Nothing; the sum is exact",
+                "A shorter API lead time, by asking the supplier to hurry"
+              ],
+              "answer": 1,
+              "explanation": "Planning practice."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Why does supply, not approval, often set the real launch date?",
+              "modelAnswer": "Because the chain from API order to packs at the wholesaler takes months, with testing and QP release at the end. If the order goes in late, stock won't exist on the approval date."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Mid-project, the manufacturer proposes moving to a new site to save costs.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's your advice?",
+              "options": [
+                "Ask the QP to certify batches from both sites",
+                "Switch now to save cost on launch stock",
+                "Pause the DCP until the new site is added to the dossier",
+                "Launch from the registered site; transfer later"
+              ],
+              "answer": 3,
+              "explanation": "A transfer adds a second critical path."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's needed before the new site can supply?",
+              "options": [
+                "Validated process, stability data, approved variation, GMP status",
+                "Only trial batches",
+                "Only an FTO update",
+                "Only a quality agreement"
+              ],
+              "answer": 0,
+              "explanation": "All of these."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-gl5-m",
+      "level": "module",
+      "covers": [
+        "gl5-l01-api",
+        "gl5-l02-manufacturing",
+        "gl5-l03-batch-types",
+        "gl5-l04-packaging",
+        "gl5-l05-release",
+        "gl5-l06-supply-planning",
+        "gl5-l07-tech-transfer",
+        "gl5-l08-recap"
+      ],
+      "summary": {
+        "title": "Manufacturing and supply: the whole picture",
+        "points": [
+          "API data come via ASMF or CEP; non-EU APIs need a written confirmation.",
+          "Tablets are made in steps with in-process controls; plant slots often limit timing.",
+          "Biobatch, stability, validation and commercial batches have distinct roles.",
+          "Packaging is country-specific and needs approved artwork and printed material first.",
+          "EU import testing and QP certification add weeks; plan supply backwards.",
+          "Transfers need a variation; never launch from an unregistered site."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Approval is expected in March; marketing wants launch on 1 May in three countries.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the first supply question you ask?",
+              "options": [
+                "Has the biobatch been made, and has the BE study been reported?",
+                "Has the paediatric plan been agreed?",
+                "Has the order gone in, given the total lead time?",
+                "Has the PSUR been submitted?"
+              ],
+              "answer": 2,
+              "explanation": "Supply often sets the date."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Packs are ready in India in mid-April. Is 1 May realistic?",
+              "options": [
+                "Tight: shipping, EU testing and QP review add weeks",
+                "No: a new DCP is needed",
+                "Yes: the Indian CoA allows immediate sale",
+                "Yes: QP review takes one day"
+              ],
+              "answer": 0,
+              "explanation": "No MRA with India."
+            },
+            {
+              "type": "mcq",
+              "prompt": "One country's artwork was approved late. What's the knock-on effect?",
+              "options": [
+                "The API order is cancelled",
+                "Its printed material and packaging run move back",
+                "Nothing; packaging can start without approved artwork",
+                "All countries are delayed equally"
+              ],
+              "answer": 1,
+              "explanation": "Artwork, printed material, packaging runs."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A CEP for the API has expired, and the manufacturer proposes a site transfer.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the expired CEP mean?",
+              "options": [
+                "Nothing; CEPs are only needed for filing",
+                "The ASMF automatically replaces it",
+                "A new BE study with API from a certified source",
+                "A dossier gap or variation, and supply may be blocked"
+              ],
+              "answer": 3,
+              "explanation": "Outdated API documentation blocks."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the right sequence for the transfer?",
+              "options": [
+                "Validation and stability, variation approved, then switch",
+                "File the variation after first sale",
+                "Switch, then file the variation later",
+                "Switch if the trial batches pass"
+              ],
+              "answer": 0,
+              "explanation": "Keep the old site running until approved."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Describe in two sentences what has to come together on launch day for supply.",
+              "modelAnswer": "The API documented and supplied, batches made and validated, packs in each country's approved artwork, and stock tested in the EU, QP-certified and at the wholesaler. Any one late link moves the launch."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,957 @@
+{
+  "moduleId": "tr-m5-programme",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "tr5-b1",
+      "title": "Dials, effort, volume, frequency",
+      "lessons": [
+        "tr5-l01-variables",
+        "tr5-l02-effort",
+        "tr5-l03-volume",
+        "tr5-l04-frequency"
+      ]
+    },
+    {
+      "id": "tr5-b2",
+      "title": "Building the session and the week",
+      "lessons": [
+        "tr5-l05-session",
+        "tr5-l06-time-savers",
+        "tr5-l07-order-rest",
+        "tr5-l08-recap"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-tr5-l01",
+      "level": "lesson",
+      "covers": [
+        "tr5-l01-variables"
+      ],
+      "summary": {
+        "title": "The programme variables",
+        "points": [
+          "Seven dials: exercise, sets, reps, load, rest, tempo, frequency.",
+          "The key summary is hard sets per muscle group per week: your volume.",
+          "Hard sets end roughly 0–3 reps from failure.",
+          "Change one dial at a time and give it 3–4 weeks."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You decide to change your programme after a dull month.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which change turns one dial?",
+              "options": [
+                "Training at another time of day",
+                "New exercises, more sets and shorter rest, all at once to shock the body",
+                "A completely different programme from a magazine",
+                "Same plan, 4 sets of squats instead of 3"
+              ],
+              "answer": 3,
+              "explanation": "Then you can tell what helped."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which set counts as a hard set?",
+              "options": [
+                "10 reps with about 2 left in reserve",
+                "A warm-up set of 10 with about 8 reps left in reserve",
+                "Any set, whatever the effort",
+                "A set stopped halfway because the phone rang"
+              ],
+              "answer": 0,
+              "explanation": "Roughly 0–3 reps in reserve."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend counts 'total kilos lifted' each week.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the simpler, useful measure?",
+              "options": [
+                "Number of exercises",
+                "Minutes in the gym",
+                "Hard sets per muscle group per week",
+                "Calories burned during each session according to a watch"
+              ],
+              "answer": 2,
+              "explanation": "It's what the volume research counts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How long should a dial change run before you judge it?",
+              "options": [
+                "Until you feel sore",
+                "About 3–4 weeks",
+                "One session, so you can switch quickly if it feels wrong",
+                "A full year"
+              ],
+              "answer": 1,
+              "explanation": "Adaptation takes weeks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr5-l02",
+      "level": "lesson",
+      "covers": [
+        "tr5-l02-effort"
+      ],
+      "summary": {
+        "title": "Effort: RPE, RIR, failure",
+        "points": [
+          "RIR: reps left. RPE 10 = 0 left, 9 = 1, 8 = 2.",
+          "Usual working zone: 1–3 reps in reserve (RPE 7–9).",
+          "Failure gave only a trivial growth advantage overall (2023 meta-analysis), and costs more fatigue.",
+          "People underestimate reps left by about one.",
+          "Calibrate now and then with a set to failure on a safe exercise."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You finish 12 push-ups and feel you had 'about 3 left'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What RPE is that?",
+              "options": [
+                "About RPE 7",
+                "RPE doesn't apply to bodyweight",
+                "About RPE 10, since push-ups always feel hard by the end",
+                "About RPE 3"
+              ],
+              "answer": 0,
+              "explanation": "3 left is RPE 7."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's likely about your estimate?",
+              "options": [
+                "You had exactly 3 left, since estimates are always precise",
+                "You were actually at failure",
+                "You had 10 left",
+                "You may have had a bit more than you think"
+              ],
+              "answer": 3,
+              "explanation": "Most people underpredict by about one rep."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend takes every set of squats to total failure.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the evidence say?",
+              "options": [
+                "Failure on every set is required for any muscle growth to happen",
+                "Failure is dangerous on push-ups",
+                "Failure isn't needed and adds fatigue",
+                "Failure stops all strength gains"
+              ],
+              "answer": 2,
+              "explanation": "A trivial advantage overall; 1–3 RIR is enough."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where is going to failure safest for calibration?",
+              "options": [
+                "Heavy goblet squats with the heaviest bell you own",
+                "Push-ups or other safe bodyweight moves",
+                "Overhead presses with heavy dumbbells",
+                "Swings"
+              ],
+              "answer": 1,
+              "explanation": "Low risk if the last rep fails."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr5-l03",
+      "level": "lesson",
+      "covers": [
+        "tr5-l03-volume"
+      ],
+      "summary": {
+        "title": "Volume: sets per week",
+        "points": [
+          "Muscle growth rises with weekly sets, with diminishing returns (2026 meta-regression).",
+          "About 4 weekly sets already made a measurable difference; strength levelled off after about 3–4.",
+          "ACSM 2026: about 10 sets per muscle group per week for growth.",
+          "Count helpers as half a set (push-ups: chest 1, triceps 0.5).",
+          "Start at 6–10, rise towards 10–15 if recovery is good and progress stalls."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Each week: 3 sets of push-ups and 3 of floor press.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Sets for the chest?",
+              "options": [
+                "0",
+                "6",
+                "12",
+                "3, since only push-ups count for the chest"
+              ],
+              "answer": 1,
+              "explanation": "Both are chest exercises."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Sets for the triceps, counting helpers as half?",
+              "options": [
+                "3",
+                "12",
+                "6, since every pushing set counts fully for the triceps",
+                "0"
+              ],
+              "answer": 0,
+              "explanation": "Half of 6."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You want maximal strength more than size this block.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the volume evidence suggest?",
+              "options": [
+                "Strength needs more volume than size",
+                "Volume has no effect on strength at all",
+                "Strength needs at least 25 weekly sets per muscle to improve",
+                "Strength levels off at fairly few weekly sets"
+              ],
+              "answer": 3,
+              "explanation": "Gains beyond 3–4 sets were small."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When should you add sets?",
+              "options": [
+                "Every week, regardless of how you're recovering",
+                "Only on rest days",
+                "When progress stalls and recovery is good",
+                "Never"
+              ],
+              "answer": 2,
+              "explanation": "More helps, with diminishing returns."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr5-l04",
+      "level": "lesson",
+      "covers": [
+        "tr5-l04-frequency"
+      ],
+      "summary": {
+        "title": "Frequency: full-body A/B",
+        "points": [
+          "Train each major muscle group at least twice a week (ACSM 2026).",
+          "With equal weekly sets, more sessions barely change growth but help strength.",
+          "Full-body A/B gives 2–3 exposures per muscle with 2–3 sessions.",
+          "Body-part splits train each muscle only once at this frequency.",
+          "Place sessions on non-sport days; keep hard legs away from match eves."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You train 3 times a week.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which plan gives each muscle 2–3 exposures?",
+              "options": [
+                "Legs three times, upper body never",
+                "Arms on all three days",
+                "Chest Monday, back Wednesday, legs Friday",
+                "Full-body A, B, A"
+              ],
+              "answer": 3,
+              "explanation": "Every session trains the whole body."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You miss Wednesday. What's the impact with A/B?",
+              "options": [
+                "None, because frequency never matters",
+                "Small: nothing goes untrained for a week",
+                "You must repeat the whole week",
+                "Large: the missed day's muscles go untrained for a whole week"
+              ],
+              "answer": 1,
+              "explanation": "Each muscle still gets other sessions."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "With weekly sets equal, one person trains legs once and another twice.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the evidence suggest about muscle growth?",
+              "options": [
+                "Little difference",
+                "The once-a-week person grows more",
+                "Neither grows",
+                "The twice-a-week person always grows twice as much muscle"
+              ],
+              "answer": 0,
+              "explanation": "Volume matters more than how it's split."
+            },
+            {
+              "type": "mcq",
+              "prompt": "And about strength?",
+              "options": [
+                "No difference ever",
+                "Once a week is better for strength because of more recovery",
+                "Twice a week tends to help",
+                "Strength drops with frequency"
+              ],
+              "answer": 2,
+              "explanation": "1 → 2 sessions gave a clear gain."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr5-l05",
+      "level": "lesson",
+      "covers": [
+        "tr5-l05-session"
+      ],
+      "summary": {
+        "title": "A 30-minute session",
+        "points": [
+          "Warm-up 3–5 min, two supersets of compound lifts, accessories, optional finisher.",
+          "Warm up specifically: a few dynamic moves, then lighter sets of the first lift.",
+          "Main lifts: 3 sets of 8–15 at 1–3 reps in reserve.",
+          "About 60–90 s rest after each pair.",
+          "Trim accessories first when time is short."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You have 22 minutes today instead of 30.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you cut?",
+              "options": [
+                "Everything; skip the session",
+                "The two main supersets, keeping the carries and core work",
+                "The warm-up sets of the first lift",
+                "Accessories and finisher"
+              ],
+              "answer": 3,
+              "explanation": "Protect the compound lifts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How do you warm up efficiently?",
+              "options": [
+                "Twenty minutes of jogging before every strength session",
+                "No warm-up at all",
+                "A few dynamic moves, then lighter sets of the first exercise",
+                "Static stretching for 10 minutes"
+              ],
+              "answer": 2,
+              "explanation": "Specific warm-ups are enough."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your current session is 30 minutes of random exercises.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the most useful change?",
+              "options": [
+                "More isolation work",
+                "The four-part shape with two compound supersets",
+                "Training to failure",
+                "Adding a longer cardio warm-up at the start"
+              ],
+              "answer": 1,
+              "explanation": "Structure makes it repeatable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where does a carry fit?",
+              "options": [
+                "Accessories, after the supersets",
+                "Nowhere",
+                "In the warm-up",
+                "First, before the main lifts, to warm up the grip"
+              ],
+              "answer": 0,
+              "explanation": "Simple finishing work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr5-l06",
+      "level": "lesson",
+      "covers": [
+        "tr5-l06-time-savers"
+      ],
+      "summary": {
+        "title": "Supersets and circuits",
+        "points": [
+          "Supersets alternate two exercises for different muscles; rest after the pair.",
+          "They roughly halve time for the same sets (2021 review); better for muscle than max strength.",
+          "Circuits: 3+ exercises in a row. EMOM: a set each minute. Density: max good sets in a fixed time.",
+          "Pair lower with upper, or push with pull; avoid two grip-heavy moves."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You build a superset.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which pair works best?",
+              "options": [
+                "Push-up with floor press",
+                "Two hinge exercises",
+                "One-arm row with farmer's carry, both demanding grip",
+                "Goblet squat with push-up"
+              ],
+              "answer": 3,
+              "explanation": "Non-competing muscles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You do 5 sets of swings starting each minute. What format is that?",
+              "options": [
+                "A density block with as many sets as possible",
+                "EMOM",
+                "A deload",
+                "A straight-set superset"
+              ],
+              "answer": 1,
+              "explanation": "Every minute on the minute."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend worries supersets reduce quality.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "When is that concern valid?",
+              "options": [
+                "Only for women",
+                "Never: quality doesn't matter",
+                "When sets stop being hard or technique slips",
+                "Always: supersets never build muscle as well as straight sets"
+              ],
+              "answer": 2,
+              "explanation": "Time-savers work only if quality holds."
+            },
+            {
+              "type": "mcq",
+              "prompt": "For which goal are supersets less ideal?",
+              "options": [
+                "Maximal strength",
+                "Muscle growth, which needs full rest between all sets",
+                "Fat loss",
+                "Saving time"
+              ],
+              "answer": 0,
+              "explanation": "The review favoured them for hypertrophy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr5-l07",
+      "level": "lesson",
+      "covers": [
+        "tr5-l07-order-rest"
+      ],
+      "summary": {
+        "title": "Order and rest",
+        "points": [
+          "Strength improved most on the exercise done first; growth didn't depend on order.",
+          "Put your priority lift first.",
+          "Rest > 60 s may help growth slightly; little extra beyond ~90 s.",
+          "1–2 min before repeating a big lift; 60–90 s after a superset pair.",
+          "In supersets, the other exercise is part of the rest."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "This block you most want a stronger split squat.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Where does it go?",
+              "options": [
+                "Last, after the carries, so you're warm",
+                "First in the session",
+                "Anywhere; order never matters for anything",
+                "Only in the warm-up"
+              ],
+              "answer": 1,
+              "explanation": "Strength improved most on the first exercise."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How long do you rest before the next split-squat set, with no superset?",
+              "options": [
+                "About 10 minutes",
+                "No rest",
+                "About 10 seconds to keep the heart rate up",
+                "About 1–2 minutes"
+              ],
+              "answer": 3,
+              "explanation": "Big lifts need enough rest to stay hard."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend rests 30 seconds between all sets to 'burn more fat'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the 2024 meta-analysis suggest?",
+              "options": [
+                "Rest length has no possible effect on anything",
+                "Shorter rest always builds more muscle",
+                "Resting over 60 s may help growth slightly",
+                "Rest over 5 minutes is needed"
+              ],
+              "answer": 2,
+              "explanation": "Little extra beyond about 90 s."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Did exercise order affect muscle growth?",
+              "options": [
+                "No",
+                "Yes, a lot: the first exercise always grows the most",
+                "Only in supersets",
+                "Only for arms"
+              ],
+              "answer": 0,
+              "explanation": "Order mattered for strength, not growth."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr5-l08",
+      "level": "lesson",
+      "covers": [
+        "tr5-l08-recap"
+      ],
+      "summary": {
+        "title": "Build your week",
+        "points": [
+          "2–3 full-body A/B sessions on non-sport days.",
+          "About 6–10 hard sets per big muscle group a week.",
+          "1–3 reps in reserve; supersets; priority lift first; 60–90 s after pairs.",
+          "Use the programme builder; run the plan 4–6 weeks while logging."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You use the programme builder with no bands or bar.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does it do about pulling?",
+              "options": [
+                "Adds more push-ups",
+                "Doubles up on rows and suggests bands",
+                "Adds pull-ups anyway, since every programme needs them",
+                "Drops pulling entirely"
+              ],
+              "answer": 1,
+              "explanation": "Vertical pulling needs a band or bar."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How long do you run the plan before judging it?",
+              "options": [
+                "Until you're sore",
+                "One week, then switch if it feels hard",
+                "4–6 weeks",
+                "Six months without looking at the log"
+              ],
+              "answer": 2,
+              "explanation": "And log every session."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Two weeks in, the plan feels hard and results aren't visible yet.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the right call?",
+              "options": [
+                "Switch to a new programme you saw online",
+                "Train to failure on everything",
+                "Add three new exercises",
+                "Keep going and log"
+              ],
+              "answer": 3,
+              "explanation": "Judge after 4–6 weeks."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which plan best fits Module 5?",
+              "options": [
+                "Full-body A/B 3×/week, 8–10 hard sets per big muscle, 1–3 RIR",
+                "A random workout every day",
+                "Body-part split, 20 sets each to failure, once a week",
+                "One long session on Sunday"
+              ],
+              "answer": 0,
+              "explanation": "All the dials as set in this module."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr5-b1",
+      "level": "block",
+      "covers": [
+        "tr5-l01-variables",
+        "tr5-l02-effort",
+        "tr5-l03-volume",
+        "tr5-l04-frequency"
+      ],
+      "summary": {
+        "title": "Dials, effort, volume, frequency",
+        "points": [
+          "Seven dials; hard sets per muscle per week is the key number.",
+          "Hard sets: 1–3 reps in reserve; failure isn't needed.",
+          "Volume: start 6–10 per big muscle a week; more helps with diminishing returns.",
+          "Each muscle at least twice a week: full-body A/B.",
+          "Change one dial at a time."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You plan 3 full-body sessions with 3 squat sets each.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Weekly hard sets for the legs?",
+              "options": [
+                "1",
+                "27",
+                "3, since only one session per week counts for each muscle",
+                "9"
+              ],
+              "answer": 3,
+              "explanation": "3 sessions × 3 sets."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Is that a sensible start?",
+              "options": [
+                "No, it's far too much for anyone starting out",
+                "Yes, within about 6–10",
+                "No, beginners need at least 25",
+                "Only for strength"
+              ],
+              "answer": 1,
+              "explanation": "Rise towards 10–15 later if needed."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain why full-body A/B suits 2–3 sessions a week.",
+              "modelAnswer": "Each session trains every pattern or nearly so, so each big muscle group gets two or three exposures a week, as recommended. A body-part split would train each muscle only once at this frequency, and a missed session would leave a muscle untrained for a week."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend trains each muscle once a week, every set to failure.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What two changes does Module 5 suggest?",
+              "options": [
+                "Train each muscle at least twice a week; stop 1–3 reps short",
+                "Only change the exercises",
+                "Train each muscle once a month; go past failure with drop sets",
+                "Add cardio"
+              ],
+              "answer": 0,
+              "explanation": "Frequency and effort."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which is likely to improve more with more frequency at equal volume?",
+              "options": [
+                "Nothing",
+                "Flexibility",
+                "Strength",
+                "Muscle size, which depends mainly on how often you train"
+              ],
+              "answer": 2,
+              "explanation": "1 → 2 sessions helped strength."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr5-b2",
+      "level": "block",
+      "covers": [
+        "tr5-l05-session",
+        "tr5-l06-time-savers",
+        "tr5-l07-order-rest",
+        "tr5-l08-recap"
+      ],
+      "summary": {
+        "title": "Building the session and the week",
+        "points": [
+          "30-minute shape: warm-up, two compound supersets, accessories, finisher.",
+          "Supersets halve time for the same sets; pair non-competing muscles.",
+          "Priority lift first; 60–90 s after pairs; 1–2 min for big lifts.",
+          "Run a plan 4–6 weeks while logging.",
+          "The programme builder applies these rules to your kit."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You write session B: Bulgarian split squat, floor press, swing, band pulldown, side plank.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do you pair them?",
+              "options": [
+                "Split squat + floor press; swing + pulldown; then side plank",
+                "All five in a row with no rest",
+                "Each exercise alone with 5 minutes rest",
+                "Split squat + swing; floor press + pulldown; side plank first"
+              ],
+              "answer": 0,
+              "explanation": "Lower with upper, then core."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which goes first?",
+              "options": [
+                "The swing, to raise heart rate",
+                "Any order",
+                "The priority lift, here the split squat",
+                "The side plank, to warm up the core"
+              ],
+              "answer": 2,
+              "explanation": "Strength improves most on what's first."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Describe your 30-minute session shape with times.",
+              "modelAnswer": "Warm-up 0–5 min (dynamic moves and ramp-up sets), superset 1 5–14 min (squat + push), superset 2 14–23 min (hinge + pull), accessories 23–28 min (carry or core), optional finisher to 30 min."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You're short on time three weeks in a row.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What protects progress best?",
+              "options": [
+                "Keep accessories and drop the supersets, since they're shorter",
+                "Add a finisher",
+                "Skip sessions entirely",
+                "Keep the two supersets, drop accessories"
+              ],
+              "answer": 3,
+              "explanation": "Compound lifts carry most of the training."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which format fits a 10-minute emergency session?",
+              "options": [
+                "Stretching only",
+                "One superset or an EMOM of swings and push-ups",
+                "A full A session done twice as fast with no rest",
+                "Nothing; it's pointless"
+              ],
+              "answer": 1,
+              "explanation": "Any training beats none."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr5-m",
+      "level": "module",
+      "covers": [
+        "tr5-l01-variables",
+        "tr5-l02-effort",
+        "tr5-l03-volume",
+        "tr5-l04-frequency",
+        "tr5-l05-session",
+        "tr5-l06-time-savers",
+        "tr5-l07-order-rest",
+        "tr5-l08-recap"
+      ],
+      "summary": {
+        "title": "Programme design: the whole picture",
+        "points": [
+          "Seven dials; volume is hard sets per muscle per week.",
+          "Effort 1–3 reps in reserve; failure isn't needed.",
+          "Start 6–10 sets per big muscle a week; more with diminishing returns.",
+          "Each muscle at least twice a week: full-body A/B on non-sport days.",
+          "30-minute sessions: two compound supersets, priority lift first, 60–90 s rest.",
+          "Run a plan 4–6 weeks, changing one dial at a time."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You design your own programme for the next 6 weeks.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which frequency and split?",
+              "options": [
+                "Full-body A/B, 2–3 times a week",
+                "A five-day body-part split of 30 minutes each, one muscle per day",
+                "Cardio only",
+                "One full-body session a fortnight"
+              ],
+              "answer": 0,
+              "explanation": "Fits 2–3 sessions of 30 minutes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which effort target?",
+              "options": [
+                "6–8 reps in reserve to stay fresh",
+                "1–3 reps in reserve",
+                "No target",
+                "Every set to total failure, with forced extra reps"
+              ],
+              "answer": 1,
+              "explanation": "Hard enough, without excess fatigue."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How many weekly sets for the legs to start?",
+              "options": [
+                "1",
+                "None; sport covers it",
+                "About 30, to make the most of every week",
+                "About 6–10"
+              ],
+              "answer": 3,
+              "explanation": "Then adjust from the log."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your old routine: the same 30-minute circuit, no log, mostly cardio.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the biggest structural change?",
+              "options": [
+                "A new circuit every day",
+                "More cardio intervals at the end of each circuit",
+                "Planned full-body A/B with counted hard sets",
+                "Longer warm-ups"
+              ],
+              "answer": 2,
+              "explanation": "Structure, volume and effort."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What keeps sessions within 30 minutes?",
+              "options": [
+                "Shorter warm-up sets only",
+                "Skipping the main lifts and doing only accessories",
+                "Training to failure",
+                "Supersets of non-competing exercises"
+              ],
+              "answer": 3,
+              "explanation": "About half the time for the same sets."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Summarise your programme in one line of dials.",
+              "modelAnswer": "Full-body A/B, 3 × 30 min a week on non-sport days; per session two supersets of compound lifts, 3 sets of 8–15 at 1–3 reps in reserve, 60–90 s rest after each pair, priority lift first; about 8–10 hard sets per big muscle a week."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

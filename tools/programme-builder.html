@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Programme builder</title>
+<style>
+:root{--bg:#FFFFFF;--card:#F7F4EE;--ink:#1B2430;--muted:#5B6672;--line:#E3E8EE;--a:#C2185B;--al:#FBE4EE;--b:#2F7FB3;--bl:#D6E9F5;--c:#2E8B57;--cl:#DDF2E5;--accent:#1F3A5F}
+@media (prefers-color-scheme:dark){:root{--bg:#14181E;--card:#1E242C;--ink:#E8ECF1;--muted:#9AA5B1;--line:#2C343E;--a:#F06292;--al:#3A1E2A;--b:#6FB1DE;--bl:#1B2C3A;--c:#5CC48A;--cl:#18301F;--accent:#8DB4E2}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 "Atkinson Hyperlegible",Arial,Helvetica,sans-serif;padding:16px}
+h1{font-size:20px;margin:0 0 4px} p.sub{color:var(--muted);margin:0 0 16px;font-size:13px}
+fieldset{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:0 0 12px;background:var(--card)}
+legend{font-weight:700;padding:0 6px}
+label{display:inline-flex;align-items:center;gap:6px;margin:4px 14px 4px 0}
+input[type=number]{width:72px;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
+select{padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
+button{background:var(--accent);color:var(--bg);border:0;border-radius:8px;padding:10px 18px;font:inherit;font-weight:700;cursor:pointer;width:100%}
+.sess{border-radius:10px;padding:12px 14px;margin:12px 0;border-left:6px solid}
+.sess h2{font-size:16px;margin:0 0 4px} .sess .meta{color:var(--muted);font-size:13px;margin-bottom:8px}
+.A{background:var(--al);border-color:var(--a)} .A h2{color:var(--a)}
+.B{background:var(--bl);border-color:var(--b)} .B h2{color:var(--b)}
+.C{background:var(--cl);border-color:var(--c)} .C h2{color:var(--c)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+td{padding:5px 4px;border-top:1px solid var(--line);vertical-align:top}
+td.tag{font-weight:700;width:34px} td.dose{white-space:nowrap;color:var(--muted)}
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin:12px 0}
+.day{border:1px solid var(--line);border-radius:8px;padding:6px 2px;text-align:center;font-size:12px}
+.day b{display:block;font-size:13px}
+.vol{background:var(--card);border-radius:10px;padding:10px 14px;margin-top:10px;font-size:14px}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px}
+</style>
+</head>
+<body>
+<h1>Programme builder</h1>
+<p class="sub">Builds full-body A/B sessions from the Module 4 menu. Rules of thumb from Modules 5–6, not a prescription.</p>
+
+<fieldset><legend>Time</legend>
+  <label>Sessions a week <select id="n"><option>2</option><option selected>3</option></select></label>
+  <label>Minutes <select id="mins"><option selected>30</option><option>45</option></select></label>
+</fieldset>
+
+<fieldset><legend>Kit</legend>
+  <label>Heaviest kettlebell (kg) <input id="kb" type="number" min="0" max="48" value="12"></label>
+  <label>Heaviest dumbbells (kg per hand) <input id="db" type="number" min="0" max="50" value="10"></label>
+  <label><input id="bands" type="checkbox"> Bands</label>
+  <label><input id="bar" type="checkbox"> Pull-up bar</label>
+  <label>Goblet squats at 12 kg (baseline) <input id="gs" type="number" min="0" max="60" value="20"></label>
+</fieldset>
+
+<fieldset><legend>Priority and sport</legend>
+  <label>Priority <select id="goal"><option value="fat">Fat loss, keep muscle</option><option value="muscle">Muscle</option><option value="strength">Strength</option></select></label>
+  <div id="sport">Sport days:
+    <label><input type="checkbox" value="0">Mon</label><label><input type="checkbox" value="1" checked>Tue</label><label><input type="checkbox" value="2">Wed</label><label><input type="checkbox" value="3">Thu</label><label><input type="checkbox" value="4">Fri</label><label><input type="checkbox" value="5" checked>Sat</label><label><input type="checkbox" value="6">Sun</label>
+  </div>
+</fieldset>
+
+<button id="go" type="button">Build my programme</button>
+<div id="out" aria-live="polite"></div>
+
+<script>
+(function(){
+  var $=function(id){return document.getElementById(id);};
+  var DAYS=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+  function num(id){var v=parseFloat($(id).value);return isNaN(v)?0:v;}
+  function build(){
+    var n=+$('n').value, mins=+$('mins').value, kb=num('kb'), db=num('db'), gs=num('gs');
+    var bands=$('bands').checked, bar=$('bar').checked, goal=$('goal').value;
+    var sport=[].slice.call(document.querySelectorAll('#sport input:checked')).map(function(x){return +x.value;});
+    var heavyLegs = kb>=16 || db>=16;
+    var legsOutgrown = gs>=20 && !heavyLegs;
+    // exercise choices from the Module 4 menu
+    var squatA = legsOutgrown ? 'Split squat (dumbbells)' : 'Goblet squat';
+    var squatB = legsOutgrown || gs>=25 ? 'Bulgarian split squat' : 'Reverse lunge';
+    var hingeA = heavyLegs ? 'Kettlebell Romanian deadlift' : 'Single-leg Romanian deadlift';
+    var hingeB = kb>=12 ? 'Kettlebell swing' : 'Single-leg Romanian deadlift';
+    var pushA = 'Push-up (version for 8–15 reps)';
+    var pushB = db>=6 ? 'Dumbbell floor press' : 'Push-up, slow lowering';
+    var pullA = 'One-arm row';
+    var pullB = bar ? 'Pull-up or assisted pull-up' : (bands ? 'Band pulldown' : 'Renegade row');
+    var vpush = 'Overhead press';
+    // dosing
+    var main = goal==='strength' && heavyLegs ? {r:'5–8', rir:'2'} : (goal==='strength' ? {r:'8–12', rir:'1–2'} : {r:'8–15', rir:'1–3'});
+    var sets = 3;
+    var swingDose = '3 × 15';
+    function ex(tag,name,dose){return {tag:tag,name:name,dose:dose};}
+    var o = goal==='strength' ? '8–12' : main.r; // only the first lift of each session uses the strength range
+    var A=[ex('A1',squatA,sets+' × '+main.r), ex('A2',pushA,sets+' × '+o), ex('B1',pullA,sets+' × '+o+' each'), ex('B2',hingeA,sets+' × '+o+(hingeA.indexOf('Single')===0?' each':''))];
+    var B=[ex('A1',squatB,sets+' × '+main.r+' each'), ex('A2',pushB,sets+' × '+o), ex('B1',hingeB, hingeB==='Kettlebell swing'?swingDose:sets+' × '+o+' each'), ex('B2',pullB,sets+' × '+o)];
+    A.push(ex('C','Suitcase carry','3 × 30 s each side')); B.push(ex('C','Side plank','3 × 20–40 s each side'));
+    if(mins===45){ A.splice(4,0,ex('C1',vpush,'3 × 8–12'), ex('C2','Step-up','3 × 8–12 each')); A[A.length-1].tag='D';
+                   B.splice(4,0,ex('C1','Overhead press, one arm','3 × 8–12 each'), ex('C2','Farmer’s carry','3 × 30–40 m')); B[B.length-1].tag='D'; }
+    // schedule: place n sessions on non-sport days, spaced
+    var free=[0,1,2,3,4,5,6].filter(function(d){return sport.indexOf(d)<0;});
+    var prefs = n===3 ? [[0,2,4],[0,3,5],[1,3,5],[0,2,5],[1,3,6],[0,3,6],[2,4,6]] : [[0,3],[1,4],[0,4],[2,5],[1,5],[3,6]];
+    var pick=null; for(var i=0;i<prefs.length;i++){ if(prefs[i].every(function(d){return free.indexOf(d)>=0;})){pick=prefs[i];break;} }
+    if(!pick) pick=free.slice(0,n);
+    var labels=['A','B','A']; var week=DAYS.map(function(d,i){
+      var s=pick.indexOf(i); if(s>=0) return '<div class="day"><b>'+d+'</b>Session '+labels[s]+'</div>';
+      if(sport.indexOf(i)>=0) return '<div class="day"><b>'+d+'</b>Sport</div>';
+      return '<div class="day"><b>'+d+'</b>Rest / walk</div>';});
+    var warn=''; pick.forEach(function(d){ if(sport.indexOf((d+1)%7)>=0) warn='Keep the hardest leg work out of the session before a match day.'; });
+    // weekly sets per pattern (main lifts only)
+    var aCount = n===3?2:1, bCount=1;
+    var vol={squat:sets*(aCount+bCount), hinge:sets*(aCount+bCount), push:sets*(aCount+bCount), pull:sets*(aCount+bCount)};
+    if(mins===45){vol.push+=3*(aCount+bCount); vol.squat+=3*aCount;}
+    function table(arr){return '<table>'+arr.map(function(e){return '<tr><td class="tag">'+e.tag+'</td><td>'+e.name+'</td><td class="dose">'+e.dose+'</td></tr>';}).join('')+'</table>';}
+    var html='<div class="week">'+week.join('')+'</div>';
+    html+='<div class="sess A"><h2>Session A</h2><div class="meta">Supersets: do A1 then A2, rest 60–90 s, repeat. Target '+main.rir+' reps in reserve.</div>'+table(A)+'</div>';
+    html+='<div class="sess B"><h2>Session B</h2><div class="meta">Same format. Week to week, use double progression (Module 6).</div>'+table(B)+'</div>';
+    html+='<div class="vol"><b>Weekly hard sets (main lifts):</b> squat/lunge '+vol.squat+' · hinge '+vol.hinge+' · push '+vol.push+' · pull '+vol.pull+'. Module 5 suggests about 6–10 per big muscle group to start.</div>';
+    var notes=[];
+    if(legsOutgrown) notes.push('Your baseline suggests 12 kg is light for squats, so the builder uses split squats. A heavier bell or dumbbells would allow goblet squats again (kit planner, Module 3).');
+    if(!bar && !bands) notes.push('No band or bar: vertical pulling is missing, so rows are doubled up. A band set fills the gap.');
+    if(warn) notes.push(warn);
+    notes.push('Warm up 3–5 minutes, then do lighter sets of A1. Run the plan 4–6 weeks before changing it; deload every 4–8 weeks.');
+    html+='<p class="note">'+notes.join('<br>')+'</p>';
+    $('out').innerHTML=html;
+  }
+  $('go').addEventListener('click',build);
+})();
+</script>
+</body>
+</html>

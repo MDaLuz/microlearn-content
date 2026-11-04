@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 21
+    "version": 22
   },
   "categories": {
     "Training": {
@@ -316,6 +316,32 @@
       "estimatedMinutes": 60,
       "accentColor": "#6B7280",
       "reviews": "reviews/tr-m4-exercises.reviews.json",
+      "reviewsVersion": 1
+    },
+    {
+      "id": "tr-m5-programme",
+      "title": "Training 5: Programme design",
+      "discipline": "Training",
+      "description": "Sets, reps, effort, frequency and the 30-minute session",
+      "file": "modules/tr-m5-programme.json",
+      "version": 1,
+      "lessonCount": 8,
+      "estimatedMinutes": 60,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/tr-m5-programme.reviews.json",
+      "reviewsVersion": 1
+    },
+    {
+      "id": "tr-m6-progression",
+      "title": "Training 6: Progression and scaling",
+      "discipline": "Training",
+      "description": "Double progression, big weight jumps, logs, deloads and plateaus",
+      "file": "modules/tr-m6-progression.json",
+      "version": 1,
+      "lessonCount": 7,
+      "estimatedMinutes": 50,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/tr-m6-progression.reviews.json",
       "reviewsVersion": 1
     }
   ]

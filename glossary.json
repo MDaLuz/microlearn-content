@@ -1,5 +1,5 @@
 {
-  "version": 20,
+  "version": 21,
   "updated": "2026-11-04",
   "entries": [
     {
@@ -6701,6 +6701,273 @@
       ],
       "modules": [
         "tr-m3-equipment"
+      ]
+    },
+    {
+      "id": "bracing",
+      "term": "Bracing",
+      "aliases": [
+        "brace",
+        "core bracing"
+      ],
+      "category": "training",
+      "short": "Tightening the muscles all around the midsection before a lift to keep the spine steady.",
+      "simpler": "Tensing your middle as if about to be nudged, before you lift.",
+      "example": {
+        "moduleId": "tr-m4-exercises",
+        "text": "Lesson 4.1: brace before every rep."
+      },
+      "notToConfuse": "Not sucking the belly in: bracing tenses all around the trunk.",
+      "related": [
+        "valsalva-manoeuvre",
+        "neutral-spine"
+      ],
+      "modules": [
+        "tr-m4-exercises"
+      ]
+    },
+    {
+      "id": "valsalva-manoeuvre",
+      "term": "Valsalva manoeuvre",
+      "aliases": [
+        "Valsalva",
+        "breath hold"
+      ],
+      "category": "training",
+      "short": "A brief breath hold during effort. It raises blood pressure briefly; avoid it with high blood pressure or heart conditions.",
+      "simpler": "Holding your breath while you push hard.",
+      "example": {
+        "moduleId": "tr-m4-exercises",
+        "text": "Lesson 4.1: breathe out through the hard part of most reps."
+      },
+      "notToConfuse": "Not the same as bracing: you can brace while still breathing.",
+      "related": [
+        "bracing"
+      ],
+      "modules": [
+        "tr-m4-exercises"
+      ]
+    },
+    {
+      "id": "neutral-spine",
+      "term": "Neutral spine",
+      "aliases": [
+        "flat back"
+      ],
+      "category": "training",
+      "short": "The spine held in its natural curves, neither rounded nor hard-arched, while lifting.",
+      "simpler": "A flat, natural back position.",
+      "example": {
+        "moduleId": "tr-m4-exercises",
+        "text": "Lesson 4.1: pick weights up with hips back and a neutral spine."
+      },
+      "notToConfuse": "Not a perfectly straight spine: the natural curves stay.",
+      "related": [
+        "bracing",
+        "hinge"
+      ],
+      "modules": [
+        "tr-m4-exercises"
+      ]
+    },
+    {
+      "id": "goblet-squat",
+      "term": "Goblet squat",
+      "aliases": [
+        "goblet"
+      ],
+      "category": "training",
+      "short": "A squat holding one kettlebell or dumbbell against the chest; elbows down between the knees, sitting between the heels.",
+      "simpler": "A squat hugging a weight at your chest.",
+      "example": {
+        "moduleId": "tr-m4-exercises",
+        "text": "Lesson 4.2: the main squat while the 12 kg bell is still a challenge."
+      },
+      "notToConfuse": "Not a sumo squat: feet about shoulder-width, not very wide.",
+      "related": [
+        "split-squat",
+        "knee-dominant"
+      ],
+      "modules": [
+        "tr-m4-exercises"
+      ]
+    },
+    {
+      "id": "split-squat",
+      "term": "Split squat",
+      "aliases": [
+        "static lunge",
+        "Bulgarian split squat"
+      ],
+      "category": "training",
+      "short": "A squat in a long staggered stance, lowering the back knee towards the floor; with the rear foot raised, it's a Bulgarian split squat.",
+      "simpler": "A lunge where your feet stay put.",
+      "example": {
+        "moduleId": "tr-m4-exercises",
+        "text": "Lesson 4.2: makes light dumbbells harder because one leg does most of the work."
+      },
+      "notToConfuse": "Not a reverse lunge, where you step back each rep.",
+      "related": [
+        "goblet-squat",
+        "unilateral"
+      ],
+      "modules": [
+        "tr-m4-exercises"
+      ]
+    },
+    {
+      "id": "romanian-deadlift",
+      "term": "Romanian deadlift (RDL)",
+      "aliases": [
+        "RDL",
+        "stiff-leg deadlift"
+      ],
+      "category": "training",
+      "short": "A hinge with soft knees, lowering the weights along the thighs until the hamstrings stretch, with a flat back.",
+      "simpler": "Bow forward with hips back until the back of your legs stretches.",
+      "example": {
+        "moduleId": "tr-m4-exercises",
+        "text": "Lesson 4.3: stop when the hamstrings are stretched, not as low as possible."
+      },
+      "notToConfuse": "Not a squat: the knees stay only slightly bent.",
+      "related": [
+        "hinge",
+        "kettlebell-swing"
+      ],
+      "modules": [
+        "tr-m4-exercises"
+      ]
+    },
+    {
+      "id": "kettlebell-swing",
+      "term": "Kettlebell swing",
+      "aliases": [
+        "swing",
+        "Russian swing"
+      ],
+      "category": "training",
+      "short": "An explosive hinge: hike the bell back, snap the hips forward and let it float to chest height.",
+      "simpler": "The hips launch the bell; the arms just guide it.",
+      "example": {
+        "moduleId": "tr-m4-exercises",
+        "text": "Lesson 4.3: if the shoulders burn, you're lifting with the arms."
+      },
+      "notToConfuse": "Not an overhead swing: the course swings to about chest height.",
+      "related": [
+        "hinge",
+        "romanian-deadlift"
+      ],
+      "modules": [
+        "tr-m4-exercises"
+      ]
+    },
+    {
+      "id": "floor-press",
+      "term": "Floor press",
+      "aliases": [
+        "dumbbell floor press"
+      ],
+      "category": "training",
+      "short": "A chest press lying on the floor; the floor stops the elbows, so no bench is needed.",
+      "simpler": "A bench press done lying on the floor.",
+      "example": {
+        "moduleId": "tr-m4-exercises",
+        "text": "Lesson 4.4: the main loaded push without a bench."
+      },
+      "notToConfuse": "Not a push-up: you press weights up while lying on your back.",
+      "related": [
+        "horizontal-vertical"
+      ],
+      "modules": [
+        "tr-m4-exercises"
+      ]
+    },
+    {
+      "id": "turkish-get-up",
+      "term": "Turkish get-up",
+      "aliases": [
+        "get-up",
+        "TGU"
+      ],
+      "category": "training",
+      "short": "A slow full-body skill: from lying to standing and back, with a kettlebell held locked overhead throughout.",
+      "simpler": "Standing up from the floor while holding a bell up high, one step at a time.",
+      "example": {
+        "moduleId": "tr-m4-exercises",
+        "text": "Lesson 4.7: practise it light, once a week, eyes on the bell."
+      },
+      "notToConfuse": "Not a sit-up: it's a sequence of positions, done slowly.",
+      "related": [
+        "rack-position"
+      ],
+      "modules": [
+        "tr-m4-exercises"
+      ]
+    },
+    {
+      "id": "rack-position",
+      "term": "Rack position",
+      "aliases": [
+        "kettlebell rack"
+      ],
+      "category": "training",
+      "short": "The kettlebell resting on the forearm against the chest, wrist straight, elbow tucked; the start of presses and the end of cleans.",
+      "simpler": "Holding the bell snug against your chest on your forearm.",
+      "example": {
+        "moduleId": "tr-m4-exercises",
+        "text": "Lesson 4.7: a clean ends in the rack position."
+      },
+      "notToConfuse": "Not holding the bell by the handle out in front.",
+      "related": [
+        "turkish-get-up"
+      ],
+      "modules": [
+        "tr-m4-exercises"
+      ]
+    },
+    {
+      "id": "farmers-carry",
+      "term": "Farmer's carry",
+      "aliases": [
+        "farmer's walk",
+        "suitcase carry"
+      ],
+      "category": "training",
+      "short": "Walking tall with a heavy weight in each hand; with one hand only, it's a suitcase carry.",
+      "simpler": "Walking with heavy shopping bags, done on purpose.",
+      "example": {
+        "moduleId": "tr-m4-exercises",
+        "text": "Lesson 4.6: a simple finisher that uses your heaviest kit."
+      },
+      "notToConfuse": "Not a cardio walk: the point is a heavy load and tall posture.",
+      "related": [
+        "bracing"
+      ],
+      "modules": [
+        "tr-m4-exercises"
+      ]
+    },
+    {
+      "id": "exercise-progression",
+      "term": "Progression and regression",
+      "aliases": [
+        "harder version",
+        "easier version",
+        "regression"
+      ],
+      "category": "training",
+      "short": "Making an exercise harder (progression) or easier (regression) while keeping the same movement pattern.",
+      "simpler": "Harder or easier versions of the same exercise.",
+      "example": {
+        "moduleId": "tr-m4-exercises",
+        "text": "Lesson 4.4: incline push-ups regress the push-up; feet-raised push-ups progress it."
+      },
+      "notToConfuse": "Not just adding weight: leverage, range, tempo and one side at a time also change difficulty.",
+      "related": [
+        "movement-pattern"
+      ],
+      "modules": [
+        "tr-m4-exercises"
       ]
     }
   ]

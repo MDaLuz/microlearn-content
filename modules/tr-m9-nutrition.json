@@ -1,0 +1,689 @@
+{
+  "schemaVersion": 6,
+  "id": "tr-m9-nutrition",
+  "title": "Training 9: Nutrition and recovery",
+  "discipline": "Training",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "tr9-l01-energy",
+      "title": "Energy balance and a sensible deficit",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The basic sum\n\nYour weight trend follows **energy balance**: the energy you eat against the energy you use. Your **maintenance calories** are the intake at which your weight stays stable. Eat below that and you lose weight; above it and you gain. Training changes what the weight is made of, muscle or fat, more than the sum itself."
+        },
+        {
+          "type": "text",
+          "markdown": "## Estimating maintenance\n\nA common estimate multiplies resting energy use (the Mifflin–St Jeor equation) by an activity factor. For most people the estimate is within about 10% of reality, but some are further off. Treat it as a starting point; your weight trend over two to three weeks tells you the real number."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m9/deficit-rate.svg",
+          "alt": "Three paces of weekly weight loss as a share of body weight: 0.5% gentle, 0.75% steady, 1% fast. Slower paces keep more muscle and strength; above about 1% muscle loss rises.",
+          "caption": "How fast to lose",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.278
+        },
+        {
+          "type": "text",
+          "markdown": "## How fast to lose\n\nA review of evidence for natural lifters suggests losing about 0.5–1% of body weight a week. In a study of athletes, the group losing about 0.7% a week gained lean mass and strength, while the group losing about 1.4% a week did not gain lean mass.\n\nFor an 80 kg person, 0.5–1% is 0.4–0.8 kg a week: roughly a 400–900 kcal daily deficit. Most beginners do well starting at the gentle end, about 300–500 kcal a day."
+        },
+        {
+          "type": "text",
+          "markdown": "## Before you count anything\n\nIf counting food has caused problems for you in the past, or if you are pregnant, under 18 or managing a medical condition, skip the numbers and work with a doctor or registered dietitian. The tracking in Lesson 9.8 also works without calorie counting."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** estimate maintenance, aim for a gentle deficit of about 0.5–0.75% of body weight a week, and let your weekly weight trend, not the formula, set the final number."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr9-l01-energy-fc1",
+              "front": "Maintenance calories",
+              "back": "The daily intake at which your weight stays stable. Formulas estimate it within about 10%; your weight trend confirms it."
+            },
+            {
+              "id": "tr9-l01-energy-fc2",
+              "front": "Sensible rate of loss",
+              "back": "About 0.5–1% of body weight a week. Slower paces keep more muscle and strength."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr9-l01-energy-q1",
+              "stem": "You weigh 80 kg and want to keep as much muscle as possible while losing fat. Which weekly pace fits best?",
+              "options": [
+                "About 0.4–0.6 kg a week",
+                "About 1.5 kg a week",
+                "About 2 kg a week",
+                "It doesn't matter for muscle"
+              ],
+              "correctIndex": 0,
+              "explanation": "0.5–0.75% of 80 kg is 0.4–0.6 kg: the gentle-to-steady end."
+            },
+            {
+              "id": "tr9-l01-energy-q2",
+              "stem": "Your formula says 2,500 kcal maintenance, but after three weeks at 2,500 your weekly average weight is falling. What's true?",
+              "options": [
+                "The formula is exactly right",
+                "Your real maintenance is higher than the estimate",
+                "You must be gaining fat",
+                "Weight trends can't be used"
+              ],
+              "correctIndex": 1,
+              "explanation": "The trend is the real-world check: stable intake with falling weight means maintenance is higher."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Study** — Mifflin MD et al., A new predictive equation for resting energy expenditure in healthy individuals, Am J Clin Nutr 1990;51(2):241–247.\n2. **Review** — Helms ER, Aragon AA, Fitschen PJ, Evidence-based recommendations for natural bodybuilding contest preparation: nutrition and supplementation, J Int Soc Sports Nutr 2014;11:20.\n3. **Study** — Garthe I et al., Effect of two different weight-loss rates on body composition and strength and power-related performance in elite athletes, Int J Sport Nutr Exerc Metab 2011;21(2):97–104.\n4. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr9-l02-protein",
+      "title": "Protein: how much, when, from where",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## How much\n\nA 2018 meta-analysis of 49 trials found that extra protein added muscle during resistance training, and the benefit plateaued around 1.6 g per kg of body weight a day; some people may benefit up to about 2.2 g/kg. So a practical **protein target** is 1.6–2.2 g/kg a day. In a calorie deficit, aim for the upper half to help protect muscle."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m9/protein-plate.svg",
+          "alt": "Protein per typical portion: chicken 100 g ≈ 30 g, skyr 200 g ≈ 20 g, 3 eggs ≈ 18 g, tofu 150 g ≈ 20 g, lentils 150 g cooked ≈ 13 g, whey scoop ≈ 20–25 g.",
+          "caption": "Where the protein comes from",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.158
+        },
+        {
+          "type": "text",
+          "markdown": "## When\n\nTotal daily protein matters more than exact timing; a 2013 meta-analysis found timing made little difference once totals were matched. A simple pattern is three to four meals with about 0.4 g/kg each, for example 30–35 g per meal at 80 kg."
+        },
+        {
+          "type": "text",
+          "markdown": "## From where\n\nMeat, fish, eggs and dairy are dense in protein. Plant sources such as tofu, tempeh, lentils, beans and seitan work too; mix several over the day. Protein powder is simply food in a convenient form. Values in the picture are approximate and vary by product.\n\nPeople with kidney disease should agree protein intake with their doctor."
+        },
+        {
+          "type": "text",
+          "markdown": "## Try the estimator\n\nThe tool below gives ranges for maintenance calories, a target intake and protein. It shows ranges, not prescriptions, and the weekly check tells you how to adjust."
+        },
+        {
+          "type": "tool",
+          "src": "tools/protein-energy-estimator.html",
+          "title": "Protein and energy estimator",
+          "description": "Enter age, height, weight, activity and goal to see ranges for maintenance, a target intake and daily protein, with a weekly check rule.",
+          "buttonLabel": "Open the estimator",
+          "estimatedMinutes": 4
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** aim for 1.6–2.2 g of protein per kg a day, split over three or four meals of about 0.4 g/kg; in a deficit, stay in the upper half."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr9-l02-protein-fc1",
+              "front": "Daily protein target",
+              "back": "About 1.6–2.2 g per kg of body weight a day; the upper half in a calorie deficit."
+            },
+            {
+              "id": "tr9-l02-protein-fc2",
+              "front": "Protein per meal",
+              "back": "About 0.4 g/kg per meal over 3–4 meals (about 30–35 g at 80 kg). Totals matter more than timing."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr9-l02-protein-q1",
+              "stem": "You weigh 75 kg. What's a sensible daily protein range?",
+              "options": [
+                "About 50–60 g",
+                "About 120–165 g",
+                "About 300 g",
+                "As little as possible"
+              ],
+              "correctIndex": 1,
+              "explanation": "1.6–2.2 × 75 ≈ 120–165 g."
+            },
+            {
+              "id": "tr9-l02-protein-q2",
+              "stem": "What matters most for protein and muscle?",
+              "options": [
+                "Drinking a shake within 30 minutes",
+                "The total over the day",
+                "Eating protein only at night",
+                "Avoiding plant protein"
+              ],
+              "correctIndex": 1,
+              "explanation": "Timing matters little once daily totals are matched."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Meta-analysis** — Morton RW et al., A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength, Br J Sports Med 2018;52(6):376–384.\n2. **Position stand** — Jäger R et al., International Society of Sports Nutrition position stand: protein and exercise, J Int Soc Sports Nutr 2017;14:20.\n3. **Meta-analysis** — Schoenfeld BJ, Aragon AA, Krieger JW, The effect of protein timing on muscle strength and hypertrophy, J Int Soc Sports Nutr 2013;10:53.\n4. **Review** — Schoenfeld BJ, Aragon AA, How much protein can the body use in a single meal for muscle-building? J Int Soc Sports Nutr 2018;15:10.\n5. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr9-l03-carbs-fats",
+      "title": "Carbohydrates, fats and eating around training",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Carbohydrates fuel hard work\n\nCarbohydrates are the main fuel for hard efforts such as sprints in sport and hard sets. You don't need special fuelling for a 30-minute strength session: a normal meal one to three hours before is enough. For a 90-minute match, a carbohydrate-rich meal beforehand helps."
+        },
+        {
+          "type": "text",
+          "markdown": "## Fats are essential\n\nFats carry fat-soluble vitamins and support hormones. European reference intakes put fat at 20–35% of energy. In a deficit, cut a little from both carbohydrates and fats rather than removing one completely."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m9/training-plate.svg",
+          "alt": "A plate split into half vegetables, a quarter protein and a quarter starchy carbs, plus a timeline: meal 1–3 h before training, protein-rich meal within a few hours after.",
+          "caption": "A simple plate and timing",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.158
+        },
+        {
+          "type": "text",
+          "markdown": "## Eating around training\n\n- **Before:** a normal meal 1–3 hours earlier, or a small snack if it's been longer.\n- **After:** a protein-rich meal within a few hours. The 'anabolic window' is much wider than the 30 minutes often claimed.\n- **Every meal (practice):** half the plate vegetables or fruit, a quarter protein, a quarter starchy carbohydrate, plus some fat."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** eat normal mixed meals around training: carbs for hard sessions and sport, protein after, and no special timing rules for short strength sessions."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr9-l03-carbs-fats-fc1",
+              "front": "Carbohydrates and training",
+              "back": "The main fuel for hard efforts. A normal meal 1–3 h before is enough for a 30-minute session; more matters for long matches."
+            },
+            {
+              "id": "tr9-l03-carbs-fats-fc2",
+              "front": "Fat intake",
+              "back": "About 20–35% of energy (European reference intakes). Don't cut fat to near zero in a deficit."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr9-l03-carbs-fats-q1",
+              "stem": "You train for 30 minutes at 7 pm and had lunch at 1 pm. What's sensible?",
+              "options": [
+                "Nothing; never eat before training",
+                "A small snack an hour or two before",
+                "A large meal 10 minutes before",
+                "Only an energy drink"
+              ],
+              "correctIndex": 1,
+              "explanation": "After six hours, a small snack helps; no special products needed."
+            },
+            {
+              "id": "tr9-l03-carbs-fats-q2",
+              "stem": "How wide is the 'anabolic window' after training?",
+              "options": [
+                "Exactly 30 minutes",
+                "A few hours around the session",
+                "It closes immediately",
+                "24 hours before training"
+              ],
+              "correctIndex": 1,
+              "explanation": "A protein-rich meal within a few hours is fine."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Guideline** — EFSA Panel on Dietetic Products, Nutrition and Allergies, Scientific opinion on dietary reference values for fats, and for carbohydrates and dietary fibre, EFSA Journal 2010;8(3):1461 and 1462.\n2. **Meta-analysis** — Schoenfeld BJ, Aragon AA, Krieger JW, The effect of protein timing on muscle strength and hypertrophy, J Int Soc Sports Nutr 2013;10:53.\n3. **Practice** — training and coaching conventions; labelled as practice in the lesson.\n4. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr9-l04-fluids",
+      "title": "Hydration, alcohol and fibre",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Hydration\n\nFor most sessions, drinking to thirst is enough. Pale-yellow urine is a simple sign you're well hydrated. In long or hot sport, sports-medicine guidance is to avoid losing more than about 2% of body weight in sweat; weighing yourself before and after a long match shows your losses."
+        },
+        {
+          "type": "text",
+          "markdown": "## Alcohol\n\nIn a study of trained men, a large dose of alcohol (about 12 drinks) after training cut muscle protein building by about 24%, even when protein was eaten. Smaller amounts haven't been tested as well. Alcohol also adds 7 kcal per gram and disturbs sleep, which makes a deficit harder."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m9/fluids-fibre.svg",
+          "alt": "Three panels: drink to thirst with pale-yellow urine as a check; alcohol after training cut muscle building by about 24% in one study; fibre 25–29 g a day linked with better health.",
+          "caption": "Fluids, alcohol and fibre",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.412
+        },
+        {
+          "type": "text",
+          "markdown": "## Fibre\n\nA 2019 Lancet series found that eating 25–29 g of fibre a day was linked with lower rates of heart disease, type 2 diabetes and death compared with low intakes. Fibre also keeps you full in a deficit. Vegetables, fruit, beans, lentils, oats and wholegrains are the easy sources."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** drink to thirst, keep alcohol occasional and away from training days, and build meals around vegetables, beans and wholegrains for about 25–29 g of fibre a day."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr9-l04-fluids-fc1",
+              "front": "Hydration check",
+              "back": "Drink to thirst; pale-yellow urine. In long, hot sport, avoid losing more than about 2% of body weight."
+            },
+            {
+              "id": "tr9-l04-fluids-fc2",
+              "front": "Fibre target",
+              "back": "About 25–29 g a day, linked with lower heart disease, type 2 diabetes and mortality (2019 Lancet)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr9-l04-fluids-q1",
+              "stem": "What did the 2014 alcohol study find?",
+              "options": [
+                "Alcohol improved recovery",
+                "Muscle protein building fell by about 24% even with protein",
+                "No effect at any dose",
+                "Alcohol replaced protein"
+              ],
+              "correctIndex": 1,
+              "explanation": "A large dose after training reduced muscle building."
+            },
+            {
+              "id": "tr9-l04-fluids-q2",
+              "stem": "Which swap adds the most fibre?",
+              "options": [
+                "White bread to wholegrain bread",
+                "Chicken to fish",
+                "Water to sparkling water",
+                "Butter to oil"
+              ],
+              "correctIndex": 0,
+              "explanation": "Wholegrains, beans, vegetables and fruit add fibre."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Position stand** — American College of Sports Medicine, Sawka MN et al., Exercise and fluid replacement, Med Sci Sports Exerc 2007;39(2):377–390.\n2. **Study** — Parr EB et al., Alcohol ingestion impairs maximal post-exercise rates of myofibrillar protein synthesis following a single bout of concurrent training, PLoS One 2014;9(2):e88384.\n3. **Meta-analysis** — Reynolds A et al., Carbohydrate quality and human health: a series of systematic reviews and meta-analyses, Lancet 2019;393(10170):434–445.\n4. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr9-l05-supplements",
+      "title": "Supplements: what works and what doesn't",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Worth considering\n\n- **Creatine monohydrate:** the best-researched supplement for strength training. 3–5 g a day adds small extra gains in strength and lean mass; no loading phase is needed. Expect 1–2 kg of extra water weight at first.\n- **Caffeine:** 3–6 mg per kg about an hour before training can improve performance. Coffee works.\n- **Protein powder:** convenient food, not magic."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m9/supplement-tiers.svg",
+          "alt": "Three tiers: good evidence (creatine, caffeine, protein powder as food), only if low (vitamin D), not needed (fat burners, BCAAs with enough protein, testosterone boosters).",
+          "caption": "Supplement evidence tiers",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.278
+        },
+        {
+          "type": "text",
+          "markdown": "## Only if you need it\n\n**Vitamin D** helps if your levels are low, which is common in northern winters. A blood test or a talk with your doctor decides; it isn't a performance booster otherwise."
+        },
+        {
+          "type": "text",
+          "markdown": "## Not needed\n\nFat burners, testosterone boosters and BCAAs (if you already eat enough protein) add cost without clear benefit. Supplements can also be contaminated; if you buy any, choose products tested by an independent programme. Check with a doctor before supplements if you take medicines or have kidney disease."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** food, training and sleep come first. If you add anything, creatine monohydrate at 3–5 g a day and your usual coffee before training are the best-supported choices."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr9-l05-supplements-fc1",
+              "front": "Creatine monohydrate",
+              "back": "3–5 g a day; small extra gains in strength and lean mass. No loading needed; 1–2 kg water weight at first."
+            },
+            {
+              "id": "tr9-l05-supplements-fc2",
+              "front": "Caffeine dose",
+              "back": "About 3–6 mg/kg about an hour before training. Late doses can cost sleep."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr9-l05-supplements-q1",
+              "stem": "Which supplement has the strongest evidence for strength training?",
+              "options": [
+                "BCAAs",
+                "Creatine monohydrate",
+                "Fat burners",
+                "Testosterone boosters"
+              ],
+              "correctIndex": 1,
+              "explanation": "Creatine is the best-researched option."
+            },
+            {
+              "id": "tr9-l05-supplements-q2",
+              "stem": "After starting creatine, your weight rises by 1 kg in a week. What's most likely?",
+              "options": [
+                "You gained 1 kg of fat",
+                "Extra water stored in muscle",
+                "The scale is broken",
+                "You should stop eating protein"
+              ],
+              "correctIndex": 1,
+              "explanation": "Creatine draws water into muscle; account for it in your weight trend."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Position stand** — Kreider RB et al., International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine, J Int Soc Sports Nutr 2017;14:18.\n2. **Position stand** — Guest NS et al., International Society of Sports Nutrition position stand: caffeine and exercise performance, J Int Soc Sports Nutr 2021;18:1.\n3. **Position stand** — Jäger R et al., International Society of Sports Nutrition position stand: protein and exercise, J Int Soc Sports Nutr 2017;14:20.\n4. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr9-l06-sleep",
+      "title": "Sleep and stress: the recovery you can't buy",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## How much sleep\n\nSleep experts recommend 7–9 hours a night for adults. Muscle repair, hormone balance and appetite control all depend on it."
+        },
+        {
+          "type": "text",
+          "markdown": "## Sleep and fat loss\n\nIn a controlled study, adults on the same calorie deficit slept either 8.5 or 5.5 hours a night for 14 days. With 8.5 hours they lost 1.4 kg of fat and 1.5 kg of fat-free mass. With 5.5 hours they lost only 0.6 kg of fat and 2.4 kg of fat-free mass: much more of the loss came from muscle and other lean tissue."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m9/sleep-deficit.svg",
+          "alt": "Bars from a 14-day deficit study: with 8.5 h sleep, 1.4 kg fat and 1.5 kg fat-free mass lost; with 5.5 h sleep, 0.6 kg fat and 2.4 kg fat-free mass lost.",
+          "caption": "Short sleep, less fat lost",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.278
+        },
+        {
+          "type": "text",
+          "markdown": "## Habits that help\n\n- Keep regular sleep and wake times.\n- Stop caffeine well before bed: 400 mg taken even 6 hours before bed cut sleep by more than an hour in one study.\n- Keep the bedroom dark and cool.\n\n## Stress counts too\n\nWork stress, travel and family pressure use the same recovery budget. In heavy weeks, cut a set per exercise or take the deload from Module 6 early."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** protect 7–9 hours of sleep, especially in a deficit. On short-sleep or high-stress weeks, train lighter rather than skipping or grinding through."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr9-l06-sleep-fc1",
+              "front": "Sleep target",
+              "back": "7–9 hours a night for adults. Short sleep in a deficit shifts loss from fat towards lean mass."
+            },
+            {
+              "id": "tr9-l06-sleep-fc2",
+              "front": "Caffeine and sleep",
+              "back": "A large dose even 6 hours before bed cut sleep by over an hour in one study. Keep coffee to earlier in the day."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr9-l06-sleep-q1",
+              "stem": "In the 14-day deficit study, what happened with 5.5 hours of sleep?",
+              "options": [
+                "More fat was lost",
+                "Less fat and more fat-free mass were lost",
+                "No weight was lost",
+                "Muscle was gained"
+              ],
+              "correctIndex": 1,
+              "explanation": "0.6 kg fat and 2.4 kg fat-free mass, against 1.4 and 1.5 kg with 8.5 hours."
+            },
+            {
+              "id": "tr9-l06-sleep-q2",
+              "stem": "You've slept 5 hours for three nights during a heavy work week. What's the best training choice?",
+              "options": [
+                "Add extra sets to compensate",
+                "Train lighter, e.g. one fewer set per exercise",
+                "Test your one-rep max",
+                "Double cardio"
+              ],
+              "correctIndex": 1,
+              "explanation": "Stress uses the same recovery budget."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Guideline** — Hirshkowitz M et al., National Sleep Foundation's sleep time duration recommendations, Sleep Health 2015;1(1):40–43.\n2. **Study** — Nedeltcheva AV et al., Insufficient sleep undermines dietary efforts to reduce adiposity, Ann Intern Med 2010;153(7):435–441.\n3. **Study** — Drake C et al., Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed, J Clin Sleep Med 2013;9(11):1195–1200.\n4. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr9-l07-pain",
+      "title": "Soreness, pain or injury: train, adapt or stop",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Normal soreness\n\n**Delayed-onset muscle soreness (DOMS)** usually peaks one to three days after new or harder exercise and fades as you get used to it. You can train through mild soreness with lighter loads; it isn't a sign of a good or bad session."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m9/pain-traffic-light.svg",
+          "alt": "Traffic light for pain during exercise on a 0–10 scale: green 0–2 continue, amber 3–5 adapt if it settles by the next morning, red above 5 or worse next day stop that exercise.",
+          "caption": "A pain traffic light",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.412
+        },
+        {
+          "type": "text",
+          "markdown": "## A pain traffic light\n\nThis approach comes from a tendon-rehabilitation study and is used widely in practice:\n\n- **Green (0–2 out of 10):** continue.\n- **Amber (3–5):** acceptable if it settles by the next morning and isn't getting worse week to week. Reduce load, range or change the exercise.\n- **Red (above 5, or worse the next day):** stop that exercise and use a pain-free alternative. If it doesn't improve within a week or two, see a physiotherapist or doctor."
+        },
+        {
+          "type": "text",
+          "markdown": "## Stop and get help now\n\n**Red-flag symptoms** need medical attention, not training adjustments:\n\n- chest pain or pressure, fainting, or unusual breathlessness: stop and call emergency services\n- a sudden sharp pain, a 'pop', rapid swelling or a joint giving way\n- numbness, tingling or weakness spreading into a limb\n- pain at night or at rest that keeps getting worse\n\nThis course doesn't diagnose injuries; when in doubt, ask a professional."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** rate pain during and after sessions. Green: continue. Amber: adapt and watch the next morning. Red or red-flag symptoms: stop and get it checked."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr9-l07-pain-fc1",
+              "front": "DOMS",
+              "back": "Delayed-onset muscle soreness: peaks 1–3 days after new or harder exercise. Train lighter through it; it fades with practice."
+            },
+            {
+              "id": "tr9-l07-pain-fc2",
+              "front": "Pain traffic light",
+              "back": "0–2 continue; 3–5 adapt if it settles by next morning; above 5 or worse next day, stop that exercise."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr9-l07-pain-q1",
+              "stem": "Your knee hurts 4/10 during split squats and is fine the next morning. What do you do?",
+              "options": [
+                "Stop training legs for a month",
+                "Adapt: shorter range or lighter load, and keep monitoring",
+                "Ignore it and add weight",
+                "Go to the emergency room"
+              ],
+              "correctIndex": 1,
+              "explanation": "Amber: acceptable if it settles; adapt and monitor."
+            },
+            {
+              "id": "tr9-l07-pain-q2",
+              "stem": "Which symptom means stop and get medical help immediately?",
+              "options": [
+                "Mild leg soreness two days after squats",
+                "Chest pain during intervals",
+                "Tired arms after push-ups",
+                "Sweating"
+              ],
+              "correctIndex": 1,
+              "explanation": "Chest pain is a red flag: stop and call emergency services."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Study** — Silbernagel KG et al., Continued sports activity, using a pain-monitoring model, during rehabilitation in patients with Achilles tendinopathy, Am J Sports Med 2007;35(6):897–906.\n2. **Tool** — PAR-Q+ (2023 version), the Physical Activity Readiness Questionnaire for Everyone (Module 0).\n3. **Practice** — training and coaching conventions; labelled as practice in the lesson.\n4. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr9-l08-tracking",
+      "title": "Tracking body composition",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Why the scale lies day to day\n\nBody weight can swing 1–2 kg from one day to the next with water, salt, carbohydrate, gut contents and, at first, creatine. Weigh yourself on waking, after the toilet, three or more times a week, and compare **weekly averages**, not single days."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m9/weight-trend.svg",
+          "alt": "A zigzag line of daily weights over four weeks with a smooth line of 7-day averages falling steadily by about 0.5 kg a week.",
+          "caption": "Daily noise, weekly trend",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.278
+        },
+        {
+          "type": "text",
+          "markdown": "## Four measures together\n\n- **Weight trend:** weekly average.\n- **Waist:** at the navel, relaxed, same time of day, every two weeks.\n- **Photos:** monthly, same light, same pose.\n- **Strength:** your log. Strength rising while weight falls means you're keeping muscle."
+        },
+        {
+          "type": "text",
+          "markdown": "## Adjusting (practice)\n\n- Losing less than about 0.25% a week for 2–3 weeks: cut about 100–200 kcal a day or add 2,000 daily steps.\n- Losing more than 1% a week, or strength falling: eat a little more.\n- Waist down and strength up at stable weight: recomposition is working; keep going.\n\nIf tracking starts to feel stressful or obsessive, drop the numbers and use photos, waist and strength, or talk to a professional."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** log a weekly average weight, waist every two weeks, monthly photos and your strength numbers. Adjust intake only after two to three weeks of the same trend."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr9-l08-tracking-fc1",
+              "front": "Weekly average weight",
+              "back": "Mean of several morning weigh-ins. Daily swings of 1–2 kg are mostly water and food."
+            },
+            {
+              "id": "tr9-l08-tracking-fc2",
+              "front": "Waist measurement",
+              "back": "At the navel, relaxed, same time of day, every two weeks. Falls with fat loss even when weight stalls."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr9-l08-tracking-q1",
+              "stem": "Your weight jumps 1.2 kg overnight after a salty dinner. What do you do?",
+              "options": [
+                "Cut 500 kcal immediately",
+                "Nothing; wait for the weekly average",
+                "Skip training",
+                "Stop weighing for good"
+              ],
+              "correctIndex": 1,
+              "explanation": "Single-day swings are mostly water."
+            },
+            {
+              "id": "tr9-l08-tracking-q2",
+              "stem": "Weight is stable for three weeks, waist is down 2 cm and strength is up. What's happening?",
+              "options": [
+                "Nothing is working",
+                "Likely recomposition: less fat, more muscle",
+                "You're gaining fat",
+                "The tape is wrong"
+              ],
+              "correctIndex": 1,
+              "explanation": "Recomposition shows in waist and strength before the scale."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Review** — Helms ER, Aragon AA, Fitschen PJ, Evidence-based recommendations for natural bodybuilding contest preparation: nutrition and supplementation, J Int Soc Sports Nutr 2014;11:20.\n2. **Practice** — training and coaching conventions; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}

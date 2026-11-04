@@ -1,0 +1,529 @@
+{
+  "moduleId": "tr-m10-capstone",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "tr10-b1",
+      "title": "Your programme, start to finish",
+      "lessons": [
+        "tr10-l01-brief",
+        "tr10-l02-plan",
+        "tr10-l03-run",
+        "tr10-l04-retest"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-tr10-l01",
+      "level": "lesson",
+      "covers": [
+        "tr10-l01-brief"
+      ],
+      "summary": {
+        "title": "Your training brief",
+        "points": [
+          "One page: goal, constraints, kit, baseline.",
+          "Goal: one priority and a measurable 12-week target.",
+          "Constraints: days, minutes, sport days.",
+          "Check main lifts are challenging in about 6–15 reps."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You write your brief.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which goal line is best?",
+              "options": [
+                "Train more than last year",
+                "Get in the best shape of my life by next summer, whatever it takes",
+                "Be fitter",
+                "Waist −4 cm and 12 split squats at 2 × 12 kg by week 12"
+              ],
+              "answer": 3,
+              "explanation": "Specific, measurable, dated."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What goes in 'constraints'?",
+              "options": [
+                "Your favourite exercises and the music you train to",
+                "Your goal weight in ten years",
+                "Training days, minutes and sport days",
+                "The supplements you take"
+              ],
+              "answer": 2,
+              "explanation": "What limits the plan."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your 12 kg kettlebell allows 25 easy goblet squats.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the brief flag?",
+              "options": [
+                "Plan harder variations or heavier kit",
+                "Drop squats from the programme",
+                "Switch to cardio only",
+                "Nothing; 25 easy reps is the target range"
+              ],
+              "answer": 0,
+              "explanation": "Main lifts should be hard in ~6–15 reps."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where does the baseline come from?",
+              "options": [
+                "Last year's sport results",
+                "Module 0 tests",
+                "A friend's numbers",
+                "A guess at your one-rep max"
+              ],
+              "answer": 1,
+              "explanation": "Dated, same conditions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr10-l02",
+      "level": "lesson",
+      "covers": [
+        "tr10-l02-plan"
+      ],
+      "summary": {
+        "title": "Writing the 12-week plan",
+        "points": [
+          "Three blocks: learn (1–4), build (5–8), push (9–11), re-test (12).",
+          "The programme builder turns the brief into an A/B plan.",
+          "Check: 2–3 full-body sessions, all patterns, away from match days.",
+          "Add steps, protein, warm-up, core and sport to the page."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You open the programme builder.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you enter?",
+              "options": [
+                "Days, minutes, sport days, kit and baseline",
+                "Only your goal weight and the muscles you most want to grow",
+                "Nothing; it picks everything at random",
+                "Your calorie target and supplements"
+              ],
+              "answer": 0,
+              "explanation": "The brief's contents."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's week 12?",
+              "options": [
+                "A new programme",
+                "A complete month off",
+                "An easier week and the re-test",
+                "The heaviest week of all, to failure"
+              ],
+              "answer": 2,
+              "explanation": "Then a new brief."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your plan lists only the strength sessions.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's missing?",
+              "options": [
+                "Nothing",
+                "More isolation exercises for the arms and shoulders, nothing else",
+                "Daily HIIT",
+                "Steps, protein, warm-up, core and sport"
+              ],
+              "answer": 3,
+              "explanation": "The whole week on one page."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the job of weeks 1–4?",
+              "options": [
+                "Cutting calories hard",
+                "Technique and finding working weights",
+                "Maximum effort and failure on every set",
+                "Testing one-rep maxes weekly"
+              ],
+              "answer": 1,
+              "explanation": "2–3 RIR."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr10-l03",
+      "level": "lesson",
+      "covers": [
+        "tr10-l03-run"
+      ],
+      "summary": {
+        "title": "Running the plan",
+        "points": [
+          "Log weight, reps and RIR every session.",
+          "Weekly 5-minute check with the load helper.",
+          "4-week review: improved, stalled, one change.",
+          "Change one thing at a time."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "End of week 4: two lifts stalled, weight on track.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the right move?",
+              "options": [
+                "Add a fourth session and two more exercises",
+                "Cut calories by 800 a day",
+                "Change one thing for the stalled lifts",
+                "Rewrite the whole programme from scratch"
+              ],
+              "answer": 2,
+              "explanation": "One change at a time."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What do you log for each set?",
+              "options": [
+                "Weight, reps and reps in reserve",
+                "How sweaty you felt",
+                "Nothing; memory is enough",
+                "Only the exercise name and the date"
+              ],
+              "answer": 0,
+              "explanation": "Feeds the load helper."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "All sets of floor press hit 12 reps at 2 RIR.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the load helper suggest?",
+              "options": [
+                "Train to failure",
+                "Drop the exercise",
+                "Keep the same weight and reps for a month",
+                "Add weight, or bridge a big jump"
+              ],
+              "answer": 3,
+              "explanation": "Double progression."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What three questions does the review ask?",
+              "options": [
+                "What hurt, what felt boring, and what equipment to buy next",
+                "What improved, what stalled, what one change",
+                "None; reviews aren't needed",
+                "How many calories, steps and coffees"
+              ],
+              "answer": 1,
+              "explanation": "Keep it simple."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr10-l04",
+      "level": "lesson",
+      "covers": [
+        "tr10-l04-retest"
+      ],
+      "summary": {
+        "title": "Re-test and the next block",
+        "points": [
+          "Repeat Module 0 tests under the same conditions.",
+          "Goal met: set a new target or switch priority.",
+          "Weights too light: harder variations or the kit planner.",
+          "Stalled: check sleep, protein and steps before the programme.",
+          "Write a new brief and repeat the cycle."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your push-ups went from 15 to 25 and your dumbbells feel light.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's next?",
+              "options": [
+                "Harder variations or heavier dumbbells",
+                "Only cardio",
+                "Stop pressing exercises",
+                "Keep everything exactly the same for another year"
+              ],
+              "answer": 0,
+              "explanation": "Progress the exercise or the kit."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How do you re-test?",
+              "options": [
+                "Different tests, to keep it interesting",
+                "Whenever you feel strongest, with a longer and harder warm-up than before",
+                "Same tests, time of day and warm-up as the baseline",
+                "Skip it if you feel good"
+              ],
+              "answer": 2,
+              "explanation": "Fair comparison."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Nothing improved in 12 weeks.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you check first?",
+              "options": [
+                "Add supplements",
+                "Sleep, protein, steps and logging",
+                "Buy new equipment and change every exercise",
+                "Quit"
+              ],
+              "answer": 1,
+              "explanation": "Fundamentals before programme changes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What happens after the re-test?",
+              "options": [
+                "Repeat the same plan unchanged",
+                "The course is over and training stops",
+                "Re-test every week from now on",
+                "A new brief and the next 12-week cycle"
+              ],
+              "answer": 3,
+              "explanation": "Repeat the cycle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr10-b1",
+      "level": "block",
+      "covers": [
+        "tr10-l01-brief",
+        "tr10-l02-plan",
+        "tr10-l03-run",
+        "tr10-l04-retest"
+      ],
+      "summary": {
+        "title": "Your programme, start to finish",
+        "points": [
+          "Brief: goal, constraints, kit, baseline.",
+          "Plan: three 4-week blocks built with the programme builder.",
+          "Run: log every session, weekly check, 4-week review.",
+          "Re-test in week 12 and start the next cycle."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Walk through your first cycle.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What comes first?",
+              "options": [
+                "The one-page brief",
+                "Buying new equipment for the plan",
+                "Choosing supplements",
+                "A maximum-lift test"
+              ],
+              "answer": 0,
+              "explanation": "Every decision traces back to it."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When are reviews?",
+              "options": [
+                "Only at the end of the year",
+                "Every day after training",
+                "Never",
+                "After weeks 4, 8 and 12"
+              ],
+              "answer": 3,
+              "explanation": "One per block."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Describe your 12-week cycle in one sentence.",
+              "modelAnswer": "Write a brief, build an A/B plan with the programme builder, learn for four weeks, build for four, push for three, log every session and review every four weeks, then re-test in week 12 and write the next brief."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend changes programme every two weeks.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the risk?",
+              "options": [
+                "Faster progress from constant novelty",
+                "No time to progress or see what works",
+                "Nothing",
+                "Fewer injuries"
+              ],
+              "answer": 1,
+              "explanation": "Run a block, then review."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What would you suggest?",
+              "options": [
+                "Change exercises every session",
+                "Copy a new online plan weekly",
+                "Run 4-week blocks, changing one thing at each review",
+                "Stop logging"
+              ],
+              "answer": 2,
+              "explanation": "Module 10."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr10-m",
+      "level": "module",
+      "covers": [
+        "tr10-l01-brief",
+        "tr10-l02-plan",
+        "tr10-l03-run",
+        "tr10-l04-retest"
+      ],
+      "summary": {
+        "title": "The whole course in one cycle",
+        "points": [
+          "Pick kit and exercises to fit your goal and baseline.",
+          "Build full-body sessions around your sport.",
+          "Progress with double progression and RIR.",
+          "Add cardio, core and mobility in small doses.",
+          "Eat for your goal and sleep 7–9 hours.",
+          "Review every 4 weeks; re-test and repeat every 12."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A friend with dumbbells and a kettlebell asks you to plan for them.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you ask for first?",
+              "options": [
+                "Their favourite celebrity's programme",
+                "Nothing; give them your own plan",
+                "Goal, constraints, kit and baseline",
+                "Their supplement budget"
+              ],
+              "answer": 2,
+              "explanation": "The brief."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How do they progress?",
+              "options": [
+                "Same reps and same weight every week",
+                "Add weight every session no matter what",
+                "Train to failure every set",
+                "Double progression with RIR"
+              ],
+              "answer": 3,
+              "explanation": "Module 6."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How many sessions for 30-minute slots?",
+              "options": [
+                "Six split sessions, one per body part",
+                "2–3 full-body sessions",
+                "Daily HIIT only",
+                "One long session a month"
+              ],
+              "answer": 1,
+              "explanation": "Module 5."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Before the course: same reps, same weight, mostly cardio.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the core change?",
+              "options": [
+                "Progressive overload in a planned, reviewed programme",
+                "Random workouts",
+                "More cardio with the same strength work",
+                "More supplements"
+              ],
+              "answer": 0,
+              "explanation": "Plan, do, log, adjust."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where does cardio fit now?",
+              "options": [
+                "Sport and steps as the base, around strength",
+                "Replacing strength sessions entirely",
+                "Daily HIIT on top of everything",
+                "Nowhere"
+              ],
+              "answer": 0,
+              "explanation": "Module 7."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain the course loop in your own words.",
+              "modelAnswer": "Plan from a brief, train and log every session, check weekly, review every four weeks with one change, and re-test every twelve weeks to write the next plan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

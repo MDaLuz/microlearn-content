@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 6,
+  "id": "tr-m10-capstone",
+  "title": "Training 10: Capstone: your programme",
+  "discipline": "Training",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "tr10-l01-brief",
+      "title": "Your goal, your constraints, your kit",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A one-page brief\n\nBefore writing a programme, write a short **training brief**: what you want, what limits you, and what you have. It turns everything in this course into decisions."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m10/brief-canvas.svg",
+          "alt": "A one-page brief in four boxes: goal (one priority and a 12-week measure), constraints (days, minutes, sport days), kit (weights and space), baseline (Module 0 results).",
+          "caption": "Your training brief",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.05
+        },
+        {
+          "type": "text",
+          "markdown": "## The four boxes\n\n1. **Goal:** one priority (Module 1) and one measurable target for 12 weeks, for example 'waist −4 cm and 12 split squats with 2 × 12 kg'.\n2. **Constraints:** training days and minutes, sport days, and anything to work around.\n3. **Kit:** the weights and space you have (Module 3), and what you could buy next.\n4. **Baseline:** your Module 0 test results, dated."
+        },
+        {
+          "type": "text",
+          "markdown": "## Check it against the course\n\n- Is the goal realistic for 12 weeks (Modules 1 and 9)?\n- Do the sessions fit around sport (Modules 5 and 7)?\n- Can your kit challenge you in the 6–15 rep range for the main lifts (Module 3)? If not, plan harder exercise variations or a purchase."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** write your brief on one page before touching the programme builder. Every later decision, from exercises to calories, should trace back to it."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr10-l01-brief-fc1",
+              "front": "Training brief",
+              "back": "One page: goal and 12-week measure, constraints, kit and baseline. The source of every programme decision."
+            },
+            {
+              "id": "tr10-l01-brief-fc2",
+              "front": "A measurable goal",
+              "back": "A number and a date, e.g. 'waist −4 cm and 12 split squats at 2 × 12 kg by week 12'."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr10-l01-brief-q1",
+              "stem": "Which is the best 12-week goal?",
+              "options": [
+                "Get fitter",
+                "Waist −4 cm and 20 push-ups in a row by week 12",
+                "Look like an athlete",
+                "Train harder than before"
+              ],
+              "correctIndex": 1,
+              "explanation": "Specific and measurable, with a date."
+            },
+            {
+              "id": "tr10-l01-brief-q2",
+              "stem": "Your heaviest weight lets you do 25 easy goblet squats. What does the brief flag?",
+              "options": [
+                "Nothing; 25 reps is ideal",
+                "Plan harder variations or a heavier weight",
+                "Stop squatting",
+                "Only do cardio"
+              ],
+              "correctIndex": 1,
+              "explanation": "Main lifts should be challenging in about 6–15 reps (Module 3)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Course** — Modules 0, 1, 3, 5 and 9 of this course.\n2. **Practice** — training and coaching conventions; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr10-l02-plan",
+      "title": "Write your 12-week plan",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Three blocks of four weeks\n\nA 12-week plan splits naturally into three **training blocks** (Module 6):\n\n- **Weeks 1–4, learn:** technique first, 2–3 RIR, find your working weights.\n- **Weeks 5–8, build:** add reps and weight with double progression; an easier week if needed.\n- **Weeks 9–12, push:** same exercises or harder variations, then an easier week 12 and re-test."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m10/twelve-week-plan.svg",
+          "alt": "A 12-week timeline in three blocks: weeks 1–4 learn, weeks 5–8 build, weeks 9–11 push, week 12 easier week and re-test, with a review after each block.",
+          "caption": "A 12-week plan",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Use the programme builder\n\nOpen the programme builder from Module 5, enter your days, minutes, sport days, kit and baseline, and save the plan it gives you. Then check it against your brief: two or three full-body sessions, every main pattern covered, sessions away from match days."
+        },
+        {
+          "type": "tool",
+          "src": "tools/programme-builder.html",
+          "title": "Programme builder",
+          "description": "Enter your training days, session length, sport days, kit and baseline to get a full-body A/B plan you can edit and export.",
+          "buttonLabel": "Open the programme builder",
+          "estimatedMinutes": 6
+        },
+        {
+          "type": "text",
+          "markdown": "## Add the rest of the week\n\nWrite in your daily steps target, protein range (Module 9), the warm-up and core work (Module 8) and your sport. That's the whole plan on one page."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** build the plan with the tool, then add steps, protein, warm-up, core and sport so the whole week is on one page."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr10-l02-plan-fc1",
+              "front": "12-week structure",
+              "back": "Three 4-week blocks: learn, build, push. An easier week and a re-test at week 12."
+            },
+            {
+              "id": "tr10-l02-plan-fc2",
+              "front": "Plan check",
+              "back": "2–3 full-body sessions, all main patterns, sessions away from match days, and steps and protein written in."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr10-l02-plan-q1",
+              "stem": "What's the main job of weeks 1–4?",
+              "options": [
+                "Testing maximum lifts",
+                "Learning technique and finding working weights",
+                "Training to failure every set",
+                "Cutting calories hard"
+              ],
+              "correctIndex": 1,
+              "explanation": "Technique first, with 2–3 reps in reserve."
+            },
+            {
+              "id": "tr10-l02-plan-q2",
+              "stem": "Your plan puts a hard leg session the day before a match. What do you change?",
+              "options": [
+                "Nothing",
+                "Move the session or swap it for upper-body work",
+                "Add more leg sets",
+                "Skip the match"
+              ],
+              "correctIndex": 1,
+              "explanation": "Keep hard legs away from match eves (Modules 5 and 7)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Course** — Modules 5, 6, 8 and 9 of this course.\n2. **Practice** — training and coaching conventions; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr10-l03-run",
+      "title": "Run it: weekly log and 4-week reviews",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Log every session\n\nFor each exercise, write the weight, the reps in each set and the reps in reserve. Once a week, add your average weight, steps, sleep and how you felt. A notes app or paper is enough."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m10/run-review-loop.svg",
+          "alt": "A loop: train and log each session, a 5-minute weekly check, and a 4-week review asking what improved, what stalled and what to change, then back to training.",
+          "caption": "The weekly and 4-week loop",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.278
+        },
+        {
+          "type": "text",
+          "markdown": "## The 5-minute weekly check\n\n- Did I do the planned sessions?\n- Which exercises hit the top of their rep range? Use the load helper to set next week's targets.\n- Is my weekly average weight moving at the planned pace?"
+        },
+        {
+          "type": "tool",
+          "src": "tools/load-helper.html",
+          "title": "Load helper",
+          "description": "Enter your rep range, weight and reps to see whether to add reps, add weight or bridge a big jump next week.",
+          "buttonLabel": "Open the load helper",
+          "estimatedMinutes": 3
+        },
+        {
+          "type": "text",
+          "markdown": "## The 4-week review\n\nAt the end of each block, ask three questions: what improved, what stalled, and what one thing will I change? Change one thing at a time, such as an exercise variation, a set or a calorie step, so you can see what worked."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** log every session, check weekly with the load helper, and change only one thing at each 4-week review."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr10-l03-run-fc1",
+              "front": "Session log",
+              "back": "Weight, reps per set and reps in reserve for each exercise; weekly average weight, steps and sleep."
+            },
+            {
+              "id": "tr10-l03-run-fc2",
+              "front": "4-week review",
+              "back": "What improved, what stalled, what one thing to change. One change at a time."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr10-l03-run-q1",
+              "stem": "At the 4-week review, two lifts stalled and weight loss slowed. What's the best approach?",
+              "options": [
+                "Change everything at once",
+                "Change one thing, e.g. cut 150 kcal, and review again",
+                "Quit the plan",
+                "Add three sessions a week"
+              ],
+              "correctIndex": 1,
+              "explanation": "One change at a time shows what worked."
+            },
+            {
+              "id": "tr10-l03-run-q2",
+              "stem": "All sets of floor press reached 12 reps at 2 RIR. What next?",
+              "options": [
+                "Same weight, same reps",
+                "Use the load helper: add weight or bridge the jump",
+                "Drop the exercise",
+                "Train to failure"
+              ],
+              "correctIndex": 1,
+              "explanation": "Double progression: top of the range means add weight."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Course** — Module 6 of this course.\n2. **Practice** — training and coaching conventions; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr10-l04-retest",
+      "title": "Re-test and design the next block",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Re-test like the baseline\n\nIn week 12, repeat your Module 0 tests under the same conditions: same time of day, same warm-up, same weights. Compare push-ups, goblet squat reps, plank and side-plank holds, resting heart rate, waist and photos."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m10/retest-compare.svg",
+          "alt": "Two columns, baseline and week 12, for push-ups, goblet squat reps, plank hold, resting heart rate and waist, with arrows showing direction of change and a 'next block' box.",
+          "caption": "Baseline vs week 12",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.158
+        },
+        {
+          "type": "text",
+          "markdown": "## Design the next block\n\n- **Goal met:** set the next target, or switch priority, for example from fat loss to building muscle.\n- **Strength up but weights now too light:** move to harder variations or use the kit planner to choose the next purchase.\n- **Stalled:** check sleep, protein, steps and logging before changing the programme.\n- **Keep:** exercises you enjoy and still progress on."
+        },
+        {
+          "type": "text",
+          "markdown": "## What you can now do\n\nPick your equipment, design a full-body programme around your sport, progress it with double progression and RIR, fit in cardio, core and mobility, eat for your goal, and judge progress with sensible measures. That's the whole course in one cycle; repeat it every 12 weeks."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** re-test in week 12 under the same conditions, write a new brief from the results, and start the next 12-week cycle."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr10-l04-retest-fc1",
+              "front": "Re-test rule",
+              "back": "Same tests, same time of day, same warm-up and weights as the baseline, so the comparison is fair."
+            },
+            {
+              "id": "tr10-l04-retest-fc2",
+              "front": "Next block decisions",
+              "back": "New goal or priority, harder variations or new kit, or fix sleep, protein and steps before changing the programme."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr10-l04-retest-q1",
+              "stem": "Why repeat the tests under the same conditions?",
+              "options": [
+                "To make the results look better",
+                "So the comparison with the baseline is fair",
+                "Because it's quicker",
+                "It doesn't matter"
+              ],
+              "correctIndex": 1,
+              "explanation": "Different times or warm-ups change results."
+            },
+            {
+              "id": "tr10-l04-retest-q2",
+              "stem": "Your push-ups rose from 15 to 25 and your 10 kg dumbbells now feel light for presses. What's a good next step?",
+              "options": [
+                "Keep everything the same",
+                "Use harder variations or plan heavier dumbbells with the kit planner",
+                "Stop pressing",
+                "Only do cardio"
+              ],
+              "correctIndex": 1,
+              "explanation": "Progress the exercise or the kit."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Course** — Modules 0, 3, 6 and 9 of this course.\n2. **Practice** — training and coaching conventions; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}

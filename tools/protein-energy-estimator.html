@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Protein and energy estimator</title>
+<style>
+:root{--bg:#FFFFFF;--card:#F7F4EE;--ink:#1B2430;--muted:#5B6672;--line:#E3E8EE;--go:#2E8B57;--gol:#DDF2E5;--stay:#2F7FB3;--stayl:#D6E9F5;--warn:#B7791F;--warnl:#FFF1D6;--back:#C2185B;--backl:#FBE4EE;--accent:#1F3A5F}
+@media (prefers-color-scheme:dark){:root{--bg:#14181E;--card:#1E242C;--ink:#E8ECF1;--muted:#9AA5B1;--line:#2C343E;--go:#5CC48A;--gol:#18301F;--stay:#6FB1DE;--stayl:#1B2C3A;--warn:#E0A84A;--warnl:#33281A;--back:#F06292;--backl:#3A1E2A;--accent:#8DB4E2}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 "Atkinson Hyperlegible",Arial,Helvetica,sans-serif;padding:16px}
+h1{font-size:20px;margin:0 0 4px} p.sub{color:var(--muted);margin:0 0 16px;font-size:13px}
+fieldset{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:0 0 12px;background:var(--card)}
+legend{font-weight:700;padding:0 6px}
+label{display:block;margin:8px 0}
+input,select{padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
+input[type=number]{width:90px} select{width:100%;display:block;margin-top:4px}
+.radio label{display:inline-block;margin:4px 14px 4px 0}
+button{background:var(--accent);color:var(--bg);border:0;border-radius:8px;padding:10px 18px;font:inherit;font-weight:700;cursor:pointer;width:100%}
+.res{border-radius:10px;padding:12px 14px;margin-top:14px;border-left:6px solid}
+.res h2{font-size:16px;margin:0 0 6px}
+.res .big{font-size:20px;font-weight:700;margin:2px 0}
+.go{background:var(--gol);border-color:var(--go)} .go h2{color:var(--go)}
+.stay{background:var(--stayl);border-color:var(--stay)} .stay h2{color:var(--stay)}
+.warn{background:var(--warnl);border-color:var(--warn)} .warn h2{color:var(--warn)}
+ul{margin:6px 0 0;padding-left:18px}
+.err{color:var(--back);font-size:13px;margin-top:8px}
+.note{font-size:12.5px;color:var(--muted);margin-top:12px}
+</style>
+</head>
+<body>
+<h1>Protein and energy estimator</h1>
+<p class="sub">Ranges, not prescriptions (Module 9). Your weekly weight trend decides the final numbers.</p>
+
+<fieldset><legend>You</legend>
+  <div class="radio">Formula for: <label><input type="radio" name="sex" value="m" checked> male</label><label><input type="radio" name="sex" value="f"> female</label></div>
+  <label>Age <input id="age" type="number" min="18" max="80" value="40"> years</label>
+  <label>Height <input id="ht" type="number" min="140" max="210" value="180"> cm</label>
+  <label>Weight <input id="wt" type="number" min="40" max="200" step="0.5" value="85"> kg</label>
+</fieldset>
+
+<fieldset><legend>Activity</legend>
+  <label>Typical week, including training and sport
+    <select id="act">
+      <option value="1.4">Mostly seated, under ~6,000 steps</option>
+      <option value="1.55" selected>Some walking, sport 1–2× a week</option>
+      <option value="1.7">Very active, sport most days</option>
+    </select>
+  </label>
+</fieldset>
+
+<fieldset><legend>Goal</legend>
+  <label>Main goal
+    <select id="goal">
+      <option value="lose" selected>Lose fat</option>
+      <option value="recomp">Recomposition (slow fat loss + muscle)</option>
+      <option value="gain">Build muscle</option>
+    </select>
+  </label>
+  <label id="paceRow">Pace of loss
+    <select id="pace">
+      <option value="0.005">Gentle: 0.5% of body weight a week</option>
+      <option value="0.0075" selected>Steady: 0.75% a week</option>
+      <option value="0.01">Fast: 1% a week</option>
+    </select>
+  </label>
+</fieldset>
+
+<button id="go">Estimate</button>
+<div id="err" class="err" role="alert"></div>
+<div id="out" aria-live="polite"></div>
+
+<p class="note">Estimates are typically within about 10% but can be further off. Not for anyone under 18, pregnant, managing a medical condition (including kidney disease) or with a history of disordered eating: speak to a doctor or registered dietitian instead. Not medical advice.</p>
+
+<script>
+(function(){
+  var $=function(id){return document.getElementById(id)};
+  function r10(x){return Math.round(x/10)*10}
+  function fmt(x){return r10(x).toLocaleString('en-GB')}
+  function syncPace(){ $('paceRow').style.display = $('goal').value==='lose' ? 'block' : 'none'; }
+  $('goal').addEventListener('change', syncPace); syncPace();
+
+  function estimate(){
+    $('err').textContent=''; $('out').innerHTML='';
+    var sex=document.querySelector('input[name=sex]:checked').value;
+    var age=parseFloat($('age').value), ht=parseFloat($('ht').value), wt=parseFloat($('wt').value);
+    var act=parseFloat($('act').value), goal=$('goal').value, pace=parseFloat($('pace').value);
+    if(!(age>=18&&age<=80)){$('err').textContent='Enter an age from 18 to 80.';return}
+    if(!(ht>=140&&ht<=210)){$('err').textContent='Enter a height from 140 to 210 cm.';return}
+    if(!(wt>=40&&wt<=200)){$('err').textContent='Enter a weight from 40 to 200 kg.';return}
+
+    var bmr = 10*wt + 6.25*ht - 5*age + (sex==='m' ? 5 : -161);
+    var maint = bmr*act;
+    var target, label, notes=[], capped=false, rate='';
+    if(goal==='lose'){
+      var deficit = wt*pace*7700/7;
+      if(deficit > 0.3*maint){deficit = 0.3*maint; capped=true}
+      target = maint - deficit;
+      if(target < bmr){target = bmr; capped=true}
+      var kgwk = (maint-target)*7/7700;
+      label='Target intake for fat loss';
+      rate='Expect about '+kgwk.toFixed(1)+' kg a week ('+(kgwk/wt*100).toFixed(2).replace(/\.?0+$/,'')+'% of body weight), judged on weekly averages over 2–3 weeks.';
+    } else if(goal==='recomp'){
+      target = maint*0.95; label='Target intake for recomposition';
+      rate='Expect weight roughly stable or falling slowly; judge by waist and strength.';
+    } else {
+      target = maint*1.075; label='Target intake for building muscle';
+      rate='Expect a gain of about '+(wt*0.005).toFixed(1)+'–'+(wt*0.01).toFixed(1)+' kg a month (0.5–1%).';
+    }
+    var pLo=1.6*wt, pHi=2.2*wt, meal=0.4*wt;
+    var protNote = goal==='lose' ? 'In a deficit, aim for the upper half: about '+Math.round(1.9*wt)+'–'+Math.round(pHi)+' g.' : 'Anywhere in the range works; the upper end gives a margin.';
+
+    var h='';
+    h+='<div class="res stay"><h2>Maintenance (estimate)</h2><p class="big">about '+fmt(maint*0.9)+'–'+fmt(maint*1.1)+' kcal a day</p><p>Mifflin–St Jeor × activity, ±10%.</p></div>';
+    h+='<div class="res go"><h2>'+label+'</h2><p class="big">about '+fmt(Math.max(target*0.95,bmr))+'–'+fmt(target*1.05)+' kcal a day</p><p>'+rate+'</p>'+(capped?'<p><strong>Capped:</strong> the deficit was limited to keep intake at a sensible level. A slower pace is safer here.</p>':'')+'</div>';
+    h+='<div class="res go"><h2>Protein</h2><p class="big">'+Math.round(pLo)+'–'+Math.round(pHi)+' g a day</p><p>1.6–2.2 g/kg. '+protNote+' About '+Math.round(meal)+' g in each of 3–4 meals.</p></div>';
+    h+='<div class="res warn"><h2>Weekly check</h2><ul>'+
+       '<li>Weigh on waking 3+ times a week; compare weekly averages.</li>'+
+       (goal==='lose' ? '<li>Losing less than 0.25% a week for 2–3 weeks: cut 100–200 kcal or add 2,000 steps a day.</li><li>Losing more than 1% a week, or strength falling: eat a little more.</li>'
+        : goal==='gain' ? '<li>Gaining more than 1% a month, or waist rising fast: eat a little less.</li><li>No gain after 3–4 weeks: add 100–200 kcal a day.</li>'
+        : '<li>Waist down and strength up at stable weight: keep going.</li><li>Weight rising with waist: eat 100–200 kcal less.</li>')+
+       '</ul></div>';
+    $('out').innerHTML=h;
+  }
+  $('go').addEventListener('click', estimate);
+  estimate();
+})();
+</script>
+</body>
+</html>

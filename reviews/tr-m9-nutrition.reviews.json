@@ -1,0 +1,955 @@
+{
+  "moduleId": "tr-m9-nutrition",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "tr9-b1",
+      "title": "Eating for your goal",
+      "lessons": [
+        "tr9-l01-energy",
+        "tr9-l02-protein",
+        "tr9-l03-carbs-fats",
+        "tr9-l04-fluids"
+      ]
+    },
+    {
+      "id": "tr9-b2",
+      "title": "Supplements, recovery and tracking",
+      "lessons": [
+        "tr9-l05-supplements",
+        "tr9-l06-sleep",
+        "tr9-l07-pain",
+        "tr9-l08-tracking"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-tr9-l01",
+      "level": "lesson",
+      "covers": [
+        "tr9-l01-energy"
+      ],
+      "summary": {
+        "title": "Energy balance and a sensible deficit",
+        "points": [
+          "Weight trend follows energy in vs energy out; maintenance keeps weight stable.",
+          "Formulas estimate maintenance within about 10%; the weight trend confirms it.",
+          "Lose about 0.5–1% of body weight a week; slower keeps more muscle.",
+          "Beginners: start with a 300–500 kcal daily deficit.",
+          "Skip the numbers and get professional help if counting has caused problems."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You weigh 90 kg and want to lose fat while keeping strength.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which weekly pace fits?",
+              "options": [
+                "Any pace; it makes no difference to muscle",
+                "About 1.5–2 kg, to get it over with quickly",
+                "About 3 kg in the first week, then slower",
+                "About 0.45–0.7 kg"
+              ],
+              "answer": 3,
+              "explanation": "0.5–0.75% of 90 kg."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What sets your real maintenance?",
+              "options": [
+                "Your weight trend over 2–3 weeks",
+                "How hungry you feel at the end of each day",
+                "One weigh-in the morning after a big meal",
+                "The formula result, which is exact for everyone"
+              ],
+              "answer": 0,
+              "explanation": "The formula is a starting point."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Two athlete groups lost weight at different speeds.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What happened to the slower group (~0.7% a week)?",
+              "options": [
+                "It lost no weight",
+                "It gained lean mass",
+                "It gained mainly body fat instead of muscle",
+                "It lost more muscle than the faster group did"
+              ],
+              "answer": 1,
+              "explanation": "The ~1.4% group did not gain lean mass."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Who should skip calorie counting?",
+              "options": [
+                "Nobody; counting is always required to lose fat",
+                "Everyone who trains at least twice a week",
+                "Anyone it has caused problems for",
+                "Only people who weigh more than 100 kg"
+              ],
+              "answer": 2,
+              "explanation": "Work with a doctor or dietitian instead."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr9-l02",
+      "level": "lesson",
+      "covers": [
+        "tr9-l02-protein"
+      ],
+      "summary": {
+        "title": "Protein",
+        "points": [
+          "Extra protein helps muscle during resistance training; benefit plateaued around 1.6 g/kg.",
+          "Practical target: 1.6–2.2 g/kg a day; upper half in a deficit.",
+          "Totals matter more than timing.",
+          "About 0.4 g/kg per meal over 3–4 meals.",
+          "Mix sources; protein powder is just convenient food."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You weigh 70 kg and are in a deficit.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's a sensible daily protein range?",
+              "options": [
+                "No target; protein only matters when bulking",
+                "About 40–50 g, the minimum for sedentary adults",
+                "About 350 g, five times body weight in grams",
+                "About 130–155 g"
+              ],
+              "answer": 3,
+              "explanation": "Upper half of 1.6–2.2 g/kg."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How much per meal over four meals?",
+              "options": [
+                "None until dinner",
+                "About 100 g in one sitting, at bedtime only",
+                "About 28 g",
+                "About 5 g, spread over many small snacks"
+              ],
+              "answer": 2,
+              "explanation": "0.4 × 70 = 28 g."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend insists on a shake within 30 minutes of training.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the timing meta-analysis say?",
+              "options": [
+                "Totals matter more than timing",
+                "Protein after training is harmful to recovery",
+                "Missing the 30-minute window wastes the workout",
+                "Shakes only work if taken before training"
+              ],
+              "answer": 0,
+              "explanation": "Timing made little difference once totals matched."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which is a good plant protein mix?",
+              "options": [
+                "White rice alone at every single meal",
+                "Tofu, lentils, beans and seitan over the day",
+                "Plant protein can't build any muscle at all",
+                "Only fruit, since it contains enough protein"
+              ],
+              "answer": 1,
+              "explanation": "Mix several sources."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr9-l03",
+      "level": "lesson",
+      "covers": [
+        "tr9-l03-carbs-fats"
+      ],
+      "summary": {
+        "title": "Carbohydrates, fats and timing",
+        "points": [
+          "Carbs fuel hard efforts; a 30-minute session needs no special fuelling.",
+          "Long matches: a carbohydrate-rich meal beforehand helps.",
+          "Fat: about 20–35% of energy; don't cut to near zero.",
+          "Protein-rich meal within a few hours after training.",
+          "Plate: half veg, a quarter protein, a quarter starchy carbs."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You play a 90-minute football match at 6 pm.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What should lunch look like?",
+              "options": [
+                "Only protein and fat, with no carbohydrates",
+                "Carbohydrate-rich, with some protein",
+                "A very large meal eaten just before kick-off",
+                "Nothing at all, to train the body to burn fat"
+              ],
+              "answer": 1,
+              "explanation": "Carbs fuel repeated hard efforts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "In a deficit, what happens to fat intake?",
+              "options": [
+                "Trim a little, but keep it at least ~20% of energy",
+                "Fat doesn't count toward energy intake",
+                "Remove all fat from the diet until the goal is met",
+                "Double it, since fat burns body fat"
+              ],
+              "answer": 0,
+              "explanation": "Fats carry vitamins and support hormones."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Someone builds every meal around the plate model.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which share is vegetables or fruit?",
+              "options": [
+                "A quarter",
+                "None",
+                "Half",
+                "Three quarters, with no other food on the plate"
+              ],
+              "answer": 2,
+              "explanation": "Half veg, a quarter protein, a quarter starch."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When's the post-training meal due?",
+              "options": [
+                "Never on training days",
+                "Next day",
+                "Within 30 minutes, or the session is wasted",
+                "Within a few hours"
+              ],
+              "answer": 3,
+              "explanation": "The window is wide."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr9-l04",
+      "level": "lesson",
+      "covers": [
+        "tr9-l04-fluids"
+      ],
+      "summary": {
+        "title": "Hydration, alcohol and fibre",
+        "points": [
+          "Drink to thirst; pale-yellow urine is a good sign.",
+          "Long, hot sport: avoid losing more than about 2% of body weight.",
+          "A large alcohol dose cut muscle building by about 24%, even with protein.",
+          "Fibre 25–29 g a day is linked with better health and keeps you full."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You weigh 80 kg before a hot two-hour tennis match.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How much sweat loss is the limit to stay under?",
+              "options": [
+                "About 1.6 kg",
+                "Zero",
+                "About 8 kg, a tenth of body weight",
+                "No limit: sweat loss never affects performance"
+              ],
+              "answer": 0,
+              "explanation": "About 2% of 80 kg."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which day suits a drink with friends best?",
+              "options": [
+                "The night before a match, to help sleep",
+                "Straight after a hard session, to relax the muscles",
+                "A rest day, well away from training",
+                "Every evening, in large amounts"
+              ],
+              "answer": 2,
+              "explanation": "Keep alcohol away from training."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your diet is low in fibre and you're hungry in a deficit.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which swap helps most?",
+              "options": [
+                "Skip breakfast and lunch entirely",
+                "White bread to wholegrain, plus beans and vegetables",
+                "More fruit juice instead of whole fruit at breakfast",
+                "Cut vegetables, since they contain carbohydrate"
+              ],
+              "answer": 1,
+              "explanation": "Fibre adds fullness."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why does alcohol make a deficit harder?",
+              "options": [
+                "It has no energy, so it doesn't count at all",
+                "It increases muscle protein building",
+                "It speeds up fat loss by raising heart rate",
+                "It adds energy and disturbs sleep"
+              ],
+              "answer": 3,
+              "explanation": "7 kcal per gram, plus worse sleep."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr9-l05",
+      "level": "lesson",
+      "covers": [
+        "tr9-l05-supplements"
+      ],
+      "summary": {
+        "title": "Supplements",
+        "points": [
+          "Creatine monohydrate 3–5 g a day: small extra strength and lean-mass gains.",
+          "Expect 1–2 kg of water weight at first; no loading needed.",
+          "Caffeine 3–6 mg/kg about an hour before training.",
+          "Vitamin D only if low; protein powder is convenient food.",
+          "Skip fat burners, testosterone boosters and BCAAs; choose tested products."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You decide to try one supplement.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which and how much?",
+              "options": [
+                "Creatine monohydrate, 3–5 g a day",
+                "A testosterone booster, as labelled",
+                "A fat burner, two capsules before every meal",
+                "BCAAs, 30 g during every session"
+              ],
+              "answer": 0,
+              "explanation": "Best-supported option."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You weigh 75 kg. What caffeine dose is in range?",
+              "options": [
+                "Caffeine has no effect on performance",
+                "About 225–450 mg",
+                "About 2,000 mg, as much as possible for the effect",
+                "About 10 mg, one sip of coffee"
+              ],
+              "answer": 1,
+              "explanation": "3–6 mg/kg."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend asks whether to take vitamin D for strength.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the answer?",
+              "options": [
+                "Never; vitamin D is harmful in any amount",
+                "Only on training days, before each session",
+                "Only if levels are low; test or ask a doctor",
+                "Yes, everyone needs high doses for performance"
+              ],
+              "answer": 2,
+              "explanation": "Not a performance booster otherwise."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why choose third-party tested products?",
+              "options": [
+                "Tested products always give twice the effect",
+                "Untested products are always illegal",
+                "It makes them cheaper",
+                "Supplements can be contaminated"
+              ],
+              "answer": 3,
+              "explanation": "Independent testing reduces the risk."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr9-l06",
+      "level": "lesson",
+      "covers": [
+        "tr9-l06-sleep"
+      ],
+      "summary": {
+        "title": "Sleep and stress",
+        "points": [
+          "Adults: 7–9 hours a night.",
+          "Same deficit: 5.5 h sleep lost less fat (0.6 kg) and more lean mass (2.4 kg) than 8.5 h.",
+          "Large caffeine doses even 6 h before bed cut sleep by over an hour.",
+          "Stress shares the recovery budget: train lighter in heavy weeks."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You sleep 6 hours most nights during a fat-loss phase.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the priority change?",
+              "options": [
+                "Cut calories further to speed things up",
+                "Protect 7–9 hours of sleep",
+                "Take more caffeine in the evening",
+                "Add an extra cardio session to make up for it"
+              ],
+              "answer": 1,
+              "explanation": "Short sleep shifts loss toward lean mass."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When should your last coffee be?",
+              "options": [
+                "Just before bed, since it doesn't affect sleep",
+                "Timing never matters for sleep quality",
+                "Only at night, to stay alert for training",
+                "Well before bed, e.g. early afternoon"
+              ],
+              "answer": 3,
+              "explanation": "Even 6 hours before bed cut sleep."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A stressful week with travel and little sleep.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do you adjust training?",
+              "options": [
+                "Add sets to keep the weekly volume on track",
+                "Train twice a day to catch up",
+                "One fewer set per exercise, or deload early",
+                "Test your maximum lifts to check progress"
+              ],
+              "answer": 2,
+              "explanation": "Stress uses the same recovery budget."
+            },
+            {
+              "type": "mcq",
+              "prompt": "In the sleep study, how much fat was lost with 8.5 hours?",
+              "options": [
+                "1.4 kg",
+                "None at all in 14 days",
+                "0.6 kg, the same as with 5.5 hours",
+                "5 kg"
+              ],
+              "answer": 0,
+              "explanation": "Against 0.6 kg with 5.5 hours."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr9-l07",
+      "level": "lesson",
+      "covers": [
+        "tr9-l07-pain"
+      ],
+      "summary": {
+        "title": "Soreness, pain and injury",
+        "points": [
+          "DOMS peaks 1–3 days after new or harder work; train lighter through it.",
+          "Traffic light: 0–2 continue; 3–5 adapt if it settles by next morning.",
+          "Above 5, or worse the next day: stop that exercise; get it checked if it lingers.",
+          "Red flags (chest pain, fainting, a 'pop', swelling, numbness): stop and get medical help."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your shoulder hurts 6/10 during floor presses.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you do?",
+              "options": [
+                "Push through the set and add weight next time",
+                "Stop that exercise and use a pain-free option",
+                "Take painkillers and continue as planned",
+                "Ignore it if the other exercises feel fine"
+              ],
+              "answer": 1,
+              "explanation": "Red zone."
+            },
+            {
+              "type": "mcq",
+              "prompt": "If it hasn't improved in a week or two?",
+              "options": [
+                "Stop all training for six months",
+                "Keep pressing heavier to strengthen it",
+                "See a physiotherapist or doctor",
+                "Stretch it hard every day"
+              ],
+              "answer": 2,
+              "explanation": "Get it checked."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Two days after your first lunges, your legs are very sore.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's this most likely?",
+              "options": [
+                "Normal DOMS",
+                "A sign the session was perfectly effective",
+                "A serious injury that needs an emergency visit",
+                "Proof that lunges are bad for you"
+              ],
+              "answer": 0,
+              "explanation": "It fades as you get used to the exercise."
+            },
+            {
+              "type": "mcq",
+              "prompt": "During intervals you feel chest pressure and dizziness. What now?",
+              "options": [
+                "Drink water and start the next interval",
+                "Rate it 3/10 and continue",
+                "Slow down a little and finish the session",
+                "Stop and call emergency services"
+              ],
+              "answer": 3,
+              "explanation": "A red flag, not a training decision."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr9-l08",
+      "level": "lesson",
+      "covers": [
+        "tr9-l08-tracking"
+      ],
+      "summary": {
+        "title": "Tracking body composition",
+        "points": [
+          "Daily weight swings 1–2 kg; compare weekly averages.",
+          "Waist at the navel every two weeks; photos monthly.",
+          "Strength rising while weight falls means muscle is kept.",
+          "Adjust only after 2–3 weeks of the same trend.",
+          "If tracking feels obsessive, drop the numbers and get support."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your weekly average has fallen 0.1% a week for three weeks.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the practice rule?",
+              "options": [
+                "Cut 100–200 kcal a day or add 2,000 steps",
+                "Cut 1,000 kcal a day straight away",
+                "Change nothing for another three months",
+                "Add three HIIT sessions a week"
+              ],
+              "answer": 0,
+              "explanation": "Small, single changes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When do you weigh yourself?",
+              "options": [
+                "Once, after dinner on Sundays",
+                "Only on days you feel lighter",
+                "After every training session",
+                "On waking, 3+ times a week"
+              ],
+              "answer": 3,
+              "explanation": "Consistent conditions."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You started creatine and your weight rose 1 kg.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do you read the trend?",
+              "options": [
+                "Stop creatine and protein immediately",
+                "Expect a step of water weight, then watch the trend",
+                "Assume it's 1 kg of fat and cut calories hard",
+                "Ignore all weights from now on"
+              ],
+              "answer": 1,
+              "explanation": "Creatine stores water in muscle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which result shows recomposition?",
+              "options": [
+                "Weight up, waist up, strength unchanged",
+                "Weight down, strength falling fast",
+                "Stable weight, waist down, strength up",
+                "No change in anything"
+              ],
+              "answer": 2,
+              "explanation": "Less fat, more muscle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr9-b1",
+      "level": "block",
+      "covers": [
+        "tr9-l01-energy",
+        "tr9-l02-protein",
+        "tr9-l03-carbs-fats",
+        "tr9-l04-fluids"
+      ],
+      "summary": {
+        "title": "Eating for your goal",
+        "points": [
+          "Deficit of about 0.5–1% of body weight a week; start gentle.",
+          "Protein 1.6–2.2 g/kg, upper half in a deficit, 3–4 meals.",
+          "Normal mixed meals around training; carbs for long sport.",
+          "Drink to thirst, keep alcohol occasional, fibre 25–29 g."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Plan a fat-loss day for an 80 kg person.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Daily protein?",
+              "options": [
+                "Protein doesn't matter in a deficit",
+                "About 400 g, as much as possible",
+                "About 60 g, the sedentary minimum",
+                "About 150–175 g"
+              ],
+              "answer": 3,
+              "explanation": "Upper half of 1.6–2.2 g/kg."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Deficit size to start?",
+              "options": [
+                "Alternate fasting days",
+                "About 300–500 kcal a day",
+                "About 1,500 kcal a day for fast results",
+                "No deficit; eat above maintenance"
+              ],
+              "answer": 1,
+              "explanation": "The gentle end."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Describe a typical training-day menu in one sentence.",
+              "modelAnswer": "Three or four meals each with about 30–35 g of protein, half the plate vegetables, a quarter starchy carbs, some fat, water to thirst, a protein-rich meal within a few hours of training, and no alcohol."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend's plan: no carbs, no fat, 1 kg a week.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's wrong?",
+              "options": [
+                "Too fast, and cuts essential nutrients",
+                "Nothing; faster is always better for muscle",
+                "It includes too much fibre",
+                "It has too much protein"
+              ],
+              "answer": 0,
+              "explanation": "Pace and balance protect muscle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What would you suggest instead?",
+              "options": [
+                "Eat freely and do more HIIT",
+                "One meal a day of fruit only",
+                "A moderate deficit with mixed meals and high protein",
+                "Only shakes for twelve weeks"
+              ],
+              "answer": 2,
+              "explanation": "Module 9, lessons 1–3."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr9-b2",
+      "level": "block",
+      "covers": [
+        "tr9-l05-supplements",
+        "tr9-l06-sleep",
+        "tr9-l07-pain",
+        "tr9-l08-tracking"
+      ],
+      "summary": {
+        "title": "Supplements, recovery and tracking",
+        "points": [
+          "Creatine and caffeine have the best evidence; most others aren't needed.",
+          "7–9 hours of sleep; short sleep shifts loss toward lean mass.",
+          "Pain traffic light; red flags mean medical help.",
+          "Weekly averages, waist, photos and strength judge progress."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Week 6 of a cut: poor sleep, a sore knee 4/10 that settles, and a stalled scale.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which first?",
+              "options": [
+                "Stop training altogether",
+                "Buy a fat burner",
+                "Fix sleep and check 2–3 weeks of trend",
+                "Cut 800 kcal and add daily HIIT"
+              ],
+              "answer": 2,
+              "explanation": "Recovery before cutting further."
+            },
+            {
+              "type": "mcq",
+              "prompt": "And the knee?",
+              "options": [
+                "Never train legs again",
+                "Go to the emergency room tonight",
+                "Ignore it and add weight to every leg lift",
+                "Adapt the exercise and monitor"
+              ],
+              "answer": 3,
+              "explanation": "Amber zone."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Write your recovery rules in one sentence.",
+              "modelAnswer": "Sleep 7–9 hours, keep coffee to early in the day, take creatine if I want, rate any pain and adapt in the amber zone, stop for red or red-flag symptoms, and judge progress on weekly averages, waist, photos and strength."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend spends a lot on supplements but sleeps 5 hours.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the bigger lever?",
+              "options": [
+                "Sleep",
+                "Testosterone boosters",
+                "BCAAs",
+                "More supplements, to make up for the short nights"
+              ],
+              "answer": 0,
+              "explanation": "The recovery you can't buy."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which supplement is worth keeping?",
+              "options": [
+                "Every product in the cupboard",
+                "Creatine monohydrate",
+                "BCAAs",
+                "Fat burners, for the energy boost"
+              ],
+              "answer": 1,
+              "explanation": "Best evidence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr9-m",
+      "level": "module",
+      "covers": [
+        "tr9-l01-energy",
+        "tr9-l02-protein",
+        "tr9-l03-carbs-fats",
+        "tr9-l04-fluids",
+        "tr9-l05-supplements",
+        "tr9-l06-sleep",
+        "tr9-l07-pain",
+        "tr9-l08-tracking"
+      ],
+      "summary": {
+        "title": "Nutrition and recovery: the whole picture",
+        "points": [
+          "Lose about 0.5–1% of body weight a week; let the trend set the numbers.",
+          "Protein 1.6–2.2 g/kg; totals beat timing.",
+          "Mixed meals, fluids to thirst, little alcohol, plenty of fibre.",
+          "Creatine and caffeine have the best evidence.",
+          "Sleep 7–9 hours; adapt training to pain and stress.",
+          "Track weekly averages, waist, photos and strength."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Set up your nutrition for a 12-week fat-loss block.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you use for starting numbers?",
+              "options": [
+                "A fixed 1,200 kcal for everyone",
+                "The estimator, as ranges",
+                "A friend's plan",
+                "Guesswork with no review"
+              ],
+              "answer": 1,
+              "explanation": "Then adjust with the trend."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When do you adjust intake?",
+              "options": [
+                "Only after 12 weeks",
+                "Never",
+                "After 2–3 weeks of the same trend",
+                "Every morning, based on that day's weight"
+              ],
+              "answer": 2,
+              "explanation": "Avoid reacting to noise."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What tells you muscle is kept?",
+              "options": [
+                "Daily soreness",
+                "Feeling very tired",
+                "The scale dropping as fast as possible",
+                "Strength rising while weight falls"
+              ],
+              "answer": 3,
+              "explanation": "Your log is a body-composition tool."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You used to train the same way with no nutrition plan.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the single biggest food change?",
+              "options": [
+                "Hitting a daily protein range",
+                "Eating nothing after 6 pm",
+                "Cutting all carbs",
+                "Taking as many supplements as possible"
+              ],
+              "answer": 0,
+              "explanation": "Protects muscle in a deficit."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which recovery habit matters most?",
+              "options": [
+                "Ice baths after every session",
+                "7–9 hours of sleep",
+                "More caffeine",
+                "Stretching for an hour daily"
+              ],
+              "answer": 1,
+              "explanation": "Short sleep undermines fat loss."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain the weekly check you'll use.",
+              "modelAnswer": "Weigh on waking three or more times a week and compare weekly averages; if loss is under 0.25% a week for 2–3 weeks, cut 100–200 kcal or add steps; if over 1% or strength falls, eat a little more; check waist every two weeks and photos monthly."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

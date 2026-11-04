@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 20
+    "version": 21
   },
   "categories": {
     "Training": {
@@ -303,6 +303,19 @@
       "estimatedMinutes": 45,
       "accentColor": "#6B7280",
       "reviews": "reviews/tr-m3-equipment.reviews.json",
+      "reviewsVersion": 1
+    },
+    {
+      "id": "tr-m4-exercises",
+      "title": "Training 4: The exercise library",
+      "discipline": "Training",
+      "description": "Technique, cues and progressions for 18 home exercises",
+      "file": "modules/tr-m4-exercises.json",
+      "version": 1,
+      "lessonCount": 8,
+      "estimatedMinutes": 60,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/tr-m4-exercises.reviews.json",
       "reviewsVersion": 1
     }
   ]

@@ -1,0 +1,617 @@
+{
+  "schemaVersion": 6,
+  "id": "tr-m4-exercises",
+  "title": "Training 4: The exercise library",
+  "discipline": "Training",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "tr4-l01-bracing",
+      "title": "Bracing, breathing and lifting safely",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Every lift starts the same way\n\nBefore the weight moves, set your trunk. **Bracing** means tightening the muscles all around your midsection, front, sides and back, as if about to be nudged. It keeps the spine steady so the force goes into the weight. It isn't sucking the belly in."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m4/lifting-safely.svg",
+          "alt": "Two side-view figures picking up a kettlebell. Correct: hips back, flat back, bell between the feet. Wrong: legs straight, back rounded, bell far in front.",
+          "caption": "Picking a weight up from the floor",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.158
+        },
+        {
+          "type": "text",
+          "markdown": "## Breathing\n\nFor most sets, breathe in before the hard part and out as you push through it. A short breath hold during a heavy rep, the **Valsalva manoeuvre**, raises blood pressure briefly, sometimes a lot. Healthy people often use a brief hold on heavy reps. If you have high blood pressure or a heart condition, keep breathing out through the effort and avoid long holds, and check with your doctor."
+        },
+        {
+          "type": "text",
+          "markdown": "## Picking a weight up from the floor\n\n1. Stand close, with the bell between your feet.\n2. Push your hips back and bend your knees until you can grip it, keeping your back flat. This position is a **neutral spine**: its natural curves, neither rounded nor arched hard.\n3. Brace, then stand up by driving through your feet.\n4. Put it down the same way, never by reaching forward with straight legs."
+        },
+        {
+          "type": "text",
+          "markdown": "## Range and control\n\nUse the full range of motion you can control, and lower the weight under control rather than dropping into the bottom. Pain in a joint, as opposed to effort in a muscle, is a sign to stop and change the exercise (Module 9)."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** brace before every rep, breathe out through the hard part, and lift every weight off the floor with your hips back and your back flat."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr4-l01-bracing-fc1",
+              "front": "Bracing",
+              "back": "Tightening the muscles all around the midsection before a lift, to keep the spine steady. Not sucking the belly in."
+            },
+            {
+              "id": "tr4-l01-bracing-fc2",
+              "front": "Valsalva manoeuvre",
+              "back": "A brief breath hold under effort. It raises blood pressure briefly; people with high blood pressure or heart conditions should avoid it."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr4-l01-bracing-q1",
+              "stem": "You're about to lift a 16 kg kettlebell from the floor. Which set-up is right?",
+              "options": [
+                "Legs straight, reach down with a rounded back",
+                "Bell between the feet, hips back, flat back, brace, stand up",
+                "Bell far in front, lift with the arms",
+                "Hold your breath for the whole set"
+              ],
+              "correctIndex": 1,
+              "explanation": "Close to the body, hips back, neutral spine, then drive through the feet."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — exercise technique as taught in strength coaching (e.g. NSCA exercise technique guidance); cues and starting loads are practice, not guidelines.\n2. **Study** — MacDougall JD et al., Arterial blood pressure response to heavy resistance exercise, J Appl Physiol 1985;58(3):785–790.\n3. **Statement** — Williams MA et al., Resistance exercise in individuals with and without cardiovascular disease: 2007 update, AHA scientific statement, Circulation 2007;116:572–584 (avoid the Valsalva manoeuvre).\n4. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr4-l02-squat",
+      "title": "Squat family",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Three squats, one pattern\n\nThe squat family trains the front of the thighs and the glutes. Start with the goblet squat, then move to split squats, which make the same weight harder because one leg does most of the work."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m4/squat-family.svg",
+          "alt": "Start and end positions of the goblet squat, split squat and Bulgarian split squat, each shown from the side holding a kettlebell or dumbbells.",
+          "caption": "Goblet squat, split squat, Bulgarian split squat",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.101
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Goblet squat\n\n- Pattern: squat (knee-dominant)\n- Main muscles: quadriceps, glutes, core\n- Equipment: one kettlebell or dumbbell held at the chest\n- Set-up: feet about shoulder-width, toes turned out slightly, bell held against the chest by the handle's sides\n- Cues: elbows down between the knees; sit between your heels; knees follow your toes\n- Common errors: heels lifting; knees caving in; chest dropping so the bell pulls you forward\n- Easier / harder: easier: squat to a chair or box; harder: heavier bell, 3-second lowering, pause at the bottom\n- Starting load: find it with a test set (Lesson 3.5); many beginners start at 8–16 kg"
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Split squat\n\n- Pattern: lunge (knee-dominant, one leg)\n- Main muscles: quadriceps, glutes\n- Equipment: a dumbbell in each hand, or a kettlebell at the chest\n- Set-up: long staggered stance, back heel up, feet hip-width apart as if on rails\n- Cues: drop the back knee straight down; front shin roughly vertical to slightly forward; push through the front foot\n- Common errors: feet on one line, so balance is lost; front heel lifting; bouncing the back knee off the floor\n- Easier / harder: easier: bodyweight, hold a support; harder: more load, rear foot raised (Bulgarian)\n- Starting load: find it with a test set (Lesson 3.5); two 6–10 kg dumbbells is a common start"
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Bulgarian split squat\n\n- Pattern: lunge (knee-dominant, one leg)\n- Main muscles: quadriceps, glutes\n- Equipment: dumbbells and a chair, bench or step about knee height\n- Set-up: back foot laces-down on the chair, front foot far enough forward that the front knee stays over the foot\n- Cues: lower straight down; slight forward lean is fine; drive up through the front heel and mid-foot\n- Common errors: front foot too close to the chair; twisting hips; rushing the bottom\n- Easier / harder: easier: regular split squat; harder: more load, slower lowering\n- Starting load: start with bodyweight for one session, then add light dumbbells"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** use the goblet squat while the 12 kg bell is challenging, then switch to split squats with dumbbells before you need a heavier bell."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr4-l02-squat-fc1",
+              "front": "Goblet squat cues",
+              "back": "Elbows down between the knees, sit between your heels, knees follow your toes."
+            },
+            {
+              "id": "tr4-l02-squat-fc2",
+              "front": "Why split squats suit light kit",
+              "back": "One leg carries most of the load, so two 10 kg dumbbells feel much heavier than a 12 kg goblet squat."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr4-l02-squat-q1",
+              "stem": "In your goblet squat your heels lift at the bottom. What's the first fix?",
+              "options": [
+                "Go much heavier",
+                "Sit between your heels and keep the weight over mid-foot; reduce depth slightly if needed",
+                "Lock the knees",
+                "Hold your breath longer"
+              ],
+              "correctIndex": 1,
+              "explanation": "Heels lifting means the weight has shifted forward; sit back between the heels."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — exercise technique as taught in strength coaching (e.g. NSCA exercise technique guidance); cues and starting loads are practice, not guidelines.\n2. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr4-l03-hinge",
+      "title": "Hinge family",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Hips back, then drive\n\nHinges train the glutes, the hamstrings and the back muscles that hold the spine steady. Learn them in order: the deadlift teaches the shape, the Romanian deadlift adds the stretch, and the swing adds speed."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m4/hinge-family.svg",
+          "alt": "Start and end positions of the kettlebell deadlift, the Romanian deadlift and the kettlebell swing, side view.",
+          "caption": "Deadlift, Romanian deadlift, swing",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.096
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Kettlebell deadlift\n\n- Pattern: hinge (hip-dominant)\n- Main muscles: glutes, hamstrings, back\n- Equipment: one kettlebell between the feet\n- Set-up: feet hip- to shoulder-width, bell in line with the ankles\n- Cues: hips back until you can grip; flat back; push the floor away and stand tall with glutes squeezed\n- Common errors: squatting it up with hips too low; rounding the back; leaning back at the top\n- Easier / harder: easier: bell raised on a step; harder: heavier bell, single-leg version\n- Starting load: often the heaviest bell you own; many men can use 16–24 kg"
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Romanian deadlift (RDL)\n\n- Pattern: hinge (hip-dominant)\n- Main muscles: hamstrings, glutes\n- Equipment: two dumbbells or one kettlebell\n- Set-up: stand tall, weights in front of the thighs, soft knees\n- Cues: push the hips back and slide the weights down the thighs; stop when the hamstrings are stretched and the back is still flat; drive the hips forward\n- Common errors: bending the knees into a squat; rounding the back to reach lower; letting the weights drift away from the legs\n- Easier / harder: easier: shorter range, lighter load; harder: slower lowering, single-leg RDL\n- Starting load: find it with a test set (Lesson 3.5); often heavier than you'd press"
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Kettlebell swing\n\n- Pattern: hinge (hip-dominant), explosive\n- Main muscles: glutes, hamstrings, back; heart and lungs\n- Equipment: one kettlebell\n- Set-up: bell a step in front; hike it back between the legs like a long pass\n- Cues: snap the hips forward and let the bell float to about chest height; arms are ropes, not lifters; let it fall and hinge again\n- Common errors: squatting the swing; lifting with the arms; leaning back at the top\n- Easier / harder: easier: master the deadlift first, then short sets of 10; harder: heavier bell, longer sets, one-arm swings\n- Starting load: commonly 16 kg for men and 8–12 kg for women to start, once the deadlift is solid"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** learn the deadlift shape first, then swings. With a 12 kg bell, single-leg RDLs and swings are the way to make hinges hard enough."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr4-l03-hinge-fc1",
+              "front": "Swing: hinge, not squat",
+              "back": "Hips go back and snap forward; knees bend only a little. The arms guide the bell; the hips launch it."
+            },
+            {
+              "id": "tr4-l03-hinge-fc2",
+              "front": "Romanian deadlift range",
+              "back": "Lower until the hamstrings are stretched with a flat back, not as low as possible."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr4-l03-hinge-q1",
+              "stem": "During swings you feel it mostly in your shoulders. What's likely wrong?",
+              "options": [
+                "The bell is too heavy for the legs",
+                "You're lifting with the arms instead of snapping the hips",
+                "You're breathing too much",
+                "The swing is too low"
+              ],
+              "correctIndex": 1,
+              "explanation": "The hips should launch the bell; the arms only guide it."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — exercise technique as taught in strength coaching (e.g. NSCA exercise technique guidance); cues and starting loads are practice, not guidelines.\n2. **Review** — Meigh NJ et al., Kettlebell training in clinical practice: a scoping review, BMC Sports Sci Med Rehabil 2019;11 (evidence for kettlebell training is limited and of low quality).\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr4-l04-push",
+      "title": "Push family",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Push-ups count\n\nThe push-up is a full chest, shoulder and triceps exercise, not a warm-up. In an 8-week study, push-ups matched to the same effort as a light bench press built similar muscle and strength. Add the floor press and the overhead press, and pushing is covered at home."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m4/push-family.svg",
+          "alt": "Start and end positions of the push-up, the dumbbell floor press and the overhead press, side view.",
+          "caption": "Push-up, floor press, overhead press",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.193
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Push-up\n\n- Pattern: horizontal push\n- Main muscles: chest, front of shoulders, triceps, core\n- Equipment: bodyweight; a bench or wall for easier versions\n- Set-up: hands slightly wider than the shoulders, body straight from head to heels\n- Cues: lower the chest to about a fist from the floor; elbows about 45° from the body; push the floor away\n- Common errors: hips sagging; head poking forward; elbows flared straight out\n- Easier / harder: easier: hands on a bench or wall (incline); harder: feet raised, slow lowering, pause at the bottom, a band across the back\n- Starting load: bodyweight; pick the version that allows 8–20 good reps"
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Dumbbell floor press\n\n- Pattern: horizontal push\n- Main muscles: chest, triceps\n- Equipment: two dumbbells (or one kettlebell, one arm at a time)\n- Set-up: lie on your back, knees bent, upper arms on the floor at about 45° from the body\n- Cues: press up over the shoulders; lower until the elbows touch the floor lightly; pause, then press\n- Common errors: bouncing the elbows; wrists bent back; arms straight out to the sides\n- Easier / harder: easier: lighter dumbbells; harder: heavier, pause on the floor, one arm at a time\n- Starting load: find it with a test set (Lesson 3.5); two 8–10 kg dumbbells is a common start"
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Overhead press\n\n- Pattern: vertical push\n- Main muscles: shoulders, triceps, upper back, core\n- Equipment: dumbbells or a kettlebell\n- Set-up: standing tall, weight at shoulder height, glutes and trunk braced\n- Cues: press straight up until the arm is beside the ear; don't lean back; lower under control\n- Common errors: leaning back to finish the rep; shrugging; flaring the ribs\n- Easier / harder: easier: seated or half-kneeling, lighter weight; harder: one arm at a time, slower lowering\n- Starting load: find it with a test set (Lesson 3.5); often the lightest load of all, for example 6–12 kg"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** push-ups are a real exercise: choose the version that gives 8–20 hard reps, and progress the version, not just the reps."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr4-l04-push-fc1",
+              "front": "Push-up progressions",
+              "back": "Easier: incline on a wall or bench. Harder: feet raised, slow lowering, pauses, a band."
+            },
+            {
+              "id": "tr4-l04-push-fc2",
+              "front": "Overhead press fault",
+              "back": "Leaning back to finish the rep. Brace and squeeze the glutes; lighten the load if needed."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr4-l04-push-q1",
+              "stem": "You can do 30 push-ups. What's the best way to keep progressing?",
+              "options": [
+                "Do 50",
+                "Move to a harder version, like feet raised or slow lowering",
+                "Stop pushing",
+                "Only do floor press"
+              ],
+              "correctIndex": 1,
+              "explanation": "Harder variations keep the effort in the useful rep range."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — exercise technique as taught in strength coaching (e.g. NSCA exercise technique guidance); cues and starting loads are practice, not guidelines.\n2. **Study** — Kikuchi N, Nakazato K, Low-load bench press and push-up induce similar muscle hypertrophy and strength gain, J Exerc Sci Fit 2017;15(1):37–42.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr4-l05-pull",
+      "title": "Pull family",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Rows first\n\nWithout a pull-up bar, rows do most of the work for your back. Add a band for the vertical pull, and a light band exercise for the upper back and rear shoulders."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m4/pull-family.svg",
+          "alt": "Start and end positions of the one-arm row with a hand on a chair, the renegade row in a plank, and a kneeling band pulldown from a high anchor.",
+          "caption": "One-arm row, renegade row, band pulldown",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.165
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: One-arm row\n\n- Pattern: horizontal pull\n- Main muscles: lats, upper back, biceps\n- Equipment: one dumbbell or kettlebell; a chair or bench for support\n- Set-up: one hand on a chair, flat back nearly parallel to the floor, weight hanging under the shoulder\n- Cues: pull the elbow back towards the hip; keep the shoulders square; lower all the way\n- Common errors: twisting the torso to lift; shrugging; short range\n- Easier / harder: easier: lighter weight; harder: heavier, pause at the top, slower lowering\n- Starting load: find it with a test set (Lesson 3.5); usually heavier than your press, for example 10–16 kg"
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Renegade row\n\n- Pattern: horizontal pull plus anti-rotation\n- Main muscles: lats, upper back, core\n- Equipment: two dumbbells (hex dumbbells are steadier)\n- Set-up: push-up position on the dumbbells, feet wide for balance\n- Cues: row one dumbbell to the ribs without letting the hips twist; alternate sides\n- Common errors: hips rocking side to side; feet too close together\n- Easier / harder: easier: knees down; harder: feet closer, add a push-up between rows\n- Starting load: lighter than your one-arm row"
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Band pulldown\n\n- Pattern: vertical pull\n- Main muscles: lats, upper back\n- Equipment: a long band anchored high (door anchor or a sturdy beam)\n- Set-up: kneel facing the anchor, arms up, band taut\n- Cues: pull the elbows down towards the ribs; chest up; control the return\n- Common errors: leaning far back; shrugging; letting the band snap back\n- Easier / harder: easier: lighter band; harder: stronger band, pause with elbows down\n- Starting load: a band that allows 10–20 controlled reps"
+        },
+        {
+          "type": "text",
+          "markdown": "## For the upper back\n\nBand pull-aparts, holding a light band at arm's length and pulling it apart to the chest, are a quick way to train the rear shoulders and upper back. They suit warm-ups and finishers."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** row in every session. With no bar, add band pulldowns for the vertical pull, and use pull-aparts in the warm-up."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr4-l05-pull-fc1",
+              "front": "One-arm row cue",
+              "back": "Pull the elbow back towards the hip, shoulders square, full range."
+            },
+            {
+              "id": "tr4-l05-pull-fc2",
+              "front": "Renegade row",
+              "back": "A row from a plank: trains the back and the core's resistance to twisting at the same time."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr4-l05-pull-q1",
+              "stem": "While rowing, your torso twists to lift the dumbbell. What does it suggest?",
+              "options": [
+                "The weight is too light",
+                "The weight is too heavy or the brace is lost",
+                "Rows should twist",
+                "You need a bar"
+              ],
+              "correctIndex": 1,
+              "explanation": "Twisting borrows momentum; lighten the load and keep the shoulders square."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — exercise technique as taught in strength coaching (e.g. NSCA exercise technique guidance); cues and starting loads are practice, not guidelines.\n2. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr4-l06-lunge-carry",
+      "title": "Lunges, step-ups and carries",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Single-leg strength and loaded walking\n\nLunges and step-ups train one leg at a time and challenge balance, which carries over to running, football and tennis. Carries train grip, trunk and posture by simply walking with weight."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m4/lunge-carry.svg",
+          "alt": "Start and end positions of the reverse lunge and the step-up, and a farmer's carry walking stride with a weight in each hand, side view.",
+          "caption": "Reverse lunge, step-up, farmer's carry",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.05
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Reverse lunge\n\n- Pattern: lunge (one leg)\n- Main muscles: quadriceps, glutes\n- Equipment: dumbbells or a kettlebell at the chest\n- Set-up: stand tall, feet hip-width\n- Cues: step back, lower the back knee towards the floor, then push through the front foot to return\n- Common errors: short step so the front knee shoots forward; wobbling feet on one line\n- Easier / harder: easier: split squat (no step); harder: more load, front foot raised on a low step\n- Starting load: same or slightly lighter than your split squat"
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Step-up\n\n- Pattern: lunge (one leg)\n- Main muscles: quadriceps, glutes\n- Equipment: a sturdy step or box at knee height or lower; dumbbells\n- Set-up: whole foot on the step\n- Cues: drive through the top foot to stand on the step; don't push off the bottom foot; step down slowly\n- Common errors: bouncing off the floor leg; knee caving in\n- Easier / harder: easier: lower step, no weight; harder: higher step, more load\n- Starting load: bodyweight first, then light dumbbells"
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Farmer's carry\n\n- Pattern: carry\n- Main muscles: grip, trunk, upper back, legs\n- Equipment: a heavy dumbbell or kettlebell in each hand\n- Set-up: pick the weights up as in Lesson 1, stand tall\n- Cues: short quick steps; shoulders down and back; walk 20–40 m or 30–45 seconds\n- Common errors: leaning or slouching; letting the weights swing\n- Easier / harder: easier: lighter or shorter; harder: heavier, longer, one hand only (suitcase carry)\n- Starting load: heavy for the hands: often your heaviest bell or dumbbells"
+        },
+        {
+          "type": "text",
+          "markdown": "## The suitcase carry\n\nCarrying a weight in one hand only forces the trunk to stop you leaning sideways. It's one of the simplest core exercises there is (Module 8)."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** finish sessions with a carry: it's simple, safe, uses your heaviest kit and trains grip and trunk together."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr4-l06-lunge-carry-fc1",
+              "front": "Step-up cue",
+              "back": "Drive through the top foot; don't push off the floor leg."
+            },
+            {
+              "id": "tr4-l06-lunge-carry-fc2",
+              "front": "Suitcase carry",
+              "back": "A weight in one hand only: the trunk works to stop you leaning sideways."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr4-l06-lunge-carry-q1",
+              "stem": "Which carry adds the most work for the side of the trunk?",
+              "options": [
+                "Farmer's carry, a weight in each hand",
+                "Suitcase carry, a weight in one hand",
+                "No weight",
+                "Holding the weight overhead with both hands"
+              ],
+              "correctIndex": 1,
+              "explanation": "With the load on one side, the trunk resists bending sideways."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — exercise technique as taught in strength coaching (e.g. NSCA exercise technique guidance); cues and starting loads are practice, not guidelines.\n2. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr4-l07-kettlebell",
+      "title": "Full-body kettlebell moves",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Skills, not just exercises\n\nThe get-up, the clean and the snatch move the whole body and teach coordination. They take more practice than squats or rows, so learn them light, with short sets and full attention. Evidence for kettlebell-specific benefits is limited; treat them as useful variety and conditioning, not as magic."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m4/kettlebell-skills.svg",
+          "alt": "Three stages of the Turkish get-up, lying, sitting on one hand and standing with the bell overhead; then the clean from hike to rack, and the snatch from hike to overhead.",
+          "caption": "Get-up, clean, snatch",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 0.943
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Turkish get-up\n\n- Pattern: full body; resist rotation\n- Main muscles: shoulders, core, hips\n- Equipment: one light kettlebell\n- Set-up: lie on your back, bell pressed up over the shoulder, same-side knee bent\n- Cues: eyes on the bell; roll to the elbow, then the hand; bridge, sweep the leg under, kneel, stand; reverse each step\n- Common errors: bent elbow under the bell; rushing; losing sight of the bell\n- Easier / harder: easier: practise with no weight or a shoe on the fist, or only the first steps; harder: heavier bell\n- Starting load: light: often 8–12 kg"
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Kettlebell clean\n\n- Pattern: hinge to rack\n- Main muscles: glutes, hamstrings, back, forearms\n- Equipment: one kettlebell\n- Set-up: as for a one-arm swing\n- Cues: hike, snap the hips, pull the elbow back and let the bell roll around the hand into the rack position at the chest\n- Common errors: letting the bell flip and bang the forearm; curling it up with the arm\n- Easier / harder: easier: deadlift to rack (dead clean) with a light bell; harder: heavier, more reps\n- Starting load: your press bell or slightly heavier"
+        },
+        {
+          "type": "text",
+          "markdown": "### Exercise card: Kettlebell snatch (introduction)\n\n- Pattern: hinge to overhead\n- Main muscles: glutes, hamstrings, shoulders, back\n- Equipment: one kettlebell\n- Set-up: as for a one-arm swing\n- Cues: hike, snap the hips, keep the bell close and punch the hand through at the top to lock out overhead\n- Common errors: arcing the bell out wide so it crashes onto the forearm; pressing it up slowly\n- Easier / harder: easier: high pull; harder: heavier, timed sets\n- Starting load: lighter than your swing; learn it after the swing and clean are solid, ideally with coaching"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** add the get-up as a slow skill at the start of a session, once a week. Leave the snatch until swings and cleans are solid."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr4-l07-kettlebell-fc1",
+              "front": "Rack position",
+              "back": "The bell resting on the forearm against the chest, wrist straight, elbow tucked: the start for presses and the end of a clean."
+            },
+            {
+              "id": "tr4-l07-kettlebell-fc2",
+              "front": "Get-up rule",
+              "back": "Eyes on the bell, arm locked straight, one step at a time."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr4-l07-kettlebell-q1",
+              "stem": "Your kettlebell bangs your forearm at the top of each clean. What's the fix?",
+              "options": [
+                "Grip harder",
+                "Pull the elbow back so the bell travels close and rolls around the hand",
+                "Use a heavier bell",
+                "Curl it up"
+              ],
+              "correctIndex": 1,
+              "explanation": "A close path and an elbow pulled back stop the flip."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — exercise technique as taught in strength coaching (e.g. NSCA exercise technique guidance); cues and starting loads are practice, not guidelines.\n2. **Review** — Meigh NJ et al., BMC Sports Sci Med Rehabil 2019;11 (kettlebell evidence is limited).\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr4-l08-recap",
+      "title": "Recap: the exercise menu",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Pick from the menu\n\nEach pattern now has at least two exercises, with an easier and a harder option. When a session plan calls for 'a hinge' or 'a pull', pick from this menu based on your kit, your level and your goal for the block."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m4/exercise-menu.svg",
+          "alt": "A table of the seven patterns with an easier, main and harder exercise each, from wall push-ups to feet-raised push-ups, and goblet squats to Bulgarian split squats.",
+          "caption": "Your exercise menu",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.745
+        },
+        {
+          "type": "text",
+          "markdown": "## Swaps that keep the pattern\n\n- No heavy bell yet: swap goblet squats for split squats, and deadlifts for single-leg RDLs.\n- Wrist or shoulder discomfort in push-ups: use the floor press, or push-ups on dumbbell handles.\n- No pull-up bar: rows plus band pulldowns.\n- Short on time: replace two exercises with a swing.\n\nKeep the pattern; change the exercise."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr4-l08-recap-fc1",
+              "front": "Keep the pattern, change the exercise",
+              "back": "When an exercise doesn't suit your kit, level or joints, swap it for another from the same pattern."
+            },
+            {
+              "id": "tr4-l08-recap-fc2",
+              "front": "Short on time",
+              "back": "One kettlebell swing set can stand in for a hinge and some conditioning at once."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr4-l08-recap-q1",
+              "stem": "Your plan says 'one hinge'. You only have a 12 kg bell, and RDLs feel easy. Which swap keeps the pattern and adds difficulty?",
+              "options": [
+                "Goblet squat",
+                "Single-leg Romanian deadlift",
+                "Push-up",
+                "Band pulldown"
+              ],
+              "correctIndex": 1,
+              "explanation": "One-legged hinging makes a light bell much harder."
+            },
+            {
+              "id": "tr4-l08-recap-q2",
+              "stem": "Which pair gives a balanced upper body without a bar?",
+              "options": [
+                "Push-ups and floor press",
+                "Push-ups and one-arm rows",
+                "Curls and lateral raises",
+                "Overhead press and floor press"
+              ],
+              "correctIndex": 1,
+              "explanation": "One push and one pull."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — exercise technique as taught in strength coaching (e.g. NSCA exercise technique guidance); cues and starting loads are practice, not guidelines.\n2. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}

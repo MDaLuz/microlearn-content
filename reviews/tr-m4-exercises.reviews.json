@@ -1,0 +1,879 @@
+{
+  "moduleId": "tr-m4-exercises",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "tr4-b1",
+      "title": "Safe lifting, squats, hinges and pushes",
+      "lessons": [
+        "tr4-l01-bracing",
+        "tr4-l02-squat",
+        "tr4-l03-hinge",
+        "tr4-l04-push"
+      ]
+    },
+    {
+      "id": "tr4-b2",
+      "title": "Pulls, single legs, carries and skills",
+      "lessons": [
+        "tr4-l05-pull",
+        "tr4-l06-lunge-carry",
+        "tr4-l07-kettlebell",
+        "tr4-l08-recap"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-tr4-l01",
+      "level": "lesson",
+      "covers": [
+        "tr4-l01-bracing"
+      ],
+      "summary": {
+        "title": "Bracing, breathing, lifting safely",
+        "points": [
+          "Brace before every rep: tighten all around the midsection; don't suck the belly in.",
+          "Breathe in before the hard part, out through it.",
+          "Brief breath holds raise blood pressure; avoid them with high blood pressure or heart conditions.",
+          "Pick weights up with the bell close, hips back, flat back, then drive through the feet.",
+          "Use the range you control; joint pain means stop and change the exercise."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You're about to deadlift a 16 kg bell from the floor.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which set-up is right?",
+              "options": [
+                "Bell beside one foot, lift with one arm and twist",
+                "Hold your breath for the whole set of ten",
+                "Bell a stride in front, legs straight, reach down with a rounded back",
+                "Bell between the feet, hips back, flat back, brace"
+              ],
+              "answer": 3,
+              "explanation": "Close, hinged, neutral spine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When do you breathe out on most reps?",
+              "options": [
+                "During the easy lowering phase only, then hold the breath while pushing",
+                "Through the hard part of the lift",
+                "Only between sets",
+                "Never during a set"
+              ],
+              "answer": 1,
+              "explanation": "Out through the effort."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A colleague with high blood pressure wants to start lifting.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What breathing advice fits?",
+              "options": [
+                "Only train with machines",
+                "Breathing doesn't matter for strength training",
+                "Breathe out through the effort and avoid long breath holds; check with a doctor",
+                "Hold the breath on every rep to brace harder"
+              ],
+              "answer": 2,
+              "explanation": "Breath holds raise blood pressure briefly, sometimes a lot."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does bracing mean?",
+              "options": [
+                "Tensing all around the trunk",
+                "Arching the back hard",
+                "Relaxing the abs",
+                "Sucking the belly button in as far as possible"
+              ],
+              "answer": 0,
+              "explanation": "It keeps the spine steady."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr4-l02",
+      "level": "lesson",
+      "covers": [
+        "tr4-l02-squat"
+      ],
+      "summary": {
+        "title": "Squat family",
+        "points": [
+          "Goblet squat: elbows down between the knees, sit between the heels, knees follow toes.",
+          "Split squat: long stance, back knee straight down, push through the front foot.",
+          "Bulgarian split squat: rear foot on a chair; front foot far enough forward.",
+          "Split squats make light weights harder: one leg does most of the work.",
+          "Easier: squat to a chair. Harder: more load, slower lowering, pauses."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your heels lift at the bottom of the goblet squat.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the first fix?",
+              "options": [
+                "Go heavier so the bell pulls you back down into the heels",
+                "Squat faster",
+                "Sit between the heels, keeping the weight over mid-foot",
+                "Lock the knees at the top harder"
+              ],
+              "answer": 2,
+              "explanation": "Reduce depth slightly if needed."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You've outgrown 12 kg goblet squats and have only 10 kg dumbbells. What next?",
+              "options": [
+                "Stop training legs until you buy more",
+                "Curls",
+                "More goblet squat reps at 12 kg, up to 60 per set",
+                "Split squats with the dumbbells"
+              ],
+              "answer": 3,
+              "explanation": "One leg carries most of the load."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "In your Bulgarian split squat the front knee shoots far past the toes and the heel lifts.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's likely wrong?",
+              "options": [
+                "You should lean back",
+                "The front foot is too close to the chair",
+                "The weights are too light",
+                "The chair is too low for a beginner to use safely"
+              ],
+              "answer": 1,
+              "explanation": "Step the front foot further out."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which is an easier version of the split squat?",
+              "options": [
+                "Bodyweight, holding a support",
+                "Jumping split squats",
+                "Rear foot raised on a chair, with dumbbells",
+                "Pausing at the bottom with heavier weights"
+              ],
+              "answer": 0,
+              "explanation": "Regression keeps the pattern."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr4-l03",
+      "level": "lesson",
+      "covers": [
+        "tr4-l03-hinge"
+      ],
+      "summary": {
+        "title": "Hinge family",
+        "points": [
+          "Deadlift teaches the shape: hips back, flat back, push the floor away.",
+          "Romanian deadlift: soft knees, slide down the thighs until the hamstrings stretch.",
+          "Swing: hike, snap the hips, bell floats to chest height; arms are ropes.",
+          "Learn deadlift, then RDL, then swing.",
+          "Kettlebell evidence is limited; treat swings as useful, not magic."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "During swings your shoulders burn and the bell feels heavy at the top.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's likely wrong?",
+              "options": [
+                "You're breathing out at the top",
+                "You're snapping the hips too hard",
+                "The bell is too light, so you have to work harder with the arms",
+                "You're lifting with the arms"
+              ],
+              "answer": 3,
+              "explanation": "The hips launch the bell; arms guide it."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How low should an RDL go?",
+              "options": [
+                "Only a few centimetres",
+                "As low as possible, touching the floor with the weights even if the back rounds",
+                "Until the hamstrings stretch with a flat back",
+                "Until the knees bend fully"
+              ],
+              "answer": 2,
+              "explanation": "Range is set by the hamstrings and a flat back."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend wants to start with swings on day one.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What order do you suggest?",
+              "options": [
+                "Snatch, then swing",
+                "Deadlift, then RDL, then swing",
+                "Only swings, forever",
+                "Swing first, since it's the most important hinge to master"
+              ],
+              "answer": 1,
+              "explanation": "Learn the shape, then the stretch, then speed."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does the evidence on kettlebells say?",
+              "options": [
+                "It's limited and low quality",
+                "It proves kettlebells beat all other strength training",
+                "There are no studies",
+                "Kettlebells are unsafe"
+              ],
+              "answer": 0,
+              "explanation": "Useful variety, not magic."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr4-l04",
+      "level": "lesson",
+      "covers": [
+        "tr4-l04-push"
+      ],
+      "summary": {
+        "title": "Push family",
+        "points": [
+          "Push-ups are a full chest, shoulder and triceps exercise.",
+          "Matched to effort, push-ups built similar muscle and strength to a light bench press in 8 weeks.",
+          "Push-up: straight body, elbows about 45°, chest to a fist from the floor.",
+          "Floor press: elbows touch the floor lightly; no bench needed.",
+          "Overhead press: brace, press beside the ear, don't lean back."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You can do 30 push-ups.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do you keep progressing?",
+              "options": [
+                "Stop doing push-ups and only stretch",
+                "Do them faster",
+                "Do sets of 60 to failure every session",
+                "Move to a harder version"
+              ],
+              "answer": 3,
+              "explanation": "Feet raised, slow lowering, pauses or a band."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which is an easier push-up?",
+              "options": [
+                "A band across the back",
+                "Feet raised on a chair, with a pause at the bottom",
+                "Hands on a bench or wall",
+                "Clapping push-ups"
+              ],
+              "answer": 2,
+              "explanation": "Incline reduces the load."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend says push-ups are 'just a warm-up'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What did the 2017 study find?",
+              "options": [
+                "Push-ups only built endurance",
+                "Similar muscle and strength gains to a matched light bench press",
+                "Push-ups built no muscle at all compared with the bench",
+                "Push-ups beat a heavy bench press"
+              ],
+              "answer": 1,
+              "explanation": "8 weeks, 40% 1RM-matched loads."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the main fault in the overhead press?",
+              "options": [
+                "Leaning back to finish the rep",
+                "Bracing the trunk",
+                "Pressing the weight straight up beside the ear",
+                "Lowering under control"
+              ],
+              "answer": 0,
+              "explanation": "Brace and squeeze the glutes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr4-l05",
+      "level": "lesson",
+      "covers": [
+        "tr4-l05-pull"
+      ],
+      "summary": {
+        "title": "Pull family",
+        "points": [
+          "One-arm row: hand on a chair, pull the elbow to the hip, shoulders square.",
+          "Renegade row: row from a plank without the hips twisting.",
+          "Band pulldown: kneel, band anchored high, elbows to the ribs.",
+          "Band pull-aparts train rear shoulders and upper back.",
+          "Row in every session; no bar needed."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your torso twists as you row the dumbbell.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does it suggest?",
+              "options": [
+                "You need a pull-up bar",
+                "Too heavy, or the brace is lost",
+                "Rows should twist for full range",
+                "Too light, so you need to twist to make it harder"
+              ],
+              "answer": 1,
+              "explanation": "Lighten and keep shoulders square."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which exercise covers the vertical pull without a bar?",
+              "options": [
+                "Push-up",
+                "Renegade row in a wide stance",
+                "One-arm row",
+                "Band pulldown"
+              ],
+              "answer": 3,
+              "explanation": "Band anchored high."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You want a quick upper-back exercise for the warm-up.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which fits?",
+              "options": [
+                "Band pull-aparts",
+                "Heavy one-arm rows to near failure",
+                "Goblet squats",
+                "Swings"
+              ],
+              "answer": 0,
+              "explanation": "Light, quick, rear shoulders."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does the renegade row add over a normal row?",
+              "options": [
+                "A stretch for the hamstrings",
+                "A heavier load than any other pulling exercise",
+                "Resisting rotation in a plank",
+                "A vertical pull"
+              ],
+              "answer": 2,
+              "explanation": "Back and core together."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr4-l06",
+      "level": "lesson",
+      "covers": [
+        "tr4-l06-lunge-carry"
+      ],
+      "summary": {
+        "title": "Lunges, step-ups, carries",
+        "points": [
+          "Reverse lunge: step back, knee down, push through the front foot.",
+          "Step-up: drive through the top foot; don't push off the floor leg.",
+          "Farmer's carry: heavy weight in each hand, tall, short steps, 20–40 m.",
+          "Suitcase carry: one hand only; the trunk resists leaning.",
+          "Single-leg work and carries carry over to sport."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "On step-ups you bounce off the floor leg to get up.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the fix?",
+              "options": [
+                "Jump onto the step",
+                "Drive through the top foot only",
+                "Hold heavier weights",
+                "Use a higher step so the bounce is no longer possible"
+              ],
+              "answer": 1,
+              "explanation": "The top leg should do the work."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How far do you carry in a farmer's carry?",
+              "options": [
+                "About 20–40 m or 30–45 seconds",
+                "As far as you can walk in ten minutes",
+                "Two kilometres",
+                "One step, then put the weights down to rest"
+              ],
+              "answer": 0,
+              "explanation": "Short, heavy, tall."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You want a simple core exercise using your heaviest bell.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which carry fits best?",
+              "options": [
+                "A carry with no weight",
+                "Overhead walk with two hands",
+                "Farmer's carry with two light bells held at the chest",
+                "Suitcase carry"
+              ],
+              "answer": 3,
+              "explanation": "One-sided load makes the trunk resist leaning."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why put carries at the end of a session?",
+              "options": [
+                "They need the most technique, so you do them when fresh",
+                "They're cardio only",
+                "Simple, safe, and uses your heaviest kit",
+                "They warm up the shoulders"
+              ],
+              "answer": 2,
+              "explanation": "A good finisher."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr4-l07",
+      "level": "lesson",
+      "covers": [
+        "tr4-l07-kettlebell"
+      ],
+      "summary": {
+        "title": "Full-body kettlebell skills",
+        "points": [
+          "Get-up: eyes on the bell, arm locked, one step at a time; practise light.",
+          "Clean: hike, snap, elbow back, bell rolls into the rack at the chest.",
+          "Snatch: learn after swings and cleans; punch through to lock out overhead.",
+          "Rack position: bell on the forearm, wrist straight, elbow tucked.",
+          "Benefits beyond variety and conditioning are not well proven."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "The bell bangs your forearm at the top of each clean.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the fix?",
+              "options": [
+                "Swing it higher first",
+                "Elbow back, bell close, let it roll around the hand",
+                "Use a heavier bell so it moves slower",
+                "Grip the handle harder and curl the bell up to the chest"
+              ],
+              "answer": 1,
+              "explanation": "A close path stops the flip."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How often should a beginner practise the get-up?",
+              "options": [
+                "Never",
+                "Every day, heavy, at the end of each session",
+                "Only with a coach present",
+                "Once a week, light, at the start of a session"
+              ],
+              "answer": 3,
+              "explanation": "A slow skill, learnt light."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend wants to start kettlebells with snatches.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you suggest?",
+              "options": [
+                "Snatches first, because they're the best fat-burning exercise",
+                "Only get-ups",
+                "Swings and cleans first; snatch later",
+                "Only presses"
+              ],
+              "answer": 2,
+              "explanation": "Build the hinge and the path first."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where does a clean end?",
+              "options": [
+                "In the rack position",
+                "Overhead, with the arm locked out",
+                "Between the legs",
+                "On the floor"
+              ],
+              "answer": 0,
+              "explanation": "Bell on the forearm against the chest."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr4-b1",
+      "level": "block",
+      "covers": [
+        "tr4-l01-bracing",
+        "tr4-l02-squat",
+        "tr4-l03-hinge",
+        "tr4-l04-push"
+      ],
+      "summary": {
+        "title": "Safe lifting, squats, hinges, pushes",
+        "points": [
+          "Brace and breathe on every rep; pick up from the floor with hips back.",
+          "Squats: goblet first, then split squats to make light weights harder.",
+          "Hinges: deadlift, RDL, then swing; hips do the work.",
+          "Pushes: push-up versions, floor press, overhead press.",
+          "Progress the version, not just the reps."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You plan a lower-body pair and a push for session A with a 12 kg bell and 10 kg dumbbells.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which set fits best?",
+              "options": [
+                "Goblet squat at 12 kg, a two-hand deadlift at 12 kg and wall push-ups",
+                "Three curl variations",
+                "Split squat, single-leg RDL, feet-raised push-up",
+                "Swings only"
+              ],
+              "answer": 2,
+              "explanation": "One-sided and harder versions make light kit work."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your swing burns the shoulders. Which earlier exercise do you revisit?",
+              "options": [
+                "The push-up",
+                "The overhead press, to strengthen the shoulders first",
+                "The goblet squat",
+                "The kettlebell deadlift"
+              ],
+              "answer": 3,
+              "explanation": "Learn the hinge shape."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain how to pick a weight up safely from the floor.",
+              "modelAnswer": "Stand close with the bell between your feet, push the hips back and bend the knees with a flat back, brace, then stand by driving through the feet. Put it down the same way."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You can do 30 push-ups and 25 goblet squats at 12 kg.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the next step for each?",
+              "options": [
+                "Stop both and switch to cardio",
+                "Harder versions: feet-raised push-ups and split squats",
+                "More reps of the same: 50 push-ups and 40 squats",
+                "Lighter weights"
+              ],
+              "answer": 1,
+              "explanation": "Keep effort in the useful range."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does 'progress the version' mean?",
+              "options": [
+                "Switch to a harder variation of the same pattern",
+                "Add isolation work",
+                "Change to a completely different movement pattern each week",
+                "Do the exercise faster"
+              ],
+              "answer": 0,
+              "explanation": "Same pattern, more difficulty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr4-b2",
+      "level": "block",
+      "covers": [
+        "tr4-l05-pull",
+        "tr4-l06-lunge-carry",
+        "tr4-l07-kettlebell",
+        "tr4-l08-recap"
+      ],
+      "summary": {
+        "title": "Pulls, single legs, carries, skills",
+        "points": [
+          "Rows every session; band pulldowns fill the vertical pull.",
+          "Lunges and step-ups train one leg and balance.",
+          "Carries train grip and trunk; suitcase carries add side-trunk work.",
+          "Get-ups and cleans are skills: learn them light.",
+          "Swap within the pattern when kit, level or joints require it."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Session B needs a pull, a lunge, a carry and a skill, all in 30 minutes.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which combination fits?",
+              "options": [
+                "One-arm row, reverse lunge, suitcase carry, light get-up",
+                "Running intervals only",
+                "Push-ups, curls, crunches and planks",
+                "Snatches, pull-ups, Bulgarian squats and overhead walks"
+              ],
+              "answer": 0,
+              "explanation": "One per pattern, at your level."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where does the get-up go in the session?",
+              "options": [
+                "At the very end, when you're most tired",
+                "At the start, as a slow skill",
+                "Nowhere",
+                "Between every set"
+              ],
+              "answer": 1,
+              "explanation": "Skills need full attention."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Name a swap for each: no pull-up bar, wrist discomfort in push-ups, short on time.",
+              "modelAnswer": "No bar: rows plus band pulldowns. Wrist discomfort: floor press or push-ups on dumbbell handles. Short on time: replace two exercises with a set of swings."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your plan says 'one hinge' and RDLs with 12 kg feel easy.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which swap keeps the pattern?",
+              "options": [
+                "Goblet squat, since it also works the legs",
+                "Band pulldown",
+                "Single-leg RDL",
+                "Push-up"
+              ],
+              "answer": 2,
+              "explanation": "Same pattern, harder."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which pair balances the upper body without a bar?",
+              "options": [
+                "Curls and lateral raises",
+                "Overhead and floor press",
+                "Push-ups and floor press",
+                "Push-ups and one-arm rows"
+              ],
+              "answer": 3,
+              "explanation": "One push, one pull."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr4-m",
+      "level": "module",
+      "covers": [
+        "tr4-l01-bracing",
+        "tr4-l02-squat",
+        "tr4-l03-hinge",
+        "tr4-l04-push",
+        "tr4-l05-pull",
+        "tr4-l06-lunge-carry",
+        "tr4-l07-kettlebell",
+        "tr4-l08-recap"
+      ],
+      "summary": {
+        "title": "The exercise library: the whole picture",
+        "points": [
+          "Brace, breathe, and lift from the floor with hips back.",
+          "Each pattern has easier, main and harder exercises.",
+          "Light kit works with one-sided versions, slow lowering and harder variations.",
+          "Rows and bands cover pulling without a bar; carries finish sessions.",
+          "Kettlebell skills are learnt light; their extra benefits aren't well proven.",
+          "Keep the pattern, change the exercise."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You build a 30-minute full-body session with your current kit.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which set covers every main pattern?",
+              "options": [
+                "Split squat, single-leg RDL, push-up, one-arm row, suitcase carry",
+                "Push-up, floor press, overhead press, curl, lateral raise",
+                "Goblet squat, swing, deadlift, Romanian deadlift and a step-up",
+                "Five kettlebell snatch variations"
+              ],
+              "answer": 0,
+              "explanation": "Squat, hinge, push, pull, carry."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How do you set the weight for each?",
+              "options": [
+                "Guess and never change",
+                "Test sets with reps in reserve",
+                "Copy the starting load from the card regardless of feel",
+                "Use the heaviest weight you own for everything"
+              ],
+              "answer": 1,
+              "explanation": "Starting loads on the cards are only a guide."
+            },
+            {
+              "type": "mcq",
+              "prompt": "One exercise hurts a joint. What do you do?",
+              "options": [
+                "Push through the pain to finish the set",
+                "Drop the whole pattern for good",
+                "Stop it and swap within the pattern",
+                "Double the weight"
+              ],
+              "answer": 2,
+              "explanation": "Joint pain means change the exercise."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Looking back at your old routine: same push-ups and goblet squats every week.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does Module 4 give you that was missing?",
+              "options": [
+                "Machines",
+                "A cardio plan",
+                "A single perfect exercise to repeat every session forever",
+                "A menu of exercises per pattern, with easier and harder versions"
+              ],
+              "answer": 3,
+              "explanation": "Variety within patterns, and progressions."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which skill should wait until swings and cleans are solid?",
+              "options": [
+                "The push-up",
+                "The goblet squat",
+                "The snatch",
+                "The farmer's carry"
+              ],
+              "answer": 2,
+              "explanation": "Learn the hinge and path first."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Write the exercise card fields from memory.",
+              "modelAnswer": "Pattern, main muscles, equipment, set-up, cues, common errors, easier / harder, starting load."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

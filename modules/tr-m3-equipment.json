@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 6,
+  "id": "tr-m3-equipment",
+  "title": "Training 3: Equipment",
+  "discipline": "Training",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "tr3-l01-minimum-kit",
+      "title": "The minimum home kit",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Less than you think\n\nA home set-up for strength, muscle and fat loss needs few things:\n\n- weights you can progress with: kettlebells, dumbbells, or both\n- a mat for floor work\n- resistance bands, for pulling and extra load\n\nA typical starter set, like a 12 kg kettlebell, dumbbells up to 10 kg and a mat, is a good start for the upper body. The legs and hips will soon need more."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m3/minimum-kit.svg",
+          "alt": "Starter set: 12 kg kettlebell, dumbbells up to 10 kg, mat. Likely next: heavier kettlebell, adjustable dumbbells, bands. Later: door-frame bar, bench, tiles. About 2 × 2 m of floor is enough.",
+          "caption": "Home kit: starter, next, later",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.05
+        },
+        {
+          "type": "text",
+          "markdown": "## What you can skip\n\nYou don't need machines, a barbell and rack, a treadmill, or gadgets like vibration plates. A bench helps later but isn't essential: the floor works for presses, and a sturdy step or chair works for split squats and step-ups."
+        },
+        {
+          "type": "text",
+          "markdown": "## Space and floor\n\nAbout 2 × 2 m of clear floor is enough, with the ceiling high enough to press overhead. Kettlebells can mark wooden floors, so a mat or a couple of rubber tiles under the training spot is a good idea. Store weights low and away from where children play."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** don't buy anything yet. Module 3 helps you choose, and the kit planner at the end uses your baseline results to order the purchases."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr3-l01-minimum-kit-fc1",
+              "front": "Minimum home kit",
+              "back": "Progressable weights (kettlebells and/or dumbbells), a mat and resistance bands. A bench and a pull-up bar are optional."
+            },
+            {
+              "id": "tr3-l01-minimum-kit-fc2",
+              "front": "What you can skip",
+              "back": "Machines, a barbell and rack, a treadmill and gadgets. A bench helps later, but the floor and a sturdy step or chair work at first."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr3-l01-minimum-kit-q1",
+              "stem": "Which item is essential for a home strength programme?",
+              "options": [
+                "A treadmill",
+                "Weights you can progress with",
+                "A barbell and rack",
+                "A vibration plate"
+              ],
+              "correctIndex": 1,
+              "explanation": "Everything else is optional; the weights need to allow progression."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — home-gym set-up; equipment choice is a coaching recommendation, not a guideline.\n2. **Guideline** — ACSM Position Stand (Phillips SM, chair, et al.), *Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews*, Med Sci Sports Exerc, April 2026.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr3-l02-dumbbells",
+      "title": "Dumbbells: fixed or adjustable",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Three types\n\n- **Fixed dumbbells:** one weight each, usually rubber hex. Quick and robust, but a full range takes a lot of space and money.\n- **Spin-lock:** a bar with plates held by screw collars. Cheap and flexible, but slow to change, and the collars must be checked.\n- **Selector dumbbells:** you turn a dial or move a pin to pick the weight. Fast and compact, but bulky in the hand and more fragile if dropped."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m3/dumbbell-types.svg",
+          "alt": "Dumbbells. Fixed: fast change, much space, high cost, very durable. Spin-lock: slow change, little space, low cost, check collars. Selector: fast, little space, higher cost, avoid dropping.",
+          "caption": "Fixed, spin-lock or selector dumbbells",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.952
+        },
+        {
+          "type": "text",
+          "markdown": "## What weight range you'll need\n\nUpper-body pressing and rows often stay in a light to moderate range for months. Lower-body moves like goblet squats, split squats and Romanian deadlifts outgrow 10 kg quickly. Many men end up needing about 20–30 kg per hand for those within a year. That's a practice estimate, and your test sets decide it (Lesson 5)."
+        },
+        {
+          "type": "text",
+          "markdown": "## Small jumps matter\n\nGoing from 10 kg to 12.5 kg is a 25% jump: fine for squats, too big for an overhead press. Adjustable dumbbells with 1–2.5 kg steps let you progress in small, usable increments. That's one of their main advantages at home."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** if you buy dumbbells, adjustable ones up to about 20–24 kg per hand, with small steps, will last you much longer than more fixed pairs."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr3-l02-dumbbells-fc1",
+              "front": "Selector dumbbell",
+              "back": "An adjustable dumbbell where a dial or pin selects the weight. Fast to change and compact; don't drop it."
+            },
+            {
+              "id": "tr3-l02-dumbbells-fc2",
+              "front": "Why small jumps matter",
+              "back": "10 to 12.5 kg is a 25% jump: fine for squats, too big for an overhead press. Adjustable dumbbells with 1–2.5 kg steps allow usable increments."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr3-l02-dumbbells-q1",
+              "stem": "Why do small weight steps matter most for the overhead press?",
+              "options": [
+                "The press uses the legs",
+                "Shoulders are smaller muscles, so a big jump can be too much at once",
+                "Presses need machines",
+                "Steps don't matter for any exercise"
+              ],
+              "correctIndex": 1,
+              "explanation": "Smaller muscles progress in smaller absolute steps; a 25% jump can stall the movement."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — dumbbell types and typical weight needs; manufacturer specifications vary by model.\n2. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr3-l03-kettlebells",
+      "title": "Kettlebells: which ones to buy",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Two styles\n\n- **Cast-iron kettlebells:** cheaper. The bell and handle grow as the weight goes up.\n- **Competition kettlebells:** steel, with the same size and handle at every weight, so the technique feels the same. They're more expensive.\n\nFor home training, cast iron is fine. Look for a smooth handle with no sharp seams and a flat base."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m3/kettlebell-ladder.svg",
+          "alt": "Kettlebells from 8 to 32 kg. 8–12 kg for presses and get-ups; 16 kg for goblet squats and rows; 20–24 kg for swings and deadlifts; 28–32 kg later. Start: 16–24 kg for men, 8–16 kg for women.",
+          "caption": "The kettlebell ladder",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.216
+        },
+        {
+          "type": "text",
+          "markdown": "## Different moves, different bells\n\nThe same person uses very different weights by movement. Swings and deadlifts use the strong hip muscles and take the heaviest bell. Goblet squats and rows sit in the middle. Presses and get-ups use the lightest. Kettlebells usually come in 4 kg steps (8, 12, 16, 20, 24 kg…), and some brands also offer 2 kg steps."
+        },
+        {
+          "type": "text",
+          "markdown": "## Where your 12 kg fits\n\nCommon advice for men starting out is 16–24 kg, and for women 8–16 kg, depending on training history. A 12 kg bell is a good press and get-up bell for many men. For swings and goblet squats, a 16 or 20 kg bell is the likely next step. Your baseline goblet-squat result decides which."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** keep the 12 kg for presses and get-ups. Your next kettlebell, probably 16 or 20 kg, is for swings, squats and deadlifts."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr3-l03-kettlebells-fc1",
+              "front": "Cast iron vs competition kettlebell",
+              "back": "Cast iron: cheaper; size grows with weight. Competition: steel; same size at every weight; pricier."
+            },
+            {
+              "id": "tr3-l03-kettlebells-fc2",
+              "front": "Different moves, different bells",
+              "back": "Swings and deadlifts take the heaviest bell, goblet squats and rows the middle, and presses and get-ups the lightest."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr3-l03-kettlebells-q1",
+              "stem": "Which exercise usually takes the heaviest kettlebell?",
+              "options": [
+                "Overhead press",
+                "Swing",
+                "Turkish get-up",
+                "Halo"
+              ],
+              "correctIndex": 1,
+              "explanation": "Swings are driven by the hips, the strongest muscles in the body."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — kettlebell community guidance (e.g. Kettlebell Wiki, 'Getting started'): common starting weights of 16–24 kg for men and 8–16 kg for women; cast iron vs competition kettlebells.\n2. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr3-l04-extras",
+      "title": "Mat, bands, bar and bench",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Resistance bands\n\n**Resistance bands** add load that grows as the band stretches. Long loop bands and tube bands with a door anchor give you pulling exercises without a bar: pulldowns, face pulls and pull-aparts. They also help with pull-up practice later. A set of three strengths covers most needs."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m3/extras-table.svg",
+          "alt": "Pros and cons of extras. Mat: essential, 6–10 mm. Bands: cheap, add pulling. Door-frame bar: vertical pulling, needs a suitable frame. Bench: helpful later. Rubber tiles: protect the floor.",
+          "caption": "Extras: what each adds",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.907
+        },
+        {
+          "type": "text",
+          "markdown": "## A pull-up bar, or not\n\nVertical pulling is the one pattern your kit can't load yet. Door-frame bars either hang on the frame by leverage or screw into it. They need a solid frame, they can mark the trim, and every model has a weight limit. If your doors don't suit one, bands anchored high and plenty of rowing cover the back well. Outdoors, a playground bar or rings on a branch also work."
+        },
+        {
+          "type": "text",
+          "markdown": "## Bench and mat\n\nA flat or adjustable bench makes rows and incline presses easier later, but the floor and a sturdy step cover most moves at first. A 6–10 mm mat is comfortable for floor work and core."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** buy a set of bands early: they're cheap, they fill your vertical-pull gap, and they'll keep being useful."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr3-l04-extras-fc1",
+              "front": "Resistance band",
+              "back": "An elastic band whose resistance rises as it stretches. Adds pulling exercises and extra load without a bar or machine."
+            },
+            {
+              "id": "tr3-l04-extras-fc2",
+              "front": "Door-frame bar checks",
+              "back": "It needs a solid frame, can mark the trim, and every model has a weight limit. Otherwise, high-anchored bands and rowing cover the back well."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr3-l04-extras-q1",
+              "stem": "Without a pull-up bar, what's the simplest way to add vertical pulling?",
+              "options": [
+                "More push-ups",
+                "A band anchored high, for pulldowns",
+                "Heavier squats",
+                "Longer runs"
+              ],
+              "correctIndex": 1,
+              "explanation": "A high-anchored band lets you pull from overhead, like a pulldown."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — home equipment selection; follow each manufacturer's load rating and fitting instructions.\n2. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr3-l05-test-sets",
+      "title": "Finding your starting weights",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Test, don't guess\n\nThe right weight depends on the exercise and the number of reps you're aiming for. A **test set** finds it: you do one set with a chosen weight and judge how many more reps you could have done. That estimate is called **reps in reserve**, or RIR. Module 5 uses it throughout."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m3/test-set-flow.svg",
+          "alt": "Flow chart: pick a target such as 10–15 reps and do one set with a guess. More than 4 reps left: go heavier. 1–3 left: that's your weight. Couldn't finish: go lighter. Rest 2–3 minutes, repeat.",
+          "caption": "Finding a working weight with a test set",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.05
+        },
+        {
+          "type": "text",
+          "markdown": "## How to run one\n\n1. Pick the rep target for the exercise, for example 10–15.\n2. Choose a weight you think fits, and do one set with good form.\n3. Estimate how many more reps you had left.\n4. Adjust: more than about 4 left means go heavier; 1–3 left is your working weight; missing the target means go lighter.\n\nFor the first two weeks, err on the light side while you learn the technique."
+        },
+        {
+          "type": "text",
+          "markdown": "## What your baseline tells you\n\nIf you did 20 or more goblet squats with 12 kg in the baseline test, 12 kg is too light for 10–15-rep squat sets. That's a sign you need a heavier bell or dumbbells for the lower body. Push-ups work the same way: once you can do 25 or more, use harder variations (Module 4) rather than adding weight."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** run test sets for each exercise in your first week, and write the working weights in your log."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr3-l05-test-sets-fc1",
+              "front": "Reps in reserve (RIR)",
+              "back": "How many more reps you could have done at the end of a set. 1–3 RIR is a common working zone."
+            },
+            {
+              "id": "tr3-l05-test-sets-fc2",
+              "front": "Test set",
+              "back": "One set with a chosen weight to judge whether it's right for a rep target, using reps in reserve."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr3-l05-test-sets-q1",
+              "stem": "You aim for 10–15 reps and finish 15 with about 6 left. What next?",
+              "options": [
+                "Keep the weight",
+                "Go heavier",
+                "Go lighter",
+                "Stop the exercise"
+              ],
+              "correctIndex": 1,
+              "explanation": "More than about 4 in reserve means the weight is too light for the target."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — load selection by reps in reserve; RIR scales are covered with sources in Module 5.\n2. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr3-l06-buying-order",
+      "title": "What to buy, and in what order",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Buy for the bottleneck\n\nBuy the item that limits your training most right now, not the one that looks best. For most people starting at home with light weights, the order is:\n\n1. Heavier load for legs and hips: a 16 or 20 kg kettlebell, or adjustable dumbbells.\n2. Bands, to fill the pulling gap.\n3. A door-frame bar, if your doors allow it.\n4. A bench and floor tiles, later, if you need them."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m3/buying-order.svg",
+          "alt": "Timeline of three stages, each with the reason. Now: heavier load for the lower body. After 4–8 weeks: bands, and a pull-up bar if the door allows. Later: bench, more kettlebells, floor tiles.",
+          "caption": "A buying order that follows the bottleneck",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Tips\n\n- Second-hand cast-iron kettlebells and plates are usually fine. Check for cracks and rough handles.\n- Prefer adjustable dumbbells over several fixed pairs if space or money is tight.\n- Re-check after 4–8 weeks: progress shows what's limiting you next."
+        },
+        {
+          "type": "tool",
+          "src": "tools/kit-planner.html",
+          "title": "Kit planner",
+          "description": "Enter your baseline results, what you own and your budget. It suggests what to buy now, next and later, and explains why. It's a rule-of-thumb guide, not a prescription.",
+          "buttonLabel": "Plan my kit",
+          "estimatedMinutes": 3
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** use the kit planner with your baseline results. For most people with a 12 kg bell and 10 kg dumbbells, the first buy is heavier load for the legs and hips."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr3-l06-buying-order-fc1",
+              "front": "Buy for the bottleneck",
+              "back": "Buy what limits your training most right now, usually heavier load for the lower body first, then bands, then a bar."
+            },
+            {
+              "id": "tr3-l06-buying-order-fc2",
+              "front": "Re-check your kit",
+              "back": "Re-check after 4–8 weeks: progress shows what's limiting you next. Second-hand cast iron is usually fine; check for cracks and rough handles."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr3-l06-buying-order-q1",
+              "stem": "Your goblet-squat baseline was 28 reps at 12 kg, and you have no pull-up bar. What do you buy first?",
+              "options": [
+                "A bench",
+                "A heavier kettlebell or adjustable dumbbells",
+                "Lighter dumbbells",
+                "A foam roller"
+              ],
+              "correctIndex": 1,
+              "explanation": "The lower body has clearly outgrown 12 kg; that's the main limit."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — equipment purchasing by limiting factor; the kit planner applies rules of thumb from this module.\n2. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}

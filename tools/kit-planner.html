@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kit planner</title>
+<style>
+:root{--bg:#FFFFFF;--card:#F7F4EE;--ink:#1B2430;--muted:#5B6672;--line:#E3E8EE;--now:#C2185B;--nowl:#FBE4EE;--next:#B7791F;--nextl:#FFF1D6;--later:#5B6672;--laterl:#EEF1F4;--accent:#1F3A5F}
+@media (prefers-color-scheme:dark){:root{--bg:#14181E;--card:#1E242C;--ink:#E8ECF1;--muted:#9AA5B1;--line:#2C343E;--now:#F06292;--nowl:#3A1E2A;--next:#E0A84A;--nextl:#33281A;--later:#9AA5B1;--laterl:#232A33;--accent:#8DB4E2}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 "Atkinson Hyperlegible",Arial,Helvetica,sans-serif;padding:16px}
+h1{font-size:20px;margin:0 0 4px}
+p.sub{color:var(--muted);margin:0 0 16px;font-size:13px}
+fieldset{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:0 0 12px;background:var(--card)}
+legend{font-weight:700;padding:0 6px}
+label{display:block;margin:6px 0}
+.row{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center}
+input[type=number]{width:80px;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
+select{padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
+.chips label{display:inline-flex;align-items:center;gap:4px;margin:0 10px 0 0}
+button{background:var(--accent);color:var(--bg);border:0;border-radius:8px;padding:10px 18px;font:inherit;font-weight:700;cursor:pointer;width:100%}
+#out{margin-top:16px}
+.stage{border-radius:10px;padding:12px 14px;margin-bottom:10px;border-left:6px solid}
+.stage h2{font-size:16px;margin:0 0 6px}
+.stage ul{margin:0;padding-left:18px}
+.stage li{margin:6px 0}
+.why{color:var(--muted);font-size:13px;display:block}
+.now{background:var(--nowl);border-color:var(--now)} .now h2{color:var(--now)}
+.next{background:var(--nextl);border-color:var(--next)} .next h2{color:var(--next)}
+.later{background:var(--laterl);border-color:var(--later)} .later h2{color:var(--later)}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px}
+</style>
+</head>
+<body>
+<h1>Kit planner</h1>
+<p class="sub">Rules of thumb from Module 3. Use your baseline results. It suggests what to buy now, next and later, and why.</p>
+
+<fieldset><legend>Your baseline</legend>
+  <div class="row">
+    <label>Goblet squats at 12 kg <input id="gs" type="number" min="0" max="60" value="20"></label>
+    <label>Push-ups <input id="pu" type="number" min="0" max="100" value="15"></label>
+  </div>
+</fieldset>
+
+<fieldset><legend>What you own</legend>
+  <div class="chips" id="kbs">Kettlebells:
+    <label><input type="checkbox" value="8"> 8</label>
+    <label><input type="checkbox" value="12" checked> 12</label>
+    <label><input type="checkbox" value="16"> 16</label>
+    <label><input type="checkbox" value="20"> 20</label>
+    <label><input type="checkbox" value="24"> 24 kg</label>
+  </div>
+  <div class="row">
+    <label>Heaviest dumbbell (kg per hand) <input id="db" type="number" min="0" max="60" value="10"></label>
+    <label><input id="bands" type="checkbox"> I have resistance bands</label>
+  </div>
+</fieldset>
+
+<fieldset><legend>Your home</legend>
+  <div class="row">
+    <label>Door frame suits a pull-up bar?
+      <select id="door"><option value="unsure">Not sure</option><option value="yes">Yes</option><option value="no">No</option></select></label>
+    <label>Space
+      <select id="space"><option value="small">Small</option><option value="medium">Medium</option></select></label>
+    <label>Budget
+      <select id="budget"><option value="minimal">Minimal</option><option value="standard" selected>Standard</option><option value="generous">Generous</option></select></label>
+  </div>
+</fieldset>
+
+<button id="go" type="button">Plan my kit</button>
+<div id="out" aria-live="polite"></div>
+
+<script>
+(function(){
+  function $(id){return document.getElementById(id);}
+  function num(id,d){var v=parseFloat($(id).value);return isNaN(v)?d:v;}
+  function item(t,why){return {t:t,why:why};}
+  function plan(){
+    var gs=num('gs',0), pu=num('pu',0), db=num('db',0);
+    var owned=[].slice.call(document.querySelectorAll('#kbs input:checked')).map(function(x){return +x.value;});
+    var maxKb=owned.length?Math.max.apply(null,owned):0;
+    var bands=$('bands').checked, door=$('door').value, space=$('space').value, budget=$('budget').value;
+    var now=[], next=[], later=[];
+
+    // Lower-body load
+    var target=0;
+    if(gs>=30) target=20; else if(gs>=20) target=16;
+    if(target && maxKb>=target) target = maxKb+4 <= 24 ? maxKb+4 : 0;
+    var needLegs = target>0 || (gs>=20 && db<=12);
+    if(target){
+      now.push(item(target+' kg kettlebell', gs+' goblet squats at 12 kg means 12 kg is too light for 10–15-rep lower-body sets. A '+target+' kg bell suits goblet squats, swings and deadlifts.'));
+    } else if(gs<20){
+      later.push(item('A heavier kettlebell (16 kg)', 'Your 12 kg still works for squats for now. Re-test in 4–6 weeks: once you pass 20 reps, it is time.'));
+    }
+    if(db<=12 && (needLegs || budget!=='minimal')){
+      var dbItem = space==='small' || budget!=='minimal' ? 'Adjustable selector dumbbells, up to about 20–24 kg per hand' : 'Spin-lock dumbbells with plates, up to about 20 kg per hand';
+      var dbWhy = 'Lower-body moves (split squats, Romanian deadlifts) outgrow 10 kg quickly; small steps also help presses.' + (space==='small'?' Selector dumbbells save space.':'');
+      if(budget==='generous') now.push(item(dbItem, dbWhy)); else next.push(item(dbItem, dbWhy));
+    }
+
+    // Pulling
+    if(!bands) now.push(item('A set of resistance bands (light, medium, heavy)', 'Cheap, and the easiest way to add vertical pulling (band pulldowns) without a bar.'));
+    if(door==='yes'){
+      (budget==='minimal'?later:next).push(item('Door-frame pull-up bar', 'Adds the vertical pull your kit can’t load yet. Check the frame, the trim and the load rating.'));
+    } else if(door==='unsure'){
+      later.push(item('Pull-up bar, only if a door frame suits it', 'Check the frame first. Until then, bands and extra rows cover the back.'));
+    }
+
+    // Upper body and extras
+    if(pu>=25) next.push(item('Nothing new for push-ups yet', pu+' push-ups: use harder variations (Module 4) before buying more pressing kit.'));
+    later.push(item('Flat or adjustable bench', 'Makes rows and incline presses easier. The floor and a sturdy step work at first.'));
+    if(target || maxKb>=16) later.push(item('Rubber floor tiles', 'Protect the floor under heavier kettlebells, especially for swings.'));
+    if(budget==='generous' && target && target<24) later.push(item((target+4)+' kg kettlebell', 'For swings and deadlifts once '+target+' kg feels light for 15–20 reps.'));
+
+    function block(cls,title,arr){
+      if(!arr.length) return '';
+      return '<div class="stage '+cls+'"><h2>'+title+'</h2><ul>'+arr.map(function(i){return '<li><strong>'+i.t+'</strong><span class="why">'+i.why+'</span></li>';}).join('')+'</ul></div>';
+    }
+    $('out').innerHTML = block('now','Now',now) + block('next','Next (after 4–8 weeks)',next) + block('later','Later or optional',later)
+      + '<p class="note">Rules of thumb, not a prescription. Re-run it after each re-test. Second-hand cast-iron kettlebells are usually fine: check for cracks and rough handles.</p>';
+  }
+  $('go').addEventListener('click', plan);
+})();
+</script>
+</body>
+</html>

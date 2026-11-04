@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 20,
   "updated": "2026-11-04",
   "entries": [
     {
@@ -6368,6 +6368,339 @@
       ],
       "modules": [
         "tr-m1-goals"
+      ]
+    },
+    {
+      "id": "glutes",
+      "term": "Glutes",
+      "aliases": [
+        "gluteus maximus",
+        "buttock muscles"
+      ],
+      "category": "training",
+      "short": "The buttock muscles; the largest muscle group, driving hip extension in squats, hinges, lunges and sprints.",
+      "simpler": "Your bum muscles, and the engine for most lower-body lifts.",
+      "example": {
+        "moduleId": "tr-m2-patterns",
+        "text": "Lesson 2.1: the glutes, thighs and back carry the heaviest loads."
+      },
+      "notToConfuse": "Not the lower back: hinges should load the glutes, with the back held flat.",
+      "related": [
+        "hip-dominant",
+        "hinge"
+      ],
+      "modules": [
+        "tr-m2-patterns"
+      ]
+    },
+    {
+      "id": "movement-pattern",
+      "term": "Movement pattern",
+      "aliases": [
+        "pattern",
+        "basic movement pattern"
+      ],
+      "category": "training",
+      "short": "A family of exercises that move the body the same basic way: squat, hinge, lunge, push, pull, carry, rotate or resist rotation.",
+      "simpler": "A type of movement, like 'squat' or 'pull', rather than a body part.",
+      "example": {
+        "moduleId": "tr-m2-patterns",
+        "text": "Lesson 2.2: a full-body week touches every pattern."
+      },
+      "notToConfuse": "Not a fixed scientific list: coaches group patterns slightly differently.",
+      "related": [
+        "hinge",
+        "horizontal-vertical"
+      ],
+      "modules": [
+        "tr-m2-patterns"
+      ]
+    },
+    {
+      "id": "hinge",
+      "term": "Hinge",
+      "aliases": [
+        "hip hinge"
+      ],
+      "category": "training",
+      "short": "A movement where the hips move back with only a slight knee bend and a flat back, as in swings and Romanian deadlifts.",
+      "simpler": "Bending forward by pushing the hips back, not by rounding the back.",
+      "example": {
+        "moduleId": "tr-m2-patterns",
+        "text": "Lesson 2.2: a kettlebell swing is a hinge."
+      },
+      "notToConfuse": "Not a squat: in a squat, the knees and hips bend together and the torso stays more upright.",
+      "related": [
+        "hip-dominant",
+        "glutes"
+      ],
+      "modules": [
+        "tr-m2-patterns"
+      ]
+    },
+    {
+      "id": "horizontal-vertical",
+      "term": "Horizontal vs vertical push and pull",
+      "aliases": [
+        "horizontal push",
+        "vertical push",
+        "horizontal pull",
+        "vertical pull"
+      ],
+      "category": "training",
+      "short": "Horizontal: pushing or pulling in front of the chest (push-up, row). Vertical: overhead (press, pull-up, pulldown).",
+      "simpler": "Pushing or pulling in front of you versus above your head.",
+      "example": {
+        "moduleId": "tr-m2-patterns",
+        "text": "Lesson 2.3: without a pull-up bar, the vertical pull is the gap; a high band fills it."
+      },
+      "notToConfuse": "Not about body position: a row done bent over is still a horizontal pull relative to the torso.",
+      "related": [
+        "movement-pattern",
+        "resistance-band"
+      ],
+      "modules": [
+        "tr-m2-patterns"
+      ]
+    },
+    {
+      "id": "knee-dominant",
+      "term": "Knee-dominant",
+      "aliases": [
+        "quad-dominant"
+      ],
+      "category": "training",
+      "short": "Lower-body exercises where the knees bend a lot and travel forward, loading the quadriceps most (squats, split squats).",
+      "simpler": "Exercises where your knees do most of the bending.",
+      "example": {
+        "moduleId": "tr-m2-patterns",
+        "text": "Lesson 2.4: the goblet squat is knee-dominant."
+      },
+      "notToConfuse": "Not knee-only: the hips work too, just less.",
+      "related": [
+        "hip-dominant"
+      ],
+      "modules": [
+        "tr-m2-patterns"
+      ]
+    },
+    {
+      "id": "hip-dominant",
+      "term": "Hip-dominant",
+      "aliases": [
+        "posterior chain exercise"
+      ],
+      "category": "training",
+      "short": "Lower-body exercises where the hips move back and the shins stay fairly vertical, loading the glutes and hamstrings most (hinges, swings).",
+      "simpler": "Exercises where your hips do most of the work.",
+      "example": {
+        "moduleId": "tr-m2-patterns",
+        "text": "Lesson 2.4: pair a hip-dominant move with a knee-dominant one in each session."
+      },
+      "notToConfuse": "Not a back exercise: the back stays flat while the hips do the work.",
+      "related": [
+        "knee-dominant",
+        "hinge",
+        "glutes"
+      ],
+      "modules": [
+        "tr-m2-patterns"
+      ]
+    },
+    {
+      "id": "unilateral",
+      "term": "Unilateral training",
+      "aliases": [
+        "single-leg training",
+        "single-arm training",
+        "one-sided training"
+      ],
+      "category": "training",
+      "short": "Exercises that work one side at a time, like split squats or one-arm rows.",
+      "simpler": "Working one arm or one leg at a time.",
+      "example": {
+        "moduleId": "tr-m2-patterns",
+        "text": "Lesson 2.5: one-sided work makes light dumbbells harder and trains balance for sport."
+      },
+      "notToConfuse": "Not less effective: in studies, gains followed the way you trained.",
+      "related": [
+        "knee-dominant"
+      ],
+      "modules": [
+        "tr-m2-patterns"
+      ]
+    },
+    {
+      "id": "free-weights",
+      "term": "Free weights",
+      "aliases": [
+        "dumbbells and kettlebells"
+      ],
+      "category": "training",
+      "short": "Weights whose path you control yourself, such as dumbbells, kettlebells and barbells.",
+      "simpler": "Weights not attached to a machine.",
+      "example": {
+        "moduleId": "tr-m2-patterns",
+        "text": "Lesson 2.6: similar muscle growth to machines in a 2023 meta-analysis."
+      },
+      "notToConfuse": "Not the same as bodyweight training, though both need you to stabilise.",
+      "related": [
+        "compound-exercise"
+      ],
+      "modules": [
+        "tr-m2-patterns"
+      ]
+    },
+    {
+      "id": "compound-exercise",
+      "term": "Compound exercise",
+      "aliases": [
+        "multi-joint exercise"
+      ],
+      "category": "training",
+      "short": "An exercise that moves several joints and trains several muscle groups at once (squat, row, press, swing).",
+      "simpler": "A big movement that works lots of muscles together.",
+      "example": {
+        "moduleId": "tr-m2-patterns",
+        "text": "Lesson 2.7: build each 30-minute session from 4–5 compound exercises."
+      },
+      "notToConfuse": "Not the opposite of 'hard': isolation exercises can be hard too, they just train less muscle at once.",
+      "related": [
+        "isolation-exercise"
+      ],
+      "modules": [
+        "tr-m2-patterns"
+      ]
+    },
+    {
+      "id": "isolation-exercise",
+      "term": "Isolation exercise",
+      "aliases": [
+        "single-joint exercise"
+      ],
+      "category": "training",
+      "short": "An exercise that moves one joint and targets one muscle (curl, lateral raise, calf raise).",
+      "simpler": "A small exercise for one muscle.",
+      "example": {
+        "moduleId": "tr-m2-patterns",
+        "text": "Lesson 2.7: in short studies of beginners, adding arm isolation work added little."
+      },
+      "notToConfuse": "Not useless: it suits muscles compound moves train less, like the side of the shoulders.",
+      "related": [
+        "compound-exercise"
+      ],
+      "modules": [
+        "tr-m2-patterns"
+      ]
+    },
+    {
+      "id": "selector-dumbbell",
+      "term": "Selector dumbbell",
+      "aliases": [
+        "adjustable dumbbell",
+        "dial dumbbell"
+      ],
+      "category": "training",
+      "short": "An adjustable dumbbell where a dial or pin selects the weight; fast to change and compact.",
+      "simpler": "One dumbbell that becomes many weights with a twist of a dial.",
+      "example": {
+        "moduleId": "tr-m3-equipment",
+        "text": "Lesson 3.2: adjustable dumbbells with 1–2.5 kg steps make small progressions possible."
+      },
+      "notToConfuse": "Not a spin-lock dumbbell, where plates are changed by hand and held by screw collars.",
+      "related": [
+        "free-weights"
+      ],
+      "modules": [
+        "tr-m3-equipment"
+      ]
+    },
+    {
+      "id": "cast-iron-kettlebell",
+      "term": "Cast-iron vs competition kettlebell",
+      "aliases": [
+        "competition kettlebell",
+        "cast iron kettlebell"
+      ],
+      "category": "training",
+      "short": "Cast iron: cheaper, and the bell grows with the weight. Competition: steel, the same size at every weight, pricier.",
+      "simpler": "Two kettlebell styles: budget iron bells, or steel bells that are all the same size.",
+      "example": {
+        "moduleId": "tr-m3-equipment",
+        "text": "Lesson 3.3: cast iron is fine for home training."
+      },
+      "notToConfuse": "Not a difference in training effect: a 16 kg bell is 16 kg either way.",
+      "related": [
+        "free-weights"
+      ],
+      "modules": [
+        "tr-m3-equipment"
+      ]
+    },
+    {
+      "id": "resistance-band",
+      "term": "Resistance band",
+      "aliases": [
+        "band",
+        "loop band",
+        "tube band"
+      ],
+      "category": "training",
+      "short": "An elastic band whose resistance rises as it stretches, used to add load or pulling exercises.",
+      "simpler": "A stretchy band that gets harder the more you stretch it.",
+      "example": {
+        "moduleId": "tr-m3-equipment",
+        "text": "Lesson 3.4: a band anchored high gives a pulldown without a pull-up bar."
+      },
+      "notToConfuse": "Not only for rehab: bands build strength and muscle too.",
+      "related": [
+        "horizontal-vertical"
+      ],
+      "modules": [
+        "tr-m3-equipment"
+      ]
+    },
+    {
+      "id": "reps-in-reserve",
+      "term": "Reps in reserve (RIR)",
+      "aliases": [
+        "RIR",
+        "reps in the tank"
+      ],
+      "category": "training",
+      "short": "How many more reps you could have done at the end of a set; 1–3 RIR is a common working zone.",
+      "simpler": "How many more you had left in you.",
+      "example": {
+        "moduleId": "tr-m3-equipment",
+        "text": "Lesson 3.5: more than about 4 RIR on a test set means go heavier."
+      },
+      "notToConfuse": "Not the same as RPE, a related 1–10 effort scale (Module 5).",
+      "related": [
+        "test-set"
+      ],
+      "modules": [
+        "tr-m3-equipment"
+      ]
+    },
+    {
+      "id": "test-set",
+      "term": "Test set",
+      "aliases": [
+        "trial set"
+      ],
+      "category": "training",
+      "short": "One set with a chosen weight to judge whether it fits a rep target, using reps in reserve.",
+      "simpler": "A try-out set to find the right weight.",
+      "example": {
+        "moduleId": "tr-m3-equipment",
+        "text": "Lesson 3.5: run test sets in week one and log the working weights."
+      },
+      "notToConfuse": "Not a max test: you stop with reps left, well before failure.",
+      "related": [
+        "reps-in-reserve"
+      ],
+      "modules": [
+        "tr-m3-equipment"
       ]
     }
   ]

@@ -1,0 +1,792 @@
+{
+  "moduleId": "tr-m3-equipment",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "tr3-b1",
+      "title": "Weights and extras",
+      "lessons": [
+        "tr3-l01-minimum-kit",
+        "tr3-l02-dumbbells",
+        "tr3-l03-kettlebells",
+        "tr3-l04-extras"
+      ]
+    },
+    {
+      "id": "tr3-b2",
+      "title": "Choosing loads and buying",
+      "lessons": [
+        "tr3-l05-test-sets",
+        "tr3-l06-buying-order"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-tr3-l01",
+      "level": "lesson",
+      "covers": [
+        "tr3-l01-minimum-kit"
+      ],
+      "summary": {
+        "title": "The minimum home kit",
+        "points": [
+          "You need progressable weights, a mat and bands.",
+          "A starter set of a 12 kg bell, dumbbells to 10 kg and a mat covers the upper body.",
+          "Legs and hips soon need more load.",
+          "Skip machines, barbells, treadmills and gadgets.",
+          "About 2 × 2 m of floor; protect it under kettlebells."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A friend wants to start at home on a small budget.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's essential?",
+              "options": [
+                "A treadmill, because cardio is the base for fat loss",
+                "Weights you can progress with, plus a mat",
+                "A barbell and rack",
+                "A vibration plate"
+              ],
+              "answer": 1,
+              "explanation": "Everything else is optional."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What can replace a bench at first?",
+              "options": [
+                "A foam roller",
+                "A treadmill",
+                "The floor and a sturdy step",
+                "Nothing; a bench is required for presses"
+              ],
+              "answer": 2,
+              "explanation": "Floor presses and step-ups work."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your kettlebell has left marks on a wooden floor.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the simple fix?",
+              "options": [
+                "A mat or rubber tiles under the training spot",
+                "Switching to machines, which never touch the floor",
+                "Training only upper body",
+                "Using lighter weights"
+              ],
+              "answer": 0,
+              "explanation": "Protect the floor."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How much space do you need?",
+              "options": [
+                "Space for a rack",
+                "A dedicated room of at least 20 square metres",
+                "None",
+                "About 2 × 2 m, with room to press overhead"
+              ],
+              "answer": 3,
+              "explanation": "Small spaces work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr3-l02",
+      "level": "lesson",
+      "covers": [
+        "tr3-l02-dumbbells"
+      ],
+      "summary": {
+        "title": "Dumbbells",
+        "points": [
+          "Fixed: quick and robust, but a range takes space and money.",
+          "Spin-lock: cheap, slow to change; check the collars.",
+          "Selector: fast and compact, bulky, fragile if dropped.",
+          "Lower-body moves often need about 20–30 kg per hand within a year (practice estimate).",
+          "Small steps (1–2.5 kg) matter, especially for presses."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You have little space and want a full range of weights.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which type fits?",
+              "options": [
+                "Machines",
+                "Fixed rubber hex dumbbells in every weight up to 30 kg",
+                "Selector dumbbells",
+                "Only one fixed pair"
+              ],
+              "answer": 2,
+              "explanation": "Compact and quick to change."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the main care point with spin-lock dumbbells?",
+              "options": [
+                "Keep them in a dry box",
+                "Check the collars are tight",
+                "Use them only for curls",
+                "Never drop them, since the dial mechanism breaks"
+              ],
+              "answer": 1,
+              "explanation": "Loose collars are the risk."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your press stalls going from 10 kg to 12.5 kg dumbbells.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why?",
+              "options": [
+                "Dumbbells over 10 kg aren't suitable for pressing",
+                "You need a machine",
+                "Presses are a leg exercise",
+                "A 25% jump is large for a small muscle group"
+              ],
+              "answer": 3,
+              "explanation": "Small steps matter."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What would help?",
+              "options": [
+                "Adjustable dumbbells with smaller steps",
+                "A bench",
+                "Skipping the press entirely and only doing push-ups",
+                "Heavier dumbbells"
+              ],
+              "answer": 0,
+              "explanation": "Or add reps first (Module 6)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr3-l03",
+      "level": "lesson",
+      "covers": [
+        "tr3-l03-kettlebells"
+      ],
+      "summary": {
+        "title": "Kettlebells",
+        "points": [
+          "Cast iron: cheaper; the bell grows with weight. Competition: same size at every weight, pricier.",
+          "Common sizes in 4 kg steps: 8, 12, 16, 20, 24 kg…",
+          "Swings and deadlifts take the heaviest bell; presses and get-ups the lightest.",
+          "Common starting advice: 16–24 kg for men, 8–16 kg for women, depending on history.",
+          "A 12 kg bell is a good press bell; 16 or 20 kg is the likely next one."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You own a 12 kg bell and swings feel easy.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which bell do you add?",
+              "options": [
+                "8 kg, so that you can swing faster and longer",
+                "16 or 20 kg",
+                "32 kg",
+                "Another 12 kg"
+              ],
+              "answer": 1,
+              "explanation": "Swings use the strong hips."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What stays the job of the 12 kg?",
+              "options": [
+                "Presses and get-ups",
+                "Nothing; sell it",
+                "Only carries",
+                "Swings and deadlifts, which need the lightest bell"
+              ],
+              "answer": 0,
+              "explanation": "Lighter moves use lighter bells."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A shop offers a competition bell at twice the cast-iron price.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Do you need it for home training?",
+              "options": [
+                "Only for women",
+                "Yes: cast-iron bells give a weaker training effect",
+                "Yes: competition bells are required for swings",
+                "No: cast iron is fine"
+              ],
+              "answer": 3,
+              "explanation": "16 kg is 16 kg either way."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What do you check on any kettlebell?",
+              "options": [
+                "That it's painted in the brand's competition colours",
+                "That it's plastic-coated",
+                "A smooth handle with no sharp seams and a flat base",
+                "That it's hollow"
+              ],
+              "answer": 2,
+              "explanation": "Comfort and stability."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr3-l04",
+      "level": "lesson",
+      "covers": [
+        "tr3-l04-extras"
+      ],
+      "summary": {
+        "title": "Mat, bands, bar and bench",
+        "points": [
+          "Bands add load that grows with stretch, and give pulling without a bar.",
+          "A set of three strengths covers most needs.",
+          "Door-frame bars need a solid frame, can mark trim, and have weight limits.",
+          "A bench helps later; a 6–10 mm mat is comfortable for floor work.",
+          "Buy bands early: cheap and useful."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your doors have narrow, decorative frames.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do you add vertical pulling?",
+              "options": [
+                "Nothing; skip vertical pulls",
+                "A screw-in bar fitted to the decorative frame anyway",
+                "More push-ups",
+                "A band anchored high for pulldowns"
+              ],
+              "answer": 3,
+              "explanation": "Bands fill the gap."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What else covers the back well?",
+              "options": [
+                "Stretching",
+                "Running",
+                "Plenty of rowing",
+                "Overhead presses with a heavier bell"
+              ],
+              "answer": 2,
+              "explanation": "Horizontal pulls."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You're choosing between a bench and a band set.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which first, and why?",
+              "options": [
+                "Bands: cheap, and they fill the pulling gap",
+                "Both, before any weights",
+                "The bench, because presses are impossible without one",
+                "Neither; buy a treadmill"
+              ],
+              "answer": 0,
+              "explanation": "The floor covers presses at first."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How does a band's resistance behave?",
+              "options": [
+                "It stays constant throughout the movement",
+                "It rises as the band stretches",
+                "It falls as it stretches",
+                "It depends on the room temperature only"
+              ],
+              "answer": 1,
+              "explanation": "That's what makes them different from weights."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr3-l05",
+      "level": "lesson",
+      "covers": [
+        "tr3-l05-test-sets"
+      ],
+      "summary": {
+        "title": "Finding your starting weights",
+        "points": [
+          "A test set finds the right weight for a rep target.",
+          "Reps in reserve (RIR): how many more reps you could have done.",
+          "More than ~4 left: go heavier. 1–3 left: your weight. Target missed: lighter.",
+          "First two weeks: err on the light side while learning technique.",
+          "20+ goblet squats at 12 kg means 12 kg is too light for 10–15-rep sets."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Target 10–15 reps. You finish 15 rows with about 6 left.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you do?",
+              "options": [
+                "Keep the weight and add a set, since it's still useful",
+                "Go heavier",
+                "Stop rowing",
+                "Go lighter"
+              ],
+              "answer": 1,
+              "explanation": "More than ~4 in reserve."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You manage 9 reps of a press and can't do a 10th. What then?",
+              "options": [
+                "Keep the weight; 9 is close enough",
+                "Go heavier",
+                "Switch to curls",
+                "Go lighter for this target"
+              ],
+              "answer": 3,
+              "explanation": "The target was missed."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your baseline: 26 goblet squats at 12 kg.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does it tell you?",
+              "options": [
+                "12 kg is too light for 10–15-rep squat sets",
+                "12 kg is perfect for strength work in the 3–5 rep range",
+                "You should squat less often",
+                "Nothing about load"
+              ],
+              "answer": 0,
+              "explanation": "You need more load for legs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When should you go lighter than the test suggests?",
+              "options": [
+                "Only for upper-body moves",
+                "Only on cardio days",
+                "In the first two weeks, while learning technique",
+                "Never; always use the heaviest weight possible"
+              ],
+              "answer": 2,
+              "explanation": "Technique first."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr3-l06",
+      "level": "lesson",
+      "covers": [
+        "tr3-l06-buying-order"
+      ],
+      "summary": {
+        "title": "What to buy, and when",
+        "points": [
+          "Buy for the bottleneck: what limits training most right now.",
+          "Usual order: heavier lower-body load, then bands, then a bar if the door allows, then bench and tiles.",
+          "Second-hand cast iron is usually fine; check for cracks and rough handles.",
+          "Prefer adjustable dumbbells if space or money is tight.",
+          "Re-check every 4–8 weeks; the kit planner applies these rules."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Baseline: 28 goblet squats at 12 kg, 18 push-ups, no bar, no bands.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What goes in 'now'?",
+              "options": [
+                "A 16 kg kettlebell and a band set",
+                "A bench and heavier dumbbells for pressing",
+                "A treadmill",
+                "Nothing until week 12"
+              ],
+              "answer": 0,
+              "explanation": "Legs are the bottleneck; bands are cheap."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When do you re-check?",
+              "options": [
+                "Only once, at the start, then never again",
+                "Every day",
+                "After 4–8 weeks",
+                "After a year"
+              ],
+              "answer": 2,
+              "explanation": "Progress shows the next limit."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A second-hand 20 kg kettlebell is for sale.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you check?",
+              "options": [
+                "The paint colour",
+                "Cracks and a rough handle",
+                "The brand logo",
+                "The original receipt and the warranty card"
+              ],
+              "answer": 1,
+              "explanation": "Cast iron is durable if sound."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which principle decides the order of purchases?",
+              "options": [
+                "Buy everything at once",
+                "Buy the most expensive item first",
+                "Buy what looks best in the room first",
+                "Buy for the bottleneck"
+              ],
+              "answer": 3,
+              "explanation": "What limits you most right now."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr3-b1",
+      "level": "block",
+      "covers": [
+        "tr3-l01-minimum-kit",
+        "tr3-l02-dumbbells",
+        "tr3-l03-kettlebells",
+        "tr3-l04-extras"
+      ],
+      "summary": {
+        "title": "Weights and extras",
+        "points": [
+          "Essentials: progressable weights, a mat, bands.",
+          "Dumbbells: fixed, spin-lock or selector; small steps matter.",
+          "Kettlebells: cast iron is fine; heavier bells for hips, lighter for presses.",
+          "Bands fill the vertical-pull gap; a door-frame bar if the frame allows.",
+          "A bench and tiles can wait."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Small flat, standard budget, kit: 12 kg bell and dumbbells to 10 kg.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which dumbbell type suits the space?",
+              "options": [
+                "None; dumbbells don't help",
+                "A full rack of fixed hex dumbbells from 2 to 30 kg",
+                "More 10 kg pairs",
+                "Selector dumbbells"
+              ],
+              "answer": 3,
+              "explanation": "Compact and adjustable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which kettlebell job stays with the 12 kg?",
+              "options": [
+                "Presses and get-ups",
+                "None",
+                "Deadlifts",
+                "Swings, which need the lightest bell"
+              ],
+              "answer": 0,
+              "explanation": "Light moves, light bell."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain why bands are an early buy.",
+              "modelAnswer": "They're cheap and portable, they add load that grows with stretch, and anchored high they give a pulldown, filling the vertical-pull gap when you have no pull-up bar."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend plans to buy a bench, a treadmill and a competition kettlebell first.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What would you suggest instead?",
+              "options": [
+                "Only a bench",
+                "A heavier cast-iron bell or adjustable dumbbells, and bands",
+                "Only a treadmill",
+                "The same, since that's the standard home-gym order"
+              ],
+              "answer": 1,
+              "explanation": "Buy what limits training."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why skip the treadmill?",
+              "options": [
+                "Cardio is harmful",
+                "Treadmills build more muscle than weights",
+                "Sport and walking already cover cardio",
+                "They're not allowed at home"
+              ],
+              "answer": 2,
+              "explanation": "It doesn't fill a strength gap."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr3-b2",
+      "level": "block",
+      "covers": [
+        "tr3-l05-test-sets",
+        "tr3-l06-buying-order"
+      ],
+      "summary": {
+        "title": "Choosing loads and buying",
+        "points": [
+          "Test sets with reps in reserve find working weights.",
+          "More than ~4 left: heavier; 1–3: keep; target missed: lighter.",
+          "Baseline results show where the kit runs out.",
+          "Buy for the bottleneck, usually lower-body load first.",
+          "Re-check every 4–8 weeks with the kit planner."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Week one of your new programme.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you do for each exercise?",
+              "options": [
+                "Guess and never adjust",
+                "Use the heaviest weight you own for every exercise",
+                "Copy a friend's weights",
+                "Run test sets and log the working weights"
+              ],
+              "answer": 3,
+              "explanation": "Test, don't guess."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your goblet-squat test leaves 6 reps in reserve at 12 kg. What follows?",
+              "options": [
+                "The lower body needs heavier load",
+                "Squat less often",
+                "Nothing",
+                "The upper body needs heavier load"
+              ],
+              "answer": 0,
+              "explanation": "That's the bottleneck."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Describe how to run a test set in three steps.",
+              "modelAnswer": "Pick a rep target, for example 10–15. Do one set with a guessed weight and good form. Estimate reps in reserve: more than about 4 left, go heavier; 1–3, keep it; target missed, go lighter."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "After 6 weeks, presses stall and squats are easy with the new 16 kg bell.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the next bottleneck?",
+              "options": [
+                "A treadmill",
+                "Small press steps: adjustable dumbbells",
+                "A 32 kg bell for presses",
+                "A bench, because presses need back support"
+              ],
+              "answer": 1,
+              "explanation": "Small steps help presses."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What tool helps decide?",
+              "options": [
+                "The PAR-Q+ questionnaire",
+                "The muscle map",
+                "The kit planner, with your re-test results",
+                "The decision log"
+              ],
+              "answer": 2,
+              "explanation": "Re-run it after each re-test."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr3-m",
+      "level": "module",
+      "covers": [
+        "tr3-l01-minimum-kit",
+        "tr3-l02-dumbbells",
+        "tr3-l03-kettlebells",
+        "tr3-l04-extras",
+        "tr3-l05-test-sets",
+        "tr3-l06-buying-order"
+      ],
+      "summary": {
+        "title": "Equipment: the whole picture",
+        "points": [
+          "Minimum kit: progressable weights, a mat and bands.",
+          "Dumbbells: selector or spin-lock for small steps and little space.",
+          "Kettlebells: cast iron; heavier for swings and squats, lighter for presses.",
+          "Bands fill the pulling gap; a bar only if the door allows.",
+          "Test sets with reps in reserve set your loads.",
+          "Buy for the bottleneck and re-check every 4–8 weeks."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You plan your purchases from a baseline of 24 goblet squats at 12 kg.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the first buy?",
+              "options": [
+                "A bench",
+                "A 16 kg kettlebell",
+                "A lighter 8 kg bell to master swing technique",
+                "A treadmill"
+              ],
+              "answer": 1,
+              "explanation": "20–29 reps at 12 kg points to 16 kg."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the cheap early buy that fills a gap?",
+              "options": [
+                "Resistance bands",
+                "Rubber floor tiles",
+                "A competition kettlebell set",
+                "A second 12 kg bell"
+              ],
+              "answer": 0,
+              "explanation": "Vertical pulling without a bar."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How do you set the working weight on day one?",
+              "options": [
+                "The weight printed on the programme",
+                "The heaviest weight you can lift once",
+                "Test sets with reps in reserve",
+                "A random choice"
+              ],
+              "answer": 2,
+              "explanation": "1–3 RIR is the working zone."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Three months on, you've bought a 16 kg bell and bands.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "When do you consider the next purchase?",
+              "options": [
+                "When a sale appears",
+                "Immediately, to keep the motivation going",
+                "Never; the kit is complete",
+                "When re-tests show a new bottleneck"
+              ],
+              "answer": 3,
+              "explanation": "Buy for the bottleneck."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which item is optional for most home trainees?",
+              "options": [
+                "A mat",
+                "Progressable weights",
+                "Bands",
+                "A bench"
+              ],
+              "answer": 3,
+              "explanation": "The floor works at first."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain 'buy for the bottleneck' with your own example.",
+              "modelAnswer": "Buy what limits training most right now. For example: if 12 kg goblet squats are too easy, a 16 kg kettlebell comes before a bench, because legs are what can't progress."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

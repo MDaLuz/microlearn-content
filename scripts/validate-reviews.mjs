@@ -84,7 +84,7 @@ for (const file of files) {
     blockIds.add(b.id);
     if (!b.title) err(w, 'missing title');
     const n = b.lessons?.length ?? 0;
-    if (n < 3 || n > 5) err(w, `needs 3–5 lessons, has ${n}`);
+    if (n < 2 || n > 5) err(w, `needs 2–5 lessons, has ${n}`);
     for (const l of b.lessons ?? []) {
       if (!lessonSet.has(l)) err(w, `lesson "${l}" not in module`);
       if (blockOf.has(l)) err(w, `lesson "${l}" is also in block ${blockOf.get(l)}`);

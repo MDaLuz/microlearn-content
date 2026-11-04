@@ -1,0 +1,875 @@
+{
+  "moduleId": "tr-m2-patterns",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "tr2-b1",
+      "title": "Muscles and patterns",
+      "lessons": [
+        "tr2-l01-muscle-map",
+        "tr2-l02-patterns",
+        "tr2-l03-push-pull",
+        "tr2-l04-knee-hip"
+      ]
+    },
+    {
+      "id": "tr2-b2",
+      "title": "Choosing exercises",
+      "lessons": [
+        "tr2-l05-unilateral",
+        "tr2-l06-free-vs-machine",
+        "tr2-l07-compound"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-tr2-l01",
+      "level": "lesson",
+      "covers": [
+        "tr2-l01-muscle-map"
+      ],
+      "summary": {
+        "title": "A muscle map you need",
+        "points": [
+          "About ten big groups: chest, shoulders, biceps, abdominals, quadriceps on the front.",
+          "Upper back, lats, triceps, glutes, hamstrings, calves on the back.",
+          "Most muscle mass sits in the legs, hips and back.",
+          "Muscles work in teams; plan movements and the muscles come with them."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your weekly routine: push-ups, curls, crunches and running.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which big groups get no strength work?",
+              "options": [
+                "None; running covers the rest",
+                "Biceps only",
+                "Glutes, hamstrings, quads and back",
+                "Chest and triceps, since push-ups only train the shoulders"
+              ],
+              "answer": 2,
+              "explanation": "Most of your muscle mass is untrained."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why start a programme from legs, hips and back?",
+              "options": [
+                "Arms can't be trained at home",
+                "They're the biggest groups and carry the heaviest loads",
+                "They're the easiest muscles to grow with light dumbbells",
+                "They don't need recovery"
+              ],
+              "answer": 1,
+              "explanation": "More muscle per session, more energy used."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend asks which muscles a push-up trains.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Best answer?",
+              "options": [
+                "Only the chest, since that's the main muscle in the movement",
+                "Mainly the lower back",
+                "Only the arms",
+                "Chest, front of shoulders and triceps, with the abs holding the body straight"
+              ],
+              "answer": 3,
+              "explanation": "Muscles work in teams."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where are the hamstrings?",
+              "options": [
+                "Back of the thighs",
+                "Calves",
+                "Lower back",
+                "Front of the thighs, above the knee"
+              ],
+              "answer": 0,
+              "explanation": "The quadriceps are at the front."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr2-l02",
+      "level": "lesson",
+      "covers": [
+        "tr2-l02-patterns"
+      ],
+      "summary": {
+        "title": "Movement patterns",
+        "points": [
+          "Seven patterns: squat, hinge, lunge, push, pull, carry, rotate or resist rotation.",
+          "Squat: knees and hips bend together. Hinge: hips go back, slight knee bend.",
+          "Carry: walking with weight. Rotate: turning, or resisting being twisted.",
+          "A full-body week touches every pattern; two sessions can share them out.",
+          "A teaching model: coaches' lists vary."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You map your current circuit: goblet squats, push-ups, curls, crunches.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which patterns are missing?",
+              "options": [
+                "Squat and push, which are the two most important patterns",
+                "None; curls count as a pull",
+                "Hinge, lunge, pull and carry",
+                "Only rotation"
+              ],
+              "answer": 2,
+              "explanation": "Curls are isolation, not a pulling pattern."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which pattern is a farmer's carry?",
+              "options": [
+                "Carry",
+                "Hinge, because you pick the weights up from the floor",
+                "Squat",
+                "Push"
+              ],
+              "answer": 0,
+              "explanation": "Walking while holding weight."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A coach lists 'push, pull, hinge, squat, carry' and leaves out lunges.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Is that wrong?",
+              "options": [
+                "No: lunges aren't real exercises",
+                "No: lists vary; it's a teaching model",
+                "Yes: lunges are the most important pattern",
+                "Yes: the seven-pattern list is an official guideline"
+              ],
+              "answer": 1,
+              "explanation": "The point is covering the body, not the exact list."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which exercise is a hinge?",
+              "options": [
+                "Overhead press",
+                "Goblet squat with an upright torso",
+                "Reverse lunge",
+                "Kettlebell swing"
+              ],
+              "answer": 3,
+              "explanation": "Driven by the hips moving back and forward."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr2-l03",
+      "level": "lesson",
+      "covers": [
+        "tr2-l03-push-pull"
+      ],
+      "summary": {
+        "title": "Push and pull directions",
+        "points": [
+          "Horizontal push (push-up), vertical push (overhead press).",
+          "Horizontal pull (row), vertical pull (pull-up, pulldown).",
+          "Aim for roughly as many pulling sets as pushing sets: a convention, not a law.",
+          "Pushing is easy to overdo at home because push-ups need no kit.",
+          "Without a bar: rows, plus a high-anchored band for the vertical pull."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your week has 9 sets of push-ups and 3 sets of rows.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the fix?",
+              "options": [
+                "Add more push-ups to match",
+                "Add rows until pulling sets are about equal",
+                "Nothing; pushing matters more",
+                "Drop push-ups entirely, since pushing causes shoulder injury"
+              ],
+              "answer": 1,
+              "explanation": "Roughly balanced is the convention."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which pattern is missing with no pull-up bar?",
+              "options": [
+                "Vertical pull",
+                "Vertical push",
+                "Horizontal push",
+                "Horizontal pull, since rows need a bench"
+              ],
+              "answer": 0,
+              "explanation": "A band pulldown fills it."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Someone says 'unbalanced push and pull guarantees shoulder injury'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the lesson say?",
+              "options": [
+                "It's proven: any imbalance causes injury within a year",
+                "Pushing protects the shoulders",
+                "Only vertical work matters",
+                "Evidence for injury is limited; balance is sensible practice"
+              ],
+              "answer": 3,
+              "explanation": "Treat it as practice, not law."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which is a vertical push?",
+              "options": [
+                "One-arm row",
+                "Push-up on the floor with hands under the shoulders",
+                "Kettlebell overhead press",
+                "Band pull-apart"
+              ],
+              "answer": 2,
+              "explanation": "Pushing overhead."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr2-l04",
+      "level": "lesson",
+      "covers": [
+        "tr2-l04-knee-hip"
+      ],
+      "summary": {
+        "title": "Knee-dominant vs hip-dominant",
+        "points": [
+          "Knee-dominant: knees forward, bend a lot; quadriceps work most (squats).",
+          "Hip-dominant: hips back, shins near vertical; glutes and hamstrings work most (hinges).",
+          "Lunges and step-ups sit in between.",
+          "Put one of each in every session.",
+          "Hinges outgrow a light kettlebell first; swings and one-leg hinges help."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Session A: goblet squat and split squat. No hinge.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's undertrained?",
+              "options": [
+                "Quadriceps, because split squats load the back leg",
+                "Chest",
+                "Calves only",
+                "Glutes and hamstrings"
+              ],
+              "answer": 3,
+              "explanation": "Both exercises are knee-dominant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which exercise would you add?",
+              "options": [
+                "Kettlebell Romanian deadlift",
+                "Calf raises",
+                "Push-ups",
+                "Another goblet squat variation with a pause"
+              ],
+              "answer": 0,
+              "explanation": "A hip-dominant hinge."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your 12 kg kettlebell feels light in deadlifts but hard in presses.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why?",
+              "options": [
+                "Deadlifts are an isolation exercise, so they need less load",
+                "Presses use the legs",
+                "Glutes and hamstrings are far stronger than shoulders",
+                "The kettlebell weighs less when lifted from the floor"
+              ],
+              "answer": 2,
+              "explanation": "Hinges outgrow light weights first."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What makes a light bell harder in a hinge?",
+              "options": [
+                "Using a shorter range",
+                "Speed (swings) or one leg at a time",
+                "Rounding the back",
+                "Holding the breath for the whole set"
+              ],
+              "answer": 1,
+              "explanation": "Lesson 4 at home."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr2-l05",
+      "level": "lesson",
+      "covers": [
+        "tr2-l05-unilateral"
+      ],
+      "summary": {
+        "title": "One side or both",
+        "points": [
+          "Bilateral: both sides together. Unilateral: one side at a time.",
+          "2021 meta-analysis: training carries over to the way you trained.",
+          "Two-sided training improved two-sided strength more; one-sided training improved one-legged jumps more.",
+          "No clear difference for sprint, change of direction or one-sided strength.",
+          "At home, one-sided work makes light weights harder and trains balance."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You have dumbbells up to 10 kg and want harder leg work.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which change helps most?",
+              "options": [
+                "Add curls",
+                "Do the same goblet squats with less rest between sets",
+                "Train legs only once a month",
+                "Switch to split squats or single-leg deadlifts"
+              ],
+              "answer": 3,
+              "explanation": "One leg carries most of the load."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the trade-off?",
+              "options": [
+                "It always causes imbalances",
+                "Each side needs its own set, so it takes longer",
+                "It can't be done with dumbbells",
+                "One-sided work builds no strength at all"
+              ],
+              "answer": 1,
+              "explanation": "Time is the cost."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A tennis player wants a better one-legged push-off.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which training fits best?",
+              "options": [
+                "Only two-sided squats, which carry over best to one leg",
+                "Only upper-body work",
+                "Include one-sided lower-body work",
+                "Only cardio"
+              ],
+              "answer": 2,
+              "explanation": "One-sided training improved one-legged jumps."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What did the meta-analysis find for sprinting?",
+              "options": [
+                "No clear difference",
+                "A large advantage for two-sided training",
+                "A large advantage for one-sided training",
+                "Both made sprinting worse"
+              ],
+              "answer": 0,
+              "explanation": "Small studies; treat as a guide."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr2-l06",
+      "level": "lesson",
+      "covers": [
+        "tr2-l06-free-vs-machine"
+      ],
+      "summary": {
+        "title": "Free weights, machines, bodyweight",
+        "points": [
+          "Free weights: you control the path. Machines: guided. Bodyweight: your body is the load.",
+          "2023 meta-analysis: no overall difference in muscle growth or jump height.",
+          "Strength gains were greatest on the kind of equipment trained with.",
+          "ACSM 2026: the choice makes no consistent difference for most healthy adults.",
+          "Free weights train stability; machines are easiest to push to failure safely."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You train only with dumbbells and kettlebells at home.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Compared with gym machines, what can you expect?",
+              "options": [
+                "Similar muscle growth",
+                "Much less muscle growth, because machines isolate muscles better",
+                "No strength gains",
+                "Only endurance gains"
+              ],
+              "answer": 0,
+              "explanation": "No overall difference in hypertrophy."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where will your strength show most?",
+              "options": [
+                "On machine tests at the gym",
+                "Nowhere",
+                "On free-weight tasks",
+                "Only in running"
+              ],
+              "answer": 2,
+              "explanation": "Strength is specific to the equipment trained with."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend says 'you can't build muscle without machines'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the evidence say?",
+              "options": [
+                "Machines are required for anyone over 40",
+                "Only barbells build muscle",
+                "Bodyweight builds more muscle than any weight",
+                "Free weights, bodyweight and bands work as well for muscle"
+              ],
+              "answer": 3,
+              "explanation": "ACSM 2026 and the 2023 meta-analysis agree."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which is a real advantage of machines?",
+              "options": [
+                "They train balance best",
+                "Easier to learn and safer to push to failure",
+                "They build more muscle per set than free weights",
+                "They're home-friendly"
+              ],
+              "answer": 1,
+              "explanation": "Trade-offs, not winners."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr2-l07",
+      "level": "lesson",
+      "covers": [
+        "tr2-l07-compound"
+      ],
+      "summary": {
+        "title": "Compound vs isolation",
+        "points": [
+          "Compound: several joints and muscles (squat, row, press, swing).",
+          "Isolation: one joint, one muscle (curl, lateral raise, calf raise).",
+          "In short studies of beginners, adding arm isolation added little.",
+          "Isolation suits side shoulders and calves, finishers and spare time.",
+          "Build sessions from 4–5 compound exercises."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You have 30 minutes and want fat loss and muscle.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which plan uses the time best?",
+              "options": [
+                "Curls, triceps extensions, lateral raises, calf raises",
+                "Only stretching",
+                "Goblet squat, row, push-up, swing",
+                "Only planks for 30 minutes"
+              ],
+              "answer": 2,
+              "explanation": "More muscle per minute."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When do curls earn a place?",
+              "options": [
+                "Never, under any circumstances",
+                "Instead of rows",
+                "First, to warm up the biceps for rows",
+                "At the end, if time allows"
+              ],
+              "answer": 3,
+              "explanation": "Isolation is the first thing to drop."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A beginner asks whether they need separate arm exercises to grow their arms.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What did short beginner studies find?",
+              "options": [
+                "Little or no extra benefit at first",
+                "Rows don't train the arms",
+                "A large extra benefit from the very first week of training",
+                "Isolation work makes arms smaller"
+              ],
+              "answer": 0,
+              "explanation": "One found slightly more arm size."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which muscle do compound moves train less?",
+              "options": [
+                "The quadriceps",
+                "The side of the shoulders",
+                "The glutes, which only isolation work can reach",
+                "The lats"
+              ],
+              "answer": 1,
+              "explanation": "Lateral raises suit it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr2-b1",
+      "level": "block",
+      "covers": [
+        "tr2-l01-muscle-map",
+        "tr2-l02-patterns",
+        "tr2-l03-push-pull",
+        "tr2-l04-knee-hip"
+      ],
+      "summary": {
+        "title": "Muscles and patterns",
+        "points": [
+          "Ten muscle groups; most mass in legs, hips and back.",
+          "Plan with seven patterns: squat, hinge, lunge, push, pull, carry, rotate or resist.",
+          "Push and pull in two directions; keep sets roughly balanced.",
+          "One knee-dominant and one hip-dominant exercise in every session.",
+          "Without a bar, rows and a high band cover pulling."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You redesign your circuit of push-ups, curls, crunches and goblet squats.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which three patterns do you add first?",
+              "options": [
+                "Running, cycling and tennis",
+                "Push, squat and rotation, since they're already working well",
+                "Hinge, pull and carry",
+                "Only isolation for arms"
+              ],
+              "answer": 2,
+              "explanation": "Those are the empty patterns."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which exercise covers the hinge with your kit?",
+              "options": [
+                "Biceps curl",
+                "Kettlebell swing or Romanian deadlift",
+                "Goblet squat with an upright torso",
+                "Push-up"
+              ],
+              "answer": 1,
+              "explanation": "Hips back, slight knee bend."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain why planning by patterns beats planning by body parts.",
+              "modelAnswer": "Muscles work in teams, so movements train several groups at once. Covering every pattern each week makes sure every big muscle group is trained, without counting muscles."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your weekly sets: push 10, pull 3, squat 6, hinge 0.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What are the two main gaps?",
+              "options": [
+                "None",
+                "Pushing and squatting, which need more volume",
+                "Carrying and rotation only",
+                "Pulling and hinging"
+              ],
+              "answer": 3,
+              "explanation": "Balance push–pull and squat–hinge."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which muscles does the missing hinge leave undertrained?",
+              "options": [
+                "Glutes and hamstrings",
+                "Chest and shoulders",
+                "Biceps",
+                "Calves only"
+              ],
+              "answer": 0,
+              "explanation": "Hip-dominant work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr2-b2",
+      "level": "block",
+      "covers": [
+        "tr2-l05-unilateral",
+        "tr2-l06-free-vs-machine",
+        "tr2-l07-compound"
+      ],
+      "summary": {
+        "title": "Choosing exercises",
+        "points": [
+          "Training carries over to the way you trained: two-sided or one-sided.",
+          "One-sided work makes light weights harder and helps balance.",
+          "Free weights and machines build similar muscle; strength is equipment-specific.",
+          "Compound exercises first; isolation if time allows.",
+          "Home kit plus bodyweight and bands can build as much muscle as a gym."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You pick 5 exercises for a 30-minute home session with 10 kg dumbbells and a 12 kg bell.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which list fits best?",
+              "options": [
+                "Curl, lateral raise, triceps extension, calf raise, crunch",
+                "Five push-up variations",
+                "Goblet squat five times",
+                "Split squat, kettlebell RDL, push-up, one-arm row, swing"
+              ],
+              "answer": 3,
+              "explanation": "Compound, all patterns, one-sided legs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why split squats rather than goblet squats here?",
+              "options": [
+                "One leg carries more, so the light load works harder",
+                "Split squats are isolation",
+                "Split squats need no balance at all",
+                "Goblet squats don't train the legs"
+              ],
+              "answer": 0,
+              "explanation": "Lesson 5."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Name one advantage each for free weights and for machines.",
+              "modelAnswer": "Free weights: train stability and carry over to real-life lifting; home-friendly. Machines: easier to learn and safer to push to failure."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A gym-goer says your home training is 'second best'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the 2023 meta-analysis say?",
+              "options": [
+                "Home training is only for endurance",
+                "Free weights build no muscle",
+                "Similar muscle growth; strength shows on what you trained with",
+                "Machines always build more muscle and strength"
+              ],
+              "answer": 2,
+              "explanation": "No overall difference."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When would you add isolation work?",
+              "options": [
+                "Instead of the compound lifts",
+                "If the session has time after the compound lifts",
+                "Always first in the session",
+                "Never"
+              ],
+              "answer": 1,
+              "explanation": "It's the first thing to drop when time is short."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-tr2-m",
+      "level": "module",
+      "covers": [
+        "tr2-l01-muscle-map",
+        "tr2-l02-patterns",
+        "tr2-l03-push-pull",
+        "tr2-l04-knee-hip",
+        "tr2-l05-unilateral",
+        "tr2-l06-free-vs-machine",
+        "tr2-l07-compound"
+      ],
+      "summary": {
+        "title": "Movement patterns: the whole picture",
+        "points": [
+          "Ten muscle groups; legs, hips and back hold most of the muscle.",
+          "Seven patterns cover the body: squat, hinge, lunge, push, pull, carry, rotate.",
+          "Balance push and pull, and knee- and hip-dominant work.",
+          "One-sided work suits light kit and sport.",
+          "Free weights and bodyweight build as much muscle as machines.",
+          "Compound exercises first; isolation if there's time."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You write session A for a 30-minute full-body week.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which structure fits?",
+              "options": [
+                "Only cardio today",
+                "Chest and triceps today, back and biceps another day",
+                "Only legs today",
+                "A squat, a hinge, a push, a pull, plus a carry or core move"
+              ],
+              "answer": 3,
+              "explanation": "Full-body by pattern."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which pull fits without a bar?",
+              "options": [
+                "One-arm row",
+                "Pull-up from a door frame you haven't bought yet",
+                "Lateral raise",
+                "Push-up"
+              ],
+              "answer": 0,
+              "explanation": "A horizontal pull."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where do curls go?",
+              "options": [
+                "Instead of the row",
+                "First, as the main lift",
+                "At the end, if time allows",
+                "Nowhere, ever"
+              ],
+              "answer": 2,
+              "explanation": "Isolation is optional."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your old routine was the same circuit every week, mostly push-ups and squats.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does Module 2 change most?",
+              "options": [
+                "Doing more push-ups",
+                "Covering every pattern with balanced push–pull and squat–hinge",
+                "Replacing everything with isolation work",
+                "Adding a machine membership so the muscles can be isolated"
+              ],
+              "answer": 1,
+              "explanation": "Patterns, balance, compound first."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which muscle groups will now get much more work?",
+              "options": [
+                "Chest and triceps",
+                "Abdominals only",
+                "Biceps",
+                "Back, glutes and hamstrings"
+              ],
+              "answer": 3,
+              "explanation": "Pulls and hinges were missing."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Describe a balanced full-body session in one sentence, by pattern.",
+              "modelAnswer": "One squat (goblet or split squat), one hinge (Romanian deadlift or swing), one push (push-up or press), one pull (row), and a carry or core exercise, mostly compound moves."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

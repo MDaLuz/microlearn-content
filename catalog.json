@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 19
+    "version": 20
   },
   "categories": {
     "Training": {
@@ -277,6 +277,32 @@
       "estimatedMinutes": 50,
       "accentColor": "#6B7280",
       "reviews": "reviews/tr-m1-goals.reviews.json",
+      "reviewsVersion": 1
+    },
+    {
+      "id": "tr-m2-patterns",
+      "title": "Training 2: The body in movement patterns",
+      "discipline": "Training",
+      "description": "Muscles, patterns, and how to choose exercises",
+      "file": "modules/tr-m2-patterns.json",
+      "version": 1,
+      "lessonCount": 7,
+      "estimatedMinutes": 50,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/tr-m2-patterns.reviews.json",
+      "reviewsVersion": 1
+    },
+    {
+      "id": "tr-m3-equipment",
+      "title": "Training 3: Equipment",
+      "discipline": "Training",
+      "description": "Dumbbells, kettlebells, bands and what to buy next",
+      "file": "modules/tr-m3-equipment.json",
+      "version": 1,
+      "lessonCount": 6,
+      "estimatedMinutes": 45,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/tr-m3-equipment.reviews.json",
       "reviewsVersion": 1
     }
   ]

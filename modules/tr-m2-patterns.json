@@ -1,0 +1,506 @@
+{
+  "schemaVersion": 6,
+  "id": "tr-m2-patterns",
+  "title": "Training 2: The body in movement patterns",
+  "discipline": "Training",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "tr2-l01-muscle-map",
+      "title": "A muscle map you actually need",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Ten groups are enough\n\nYou don't need anatomy-class names. For planning, the body splits into about ten big muscle groups:\n\n- **Front:** chest, shoulders, biceps, abdominals, quadriceps (front of the thighs).\n- **Back:** upper back, lats (the wide muscles under the arms), triceps, glutes, hamstrings (back of the thighs), calves.\n\nMost of your muscle mass sits in the legs, hips and back."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m2/muscle-map.svg",
+          "alt": "Front and back body outlines with shaded muscle groups. Front: chest, shoulders, biceps, abdominals, obliques, quadriceps. Back: upper back, lats, triceps, lower back, glutes, hamstrings, calves.",
+          "caption": "Ten muscle groups for planning",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.577
+        },
+        {
+          "type": "text",
+          "markdown": "## Why it matters for fat loss and strength\n\nThe biggest muscles are the **glutes**, the thighs and the back. Training them uses more energy per session, and they're the ones that carry heavy loads. That's why the course starts every programme from legs, hips and back, then adds arms and shoulders."
+        },
+        {
+          "type": "text",
+          "markdown": "## Muscles work in teams\n\nNo exercise trains a single muscle alone. A push-up works the chest, the front of the shoulders and the triceps, while the abdominals hold the body straight. That's why Lesson 2 swaps 'body parts' for movement patterns: you plan movements, and the muscles come with them."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** check that every week trains all ten groups at least twice. If legs and back are missing, the programme is missing most of your muscle."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr2-l01-muscle-map-fc1",
+              "front": "Glutes",
+              "back": "The buttock muscles: the largest muscle group in the body, driving hip extension in squats, hinges, lunges and sprints."
+            },
+            {
+              "id": "tr2-l01-muscle-map-fc2",
+              "front": "Muscles work in teams",
+              "back": "No exercise trains one muscle alone. A push-up works the chest, front of the shoulders and triceps, while the abdominals hold the body straight."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr2-l01-muscle-map-q1",
+              "stem": "Which groups hold most of your muscle mass?",
+              "options": [
+                "Arms and shoulders",
+                "Legs, hips and back",
+                "Chest and abdominals",
+                "Forearms and calves"
+              ],
+              "correctIndex": 1,
+              "explanation": "The thighs, glutes and back are the biggest, so they carry the heaviest loads and use the most energy."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Reference** — standard functional anatomy (major muscle groups); simplified for programme planning.\n2. **Guideline** — ACSM Position Stand (Phillips SM, chair, et al.), *Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews*, Med Sci Sports Exerc, April 2026.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr2-l02-patterns",
+      "title": "Think in movement patterns",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Patterns, not body parts\n\nA **movement pattern** is a family of exercises that move the body in the same basic way. Plan by patterns and you cover every muscle group without counting them. This course uses seven:\n\n1. Squat\n2. Hinge\n3. Lunge\n4. Push\n5. Pull\n6. Carry\n7. Rotate, or resist rotation"
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m2/pattern-wheel.svg",
+          "alt": "Wheel of seven patterns with home examples: squat (goblet squat), hinge (swing), lunge (reverse lunge), push (push-up), pull (one-arm row), carry (farmer's carry), rotate or resist (side plank).",
+          "caption": "Seven movement patterns, with a home example each",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.577
+        },
+        {
+          "type": "text",
+          "markdown": "## What each one is\n\n- **Squat:** knees and hips bend together, torso fairly upright.\n- **Hinge:** hips move back with only a slight knee bend, back flat.\n- **Lunge:** one leg forward or back; a squat on one leg at a time.\n- **Push and pull:** away from or towards the body, horizontally or overhead (Lesson 3).\n- **Carry:** walking while holding weight.\n- **Rotate:** turning the trunk, or, more often, resisting being twisted."
+        },
+        {
+          "type": "text",
+          "markdown": "## A simple weekly check\n\nA full-body week touches every pattern. Two sessions can share them out: for example, squat, push, pull and carry in session A; hinge, lunge, push, pull and resist-rotation in session B. Module 5 turns this into a programme. Coaches use slightly different lists. This one is a teaching model, not a rule."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** your current same-every-week circuit probably misses at least two patterns. Map each exercise you do to one pattern, and see which ones are empty."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr2-l02-patterns-fc1",
+              "front": "Movement pattern",
+              "back": "A family of exercises that move the body the same basic way: squat, hinge, lunge, push, pull, carry, rotate or resist rotation."
+            },
+            {
+              "id": "tr2-l02-patterns-fc2",
+              "front": "Hinge vs squat",
+              "back": "Hinge: hips go back, knees bend only slightly. Squat: knees and hips bend together, torso more upright."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr2-l02-patterns-q1",
+              "stem": "Which pattern does a kettlebell swing belong to?",
+              "options": [
+                "Squat",
+                "Hinge",
+                "Push",
+                "Carry"
+              ],
+              "correctIndex": 1,
+              "explanation": "The swing is driven by the hips moving back and snapping forward: a hinge."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — movement-pattern frameworks used in strength coaching (e.g. squat, hinge, push, pull, carry); a teaching model, not a guideline.\n2. **Guideline** — ACSM Position Stand (Phillips SM, chair, et al.), *Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews*, Med Sci Sports Exerc, April 2026.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr2-l03-push-pull",
+      "title": "Push and pull, horizontal and vertical",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Four directions\n\nUpper-body work splits by direction:\n\n- **Horizontal push:** away from the chest, like push-ups or floor presses.\n- **Vertical push:** overhead, like a dumbbell or kettlebell press.\n- **Horizontal pull:** towards the chest, like rows.\n- **Vertical pull:** from overhead down, like pull-ups or pulldowns."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m2/push-pull-grid.svg",
+          "alt": "Grid of push and pull, horizontal and vertical: push-up and floor press; overhead press; one-arm and renegade rows; band pulldown or door-frame bar, marked 'needs a band or bar'.",
+          "caption": "Push and pull, two directions each",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.952
+        },
+        {
+          "type": "text",
+          "markdown": "## Keep them roughly balanced\n\nA common coaching rule is to do about as many pulling sets as pushing sets each week. Pushing is easy to overdo at home, because push-ups need no kit. Evidence that an imbalance causes injury is limited, so treat this as sensible practice, not a law. Balanced work does give the upper back and shoulders a fair share of training."
+        },
+        {
+          "type": "text",
+          "markdown": "## Without a pull-up bar\n\nHorizontal pulls are easy: one-arm dumbbell or kettlebell rows. Vertical pulls are the gap. Options are a long resistance band anchored high (a band pulldown), or a door-frame bar if your door allows it (Module 3). Until then, extra rowing covers the back well."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** count your weekly pushing and pulling sets. If push-ups dominate, add rows until they're about even."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr2-l03-push-pull-fc1",
+              "front": "Horizontal vs vertical",
+              "back": "Horizontal: pushing or pulling in front of the chest (push-up, row). Vertical: overhead (press, pull-up)."
+            },
+            {
+              "id": "tr2-l03-push-pull-fc2",
+              "front": "Pushing and pulling balance",
+              "back": "A common coaching rule: about as many pulling sets as pushing sets each week. Sensible practice rather than a law, as injury evidence is limited."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr2-l03-push-pull-q1",
+              "stem": "Which exercise is a horizontal pull?",
+              "options": [
+                "Overhead press",
+                "One-arm dumbbell row",
+                "Push-up",
+                "Goblet squat"
+              ],
+              "correctIndex": 1,
+              "explanation": "Rowing pulls the weight towards the chest, in front of you."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — push–pull balance as a coaching convention; evidence on injury prevention is limited.\n2. **Practice** — movement-pattern frameworks used in strength coaching (e.g. squat, hinge, push, pull, carry); a teaching model, not a guideline.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr2-l04-knee-hip",
+      "title": "The lower body: knee-dominant vs hip-dominant",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Two ways to bend\n\nLower-body exercises lean one of two ways:\n\n- **Knee-dominant:** the knees travel forward and bend a lot, as in squats and split squats. They load the quadriceps most.\n- **Hip-dominant:** the hips move back and the shins stay fairly vertical, as in Romanian deadlifts and swings. They load the glutes and hamstrings most."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m2/knee-vs-hip.svg",
+          "alt": "Two side-view figures with a kettlebell. Goblet squat: knees forward, torso upright, quadriceps highlighted. Romanian deadlift: hips back, slight knee bend, glutes and hamstrings highlighted.",
+          "caption": "Knee-dominant squat vs hip-dominant hinge",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.64
+        },
+        {
+          "type": "text",
+          "markdown": "## Why you need both\n\nA programme of only squats leaves the back of the legs undertrained; only hinges leaves the front. Lunges and step-ups sit in between and add single-leg balance. A balanced week has at least one knee-dominant and one hip-dominant exercise, ideally in each session."
+        },
+        {
+          "type": "text",
+          "markdown": "## With light kit\n\nHinges are where a 12 kg kettlebell runs out first, because the glutes and hamstrings are strong. That's why swings and single-leg hinges matter at home: speed and one-leg work make a light weight harder. Module 3 looks at when a heavier bell is worth buying."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** pair a squat-type and a hinge-type exercise in every session, for example a goblet squat with a kettlebell Romanian deadlift."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr2-l04-knee-hip-fc1",
+              "front": "Knee-dominant vs hip-dominant",
+              "back": "Knee-dominant (squat, split squat): knees bend a lot, quads work most. Hip-dominant (hinge, swing, RDL): hips go back, glutes and hamstrings work most."
+            },
+            {
+              "id": "tr2-l04-knee-hip-fc2",
+              "front": "A balanced lower body",
+              "back": "At least one knee-dominant and one hip-dominant exercise a week, ideally in each session. Only squats undertrains the back of the legs."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr2-l04-knee-hip-q1",
+              "stem": "Your plan has goblet squats and lunges but no hinge. What's undertrained?",
+              "options": [
+                "Quadriceps",
+                "Glutes and hamstrings",
+                "Chest",
+                "Calves only"
+              ],
+              "correctIndex": 1,
+              "explanation": "Squats and lunges are knee-dominant; the back of the legs needs a hinge."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — movement-pattern frameworks used in strength coaching (e.g. squat, hinge, push, pull, carry); a teaching model, not a guideline.\n2. **Reference** — standard functional anatomy of hip and knee extensors.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr2-l05-unilateral",
+      "title": "Both sides at once, or one at a time",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Two kinds of exercise\n\n**Bilateral** exercises use both arms or both legs together, like a goblet squat or a push-up. **Unilateral** exercises work one side at a time, like a split squat, a one-arm row or a single-arm press."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m2/unilateral-vs-bilateral.svg",
+          "alt": "2021 meta-analysis: two-sided strength favoured two-sided training (small effect); one-legged jump favoured one-sided (large); sprint, change of direction and one-sided strength: no clear difference.",
+          "caption": "One side or both: what the evidence shows",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.952
+        },
+        {
+          "type": "text",
+          "markdown": "## What the evidence says\n\nA 2021 meta-analysis of 14 studies found that training mostly carries over to the way you trained. Two-sided training gave better two-sided strength; one-sided training gave better one-legged jumps. For sprinting, changes of direction and one-sided strength, there was no clear difference. The studies were small and in young adults, so treat it as a guide."
+        },
+        {
+          "type": "text",
+          "markdown": "## Why one side at a time helps at home\n\nWith light weights, one-sided work makes the same weight harder: in a split squat, one leg carries most of what two legs shared in a squat. It also shows side-to-side differences and trains balance, which helps in football and tennis. The trade-off is time, since each side needs its own set."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** use one-sided lower-body exercises, like split squats and single-leg deadlifts, to get more out of light dumbbells and to support your sports."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr2-l05-unilateral-fc1",
+              "front": "Unilateral vs bilateral",
+              "back": "Unilateral: one side at a time (split squat, one-arm row). Bilateral: both sides together (goblet squat, push-up)."
+            },
+            {
+              "id": "tr2-l05-unilateral-fc2",
+              "front": "Why one side helps at home",
+              "back": "It makes the same light weight harder, shows side-to-side differences and trains balance. The trade-off is time, since each side needs its own set."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr2-l05-unilateral-q1",
+              "stem": "Why can a split squat with two 10 kg dumbbells feel harder than a goblet squat with 12 kg?",
+              "options": [
+                "Dumbbells are heavier than kettlebells",
+                "One leg carries most of the load",
+                "Split squats use the arms more",
+                "It's a hinge, not a squat"
+              ],
+              "correctIndex": 1,
+              "explanation": "Each working leg handles most of the weight, so a light load becomes a real stimulus."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Meta-analysis** — Liao KF et al., Effects of unilateral vs. bilateral resistance training interventions on measures of strength, jump, linear and change of direction speed, Biol Sport 2022;39(3).\n2. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr2-l06-free-vs-machine",
+      "title": "Free weights, machines and bodyweight",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Three kinds of resistance\n\n- **Free weights:** dumbbells, kettlebells and barbells. You control the path of the weight.\n- **Machines:** the path is guided by rails or cables.\n- **Bodyweight:** your own body is the load, as in push-ups, lunges and planks. Bands sit between them."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m2/free-vs-machine.svg",
+          "alt": "Spectrum from machines to free weights to bodyweight, comparing stability, learning, carry-over, safety and home use. 2023 meta-analysis: similar muscle growth; strength specific to the equipment.",
+          "caption": "Free weights, machines, bodyweight",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.864
+        },
+        {
+          "type": "text",
+          "markdown": "## What the evidence says\n\nA 2023 meta-analysis of 13 studies found no overall difference in muscle growth or jump height between free-weight and machine training. Strength gains, though, were specific: people got stronger on the kind of equipment they trained with. The 2026 ACSM position stand agrees: for most healthy adults, the choice makes no consistent difference, and bands, bodyweight and home routines work."
+        },
+        {
+          "type": "text",
+          "markdown": "## The trade-offs\n\nFree weights ask you to balance and stabilise the load, which trains coordination and carries over to lifting things in real life. Machines are easier to learn and safer to push to failure. Bodyweight is free and always available, but gets hard to load as you get stronger. For a home set-up without machines, free weights plus bodyweight plus bands cover everything."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** you don't need machines. Dumbbells, kettlebells, bodyweight and bands can build as much muscle, if you keep adding load or reps over time."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr2-l06-free-vs-machine-fc1",
+              "front": "Free weights vs machines",
+              "back": "Similar muscle growth in a 2023 meta-analysis; strength gains are greatest on the equipment you trained with."
+            },
+            {
+              "id": "tr2-l06-free-vs-machine-fc2",
+              "front": "Free-weight trade-offs",
+              "back": "Free weights train balance and coordination and carry over to real life. Machines are easier to learn and safer to push to failure."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr2-l06-free-vs-machine-q1",
+              "stem": "You train only with dumbbells at home. What can you expect, compared with gym machines?",
+              "options": [
+                "Much less muscle growth",
+                "Similar muscle growth, with strength showing best on free-weight tasks",
+                "No strength gains at all",
+                "Faster fat loss, but no muscle"
+              ],
+              "correctIndex": 1,
+              "explanation": "No overall difference in hypertrophy; strength is specific to the equipment trained with."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Meta-analysis** — Haugen ME et al., Effect of free-weight vs. machine-based strength training on maximal strength, hypertrophy and jump performance, BMC Sports Sci Med Rehabil 2023;15.\n2. **Guideline** — ACSM Position Stand (Phillips SM, chair, et al.), *Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews*, Med Sci Sports Exerc, April 2026.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "tr2-l07-compound",
+      "title": "Compound vs isolation",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Big moves first\n\nA **compound exercise** moves several joints and trains several muscle groups at once: squats, rows, presses, swings. An **isolation exercise** moves one joint and targets one muscle: curls, lateral raises, triceps extensions."
+        },
+        {
+          "type": "image",
+          "src": "assets/tr-m2/compound-vs-isolation.svg",
+          "alt": "Two columns. Compound (goblet squat, Romanian deadlift, push-up, row, press, swing): many muscles, most of the session. Isolation (curl, lateral raise): one muscle, at the end if time allows.",
+          "caption": "Compound first, isolation if time allows",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.05
+        },
+        {
+          "type": "text",
+          "markdown": "## How much isolation do beginners need?\n\nIn two short studies of untrained people, adding curls and triceps work to a programme of rows and presses added little or nothing to arm strength. One found slightly more growth in arm size. Compound moves already train the arms quite well at the start."
+        },
+        {
+          "type": "text",
+          "markdown": "## When isolation earns its time\n\n- When you have time left after the main lifts.\n- For muscles compound moves train less, like the side of the shoulders and the calves.\n- As a light finisher, or a superset alongside a compound move (Module 5).\n\nWith 30-minute sessions, isolation is the first thing to drop when time is short."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for your training:** build each session from 4–5 compound exercises. Add one or two isolation moves only if the session has time to spare."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "tr2-l07-compound-fc1",
+              "front": "Compound vs isolation",
+              "back": "Compound: several joints and muscles at once (squat, row, press). Isolation: one joint, one muscle (curl, lateral raise)."
+            },
+            {
+              "id": "tr2-l07-compound-fc2",
+              "front": "When isolation earns its time",
+              "back": "With time left after the main lifts, for muscles compound moves train less, or as a light finisher. It's the first thing to drop when short of time."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "tr2-l07-compound-q1",
+              "stem": "You have 30 minutes. Which session uses the time best for fat loss and muscle?",
+              "options": [
+                "Curls, lateral raises, triceps extensions and calf raises",
+                "Goblet squats, rows, push-ups and swings",
+                "Only planks",
+                "Only stretching"
+              ],
+              "correctIndex": 1,
+              "explanation": "Compound moves train more muscle per minute; isolation comes after, if there's time."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Study** — Gentil P et al., Effect of adding single-joint exercises to a multi-joint exercise resistance-training program on strength and hypertrophy in untrained subjects, Appl Physiol Nutr Metab 2013;38(3):341–344.\n2. **Study** — Barbalho MSM et al., The influence of adding single-joint exercise to a multi-joint resistance training program in untrained young women, J Strength Cond Res 2018 (online).\n3. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}

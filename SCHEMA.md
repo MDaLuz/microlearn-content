@@ -85,8 +85,6 @@ The app fetches `catalog.json` on every launch (or from cache when offline) to k
 | `schemaVersion` | integer | yes | Always `1`. Increment only if the catalog structure itself changes. |
 | `modules` | array | yes | One entry per published module. |
 
-`catalog.json` may also have an optional top-level `categories` object, keyed by `discipline`: `{ "Training": { "disclaimer": "…" } }`. The app shows `disclaimer` on the first block of a module's first lesson and on the module screen.
-
 ### Module entry fields
 
 | Field | Type | Required | Notes |

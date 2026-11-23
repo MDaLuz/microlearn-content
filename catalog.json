@@ -410,7 +410,8 @@
       "estimatedMinutes": 35,
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m0-how-it-works.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "audio": true
     },
     {
       "id": "zh-m1-vowels",
@@ -423,7 +424,8 @@
       "estimatedMinutes": 45,
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m1-vowels.reviews.json",
-      "reviewsVersion": 2
+      "reviewsVersion": 2,
+      "audio": true
     },
     {
       "id": "zh-m2-consonants",
@@ -436,7 +438,8 @@
       "estimatedMinutes": 40,
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m2-consonants.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "audio": true
     }
   ]
 }

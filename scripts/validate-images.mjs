@@ -83,6 +83,7 @@ function walk(dir) {
 for (const file of walk(join(root, 'assets'))) {
   const rel = relative(root, file).split(sep).join('/');
   if (IGNORED.has(rel) || rel.endsWith('/.gitkeep') || rel.endsWith('/README.md')) continue;
+  if (rel.startsWith('assets/audio/')) continue; // phrase-card clips: checked by validate-module
   if (mentioned.has(rel)) continue;
   if (IMAGE_DIR.test(rel)) err('orphan', `${rel} isn't used by any image block or glossary entry`);
   else warn('unreferenced', rel);

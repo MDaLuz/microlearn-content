@@ -1,5 +1,5 @@
 {
-  "version": 26,
+  "version": 27,
   "updated": "2026-11-04",
   "entries": [
     {
@@ -8229,6 +8229,182 @@
       ],
       "modules": [
         "zh-m2-consonants"
+      ]
+    },
+    {
+      "id": "grueezi",
+      "term": "Grüezi",
+      "aliases": [
+        "Grüezi mitenand"
+      ],
+      "category": "swiss-german",
+      "short": "The formal Zurich greeting (Sie); Grüezi mitenand greets a group. Said GRÜ-e-tsi.",
+      "simpler": "Hello, formally.",
+      "example": {
+        "moduleId": "zh-m3-survival",
+        "text": "Lesson 3.1: Grüezi Frau Meier."
+      },
+      "notToConfuse": "Not informal: friends say Hoi or Sali.",
+      "related": [
+        "hoi-sali",
+        "duzis"
+      ],
+      "modules": [
+        "zh-m3-survival"
+      ]
+    },
+    {
+      "id": "hoi-sali",
+      "term": "Hoi and Sali",
+      "aliases": [
+        "Hoi zäme",
+        "Sali zäme"
+      ],
+      "category": "swiss-german",
+      "short": "Informal greetings for people you say du to; add zäme for a group.",
+      "simpler": "Hi.",
+      "example": {
+        "moduleId": "zh-m3-survival",
+        "text": "Lesson 3.1: Hoi zäme!"
+      },
+      "notToConfuse": "Not for strangers or staff: use Grüezi.",
+      "related": [
+        "grueezi",
+        "duzis"
+      ],
+      "modules": [
+        "zh-m3-survival"
+      ]
+    },
+    {
+      "id": "duzis",
+      "term": "Duzis mache",
+      "aliases": [
+        "duzen",
+        "Du säge"
+      ],
+      "category": "swiss-german",
+      "short": "To agree to say du to each other; usually offered by the older or more senior person. Wämmer Duzis mache?",
+      "simpler": "Agreeing to say du.",
+      "example": {
+        "moduleId": "zh-m3-survival",
+        "text": "Lesson 3.1: colleagues often offer it after the first meeting."
+      },
+      "notToConfuse": "Not rude: in Switzerland it's a sign of friendliness.",
+      "related": [
+        "grueezi",
+        "hoi-sali"
+      ],
+      "modules": [
+        "zh-m3-survival"
+      ]
+    },
+    {
+      "id": "aexguesi",
+      "term": "Äxgüsi",
+      "aliases": [
+        "excusez"
+      ],
+      "category": "swiss-german",
+      "short": "Excuse me: for passing, getting attention or apologising for a small bump. From French excusez.",
+      "simpler": "Excuse me.",
+      "example": {
+        "moduleId": "zh-m3-survival",
+        "text": "Lesson 3.2: Äxgüsi, händ Si no Gipfeli?"
+      },
+      "notToConfuse": "Not for serious apologies: use Es tuet mer leid.",
+      "related": [
+        "gliichfalls"
+      ],
+      "modules": [
+        "zh-m3-survival"
+      ]
+    },
+    {
+      "id": "gliichfalls",
+      "term": "Merci, gliichfalls",
+      "aliases": [
+        "gliichfalls"
+      ],
+      "category": "swiss-german",
+      "short": "Thanks, likewise: the polite reply to a wish like En schöne Tag no or Schöne Abig.",
+      "simpler": "Thanks, you too.",
+      "example": {
+        "moduleId": "zh-m3-survival",
+        "text": "Lesson 3.2: reply to the cashier's wish."
+      },
+      "notToConfuse": "Not 'you're welcome' (that's Gärn gscheh).",
+      "related": [
+        "aexguesi"
+      ],
+      "modules": [
+        "zh-m3-survival"
+      ]
+    },
+    {
+      "id": "stutz",
+      "term": "Stutz",
+      "aliases": [
+        "Franke",
+        "Rappe"
+      ],
+      "category": "swiss-german",
+      "short": "Colloquial word for a Swiss franc; centimes are Rappe and a five-franc coin is a Füfliber.",
+      "simpler": "A franc, informally.",
+      "example": {
+        "moduleId": "zh-m3-survival",
+        "text": "Lesson 3.5: föif Stutz = five francs."
+      },
+      "notToConfuse": "Not formal: prices are said in Franke.",
+      "related": [
+        "mundart",
+        "swiss-standard-german"
+      ],
+      "modules": [
+        "zh-m3-survival"
+      ]
+    },
+    {
+      "id": "halbi",
+      "term": "halbi (time)",
+      "aliases": [
+        "halbi drüü"
+      ],
+      "category": "swiss-german",
+      "short": "Half past, pointing to the next hour: halbi drüü = 2:30, like High German halb drei.",
+      "simpler": "Half to the next hour.",
+      "example": {
+        "moduleId": "zh-m3-survival",
+        "text": "Lesson 3.6: Es isch halbi drüü."
+      },
+      "notToConfuse": "Not half past the named hour: halbi drüü isn't 3:30.",
+      "related": [
+        "ab-vor"
+      ],
+      "modules": [
+        "zh-m3-survival"
+      ]
+    },
+    {
+      "id": "ab-vor",
+      "term": "ab and vor (time)",
+      "aliases": [
+        "viertel ab",
+        "viertel vor"
+      ],
+      "category": "swiss-german",
+      "short": "ab = after and vor = before the hour: viertel ab drüü = 3:15, viertel vor vieri = 3:45.",
+      "simpler": "After and before the hour.",
+      "example": {
+        "moduleId": "zh-m3-survival",
+        "text": "Lesson 3.6: Viertel ab sächsi."
+      },
+      "notToConfuse": "Not nach: Zurich says ab, not nach, for 'past'.",
+      "related": [
+        "halbi"
+      ],
+      "modules": [
+        "zh-m3-survival"
       ]
     }
   ]

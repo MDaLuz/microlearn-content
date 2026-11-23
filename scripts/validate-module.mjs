@@ -7,7 +7,7 @@
 // a Sources block closing every lesson, known combination tags, and no
 // promotional wording. Exits 1 on any error; warnings don't fail the run.
 
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { checkImage } from './image-check.mjs';
 import { dirname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -284,6 +284,7 @@ const COURSE_RULES = {
     sourcesLast: true,
     lineInRecaps: true, // every lesson, recaps included
     cardsNotJargon: true, // phrase cards are excluded from the bold-term count
+    audio: true, // optional clips in assets/audio/, checked against the cards
   },
 };
 const report = [];
@@ -344,6 +345,22 @@ if (course) {
     }
   }
   report.unshift(`${course.cardName}s: ${cards}`);
+
+  // Languages audio: assets/audio/<course>-m<N>/<lesson prefix>-aNN.mp3, where
+  // NN is the phrase card's position in its lesson. A card without a clip is
+  // text only; a clip without a card is an error.
+  if (course.audio) {
+    const want = new Set();
+    for (const l of mod.lessons) {
+      const prefix = l.id.split('-').slice(0, 2).join('-');
+      let n = 0;
+      for (const b of l.blocks) if (b.type === 'text' && course.cardHead.test(b.markdown ?? '')) want.add(`${prefix}-a${String(++n).padStart(2, '0')}.mp3`);
+    }
+    const dir = join(root, 'assets', 'audio', mod.id.split('-').slice(0, 2).join('-'));
+    const have = existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWith('.mp3')) : [];
+    for (const f of have) if (!want.has(f)) err('audio', `assets/audio/.../${f} has no matching phrase card`);
+    report.unshift(`audio: ${have.filter((f) => want.has(f)).length} of ${want.size} phrase cards have a clip`);
+  }
 }
 
 // ---- Report ----

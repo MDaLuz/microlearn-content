@@ -1,5 +1,5 @@
 {
-  "version": 25,
+  "version": 26,
   "updated": "2026-11-04",
   "entries": [
     {
@@ -7978,11 +7978,11 @@
         "long and short vowels"
       ],
       "category": "swiss-german",
-      "short": "Whether a vowel is held long or short; in Zurich German it can be the only difference between words, as in Hut and Huut.",
+      "short": "Whether a vowel is held long or short; in Zurich German it can be the only difference between words, as in Stadt and Staat.",
       "simpler": "Long or short can change the word.",
       "example": {
         "moduleId": "zh-m1-vowels",
-        "text": "Lesson 1.3: Hut (hat), Huut (skin)."
+        "text": "Lesson 1.3: Stadt (city), Staat (state)."
       },
       "notToConfuse": "Not stress: length and stress are separate.",
       "related": [
@@ -8055,6 +8055,180 @@
       ],
       "modules": [
         "zh-m1-vowels"
+      ]
+    },
+    {
+      "id": "ach-laut",
+      "term": "Throaty ch",
+      "aliases": [
+        "ach-Laut",
+        "Bach sound"
+      ],
+      "category": "swiss-german",
+      "short": "The ch at the back of the throat, as in High German Bach [x]; Zurich German uses it everywhere, also in ich.",
+      "simpler": "The ch of Bach, always.",
+      "example": {
+        "moduleId": "zh-m2-consonants",
+        "text": "Lesson 2.1: Chind, Chuchi, ich."
+      },
+      "notToConfuse": "Not the soft High German ich-sound [ç], which Zurich doesn't use.",
+      "related": [
+        "affricate-kx",
+        "initial-stress"
+      ],
+      "modules": [
+        "zh-m2-consonants"
+      ]
+    },
+    {
+      "id": "affricate-kx",
+      "term": "Loanword k (kch)",
+      "aliases": [
+        "kx",
+        "affricate"
+      ],
+      "category": "swiss-german",
+      "short": "A strong k released with a little friction, almost kch, used in loanwords like Kafi, Kino and Kilo.",
+      "simpler": "A k with a little ch after it.",
+      "example": {
+        "moduleId": "zh-m2-consonants",
+        "text": "Lesson 2.2: En Kafi Creme."
+      },
+      "notToConfuse": "Not the ch of native words like Chind.",
+      "related": [
+        "ach-laut",
+        "fortis"
+      ],
+      "modules": [
+        "zh-m2-consonants"
+      ]
+    },
+    {
+      "id": "scht-rule",
+      "term": "scht everywhere",
+      "aliases": [
+        "sch before t and p"
+      ],
+      "category": "swiss-german",
+      "short": "Zurich German says scht and schp in every position of a word, not only at the start: isch, Poscht, geschter.",
+      "simpler": "st sounds scht, anywhere.",
+      "example": {
+        "moduleId": "zh-m2-consonants",
+        "text": "Lesson 2.3: Ich gaa uf d Poscht."
+      },
+      "notToConfuse": "Not only at the start, as in High German Stadt.",
+      "related": [
+        "dieth-spelling"
+      ],
+      "modules": [
+        "zh-m2-consonants"
+      ]
+    },
+    {
+      "id": "lenis",
+      "term": "Lenis consonant",
+      "aliases": [
+        "soft consonant"
+      ],
+      "category": "swiss-german",
+      "short": "A soft, short consonant without voice buzz: Zurich b, d, g and single f, s; written [b̥ d̥ ɡ̊] in IPA.",
+      "simpler": "Soft and short, but not buzzing.",
+      "example": {
+        "moduleId": "zh-m2-consonants",
+        "text": "Lesson 2.4: De Ofe (soft f)."
+      },
+      "notToConfuse": "Not a voiced English b, d, g.",
+      "related": [
+        "fortis"
+      ],
+      "modules": [
+        "zh-m2-consonants"
+      ]
+    },
+    {
+      "id": "fortis",
+      "term": "Fortis consonant",
+      "aliases": [
+        "strong consonant"
+      ],
+      "category": "swiss-german",
+      "short": "A strong, longer consonant: Zurich p, t, k and doubled letters like ff, tt, gg; never aspirated with a puff of air.",
+      "simpler": "Strong and held.",
+      "example": {
+        "moduleId": "zh-m2-consonants",
+        "text": "Lesson 2.4: D Tür isch offe (held ff)."
+      },
+      "notToConfuse": "Not aspirated like High German t in Tag.",
+      "related": [
+        "lenis",
+        "affricate-kx"
+      ],
+      "modules": [
+        "zh-m2-consonants"
+      ]
+    },
+    {
+      "id": "glottal-stop",
+      "term": "Glottal stop",
+      "aliases": [
+        "Knacklaut"
+      ],
+      "category": "swiss-german",
+      "short": "The little catch before vowels in High German (before alles, Abend); Zurich German mostly doesn't use it, so words flow together.",
+      "simpler": "The click before vowels that Zurich drops.",
+      "example": {
+        "moduleId": "zh-m2-consonants",
+        "text": "Lesson 2.4: Es isch alles in Ornig as one line."
+      },
+      "notToConfuse": "Not a pause between sentences.",
+      "related": [
+        "linking-n"
+      ],
+      "modules": [
+        "zh-m2-consonants"
+      ]
+    },
+    {
+      "id": "l-vocalisation",
+      "term": "l-vocalisation",
+      "aliases": [
+        "Bern l"
+      ],
+      "category": "swiss-german",
+      "short": "Turning l into a u-like vowel, typical of Bern German (Miuch, viu); Zurich German keeps a clear l.",
+      "simpler": "Bern's l that sounds like u.",
+      "example": {
+        "moduleId": "zh-m2-consonants",
+        "text": "Lesson 2.5: Zurich Vil Glück, Bern Viu Glück."
+      },
+      "notToConfuse": "Not a Zurich feature.",
+      "related": [
+        "alemannic"
+      ],
+      "modules": [
+        "zh-m2-consonants"
+      ]
+    },
+    {
+      "id": "uvular-r",
+      "term": "Throaty r",
+      "aliases": [
+        "uvular r",
+        "back r"
+      ],
+      "category": "swiss-german",
+      "short": "An r made at the back of the throat, common in Zurich city; the rolled tongue-tip r is equally normal.",
+      "simpler": "The r at the back of the throat.",
+      "example": {
+        "moduleId": "zh-m2-consonants",
+        "text": "Lesson 2.5: Es rägnet, with either r."
+      },
+      "notToConfuse": "Not wrong: both r's are standard in Zurich.",
+      "related": [
+        "l-vocalisation"
+      ],
+      "modules": [
+        "zh-m2-consonants"
       ]
     }
   ]

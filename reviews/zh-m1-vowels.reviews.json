@@ -1,6 +1,6 @@
 {
   "moduleId": "zh-m1-vowels",
-  "version": 1,
+  "version": 2,
   "blocks": [
     {
       "id": "zh1-b1",
@@ -192,7 +192,7 @@
       "summary": {
         "title": "Vowel and consonant length",
         "points": [
-          "Length alone can change meaning: Hut (hat) vs Huut (skin).",
+          "Length alone can change meaning: Stadt (city) vs Staat (state).",
           "Some High German long vowels are short: Vater → Vatter, heute → hüt.",
           "Doubled consonants after short vowels are held longer.",
           "Abend → Abig."
@@ -254,10 +254,10 @@
                 "Huus and Hüüsli, size difference",
                 "guet and müed, different vowels",
                 "Wätter and Wält, different words",
-                "Hut and Huut"
+                "Stadt and Staat"
               ],
               "answer": 3,
-              "explanation": "Short u vs long uu."
+              "explanation": "Short a vs long aa."
             }
           ]
         }
@@ -516,7 +516,7 @@
         "points": [
           "ei, au, eu → often ii, uu, üü; old diphthongs stay.",
           "Long u and ü → gliding ue and üe; ie is said in two parts.",
-          "Length changes meaning: Hut vs Huut.",
+          "Length changes meaning: Stadt vs Staat.",
           "Some long High German vowels are short: Vatter, hüt."
         ]
       },
@@ -569,7 +569,7 @@
                 "Huus, with its long uu",
                 "Ziit, with its long ii",
                 "guet",
-                "Hut"
+                "Stadt"
               ],
               "answer": 2,
               "explanation": "ue glides."

@@ -3,7 +3,7 @@
   "id": "zh-m1-vowels",
   "title": "Züritüütsch 1: Sounds I: vowels",
   "discipline": "Languages",
-  "version": 1,
+  "version": 2,
   "lessons": [
     {
       "id": "zh1-l01-long-vowels",
@@ -210,12 +210,12 @@
       "blocks": [
         {
           "type": "text",
-          "markdown": "## Length matters\n\nIn Zurich German, **vowel length** can be the only difference between two words: *Hut* (hat) has a short u, *Huut* (skin) a long one. Consonants have length too: the *tt* in *Vatter* is held a little longer."
+          "markdown": "## Length matters\n\nIn Zurich German, **vowel length** can be the only difference between two words: *Stadt* (city) has a short a, *Staat* (state) a long one. Consonants have length too: the *tt* in *Vatter* is held a little longer."
         },
         {
           "type": "image",
           "src": "assets/zh-m1/length-pairs.svg",
-          "alt": "Pairs with short and long sounds: Hut (hat, short u) vs Huut (skin, long uu); High German Vater with long a vs Zurich Vatter with short a and long t.",
+          "alt": "Pairs with short and long sounds: Stadt (city, short a) vs Staat (state, long aa); High German Vater with long a vs Zurich Vatter with short a and long t.",
           "caption": "Short and long",
           "credit": "Compound (own diagram)",
           "license": "own",
@@ -224,11 +224,15 @@
         },
         {
           "type": "text",
-          "markdown": "## Patterns to expect\n\n- Some High German long vowels are short in Zurich: *Vater* → *Vatter*, *heute* → *hüt*.\n- Old long vowels stay long: *Huut* (Haut), *Ziit* (Zeit).\n- Words for 'evening' and similar take *-ig*: *Abend* → *Abig*.\n\nThe spelling helps: a doubled vowel is always long, and a doubled consonant after a short vowel is held longer."
+          "markdown": "## Patterns to expect\n\n- Some High German long vowels are short in Zurich: *Vater* → *Vatter*, *heute* → *hüt*.\n- Old long vowels stay long: *Huut* (Haut), *Ziit* (Zeit).\n- Watch out for *Huet* (hat): High German long *u* becomes *ue* (Lesson 1.2), so it isn't a length pair with *Huut*.\n- Words for 'evening' and similar take *-ig*: *Abend* → *Abig*.\n\nThe spelling helps: a doubled vowel is always long, and a doubled consonant after a short vowel is held longer."
         },
         {
           "type": "text",
-          "markdown": "### Phrase: De Hut\n\n- Say it: de HUT\n- IPA: [d̥ə hʊt]\n- Hochdeutsch: Der Hut\n- English: The hat\n- Note: Short *u*."
+          "markdown": "### Phrase: D Stadt\n\n- Say it: d SCHTADT\n- IPA: [d̥ ʃtat]\n- Hochdeutsch: Die Stadt\n- English: The city\n- Note: Short *a*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: De Staat\n\n- Say it: de SCHTAAT\n- IPA: [d̥ə ʃtaːt]\n- Hochdeutsch: Der Staat\n- English: The state\n- Note: Long *aa*: only the length differs from *Stadt*."
         },
         {
           "type": "text",
@@ -244,7 +248,7 @@
         },
         {
           "type": "text",
-          "markdown": "**What this means for you:** listen for length as much as for vowel colour: Hut and Huut are different words. Hold doubled consonants a little longer."
+          "markdown": "**What this means for you:** listen for length as much as for vowel colour: Stadt and Staat are different words. Hold doubled consonants a little longer."
         },
         {
           "type": "flashcard",
@@ -252,8 +256,8 @@
           "cards": [
             {
               "id": "zh1-l03-length-fc1",
-              "front": "Hut vs Huut",
-              "back": "Hut = hat (short u); Huut = skin (long uu, from Haut)."
+              "front": "Stadt vs Staat",
+              "back": "Stadt = city (short a); Staat = state (long aa). Length alone changes the word."
             },
             {
               "id": "zh1-l03-length-fc2",
@@ -594,12 +598,12 @@
       "blocks": [
         {
           "type": "text",
-          "markdown": "## Five rules from this module\n\n1. *ei*, *au*, *eu* → often *ii*, *uu*, *üü* (Ziit, Huus, Lüüt).\n2. Long *ie*, *u*, *ü* → gliding *ie*, *ue*, *üe* (lieb, guet, müed).\n3. Length changes meaning (Hut, Huut).\n4. Short *e* → open *ä* (Wätter, schnäll).\n5. Final *-n* drops; plurals take *-ed*; stress goes first."
+          "markdown": "## Five rules from this module\n\n1. *ei*, *au*, *eu* → often *ii*, *uu*, *üü* (Ziit, Huus, Lüüt).\n2. Long *ie*, *u*, *ü* → gliding *ie*, *ue*, *üe* (lieb, guet, müed).\n3. Length changes meaning (Stadt, Staat).\n4. Short *e* → open *ä* (Wätter, schnäll).\n5. Final *-n* drops; plurals take *-ed*; stress goes first."
         },
         {
           "type": "image",
           "src": "assets/zh-m1/recap-shifts.svg",
-          "alt": "A summary card of five rules with two examples each: Zeit to Ziit and Haus to Huus; gut to guet and müde to müed; Hut and Huut; Wetter to Wätter; machen to mache and Büro stressed first.",
+          "alt": "A summary card of five rules with two examples each: Zeit to Ziit and Haus to Huus; gut to guet and müde to müed; Stadt and Staat; Wetter to Wätter; machen to mache and Büro stressed first.",
           "caption": "Five sound rules",
           "credit": "Compound (own diagram)",
           "license": "own",

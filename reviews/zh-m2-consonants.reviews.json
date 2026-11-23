@@ -1,0 +1,703 @@
+{
+  "moduleId": "zh-m2-consonants",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "zh2-b1",
+      "title": "ch, k and scht",
+      "lessons": [
+        "zh2-l01-ch",
+        "zh2-l02-k-loanwords",
+        "zh2-l03-scht"
+      ]
+    },
+    {
+      "id": "zh2-b2",
+      "title": "Soft, strong, r and l",
+      "lessons": [
+        "zh2-l04-soft-strong",
+        "zh2-l05-r-l",
+        "zh2-l06-recap"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-zh2-l01",
+      "level": "lesson",
+      "covers": [
+        "zh2-l01-ch"
+      ],
+      "summary": {
+        "title": "The throaty ch",
+        "points": [
+          "Zurich has one ch: the throaty Bach sound, also in ich.",
+          "Initial k in native words becomes ch: Chind, Chuchi, Chäs, chalt.",
+          "Chile = church; zue = closed.",
+          "Chind is singular and plural."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You're at home with the family.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'The children are in the kitchen' is?",
+              "options": [
+                "D Chind sind i de Chuchi.",
+                "Die Kinder sind in der Küche.",
+                "D Kind sind i de Kuchi.",
+                "D Chinder isch i de Chuchi."
+              ],
+              "answer": 0,
+              "explanation": "Chind (plural), Chuchi."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'It's cold today' is?",
+              "options": [
+                "Es isch kalt hüt.",
+                "Es isch chalt hüt.",
+                "Es ist chalt heute.",
+                "Es isch chalt hüüt."
+              ],
+              "answer": 1,
+              "explanation": "k → ch; short hüt."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You compare High German and Zurich ich.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's different?",
+              "options": [
+                "Zurich drops the ch completely",
+                "Zurich uses a k sound",
+                "Zurich uses the throaty Bach sound",
+                "Nothing at all"
+              ],
+              "answer": 2,
+              "explanation": "No soft ich-sound in Zurich."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does *D Chile isch zue* mean?",
+              "options": [
+                "The country is far away.",
+                "The cheese is in the fridge.",
+                "The kitchen door is open.",
+                "The church is closed."
+              ],
+              "answer": 3,
+              "explanation": "Chile = Kirche."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh2-l02",
+      "level": "lesson",
+      "covers": [
+        "zh2-l02-k-loanwords"
+      ],
+      "summary": {
+        "title": "k, kch and gg",
+        "points": [
+          "Loanwords keep a strong kch [kx]: Kafi, Kino, Kilo, Konzärt.",
+          "Native initial k becomes ch; kei (kein) keeps k.",
+          "gg inside words is a strong, held k: Rugge, Glogge, Brugg.",
+          "Öpfel = Äpfel."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "At a café and then the cinema.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do you order a coffee with cream?",
+              "options": [
+                "En Kafi Creme",
+                "En Chafi Creme",
+                "Einen Kaffee mit Rahm",
+                "Es Kafi Chreme"
+              ],
+              "answer": 0,
+              "explanation": "Loanword: k stays."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'We're going to the cinema' is?",
+              "options": [
+                "Mir gönd is Chino.",
+                "Mir gönd is Kino.",
+                "Wir gehen ins Kino.",
+                "Mir gaan is Kino."
+              ],
+              "answer": 1,
+              "explanation": "Kino keeps its k."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your back hurts after gardening.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you say?",
+              "options": [
+                "Mir tuet de Rücke weh.",
+                "Mir tut der Rücken weh.",
+                "Mir tuet de Rugge weh.",
+                "Mir tuet de Ruche weh."
+              ],
+              "answer": 2,
+              "explanation": "Rücken → Rugge."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How is the gg in Rugge said?",
+              "options": [
+                "A voiced g as in English 'go'",
+                "A throaty ch",
+                "It isn't pronounced",
+                "A strong, held k"
+              ],
+              "answer": 3,
+              "explanation": "gg = fortis k."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh2-l03",
+      "level": "lesson",
+      "covers": [
+        "zh2-l03-scht"
+      ],
+      "summary": {
+        "title": "scht and schp everywhere",
+        "points": [
+          "Zurich says scht and schp in every position, not just at the start.",
+          "isch, Poscht, Wurscht, geschter, Durscht, Fäscht.",
+          "This course writes scht in the middle and at the end; st/sp at the start.",
+          "Das isch mer Wurscht = I don't care."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Errands and evenings.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'I'm going to the post office' is?",
+              "options": [
+                "Ich gaa uf d Poscht.",
+                "Ich gaa uf d Post.",
+                "Ich gehe zur Post.",
+                "Ich gaa is Poscht."
+              ],
+              "answer": 0,
+              "explanation": "Post → Poscht."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'I'm thirsty' is?",
+              "options": [
+                "Ich ha Durst.",
+                "Ich ha Durscht.",
+                "Ich habe Durst.",
+                "Ich bi Durscht."
+              ],
+              "answer": 1,
+              "explanation": "st → scht."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend shrugs: *Das isch mer Wurscht.*",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does she mean?",
+              "options": [
+                "She wants a sausage for lunch",
+                "She feels sick",
+                "She doesn't care",
+                "She thinks it's the worst idea"
+              ],
+              "answer": 2,
+              "explanation": "Same idiom as High German."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How is the written *sp* in *spöter* said?",
+              "options": [
+                "sp, exactly as written",
+                "sch only, without p",
+                "ps",
+                "schp"
+              ],
+              "answer": 3,
+              "explanation": "Initial sp is said schp."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh2-l04",
+      "level": "lesson",
+      "covers": [
+        "zh2-l04-soft-strong"
+      ],
+      "summary": {
+        "title": "Soft and strong consonants",
+        "points": [
+          "b, d, g are soft and unvoiced; p, t, k are stronger and longer.",
+          "No puff of air after p, t, k.",
+          "Ofe (oven) vs offe (open): soft vs held f.",
+          "Words run together with no stop before vowels: Es isch alles in Ornig."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Morning in the kitchen.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'The door is open' is?",
+              "options": [
+                "D Tür isch offe.",
+                "D Tür isch Ofe.",
+                "Die Tür ist offen.",
+                "D Tür isch zue."
+              ],
+              "answer": 0,
+              "explanation": "offe = open; zue = closed."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How do you say *Guete Morge*'s g?",
+              "options": [
+                "Voiced, like English 'good'",
+                "Soft, without voice buzz",
+                "Like a throaty ch",
+                "With a strong puff of air"
+              ],
+              "answer": 1,
+              "explanation": "Lenis g."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Someone asks if everything is OK.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the reassuring answer?",
+              "options": [
+                "Es ist alles in Ordnung.",
+                "Es isch alles Ornig gsii.",
+                "Es isch alles in Ornig.",
+                "Alles isch in Ordnig gange."
+              ],
+              "answer": 2,
+              "explanation": "Ornig = Ordnung."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How should it sound?",
+              "options": [
+                "With a clear stop before alles and in",
+                "Word by word",
+                "With strong puffs after each t",
+                "One flowing line"
+              ],
+              "answer": 3,
+              "explanation": "No glottal stops."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh2-l05",
+      "level": "lesson",
+      "covers": [
+        "zh2-l05-r-l"
+      ],
+      "summary": {
+        "title": "r and l",
+        "points": [
+          "Both rolled and throaty r are normal in Zurich.",
+          "Final -er stays a short er.",
+          "Zurich keeps a clear l: Milch, vil.",
+          "Bern turns l into a u-like sound: Miuch, viu."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A rainy morning.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'It's raining' is?",
+              "options": [
+                "Es rägnet.",
+                "Es regnet.",
+                "Es rägnet gsii.",
+                "Es isch rägne."
+              ],
+              "answer": 0,
+              "explanation": "Open ä."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Good luck!' is?",
+              "options": [
+                "Viu Glück!",
+                "Vil Glück!",
+                "Viel Glück!",
+                "Vill Glüch!"
+              ],
+              "answer": 1,
+              "explanation": "Clear l, short i."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A colleague says *Ich hol d Miuch*.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does that tell you?",
+              "options": [
+                "She's mispronouncing Zurich German",
+                "She's speaking High German",
+                "She probably speaks Bern German",
+                "She's from Basel"
+              ],
+              "answer": 2,
+              "explanation": "u-like l is Bern."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which r should you use?",
+              "options": [
+                "Only the rolled tongue-tip r",
+                "Only the throaty back r",
+                "No r at all",
+                "Whichever comes naturally"
+              ],
+              "answer": 3,
+              "explanation": "Both are normal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh2-b1",
+      "level": "block",
+      "covers": [
+        "zh2-l01-ch",
+        "zh2-l02-k-loanwords",
+        "zh2-l03-scht"
+      ],
+      "summary": {
+        "title": "ch, k and scht",
+        "points": [
+          "One throaty ch everywhere, also in ich.",
+          "Native initial k → ch; loanwords keep kch; gg is a held k.",
+          "scht and schp in every position.",
+          "Typical words: Chind, Chuchi, Kafi, Rugge, Poscht, geschter."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Market day.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'We buy cheese at the market' is?",
+              "options": [
+                "Mir chaufed Chäs uf em Märt.",
+                "Mir kaufed Käs uf em Markt.",
+                "Wir kaufen Käse auf dem Markt.",
+                "Mir chaufe Chäs uf de Markt."
+              ],
+              "answer": 0,
+              "explanation": "ch, -ed, Märt."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'A kilo of apples' is?",
+              "options": [
+                "Es Chilo Öpfel",
+                "Es Kilo Öpfel",
+                "Ein Kilo Äpfel",
+                "Es Kilo Äpfle"
+              ],
+              "answer": 1,
+              "explanation": "Loanword Kilo keeps k."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Say 'Yesterday evening I bought cheese at the post office shop' with the rules from this block.",
+              "modelAnswer": "Geschter am Abig han ich bi de Poscht Chäs kauft."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Sort words by their k.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which word belongs with Chind?",
+              "options": [
+                "Kafi, a loanword",
+                "Kino, a loanword",
+                "Chäs",
+                "Rugge, with gg"
+              ],
+              "answer": 2,
+              "explanation": "Native initial k → ch."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which word shows scht at the end?",
+              "options": [
+                "Stadt",
+                "Chuchi, with ch",
+                "Kafi, with kch",
+                "Wurscht"
+              ],
+              "answer": 3,
+              "explanation": "st → scht at the end."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh2-b2",
+      "level": "block",
+      "covers": [
+        "zh2-l04-soft-strong",
+        "zh2-l05-r-l",
+        "zh2-l06-recap"
+      ],
+      "summary": {
+        "title": "Soft, strong, r and l",
+        "points": [
+          "Soft vs strong consonants differ by length and pressure, not voicing.",
+          "No puff of air; words flow together.",
+          "Clear l in Zurich; Bern has a u-like l.",
+          "Rolled or throaty r both fine; tongue twisters train all of it."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Tongue-twister practice.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "In *De Ofe isch offe*, what changes between Ofe and offe?",
+              "options": [
+                "The f is held longer in offe",
+                "The vowel changes from o to u",
+                "Ofe has a puff of air",
+                "Nothing; they sound the same"
+              ],
+              "answer": 0,
+              "explanation": "Soft vs strong f."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which word is the classic test word?",
+              "options": [
+                "Grüezi",
+                "Chuchichäschtli",
+                "Velo",
+                "Märt"
+              ],
+              "answer": 1,
+              "explanation": "Three ch's and a scht."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Say the Papscht tongue twister slowly, then name two rules it trains.",
+              "modelAnswer": "De Papscht hät z Spiez s Späckbsteck z spaat bstellt. It trains schp and scht in every position, plus the open ä and long aa."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You hear *viu* and *vil* from two people.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which is Zurich?",
+              "options": [
+                "viu",
+                "both",
+                "vil",
+                "neither"
+              ],
+              "answer": 2,
+              "explanation": "Clear l."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A tea order should sound like?",
+              "options": [
+                "En Tee, bitte, with a strong puff after t",
+                "Ein Tee, bitte schön, in High German",
+                "En Dee, bidde, fully voiced",
+                "En Tee, bitte, with no puff after t"
+              ],
+              "answer": 3,
+              "explanation": "Unaspirated t."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh2-m",
+      "level": "module",
+      "covers": [
+        "zh2-l01-ch",
+        "zh2-l02-k-loanwords",
+        "zh2-l03-scht",
+        "zh2-l04-soft-strong",
+        "zh2-l05-r-l",
+        "zh2-l06-recap"
+      ],
+      "summary": {
+        "title": "Consonants: the whole picture",
+        "points": [
+          "One throaty ch, also in ich; native k → ch.",
+          "Loanwords keep kch; gg is a held k.",
+          "scht and schp in every position.",
+          "Soft vs strong by length; no puff; words flow together.",
+          "Clear l; rolled or throaty r."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A day out in Zurich.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'The church is closed' is?",
+              "options": [
+                "D Chile isch zue.",
+                "D Kirche isch zue.",
+                "D Chile isch offe.",
+                "Die Kirche ist zu."
+              ],
+              "answer": 0,
+              "explanation": "Chile, zue."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'I have a headache' is?",
+              "options": [
+                "Ich ha Kopfweh.",
+                "Ich ha Chopfweh.",
+                "Ich habe Kopfweh.",
+                "Ich bi Chopfweh."
+              ],
+              "answer": 1,
+              "explanation": "k → ch."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Everything's fine' is?",
+              "options": [
+                "Es ist alles in Ordnung.",
+                "Es isch alles Ordnung gsii.",
+                "Es isch alles in Ornig.",
+                "Alles isch Ornig"
+              ],
+              "answer": 2,
+              "explanation": "Ornig = Ordnung."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Apply the rules to new words.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "*Kasten* (cupboard) is most likely?",
+              "options": [
+                "Kasten",
+                "Kaschte",
+                "Chasten",
+                "Chaschte"
+              ],
+              "answer": 3,
+              "explanation": "k → ch, st → scht, -en → -e."
+            },
+            {
+              "type": "mcq",
+              "prompt": "*Konzert* is most likely?",
+              "options": [
+                "Konzärt",
+                "Chonzärt",
+                "Konzert",
+                "Chonzert"
+              ],
+              "answer": 0,
+              "explanation": "Loanword: k stays; short e → ä."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain why Chind but Kafi.",
+              "modelAnswer": "Chind is an old native word, where initial k became ch; Kafi is a newer loanword, so it keeps a strong k."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

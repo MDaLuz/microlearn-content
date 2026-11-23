@@ -438,7 +438,8 @@
       "estimatedMinutes": 40,
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m2-consonants.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "audio": true
     }
   ]
 }

@@ -359,6 +359,10 @@ if (course) {
     const dir = join(root, 'assets', 'audio', mod.id.split('-').slice(0, 2).join('-'));
     const have = existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWith('.mp3')) : [];
     for (const f of have) if (!want.has(f)) err('audio', `assets/audio/.../${f} has no matching phrase card`);
+    // catalog "audio": true promises a clip on every card; without it, none are used.
+    const missing = [...want].filter((f) => !have.includes(f));
+    if (entry?.audio === true && missing.length) err('audio', `catalog says audio: true but ${missing.length} card(s) have no clip (${missing.slice(0, 3).join(', ')}…)`);
+    if (entry?.audio !== true && have.length) warn('audio', `${have.length} clip(s) exist but the catalog entry has no "audio": true, so the app won't play them`);
     report.unshift(`audio: ${have.filter((f) => want.has(f)).length} of ${want.size} phrase cards have a clip`);
   }
 }

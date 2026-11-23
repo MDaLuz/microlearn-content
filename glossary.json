@@ -1,5 +1,5 @@
 {
-  "version": 24,
+  "version": 25,
   "updated": "2026-11-04",
   "entries": [
     {
@@ -7770,6 +7770,291 @@
       ],
       "modules": [
         "tr-m10-capstone"
+      ]
+    },
+    {
+      "id": "diglossia",
+      "term": "Diglossia",
+      "aliases": [
+        "Diglossie"
+      ],
+      "category": "swiss-german",
+      "short": "Two varieties of one language with different jobs: in German-speaking Switzerland, dialect for speaking and High German for writing.",
+      "simpler": "Speak dialect, write High German.",
+      "example": {
+        "moduleId": "zh-m0-how-it-works",
+        "text": "Lesson 0.1: emails in High German, calls in dialect."
+      },
+      "notToConfuse": "Not bilingualism: both varieties belong to German.",
+      "related": [
+        "mundart",
+        "swiss-standard-german"
+      ],
+      "modules": [
+        "zh-m0-how-it-works"
+      ]
+    },
+    {
+      "id": "mundart",
+      "term": "Mundart",
+      "aliases": [
+        "dialect",
+        "Dialekt",
+        "Schwiizertüütsch"
+      ],
+      "category": "swiss-german",
+      "short": "Swiss German dialect, the everyday spoken language of almost everyone in German-speaking Switzerland.",
+      "simpler": "The dialect people actually speak.",
+      "example": {
+        "moduleId": "zh-m0-how-it-works",
+        "text": "Lesson 0.1: 89% regularly use Swiss German (2019 survey)."
+      },
+      "notToConfuse": "Not slang or 'bad German': dialect has full social standing.",
+      "related": [
+        "diglossia",
+        "alemannic"
+      ],
+      "modules": [
+        "zh-m0-how-it-works"
+      ]
+    },
+    {
+      "id": "swiss-standard-german",
+      "term": "Swiss Standard German",
+      "aliases": [
+        "Schweizerhochdeutsch",
+        "Schriftdeutsch"
+      ],
+      "category": "swiss-german",
+      "short": "High German as Swiss people speak and write it, with a Swiss accent and words like Velo, parkieren and Trottoir.",
+      "simpler": "Swiss-flavoured High German.",
+      "example": {
+        "moduleId": "zh-m0-how-it-works",
+        "text": "Lesson 0.1: news bulletins and official letters."
+      },
+      "notToConfuse": "Not a dialect: grammar is Standard German.",
+      "related": [
+        "diglossia",
+        "mundart"
+      ],
+      "modules": [
+        "zh-m0-how-it-works"
+      ]
+    },
+    {
+      "id": "code-switching",
+      "term": "Code-switching",
+      "aliases": [
+        "switching to High German"
+      ],
+      "category": "swiss-german",
+      "short": "Changing language mid-conversation; Swiss people often switch to High German or English when they hear an accent, out of politeness.",
+      "simpler": "Changing language to help you.",
+      "example": {
+        "moduleId": "zh-m0-how-it-works",
+        "text": "Lesson 0.2: ask kindly to stay in dialect."
+      },
+      "notToConfuse": "Not rudeness: it's meant as a courtesy.",
+      "related": [
+        "mundart"
+      ],
+      "modules": [
+        "zh-m0-how-it-works"
+      ]
+    },
+    {
+      "id": "alemannic",
+      "term": "Alemannic",
+      "aliases": [
+        "Alemannisch"
+      ],
+      "category": "swiss-german",
+      "short": "The dialect family that Swiss German belongs to, together with dialects of south-west Germany, Alsace and Vorarlberg.",
+      "simpler": "Swiss German's dialect family.",
+      "example": {
+        "moduleId": "zh-m0-how-it-works",
+        "text": "Lesson 0.3: Zurich, Bern and Basel are all Alemannic."
+      },
+      "notToConfuse": "Not a single dialect: it's a family of many.",
+      "related": [
+        "mundart"
+      ],
+      "modules": [
+        "zh-m0-how-it-works"
+      ]
+    },
+    {
+      "id": "dieth-spelling",
+      "term": "Dieth spelling",
+      "aliases": [
+        "Dieth-Schreibung",
+        "Dieth-Schrift"
+      ],
+      "category": "swiss-german",
+      "short": "A 1938 system for writing Swiss German as it sounds: doubled long vowels (Huus), ie/ue/üe, and ä for the open e.",
+      "simpler": "A consistent way to spell dialect.",
+      "example": {
+        "moduleId": "zh-m0-how-it-works",
+        "text": "Lesson 0.4: the spelling used throughout this course."
+      },
+      "notToConfuse": "Not official: Swiss German has no official spelling.",
+      "related": [
+        "respelling"
+      ],
+      "modules": [
+        "zh-m0-how-it-works"
+      ]
+    },
+    {
+      "id": "respelling",
+      "term": "Respelling",
+      "aliases": [
+        "Say it line"
+      ],
+      "category": "swiss-german",
+      "short": "This course's pronunciation guide: syllables with the stressed one in capitals, readable with High German habits, e.g. GRÜ-e-tsi.",
+      "simpler": "How to say it, spelled out.",
+      "example": {
+        "moduleId": "zh-m0-how-it-works",
+        "text": "Lesson 0.5: 'Say it: CHU-chi'."
+      },
+      "notToConfuse": "Not the dialect spelling itself.",
+      "related": [
+        "dieth-spelling",
+        "initial-stress"
+      ],
+      "modules": [
+        "zh-m0-how-it-works"
+      ]
+    },
+    {
+      "id": "old-long-vowels",
+      "term": "Old long vowels",
+      "aliases": [
+        "ii uu üü"
+      ],
+      "category": "swiss-german",
+      "short": "Long ii, uu and üü that Swiss German kept where High German turned them into ei, au and eu: Ziit, Huus, Lüüt.",
+      "simpler": "Zeit → Ziit, Haus → Huus.",
+      "example": {
+        "moduleId": "zh-m1-vowels",
+        "text": "Lesson 1.1: Mir händ Ziit."
+      },
+      "notToConfuse": "Not every ei/au/eu: zwei, heiss and Frau stay diphthongs.",
+      "related": [
+        "falling-diphthong",
+        "vowel-length"
+      ],
+      "modules": [
+        "zh-m1-vowels"
+      ]
+    },
+    {
+      "id": "falling-diphthong",
+      "term": "Falling diphthong",
+      "aliases": [
+        "ie ue üe",
+        "gliding vowel"
+      ],
+      "category": "swiss-german",
+      "short": "A vowel pair in one syllable, stressed on the first part: ie, ue, üe as in lieb, guet and müed.",
+      "simpler": "Two vowels gliding into one beat.",
+      "example": {
+        "moduleId": "zh-m1-vowels",
+        "text": "Lesson 1.2: GU-et, MÜ-ed."
+      },
+      "notToConfuse": "Not the High German long ie, which is a single long i.",
+      "related": [
+        "old-long-vowels"
+      ],
+      "modules": [
+        "zh-m1-vowels"
+      ]
+    },
+    {
+      "id": "vowel-length",
+      "term": "Vowel length",
+      "aliases": [
+        "long and short vowels"
+      ],
+      "category": "swiss-german",
+      "short": "Whether a vowel is held long or short; in Zurich German it can be the only difference between words, as in Hut and Huut.",
+      "simpler": "Long or short can change the word.",
+      "example": {
+        "moduleId": "zh-m1-vowels",
+        "text": "Lesson 1.3: Hut (hat), Huut (skin)."
+      },
+      "notToConfuse": "Not stress: length and stress are separate.",
+      "related": [
+        "old-long-vowels",
+        "initial-stress"
+      ],
+      "modules": [
+        "zh-m1-vowels"
+      ]
+    },
+    {
+      "id": "open-ae",
+      "term": "Open ä",
+      "aliases": [
+        "Zurich ä"
+      ],
+      "category": "swiss-german",
+      "short": "The very open vowel, close to English 'cat', that Zurich German uses where High German has a short e: Wätter, schnäll.",
+      "simpler": "The wide-mouth e.",
+      "example": {
+        "moduleId": "zh-m1-vowels",
+        "text": "Lesson 1.4: S Wätter isch schöö."
+      },
+      "notToConfuse": "Not the closed e of See and Tee.",
+      "related": [
+        "vowel-length"
+      ],
+      "modules": [
+        "zh-m1-vowels"
+      ]
+    },
+    {
+      "id": "linking-n",
+      "term": "Linking n",
+      "aliases": [
+        "Bindungs-n"
+      ],
+      "category": "swiss-german",
+      "short": "A dropped final n that reappears between two vowels to link words, as in wie-n-i gseit ha.",
+      "simpler": "An extra n between vowels.",
+      "example": {
+        "moduleId": "zh-m1-vowels",
+        "text": "Lesson 1.5: wo-n-er cho isch."
+      },
+      "notToConfuse": "Not a mistake or a plural ending.",
+      "related": [
+        "vowel-length"
+      ],
+      "modules": [
+        "zh-m1-vowels"
+      ]
+    },
+    {
+      "id": "initial-stress",
+      "term": "Initial stress",
+      "aliases": [
+        "first-syllable stress"
+      ],
+      "category": "swiss-german",
+      "short": "Zurich German stresses most words, including loanwords, on the first syllable: BÜ-ro, BIL-jet, VE-lo; verbs in -iere are the exception.",
+      "simpler": "Stress goes first.",
+      "example": {
+        "moduleId": "zh-m1-vowels",
+        "text": "Lesson 1.6: Es Billett uf Züri."
+      },
+      "notToConfuse": "Not High German stress, which often falls later in loanwords.",
+      "related": [
+        "respelling",
+        "vowel-length"
+      ],
+      "modules": [
+        "zh-m1-vowels"
       ]
     }
   ]

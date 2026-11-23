@@ -1,0 +1,787 @@
+{
+  "moduleId": "zh-m1-vowels",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "zh1-b1",
+      "title": "Long and gliding vowels",
+      "lessons": [
+        "zh1-l01-long-vowels",
+        "zh1-l02-diphthongs",
+        "zh1-l03-length"
+      ]
+    },
+    {
+      "id": "zh1-b2",
+      "title": "e sounds, endings and stress",
+      "lessons": [
+        "zh1-l04-e-sounds",
+        "zh1-l05-endings",
+        "zh1-l06-stress-melody",
+        "zh1-l07-recap"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-zh1-l01",
+      "level": "lesson",
+      "covers": [
+        "zh1-l01-long-vowels"
+      ],
+      "summary": {
+        "title": "Old long vowels",
+        "points": [
+          "High German ei, au, eu often stay long ii, uu, üü in Zurich German.",
+          "Zeit → Ziit, Haus → Huus, Leute → Lüüt.",
+          "Old diphthongs stay: zwei, heiss, Bei, Baum, Frau.",
+          "Hours take -i: *am nüüni*."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You want to say 'My house'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which is right?",
+              "options": [
+                "Mis Huus",
+                "Mein Haus, as in High German",
+                "Mis Haus, with the old diphthong",
+                "Mi Hoos"
+              ],
+              "answer": 0,
+              "explanation": "au → uu; mein → mii(s)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "And 'at nine o'clock'?",
+              "options": [
+                "Um neun Uhr, as in High German",
+                "Am nüüni",
+                "Am nüün Uhr am Morge",
+                "Am neini"
+              ],
+              "answer": 1,
+              "explanation": "eu → üü, plus -i for hours."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You apply the rule to *zwei*.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What happens?",
+              "options": [
+                "It becomes zwii, like Ziit",
+                "It becomes zwüü, like Lüüt",
+                "It stays zwei",
+                "It becomes zwuu, like Huus"
+              ],
+              "answer": 2,
+              "explanation": "zwei was already a diphthong in old German."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's *Feuer* in Zurich German?",
+              "options": [
+                "Feuer, as in High German",
+                "Fuur, with a long u",
+                "Fiir, with a long i",
+                "Füür"
+              ],
+              "answer": 3,
+              "explanation": "eu → üü."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh1-l02",
+      "level": "lesson",
+      "covers": [
+        "zh1-l02-diphthongs"
+      ],
+      "summary": {
+        "title": "Gliding vowels",
+        "points": [
+          "Three falling diphthongs: ie, ue, üe; stress on the first part.",
+          "High German long u → ue (guet, Fuess); long ü → üe (müed, grüen).",
+          "Say both parts: li-eb, not liib.",
+          "*Grüezi* is GRÜ-e-tsi, never 'Grützi'."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You're tired after work.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you say?",
+              "options": [
+                "Ich bi müed.",
+                "Ich bin müde, wirklich sehr.",
+                "Ich bi miid.",
+                "Ich bi muud."
+              ],
+              "answer": 0,
+              "explanation": "müde → müed."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How do you say *guet*?",
+              "options": [
+                "A long u, like High German *gut*",
+                "u gliding into a short e",
+                "Two clear syllables, gu-et, equally stressed",
+                "Like English 'get'"
+              ],
+              "answer": 1,
+              "explanation": "One gliding syllable."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Apply the rule to *grün* and *Kuh*.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What are they in Zurich German?",
+              "options": [
+                "grün and Kuh",
+                "grüün and Chuu, with long vowels",
+                "grüen and Chue",
+                "griin and Choo"
+              ],
+              "answer": 2,
+              "explanation": "Long ü → üe; long u → ue; k → ch."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How is *lieb* said?",
+              "options": [
+                "liib, a long i",
+                "laib",
+                "leb",
+                "li-eb"
+              ],
+              "answer": 3,
+              "explanation": "Say both parts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh1-l03",
+      "level": "lesson",
+      "covers": [
+        "zh1-l03-length"
+      ],
+      "summary": {
+        "title": "Vowel and consonant length",
+        "points": [
+          "Length alone can change meaning: Hut (hat) vs Huut (skin).",
+          "Some High German long vowels are short: Vater → Vatter, heute → hüt.",
+          "Doubled consonants after short vowels are held longer.",
+          "Abend → Abig."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You talk about this evening's plans.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do you say 'this evening'?",
+              "options": [
+                "Hüt am Abig",
+                "Heute am Abend, wie immer",
+                "Hüüt am Abend",
+                "Hüt am Obe"
+              ],
+              "answer": 0,
+              "explanation": "*hüt* is short; Abend → Abig."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's *Huut*?",
+              "options": [
+                "Hat",
+                "Skin",
+                "House, with a long u",
+                "Today"
+              ],
+              "answer": 1,
+              "explanation": "Haut → Huut."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You compare *Vater* and *Vatter*.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's different in Zurich?",
+              "options": [
+                "A longer a and a softer t",
+                "A different word for father",
+                "Short a and a held tt",
+                "Nothing: they're the same"
+              ],
+              "answer": 2,
+              "explanation": "Length shifts from vowel to consonant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which pair differs only in vowel length?",
+              "options": [
+                "Huus and Hüüsli, size difference",
+                "guet and müed, different vowels",
+                "Wätter and Wält, different words",
+                "Hut and Huut"
+              ],
+              "answer": 3,
+              "explanation": "Short u vs long uu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh1-l04",
+      "level": "lesson",
+      "covers": [
+        "zh1-l04-e-sounds"
+      ],
+      "summary": {
+        "title": "Three e sounds",
+        "points": [
+          "High German short e often becomes open ä: Wätter, Fänschter, schnäll, Wält.",
+          "Closed e stays in See, Tee, Velo.",
+          "Weak e is the unstressed ending: mache, Garte.",
+          "When in doubt, open your mouth more."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "It's a sunny day.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do you say 'The weather is nice'?",
+              "options": [
+                "S Wätter isch schöö.",
+                "Das Wetter ist schön, oder?",
+                "S Wetter isch schön.",
+                "S Wätter ist schöön."
+              ],
+              "answer": 0,
+              "explanation": "Open ä, isch, schöö."
+            },
+            {
+              "type": "mcq",
+              "prompt": "And 'Open the window'?",
+              "options": [
+                "Mach das Fenster auf, bitte.",
+                "Mach s Fänschter uf.",
+                "Mach s Fenster uf.",
+                "Mach s Fänster ab."
+              ],
+              "answer": 1,
+              "explanation": "ä and scht."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You compare *See* and *Wält*.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which vowel is open?",
+              "options": [
+                "The e in See",
+                "Both are the same sound",
+                "The ä in Wält",
+                "Neither is open"
+              ],
+              "answer": 2,
+              "explanation": "*See* keeps a closed e."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's *schnell* in Zurich German?",
+              "options": [
+                "schnell, unchanged",
+                "schnüll",
+                "schnall",
+                "schnäll"
+              ],
+              "answer": 3,
+              "explanation": "Short e → ä."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh1-l05",
+      "level": "lesson",
+      "covers": [
+        "zh1-l05-endings"
+      ],
+      "summary": {
+        "title": "Endings",
+        "points": [
+          "Final -n drops: mache, Garte, schöö.",
+          "mir, ihr and si share one verb form in -ed: mir mached.",
+          "-li makes things small, often with umlaut: Hüüsli.",
+          "A linking n appears between vowels: wie-n-i gseit ha."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You suggest a break at work.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you say?",
+              "options": [
+                "Mir mached Pause.",
+                "Wir machen jetzt eine Pause.",
+                "Mir mache Pause.",
+                "Mir macht Pause."
+              ],
+              "answer": 0,
+              "explanation": "Plural -ed."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What are you doing today (to a group)?",
+              "options": [
+                "Was macht ihr heute so?",
+                "Was mached ihr hüt?",
+                "Was mache ihr hüt?",
+                "Was machsch du hüt?"
+              ],
+              "answer": 1,
+              "explanation": "Same -ed for ihr."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You hear *wie-n-i gseit ha*.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What is the n?",
+              "options": [
+                "A plural ending on the verb",
+                "A negation, like *nöd*",
+                "A linking n between vowels",
+                "A Bern feature"
+              ],
+              "answer": 2,
+              "explanation": "The dropped n returns before vowels."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's a little house?",
+              "options": [
+                "Es Huusli, without umlaut",
+                "Es Hüüschen",
+                "Es Huus chli",
+                "Es Hüüsli"
+              ],
+              "answer": 3,
+              "explanation": "-li with umlaut."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh1-l06",
+      "level": "lesson",
+      "covers": [
+        "zh1-l06-stress-melody"
+      ],
+      "summary": {
+        "title": "Stress and melody",
+        "points": [
+          "Most words, including loanwords, are stressed on the first syllable.",
+          "BÜ-ro, BIL-jet, KA-fi, VE-lo.",
+          "Verbs in -iere keep stress on -ie-: par-KIE-re.",
+          "Copy the melody: even syllables, rising inside, falling at the end."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "At the station counter.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do you ask for a ticket to Zurich?",
+              "options": [
+                "Es Billett uf Züri",
+                "Eine Fahrkarte nach Zürich, bitte schön",
+                "Es Ticket nach Zürich",
+                "En Billett z Bärn"
+              ],
+              "answer": 0,
+              "explanation": "*Billett*, stressed first."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How is *Billett* stressed?",
+              "options": [
+                "bil-JET, as in French",
+                "BIL-jet",
+                "Both syllables equally",
+                "It isn't stressed"
+              ],
+              "answer": 1,
+              "explanation": "Initial stress."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You compare *Velo* and *parkiere*.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which keeps stress off the first syllable?",
+              "options": [
+                "Velo",
+                "Both of them",
+                "parkiere",
+                "Neither of them"
+              ],
+              "answer": 2,
+              "explanation": "Verbs in -iere stress -ie-."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What helps you be understood most quickly?",
+              "options": [
+                "Perfect vowels with flat intonation",
+                "Speaking very fast",
+                "Using High German stress",
+                "Copying the melody"
+              ],
+              "answer": 3,
+              "explanation": "Melody carries a lot."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh1-b1",
+      "level": "block",
+      "covers": [
+        "zh1-l01-long-vowels",
+        "zh1-l02-diphthongs",
+        "zh1-l03-length"
+      ],
+      "summary": {
+        "title": "Long and gliding vowels",
+        "points": [
+          "ei, au, eu → often ii, uu, üü; old diphthongs stay.",
+          "Long u and ü → gliding ue and üe; ie is said in two parts.",
+          "Length changes meaning: Hut vs Huut.",
+          "Some long High German vowels are short: Vatter, hüt."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Convert three High German words.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "*Haus, gut, heute* become?",
+              "options": [
+                "Huus, guet, hüt",
+                "Haus, gut, heute",
+                "Hoos, guut, hüüt",
+                "Huus, gut, heit"
+              ],
+              "answer": 0,
+              "explanation": "uu, ue, short ü."
+            },
+            {
+              "type": "mcq",
+              "prompt": "*Leute, müde, Zeit* become?",
+              "options": [
+                "Leit, miid, Zeit",
+                "Lüüt, müed, Ziit",
+                "Lüüt, müüd, Zeet",
+                "Luut, müde, Ziet"
+              ],
+              "answer": 1,
+              "explanation": "üü, üe, ii."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Say 'We have time and I'm tired' in Zurich German.",
+              "modelAnswer": "Mir händ Ziit, und ich bi müed."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Tell apart long vowels and diphthongs.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which word has a gliding vowel?",
+              "options": [
+                "Huus, with its long uu",
+                "Ziit, with its long ii",
+                "guet",
+                "Hut"
+              ],
+              "answer": 2,
+              "explanation": "ue glides."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which keeps its old diphthong?",
+              "options": [
+                "Haus, which becomes Huus",
+                "Maus, which becomes Muus",
+                "Haut, which becomes Huut",
+                "Frau"
+              ],
+              "answer": 3,
+              "explanation": "Old au stays."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh1-b2",
+      "level": "block",
+      "covers": [
+        "zh1-l04-e-sounds",
+        "zh1-l05-endings",
+        "zh1-l06-stress-melody",
+        "zh1-l07-recap"
+      ],
+      "summary": {
+        "title": "e sounds, endings and stress",
+        "points": [
+          "Short e → open ä; closed e in See; weak e in endings.",
+          "Final -n drops; plural -ed; -li for small things.",
+          "Stress the first syllable, except verbs in -iere.",
+          "Linking n and melody make speech flow."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You plan an afternoon with friends.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'We're going shopping' is?",
+              "options": [
+                "Mir gönd go poschte.",
+                "Wir gehen einkaufen",
+                "Mir gaan go poschte.",
+                "Mir gönd poschte gehen."
+              ],
+              "answer": 0,
+              "explanation": "*go* + verb."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'The weather was nice today' is?",
+              "options": [
+                "Heute war das Wetter schön.",
+                "Hüt isch es schöö gsii.",
+                "Hüt war es schöö.",
+                "Hüt isch es schön gewesen."
+              ],
+              "answer": 1,
+              "explanation": "Perfect with *gsii*."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Ask a group what they're doing today, and say you're taking a break.",
+              "modelAnswer": "Was mached ihr hüt? Mir mached Pause."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You compare three features.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which shows the open ä?",
+              "options": [
+                "See",
+                "mache, with its final e",
+                "schnäll",
+                "Velo, with its closed e"
+              ],
+              "answer": 2,
+              "explanation": "Short e → ä."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which shows the dropped -n?",
+              "options": [
+                "Wätter, which has two t's",
+                "Büro",
+                "Hüüsli, with -li",
+                "Garte"
+              ],
+              "answer": 3,
+              "explanation": "Garten → Garte."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh1-m",
+      "level": "module",
+      "covers": [
+        "zh1-l01-long-vowels",
+        "zh1-l02-diphthongs",
+        "zh1-l03-length",
+        "zh1-l04-e-sounds",
+        "zh1-l05-endings",
+        "zh1-l06-stress-melody",
+        "zh1-l07-recap"
+      ],
+      "summary": {
+        "title": "Vowels: the whole picture",
+        "points": [
+          "ei, au, eu → ii, uu, üü, except old diphthongs.",
+          "Long u and ü → ue and üe; ie in two parts.",
+          "Length changes meaning.",
+          "Short e → open ä.",
+          "Final -n drops, plural -ed, -li, linking n.",
+          "Stress first, copy the melody."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A short exchange with a neighbour.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Hi, how are you?' is?",
+              "options": [
+                "Hoi, wie gaats?",
+                "Hallo, wie geht's?",
+                "Hoi, wie gaat es?",
+                "Grüezi, wie gehts Ihne?"
+              ],
+              "answer": 0,
+              "explanation": "*gaats* with a long aa."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Good, thanks. And you?' is?",
+              "options": [
+                "Gut, danke. Und dir?",
+                "Guet, merci. Und dir?",
+                "Guut, merci. Und du?",
+                "Guet, danke. Und Ihne?"
+              ],
+              "answer": 1,
+              "explanation": "ue glides; *merci* stressed first."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'People are friendly' is?",
+              "options": [
+                "Die Leute sind freundlich.",
+                "D Leit sind fründlich.",
+                "D Lüüt sind fründlich.",
+                "D Lüüt isch fründlich."
+              ],
+              "answer": 2,
+              "explanation": "eu → üü; *sind* for plural."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Run the five rules on new words.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "*Mauer* (wall) is most likely?",
+              "options": [
+                "Mauer, unchanged",
+                "Moor",
+                "Miir",
+                "Muur"
+              ],
+              "answer": 3,
+              "explanation": "au → uu, final -er → -r."
+            },
+            {
+              "type": "mcq",
+              "prompt": "*Bruder* is most likely?",
+              "options": [
+                "Brueder",
+                "Bruder, unchanged",
+                "Bruuder",
+                "Brüder"
+              ],
+              "answer": 0,
+              "explanation": "Long u → ue."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain in one sentence why *Huus* but *Frau*.",
+              "modelAnswer": "Huus comes from an old long u that Swiss German kept, while Frau had a diphthong already in old German, so it stays."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

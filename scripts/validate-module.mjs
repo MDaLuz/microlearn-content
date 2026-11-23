@@ -258,7 +258,7 @@ if (molecule) {
   for (const [k, ls] of cols) if (ls.length > 1) warn('molecule', `comparison tables with the same columns (${k}) in ${ls.join(', ')}`);
 }
 
-// ---- Generics & launch and Training course checks ----
+// ---- Generics & launch, Training and Languages course checks ----
 // Applied automatically to modules in those categories (catalog discipline).
 
 const COURSE_RULES = {
@@ -275,12 +275,22 @@ const COURSE_RULES = {
     line: '**What this means for your training:**',
     sourcesLast: true,
   },
+  Languages: {
+    cardHead: /^\s*### Phrase:/,
+    cardName: 'phrase card',
+    fields: ['- Say it:', '- IPA:', '- Hochdeutsch:', '- English:'],
+    lastOptional: '- Note:', // optional, after every field
+    line: '**What this means for you:**',
+    sourcesLast: true,
+    lineInRecaps: true, // every lesson, recaps included
+    cardsNotJargon: true, // phrase cards are excluded from the bold-term count
+  },
 };
 const report = [];
 const course = COURSE_RULES[mod.discipline] ?? COURSE_RULES[entry?.discipline];
 if (course) {
   const TIMELINE = course.line;
-  const isSources = (b) => b.type === 'text' && /^\s*## Sources/.test(b.markdown ?? '');
+  const isSources = (b) => b.type === 'text' && /^\s*## Sources[ \t]*(\n|$)/.test(b.markdown ?? ''); // the heading itself, not "## Sources of …"
   let cards = 0;
 
   for (const l of mod.lessons) {
@@ -301,11 +311,15 @@ if (course) {
         }
         at = k;
       }
+      if (course.lastOptional) {
+        const n = lines.findIndex((x) => x.startsWith(course.lastOptional));
+        if (n >= 0 && n < at) err(`${w} block ${i}`, `${course.cardName}: "${course.lastOptional}" must come last`);
+      }
     }
 
     // One "What this means for…" line, before Sources (optional in recaps).
     const tl = texts.filter(({ b }) => b.markdown.trim().startsWith(TIMELINE));
-    const recap = /^Recap/i.test(l.title);
+    const recap = !course.lineInRecaps && /^Recap/i.test(l.title);
     if (tl.length > 1 || (!recap && tl.length === 0)) err(w, `needs exactly one "${TIMELINE}" block, has ${tl.length}`);
     const src = l.blocks.findIndex(isSources);
     for (const { i } of tl) if (src >= 0 && i > src) err(`${w} block ${i}`, `the "${TIMELINE}" line must come before Sources`);
@@ -319,6 +333,7 @@ if (course) {
     // Jargon: bold terms per block, excluding Sources, the timeline label and list labels ending in ":" or ".".
     for (const { b, i } of texts) {
       if (isSources(b)) continue;
+      if (course.cardsNotJargon && course.cardHead.test(b.markdown)) continue;
       const terms = [...new Set(
         [...b.markdown.matchAll(/\*\*([^*]+)\*\*/g)]
           .map((m) => m[1].trim())

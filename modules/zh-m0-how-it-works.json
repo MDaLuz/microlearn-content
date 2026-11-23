@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 6,
+  "id": "zh-m0-how-it-works",
+  "title": "Züritüütsch 0: How Swiss German works",
+  "discipline": "Languages",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "zh0-l01-diglossia",
+      "title": "Dialect, High German and Swiss Standard German",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Two languages in one head\n\nGerman-speaking Switzerland lives with **diglossia**: two varieties with different jobs. People speak **Mundart** (dialect) with almost everyone, from the CEO to the bus driver. They write, read the news and teach in High German. In the federal survey of 2019, 89% of people in German-speaking Switzerland said they regularly use Swiss German, and 97% Standard German, which includes reading and writing."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m0/diglossia.svg",
+          "alt": "Two columns: dialect for speaking (family, work, shops, radio talk, chat messages) and High German for writing (news, official letters, school, signs), with a Swiss Standard German band.",
+          "caption": "Who uses what, when",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.158
+        },
+        {
+          "type": "text",
+          "markdown": "## Three varieties, not two\n\n- **Dialect (Mundart):** spoken everyday language; Zurich German is one dialect.\n- **Swiss Standard German:** High German as Swiss people speak and write it, with a Swiss accent and Swiss words like *Velo* and *parkieren*.\n- **German Standard German:** what you learned in class, from Germany.\n\nDialect isn't 'bad German'. It has no lower social status, and using it is a sign of closeness, not of informality alone."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Redsch du Schwiizertüütsch?\n\n- Say it: REDSCH du SCHWII-tser-tüütsch\n- IPA: [ˈred̥ʃ d̥u ˈʃʋiːtsərtyːtʃ]\n- Hochdeutsch: Sprichst du Schweizerdeutsch?\n- English: Do you speak Swiss German?\n- Note: *rede* is the everyday verb for 'speak'; *spräche* sounds bookish."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich bi am Schwiizertüütsch lerne.\n\n- Say it: ich bi am SCHWII-tser-tüütsch LER-ne\n- IPA: [ɪx b̥i am ˈʃʋiːtsərtyːtʃ ˈlɛrnə]\n- Hochdeutsch: Ich lerne gerade Schweizerdeutsch.\n- English: I'm learning Swiss German.\n- Note: *am … lerne* is the 'busy doing' form, like English '-ing'."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Hochtüütsch\n\n- Say it: HOCH-tüütsch\n- IPA: [ˈhoxtyːtʃ]\n- Hochdeutsch: Hochdeutsch\n- English: High German\n- Note: Also called *Schriftdüütsch*, 'written German'."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** expect dialect in every spoken situation, and High German in anything written. Your High German is the bridge: most dialect words are shifted versions of words you already know."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh0-l01-diglossia-fc1",
+              "front": "Diglossia in German-speaking Switzerland",
+              "back": "Dialect for speaking with almost everyone; High German for writing, news, school and official texts."
+            },
+            {
+              "id": "zh0-l01-diglossia-fc2",
+              "front": "Swiss Standard German",
+              "back": "High German as the Swiss speak and write it: Swiss accent and words like Velo, parkieren, Trottoir."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh0-l01-diglossia-q1",
+              "stem": "A colleague from Winterthur writes you an email and then calls you. What will you most likely get?",
+              "options": [
+                "Dialect in both",
+                "High German email, dialect call",
+                "Dialect email, High German call",
+                "High German in both"
+              ],
+              "correctIndex": 1,
+              "explanation": "Writing is mostly High German; speaking is dialect."
+            },
+            {
+              "id": "zh0-l01-diglossia-q2",
+              "stem": "What is Swiss Standard German?",
+              "options": [
+                "A dialect from Bern",
+                "High German with a Swiss accent and Swiss words",
+                "A mix of French and German",
+                "The written form of Zurich German"
+              ],
+              "correctIndex": 1,
+              "explanation": "It's Standard German, Swiss-flavoured."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Statistics** — Federal Statistical Office (BFS), Survey on language, religion and culture 2019.\n2. **Atlas** — Christen H, Glaser E, Friedli M, *Kleiner Sprachatlas der deutschen Schweiz*, Frauenfeld 2010.\n3. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n4. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh0-l02-switching",
+      "title": "Why people switch to High German, and how to keep them in dialect",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The polite switch\n\nThe moment Swiss people hear a foreign accent, many switch to High German or English. It's meant as politeness: they assume you don't understand dialect. This **code-switching** is the biggest obstacle to learning, because you stop hearing the language you need."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m0/switching.svg",
+          "alt": "A flow: you speak, they hear an accent and switch to High German; you ask them to stay in dialect, and the conversation continues in dialect while you answer in High German or dialect.",
+          "caption": "Keeping the conversation in dialect",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## What works (practice)\n\n- Ask once, kindly, at the start.\n- Say you understand more than you speak.\n- It's fine to answer in High German while they speak dialect. Many learners do this for months.\n- Repeat the request with people you see often: neighbours, colleagues, other parents."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Chönd Si bitte Schwiizertüütsch rede?\n\n- Say it: CHÖND si BIT-te SCHWII-tser-tüütsch RE-de\n- IPA: [ˈxœnd̥ si ˈb̥ɪtːə ˈʃʋiːtsərtyːtʃ ˈred̥ə]\n- Hochdeutsch: Können Sie bitte Schweizerdeutsch sprechen?\n- English: Could you please speak Swiss German?\n- Note: Formal *Si*. With *du*: *Chasch bitte Schwiizertüütsch rede?*"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich verstaa meh, als ich cha säge.\n\n- Say it: ich fer-SCHTAA MEH, als ich CHA SÄ-ge\n- IPA: [ɪx fərˈʃtaː meː als ɪx xa ˈsæɡ̊ə]\n- Hochdeutsch: Ich verstehe mehr, als ich sagen kann.\n- English: I understand more than I can say.\n- Note: *verstaa* is stressed on *staa*, like High German *verstehen*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Red eifach wiiter, gärn chli langsamer.\n\n- Say it: RED EI-fach WII-ter, GÄRN chli LANG-sa-mer\n- IPA: [red̥ ˈei̯fax ˈʋiːtər ɡ̊ærn xli ˈlaŋsamər]\n- Hochdeutsch: Sprich einfach weiter, gern etwas langsamer.\n- English: Just keep talking, a bit slower if you can.\n- Note: *chli* means 'a bit'; you'll hear it constantly."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Nöd so schnäll, bitte.\n\n- Say it: NÖD so SCHNÄLL, BIT-te\n- IPA: [nœd̥ so ʃnæl ˈb̥ɪtːə]\n- Hochdeutsch: Nicht so schnell, bitte.\n- English: Not so fast, please."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** ask people you meet regularly to stay in dialect, and keep answering in High German until speaking feels natural. Understanding comes first."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh0-l02-switching-fc1",
+              "front": "Why Swiss people switch to High German",
+              "back": "Politeness: they hear an accent and assume you don't understand dialect."
+            },
+            {
+              "id": "zh0-l02-switching-fc2",
+              "front": "Chönd Si bitte Schwiizertüütsch rede?",
+              "back": "Could you please speak Swiss German? (formal). With du: Chasch bitte Schwiizertüütsch rede?"
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh0-l02-switching-q1",
+              "stem": "Your neighbour switches to High German when she hears your accent. What's the best move?",
+              "options": [
+                "Switch to English",
+                "Ask her kindly to stay in dialect; answer in High German if needed",
+                "Stop talking to her",
+                "Pretend to understand everything"
+              ],
+              "correctIndex": 1,
+              "explanation": "Ask once, and accept answering in High German for now."
+            },
+            {
+              "id": "zh0-l02-switching-q2",
+              "stem": "What does *chli* mean?",
+              "options": [
+                "Small child",
+                "A bit",
+                "Quickly",
+                "Kitchen"
+              ],
+              "correctIndex": 1,
+              "explanation": "*chli* = ein bisschen."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Atlas** — Christen H, Glaser E, Friedli M, *Kleiner Sprachatlas der deutschen Schweiz*, Frauenfeld 2010.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh0-l03-dialect-map",
+      "title": "A map of the dialects: where Zurich German sits",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Many dialects, one family\n\nSwiss German isn't one dialect but a family of **Alemannic** dialects. They differ in sounds, words and grammar, sometimes a lot. People usually recognise where someone comes from within a sentence or two. All of them understand each other, with some effort for the Valais."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m0/dialect-map.svg",
+          "alt": "A schematic map of German-speaking Switzerland with seven dialect areas: Basel, Bern, Zurich, Eastern Switzerland, Central Switzerland, Grisons and Valais. Zurich is highlighted.",
+          "caption": "Main dialect areas (schematic)",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.952
+        },
+        {
+          "type": "text",
+          "markdown": "## Why Zurich German\n\nZurich German is spoken by over a million people around the city and in most of the canton, including the Oberland and towns like Winterthur and Uster. Small local differences exist; this course uses the common Zurich forms. Bern German and others appear in Module 8, for recognition only."
+        },
+        {
+          "type": "text",
+          "markdown": "## One sentence, three dialects\n\n'I don't know' sounds like this:\n\n- **Zurich:** *Ich weiss es nöd.*\n- **Bern:** *I weiss es nid.*\n- **Basel:** *Ich weiss es nit.*\n\nSame family, different details. Pick one and stay consistent."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Züritüütsch\n\n- Say it: TSÜ-ri-tüütsch\n- IPA: [ˈtsyrityːtʃ]\n- Hochdeutsch: Zürichdeutsch\n- English: Zurich German\n- Note: *Züri* is Zurich, city and canton."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wo chunsch du här?\n\n- Say it: WO CHUNSCH du HÄR\n- IPA: [ʋo ˈxʊnʃ d̥u hær]\n- Hochdeutsch: Woher kommst du?\n- English: Where are you from?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich schaffe z Züri.\n\n- Say it: ich SCHAF-fe ts TSÜ-ri\n- IPA: [ɪx ˈʃafːə ts ˈtsyri]\n- Hochdeutsch: Ich arbeite in Zürich.\n- English: I work in Zurich.\n- Note: *z* before a place means 'in' or 'to': *z Züri*, *z Bärn*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich weiss es nöd.\n\n- Say it: ich WEISS es NÖD\n- IPA: [ɪx ʋei̯s əs nœd̥]\n- Hochdeutsch: Ich weiss es nicht.\n- English: I don't know.\n- Note: *nöd* is the Zurich 'not'; Bern says *nid*."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** stick to Zurich forms when you speak. When someone sounds different, that's another dialect, not a mistake in your course."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh0-l03-dialect-map-fc1",
+              "front": "Alemannic",
+              "back": "The dialect family that Swiss German dialects belong to, along with dialects in south-west Germany and Alsace."
+            },
+            {
+              "id": "zh0-l03-dialect-map-fc2",
+              "front": "z Züri",
+              "back": "In or to Zurich. *z* before a place name works like 'in' or 'to'."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh0-l03-dialect-map-q1",
+              "stem": "Which is the Zurich way to say 'not'?",
+              "options": [
+                "nid",
+                "nit",
+                "nöd",
+                "net"
+              ],
+              "correctIndex": 2,
+              "explanation": "*nöd* is Zurich; *nid* is Bern; *nit* is Basel."
+            },
+            {
+              "id": "zh0-l03-dialect-map-q2",
+              "stem": "What does *Ich schaffe z Züri* mean?",
+              "options": [
+                "I create Zurich",
+                "I work in Zurich",
+                "I'm going to Zurich",
+                "I live near Zurich"
+              ],
+              "correctIndex": 1,
+              "explanation": "*schaffe* = arbeiten; *z Züri* = in Zürich."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Atlas** — Christen H, Glaser E, Friedli M, *Kleiner Sprachatlas der deutschen Schweiz*, Frauenfeld 2010.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh0-l04-writing",
+      "title": "Writing without a standard",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## No official spelling\n\nSwiss German has no official written form. People write it the way they hear it, mostly in chat messages, social media and private notes. So one word can appear in several spellings: *nöd*, *nööd*, *ned*."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m0/writing-variants.svg",
+          "alt": "One message written four ways: 'Hoi zäme, bis spöter!', 'Hoi zämä, bis schpöter', 'hoi zäme bis spööter', and High German 'Hallo zusammen, bis später!'.",
+          "caption": "One message, many spellings",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## A consistent system\n\nThe Zurich German dictionary and many teaching materials follow **Dieth spelling**, a system from 1938 that writes what you hear:\n\n- long vowels doubled: *Huus*, *Ziit*\n- *ie*, *ue*, *üe* for the gliding vowels: *lieb*, *guet*\n- *ä* for the open e: *Wätter*\n- *sp* and *st* written as in High German, even though they sound *schp* and *scht*\n\nThis course uses it throughout, so every word has one spelling here."
+        },
+        {
+          "type": "text",
+          "markdown": "## In real life\n\nChat messages loosen the rules: *isch* or *esch*, *zäme* or *zämä*. Read them aloud and they usually make sense. Official emails, letters and forms stay in High German."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Hoi zäme!\n\n- Say it: HOI TSÄ-me\n- IPA: [hoi̯ ˈtsæmə]\n- Hochdeutsch: Hallo zusammen!\n- English: Hi everyone!\n- Note: Informal greeting for a group, also in chats."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Liebi Grüess\n\n- Say it: LI-e-bi GRÜ-ess\n- IPA: [ˈliə̯b̥i ɡ̊ryə̯s]\n- Hochdeutsch: Liebe Grüsse\n- English: Kind regards\n- Note: Typical sign-off in a friendly message."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Bis spöter!\n\n- Say it: bis SCHPÖ-ter\n- IPA: [b̥ɪs ˈʃpøːtər]\n- Hochdeutsch: Bis später!\n- English: See you later!\n- Note: Written *sp*, said *schp*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Merci vilmal!\n\n- Say it: MER-si FIL-mal\n- IPA: [ˈmærsi ˈfɪlmal]\n- Hochdeutsch: Vielen Dank!\n- English: Thanks a lot!\n- Note: Stress on the first syllable of *merci*."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** write dialect only in chats with people who write it to you; keep emails and forms in High German. When you read a chat message, sound it out."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh0-l04-writing-fc1",
+              "front": "Dieth spelling",
+              "back": "A 1938 system for writing Swiss German as it sounds: doubled long vowels (Huus), ie/ue/üe, ä for open e."
+            },
+            {
+              "id": "zh0-l04-writing-fc2",
+              "front": "Hoi zäme",
+              "back": "Hi everyone (informal, also in chats). zäme = zusammen."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh0-l04-writing-q1",
+              "stem": "Why does *nöd* appear as *nööd* or *ned* in chats?",
+              "options": [
+                "They're different words",
+                "There's no official spelling, so people write what they hear",
+                "It's a typing error",
+                "Only children write *ned*"
+              ],
+              "correctIndex": 1,
+              "explanation": "Spelling varies; the sound is the same."
+            },
+            {
+              "id": "zh0-l04-writing-q2",
+              "stem": "How is *spöter* pronounced?",
+              "options": [
+                "SPÖ-ter",
+                "SCHPÖ-ter",
+                "SPÄ-ter",
+                "SCHPÄ-ter"
+              ],
+              "correctIndex": 1,
+              "explanation": "*sp* is always said *schp*."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Spelling** — Dieth E, *Schwyzertütschi Dialäktschrift*, 1938; 2nd ed. by Schmid-Cadalbert C, Aarau 1986.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n4. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh0-l05-respelling",
+      "title": "How to read this course's pronunciation guide",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Three layers for every phrase\n\nEvery phrase card has:\n\n1. **The phrase** in Zurich spelling.\n2. **Say it:** a respelling you can read with High German habits, with CAPS on stressed syllables.\n3. **IPA:** the precise phonetic symbols, for reference.\n\nThen the High German, the English and, where useful, a note. A player with a **synthetic voice** is added to each card."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m0/respelling-key.svg",
+          "alt": "Anatomy of a phrase card: the phrase in Zurich spelling, 'Say it' respelling with stressed syllables in capitals, IPA line, High German, English, a note, and an audio player.",
+          "caption": "How a phrase card works",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.05
+        },
+        {
+          "type": "text",
+          "markdown": "## Respelling rules\n\n- **CAPS:** the stressed syllable. Stress usually falls on the first syllable.\n- **Doubled vowel:** long (*ii*, *uu*, *üü*, *aa*). A single vowel is short.\n- **ie, ue, üe:** two vowels gliding (*i-e*, *u-e*, *ü-e*), never the long High German *ie*.\n- **ä and e:** *ä* is very open, as in English 'cat'; *e* is closed, as in High German *See*.\n- **ch:** always the throaty sound of *Bach*, even at the start: *Chind*.\n- **sch:** replaces *s* before *t* and *p*: *SCHTADT*, *SCHPÖ-ter*."
+        },
+        {
+          "type": "text",
+          "markdown": "## Soft consonants\n\nZurich *b*, *d*, *g* are soft but voiceless, a little like French or Italian *p*, *t*, *k* said gently. In IPA they appear as [b̥ d̥ ɡ̊]. A final *-n* is usually dropped: *mache*, not *machen*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Chuchi\n\n- Say it: CHU-chi\n- IPA: [ˈxʊxi]\n- Hochdeutsch: Küche\n- English: Kitchen\n- Note: Both *ch* are throaty, including the first."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Huus\n\n- Say it: HUUS\n- IPA: [huːs]\n- Hochdeutsch: Haus\n- English: House\n- Note: Doubled *uu* = long."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: guet\n\n- Say it: GU-et\n- IPA: [ɡ̊uə̯t]\n- Hochdeutsch: gut\n- English: Good\n- Note: One syllable that glides: u, then a short e."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Fänschter\n\n- Say it: FÄNSCH-ter\n- IPA: [ˈfænʃtər]\n- Hochdeutsch: Fenster\n- English: Window\n- Note: Open *ä*, and *scht* for *st*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: mache\n\n- Say it: MA-che\n- IPA: [ˈmaxə]\n- Hochdeutsch: machen\n- English: To make, to do\n- Note: No final *-n*."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** read the 'Say it' line aloud with High German habits, then check the IPA only when something surprises you. Press play and copy the voice."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh0-l05-respelling-fc1",
+              "front": "Respelling: doubled vowel",
+              "back": "A doubled vowel (ii, uu, üü, aa) is long; a single vowel is short."
+            },
+            {
+              "id": "zh0-l05-respelling-fc2",
+              "front": "Respelling: ie, ue, üe",
+              "back": "Two vowels gliding together (i-e, u-e, ü-e), never the long High German ie."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh0-l05-respelling-q1",
+              "stem": "In 'Say it: CHU-chi', which syllable is stressed?",
+              "options": [
+                "The first",
+                "The second",
+                "Both",
+                "Neither"
+              ],
+              "correctIndex": 0,
+              "explanation": "CAPS mark the stressed syllable."
+            },
+            {
+              "id": "zh0-l05-respelling-q2",
+              "stem": "How is *guet* said?",
+              "options": [
+                "Like High German *gut*",
+                "u gliding into a short e, in one syllable",
+                "Like English 'get'",
+                "Two separate words"
+              ],
+              "correctIndex": 1,
+              "explanation": "ue is a gliding diphthong."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Phonetics** — Fleischer J, Schmid S, Zurich German, *Journal of the International Phonetic Association* 2006;36(2):243–253.\n2. **Spelling** — Dieth E, *Schwyzertütschi Dialäktschrift*, 1938; 2nd ed. by Schmid-Cadalbert C, Aarau 1986.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh0-l06-learning-plan",
+      "title": "Your learning plan: listening every day",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Listening first\n\nYou already know most of the vocabulary from High German. What's missing is your ear. A little dialect every day beats a long session once a week."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m0/listening-plan.svg",
+          "alt": "A weekly listening plan: 5 minutes of the SRF weather on weekdays, a dialect podcast on the commute twice a week, one SRF dialect programme at the weekend, plus real conversations.",
+          "caption": "A weekly listening routine",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources of real dialect (practice)\n\n- **SRF Meteo:** the TV and radio weather forecasts are often in dialect, short and repetitive: ideal.\n- **Radio SRF 1 and SRF 3:** presenters speak dialect between songs and in interviews.\n- **SRF programmes and podcasts** in dialect, such as talk shows and local reports.\n- **Real people:** neighbours, colleagues, shop staff, other parents.\n\nNews bulletins are usually in High German, so choose talk, not news."
+        },
+        {
+          "type": "text",
+          "markdown": "## Three useful questions\n\nThe phrases below get you through any listening moment: asking what was said, asking for a repeat, and asking how to say something."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Was hät er gseit?\n\n- Say it: WAS HÄT er GSEIT\n- IPA: [ʋas hæt ər ɡ̊sei̯t]\n- Hochdeutsch: Was hat er gesagt?\n- English: What did he say?\n- Note: *gseit* is the past participle of *säge*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Chasch das nomal säge?\n\n- Say it: CHASCH das NO-mal SÄ-ge\n- IPA: [xaʃ d̥as ˈnoːmal ˈsæɡ̊ə]\n- Hochdeutsch: Kannst du das nochmal sagen?\n- English: Can you say that again?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wie seit mer däm uf Schwiizertüütsch?\n\n- Say it: WIE SEIT mer DÄM uf SCHWII-tser-tüütsch\n- IPA: [ʋiə̯ sei̯t mər d̥æm uf ˈʃʋiːtsərtyːtʃ]\n- Hochdeutsch: Wie sagt man dem auf Schweizerdeutsch?\n- English: How do you say that in Swiss German?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich lose Radio.\n\n- Say it: ich LO-se RA-di-o\n- IPA: [ɪx ˈlosə ˈrad̥io]\n- Hochdeutsch: Ich höre Radio.\n- English: I'm listening to the radio.\n- Note: *lose* means 'listen', not 'lose'."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** listen to 5 minutes of dialect a day, ideally the SRF weather, and use the three questions in real conversations every week."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh0-l06-learning-plan-fc1",
+              "front": "Best daily listening source",
+              "back": "The SRF weather forecast: short, repetitive and often in dialect."
+            },
+            {
+              "id": "zh0-l06-learning-plan-fc2",
+              "front": "lose",
+              "back": "To listen (zuhören). *Los emol!* = Listen!"
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh0-l06-learning-plan-q1",
+              "stem": "Which is the best daily listening source for a dialect learner?",
+              "options": [
+                "The 7 o'clock news",
+                "The SRF weather forecast",
+                "Swiss newspapers",
+                "Official letters"
+              ],
+              "correctIndex": 1,
+              "explanation": "Weather is short, repetitive and in dialect."
+            },
+            {
+              "id": "zh0-l06-learning-plan-q2",
+              "stem": "What does *Was hät er gseit?* mean?",
+              "options": [
+                "What does he see?",
+                "What did he say?",
+                "Where is he sitting?",
+                "What has he got?"
+              ],
+              "correctIndex": 1,
+              "explanation": "*gseit* = gesagt."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}

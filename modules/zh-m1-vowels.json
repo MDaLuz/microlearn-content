@@ -1,0 +1,686 @@
+{
+  "schemaVersion": 6,
+  "id": "zh-m1-vowels",
+  "title": "Züritüütsch 1: Sounds I: vowels",
+  "discipline": "Languages",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "zh1-l01-long-vowels",
+      "title": "Old long vowels: Haus → Huus, Zeit → Ziit",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The biggest shift\n\nAround the 1300s–1500s, High German turned old long *i*, *u* and *ü* into the diphthongs *ei*, *au* and *eu*. Swiss German never made that change. So many High German *ei*, *au*, *eu* words keep the **old long vowels** in Zurich German:\n\n- *ei* → *ii*: Zeit → *Ziit*, Wein → *Wii*, mein → *mii*\n- *au* → *uu*: Haus → *Huus*, Maus → *Muus*\n- *eu/äu* → *üü*: Leute → *Lüüt*, Feuer → *Füür*"
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m1/long-vowel-shift.svg",
+          "alt": "Three arrows: High German ei to Zurich ii (Zeit, Ziit), au to uu (Haus, Huus), eu to üü (Leute, Lüüt). A note shows ei that stays ei: zwei, heiss, Bein → Bei.",
+          "caption": "Three shifts back to long vowels",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Not every ei, au, eu\n\nHigh German also has *ei*, *au*, *eu* that were already diphthongs in old German. Those stay diphthongs in Zurich: *zwei*, *heiss*, *Bei* (Bein), *Baum*, *Frau*. There's no shortcut to telling them apart; you learn the common words. The sound-shift explorer in Module 2 helps."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mis Huus\n\n- Say it: MIS HUUS\n- IPA: [miːs huːs]\n- Hochdeutsch: Mein Haus\n- English: My house\n- Note: Both vowels long."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mir händ Ziit.\n\n- Say it: mir HÄND TSIIT\n- IPA: [mir hænd̥ tsiːt]\n- Hochdeutsch: Wir haben Zeit.\n- English: We have time."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Es Glas Wii\n\n- Say it: es GLAS WII\n- IPA: [əs ɡ̊las ʋiː]\n- Hochdeutsch: Ein Glas Wein\n- English: A glass of wine"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: D Lüüt sind fründlich.\n\n- Say it: d LÜÜT sind FRÜND-lich\n- IPA: [d̥ lyːt sind̥ ˈfrʏnd̥lɪx]\n- Hochdeutsch: Die Leute sind freundlich.\n- English: People are friendly.\n- Note: *fründlich* also keeps the old vowel, but short."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Am nüüni\n\n- Say it: am NÜÜ-ni\n- IPA: [am ˈnyːni]\n- Hochdeutsch: Um neun Uhr\n- English: At nine o'clock\n- Note: Hours take *-i*: *am nüüni*, *am drüü*."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** when a High German word has ei, au or eu, try ii, uu or üü first: you'll be right often. Learn the exceptions like zwei, heiss and Frau as they come."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh1-l01-long-vowels-fc1",
+              "front": "High German ei, au, eu in Zurich German",
+              "back": "Often ii, uu, üü: Zeit → Ziit, Haus → Huus, Leute → Lüüt."
+            },
+            {
+              "id": "zh1-l01-long-vowels-fc2",
+              "front": "Exceptions that stay diphthongs",
+              "back": "zwei, heiss, Bei (Bein), Baum, Frau: these were diphthongs already in old German."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh1-l01-long-vowels-q1",
+              "stem": "What's *Maus* in Zurich German?",
+              "options": [
+                "Maus",
+                "Muus",
+                "Moos",
+                "Mäus"
+              ],
+              "correctIndex": 1,
+              "explanation": "au → uu."
+            },
+            {
+              "id": "zh1-l01-long-vowels-q2",
+              "stem": "Which word keeps its diphthong in Zurich German?",
+              "options": [
+                "Zeit",
+                "Haus",
+                "zwei",
+                "Leute"
+              ],
+              "correctIndex": 2,
+              "explanation": "*zwei* was already a diphthong in old German."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Phonetics** — Fleischer J, Schmid S, Zurich German, *Journal of the International Phonetic Association* 2006;36(2):243–253.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n4. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh1-l02-diphthongs",
+      "title": "Gliding vowels: lieb, guet, müed",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Three diphthongs High German lost\n\nZurich German keeps three **falling diphthongs**: two vowels in one syllable, with the stress on the first and a short, weak e after it.\n\n- *ie* [iə]: *lieb*, *Brief*, *Liecht* (Licht)\n- *ue* [uə]: *guet*, *Fuess*, *Chue* (Kuh), *Brueder*\n- *üe* [yə]: *müed*, *grüen*, *früe*, *Grüezi*"
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m1/diphthongs.svg",
+          "alt": "Three rows: High German long i to Zurich ie (lieb), long u to ue (gut, guet), long ü to üe (müde, müed), each with a mouth-shape arrow from the first vowel gliding to a short e.",
+          "caption": "The three gliding vowels",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## The trap for High German speakers\n\nIn High German, *ie* is just a long i. In Zurich German you say both parts: *li-eb*, not *liib*. The second part is short and light; it isn't a full syllable. Where High German has a long *u* or *ü*, Zurich German often has *ue* or *üe*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Das isch guet.\n\n- Say it: das isch GU-et\n- IPA: [d̥as ɪʃ ɡ̊uə̯t]\n- Hochdeutsch: Das ist gut.\n- English: That's good."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich bi müed.\n\n- Say it: ich bi MÜ-ed\n- IPA: [ɪx b̥i myə̯d̥]\n- Hochdeutsch: Ich bin müde.\n- English: I'm tired."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Am Morge früe\n\n- Say it: am MOR-ge FRÜ-e\n- IPA: [am ˈmɔrɡ̊ə fryə̯]\n- Hochdeutsch: Am Morgen früh\n- English: Early in the morning"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Grüezi\n\n- Say it: GRÜ-e-tsi\n- IPA: [ˈɡ̊ryə̯tsi]\n- Hochdeutsch: Grüss Gott / Guten Tag\n- English: Hello (formal)\n- Note: Say *üe* as one gliding sound, never 'Grützi'."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Lieber Kafi oder Tee?\n\n- Say it: LI-e-ber KA-fi O-der TEE\n- IPA: [ˈliə̯b̥ər ˈkxafi ˈoːd̥ər teː]\n- Hochdeutsch: Lieber Kaffee oder Tee?\n- English: Coffee or tea?"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** when you see ie, ue or üe, say both parts, with the first one stressed. If a High German word has a long u or ü, try ue or üe."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh1-l02-diphthongs-fc1",
+              "front": "Falling diphthongs ie, ue, üe",
+              "back": "Two vowels in one syllable, the first stressed: lieb [liəb], guet [ɡuət], müed [myəd]."
+            },
+            {
+              "id": "zh1-l02-diphthongs-fc2",
+              "front": "High German long u and ü in Zurich",
+              "back": "Often ue and üe: gut → guet, Fuss → Fuess, müde → müed, grün → grüen."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh1-l02-diphthongs-q1",
+              "stem": "How do you say *lieb* in Zurich German?",
+              "options": [
+                "liib, with a long i",
+                "li-eb, gliding into a short e",
+                "leeb",
+                "lieb, as in High German"
+              ],
+              "correctIndex": 1,
+              "explanation": "Say both parts."
+            },
+            {
+              "id": "zh1-l02-diphthongs-q2",
+              "stem": "What's *Fuss* in Zurich German?",
+              "options": [
+                "Fuss",
+                "Fuess",
+                "Füss",
+                "Foos"
+              ],
+              "correctIndex": 1,
+              "explanation": "Long u → ue."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Phonetics** — Fleischer J, Schmid S, Zurich German, *Journal of the International Phonetic Association* 2006;36(2):243–253.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh1-l03-length",
+      "title": "Long or short: length changes meaning",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Length matters\n\nIn Zurich German, **vowel length** can be the only difference between two words: *Hut* (hat) has a short u, *Huut* (skin) a long one. Consonants have length too: the *tt* in *Vatter* is held a little longer."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m1/length-pairs.svg",
+          "alt": "Pairs with short and long sounds: Hut (hat, short u) vs Huut (skin, long uu); High German Vater with long a vs Zurich Vatter with short a and long t.",
+          "caption": "Short and long",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Patterns to expect\n\n- Some High German long vowels are short in Zurich: *Vater* → *Vatter*, *heute* → *hüt*.\n- Old long vowels stay long: *Huut* (Haut), *Ziit* (Zeit).\n- Words for 'evening' and similar take *-ig*: *Abend* → *Abig*.\n\nThe spelling helps: a doubled vowel is always long, and a doubled consonant after a short vowel is held longer."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: De Hut\n\n- Say it: de HUT\n- IPA: [d̥ə hʊt]\n- Hochdeutsch: Der Hut\n- English: The hat\n- Note: Short *u*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: D Huut\n\n- Say it: d HUUT\n- IPA: [d̥ huːt]\n- Hochdeutsch: Die Haut\n- English: The skin\n- Note: Long *uu*: Haut → Huut."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: De Vatter\n\n- Say it: de FAT-ter\n- IPA: [d̥ə ˈfatːər]\n- Hochdeutsch: Der Vater\n- English: The father\n- Note: Short *a*, then a held *tt*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Hüt am Abig\n\n- Say it: HÜT am A-big\n- IPA: [hʏt am ˈaːb̥ɪɡ̊]\n- Hochdeutsch: Heute am Abend\n- English: This evening\n- Note: *hüt* is short."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** listen for length as much as for vowel colour: Hut and Huut are different words. Hold doubled consonants a little longer."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh1-l03-length-fc1",
+              "front": "Hut vs Huut",
+              "back": "Hut = hat (short u); Huut = skin (long uu, from Haut)."
+            },
+            {
+              "id": "zh1-l03-length-fc2",
+              "front": "Vatter",
+              "back": "Father: short a and a held tt, unlike High German Vater with a long a."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh1-l03-length-q1",
+              "stem": "What does *Huut* mean?",
+              "options": [
+                "Hat",
+                "Skin",
+                "House",
+                "Today"
+              ],
+              "correctIndex": 1,
+              "explanation": "Haut → Huut."
+            },
+            {
+              "id": "zh1-l03-length-q2",
+              "stem": "Which is the Zurich form of *heute*?",
+              "options": [
+                "hüüt",
+                "hüt",
+                "heut",
+                "hiit"
+              ],
+              "correctIndex": 1,
+              "explanation": "Short ü."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Phonetics** — Fleischer J, Schmid S, Zurich German, *Journal of the International Phonetic Association* 2006;36(2):243–253.\n2. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n3. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n4. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh1-l04-e-sounds",
+      "title": "Three kinds of e: e, ä and the weak e",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A very open ä\n\nWhere High German has a short *e*, Zurich German very often has an **open ä**, close to English 'cat': *Wetter* → *Wätter*, *Fenster* → *Fänschter*, *schnell* → *schnäll*, *Welt* → *Wält*. This open ä is one of the clearest markers of Zurich speech."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m1/e-sounds.svg",
+          "alt": "Three e sounds on a scale from closed to open: closed e as in See, open ä as in Wätter and schnäll, and weak e as in the endings of mache and Garte.",
+          "caption": "Three e sounds",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.562
+        },
+        {
+          "type": "text",
+          "markdown": "## Closed e and weak e\n\n- **Closed e [e]:** *See*, *Tee*, *Velo*.\n- **Weak e [ə]:** unstressed endings like *mache*, *Garte*, *bitte*.\n\nMixing up e and ä is the most common learner accent. When in doubt, open your mouth more."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: S Wätter isch schöö.\n\n- Say it: s WÄT-ter isch SCHÖÖ\n- IPA: [s ˈʋætːər ɪʃ ʃøː]\n- Hochdeutsch: Das Wetter ist schön.\n- English: The weather is nice.\n- Note: *schöö*: the Zurich form drops the n."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mach s Fänschter uf.\n\n- Say it: MACH s FÄNSCH-ter UF\n- IPA: [max s ˈfænʃtər uf]\n- Hochdeutsch: Mach das Fenster auf.\n- English: Open the window."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Uf de ganze Wält\n\n- Say it: uf de GAN-tse WÄLT\n- IPA: [uf d̥ə ˈɡ̊antsə ʋælt]\n- Hochdeutsch: Auf der ganzen Welt\n- English: In the whole world"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: De Zürisee\n\n- Say it: de TSÜ-ri-see\n- IPA: [d̥ə ˈtsyriseː]\n- Hochdeutsch: Der Zürichsee\n- English: Lake Zurich\n- Note: Closed *e* in *See*."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** turn High German short e into an open ä in words like Wetter, Fenster and schnell. Keep e closed in See and Tee, and weak in endings."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh1-l04-e-sounds-fc1",
+              "front": "Zurich open ä",
+              "back": "Where High German has a short e, Zurich often has open ä: Wätter, Fänschter, schnäll, Wält."
+            },
+            {
+              "id": "zh1-l04-e-sounds-fc2",
+              "front": "Weak e",
+              "back": "The unstressed e of endings: mache, Garte, bitte. Short and neutral."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh1-l04-e-sounds-q1",
+              "stem": "What's *schnell* in Zurich German?",
+              "options": [
+                "schnell",
+                "schnäll",
+                "schnill",
+                "schnöll"
+              ],
+              "correctIndex": 1,
+              "explanation": "Short e → open ä."
+            },
+            {
+              "id": "zh1-l04-e-sounds-q2",
+              "stem": "Which word has a closed e, not ä?",
+              "options": [
+                "Wätter",
+                "See",
+                "Fänschter",
+                "Wält"
+              ],
+              "correctIndex": 1,
+              "explanation": "*See* keeps a closed e."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Phonetics** — Fleischer J, Schmid S, Zurich German, *Journal of the International Phonetic Association* 2006;36(2):243–253.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh1-l05-endings",
+      "title": "Word endings: dropped -n, -ed and -li",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Three ending habits\n\n1. **Dropped -n:** most final *-en* become a weak *-e*: *machen* → *mache*, *Garten* → *Garte*, *schön* → *schöö*.\n2. **Plural verbs in -ed:** *mir*, *ihr* and *si* share one form: *mir mached*, *ihr mached*, *si mached*.\n3. **Diminutive -li:** small or cute things: *Huus* → *Hüüsli*, *Chatz* → *Chätzli*."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m1/endings.svg",
+          "alt": "Three panels: machen to mache (final n dropped); wir machen, ihr macht, sie machen all becoming mached; Haus to Hüüsli with the -li ending and an umlaut.",
+          "caption": "Three ending habits",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.562
+        },
+        {
+          "type": "text",
+          "markdown": "## The n comes back\n\nThe dropped *n* reappears before a vowel to link words: *wie-n-i gseit ha* (as I said), *wo-n-er cho isch* (when he came). You'll hear these linking n's constantly; they're not mistakes."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mir mached Pause.\n\n- Say it: mir MA-ched PAU-se\n- IPA: [mir ˈmaxəd̥ ˈpau̯sə]\n- Hochdeutsch: Wir machen Pause.\n- English: We're taking a break."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Was mached ihr hüt?\n\n- Say it: WAS MA-ched IHR HÜT\n- IPA: [ʋas ˈmaxəd̥ iər hʏt]\n- Hochdeutsch: Was macht ihr heute?\n- English: What are you (all) doing today?\n- Note: Same *-ed* for *mir*, *ihr* and *si*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Im Garte\n\n- Say it: im GAR-te\n- IPA: [ɪm ˈɡ̊artə]\n- Hochdeutsch: Im Garten\n- English: In the garden"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Es Hüüsli\n\n- Say it: es HÜÜS-li\n- IPA: [əs ˈhyːsli]\n- Hochdeutsch: Ein Häuschen\n- English: A little house\n- Note: *-li* adds an umlaut: Huus → Hüüsli."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wie-n-i gseit ha\n\n- Say it: WIE-n-i GSEIT ha\n- IPA: [ʋiə̯n i ɡ̊sei̯t ha]\n- Hochdeutsch: Wie ich gesagt habe\n- English: As I said\n- Note: Linking *n* before a vowel."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** drop the final -n, use one -ed form for all plural persons, and add -li for small things. Listen for the linking n between vowels."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh1-l05-endings-fc1",
+              "front": "Plural verb ending -ed",
+              "back": "mir, ihr, si all take -ed: mir mached, ihr mached, si mached."
+            },
+            {
+              "id": "zh1-l05-endings-fc2",
+              "front": "Diminutive -li",
+              "back": "Small or cute things, often with umlaut: Huus → Hüüsli, Chatz → Chätzli."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh1-l05-endings-q1",
+              "stem": "How do you say 'they make' in Zurich German?",
+              "options": [
+                "si mache",
+                "si mached",
+                "si macht",
+                "si machen"
+              ],
+              "correctIndex": 1,
+              "explanation": "All plural persons take -ed."
+            },
+            {
+              "id": "zh1-l05-endings-q2",
+              "stem": "What is the linking *n* in *wie-n-i gseit ha*?",
+              "options": [
+                "A mistake",
+                "An n added between two vowels",
+                "A plural ending",
+                "A Bern feature"
+              ],
+              "correctIndex": 1,
+              "explanation": "It links words that meet with vowels."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n2. **Phonetics** — Fleischer J, Schmid S, Zurich German, *Journal of the International Phonetic Association* 2006;36(2):243–253.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh1-l06-stress-melody",
+      "title": "Stress and melody",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Stress up front\n\nZurich German puts **initial stress** on most words, including many loanwords that High German stresses at the end: *Büro* → *BÜ-ro*, *Billett* → *BIL-jet*, *Kafi* → *KA-fi*, *Velo* → *VE-lo*. Verbs in *-iere* keep the stress on *-ie-*: *parkiere*, *telefoniere*."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m1/stress-melody.svg",
+          "alt": "Stress dots over Büro, Billett, Kafi and Velo, each stressed on the first syllable, plus a melody line for a Zurich question rising in the middle and falling at the end.",
+          "caption": "Stress and melody",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.412
+        },
+        {
+          "type": "text",
+          "markdown": "## Melody (practice)\n\nZurich German sounds 'sing-song' to German ears: syllables are evenly timed, and the voice often rises inside a sentence and falls at the end, even in questions. Copy the melody of the voice on each card as much as the sounds; it makes you understood faster than perfect vowels."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich bi im Büro.\n\n- Say it: ich bi im BÜ-ro\n- IPA: [ɪx b̥i ɪm ˈb̥yro]\n- Hochdeutsch: Ich bin im Büro.\n- English: I'm at the office.\n- Note: BÜ-ro, not bü-RO."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Es Billett uf Züri\n\n- Say it: es BIL-jet uf TSÜ-ri\n- IPA: [əs ˈb̥ɪljɛt uf ˈtsyri]\n- Hochdeutsch: Eine Fahrkarte nach Zürich\n- English: A ticket to Zurich\n- Note: *Billett* is the Swiss word for a ticket."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: En Kafi, bitte.\n\n- Say it: en KA-fi, BIT-te\n- IPA: [ən ˈkxafi ˈb̥ɪtːə]\n- Hochdeutsch: Einen Kaffee, bitte.\n- English: A coffee, please.\n- Note: Loanword *k* is strong: [kx]."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Es Velo\n\n- Say it: es VE-lo\n- IPA: [əs ˈʋelo]\n- Hochdeutsch: Ein Fahrrad\n- English: A bicycle\n- Note: *Velo* is the Swiss word, also in Swiss Standard German."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** stress the first syllable of most words, including loanwords like Büro and Billett, and copy the melody of the voice, not just the sounds."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh1-l06-stress-melody-fc1",
+              "front": "Initial stress",
+              "back": "Most Zurich words, including loanwords, are stressed on the first syllable: BÜ-ro, BIL-jet, KA-fi, VE-lo."
+            },
+            {
+              "id": "zh1-l06-stress-melody-fc2",
+              "front": "Verbs in -iere",
+              "back": "Keep the stress on -ie-: par-KIE-re, te-le-fo-NIE-re."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh1-l06-stress-melody-q1",
+              "stem": "How is *Büro* stressed in Zurich German?",
+              "options": [
+                "bü-RO",
+                "BÜ-ro",
+                "Both syllables equally",
+                "It depends on the speaker"
+              ],
+              "correctIndex": 1,
+              "explanation": "Initial stress."
+            },
+            {
+              "id": "zh1-l06-stress-melody-q2",
+              "stem": "What's a *Billett*?",
+              "options": [
+                "A banknote",
+                "A ticket",
+                "A letter",
+                "A bill in a restaurant"
+              ],
+              "correctIndex": 1,
+              "explanation": "Swiss for Fahrkarte or Eintrittskarte."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Phonetics** — Fleischer J, Schmid S, Zurich German, *Journal of the International Phonetic Association* 2006;36(2):243–253.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh1-l07-recap",
+      "title": "Recap: High German words, shifted",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Five rules from this module\n\n1. *ei*, *au*, *eu* → often *ii*, *uu*, *üü* (Ziit, Huus, Lüüt).\n2. Long *ie*, *u*, *ü* → gliding *ie*, *ue*, *üe* (lieb, guet, müed).\n3. Length changes meaning (Hut, Huut).\n4. Short *e* → open *ä* (Wätter, schnäll).\n5. Final *-n* drops; plurals take *-ed*; stress goes first."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m1/recap-shifts.svg",
+          "alt": "A summary card of five rules with two examples each: Zeit to Ziit and Haus to Huus; gut to guet and müde to müed; Hut and Huut; Wetter to Wätter; machen to mache and Büro stressed first.",
+          "caption": "Five sound rules",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.158
+        },
+        {
+          "type": "text",
+          "markdown": "## A first conversation\n\nPut it together. Read each line aloud with the 'Say it' line, then play the voice."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Hoi, wie gaats?\n\n- Say it: HOI, wie GAATS\n- IPA: [hoi̯ ʋiə̯ ɡ̊aːts]\n- Hochdeutsch: Hallo, wie geht's?\n- English: Hi, how are you?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Guet, merci. Und dir?\n\n- Say it: GU-et, MER-si. und DIR\n- IPA: [ɡ̊uə̯t ˈmærsi ʊnd̥ d̥iər]\n- Hochdeutsch: Gut, danke. Und dir?\n- English: Good, thanks. And you?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Hüt isch es schöö gsii.\n\n- Say it: HÜT isch es SCHÖÖ gsii\n- IPA: [hʏt ɪʃ əs ʃøː ɡ̊siː]\n- Hochdeutsch: Heute war es schön.\n- English: It was nice today.\n- Note: *gsii* = gewesen; Zurich uses the perfect, not *war*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mir gönd go poschte.\n\n- Say it: mir GÖND go POSCH-te\n- IPA: [mir ɡ̊œnd̥ ɡ̊o ˈpɔʃtə]\n- Hochdeutsch: Wir gehen einkaufen.\n- English: We're going shopping.\n- Note: *go* + verb: Module 4 explains it."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** run these five rules on any High German word you want to say, then check the course or ask. You'll be close more often than not."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh1-l07-recap-fc1",
+              "front": "Five vowel rules",
+              "back": "ii/uu/üü for ei/au/eu; ie/ue/üe; length matters; open ä for short e; final -n drops and stress goes first."
+            },
+            {
+              "id": "zh1-l07-recap-fc2",
+              "front": "poschte",
+              "back": "To go shopping (einkaufen). Mir gönd go poschte = we're going shopping."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh1-l07-recap-q1",
+              "stem": "Apply the rules: what's *Leute* in Zurich German?",
+              "options": [
+                "Leute",
+                "Lüüt",
+                "Luut",
+                "Liit"
+              ],
+              "correctIndex": 1,
+              "explanation": "eu → üü, final -e dropped."
+            },
+            {
+              "id": "zh1-l07-recap-q2",
+              "stem": "Which line is Zurich German?",
+              "options": [
+                "Das Wetter ist schön.",
+                "S Wätter isch schöö.",
+                "Das Wätter ist schön.",
+                "S Wetter isch schön."
+              ],
+              "correctIndex": 1,
+              "explanation": "Open ä, isch, schöö."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Phonetics** — Fleischer J, Schmid S, Zurich German, *Journal of the International Phonetic Association* 2006;36(2):243–253.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n4. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}

@@ -2,11 +2,14 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 24
+    "version": 25
   },
   "categories": {
     "Training": {
       "disclaimer": "General training education, not medical advice. Check with a doctor if you have a health condition, and stop if you feel chest pain, dizziness or unusual breathlessness."
+    },
+    "Languages": {
+      "disclaimer": "Swiss German has no official spelling. This course uses Zurich forms in Dieth-style spelling. Audio is a synthetic voice."
     }
   },
   "modules": [
@@ -394,6 +397,32 @@
       "estimatedMinutes": 35,
       "accentColor": "#6B7280",
       "reviews": "reviews/tr-m10-capstone.reviews.json",
+      "reviewsVersion": 1
+    },
+    {
+      "id": "zh-m0-how-it-works",
+      "title": "Züritüütsch 0: How Swiss German works",
+      "discipline": "Languages",
+      "description": "Dialect and High German, keeping people in dialect, spelling and your listening plan",
+      "file": "modules/zh-m0-how-it-works.json",
+      "version": 1,
+      "lessonCount": 6,
+      "estimatedMinutes": 35,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/zh-m0-how-it-works.reviews.json",
+      "reviewsVersion": 1
+    },
+    {
+      "id": "zh-m1-vowels",
+      "title": "Züritüütsch 1: Sounds I: vowels",
+      "discipline": "Languages",
+      "description": "Huus and Ziit, gliding vowels, length, the open ä, endings and stress",
+      "file": "modules/zh-m1-vowels.json",
+      "version": 1,
+      "lessonCount": 7,
+      "estimatedMinutes": 45,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/zh-m1-vowels.reviews.json",
       "reviewsVersion": 1
     }
   ]

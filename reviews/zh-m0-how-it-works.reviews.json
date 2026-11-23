@@ -1,0 +1,783 @@
+{
+  "moduleId": "zh-m0-how-it-works",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "zh0-b1",
+      "title": "Where dialect fits",
+      "lessons": [
+        "zh0-l01-diglossia",
+        "zh0-l02-switching",
+        "zh0-l03-dialect-map"
+      ]
+    },
+    {
+      "id": "zh0-b2",
+      "title": "Reading, writing and listening",
+      "lessons": [
+        "zh0-l04-writing",
+        "zh0-l05-respelling",
+        "zh0-l06-learning-plan"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-zh0-l01",
+      "level": "lesson",
+      "covers": [
+        "zh0-l01-diglossia"
+      ],
+      "summary": {
+        "title": "Dialect, High German and Swiss Standard German",
+        "points": [
+          "Dialect is spoken with almost everyone; High German is for writing, news and school.",
+          "Swiss Standard German is High German with a Swiss accent and words like Velo.",
+          "Dialect has no lower status; using it signals closeness.",
+          "*rede* = speak; *am … lerne* = busy learning."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You start a new job in Zurich.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What will meetings with Swiss colleagues mostly be in?",
+              "options": [
+                "Dialect",
+                "High German, because work is formal",
+                "English, because it's an office",
+                "French"
+              ],
+              "answer": 0,
+              "explanation": "Speaking is dialect, even at work."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How do you say 'I'm learning Swiss German'?",
+              "options": [
+                "Ich lerne gerade Schweizerdeutsch, bitte.",
+                "Ich bi am Schwiizertüütsch lerne.",
+                "Ich bin am Schweizerdeutsch lernen gewesen.",
+                "Ich han Schwiizertüütsch gelernt."
+              ],
+              "answer": 1,
+              "explanation": "*am … lerne* is the busy-doing form."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A letter arrives from the Gemeinde, and then the clerk phones you.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What is each most likely in?",
+              "options": [
+                "Letter in dialect, call in High German",
+                "Both in dialect, since it's local",
+                "Letter in High German, call in dialect",
+                "Both in High German, since it's official"
+              ],
+              "answer": 2,
+              "explanation": "Writing is High German; speaking is dialect."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What is Swiss Standard German?",
+              "options": [
+                "A separate dialect spoken only in Bern",
+                "The written version of Zurich German",
+                "A mix of German and French",
+                "Swiss-flavoured High German"
+              ],
+              "answer": 3,
+              "explanation": "Swiss accent and words like Velo and parkieren."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh0-l02",
+      "level": "lesson",
+      "covers": [
+        "zh0-l02-switching"
+      ],
+      "summary": {
+        "title": "Keeping people in dialect",
+        "points": [
+          "Swiss people switch to High German to be polite when they hear an accent.",
+          "Ask kindly, once: *Chönd Si bitte Schwiizertüütsch rede?*",
+          "Say you understand more than you speak; answering in High German is fine.",
+          "*chli* = a bit; *Nöd so schnäll* = not so fast."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A shop assistant switches to High German as soon as you speak.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you say (formal)?",
+              "options": [
+                "Chönd Si bitte Schwiizertüütsch rede?",
+                "Sprechen Sie bitte nur noch Hochdeutsch mit mir?",
+                "Können Sie bitte Englisch sprechen, danke?",
+                "Red eifach Französisch, bitte schön."
+              ],
+              "answer": 0,
+              "explanation": "Ask once, kindly."
+            },
+            {
+              "type": "mcq",
+              "prompt": "And if they speak too fast?",
+              "options": [
+                "Nicht so langsam",
+                "Nöd so schnäll, bitte.",
+                "Schnäll, schnäll, bitte, mir händ Ziit.",
+                "Ich verstaa alles perfekt, merci."
+              ],
+              "answer": 1,
+              "explanation": "*schnäll* has the open ä."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You understand more than you can say.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's a good way to keep the conversation in dialect?",
+              "options": [
+                "Switch everyone to English so it's fair",
+                "Stay silent until you speak perfect dialect",
+                "Answer in High German while they keep speaking dialect",
+                "Ask them to write everything down"
+              ],
+              "answer": 2,
+              "explanation": "Understanding comes first."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does *chli* mean?",
+              "options": [
+                "A small child in the family",
+                "Quickly, without stopping",
+                "Kitchen cupboard",
+                "A bit"
+              ],
+              "answer": 3,
+              "explanation": "*chli langsamer* = a bit slower."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh0-l03",
+      "level": "lesson",
+      "covers": [
+        "zh0-l03-dialect-map"
+      ],
+      "summary": {
+        "title": "The dialect map",
+        "points": [
+          "Swiss German is a family of Alemannic dialects that differ in sounds, words and grammar.",
+          "Zurich German is spoken across most of the canton.",
+          "'Not': Zurich *nöd*, Bern *nid*, Basel *nit*.",
+          "*z Züri* = in or to Zurich; *schaffe* = work."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Someone asks where you work.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do you answer 'in Zurich'?",
+              "options": [
+                "Ich schaffe z Züri.",
+                "Ich arbeite in Zürich, wie alle.",
+                "Ich schaffe Zürich jeden Tag.",
+                "Ich bi z Bärn am schaffe."
+              ],
+              "answer": 0,
+              "explanation": "*z* + place = in/to."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How do they ask where you're from?",
+              "options": [
+                "Wo wohnsch du im Momänt?",
+                "Wo chunsch du här?",
+                "Was schaffsch du z Züri?",
+                "Wie heissisch du eigentlich?"
+              ],
+              "answer": 1,
+              "explanation": "*chunsch* = kommst."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A colleague says *I weiss es nid*.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does that tell you?",
+              "options": [
+                "She made a mistake in Zurich German",
+                "She's speaking High German",
+                "She probably speaks Bern German",
+                "She's from Basel for sure"
+              ],
+              "answer": 2,
+              "explanation": "*nid* is Bern; Zurich says *nöd*."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which dialect family is Swiss German part of?",
+              "options": [
+                "Bavarian",
+                "Low German, like Hamburg",
+                "Romansh, like the Grisons",
+                "Alemannic"
+              ],
+              "answer": 3,
+              "explanation": "Alemannic also covers south-west Germany and Alsace."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh0-l04",
+      "level": "lesson",
+      "covers": [
+        "zh0-l04-writing"
+      ],
+      "summary": {
+        "title": "Writing without a standard",
+        "points": [
+          "Swiss German has no official spelling; people write what they hear.",
+          "This course uses Dieth-style spelling: Huus, Ziit, guet, Wätter.",
+          "*sp* and *st* are written as in High German but said *schp* and *scht*.",
+          "Chats are often dialect; emails, letters and forms stay High German."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A neighbour messages: *Hoi zäme, bis spöter!*",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do you say *spöter*?",
+              "options": [
+                "SCHPÖ-ter",
+                "SPÖ-ter",
+                "SPÄ-ter, like High German",
+                "spö-TER, stressed at the end"
+              ],
+              "answer": 0,
+              "explanation": "*sp* is said *schp*."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You need to write to the Gemeinde. Which language?",
+              "options": [
+                "Zurich German, to be friendly",
+                "High German",
+                "Any dialect you like",
+                "English only"
+              ],
+              "answer": 1,
+              "explanation": "Official writing stays High German."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You see *nöd*, *nööd* and *ned* in a group chat.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's going on?",
+              "options": [
+                "Three different words with different meanings",
+                "Spelling mistakes that locals would correct",
+                "Different spellings of the same word",
+                "Words from three different languages"
+              ],
+              "answer": 2,
+              "explanation": "No official spelling."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How do you sign off a friendly message?",
+              "options": [
+                "Mit freundlichen Grüssen und Hochachtung",
+                "Hochachtungsvoll, Ihr Nachbar",
+                "Bis spöter",
+                "Liebi Grüess"
+              ],
+              "answer": 3,
+              "explanation": "*Liebi Grüess* = kind regards."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh0-l05",
+      "level": "lesson",
+      "covers": [
+        "zh0-l05-respelling"
+      ],
+      "summary": {
+        "title": "Reading the pronunciation guide",
+        "points": [
+          "Each card shows the Zurich spelling, a 'Say it' respelling and IPA.",
+          "CAPS = stressed syllable; doubled vowel = long.",
+          "*ie*, *ue*, *üe* glide; *ä* is open, *e* closed.",
+          "*ch* is always throaty; *b, d, g* are soft but voiceless; final *-n* drops."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A card reads 'Say it: FÄNSCH-ter'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which syllable is stressed?",
+              "options": [
+                "FÄNSCH",
+                "ter",
+                "Neither: both are equal",
+                "It depends on the sentence"
+              ],
+              "answer": 0,
+              "explanation": "CAPS = stress."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How is the ä said?",
+              "options": [
+                "Closed, as in High German *See*",
+                "Very open, as in English 'cat'",
+                "Like a short, neutral e",
+                "Like the a in *Vater*"
+              ],
+              "answer": 1,
+              "explanation": "Open ä."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You see *Chuchi* for the first time.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How is the first *ch* said?",
+              "options": [
+                "Like English 'church'",
+                "Like the ch in *ich*",
+                "Throaty, as in *Bach*",
+                "Like a k"
+              ],
+              "answer": 2,
+              "explanation": "*ch* is throaty everywhere."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does a doubled vowel in *Huus* tell you?",
+              "options": [
+                "It's said twice, in two syllables",
+                "It's stressed more than usual",
+                "It's a spelling mistake",
+                "It's long"
+              ],
+              "answer": 3,
+              "explanation": "Doubled = long."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh0-l06",
+      "level": "lesson",
+      "covers": [
+        "zh0-l06-learning-plan"
+      ],
+      "summary": {
+        "title": "Your listening plan",
+        "points": [
+          "Your ear is the gap, not your vocabulary.",
+          "Daily: 5 minutes of the SRF weather forecast.",
+          "Radio talk and dialect shows work; news bulletins are usually High German.",
+          "Key questions: *Was hät er gseit?*, *Chasch das nomal säge?*"
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You have 5 minutes on the bus every morning.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the best listening?",
+              "options": [
+                "The SRF weather forecast",
+                "The national news bulletin in High German",
+                "A German podcast from Berlin",
+                "Reading the newspaper"
+              ],
+              "answer": 0,
+              "explanation": "Short, repetitive and in dialect."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You missed what someone said. What do you ask?",
+              "options": [
+                "Kannst du das bitte aufschreiben, danke?",
+                "Chasch das nomal säge?",
+                "Was hesch du gässe hüt?",
+                "Wo chunsch du här"
+              ],
+              "answer": 1,
+              "explanation": "*nomal* = noch einmal."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A friend says *Los emol!*",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does she want?",
+              "options": [
+                "You to lose the game",
+                "You to let something go",
+                "You to listen",
+                "You to read something"
+              ],
+              "answer": 2,
+              "explanation": "*lose* = listen."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How do you ask how to say something in dialect?",
+              "options": [
+                "Was isch das uf Französisch?",
+                "Wie heisst du uf Hochtüütsch?",
+                "Chasch du das schriibe?",
+                "Wie seit mer däm uf Schwiizertüütsch?"
+              ],
+              "answer": 3,
+              "explanation": "*seit mer* = sagt man."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh0-b1",
+      "level": "block",
+      "covers": [
+        "zh0-l01-diglossia",
+        "zh0-l02-switching",
+        "zh0-l03-dialect-map"
+      ],
+      "summary": {
+        "title": "Where dialect fits",
+        "points": [
+          "Dialect for speaking, High German for writing; Swiss Standard German in between.",
+          "People switch to High German to be polite: ask them to stay in dialect.",
+          "Zurich German is one Alemannic dialect; learn its forms consistently.",
+          "Useful: *chli*, *nöd*, *z Züri*, *schaffe*."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "At a parents' evening, a teacher hears your accent and switches.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's your move?",
+              "options": [
+                "Ask her kindly to stay in dialect",
+                "Switch to English so everyone is comfortable",
+                "Pretend you understand nothing",
+                "Answer only in writing"
+              ],
+              "answer": 0,
+              "explanation": "Ask once, kindly."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A parent says *Ich weiss es nöd*. Where is she likely from?",
+              "options": [
+                "Bern",
+                "Zurich",
+                "Basel, because of the ending",
+                "Germany, because it's High German"
+              ],
+              "answer": 1,
+              "explanation": "*nöd* is the Zurich form."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Introduce yourself in two dialect sentences: where you work and that you're learning.",
+              "modelAnswer": "Ich schaffe z Züri. Ich bi am Schwiizertüütsch lerne, ich verstaa meh, als ich cha säge."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You compare dialect and Swiss Standard German.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which is Swiss Standard German?",
+              "options": [
+                "Ich parkier s Velo vor em Huus.",
+                "I parkiere s Velo vor em Huus.",
+                "Ich parkiere das Velo vor dem Haus.",
+                "Ich schaffe z Züri am Velo."
+              ],
+              "answer": 2,
+              "explanation": "High German grammar with Swiss words."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why do Swiss people switch to High German with you?",
+              "options": [
+                "They dislike foreigners using dialect",
+                "Dialect is forbidden with strangers",
+                "High German is more polite in Switzerland by law",
+                "Politeness"
+              ],
+              "answer": 3,
+              "explanation": "They assume you don't understand dialect."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh0-b2",
+      "level": "block",
+      "covers": [
+        "zh0-l04-writing",
+        "zh0-l05-respelling",
+        "zh0-l06-learning-plan"
+      ],
+      "summary": {
+        "title": "Reading, writing and listening",
+        "points": [
+          "No official spelling; this course uses Dieth style consistently.",
+          "Read 'Say it' aloud, check IPA when surprised, then copy the voice.",
+          "Listen daily: SRF weather, radio talk, real conversations.",
+          "Three questions get you through any listening moment."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You get a chat message *Merci vilmal, bis spöter!*",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How is *Merci* stressed?",
+              "options": [
+                "MER-si",
+                "mer-SI, as in French",
+                "Both syllables equally",
+                "It's never stressed"
+              ],
+              "answer": 0,
+              "explanation": "Stress goes first."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does the message say?",
+              "options": [
+                "Thank you, goodbye forever!",
+                "Thanks a lot, see you later!",
+                "Many thanks for the meal, see you tomorrow",
+                "Merry Christmas, see you soon"
+              ],
+              "answer": 1,
+              "explanation": "*vilmal* = vielmals."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Plan your listening for next week in one sentence.",
+              "modelAnswer": "Five minutes of the SRF weather on weekdays, a dialect podcast twice on the commute, one SRF dialect show at the weekend, and I'll ask neighbours and colleagues to stay in dialect."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A card shows *guet* with 'Say it: GU-et'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How many syllables do you say?",
+              "options": [
+                "Two full syllables, gu and et",
+                "Three",
+                "One, gliding",
+                "None: the u is silent"
+              ],
+              "answer": 2,
+              "explanation": "A gliding diphthong."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where do you hear dialect least?",
+              "options": [
+                "Radio talk between songs",
+                "The SRF weather forecast",
+                "Conversations with neighbours",
+                "News bulletins"
+              ],
+              "answer": 3,
+              "explanation": "News is usually High German."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh0-m",
+      "level": "module",
+      "covers": [
+        "zh0-l01-diglossia",
+        "zh0-l02-switching",
+        "zh0-l03-dialect-map",
+        "zh0-l04-writing",
+        "zh0-l05-respelling",
+        "zh0-l06-learning-plan"
+      ],
+      "summary": {
+        "title": "How Swiss German works",
+        "points": [
+          "Dialect is the spoken language for almost everyone; High German is written.",
+          "Ask people to stay in dialect; answering in High German is fine at first.",
+          "Zurich German is one Alemannic dialect; stay consistent with its forms.",
+          "No official spelling: Dieth style here, looser in chats.",
+          "Use the three-layer phrase cards and listen to dialect daily."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your first week of serious practice.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's your daily habit?",
+              "options": [
+                "5 minutes of dialect listening",
+                "Two hours of grammar at the weekend only",
+                "Reading High German newspapers",
+                "Writing dialect emails to the Gemeinde"
+              ],
+              "answer": 0,
+              "explanation": "Little and often."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your neighbour switches to High German. What do you say?",
+              "options": [
+                "Kannst du bitte Englisch sprechen?",
+                "Chasch bitte Schwiizertüütsch rede?",
+                "Ich verstaa kei Wort, tschüss.",
+                "Red bitte Hochtüütsch mit mir."
+              ],
+              "answer": 1,
+              "explanation": "Ask kindly, with *du* for a neighbour you know."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How do you write to your landlord?",
+              "options": [
+                "Zurich German, in Dieth spelling",
+                "Bern German, to be polite",
+                "High German",
+                "Any dialect"
+              ],
+              "answer": 2,
+              "explanation": "Formal writing is High German."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You hear *Ich schaffe z Züri, aber ich wohne nöd det*.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which word marks it as Zurich German?",
+              "options": [
+                "schaffe, which is only used in Zurich",
+                "aber, which is Zurich-only",
+                "ich, which Bern doesn't use",
+                "nöd"
+              ],
+              "answer": 3,
+              "explanation": "Bern would say *nid*."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does *schaffe* mean?",
+              "options": [
+                "To work",
+                "To create something new",
+                "To manage, cope",
+                "To shop"
+              ],
+              "answer": 0,
+              "explanation": "*schaffe* = arbeiten."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain diglossia to a friend in one sentence.",
+              "modelAnswer": "In German-speaking Switzerland people speak dialect with almost everyone and use High German mainly for writing, news and school, so you need both."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,787 @@
+{
+  "moduleId": "zh-m3-survival",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "zh3-b1",
+      "title": "Meeting people",
+      "lessons": [
+        "zh3-l01-greetings",
+        "zh3-l02-politeness",
+        "zh3-l03-introductions"
+      ]
+    },
+    {
+      "id": "zh3-b2",
+      "title": "Understanding, numbers and time",
+      "lessons": [
+        "zh3-l04-repair",
+        "zh3-l05-numbers",
+        "zh3-l06-time",
+        "zh3-l07-recap"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-zh3-l01",
+      "level": "lesson",
+      "covers": [
+        "zh3-l01-greetings"
+      ],
+      "summary": {
+        "title": "Greetings and du vs Sie",
+        "points": [
+          "Grüezi (formal, one), Grüezi mitenand (formal, group).",
+          "Hoi or Sali (informal); Hoi zäme for a group.",
+          "Goodbye: Uf Widerluege (formal), Tschau, Tschüss, Ade (informal).",
+          "Swiss people switch to du quickly; the offer is Duzis mache."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your first morning at a new office.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "You enter a meeting room with five colleagues you don't know yet. What do you say?",
+              "options": [
+                "Grüezi mitenand",
+                "Hoi",
+                "Sali zäme, wie gaats?",
+                "Tschau zäme"
+              ],
+              "answer": 0,
+              "explanation": "Formal, to a group."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A colleague says *Wämmer Duzis mache?* What is she offering?",
+              "options": [
+                "Coffee in the break room",
+                "To switch to du",
+                "To show you the office",
+                "Lunch at noon"
+              ],
+              "answer": 1,
+              "explanation": "Duzis mache = agree to say du."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Leaving after the first day.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "To the colleagues you're now on du with?",
+              "options": [
+                "Uf Widerluege, Frau Meier!",
+                "Grüezi mitenand!",
+                "Tschau, bis morn!",
+                "Fröit mi!"
+              ],
+              "answer": 2,
+              "explanation": "Informal goodbye; morn = tomorrow."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the difference between *morn* and *Morge*?",
+              "options": [
+                "They mean the same",
+                "morn = morning, Morge = tomorrow",
+                "morn = tonight",
+                "morn = tomorrow, Morge = morning"
+              ],
+              "answer": 3,
+              "explanation": "Easy to mix up."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh3-l02",
+      "level": "lesson",
+      "covers": [
+        "zh3-l02-politeness"
+      ],
+      "summary": {
+        "title": "Politeness words",
+        "points": [
+          "Merci is far more common than danke.",
+          "Äxgüsi: excuse me, for passing, attention or small apologies.",
+          "Gärn gscheh = you're welcome.",
+          "Answer a wish with Merci, gliichfalls; leave with Uf Widerluege."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "At the bakery counter.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "You need to get past someone at the counter. What do you say?",
+              "options": [
+                "Äxgüsi",
+                "Gärn gscheh",
+                "Merci, gliichfalls",
+                "Uf Widerluege"
+              ],
+              "answer": 0,
+              "explanation": "All-purpose excuse me."
+            },
+            {
+              "type": "mcq",
+              "prompt": "The baker says *En schöne Tag no!* Your reply?",
+              "options": [
+                "Gärn gscheh!",
+                "Merci, gliichfalls!",
+                "Äxgüsi!",
+                "Grüezi mitenand!"
+              ],
+              "answer": 1,
+              "explanation": "Return the wish."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Compare *gliichfalls* with High German *gleichfalls*.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which rule changes ei to ii here?",
+              "options": [
+                "The scht rule from Module 2",
+                "The dropped -n",
+                "The old long vowels (Module 1)",
+                "Initial stress"
+              ],
+              "answer": 2,
+              "explanation": "gleich → gliich, like Zeit → Ziit."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does *Uf Widerluege* literally mean?",
+              "options": [
+                "Until we speak again",
+                "Good luck",
+                "See you tomorrow morning",
+                "Until we look again"
+              ],
+              "answer": 3,
+              "explanation": "luege = to look."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh3-l03",
+      "level": "lesson",
+      "covers": [
+        "zh3-l03-introductions"
+      ],
+      "summary": {
+        "title": "Introductions",
+        "points": [
+          "Formal Si takes the -ed verb form: Wie heissed Si?",
+          "With du, verbs end in -sch: Wie heissisch?",
+          "Fröit mi = nice to meet you.",
+          "-reich → -riich: Frankriich, Öschtriich."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You meet a neighbour for the first time.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Ask her name formally.",
+              "options": [
+                "Wie heissed Si?",
+                "Wie heissisch du?",
+                "Wer sind Si?",
+                "Wie heisst Si?"
+              ],
+              "answer": 0,
+              "explanation": "Si + -ed."
+            },
+            {
+              "type": "mcq",
+              "prompt": "She tells you her name. You reply?",
+              "options": [
+                "Gärn gscheh.",
+                "Fröit mi.",
+                "Äxgüsi.",
+                "Merci, gliichfalls."
+              ],
+              "answer": 1,
+              "explanation": "Nice to meet you."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "She asks where you're from.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'I'm from France' is?",
+              "options": [
+                "Ich chume us Frankreich.",
+                "Ich bi vo Frankriich cho.",
+                "Ich chume us Frankriich.",
+                "Ich komme aus Frankriich."
+              ],
+              "answer": 2,
+              "explanation": "ei → ii; chume."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How would you ask her job with du?",
+              "options": [
+                "Was schaffed Si?",
+                "Was machsch du gern?",
+                "Wo schaffsch du hüt?",
+                "Was schaffsch du?"
+              ],
+              "answer": 3,
+              "explanation": "du + -sch."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh3-l04",
+      "level": "lesson",
+      "covers": [
+        "zh3-l04-repair"
+      ],
+      "summary": {
+        "title": "Repair phrases",
+        "points": [
+          "Use the lightest repair phrase that works.",
+          "Wie bitte? for one word; Wie meinsch? for meaning.",
+          "Ich ha s nöd verstande when lost; ask for slower speech.",
+          "Chasch mer s ufschriibe? for names, numbers, addresses."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A plumber explains a problem quickly.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "You followed the words but not what he means. What do you say?",
+              "options": [
+                "Wie meinsch?",
+                "Wie bitte?",
+                "Chasch mer s ufschriibe?",
+                "Fröit mi."
+              ],
+              "answer": 0,
+              "explanation": "Meaning, not words."
+            },
+            {
+              "type": "mcq",
+              "prompt": "He gives you a part number. Best phrase?",
+              "options": [
+                "Wie meinsch?",
+                "Chasch mer s ufschriibe?",
+                "Ich ha s nöd verstande.",
+                "Gärn gscheh."
+              ],
+              "answer": 1,
+              "explanation": "Numbers are easiest written down."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Why repair in dialect, not High German?",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does asking in dialect do?",
+              "options": [
+                "It makes them switch to English",
+                "It's considered rude",
+                "It keeps them speaking dialect",
+                "Nothing different"
+              ],
+              "answer": 2,
+              "explanation": "Switching to High German invites them to switch."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How does *Ich ha s nöd verstande* sound?",
+              "options": [
+                "Every word separated clearly",
+                "ha is dropped",
+                "nöd is said nid",
+                "ha s runs together as has"
+              ],
+              "answer": 3,
+              "explanation": "Words flow together."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh3-l05",
+      "level": "lesson",
+      "covers": [
+        "zh3-l05-numbers"
+      ],
+      "summary": {
+        "title": "Numbers and money",
+        "points": [
+          "eis, zwei, drüü, vier, föif, sächs, sibe, acht, nüün, zää, elf, zwölf.",
+          "Teens in -zää, tens in -zg: vierzää, zwänzg, drissg, füfzg.",
+          "Prices: francs, then centimes: vierzää Franke füfzg.",
+          "Stutz = franc (colloquial), Rappe = centimes."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "At a market stall.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do you ask the price?",
+              "options": [
+                "Was choschtet das?",
+                "Was kostet das?",
+                "Wie vil isch das gsii?",
+                "Was macht das Kilo?"
+              ],
+              "answer": 0,
+              "explanation": "k → ch, st → scht."
+            },
+            {
+              "type": "mcq",
+              "prompt": "The vendor says *zwölf Franke füfzg*. How much is it?",
+              "options": [
+                "15.20",
+                "12.50",
+                "12.05",
+                "50.12"
+              ],
+              "answer": 1,
+              "explanation": "Francs, then centimes."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Paying.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Can I pay by card?' is?",
+              "options": [
+                "Kann ich mit Karte zahlen?",
+                "Chan ich mit Karte zale?",
+                "Chan ich mit Charte zale?",
+                "Chönd Si mit Charte zale?"
+              ],
+              "answer": 2,
+              "explanation": "Karte → Charte, zahlen → zale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What is *föif Stutz*?",
+              "options": [
+                "5 centimes",
+                "50 francs",
+                "15 francs",
+                "5 francs"
+              ],
+              "answer": 3,
+              "explanation": "Stutz = franc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh3-l06",
+      "level": "lesson",
+      "covers": [
+        "zh3-l06-time"
+      ],
+      "summary": {
+        "title": "Time and days",
+        "points": [
+          "Days: Mäntig, Ziischtig, Mittwuch, Dunschtig, Friitig, Samschtig, Sunntig.",
+          "Hours 4–12 take -i: vieri, föifi … zwölfi.",
+          "ab = after, vor = before; halbi points to the next hour.",
+          "am = at: am vieri, am halbi föifi."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Arranging a meeting.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'On Tuesday at ten' is?",
+              "options": [
+                "Am Ziischtig am zääni",
+                "Am Dunschtig am zää",
+                "Am Ziischtig um zehn",
+                "Am Mittwuch am zääni"
+              ],
+              "answer": 0,
+              "explanation": "Ziischtig, zääni."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What time is *viertel vor sibni*?",
+              "options": [
+                "7:15",
+                "6:45",
+                "7:45",
+                "6:15"
+              ],
+              "answer": 1,
+              "explanation": "A quarter before seven."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Compare High German *halb drei* and Zurich *halbi drüü*.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What time are they?",
+              "options": [
+                "Both 3:30",
+                "halb drei is 2:30, halbi drüü is 3:30",
+                "Both 2:30",
+                "Both 3:00"
+              ],
+              "answer": 2,
+              "explanation": "Both point to the next hour."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What time is *föif vor halbi vieri*?",
+              "options": [
+                "3:55",
+                "4:25",
+                "3:35",
+                "3:25"
+              ],
+              "answer": 3,
+              "explanation": "Five before half to four."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh3-b1",
+      "level": "block",
+      "covers": [
+        "zh3-l01-greetings",
+        "zh3-l02-politeness",
+        "zh3-l03-introductions"
+      ],
+      "summary": {
+        "title": "Meeting people",
+        "points": [
+          "Grüezi to strangers, Hoi or Sali on du terms; mitenand or zäme for groups.",
+          "Merci, Äxgüsi, Gärn gscheh, Merci gliichfalls.",
+          "Formal Si with -ed; du with -sch.",
+          "Fröit mi; Ich chume us …; Was schaffsch du?"
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A neighbour's barbecue.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "You join a group of neighbours you don't know. First line?",
+              "options": [
+                "Grüezi mitenand",
+                "Hoi",
+                "Äxgüsi",
+                "Tschau zäme"
+              ],
+              "answer": 0,
+              "explanation": "Formal group greeting until du is offered."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Someone says *Ich bi de Marco, mir chönd Du säge.* You reply?",
+              "options": [
+                "Wie heissed Si?",
+                "Fröit mi, ich bi …",
+                "Uf Widerluege",
+                "Gärn gscheh"
+              ],
+              "answer": 1,
+              "explanation": "He offered du; introduce yourself."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Introduce yourself in three lines: name, where you're from, what you do.",
+              "modelAnswer": "Grüezi, ich heisse … Ich chume us … und ich schaffe z Züri als …"
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Leaving the barbecue.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "To the host, who offered du?",
+              "options": [
+                "Uf Widerluege, Herr Meier!",
+                "Grüezi mitenand!",
+                "Merci vilmal, tschau!",
+                "Äxgüsi, gärn gscheh!"
+              ],
+              "answer": 2,
+              "explanation": "Informal thanks and goodbye."
+            },
+            {
+              "type": "mcq",
+              "prompt": "The host says *Schöne Abig!* Your reply?",
+              "options": [
+                "Gärn gscheh!",
+                "Fröit mi!",
+                "Wie meinsch?",
+                "Merci, gliichfalls!"
+              ],
+              "answer": 3,
+              "explanation": "Return the wish."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh3-b2",
+      "level": "block",
+      "covers": [
+        "zh3-l04-repair",
+        "zh3-l05-numbers",
+        "zh3-l06-time",
+        "zh3-l07-recap"
+      ],
+      "summary": {
+        "title": "Understanding, numbers and time",
+        "points": [
+          "Repair lightly: Wie bitte?, Wie meinsch?, then ask to write it down.",
+          "Numbers: drüü, nüün, vierzää, zwänzg, füfzg; prices in francs then centimes.",
+          "Time: ab, vor, halbi to the next hour; -i on hours 4–12.",
+          "Café: Isch da no frii? Zale, bitte!"
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Booking a hairdresser by phone.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "They offer *am Dunschtig am halbi föifi*. When is that?",
+              "options": [
+                "Thursday at 4:30",
+                "Tuesday at 5:30",
+                "Thursday at 5:30",
+                "Wednesday at 4:30"
+              ],
+              "answer": 0,
+              "explanation": "halbi föifi = 4:30."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You missed the price. What do you say?",
+              "options": [
+                "Fröit mi",
+                "Wie bitte?",
+                "Zale, bitte",
+                "Gärn gscheh"
+              ],
+              "answer": 1,
+              "explanation": "One word missed: the lightest repair."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Confirm: 'Thursday at half past four, that's fine, thanks.'",
+              "modelAnswer": "Am Dunschtig am halbi föifi, das isch guet, merci."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "At the café afterwards.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'The bill, please!' is?",
+              "options": [
+                "Rächnig, merci vilmal!",
+                "Isch da no frii?",
+                "Zale, bitte!",
+                "Gärn gscheh!"
+              ],
+              "answer": 2,
+              "explanation": "zahlen → zale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "The waiter says *nüün Franke achtzg*. You pay?",
+              "options": [
+                "8.90",
+                "19.80",
+                "9.18",
+                "9.80"
+              ],
+              "answer": 3,
+              "explanation": "Francs, then centimes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh3-m",
+      "level": "module",
+      "covers": [
+        "zh3-l01-greetings",
+        "zh3-l02-politeness",
+        "zh3-l03-introductions",
+        "zh3-l04-repair",
+        "zh3-l05-numbers",
+        "zh3-l06-time",
+        "zh3-l07-recap"
+      ],
+      "summary": {
+        "title": "Survival and greetings: the whole picture",
+        "points": [
+          "Greet by formality and group size; accept Duzis.",
+          "Small words: Merci, Äxgüsi, Gärn gscheh, gliichfalls.",
+          "Introductions with Si -ed or du -sch.",
+          "Repair in dialect, lightest phrase first.",
+          "Numbers in -zää and -zg; francs then centimes.",
+          "Time with ab, vor and halbi; days like Ziischtig and Dunschtig."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A Saturday of errands.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "At the bakery, to ask the price?",
+              "options": [
+                "Was choschtet das?",
+                "Was kostet das?",
+                "Wie spaat isch es?",
+                "Isch da no frii?"
+              ],
+              "answer": 0,
+              "explanation": "Prices."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A friend texts *Träffe mer eus am halbi zwölfi?* When?",
+              "options": [
+                "12:30",
+                "11:30",
+                "11:00",
+                "12:00"
+              ],
+              "answer": 1,
+              "explanation": "halbi points to the next hour."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Leaving the shop, formally?",
+              "options": [
+                "Tschau zäme!",
+                "Hoi!",
+                "Uf Widerluege!",
+                "Gärn gscheh!"
+              ],
+              "answer": 2,
+              "explanation": "Formal goodbye."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Connect Module 3 to the sound rules.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which rule is in *Friitig*?",
+              "options": [
+                "k → ch",
+                "short e → ä",
+                "scht",
+                "ei → ii"
+              ],
+              "answer": 3,
+              "explanation": "Freitag → Friitig."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which two rules are in *choschtet*?",
+              "options": [
+                "k → ch and st → scht",
+                "ei → ii and -n dropped",
+                "Open ä and -li",
+                "Initial stress only"
+              ],
+              "answer": 0,
+              "explanation": "kostet → choschtet."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain how to say 3:25 and why.",
+              "modelAnswer": "Föif vor halbi vieri: halbi points to the next hour (half to four = 3:30), and 3:25 is five before that."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

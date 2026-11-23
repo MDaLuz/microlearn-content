@@ -1,0 +1,718 @@
+{
+  "schemaVersion": 6,
+  "id": "zh-m3-survival",
+  "title": "Züritüütsch 3: Survival and greetings",
+  "discipline": "Languages",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "zh3-l01-greetings",
+      "title": "Grüezi, Hoi, Sali: greetings and du vs Sie",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Formal or informal, one or many\n\nZurich greetings depend on two things: whether you'd say *du* or *Sie*, and whether you greet one person or a group.\n\n- **Formal, one person:** *Grüezi* (often with the name: *Grüezi Frau Meier*).\n- **Formal, a group:** *Grüezi mitenand*.\n- **Informal:** *Hoi* or *Sali*, for a group *Hoi zäme* or *Sali zäme*.\n- **Goodbye, informal:** *Tschau* (Ciao), *Tschüss*, *Ade*."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m3/greetings-grid.svg",
+          "alt": "A grid of greetings: formal one person Grüezi, formal group Grüezi mitenand, informal one person Hoi or Sali, informal group Hoi zäme or Sali zäme; goodbyes Uf Widerluege and Tschau.",
+          "caption": "Which greeting when",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.278
+        },
+        {
+          "type": "text",
+          "markdown": "## Switching to du (practice)\n\nThe Swiss switch to *du* quickly: colleagues usually after the first meeting, neighbours often within weeks, sport clubs and other parents almost immediately. The older or more senior person usually offers it. The offer has its own phrase: **Duzis mache**. In shops and offices, stay with *Si* (the Zurich *Sie*) unless offered."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Grüezi Frau Meier\n\n- Say it: GRÜ-e-tsi FRAU MEI-er\n- IPA: [ˈɡ̊ryə̯tsi frau̯ ˈmei̯ər]\n- Hochdeutsch: Guten Tag, Frau Meier\n- English: Hello, Mrs Meier\n- Note: Formal; adding the name is polite."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Hoi zäme!\n\n- Say it: HOI TSÄ-me\n- IPA: [hoi̯ ˈtsæmə]\n- Hochdeutsch: Hallo zusammen!\n- English: Hi everyone!"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Sali!\n\n- Say it: SA-li\n- IPA: [ˈsali]\n- Hochdeutsch: Hallo!\n- English: Hi!\n- Note: From French *salut*; as common as *Hoi*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wämmer Duzis mache?\n\n- Say it: WÄM-mer DU-tsis MA-che\n- IPA: [ˈʋæmːər ˈd̥utsis ˈmaxə]\n- Hochdeutsch: Wollen wir uns duzen?\n- English: Shall we say du?\n- Note: *wämmer* = wollen wir."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Tschau, bis morn!\n\n- Say it: TSCHAU, bis MORN\n- IPA: [tʃau̯ b̥ɪs mɔrn]\n- Hochdeutsch: Tschüss, bis morgen!\n- English: Bye, see you tomorrow!\n- Note: *morn* = tomorrow."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** say Grüezi to strangers and staff, Hoi or Sali once you're on du terms, and accept Duzis when it's offered: it's a sign of friendliness."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh3-l01-greetings-fc1",
+              "front": "Grüezi vs Hoi",
+              "back": "Grüezi: formal (Sie). Hoi or Sali: informal (du). Add mitenand or zäme for a group."
+            },
+            {
+              "id": "zh3-l01-greetings-fc2",
+              "front": "Duzis mache",
+              "back": "To agree to say du to each other. Wämmer Duzis mache? = Shall we say du?"
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh3-l01-greetings-q1",
+              "stem": "You walk into a small shop with two customers inside. What do you say?",
+              "options": [
+                "Hoi",
+                "Grüezi mitenand",
+                "Tschau zäme",
+                "Sali"
+              ],
+              "correctIndex": 1,
+              "explanation": "Formal, to a group."
+            },
+            {
+              "id": "zh3-l01-greetings-q2",
+              "stem": "What does *morn* mean?",
+              "options": [
+                "Morning",
+                "Tomorrow",
+                "Tonight",
+                "Never"
+              ],
+              "correctIndex": 1,
+              "explanation": "*morn* = morgen (tomorrow); *Morge* = morning."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh3-l02-politeness",
+      "title": "Merci, Bitte, Äxgüsi, Uf Widerluege",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The small words that matter\n\nThe Swiss use more small politeness words than Germans do, and they borrowed several from French. *Merci* is far more common than *danke*. *Äxgüsi* (from French *excusez*) is the all-purpose 'excuse me': to get past someone, to get attention, to apologise for a small bump."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m3/politeness-flow.svg",
+          "alt": "A small exchange at a counter: Äxgüsi to get attention, Merci vilmal for help, Gärn gscheh as the reply, Merci gliichfalls to return a wish, and En schöne Tag no to leave.",
+          "caption": "Politeness at a counter",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.103
+        },
+        {
+          "type": "text",
+          "markdown": "## Wishes and replies\n\nZurich speakers often send you off with a wish: *En schöne Tag no!*, *Schöne Abig!*, *Es schöns Wuchenänd!* The polite answer is *Merci, gliichfalls* (thanks, likewise). When someone thanks you, answer *Gärn gscheh* (glad to help) or simply *Bitte*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Äxgüsi!\n\n- Say it: ÄX-gü-si\n- IPA: [ˈæksɡ̊ysi]\n- Hochdeutsch: Entschuldigung!\n- English: Excuse me!\n- Note: Stress on the first syllable."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Gärn gscheh.\n\n- Say it: GÄRN GSCHEH\n- IPA: [ɡ̊ærn ɡ̊ʃeː]\n- Hochdeutsch: Gern geschehen.\n- English: You're welcome."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Merci, gliichfalls!\n\n- Say it: MER-si, GLIICH-falls\n- IPA: [ˈmærsi ˈɡ̊liːxfals]\n- Hochdeutsch: Danke, gleichfalls!\n- English: Thanks, you too!\n- Note: *gleich* → *gliich*: the ei → ii shift."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: En schöne Tag no!\n\n- Say it: en SCHÖ-ne TAG no\n- IPA: [ən ˈʃøːnə taɡ̊ no]\n- Hochdeutsch: Einen schönen Tag noch!\n- English: Have a nice day!"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Uf Widerluege!\n\n- Say it: uf WI-der-lu-e-ge\n- IPA: [uf ˈʋid̥ərluə̯ɡ̊ə]\n- Hochdeutsch: Auf Wiedersehen!\n- English: Goodbye! (formal)\n- Note: *luege* = to look: 'until we look again'."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** use Äxgüsi for every small interruption, answer wishes with Merci, gliichfalls, and leave shops with Uf Widerluege."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh3-l02-politeness-fc1",
+              "front": "Äxgüsi",
+              "back": "Excuse me: to pass, get attention or apologise for a small bump. From French excusez."
+            },
+            {
+              "id": "zh3-l02-politeness-fc2",
+              "front": "Merci, gliichfalls",
+              "back": "Thanks, likewise: the reply to En schöne Tag no or Schöne Abig."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh3-l02-politeness-q1",
+              "stem": "The cashier says *En schöne Tag no!* What do you answer?",
+              "options": [
+                "Gärn gscheh",
+                "Merci, gliichfalls!",
+                "Äxgüsi",
+                "Grüezi"
+              ],
+              "correctIndex": 1,
+              "explanation": "Return the wish."
+            },
+            {
+              "id": "zh3-l02-politeness-q2",
+              "stem": "Someone thanks you for holding the door. What's a natural reply?",
+              "options": [
+                "Gärn gscheh.",
+                "Merci vilmal.",
+                "Uf Widerluege.",
+                "Äxgüsi."
+              ],
+              "correctIndex": 0,
+              "explanation": "Glad to help."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh3-l03-introductions",
+      "title": "Introducing yourself",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Names and origins\n\nIntroductions are short. Formal *Sie* becomes **Si** in Zurich and takes the plural verb form in *-ed*: *Wie heissed Si?* With *du*, the verb ends in *-sch*: *Wie heissisch?* You already know *Wo chunsch du här?* from Module 0."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m3/intro-dialogue.svg",
+          "alt": "A short introduction dialogue: Grüezi, ich heisse Anna; Fröit mi, ich bi de Marco; Wo chömed Si här? Ich chume us Frankriich; Was schaffed Si?",
+          "caption": "A first introduction",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.103
+        },
+        {
+          "type": "text",
+          "markdown": "## Verb endings at a glance\n\n- *ich heisse*, *du heissisch*, *er/si heisst*\n- *mir/ihr/si heissed*, and formal *Si heissed*\n\nThe formal *Si* always uses the same form as *mir*, *ihr* and *si*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich heisse Anna.\n\n- Say it: ich HEIS-se AN-na\n- IPA: [ɪx ˈhei̯sə ˈana]\n- Hochdeutsch: Ich heisse Anna.\n- English: My name is Anna."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wie heissed Si?\n\n- Say it: WIE HEIS-sed SI\n- IPA: [ʋiə̯ ˈhei̯səd̥ si]\n- Hochdeutsch: Wie heissen Sie?\n- English: What's your name? (formal)\n- Note: Formal *Si* + *-ed*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Fröit mi.\n\n- Say it: FRÖIT MI\n- IPA: [frøi̯t mi]\n- Hochdeutsch: Freut mich.\n- English: Nice to meet you."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich chume us Frankriich.\n\n- Say it: ich CHU-me us FRANK-riich\n- IPA: [ɪx ˈxʊmə us ˈfraŋkriːx]\n- Hochdeutsch: Ich komme aus Frankreich.\n- English: I'm from France.\n- Note: *-reich* → *-riich*; also *Öschtriich* (Austria)."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Was schaffsch du?\n\n- Say it: WAS SCHAFFSCH du\n- IPA: [ʋas ʃafʃ d̥u]\n- Hochdeutsch: Was arbeitest du?\n- English: What do you do for work?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich wohne z Winterthur.\n\n- Say it: ich WO-ne ts WIN-ter-tuur\n- IPA: [ɪx ˈʋoːnə ts ˈʋɪntərtuːr]\n- Hochdeutsch: Ich wohne in Winterthur.\n- English: I live in Winterthur.\n- Note: *z* + place = in."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** prepare your three-line introduction: name, where you're from, what you do. Use Si with -ed for formal questions."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh3-l03-introductions-fc1",
+              "front": "Formal Si",
+              "back": "Zurich's Sie. It takes the plural -ed form: Wie heissed Si? Wo wohned Si?"
+            },
+            {
+              "id": "zh3-l03-introductions-fc2",
+              "front": "Fröit mi",
+              "back": "Nice to meet you (freut mich)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh3-l03-introductions-q1",
+              "stem": "How do you ask a new neighbour's name formally?",
+              "options": [
+                "Wie heissisch du?",
+                "Wie heissed Si?",
+                "Wer bisch du?",
+                "Wie heisst er?"
+              ],
+              "correctIndex": 1,
+              "explanation": "Formal Si + -ed."
+            },
+            {
+              "id": "zh3-l03-introductions-q2",
+              "stem": "What's *Frankreich* in Zurich German?",
+              "options": [
+                "Frankreich",
+                "Frankriich",
+                "Frankrooch",
+                "Franzland"
+              ],
+              "correctIndex": 1,
+              "explanation": "ei → ii."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh3-l04-repair",
+      "title": "When you don't understand",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Repair phrases\n\nEven at B2, fast dialect will lose you sometimes. A few **repair phrases** keep the conversation going in dialect instead of switching to High German. Asking is normal: Swiss speakers from different regions ask each other too."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m3/repair-ladder.svg",
+          "alt": "A ladder of repair phrases from light to strong: Wie bitte?, Wie meinsch?, Ich ha s nöd verstande, Chönd Si das langsamer säge?, Chasch mer s ufschriibe?",
+          "caption": "From a quick check to a full repeat",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.158
+        },
+        {
+          "type": "text",
+          "markdown": "## Pick the lightest one\n\n1. Didn't catch one word: *Wie bitte?*\n2. Caught the words, not the meaning: *Wie meinsch?*\n3. Lost completely: *Ich ha s nöd verstande.*\n4. Too fast: *Chönd Si das bitte langsamer säge?*\n5. A name, number or address: *Chasch mer s ufschriibe?*"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wie bitte?\n\n- Say it: WIE BIT-te\n- IPA: [ʋiə̯ ˈb̥ɪtːə]\n- Hochdeutsch: Wie bitte?\n- English: Sorry? / Pardon?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wie meinsch?\n\n- Say it: WIE MEINSCH\n- IPA: [ʋiə̯ mei̯nʃ]\n- Hochdeutsch: Wie meinst du?\n- English: What do you mean?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich ha s nöd verstande.\n\n- Say it: ich HAS NÖD fer-SCHTAN-de\n- IPA: [ɪx has nœd̥ fərˈʃtand̥ə]\n- Hochdeutsch: Ich habe es nicht verstanden.\n- English: I didn't understand.\n- Note: *ha s* runs together: *has*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Chönd Si das bitte langsamer säge?\n\n- Say it: CHÖND si das BIT-te LANG-sa-mer SÄ-ge\n- IPA: [xœnd̥ si d̥as ˈb̥ɪtːə ˈlaŋsamər ˈsæɡ̊ə]\n- Hochdeutsch: Können Sie das bitte langsamer sagen?\n- English: Could you say that more slowly, please?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Chasch mer s ufschriibe?\n\n- Say it: CHASCH mer s UF-schrii-be\n- IPA: [xaʃ mər s ˈufʃriːb̥ə]\n- Hochdeutsch: Kannst du es mir aufschreiben?\n- English: Can you write it down for me?"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** use the lightest repair phrase that works. Asking in dialect keeps people in dialect; switching to High German invites them to switch too."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh3-l04-repair-fc1",
+              "front": "Wie meinsch?",
+              "back": "What do you mean? Use when you caught the words but not the meaning."
+            },
+            {
+              "id": "zh3-l04-repair-fc2",
+              "front": "Chasch mer s ufschriibe?",
+              "back": "Can you write it down for me? Best for names, numbers and addresses."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh3-l04-repair-q1",
+              "stem": "You missed a single word. What's the lightest repair?",
+              "options": [
+                "Ich ha s nöd verstande.",
+                "Wie bitte?",
+                "Chasch mer s ufschriibe?",
+                "Red Hochtüütsch."
+              ],
+              "correctIndex": 1,
+              "explanation": "Start light."
+            },
+            {
+              "id": "zh3-l04-repair-q2",
+              "stem": "Someone gives you a phone number too fast. Best phrase?",
+              "options": [
+                "Wie meinsch?",
+                "Chasch mer s ufschriibe?",
+                "Fröit mi.",
+                "Gärn gscheh."
+              ],
+              "correctIndex": 1,
+              "explanation": "Numbers are easiest written down."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh3-l05-numbers",
+      "title": "Numbers, prices and money",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Counting\n\n*eis, zwei, drüü, vier, föif, sächs, sibe, acht, nüün, zää, elf, zwölf.* The old vowels show up again: *drüü* (drei), *nüün* (neun). Teens end in *-zää* (*vierzää*, *füfzää*, *sächzää*), tens in *-zg* (*zwänzg*, *drissg*, *vierzg*, *füfzg*). Older speakers may use *zwee*, *zwoo*, *zwei* by gender; *zwei* works everywhere."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m3/numbers.svg",
+          "alt": "Number chart: 1 eis, 2 zwei, 3 drüü, 4 vier, 5 föif, 6 sächs, 7 sibe, 8 acht, 9 nüün, 10 zää, 11 elf, 12 zwölf, 15 füfzää, 20 zwänzg, 30 drissg, 50 füfzg, 100 hundert.",
+          "caption": "Numbers in Zurich German",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.158
+        },
+        {
+          "type": "text",
+          "markdown": "## Money\n\nPrices are said as francs then centimes: *vierzää Franke füfzg* = 14.50. Colloquially a franc is a **Stutz** (*föif Stutz* = 5 francs) and centimes are *Rappe*. A five-franc coin is a *Füfliber*. Card payment is normal everywhere; ask *Chan ich mit Charte zale?*"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Eis, zwei, drüü\n\n- Say it: EIS, TSWEI, DRÜÜ\n- IPA: [ei̯s tsʋei̯ d̥ryː]\n- Hochdeutsch: Eins, zwei, drei\n- English: One, two, three"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Was choschtet das?\n\n- Say it: WAS CHOSCH-tet das\n- IPA: [ʋas ˈxɔʃtət d̥as]\n- Hochdeutsch: Was kostet das?\n- English: How much is this?\n- Note: k → ch and st → scht in one word."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Das macht vierzää Franke füfzg.\n\n- Say it: das MACHT FIER-tsää FRAN-ke FÜFZG\n- IPA: [d̥as maxt ˈfiərtsæː ˈfraŋkə ˈfʏftsɡ̊]\n- Hochdeutsch: Das macht vierzehn Franken fünfzig.\n- English: That's 14.50.\n- Note: Centimes come after the francs, without *und*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Föif Stutz\n\n- Say it: FÖIF SCHTUTZ\n- IPA: [føi̯f ʃtʊts]\n- Hochdeutsch: Fünf Franken\n- English: Five francs\n- Note: *Stutz* is colloquial for franc."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Chan ich mit Charte zale?\n\n- Say it: CHAN ich mit CHAR-te TSA-le\n- IPA: [xan ɪx mɪt ˈxartə ˈtsalə]\n- Hochdeutsch: Kann ich mit Karte zahlen?\n- English: Can I pay by card?"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** practise prices aloud while shopping: francs first, then the centimes as a number. Listen for Stutz and Rappe."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh3-l05-numbers-fc1",
+              "front": "Teens and tens",
+              "back": "Teens in -zää (vierzää), tens in -zg (zwänzg, drissg, füfzg)."
+            },
+            {
+              "id": "zh3-l05-numbers-fc2",
+              "front": "Stutz",
+              "back": "Colloquial for a franc. Föif Stutz = five francs. Rappe = centimes."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh3-l05-numbers-q1",
+              "stem": "What is *drissg*?",
+              "options": [
+                "3",
+                "13",
+                "30",
+                "300"
+              ],
+              "correctIndex": 2,
+              "explanation": "Tens end in -zg."
+            },
+            {
+              "id": "zh3-l05-numbers-q2",
+              "stem": "The cashier says *sibe Franke zwänzg*. What do you pay?",
+              "options": [
+                "7.20",
+                "20.70",
+                "27.00",
+                "7.02"
+              ],
+              "correctIndex": 0,
+              "explanation": "Francs, then centimes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n3. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n4. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh3-l06-time",
+      "title": "Time and days: halbi drüü, Ziischtig",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Days of the week\n\n*Mäntig, Ziischtig, Mittwuch, Dunschtig, Friitig, Samschtig, Sunntig.* Every sound rule you know is in there: *ii* (Friitig), *scht* (Samschtig, Dunschtig), dropped endings."
+        },
+        {
+          "type": "text",
+          "markdown": "## Telling the time\n\nHours from 4 to 12 take an **-i**: *vieri*, *föifi*, *sächsi*, *sibni*, *achti*, *nüüni*, *zääni*, *elfi*, *zwölfi* (1 to 3 stay *eis*, *zwei*, *drüü*). Minutes are 'after' (**ab**) or 'before' (*vor*) the hour, and **halbi** points to the next hour: *halbi drüü* = 2:30, like High German *halb drei*.\n\n- 3:15 *viertel ab drüü* · 3:45 *viertel vor vieri*\n- 3:10 *zää ab drüü* · 3:25 *föif vor halbi vieri*\n- 'at': *am vieri* (at 4), *am halbi föifi* (at 4:30)"
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m3/clock.svg",
+          "alt": "A clock face labelled in Zurich German: full hour vieri, föif ab, zää ab, viertel ab, zwänzg ab, föif vor halbi, halbi, föif ab halbi, zwänzg vor, viertel vor, zää vor, föif vor.",
+          "caption": "The Zurich clock",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.745
+        },
+        {
+          "type": "text",
+          "markdown": "## Practise with the Zurich clock\n\nThe tool shows a time; you say it aloud, then reveal the Zurich phrase. Official times (train timetables, appointments in writing) use the 24-hour clock in High German."
+        },
+        {
+          "type": "tool",
+          "src": "tools/zh-clock.html",
+          "title": "Zurich clock",
+          "description": "Random clock times to say in Zurich German, with the answer and a respelling; plus a mode where you pick the time that matches a phrase.",
+          "buttonLabel": "Open the clock",
+          "estimatedMinutes": 4
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wie spaat isch es?\n\n- Say it: WIE SCHPAAT isch es\n- IPA: [ʋiə̯ ʃpaːt ɪʃ əs]\n- Hochdeutsch: Wie spät ist es?\n- English: What time is it?\n- Note: *spaat*: long aa."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Es isch halbi drüü.\n\n- Say it: es isch HAL-bi DRÜÜ\n- IPA: [əs ɪʃ ˈhalb̥i d̥ryː]\n- Hochdeutsch: Es ist halb drei.\n- English: It's half past two."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Viertel ab sächsi\n\n- Say it: FIER-tel AB SÄK-si\n- IPA: [ˈfiərtəl ab ˈsæksi]\n- Hochdeutsch: Viertel nach sechs\n- English: Quarter past six\n- Note: *ab* = after."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Am Ziischtig am zääni\n\n- Say it: am TSIISCH-tig am TSÄÄ-ni\n- IPA: [am ˈtsiːʃtɪɡ̊ am ˈtsæːni]\n- Hochdeutsch: Am Dienstag um zehn\n- English: On Tuesday at ten\n- Note: *am* also means 'at' for times."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Bis am Friitig!\n\n- Say it: bis am FRII-tig\n- IPA: [b̥ɪs am ˈfriːtɪɡ̊]\n- Hochdeutsch: Bis Freitag!\n- English: See you Friday!"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** say times the Zurich way: ab and vor around the hour, halbi pointing to the next hour, and -i on hours from four upwards."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh3-l06-time-fc1",
+              "front": "halbi drüü",
+              "back": "Half past two (2:30). halbi always points to the next hour."
+            },
+            {
+              "id": "zh3-l06-time-fc2",
+              "front": "ab and vor",
+              "back": "ab = after, vor = before: viertel ab drüü (3:15), viertel vor vieri (3:45)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh3-l06-time-q1",
+              "stem": "What time is *halbi sibni*?",
+              "options": [
+                "7:30",
+                "6:30",
+                "7:15",
+                "6:45"
+              ],
+              "correctIndex": 1,
+              "explanation": "halbi points to the next hour."
+            },
+            {
+              "id": "zh3-l06-time-q2",
+              "stem": "Which day is *Dunschtig*?",
+              "options": [
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Sunday"
+              ],
+              "correctIndex": 2,
+              "explanation": "Donnerstag."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh3-l07-recap",
+      "title": "Recap: a first conversation at a café",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Putting Module 3 together\n\nA short café visit uses almost everything from this module: greeting, asking, ordering, paying and leaving. Read it aloud with the respellings, then play each line."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m3/cafe-dialogue.svg",
+          "alt": "A café dialogue in six lines: Grüezi, isch da no frii? Ja, bitte, was dörfs sii? Für mich en Kafi, bitte. Zale, bitte! Das macht sächs Franke zwänzg. Merci, en schöne Tag no!",
+          "caption": "At the café",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.822
+        },
+        {
+          "type": "text",
+          "markdown": "## What to notice\n\n- *frii* (frei): the ei → ii shift again.\n- *Zale, bitte!* is how you ask for the bill.\n- Prices: francs, then centimes.\n- The wish at the end, and its reply *Merci, gliichfalls*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Grüezi, isch da no frii?\n\n- Say it: GRÜ-e-tsi, isch DA no FRII\n- IPA: [ˈɡ̊ryə̯tsi ɪʃ d̥a no friː]\n- Hochdeutsch: Guten Tag, ist hier noch frei?\n- English: Hello, is this seat free?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Für mich en Kafi, bitte.\n\n- Say it: für MICH en KA-fi, BIT-te\n- IPA: [fyr mɪx ən ˈkxafi ˈb̥ɪtːə]\n- Hochdeutsch: Für mich einen Kaffee, bitte.\n- English: A coffee for me, please."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Zale, bitte!\n\n- Say it: TSA-le, BIT-te\n- IPA: [ˈtsalə ˈb̥ɪtːə]\n- Hochdeutsch: Zahlen, bitte!\n- English: The bill, please!"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Das macht sächs Franke zwänzg.\n\n- Say it: das MACHT SÄKS FRAN-ke TSWÄNZG\n- IPA: [d̥as maxt sæks ˈfraŋkə tsʋæntsɡ̊]\n- Hochdeutsch: Das macht sechs Franken zwanzig.\n- English: That's 6.20."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Merci, en schöne Tag no!\n\n- Say it: MER-si, en SCHÖ-ne TAG no\n- IPA: [ˈmærsi ən ˈʃøːnə taɡ̊ no]\n- Hochdeutsch: Danke, einen schönen Tag noch!\n- English: Thanks, have a nice day!"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** run this café dialogue once for real this week, in dialect from start to finish, even if you answer some questions in High German."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh3-l07-recap-fc1",
+              "front": "Zale, bitte!",
+              "back": "The bill, please! (zahlen → zale)."
+            },
+            {
+              "id": "zh3-l07-recap-fc2",
+              "front": "Isch da no frii?",
+              "back": "Is this seat free? (frei → frii)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh3-l07-recap-q1",
+              "stem": "How do you ask for the bill?",
+              "options": [
+                "Zale, bitte!",
+                "Rächnig, merci!",
+                "Gärn gscheh!",
+                "Grüezi mitenand!"
+              ],
+              "correctIndex": 0,
+              "explanation": "*Zale, bitte!* is the standard way."
+            },
+            {
+              "id": "zh3-l07-recap-q2",
+              "stem": "Which line returns the waiter's good wishes?",
+              "options": [
+                "Äxgüsi!",
+                "Merci, gliichfalls!",
+                "Wie bitte?",
+                "Fröit mi."
+              ],
+              "correctIndex": 1,
+              "explanation": "Thanks, likewise."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zurich clock</title>
+<style>
+:root{--bg:#FFFFFF;--card:#F7F4EE;--ink:#1B2430;--muted:#5B6672;--line:#E3E8EE;--accent:#1F3A5F;--acl:#E4EAF2;--go:#2E8B57;--gol:#DDF2E5;--back:#C2185B;--backl:#FBE4EE}
+@media (prefers-color-scheme:dark){:root{--bg:#14181E;--card:#1E242C;--ink:#E8ECF1;--muted:#9AA5B1;--line:#2C343E;--accent:#8DB4E2;--acl:#1B2C3A;--go:#5CC48A;--gol:#18301F;--back:#F06292;--backl:#3A1E2A}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 "Atkinson Hyperlegible",Arial,Helvetica,sans-serif;padding:16px}
+h1{font-size:20px;margin:0 0 4px} p.sub{color:var(--muted);margin:0 0 12px;font-size:13px}
+.tabs{display:flex;gap:8px;margin-bottom:12px}
+.tabs button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 12px;font:inherit;font-size:13px;cursor:pointer}
+.tabs button.on{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;text-align:center;margin:10px 0}
+svg{width:180px;height:180px}
+.digital{font-size:22px;font-weight:700;margin-top:6px}
+.ans{font-size:24px;font-weight:700;color:var(--accent);min-height:34px;margin-top:10px}
+.say{font-size:13px;color:var(--muted);min-height:20px}
+.phrase{font-size:24px;font-weight:700;color:var(--accent)}
+.btns{display:flex;gap:8px;flex-wrap:wrap} .btns button{flex:1;min-width:90px;border:0;border-radius:8px;padding:12px;font:inherit;font-weight:700;cursor:pointer}
+.main{background:var(--accent);color:var(--bg)} .opt{background:var(--card);color:var(--ink);border:1px solid var(--line)!important}
+.opt.right{background:var(--gol);color:var(--go)} .opt.wrong{background:var(--backl);color:var(--back)}
+.score{font-size:12.5px;color:var(--muted)} .hide{display:none}
+.note{font-size:12.5px;color:var(--muted);margin-top:12px}
+</style>
+</head>
+<body>
+<h1>Zurich clock</h1>
+<p class="sub">ab = after, vor = before, halbi points to the next hour. Hours from 4 up take -i (vieri, föifi).</p>
+<div class="tabs"><button id="tSay" class="on">Say the time</button><button id="tPick">Pick the time</button></div>
+<section id="say">
+  <div class="card"><div id="face"></div><div class="digital" id="dig"></div><div class="ans" id="ans"></div><div class="say" id="resp"></div></div>
+  <div class="btns"><button class="main" id="reveal">Say it aloud, then reveal</button><button class="opt" id="next">Next time</button></div>
+</section>
+<section id="pick" class="hide">
+  <div class="score" id="score"></div>
+  <div class="card"><div class="phrase" id="pq"></div><div class="say" id="pr"></div></div>
+  <div class="btns" id="opts"></div>
+  <div class="btns" style="margin-top:8px"><button class="main" id="pnext">Next phrase</button></div>
+</section>
+<p class="note">Times are said for the clock face (1 to 12). Variants exist: some speakers say zää vor halbi for 3:20. Timetables and written appointments use the 24-hour clock.</p>
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)};
+var H=["zwölfi","eis","zwei","drüü","vieri","föifi","sächsi","sibni","achti","nüüni","zääni","elfi","zwölfi"];
+var SAY={"zwölfi":"TSWÖL-fi","eis":"EIS","zwei":"TSWEI","drüü":"DRÜÜ","vieri":"FIE-ri","föifi":"FÖI-fi","sächsi":"SÄK-si","sibni":"SIB-ni","achti":"ACH-ti","nüüni":"NÜÜ-ni","zääni":"TSÄÄ-ni","elfi":"EL-fi",
+ "föif":"FÖIF","zää":"TSÄÄ","viertel":"FIER-tel","zwänzg":"TSWÄNZG","ab":"AB","vor":"FOR","halbi":"HAL-bi","es":"es","isch":"isch"};
+function hour(h){h=((h-1)%12+12)%12+1;return H[h]}
+function phrase(h,m){var n=hour(h),x=hour(h+1);
+ switch(m){case 0:return n;case 5:return "föif ab "+n;case 10:return "zää ab "+n;case 15:return "viertel ab "+n;case 20:return "zwänzg ab "+n;
+ case 25:return "föif vor halbi "+x;case 30:return "halbi "+x;case 35:return "föif ab halbi "+x;case 40:return "zwänzg vor "+x;case 45:return "viertel vor "+x;
+ case 50:return "zää vor "+x;case 55:return "föif vor "+x}}
+function respell(p){return p.split(" ").map(function(w){return SAY[w]||w}).join(" ")}
+function rnd(){return {h:1+Math.floor(Math.random()*12),m:5*Math.floor(Math.random()*12)}}
+function dig(t){return t.h+":"+(t.m<10?"0":"")+t.m}
+function face(t){var s='<svg viewBox="0 0 200 200" role="img" aria-label="Clock showing '+dig(t)+'"><circle cx="100" cy="100" r="92" fill="none" stroke="currentColor" stroke-width="3"/>';
+ for(var i=0;i<12;i++){var a=i*Math.PI/6;s+='<line x1="'+(100+Math.sin(a)*80)+'" y1="'+(100-Math.cos(a)*80)+'" x2="'+(100+Math.sin(a)*88)+'" y2="'+(100-Math.cos(a)*88)+'" stroke="currentColor" stroke-width="3"/>'}
+ var ma=t.m*Math.PI/30, ha=((t.h%12)+t.m/60)*Math.PI/6;
+ s+='<line x1="100" y1="100" x2="'+(100+Math.sin(ha)*48)+'" y2="'+(100-Math.cos(ha)*48)+'" stroke="currentColor" stroke-width="7" stroke-linecap="round"/>';
+ s+='<line x1="100" y1="100" x2="'+(100+Math.sin(ma)*74)+'" y2="'+(100-Math.cos(ma)*74)+'" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><circle cx="100" cy="100" r="6" fill="currentColor"/></svg>';return s}
+var cur;
+function nextSay(){cur=rnd();$('face').innerHTML=face(cur);$('dig').textContent=dig(cur);$('ans').textContent='';$('resp').textContent=''}
+$('reveal').addEventListener('click',function(){var p=phrase(cur.h,cur.m);$('ans').textContent='Es isch '+p+'.';$('resp').textContent='es isch '+respell(p)});
+$('next').addEventListener('click',nextSay);
+var right=0,total=0,target,answered=false;
+function nextPick(){answered=false;target=rnd();var opts=[target];
+ while(opts.length<3){var o=rnd();if(!opts.some(function(x){return x.h===o.h&&x.m===o.m}))opts.push(o)}
+ if(Math.random()<0.6){var near={h:target.m>=25?target.h+1:target.h,m:target.m};near.h=((near.h-1)%12)+1;if(!(near.h===target.h&&near.m===target.m))opts[1]=near}
+ opts.sort(function(){return Math.random()-0.5});
+ var p=phrase(target.h,target.m);$('pq').textContent=p;$('pr').textContent=respell(p);
+ $('opts').innerHTML=opts.map(function(o){return '<button class="opt" data-h="'+o.h+'" data-m="'+o.m+'">'+dig(o)+'</button>'}).join('');score()}
+function score(){$('score').textContent=right+' of '+total+' right'}
+$('opts').addEventListener('click',function(e){var b=e.target.closest('button');if(!b||answered)return;answered=true;total++;
+ var ok=+b.dataset.h===target.h&&+b.dataset.m===target.m;if(ok)right++;b.classList.add(ok?'right':'wrong');
+ if(!ok)[].forEach.call($('opts').children,function(c){if(+c.dataset.h===target.h&&+c.dataset.m===target.m)c.classList.add('right')});score()});
+$('pnext').addEventListener('click',nextPick);
+function tab(p){$('tSay').classList.toggle('on',!p);$('tPick').classList.toggle('on',p);$('say').classList.toggle('hide',p);$('pick').classList.toggle('hide',!p);if(p&&!target)nextPick()}
+$('tSay').addEventListener('click',function(){tab(false)});$('tPick').addEventListener('click',function(){tab(true)});
+window.__phrase=phrase;nextSay();
+})();
+</script>
+</body>
+</html>

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 26
+    "version": 27
   },
   "categories": {
     "Training": {
@@ -438,6 +438,20 @@
       "estimatedMinutes": 40,
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m2-consonants.reviews.json",
+      "reviewsVersion": 1,
+      "audio": true
+    },
+    {
+      "id": "zh-m3-survival",
+      "title": "Züritüütsch 3: Survival and greetings",
+      "discipline": "Languages",
+      "description": "Greetings and du vs Sie, politeness, introductions, repair phrases, numbers, money and time",
+      "file": "modules/zh-m3-survival.json",
+      "version": 1,
+      "lessonCount": 7,
+      "estimatedMinutes": 50,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/zh-m3-survival.reviews.json",
       "reviewsVersion": 1,
       "audio": true
     }

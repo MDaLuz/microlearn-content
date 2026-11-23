@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sound-shift explorer</title>
+<style>
+:root{--bg:#FFFFFF;--card:#F7F4EE;--ink:#1B2430;--muted:#5B6672;--line:#E3E8EE;--accent:#1F3A5F;--acl:#E4EAF2;--go:#2E8B57;--gol:#DDF2E5;--back:#C2185B;--backl:#FBE4EE}
+@media (prefers-color-scheme:dark){:root{--bg:#14181E;--card:#1E242C;--ink:#E8ECF1;--muted:#9AA5B1;--line:#2C343E;--accent:#8DB4E2;--acl:#1B2C3A;--go:#5CC48A;--gol:#18301F;--back:#F06292;--backl:#3A1E2A}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 "Atkinson Hyperlegible",Arial,Helvetica,sans-serif;padding:16px}
+h1{font-size:20px;margin:0 0 4px} p.sub{color:var(--muted);margin:0 0 12px;font-size:13px}
+.tabs{display:flex;gap:8px;margin-bottom:12px}
+.tabs button,.chip{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 12px;font:inherit;font-size:13px;cursor:pointer}
+.tabs button.on,.chip.on{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+input[type=search]{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit;margin-bottom:10px}
+.row{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center;padding:8px 10px;border-bottom:1px solid var(--line)}
+.row .hd{color:var(--muted)} .row .zh{font-weight:700;color:var(--accent)} .row .en{grid-column:1/4;font-size:12.5px;color:var(--muted)}
+.row .tag{font-size:11px;color:var(--muted)}
+.count{font-size:12.5px;color:var(--muted);margin:4px 0 8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;text-align:center;margin:10px 0}
+.card .q{font-size:26px;font-weight:700} .card .e{color:var(--muted);margin-top:4px} .card .a{font-size:28px;font-weight:700;color:var(--accent);margin-top:14px;min-height:36px}
+.card .r{font-size:12.5px;color:var(--muted);margin-top:4px;min-height:18px}
+.btns{display:flex;gap:8px} .btns button{flex:1;border:0;border-radius:8px;padding:12px;font:inherit;font-weight:700;cursor:pointer}
+.reveal{background:var(--accent);color:var(--bg)} .yes{background:var(--gol);color:var(--go)} .no{background:var(--backl);color:var(--back)}
+.hide{display:none}
+.note{font-size:12.5px;color:var(--muted);margin-top:12px}
+</style>
+</head>
+<body>
+<h1>Sound-shift explorer</h1>
+<p class="sub">High German → Zurich German, grouped by rule (Modules 1–2). Curated pairs: the rules depend on word history, so learn the common words.</p>
+<div class="tabs"><button id="tBrowse" class="on">Browse</button><button id="tPractice">Practice</button></div>
+<div class="chips" id="chips"></div>
+<section id="browse">
+  <input type="search" id="q" placeholder="Search High German, Zurich or English…" aria-label="Search">
+  <div class="count" id="count"></div>
+  <div id="list"></div>
+</section>
+<section id="practice" class="hide">
+  <div class="count" id="score"></div>
+  <div class="card"><div class="q" id="pq"></div><div class="e" id="pe"></div><div class="a" id="pa"></div><div class="r" id="pr"></div></div>
+  <div class="btns" id="b1"><button class="reveal" id="reveal">Say it aloud, then reveal</button></div>
+  <div class="btns hide" id="b2"><button class="yes" id="yes">I knew it</button><button class="no" id="no">Not yet</button></div>
+  <p class="note">"Not yet" cards come back later in the round.</p>
+</section>
+<p class="note">Spelling follows this course (Dieth style). Words marked "Diphthong stays" are exceptions to the vowel shifts.</p>
+<script>
+(function(){
+var DATA={"rules": {"ii": "ei → ii", "uu": "au → uu", "üü": "eu/äu → üü", "keep": "Diphthong stays", "ue": "long u → ue", "üe": "long ü → üe", "ie": "ie said i-e", "ä": "short e → ä", "ch": "k → ch", "kx": "Loanword k stays", "scht": "st → scht", "n": "-en → -e", "ge": "ge- shortened", "ig": "-ung/-end → -ig", "li": "-li (small)", "word": "Different word"}, "pairs": [["Zeit", "Ziit", "time", "ii"], ["Wein", "Wii", "wine", "ii"], ["mein", "mii", "my", "ii"], ["Eis", "Iis", "ice", "ii"], ["weit", "wiit", "far", "ii"], ["Seite", "Siite", "side, page", "ii"], ["schreiben", "schriibe", "to write", "ii"], ["bleiben", "bliibe", "to stay", "ii"], ["Reis", "Riis", "rice", "ii"], ["weiss", "wiiss", "white", "ii"], ["Preis", "Priis", "price", "ii"], ["Schweiz", "Schwiiz", "Switzerland", "ii"], ["weiter", "wiiter", "further", "ii"], ["Eisen", "Iise", "iron", "ii"], ["Feierabend", "Fiirabig", "end of the working day", "ii"], ["Haus", "Huus", "house", "uu"], ["Maus", "Muus", "mouse", "uu"], ["Haut", "Huut", "skin", "uu"], ["laut", "luut", "loud", "uu"], ["Bauch", "Buuch", "belly", "uu"], ["brauchen", "bruuche", "to need", "uu"], ["Kraut", "Chruut", "herb, cabbage", "uu"], ["sauber", "suuber", "clean", "uu"], ["sauer", "suur", "sour", "uu"], ["Daumen", "Duume", "thumb", "uu"], ["Zaun", "Zuun", "fence", "uu"], ["Traum", "Truum", "dream", "uu"], ["Raum", "Ruum", "room, space", "uu"], ["Mauer", "Muur", "wall", "uu"], ["tausend", "tuusig", "thousand", "uu"], ["Leute", "Lüüt", "people", "üü"], ["Feuer", "Füür", "fire", "üü"], ["Häuser", "Hüüser", "houses", "üü"], ["Mäuse", "Müüs", "mice", "üü"], ["teuer", "tüür", "expensive", "üü"], ["deutsch", "tüütsch", "German", "üü"], ["Eule", "Üüle", "owl", "üü"], ["neun", "nüün", "nine", "üü"], ["Kreuz", "Chrüüz", "cross", "üü"], ["Zeug", "Züüg", "stuff", "üü"], ["zwei", "zwei", "two", "keep"], ["heiss", "heiss", "hot", "keep"], ["Bein", "Bei", "leg", "keep"], ["Stein", "Stei", "stone", "keep"], ["Fleisch", "Fleisch", "meat", "keep"], ["Baum", "Baum", "tree", "keep"], ["Frau", "Frau", "woman", "keep"], ["Auge", "Aug", "eye", "keep"], ["laufen", "laufe", "to walk", "keep"], ["nein", "nei", "no", "keep"], ["gut", "guet", "good", "ue"], ["Fuss", "Fuess", "foot", "ue"], ["Kuh", "Chue", "cow", "ue"], ["Bruder", "Brueder", "brother", "ue"], ["Blut", "Bluet", "blood", "ue"], ["Hut", "Huet", "hat", "ue"], ["Buch", "Buech", "book", "ue"], ["Schule", "Schuel", "school", "ue"], ["Mutter", "Mueter", "mother", "ue"], ["suchen", "sueche", "to look for", "ue"], ["Kuchen", "Chueche", "cake", "ue"], ["Stuhl", "Stuel", "chair", "ue"], ["genug", "gnueg", "enough", "ue"], ["Blume", "Blueme", "flower", "ue"], ["Schuh", "Schue", "shoe", "ue"], ["tun", "tue", "to do", "ue"], ["müde", "müed", "tired", "üe"], ["grün", "grüen", "green", "üe"], ["früh", "früe", "early", "üe"], ["Gemüse", "Gmües", "vegetables", "üe"], ["Füsse", "Füess", "feet", "üe"], ["Brüder", "Brüeder", "brothers", "üe"], ["Bücher", "Büecher", "books", "üe"], ["süss", "süess", "sweet", "üe"], ["grüssen", "grüesse", "to greet", "üe"], ["müssen", "müese", "must", "üe"], ["lieb", "lieb", "dear, kind", "ie"], ["Brief", "Brief", "letter", "ie"], ["Licht", "Liecht", "light", "ie"], ["Lied", "Lied", "song", "ie"], ["Dieb", "Dieb", "thief", "ie"], ["Fieber", "Fieber", "fever", "ie"], ["Wetter", "Wätter", "weather", "ä"], ["Fenster", "Fänschter", "window", "ä"], ["schnell", "schnäll", "fast", "ä"], ["Welt", "Wält", "world", "ä"], ["Feld", "Fäld", "field", "ä"], ["Geld", "Gäld", "money", "ä"], ["helfen", "hälfe", "to help", "ä"], ["Herz", "Härz", "heart", "ä"], ["Berg", "Bärg", "mountain", "ä"], ["gern", "gärn", "gladly", "ä"], ["essen", "ässe", "to eat", "ä"], ["recht", "rächt", "right", "ä"], ["sprechen", "spräche", "to speak", "ä"], ["schlecht", "schlächt", "bad", "ä"], ["Fest", "Fäscht", "party, celebration", "ä"], ["Kind", "Chind", "child", "ch"], ["Küche", "Chuchi", "kitchen", "ch"], ["Käse", "Chäs", "cheese", "ch"], ["Kopf", "Chopf", "head", "ch"], ["Kirche", "Chile", "church", "ch"], ["kalt", "chalt", "cold", "ch"], ["kaufen", "chaufe", "to buy", "ch"], ["Katze", "Chatz", "cat", "ch"], ["Kerze", "Cherze", "candle", "ch"], ["klein", "chlii", "small", "ch"], ["kommen", "cho", "to come", "ch"], ["können", "chöne", "can", "ch"], ["Kleid", "Chleid", "dress", "ch"], ["Knopf", "Chnopf", "button", "ch"], ["Kaffee", "Kafi", "coffee", "kx"], ["Kino", "Kino", "cinema", "kx"], ["Kilo", "Kilo", "kilo", "kx"], ["Konzert", "Konzärt", "concert", "kx"], ["ist", "isch", "is", "scht"], ["Post", "Poscht", "post office", "scht"], ["Wurst", "Wurscht", "sausage", "scht"], ["gestern", "geschter", "yesterday", "scht"], ["Durst", "Durscht", "thirst", "scht"], ["erst", "erscht", "first, only", "scht"], ["Kasten", "Chaschte", "cupboard", "scht"], ["fast", "fascht", "almost", "scht"], ["Nest", "Näscht", "nest", "scht"], ["machen", "mache", "to make, do", "n"], ["Garten", "Garte", "garden", "n"], ["Morgen", "Morge", "morning", "n"], ["lachen", "lache", "to laugh", "n"], ["trinken", "trinke", "to drink", "n"], ["sagen", "säge", "to say", "n"], ["schön", "schöö", "beautiful, nice", "n"], ["gewesen", "gsii", "been", "ge"], ["gehabt", "gha", "had", "ge"], ["gemacht", "gmacht", "made, done", "ge"], ["gesagt", "gseit", "said", "ge"], ["gegangen", "gange", "gone", "ge"], ["gekommen", "cho", "come", "ge"], ["gekauft", "kauft", "bought", "ge"], ["gesehen", "gsee", "seen", "ge"], ["Zeitung", "Ziitig", "newspaper", "ig"], ["Wohnung", "Wonig", "flat, apartment", "ig"], ["Rechnung", "Rächnig", "bill", "ig"], ["Ordnung", "Ornig", "order", "ig"], ["Abend", "Abig", "evening", "ig"], ["Häuschen", "Hüüsli", "little house", "li"], ["Kätzchen", "Chätzli", "kitten", "li"], ["Brötchen", "Brötli", "bread roll", "li"], ["Geschenk (klein)", "Gschänkli", "little present", "li"], ["Schränkchen", "Chäschtli", "small cupboard", "li"], ["Hündchen", "Hündli", "little dog", "li"], ["einkaufen", "poschte", "to go shopping", "word"], ["schauen", "luege", "to look", "word"], ["zuhören", "lose", "to listen", "word"], ["arbeiten", "schaffe", "to work", "word"], ["Fahrrad", "Velo", "bicycle", "word"], ["Kartoffel", "Härdöpfel", "potato", "word"], ["Butter", "Anke", "butter", "word"], ["Frühstück", "Zmorge", "breakfast", "word"], ["Mittagessen", "Zmittag", "lunch", "word"], ["Abendessen", "Znacht", "dinner", "word"], ["Entschuldigung", "Äxgüsi", "excuse me", "word"], ["nicht", "nöd", "not", "word"], ["nichts", "nüt", "nothing", "word"], ["etwas", "öppis", "something", "word"], ["jemand", "öpper", "someone", "word"], ["niemand", "niemer", "no one", "word"], ["morgen", "morn", "tomorrow", "word"], ["ein bisschen", "chli", "a bit", "word"], ["Mädchen", "Meitli", "girl", "word"], ["Junge", "Bueb", "boy", "word"], ["Markt", "Märt", "market", "word"]]};
+var R=DATA.rules, P=DATA.pairs, sel={};
+var $=function(i){return document.getElementById(i)};
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+var chips=$('chips');
+function chipHTML(){var h='<button class="chip'+(Object.keys(sel).length?'':' on')+'" data-r="">All</button>';
+  Object.keys(R).forEach(function(k){h+='<button class="chip'+(sel[k]?' on':'')+'" data-r="'+k+'">'+esc(R[k])+'</button>'});chips.innerHTML=h}
+chips.addEventListener('click',function(e){var b=e.target.closest('.chip');if(!b)return;var r=b.getAttribute('data-r');
+  if(!r){sel={}}else{if(sel[r])delete sel[r];else sel[r]=1}chipHTML();render();newRound()});
+function pool(){var keys=Object.keys(sel);return P.filter(function(p){return !keys.length||sel[p[3]]})}
+function render(){var q=$('q').value.trim().toLowerCase();
+  var rows=pool().filter(function(p){return !q||(p[0]+' '+p[1]+' '+p[2]).toLowerCase().indexOf(q)>=0});
+  $('count').textContent=rows.length+' pairs';
+  $('list').innerHTML=rows.map(function(p){return '<div class="row"><span class="hd">'+esc(p[0])+'</span><span>→</span><span class="zh">'+esc(p[1])+'</span><span class="en">'+esc(p[2])+' · <span class="tag">'+esc(R[p[3]])+'</span></span></div>'}).join('')}
+$('q').addEventListener('input',render);
+var deck=[],cur=null,known=0,seen=0;
+function shuffle(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
+function newRound(){deck=shuffle(pool().slice());known=0;seen=0;next()}
+function next(){$('b1').classList.remove('hide');$('b2').classList.add('hide');$('pa').textContent='';$('pr').textContent='';
+  if(!deck.length){$('pq').textContent='Round done';$('pe').textContent='Tap a rule above or Practice to start again.';cur=null;$('reveal').disabled=true;score();return}
+  $('reveal').disabled=false;cur=deck.shift();$('pq').textContent=cur[0];$('pe').textContent=cur[2];score()}
+function score(){$('score').textContent=known+' known of '+seen+' · '+deck.length+' left'}
+$('reveal').addEventListener('click',function(){if(!cur)return;$('pa').textContent=cur[1];$('pr').textContent=R[cur[3]];$('b1').classList.add('hide');$('b2').classList.remove('hide')});
+$('yes').addEventListener('click',function(){known++;seen++;next()});
+$('no').addEventListener('click',function(){seen++;var pos=Math.min(deck.length,3+Math.floor(Math.random()*3));deck.splice(pos,0,cur);next()});
+function tab(p){$('tBrowse').classList.toggle('on',!p);$('tPractice').classList.toggle('on',p);$('browse').classList.toggle('hide',p);$('practice').classList.toggle('hide',!p);if(p)newRound()}
+$('tBrowse').addEventListener('click',function(){tab(false)});$('tPractice').addEventListener('click',function(){tab(true)});
+chipHTML();render();
+})();
+</script>
+</body>
+</html>

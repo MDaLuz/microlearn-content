@@ -1,0 +1,603 @@
+{
+  "schemaVersion": 6,
+  "id": "zh-m2-consonants",
+  "title": "Züritüütsch 2: Sounds II: consonants",
+  "discipline": "Languages",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "zh2-l01-ch",
+      "title": "ch everywhere: Chind, Chuchi, Chäs",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The throaty ch\n\nZurich German has one *ch* sound, the throaty one of High German *Bach* [x]. It's used everywhere, also where High German has the soft *ich*-sound [ç]: Zurich *ich* is said with the *Bach* sound. There's no soft ch at all."
+        },
+        {
+          "type": "text",
+          "markdown": "## k at the start becomes ch\n\nIn native words, a High German *k* at the start of a word usually becomes *ch*: *Kind* → *Chind*, *Küche* → *Chuchi*, *Käse* → *Chäs*, *Kopf* → *Chopf*, *kalt* → *chalt*, *kaufen* → *chaufe*, *Kirche* → *Chile*. This is the sound that makes Swiss German instantly recognisable."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m2/ch-positions.svg",
+          "alt": "Three positions of the throaty ch: at the start (Chind, Chuchi, Chäs), in the middle (mache, Chuchi), and after i or e (ich, mich), all said like the ch in Bach.",
+          "caption": "One ch, in every position",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: D Chind sind i de Chuchi.\n\n- Say it: d CHIND sind i de CHU-chi\n- IPA: [d̥ xɪnd̥ sind̥ i d̥ə ˈxʊxi]\n- Hochdeutsch: Die Kinder sind in der Küche.\n- English: The children are in the kitchen.\n- Note: *Chind* is both singular and plural."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Es isch chalt hüt.\n\n- Say it: es isch CHALT HÜT\n- IPA: [əs ɪʃ xalt hʏt]\n- Hochdeutsch: Es ist kalt heute.\n- English: It's cold today."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich chaufe Chäs.\n\n- Say it: ich CHAU-fe CHÄÄS\n- IPA: [ɪx ˈxau̯fə xæːs]\n- Hochdeutsch: Ich kaufe Käse.\n- English: I'm buying cheese.\n- Note: The *ch* in *ich* is throaty too."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich ha Chopfweh.\n\n- Say it: ich ha CHOPF-weh\n- IPA: [ɪx ha ˈxɔpfʋeː]\n- Hochdeutsch: Ich habe Kopfweh.\n- English: I have a headache."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: D Chile isch zue.\n\n- Say it: d CHI-le isch ZU-e\n- IPA: [d̥ ˈxilə ɪʃ tsuə̯]\n- Hochdeutsch: Die Kirche ist geschlossen.\n- English: The church is closed.\n- Note: *zue* = closed; *Chile* = church, not the country."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** say every ch at the back of the throat, including in ich, and turn a starting k into ch in everyday native words."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh2-l01-ch-fc1",
+              "front": "Zurich ch",
+              "back": "Always the throaty Bach sound [x], also in ich. There's no soft ich-sound."
+            },
+            {
+              "id": "zh2-l01-ch-fc2",
+              "front": "Initial k → ch",
+              "back": "Kind → Chind, Küche → Chuchi, Käse → Chäs, kalt → chalt, Kirche → Chile."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh2-l01-ch-q1",
+              "stem": "How is *ich* said in Zurich German?",
+              "options": [
+                "With the soft ch of High German ich",
+                "With the throaty ch of Bach",
+                "With a k",
+                "Like 'itch'"
+              ],
+              "correctIndex": 1,
+              "explanation": "Zurich has only the throaty ch."
+            },
+            {
+              "id": "zh2-l01-ch-q2",
+              "stem": "What does *D Chile isch zue* mean?",
+              "options": [
+                "The country Chile is far away",
+                "The church is closed",
+                "The cheese is open",
+                "The kitchen is ready"
+              ],
+              "correctIndex": 1,
+              "explanation": "*Chile* = Kirche; *zue* = closed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Phonetics** — Fleischer J, Schmid S, Zurich German, *Journal of the International Phonetic Association* 2006;36(2):243–253.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh2-l02-k-loanwords",
+      "title": "k, kch and loanwords: Kafi, Kino",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Where k stays\n\nNot every *k* becomes *ch*. Newer and borrowed words keep a strong k, which Zurich speakers release with a little friction, almost *kch*: *Kafi*, *Kino*, *Kilo*, *Konzärt*. In IPA this **affricate** is written [kx]."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m2/k-types.svg",
+          "alt": "Three kinds of k: native k at the start becomes ch (Chind, Chäs); loanwords keep a strong kch (Kafi, Kino, Kilo); inside words the strong k is often written gg (Rugge, Glogge).",
+          "caption": "Three kinds of k",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.562
+        },
+        {
+          "type": "text",
+          "markdown": "## gg inside words\n\nInside native words, the strong k sound is often written *gg*: *Rücken* → *Rugge*, *Glocke* → *Glogge*, *Brücke* → *Brugg*. It's a held, unvoiced sound, never a voiced g. Words like *kei* (kein) also keep a k."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: En Kafi Creme\n\n- Say it: en KA-fi KREM\n- IPA: [ən ˈkxafi kxreːm]\n- Hochdeutsch: Einen Kaffee mit Rahm\n- English: A coffee with cream\n- Note: The classic Swiss coffee order."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mir gönd is Kino.\n\n- Say it: mir GÖND is KI-no\n- IPA: [mir ɡ̊œnd̥ ɪs ˈkxino]\n- Hochdeutsch: Wir gehen ins Kino.\n- English: We're going to the cinema."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Es Kilo Öpfel\n\n- Say it: es KI-lo ÖP-fel\n- IPA: [əs ˈkxilo ˈœpfəl]\n- Hochdeutsch: Ein Kilo Äpfel\n- English: A kilo of apples\n- Note: *Öpfel*: Zurich for Äpfel."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mir tuet de Rugge weh.\n\n- Say it: mir TU-et de RUG-ge WEH\n- IPA: [mir tuə̯t d̥ə ˈrʊɡːə ʋeː]\n- Hochdeutsch: Mir tut der Rücken weh.\n- English: My back hurts.\n- Note: *gg* is a strong, held k."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** keep a strong kch in loanwords like Kafi and Kino, use ch in old native words like Chind, and say gg as a held k."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh2-l02-k-loanwords-fc1",
+              "front": "Loanword k",
+              "back": "A strong kch [kx] in borrowed and newer words: Kafi, Kino, Kilo."
+            },
+            {
+              "id": "zh2-l02-k-loanwords-fc2",
+              "front": "gg inside words",
+              "back": "A strong, held k sound: Rugge (Rücken), Glogge (Glocke), Brugg (Brücke)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh2-l02-k-loanwords-q1",
+              "stem": "Which word keeps a k instead of ch?",
+              "options": [
+                "Chind",
+                "Kafi",
+                "Chäs",
+                "Chuchi"
+              ],
+              "correctIndex": 1,
+              "explanation": "Loanwords keep k."
+            },
+            {
+              "id": "zh2-l02-k-loanwords-q2",
+              "stem": "How is the *gg* in *Rugge* said?",
+              "options": [
+                "Like a voiced English g",
+                "Like a strong, held k",
+                "Like ch",
+                "It's silent"
+              ],
+              "correctIndex": 1,
+              "explanation": "gg = strong k."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Phonetics** — Fleischer J, Schmid S, Zurich German, *Journal of the International Phonetic Association* 2006;36(2):243–253.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh2-l03-scht",
+      "title": "scht and schp in every position",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Beyond the start of a word\n\nHigh German says *scht* and *schp* only at the start of a word or word part (*Stadt*, *sprechen*). Zurich German says them **everywhere**: *ist* → *isch*, *Post* → *Poscht*, *Wurst* → *Wurscht*, *Fest* → *Fäscht*, *gestern* → *geschter*, *Durst* → *Durscht*."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m2/scht-positions.svg",
+          "alt": "High German says scht only at the start (Stadt); Zurich also in the middle and at the end: Fänschter, geschter, Poscht, isch, Wurscht.",
+          "caption": "scht in every position",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.562
+        },
+        {
+          "type": "text",
+          "markdown": "## In spelling\n\nThis course writes *scht* in the middle and at the end, because that's how it sounds (*Poscht*, *Fänschter*). At the start of a word it keeps High German *st* and *sp*, and you add the *sch* when speaking: *spöter* is said *schpöter*. Chat messages do both."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich gaa uf d Poscht.\n\n- Say it: ich GAA uf d POSCHT\n- IPA: [ɪx ɡ̊aː uf d̥ pɔʃt]\n- Hochdeutsch: Ich gehe zur Post.\n- English: I'm going to the post office.\n- Note: *uf d Poscht*: literally 'onto the post'."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Geschter am Abig\n\n- Say it: GESCH-ter am A-big\n- IPA: [ˈɡ̊eʃtər am ˈaːb̥ɪɡ̊]\n- Hochdeutsch: Gestern Abend\n- English: Last night"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Das isch es Fäscht!\n\n- Say it: das isch es FÄSCHT\n- IPA: [d̥as ɪʃ əs fæʃt]\n- Hochdeutsch: Das ist ein Fest!\n- English: What a party!\n- Note: Open *ä* and *scht*: two rules in one word."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich ha Durscht.\n\n- Say it: ich ha DURSCHT\n- IPA: [ɪx ha d̥urʃt]\n- Hochdeutsch: Ich habe Durst.\n- English: I'm thirsty."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Das isch mer Wurscht.\n\n- Say it: das isch mer WURSCHT\n- IPA: [d̥as ɪʃ mər ʋurʃt]\n- Hochdeutsch: Das ist mir egal.\n- English: I don't care.\n- Note: Same idiom as High German *Das ist mir Wurst*."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** say sch before t and p anywhere in a word: isch, Poscht, geschter. It's one of the most audible Zurich features."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh2-l03-scht-fc1",
+              "front": "scht everywhere",
+              "back": "Zurich says scht/schp in every position: isch, Poscht, Wurscht, geschter."
+            },
+            {
+              "id": "zh2-l03-scht-fc2",
+              "front": "Das isch mer Wurscht",
+              "back": "I don't care (literally: that's sausage to me)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh2-l03-scht-q1",
+              "stem": "What's *Post* in Zurich German?",
+              "options": [
+                "Post",
+                "Poscht",
+                "Pots",
+                "Pöst"
+              ],
+              "correctIndex": 1,
+              "explanation": "st → scht anywhere."
+            },
+            {
+              "id": "zh2-l03-scht-q2",
+              "stem": "How is *spöter* (written with sp) said?",
+              "options": [
+                "spöter",
+                "schpöter",
+                "später",
+                "schpäter"
+              ],
+              "correctIndex": 1,
+              "explanation": "Initial sp is written as in High German but said schp."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh2-l04-soft-strong",
+      "title": "Soft and strong consonants",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## No puff, no buzz\n\nZurich *b*, *d*, *g* are **lenis**: soft and short, but without the voice buzz of English b, d, g. Zurich *p*, *t*, *k* are **fortis**: stronger and longer, but without the puff of air of High German *Tag* [tʰ]. The difference between soft and strong is mostly about length and pressure, not voicing."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m2/lenis-fortis.svg",
+          "alt": "Soft consonants (b, d, g, f in Ofe) as short bars; strong ones (p, t, k, ff in offe) as longer bars; a note that neither has the puff of air of High German t.",
+          "caption": "Soft and strong: a matter of length",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Hear it in pairs\n\n*Ofe* (oven) has a soft, short *f*; *offe* (open) has a strong, held *ff*. Doubled letters in this course's spelling always mean the strong version."
+        },
+        {
+          "type": "text",
+          "markdown": "## Words run together\n\nZurich speech doesn't stop before vowels the way High German does (no 'click' before *alles* or *Abend*). Words flow into each other: *am Abig* sounds like *amAbig*, and *Es isch alles in Ornig* runs as one line."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: De Ofe isch warm.\n\n- Say it: de O-fe isch WARM\n- IPA: [d̥ə ˈofə ɪʃ ʋarm]\n- Hochdeutsch: Der Ofen ist warm.\n- English: The oven is warm.\n- Note: Soft, short *f*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: D Tür isch offe.\n\n- Say it: d TÜR isch OF-fe\n- IPA: [d̥ tyr ɪʃ ˈofːə]\n- Hochdeutsch: Die Tür ist offen.\n- English: The door is open.\n- Note: Strong, held *ff*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Guete Morge!\n\n- Say it: GU-e-te MOR-ge\n- IPA: [ˈɡ̊uə̯tə ˈmɔrɡ̊ə]\n- Hochdeutsch: Guten Morgen!\n- English: Good morning!\n- Note: Soft *g*: unvoiced, no buzz."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: En Tee, bitte.\n\n- Say it: en TEE, BIT-te\n- IPA: [ən teː ˈb̥ɪtːə]\n- Hochdeutsch: Einen Tee, bitte.\n- English: A tea, please.\n- Note: No puff of air after *t*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Es isch alles in Ornig.\n\n- Say it: es isch AL-les in OR-nig\n- IPA: [əsɪʃ ˈaləsɪn ˈɔrnɪɡ̊]\n- Hochdeutsch: Es ist alles in Ordnung.\n- English: Everything's fine.\n- Note: Said as one flowing line."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** drop the puff of air after p, t and k, keep b, d and g soft and unvoiced, hold doubled consonants longer, and let words run into each other."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh2-l04-soft-strong-fc1",
+              "front": "Lenis and fortis",
+              "back": "Soft b, d, g (short, unvoiced) vs strong p, t, k (longer, held). Neither is aspirated."
+            },
+            {
+              "id": "zh2-l04-soft-strong-fc2",
+              "front": "Ofe vs offe",
+              "back": "Ofe = oven (soft f); offe = open (strong, held ff)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh2-l04-soft-strong-q1",
+              "stem": "What's the main difference between Zurich *d* and *t*?",
+              "options": [
+                "d is voiced like English d",
+                "t is stronger and longer",
+                "t has a strong puff of air",
+                "There's no difference"
+              ],
+              "correctIndex": 1,
+              "explanation": "It's length and pressure, not voicing or aspiration."
+            },
+            {
+              "id": "zh2-l04-soft-strong-q2",
+              "stem": "What does *D Tür isch offe* mean?",
+              "options": [
+                "The door is open",
+                "The oven is on",
+                "The door is closed",
+                "The tour is over"
+              ],
+              "correctIndex": 0,
+              "explanation": "*offe* = open."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Phonetics** — Fleischer J, Schmid S, Zurich German, *Journal of the International Phonetic Association* 2006;36(2):243–253.\n2. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh2-l05-r-l",
+      "title": "r and l: Zurich habits",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Two r's, both correct\n\nYou'll hear two kinds of *r* in Zurich: a tongue-tip roll, more common among older and rural speakers, and a throaty r at the back, common in the city. Both are normal; pick the one that comes naturally. Final *-er* is said as a short *er*, not as the vowel *a* of High German *Vater*."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m2/r-l-compare.svg",
+          "alt": "A comparison table: Zurich keeps l (Milch, vil, Velo) where Bern turns it into a u-like sound (Miuch, viu); r can be rolled or throaty; final -er stays er.",
+          "caption": "Zurich l and r vs Bern",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.562
+        },
+        {
+          "type": "text",
+          "markdown": "## l stays l\n\nZurich keeps a clear *l* in all positions. Bern German famously turns many l's into a u-like sound: *Milch* → *Miuch*, *viel* → *viu*. If you hear that, it's Bern, not Zurich."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Es rägnet.\n\n- Say it: es RÄG-net\n- IPA: [əs ˈræɡ̊nət]\n- Hochdeutsch: Es regnet.\n- English: It's raining.\n- Note: Open *ä* again."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich hol d Milch.\n\n- Say it: ich HOL d MILCH\n- IPA: [ɪx hol d̥ mɪlx]\n- Hochdeutsch: Ich hole die Milch.\n- English: I'll get the milk.\n- Note: Clear *l*; Bern would say *Miuch*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Vil Glück!\n\n- Say it: FIL GLÜCK\n- IPA: [fɪl ɡ̊lʏk]\n- Hochdeutsch: Viel Glück!\n- English: Good luck!\n- Note: Bern: *Viu Glück!*"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mis Velo isch rot.\n\n- Say it: MIS VE-lo isch ROOT\n- IPA: [miːs ˈʋelo ɪʃ roːt]\n- Hochdeutsch: Mein Fahrrad ist rot.\n- English: My bike is red."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** keep every l clear, use whichever r feels natural, and say final -er as er. A u-like l marks Bern German."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh2-l05-r-l-fc1",
+              "front": "Zurich r",
+              "back": "Rolled tongue-tip or throaty back r: both are normal in Zurich."
+            },
+            {
+              "id": "zh2-l05-r-l-fc2",
+              "front": "Bern l-vocalisation",
+              "back": "Bern turns many l's into a u-like sound (Miuch, viu); Zurich keeps l (Milch, vil)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh2-l05-r-l-q1",
+              "stem": "You hear *viu Lüüt*. Where is the speaker likely from?",
+              "options": [
+                "Zurich",
+                "Bern",
+                "Basel",
+                "Germany"
+              ],
+              "correctIndex": 1,
+              "explanation": "u-like l is typical of Bern."
+            },
+            {
+              "id": "zh2-l05-r-l-q2",
+              "stem": "Which r is correct in Zurich German?",
+              "options": [
+                "Only the rolled r",
+                "Only the throaty r",
+                "Both",
+                "Neither; r is silent"
+              ],
+              "correctIndex": 2,
+              "explanation": "Both are common."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Phonetics** — Fleischer J, Schmid S, Zurich German, *Journal of the International Phonetic Association* 2006;36(2):243–253.\n2. **Atlas** — Christen H, Glaser E, Friedli M, *Kleiner Sprachatlas der deutschen Schweiz*, Frauenfeld 2010.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh2-l06-recap",
+      "title": "Recap: tongue twisters and pairs",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Module 2 in five lines\n\n1. One throaty *ch*, everywhere, also in *ich*.\n2. Initial *k* → *ch* in native words; loanwords keep *kch*.\n3. *scht* and *schp* in every position.\n4. Soft and strong consonants differ by length, with no puff of air.\n5. Clear *l*; rolled or throaty *r*."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m2/recap-consonants.svg",
+          "alt": "A summary of five consonant rules with examples: ch in Chind and ich; Kafi with kch; Poscht with scht; Ofe vs offe; Milch with a clear l.",
+          "caption": "Five consonant rules",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.158
+        },
+        {
+          "type": "text",
+          "markdown": "## Practise with the explorer\n\nThe sound-shift explorer below has about 170 High German / Zurich German pairs from Modules 1 and 2, grouped by rule. Browse by rule, or use practice mode: you see the High German, say the Zurich form aloud, then reveal it."
+        },
+        {
+          "type": "tool",
+          "src": "tools/zh-sound-shifts.html",
+          "title": "Sound-shift explorer",
+          "description": "About 170 High German and Zurich German word pairs, grouped by sound rule, with a practice mode.",
+          "buttonLabel": "Open the explorer",
+          "estimatedMinutes": 5
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Chuchichäschtli\n\n- Say it: CHU-chi-chäsch-tli\n- IPA: [ˈxʊxixæʃtli]\n- Hochdeutsch: Küchenschränkchen\n- English: Kitchen cupboard\n- Note: The classic test word: three throaty ch's and a scht."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: De Papscht hät z Spiez s Späckbsteck z spaat bstellt.\n\n- Say it: de PAPSCHT hät ts SCHPIEZ s SCHPÄCK-bschteck ts SCHPAAT BSCHTELLT\n- IPA: [d̥ə papʃt hæt ts ʃpiə̯ts s ˈʃpækb̥ʃtek ts ʃpaːt b̥ʃtelt]\n- Hochdeutsch: Der Papst hat in Spiez das Speckbesteck zu spät bestellt.\n- English: The Pope ordered the bacon cutlery too late in Spiez.\n- Note: A famous tongue twister, originally from Bern; all *scht* and *schp*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: De Ofe isch offe.\n\n- Say it: de O-fe isch OF-fe\n- IPA: [d̥ə ˈofə ɪʃ ˈofːə]\n- Hochdeutsch: Der Ofen ist offen.\n- English: The oven is open.\n- Note: Soft *f*, then strong *ff*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mir chaufed Chäs uf em Märt.\n\n- Say it: mir CHAU-fed CHÄÄS uf em MÄRT\n- IPA: [mir ˈxau̯fəd̥ xæːs uf əm mært]\n- Hochdeutsch: Wir kaufen Käse auf dem Markt.\n- English: We buy cheese at the market.\n- Note: *Märt* = Markt."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** say Chuchichäschtli and the Papscht sentence slowly every day this week, then use the explorer to test yourself on the rules from Modules 1 and 2."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh2-l06-recap-fc1",
+              "front": "Chuchichäschtli",
+              "back": "Kitchen cupboard: the classic Swiss German test word."
+            },
+            {
+              "id": "zh2-l06-recap-fc2",
+              "front": "Märt",
+              "back": "Market (Markt). Uf em Märt = at the market."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh2-l06-recap-q1",
+              "stem": "Which rule does *Poscht* show?",
+              "options": [
+                "k → ch",
+                "scht in every position",
+                "Open ä",
+                "Dropped -n"
+              ],
+              "correctIndex": 1,
+              "explanation": "st → scht at the end of a word."
+            },
+            {
+              "id": "zh2-l06-recap-q2",
+              "stem": "What's *Markt* in Zurich German?",
+              "options": [
+                "Markt",
+                "Märt",
+                "Marcht",
+                "Mart"
+              ],
+              "correctIndex": 1,
+              "explanation": "*Märt* is the Zurich word."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Phonetics** — Fleischer J, Schmid S, Zurich German, *Journal of the International Phonetic Association* 2006;36(2):243–253.\n3. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n4. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}

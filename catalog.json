@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 25
+    "version": 26
   },
   "categories": {
     "Training": {
@@ -418,11 +418,24 @@
       "discipline": "Languages",
       "description": "Huus and Ziit, gliding vowels, length, the open ä, endings and stress",
       "file": "modules/zh-m1-vowels.json",
-      "version": 1,
+      "version": 2,
       "lessonCount": 7,
       "estimatedMinutes": 45,
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m1-vowels.reviews.json",
+      "reviewsVersion": 2
+    },
+    {
+      "id": "zh-m2-consonants",
+      "title": "Züritüütsch 2: Sounds II: consonants",
+      "discipline": "Languages",
+      "description": "The throaty ch, k and kch, scht everywhere, soft and strong consonants, r and l",
+      "file": "modules/zh-m2-consonants.json",
+      "version": 1,
+      "lessonCount": 6,
+      "estimatedMinutes": 40,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/zh-m2-consonants.reviews.json",
       "reviewsVersion": 1
     }
   ]

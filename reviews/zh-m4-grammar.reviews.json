@@ -1,0 +1,950 @@
+{
+  "moduleId": "zh-m4-grammar",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "zh4-b1",
+      "title": "Words and verbs",
+      "lessons": [
+        "zh4-l01-articles",
+        "zh4-l02-pronouns",
+        "zh4-l03-key-verbs",
+        "zh4-l04-modals"
+      ]
+    },
+    {
+      "id": "zh4-b2",
+      "title": "Past, doubling, clauses and plurals",
+      "lessons": [
+        "zh4-l05-perfect",
+        "zh4-l06-verb-doubling",
+        "zh4-l07-wo-word-order",
+        "zh4-l08-plurals-li"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-zh4-l01",
+      "level": "lesson",
+      "covers": [
+        "zh4-l01-articles"
+      ],
+      "summary": {
+        "title": "Articles and cases",
+        "points": [
+          "de, d, s (the); en, e, es (a).",
+          "Dative: em (masc/neut), de (fem and plural).",
+          "No genitive: em Peter sis Velo, or vo + dative.",
+          "Accusative looks like nominative."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Talking about family belongings.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'My mother's house' is?",
+              "options": [
+                "S Huus vo minere Mueter",
+                "Minere Mueters Huus",
+                "S Huus vo mini Mueter",
+                "Mueters Huus"
+              ],
+              "answer": 0,
+              "explanation": "vo + dative."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Peter's car' is?",
+              "options": [
+                "Peters Auto",
+                "Em Peter sis Auto",
+                "De Peter sis Auto",
+                "S Auto Peter"
+              ],
+              "answer": 1,
+              "explanation": "Dative em + possessive sis."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Choose the article.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'I'll give it to the man' is?",
+              "options": [
+                "Ich gib s de Maa.",
+                "Ich gib s s Maa.",
+                "Ich gib s em Maa.",
+                "Ich gib s en Maa."
+              ],
+              "answer": 2,
+              "explanation": "Dative masculine em."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'A child' is?",
+              "options": [
+                "en Chind",
+                "e Chind",
+                "s Chind",
+                "es Chind"
+              ],
+              "answer": 3,
+              "explanation": "Neuter es."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh4-l02",
+      "level": "lesson",
+      "covers": [
+        "zh4-l02-pronouns"
+      ],
+      "summary": {
+        "title": "Pronouns and short forms",
+        "points": [
+          "mir = wir; eus = uns; eu = euch; ine = ihnen.",
+          "Pronouns fuse with verbs: hämmer, gömmer, simmer, chömmer.",
+          "du often drops after the verb: Häsch Ziit?",
+          "mer = unstressed mir: Chasch mer hälfe?"
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Planning with friends.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Shall we go?' is?",
+              "options": [
+                "Gömmer?",
+                "Gönd mir?",
+                "Gaa mer?",
+                "Gömmer gaa?"
+              ],
+              "answer": 0,
+              "explanation": "gönd mir → gömmer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Are we ready?' is?",
+              "options": [
+                "Sind wir bereit?",
+                "Simmer parat?",
+                "Simmer bereit gsii?",
+                "Bisch parat?"
+              ],
+              "answer": 1,
+              "explanation": "sind mir → simmer."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Asking for help.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Can you help me?' is?",
+              "options": [
+                "Chasch mir hälfe du?",
+                "Kannst du mir helfen?",
+                "Chasch mer hälfe?",
+                "Chönd mer hälfe?"
+              ],
+              "answer": 2,
+              "explanation": "du drops; mer = mir."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does *eus* mean?",
+              "options": [
+                "you (plural)",
+                "them",
+                "me",
+                "us"
+              ],
+              "answer": 3,
+              "explanation": "eus = uns."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh4-l03",
+      "level": "lesson",
+      "covers": [
+        "zh4-l03-key-verbs"
+      ],
+      "summary": {
+        "title": "Five key verbs",
+        "points": [
+          "sii: bi, bisch, isch, sind.",
+          "haa: ha (han), häsch, hät, händ.",
+          "gaa: gaa, gaasch, gaat, gönd; cho: chume, chunsch, chunt, chömed.",
+          "tue: tue, tuesch, tuet, tüend.",
+          "One plural form for mir, ihr, si and formal Si."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Texting a friend.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Where are you?' is?",
+              "options": [
+                "Wo bisch?",
+                "Wo isch du?",
+                "Wo bisch gsii?",
+                "Wo sind?"
+              ],
+              "answer": 0,
+              "explanation": "du bisch."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Are you coming too?' is?",
+              "options": [
+                "Chumsch au?",
+                "Chunsch au?",
+                "Chömed au?",
+                "Kommst du auch?"
+              ],
+              "answer": 1,
+              "explanation": "du chunsch."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Conjugation check.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'They have' is?",
+              "options": [
+                "si hät",
+                "si häsch",
+                "si händ",
+                "si hend"
+              ],
+              "answer": 2,
+              "explanation": "Plural händ."
+            },
+            {
+              "type": "mcq",
+              "prompt": "When does *ha* become *han*?",
+              "options": [
+                "In questions only",
+                "In the plural",
+                "Never",
+                "Before a vowel"
+              ],
+              "answer": 3,
+              "explanation": "Ich han en Hund."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh4-l04",
+      "level": "lesson",
+      "covers": [
+        "zh4-l04-modals"
+      ],
+      "summary": {
+        "title": "Modal verbs",
+        "points": [
+          "welle: wott, wottsch, wott, wänd.",
+          "chöne: cha, chasch, cha, chönd.",
+          "müese: mues, muesch, mues, müend; dörfe: darf, darfsch, darf, dörfed.",
+          "Polite wish: Ich hett gern …"
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "At a café and at home.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'I'd like a coffee' is?",
+              "options": [
+                "Ich hett gern en Kafi.",
+                "Ich wott en Kafi haa.",
+                "Ich will einen Kaffee.",
+                "Ich mues en Kafi."
+              ],
+              "answer": 0,
+              "explanation": "Polite: hett gern."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'I have to go to work' is?",
+              "options": [
+                "Ich mues schaffe gaa.",
+                "Ich mues go schaffe.",
+                "Ich muss arbeiten gehen.",
+                "Ich wott go schaffe."
+              ],
+              "answer": 1,
+              "explanation": "mues + go."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Compare High German *will* and Zurich *wott*.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'We want' in Zurich German?",
+              "options": [
+                "mir wott",
+                "mir wollen",
+                "mir wänd",
+                "mir wend gsii"
+              ],
+              "answer": 2,
+              "explanation": "Plural wänd."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'May I?' is?",
+              "options": [
+                "Dörfed ich?",
+                "Mues ich?",
+                "Chan ich gsii?",
+                "Darf ich?"
+              ],
+              "answer": 3,
+              "explanation": "dörfe: ich darf."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh4-l05",
+      "level": "lesson",
+      "covers": [
+        "zh4-l05-perfect"
+      ],
+      "summary": {
+        "title": "The perfect",
+        "points": [
+          "No simple past: everything uses haa or sii + participle.",
+          "ich bi gsii (I was), ich ha gha (I had).",
+          "sii with movement: gange, cho, gfahre, bliibe.",
+          "ge- shrinks or disappears: gmacht, gseit, kauft, trunke."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Telling a friend about your weekend.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'I was in Bern' is?",
+              "options": [
+                "Ich bi z Bärn gsii.",
+                "Ich war z Bärn.",
+                "Ich ha z Bärn gsii.",
+                "Ich bi z Bärn gwese."
+              ],
+              "answer": 0,
+              "explanation": "Perfect with gsii."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'We ate well' is?",
+              "options": [
+                "Mir sind guet ggässe.",
+                "Mir händ guet ggässe.",
+                "Mir assen gut.",
+                "Mir händ guet gesse gha."
+              ],
+              "answer": 1,
+              "explanation": "haa + ggässe."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Choosing the auxiliary.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'She came yesterday' uses which auxiliary?",
+              "options": [
+                "haa: Si hät geschter cho.",
+                "No auxiliary: Si kam geschter.",
+                "sii: Si isch geschter cho.",
+                "tue: Si tuet geschter cho."
+              ],
+              "answer": 2,
+              "explanation": "Movement takes sii."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Participle of *chaufe*?",
+              "options": [
+                "gchauft",
+                "gekauft",
+                "chauft",
+                "kauft"
+              ],
+              "answer": 3,
+              "explanation": "ge- disappears before k."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh4-l06",
+      "level": "lesson",
+      "covers": [
+        "zh4-l06-verb-doubling"
+      ],
+      "summary": {
+        "title": "Verb doubling",
+        "points": [
+          "gaa + go + verb: Ich gaa go poschte.",
+          "cho + cho + verb: Chunsch cho ässe?",
+          "laa + la + verb: Ich la s Velo la flicke.",
+          "Leaving it out sounds clearly foreign."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Weekend plans.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'We're going swimming' is?",
+              "options": [
+                "Mir gönd go schwümme.",
+                "Mir gönd schwümme.",
+                "Mir gönd cho schwümme.",
+                "Wir gehen schwimmen."
+              ],
+              "answer": 0,
+              "explanation": "go after gaa."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Are you coming to eat?' is?",
+              "options": [
+                "Chunsch ässe?",
+                "Chunsch cho ässe?",
+                "Chunsch go ässe?",
+                "Kommst du essen?"
+              ],
+              "answer": 1,
+              "explanation": "cho after cho."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "At the bike shop.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'I'm having my bike repaired' is?",
+              "options": [
+                "Ich la mis Velo flicke.",
+                "Ich gaa mis Velo go flicke.",
+                "Ich la mis Velo la flicke.",
+                "Ich lasse mein Velo reparieren."
+              ],
+              "answer": 2,
+              "explanation": "la after laa."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does *flicke* mean?",
+              "options": [
+                "To fly",
+                "To clean",
+                "To sell",
+                "To repair"
+              ],
+              "answer": 3,
+              "explanation": "flicken."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh4-l07",
+      "level": "lesson",
+      "covers": [
+        "zh4-l07-wo-word-order"
+      ],
+      "summary": {
+        "title": "wo and word order",
+        "points": [
+          "wo replaces der/die/das/welche in every relative clause.",
+          "Linking n: s Buech, wo-n-ich gläse ha.",
+          "Verb last after wil, dass, wänn, öb.",
+          "aalüüte = anrufen; dete = dort."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Pointing someone out.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'The man standing over there' is?",
+              "options": [
+                "De Maa, wo dete staat",
+                "De Maa, de dete staat",
+                "De Maa, wer dete staat",
+                "Der Mann, der dort steht"
+              ],
+              "answer": 0,
+              "explanation": "Always wo."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'The book I read' is?",
+              "options": [
+                "S Buech, das ich gläse ha",
+                "S Buech, wo-n-ich gläse ha",
+                "S Buech, wo ich ha gläse",
+                "S Buech, was ich gläse ha"
+              ],
+              "answer": 1,
+              "explanation": "wo + linking n; participle before ha."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Giving a reason.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'I'm not coming because I'm ill' is?",
+              "options": [
+                "Ich chume nöd, wil ich bi chrank.",
+                "Ich chume nöd, wil chrank ich bi.",
+                "Ich chume nöd, wil ich chrank bi.",
+                "Ich komme nicht, weil ich krank bin."
+              ],
+              "answer": 2,
+              "explanation": "Verb last after wil."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does *Lüüt aa!* mean?",
+              "options": [
+                "Ring the bell!",
+                "Turn on the light!",
+                "Listen!",
+                "Give me a call!"
+              ],
+              "answer": 3,
+              "explanation": "aalüüte = anrufen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh4-l08",
+      "level": "lesson",
+      "covers": [
+        "zh4-l08-plurals-li"
+      ],
+      "summary": {
+        "title": "Plurals and -li",
+        "points": [
+          "-li for small or friendly things; its plural doesn't change.",
+          "Plurals: same form (Chind), umlaut (Hüüser, Bäum), -e (Fraue).",
+          "Müüsli (little mouse) ≠ Müesli (cereal)."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "At the bakery.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Three bread rolls' is?",
+              "options": [
+                "Drüü Brötli",
+                "Drüü Brötlis",
+                "Drüü Brötlene",
+                "Drei Brötchen"
+              ],
+              "answer": 0,
+              "explanation": "-li plural unchanged."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Three houses' is?",
+              "options": [
+                "Drüü Huus",
+                "Drüü Hüüser",
+                "Drüü Hüüsli",
+                "Drüü Huuser"
+              ],
+              "answer": 1,
+              "explanation": "Umlaut plural."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Breakfast confusion.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "You want cereal. Which word?",
+              "options": [
+                "Müüsli",
+                "Muusli",
+                "Müesli",
+                "Müsli with long ü"
+              ],
+              "answer": 2,
+              "explanation": "Gliding üe."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the plural of *Frau*?",
+              "options": [
+                "Frauli",
+                "Fraus",
+                "Fräu",
+                "Fraue"
+              ],
+              "answer": 3,
+              "explanation": "-e plural."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh4-b1",
+      "level": "block",
+      "covers": [
+        "zh4-l01-articles",
+        "zh4-l02-pronouns",
+        "zh4-l03-key-verbs",
+        "zh4-l04-modals"
+      ],
+      "summary": {
+        "title": "Words and verbs",
+        "points": [
+          "Articles de, d, s; dative em and de; possession em … sis.",
+          "Fused pronouns: hämmer, gömmer, simmer.",
+          "Key verbs sii, haa, gaa, cho, tue with one plural form.",
+          "Modals wott, cha, mues, darf; Ich hett gern."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Inviting a colleague.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Do we have time for a coffee?' is?",
+              "options": [
+                "Hämmer Ziit für en Kafi?",
+                "Händ mir Ziit für es Kafi?",
+                "Haben wir Zeit für einen Kaffee?",
+                "Häsch Ziit für Kafi gha?"
+              ],
+              "answer": 0,
+              "explanation": "hämmer; en Kafi."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'I want to go home' is?",
+              "options": [
+                "Ich will hei.",
+                "Ich wott hei.",
+                "Ich wänd hei gaa.",
+                "Ich mues hei gange."
+              ],
+              "answer": 1,
+              "explanation": "wott."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Ask a colleague whether she's coming too and whether she has time.",
+              "modelAnswer": "Chunsch au? Häsch Ziit?"
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Mix articles and verbs.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'The child has a bike' is?",
+              "options": [
+                "De Chind hät en Velo.",
+                "S Chind händ es Velo.",
+                "S Chind hät es Velo.",
+                "Es Chind isch es Velo."
+              ],
+              "answer": 2,
+              "explanation": "s Chind, hät, es Velo."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which form is used with formal *Si*?",
+              "options": [
+                "The du form: Si häsch",
+                "The er form: Si hät",
+                "A special form: Si haaed",
+                "The plural form: Si händ"
+              ],
+              "answer": 3,
+              "explanation": "Si takes the plural."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh4-b2",
+      "level": "block",
+      "covers": [
+        "zh4-l05-perfect",
+        "zh4-l06-verb-doubling",
+        "zh4-l07-wo-word-order",
+        "zh4-l08-plurals-li"
+      ],
+      "summary": {
+        "title": "Past, doubling, clauses and plurals",
+        "points": [
+          "Perfect only: bi gsii, ha gha, bi gange.",
+          "Verb doubling: go, cho, la before the activity.",
+          "wo for relatives; verb last after wil, dass, wänn.",
+          "-li and plurals; Müüsli vs Müesli."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Telling the story of a Saturday.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'We went shopping' is?",
+              "options": [
+                "Mir sind go poschte gsii.",
+                "Mir gingen poschte.",
+                "Mir händ go poschte gange.",
+                "Mir sind poschte gsii gange."
+              ],
+              "answer": 0,
+              "explanation": "gaa go … in the perfect: go poschte gsii."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'The shop where we were' is?",
+              "options": [
+                "De Lade, wo mer sind gsii",
+                "De Lade, wo mer gsii sind",
+                "De Lade, der mer gsii sind",
+                "Der Laden, wo wir waren"
+              ],
+              "answer": 1,
+              "explanation": "wo; participle before aux."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Tell a friend: yesterday I went swimming and then we ate well.",
+              "modelAnswer": "Geschter bin ich go schwümme gsii, und dänn hämmer guet ggässe."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Spot the errors.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which sentence is correct Zurich German?",
+              "options": [
+                "Ich war müed, wil ich vil gschafft ha.",
+                "Ich bi müed gsii, wil ich ha vil gschafft.",
+                "Ich bi müed gsii, wil ich vil gschafft ha.",
+                "Ich bi müed gsii, das ich vil gschafft ha."
+              ],
+              "answer": 2,
+              "explanation": "Perfect, verb last, wil."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Plural of *es Gschänkli*?",
+              "options": [
+                "zwei Gschänklis",
+                "zwei Gschänke",
+                "zwei Gschänkli-e",
+                "zwei Gschänkli"
+              ],
+              "answer": 3,
+              "explanation": "-li unchanged."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh4-m",
+      "level": "module",
+      "covers": [
+        "zh4-l01-articles",
+        "zh4-l02-pronouns",
+        "zh4-l03-key-verbs",
+        "zh4-l04-modals",
+        "zh4-l05-perfect",
+        "zh4-l06-verb-doubling",
+        "zh4-l07-wo-word-order",
+        "zh4-l08-plurals-li"
+      ],
+      "summary": {
+        "title": "The grammar core: the whole picture",
+        "points": [
+          "Two cases; possession with em … sis or vo.",
+          "Fused pronouns and one plural verb form.",
+          "Key verbs and modals: bi, ha, gaa, chume, wott, cha, mues.",
+          "Perfect only; verb doubling with go, cho, la.",
+          "wo for relatives; verb last in subordinate clauses.",
+          "-li and plural patterns."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A phone call with a neighbour.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Can you come to eat tomorrow?' is?",
+              "options": [
+                "Chasch morn cho ässe?",
+                "Chasch morn ässe cho?",
+                "Kannst du morgen essen kommen?",
+                "Chasch morn go ässe cho?"
+              ],
+              "answer": 0,
+              "explanation": "chöne + cho + ässe."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'I was at the doctor's' is?",
+              "options": [
+                "Ich war bim Dokter.",
+                "Ich bi bim Dokter gsii.",
+                "Ich ha bim Dokter gsii.",
+                "Ich bi bim Dokter gange gsii."
+              ],
+              "answer": 1,
+              "explanation": "Perfect with gsii."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'The woman who has the dog' is?",
+              "options": [
+                "D Frau, die de Hund hät",
+                "D Frau, wo hät de Hund",
+                "D Frau, wo de Hund hät",
+                "Die Frau, die den Hund hat"
+              ],
+              "answer": 2,
+              "explanation": "wo, verb last."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Why Zurich grammar is easier than it looks.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which High German difficulty disappears?",
+              "options": [
+                "Word order in subordinate clauses",
+                "Articles",
+                "Verb endings",
+                "The simple past and the genitive"
+              ],
+              "answer": 3,
+              "explanation": "Only the perfect; no genitive."
+            },
+            {
+              "type": "mcq",
+              "prompt": "How many plural verb forms are there?",
+              "options": [
+                "One for mir, ihr, si and Si",
+                "Three, as in High German",
+                "Two: one formal, one informal",
+                "None: verbs don't change"
+              ],
+              "answer": 0,
+              "explanation": "-ed or the irregular plural."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain verb doubling to a friend in one sentence, with an example.",
+              "modelAnswer": "After gaa, cho and laa you add go, cho or la before the activity, as in Ich gaa go poschte."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

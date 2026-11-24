@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 27
+    "version": 28
   },
   "categories": {
     "Training": {
@@ -452,6 +452,20 @@
       "estimatedMinutes": 50,
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m3-survival.reviews.json",
+      "reviewsVersion": 1,
+      "audio": true
+    },
+    {
+      "id": "zh-m4-grammar",
+      "title": "Züritüütsch 4: The grammar core",
+      "discipline": "Languages",
+      "description": "Articles and cases, pronouns, key and modal verbs, the perfect, verb doubling, wo and plurals",
+      "file": "modules/zh-m4-grammar.json",
+      "version": 1,
+      "lessonCount": 8,
+      "estimatedMinutes": 60,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/zh-m4-grammar.reviews.json",
       "reviewsVersion": 1,
       "audio": true
     }

@@ -1,5 +1,5 @@
 {
-  "version": 27,
+  "version": 28,
   "updated": "2026-11-04",
   "entries": [
     {
@@ -8405,6 +8405,161 @@
       ],
       "modules": [
         "zh-m3-survival"
+      ]
+    },
+    {
+      "id": "dative-possessive",
+      "term": "Dative possessive",
+      "aliases": [
+        "em Peter sis"
+      ],
+      "category": "swiss-german",
+      "short": "Zurich's replacement for the genitive: dative plus possessive (em Peter sis Velo) or vo plus dative (s Huus vo minere Mueter).",
+      "simpler": "Peter his bike = Peter's bike.",
+      "example": {
+        "moduleId": "zh-m4-grammar",
+        "text": "Lesson 4.1: em Peter sis Velo."
+      },
+      "notToConfuse": "Not the High German genitive (Peters), which Zurich doesn't use.",
+      "related": [
+        "clitic-pronouns"
+      ],
+      "modules": [
+        "zh-m4-grammar"
+      ]
+    },
+    {
+      "id": "clitic-pronouns",
+      "term": "Fused pronouns",
+      "aliases": [
+        "clitics",
+        "hämmer",
+        "gömmer"
+      ],
+      "category": "swiss-german",
+      "short": "Unstressed pronouns that fuse with the verb: händ mir → hämmer, gönd mir → gömmer, sind mir → simmer.",
+      "simpler": "Verb and pronoun in one word.",
+      "example": {
+        "moduleId": "zh-m4-grammar",
+        "text": "Lesson 4.2: Hämmer Ziit?"
+      },
+      "notToConfuse": "Not slang: everyone speaks this way.",
+      "related": [
+        "dative-possessive",
+        "initial-stress"
+      ],
+      "modules": [
+        "zh-m4-grammar"
+      ]
+    },
+    {
+      "id": "zurich-modals",
+      "term": "Zurich modal verbs",
+      "aliases": [
+        "wott",
+        "cha",
+        "mues",
+        "darf"
+      ],
+      "category": "swiss-german",
+      "short": "welle (wott, wänd), chöne (cha, chönd), müese (mues, müend), dörfe (darf, dörfed); polite wish: Ich hett gern.",
+      "simpler": "Want, can, must, may.",
+      "example": {
+        "moduleId": "zh-m4-grammar",
+        "text": "Lesson 4.4: Ich wott hei."
+      },
+      "notToConfuse": "Not High German will: Zurich says wott.",
+      "related": [
+        "verb-doubling"
+      ],
+      "modules": [
+        "zh-m4-grammar"
+      ]
+    },
+    {
+      "id": "no-preterite",
+      "term": "Perfect only (no simple past)",
+      "aliases": [
+        "no Präteritum"
+      ],
+      "category": "swiss-german",
+      "short": "Zurich German has no simple past; every past event uses haa or sii plus a participle: ich bi gsii, ich ha gha.",
+      "simpler": "Only one past tense.",
+      "example": {
+        "moduleId": "zh-m4-grammar",
+        "text": "Lesson 4.5: Ich bi z Bärn gsii."
+      },
+      "notToConfuse": "Not ich war: that form doesn't exist in dialect.",
+      "related": [
+        "verb-doubling"
+      ],
+      "modules": [
+        "zh-m4-grammar"
+      ]
+    },
+    {
+      "id": "verb-doubling",
+      "term": "Verb doubling",
+      "aliases": [
+        "go + infinitive",
+        "cho + infinitive"
+      ],
+      "category": "swiss-german",
+      "short": "After gaa, cho and laa, a short copy (go, cho, la) comes before the activity: Ich gaa go poschte.",
+      "simpler": "An extra go before the activity.",
+      "example": {
+        "moduleId": "zh-m4-grammar",
+        "text": "Lesson 4.6: Chunsch cho ässe?"
+      },
+      "notToConfuse": "Not a mistake or a stutter: it's required.",
+      "related": [
+        "zurich-modals",
+        "no-preterite"
+      ],
+      "modules": [
+        "zh-m4-grammar"
+      ]
+    },
+    {
+      "id": "relative-wo",
+      "term": "Relative wo",
+      "aliases": [
+        "wo-Satz"
+      ],
+      "category": "swiss-german",
+      "short": "Zurich uses wo for every relative clause instead of der, die, das or welche: de Maa, wo dete staat.",
+      "simpler": "Who, which, that: always wo.",
+      "example": {
+        "moduleId": "zh-m4-grammar",
+        "text": "Lesson 4.7: s Buech, wo-n-ich gläse ha."
+      },
+      "notToConfuse": "Not only 'where': wo also means who and which.",
+      "related": [
+        "linking-n"
+      ],
+      "modules": [
+        "zh-m4-grammar"
+      ]
+    },
+    {
+      "id": "diminutive-li",
+      "term": "Diminutive -li",
+      "aliases": [
+        "-li"
+      ],
+      "category": "swiss-german",
+      "short": "The Swiss ending for small or friendly things, often with umlaut (Hüüsli, Chätzli); the plural doesn't change.",
+      "simpler": "The small-and-cute ending.",
+      "example": {
+        "moduleId": "zh-m4-grammar",
+        "text": "Lesson 4.8: drüü Brötli."
+      },
+      "notToConfuse": "Not -chen: Zurich never uses it.",
+      "related": [
+        "relative-wo"
+      ],
+      "modules": [
+        "zh-m4-grammar"
       ]
     }
   ]

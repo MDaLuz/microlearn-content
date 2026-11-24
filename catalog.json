@@ -137,7 +137,12 @@
       "estimatedMinutes": 35,
       "accentColor": "#7C8792",
       "reviews": "reviews/gl-m0-orientation.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "generic-launch",
+        "title": "Generic launch",
+        "order": 0
+      }
     },
     {
       "id": "gl-m1-generic-basics",
@@ -150,7 +155,12 @@
       "estimatedMinutes": 60,
       "accentColor": "#7C8792",
       "reviews": "reviews/gl-m1-generic-basics.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "generic-launch",
+        "title": "Generic launch",
+        "order": 1
+      }
     },
     {
       "id": "gl-m2-regulatory",
@@ -163,7 +173,12 @@
       "estimatedMinutes": 75,
       "accentColor": "#7C8792",
       "reviews": "reviews/gl-m2-regulatory.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "generic-launch",
+        "title": "Generic launch",
+        "order": 2
+      }
     },
     {
       "id": "gl-m3-ip",
@@ -176,7 +191,12 @@
       "estimatedMinutes": 60,
       "accentColor": "#7C8792",
       "reviews": "reviews/gl-m3-ip.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "generic-launch",
+        "title": "Generic launch",
+        "order": 3
+      }
     },
     {
       "id": "gl-m4-quality",
@@ -189,7 +209,12 @@
       "estimatedMinutes": 60,
       "accentColor": "#7C8792",
       "reviews": "reviews/gl-m4-quality.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "generic-launch",
+        "title": "Generic launch",
+        "order": 4
+      }
     },
     {
       "id": "gl-m5-manufacturing",
@@ -202,7 +227,12 @@
       "estimatedMinutes": 55,
       "accentColor": "#7C8792",
       "reviews": "reviews/gl-m5-manufacturing.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "generic-launch",
+        "title": "Generic launch",
+        "order": 5
+      }
     },
     {
       "id": "gl-m6-india-import",
@@ -215,7 +245,12 @@
       "estimatedMinutes": 50,
       "accentColor": "#7C8792",
       "reviews": "reviews/gl-m6-india-import.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "generic-launch",
+        "title": "Generic launch",
+        "order": 6
+      }
     },
     {
       "id": "gl-m7-finished-product",
@@ -228,7 +263,12 @@
       "estimatedMinutes": 40,
       "accentColor": "#7C8792",
       "reviews": "reviews/gl-m7-finished-product.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "generic-launch",
+        "title": "Generic launch",
+        "order": 7
+      }
     },
     {
       "id": "gl-m8-artworks",
@@ -241,7 +281,12 @@
       "estimatedMinutes": 55,
       "accentColor": "#7C8792",
       "reviews": "reviews/gl-m8-artworks.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "generic-launch",
+        "title": "Generic launch",
+        "order": 8
+      }
     },
     {
       "id": "gl-m9-launch-chronology",
@@ -254,7 +299,12 @@
       "estimatedMinutes": 60,
       "accentColor": "#7C8792",
       "reviews": "reviews/gl-m9-launch-chronology.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "generic-launch",
+        "title": "Generic launch",
+        "order": 9
+      }
     },
     {
       "id": "tr-m0-foundations",
@@ -267,7 +317,12 @@
       "estimatedMinutes": 40,
       "accentColor": "#6B7280",
       "reviews": "reviews/tr-m0-foundations.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "training",
+        "title": "Strength training",
+        "order": 0
+      }
     },
     {
       "id": "tr-m1-goals",
@@ -280,7 +335,12 @@
       "estimatedMinutes": 50,
       "accentColor": "#6B7280",
       "reviews": "reviews/tr-m1-goals.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "training",
+        "title": "Strength training",
+        "order": 1
+      }
     },
     {
       "id": "tr-m2-patterns",
@@ -293,7 +353,12 @@
       "estimatedMinutes": 50,
       "accentColor": "#6B7280",
       "reviews": "reviews/tr-m2-patterns.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "training",
+        "title": "Strength training",
+        "order": 2
+      }
     },
     {
       "id": "tr-m3-equipment",
@@ -306,7 +371,12 @@
       "estimatedMinutes": 45,
       "accentColor": "#6B7280",
       "reviews": "reviews/tr-m3-equipment.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "training",
+        "title": "Strength training",
+        "order": 3
+      }
     },
     {
       "id": "tr-m4-exercises",
@@ -319,7 +389,12 @@
       "estimatedMinutes": 60,
       "accentColor": "#6B7280",
       "reviews": "reviews/tr-m4-exercises.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "training",
+        "title": "Strength training",
+        "order": 4
+      }
     },
     {
       "id": "tr-m5-programme",
@@ -332,7 +407,12 @@
       "estimatedMinutes": 60,
       "accentColor": "#6B7280",
       "reviews": "reviews/tr-m5-programme.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "training",
+        "title": "Strength training",
+        "order": 5
+      }
     },
     {
       "id": "tr-m6-progression",
@@ -345,7 +425,12 @@
       "estimatedMinutes": 50,
       "accentColor": "#6B7280",
       "reviews": "reviews/tr-m6-progression.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "training",
+        "title": "Strength training",
+        "order": 6
+      }
     },
     {
       "id": "tr-m7-cardio",
@@ -358,7 +443,12 @@
       "estimatedMinutes": 40,
       "accentColor": "#6B7280",
       "reviews": "reviews/tr-m7-cardio.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "training",
+        "title": "Strength training",
+        "order": 7
+      }
     },
     {
       "id": "tr-m8-mobility",
@@ -371,7 +461,12 @@
       "estimatedMinutes": 50,
       "accentColor": "#6B7280",
       "reviews": "reviews/tr-m8-mobility.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "training",
+        "title": "Strength training",
+        "order": 8
+      }
     },
     {
       "id": "tr-m9-nutrition",
@@ -384,7 +479,12 @@
       "estimatedMinutes": 55,
       "accentColor": "#6B7280",
       "reviews": "reviews/tr-m9-nutrition.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "training",
+        "title": "Strength training",
+        "order": 9
+      }
     },
     {
       "id": "tr-m10-capstone",
@@ -397,7 +497,12 @@
       "estimatedMinutes": 35,
       "accentColor": "#6B7280",
       "reviews": "reviews/tr-m10-capstone.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "course": {
+        "id": "training",
+        "title": "Strength training",
+        "order": 10
+      }
     },
     {
       "id": "zh-m0-how-it-works",
@@ -411,7 +516,12 @@
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m0-how-it-works.reviews.json",
       "reviewsVersion": 1,
-      "audio": true
+      "audio": true,
+      "course": {
+        "id": "zuritutsch",
+        "title": "Züritüütsch",
+        "order": 0
+      }
     },
     {
       "id": "zh-m1-vowels",
@@ -425,7 +535,12 @@
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m1-vowels.reviews.json",
       "reviewsVersion": 2,
-      "audio": true
+      "audio": true,
+      "course": {
+        "id": "zuritutsch",
+        "title": "Züritüütsch",
+        "order": 1
+      }
     },
     {
       "id": "zh-m2-consonants",
@@ -439,7 +554,12 @@
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m2-consonants.reviews.json",
       "reviewsVersion": 1,
-      "audio": true
+      "audio": true,
+      "course": {
+        "id": "zuritutsch",
+        "title": "Züritüütsch",
+        "order": 2
+      }
     },
     {
       "id": "zh-m3-survival",
@@ -453,7 +573,12 @@
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m3-survival.reviews.json",
       "reviewsVersion": 1,
-      "audio": true
+      "audio": true,
+      "course": {
+        "id": "zuritutsch",
+        "title": "Züritüütsch",
+        "order": 3
+      }
     },
     {
       "id": "zh-m4-grammar",
@@ -467,7 +592,12 @@
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m4-grammar.reviews.json",
       "reviewsVersion": 1,
-      "audio": true
+      "audio": true,
+      "course": {
+        "id": "zuritutsch",
+        "title": "Züritüütsch",
+        "order": 4
+      }
     },
     {
       "id": "zh-m5-everyday",
@@ -481,7 +611,12 @@
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m5-everyday.reviews.json",
       "reviewsVersion": 1,
-      "audio": true
+      "audio": true,
+      "course": {
+        "id": "zuritutsch",
+        "title": "Züritüütsch",
+        "order": 5
+      }
     },
     {
       "id": "zh-m6-family",
@@ -495,7 +630,12 @@
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m6-family.reviews.json",
       "reviewsVersion": 1,
-      "audio": true
+      "audio": true,
+      "course": {
+        "id": "zuritutsch",
+        "title": "Züritüütsch",
+        "order": 6
+      }
     },
     {
       "id": "zh-m7-work",
@@ -509,7 +649,12 @@
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m7-work.reviews.json",
       "reviewsVersion": 1,
-      "audio": true
+      "audio": true,
+      "course": {
+        "id": "zuritutsch",
+        "title": "Züritüütsch",
+        "order": 7
+      }
     },
     {
       "id": "zh-m8-real-speech",
@@ -523,7 +668,12 @@
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m8-real-speech.reviews.json",
       "reviewsVersion": 1,
-      "audio": true
+      "audio": true,
+      "course": {
+        "id": "zuritutsch",
+        "title": "Züritüütsch",
+        "order": 8
+      }
     },
     {
       "id": "zh-m9-capstone",
@@ -537,7 +687,12 @@
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m9-capstone.reviews.json",
       "reviewsVersion": 1,
-      "audio": true
+      "audio": true,
+      "course": {
+        "id": "zuritutsch",
+        "title": "Züritüütsch",
+        "order": 9
+      }
     }
   ]
 }

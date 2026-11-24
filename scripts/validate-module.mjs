@@ -31,6 +31,9 @@ const catalog = JSON.parse(readFileSync(join(root, 'catalog.json'), 'utf8'));
 
 // ---- Module and catalog ----
 
+// Pictos the app bundles (catalog `icon` values).
+const ICONS = new Set(['book', 'capsule', 'dumbbell', 'fish', 'gantt', 'glucose', 'headphones', 'heart', 'languages', 'lipid', 'microphone', 'plant', 'rocket', 'scales', 'shield', 'zuritutsch']);
+
 for (const f of ['id', 'title', 'discipline', 'version', 'lessons']) {
   if (mod[f] === undefined) err('module', `missing "${f}"`);
 }
@@ -44,6 +47,13 @@ if (!entry) {
   if (entry.version !== mod.version) err('catalog', `version ${entry.version} ≠ module ${mod.version}`);
   if (entry.discipline !== mod.discipline) err('catalog', `discipline "${entry.discipline}" ≠ module "${mod.discipline}"`);
   if (entry.lessonCount !== mod.lessons.length) err('catalog', `lessonCount ${entry.lessonCount} ≠ ${mod.lessons.length} lessons`);
+  // Optional picto: on standalone entries and categories (courses: below).
+  if (entry.icon !== undefined) {
+    if (!ICONS.has(entry.icon)) err('catalog', `icon "${entry.icon}" isn't a known picto`);
+    if (entry.course) warn('catalog', 'module in a course has its own icon; it inherits the course icon');
+  }
+  const catIcon = catalog.categories?.[entry.discipline]?.icon;
+  if (catIcon !== undefined && !ICONS.has(catIcon)) err('catalog', `category "${entry.discipline}" icon "${catIcon}" isn't a known picto`);
   // Optional course grouping: { id, title, order }, order unique within the course.
   if (entry.course !== undefined) {
     const c = entry.course;
@@ -55,6 +65,9 @@ if (!entry) {
       const peers = catalog.modules.filter((m) => m.course?.id === c.id);
       const clash = peers.filter((m) => m.id !== entry.id && m.course.order === c.order).map((m) => m.id);
       if (clash.length) err('catalog', `course "${c.id}" order ${c.order} also used by ${clash.join(', ')}`);
+      if (c.icon !== undefined && !ICONS.has(c.icon)) err('catalog', `course.icon "${c.icon}" isn't a known picto`);
+      const icons = new Set(peers.map((m) => m.course.icon));
+      if (icons.size > 1) err('catalog', `course "${c.id}" has different icons: ${[...icons].join(' / ')}`);
       const titles = new Set(peers.map((m) => m.course.title));
       if (titles.size > 1) err('catalog', `course "${c.id}" has different titles: ${[...titles].join(' / ')}`);
     }

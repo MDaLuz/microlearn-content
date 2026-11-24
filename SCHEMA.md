@@ -87,6 +87,10 @@ The app fetches `catalog.json` on every launch (or from cache when offline) to k
 
 `catalog.json` may also have an optional top-level `categories` object, keyed by `discipline`: `{ "Training": { "disclaimer": "…" } }`. The app shows `disclaimer` on the first block of a module's first lesson and on the module screen.
 
+A category may also carry `icon`, its picto (see **Icons** below).
+
+**Icons.** `icon` is optional and must be one of: `book`, `capsule`, `dumbbell`, `fish`, `gantt`, `glucose`, `headphones`, `heart`, `languages`, `lipid`, `microphone`, `plant`, `rocket`, `scales`, `shield`, `zuritutsch`. It goes on a category, on a `course` object (every module of the course uses the same one), or on a standalone module entry; modules in a course inherit the course icon. The app falls back to `book`.
+
 ### Module entry fields
 
 | Field | Type | Required | Notes |
@@ -102,7 +106,8 @@ The app fetches `catalog.json` on every launch (or from cache when offline) to k
 | `accentColor` | string | yes | Hex color string (`#RRGGBB`). Used as the module accent throughout the UI. |
 | `reviews` | string | no | Path to the module's synthesis-review file, `reviews/<id>.reviews.json` (format: `schemas/reviews.schema.json`; checked by `npm run validate:reviews`). Modules without it simply have no reviews yet. |
 | `reviewsVersion` | integer | with `reviews` | Equals the review file's `version`. Bump it whenever the review file changes; the app then sends edited units back to box 1. |
-| `course` | object | no | Groups the modules of a multi-module course: `{ "id": "zuritutsch", "title": "Züritüütsch", "order": 0 }`. Every module of a course uses the same `id` and `title`; `order` (integer ≥ 0) is unique within the course and sets the module order. The app shows a course as one row in its category. Standalone modules have no `course`. |
+| `course` | object | no | Groups the modules of a multi-module course: `{ "id": "zuritutsch", "title": "Züritüütsch", "order": 0, "icon": "zuritutsch" }` (`icon` optional). Every module of a course uses the same `id` and `title`; `order` (integer ≥ 0) is unique within the course and sets the module order. The app shows a course as one row in its category. Standalone modules have no `course`. |
+| `icon` | string | no | Standalone modules only: the module's picto (see **Icons**). |
 
 ---
 

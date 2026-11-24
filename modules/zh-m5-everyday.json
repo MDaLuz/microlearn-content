@@ -1,0 +1,769 @@
+{
+  "schemaVersion": 6,
+  "id": "zh-m5-everyday",
+  "title": "Züritüütsch 5: Everyday life",
+  "discipline": "Languages",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "zh5-l01-shopping",
+      "title": "Shopping: poschte at the supermarket",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Poschte\n\nGoing shopping is **poschte**, and the shop is *de Lade*. At the supermarket checkout you'll hear the same few questions every time: a bag, a loyalty card, paying by card. Prices on special offer are *in Aktion*."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m5/shopping.svg",
+          "alt": "Checkout dialogue: Bruuched Si es Säckli? Nei merci, ich ha eis. Händ Si e Chundechart? Nei. Mit Charte, bitte. Plus: Wo find ich d Milch? Isch das in Aktion?",
+          "caption": "At the checkout",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.103
+        },
+        {
+          "type": "text",
+          "markdown": "## Useful words (practice)\n\n- *es Säckli*: a (plastic or paper) bag\n- *in Aktion*: on special offer\n- *Härdöpfel*: potatoes · *Rüebli*: carrots · *Anke*: butter\n- *d Kasse*: the checkout; *zale*: to pay"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Bruuched Si es Säckli?\n\n- Say it: BRUU-ched si es SÄCK-li\n- IPA: [ˈbruːxəd̥ si əs ˈsækli]\n- Hochdeutsch: Brauchen Sie eine Tüte?\n- English: Do you need a bag?\n- Note: *bruuche*: brauchen, with the old long *uu*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Nei, merci, ich ha eis.\n\n- Say it: NEI, MER-si, ich ha EIS\n- IPA: [nei̯ ˈmærsi ɪx ha ei̯s]\n- Hochdeutsch: Nein danke, ich habe eine.\n- English: No thanks, I've got one."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wo find ich d Milch?\n\n- Say it: WO FIND ich d MILCH\n- IPA: [ʋo fɪnd̥ ɪx d̥ mɪlx]\n- Hochdeutsch: Wo finde ich die Milch?\n- English: Where can I find the milk?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Isch das in Aktion?\n\n- Say it: isch das in ak-TSION\n- IPA: [ɪʃ d̥as ɪn akˈtsioːn]\n- Hochdeutsch: Ist das im Angebot?\n- English: Is this on offer?\n- Note: *Aktion* = special offer."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** ask in dialect at the checkout and the counter; the questions repeat, so you'll understand them within a week."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh5-l01-shopping-fc1",
+              "front": "poschte",
+              "back": "To go shopping; de Lade = the shop."
+            },
+            {
+              "id": "zh5-l01-shopping-fc2",
+              "front": "in Aktion",
+              "back": "On special offer (im Angebot)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh5-l01-shopping-q1",
+              "stem": "The cashier asks *Bruuched Si es Säckli?* What does she want to know?",
+              "options": [
+                "If you have cash",
+                "If you need a bag",
+                "If you want a receipt",
+                "If you have a loyalty card"
+              ],
+              "correctIndex": 1,
+              "explanation": "Säckli = bag."
+            },
+            {
+              "id": "zh5-l01-shopping-q2",
+              "stem": "What are *Härdöpfel*?",
+              "options": [
+                "Apples",
+                "Potatoes",
+                "Carrots",
+                "Pears"
+              ],
+              "correctIndex": 1,
+              "explanation": "Literally 'earth apples'."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh5-l02-bakery",
+      "title": "Bakery and café",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Swiss bakery words\n\nBakery words are where High German fails you most. A croissant is a **Gipfeli**, a soft milk roll a *Weggli*, a crusty roll a *Bürli*, and the Sunday plaited loaf is *Zopf*. The afternoon snack is the *Zvieri* (at four), the morning one the *Znüni* (at nine)."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m5/bakery.svg",
+          "alt": "Bakery counter words with pictures described in labels: Gipfeli (croissant), Weggli (soft roll), Bürli (crusty roll), Zopf (plaited loaf), Kafi Creme, Schale (coffee with milk).",
+          "caption": "Bakery and café words",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.929
+        },
+        {
+          "type": "text",
+          "markdown": "## Coffee (practice)\n\n- *en Kafi Creme*: coffee with a little cream, the standard order\n- *e Schale*: in Zurich, coffee with milk (a café au lait)\n- *en Espresso*, *en Cappuccino*: as everywhere\n\nThe question *Zum Mitnäh?* means 'to take away?'."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Zwei Gipfeli, bitte.\n\n- Say it: TSWEI GIP-fe-li, BIT-te\n- IPA: [tsʋei̯ ˈɡ̊ɪpfəli ˈb̥ɪtːə]\n- Hochdeutsch: Zwei Croissants, bitte.\n- English: Two croissants, please."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Es Bürli und es Weggli\n\n- Say it: es BÜR-li und es WEG-gli\n- IPA: [əs ˈbʏrli ʊnd̥ əs ˈʋeɡ̊li]\n- Hochdeutsch: Ein Bürli und ein Weggli\n- English: A crusty roll and a soft roll"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: E Schale, bitte.\n\n- Say it: e SCHA-le, BIT-te\n- IPA: [ə ˈʃalə ˈb̥ɪtːə]\n- Hochdeutsch: Einen Milchkaffee, bitte.\n- English: A coffee with milk, please.\n- Note: A Zurich café word."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Zum Mitnäh?\n\n- Say it: tsum MIT-näh\n- IPA: [tsʊm ˈmɪtnæː]\n- Hochdeutsch: Zum Mitnehmen?\n- English: To take away?"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** learn the bakery words as new vocabulary: Gipfeli, Weggli, Bürli, Zopf. They don't come from High German."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh5-l02-bakery-fc1",
+              "front": "Gipfeli",
+              "back": "Croissant. Zwei Gipfeli, bitte."
+            },
+            {
+              "id": "zh5-l02-bakery-fc2",
+              "front": "Znüni and Zvieri",
+              "back": "Morning snack (around nine) and afternoon snack (around four)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh5-l02-bakery-q1",
+              "stem": "What's a *Gipfeli*?",
+              "options": [
+                "A bread roll",
+                "A croissant",
+                "A cake",
+                "A sandwich"
+              ],
+              "correctIndex": 1,
+              "explanation": "Swiss for croissant."
+            },
+            {
+              "id": "zh5-l02-bakery-q2",
+              "stem": "When do you eat a *Zvieri*?",
+              "options": [
+                "At breakfast",
+                "Mid-afternoon",
+                "Late at night",
+                "At lunch"
+              ],
+              "correctIndex": 1,
+              "explanation": "z vieri = at four."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh5-l03-restaurant",
+      "title": "Restaurant: ordering, En Guete, paying",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Lunch culture\n\nMany restaurants offer a weekday **Menü** (set lunch). Before eating, everyone says *En Guete!*, and you wait until it's been said. With drinks, it's *Proscht!* or *Zum Wohl!*, with eye contact."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m5/restaurant.svg",
+          "alt": "Restaurant dialogue: Mir hetted gern en Tisch für zwei. Was isch hüt s Menü? En Guete! Zale, bitte. Zäme oder separat? Mir zaled zäme.",
+          "caption": "At the restaurant",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.822
+        },
+        {
+          "type": "text",
+          "markdown": "## Paying (practice)\n\nYou ask for the bill at the table: *Zale, bitte!* The waiter asks *Zäme oder separat?* (together or separately). Tipping is small: rounding up or about 5–10% for good service."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mir hetted gern en Tisch für zwei.\n\n- Say it: mir HET-ted GÄRN en TISCH für TSWEI\n- IPA: [mir ˈhetːəd̥ ɡ̊ærn ən tɪʃ fyr tsʋei̯]\n- Hochdeutsch: Wir hätten gern einen Tisch für zwei.\n- English: We'd like a table for two.\n- Note: Plural of *ich hett gern*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Was isch hüt s Menü?\n\n- Say it: WAS isch HÜT s me-NÜ\n- IPA: [ʋas ɪʃ hʏt s məˈny]\n- Hochdeutsch: Was ist heute das Tagesmenü?\n- English: What's today's set lunch?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: En Guete!\n\n- Say it: en GU-e-te\n- IPA: [ən ˈɡ̊uə̯tə]\n- Hochdeutsch: Guten Appetit!\n- English: Enjoy your meal!"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mir zaled zäme.\n\n- Say it: mir TSA-led TSÄ-me\n- IPA: [mir ˈtsaləd̥ ˈtsæmə]\n- Hochdeutsch: Wir zahlen zusammen.\n- English: We'll pay together."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** say En Guete before every shared meal, ask for the bill with Zale, bitte, and answer Zäme oder separat? with zäme or separat."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh5-l03-restaurant-fc1",
+              "front": "En Guete",
+              "back": "Enjoy your meal: said before eating, and you wait for it."
+            },
+            {
+              "id": "zh5-l03-restaurant-fc2",
+              "front": "Zäme oder separat?",
+              "back": "Together or separately? The waiter's question when you pay."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh5-l03-restaurant-q1",
+              "stem": "What do you say before starting to eat with colleagues?",
+              "options": [
+                "Proscht!",
+                "En Guete!",
+                "Zale, bitte!",
+                "Grüezi!"
+              ],
+              "correctIndex": 1,
+              "explanation": "En Guete."
+            },
+            {
+              "id": "zh5-l03-restaurant-q2",
+              "stem": "What's a lunchtime *Menü*?",
+              "options": [
+                "The menu card",
+                "The set lunch of the day",
+                "The dessert",
+                "The bill"
+              ],
+              "correctIndex": 1,
+              "explanation": "The daily set lunch."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh5-l04-gemeinde-transport",
+      "title": "Gemeinde, post and public transport",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## At the Gemeinde\n\nWhen you move, you register at the **Gemeinde** (municipality): *sich aamälde*. Counter staff usually speak dialect with locals and High German with newcomers; you can ask for dialect."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m5/transport.svg",
+          "alt": "Two scenes: at the Gemeinde counter, Ich möcht mich aamälde; at the station, Einisch Züri retour, mit Halbtax; announcements De Zug hät Verspötig; Wo mues ich umstiige?",
+          "caption": "Gemeinde and station",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## On the train (practice)\n\n- *es Billett*: a ticket · *retour*: return · *s Halbtax*: the half-fare card\n- *Verspötig*: delay · *umstiige*: to change trains\n- *s Gleis*: the platform\n\nStation announcements are usually in High German; staff and passengers speak dialect."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich möcht mich aamälde.\n\n- Say it: ich MÖCHT mich AA-mäl-de\n- IPA: [ɪx mœxt mɪx ˈaːmæld̥ə]\n- Hochdeutsch: Ich möchte mich anmelden.\n- English: I'd like to register.\n- Note: *aa-* = an-, with a long aa."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Einisch Züri retour, mit Halbtax.\n\n- Say it: EI-nisch TSÜ-ri re-TUUR, mit HALB-tax\n- IPA: [ˈei̯nɪʃ ˈtsyri rəˈtuːr mɪt ˈhalb̥taks]\n- Hochdeutsch: Einmal Zürich retour, mit Halbtax.\n- English: One return to Zurich, half fare."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: De Zug hät Verspötig.\n\n- Say it: de TSUG hät fer-SCHPÖ-tig\n- IPA: [d̥ə tsuɡ̊ hæt fərˈʃpøːtɪɡ̊]\n- Hochdeutsch: Der Zug hat Verspätung.\n- English: The train is delayed.\n- Note: *-ung* → *-ig*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wo mues ich umstiige?\n\n- Say it: WO MUES ich UM-schtii-ge\n- IPA: [ʋo muə̯s ɪx ˈʊmʃtiːɡ̊ə]\n- Hochdeutsch: Wo muss ich umsteigen?\n- English: Where do I have to change?"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** use aamälde at the Gemeinde, and Billett, retour, Halbtax and umstiige on the train; listen for Verspötig."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh5-l04-gemeinde-transport-fc1",
+              "front": "Gemeinde",
+              "back": "The municipality; you register there with sich aamälde."
+            },
+            {
+              "id": "zh5-l04-gemeinde-transport-fc2",
+              "front": "Halbtax",
+              "back": "The half-fare travel card; Einisch Züri retour, mit Halbtax."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh5-l04-gemeinde-transport-q1",
+              "stem": "What does *De Zug hät Verspötig* mean?",
+              "options": [
+                "The train is full",
+                "The train is delayed",
+                "The train is cancelled",
+                "The train is early"
+              ],
+              "correctIndex": 1,
+              "explanation": "Verspätung → Verspötig."
+            },
+            {
+              "id": "zh5-l04-gemeinde-transport-q2",
+              "stem": "What does *umstiige* mean?",
+              "options": [
+                "To get on",
+                "To change trains",
+                "To get off",
+                "To buy a ticket"
+              ],
+              "correctIndex": 1,
+              "explanation": "umsteigen."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh5-l05-doctor",
+      "title": "Doctor, pharmacy and appointments",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Making an appointment\n\nYou make an appointment (**en Termin abmache**) by phone or online. Practice staff will ask what it's about and offer a time, using the clock you learned in Module 3. For emergencies call 144."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m5/doctor.svg",
+          "alt": "Phone call with a practice: Ich möcht en Termin abmache. Was händ Si für Beschwerde? Ich ha Fieber und Halsweh. Am Dunschtig am halbi zääni? Wo tuet s weh?",
+          "caption": "Calling the practice",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.103
+        },
+        {
+          "type": "text",
+          "markdown": "## Body and symptoms (practice)\n\n- *Halsweh*: sore throat · *Chopfweh*: headache · *Buuchweh*: stomach ache\n- *Fieber*: fever · *erchältet*: having a cold\n- *s Rezept*: prescription · *d Apothek*: pharmacy\n\nYou can always switch to High German for medical details; precision matters more than dialect here."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich möcht en Termin abmache.\n\n- Say it: ich MÖCHT en ter-MIN AB-ma-che\n- IPA: [ɪx mœxt ən tərˈmiːn ˈab̥maxə]\n- Hochdeutsch: Ich möchte einen Termin vereinbaren.\n- English: I'd like to make an appointment.\n- Note: *abmache* = vereinbaren."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich ha Fieber und Halsweh.\n\n- Say it: ich ha FIE-ber und HALS-weh\n- IPA: [ɪx ha ˈfiə̯b̥ər ʊnd̥ ˈhalsʋeː]\n- Hochdeutsch: Ich habe Fieber und Halsschmerzen.\n- English: I have a fever and a sore throat."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wo tuet s weh?\n\n- Say it: WO TU-et s WEH\n- IPA: [ʋo tuə̯t s ʋeː]\n- Hochdeutsch: Wo tut es weh?\n- English: Where does it hurt?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich bruuch es Rezept.\n\n- Say it: ich BRUUCH es re-ZEPT\n- IPA: [ɪx bruːx əs rəˈtsept]\n- Hochdeutsch: Ich brauche ein Rezept.\n- English: I need a prescription."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** book appointments in dialect, describe symptoms with -weh words, and switch to High German whenever medical precision matters."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh5-l05-doctor-fc1",
+              "front": "en Termin abmache",
+              "back": "To make an appointment (vereinbaren)."
+            },
+            {
+              "id": "zh5-l05-doctor-fc2",
+              "front": "-weh",
+              "back": "Pain: Halsweh (throat), Chopfweh (head), Buuchweh (stomach)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh5-l05-doctor-q1",
+              "stem": "What's *Buuchweh*?",
+              "options": [
+                "Back pain",
+                "Stomach ache",
+                "Headache",
+                "Toothache"
+              ],
+              "correctIndex": 1,
+              "explanation": "Bauch → Buuch."
+            },
+            {
+              "id": "zh5-l05-doctor-q2",
+              "stem": "Which number do you call in a medical emergency?",
+              "options": [
+                "117",
+                "144",
+                "118",
+                "1414"
+              ],
+              "correctIndex": 1,
+              "explanation": "144 = ambulance."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — Swiss emergency numbers: 144 ambulance, 117 police, 118 fire.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh5-l06-neighbours",
+      "title": "Neighbours, the laundry room and house rules",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Living close together\n\nMany apartment buildings share a **Wöschchuchi** (laundry room) with a rota, and a *Hausornig* (house rules) about quiet hours and recycling. Small talk in the stairwell is usually in dialect, often with *Si* until someone offers *du*."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m5/neighbours.svg",
+          "alt": "Stairwell exchanges: Wänn bin ich i de Wöschchuchi dra? Ghört das Velo Ihne? Am Samschtig gits chli Lärm, mir händ es Fäscht. Schöne Sunntig!",
+          "caption": "In the stairwell",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Useful words (practice)\n\n- *dra sii*: to have your turn · *ghöre*: to belong to\n- *Lärm*: noise · *Ruhe*: quiet · *Abfall* or *Ghüder*: rubbish\n- *gits*: there is (*es git*)\n\nWarning neighbours before a party is a polite habit."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wänn bin ich i de Wöschchuchi dra?\n\n- Say it: WÄNN bin ich i de WÖSCH-chu-chi DRA\n- IPA: [ʋæn b̥ɪn ɪx i d̥ə ˈʋœʃxʊxi d̥ra]\n- Hochdeutsch: Wann bin ich in der Waschküche dran?\n- English: When's my turn in the laundry room?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ghört das Velo Ihne?\n\n- Say it: GHÖRT das VE-lo II-ne\n- IPA: [ɡ̊hørt d̥as ˈʋelo ˈiːnə]\n- Hochdeutsch: Gehört das Fahrrad Ihnen?\n- English: Is this your bike?\n- Note: *Ihne* = formal 'to you'."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Am Samschtig gits chli Lärm, mir händ es Fäscht.\n\n- Say it: am SAM-schtig GITS chli LÄRM, mir händ es FÄSCHT\n- IPA: [am ˈsamʃtɪɡ̊ ɡ̊ɪts xli lærm mir hænd̥ əs fæʃt]\n- Hochdeutsch: Am Samstag gibt es etwas Lärm, wir haben ein Fest.\n- English: There'll be a bit of noise on Saturday, we're having a party."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Schöne Sunntig!\n\n- Say it: SCHÖ-ne SUNN-tig\n- IPA: [ˈʃøːnə ˈsʊnːtɪɡ̊]\n- Hochdeutsch: Schönen Sonntag!\n- English: Have a nice Sunday!"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** use the stairwell for daily dialect practice: greetings, the laundry rota, a warning before a party."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh5-l06-neighbours-fc1",
+              "front": "Wöschchuchi",
+              "back": "The shared laundry room (Waschküche), usually with a rota."
+            },
+            {
+              "id": "zh5-l06-neighbours-fc2",
+              "front": "dra sii",
+              "back": "To have your turn: Wänn bin ich dra?"
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh5-l06-neighbours-q1",
+              "stem": "What's a *Wöschchuchi*?",
+              "options": [
+                "A small kitchen",
+                "The laundry room",
+                "A wash basin",
+                "A cleaning lady"
+              ],
+              "correctIndex": 1,
+              "explanation": "Waschküche."
+            },
+            {
+              "id": "zh5-l06-neighbours-q2",
+              "stem": "What does *Ghört das Velo Ihne?* ask?",
+              "options": [
+                "Did you hear the bike?",
+                "Is this your bike?",
+                "Can I borrow your bike?",
+                "Where's your bike?"
+              ],
+              "correctIndex": 1,
+              "explanation": "ghöre = gehören."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh5-l07-weather",
+      "title": "Weather and small talk",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The safest topic\n\nWeather is the easiest small talk, and the **SRF Meteo** forecast is your best listening practice (Module 0). Zurich-specific weather words include *Föhn*, the warm, dry wind from the Alps, and *Näbel*, the winter fog over the lowlands."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m5/weather.svg",
+          "alt": "Weather words with symbols: Es schiint d Sunne (sun), Es rägnet (rain), Es schneit (snow), Es hät Näbel (fog), Föhn (warm Alpine wind), Morn sölls rägne (forecast).",
+          "caption": "Weather words",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 3.28
+        },
+        {
+          "type": "text",
+          "markdown": "## Talking about it (practice)\n\n- *Es hät Näbel*: it's foggy (*es hät* = there is)\n- *Morn sölls …*: tomorrow it's supposed to …\n- *Was für es Wätter!*: what weather!\n- *hüt isch es schwül*: it's muggy today"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Es schiint d Sunne.\n\n- Say it: es SCHIINT d SUN-ne\n- IPA: [əs ʃiːnt d̥ ˈsʊnːə]\n- Hochdeutsch: Die Sonne scheint.\n- English: The sun is shining.\n- Note: scheinen → schiine."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Morn sölls rägne.\n\n- Say it: MORN SÖLLS RÄG-ne\n- IPA: [mɔrn sœls ˈræɡ̊nə]\n- Hochdeutsch: Morgen soll es regnen.\n- English: It's supposed to rain tomorrow."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Es hät Näbel.\n\n- Say it: es HÄT NÄ-bel\n- IPA: [əs hæt ˈnæb̥əl]\n- Hochdeutsch: Es ist neblig.\n- English: It's foggy."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mir händ Föhn.\n\n- Say it: mir HÄND FÖHN\n- IPA: [mir hænd̥ føːn]\n- Hochdeutsch: Wir haben Föhn.\n- English: There's a föhn wind."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** start small talk with the weather: Es schiint d Sunne, Es hät Näbel, Morn sölls rägne. Watch SRF Meteo for the words."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh5-l07-weather-fc1",
+              "front": "Föhn",
+              "back": "A warm, dry wind from the Alps; clear views and headaches."
+            },
+            {
+              "id": "zh5-l07-weather-fc2",
+              "front": "Es hät …",
+              "back": "There is … (es gibt): Es hät Näbel = it's foggy."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh5-l07-weather-q1",
+              "stem": "What does *Es hät Näbel* mean?",
+              "options": [
+                "It's raining",
+                "It's foggy",
+                "It's windy",
+                "It's snowing"
+              ],
+              "correctIndex": 1,
+              "explanation": "Nebel → Näbel."
+            },
+            {
+              "id": "zh5-l07-weather-q2",
+              "stem": "What's the *Föhn*?",
+              "options": [
+                "A hair dryer only",
+                "A warm, dry Alpine wind",
+                "A cold north wind",
+                "A thunderstorm"
+              ],
+              "correctIndex": 1,
+              "explanation": "Also a hair dryer, but in weather it's the wind."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh5-l08-sport-club",
+      "title": "At the sport club",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Clubs are dialect zones\n\nSport clubs (**Verein**) are one of the best places to pick up dialect: everyone says *du* from the start, and the after-match drink is part of the deal."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m5/sport.svg",
+          "alt": "Club scenes: Wänn isch s Training? Guet gspilt! Mir händ gwunne / verlore. Gömmer no öppis go trinke?",
+          "caption": "At the club",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Useful words (practice)\n\n- *s Training*, *de Match* (match), *gwinne / gwunne*: win / won\n- *verlüüre / verlore*: lose / lost\n- *Guet gspilt!*: well played\n- *öppis go trinke*: go for a drink (verb doubling again)"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wänn isch s Training?\n\n- Say it: WÄNN isch s TREI-ning\n- IPA: [ʋæn ɪʃ s ˈtrei̯nɪŋ]\n- Hochdeutsch: Wann ist das Training?\n- English: When's training?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Guet gspilt!\n\n- Say it: GU-et GSCHPILT\n- IPA: [ɡ̊uə̯t ɡ̊ʃpɪlt]\n- Hochdeutsch: Gut gespielt!\n- English: Well played!\n- Note: *gspilt*: said with *schp*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mir händ gwunne!\n\n- Say it: mir HÄND GWUN-ne\n- IPA: [mir hænd̥ ˈɡ̊ʋʊnːə]\n- Hochdeutsch: Wir haben gewonnen!\n- English: We won!"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Gömmer no öppis go trinke?\n\n- Say it: GÖM-mer no ÖP-pis go TRIN-ke\n- IPA: [ˈɡ̊œmːər no ˈœpːɪs ɡ̊o ˈtrɪŋkə]\n- Hochdeutsch: Gehen wir noch etwas trinken?\n- English: Shall we go for a drink?\n- Note: *öppis* = etwas."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** join the after-match drink: it's the easiest hour of dialect practice in the week, and everyone is on du terms."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh5-l08-sport-club-fc1",
+              "front": "Verein",
+              "back": "A club (sport, music, local): everyone says du, and it's a dialect zone."
+            },
+            {
+              "id": "zh5-l08-sport-club-fc2",
+              "front": "öppis",
+              "back": "Something (etwas): öppis go trinke."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh5-l08-sport-club-q1",
+              "stem": "What does *Mir händ gwunne* mean?",
+              "options": [
+                "We lost",
+                "We won",
+                "We played",
+                "We trained"
+              ],
+              "correctIndex": 1,
+              "explanation": "gewonnen → gwunne."
+            },
+            {
+              "id": "zh5-l08-sport-club-q2",
+              "stem": "What's *öppis*?",
+              "options": [
+                "Nothing",
+                "Something",
+                "Always",
+                "Someone"
+              ],
+              "correctIndex": 1,
+              "explanation": "etwas."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}

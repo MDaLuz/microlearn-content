@@ -1,0 +1,949 @@
+{
+  "moduleId": "zh-m5-everyday",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "zh5-b1",
+      "title": "Shops, food and getting around",
+      "lessons": [
+        "zh5-l01-shopping",
+        "zh5-l02-bakery",
+        "zh5-l03-restaurant",
+        "zh5-l04-gemeinde-transport"
+      ]
+    },
+    {
+      "id": "zh5-b2",
+      "title": "Health, neighbours, weather and sport",
+      "lessons": [
+        "zh5-l05-doctor",
+        "zh5-l06-neighbours",
+        "zh5-l07-weather",
+        "zh5-l08-sport-club"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-zh5-l01",
+      "level": "lesson",
+      "covers": [
+        "zh5-l01-shopping"
+      ],
+      "summary": {
+        "title": "Shopping",
+        "points": [
+          "poschte = go shopping; de Lade = the shop.",
+          "Checkout: Bruuched Si es Säckli? Mit Charte, bitte.",
+          "in Aktion = on special offer.",
+          "Härdöpfel, Rüebli, Anke: potatoes, carrots, butter."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "At the supermarket.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "You can't find the milk. What do you ask?",
+              "options": [
+                "Wo find ich d Milch?",
+                "Wo isch de Milch gsii?",
+                "Wo finde ich die Milch?",
+                "Händ Si Milch gha?"
+              ],
+              "answer": 0,
+              "explanation": "Simple present question."
+            },
+            {
+              "type": "mcq",
+              "prompt": "The cashier asks *Bruuched Si es Säckli?* You have a bag. Reply?",
+              "options": [
+                "Ja, gärn, zwei Säckli.",
+                "Nei, merci, ich ha eis.",
+                "Nein danke, ich habe eine.",
+                "Gärn gscheh, merci."
+              ],
+              "answer": 1,
+              "explanation": "No thanks, I've got one."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Reading the shelf labels aloud.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does *in Aktion* mean on a price tag?",
+              "options": [
+                "Sold out",
+                "New product",
+                "On special offer",
+                "Organic"
+              ],
+              "answer": 2,
+              "explanation": "Aktion = Angebot."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What are *Rüebli*?",
+              "options": [
+                "Turnips",
+                "Radishes",
+                "Potatoes",
+                "Carrots"
+              ],
+              "answer": 3,
+              "explanation": "Swiss for Karotten."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh5-l02",
+      "level": "lesson",
+      "covers": [
+        "zh5-l02-bakery"
+      ],
+      "summary": {
+        "title": "Bakery and café",
+        "points": [
+          "Gipfeli (croissant), Weggli (soft roll), Bürli (crusty roll), Zopf (Sunday loaf).",
+          "Kafi Creme; e Schale = coffee with milk in Zurich.",
+          "Zum Mitnäh? = to take away?",
+          "Znüni (about 9) and Zvieri (about 4) are snacks."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Saturday morning at the bakery.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Two croissants, please' is?",
+              "options": [
+                "Zwei Gipfeli, bitte.",
+                "Zwei Croissants, bitte schön.",
+                "Zwei Gipfelis, bitte.",
+                "Zwei Weggli, bitte."
+              ],
+              "answer": 0,
+              "explanation": "Gipfeli; -li plural unchanged."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You want coffee with milk in Zurich. You ask for?",
+              "options": [
+                "En Kafi Creme",
+                "E Schale",
+                "En Espresso",
+                "En Zopf"
+              ],
+              "answer": 1,
+              "explanation": "Schale = Milchkaffee."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The server asks *Zum Mitnäh?*",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does she want to know?",
+              "options": [
+                "Whether you want a bag",
+                "Whether you'll pay by card",
+                "Whether it's to take away",
+                "Whether you want sugar"
+              ],
+              "answer": 2,
+              "explanation": "mitnehmen."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's a *Zopf*?",
+              "options": [
+                "A croissant",
+                "A cream cake",
+                "A small roll",
+                "A plaited Sunday loaf"
+              ],
+              "answer": 3,
+              "explanation": "Braided bread."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh5-l03",
+      "level": "lesson",
+      "covers": [
+        "zh5-l03-restaurant"
+      ],
+      "summary": {
+        "title": "Restaurant",
+        "points": [
+          "Weekday lunch: s Menü (set lunch).",
+          "Say En Guete before eating; Proscht or Zum Wohl with drinks.",
+          "Mir hetted gern en Tisch für zwei.",
+          "Zale, bitte! Zäme oder separat? Tips are small."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Lunch with a colleague.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'We'd like a table for two' is?",
+              "options": [
+                "Mir hetted gern en Tisch für zwei.",
+                "Mir händ gern en Tisch für zwei gha.",
+                "Wir hätten gern einen Tisch für zwei.",
+                "Mir wänd zwei Tisch."
+              ],
+              "answer": 0,
+              "explanation": "hetted gern."
+            },
+            {
+              "type": "mcq",
+              "prompt": "The food arrives. What do you say?",
+              "options": [
+                "Proscht!",
+                "En Guete!",
+                "Zale, bitte!",
+                "Gärn gscheh!"
+              ],
+              "answer": 1,
+              "explanation": "Before eating."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Paying the bill.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "The waiter asks *Zäme oder separat?* You'll pay together. Reply?",
+              "options": [
+                "Mir zaled separat.",
+                "Wir zahlen zusammen.",
+                "Mir zaled zäme.",
+                "Zäme isch guet gsii."
+              ],
+              "answer": 2,
+              "explanation": "zale + -ed."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's *s Menü* at lunchtime?",
+              "options": [
+                "The menu card",
+                "The dessert",
+                "The bill",
+                "The set lunch"
+              ],
+              "answer": 3,
+              "explanation": "Daily set lunch."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh5-l04",
+      "level": "lesson",
+      "covers": [
+        "zh5-l04-gemeinde-transport"
+      ],
+      "summary": {
+        "title": "Gemeinde and trains",
+        "points": [
+          "Register at the Gemeinde: Ich möcht mich aamälde.",
+          "Billett, retour, Halbtax: Einisch Züri retour, mit Halbtax.",
+          "Verspötig = delay; umstiige = change trains.",
+          "Announcements are often High German; people speak dialect."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "At the station counter.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'One return to Zurich, half fare' is?",
+              "options": [
+                "Einisch Züri retour, mit Halbtax.",
+                "Einmal Zürich hin und zurück, Halbtax.",
+                "Es Billett uf Züri gsii.",
+                "Zwei Züri retour, ohni Halbtax."
+              ],
+              "answer": 0,
+              "explanation": "Einisch = einmal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You hear *De Zug hät Verspötig.* What's happening?",
+              "options": [
+                "The train is full",
+                "The train is delayed",
+                "The train is cancelled",
+                "The train is on time"
+              ],
+              "answer": 1,
+              "explanation": "Verspätung → Verspötig."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "You've just moved.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you say at the Gemeinde counter?",
+              "options": [
+                "Ich möcht mich abmälde.",
+                "Ich möchte mich anmelden.",
+                "Ich möcht mich aamälde.",
+                "Ich bi aamäldet gsii."
+              ],
+              "answer": 2,
+              "explanation": "aa- = an-."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Where do I have to change?' is?",
+              "options": [
+                "Wo mues ich iistiige?",
+                "Wo muss ich umsteigen?",
+                "Wänn mues ich umstiige?",
+                "Wo mues ich umstiige?"
+              ],
+              "answer": 3,
+              "explanation": "umstiige."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh5-l05",
+      "level": "lesson",
+      "covers": [
+        "zh5-l05-doctor"
+      ],
+      "summary": {
+        "title": "Doctor and pharmacy",
+        "points": [
+          "Ich möcht en Termin abmache.",
+          "-weh for pains: Halsweh, Chopfweh, Buuchweh.",
+          "Ich bruuch es Rezept; d Apothek = pharmacy.",
+          "Switch to High German for medical detail; emergency 144."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Calling your GP.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'I'd like to make an appointment' is?",
+              "options": [
+                "Ich möcht en Termin abmache.",
+                "Ich möcht en Termin mache gsii.",
+                "Ich möchte einen Termin vereinbaren.",
+                "Ich ha en Termin abgmacht."
+              ],
+              "answer": 0,
+              "explanation": "abmache."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'I have a fever and a sore throat' is?",
+              "options": [
+                "Ich bi Fieber und Halsweh.",
+                "Ich ha Fieber und Halsweh.",
+                "Ich habe Fieber und Halsschmerzen.",
+                "Ich ha Fieber und Chopfweh."
+              ],
+              "answer": 1,
+              "explanation": "Halsweh."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "At the pharmacy.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'I need a prescription' is?",
+              "options": [
+                "Ich brauche ein Rezept.",
+                "Ich ha es Rezept bruucht.",
+                "Ich bruuch es Rezept.",
+                "Ich bruuch e Apothek."
+              ],
+              "answer": 2,
+              "explanation": "bruuche."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the Swiss ambulance number?",
+              "options": [
+                "117",
+                "118",
+                "112 only",
+                "144"
+              ],
+              "answer": 3,
+              "explanation": "117 police, 118 fire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh5-l06",
+      "level": "lesson",
+      "covers": [
+        "zh5-l06-neighbours"
+      ],
+      "summary": {
+        "title": "Neighbours",
+        "points": [
+          "Wöschchuchi = shared laundry room, with a rota; dra sii = have your turn.",
+          "Ghört das Velo Ihne? (formal Ihne).",
+          "Warn neighbours before a party: … gits chli Lärm.",
+          "Schöne Sunntig!"
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Laundry day.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'When's my turn in the laundry room?' is?",
+              "options": [
+                "Wänn bin ich i de Wöschchuchi dra?",
+                "Wänn isch mini Wöschchuchi?",
+                "Wann bin ich in der Waschküche dran?",
+                "Wo isch d Wöschchuchi dra?"
+              ],
+              "answer": 0,
+              "explanation": "dra sii."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Is this your bike?' (formal) is?",
+              "options": [
+                "Ghört das Velo dir?",
+                "Ghört das Velo Ihne?",
+                "Gehört das Fahrrad Ihnen?",
+                "Isch das Velo Ihne gsii?"
+              ],
+              "answer": 1,
+              "explanation": "Formal Ihne."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Planning a party.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you tell your neighbours?",
+              "options": [
+                "Am Samschtig isch es ruhig.",
+                "Am Samstag gibt es etwas Lärm.",
+                "Am Samschtig gits chli Lärm, mir händ es Fäscht.",
+                "Am Sunntig händ mir Lärm gha."
+              ],
+              "answer": 2,
+              "explanation": "Warn them in advance."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does *gits* mean?",
+              "options": [
+                "It goes",
+                "Give it",
+                "It's good",
+                "There is (es git)"
+              ],
+              "answer": 3,
+              "explanation": "es git = es gibt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh5-l07",
+      "level": "lesson",
+      "covers": [
+        "zh5-l07-weather"
+      ],
+      "summary": {
+        "title": "Weather",
+        "points": [
+          "Es schiint d Sunne; Es rägnet; Es schneit.",
+          "Es hät Näbel = it's foggy (es hät = there is).",
+          "Föhn = warm, dry Alpine wind.",
+          "Morn sölls rägne = it's supposed to rain tomorrow."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Small talk in the lift.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'The sun is shining' is?",
+              "options": [
+                "Es schiint d Sunne.",
+                "Die Sonne scheint.",
+                "Es scheint d Sunne.",
+                "D Sunne isch gschiine."
+              ],
+              "answer": 0,
+              "explanation": "ei → ii."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'It's supposed to rain tomorrow' is?",
+              "options": [
+                "Morge sölls rägne.",
+                "Morn sölls rägne.",
+                "Morgen soll es regnen.",
+                "Morn hät s grägnet."
+              ],
+              "answer": 1,
+              "explanation": "morn = tomorrow."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A November morning.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'It's foggy' is?",
+              "options": [
+                "Es isch Näbel gsii.",
+                "Es ist neblig.",
+                "Es hät Näbel.",
+                "Es hät Föhn."
+              ],
+              "answer": 2,
+              "explanation": "es hät + noun."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's the Föhn?",
+              "options": [
+                "A winter fog",
+                "A thunderstorm",
+                "Cold north wind",
+                "A warm, dry Alpine wind"
+              ],
+              "answer": 3,
+              "explanation": "Clear views and headaches."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh5-l08",
+      "level": "lesson",
+      "covers": [
+        "zh5-l08-sport-club"
+      ],
+      "summary": {
+        "title": "Sport club",
+        "points": [
+          "Clubs (Verein) say du from the start.",
+          "Wänn isch s Training? Guet gspilt!",
+          "gwunne / verlore: won / lost.",
+          "Gömmer no öppis go trinke?"
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "After the match.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Well played!' is?",
+              "options": [
+                "Guet gspilt!",
+                "Gut gespielt!",
+                "Guet gspielt gsii!",
+                "Guet gwunne!"
+              ],
+              "answer": 0,
+              "explanation": "gspilt, said with schp."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'We won!' is?",
+              "options": [
+                "Mir sind gwunne!",
+                "Mir händ gwunne!",
+                "Wir haben gewonnen!",
+                "Mir händ verlore!"
+              ],
+              "answer": 1,
+              "explanation": "haa + gwunne."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Heading out.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Shall we go for a drink?' is?",
+              "options": [
+                "Gönd mir öppis trinke?",
+                "Gehen wir noch etwas trinken?",
+                "Gömmer no öppis go trinke?",
+                "Gömmer no öppis trunke?"
+              ],
+              "answer": 2,
+              "explanation": "gömmer + go trinke."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's *öppis*?",
+              "options": [
+                "Nothing",
+                "Somewhere",
+                "Someone",
+                "Something"
+              ],
+              "answer": 3,
+              "explanation": "etwas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh5-b1",
+      "level": "block",
+      "covers": [
+        "zh5-l01-shopping",
+        "zh5-l02-bakery",
+        "zh5-l03-restaurant",
+        "zh5-l04-gemeinde-transport"
+      ],
+      "summary": {
+        "title": "Shops, food and getting around",
+        "points": [
+          "Checkout phrases: Säckli, Charte, in Aktion.",
+          "Bakery words: Gipfeli, Weggli, Bürli, Zopf, Schale.",
+          "Restaurant: hetted gern, En Guete, Zale bitte, zäme.",
+          "Gemeinde and trains: aamälde, retour, Halbtax, Verspötig, umstiige."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A busy Saturday.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "At the bakery you want a croissant and a coffee with milk. You say?",
+              "options": [
+                "Es Gipfeli und e Schale, bitte.",
+                "Es Croissant und en Milchkaffee, bitte.",
+                "Es Weggli und en Espresso, bitte.",
+                "Es Gipfeli und es Bürli, merci."
+              ],
+              "answer": 0,
+              "explanation": "Zurich café words."
+            },
+            {
+              "type": "mcq",
+              "prompt": "At lunch, before eating, you say?",
+              "options": [
+                "Proscht!",
+                "En Guete!",
+                "Zum Mitnäh!",
+                "Zale, bitte!"
+              ],
+              "answer": 1,
+              "explanation": "Before eating."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Buy a return ticket to Zurich with your half-fare card, then ask where to change.",
+              "modelAnswer": "Einisch Züri retour, mit Halbtax, bitte. Wo mues ich umstiige?"
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Link words to rules.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which rule turns *Verspätung* into *Verspötig*?",
+              "options": [
+                "k → ch",
+                "ei → ii",
+                "-ung → -ig",
+                "st → scht"
+              ],
+              "answer": 2,
+              "explanation": "Like Zeitung → Ziitig."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which rule is in *bruuche*?",
+              "options": [
+                "eu → üü",
+                "-n dropped only",
+                "short e → ä",
+                "au → uu"
+              ],
+              "answer": 3,
+              "explanation": "brauchen → bruuche."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh5-b2",
+      "level": "block",
+      "covers": [
+        "zh5-l05-doctor",
+        "zh5-l06-neighbours",
+        "zh5-l07-weather",
+        "zh5-l08-sport-club"
+      ],
+      "summary": {
+        "title": "Health, neighbours, weather and sport",
+        "points": [
+          "Doctor: Termin abmache, -weh words, Rezept; 144 for emergencies.",
+          "Neighbours: Wöschchuchi, dra sii, warn before parties.",
+          "Weather: schiint, rägnet, Näbel, Föhn, morn sölls …",
+          "Club: Guet gspilt, gwunne, öppis go trinke."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A week of small talk.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Your neighbour says *Es hät Näbel hüt.* You reply about tomorrow's rain?",
+              "options": [
+                "Ja, und morn sölls rägne.",
+                "Ja, und geschter hät s grägnet.",
+                "Ja, morgen soll es regnen.",
+                "Ja, es schiint d Sunne."
+              ],
+              "answer": 0,
+              "explanation": "morn sölls …"
+            },
+            {
+              "type": "mcq",
+              "prompt": "A teammate scored. You say?",
+              "options": [
+                "En Guete!",
+                "Guet gspilt!",
+                "Gärn gscheh!",
+                "Gute Besserung!"
+              ],
+              "answer": 1,
+              "explanation": "Well played!"
+            },
+            {
+              "type": "self-check",
+              "prompt": "Book a doctor's appointment: you have a headache and a fever.",
+              "modelAnswer": "Grüezi, ich möcht en Termin abmache. Ich ha Chopfweh und Fieber."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Connect Module 5 to grammar.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which grammar point is in *öppis go trinke*?",
+              "options": [
+                "Relative wo",
+                "Dative possessive",
+                "Verb doubling",
+                "No simple past"
+              ],
+              "answer": 2,
+              "explanation": "go + infinitive."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which is in *Mir händ gwunne*?",
+              "options": [
+                "Verb doubling",
+                "Relative wo",
+                "Diminutive -li",
+                "Perfect only"
+              ],
+              "answer": 3,
+              "explanation": "haa + participle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh5-m",
+      "level": "module",
+      "covers": [
+        "zh5-l01-shopping",
+        "zh5-l02-bakery",
+        "zh5-l03-restaurant",
+        "zh5-l04-gemeinde-transport",
+        "zh5-l05-doctor",
+        "zh5-l06-neighbours",
+        "zh5-l07-weather",
+        "zh5-l08-sport-club"
+      ],
+      "summary": {
+        "title": "Everyday life: the whole picture",
+        "points": [
+          "Shops and bakeries have their own words: Säckli, Aktion, Gipfeli, Schale.",
+          "Restaurants: En Guete, Zale bitte, zäme oder separat.",
+          "Gemeinde and trains: aamälde, retour, Halbtax, Verspötig.",
+          "Doctor: abmache, -weh, Rezept; High German for detail.",
+          "Neighbours, weather and clubs are your daily dialect practice."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Everyday situations.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "At the checkout: 'By card, please' is?",
+              "options": [
+                "Mit Charte, bitte.",
+                "Mit Karte, bitte schön.",
+                "Mit Gäld, bitte.",
+                "Charte isch guet gsii."
+              ],
+              "answer": 0,
+              "explanation": "Karte → Charte."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A colleague asks *Was isch hüt s Menü?* She wants to know?",
+              "options": [
+                "The restaurant's opening hours",
+                "Today's set lunch",
+                "What you're eating tonight",
+                "The bill"
+              ],
+              "answer": 1,
+              "explanation": "s Menü = set lunch."
+            },
+            {
+              "type": "mcq",
+              "prompt": "At the station you hear *Verspötig*. Meaning?",
+              "options": [
+                "Platform change",
+                "Last train",
+                "Delay",
+                "Ticket check"
+              ],
+              "answer": 2,
+              "explanation": "Verspätung."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Choosing dialect or High German.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "When is it fine to switch to High German?",
+              "options": [
+                "Never, under any circumstances",
+                "Always at the bakery",
+                "With children",
+                "For precise medical details"
+              ],
+              "answer": 3,
+              "explanation": "Precision first."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where do people say du from the start?",
+              "options": [
+                "At the sport club",
+                "At the Gemeinde counter",
+                "At the doctor's",
+                "At the bank"
+              ],
+              "answer": 0,
+              "explanation": "Clubs are du zones."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Describe in two sentences where you'll practise dialect this week.",
+              "modelAnswer": "Ich gaa am Samschtig go poschte und rede mit de Nochbere im Stägehuus. Nach em Training gömmer no öppis go trinke."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

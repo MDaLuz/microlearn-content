@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 28
+    "version": 29
   },
   "categories": {
     "Training": {
@@ -466,6 +466,34 @@
       "estimatedMinutes": 60,
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m4-grammar.reviews.json",
+      "reviewsVersion": 1,
+      "audio": true
+    },
+    {
+      "id": "zh-m5-everyday",
+      "title": "Züritüütsch 5: Everyday life",
+      "discipline": "Languages",
+      "description": "Shopping, bakery, restaurant, Gemeinde and trains, doctor, neighbours, weather and the sport club",
+      "file": "modules/zh-m5-everyday.json",
+      "version": 1,
+      "lessonCount": 8,
+      "estimatedMinutes": 55,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/zh-m5-everyday.reviews.json",
+      "reviewsVersion": 1,
+      "audio": true
+    },
+    {
+      "id": "zh-m6-family",
+      "title": "Züritüütsch 6: Family and kids",
+      "discipline": "Languages",
+      "description": "Kita and Chindsgi, other parents, talking to children, rhymes, customs, meals and a parents' evening",
+      "file": "modules/zh-m6-family.json",
+      "version": 1,
+      "lessonCount": 7,
+      "estimatedMinutes": 50,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/zh-m6-family.reviews.json",
       "reviewsVersion": 1,
       "audio": true
     }

@@ -44,6 +44,21 @@ if (!entry) {
   if (entry.version !== mod.version) err('catalog', `version ${entry.version} ≠ module ${mod.version}`);
   if (entry.discipline !== mod.discipline) err('catalog', `discipline "${entry.discipline}" ≠ module "${mod.discipline}"`);
   if (entry.lessonCount !== mod.lessons.length) err('catalog', `lessonCount ${entry.lessonCount} ≠ ${mod.lessons.length} lessons`);
+  // Optional course grouping: { id, title, order }, order unique within the course.
+  if (entry.course !== undefined) {
+    const c = entry.course;
+    if (!c || typeof c !== 'object') err('catalog', '"course" must be an object');
+    else {
+      if (typeof c.id !== 'string' || !c.id) err('catalog', 'course.id must be a non-empty string');
+      if (typeof c.title !== 'string' || !c.title) err('catalog', 'course.title must be a non-empty string');
+      if (!Number.isInteger(c.order) || c.order < 0) err('catalog', 'course.order must be a non-negative integer');
+      const peers = catalog.modules.filter((m) => m.course?.id === c.id);
+      const clash = peers.filter((m) => m.id !== entry.id && m.course.order === c.order).map((m) => m.id);
+      if (clash.length) err('catalog', `course "${c.id}" order ${c.order} also used by ${clash.join(', ')}`);
+      const titles = new Set(peers.map((m) => m.course.title));
+      if (titles.size > 1) err('catalog', `course "${c.id}" has different titles: ${[...titles].join(' / ')}`);
+    }
+  }
 }
 
 // ---- Blocks ----

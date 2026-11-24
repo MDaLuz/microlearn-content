@@ -1,0 +1,783 @@
+{
+  "moduleId": "zh-m6-family",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "zh6-b1",
+      "title": "School, parents and children",
+      "lessons": [
+        "zh6-l01-kita-school",
+        "zh6-l02-pickup",
+        "zh6-l03-talking-to-kids"
+      ]
+    },
+    {
+      "id": "zh6-b2",
+      "title": "Rhymes, customs and home",
+      "lessons": [
+        "zh6-l04-rhymes",
+        "zh6-l05-customs",
+        "zh6-l06-meals-bedtime",
+        "zh6-l07-recap"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-zh6-l01",
+      "level": "lesson",
+      "covers": [
+        "zh6-l01-kita-school"
+      ],
+      "summary": {
+        "title": "Kita, Chindsgi and school",
+        "points": [
+          "Chrippe = day care; Chindsgi = kindergarten (two years, from about 4).",
+          "Ufzgi = homework; Znüni = morning snack.",
+          "Lehrerin/Lehrer, Pause, Elterenabig."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A school morning.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Have you got your snack?' is?",
+              "options": [
+                "Häsch dis Znüni debii?",
+                "Hast du deinen Znüni dabei?",
+                "Häsch dis Zvieri gha?",
+                "Bisch dis Znüni debii?"
+              ],
+              "answer": 0,
+              "explanation": "debii = dabei."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Have you done your homework?' is?",
+              "options": [
+                "Häsch d Ufzgi mache?",
+                "Häsch d Ufzgi gmacht?",
+                "Hast du die Hausaufgaben gemacht?",
+                "Bisch d Ufzgi gmacht?"
+              ],
+              "answer": 1,
+              "explanation": "Perfect with haa."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Explaining the system to a friend.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What comes after the Chrippe?",
+              "options": [
+                "Schuel, then Chindsgi",
+                "Gymi, then Chindsgi",
+                "Chindsgi, then Schuel",
+                "Uni, straight after day care"
+              ],
+              "answer": 2,
+              "explanation": "Day care, kindergarten, school."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does *Er gaat in Chindsgi* mean?",
+              "options": [
+                "He goes to church on Sundays",
+                "He goes to day care",
+                "He's at the playground",
+                "He goes to kindergarten"
+              ],
+              "answer": 3,
+              "explanation": "Chindsgi = Kindergarten."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh6-l02",
+      "level": "lesson",
+      "covers": [
+        "zh6-l02-pickup"
+      ],
+      "summary": {
+        "title": "Other parents",
+        "points": [
+          "Parents at the gate and playground say du almost immediately.",
+          "Weles Chind isch dis? Mini Tochter heisst …",
+          "Wänd mer emal abmache? = shall we arrange a playdate?",
+          "Chunt er zu eus cho spile? (verb doubling)."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "At the playground.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Which child is yours?' is?",
+              "options": [
+                "Weles Chind isch dis?",
+                "Wo isch dis Chind?",
+                "Welches Kind ist deins?",
+                "Weles Chind bisch du?"
+              ],
+              "answer": 0,
+              "explanation": "weles = which."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Shall we arrange a playdate?' is?",
+              "options": [
+                "Wänd mer emal abgmacht?",
+                "Wänd mer emal abmache?",
+                "Wollen wir mal abmachen?",
+                "Chömmer emal ässe?"
+              ],
+              "answer": 1,
+              "explanation": "abmache."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Inviting a child over.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Is he coming to play at ours?' is?",
+              "options": [
+                "Chunt er zu eus spile?",
+                "Kommt er zu uns spielen?",
+                "Chunt er zu eus cho spile?",
+                "Gaat er zu eus go spile?"
+              ],
+              "answer": 2,
+              "explanation": "cho + cho spile."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does *emal* mean?",
+              "options": [
+                "Never",
+                "Already",
+                "Always, every single day",
+                "Some time"
+              ],
+              "answer": 3,
+              "explanation": "mal, einmal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh6-l03",
+      "level": "lesson",
+      "covers": [
+        "zh6-l03-talking-to-kids"
+      ],
+      "summary": {
+        "title": "Talking to children",
+        "points": [
+          "Use dialect with children; High German sounds like school.",
+          "Praise: Super gmacht!  Rules: Tue nöd so!",
+          "Moving on: Chumm, mir gönd!  Comfort: Häsch dir weh ta?"
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "At the park.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Your child pulls another child's hair. You say?",
+              "options": [
+                "Tue nöd so!",
+                "Super gmacht!",
+                "Chumm cho spile!",
+                "Häsch Hunger?"
+              ],
+              "answer": 0,
+              "explanation": "Stop that!"
+            },
+            {
+              "type": "mcq",
+              "prompt": "Time to leave. You say?",
+              "options": [
+                "Chumm, mir sind gange!",
+                "Chumm, mir gönd!",
+                "Komm, wir gehen!",
+                "Gömmer go spile!"
+              ],
+              "answer": 1,
+              "explanation": "Imperative chumm."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A fall from the slide.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Did you hurt yourself?' is?",
+              "options": [
+                "Tuet s dir weh gsii?",
+                "Hast du dir wehgetan?",
+                "Häsch dir weh ta?",
+                "Bisch weh ta?"
+              ],
+              "answer": 2,
+              "explanation": "weh ta = wehgetan."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which phrase comforts?",
+              "options": [
+                "Tue nöd so!",
+                "Ab is Bett!",
+                "Super gmacht, bravo!",
+                "Es isch guet, ich bi da."
+              ],
+              "answer": 3,
+              "explanation": "It's OK, I'm here."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh6-l04",
+      "level": "lesson",
+      "covers": [
+        "zh6-l04-rhymes"
+      ],
+      "summary": {
+        "title": "Rhymes and songs",
+        "points": [
+          "Traditional rhymes are old folk material, free to use.",
+          "Rite, rite Rössli; Schlaf, Chindli, schlaf.",
+          "Es isch emal … = once upon a time.",
+          "Rhymes train initial stress and -li; kids shout Nomal!"
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Storytime.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do you start a story?",
+              "options": [
+                "Es isch emal …",
+                "Es war einmal …",
+                "Es isch emal gsii gsii …",
+                "Emal isch es …"
+              ],
+              "answer": 0,
+              "explanation": "Perfect, not war."
+            },
+            {
+              "type": "mcq",
+              "prompt": "The child wants the rhyme again. She shouts?",
+              "options": [
+                "Nümme!",
+                "Nomal!",
+                "Ade, bis morn!",
+                "Gnueg!"
+              ],
+              "answer": 1,
+              "explanation": "nochmal."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Why rhymes help.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which feature does *RI-te, RI-te RÖSS-li* train?",
+              "options": [
+                "The open ä in words like Wätter",
+                "Verb doubling",
+                "Initial stress",
+                "The linking n"
+              ],
+              "answer": 2,
+              "explanation": "Stress first."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's a *Chindli*?",
+              "options": [
+                "A little cat",
+                "A little cheese",
+                "A kitchen",
+                "A little child"
+              ],
+              "answer": 3,
+              "explanation": "Chind + -li."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh6-l05",
+      "level": "lesson",
+      "covers": [
+        "zh6-l05-customs"
+      ],
+      "summary": {
+        "title": "Customs",
+        "points": [
+          "November: Räbeliechtli lantern walk.",
+          "6 December: Samichlaus with Schmutzli.",
+          "April: Sechseläuten, the Böögg burns.",
+          "E guets Neus! for New Year; Schöni Wiehnachte!"
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Around the year.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "In early January you meet a neighbour. You say?",
+              "options": [
+                "E guets Neus!",
+                "Schöni Wiehnachte!",
+                "Schöne Sunntig!",
+                "En Guete!"
+              ],
+              "answer": 0,
+              "explanation": "Happy New Year."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What happens on 6 December?",
+              "options": [
+                "The Böögg burns",
+                "The Samichlaus visits",
+                "The Räbeliechtli lantern walk",
+                "Carnival"
+              ],
+              "answer": 1,
+              "explanation": "St Nicholas."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Sechseläuten.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What is the Böögg?",
+              "options": [
+                "A Christmas cake",
+                "A lantern carved from a turnip in November",
+                "A snowman figure burned in April",
+                "A carnival mask"
+              ],
+              "answer": 2,
+              "explanation": "Spring festival."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What are Räbeliechtli made of?",
+              "options": [
+                "Pumpkins",
+                "Paper",
+                "Glass",
+                "Turnips"
+              ],
+              "answer": 3,
+              "explanation": "Räbe = turnips."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh6-l06",
+      "level": "lesson",
+      "covers": [
+        "zh6-l06-meals-bedtime"
+      ],
+      "summary": {
+        "title": "Meals and bedtime",
+        "points": [
+          "Zmorge, Znüni, Zmittag, Zvieri, Znacht.",
+          "S Ässe isch parat! Was gits zum Znacht?",
+          "Ab is Bett, Zähnli butze!",
+          "Guet Nacht, schlaf guet!"
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Evening routine.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Food's ready!' is?",
+              "options": [
+                "S Ässe isch parat!",
+                "S Ässe isch gsii!",
+                "Das Essen ist fertig!",
+                "S Ässe hät parat!"
+              ],
+              "answer": 0,
+              "explanation": "parat = ready."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Off to bed, brush your teeth!' is?",
+              "options": [
+                "Ab ins Bett, Zähne putzen!",
+                "Ab is Bett, Zähnli butze!",
+                "Is Bett gaa, Zähnli gmacht!",
+                "Ab is Bett, Zähnli ässe!"
+              ],
+              "answer": 1,
+              "explanation": "butze."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Meal words.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's *Zmittag*?",
+              "options": [
+                "Breakfast",
+                "Dinner",
+                "Lunch",
+                "A snack"
+              ],
+              "answer": 2,
+              "explanation": "Noon meal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'What's for dinner?' is?",
+              "options": [
+                "Was isch zum Zmorge?",
+                "Was gibt es zum Abendessen?",
+                "Was gits zum Znüni?",
+                "Was gits zum Znacht?"
+              ],
+              "answer": 3,
+              "explanation": "Znacht = dinner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh6-b1",
+      "level": "block",
+      "covers": [
+        "zh6-l01-kita-school",
+        "zh6-l02-pickup",
+        "zh6-l03-talking-to-kids"
+      ],
+      "summary": {
+        "title": "School, parents and children",
+        "points": [
+          "Chrippe, Chindsgi, Schuel; Ufzgi and Znüni.",
+          "Other parents: weles, abmache, cho spile.",
+          "Children: Super gmacht, Tue nöd so, Chumm, Häsch dir weh ta?"
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "School gate, 3 pm.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "You meet a new parent. First question?",
+              "options": [
+                "Weles Chind isch dis?",
+                "Wie heissed Si, bitte?",
+                "Häsch d Ufzgi gmacht?",
+                "Tue nöd so!"
+              ],
+              "answer": 0,
+              "explanation": "Which one is yours?"
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your child shows you a drawing. You say?",
+              "options": [
+                "Tue nöd so!",
+                "Super gmacht!",
+                "Ab is Bett!",
+                "Gärn gscheh!"
+              ],
+              "answer": 1,
+              "explanation": "Praise."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Arrange a playdate for next week with another parent.",
+              "modelAnswer": "Wänd mer emal abmache? Chunt d Mia nächscht Wuche zu eus cho spile?"
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Grammar in family phrases.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which grammar point is in *Chunt er cho spile?*",
+              "options": [
+                "Relative wo",
+                "Dative possessive",
+                "Verb doubling",
+                "Fused pronouns"
+              ],
+              "answer": 2,
+              "explanation": "cho cho + verb."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which is in *Häsch d Ufzgi gmacht?*",
+              "options": [
+                "Verb doubling and -li",
+                "Relative wo with a linking n",
+                "Diminutive -li only",
+                "Perfect only, and du dropped"
+              ],
+              "answer": 3,
+              "explanation": "haa + participle; no du."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh6-b2",
+      "level": "block",
+      "covers": [
+        "zh6-l04-rhymes",
+        "zh6-l05-customs",
+        "zh6-l06-meals-bedtime",
+        "zh6-l07-recap"
+      ],
+      "summary": {
+        "title": "Rhymes, customs and home",
+        "points": [
+          "Traditional rhymes train stress and -li.",
+          "Customs: Räbeliechtli, Samichlaus, Sechseläuten, E guets Neus.",
+          "Z-meals and bedtime phrases.",
+          "Parents' evening: introductions, Müe ha mit …, thanks."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A parents' evening.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Introduce yourself as Noah's father.",
+              "options": [
+                "Grüezi, ich bi de Vater vom Noah.",
+                "Grüezi, ich bi Noahs Vater.",
+                "Ich heisse Vater Noah, fröit mi sehr.",
+                "Ich bi de Noah sis Vater gsii."
+              ],
+              "answer": 0,
+              "explanation": "vom + name."
+            },
+            {
+              "type": "mcq",
+              "prompt": "The teacher says *Er hät e chli Müe mit em Läse.* Meaning?",
+              "options": [
+                "He loves reading",
+                "He struggles a bit with reading",
+                "He reads a book every evening before bed",
+                "He forgot his book"
+              ],
+              "answer": 1,
+              "explanation": "Mühe → Müe."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Ask how your child is doing at school and thank the teacher.",
+              "modelAnswer": "Wie gaats ihm i de Schuel? … Merci vilmal für d Ziit."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Home life.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's *Zvieri*?",
+              "options": [
+                "Dinner",
+                "Morning snack at nine",
+                "Afternoon snack",
+                "Breakfast"
+              ],
+              "answer": 2,
+              "explanation": "About four."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which custom has turnip lanterns?",
+              "options": [
+                "Sechseläuten in April",
+                "Samichlaus",
+                "Silvester",
+                "Räbeliechtli"
+              ],
+              "answer": 3,
+              "explanation": "November."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh6-m",
+      "level": "module",
+      "covers": [
+        "zh6-l01-kita-school",
+        "zh6-l02-pickup",
+        "zh6-l03-talking-to-kids",
+        "zh6-l04-rhymes",
+        "zh6-l05-customs",
+        "zh6-l06-meals-bedtime",
+        "zh6-l07-recap"
+      ],
+      "summary": {
+        "title": "Family and kids: the whole picture",
+        "points": [
+          "School words: Chrippe, Chindsgi, Ufzgi, Znüni.",
+          "Other parents say du; arrange playdates with abmache.",
+          "Speak dialect with children: short commands, praise, comfort.",
+          "Rhymes, customs and z-meals give daily practice.",
+          "At school meetings, prepare three sentences."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A family weekday.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Breakfast is?",
+              "options": [
+                "Zmorge",
+                "Znacht",
+                "Zvieri",
+                "Zmittag"
+              ],
+              "answer": 0,
+              "explanation": "Morning meal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your daughter is in kindergarten. You say?",
+              "options": [
+                "Si gaat i d Chrippe.",
+                "Si gaat in Chindsgi.",
+                "Si gaat in d Schuel gsii.",
+                "Sie geht in den Kindergarten."
+              ],
+              "answer": 1,
+              "explanation": "Chindsgi."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Bedtime: you say?",
+              "options": [
+                "Guete Morge!",
+                "En Guete!",
+                "Guet Nacht, schlaf guet!",
+                "E guets Neus, en schöne Tag!"
+              ],
+              "answer": 2,
+              "explanation": "Good night."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Why family life is the best dialect school.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why speak dialect with children?",
+              "options": [
+                "Children don't understand dialect",
+                "It's required by law",
+                "It's more polite than High German in Switzerland",
+                "High German sounds like school to them"
+              ],
+              "answer": 3,
+              "explanation": "Dialect is home language."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What do children say to get a rhyme again?",
+              "options": [
+                "Nomal!",
+                "Gnueg!",
+                "Ade, bis morn!",
+                "Merci!"
+              ],
+              "answer": 0,
+              "explanation": "Again!"
+            },
+            {
+              "type": "self-check",
+              "prompt": "Describe your family's day in three z-meal words and one bedtime phrase.",
+              "modelAnswer": "Zmorge am sibni, Zmittag am zwölfi, Znacht am sibni, und dänn: Ab is Bett, Zähnli butze!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

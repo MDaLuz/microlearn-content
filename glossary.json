@@ -1,6 +1,6 @@
 {
-  "version": 28,
-  "updated": "2026-11-04",
+  "version": 29,
+  "updated": "2026-11-24",
   "entries": [
     {
       "id": "smpc",
@@ -8560,6 +8560,290 @@
       ],
       "modules": [
         "zh-m4-grammar"
+      ]
+    },
+    {
+      "id": "gipfeli",
+      "term": "Gipfeli",
+      "aliases": [
+        "croissant"
+      ],
+      "category": "swiss-german",
+      "short": "The Swiss word for a croissant; part of a bakery vocabulary (Weggli, Bürli, Zopf) that doesn't come from High German.",
+      "simpler": "A croissant.",
+      "example": {
+        "moduleId": "zh-m5-everyday",
+        "text": "Lesson 5.2: Zwei Gipfeli, bitte."
+      },
+      "notToConfuse": "Not a small hill (Gipfel = peak).",
+      "related": [
+        "z-meals"
+      ],
+      "modules": [
+        "zh-m5-everyday"
+      ]
+    },
+    {
+      "id": "schale",
+      "term": "Schale (coffee)",
+      "aliases": [
+        "e Schale"
+      ],
+      "category": "swiss-german",
+      "short": "In Zurich cafés, a coffee with milk, similar to a café au lait; en Kafi Creme is coffee with a little cream.",
+      "simpler": "Coffee with milk.",
+      "example": {
+        "moduleId": "zh-m5-everyday",
+        "text": "Lesson 5.2: E Schale, bitte."
+      },
+      "notToConfuse": "Not a bowl or a peel in this context.",
+      "related": [
+        "gipfeli"
+      ],
+      "modules": [
+        "zh-m5-everyday"
+      ]
+    },
+    {
+      "id": "gemeinde",
+      "term": "Gemeinde",
+      "aliases": [
+        "aamälde"
+      ],
+      "category": "swiss-german",
+      "short": "The municipality, where you register when you move (sich aamälde) and handle local admin.",
+      "simpler": "Your town hall.",
+      "example": {
+        "moduleId": "zh-m5-everyday",
+        "text": "Lesson 5.4: Ich möcht mich aamälde."
+      },
+      "notToConfuse": "Not the canton: the Gemeinde is local.",
+      "related": [
+        "halbtax",
+        "swiss-standard-german"
+      ],
+      "modules": [
+        "zh-m5-everyday"
+      ]
+    },
+    {
+      "id": "halbtax",
+      "term": "Halbtax",
+      "aliases": [
+        "half-fare card"
+      ],
+      "category": "swiss-german",
+      "short": "The Swiss half-fare travel card for public transport: Einisch Züri retour, mit Halbtax.",
+      "simpler": "Half-price travel card.",
+      "example": {
+        "moduleId": "zh-m5-everyday",
+        "text": "Lesson 5.4: buying a return ticket."
+      },
+      "notToConfuse": "Not a tax.",
+      "related": [
+        "gemeinde"
+      ],
+      "modules": [
+        "zh-m5-everyday"
+      ]
+    },
+    {
+      "id": "woeschchuchi",
+      "term": "Wöschchuchi",
+      "aliases": [
+        "Waschküche"
+      ],
+      "category": "swiss-german",
+      "short": "The shared laundry room in an apartment building, usually used on a rota; dra sii = to have your turn.",
+      "simpler": "The building's laundry room.",
+      "example": {
+        "moduleId": "zh-m5-everyday",
+        "text": "Lesson 5.6: Wänn bin ich dra?"
+      },
+      "notToConfuse": "Not a kitchen.",
+      "related": [
+        "gemeinde",
+        "mundart"
+      ],
+      "modules": [
+        "zh-m5-everyday"
+      ]
+    },
+    {
+      "id": "foehn",
+      "term": "Föhn",
+      "aliases": [
+        "Föhn wind"
+      ],
+      "category": "swiss-german",
+      "short": "A warm, dry wind from the Alps that brings clear views and, for some, headaches; also the word for a hair dryer.",
+      "simpler": "A warm Alpine wind.",
+      "example": {
+        "moduleId": "zh-m5-everyday",
+        "text": "Lesson 5.7: Mir händ Föhn."
+      },
+      "notToConfuse": "Not the winter fog (Näbel).",
+      "related": [
+        "mundart",
+        "alemannic"
+      ],
+      "modules": [
+        "zh-m5-everyday"
+      ]
+    },
+    {
+      "id": "chindsgi",
+      "term": "Chindsgi",
+      "aliases": [
+        "Kindergarten"
+      ],
+      "category": "swiss-german",
+      "short": "Kindergarten in Zurich: two years, from about age four, before school.",
+      "simpler": "Kindergarten.",
+      "example": {
+        "moduleId": "zh-m6-family",
+        "text": "Lesson 6.1: Er gaat in Chindsgi."
+      },
+      "notToConfuse": "Not day care: that's the Chrippe.",
+      "related": [
+        "chrippe",
+        "ufzgi"
+      ],
+      "modules": [
+        "zh-m6-family"
+      ]
+    },
+    {
+      "id": "chrippe",
+      "term": "Chrippe",
+      "aliases": [
+        "Kita",
+        "Krippe"
+      ],
+      "category": "swiss-german",
+      "short": "A day-care centre for babies and young children (Kita).",
+      "simpler": "Day care.",
+      "example": {
+        "moduleId": "zh-m6-family",
+        "text": "Lesson 6.1: Si gaat i d Chrippe."
+      },
+      "notToConfuse": "Not a crib or the nativity scene in this context.",
+      "related": [
+        "chindsgi"
+      ],
+      "modules": [
+        "zh-m6-family"
+      ]
+    },
+    {
+      "id": "ufzgi",
+      "term": "Ufzgi",
+      "aliases": [
+        "Hausaufgaben"
+      ],
+      "category": "swiss-german",
+      "short": "Homework: Häsch d Ufzgi gmacht?",
+      "simpler": "Homework.",
+      "example": {
+        "moduleId": "zh-m6-family",
+        "text": "Lesson 6.1: the daily question at home."
+      },
+      "notToConfuse": "Not a task at work.",
+      "related": [
+        "chindsgi"
+      ],
+      "modules": [
+        "zh-m6-family"
+      ]
+    },
+    {
+      "id": "z-meals",
+      "term": "z-meals",
+      "aliases": [
+        "Zmorge",
+        "Znüni",
+        "Zmittag",
+        "Zvieri",
+        "Znacht"
+      ],
+      "category": "swiss-german",
+      "short": "Swiss meal names: Zmorge (breakfast), Znüni (morning snack), Zmittag (lunch), Zvieri (afternoon snack), Znacht (dinner).",
+      "simpler": "Meal words that start with z.",
+      "example": {
+        "moduleId": "zh-m6-family",
+        "text": "Lesson 6.6: Was gits zum Znacht?"
+      },
+      "notToConfuse": "Not times: Zvieri is a snack around four, not four o'clock.",
+      "related": [
+        "gipfeli"
+      ],
+      "modules": [
+        "zh-m6-family"
+      ]
+    },
+    {
+      "id": "samichlaus",
+      "term": "Samichlaus",
+      "aliases": [
+        "St Nicholas",
+        "Schmutzli"
+      ],
+      "category": "swiss-german",
+      "short": "St Nicholas, who visits children on 6 December with his helper Schmutzli, bringing nuts, mandarins and gingerbread.",
+      "simpler": "St Nicholas.",
+      "example": {
+        "moduleId": "zh-m6-family",
+        "text": "Lesson 6.5: De Samichlaus chunt!"
+      },
+      "notToConfuse": "Not Father Christmas on 24/25 December.",
+      "related": [
+        "raebeliechtli"
+      ],
+      "modules": [
+        "zh-m6-family"
+      ]
+    },
+    {
+      "id": "raebeliechtli",
+      "term": "Räbeliechtli",
+      "aliases": [
+        "Räbeliechtli-Umzug"
+      ],
+      "category": "swiss-german",
+      "short": "Lanterns carved from turnips that children carry in a November procession.",
+      "simpler": "Turnip lanterns.",
+      "example": {
+        "moduleId": "zh-m6-family",
+        "text": "Lesson 6.5: De Räbeliechtli-Umzug."
+      },
+      "notToConfuse": "Not Halloween pumpkins.",
+      "related": [
+        "samichlaus",
+        "boeoegg"
+      ],
+      "modules": [
+        "zh-m6-family"
+      ]
+    },
+    {
+      "id": "boeoegg",
+      "term": "Böögg",
+      "aliases": [
+        "Sechseläuten"
+      ],
+      "category": "swiss-german",
+      "short": "The snowman figure burned at Zurich's Sechseläuten spring festival in April; folklore says a fast explosion means a good summer.",
+      "simpler": "Zurich's burning snowman.",
+      "example": {
+        "moduleId": "zh-m6-family",
+        "text": "Lesson 6.5: De Böögg brännt."
+      },
+      "notToConfuse": "Not a bogeyman in this context.",
+      "related": [
+        "raebeliechtli"
+      ],
+      "modules": [
+        "zh-m6-family"
       ]
     }
   ]

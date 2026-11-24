@@ -1,0 +1,674 @@
+{
+  "schemaVersion": 6,
+  "id": "zh-m6-family",
+  "title": "Züritüütsch 6: Family and kids",
+  "discipline": "Languages",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "zh6-l01-kita-school",
+      "title": "Kita, Chindsgi and school",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The words parents need\n\nThe Zurich system has its own words: the day-care centre is a **Chrippe** (or *Kita*), kindergarten is the *Chindsgi* (two years, from about four), then *d Schuel*. Homework is *Ufzgi*, and every child brings a *Znüni* (morning snack)."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m6/kita-school.svg",
+          "alt": "Path from Chrippe (day care) to Chindsgi (kindergarten, about age 4) to Schuel (school), with words Ufzgi (homework), Znüni (snack), Lehrerin, Pause.",
+          "caption": "From Chrippe to Schuel",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.733
+        },
+        {
+          "type": "text",
+          "markdown": "## Around school (practice)\n\n- *d Lehrerin / de Lehrer*: teacher · *d Pause*: break\n- *s Znüni*: morning snack · *d Ufzgi*: homework\n- *de Elterenabig*: parents' evening (Module 6.7)"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Si gaat i d Chrippe.\n\n- Say it: si GAAT i d CHRIP-pe\n- IPA: [si ɡ̊aːt i d̥ ˈxrɪpːə]\n- Hochdeutsch: Sie geht in die Kita.\n- English: She goes to day care."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Er gaat in Chindsgi.\n\n- Say it: er GAAT in CHINDS-gi\n- IPA: [ər ɡ̊aːt ɪn ˈxɪnd̥sɡ̊i]\n- Hochdeutsch: Er geht in den Kindergarten.\n- English: He goes to kindergarten."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Häsch d Ufzgi gmacht?\n\n- Say it: HÄSCH d UF-tsgi GMACHT\n- IPA: [hæʃ d̥ ˈuftsɡ̊i ɡ̊maxt]\n- Hochdeutsch: Hast du die Hausaufgaben gemacht?\n- English: Have you done your homework?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Häsch dis Znüni debii?\n\n- Say it: HÄSCH dis TSNÜÜ-ni de-BII\n- IPA: [hæʃ d̥iːs ˈtsnyːni d̥əˈb̥iː]\n- Hochdeutsch: Hast du deinen Znüni dabei?\n- English: Have you got your snack?\n- Note: *debii* = dabei."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** learn Chrippe, Chindsgi, Ufzgi and Znüni: you'll hear them every school day from teachers, children and other parents."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh6-l01-kita-school-fc1",
+              "front": "Chindsgi",
+              "back": "Kindergarten in Zurich: two years, from about age four."
+            },
+            {
+              "id": "zh6-l01-kita-school-fc2",
+              "front": "Ufzgi",
+              "back": "Homework (Hausaufgaben)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh6-l01-kita-school-q1",
+              "stem": "What's the *Chrippe*?",
+              "options": [
+                "A church",
+                "Day care (Kita)",
+                "A playground",
+                "A school bus"
+              ],
+              "correctIndex": 1,
+              "explanation": "Krippe → Chrippe."
+            },
+            {
+              "id": "zh6-l01-kita-school-q2",
+              "stem": "What do children bring as *Znüni*?",
+              "options": [
+                "Homework",
+                "A morning snack",
+                "A gym bag",
+                "A note from parents"
+              ],
+              "correctIndex": 1,
+              "explanation": "Snack around nine."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh6-l02-pickup",
+      "title": "Pick-up and playground: other parents",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The best dialect practice\n\nOther parents at the school gate and the **Spielplatz** (playground) are patient, regular conversation partners. Most will say *du* immediately. Playdates are arranged with *abmache*."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m6/pickup.svg",
+          "alt": "Playground dialogue between two parents: Weles Chind isch dis? Mini Tochter heisst Mia. Wänd mer emal abmache? Chunt er zu eus cho spile?",
+          "caption": "At the playground",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Useful words (practice)\n\n- *weles*: which (one) · *emal*: some time\n- *abmache*: to arrange (to meet)\n- *spile*: to play · *cho spile*: come to play (verb doubling)"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Weles Chind isch dis?\n\n- Say it: WE-les CHIND isch DIS\n- IPA: [ˈʋeləs xɪnd̥ ɪʃ d̥iːs]\n- Hochdeutsch: Welches Kind ist deins?\n- English: Which child is yours?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mini Tochter heisst Mia.\n\n- Say it: MI-ni TOCH-ter HEISST MI-a\n- IPA: [ˈmini ˈtɔxtər hei̯st ˈmia]\n- Hochdeutsch: Meine Tochter heisst Mia.\n- English: My daughter is called Mia."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wänd mer emal abmache?\n\n- Say it: WÄND mer e-MAL AB-ma-che\n- IPA: [ʋænd̥ mər əˈmal ˈab̥maxə]\n- Hochdeutsch: Wollen wir mal abmachen?\n- English: Shall we arrange a playdate?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Chunt er zu eus cho spile?\n\n- Say it: CHUNT er tsu EUS cho SCHPI-le\n- IPA: [xʊnt ər tsu eu̯s xo ˈʃpilə]\n- Hochdeutsch: Kommt er zu uns spielen?\n- English: Is he coming to play at ours?"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** use pick-up time for a few dialect sentences every day; arrange a playdate with Wänd mer emal abmache?"
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh6-l02-pickup-fc1",
+              "front": "abmache",
+              "back": "To arrange to meet (a playdate, an appointment)."
+            },
+            {
+              "id": "zh6-l02-pickup-fc2",
+              "front": "Spielplatz",
+              "back": "Playground; spile = to play."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh6-l02-pickup-q1",
+              "stem": "What does *Wänd mer emal abmache?* suggest?",
+              "options": [
+                "Leaving now",
+                "Arranging to meet",
+                "Making dinner",
+                "Tidying up"
+              ],
+              "correctIndex": 1,
+              "explanation": "abmache = arrange."
+            },
+            {
+              "id": "zh6-l02-pickup-q2",
+              "stem": "How do you ask which child is someone's?",
+              "options": [
+                "Wo isch dis Chind?",
+                "Weles Chind isch dis?",
+                "Wie heisst dis?",
+                "Wer bisch du?"
+              ],
+              "correctIndex": 1,
+              "explanation": "weles = which."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh6-l03-talking-to-kids",
+      "title": "Talking to children",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Short and warm\n\nWith children, dialect is the natural choice: High German sounds like school to Swiss kids. Commands use the short form of the verb (**imperative**): *Chumm!*, *Lueg!*, *Los!*, *Tue nöd so!*"
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m6/kids-phrases.svg",
+          "alt": "Four groups of phrases: praise (Super gmacht!), rules (Tue nöd so!, Nöd uf d Strass!), moving on (Chumm, mir gönd!), comfort (Häsch dir weh ta? Es isch guet, ich bi da).",
+          "caption": "Phrases for children",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Groups of phrases (practice)\n\n- **Praise:** *Super gmacht!*, *Bravo!*\n- **Rules:** *Tue nöd so!* (stop that), *Nöd uf d Strass!*\n- **Moving on:** *Chumm, mir gönd!*\n- **Comfort:** *Häsch dir weh ta?*, *Es isch guet, ich bi da.*"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Super gmacht!\n\n- Say it: SU-per GMACHT\n- IPA: [ˈsupər ɡ̊maxt]\n- Hochdeutsch: Super gemacht!\n- English: Well done!"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Tue nöd so!\n\n- Say it: TU-e NÖD SO\n- IPA: [tuə̯ nœd̥ so]\n- Hochdeutsch: Hör auf damit!\n- English: Stop that!"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Chumm, mir gönd!\n\n- Say it: CHUMM, mir GÖND\n- IPA: [xʊm mir ɡ̊œnd̥]\n- Hochdeutsch: Komm, wir gehen!\n- English: Come on, let's go!"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Häsch dir weh ta?\n\n- Say it: HÄSCH dir WEH TA\n- IPA: [hæʃ d̥iər ʋeː ta]\n- Hochdeutsch: Hast du dir wehgetan?\n- English: Did you hurt yourself?"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** talk to children in dialect, even simply: short commands, praise and comfort. They'll correct you, and that's the point."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh6-l03-talking-to-kids-fc1",
+              "front": "Tue nöd so!",
+              "back": "Stop that! (literally: don't do like that)."
+            },
+            {
+              "id": "zh6-l03-talking-to-kids-fc2",
+              "front": "Chumm!",
+              "back": "Come! Imperative of cho: Chumm, mir gönd!"
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh6-l03-talking-to-kids-q1",
+              "stem": "What does *Tue nöd so!* mean?",
+              "options": [
+                "Don't be sad",
+                "Stop that!",
+                "Don't go!",
+                "Be quiet"
+              ],
+              "correctIndex": 1,
+              "explanation": "A common family command."
+            },
+            {
+              "id": "zh6-l03-talking-to-kids-q2",
+              "stem": "A child falls. What do you ask?",
+              "options": [
+                "Häsch Ziit?",
+                "Häsch dir weh ta?",
+                "Wo bisch?",
+                "Häsch Hunger?"
+              ],
+              "correctIndex": 1,
+              "explanation": "Did you hurt yourself?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh6-l04-rhymes",
+      "title": "Traditional rhymes and songs",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Old rhymes, new learners\n\nTraditional nursery rhymes are short, rhythmic and full of dialect sounds. The ones here are old folk material, centuries old and free to use. One of the best known is the knee-bouncing rhyme **Rite, rite Rössli** (Ride, ride, little horse)."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m6/rhymes.svg",
+          "alt": "Three bits of tradition shown as text: the rhyme Rite, rite Rössli, the lullaby line Schlaf, Chindli, schlaf, and the story opener Es isch emal.",
+          "caption": "Traditional rhymes",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 3.28
+        },
+        {
+          "type": "text",
+          "markdown": "## Why they help\n\n- Rhythm drills **initial stress**: *RI-te, RI-te RÖSS-li*.\n- *-li* is everywhere: *Rössli*, *Schlössli*, *Chindli*.\n- Kids love *Nomal!* (again!), so you get the repetition for free."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Rite, rite Rössli\n\n- Say it: RI-te, RI-te RÖSS-li\n- IPA: [ˈritə ˈritə ˈrœsːli]\n- Hochdeutsch: Reite, reite Rösslein\n- English: Ride, ride, little horse\n- Note: In the rhyme it's usually said short: *rite*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Es isch emal …\n\n- Say it: es isch e-MAL\n- IPA: [əs ɪʃ əˈmal]\n- Hochdeutsch: Es war einmal …\n- English: Once upon a time …\n- Note: The story opener: perfect, not *war*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Schlaf, Chindli, schlaf.\n\n- Say it: SCHLAF, CHIND-li, SCHLAF\n- IPA: [ʃlaf ˈxɪnd̥li ʃlaf]\n- Hochdeutsch: Schlaf, Kindlein, schlaf.\n- English: Sleep, little child, sleep.\n- Note: The Swiss version of the old lullaby."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Nomal, nomal!\n\n- Say it: NO-mal, NO-mal\n- IPA: [ˈnoːmal ˈnoːmal]\n- Hochdeutsch: Nochmal, nochmal!\n- English: Again, again!"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** learn one rhyme by heart and use it with children: the rhythm trains stress and -li better than any drill."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh6-l04-rhymes-fc1",
+              "front": "Rite, rite Rössli",
+              "back": "A traditional knee-bouncing rhyme: ride, ride, little horse."
+            },
+            {
+              "id": "zh6-l04-rhymes-fc2",
+              "front": "Nomal!",
+              "back": "Again! (nochmal), the word every child says after a rhyme."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh6-l04-rhymes-q1",
+              "stem": "What's a *Rössli*?",
+              "options": [
+                "A little rose",
+                "A little horse",
+                "A little castle",
+                "A little child"
+              ],
+              "correctIndex": 1,
+              "explanation": "Ross + -li."
+            },
+            {
+              "id": "zh6-l04-rhymes-q2",
+              "stem": "What does *Nomal!* mean?",
+              "options": [
+                "No more!",
+                "Again!",
+                "Normal",
+                "Good night"
+              ],
+              "correctIndex": 1,
+              "explanation": "nochmal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Folk material** — traditional Swiss German nursery rhymes and the lullaby 'Schlaf, Kindlein, schlaf' (17th century or older), in the public domain.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh6-l05-customs",
+      "title": "Zurich customs through the year",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A year of traditions\n\n- **November:** *Räbeliechtli-Umzug*, children walk with lanterns carved from turnips.\n- **6 December:** the *Samichlaus* (St Nicholas) visits with *Schmutzli*, bringing nuts, mandarins and gingerbread.\n- **April:** *Sechseläuten*, Zurich's spring festival, when the *Böögg* (a snowman figure) is burned; the faster its head explodes, the better the summer, so the story goes."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m6/customs.svg",
+          "alt": "A year timeline: November Räbeliechtli lantern walk, 6 December Samichlaus, New Year E guets Neus, April Sechseläuten with the burning Böögg.",
+          "caption": "Zurich customs through the year",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.733
+        },
+        {
+          "type": "text",
+          "markdown": "## Greetings for the season (practice)\n\n- *E guets Neus!*: Happy New Year (from about Christmas to mid-January)\n- *Schöni Wiehnachte!*: Merry Christmas\n- *Schöni Feschttäg!*: happy holidays"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: De Räbeliechtli-Umzug\n\n- Say it: de RÄ-be-liecht-li UM-tsug\n- IPA: [d̥ə ˈræb̥əliə̯xtli ˈʊmtsuɡ̊]\n- Hochdeutsch: Der Rübenlichter-Umzug\n- English: The turnip-lantern procession"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: De Samichlaus chunt!\n\n- Say it: de SA-mi-chlaus CHUNT\n- IPA: [d̥ə ˈsamixlau̯s xʊnt]\n- Hochdeutsch: Der Nikolaus kommt!\n- English: St Nicholas is coming!"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: De Böögg brännt.\n\n- Say it: de BÖÖGG BRÄNNT\n- IPA: [d̥ə b̥øːɡ̊ brænt]\n- Hochdeutsch: Der Böögg brennt.\n- English: The Böögg is burning."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: E guets Neus!\n\n- Say it: e GU-ets NÖIS\n- IPA: [ə ɡ̊uə̯ts nøi̯s]\n- Hochdeutsch: Ein gutes neues Jahr!\n- English: Happy New Year!"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** go to the Räbeliechtli walk and the Samichlaus visit with your family; they're the friendliest dialect events of the year."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh6-l05-customs-fc1",
+              "front": "Samichlaus",
+              "back": "St Nicholas, who visits on 6 December with Schmutzli."
+            },
+            {
+              "id": "zh6-l05-customs-fc2",
+              "front": "Böögg",
+              "back": "The snowman figure burned at Sechseläuten in April."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh6-l05-customs-q1",
+              "stem": "What happens at the *Räbeliechtli-Umzug*?",
+              "options": [
+                "A parade with cows",
+                "Children walk with turnip lanterns",
+                "A ski race",
+                "A fireworks show"
+              ],
+              "correctIndex": 1,
+              "explanation": "Räbe = turnips."
+            },
+            {
+              "id": "zh6-l05-customs-q2",
+              "stem": "When do you say *E guets Neus*?",
+              "options": [
+                "At Easter",
+                "Around New Year",
+                "On birthdays",
+                "In summer"
+              ],
+              "correctIndex": 1,
+              "explanation": "Happy New Year."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh6-l06-meals-bedtime",
+      "title": "Meals and bedtime at home",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The z-meals\n\nSwiss meal names all start with *z*: **Zmorge** (breakfast), *Znüni* (mid-morning snack), *Zmittag* (lunch), *Zvieri* (afternoon snack), *Znacht* (dinner). *Z* means 'at' or 'for': *z Morge* = in the morning."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m6/meals-day.svg",
+          "alt": "A day timeline: Zmorge at 7, Znüni at 9, Zmittag at 12, Zvieri at 4, Znacht at 7, then Zähnli butze and Guet Nacht.",
+          "caption": "A family day in meals",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.733
+        },
+        {
+          "type": "text",
+          "markdown": "## Bedtime (practice)\n\n- *Ab is Bett!*: off to bed · *Zähnli butze*: brush your teeth\n- *S Ässe isch parat!*: food's ready\n- *Guet Nacht, schlaf guet!*: good night, sleep well"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: S Ässe isch parat!\n\n- Say it: s ÄS-se isch pa-RAAT\n- IPA: [s ˈæsːə ɪʃ paˈraːt]\n- Hochdeutsch: Das Essen ist fertig!\n- English: Food's ready!"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Was gits zum Znacht?\n\n- Say it: WAS GITS tsum TSNACHT\n- IPA: [ʋas ɡ̊ɪts tsʊm tsnaxt]\n- Hochdeutsch: Was gibt es zum Abendessen?\n- English: What's for dinner?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ab is Bett, Zähnli butze!\n\n- Say it: AB is BETT, TSÄHN-li BUT-ze\n- IPA: [ab ɪs b̥et ˈtsæːnli ˈb̥utsə]\n- Hochdeutsch: Ab ins Bett, Zähne putzen!\n- English: Off to bed, brush your teeth!"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Guet Nacht, schlaf guet!\n\n- Say it: GU-et NACHT, SCHLAF GU-et\n- IPA: [ɡ̊uə̯t naxt ʃlaf ɡ̊uə̯t]\n- Hochdeutsch: Gute Nacht, schlaf gut!\n- English: Good night, sleep well!"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** use the z-meal words every day at home; they're the same in every Swiss family."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh6-l06-meals-bedtime-fc1",
+              "front": "Zmorge, Zmittag, Znacht",
+              "back": "Breakfast, lunch, dinner. Plus Znüni and Zvieri as snacks."
+            },
+            {
+              "id": "zh6-l06-meals-bedtime-fc2",
+              "front": "butze",
+              "back": "To clean, brush: Zähnli butze."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh6-l06-meals-bedtime-q1",
+              "stem": "What's *Znacht*?",
+              "options": [
+                "Midnight",
+                "Dinner",
+                "A night-light",
+                "Breakfast"
+              ],
+              "correctIndex": 1,
+              "explanation": "The evening meal."
+            },
+            {
+              "id": "zh6-l06-meals-bedtime-q2",
+              "stem": "What does *Zähnli butze* mean?",
+              "options": [
+                "Count your teeth",
+                "Brush your teeth",
+                "Lose a tooth",
+                "Go to the dentist"
+              ],
+              "correctIndex": 1,
+              "explanation": "putzen → butze."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh6-l07-recap",
+      "title": "Recap: a parents' evening",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Putting it together\n\nA **Elterenabig** (parents' evening) or a teacher meeting uses phrases from Modules 3 to 6: introductions, polite Si, the perfect, and school words. Teachers often speak dialect with Swiss parents; you can ask for it."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m6/parents-evening.svg",
+          "alt": "Parents' evening dialogue: Grüezi, ich bi de Vater vom Noah. Wie gaats ihm i de Schuel? Er hät e chli Müe mit em Läse. Merci vilmal für d Ziit.",
+          "caption": "At the parents' evening",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## What to notice\n\n- *vom Noah*: von + dem, with the name.\n- *Müe ha mit …*: to struggle with (Mühe → Müe).\n- *Merci vilmal für d Ziit*: a warm, polite close."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Grüezi, ich bi de Vater vom Noah.\n\n- Say it: GRÜ-e-tsi, ich bi de FAT-ter vom NO-a\n- IPA: [ˈɡ̊ryə̯tsi ɪx b̥i d̥ə ˈfatːər fɔm ˈnoa]\n- Hochdeutsch: Guten Tag, ich bin der Vater von Noah.\n- English: Hello, I'm Noah's father.\n- Note: Or *d Mueter vo de Mia*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wie gaats ihm i de Schuel?\n\n- Say it: WIE GAATS IHM i de SCHU-el\n- IPA: [ʋiə̯ ɡ̊aːts iəm i d̥ə ʃuə̯l]\n- Hochdeutsch: Wie geht es ihm in der Schule?\n- English: How is he doing at school?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Er hät e chli Müe mit em Läse.\n\n- Say it: er HÄT e chli MÜ-e mit em LÄ-se\n- IPA: [ər hæt ə xli myə̯ mɪt əm ˈlæsə]\n- Hochdeutsch: Er hat etwas Mühe mit dem Lesen.\n- English: He's struggling a little with reading."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Merci vilmal für d Ziit.\n\n- Say it: MER-si FIL-mal für d TSIIT\n- IPA: [ˈmærsi ˈfɪlmal fyr d̥ tsiːt]\n- Hochdeutsch: Vielen Dank für die Zeit.\n- English: Thanks a lot for your time."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** prepare three dialect sentences before any school meeting: who you are, a question, and a thank-you. Switch to High German for details if needed."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh6-l07-recap-fc1",
+              "front": "Elterenabig",
+              "back": "Parents' evening at school."
+            },
+            {
+              "id": "zh6-l07-recap-fc2",
+              "front": "Müe ha mit …",
+              "back": "To struggle with … (Mühe haben mit)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh6-l07-recap-q1",
+              "stem": "What does *Er hät e chli Müe mit em Läse* mean?",
+              "options": [
+                "He loves reading",
+                "He struggles a bit with reading",
+                "He reads every evening",
+                "He forgot his book"
+              ],
+              "correctIndex": 1,
+              "explanation": "Mühe → Müe."
+            },
+            {
+              "id": "zh6-l07-recap-q2",
+              "stem": "How do you introduce yourself as Mia's mother?",
+              "options": [
+                "Ich bi d Mueter vo de Mia.",
+                "Ich bi Mias Mutter.",
+                "Ich heisse Mueter Mia.",
+                "Ich bi de Mia ihri."
+              ],
+              "correctIndex": 0,
+              "explanation": "vo de + name."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}

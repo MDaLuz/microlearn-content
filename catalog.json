@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "glossary": {
     "path": "glossary.json",
-    "version": 29
+    "version": 30
   },
   "categories": {
     "Training": {
@@ -494,6 +494,48 @@
       "estimatedMinutes": 50,
       "accentColor": "#6B7280",
       "reviews": "reviews/zh-m6-family.reviews.json",
+      "reviewsVersion": 1,
+      "audio": true
+    },
+    {
+      "id": "zh-m7-work",
+      "title": "Züritüütsch 7: Work small talk",
+      "discipline": "Languages",
+      "description": "Coffee and lunch, work words, meetings, loanwords, Swiss politeness and the Apéro",
+      "file": "modules/zh-m7-work.json",
+      "version": 1,
+      "lessonCount": 6,
+      "estimatedMinutes": 40,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/zh-m7-work.reviews.json",
+      "reviewsVersion": 1,
+      "audio": true
+    },
+    {
+      "id": "zh-m8-real-speech",
+      "title": "Züritüütsch 8: Understanding real speech",
+      "discipline": "Languages",
+      "description": "Fast speech, fillers, slang, swear words, other dialects, Helvetisms and listening strategies",
+      "file": "modules/zh-m8-real-speech.json",
+      "version": 1,
+      "lessonCount": 7,
+      "estimatedMinutes": 50,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/zh-m8-real-speech.reviews.json",
+      "reviewsVersion": 1,
+      "audio": true
+    },
+    {
+      "id": "zh-m9-capstone",
+      "title": "Züritüütsch 9: Capstone: speak it",
+      "discipline": "Languages",
+      "description": "Your introduction, a phone call, dinner with neighbours, storytelling, your phrasebook and a routine",
+      "file": "modules/zh-m9-capstone.json",
+      "version": 1,
+      "lessonCount": 6,
+      "estimatedMinutes": 40,
+      "accentColor": "#6B7280",
+      "reviews": "reviews/zh-m9-capstone.reviews.json",
       "reviewsVersion": 1,
       "audio": true
     }

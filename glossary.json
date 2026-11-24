@@ -1,5 +1,5 @@
 {
-  "version": 29,
+  "version": 30,
   "updated": "2026-11-24",
   "entries": [
     {
@@ -8844,6 +8844,258 @@
       ],
       "modules": [
         "zh-m6-family"
+      ]
+    },
+    {
+      "id": "fiirabig",
+      "term": "Fiirabig",
+      "aliases": [
+        "Feierabend"
+      ],
+      "category": "swiss-german",
+      "short": "The end of the working day; Schöne Fiirabig! wishes someone a nice evening after work.",
+      "simpler": "Time off after work.",
+      "example": {
+        "moduleId": "zh-m7-work",
+        "text": "Lesson 7.1: said when leaving the office."
+      },
+      "notToConfuse": "Not a public holiday (Fiirtig).",
+      "related": [
+        "bueez"
+      ],
+      "modules": [
+        "zh-m7-work"
+      ]
+    },
+    {
+      "id": "bueez",
+      "term": "Büez",
+      "aliases": [
+        "chrampfe"
+      ],
+      "category": "swiss-german",
+      "short": "Colloquial for work or a job; chrampfe means to toil and sträng means strenuous.",
+      "simpler": "Work, a job.",
+      "example": {
+        "moduleId": "zh-m7-work",
+        "text": "Lesson 7.2: Das isch e strängi Büez."
+      },
+      "notToConfuse": "Not a bus.",
+      "related": [
+        "fiirabig"
+      ],
+      "modules": [
+        "zh-m7-work"
+      ]
+    },
+    {
+      "id": "apero",
+      "term": "Apéro",
+      "aliases": [
+        "Apéro riche"
+      ],
+      "category": "swiss-german",
+      "short": "An after-work drink or small standing reception, often with snacks: the most relaxed setting for work dialect.",
+      "simpler": "After-work drinks.",
+      "example": {
+        "moduleId": "zh-m7-work",
+        "text": "Lesson 7.6: Chunsch au as Apéro?"
+      },
+      "notToConfuse": "Not a full dinner.",
+      "related": [
+        "fiirabig"
+      ],
+      "modules": [
+        "zh-m7-work"
+      ]
+    },
+    {
+      "id": "swiss-understatement",
+      "term": "Swiss understatement",
+      "aliases": [
+        "Das isch no schwierig"
+      ],
+      "category": "swiss-german",
+      "short": "Indirect Swiss workplace style: suggestions as possibilities (Mer chönnt …) and polite no's like Das isch no schwierig.",
+      "simpler": "Saying no without saying no.",
+      "example": {
+        "moduleId": "zh-m7-work",
+        "text": "Lesson 7.5: Das isch no schwierig often means no."
+      },
+      "notToConfuse": "Not uncertainty: it's often a clear message.",
+      "related": [
+        "apero"
+      ],
+      "modules": [
+        "zh-m7-work"
+      ]
+    },
+    {
+      "id": "oder-tag",
+      "term": "oder? (tag)",
+      "aliases": [
+        "gäll"
+      ],
+      "category": "swiss-german",
+      "short": "A tag at the end of a sentence asking for agreement, like 'right?'; gäll does the same, more personally.",
+      "simpler": "Right?",
+      "example": {
+        "moduleId": "zh-m8-real-speech",
+        "text": "Lesson 8.2: Das isch guet, oder?"
+      },
+      "notToConfuse": "Not 'or' offering an alternative.",
+      "related": [
+        "ebe"
+      ],
+      "modules": [
+        "zh-m8-real-speech"
+      ]
+    },
+    {
+      "id": "ebe",
+      "term": "ebe",
+      "aliases": [
+        "eben"
+      ],
+      "category": "swiss-german",
+      "short": "Exactly; that's the thing. Used when someone says what you meant.",
+      "simpler": "Exactly!",
+      "example": {
+        "moduleId": "zh-m8-real-speech",
+        "text": "Lesson 8.2: Ebe!"
+      },
+      "notToConfuse": "Not 'flat' or 'just now' here.",
+      "related": [
+        "oder-tag"
+      ],
+      "modules": [
+        "zh-m8-real-speech"
+      ]
+    },
+    {
+      "id": "mega",
+      "term": "mega",
+      "aliases": [
+        "intensifier"
+      ],
+      "category": "swiss-german",
+      "short": "The neutral Swiss intensifier meaning very, fine in any setting; huere is the vulgar alternative.",
+      "simpler": "Very.",
+      "example": {
+        "moduleId": "zh-m8-real-speech",
+        "text": "Lesson 8.3: Das isch mega guet!"
+      },
+      "notToConfuse": "Not vulgar, unlike huere.",
+      "related": [
+        "seich"
+      ],
+      "modules": [
+        "zh-m8-real-speech"
+      ]
+    },
+    {
+      "id": "seich",
+      "term": "Seich",
+      "aliases": [
+        "So en Seich"
+      ],
+      "category": "swiss-german",
+      "short": "Nonsense; So en Seich! is a mild, very common exclamation.",
+      "simpler": "Nonsense.",
+      "example": {
+        "moduleId": "zh-m8-real-speech",
+        "text": "Lesson 8.4: So en Seich!"
+      },
+      "notToConfuse": "Not a strong swear word.",
+      "related": [
+        "mega"
+      ],
+      "modules": [
+        "zh-m8-real-speech"
+      ]
+    },
+    {
+      "id": "helvetism",
+      "term": "Helvetism",
+      "aliases": [
+        "Helvetismus"
+      ],
+      "category": "swiss-german",
+      "short": "A word or form specific to Swiss Standard German, used in writing and speech: Velo, parkieren, Trottoir, Glace, Spital.",
+      "simpler": "A Swiss word in High German.",
+      "example": {
+        "moduleId": "zh-m8-real-speech",
+        "text": "Lesson 8.6: Ich parkier s Auto vor em Spital."
+      },
+      "notToConfuse": "Not dialect only: Helvetisms are standard in Switzerland.",
+      "related": [
+        "swiss-standard-german"
+      ],
+      "modules": [
+        "zh-m8-real-speech"
+      ]
+    },
+    {
+      "id": "grueessech",
+      "term": "Grüessech",
+      "aliases": [
+        "Bern greeting"
+      ],
+      "category": "swiss-german",
+      "short": "The formal greeting in Bern German, the equivalent of Zurich's Grüezi.",
+      "simpler": "Bern's Grüezi.",
+      "example": {
+        "moduleId": "zh-m8-real-speech",
+        "text": "Lesson 8.5: recognising Bern speakers."
+      },
+      "notToConfuse": "Not a Zurich form.",
+      "related": [
+        "grueezi"
+      ],
+      "modules": [
+        "zh-m8-real-speech"
+      ]
+    },
+    {
+      "id": "uf-widerhoeoere",
+      "term": "Uf Widerhööre",
+      "aliases": [
+        "phone goodbye"
+      ],
+      "category": "swiss-german",
+      "short": "Goodbye on the phone ('until we hear again'), instead of Uf Widerluege.",
+      "simpler": "Phone goodbye.",
+      "example": {
+        "moduleId": "zh-m9-capstone",
+        "text": "Lesson 9.2: ending an appointment call."
+      },
+      "notToConfuse": "Not for face-to-face goodbyes.",
+      "related": [
+        "grueezi"
+      ],
+      "modules": [
+        "zh-m9-capstone"
+      ]
+    },
+    {
+      "id": "iiladig",
+      "term": "Iiladig",
+      "aliases": [
+        "Einladung"
+      ],
+      "category": "swiss-german",
+      "short": "Invitation; Merci für d Iiladig thanks your hosts. Shows ei → ii and -ung → -ig.",
+      "simpler": "Invitation.",
+      "example": {
+        "moduleId": "zh-m9-capstone",
+        "text": "Lesson 9.3: Merci für d Iiladig."
+      },
+      "notToConfuse": "Not an order or a delivery.",
+      "related": [
+        "uf-widerhoeoere"
+      ],
+      "modules": [
+        "zh-m9-capstone"
       ]
     }
   ]

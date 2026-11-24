@@ -1,0 +1,674 @@
+{
+  "schemaVersion": 6,
+  "id": "zh-m8-real-speech",
+  "title": "Züritüütsch 8: Understanding real speech",
+  "discipline": "Languages",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "zh8-l01-fast-speech",
+      "title": "Fast speech: contractions and swallowed syllables",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Why it sounds different from the course\n\nIn fast speech, short words fuse and vowels disappear. You know some already (*hämmer*, *gömmer*). Others: *Hämmers?* (Are we done?), *Was isch los?* said as *Wasch los?*, *Wotsch?* (Do you want?), *Kei Ahnig* (no idea)."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m8/fast-speech.svg",
+          "alt": "Slow forms and their fast versions: Händ mir s? to Hämmers?, Was isch los? to Wasch los?, Wottsch du? to Wotsch?, Ich weiss es nöd to Weiss nöd.",
+          "caption": "Slow and fast forms",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Listening tip (practice)\n\nListen for the stressed content words and let the small words blur. If you catch *Ahnig*, *los* or *hämmers*, you usually have the meaning."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Hämmers?\n\n- Say it: HÄM-mers\n- IPA: [ˈhæmːərs]\n- Hochdeutsch: Haben wir es? / Sind wir fertig?\n- English: Are we done?\n- Note: Very common at the end of tasks."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Was isch los?\n\n- Say it: WAS isch LOS\n- IPA: [ʋas ɪʃ los]\n- Hochdeutsch: Was ist los?\n- English: What's up? / What's wrong?\n- Note: Fast: *Wasch los?*"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wotsch öppis?\n\n- Say it: WOTSCH ÖP-pis\n- IPA: [ʋɔtʃ ˈœpːɪs]\n- Hochdeutsch: Willst du etwas?\n- English: Do you want something?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Kei Ahnig.\n\n- Say it: KEI A-nig\n- IPA: [kei̯ ˈaːnɪɡ̊]\n- Hochdeutsch: Keine Ahnung.\n- English: No idea.\n- Note: *-ung* → *-ig*."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** don't try to catch every syllable in fast speech: anchor on stressed words like los, Ahnig and hämmers."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh8-l01-fast-speech-fc1",
+              "front": "Hämmers?",
+              "back": "Are we done? (Händ mir s?)"
+            },
+            {
+              "id": "zh8-l01-fast-speech-fc2",
+              "front": "Kei Ahnig",
+              "back": "No idea (keine Ahnung)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh8-l01-fast-speech-q1",
+              "stem": "What does *Hämmers?* usually mean?",
+              "options": [
+                "Do we have a hammer?",
+                "Are we done?",
+                "Shall we eat?",
+                "Who has it?"
+              ],
+              "correctIndex": 1,
+              "explanation": "Händ mir s?"
+            },
+            {
+              "id": "zh8-l01-fast-speech-q2",
+              "stem": "What's *Kei Ahnig*?",
+              "options": [
+                "No time",
+                "No idea",
+                "No problem",
+                "No way"
+              ],
+              "correctIndex": 1,
+              "explanation": "Ahnung → Ahnig."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh8-l02-fillers",
+      "title": "Fillers and tags: gäll, oder, ebe, halt",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Small words, big meaning\n\n- **oder?** at the end: 'right?', 'isn't it?' (*Das isch guet, oder?*)\n- *gäll*: 'right?', more personal, often at the start\n- *ebe*: 'exactly', 'that's the thing'\n- *halt*: 'just', 'simply' (*Es isch halt eso*)"
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m8/fillers.svg",
+          "alt": "Four filler words with meanings: oder? (right?), gäll (right?, personal), ebe (exactly, that's the thing), halt (just, simply), each with an example.",
+          "caption": "Fillers and tags",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Don't overdo it\n\nA learner who says *oder* after every sentence sounds odd. Use *oder?* when you really want agreement, and *ebe!* when someone states exactly what you meant."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Das isch guet, oder?\n\n- Say it: das isch GU-et, O-der\n- IPA: [d̥as ɪʃ ɡ̊uə̯t ˈod̥ər]\n- Hochdeutsch: Das ist gut, nicht wahr?\n- English: That's good, isn't it?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Gäll, du chunsch au?\n\n- Say it: GÄLL, du CHUNSCH AU\n- IPA: [ɡ̊æl d̥u xʊnʃ au̯]\n- Hochdeutsch: Du kommst doch auch, oder?\n- English: You're coming too, right?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ebe!\n\n- Say it: E-be\n- IPA: [ˈeb̥ə]\n- Hochdeutsch: Eben! / Genau!\n- English: Exactly!"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Es isch halt eso.\n\n- Say it: es isch HALT e-SO\n- IPA: [əs ɪʃ halt əˈso]\n- Hochdeutsch: Es ist halt so.\n- English: That's just how it is."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** recognise oder?, gäll, ebe and halt in every conversation, and use them sparingly yourself."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh8-l02-fillers-fc1",
+              "front": "oder? (tag)",
+              "back": "Right? isn't it? at the end of a sentence."
+            },
+            {
+              "id": "zh8-l02-fillers-fc2",
+              "front": "ebe",
+              "back": "Exactly! That's the thing."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh8-l02-fillers-q1",
+              "stem": "A colleague ends with *…, oder?* What does she want?",
+              "options": [
+                "An alternative",
+                "Your agreement",
+                "You to leave",
+                "A repeat"
+              ],
+              "correctIndex": 1,
+              "explanation": "A tag question."
+            },
+            {
+              "id": "zh8-l02-fillers-q2",
+              "stem": "What does *Ebe!* mean?",
+              "options": [
+                "Evening",
+                "Exactly!",
+                "Just now",
+                "Even"
+              ],
+              "correctIndex": 1,
+              "explanation": "Eben, genau."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh8-l03-slang",
+      "title": "Youth slang and intensifiers",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Turning it up (practice)\n\nZurich speakers love intensifiers. **mega** (very) is everywhere and neutral. *uu* (Zurich youth: *uu schön*) and *voll* are casual. *huere* is a vulgar intensifier: very common among friends, but avoid it at work and with children."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m8/slang.svg",
+          "alt": "Intensifiers on a scale from neutral to vulgar: mega (neutral), voll and uu (casual), huere (vulgar, avoid at work); plus lässig (cool) and krass (wow).",
+          "caption": "Intensifiers by register",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.562
+        },
+        {
+          "type": "text",
+          "markdown": "## Other words you'll hear\n\n- *lässig*: cool, nice\n- *krass*: wow, crazy\n- *Hammer!*: brilliant!\n\nRegister matters more than vocabulary: you can sound fluent and still too casual."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Das isch mega guet!\n\n- Say it: das isch ME-ga GU-et\n- IPA: [d̥as ɪʃ ˈmeɡ̊a ɡ̊uə̯t]\n- Hochdeutsch: Das ist sehr gut!\n- English: That's really good!\n- Note: Neutral; fine anywhere."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Lässig!\n\n- Say it: LÄS-sig\n- IPA: [ˈlæsːɪɡ̊]\n- Hochdeutsch: Cool!\n- English: Cool!"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Uu schön!\n\n- Say it: UU SCHÖN\n- IPA: [uː ʃøːn]\n- Hochdeutsch: Sehr schön!\n- English: So nice!\n- Note: Casual, typical of Zurich."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Das isch huere guet.\n\n- Say it: das isch HU-e-re GU-et\n- IPA: [d̥as ɪʃ ˈhuə̯rə ɡ̊uə̯t]\n- Hochdeutsch: Das ist verdammt gut.\n- English: That's damn good.\n- Note: Vulgar: recognise it, avoid it at work."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** use mega freely, lässig and uu with friends, and keep huere for recognition only."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh8-l03-slang-fc1",
+              "front": "mega",
+              "back": "Very: the neutral intensifier, fine anywhere."
+            },
+            {
+              "id": "zh8-l03-slang-fc2",
+              "front": "huere",
+              "back": "Vulgar intensifier: very common among friends, avoid at work and with children."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh8-l03-slang-q1",
+              "stem": "Which intensifier is safe at work?",
+              "options": [
+                "huere",
+                "mega",
+                "voll",
+                "uu"
+              ],
+              "correctIndex": 1,
+              "explanation": "mega is neutral."
+            },
+            {
+              "id": "zh8-l03-slang-q2",
+              "stem": "What does *lässig* mean?",
+              "options": [
+                "Lazy",
+                "Cool, nice",
+                "Late",
+                "Loud"
+              ],
+              "correctIndex": 1,
+              "explanation": "Swiss 'cool'."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh8-l04-swearing",
+      "title": "Swear words: for recognition only",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Know them, don't use them\n\nYou'll hear swearing in football, traffic and kitchens. Most Swiss swear words are religious in origin. The mild ones are euphemisms: **Gopf** and *Gopfriedstutz* instead of the much stronger *Gopferdammi*. *Seich* (nonsense) and *Tubel* (idiot) are common everyday insults."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m8/swearing.svg",
+          "alt": "Swear words on a strength scale: mild Gopf, Gopfriedstutz, Seich (nonsense); medium Tubel (idiot); strong Gopferdammi. Label: for recognition only.",
+          "caption": "Swearing by strength",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.562
+        },
+        {
+          "type": "text",
+          "markdown": "## Strength scale (practice)\n\n- **Mild:** *Gopf!*, *Gopfriedstutz!*, *So en Seich!* (what nonsense)\n- **Medium:** *Tubel* (idiot): an insult\n- **Strong:** *Gopferdammi*: don't use it\n\nThe phrase cards include only the mild forms and one insult to recognise."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Gopf!\n\n- Say it: GOPF\n- IPA: [ɡ̊ɔpf]\n- Hochdeutsch: Verflixt!\n- English: Darn!\n- Note: Mild."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Gopfriedstutz!\n\n- Say it: GOPF-ried-schtutz\n- IPA: [ˈɡ̊ɔpfriə̯d̥ʃtʊts]\n- Hochdeutsch: Verflixt nochmal!\n- English: Darn it!\n- Note: A mild euphemism."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: So en Seich!\n\n- Say it: SO en SEICH\n- IPA: [so ən sei̯x]\n- Hochdeutsch: So ein Unsinn!\n- English: What nonsense!\n- Note: Mild; common."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: So en Tubel!\n\n- Say it: SO en TU-bel\n- IPA: [so ən ˈtub̥əl]\n- Hochdeutsch: So ein Idiot!\n- English: What an idiot!\n- Note: An insult: recognise, don't use."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** recognise these when you hear them; use at most Gopf or So en Seich, and never the strong forms."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh8-l04-swearing-fc1",
+              "front": "Seich",
+              "back": "Nonsense (mild): So en Seich!"
+            },
+            {
+              "id": "zh8-l04-swearing-fc2",
+              "front": "Gopf / Gopfriedstutz",
+              "back": "Mild euphemistic swearing, like 'darn'."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh8-l04-swearing-q1",
+              "stem": "Which is the mildest?",
+              "options": [
+                "Gopferdammi",
+                "Tubel",
+                "Gopf",
+                "huere"
+              ],
+              "correctIndex": 2,
+              "explanation": "A euphemism."
+            },
+            {
+              "id": "zh8-l04-swearing-q2",
+              "stem": "What does *So en Seich!* mean?",
+              "options": [
+                "What a shame!",
+                "What nonsense!",
+                "What luck!",
+                "What an idiot!"
+              ],
+              "correctIndex": 1,
+              "explanation": "Seich = nonsense."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh8-l05-other-dialects",
+      "title": "Recognising other dialects",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The main differences (practice)\n\n- **Bern:** *i* for ich, *nid* for not, l → u-like (*viu*, *Miuch*), formal greeting *Grüessech*, slower melody.\n- **Basel:** keeps k where Zurich has ch (*Kind*, not *Chind*), *nit* for not.\n- **Valais:** the hardest for other Swiss; old forms and a distinctive melody.\n- **Eastern Switzerland (St. Gallen):** fast, with its own vowels.\n- **Central Switzerland and Grisons:** close to Zurich in many ways."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m8/dialects.svg",
+          "alt": "One sentence in three dialects: Zurich Ich weiss es nöd, Bern I weiss es nid, Basel Ich weiss es nit; plus markers: Bern Grüessech and viu, Basel Kind with k.",
+          "caption": "Spotting the dialect",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## For recognition only\n\nThe phrase cards below are Bern and Basel forms so you recognise them. Keep speaking Zurich German yourself; mixing dialects sounds odd."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Grüessech!\n\n- Say it: GRÜ-es-sech\n- IPA: [ˈɡ̊ryə̯səx]\n- Hochdeutsch: Grüss Gott (Sie)\n- English: Hello (formal, Bern)\n- Note: Bern's formal greeting; Zurich says Grüezi."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Merci viumau!\n\n- Say it: MER-si FIU-mau\n- IPA: [ˈmærsi ˈfiumau̯]\n- Hochdeutsch: Vielen Dank!\n- English: Thanks a lot! (Bern)\n- Note: Zurich: Merci vilmal."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: I weiss es nid.\n\n- Say it: i WEISS es NID\n- IPA: [i ʋei̯s əs nid̥]\n- Hochdeutsch: Ich weiss es nicht.\n- English: I don't know. (Bern)"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich weiss es nit.\n\n- Say it: ich WEISS es NIT\n- IPA: [ɪx ʋei̯s əs nɪt]\n- Hochdeutsch: Ich weiss es nicht.\n- English: I don't know. (Basel)"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** use dialect markers to place speakers: i and nid for Bern, k and nit for Basel. Keep your own Zurich forms consistent."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh8-l05-other-dialects-fc1",
+              "front": "Grüessech",
+              "back": "Bern's formal greeting (Zurich: Grüezi)."
+            },
+            {
+              "id": "zh8-l05-other-dialects-fc2",
+              "front": "Basel k",
+              "back": "Basel keeps k where Zurich has ch: Kind, not Chind."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh8-l05-other-dialects-q1",
+              "stem": "Someone says *Grüessech*. Where are they likely from?",
+              "options": [
+                "Basel",
+                "Bern",
+                "Zurich",
+                "Valais"
+              ],
+              "correctIndex": 1,
+              "explanation": "Bern."
+            },
+            {
+              "id": "zh8-l05-other-dialects-q2",
+              "stem": "Which dialect says *Kind* rather than *Chind*?",
+              "options": [
+                "Bern",
+                "Basel",
+                "Zurich",
+                "St. Gallen"
+              ],
+              "correctIndex": 1,
+              "explanation": "Basel keeps k."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Atlas** — Christen H, Glaser E, Friedli M, *Kleiner Sprachatlas der deutschen Schweiz*, Frauenfeld 2010.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh8-l06-swiss-standard",
+      "title": "Swiss Standard German: Velo, parkieren, Glace",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Swiss words in High German\n\nEven when Swiss people write or speak High German, they use **Helvetisms**: *Velo* (bike), *parkieren* (to park), *Trottoir* (pavement), *Glace* (ice cream), *Spital* (hospital), *Pneu* (tyre), *grillieren* (to grill). They appear in newspapers and official texts too, so learn them as standard."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m8/helvetisms.svg",
+          "alt": "Helvetisms with German German equivalents: Velo (Fahrrad), parkieren (parken), Trottoir (Gehsteig), Glace (Eis), Spital (Krankenhaus), Pneu (Reifen), grillieren (grillen).",
+          "caption": "Swiss words in High German",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.929
+        },
+        {
+          "type": "text",
+          "markdown": "## In dialect too\n\nAll of them are also the normal dialect words, so they're doubly useful. Many come from French."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich parkier s Auto vor em Spital.\n\n- Say it: ich par-KIER s AU-to for em SCHPI-tal\n- IPA: [ɪx parˈkiər s ˈau̯to for əm ˈʃpitaːl]\n- Hochdeutsch: Ich parke das Auto vor dem Krankenhaus.\n- English: I'll park the car outside the hospital."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Es Glace, bitte.\n\n- Say it: es GLA-se, BIT-te\n- IPA: [əs ˈɡ̊lasə ˈb̥ɪtːə]\n- Hochdeutsch: Ein Eis, bitte.\n- English: An ice cream, please.\n- Note: *Glace* is neuter."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: De Pneu isch platt.\n\n- Say it: de PNEU isch PLATT\n- IPA: [d̥ə pnøi̯ ɪʃ plat]\n- Hochdeutsch: Der Reifen ist platt.\n- English: The tyre is flat."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Uf em Trottoir\n\n- Say it: uf em TROT-twar\n- IPA: [uf əm ˈtrɔtːʋar]\n- Hochdeutsch: Auf dem Gehsteig\n- English: On the pavement"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** use Helvetisms in both dialect and written High German: Velo, parkieren, Spital, Glace. They're standard in Switzerland."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh8-l06-swiss-standard-fc1",
+              "front": "Helvetism",
+              "back": "A word or form specific to Swiss Standard German: Velo, parkieren, Trottoir, Glace."
+            },
+            {
+              "id": "zh8-l06-swiss-standard-fc2",
+              "front": "Spital",
+              "back": "Hospital (Krankenhaus)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh8-l06-swiss-standard-q1",
+              "stem": "What's a *Pneu*?",
+              "options": [
+                "A pneumonia",
+                "A tyre",
+                "A pen",
+                "A newspaper"
+              ],
+              "correctIndex": 1,
+              "explanation": "Reifen."
+            },
+            {
+              "id": "zh8-l06-swiss-standard-q2",
+              "stem": "Where do Helvetisms appear?",
+              "options": [
+                "Only in dialect",
+                "In dialect and in Swiss High German texts",
+                "Only in Bern",
+                "Only in old books"
+              ],
+              "correctIndex": 1,
+              "explanation": "They're standard in Switzerland."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Atlas** — Christen H, Glaser E, Friedli M, *Kleiner Sprachatlas der deutschen Schweiz*, Frauenfeld 2010.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh8-l07-listening",
+      "title": "Listening strategies for real speech",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## How to understand more (practice)\n\n1. **Context first:** guess what someone will say before they say it.\n2. **Stressed words:** catch the nouns and verbs, let small words blur.\n3. **Sound rules in reverse:** *Ziit* → Zeit, *Chuchi* → Küche.\n4. **Check:** paraphrase back what you understood.\n\nMany SRF programmes offer subtitles, which help you connect dialect sounds to written words."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m8/listening.svg",
+          "alt": "Four listening strategies in a cycle: predict from context, catch stressed words, reverse the sound rules, check by paraphrasing back.",
+          "caption": "A listening cycle",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.278
+        },
+        {
+          "type": "text",
+          "markdown": "## Checking phrases\n\nParaphrasing back is the best repair strategy at B1/B2: it shows you understood most of it and invites a correction."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Han ich das richtig verstande?\n\n- Say it: HAN ich das RICH-tig fer-SCHTAN-de\n- IPA: [han ɪx d̥as ˈrɪxtɪɡ̊ fərˈʃtand̥ə]\n- Hochdeutsch: Habe ich das richtig verstanden?\n- English: Did I understand that right?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Du meinsch also, dass …\n\n- Say it: du MEINSCH AL-so, dass\n- IPA: [d̥u mei̯nʃ ˈalso d̥as]\n- Hochdeutsch: Du meinst also, dass …\n- English: So you mean that …"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wart schnäll!\n\n- Say it: WART SCHNÄLL\n- IPA: [ʋart ʃnæl]\n- Hochdeutsch: Warte kurz!\n- English: Hang on a sec!"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Langsam, langsam!\n\n- Say it: LANG-sam, LANG-sam\n- IPA: [ˈlaŋsam ˈlaŋsam]\n- Hochdeutsch: Langsam, langsam!\n- English: Slow down!\n- Note: Friendly, with a smile."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** predict, catch stressed words, reverse the sound rules, and paraphrase back. Watch one subtitled SRF dialect programme a week."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh8-l07-listening-fc1",
+              "front": "Paraphrasing back",
+              "back": "Du meinsch also, dass …: the best check at B1/B2."
+            },
+            {
+              "id": "zh8-l07-listening-fc2",
+              "front": "Sound rules in reverse",
+              "back": "Ziit → Zeit, Huus → Haus, Chuchi → Küche: decode dialect with High German."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh8-l07-listening-q1",
+              "stem": "What's the best repair strategy at B1/B2?",
+              "options": [
+                "Ask for High German every time",
+                "Paraphrase back what you understood",
+                "Nod and smile",
+                "Ask them to write everything"
+              ],
+              "correctIndex": 1,
+              "explanation": "It confirms and invites correction."
+            },
+            {
+              "id": "zh8-l07-listening-q2",
+              "stem": "You hear *Ziit*. Reverse the rule.",
+              "options": [
+                "Zeit",
+                "Ziel",
+                "Zeug",
+                "Zier"
+              ],
+              "correctIndex": 0,
+              "explanation": "ii → ei."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n2. **Phonetics** — Fleischer J, Schmid S, Zurich German, *Journal of the International Phonetic Association* 2006;36(2):243–253.\n3. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}

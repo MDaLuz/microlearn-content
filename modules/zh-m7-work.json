@@ -1,0 +1,579 @@
+{
+  "schemaVersion": 6,
+  "id": "zh-m7-work",
+  "title": "Züritüütsch 7: Work small talk",
+  "discipline": "Languages",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "zh7-l01-coffee-lunch",
+      "title": "Coffee break and lunch",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The social glue of the office\n\nIn Swiss offices, the coffee break and lunch are where dialect flows most freely. The day ends with **Fiirabig** (Feierabend), and people wish each other *Schöne Fiirabig!*"
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m7/coffee.svg",
+          "alt": "Office dialogue: Chunsch au en Kafi go näh? Gömmer go zmittag ässe? Was machsch am Wuchenänd? Schöne Fiirabig!",
+          "caption": "Breaks at work",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Useful words (practice)\n\n- *de Kafi go näh*: go and grab a coffee\n- *go zmittag ässe*: go for lunch\n- *s Wuchenänd*: the weekend\n- *Fiirabig*: the end of the working day (*ei* → *ii*, *-end* → *-ig*)"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Chunsch au en Kafi go näh?\n\n- Say it: CHUNSCH au en KA-fi go NÄH\n- IPA: [xʊnʃ au̯ ən ˈkxafi ɡ̊o næː]\n- Hochdeutsch: Kommst du auch einen Kaffee holen?\n- English: Coming to grab a coffee?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Gömmer go zmittag ässe?\n\n- Say it: GÖM-mer go TSMIT-tag ÄS-se\n- IPA: [ˈɡ̊œmːər ɡ̊o ˈtsmɪtːaɡ̊ ˈæsːə]\n- Hochdeutsch: Gehen wir zu Mittag essen?\n- English: Shall we go for lunch?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Was machsch am Wuchenänd?\n\n- Say it: WAS MACHSCH am WU-chen-änd\n- IPA: [ʋas maxʃ am ˈʋʊxənænd̥]\n- Hochdeutsch: Was machst du am Wochenende?\n- English: What are you doing at the weekend?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Schöne Fiirabig!\n\n- Say it: SCHÖ-ne FII-ra-big\n- IPA: [ˈʃøːnə ˈfiːrab̥ɪɡ̊]\n- Hochdeutsch: Schönen Feierabend!\n- English: Have a nice evening! (after work)"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** join the coffee break and lunch, and say Schöne Fiirabig when you leave: three small dialect moments every day."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh7-l01-coffee-lunch-fc1",
+              "front": "Fiirabig",
+              "back": "The end of the working day (Feierabend). Schöne Fiirabig! = have a nice evening."
+            },
+            {
+              "id": "zh7-l01-coffee-lunch-fc2",
+              "front": "go zmittag ässe",
+              "back": "To go for lunch."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh7-l01-coffee-lunch-q1",
+              "stem": "What does *Schöne Fiirabig!* wish you?",
+              "options": [
+                "A nice holiday",
+                "A nice evening after work",
+                "A good weekend",
+                "A good meal"
+              ],
+              "correctIndex": 1,
+              "explanation": "Feierabend."
+            },
+            {
+              "id": "zh7-l01-coffee-lunch-q2",
+              "stem": "What's *s Wuchenänd*?",
+              "options": [
+                "The week's end meeting",
+                "The weekend",
+                "Wednesday",
+                "The work week"
+              ],
+              "correctIndex": 1,
+              "explanation": "Wochenende."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh7-l02-work-words",
+      "title": "schaffe, Büez, chrampfe: talking about work",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Work words\n\n- *schaffe*: to work (Module 0)\n- **Büez**: work, a job (colloquial)\n- *chrampfe*: to toil, to work hard\n- *sträng*: demanding, strenuous\n\nSwiss small talk about work tends to understate: a terrible week is *e chli e strängi Wuche*."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m7/work-words.svg",
+          "alt": "Work words: schaffe (to work), Büez (job), chrampfe (to toil), sträng (strenuous), Wie lauft s? (how's it going?), Ich ha vil z tue (I'm busy).",
+          "caption": "Talking about work",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 3.28
+        },
+        {
+          "type": "text",
+          "markdown": "## How's it going? (practice)\n\n*Wie lauft s?* is the standard opener. Typical answers: *Guet, merci*, *Es gaat* (it's OK), *Ich ha vil z tue* (I'm busy), *Es isch e strängi Wuche gsii*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wie lauft s?\n\n- Say it: WIE LAUFT s\n- IPA: [ʋiə̯ lau̯ft s]\n- Hochdeutsch: Wie läuft es?\n- English: How's it going?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich ha vil z tue.\n\n- Say it: ich ha FIL ts TU-e\n- IPA: [ɪx ha fɪl ts tuə̯]\n- Hochdeutsch: Ich habe viel zu tun.\n- English: I'm really busy."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Es isch e strängi Wuche gsii.\n\n- Say it: es isch e SCHTRÄNG-i WU-che GSII\n- IPA: [əs ɪʃ ə ˈʃtræŋi ˈʋʊxə ɡ̊siː]\n- Hochdeutsch: Es war eine anstrengende Woche.\n- English: It's been a tough week."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich bi am chrampfe.\n\n- Say it: ich bi am CHRAMP-fe\n- IPA: [ɪx b̥i am ˈxrampfə]\n- Hochdeutsch: Ich arbeite hart.\n- English: I'm working flat out."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** answer Wie lauft s? in dialect, and learn Büez, chrampfe and sträng: they come up in every work conversation."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh7-l02-work-words-fc1",
+              "front": "Büez",
+              "back": "Work, a job (colloquial). Das isch e strängi Büez = that's hard work."
+            },
+            {
+              "id": "zh7-l02-work-words-fc2",
+              "front": "chrampfe",
+              "back": "To toil, work very hard."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh7-l02-work-words-q1",
+              "stem": "What's the usual opener at work?",
+              "options": [
+                "Wie heissisch?",
+                "Wie lauft s?",
+                "Wo bisch?",
+                "Was choschtet s?"
+              ],
+              "correctIndex": 1,
+              "explanation": "How's it going?"
+            },
+            {
+              "id": "zh7-l02-work-words-q2",
+              "stem": "What does *sträng* mean?",
+              "options": [
+                "Strange",
+                "Strenuous",
+                "Strict only",
+                "Strong coffee"
+              ],
+              "correctIndex": 1,
+              "explanation": "anstrengend."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh7-l03-meetings",
+      "title": "Meetings: dialect or High German?",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The meeting rule (practice)\n\nSwiss teams usually meet in dialect. When someone doesn't understand dialect, the meeting switches to High German, and often switches back at the coffee machine. If you understand dialect, say so: people are usually glad to stay in it."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m7/meetings.svg",
+          "alt": "Decision flow: all participants understand dialect, so the meeting is in dialect; someone doesn't, so it switches to High German; you can say you understand dialect so it stays in dialect.",
+          "caption": "Which language in a meeting",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Phrases for meetings (practice)\n\n- *wächsle*: to switch · *zämefasse*: to summarise\n- *en Termin abmache*: to set a meeting\n- *ruhig*: feel free (*Ihr chönd ruhig …*)"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ihr chönd ruhig Schwiizertüütsch rede.\n\n- Say it: IHR CHÖND RU-ig SCHWII-tser-tüütsch RE-de\n- IPA: [iər xœnd̥ ˈruɪɡ̊ ˈʃʋiːtsərtyːtʃ ˈred̥ə]\n- Hochdeutsch: Ihr könnt ruhig Schweizerdeutsch sprechen.\n- English: Feel free to speak Swiss German."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Chönd mer uf Hochtüütsch wächsle?\n\n- Say it: CHÖND mer uf HOCH-tüütsch WÄCHS-le\n- IPA: [xœnd̥ mər uf ˈhoxtyːtʃ ˈʋæksle]\n- Hochdeutsch: Können wir auf Hochdeutsch wechseln?\n- English: Can we switch to High German?\n- Note: For a colleague who doesn't speak dialect."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Chasch das nomal zämefasse?\n\n- Say it: CHASCH das NO-mal TSÄ-me-fas-se\n- IPA: [xaʃ d̥as ˈnoːmal ˈtsæməfasːə]\n- Hochdeutsch: Kannst du das nochmal zusammenfassen?\n- English: Can you sum that up again?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mir mached en Termin ab.\n\n- Say it: mir MA-ched en ter-MIN AB\n- IPA: [mir ˈmaxəd̥ ən tərˈmiːn ab]\n- Hochdeutsch: Wir vereinbaren einen Termin.\n- English: Let's set up a meeting."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** tell your team you understand dialect, ask for summaries in dialect, and switch to High German only for colleagues who need it."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh7-l03-meetings-fc1",
+              "front": "wächsle",
+              "back": "To switch (wechseln): uf Hochtüütsch wächsle."
+            },
+            {
+              "id": "zh7-l03-meetings-fc2",
+              "front": "zämefasse",
+              "back": "To summarise (zusammenfassen)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh7-l03-meetings-q1",
+              "stem": "A Swiss team meeting with one German-speaking newcomer from Hamburg usually runs in?",
+              "options": [
+                "Dialect throughout",
+                "High German",
+                "English",
+                "French"
+              ],
+              "correctIndex": 1,
+              "explanation": "Switch for whoever needs it."
+            },
+            {
+              "id": "zh7-l03-meetings-q2",
+              "stem": "What does *ruhig* mean in *Ihr chönd ruhig …*?",
+              "options": [
+                "Quietly",
+                "Feel free to",
+                "Slowly",
+                "Never"
+              ],
+              "correctIndex": 1,
+              "explanation": "A friendly permission."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh7-l04-loanwords",
+      "title": "English and French at work: es Meeting, s Mail",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Borrowed words\n\nSwiss offices mix in English and French: *es Meeting*, *es Call*, *es Update*, *sorry*, *merci*, *Äxgüsi*. Many get Swiss genders: in Switzerland it's **s Mail** (neuter), not *die Mail*."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m7/loanwords.svg",
+          "alt": "Office loanwords with their Swiss gender: es Meeting, es Call, s Mail (neuter), de Laptop, es Update; plus sorry, merci, äxgüsi.",
+          "caption": "Loanwords at work",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 3.28
+        },
+        {
+          "type": "text",
+          "markdown": "## Notes (practice)\n\n- *s Mail*: neuter in Switzerland\n- *grad*: right now (*Ich bi grad im Call*)\n- *z spaat*: too late\n- Loanwords take Zurich stress and endings: *es Meeting*, *zwei Meetings*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich bi grad im Call.\n\n- Say it: ich bi GRAD im KOL\n- IPA: [ɪx b̥i ɡ̊rad̥ ɪm kxɔl]\n- Hochdeutsch: Ich bin gerade im Call.\n- English: I'm on a call right now."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mir händ am drüü es Meeting.\n\n- Say it: mir HÄND am DRÜÜ es MII-ting\n- IPA: [mir hænd̥ am d̥ryː əs ˈmiːtɪŋ]\n- Hochdeutsch: Wir haben um drei ein Meeting.\n- English: We have a meeting at three."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Chasch mer s Mail schicke?\n\n- Say it: CHASCH mer s MEIL SCHI-cke\n- IPA: [xaʃ mər s mei̯l ˈʃɪkːə]\n- Hochdeutsch: Kannst du mir die Mail schicken?\n- English: Can you send me the email?\n- Note: *s Mail*: neuter in Switzerland."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Sorry, ich bi z spaat.\n\n- Say it: SO-ri, ich bi ts SCHPAAT\n- IPA: [ˈsɔri ɪx b̥i ts ʃpaːt]\n- Hochdeutsch: Entschuldigung, ich bin zu spät.\n- English: Sorry, I'm late."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** use the office loanwords freely with Swiss genders, especially s Mail; they make you sound local, not less fluent."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh7-l04-loanwords-fc1",
+              "front": "s Mail",
+              "back": "The email: neuter in Switzerland (das Mail)."
+            },
+            {
+              "id": "zh7-l04-loanwords-fc2",
+              "front": "grad",
+              "back": "Right now (gerade): Ich bi grad im Call."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh7-l04-loanwords-q1",
+              "stem": "What's the Swiss gender of *Mail*?",
+              "options": [
+                "die Mail",
+                "s Mail (neuter)",
+                "de Mail",
+                "No gender"
+              ],
+              "correctIndex": 1,
+              "explanation": "das Mail."
+            },
+            {
+              "id": "zh7-l04-loanwords-q2",
+              "stem": "What does *grad* mean?",
+              "options": [
+                "Straight",
+                "Right now",
+                "Great",
+                "Already"
+              ],
+              "correctIndex": 1,
+              "explanation": "gerade."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh7-l05-politeness",
+      "title": "Swiss politeness: saying no indirectly",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Read between the lines (practice)\n\nSwiss communication at work is indirect. Suggestions come as possibilities (*Mer chönnt au …*), requests as questions (*Wär s mögli, dass …?*), and a polite **understatement** often means no: *Das isch no schwierig* (that's a bit difficult) can mean 'that won't happen'."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m7/politeness.svg",
+          "alt": "Two columns: what is said (Mer chönnt au …, Wär s mögli …?, Das isch no schwierig, Ich lueg mal) and what is usually meant (I suggest, please do, probably no, I'll try).",
+          "caption": "What's said and what's meant",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Responding\n\nReply in the same register: suggest, don't order. If someone says *Das isch no schwierig*, ask what would make it possible rather than pushing."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mer chönnt s au andersch mache.\n\n- Say it: mer CHÖNNT s au AN-dersch MA-che\n- IPA: [mər xœnt s au̯ ˈand̥ərʃ ˈmaxə]\n- Hochdeutsch: Man könnte es auch anders machen.\n- English: We could also do it differently.\n- Note: A suggestion, often a strong one."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wär s mögli bis am Friitig?\n\n- Say it: WÄR s MÖG-li bis am FRII-tig\n- IPA: [ʋær s ˈmøːɡ̊li b̥ɪs am ˈfriːtɪɡ̊]\n- Hochdeutsch: Wäre es bis Freitag möglich?\n- English: Could it be done by Friday?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Das isch no schwierig.\n\n- Say it: das isch no SCHWIE-rig\n- IPA: [d̥as ɪʃ no ˈʃʋiə̯rɪɡ̊]\n- Hochdeutsch: Das ist etwas schwierig.\n- English: That's a bit difficult.\n- Note: Often a polite no."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich lueg mal, was ich cha mache.\n\n- Say it: ich LUEG mal, WAS ich CHA MA-che\n- IPA: [ɪx luə̯ɡ̊ mal ʋas ɪx xa ˈmaxə]\n- Hochdeutsch: Ich schaue mal, was ich machen kann.\n- English: I'll see what I can do."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** phrase requests as possibilities, and listen for understatement: Das isch no schwierig is often a polite no."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh7-l05-politeness-fc1",
+              "front": "Das isch no schwierig",
+              "back": "That's a bit difficult: often a polite no."
+            },
+            {
+              "id": "zh7-l05-politeness-fc2",
+              "front": "Mer chönnt …",
+              "back": "One could …: the Swiss way to make a suggestion."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh7-l05-politeness-q1",
+              "stem": "Your manager says *Das isch no schwierig.* What's the likely meaning?",
+              "options": [
+                "It's easy",
+                "Probably not",
+                "Yes, tomorrow",
+                "Ask again later"
+              ],
+              "correctIndex": 1,
+              "explanation": "Understatement for no."
+            },
+            {
+              "id": "zh7-l05-politeness-q2",
+              "stem": "How do you make a soft suggestion?",
+              "options": [
+                "Mach das!",
+                "Mer chönnt au …",
+                "Du muesch …",
+                "Das isch falsch."
+              ],
+              "correctIndex": 1,
+              "explanation": "Possibility, not order."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh7-l06-recap",
+      "title": "Recap: an after-work drink",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The Apéro\n\nThe **Apéro** (after-work drink or reception) is the most relaxed setting for work dialect: standing, a glass in hand, short conversations. It closes the loop of this module."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m7/apero.svg",
+          "alt": "After-work dialogue: Chunsch au as Apéro? Proscht! Uf es guets Wuchenänd! Ich mues langsam hei. Schöne Fiirabig!",
+          "caption": "At the Apéro",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.103
+        },
+        {
+          "type": "text",
+          "markdown": "## What to notice\n\n- *as Apéro*: *an das* fused, like *is Kino*.\n- *Proscht!* with eye contact.\n- *langsam* here means 'it's about time', not 'slowly'."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Chunsch au as Apéro?\n\n- Say it: CHUNSCH au as a-pe-RO\n- IPA: [xʊnʃ au̯ as apeˈro]\n- Hochdeutsch: Kommst du auch zum Apéro?\n- English: Coming to the after-work drink?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Proscht!\n\n- Say it: PROSCHT\n- IPA: [proʃt]\n- Hochdeutsch: Prost!\n- English: Cheers!\n- Note: *st* → *scht*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Uf es guets Wuchenänd!\n\n- Say it: uf es GU-ets WU-chen-änd\n- IPA: [uf əs ɡ̊uə̯ts ˈʋʊxənænd̥]\n- Hochdeutsch: Auf ein gutes Wochenende!\n- English: Here's to a good weekend!"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich mues langsam hei.\n\n- Say it: ich MUES LANG-sam HEI\n- IPA: [ɪx muə̯s ˈlaŋsam hei̯]\n- Hochdeutsch: Ich muss langsam nach Hause.\n- English: I should be heading home.\n- Note: *langsam* = it's about time."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** go to the next Apéro and stay in dialect for the whole drink, from Proscht to Ich mues langsam hei."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh7-l06-recap-fc1",
+              "front": "Apéro",
+              "back": "An after-work drink or small reception, usually standing."
+            },
+            {
+              "id": "zh7-l06-recap-fc2",
+              "front": "langsam (time)",
+              "back": "It's about time: Ich mues langsam hei = I should be going."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh7-l06-recap-q1",
+              "stem": "What does *Ich mues langsam hei* mean?",
+              "options": [
+                "I walk home slowly",
+                "I should be heading home",
+                "I'm going home late",
+                "I live far away"
+              ],
+              "correctIndex": 1,
+              "explanation": "langsam = gradually, it's time."
+            },
+            {
+              "id": "zh7-l06-recap-q2",
+              "stem": "What do you say when glasses meet?",
+              "options": [
+                "En Guete!",
+                "Proscht!",
+                "Äxgüsi!",
+                "Fröit mi!"
+              ],
+              "correctIndex": 1,
+              "explanation": "Cheers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,703 @@
+{
+  "moduleId": "zh-m7-work",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "zh7-b1",
+      "title": "Breaks, work words and meetings",
+      "lessons": [
+        "zh7-l01-coffee-lunch",
+        "zh7-l02-work-words",
+        "zh7-l03-meetings"
+      ]
+    },
+    {
+      "id": "zh7-b2",
+      "title": "Loanwords, politeness and the Apéro",
+      "lessons": [
+        "zh7-l04-loanwords",
+        "zh7-l05-politeness",
+        "zh7-l06-recap"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-zh7-l01",
+      "level": "lesson",
+      "covers": [
+        "zh7-l01-coffee-lunch"
+      ],
+      "summary": {
+        "title": "Coffee break and lunch",
+        "points": [
+          "Breaks and lunch are where office dialect flows.",
+          "Chunsch au en Kafi go näh? Gömmer go zmittag ässe?",
+          "s Wuchenänd = the weekend.",
+          "Schöne Fiirabig! when leaving."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Mid-morning at the office.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Coming to grab a coffee?' is?",
+              "options": [
+                "Chunsch au en Kafi go näh?",
+                "Kommst du auch einen Kaffee?",
+                "Chunsch au es Kafi gnoo?",
+                "Gömmer es Kafi?"
+              ],
+              "answer": 0,
+              "explanation": "go näh: verb doubling."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Leaving at 6 pm, you say?",
+              "options": [
+                "Guete Morge!",
+                "Schöne Fiirabig!",
+                "Schöne Sunntig!",
+                "En Guete!"
+              ],
+              "answer": 1,
+              "explanation": "Feierabend."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Friday afternoon.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'What are you doing at the weekend?' is?",
+              "options": [
+                "Was hesch am Wuchenänd gmacht gsii?",
+                "Was machst du am Wochenende?",
+                "Was machsch am Wuchenänd?",
+                "Wo bisch am Wuchenänd?"
+              ],
+              "answer": 2,
+              "explanation": "Wuchenänd."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which rules turn *Feierabend* into *Fiirabig*?",
+              "options": [
+                "k → ch",
+                "st → scht",
+                "Open ä",
+                "ei → ii and -end → -ig"
+              ],
+              "answer": 3,
+              "explanation": "Two familiar shifts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh7-l02",
+      "level": "lesson",
+      "covers": [
+        "zh7-l02-work-words"
+      ],
+      "summary": {
+        "title": "Talking about work",
+        "points": [
+          "schaffe = work; Büez = job (colloquial); chrampfe = toil.",
+          "Wie lauft s? is the standard opener.",
+          "Ich ha vil z tue; Es isch e strängi Wuche gsii.",
+          "Swiss small talk understates."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A colleague asks *Wie lauft s?*",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "You're very busy. Reply?",
+              "options": [
+                "Ich ha vil z tue.",
+                "Ich habe viel zu tun.",
+                "Ich bi vil z tue.",
+                "Es lauft nöd."
+              ],
+              "answer": 0,
+              "explanation": "vil z tue."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'It's been a tough week' is?",
+              "options": [
+                "Es war eine anstrengende Woche.",
+                "Es isch e strängi Wuche gsii.",
+                "Es isch e strängi Wuche.",
+                "Es hät e sträng Wuche gha."
+              ],
+              "answer": 1,
+              "explanation": "Perfect with gsii."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Word meanings.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's *Büez*?",
+              "options": [
+                "A bus",
+                "A boss or a manager at work",
+                "Work, a job",
+                "A break"
+              ],
+              "answer": 2,
+              "explanation": "Colloquial."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does *chrampfe* mean?",
+              "options": [
+                "To cramp up",
+                "To complain about the workload",
+                "To relax",
+                "To toil, work very hard"
+              ],
+              "answer": 3,
+              "explanation": "Hard work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh7-l03",
+      "level": "lesson",
+      "covers": [
+        "zh7-l03-meetings"
+      ],
+      "summary": {
+        "title": "Meetings",
+        "points": [
+          "Swiss teams meet in dialect; they switch to High German for whoever needs it.",
+          "Say you understand: Ihr chönd ruhig Schwiizertüütsch rede.",
+          "wächsle = switch; zämefasse = summarise.",
+          "Mir mached en Termin ab."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A meeting starts in High German because of you.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What do you say?",
+              "options": [
+                "Ihr chönd ruhig Schwiizertüütsch rede.",
+                "Bitte sprecht Hochdeutsch mit mir.",
+                "Ich verstaa nüt.",
+                "Mir wächsled uf Änglisch."
+              ],
+              "answer": 0,
+              "explanation": "Feel free to speak dialect."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You missed the decision. Ask?",
+              "options": [
+                "Chasch das ufschriibe gsii?",
+                "Chasch das nomal zämefasse?",
+                "Kannst du das zusammenfassen?",
+                "Wie lauft s?"
+              ],
+              "answer": 1,
+              "explanation": "zämefasse."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "A colleague from Hamburg joins.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What does the team usually do?",
+              "options": [
+                "Continue in dialect",
+                "Switch to French",
+                "Switch to High German",
+                "Cancel the meeting"
+              ],
+              "answer": 2,
+              "explanation": "For whoever needs it."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does *wächsle* mean?",
+              "options": [
+                "To wash or rinse something",
+                "To grow",
+                "To wake",
+                "To switch"
+              ],
+              "answer": 3,
+              "explanation": "wechseln."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh7-l04",
+      "level": "lesson",
+      "covers": [
+        "zh7-l04-loanwords"
+      ],
+      "summary": {
+        "title": "Loanwords",
+        "points": [
+          "Offices mix English and French: es Meeting, es Call, sorry, merci.",
+          "s Mail is neuter in Switzerland.",
+          "grad = right now: Ich bi grad im Call.",
+          "Sorry, ich bi z spaat."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "On a busy day.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'I'm on a call right now' is?",
+              "options": [
+                "Ich bi grad im Call.",
+                "Ich bin gerade im Call.",
+                "Ich bi grad es Call.",
+                "Ich ha grad Call gha."
+              ],
+              "answer": 0,
+              "explanation": "grad = right now."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Can you send me the email?' is?",
+              "options": [
+                "Chasch mer d Mail schicke?",
+                "Chasch mer s Mail schicke?",
+                "Kannst du mir die Mail schicken?",
+                "Chasch mer s Mail gschickt?"
+              ],
+              "answer": 1,
+              "explanation": "s Mail, neuter."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Arriving late.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Sorry, I'm late' is?",
+              "options": [
+                "Sorry, ich bi z früe.",
+                "Entschuldigung, ich bin zu spät.",
+                "Sorry, ich bi z spaat.",
+                "Sorry, ich bi spaat gsii."
+              ],
+              "answer": 2,
+              "explanation": "z spaat."
+            },
+            {
+              "type": "mcq",
+              "prompt": "The Swiss gender of *Mail*?",
+              "options": [
+                "Feminine: d Mail",
+                "Masculine: de Mail",
+                "None",
+                "Neuter: s Mail"
+              ],
+              "answer": 3,
+              "explanation": "das Mail."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh7-l05",
+      "level": "lesson",
+      "covers": [
+        "zh7-l05-politeness"
+      ],
+      "summary": {
+        "title": "Swiss politeness",
+        "points": [
+          "Suggestions as possibilities: Mer chönnt au …",
+          "Requests as questions: Wär s mögli …?",
+          "Understatement: Das isch no schwierig often means no.",
+          "Ich lueg mal = I'll try, no promise."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "You need a report by Friday.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Ask politely.",
+              "options": [
+                "Wär s mögli bis am Friitig?",
+                "Du muesch das bis Friitig mache!",
+                "Bis Freitag, bitte sofort.",
+                "Das isch no schwierig."
+              ],
+              "answer": 0,
+              "explanation": "A question, not an order."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suggest another approach.",
+              "options": [
+                "Das isch falsch.",
+                "Mer chönnt s au andersch mache.",
+                "Man muss es anders machen.",
+                "Mach das andersch!"
+              ],
+              "answer": 1,
+              "explanation": "A possibility."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Reading the reply.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Your colleague says *Das isch no schwierig.* Most likely?",
+              "options": [
+                "An enthusiastic yes",
+                "A request for help",
+                "A polite no",
+                "A joke"
+              ],
+              "answer": 2,
+              "explanation": "Understatement."
+            },
+            {
+              "type": "mcq",
+              "prompt": "*Ich lueg mal, was ich cha mache* means?",
+              "options": [
+                "It's done",
+                "Never",
+                "Ask someone else on the team to do it",
+                "I'll try, no promise"
+              ],
+              "answer": 3,
+              "explanation": "Hedged commitment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh7-b1",
+      "level": "block",
+      "covers": [
+        "zh7-l01-coffee-lunch",
+        "zh7-l02-work-words",
+        "zh7-l03-meetings"
+      ],
+      "summary": {
+        "title": "Breaks, work words and meetings",
+        "points": [
+          "Breaks: Kafi go näh, go zmittag ässe, Schöne Fiirabig.",
+          "Work words: Büez, chrampfe, sträng; Wie lauft s?",
+          "Meetings in dialect; switch for whoever needs it.",
+          "Say you understand dialect so people stay in it."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A full work day.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Morning: a colleague asks how it's going. You're busy. Reply?",
+              "options": [
+                "Ich ha vil z tue.",
+                "Kei Ahnig.",
+                "Ich bi müed gsii, merci vilmal.",
+                "Schöne Fiirabig!"
+              ],
+              "answer": 0,
+              "explanation": "Busy."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Afternoon meeting: you want a summary. Ask?",
+              "options": [
+                "Chasch das ufschriibe?",
+                "Chasch das nomal zämefasse?",
+                "Wie lauft s?",
+                "Gömmer go zmittag ässe?"
+              ],
+              "answer": 1,
+              "explanation": "zämefasse."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Invite a colleague for coffee and lunch in two sentences.",
+              "modelAnswer": "Chunsch au en Kafi go näh? Und gömmer nachher go zmittag ässe?"
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Grammar at work.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which point is in *go zmittag ässe*?",
+              "options": [
+                "Relative wo",
+                "Dative possessive",
+                "Verb doubling",
+                "-li plural"
+              ],
+              "answer": 2,
+              "explanation": "go + verb."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which point is in *Es isch e strängi Wuche gsii*?",
+              "options": [
+                "Verb doubling",
+                "Fused pronouns",
+                "Relative wo",
+                "Perfect only"
+              ],
+              "answer": 3,
+              "explanation": "gsii."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh7-b2",
+      "level": "block",
+      "covers": [
+        "zh7-l04-loanwords",
+        "zh7-l05-politeness",
+        "zh7-l06-recap"
+      ],
+      "summary": {
+        "title": "Loanwords, politeness and the Apéro",
+        "points": [
+          "Loanwords with Swiss genders: s Mail, es Meeting, es Call.",
+          "Indirect requests and understatement.",
+          "Apéro: Proscht, Uf es guets Wuchenänd, Ich mues langsam hei."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Friday Apéro.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Raising your glass, you say?",
+              "options": [
+                "Proscht!",
+                "En Guete!",
+                "Äxgüsi!",
+                "Grüezi!"
+              ],
+              "answer": 0,
+              "explanation": "Cheers."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Time to leave. You say?",
+              "options": [
+                "Ich gaa langsam hei, ganz langsam.",
+                "Ich mues langsam hei.",
+                "Ich muss nach Hause.",
+                "Ich bi hei gsii."
+              ],
+              "answer": 1,
+              "explanation": "langsam = it's time."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Toast to the weekend and say goodbye.",
+              "modelAnswer": "Proscht, uf es guets Wuchenänd! Ich mues langsam hei, schöne Fiirabig!"
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Office nuance.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "A manager writes *Mer chönnt au …*. It's?",
+              "options": [
+                "An idle thought",
+                "An order to stop the project at once",
+                "A suggestion, often a strong one",
+                "A complaint"
+              ],
+              "answer": 2,
+              "explanation": "Swiss indirectness."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does *langsam* mean in *Ich mues langsam hei*?",
+              "options": [
+                "Slowly",
+                "Carefully",
+                "Tomorrow morning, early",
+                "It's about time"
+              ],
+              "answer": 3,
+              "explanation": "Not literally slow."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh7-m",
+      "level": "module",
+      "covers": [
+        "zh7-l01-coffee-lunch",
+        "zh7-l02-work-words",
+        "zh7-l03-meetings",
+        "zh7-l04-loanwords",
+        "zh7-l05-politeness",
+        "zh7-l06-recap"
+      ],
+      "summary": {
+        "title": "Work small talk: the whole picture",
+        "points": [
+          "Breaks and lunch are dialect time.",
+          "Wie lauft s? and understated answers.",
+          "Meetings in dialect; switch for those who need it.",
+          "Loanwords with Swiss genders: s Mail.",
+          "Indirect politeness; Das isch no schwierig = probably no.",
+          "The Apéro closes the week."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your week at work.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Monday, a colleague says *Wie lauft s?* You reply?",
+              "options": [
+                "Guet, merci.",
+                "Guten Tag.",
+                "Fröit mi.",
+                "Uf Widerhööre."
+              ],
+              "answer": 0,
+              "explanation": "Fine, thanks."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You need help by Friday. Ask?",
+              "options": [
+                "Mach das bis Friitig!",
+                "Wär s mögli bis am Friitig?",
+                "Das isch no schwierig.",
+                "Ich lueg mal."
+              ],
+              "answer": 1,
+              "explanation": "Polite request."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your boss says *Das isch no schwierig.* You?",
+              "options": [
+                "Assume it's approved",
+                "Insist loudly until they agree",
+                "Ask what would make it possible",
+                "Send it anyway"
+              ],
+              "answer": 2,
+              "explanation": "Don't push."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Language choice.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why tell your team you understand dialect?",
+              "options": [
+                "So they speak English",
+                "To avoid meetings",
+                "To get a promotion more quickly",
+                "So they stay in dialect with you"
+              ],
+              "answer": 3,
+              "explanation": "People switch to be polite."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which is Swiss usage?",
+              "options": [
+                "s Mail",
+                "d Mail",
+                "de Mail",
+                "e Mail"
+              ],
+              "answer": 0,
+              "explanation": "Neuter."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Describe your work week in two dialect sentences.",
+              "modelAnswer": "Ich ha vil z tue gha, es isch e strängi Wuche gsii. Am Friitig gömmer as Apéro."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,862 @@
+{
+  "moduleId": "zh-m8-real-speech",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "zh8-b1",
+      "title": "Fast and informal speech",
+      "lessons": [
+        "zh8-l01-fast-speech",
+        "zh8-l02-fillers",
+        "zh8-l03-slang",
+        "zh8-l04-swearing"
+      ]
+    },
+    {
+      "id": "zh8-b2",
+      "title": "Other dialects and listening",
+      "lessons": [
+        "zh8-l05-other-dialects",
+        "zh8-l06-swiss-standard",
+        "zh8-l07-listening"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-zh8-l01",
+      "level": "lesson",
+      "covers": [
+        "zh8-l01-fast-speech"
+      ],
+      "summary": {
+        "title": "Fast speech",
+        "points": [
+          "Small words fuse: Hämmers?, Wasch los?, Wotsch?",
+          "Kei Ahnig = no idea.",
+          "Anchor on stressed words; let small words blur."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "At the end of a task.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "A colleague says *Hämmers?* Meaning?",
+              "options": [
+                "Are we done?",
+                "Do we have a hammer?",
+                "Shall we eat?",
+                "Who has it?"
+              ],
+              "answer": 0,
+              "explanation": "Händ mir s?"
+            },
+            {
+              "type": "mcq",
+              "prompt": "'No idea' is?",
+              "options": [
+                "Kei Ahnung gha.",
+                "Kei Ahnig.",
+                "Keine Ahnung.",
+                "Kei Problem."
+              ],
+              "answer": 1,
+              "explanation": "-ung → -ig."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Decoding.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "*Wasch los?* is the fast form of?",
+              "options": [
+                "Was hesch los?",
+                "Wo isch los?",
+                "Was isch los?",
+                "Wäsch los?"
+              ],
+              "answer": 2,
+              "explanation": "isch fuses."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What helps most with fast speech?",
+              "options": [
+                "Catching every syllable",
+                "Asking for High German",
+                "Reading lips while they talk",
+                "Catching the stressed words"
+              ],
+              "answer": 3,
+              "explanation": "Content words carry meaning."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh8-l02",
+      "level": "lesson",
+      "covers": [
+        "zh8-l02-fillers"
+      ],
+      "summary": {
+        "title": "Fillers and tags",
+        "points": [
+          "oder? at the end = right?",
+          "gäll = right? (personal), often at the start.",
+          "ebe = exactly; halt = just, simply.",
+          "Use them sparingly."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Agreeing in conversation.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Someone says exactly what you meant. You say?",
+              "options": [
+                "Ebe!",
+                "Halt!",
+                "Oder?",
+                "Gäll?"
+              ],
+              "answer": 0,
+              "explanation": "Exactly."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'You're coming too, right?' is?",
+              "options": [
+                "Halt, du chunsch au?",
+                "Gäll, du chunsch au?",
+                "Ebe, du chunsch au?",
+                "Du kommst doch auch?"
+              ],
+              "answer": 1,
+              "explanation": "gäll."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Meaning of halt.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "*Es isch halt eso* means?",
+              "options": [
+                "Stop, it's like that",
+                "It's on hold",
+                "That's just how it is",
+                "It's over now, finished"
+              ],
+              "answer": 2,
+              "explanation": "halt = just."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does *…, oder?* at the end ask for?",
+              "options": [
+                "An alternative",
+                "A repeat",
+                "Silence",
+                "Agreement"
+              ],
+              "answer": 3,
+              "explanation": "Tag question."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh8-l03",
+      "level": "lesson",
+      "covers": [
+        "zh8-l03-slang"
+      ],
+      "summary": {
+        "title": "Slang and intensifiers",
+        "points": [
+          "mega: neutral, fine anywhere.",
+          "voll, uu: casual; krass, Hammer: youth.",
+          "huere: vulgar; recognise it, avoid it at work.",
+          "lässig = cool."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Praising a colleague's presentation.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which is right for work?",
+              "options": [
+                "Das isch mega guet!",
+                "Das isch huere guet!",
+                "Krass, Hammer, voll geil!",
+                "Uu, huere lässig!"
+              ],
+              "answer": 0,
+              "explanation": "mega is neutral."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your teen says *lässig*. Meaning?",
+              "options": [
+                "Lazy",
+                "Cool",
+                "Late",
+                "Loud"
+              ],
+              "answer": 1,
+              "explanation": "Swiss 'cool'."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Register.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Where should you avoid *huere*?",
+              "options": [
+                "Only in church",
+                "Only in Bern and Basel newspapers",
+                "At work and with children",
+                "Nowhere; it's neutral"
+              ],
+              "answer": 2,
+              "explanation": "Vulgar."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What matters more than vocabulary here?",
+              "options": [
+                "Spelling",
+                "Speed",
+                "Volume",
+                "Register"
+              ],
+              "answer": 3,
+              "explanation": "Who you're talking to."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh8-l04",
+      "level": "lesson",
+      "covers": [
+        "zh8-l04-swearing"
+      ],
+      "summary": {
+        "title": "Swear words (recognition)",
+        "points": [
+          "Swiss swear words are mostly religious in origin.",
+          "Mild: Gopf, Gopfriedstutz, So en Seich.",
+          "Insult: Tubel. Strong: Gopferdammi (don't use)."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "At a football match.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "A fan shouts *So en Seich!* Meaning?",
+              "options": [
+                "What nonsense!",
+                "What a goal!",
+                "What luck!",
+                "What an idiot!"
+              ],
+              "answer": 0,
+              "explanation": "Seich = nonsense."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which can you use, mildly?",
+              "options": [
+                "Gopferdammi!",
+                "Gopf!",
+                "Du Tubel!",
+                "Huere Seich!"
+              ],
+              "answer": 1,
+              "explanation": "Mild euphemism."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Strength.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's *Tubel*?",
+              "options": [
+                "A tube",
+                "A table in the restaurant",
+                "An insult: idiot",
+                "A cheer"
+              ],
+              "answer": 2,
+              "explanation": "Recognise, don't use."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why is *Gopfriedstutz* mild?",
+              "options": [
+                "It's from French",
+                "It's a children's word",
+                "It's a place name",
+                "It's a euphemism"
+              ],
+              "answer": 3,
+              "explanation": "Softened form."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh8-l05",
+      "level": "lesson",
+      "covers": [
+        "zh8-l05-other-dialects"
+      ],
+      "summary": {
+        "title": "Other dialects",
+        "points": [
+          "Bern: i, nid, viu, Grüessech, Merci viumau.",
+          "Basel: k where Zurich has ch (Kind), nit.",
+          "Valais: hardest for other Swiss.",
+          "Recognise them; keep speaking Zurich German."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Meeting new people.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Someone says *Merci viumau*. Where from?",
+              "options": [
+                "Bern",
+                "Basel",
+                "Zurich",
+                "Valais"
+              ],
+              "answer": 0,
+              "explanation": "viu = Bern l."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Someone says *s Kind* with a k. Likely?",
+              "options": [
+                "Bern",
+                "Basel",
+                "Zurich",
+                "St. Gallen"
+              ],
+              "answer": 1,
+              "explanation": "Basel keeps k."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Your own speech.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Should you mix Bern forms into your Zurich German?",
+              "options": [
+                "Yes, it sounds more Swiss",
+                "Only at work",
+                "No: keep one dialect consistent",
+                "Only Grüessech, the rest Zurich"
+              ],
+              "answer": 2,
+              "explanation": "Mixing sounds odd."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Zurich equivalent of *Grüessech*?",
+              "options": [
+                "Hoi zäme",
+                "Sali",
+                "Ade",
+                "Grüezi"
+              ],
+              "answer": 3,
+              "explanation": "Formal greeting."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh8-l06",
+      "level": "lesson",
+      "covers": [
+        "zh8-l06-swiss-standard"
+      ],
+      "summary": {
+        "title": "Swiss Standard German",
+        "points": [
+          "Helvetisms are standard in Switzerland, in dialect and in writing.",
+          "Velo, parkieren, Trottoir, Glace, Spital, Pneu, grillieren.",
+          "Many come from French."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "At the hospital car park.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'I'll park outside the hospital' is?",
+              "options": [
+                "Ich parkier s Auto vor em Spital.",
+                "Ich parke das Auto vor dem Krankenhaus.",
+                "Ich parkier s Auto vor em Chrankehuus.",
+                "Ich parkiere s Velo im Spital."
+              ],
+              "answer": 0,
+              "explanation": "parkiere, Spital."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'The tyre is flat' is?",
+              "options": [
+                "De Reife isch platt.",
+                "De Pneu isch platt.",
+                "Der Reifen ist platt.",
+                "De Pneu hät platt."
+              ],
+              "answer": 1,
+              "explanation": "Pneu."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Writing High German in Switzerland.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Is *Velo* correct in a written Swiss text?",
+              "options": [
+                "No, write Fahrrad",
+                "Only in dialect",
+                "Yes, it's standard Swiss usage",
+                "Only in Bern"
+              ],
+              "answer": 2,
+              "explanation": "Helvetism."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What's *Glace*?",
+              "options": [
+                "Glass",
+                "Ice hockey",
+                "A mirror",
+                "Ice cream"
+              ],
+              "answer": 3,
+              "explanation": "Eis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh8-l07",
+      "level": "lesson",
+      "covers": [
+        "zh8-l07-listening"
+      ],
+      "summary": {
+        "title": "Listening strategies",
+        "points": [
+          "Predict from context; catch stressed words.",
+          "Reverse the sound rules: Ziit → Zeit.",
+          "Check by paraphrasing: Du meinsch also, dass …",
+          "Subtitled SRF programmes link sound and spelling."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A neighbour explains a building rule quickly.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do you check?",
+              "options": [
+                "Du meinsch also, dass …",
+                "Ich verstaa nüt.",
+                "Red bitte nume Hochdeutsch mit mir!",
+                "Ebe!"
+              ],
+              "answer": 0,
+              "explanation": "Paraphrase back."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You hear *Huus*. Reverse the rule.",
+              "options": [
+                "Hose",
+                "Haus",
+                "Huhn",
+                "Hus"
+              ],
+              "answer": 1,
+              "explanation": "uu → au."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Buying time.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Hang on a sec!' is?",
+              "options": [
+                "Langsam, langsam!",
+                "Ebe!",
+                "Wart schnäll!",
+                "Kei Ahnig!"
+              ],
+              "answer": 2,
+              "explanation": "Warte kurz."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Best weekly habit for listening?",
+              "options": [
+                "Reading grammar",
+                "Writing emails",
+                "Watching German TV with German subtitles",
+                "One subtitled SRF dialect programme"
+              ],
+              "answer": 3,
+              "explanation": "Subtitles connect sound and text."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh8-b1",
+      "level": "block",
+      "covers": [
+        "zh8-l01-fast-speech",
+        "zh8-l02-fillers",
+        "zh8-l03-slang",
+        "zh8-l04-swearing"
+      ],
+      "summary": {
+        "title": "Fast and informal speech",
+        "points": [
+          "Contractions: Hämmers?, Wasch los?, Kei Ahnig.",
+          "Fillers: oder?, gäll, ebe, halt.",
+          "Intensifiers by register: mega (safe) to huere (vulgar).",
+          "Swearing: mild euphemisms vs strong forms."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A lively dinner.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "A friend says *Das isch mega guet, oder?* She wants?",
+              "options": [
+                "Your agreement",
+                "An alternative",
+                "The bill",
+                "A repeat"
+              ],
+              "answer": 0,
+              "explanation": "Tag question."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which word should you avoid with your neighbour's children?",
+              "options": [
+                "mega",
+                "huere",
+                "lässig",
+                "Ebe"
+              ],
+              "answer": 1,
+              "explanation": "Vulgar."
+            },
+            {
+              "type": "self-check",
+              "prompt": "React to good news in dialect, warmly but safely.",
+              "modelAnswer": "Lässig! Das isch mega guet!"
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Decoding a fast sentence.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "*Wotsch öppis?* means?",
+              "options": [
+                "Where's something?",
+                "Did you see something?",
+                "Do you want something?",
+                "Something's wrong"
+              ],
+              "answer": 2,
+              "explanation": "wotsch = willst du."
+            },
+            {
+              "type": "mcq",
+              "prompt": "*Es isch halt eso* means?",
+              "options": [
+                "Stop that",
+                "It's on hold",
+                "Exactly",
+                "That's just how it is"
+              ],
+              "answer": 3,
+              "explanation": "halt = just."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh8-b2",
+      "level": "block",
+      "covers": [
+        "zh8-l05-other-dialects",
+        "zh8-l06-swiss-standard",
+        "zh8-l07-listening"
+      ],
+      "summary": {
+        "title": "Other dialects and listening",
+        "points": [
+          "Bern, Basel, Valais markers.",
+          "Helvetisms are standard Swiss usage.",
+          "Listening cycle: predict, catch, reverse, check."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A meeting with colleagues from around Switzerland.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "A colleague says *I weiss es nid.* Where from?",
+              "options": [
+                "Bern",
+                "Zurich",
+                "Basel",
+                "Ticino"
+              ],
+              "answer": 0,
+              "explanation": "i, nid."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You didn't get his point. Check?",
+              "options": [
+                "Wasch los?",
+                "Han ich das richtig verstande?",
+                "Gopf!",
+                "Ebe!"
+              ],
+              "answer": 1,
+              "explanation": "Confirm."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Paraphrase back: 'So you mean we start on Monday?'",
+              "modelAnswer": "Du meinsch also, dass mir am Mäntig aafanged?"
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Written Swiss German.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which word is standard in Swiss newspapers?",
+              "options": [
+                "parken only",
+                "Chuchi",
+                "parkieren",
+                "huere"
+              ],
+              "answer": 2,
+              "explanation": "Helvetism."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which listening step uses your High German?",
+              "options": [
+                "Predict from context",
+                "Catch stressed words",
+                "Ask them to write every word down",
+                "Reverse the sound rules"
+              ],
+              "answer": 3,
+              "explanation": "Ziit → Zeit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh8-m",
+      "level": "module",
+      "covers": [
+        "zh8-l01-fast-speech",
+        "zh8-l02-fillers",
+        "zh8-l03-slang",
+        "zh8-l04-swearing",
+        "zh8-l05-other-dialects",
+        "zh8-l06-swiss-standard",
+        "zh8-l07-listening"
+      ],
+      "summary": {
+        "title": "Understanding real speech: the whole picture",
+        "points": [
+          "Fast speech fuses small words; anchor on stressed ones.",
+          "Fillers and tags carry attitude: oder?, gäll, ebe, halt.",
+          "Register: mega is safe, huere and strong swearing aren't.",
+          "Recognise Bern and Basel; keep your own Zurich forms.",
+          "Helvetisms are standard; use the listening cycle."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Real conversations.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "*Kei Ahnig, gäll?* means?",
+              "options": [
+                "No idea, right?",
+                "No problem, OK?",
+                "No time, sorry",
+                "Not again!"
+              ],
+              "answer": 0,
+              "explanation": "Ahnig, gäll."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Best reaction to a colleague's good idea?",
+              "options": [
+                "Das isch huere guet!",
+                "Das isch mega guet!",
+                "So en Seich!",
+                "Gopf!"
+              ],
+              "answer": 1,
+              "explanation": "Safe intensifier."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Someone from Basel says *Kind*. You'd say?",
+              "options": [
+                "Kind",
+                "Kint",
+                "Chind",
+                "Chint"
+              ],
+              "answer": 2,
+              "explanation": "Zurich ch."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Strategy.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why paraphrase back?",
+              "options": [
+                "It ends the conversation",
+                "It sounds more Swiss and more fluent",
+                "It avoids dialect",
+                "It confirms and invites correction"
+              ],
+              "answer": 3,
+              "explanation": "Best check at B1/B2."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which is a Helvetism?",
+              "options": [
+                "Trottoir",
+                "Gehsteig",
+                "Bürgersteig",
+                "Fahrrad"
+              ],
+              "answer": 0,
+              "explanation": "Swiss usage."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Explain the listening cycle in one sentence.",
+              "modelAnswer": "Predict from context, catch the stressed words, reverse the sound rules to High German, and check by paraphrasing back."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

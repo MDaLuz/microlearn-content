@@ -1,0 +1,779 @@
+{
+  "moduleId": "zh-m9-capstone",
+  "version": 1,
+  "blocks": [
+    {
+      "id": "zh9-b1",
+      "title": "Introduce, phone, host",
+      "lessons": [
+        "zh9-l01-introduction",
+        "zh9-l02-phone",
+        "zh9-l03-dinner"
+      ]
+    },
+    {
+      "id": "zh9-b2",
+      "title": "Stories, phrasebook and routine",
+      "lessons": [
+        "zh9-l04-storytelling",
+        "zh9-l05-phrasebook",
+        "zh9-l06-keep-it-alive"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "rv-zh9-l01",
+      "level": "lesson",
+      "covers": [
+        "zh9-l01-introduction"
+      ],
+      "summary": {
+        "title": "Your introduction",
+        "points": [
+          "Five lines: name and origin, where and since when, work, family, why dialect.",
+          "sit = since: sit drüü Jahr.",
+          "imene = in a; dehei = at home.",
+          "Say it aloud daily until it's automatic."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Meeting a new neighbour.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'I've lived in the canton of Zurich for three years' is?",
+              "options": [
+                "Ich wohne sit drüü Jahr im Kanton Züri.",
+                "Ich wohne seit drei Jahren im Kanton Zürich.",
+                "Ich ha drüü Jahr im Kanton Züri gwohnt gsii.",
+                "Ich wohne vor drüü Jahr z Züri."
+              ],
+              "answer": 0,
+              "explanation": "sit + Jahr."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'I work in an office' is?",
+              "options": [
+                "Ich schaffe in Büro.",
+                "Ich schaffe imene Büro.",
+                "Ich arbeite in einem Büro.",
+                "Ich schaffe imene Büro gsii."
+              ],
+              "answer": 1,
+              "explanation": "imene = in einem."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Why you're learning.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'… because this is home' is?",
+              "options": [
+                "… weil ich hier zu Hause bin.",
+                "… wil ich dehei bi gsii.",
+                "… wil ich da dehei bi.",
+                "… wil da dehei isch ich."
+              ],
+              "answer": 2,
+              "explanation": "Verb last after wil."
+            },
+            {
+              "type": "mcq",
+              "prompt": "What does *dehei* mean?",
+              "options": [
+                "Outside",
+                "Today",
+                "Everywhere",
+                "At home"
+              ],
+              "answer": 3,
+              "explanation": "zu Hause."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh9-l02",
+      "level": "lesson",
+      "covers": [
+        "zh9-l02-phone"
+      ],
+      "summary": {
+        "title": "A phone call",
+        "points": [
+          "Open with your surname: Grüezi, da isch Meier.",
+          "Reason: Ich lüüte aa wäge …",
+          "Confirm: Das passt mer guet.",
+          "Close with Uf Widerhööre."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Calling the hairdresser.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How do you open?",
+              "options": [
+                "Grüezi, da isch Meier.",
+                "Hallo, hier spricht Herr Meier.",
+                "Grüezi, ich heisse gsii Meier.",
+                "Meier, wer isch da?"
+              ],
+              "answer": 0,
+              "explanation": "Da isch + surname."
+            },
+            {
+              "type": "mcq",
+              "prompt": "They offer Monday at ten, which suits you. Say?",
+              "options": [
+                "Das passt mir gut.",
+                "Das passt mer guet.",
+                "Das gaat nöd.",
+                "Das isch no schwierig."
+              ],
+              "answer": 1,
+              "explanation": "Suits me fine."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Ending the call.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Phone goodbye?",
+              "options": [
+                "Uf Widerluege!",
+                "Schöne Fiirabig!",
+                "Uf Widerhööre!",
+                "Grüezi!"
+              ],
+              "answer": 2,
+              "explanation": "hööre = hear."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'I'm calling about an appointment' is?",
+              "options": [
+                "Ich rufe wegen eines Termins an.",
+                "Ich lüüte wäge Termin gsii.",
+                "Ich ha en Termin aaglüütet.",
+                "Ich lüüte aa wäge emene Termin."
+              ],
+              "answer": 3,
+              "explanation": "aalüüte + wäge."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh9-l03",
+      "level": "lesson",
+      "covers": [
+        "zh9-l03-dinner"
+      ],
+      "summary": {
+        "title": "Dinner with neighbours",
+        "points": [
+          "Chömed ine! (plural imperative).",
+          "Mir händ es Gschänkli mitbracht.",
+          "Das isch mega fein! (fein = tasty).",
+          "Merci für d Iiladig."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Arriving at the neighbours'.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "They open the door and say?",
+              "options": [
+                "Chömed ine!",
+                "Chumm use!",
+                "Kommt herein!",
+                "Gömmer!"
+              ],
+              "answer": 0,
+              "explanation": "Come in."
+            },
+            {
+              "type": "mcq",
+              "prompt": "You hand over flowers. Say?",
+              "options": [
+                "Wir haben ein Geschenk mitgebracht.",
+                "Mir händ es Gschänkli mitbracht.",
+                "Mir händ es Gschänk bringe.",
+                "Mir bringed es Gschänkli gsii."
+              ],
+              "answer": 1,
+              "explanation": "mitbracht."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "During and after dinner.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Complimenting the food?",
+              "options": [
+                "Das isch huere fein!",
+                "Das ist sehr lecker!",
+                "Das isch mega fein!",
+                "Das isch fein gsii gsii!"
+              ],
+              "answer": 2,
+              "explanation": "mega fein."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Thanking for the invitation?",
+              "options": [
+                "Danke für die Einladung.",
+                "Merci für d Einladig.",
+                "Merci für s Ässe gsii.",
+                "Merci für d Iiladig."
+              ],
+              "answer": 3,
+              "explanation": "ei → ii, -ung → -ig."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh9-l04",
+      "level": "lesson",
+      "covers": [
+        "zh9-l04-storytelling"
+      ],
+      "summary": {
+        "title": "Storytelling",
+        "points": [
+          "Stories use the perfect throughout.",
+          "zerscht, dänn, nachher, am Schluss.",
+          "Geschter bin ich … gsii (linking n).",
+          "Es isch öppis passiert = something happened."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Telling your weekend.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Yesterday I was in Zurich' is?",
+              "options": [
+                "Geschter bin ich z Züri gsii.",
+                "Gestern war ich in Zürich.",
+                "Geschter war ich z Züri.",
+                "Geschter bi ich z Züri gange gsii."
+              ],
+              "answer": 0,
+              "explanation": "Perfect; bin before ich."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'First we had something to eat' is?",
+              "options": [
+                "Zuerst assen wir etwas.",
+                "Zerscht hämmer öppis ggässe.",
+                "Zerscht händ mir öppis ässe.",
+                "Zerscht hämmer nüt ggässe."
+              ],
+              "answer": 1,
+              "explanation": "hämmer + ggässe."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Story frame.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which word means 'in the end'?",
+              "options": [
+                "zerscht",
+                "dänn",
+                "am Schluss",
+                "nachher"
+              ],
+              "answer": 2,
+              "explanation": "Final step."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Why *bin ich* rather than *bi ich*?",
+              "options": [
+                "It's the plural",
+                "It's Bern German",
+                "It's a mistake in the course",
+                "Linking n before a vowel"
+              ],
+              "answer": 3,
+              "explanation": "Linking n."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh9-l05",
+      "level": "lesson",
+      "covers": [
+        "zh9-l05-phrasebook"
+      ],
+      "summary": {
+        "title": "Your phrasebook",
+        "points": [
+          "About 150 phrases you can say instantly.",
+          "Start with reactions: Kei Problem, Das gaat, Genau, Isch guet.",
+          "Add one real phrase from conversation each day."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Quick reactions.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Someone apologises for a small delay. React?",
+              "options": [
+                "Kei Problem.",
+                "Kei Ahnig.",
+                "So en Seich.",
+                "Gopf."
+              ],
+              "answer": 0,
+              "explanation": "No problem."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Agreeing to a time?",
+              "options": [
+                "Das gaat nöd.",
+                "Das gaat.",
+                "Das isch no schwierig.",
+                "Wasch los?"
+              ],
+              "answer": 1,
+              "explanation": "That works."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Building it.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "What's the quickest fluency win?",
+              "options": [
+                "Rare vocabulary",
+                "Writing essays",
+                "Instant short reactions",
+                "Slang and swear words first"
+              ],
+              "answer": 2,
+              "explanation": "They fill conversations."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Where do new phrases come from?",
+              "options": [
+                "Only the course",
+                "Dictionaries only",
+                "Translation apps only",
+                "Real conversations"
+              ],
+              "answer": 3,
+              "explanation": "Your own use."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh9-l06",
+      "level": "lesson",
+      "covers": [
+        "zh9-l06-keep-it-alive"
+      ],
+      "summary": {
+        "title": "Keeping it alive",
+        "points": [
+          "Daily: SRF listening and the app's review.",
+          "Three real conversations a week.",
+          "Weekly: one subtitled programme and one story told aloud.",
+          "Übig macht de Meischter."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Your weekly plan.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "How often should you have a real dialect conversation?",
+              "options": [
+                "About three times a week",
+                "Once a year",
+                "Only at work",
+                "Never; listening is enough"
+              ],
+              "answer": 0,
+              "explanation": "Contact beats theory."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Asking a friend to speak dialect with you?",
+              "options": [
+                "Sprich bitte Hochdeutsch.",
+                "Red bitte Schwiizertüütsch mit mir.",
+                "Red bitte Änglisch mit mir.",
+                "Chasch mer s ufschriibe?"
+              ],
+              "answer": 1,
+              "explanation": "Every time."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "The proverb.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "*Übig macht de Meischter* means?",
+              "options": [
+                "The master is tired after work",
+                "Exercise is hard",
+                "Practice makes perfect",
+                "Learn from your boss"
+              ],
+              "answer": 2,
+              "explanation": "Übung macht den Meister."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which rules does *Meischter* show?",
+              "options": [
+                "k → ch",
+                "Open ä",
+                "-li",
+                "st → scht"
+              ],
+              "answer": 3,
+              "explanation": "Meister → Meischter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh9-b1",
+      "level": "block",
+      "covers": [
+        "zh9-l01-introduction",
+        "zh9-l02-phone",
+        "zh9-l03-dinner"
+      ],
+      "summary": {
+        "title": "Introduce, phone, host",
+        "points": [
+          "A five-line introduction you can say instantly.",
+          "Phone: da isch …, lüüte aa wäge …, Uf Widerhööre.",
+          "Dinner: Chömed ine, Gschänkli, mega fein, Iiladig."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "A busy social week.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Closing a phone call?",
+              "options": [
+                "Merci, uf Widerhööre!",
+                "Merci, uf Widerluege!",
+                "Schöne Fiirabig!",
+                "Proscht!"
+              ],
+              "answer": 0,
+              "explanation": "Phone goodbye."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Leaving the dinner?",
+              "options": [
+                "Merci für s Telefon!",
+                "Merci für d Iiladig!",
+                "Gärn gscheh!",
+                "Fröit mi!"
+              ],
+              "answer": 1,
+              "explanation": "Thanks for the invitation."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Introduce yourself in three lines.",
+              "modelAnswer": "Ich heisse … und chume us … Ich wohne sit … Jahr im Kanton Züri und schaffe … Ich lerne Schwiizertüütsch, wil ich da dehei bi."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Rules in the capstone phrases.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which rules make *Iiladig*?",
+              "options": [
+                "k → ch only",
+                "st → scht",
+                "ei → ii and -ung → -ig",
+                "Open ä"
+              ],
+              "answer": 2,
+              "explanation": "Two shifts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which form is *Chömed ine*?",
+              "options": [
+                "Perfect",
+                "Relative wo",
+                "Diminutive -li with umlaut",
+                "Plural imperative"
+              ],
+              "answer": 3,
+              "explanation": "To a group."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh9-b2",
+      "level": "block",
+      "covers": [
+        "zh9-l04-storytelling",
+        "zh9-l05-phrasebook",
+        "zh9-l06-keep-it-alive"
+      ],
+      "summary": {
+        "title": "Stories, phrasebook and routine",
+        "points": [
+          "Stories in the perfect with zerscht, dänn, nachher, am Schluss.",
+          "Phrasebook of about 150 instant phrases.",
+          "Weekly routine of listening, conversations and stories."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Telling and keeping.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "'Then something funny happened' is?",
+              "options": [
+                "Dänn isch öppis Lustigs passiert.",
+                "Dann passierte etwas Lustiges.",
+                "Dänn passierte öppis Lustigs.",
+                "Dänn hät öppis Lustigs passiert."
+              ],
+              "answer": 0,
+              "explanation": "sii + passiert."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Your daily minimum?",
+              "options": [
+                "Reading a grammar book",
+                "SRF listening and the app's review",
+                "Writing a dialect essay",
+                "Nothing on weekends, a lot on Mondays"
+              ],
+              "answer": 1,
+              "explanation": "Little and often."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Tell a four-step story about last Saturday.",
+              "modelAnswer": "Zerscht bin ich go poschte gsii, dänn hämmer z Mittag ggässe, nachher simmer am See go laufe, und am Schluss simmer hei."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Why this works.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Why a personal phrasebook?",
+              "options": [
+                "It replaces conversations",
+                "It's needed for exams",
+                "Fluency comes from phrases you can say instantly",
+                "It's faster than listening"
+              ],
+              "answer": 2,
+              "explanation": "Instant recall."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which tense do Zurich stories use?",
+              "options": [
+                "Simple past",
+                "Future",
+                "Subjunctive",
+                "Perfect"
+              ],
+              "answer": 3,
+              "explanation": "Only one past tense."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rv-zh9-m",
+      "level": "module",
+      "covers": [
+        "zh9-l01-introduction",
+        "zh9-l02-phone",
+        "zh9-l03-dinner",
+        "zh9-l04-storytelling",
+        "zh9-l05-phrasebook",
+        "zh9-l06-keep-it-alive"
+      ],
+      "summary": {
+        "title": "Capstone: the whole picture",
+        "points": [
+          "Your introduction, phone calls and an evening with neighbours in dialect.",
+          "Stories in the perfect with a simple frame.",
+          "A personal phrasebook of instant phrases.",
+          "A weekly routine and asking people to stay in dialect."
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ex1",
+          "kind": "apply",
+          "scenario": "Putting it all together.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "A stranger asks where you're from. Answer?",
+              "options": [
+                "Ich chume us Frankriich.",
+                "Ich komme aus Frankreich.",
+                "Ich chume us Frankreich.",
+                "Ich bi us Frankriich cho gsii."
+              ],
+              "answer": 0,
+              "explanation": "Zurich forms."
+            },
+            {
+              "type": "mcq",
+              "prompt": "A friend invites you. Accept and thank?",
+              "options": [
+                "Gerne, danke für die Einladung!",
+                "Gärn, merci für d Iiladig!",
+                "Gärn, merci für d Einladig!",
+                "Gärn gscheh!"
+              ],
+              "answer": 1,
+              "explanation": "Iiladig."
+            },
+            {
+              "type": "mcq",
+              "prompt": "The first habit to keep?",
+              "options": [
+                "Switch to High German when stuck",
+                "Avoid conversations",
+                "Ask people to stay in dialect",
+                "Only read"
+              ],
+              "answer": 2,
+              "explanation": "Everything follows."
+            }
+          ]
+        },
+        {
+          "id": "ex2",
+          "kind": "connect",
+          "scenario": "Looking back at the course.",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Which tool helps most with sound rules?",
+              "options": [
+                "The Zurich clock",
+                "The verb table",
+                "The protein and energy estimator",
+                "The sound-shift explorer"
+              ],
+              "answer": 3,
+              "explanation": "Module 2."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Which rule is in *Fiirabig*, *Iiladig* and *Ziitig*?",
+              "options": [
+                "ei → ii",
+                "k → ch",
+                "st → scht",
+                "-li"
+              ],
+              "answer": 0,
+              "explanation": "Old long vowels."
+            },
+            {
+              "type": "self-check",
+              "prompt": "Summarise how you'll keep learning in one sentence.",
+              "modelAnswer": "Jede Tag chli lose und repetiere, drüümal i de Wuche rede, und alli bitte, Schwiizertüütsch mit mir z rede."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

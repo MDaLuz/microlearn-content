@@ -1,0 +1,579 @@
+{
+  "schemaVersion": 6,
+  "id": "zh-m9-capstone",
+  "title": "Züritüütsch 9: Capstone: speak it",
+  "discipline": "Languages",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "zh9-l01-introduction",
+      "title": "Your own introduction",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Four lines about you\n\nBuild a short introduction you can say without thinking: name and origin, where you live and since when, work, and family. Then add one line on why you're learning dialect. Fill the template below with your own details and practise it aloud daily."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m9/intro-template.svg",
+          "alt": "A four-line introduction template: Ich heisse … und chume us …; Ich wohne sit … Jahr im Kanton Züri; Ich schaffe …; Mir händ … Chind; Ich lerne Schwiizertüütsch, wil …",
+          "caption": "Your introduction template",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 1.783
+        },
+        {
+          "type": "text",
+          "markdown": "## Template (practice)\n\n1. *Ich heisse … und chume us …*\n2. *Ich wohne sit … Jahr im Kanton Züri.*\n3. *Ich schaffe …* (*als …*, *imene Büro*, *bi …*)\n4. *Mir händ … Chind.* / *Ich ha …*\n5. *Ich lerne Schwiizertüütsch, wil ich da dehei bi.*"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich wohne sit drüü Jahr im Kanton Züri.\n\n- Say it: ich WO-ne SIT DRÜÜ JAHR im kan-TON TSÜ-ri\n- IPA: [ɪx ˈʋoːnə sɪt d̥ryː jaːr ɪm kanˈtoːn ˈtsyri]\n- Hochdeutsch: Ich wohne seit drei Jahren im Kanton Zürich.\n- English: I've lived in the canton of Zurich for three years.\n- Note: *sit* = seit; *Jahr* stays singular."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich schaffe imene Büro.\n\n- Say it: ich SCHAF-fe I-me-ne BÜ-ro\n- IPA: [ɪx ˈʃafːə ˈiməne ˈb̥yro]\n- Hochdeutsch: Ich arbeite in einem Büro.\n- English: I work in an office.\n- Note: *imene* = in einem."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mir händ zwei Chind.\n\n- Say it: mir HÄND TSWEI CHIND\n- IPA: [mir hænd̥ tsʋei̯ xɪnd̥]\n- Hochdeutsch: Wir haben zwei Kinder.\n- English: We have two children."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich lerne Schwiizertüütsch, wil ich da dehei bi.\n\n- Say it: ich LER-ne SCHWII-tser-tüütsch, wil ich DA de-HEI bi\n- IPA: [ɪx ˈlɛrnə ˈʃʋiːtsərtyːtʃ ʋɪl ɪx d̥a d̥əˈhei̯ b̥i]\n- Hochdeutsch: Ich lerne Schweizerdeutsch, weil ich hier zu Hause bin.\n- English: I'm learning Swiss German because this is home.\n- Note: *dehei* = zu Hause."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** write your own five-line introduction from the template, say it aloud every day this week, and use it the next time you meet someone."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh9-l01-introduction-fc1",
+              "front": "sit",
+              "back": "Since (seit): sit drüü Jahr = for three years."
+            },
+            {
+              "id": "zh9-l01-introduction-fc2",
+              "front": "dehei",
+              "back": "At home (zu Hause): Ich bi da dehei = this is home."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh9-l01-introduction-q1",
+              "stem": "What does *imene* mean?",
+              "options": [
+                "In a / in an",
+                "Me too",
+                "Always",
+                "Inside"
+              ],
+              "correctIndex": 0,
+              "explanation": "in einem."
+            },
+            {
+              "id": "zh9-l01-introduction-q2",
+              "stem": "'For three years' is?",
+              "options": [
+                "sit drüü Jahr",
+                "für drüü Jahre",
+                "vor drüü Jahr",
+                "drüü Jahr lang gsii"
+              ],
+              "correctIndex": 0,
+              "explanation": "sit + Jahr."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh9-l02-phone",
+      "title": "A phone call: booking an appointment",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Phone conventions\n\nOn the phone, Swiss callers start with their name: *Grüezi, da isch Meier.* The call ends with **Uf Widerhööre** (literally 'until we hear again'), not *Uf Widerluege*."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m9/phone-call.svg",
+          "alt": "Phone call: Grüezi, da isch Meier. Ich lüüte aa wäge emene Termin. Am Mäntig am zääni? Das passt mer guet. Uf Widerhööre!",
+          "caption": "Booking by phone",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.103
+        },
+        {
+          "type": "text",
+          "markdown": "## Structure (practice)\n\n1. Greeting and name: *Grüezi, da isch …*\n2. Reason: *Ich lüüte aa wäge …*\n3. Time: Module 3's clock.\n4. Confirm: *Das passt mer guet.*\n5. Close: *Merci, uf Widerhööre!*"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Grüezi, da isch Meier.\n\n- Say it: GRÜ-e-tsi, DA isch MEI-er\n- IPA: [ˈɡ̊ryə̯tsi d̥a ɪʃ ˈmei̯ər]\n- Hochdeutsch: Guten Tag, hier ist Meier.\n- English: Hello, Meier speaking.\n- Note: Surname, without Herr or Frau."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich lüüte aa wäge emene Termin.\n\n- Say it: ich LÜÜ-te AA WÄ-ge E-me-ne ter-MIN\n- IPA: [ɪx ˈlyːtə aː ˈʋæɡ̊ə ˈeməne tərˈmiːn]\n- Hochdeutsch: Ich rufe wegen eines Termins an.\n- English: I'm calling about an appointment.\n- Note: *wäge* + dative."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Das passt mer guet.\n\n- Say it: das PASST mer GU-et\n- IPA: [d̥as past mər ɡ̊uə̯t]\n- Hochdeutsch: Das passt mir gut.\n- English: That suits me fine."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Uf Widerhööre!\n\n- Say it: uf WI-der-höö-re\n- IPA: [uf ˈʋid̥ərhøːrə]\n- Hochdeutsch: Auf Wiederhören!\n- English: Goodbye! (on the phone)"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** make your next appointment call fully in dialect, using the five-step structure."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh9-l02-phone-fc1",
+              "front": "Uf Widerhööre",
+              "back": "Goodbye on the phone ('until we hear again')."
+            },
+            {
+              "id": "zh9-l02-phone-fc2",
+              "front": "Da isch …",
+              "back": "This is … speaking: how Swiss callers open a call."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh9-l02-phone-q1",
+              "stem": "How do you end a phone call?",
+              "options": [
+                "Uf Widerluege!",
+                "Uf Widerhööre!",
+                "Grüezi!",
+                "En Guete!"
+              ],
+              "correctIndex": 1,
+              "explanation": "hööre = hear."
+            },
+            {
+              "id": "zh9-l02-phone-q2",
+              "stem": "How do you open a call as Ms Keller?",
+              "options": [
+                "Grüezi, da isch Keller.",
+                "Hallo, ich bin Frau Keller.",
+                "Grüezi, ich heisse gsii Keller.",
+                "Keller, wer isch da?"
+              ],
+              "correctIndex": 0,
+              "explanation": "Da isch + surname."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh9-l03-dinner",
+      "title": "Dinner with neighbours",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A full evening in dialect\n\nAn invitation (**Iiladig**) to neighbours or colleagues is the big test: greetings at the door, a small gift, compliments on the food, conversation, thanks. Everything you need is in Modules 3–8."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m9/dinner.svg",
+          "alt": "Evening dialogue: Chömed ine! Mir händ es Gschänkli mitbracht. En Guete! Das isch mega fein! Merci für d Iiladig.",
+          "caption": "Dinner with neighbours",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.103
+        },
+        {
+          "type": "text",
+          "markdown": "## Notes (practice)\n\n- *fein*: tasty (also 'fine')\n- *mitbracht*: brought along (perfect of *mitbringe*)\n- *Iiladig*: invitation (ei → ii, -ung → -ig)\n- Bring a small gift: flowers, wine or chocolate."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Chömed ine!\n\n- Say it: CHÖ-med I-ne\n- IPA: [ˈxœməd̥ ˈinə]\n- Hochdeutsch: Kommt herein!\n- English: Come in!\n- Note: Plural imperative: to a couple or group."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mir händ es Gschänkli mitbracht.\n\n- Say it: mir HÄND es GSCHÄNK-li MIT-bracht\n- IPA: [mir hænd̥ əs ˈɡ̊ʃæŋkli ˈmɪtb̥raxt]\n- Hochdeutsch: Wir haben ein kleines Geschenk mitgebracht.\n- English: We've brought a little gift."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Das isch mega fein!\n\n- Say it: das isch ME-ga FEIN\n- IPA: [d̥as ɪʃ ˈmeɡ̊a fei̯n]\n- Hochdeutsch: Das ist sehr lecker!\n- English: This is delicious!"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Merci für d Iiladig.\n\n- Say it: MER-si für d II-la-dig\n- IPA: [ˈmærsi fyr d̥ ˈiːlad̥ɪɡ̊]\n- Hochdeutsch: Danke für die Einladung.\n- English: Thanks for the invitation."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** accept the next dinner invitation and stay in dialect from Chömed ine to Merci für d Iiladig."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh9-l03-dinner-fc1",
+              "front": "Iiladig",
+              "back": "Invitation (Einladung): ei → ii and -ung → -ig."
+            },
+            {
+              "id": "zh9-l03-dinner-fc2",
+              "front": "fein",
+              "back": "Tasty: Das isch mega fein!"
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh9-l03-dinner-q1",
+              "stem": "What does *Das isch mega fein* compliment?",
+              "options": [
+                "The weather",
+                "The food",
+                "The flat",
+                "The children"
+              ],
+              "correctIndex": 1,
+              "explanation": "fein = tasty."
+            },
+            {
+              "id": "zh9-l03-dinner-q2",
+              "stem": "Which two rules turn *Einladung* into *Iiladig*?",
+              "options": [
+                "ei → ii and -ung → -ig",
+                "k → ch and st → scht",
+                "Open ä and -li",
+                "Dropped -n only"
+              ],
+              "correctIndex": 0,
+              "explanation": "Both shifts."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh9-l04-storytelling",
+      "title": "Telling a story in the perfect",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Story structure\n\nStories in Zurich German use the perfect throughout (Module 4) and a few linking words: **zerscht** (first), *dänn* (then), *nachher* (afterwards), *am Schluss* (in the end)."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m9/story.svg",
+          "alt": "A four-step story frame: Zerscht (first), dänn (then), nachher (afterwards), am Schluss (in the end), each with a sentence in the perfect.",
+          "caption": "A story frame",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.733
+        },
+        {
+          "type": "text",
+          "markdown": "## Example (practice)\n\n*Geschter bin ich z Züri gsii. Zerscht hämmer öppis ggässe, dänn simmer am See go laufe. Nachher isch öppis Lustigs passiert … Am Schluss simmer hei.*\n\nNote *bin ich*: linking n before *ich*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Geschter bin ich z Züri gsii.\n\n- Say it: GESCH-ter BIN ich ts TSÜ-ri GSII\n- IPA: [ˈɡ̊eʃtər b̥ɪn ɪx ts ˈtsyri ɡ̊siː]\n- Hochdeutsch: Gestern war ich in Zürich.\n- English: Yesterday I was in Zurich.\n- Note: *bi* → *bin* before *ich*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Zerscht hämmer öppis ggässe.\n\n- Say it: TSERSCHT HÄM-mer ÖP-pis GGÄS-se\n- IPA: [tserʃt ˈhæmːər ˈœpːɪs ˈkæsə]\n- Hochdeutsch: Zuerst haben wir etwas gegessen.\n- English: First we had something to eat."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Dänn isch öppis Lustigs passiert.\n\n- Say it: DÄNN isch ÖP-pis LUS-tigs pa-SIERT\n- IPA: [d̥æn ɪʃ ˈœpːɪs ˈlʊstɪɡ̊s paˈsiərt]\n- Hochdeutsch: Dann ist etwas Lustiges passiert.\n- English: Then something funny happened."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Am Schluss simmer hei.\n\n- Say it: am SCHLUSS SIM-mer HEI\n- IPA: [am ʃlʊs ˈsɪmːər hei̯]\n- Hochdeutsch: Am Schluss sind wir heim.\n- English: In the end we went home.\n- Note: Colloquial: *gange* is understood."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** tell one short story every week in dialect, using zerscht, dänn, nachher and am Schluss with the perfect."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh9-l04-storytelling-fc1",
+              "front": "zerscht, dänn, nachher, am Schluss",
+              "back": "First, then, afterwards, in the end: the story frame."
+            },
+            {
+              "id": "zh9-l04-storytelling-fc2",
+              "front": "passiert",
+              "back": "Happened: Es isch öppis passiert."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh9-l04-storytelling-q1",
+              "stem": "What does *zerscht* mean?",
+              "options": [
+                "Last",
+                "First",
+                "Then",
+                "Never"
+              ],
+              "correctIndex": 1,
+              "explanation": "zuerst."
+            },
+            {
+              "id": "zh9-l04-storytelling-q2",
+              "stem": "Which tense do Zurich stories use?",
+              "options": [
+                "Simple past",
+                "Perfect",
+                "Present only",
+                "Future"
+              ],
+              "correctIndex": 1,
+              "explanation": "Perfect only."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n2. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh9-l05-phrasebook",
+      "title": "Your personal phrasebook",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The 150 phrases you use most\n\nFluency comes from a small set of phrases you can say instantly. Build a **personal phrasebook** of about 150: start with the phrase cards you use most from this course, then add your own from real conversations. Review them in the app's reviews and say them aloud."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m9/phrasebook.svg",
+          "alt": "Phrasebook building blocks: greetings, reactions (Kei Problem, Das gaat, Genau, Isch guet), questions, work phrases, family phrases, repair phrases.",
+          "caption": "Your phrasebook sections",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Reactions to start with\n\nThe quickest win is short reactions: they fill half of every conversation. The four below are among the most frequent."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Kei Problem.\n\n- Say it: KEI pro-BLEM\n- IPA: [kei̯ proˈbleːm]\n- Hochdeutsch: Kein Problem.\n- English: No problem."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Das gaat.\n\n- Say it: das GAAT\n- IPA: [d̥as ɡ̊aːt]\n- Hochdeutsch: Das geht.\n- English: That works. / It's OK."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Genau!\n\n- Say it: ge-NAU\n- IPA: [ɡ̊əˈnau̯]\n- Hochdeutsch: Genau!\n- English: Exactly!"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Isch guet.\n\n- Say it: isch GU-et\n- IPA: [ɪʃ ɡ̊uə̯t]\n- Hochdeutsch: Ist gut.\n- English: Fine. / OK."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** start your phrasebook today with ten reactions and ten questions you use every day, and add one new phrase from a real conversation each day."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh9-l05-phrasebook-fc1",
+              "front": "Das gaat",
+              "back": "That works / it's OK (das geht)."
+            },
+            {
+              "id": "zh9-l05-phrasebook-fc2",
+              "front": "Isch guet",
+              "back": "Fine, OK: the all-purpose agreement."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh9-l05-phrasebook-q1",
+              "stem": "Someone asks if 3 pm works. You agree. Say?",
+              "options": [
+                "Das gaat.",
+                "Kei Ahnig.",
+                "Äxgüsi.",
+                "Gopf!"
+              ],
+              "correctIndex": 0,
+              "explanation": "That works."
+            },
+            {
+              "id": "zh9-l05-phrasebook-q2",
+              "stem": "What's the fastest way to sound fluent?",
+              "options": [
+                "Learning rare words",
+                "Instant short reactions",
+                "Speaking faster",
+                "Using slang"
+              ],
+              "correctIndex": 1,
+              "explanation": "Reactions fill conversations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n2. **Image** — own diagram.\n3. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983."
+        }
+      ]
+    },
+    {
+      "id": "zh9-l06-keep-it-alive",
+      "title": "Keeping it alive: a weekly routine",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A sustainable routine\n\nYou've covered the sounds, grammar and situations. Progress now comes from contact: a little every day, real conversations every week, and the app's reviews to keep it fresh."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m9/routine.svg",
+          "alt": "A weekly routine grid: daily SRF weather and phrasebook review, three real conversations a week, one subtitled SRF programme, one story told in dialect.",
+          "caption": "A weekly routine",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## The routine (practice)\n\n- **Daily:** 5 minutes of SRF listening + the app's review.\n- **Three times a week:** a real conversation in dialect (shop, neighbour, colleague, other parents).\n- **Weekly:** one subtitled SRF dialect programme and one story told aloud.\n- **Ask people** to stay in dialect, every time."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Red bitte Schwiizertüütsch mit mir.\n\n- Say it: RED BIT-te SCHWII-tser-tüütsch mit MIR\n- IPA: [red̥ ˈb̥ɪtːə ˈʃʋiːtsərtyːtʃ mɪt miər]\n- Hochdeutsch: Sprich bitte Schweizerdeutsch mit mir.\n- English: Please speak Swiss German with me."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich lerne jede Tag chli.\n\n- Say it: ich LER-ne JE-de TAG CHLI\n- IPA: [ɪx ˈlɛrnə ˈjed̥ə taɡ̊ xli]\n- Hochdeutsch: Ich lerne jeden Tag ein bisschen.\n- English: I learn a little every day."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Übig macht de Meischter.\n\n- Say it: Ü-big MACHT de MEISCH-ter\n- IPA: [ˈyb̥ɪɡ̊ maxt d̥ə ˈmei̯ʃtər]\n- Hochdeutsch: Übung macht den Meister.\n- English: Practice makes perfect.\n- Note: *-ung* → *-ig*, *st* → *scht*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Bis bald!\n\n- Say it: bis BALD\n- IPA: [b̥ɪs b̥ald̥]\n- Hochdeutsch: Bis bald!\n- English: See you soon!"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** run the weekly routine, ask everyone to stay in dialect, and let the app's reviews keep the course alive."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh9-l06-keep-it-alive-fc1",
+              "front": "Übig macht de Meischter",
+              "back": "Practice makes perfect (Übung macht den Meister)."
+            },
+            {
+              "id": "zh9-l06-keep-it-alive-fc2",
+              "front": "Weekly routine",
+              "back": "Daily listening and review, three conversations a week, one programme and one story weekly."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh9-l06-keep-it-alive-q1",
+              "stem": "Which habit brings the most progress now?",
+              "options": [
+                "Rereading grammar",
+                "Regular real conversations",
+                "Learning slang",
+                "Writing dialect emails"
+              ],
+              "correctIndex": 1,
+              "explanation": "Contact over theory."
+            },
+            {
+              "id": "zh9-l06-keep-it-alive-q2",
+              "stem": "What does *Übig macht de Meischter* show?",
+              "options": [
+                "-ung → -ig and st → scht",
+                "k → ch only",
+                "Open ä only",
+                "Verb doubling"
+              ],
+              "correctIndex": 0,
+              "explanation": "Two rules in one proverb."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Practice** — everyday usage in the Zurich region; labelled as practice in the lesson.\n2. **Image** — own diagram.\n3. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983."
+        }
+      ]
+    }
+  ]
+}

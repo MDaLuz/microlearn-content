@@ -6,10 +6,27 @@
   },
   "categories": {
     "Training": {
-      "disclaimer": "General training education, not medical advice. Check with a doctor if you have a health condition, and stop if you feel chest pain, dizziness or unusual breathlessness."
+      "disclaimer": "General training education, not medical advice. Check with a doctor if you have a health condition, and stop if you feel chest pain, dizziness or unusual breathlessness.",
+      "icon": "dumbbell"
     },
     "Languages": {
-      "disclaimer": "Swiss German has no official spelling. This course uses Zurich forms in Dieth-style spelling. Audio is a synthetic voice."
+      "disclaimer": "Swiss German has no official spelling. This course uses Zurich forms in Dieth-style spelling. Audio is a synthetic voice.",
+      "icon": "languages"
+    },
+    "Gardening": {
+      "icon": "plant"
+    },
+    "Communication": {
+      "icon": "microphone"
+    },
+    "Legal": {
+      "icon": "scales"
+    },
+    "Molecules": {
+      "icon": "capsule"
+    },
+    "Generics & launch": {
+      "icon": "gantt"
     }
   },
   "modules": [
@@ -22,7 +39,8 @@
       "version": 9,
       "lessonCount": 16,
       "estimatedMinutes": 120,
-      "accentColor": "#639922"
+      "accentColor": "#639922",
+      "icon": "plant"
     },
     {
       "id": "public-speaking",
@@ -33,7 +51,8 @@
       "version": 6,
       "lessonCount": 16,
       "estimatedMinutes": 135,
-      "accentColor": "#378ADD"
+      "accentColor": "#378ADD",
+      "icon": "microphone"
     },
     {
       "id": "indemnification",
@@ -46,7 +65,8 @@
       "estimatedMinutes": 165,
       "accentColor": "#C4782A",
       "reviews": "reviews/indemnification.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "icon": "shield"
     },
     {
       "id": "fenofibrate",
@@ -59,7 +79,8 @@
       "estimatedMinutes": 135,
       "accentColor": "#1D9E75",
       "reviews": "reviews/fenofibrate.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "icon": "lipid"
     },
     {
       "id": "rosuvastatin",
@@ -72,7 +93,8 @@
       "estimatedMinutes": 150,
       "accentColor": "#1D9E75",
       "reviews": "reviews/rosuvastatin.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "icon": "lipid"
     },
     {
       "id": "sitagliptin",
@@ -85,7 +107,8 @@
       "estimatedMinutes": 150,
       "accentColor": "#1D9E75",
       "reviews": "reviews/sitagliptin.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "icon": "glucose"
     },
     {
       "id": "dapagliflozin",
@@ -98,7 +121,8 @@
       "estimatedMinutes": 160,
       "accentColor": "#1D9E75",
       "reviews": "reviews/dapagliflozin.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "icon": "heart"
     },
     {
       "id": "bempedoic-acid",
@@ -111,7 +135,8 @@
       "estimatedMinutes": 150,
       "accentColor": "#1D9E75",
       "reviews": "reviews/bempedoic-acid.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "icon": "lipid"
     },
     {
       "id": "icosapent-ethyl",
@@ -124,7 +149,8 @@
       "estimatedMinutes": 150,
       "accentColor": "#1D9E75",
       "reviews": "reviews/icosapent-ethyl.reviews.json",
-      "reviewsVersion": 1
+      "reviewsVersion": 1,
+      "icon": "fish"
     },
     {
       "id": "gl-m0-orientation",
@@ -141,7 +167,8 @@
       "course": {
         "id": "generic-launch",
         "title": "Generic launch",
-        "order": 0
+        "order": 0,
+        "icon": "rocket"
       }
     },
     {
@@ -159,7 +186,8 @@
       "course": {
         "id": "generic-launch",
         "title": "Generic launch",
-        "order": 1
+        "order": 1,
+        "icon": "rocket"
       }
     },
     {
@@ -177,7 +205,8 @@
       "course": {
         "id": "generic-launch",
         "title": "Generic launch",
-        "order": 2
+        "order": 2,
+        "icon": "rocket"
       }
     },
     {
@@ -195,7 +224,8 @@
       "course": {
         "id": "generic-launch",
         "title": "Generic launch",
-        "order": 3
+        "order": 3,
+        "icon": "rocket"
       }
     },
     {
@@ -213,7 +243,8 @@
       "course": {
         "id": "generic-launch",
         "title": "Generic launch",
-        "order": 4
+        "order": 4,
+        "icon": "rocket"
       }
     },
     {
@@ -231,7 +262,8 @@
       "course": {
         "id": "generic-launch",
         "title": "Generic launch",
-        "order": 5
+        "order": 5,
+        "icon": "rocket"
       }
     },
     {
@@ -249,7 +281,8 @@
       "course": {
         "id": "generic-launch",
         "title": "Generic launch",
-        "order": 6
+        "order": 6,
+        "icon": "rocket"
       }
     },
     {
@@ -267,7 +300,8 @@
       "course": {
         "id": "generic-launch",
         "title": "Generic launch",
-        "order": 7
+        "order": 7,
+        "icon": "rocket"
       }
     },
     {
@@ -285,7 +319,8 @@
       "course": {
         "id": "generic-launch",
         "title": "Generic launch",
-        "order": 8
+        "order": 8,
+        "icon": "rocket"
       }
     },
     {
@@ -303,7 +338,8 @@
       "course": {
         "id": "generic-launch",
         "title": "Generic launch",
-        "order": 9
+        "order": 9,
+        "icon": "rocket"
       }
     },
     {
@@ -321,7 +357,8 @@
       "course": {
         "id": "training",
         "title": "Strength training",
-        "order": 0
+        "order": 0,
+        "icon": "dumbbell"
       }
     },
     {
@@ -339,7 +376,8 @@
       "course": {
         "id": "training",
         "title": "Strength training",
-        "order": 1
+        "order": 1,
+        "icon": "dumbbell"
       }
     },
     {
@@ -357,7 +395,8 @@
       "course": {
         "id": "training",
         "title": "Strength training",
-        "order": 2
+        "order": 2,
+        "icon": "dumbbell"
       }
     },
     {
@@ -375,7 +414,8 @@
       "course": {
         "id": "training",
         "title": "Strength training",
-        "order": 3
+        "order": 3,
+        "icon": "dumbbell"
       }
     },
     {
@@ -393,7 +433,8 @@
       "course": {
         "id": "training",
         "title": "Strength training",
-        "order": 4
+        "order": 4,
+        "icon": "dumbbell"
       }
     },
     {
@@ -411,7 +452,8 @@
       "course": {
         "id": "training",
         "title": "Strength training",
-        "order": 5
+        "order": 5,
+        "icon": "dumbbell"
       }
     },
     {
@@ -429,7 +471,8 @@
       "course": {
         "id": "training",
         "title": "Strength training",
-        "order": 6
+        "order": 6,
+        "icon": "dumbbell"
       }
     },
     {
@@ -447,7 +490,8 @@
       "course": {
         "id": "training",
         "title": "Strength training",
-        "order": 7
+        "order": 7,
+        "icon": "dumbbell"
       }
     },
     {
@@ -465,7 +509,8 @@
       "course": {
         "id": "training",
         "title": "Strength training",
-        "order": 8
+        "order": 8,
+        "icon": "dumbbell"
       }
     },
     {
@@ -483,7 +528,8 @@
       "course": {
         "id": "training",
         "title": "Strength training",
-        "order": 9
+        "order": 9,
+        "icon": "dumbbell"
       }
     },
     {
@@ -501,7 +547,8 @@
       "course": {
         "id": "training",
         "title": "Strength training",
-        "order": 10
+        "order": 10,
+        "icon": "dumbbell"
       }
     },
     {
@@ -520,7 +567,8 @@
       "course": {
         "id": "zuritutsch",
         "title": "Züritüütsch",
-        "order": 0
+        "order": 0,
+        "icon": "zuritutsch"
       }
     },
     {
@@ -539,7 +587,8 @@
       "course": {
         "id": "zuritutsch",
         "title": "Züritüütsch",
-        "order": 1
+        "order": 1,
+        "icon": "zuritutsch"
       }
     },
     {
@@ -558,7 +607,8 @@
       "course": {
         "id": "zuritutsch",
         "title": "Züritüütsch",
-        "order": 2
+        "order": 2,
+        "icon": "zuritutsch"
       }
     },
     {
@@ -577,7 +627,8 @@
       "course": {
         "id": "zuritutsch",
         "title": "Züritüütsch",
-        "order": 3
+        "order": 3,
+        "icon": "zuritutsch"
       }
     },
     {
@@ -596,7 +647,8 @@
       "course": {
         "id": "zuritutsch",
         "title": "Züritüütsch",
-        "order": 4
+        "order": 4,
+        "icon": "zuritutsch"
       }
     },
     {
@@ -615,7 +667,8 @@
       "course": {
         "id": "zuritutsch",
         "title": "Züritüütsch",
-        "order": 5
+        "order": 5,
+        "icon": "zuritutsch"
       }
     },
     {
@@ -634,7 +687,8 @@
       "course": {
         "id": "zuritutsch",
         "title": "Züritüütsch",
-        "order": 6
+        "order": 6,
+        "icon": "zuritutsch"
       }
     },
     {
@@ -653,7 +707,8 @@
       "course": {
         "id": "zuritutsch",
         "title": "Züritüütsch",
-        "order": 7
+        "order": 7,
+        "icon": "zuritutsch"
       }
     },
     {
@@ -672,7 +727,8 @@
       "course": {
         "id": "zuritutsch",
         "title": "Züritüütsch",
-        "order": 8
+        "order": 8,
+        "icon": "zuritutsch"
       }
     },
     {
@@ -691,7 +747,8 @@
       "course": {
         "id": "zuritutsch",
         "title": "Züritüütsch",
-        "order": 9
+        "order": 9,
+        "icon": "zuritutsch"
       }
     }
   ]

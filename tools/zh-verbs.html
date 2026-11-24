@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verb table</title>
+<style>
+:root{--bg:#FFFFFF;--card:#F7F4EE;--ink:#1B2430;--muted:#5B6672;--line:#E3E8EE;--accent:#1F3A5F;--go:#2E8B57;--gol:#DDF2E5;--back:#C2185B;--backl:#FBE4EE}
+@media (prefers-color-scheme:dark){:root{--bg:#14181E;--card:#1E242C;--ink:#E8ECF1;--muted:#9AA5B1;--line:#2C343E;--accent:#8DB4E2;--go:#5CC48A;--gol:#18301F;--back:#F06292;--backl:#3A1E2A}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 "Atkinson Hyperlegible",Arial,Helvetica,sans-serif;padding:16px}
+h1{font-size:20px;margin:0 0 4px} p.sub{color:var(--muted);margin:0 0 12px;font-size:13px}
+.tabs{display:flex;gap:8px;margin-bottom:12px}
+.tabs button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 12px;font:inherit;font-size:13px;cursor:pointer}
+.tabs button.on{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+input[type=search]{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit;margin-bottom:10px}
+.v{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:10px 12px;margin-bottom:8px}
+.v h2{font-size:17px;margin:0;color:var(--accent)} .v .g{font-size:12.5px;color:var(--muted)}
+.v table{width:100%;border-collapse:collapse;margin-top:6px;font-size:14px} .v td{padding:2px 4px;vertical-align:top} .v td.p{color:var(--muted);width:42%}
+.v td.f{font-weight:700}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;text-align:center;margin:10px 0}
+.q{font-size:22px;font-weight:700} .e{color:var(--muted);margin-top:4px} .a{font-size:26px;font-weight:700;color:var(--accent);min-height:36px;margin-top:12px}
+.btns{display:flex;gap:8px} .btns button{flex:1;border:0;border-radius:8px;padding:12px;font:inherit;font-weight:700;cursor:pointer}
+.main{background:var(--accent);color:var(--bg)} .yes{background:var(--gol);color:var(--go)} .no{background:var(--backl);color:var(--back)}
+.score{font-size:12.5px;color:var(--muted)} .hide{display:none} .note{font-size:12.5px;color:var(--muted);margin-top:12px}
+</style>
+</head>
+<body>
+<h1>Verb table</h1>
+<p class="sub">31 core Zurich German verbs: present tense and perfect. All plural persons and formal Si share one form.</p>
+<div class="tabs"><button id="tL" class="on">Table</button><button id="tQ">Practice</button></div>
+<section id="list"><input type="search" id="q" placeholder="Search Zurich, High German or English…" aria-label="Search"><div id="out"></div></section>
+<section id="quiz" class="hide">
+  <div class="score" id="score"></div>
+  <div class="card"><div class="q" id="qq"></div><div class="e" id="qe"></div><div class="a" id="qa"></div></div>
+  <div class="btns" id="b1"><button class="main" id="rev">Say it aloud, then reveal</button></div>
+  <div class="btns hide" id="b2"><button class="yes" id="yes">I knew it</button><button class="no" id="no">Not yet</button></div>
+</section>
+<p class="note">Common Zurich forms; some speakers vary (for example ich säge or ich säg). Perfect = haa or sii + participle: ich ha gmacht, ich bi gange.</p>
+<script>
+(function(){
+var V=[["sii", "sein", "to be", "bi", "bisch", "isch", "sind", "gsii", "sii"], ["haa", "haben", "to have", "ha (han)", "häsch", "hät", "händ", "gha", "haa"], ["gaa", "gehen", "to go", "gaa", "gaasch", "gaat", "gönd", "gange", "sii"], ["cho", "kommen", "to come", "chume", "chunsch", "chunt", "chömed", "cho", "sii"], ["tue", "tun", "to do", "tue", "tuesch", "tuet", "tüend", "ta", "haa"], ["mache", "machen", "to make, do", "mache", "machsch", "macht", "mached", "gmacht", "haa"], ["säge", "sagen", "to say", "säg", "sägsch", "seit", "säged", "gseit", "haa"], ["gää", "geben", "to give", "gib", "gisch", "git", "gänd", "ggää", "haa"], ["näh", "nehmen", "to take", "nime", "nimmsch", "nimmt", "nämed", "gnoo", "haa"], ["welle", "wollen", "to want", "wott", "wottsch", "wott", "wänd", "welle", "haa"], ["chöne", "können", "can", "cha", "chasch", "cha", "chönd", "chöne", "haa"], ["müese", "müssen", "must", "mues", "muesch", "mues", "müend", "müese", "haa"], ["dörfe", "dürfen", "may", "darf", "darfsch", "darf", "dörfed", "dörfe", "haa"], ["schaffe", "arbeiten", "to work", "schaffe", "schaffsch", "schafft", "schaffed", "gschafft", "haa"], ["ässe", "essen", "to eat", "ässe", "issisch", "isst", "ässed", "ggässe", "haa"], ["trinke", "trinken", "to drink", "trinke", "trinksch", "trinkt", "trinked", "trunke", "haa"], ["schlafe", "schlafen", "to sleep", "schlafe", "schlafsch", "schlaft", "schlafed", "gschlafe", "haa"], ["wohne", "wohnen", "to live (reside)", "wohne", "wohnsch", "wohnt", "wohned", "gwohnt", "haa"], ["rede", "reden, sprechen", "to speak", "rede", "redsch", "redt", "reded", "gredt", "haa"], ["lose", "zuhören", "to listen", "lose", "losisch", "lost", "losed", "glost", "haa"], ["luege", "schauen", "to look", "luege", "luegsch", "luegt", "lueged", "gluegt", "haa"], ["chaufe", "kaufen", "to buy", "chaufe", "chaufsch", "chauft", "chaufed", "kauft", "haa"], ["lerne", "lernen", "to learn", "lerne", "lernsch", "lernt", "lerned", "glernt", "haa"], ["fahre", "fahren", "to drive, ride", "fahre", "fahrsch", "fahrt", "fahred", "gfahre", "sii"], ["laufe", "laufen, gehen", "to walk", "laufe", "laufsch", "lauft", "laufed", "gloffe", "sii"], ["bliibe", "bleiben", "to stay", "bliibe", "bliibsch", "bliibt", "bliibed", "bliibe", "sii"], ["schriibe", "schreiben", "to write", "schriibe", "schriibsch", "schriibt", "schriibed", "gschribe", "haa"], ["läse", "lesen", "to read", "lise", "lisisch", "list", "läsed", "gläse", "haa"], ["wüsse", "wissen", "to know (a fact)", "weiss", "weisch", "weiss", "wüssed", "gwüsst", "haa"], ["heisse", "heissen", "to be called", "heisse", "heissisch", "heisst", "heissed", "gheisse", "haa"], ["warte", "warten", "to wait", "warte", "wartisch", "wartet", "warted", "gwartet", "haa"]];
+var $=function(i){return document.getElementById(i)};
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+var AUX={haa:"ha",sii:"bi"};
+function card(v){return '<div class="v"><h2>'+esc(v[0])+'</h2><div class="g">'+esc(v[1])+' · '+esc(v[2])+'</div><table>'+
+ '<tr><td class="p">ich</td><td class="f">'+esc(v[3])+'</td></tr><tr><td class="p">du</td><td class="f">'+esc(v[4])+'</td></tr>'+
+ '<tr><td class="p">er / si / es</td><td class="f">'+esc(v[5])+'</td></tr><tr><td class="p">mir / ihr / si / Si</td><td class="f">'+esc(v[6])+'</td></tr>'+
+ '<tr><td class="p">perfect</td><td class="f">ich '+AUX[v[8]]+' '+esc(v[7])+'</td></tr></table></div>'}
+function render(){var q=$('q').value.trim().toLowerCase();
+ $('out').innerHTML=V.filter(function(v){return !q||v.join(' ').toLowerCase().indexOf(q)>=0}).map(card).join('')||'<p class="note">No verb found.</p>'}
+$('q').addEventListener('input',render);
+var P=[["ich",3],["du",4],["er",5],["mir",6],["perfect",7]],cur,known=0,seen=0;
+function next(){var v=V[Math.floor(Math.random()*V.length)],p=P[Math.floor(Math.random()*P.length)];cur={v:v,p:p};
+ $('qq').textContent=p[0]==="perfect"?"perfect of "+v[0]:p[0]+" + "+v[0];$('qe').textContent=v[1]+" · "+v[2];$('qa').textContent='';
+ $('b1').classList.remove('hide');$('b2').classList.add('hide');$('score').textContent=known+' known of '+seen}
+$('rev').addEventListener('click',function(){var v=cur.v,p=cur.p;$('qa').textContent=p[0]==="perfect"?"ich "+AUX[v[8]]+" "+v[7]:p[0]+" "+v[p[1]];
+ $('b1').classList.add('hide');$('b2').classList.remove('hide')});
+$('yes').addEventListener('click',function(){known++;seen++;next()});$('no').addEventListener('click',function(){seen++;next()});
+function tab(qz){$('tL').classList.toggle('on',!qz);$('tQ').classList.toggle('on',qz);$('list').classList.toggle('hide',qz);$('quiz').classList.toggle('hide',!qz);if(qz)next()}
+$('tL').addEventListener('click',function(){tab(false)});$('tQ').addEventListener('click',function(){tab(true)});
+render();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,789 @@
+{
+  "schemaVersion": 6,
+  "id": "zh-m4-grammar",
+  "title": "Züritüütsch 4: The grammar core",
+  "discipline": "Languages",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "zh4-l01-articles",
+      "title": "Articles and the missing genitive",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Short articles\n\nZurich articles are tiny: **de** (der), *d* (die), *s* (das), and *en*, *e*, *es* for 'a'. Before a vowel, *d* and *s* attach to the word: *d Frau*, *s Auto*.\n\n- *de Maa*, *d Frau*, *s Chind*\n- *en Maa*, *e Frau*, *es Chind*"
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m4/articles-cases.svg",
+          "alt": "Table of Zurich articles: nominative de, d, s; dative em, de, em; plural d and de; indefinite en, e, es; with the genitive replaced by em Peter sis Velo.",
+          "caption": "Articles and cases",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.562
+        },
+        {
+          "type": "text",
+          "markdown": "## Two cases, not four\n\nZurich German uses nominative and dative; the accusative looks like the nominative, and the genitive has gone.\n\n- **Dative:** *em* (masc/neut), *de* (fem and plural): *em Maa*, *de Frau*, *de Chind*.\n- **Possession:** dative + possessive, *em Peter sis Velo* (Peter's bike), or *vo*: *s Huus vo minere Mueter*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: De Maa, d Frau, s Chind\n\n- Say it: de MAA, d FRAU, s CHIND\n- IPA: [d̥ə maː d̥ frau̯ s xɪnd̥]\n- Hochdeutsch: Der Mann, die Frau, das Kind\n- English: The man, the woman, the child"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: En Maa, e Frau, es Chind\n\n- Say it: en MAA, e FRAU, es CHIND\n- IPA: [ən maː ə frau̯ əs xɪnd̥]\n- Hochdeutsch: Ein Mann, eine Frau, ein Kind\n- English: A man, a woman, a child"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Em Peter sis Velo\n\n- Say it: em PE-ter SIS VE-lo\n- IPA: [əm ˈpeːtər siːs ˈʋelo]\n- Hochdeutsch: Peters Fahrrad\n- English: Peter's bike\n- Note: Dative + possessive replaces the genitive."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich gib s de Frau.\n\n- Say it: ich GIB s de FRAU\n- IPA: [ɪx ɡ̊ɪb̥ s d̥ə frau̯]\n- Hochdeutsch: Ich gebe es der Frau.\n- English: I'll give it to the woman.\n- Note: *de* = dative feminine."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** use de, d, s and en, e, es; for 'to someone' use em or de; and say whose something is with em … sis or vo."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh4-l01-articles-fc1",
+              "front": "Zurich articles",
+              "back": "de, d, s (the); en, e, es (a). Dative: em (m/n), de (f, pl)."
+            },
+            {
+              "id": "zh4-l01-articles-fc2",
+              "front": "Possession without genitive",
+              "back": "em Peter sis Velo, or s Velo vo em Peter. Never Peters Velo."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh4-l01-articles-q1",
+              "stem": "How do you say 'Peter's bike'?",
+              "options": [
+                "Peters Velo",
+                "Em Peter sis Velo",
+                "De Velo vo Peter",
+                "S Peter Velo"
+              ],
+              "correctIndex": 1,
+              "explanation": "Dative + possessive."
+            },
+            {
+              "id": "zh4-l01-articles-q2",
+              "stem": "Which is the dative feminine article?",
+              "options": [
+                "em",
+                "de",
+                "s",
+                "en"
+              ],
+              "correctIndex": 1,
+              "explanation": "de Frau."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh4-l02-pronouns",
+      "title": "Pronouns and the short forms",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## The pronouns\n\n*ich, du, er, si, es · mir, ihr, si*, and formal *Si*. Note *mir* = wir. Object forms: *mich/mi, dich/di, en* (ihn), *eus* (uns), *eu* (euch), *ine* (ihnen)."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m4/short-pronouns.svg",
+          "alt": "Verb plus pronoun fused into one word: händ mer → hämmer, gönd mer → gömmer, sind mer → simmer, chönd mer → chömmer, häsch du → häsch.",
+          "caption": "Pronouns that fuse with verbs",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Fused forms\n\nAfter a verb, unstressed pronouns shrink and fuse with it. These **clitics** are everywhere in speech:\n\n- *händ mir* → *hämmer* · *gönd mir* → *gömmer* · *sind mir* → *simmer* · *chönd mir* → *chömmer*\n- *du* often disappears after the verb: *Häsch Ziit?* (Hast du Zeit?)\n- *mer* (mir), *di*, *en*, *s* are the short object forms: *Ich gseh di.*"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Hämmer Ziit?\n\n- Say it: HÄM-mer TSIIT\n- IPA: [ˈhæmːər tsiːt]\n- Hochdeutsch: Haben wir Zeit?\n- English: Do we have time?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Simmer parat?\n\n- Say it: SIM-mer pa-RAAT\n- IPA: [ˈsɪmːər paˈraːt]\n- Hochdeutsch: Sind wir bereit?\n- English: Are we ready?\n- Note: *parat* = ready."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich gseh di morn.\n\n- Say it: ich GSEH di MORN\n- IPA: [ɪx ɡ̊seː d̥i mɔrn]\n- Hochdeutsch: Ich sehe dich morgen.\n- English: See you tomorrow."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Chasch mer hälfe?\n\n- Say it: CHASCH mer HÄL-fe\n- IPA: [xaʃ mər ˈhælfə]\n- Hochdeutsch: Kannst du mir helfen?\n- English: Can you help me?\n- Note: *du* is dropped; *mer* = mir."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** learn hämmer, gömmer, simmer and chömmer as whole words, and drop du after the verb in questions: Häsch Ziit?"
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh4-l02-pronouns-fc1",
+              "front": "Clitic pronouns",
+              "back": "Unstressed pronouns fused with the verb: hämmer, gömmer, simmer, chömmer."
+            },
+            {
+              "id": "zh4-l02-pronouns-fc2",
+              "front": "mir vs mer",
+              "back": "mir = wir (we) or stressed mir (me); mer = unstressed mir: Chasch mer hälfe?"
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh4-l02-pronouns-q1",
+              "stem": "What does *gömmer* mean?",
+              "options": [
+                "We go / Shall we go",
+                "You go",
+                "I'm going",
+                "They went"
+              ],
+              "correctIndex": 0,
+              "explanation": "gönd mir → gömmer."
+            },
+            {
+              "id": "zh4-l02-pronouns-q2",
+              "stem": "What's *uns* in Zurich German?",
+              "options": [
+                "ois",
+                "eus",
+                "üs",
+                "is"
+              ],
+              "correctIndex": 1,
+              "explanation": "eus = uns."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n2. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh4-l03-key-verbs",
+      "title": "The key verbs: sii, haa, gaa, cho, tue",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Five verbs you use every minute\n\nThe most common verbs are short and irregular. All plural forms share one shape, and formal *Si* uses it too."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m4/key-verbs.svg",
+          "alt": "Table of five verbs in ich, du, er, plural: sii (bi, bisch, isch, sind), haa (ha, häsch, hät, händ), gaa (gaa, gaasch, gaat, gönd), cho (chume, chunsch, chunt, chömed), tue (tue, tuesch, tuet, tüend).",
+          "caption": "Five key verbs",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.278
+        },
+        {
+          "type": "text",
+          "markdown": "## The forms\n\n- *sii* (sein): *ich bi, du bisch, er isch, mir sind*\n- *haa* (haben): *ich ha, du häsch, er hät, mir händ*\n- *gaa* (gehen): *ich gaa, du gaasch, er gaat, mir gönd*\n- *cho* (kommen): *ich chume, du chunsch, er chunt, mir chömed*\n- *tue* (tun): *ich tue, du tuesch, er tuet, mir tüend*\n\n*ha* becomes *han* before a vowel: *Ich han en Hund.*"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wo bisch?\n\n- Say it: WO BISCH\n- IPA: [ʋo b̥ɪʃ]\n- Hochdeutsch: Wo bist du?\n- English: Where are you?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mir händ kei Ziit.\n\n- Say it: mir HÄND KEI TSIIT\n- IPA: [mir hænd̥ kei̯ tsiːt]\n- Hochdeutsch: Wir haben keine Zeit.\n- English: We don't have time.\n- Note: *kei* keeps its k."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich gaa hei.\n\n- Say it: ich GAA HEI\n- IPA: [ɪx ɡ̊aː hei̯]\n- Hochdeutsch: Ich gehe nach Hause.\n- English: I'm going home.\n- Note: *hei* = home."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Chunsch au?\n\n- Say it: CHUNSCH AU\n- IPA: [xʊnʃ au̯]\n- Hochdeutsch: Kommst du auch?\n- English: Are you coming too?"
+        },
+        {
+          "type": "text",
+          "markdown": "## The verb table\n\nThe tool below has 31 core verbs in every person, plus the perfect. Use the practice mode for a few minutes a day until the five key verbs come without thinking."
+        },
+        {
+          "type": "tool",
+          "src": "tools/zh-verbs.html",
+          "title": "Verb table",
+          "description": "31 core Zurich German verbs in all persons with their perfect forms, searchable, plus a practice mode.",
+          "buttonLabel": "Open the verb table",
+          "estimatedMinutes": 5
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** drill the five key verbs until they're automatic; most sentences you'll hear contain at least one of them."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh4-l03-key-verbs-fc1",
+              "front": "sii and haa",
+              "back": "ich bi, du bisch, er isch, mir sind · ich ha, du häsch, er hät, mir händ."
+            },
+            {
+              "id": "zh4-l03-key-verbs-fc2",
+              "front": "gaa and cho",
+              "back": "ich gaa, du gaasch, er gaat, mir gönd · ich chume, du chunsch, er chunt, mir chömed."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh4-l03-key-verbs-q1",
+              "stem": "'We are' in Zurich German?",
+              "options": [
+                "mir sind",
+                "mir isch",
+                "mir bi",
+                "mir händ"
+              ],
+              "correctIndex": 0,
+              "explanation": "One plural form: sind."
+            },
+            {
+              "id": "zh4-l03-key-verbs-q2",
+              "stem": "What does *Ich gaa hei* mean?",
+              "options": [
+                "I'm going to the hay",
+                "I'm going home",
+                "I'm going to bed",
+                "I'm coming home"
+              ],
+              "correctIndex": 1,
+              "explanation": "hei = home."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh4-l04-modals",
+      "title": "Modal verbs: welle, chöne, müese, dörfe",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## Want, can, must, may\n\n- *welle* (wollen): *ich wott, du wottsch, er wott, mir wänd*\n- *chöne* (können): *ich cha, du chasch, er cha, mir chönd*\n- *müese* (müssen): *ich mues, du muesch, er mues, mir müend*\n- *dörfe* (dürfen): *ich darf, du darfsch, er darf, mir dörfed*\n\n'I'd like' is usually *ich hett gern* or *ich möcht*: *Ich hett gern en Kafi.*"
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m4/modals.svg",
+          "alt": "Four modal verbs in ich, du, er and plural: welle (wott, wottsch, wott, wänd), chöne (cha, chasch, cha, chönd), müese (mues, muesch, mues, müend), dörfe (darf, darfsch, darf, dörfed).",
+          "caption": "Four modal verbs",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.562
+        },
+        {
+          "type": "text",
+          "markdown": "## Watch out\n\n*wott* sounds nothing like High German *will*; it's the most common modal you'll hear. Modals often combine with *go*: *Ich mues go schaffe* (I have to go to work)."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich wott hei.\n\n- Say it: ich WOTT HEI\n- IPA: [ɪx ʋɔt hei̯]\n- Hochdeutsch: Ich will nach Hause.\n- English: I want to go home."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mir chönd morn cho.\n\n- Say it: mir CHÖND MORN CHO\n- IPA: [mir xœnd̥ mɔrn xo]\n- Hochdeutsch: Wir können morgen kommen.\n- English: We can come tomorrow."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich mues go schaffe.\n\n- Say it: ich MUES go SCHAF-fe\n- IPA: [ɪx muə̯s ɡ̊o ˈʃafːə]\n- Hochdeutsch: Ich muss arbeiten gehen.\n- English: I have to go to work."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich hett gern en Kafi.\n\n- Say it: ich HETT GÄRN en KA-fi\n- IPA: [ɪx het ɡ̊ærn ən ˈkxafi]\n- Hochdeutsch: Ich hätte gern einen Kaffee.\n- English: I'd like a coffee."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Darf ich?\n\n- Say it: DARF ich\n- IPA: [d̥arf ɪx]\n- Hochdeutsch: Darf ich?\n- English: May I?"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** learn wott, cha, mues and darf for 'I', and the plurals wänd, chönd, müend, dörfed. Order politely with Ich hett gern."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh4-l04-modals-fc1",
+              "front": "welle",
+              "back": "ich wott, du wottsch, er wott, mir wänd (wollen)."
+            },
+            {
+              "id": "zh4-l04-modals-fc2",
+              "front": "Ich hett gern …",
+              "back": "I'd like … (ich hätte gern): the polite way to order or ask."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh4-l04-modals-q1",
+              "stem": "'I want' in Zurich German?",
+              "options": [
+                "ich will",
+                "ich wott",
+                "ich wänd",
+                "ich well"
+              ],
+              "correctIndex": 1,
+              "explanation": "wott."
+            },
+            {
+              "id": "zh4-l04-modals-q2",
+              "stem": "'We must' in Zurich German?",
+              "options": [
+                "mir mues",
+                "mir müend",
+                "mir muesch",
+                "mir müsst"
+              ],
+              "correctIndex": 1,
+              "explanation": "Plural müend."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh4-l05-perfect",
+      "title": "One past tense: the perfect",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## No simple past\n\nZurich German has no simple past (no *war*, *hatte*, *ging*). Everything in the past uses the **perfect**: *haa* or *sii* + past participle. Even 'I was' is *ich bi gsii*, and 'I had' is *ich ha gha*."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m4/perfect-only.svg",
+          "alt": "High German simple past and perfect both map to one Zurich form: ich war and ich bin gewesen become ich bi gsii; ich hatte becomes ich ha gha; ich ging becomes ich bi gange.",
+          "caption": "One past tense",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Common participles\n\n- with *sii*: *gsii* (been), *gange* (gone), *cho* (come), *gfahre* (driven), *bliibe* (stayed)\n- with *haa*: *gha* (had), *gmacht* (made), *gseit* (said), *gsee* (seen), *ggässe* (eaten), *trunke* (drunk), *kauft* (bought)\n\n*ge-* shrinks to *g-*, and disappears before *k*, *p*, *t*-like sounds: *kauft*, *trunke*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich bi z Bärn gsii.\n\n- Say it: ich bi ts BÄRN GSII\n- IPA: [ɪx b̥i ts b̥ærn ɡ̊siː]\n- Hochdeutsch: Ich war in Bern.\n- English: I was in Bern."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mir händ guet ggässe.\n\n- Say it: mir HÄND GU-et GGÄS-se\n- IPA: [mir hænd̥ ɡ̊uə̯t ˈkæsə]\n- Hochdeutsch: Wir haben gut gegessen.\n- English: We ate well.\n- Note: *gg* at the start is a strong k."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Si isch geschter cho.\n\n- Say it: si isch GESCH-ter CHO\n- IPA: [si ɪʃ ˈɡ̊eʃtər xo]\n- Hochdeutsch: Sie ist gestern gekommen.\n- English: She came yesterday."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Häsch das gsee?\n\n- Say it: HÄSCH das GSEE\n- IPA: [hæʃ d̥as ɡ̊seː]\n- Hochdeutsch: Hast du das gesehen?\n- English: Did you see that?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich han en Fehler gmacht.\n\n- Say it: ich HAN en FEH-ler GMACHT\n- IPA: [ɪx han ən ˈfeːlər ɡ̊maxt]\n- Hochdeutsch: Ich habe einen Fehler gemacht.\n- English: I made a mistake.\n- Note: *han* before a vowel."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** put every past event in the perfect: bi gsii, ha gha, bi gange. Your High German simple past forms have no place in dialect."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh4-l05-perfect-fc1",
+              "front": "No simple past",
+              "back": "Zurich uses only the perfect: ich bi gsii (I was), ich ha gha (I had)."
+            },
+            {
+              "id": "zh4-l05-perfect-fc2",
+              "front": "Participles without ge-",
+              "back": "kauft (gekauft), trunke (getrunken), cho (gekommen), gange (gegangen)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh4-l05-perfect-q1",
+              "stem": "'I was tired' in Zurich German?",
+              "options": [
+                "Ich war müed.",
+                "Ich bi müed gsii.",
+                "Ich ha müed gha.",
+                "Ich bin müde gewesen."
+              ],
+              "correctIndex": 1,
+              "explanation": "Perfect with gsii."
+            },
+            {
+              "id": "zh4-l05-perfect-q2",
+              "stem": "What's the participle of *chaufe*?",
+              "options": [
+                "gchauft",
+                "kauft",
+                "gekauft",
+                "chauft"
+              ],
+              "correctIndex": 1,
+              "explanation": "ge- disappears before k: kauft."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh4-l06-verb-doubling",
+      "title": "Verb doubling: ich gaa go poschte",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## A small extra word\n\nAfter *gaa* (go), *cho* (come) and *laa* (let), Zurich German adds a short copy of the verb before the infinitive: **verb doubling**.\n\n- *gaa* + *go*: *Ich gaa go poschte* (I'm going shopping).\n- *cho* + *cho*: *Chunsch cho ässe?* (Are you coming to eat?)\n- *laa* + *la*: *Ich la s Velo la flicke* (I'm having the bike repaired)."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m4/verb-doubling.svg",
+          "alt": "Three patterns: gaa go poschte (going shopping), cho cho ässe (coming to eat), laa la flicke (having something repaired), each with the short copy highlighted before the infinitive.",
+          "caption": "Three doubled verbs",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.733
+        },
+        {
+          "type": "text",
+          "markdown": "## Why it matters\n\nLeaving out *go* or *cho* sounds clearly foreign. It works with any activity: *go schwümme*, *go laufe*, *go schaffe*, *cho hälfe*, *cho luege*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich gaa go poschte.\n\n- Say it: ich GAA go POSCH-te\n- IPA: [ɪx ɡ̊aː ɡ̊o ˈpɔʃtə]\n- Hochdeutsch: Ich gehe einkaufen.\n- English: I'm going shopping."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Chunsch cho ässe?\n\n- Say it: CHUNSCH cho ÄS-se\n- IPA: [xʊnʃ xo ˈæsːə]\n- Hochdeutsch: Kommst du essen?\n- English: Are you coming to eat?"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Mir gönd go schwümme.\n\n- Say it: mir GÖND go SCHWÜM-me\n- IPA: [mir ɡ̊œnd̥ ɡ̊o ˈʃʋʏmːə]\n- Hochdeutsch: Wir gehen schwimmen.\n- English: We're going swimming."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich la mis Velo la flicke.\n\n- Say it: ich LA mis VE-lo la FLI-cke\n- IPA: [ɪx la miːs ˈʋelo la ˈflɪkːə]\n- Hochdeutsch: Ich lasse mein Fahrrad reparieren.\n- English: I'm having my bike repaired.\n- Note: *flicke* = repair."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** always add go after gaa, cho after cho and la after laa before the activity: Ich gaa go poschte."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh4-l06-verb-doubling-fc1",
+              "front": "Verb doubling",
+              "back": "gaa go + verb, cho cho + verb, laa la + verb: Ich gaa go poschte."
+            },
+            {
+              "id": "zh4-l06-verb-doubling-fc2",
+              "front": "flicke",
+              "back": "To repair, mend: s Velo la flicke."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh4-l06-verb-doubling-q1",
+              "stem": "Which is natural Zurich German?",
+              "options": [
+                "Ich gaa poschte.",
+                "Ich gaa go poschte.",
+                "Ich gaa zum poschte.",
+                "Ich go gaa poschte."
+              ],
+              "correctIndex": 1,
+              "explanation": "go before the infinitive."
+            },
+            {
+              "id": "zh4-l06-verb-doubling-q2",
+              "stem": "'Are you coming to help?' is?",
+              "options": [
+                "Chunsch hälfe?",
+                "Chunsch cho hälfe?",
+                "Chunsch go hälfe?",
+                "Cho chunsch hälfe?"
+              ],
+              "correctIndex": 1,
+              "explanation": "cho + cho."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh4-l07-wo-word-order",
+      "title": "wo for every relative clause; word order",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## One relative word\n\nWhere High German uses *der*, *die*, *das*, *welche*, Zurich German uses **wo** for every relative clause: *de Maa, wo dete staat* (the man who's standing there), *s Buech, wo-n-ich gläse ha* (the book I read). Note the linking *n* before *ich*."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m4/wo-relative.svg",
+          "alt": "High German der, die, das, welche all replaced by wo: de Maa, wo dete staat; d Frau, wo mer hälft; s Buech, wo-n-ich gläse ha.",
+          "caption": "wo for every relative clause",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.733
+        },
+        {
+          "type": "text",
+          "markdown": "## Word order in subordinate clauses\n\nAs in High German, the verb goes to the end after *wil* (weil), *dass*, *wänn* (wenn/when), *öb* (ob). In the perfect, the participle usually comes **before** the auxiliary: *wil ich chrank gsii bi* (because I was ill)."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: De Maa, wo dete staat\n\n- Say it: de MAA, wo DE-te SCHTAAT\n- IPA: [d̥ə maː ʋo ˈd̥etə ʃtaːt]\n- Hochdeutsch: Der Mann, der dort steht\n- English: The man standing over there\n- Note: *dete* = dort."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: S Buech, wo-n-ich gläse ha\n\n- Say it: s BU-ech, WO-n-ich GLÄ-se ha\n- IPA: [s buə̯x ʋon ɪx ˈɡ̊læsə ha]\n- Hochdeutsch: Das Buch, das ich gelesen habe\n- English: The book I read\n- Note: Linking *n* between *wo* and *ich*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Ich chume nöd, wil ich chrank bi.\n\n- Say it: ich CHU-me NÖD, wil ich CHRANK bi\n- IPA: [ɪx ˈxʊmə nœd̥ ʋɪl ɪx xraŋk b̥i]\n- Hochdeutsch: Ich komme nicht, weil ich krank bin.\n- English: I'm not coming because I'm ill."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Wänn d Ziit häsch, lüüt aa.\n\n- Say it: WÄNN d TSIIT häsch, LÜÜT AA\n- IPA: [ʋæn d̥ tsiːt hæʃ lyːt aː]\n- Hochdeutsch: Wenn du Zeit hast, ruf an.\n- English: If you have time, give me a call.\n- Note: *aalüüte* = anrufen."
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** use wo for every relative clause, and put the verb last after wil, dass and wänn, as in High German."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh4-l07-wo-word-order-fc1",
+              "front": "Relative wo",
+              "back": "Zurich uses wo for der/die/das/welche: de Maa, wo dete staat."
+            },
+            {
+              "id": "zh4-l07-wo-word-order-fc2",
+              "front": "wil, dass, wänn",
+              "back": "weil, dass, wenn: the verb goes to the end, as in High German."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh4-l07-wo-word-order-q1",
+              "stem": "'The woman who helps me' is?",
+              "options": [
+                "D Frau, die mer hälft",
+                "D Frau, wo mer hälft",
+                "D Frau, was mer hälft",
+                "D Frau, wer mer hälft"
+              ],
+              "correctIndex": 1,
+              "explanation": "Always wo."
+            },
+            {
+              "id": "zh4-l07-wo-word-order-q2",
+              "stem": "What does *aalüüte* mean?",
+              "options": [
+                "To ring a doorbell",
+                "To phone someone",
+                "To light a candle",
+                "To lie down"
+              ],
+              "correctIndex": 1,
+              "explanation": "anrufen."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n2. **Image** — own diagram."
+        }
+      ]
+    },
+    {
+      "id": "zh4-l08-plurals-li",
+      "title": "Diminutive -li and plurals",
+      "xpReward": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "markdown": "## -li everywhere\n\nThe diminutive **-li** is used far more than High German *-chen*: for small things, cute things, and just to sound friendly: *es Hüüsli*, *es Brötli*, *es Gschänkli*. The vowel often takes an umlaut, and the plural is the same as the singular: *zwei Brötli*."
+        },
+        {
+          "type": "image",
+          "src": "assets/zh-m4/plurals-li.svg",
+          "alt": "Plural patterns: same as singular (Chind, Brötli), umlaut (Huus to Hüüser, Baum to Bäum), -e (Frau to Fraue); and the minimal pair Müüsli (little mouse) vs Müesli (cereal).",
+          "caption": "Plurals and -li",
+          "credit": "Compound (own diagram)",
+          "license": "own",
+          "zoomable": true,
+          "aspectRatio": 2.485
+        },
+        {
+          "type": "text",
+          "markdown": "## Plurals\n\nThree common patterns:\n\n- **Same form:** *es Chind / zwei Chind*, *es Brötli / drüü Brötli*\n- **Umlaut:** *Huus → Hüüser*, *Baum → Bäum*\n- **-e:** *Frau → Fraue*\n\nAnd a famous pair: *Müüsli* (little mouse, üü) vs *Müesli* (cereal, üe)."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Drüü Hüüser\n\n- Say it: DRÜÜ HÜÜ-ser\n- IPA: [d̥ryː ˈhyːsər]\n- Hochdeutsch: Drei Häuser\n- English: Three houses"
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Es Müüsli\n\n- Say it: es MÜÜS-li\n- IPA: [əs ˈmyːsli]\n- Hochdeutsch: Ein Mäuschen\n- English: A little mouse\n- Note: Long *üü*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: S Müesli\n\n- Say it: s MÜ-es-li\n- IPA: [s ˈmyə̯sli]\n- Hochdeutsch: Das Müesli\n- English: The muesli\n- Note: Gliding *üe*: a different word from *Müüsli*."
+        },
+        {
+          "type": "text",
+          "markdown": "### Phrase: Zwei Fraue\n\n- Say it: TSWEI FRAU-e\n- IPA: [tsʋei̯ ˈfrau̯ə]\n- Hochdeutsch: Zwei Frauen\n- English: Two women"
+        },
+        {
+          "type": "text",
+          "markdown": "**What this means for you:** use -li freely for small or friendly things, keep its plural unchanged, and watch the üü/üe difference in Müüsli and Müesli."
+        },
+        {
+          "type": "flashcard",
+          "title": "Key terms",
+          "cards": [
+            {
+              "id": "zh4-l08-plurals-li-fc1",
+              "front": "Plural of -li words",
+              "back": "Same as the singular: es Brötli, zwei Brötli."
+            },
+            {
+              "id": "zh4-l08-plurals-li-fc2",
+              "front": "Müüsli vs Müesli",
+              "back": "Müüsli = little mouse (long üü); Müesli = cereal (gliding üe)."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Check",
+          "questions": [
+            {
+              "id": "zh4-l08-plurals-li-q1",
+              "stem": "'Two bread rolls' is?",
+              "options": [
+                "Zwei Brötlis",
+                "Zwei Brötli",
+                "Zwei Brötlinen",
+                "Zwei Bröter"
+              ],
+              "correctIndex": 1,
+              "explanation": "-li words don't change in the plural."
+            },
+            {
+              "id": "zh4-l08-plurals-li-q2",
+              "stem": "Which is the breakfast cereal?",
+              "options": [
+                "Müüsli",
+                "Müesli",
+                "Muusli",
+                "Müsli"
+              ],
+              "correctIndex": 1,
+              "explanation": "üe, not üü."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "markdown": "## Sources\n\n1. **Grammar** — Weber A, *Zürichdeutsche Grammatik*, 3rd ed., Zürich 1987.\n2. **Dictionary** — Weber A, Bächtold JM, *Zürichdeutsches Wörterbuch*, 3rd ed., Zürich 1983.\n3. **Image** — own diagram."
+        }
+      ]
+    }
+  ]
+}
